@@ -50,16 +50,7 @@ services:
     profiles: [ "default", "content" ]
     container_name: broadsea-content
     platform: "linux/amd64"
-    build:
-      context: ./content
-      args:
-        CONTENT_TITLE: ${CONTENT_TITLE}
-        CONTENT_ARES_DISPLAY: ${CONTENT_ARES_DISPLAY}
-        CONTENT_ATLAS_DISPLAY: ${CONTENT_ATLAS_DISPLAY}
-        CONTENT_HADES_DISPLAY: ${CONTENT_HADES_DISPLAY}
-        CONTENT_PERSEUS_DISPLAY: ${CONTENT_PERSEUS_DISPLAY}
-        CONTENT_OPENSHINYSERVER_DISPLAY: ${CONTENT_OPENSHINYSERVER_DISPLAY}
-        CONTENT_POSITCONNECT_DISPLAY: ${CONTENT_POSITCONNECT_DISPLAY}
+    image: startpage_startpage
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
@@ -281,8 +272,6 @@ services:
     profiles: [ "cdm-postprocessing", "achilles" ]
     build: 
       context: ./achilles
-      secrets:
-        - GITHUB_PAT
     platform: "linux/amd64"
     container_name: broadsea-run-achilles
     secrets:
@@ -325,8 +314,6 @@ services:
     profiles: [ "cdm-postprocessing", "dqd" ]
     build: 
       context: ./dqd
-      secrets:
-        - GITHUB_PAT
     platform: "linux/amd64"
     container_name: broadsea-run-dqd
     secrets:
