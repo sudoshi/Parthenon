@@ -34,6 +34,7 @@ services:
     read_only: true
     environment:
       BROADSEA_HOST: ${BROADSEA_HOST}
+      HTTP_TYPE: ${HTTP_TYPE}
     labels:
      - "traefik.enable=true"
     ports:

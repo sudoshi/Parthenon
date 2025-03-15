@@ -8,3 +8,5 @@ services:
     restart: unless-stopped
     ports:
       - "8081:80"
+    labels:
+      - "traefik.enable=true"

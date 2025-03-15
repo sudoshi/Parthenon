@@ -2,44 +2,44 @@ http:
   routers:
 
     traefik-dashboard:
-      entryPoints: '{{ env "HTTP_TYPE" }}'
+      entryPoints: 'https'
       service: api@internal
-      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/api`, `/dashboard`)'
+      rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/api`, `/dashboard`)'
       middlewares:
         - "trusted-forwarded-headers"
 
     traefik:
-      entryPoints: '{{ env "HTTP_TYPE" }}'
+      entryPoints: 'https'
       service: "traefik"
-      rule: 'Host(`{{ env "BROADSEA_HOST" }}`)'
+      rule: 'Host(`omop.acumenus.net`)'
       middlewares:
         - "trusted-forwarded-headers"
 
     broadsea-content:
-     entryPoints: '{{ env "HTTP_TYPE" }}'
+     entryPoints: 'https'
      service: "broadsea-content"
-     rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/`)'
+     rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/`)'
      middlewares:
         - "trusted-forwarded-headers"
       
     ohdsi-atlas:
-      entryPoints: '{{ env "HTTP_TYPE" }}'
+      entryPoints: 'https'
       service: "ohdsi-atlas"
-      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/atlas`)'
+      rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/atlas`)'
       middlewares:
         - "trusted-forwarded-headers"
 
     ohdsi-webapi:
-      entryPoints: '{{ env "HTTP_TYPE" }}'
+      entryPoints: 'https'
       service: "ohdsi-webapi"
-      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/WebAPI`)'
+      rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/WebAPI`)'
       middlewares:
         - "trusted-forwarded-headers"
 
     broadsea-hades:
-      entryPoints: '{{ env "HTTP_TYPE" }}'
+      entryPoints: 'https'
       service: "broadsea-hades"
-      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/hades`)'
+      rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/hades`)'
       middlewares:
         - "trusted-forwarded-headers"
         - "broadsea-hades-root-path-header"
@@ -53,9 +53,9 @@ http:
         - "trusted-forwarded-headers"
 
     broadsea-ares:
-      entryPoints: '{{ env "HTTP_TYPE" }}'
+      entryPoints: 'https'
       service: "broadsea-ares"
-      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/ares`)'
+      rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/ares`)'
       middlewares:
         - "trusted-forwarded-headers"
 
