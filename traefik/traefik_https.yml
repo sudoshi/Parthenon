@@ -31,7 +31,13 @@ entryPoints:
         entryPoint:
           to: https
           scheme: https
+    forwardedHeaders:
+      trustedIPs:
+        - "127.0.0.1/32"  # Trust headers from localhost (Apache)
   https:
     address: ":443"
     http:
       tls: true
+    forwardedHeaders:
+      trustedIPs:
+        - "127.0.0.1/32"  # Trust headers from localhost (Apache)

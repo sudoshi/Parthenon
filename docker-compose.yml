@@ -37,13 +37,13 @@ services:
     labels:
      - "traefik.enable=true"
     ports:
-      - "80:80"
-      - "443:443"
+      - "9080:80"
+      - "9443:443"
     volumes:
       - ./traefik/traefik_${HTTP_TYPE}.yml:/etc/traefik/traefik.yml:ro
       - ./traefik/tls_${HTTP_TYPE}.yml:/etc/traefik/dynamic/tls.yml:ro
       - ./traefik/routers.yml:/etc/traefik/dynamic/routers.yml:ro
-      - ${BROADSEA_CERTS_FOLDER}:/etc/certs:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
 
   broadsea-content:
@@ -127,7 +127,7 @@ services:
     environment:
       POSTGRES_PASSWORD: mypass
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - atlasdb-postgres-data:/var/lib/postgresql/data
       - ./atlasdb/100_populate_source_source_daimon.sql:/docker-entrypoint-initdb.d/100_populate_source_source_daimon.sql:ro
@@ -251,7 +251,7 @@ services:
     container_name: broadsea-open-shiny-server
     restart: unless-stopped
     expose:
-      - "3838:3838"
+      - 3838
     volumes:
       - ${OPEN_SHINY_SERVER_APP_ROOT}:/srv/shiny-server/apps:ro
     labels:
@@ -264,7 +264,7 @@ services:
     container_name: broadsea-posit-connect
     restart: unless-stopped
     expose:
-      - "3939:3939"
+      - 3939
     privileged: true
     environment:
       RSC_LICENSE_SERVER: ${POSIT_CONNECT_LICENSE_SERVER}
@@ -415,7 +415,7 @@ services:
     container_name: perseus-files-manager
     restart: unless-stopped
     expose:
-      - "10500:10500"
+      - 10500
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:postgresql://perseus-shareddb:5432/shared
@@ -440,7 +440,7 @@ services:
     volumes:
       - ./perseus/user/config.py:/app/config.py
     expose:
-      - "5001:5001"
+      - 5001
     labels:
       - "traefik.enable=true"
     depends_on:
@@ -456,7 +456,7 @@ services:
     volumes:
       - ./perseus/backend/config.py:/app/config.py
     expose:
-      - "5004:5004"
+      - 5004
     depends_on:
       - perseus-shareddb
       - perseus-files-manager
@@ -467,7 +467,7 @@ services:
     platform: linux/amd64
     container_name: perseus-frontend
     expose:
-      - "4200:4200"
+      - 4200
     labels:
       - "traefik.enable=true"
 
@@ -485,7 +485,7 @@ services:
       - perseus-vocabularydb:/data/postgres
       - ${PERSEUS_VOCAB_FILES_PATH}:/vocabulary
     expose:
-      - "5431:5432"
+      - 5432
 
   perseus-cdm-builder:
     profiles: [ "perseus-cdm-builder", "perseus" ]
@@ -493,7 +493,7 @@ services:
     platform: linux/amd64
     container_name: perseus-cdm-builder
     expose:
-      - "9000:9000"
+      - 9000
     volumes:
       - ./perseus/cdm-builder/appsettings.Docker.json:/app/appsettings.Docker.json
     environment:
@@ -509,7 +509,7 @@ services:
     platform: linux/amd64
     container_name: perseus-solr
     expose:
-      - "8983:8983"
+      - 8983
     volumes:
       - perseus-solr:/var/solr
     depends_on:
@@ -525,7 +525,7 @@ services:
     volumes:
       - ./perseus/athena/config.py:/app/config.py
     expose:
-      - "5002:5002"
+      - 5002
     depends_on:
       - perseus-solr
 
@@ -541,7 +541,7 @@ services:
     volumes:
       - ./perseus/usagi/config.py:/app/config.py
     expose:
-      - "5003:5003"
+      - 5003
     depends_on:
       - perseus-shareddb
       - perseus-solr
@@ -552,7 +552,7 @@ services:
     platform: linux/amd64
     container_name: perseus-r-serve
     expose:
-      - "6311:6311"
+      - 6311
     depends_on:
       - perseus-shareddb
   
@@ -562,7 +562,7 @@ services:
     platform: linux/amd64
     container_name: perseus-data-quality-dashboard
     expose:
-      - "8001:8001"
+      - 8001
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:postgresql://perseus-shareddb:5432/shared
@@ -578,7 +578,7 @@ services:
     platform: linux/amd64
     container_name: perseus-swagger
     expose:
-      - 8080:8080
+      - 8080
 
   perseus-white-rabbit:
     profiles: [ "perseus-white-rabbit", "perseus" ]
@@ -587,7 +587,7 @@ services:
     container_name: perseus-white-rabbit
     restart: unless-stopped
     expose:
-      - "8000:8000"
+      - 8000
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_URL: jdbc:postgresql://perseus-shareddb:5432/shared
@@ -677,6 +677,3 @@ secrets:
     file: ${WEBAPI_CDM_SNOWFLAKE_PRIVATE_KEY_FILE}
   PGADMIN_DEFAULT_PASSWORD:
     file: ${PGADMIN_DEFAULT_PASSWORD_FILE}
-
-
-  

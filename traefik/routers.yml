@@ -6,32 +6,43 @@ http:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: api@internal
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/api`, `/dashboard`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     traefik:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "traefik"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     broadsea-content:
      entryPoints: '{{ env "HTTP_TYPE" }}'
      service: "broadsea-content"
      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/`)'
+     middlewares:
+        - "trusted-forwarded-headers"
       
     ohdsi-atlas:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "ohdsi-atlas"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/atlas`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     ohdsi-webapi:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "ohdsi-webapi"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/WebAPI`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     broadsea-hades:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-hades"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/hades`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-hades-root-path-header"
         - "broadsea-hades-path-strip"
 
@@ -39,34 +50,44 @@ http:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-solr-vocab"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/solr`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     broadsea-ares:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-ares"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/ares`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     broadsea-open-shiny-server:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-open-shiny-server"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/shiny`)'
       middlewares: 
+        - "trusted-forwarded-headers"
         - "broadsea-open-shiny-server-path-strip"
 
     broadsea-posit-connect:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-posit-connect"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/connect`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     broadsea-posit-api:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-posit-connect"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/__`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
     perseus-user:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-user"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/user`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
 
     perseus-backend:
@@ -74,6 +95,7 @@ http:
       service: "perseus-backend"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/backend`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
         - "broadsea-backend-header"
 
@@ -82,6 +104,7 @@ http:
       service: "perseus-white-rabbit"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/white-rabbit`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
 
     perseus-cdm-builder:
@@ -89,6 +112,7 @@ http:
       service: "perseus-cdm-builder"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/cdm-builder`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
 
     perseus-data-quality-dashboard:
@@ -96,6 +120,7 @@ http:
       service: "perseus-data-quality-dashboard"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/cdm-builder`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
 
     perseus-athena:
@@ -103,6 +128,7 @@ http:
       service: "perseus-athena"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/athena`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
 
 
@@ -111,6 +137,7 @@ http:
       service: "perseus-solr"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/solr`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
 
     perseus-frontend:
@@ -118,6 +145,7 @@ http:
       service: "perseus-frontend"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus`)'
       middlewares:
+        - "trusted-forwarded-headers"
         - "broadsea-perseus-strip-prefix"
 
 
@@ -125,15 +153,24 @@ http:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-jupyter-notebook"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/jupyter`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
 
     broadsea-pgadmin4:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-pgadmin4"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/pgadmin4`)'
+      middlewares:
+        - "trusted-forwarded-headers"
 
 
   middlewares:
+    
+    trusted-forwarded-headers:
+      forwardedHeaders:
+        trustedIPs:
+          - "127.0.0.1/32"  # Trust headers from localhost (Apache)
 
     broadsea-backend-header:
       headers:

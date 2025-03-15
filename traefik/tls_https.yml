@@ -3,5 +3,5 @@ tls:
   stores:
     default:
       defaultCertificate:
-        certFile: /etc/certs/broadsea.crt
-        keyFile: /etc/certs/broadsea.key
+        certFile: /etc/letsencrypt/live/omop.acumenus.net/fullchain.pem
+        keyFile: /etc/letsencrypt/live/omop.acumenus.net/privkey.pem
