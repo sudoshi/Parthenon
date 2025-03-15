@@ -4,12 +4,12 @@ CREATE SCHEMA IF NOT EXISTS :vocab_schema;
 DROP TABLE IF EXISTS :vocab_schema.CONCEPT;
 CREATE TABLE :vocab_schema.CONCEPT (
 			concept_id integer NOT NULL,
-			concept_name varchar(255) NOT NULL,
+			concept_name TEXT NOT NULL,
 			domain_id varchar(20) NOT NULL,
 			vocabulary_id varchar(20) NOT NULL,
 			concept_class_id varchar(20) NOT NULL,
 			standard_concept varchar(1) NULL,
-			concept_code varchar(50) NOT NULL,
+			concept_code varchar(255) NOT NULL,
 			valid_start_date date NOT NULL,
 			valid_end_date date NOT NULL,
 			invalid_reason varchar(1) NULL );
@@ -55,7 +55,7 @@ CREATE TABLE :vocab_schema.RELATIONSHIP (
 DROP TABLE IF EXISTS :vocab_schema.CONCEPT_SYNONYM;
 CREATE TABLE :vocab_schema.CONCEPT_SYNONYM (
 			concept_id integer NOT NULL,
-			concept_synonym_name varchar(1000) NOT NULL,
+			concept_synonym_name TEXT NOT NULL,
 			language_concept_id integer NOT NULL );
 --HINT DISTRIBUTE ON RANDOM
 DROP TABLE IF EXISTS :vocab_schema.CONCEPT_ANCESTOR;
@@ -67,7 +67,7 @@ CREATE TABLE :vocab_schema.CONCEPT_ANCESTOR (
 --HINT DISTRIBUTE ON RANDOM
 DROP TABLE IF EXISTS :vocab_schema.SOURCE_TO_CONCEPT_MAP;
 CREATE TABLE :vocab_schema.SOURCE_TO_CONCEPT_MAP (
-			source_code varchar(50) NOT NULL,
+			source_code varchar(255) NOT NULL,
 			source_concept_id integer NOT NULL,
 			source_vocabulary_id varchar(20) NOT NULL,
 			source_code_description varchar(255) NULL,

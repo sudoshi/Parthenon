@@ -1,0 +1,44 @@
+# Authentik Configuration
+# This is a minimal configuration file for Authentik
+
+postgresql:
+  host: localhost
+  port: 5432
+  user: authentik
+  password: ${AUTHENTIK_POSTGRES_PASSWORD}
+  name: authentik
+
+# SAML configuration
+saml:
+  enabled: true
+  issuer: https://${BROADSEA_HOST}/authentik/saml/metadata/
+  signing_cert: /etc/authentik/certs/saml-signing.crt
+  signing_key: /etc/authentik/certs/saml-signing.key
+
+# Email configuration
+email:
+  host: ""
+  port: 25
+  username: ""
+  password: ""
+  use_tls: false
+  use_ssl: false
+  from: "authentik@${BROADSEA_HOST}"
+
+# Redis configuration for caching
+redis:
+  host: broadsea-authentik-redis
+  port: 6379
+  db: 0
+
+# Logging configuration
+logging:
+  level: info
+  file: /var/log/authentik/authentik.log
+
+# Error reporting configuration
+error_reporting:
+  enabled: false
+  sentry_dsn: ""
+  environment: "customer"
+  send_pii: false

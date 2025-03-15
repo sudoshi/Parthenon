@@ -1,4 +1,3 @@
-
 http:
   routers:
 
@@ -164,11 +163,38 @@ http:
       middlewares:
         - "trusted-forwarded-headers"
 
+    # New services
+
+
+    broadsea-portainer:
+      entryPoints: '{{ env "HTTP_TYPE" }}'
+      service: "broadsea-portainer"
+      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/portainer`)'
+      middlewares:
+        - "trusted-forwarded-headers"
+        - "broadsea-portainer-path-strip"
+
+    broadsea-datahub:
+      entryPoints: '{{ env "HTTP_TYPE" }}'
+      service: "broadsea-datahub"
+      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/datahub`)'
+      middlewares:
+        - "trusted-forwarded-headers"
+        - "broadsea-datahub-path-strip"
+
+    broadsea-superset:
+      entryPoints: '{{ env "HTTP_TYPE" }}'
+      service: "broadsea-superset"
+      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/superset`)'
+      middlewares:
+        - "trusted-forwarded-headers"
+        - "broadsea-superset-path-strip"
+
 
   middlewares:
     
     trusted-forwarded-headers:
-      forwardedHeaders:
+      headers:
         trustedIPs:
           - "127.0.0.1/32"  # Trust headers from localhost (Apache)
 
@@ -198,6 +224,27 @@ http:
       stripPrefix:
         prefixes: 
           - "/shiny"
+        forceSlash: false
+
+    # New middlewares
+
+
+    broadsea-portainer-path-strip:
+      stripPrefix:
+        prefixes: 
+          - "/portainer"
+        forceSlash: false
+
+    broadsea-datahub-path-strip:
+      stripPrefix:
+        prefixes: 
+          - "/datahub"
+        forceSlash: false
+
+    broadsea-superset-path-strip:
+      stripPrefix:
+        prefixes: 
+          - "/superset"
         forceSlash: false
 
   services:
@@ -305,3 +352,21 @@ http:
       loadBalancer:
         servers:
           - url: http://broadsea-pgadmin4
+
+    # New services
+
+
+    broadsea-portainer:
+      loadBalancer:
+        servers:
+          - url: http://broadsea-portainer:9000
+
+    broadsea-datahub:
+      loadBalancer:
+        servers:
+          - url: http://broadsea-datahub-frontend:9002
+
+    broadsea-superset:
+      loadBalancer:
+        servers:
+          - url: http://broadsea-superset:8088

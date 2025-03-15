@@ -214,17 +214,55 @@ To adjust which app links to display on the Broadsea content page ("/"), refer t
 
 ### Vocabulary Loading
 
-#### OMOP Vocabulary in Postgres
+#### OMOP Vocabulary in Postgres with Solr Integration
 
-To load a new OMOP Vocabulary into a Postgres schema, review and fill out Section 9 of the .env file. Please note: this service will attempt to run the CPT4 import process for the CONCEPT table, so you will need a UMLS API Key from <https://uts.nlm.nih.gov/uts/profile>; store this in a file and set the path to the file as UMLS_API_KEY_FILE.
+Broadsea now includes an enhanced vocabulary loading process that handles special characters and formatting issues in the vocabulary files, and integrates with Solr for fast concept searching in Atlas.
 
-The Broadsea atlasdb Postgres instance is listed by default, but you can use an external Postgres instance. You need to copy your Athena downloaded files into ./omop_vocab/files.
+##### Option 1: Using the Automated Script (Recommended)
 
-#### Build SOLR Vocab for Atlas
+The easiest way to load the vocabulary is to use the provided script:
+
+```bash
+./scripts/load_vocabulary.sh
+```
+
+This script will:
+1. Check for a UMLS API key in `./secrets/omop_vocab/UMLS_API_KEY`
+2. Process CPT4 codes if the UMLS API key is available
+3. Clean the vocabulary files to handle special characters and formatting issues
+4. Start the Docker containers to load the vocabulary and index it in Solr
+
+##### Option 2: Manual Process
+
+If you prefer to run each step manually:
+
+1. **Process CPT4 (Optional)**:
+   ```bash
+   ./scripts/process_cpt4.sh <your_umls_api_key>
+   ```
+
+2. **Clean the Vocabulary Files**:
+   ```bash
+   python3 ./scripts/clean_vocab.py ./vocabulary ./vocabulary_processed
+   ```
+
+3. **Run the Vocabulary Loading Process**:
+   ```bash
+   docker compose --profile omop-vocab-pg-load up
+   ```
+
+##### Configuration
+
+To configure the vocabulary loading process:
+
+1. Review and fill out Section 9 of the .env file for the Postgres connection details
+2. Review and fill out Section 7 of the .env file for the Solr configuration
+3. Place your UMLS API key in `./secrets/omop_vocab/UMLS_API_KEY` if you want to process CPT4 codes
+4. Place your vocabulary files in the `./vocabulary` directory
 
 >Note: with WebAPI 2.14, you will need to use the webapi-from-git profile and set WEBAPI_MAVEN_PROFILE to webapi-docker,webapi-solr
 
-To enable the use of SOLR for fast OMOP Vocab search in Atlas, review and fill out Section 7 of the .env file. You can either point to an existing SOLR instance, or have Broadsea build one. The JDBC jar file is needed in the Broadsea root folder in order for Solr to perform the dataimport step.
+For more detailed information, see the [vocabulary/README.md](vocabulary/README.md) file.
 
 ### OHDSI Web Applications
 
