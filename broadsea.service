@@ -1,0 +1,15 @@
+[Unit]
+Description=Broadsea Docker Compose Service
+After=docker.service network.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/home/acumenus/Docker/Broadsea
+ExecStart=/home/acumenus/Docker/Broadsea/broadsea-startup.sh
+User=acumenus
+Group=acumenus
+
+[Install]
+WantedBy=multi-user.target

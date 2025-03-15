@@ -195,8 +195,10 @@ http:
     
     trusted-forwarded-headers:
       headers:
-        trustedIPs:
-          - "127.0.0.1/32"  # Trust headers from localhost (Apache)
+        hostsProxyHeaders:
+          - "X-Forwarded-Host"
+        customRequestHeaders:
+          X-Forwarded-Proto: "https"
 
     broadsea-backend-header:
       headers:
