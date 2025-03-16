@@ -1,12 +1,37 @@
-version: '3.9'
+version: '3.8'
 
 services:
   startpage:
     build:
       context: .
+      dockerfile: Dockerfile
+    image: startpage:latest
     container_name: broadsea-content
     restart: unless-stopped
     ports:
       - "8081:80"
-    labels:
-      - "traefik.enable=true"
+      - "3009:3009"
+    environment:
+      - DB_USER=postgres
+      - DB_PASSWORD=acumenus
+      - DB_NAME=ohdsi
+      - DB_HOST=host.docker.internal
+      - DB_PORT=5432
+      - JWT_SECRET=broadsea-content-secret-key
+      - NODE_ENV=production
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - default
+      - traefik-network
+      - postgres-network
+    # Traefik labels removed to avoid duplicate router definitions
+    # These are now managed in the main docker-compose.yml
+
+networks:
+  traefik-network:
+    external: true
+    name: broadsea_default
+  postgres-network:
+    external: true
+    name: broadsea_default

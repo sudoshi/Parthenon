@@ -51,10 +51,24 @@ services:
     profiles: [ "default", "content" ]
     container_name: broadsea-content
     platform: "linux/amd64"
-    image: startpage_startpage
+    build:
+      context: ./startpage
+      dockerfile: Dockerfile
+    image: startpage:latest
     restart: unless-stopped
-    labels:
-      - "traefik.enable=true"
+    environment:
+      - POSTGRES_HOST=host.docker.internal
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=acumenus
+      - POSTGRES_DB=ohdsi
+      - PORT=3009
+    ports:
+      - "3009:3009"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    # Traefik labels removed to avoid conflicts with routers.yml
+    # These are now managed in traefik/routers.yml
 
   broadsea-hades:
     profiles: [ "default", "hades" ]

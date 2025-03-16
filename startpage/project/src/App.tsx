@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import { Settings, Grid, Shield, Database, BarChart as ChartBar, Server, Plus, X, Edit2, Save, Image, 
   Clock, Search, Activity, FileSearch, Wind, LayoutDashboard, Github, Home, MessageSquare, Check, 
-  ExternalLink, Calendar, Star, Users, Package } from 'lucide-react';
+  ExternalLink, Calendar, Star, Users, Package, LogIn, LogOut } from 'lucide-react';
+import { AuthProvider, useAuth } from './AuthContext';
+import { appLinksApi } from './services/api';
+import LoginPage from './LoginPage';
+import AdminPage from './AdminPage';
 
 interface AppLink {
   id: string;
@@ -30,8 +35,24 @@ interface AppLink {
   lastUpdated?: string;
 }
 
-function App() {
-  const [isAdmin, setIsAdmin] = useState(false);
+// RequireAuth component to protect routes
+const RequireAuth: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const { isAuthenticated } = useAuth();
+  const location = useLocation();
+
+  if (!isAuthenticated) {
+    // Redirect to the login page if not authenticated
+    return <Navigate to="/login" state={{ from: location }} replace />;
+  }
+
+  return <>{children}</>;
+};
+
+// HomePage component that renders the main content
+const HomePage: React.FC = () => {
+  const { isAuthenticated, isAdmin, logout } = useAuth();
+  const navigate = useNavigate();
+  
   const [isEditing, setIsEditing] = useState(false);
   const [selectedApp, setSelectedApp] = useState<AppLink | null>(null);
   
@@ -42,6 +63,7 @@ function App() {
   const closeModal = () => {
     setSelectedApp(null);
   };
+  
   const [newLink, setNewLink] = useState<AppLink>({
     id: '',
     name: '',
@@ -52,328 +74,109 @@ function App() {
     logoUrl: ''
   });
 
-  const [links, setLinks] = useState<AppLink[]>([
-    {
-      id: '1',
-      name: 'ATLAS',
-      url: 'https://omop.acumenus.net/atlas',
-      icon: 'grid',
-      description: 'Clinical data analytics platform',
-      detailedDescription: 'ATLAS is an open source software tool developed by the OHDSI community to conduct scientific analyses on standardized observational data. It provides a unified interface for designing and executing observational analyses, including cohort definitions, characterizations, population-level effect estimation, and patient-level prediction.',
-      githubUrl: 'https://github.com/OHDSI/Atlas',
-      productHomepage: 'https://www.ohdsi.org/atlas/',
-      documentation: 'https://ohdsi.github.io/Atlas/',
-      features: [
-        'Cohort definition and generation',
-        'Characterization of cohort populations',
-        'Population-level estimation of causal effects',
-        'Patient-level prediction of outcomes',
-        'Incidence rate analysis',
-        'Visualization of data quality results'
-      ],
-      version: '2.12.0',
-      lastUpdated: 'March 2025',
-      relatedApps: ['3', '10'],
-      usageMetrics: {
-        users: 5000,
-        deployments: 120,
-        stars: 450
+  // Load application links from API
+  const [links, setLinks] = useState<AppLink[]>([]);
+  
+  // Fetch application links from API on component mount
+  useEffect(() => {
+    const fetchLinks = async () => {
+      try {
+        const linksData = await appLinksApi.getLinks();
+        if (linksData && linksData.length > 0) {
+          setLinks(linksData);
+        } else {
+          // Use default links if API returns empty
+          setLinks([
+            {
+              id: '1',
+              name: 'ATLAS',
+              url: '../atlas',
+              icon: 'grid',
+              description: 'ATLAS is an open source software tool for researchers to conduct scientific analyses on standardized observational data converted to the OMOP Common Data Model V5.',
+              detailedDescription: 'ATLAS is an open source software tool developed by the OHDSI community to conduct scientific analyses on standardized observational data. It provides a unified interface for designing and executing observational analyses, including cohort definitions, characterizations, population-level effect estimation, and patient-level prediction.',
+              githubUrl: 'https://github.com/OHDSI/Atlas',
+              productHomepage: 'https://www.ohdsi.org/atlas/',
+              documentation: 'https://ohdsi.github.io/Atlas/',
+              features: [
+                'Cohort definition and generation',
+                'Characterization of cohort populations',
+                'Population-level estimation of causal effects',
+                'Patient-level prediction of outcomes',
+                'Incidence rate analysis',
+                'Visualization of data quality results'
+              ],
+              version: '2.12.0',
+              lastUpdated: 'March 2025',
+              relatedApps: ['3', '10'],
+              usageMetrics: {
+                users: 5000,
+                deployments: 120,
+                stars: 450
+              }
+            },
+            {
+              id: '2',
+              name: 'ARES',
+              url: '../ares',
+              icon: 'database',
+              description: 'ARES is a web-based reporting tool designed to offer integrated characterization and data quality assessment for observational health data.',
+              detailedDescription: 'ARES is a web-based reporting tool designed to offer integrated characterization and data quality assessment for observational health data sources adhering to the OMOP Common Data Model. It provides access to analyses for a network of observational health data sources, as well as detailed data source and historical analyses, enabling informed decision-making based on reliable data.',
+              githubUrl: 'https://github.com/OHDSI/Ares',
+              productHomepage: 'https://www.ohdsi.org/ares/',
+              documentation: 'https://ohdsi.github.io/Ares/',
+              features: [
+                'Automated data quality checks',
+                'Customizable quality thresholds',
+                'Comprehensive reporting',
+                'Integration with ATLAS',
+                'Historical trend analysis',
+                'Data quality dashboards'
+              ],
+              version: '1.5.0',
+              lastUpdated: 'February 2025',
+              relatedApps: ['1', '10'],
+              usageMetrics: {
+                users: 3200,
+                deployments: 95,
+                stars: 320
+              }
+            },
+            {
+              id: '3',
+              name: 'HADES',
+              url: '../hades',
+              icon: 'chart-bar',
+              description: 'HADES is a set of open source R packages for large scale analytics.',
+              detailedDescription: 'HADES (formally known as the OHDSI Methods Library) is a set of open source R packages for large scale analytics, including population characterization, population-level causal effect estimation, and patient-level prediction. The packages offer R functions that together can be used to perform an observation study from data to estimates and supporting statistics, figures, and tables.',
+              githubUrl: 'https://github.com/OHDSI/Hades',
+              productHomepage: 'https://ohdsi.github.io/Hades/',
+              documentation: 'https://ohdsi.github.io/Hades/packages.html',
+              features: [
+                'Cohort generation and characterization',
+                'Population-level effect estimation',
+                'Patient-level prediction',
+                'Data quality assessment',
+                'Visualization tools',
+                'Reproducible research workflows'
+              ],
+              version: '3.0.0',
+              lastUpdated: 'January 2025',
+              relatedApps: ['1', '2'],
+              usageMetrics: {
+                users: 4500,
+                deployments: 110,
+                stars: 380
+              }
+            }
+          ]);
+        }
+      } catch (err) {
+        console.error('Failed to fetch application links:', err);
       }
-    },
-    {
-      id: '2',
-      name: 'ARES',
-      url: 'https://omop.acumenus.net/ares',
-      icon: 'database',
-      description: 'Data quality assessment tool',
-      detailedDescription: 'ARES (Automated Repository Evaluation System) is a tool for assessing the quality of data in OMOP CDM repositories. It provides a comprehensive framework for evaluating data quality across various dimensions, including conformance, completeness, and plausibility.',
-      githubUrl: 'https://github.com/OHDSI/Ares',
-      productHomepage: 'https://www.ohdsi.org/ares/',
-      documentation: 'https://ohdsi.github.io/Ares/',
-      features: [
-        'Automated data quality checks',
-        'Customizable quality thresholds',
-        'Comprehensive reporting',
-        'Integration with ATLAS',
-        'Historical trend analysis',
-        'Data quality dashboards'
-      ],
-      version: '1.5.0',
-      lastUpdated: 'February 2025',
-      relatedApps: ['1', '10'],
-      usageMetrics: {
-        users: 3200,
-        deployments: 95,
-        stars: 320
-      }
-    },
-    {
-      id: '3',
-      name: 'HADES',
-      url: 'https://omop.acumenus.net/hades',
-      icon: 'chart-bar',
-      description: 'Health Analytics Data-to-Evidence Suite',
-      detailedDescription: 'HADES (Health Analytics Data-to-Evidence Suite) is a collection of R packages for large scale analytics on observational healthcare data. It provides a comprehensive framework for conducting observational research, from data quality assessment to evidence generation.',
-      githubUrl: 'https://github.com/OHDSI/Hades',
-      productHomepage: 'https://ohdsi.github.io/Hades/',
-      documentation: 'https://ohdsi.github.io/Hades/packages.html',
-      features: [
-        'Cohort generation and characterization',
-        'Population-level effect estimation',
-        'Patient-level prediction',
-        'Data quality assessment',
-        'Visualization tools',
-        'Reproducible research workflows'
-      ],
-      version: '3.0.0',
-      lastUpdated: 'January 2025',
-      relatedApps: ['1', '2'],
-      usageMetrics: {
-        users: 4500,
-        deployments: 110,
-        stars: 380
-      }
-    },
-    {
-      id: '4',
-      name: 'Authentik',
-      url: 'https://omop.acumenus.net/authentik',
-      icon: 'shield',
-      description: 'Identity provider',
-      detailedDescription: 'Authentik is an open-source Identity Provider focused on flexibility and versatility. It provides a comprehensive solution for managing user identities, authentication, and authorization across multiple applications and services.',
-      githubUrl: 'https://github.com/goauthentik/authentik',
-      productHomepage: 'https://goauthentik.io/',
-      documentation: 'https://goauthentik.io/docs/',
-      features: [
-        'Single Sign-On (SSO)',
-        'Multi-factor authentication',
-        'User management',
-        'Role-based access control',
-        'OAuth2 and SAML support',
-        'Customizable authentication flows'
-      ],
-      version: '2023.10.5',
-      lastUpdated: 'March 2025',
-      usageMetrics: {
-        users: 8000,
-        deployments: 2500,
-        stars: 4800
-      }
-    },
-    {
-      id: '5',
-      name: 'Portainer',
-      url: 'https://omop.acumenus.net/portainer',
-      icon: 'server',
-      description: 'Container management',
-      detailedDescription: 'Portainer is a powerful container management platform that simplifies the deployment and management of Docker, Kubernetes, and other container technologies. It provides an intuitive web interface for managing containers, images, networks, and volumes.',
-      githubUrl: 'https://github.com/portainer/portainer',
-      productHomepage: 'https://www.portainer.io/',
-      documentation: 'https://docs.portainer.io/',
-      features: [
-        'Docker container management',
-        'Kubernetes cluster management',
-        'Image and registry management',
-        'Network and volume management',
-        'Role-based access control',
-        'Container templates and stacks'
-      ],
-      version: '2.19.1',
-      lastUpdated: 'February 2025',
-      usageMetrics: {
-        users: 15000,
-        deployments: 5000,
-        stars: 25000
-      }
-    },
-    {
-      id: '6',
-      name: 'Datahub',
-      url: 'https://omop.acumenus.net/datahub',
-      icon: 'database',
-      description: 'Data catalog and metadata platform',
-      detailedDescription: 'Datahub is an open-source metadata platform for the modern data stack. It enables data discovery, data observability, and federated governance to help tame the complexity of your data ecosystem.',
-      githubUrl: 'https://github.com/datahub-project/datahub',
-      productHomepage: 'https://datahubproject.io/',
-      documentation: 'https://datahubproject.io/docs/',
-      features: [
-        'Data discovery and search',
-        'Data lineage tracking',
-        'Data quality monitoring',
-        'Schema evolution tracking',
-        'Data governance',
-        'Integration with popular data tools'
-      ],
-      version: '0.12.0',
-      lastUpdated: 'March 2025',
-      relatedApps: ['7', '8'],
-      usageMetrics: {
-        users: 7500,
-        deployments: 1800,
-        stars: 8200
-      }
-    },
-    {
-      id: '7',
-      name: 'Superset',
-      url: 'https://omop.acumenus.net/superset',
-      icon: 'chart-bar',
-      description: 'Modern data exploration and visualization',
-      detailedDescription: 'Apache Superset is a modern, enterprise-ready business intelligence web application. It offers a rich set of data visualizations, an intuitive interface for exploring and visualizing data, and a comprehensive security model.',
-      githubUrl: 'https://github.com/apache/superset',
-      productHomepage: 'https://superset.apache.org/',
-      documentation: 'https://superset.apache.org/docs/intro',
-      features: [
-        'Interactive data exploration',
-        'Rich visualization library',
-        'SQL Lab for direct database querying',
-        'Dashboard creation and sharing',
-        'Role-based access control',
-        'Integration with major databases'
-      ],
-      version: '2.1.0',
-      lastUpdated: 'January 2025',
-      relatedApps: ['6', '8'],
-      usageMetrics: {
-        users: 12000,
-        deployments: 3500,
-        stars: 52000
-      }
-    },
-    {
-      id: '8',
-      name: 'Solr',
-      url: 'https://omop.acumenus.net/solr',
-      icon: 'search',
-      description: 'Search platform for healthcare data',
-      detailedDescription: 'Apache Solr is an open-source search platform built on Apache Lucene. It provides distributed indexing, replication, load-balanced querying, and automated failover and recovery. In healthcare, it enables powerful search capabilities across clinical data.',
-      githubUrl: 'https://github.com/apache/solr',
-      productHomepage: 'https://solr.apache.org/',
-      documentation: 'https://solr.apache.org/guide/',
-      features: [
-        'Full-text search',
-        'Faceted search',
-        'Real-time indexing',
-        'Dynamic clustering',
-        'Rich document handling',
-        'Geospatial search'
-      ],
-      version: '9.3.0',
-      lastUpdated: 'February 2025',
-      relatedApps: ['6', '7'],
-      usageMetrics: {
-        users: 9000,
-        deployments: 2800,
-        stars: 4900
-      }
-    },
-    {
-      id: '9',
-      name: 'Orthanc',
-      url: 'https://omop.acumenus.net/orthanc',
-      icon: 'activity',
-      description: 'DICOM server for medical imaging',
-      detailedDescription: 'Orthanc is a lightweight, RESTful DICOM server for medical imaging. It is designed to improve the DICOM flows in hospitals and to support research about the automated analysis of medical images.',
-      githubUrl: 'https://github.com/jodogne/Orthanc',
-      productHomepage: 'https://www.orthanc-server.com/',
-      documentation: 'https://book.orthanc-server.com/',
-      features: [
-        'DICOM storage and retrieval',
-        'Web-based viewer',
-        'REST API for integration',
-        'DICOM modality worklist',
-        'Anonymization and pseudonymization',
-        'Plugin architecture'
-      ],
-      version: '1.12.1',
-      lastUpdated: 'December 2024',
-      usageMetrics: {
-        users: 6500,
-        deployments: 1500,
-        stars: 2200
-      }
-    },
-    {
-      id: '10',
-      name: 'Perseus',
-      url: 'https://omop.acumenus.net/perseus',
-      icon: 'file-search',
-      description: 'ETL validation and verification',
-      detailedDescription: 'Perseus is a comprehensive ETL (Extract, Transform, Load) tool for converting healthcare data to the OMOP Common Data Model. It provides validation, verification, and quality assessment capabilities to ensure data integrity and compliance.',
-      githubUrl: 'https://github.com/OHDSI/Perseus',
-      productHomepage: 'https://www.ohdsi.org/perseus/',
-      documentation: 'https://ohdsi.github.io/Perseus/',
-      features: [
-        'Data mapping and transformation',
-        'ETL validation and verification',
-        'Data quality assessment',
-        'Vocabulary mapping',
-        'Incremental data loading',
-        'Audit trail and logging'
-      ],
-      version: '2.0.0',
-      lastUpdated: 'March 2025',
-      relatedApps: ['1', '2'],
-      usageMetrics: {
-        users: 3800,
-        deployments: 950,
-        stars: 280
-      }
-    },
-    {
-      id: '11',
-      name: 'Airflow',
-      url: 'https://omop.acumenus.net/airflow',
-      icon: 'wind',
-      description: 'Workflow automation platform',
-      detailedDescription: 'Apache Airflow is a platform to programmatically author, schedule, and monitor workflows. It allows you to define complex directed acyclic graphs (DAGs) of tasks and their dependencies, and execute them on a schedule or trigger them manually.',
-      githubUrl: 'https://github.com/apache/airflow',
-      productHomepage: 'https://airflow.apache.org/',
-      documentation: 'https://airflow.apache.org/docs/',
-      features: [
-        'Workflow authoring and scheduling',
-        'Task dependency management',
-        'Monitoring and alerting',
-        'Extensible architecture',
-        'Integration with cloud services',
-        'Web-based UI for management'
-      ],
-      version: '2.7.1',
-      lastUpdated: 'January 2025',
-      usageMetrics: {
-        users: 18000,
-        deployments: 6000,
-        stars: 30000
-      }
-    },
-    {
-      id: '12',
-      name: 'Shiny Server',
-      url: 'https://omop.acumenus.net/shiny',
-      icon: 'layout-dashboard',
-      description: 'Interactive R statistical applications',
-      detailedDescription: 'Shiny Server is a server program that makes Shiny applications available over the web. It provides a framework for hosting interactive R applications that can be accessed through a web browser, enabling data scientists to share their analyses and visualizations.',
-      githubUrl: 'https://github.com/rstudio/shiny-server',
-      productHomepage: 'https://shiny.posit.co/server/',
-      documentation: 'https://docs.posit.co/shiny-server/',
-      features: [
-        'Hosting of Shiny applications',
-        'User authentication and authorization',
-        'Load balancing and scaling',
-        'Application monitoring',
-        'Integration with RStudio',
-        'Support for R Markdown documents'
-      ],
-      version: '1.5.20',
-      lastUpdated: 'February 2025',
-      relatedApps: ['3', '7'],
-      usageMetrics: {
-        users: 8500,
-        deployments: 2200,
-        stars: 4100
-      }
-    }
-  ]);
+    };
+    
+    fetchLinks();
+  }, []);
 
   const getIcon = (iconName: string) => {
     const icons = {
@@ -401,18 +204,38 @@ function App() {
     return icons[iconName as keyof typeof icons] || <Grid />;
   };
 
-  const handleAddLink = () => {
+  const handleAddLink = async () => {
     if (newLink.name && newLink.url) {
-      setLinks([...links, { ...newLink, id: Date.now().toString() }]);
-      setNewLink({ id: '', name: '', url: '', learnMoreUrl: '', icon: 'grid', description: '', logoUrl: '' });
-      setIsEditing(false);
+      try {
+        // Call API to create new link
+        const createdLink = await appLinksApi.createLink(newLink);
+        setLinks([...links, createdLink]);
+        setNewLink({
+          id: '',
+          name: '',
+          url: '',
+          learnMoreUrl: '',
+          icon: 'grid',
+          description: '',
+          logoUrl: ''
+        });
+        setIsEditing(false);
+      } catch (err) {
+        console.error('Failed to create application link:', err);
+      }
     }
   };
 
-  const handleDeleteLink = (id: string) => {
-    setLinks(links.filter(link => link.id !== id));
+  const handleDeleteLink = async (id: string) => {
+    try {
+      // Call API to delete link
+      await appLinksApi.deleteLink(id);
+      setLinks(links.filter(link => link.id !== id));
+    } catch (err) {
+      console.error(`Failed to delete application link ${id}:`, err);
+    }
   };
-
+  
   return (
     <div className="min-h-screen bg-gray-900 bg-mesh text-white relative overflow-hidden">
       <div className="container mx-auto px-4 py-8 pb-24 relative z-10">
@@ -420,12 +243,43 @@ function App() {
           <div className="h-16">
             <img src="/assets/Acumenus-Logo-Rounded.png" alt="Acumenus Logo" className="h-full object-contain" />
           </div>
-          <button
-            onClick={() => setIsAdmin(!isAdmin)}
-            className="px-4 py-2 rounded-lg glass-card hover:bg-opacity-20 hover:bg-white transition-all duration-300"
-          >
-            {isAdmin ? 'Exit Admin' : 'Admin Mode'}
-          </button>
+          <div className="flex items-center space-x-4">
+            {isAuthenticated ? (
+              <>
+                {isAdmin && (
+                  <button
+                    onClick={() => navigate('/admin')}
+                    className="px-4 py-2 rounded-lg glass-card hover:bg-opacity-20 hover:bg-white transition-all duration-300 flex items-center"
+                  >
+                    <Users size={18} className="mr-2" />
+                    Admin
+                  </button>
+                )}
+                <button
+                  onClick={() => setIsEditing(true)}
+                  className="px-4 py-2 rounded-lg glass-card hover:bg-opacity-20 hover:bg-white transition-all duration-300 flex items-center"
+                >
+                  <Plus size={18} className="mr-2" />
+                  Add Application
+                </button>
+                <button
+                  onClick={() => logout()}
+                  className="px-4 py-2 rounded-lg glass-card hover:bg-opacity-20 hover:bg-white transition-all duration-300 flex items-center"
+                >
+                  <LogOut size={18} className="mr-2" />
+                  Logout
+                </button>
+              </>
+            ) : (
+              <button
+                onClick={() => navigate('/login')}
+                className="px-4 py-2 rounded-lg glass-card hover:bg-opacity-20 hover:bg-white transition-all duration-300 flex items-center"
+              >
+                <LogIn size={18} className="mr-2" />
+                Login
+              </button>
+            )}
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -460,7 +314,7 @@ function App() {
                     <p className="text-gray-300 text-sm">{link.description}</p>
                   </div>
                 </div>
-                {isAdmin && (
+                {isAuthenticated && isAdmin && (
                   <button
                     onClick={() => handleDeleteLink(link.id)}
                     className="text-gray-400 hover:text-red-400 transition-colors"
@@ -487,21 +341,9 @@ function App() {
               </div>
             </div>
           ))}
-
-          {isAdmin && !isEditing && (
-            <button
-              onClick={() => setIsEditing(true)}
-              className="glass-card flex items-center justify-center h-full min-h-[200px] rounded-xl hover:bg-opacity-20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 hover:translate-x-1"
-            >
-              <div className="flex flex-col items-center text-gray-300">
-                <Plus size={40} />
-                <span className="mt-2">Add New Application</span>
-              </div>
-            </button>
-          )}
         </div>
 
-        {isAdmin && isEditing && (
+        {isEditing && (
           <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex items-center justify-center p-4 z-50">
             <div className="glass-modal rounded-xl p-6 w-full max-w-md">
               <h3 className="text-xl font-semibold mb-4">Add New Application</h3>
@@ -518,20 +360,6 @@ function App() {
                   placeholder="URL"
                   value={newLink.url}
                   onChange={(e) => setNewLink({ ...newLink, url: e.target.value })}
-                  className="w-full px-4 py-2 rounded-lg bg-white bg-opacity-10 focus:bg-opacity-20 transition-all duration-300"
-                />
-                <input
-                  type="text"
-                  placeholder="Learn More URL (optional)"
-                  value={newLink.learnMoreUrl}
-                  onChange={(e) => setNewLink({ ...newLink, learnMoreUrl: e.target.value })}
-                  className="w-full px-4 py-2 rounded-lg bg-white bg-opacity-10 focus:bg-opacity-20 transition-all duration-300"
-                />
-                <input
-                  type="text"
-                  placeholder="Logo URL (optional)"
-                  value={newLink.logoUrl}
-                  onChange={(e) => setNewLink({ ...newLink, logoUrl: e.target.value })}
                   className="w-full px-4 py-2 rounded-lg bg-white bg-opacity-10 focus:bg-opacity-20 transition-all duration-300"
                 />
                 <input
@@ -833,6 +661,35 @@ function App() {
       )}
     </div>
   );
-}
+};
+
+// Main App component that wraps everything with Router and AuthProvider
+const App: React.FC = () => {
+  return (
+    <Router>
+      <AuthProvider>
+        <Routes>
+          <Route path="/login" element={<LoginPage />} />
+          <Route 
+            path="/admin" 
+            element={
+              <RequireAuth>
+                <AdminPage />
+              </RequireAuth>
+            } 
+          />
+          <Route 
+            path="/" 
+            element={
+              <RequireAuth>
+                <HomePage />
+              </RequireAuth>
+            } 
+          />
+        </Routes>
+      </AuthProvider>
+    </Router>
+  );
+};
 
 export default App;

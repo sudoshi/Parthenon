@@ -1,19 +1,18 @@
 http:
   routers:
-
     traefik-dashboard:
       entryPoints: 'https'
       service: api@internal
-      rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/api`, `/dashboard`)'
+      rule: 'Host(`omop.acumenus.net`) && (PathPrefix(`/dashboard`) || PathPrefix(`/api`))'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     traefik:
       entryPoints: 'https'
       service: "traefik"
       rule: 'Host(`omop.acumenus.net`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     broadsea-content:
      entryPoints: 'https'
@@ -27,172 +26,174 @@ http:
       service: "ohdsi-atlas"
       rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/atlas`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     ohdsi-webapi:
       entryPoints: 'https'
       service: "ohdsi-webapi"
       rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/WebAPI`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     broadsea-hades:
       entryPoints: 'https'
       service: "broadsea-hades"
       rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/hades`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-hades-root-path-header"
-        - "broadsea-hades-path-strip"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-hades-root-path-header@file"
+        - "broadsea-hades-path-strip@file"
 
     broadsea-solr-vocab:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-solr-vocab"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/solr`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     broadsea-ares:
       entryPoints: 'https'
       service: "broadsea-ares"
       rule: 'Host(`omop.acumenus.net`) && PathPrefix(`/ares`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     broadsea-open-shiny-server:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-open-shiny-server"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/shiny`)'
       middlewares: 
-        - "trusted-forwarded-headers"
-        - "broadsea-open-shiny-server-path-strip"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-open-shiny-server-path-strip@file"
 
     broadsea-posit-connect:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-posit-connect"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/connect`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     broadsea-posit-api:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-posit-connect"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/__`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     perseus-user:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-user"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/user`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
 
     perseus-backend:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-backend"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/backend`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
-        - "broadsea-backend-header"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
+        - "broadsea-backend-header@file"
 
     perseus-white-rabbit:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-white-rabbit"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/white-rabbit`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
 
     perseus-cdm-builder:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-cdm-builder"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/cdm-builder`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
 
     perseus-data-quality-dashboard:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-data-quality-dashboard"
-      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/cdm-builder`)'
+      rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/data-quality-dashboard`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
 
     perseus-athena:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-athena"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/athena`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
-
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
 
     perseus-solr:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-solr"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus/solr`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
 
     perseus-frontend:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "perseus-frontend"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/perseus`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-perseus-strip-prefix"
-
+        - "trusted-forwarded-headers@file"
+        - "broadsea-perseus-strip-prefix@file"
 
     broadsea-jupyter-notebook:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-jupyter-notebook"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/jupyter`)'
       middlewares:
-        - "trusted-forwarded-headers"
-
+        - "trusted-forwarded-headers@file"
 
     broadsea-pgadmin4:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-pgadmin4"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/pgadmin4`)'
       middlewares:
-        - "trusted-forwarded-headers"
+        - "trusted-forwarded-headers@file"
 
     # New services
-
-
     broadsea-portainer:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-portainer"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/portainer`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-portainer-path-strip"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-portainer-path-strip@file"
 
     broadsea-datahub:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-datahub"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/datahub`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-datahub-path-strip"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-datahub-path-strip@file"
 
     broadsea-superset:
       entryPoints: '{{ env "HTTP_TYPE" }}'
       service: "broadsea-superset"
       rule: 'Host(`{{ env "BROADSEA_HOST" }}`) && PathPrefix(`/superset`)'
       middlewares:
-        - "trusted-forwarded-headers"
-        - "broadsea-superset-path-strip"
+        - "trusted-forwarded-headers@file"
+        - "broadsea-superset-path-strip@file"
 
+    # Add a specific router for the broadsea-content API
+    broadsea-content-api:
+      entryPoints: 'https'
+      service: "broadsea-content-api"
+      rule: 'Host(`omop.acumenus.net`) && (PathPrefix(`/api/auth`) || PathPrefix(`/api/users`) || PathPrefix(`/api/links`))'
+      priority: 100
+      middlewares:
+        - "trusted-forwarded-headers"
 
   middlewares:
-    
     trusted-forwarded-headers:
       headers:
         hostsProxyHeaders:
@@ -229,8 +230,6 @@ http:
         forceSlash: false
 
     # New middlewares
-
-
     broadsea-portainer-path-strip:
       stripPrefix:
         prefixes: 
@@ -259,6 +258,11 @@ http:
       loadBalancer:
         servers:
           - url: http://broadsea-content
+
+    broadsea-content-api:
+      loadBalancer:
+        servers:
+          - url: http://broadsea-content:3009
 
     ohdsi-atlas:
       loadBalancer:
@@ -356,8 +360,6 @@ http:
           - url: http://broadsea-pgadmin4
 
     # New services
-
-
     broadsea-portainer:
       loadBalancer:
         servers:
