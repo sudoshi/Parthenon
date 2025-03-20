@@ -422,6 +422,15 @@ const HomePage: React.FC = () => {
               <span>OHDSI Home</span>
             </a>
             <a 
+              href="https://forums.ohdsi.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center text-gray-300 hover:text-white transition-colors"
+            >
+              <MessageSquare size={20} className="mr-2" />
+              <span>Forums</span>
+            </a>
+            <a 
               href="https://discord.gg/ohdsi" 
               target="_blank" 
               rel="noopener noreferrer"
