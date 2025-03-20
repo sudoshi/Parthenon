@@ -8,3 +8,6 @@ atlas/add_cdm
 .Rproj.user
 strategus/
 vocabulary/
+vocabulary_2025.zip
+*.zip
+*.csv
