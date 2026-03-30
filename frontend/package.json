@@ -51,7 +51,7 @@
     "react-joyride": "^3.0.0",
     "react-map-gl": "^8.1.0",
     "react-markdown": "^10.1.0",
-    "react-router-dom": "^6.30.3",
+    "react-router-dom": "^7.13.2",
     "recharts": "^3.8.0",
     "rehype-sanitize": "^6.0.0",
     "remark-gfm": "^4.0.1",
