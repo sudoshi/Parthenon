@@ -155,3 +155,11 @@ scripts/**/__pycache__/
 .coverage
 .pgpass
 .claude/worktrees/
+
+# Local Wazuh certs
+acropolis/config/wazuh/certs/
+
+# Local packaging artifacts
+build/
+dist/
+.codex

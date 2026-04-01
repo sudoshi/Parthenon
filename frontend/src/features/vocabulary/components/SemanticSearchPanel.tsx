@@ -281,9 +281,8 @@ export function SemanticSearchPanel({
   // ---------------------------------------------------------------------------
 
   // Autocomplete disabled — Hecate binary does not expose /api/autocomplete
-  // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
-  const suggestions = undefined as HecateAutocompleteResult[] | undefined;
   void debouncedAutocompleteQuery;
+  const suggestionItems: HecateAutocompleteResult[] = [];
 
   // ---------------------------------------------------------------------------
   // Semantic search query
@@ -317,7 +316,7 @@ export function SemanticSearchPanel({
 
   useEffect(() => {
     setSelectedSuggestionIdx(-1);
-  }, [suggestions]);
+  }, [debouncedAutocompleteQuery]);
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -341,22 +340,27 @@ export function SemanticSearchPanel({
   }, []);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    const hasSuggestions = showSuggestions && suggestions && suggestions.length > 0;
+    const hasSuggestions = showSuggestions && suggestionItems.length > 0;
     if (!hasSuggestions) return;
 
     if (e.key === "ArrowDown") {
       e.preventDefault();
+      const count = suggestionItems.length;
       setSelectedSuggestionIdx((prev) =>
-        prev < suggestions.length - 1 ? prev + 1 : 0,
+        count > 0 ? (prev < count - 1 ? prev + 1 : 0) : -1,
       );
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
+      const count = suggestionItems.length;
       setSelectedSuggestionIdx((prev) =>
-        prev > 0 ? prev - 1 : suggestions.length - 1,
+        count > 0 ? (prev > 0 ? prev - 1 : count - 1) : -1,
       );
     } else if (e.key === "Enter" && selectedSuggestionIdx >= 0) {
       e.preventDefault();
-      applySuggestion(suggestions[selectedSuggestionIdx].concept_name);
+      const activeSuggestion = suggestionItems[selectedSuggestionIdx];
+      if (activeSuggestion) {
+        applySuggestion(activeSuggestion.concept_name);
+      }
     } else if (e.key === "Escape") {
       setShowSuggestions(false);
     }
@@ -433,14 +437,13 @@ export function SemanticSearchPanel({
 
           {/* Autocomplete dropdown */}
           {showSuggestions &&
-            suggestions &&
-            suggestions.length > 0 &&
+            suggestionItems.length > 0 &&
             query.length >= 2 && (
               <div
                 ref={suggestionsRef}
                 className="absolute z-50 top-full mt-1 w-full rounded-lg border border-[#232328] bg-[#16161A] shadow-xl overflow-hidden"
               >
-                {suggestions.slice(0, 10).map((s, i) => (
+                {suggestionItems.slice(0, 10).map((s: HecateAutocompleteResult, i: number) => (
                   <button
                     key={`${s.concept_id}-${i}`}
                     type="button"
