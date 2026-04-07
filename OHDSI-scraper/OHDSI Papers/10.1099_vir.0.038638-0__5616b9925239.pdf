@@ -1,0 +1,848 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="citation_title" content="Phylogeographical footprint of colonial history in the global dispersal of human immunodeficiency virus type 2 group A" />
+<meta name="citation_publication_date" content="2012" />
+<meta name="citation_author" content="Faria, Nuno R" />
+<meta name="citation_author" content="Hodges-Mameletzis, Ioannis" />
+<meta name="citation_author" content="Silva, Joana C" />
+<meta name="citation_author" content="Rodés, Berta" />
+<meta name="citation_author" content="Erasmus, Smit" />
+<meta name="citation_author" content="Paolucci, Stefania" />
+<meta name="citation_author" content="Ruelle, Jean" />
+<meta name="citation_author" content="Pieniazek, Danuta" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<meta name="citation_author" content="Taveira, Nuno" />
+<meta name="citation_author" content="Treviño, Ana" />
+<meta name="citation_author" content="Gonçalves, Maria F" />
+<link rel="canonical" href="https://dial.uclouvain.be/pr/boreal/en/object/boreal%3A158484" />
+<meta name="citation_author" content="Jallow, Sabelle" />
+<meta name="citation_author" content="Xu, Li" />
+<link rel="shortlink" href="https://dial.uclouvain.be/pr/boreal/en/object/boreal%3A158484" />
+<meta name="citation_author" content="Camacho, Ricardo J" />
+<meta name="citation_author" content="Soriano, Vincent" />
+<meta name="citation_author" content="Goubau, Patrick" />
+<meta name="citation_author" content="de Sousa, João D" />
+<meta name="citation_author" content="Vandamme, Anne-Mieke" />
+<meta name="citation_author" content="Suchard, Marc A" />
+<meta name="citation_author" content="Lemey, Philippe" />
+<meta name="citation_journal_title" content="Journal of General Virology" />
+<meta name="citation_volume" content="93" />
+<meta name="citation_firstpage" content="889" />
+<meta name="citation_endpage" content="899" />
+<meta name="citation_issn" content="0022-1317" />
+<meta name="citation_pdf_url" content="https://dial.uclouvain.be/downloader/downloader.php?pid=boreal:158484&amp;datastream=PDF_01&amp;disclaimer=65b9035164634247f3e26a61e6bdcaafa3eddf6d5f9f8ead37b72343818e8290" />
+  <title>Phylogeographical footprint of colonial history in the global dispersal of human immunodeficiency virus type 2 group A | DIAL.pr - BOREAL</title>
+  <style type="text/css" media="all">
+@import url("https://dial.uclouvain.be/pr/boreal/modules/system/system.base.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/modules/system/system.menus.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/modules/system/system.messages.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/modules/system/system.theme.css?t8y6nn");
+</style>
+<style type="text/css" media="all">
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?t8y6nn");
+</style>
+<style type="text/css" media="all">
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/collapsiblock/collapsiblock.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/date/date_api/date.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial/css/dial.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial/css/badge.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial/css/comment.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial/css/min-bootstrap.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial/css/vertical-tabs.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_event/css/event.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_export/css/export.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_fnrs/css/fnrs.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_open_publication/css/open_publication.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_orcid_integration/css/styles.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_solr_search/dial_pr_solr_search/css/advanced_search_special.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_publication/dial_publication_fileManagement/css/fileManagement.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_publication/dial_publication_fileManagement/css/diff2html.min.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_publication/dial_publication_modification/css/modification.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_publication/dial_publication_action_authors/css/authors.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_publication/dial_publication_action_basic/css/jquery.tagit.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_publication/dial_publication_action_basic/css/basic.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_publication_statistics/css/publication_stats.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_relations/css/relations.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_requestCopy/css/requestCopy.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_sherparomeo/css/sherpa.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_solr_search/css/dial_solr_search.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_solr_search/css/facetting.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_statistics/css/stats.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_user/css/dial_user.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_user/dial_user_list/css/user_list.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_user/dial_user_statistics/css/statistics.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_widget_pr/css/widget.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_widget_pr/submit/css/submit.css?t8y6nn");
+</style>
+<style type="text/css" media="all">
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_widget_pr/submit/css/combobox.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/modules/field/theme/field.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/modules/node/node.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/modules/search/search.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/modules/user/user.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/views/css/views.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/ckeditor/css/ckeditor.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?t8y6nn");
+</style>
+<style type="text/css" media="all">
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/modules/ctools/css/ctools.css?t8y6nn");
+</style>
+<link type="text/css" rel="stylesheet" href="https://dial.uclouvain.be/pr/boreal/sites/all/modules/popup/popup.css?t8y6nn" media="all" />
+<style type="text/css" media="all">
+@import url("https://dial.uclouvain.be/pr/boreal/modules/locale/locale.css?t8y6nn");
+</style>
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" media="all" />
+<style type="text/css" media="all">
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/themes/skeletontheme/css/skeleton.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/themes/skeletontheme/css/style.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/themes/skeletontheme/css/buttons.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/all/themes/skeletontheme/css/layout.css?t8y6nn");
+@import url("https://dial.uclouvain.be/pr/boreal/sites/PR.boreal/files/color/skeletontheme-0b2d65d2/colors.css?t8y6nn");
+</style>
+  <script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/misc/drupal.js?t8y6nn"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/misc/ajax.js?v=7.59"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/collapsiblock/collapsiblock.js?t8y6nn"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_export/scripts/bibliography.js?t8y6nn"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_publication/dial_publication_fileManagement/scripts/diff2html.min.js?t8y6nn"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_user/dial_user_list/scripts/cart.js?t8y6nn"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/themes/skeletontheme/js/jquery.mobilemenu.js?t8y6nn"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($){
+      $("#navigation .content > ul").mobileMenu({
+        prependTo: "#navigation",
+        combine: false,
+        switchWidth: 760,
+        topOptionText: Drupal.settings.skeletontheme['topoptiontext']
+      });
+    });
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/themes/skeletontheme/js/jquery.fixedmenu.js?t8y6nn"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function ($){ $(document).ready(function (){ $("div#navigation ul.menu").find("li:contains('All Publications')").append($("<div>").addClass("badge").addClass("red").text("253403"));$("div#navigation ul.menu").find("li:contains('My dashboard')").append($("<div>").addClass("badge").addClass("yellow").text("121"));$("div#navigation ul.menu").find("li:contains('Submit')").append($("<div>").addClass("badge").addClass("green").text("+"));}); })(jQuery);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function ($){ $(document).ready(function (){ 
+  		  $("div.tabs ul.primary").find("li:contains('FNRS validity')")
+  		    .append($("<div>")
+  		    .addClass("badge")
+  		    .addClass("badge-top")
+  		    .addClass("green")
+  		    .text("OK"));
+  		}); })(jQuery);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function ($){ $(document).ready(function (){ $("div#block-system-user-menu ul.menu").find("li:contains('Cart')").append($("<span>").addClass("cart_counter").text("0"));$("span.cart_counter").hide();}); })(jQuery);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function ($){ $(document).ready(function (){
+        $("div.tabs ul.primary").find("li:contains('attached files')")
+          .append($("<div>")
+          .addClass("badge")
+          .addClass("badge-top")
+          .addClass("blue")
+          .text("1"));
+      }); })(jQuery);
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/popup/popup.js?t8y6nn"></script>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script type="text/javascript" src="https://badge.dimensions.ai/badge.js"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/misc/progress.js?v=7.59"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_widget_pr/scripts/dial_pr.publication.js?t8y6nn"></script>
+<script type="text/javascript" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/matomo/matomo.js?t8y6nn"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://stats.uclouvain.be/" : "https://stats.uclouvain.be/");_paq.push(["setSiteId", "153"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"matomo.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/pr\/boreal\/","pathPrefix":"en\/","skeletontheme":{"topoptiontext":"Select a page"},"ajaxPageState":{"theme":"skeletontheme","theme_token":"eCqmTB9KCzlpuRJFpRELdZgvOxwi77nlolquSIy3uJY","jquery_version":"1.7","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.js":1,"sites\/all\/modules\/dial\/dial_export\/scripts\/bibliography.js":1,"sites\/all\/modules\/dial\/dial_publication\/dial_publication_fileManagement\/scripts\/diff2html.min.js":1,"sites\/all\/modules\/dial\/dial_user\/dial_user_list\/scripts\/cart.js":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.mobilemenu.js":1,"0":1,"sites\/all\/themes\/skeletontheme\/js\/jquery.fixedmenu.js":1,"1":1,"2":1,"3":1,"4":1,"sites\/all\/modules\/popup\/popup.js":1,"https:\/\/d1bxh8uas1mnw7.cloudfront.net\/assets\/embed.js":1,"https:\/\/badge.dimensions.ai\/badge.js":1,"misc\/progress.js":1,"sites\/all\/modules\/dial\/dial_widget\/dial_widget_pr\/scripts\/dial_pr.publication.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"5":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/dial\/dial\/css\/dial.css":1,"sites\/all\/modules\/dial\/dial\/css\/badge.css":1,"sites\/all\/modules\/dial\/dial\/css\/comment.css":1,"sites\/all\/modules\/dial\/dial\/css\/min-bootstrap.css":1,"sites\/all\/modules\/dial\/dial\/css\/vertical-tabs.css":1,"sites\/all\/modules\/dial\/dial_user\/dial_author_page\/css\/dial_authors.css":1,"sites\/all\/modules\/dial\/dial_event\/css\/event.css":1,"sites\/all\/modules\/dial\/dial_export\/css\/export.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_fnrs\/css\/fnrs.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_open_publication\/css\/open_publication.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_orcid_integration\/css\/styles.css":1,"sites\/all\/modules\/dial\/dial_solr_search\/dial_pr_solr_search\/css\/advanced_search_special.css":1,"sites\/all\/modules\/dial\/dial_publication\/dial_publication_fileManagement\/css\/fileManagement.css":1,"sites\/all\/modules\/dial\/dial_publication\/dial_publication_fileManagement\/css\/diff2html.min.css":1,"sites\/all\/modules\/dial\/dial_publication\/dial_publication_modification\/css\/modification.css":1,"sites\/all\/modules\/dial\/dial_publication\/dial_publication_action_authors\/css\/authors.css":1,"sites\/all\/modules\/dial\/dial_publication\/dial_publication_action_basic\/css\/jquery.tagit.css":1,"sites\/all\/modules\/dial\/dial_publication\/dial_publication_action_basic\/css\/basic.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_publication_statistics\/css\/publication_stats.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_relations\/css\/relations.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_relations\/css\/default\/style.css":1,"sites\/all\/modules\/dial\/dial_requestCopy\/css\/requestCopy.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_sherparomeo\/css\/sherpa.css":1,"sites\/all\/modules\/dial\/dial_solr_search\/css\/dial_solr_search.css":1,"sites\/all\/modules\/dial\/dial_solr_search\/css\/facetting.css":1,"sites\/all\/modules\/dial\/dial_statistics\/css\/stats.css":1,"sites\/all\/modules\/dial\/dial_user\/css\/dial_user.css":1,"sites\/all\/modules\/dial\/dial_user\/dial_user_list\/css\/user_list.css":1,"sites\/all\/modules\/dial\/dial_user\/dial_user_statistics\/css\/statistics.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_widget_pr\/css\/widget.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_widget_pr\/submit\/css\/submit.css":1,"sites\/all\/modules\/dial\/dial_widget\/dial_widget_pr\/submit\/css\/combobox.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/popup\/popup.css":1,"modules\/locale\/locale.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.1.0\/css\/font-awesome.css":1,"sites\/all\/themes\/skeletontheme\/css\/skeleton.css":1,"sites\/all\/themes\/skeletontheme\/css\/style.css":1,"sites\/all\/themes\/skeletontheme\/css\/buttons.css":1,"sites\/all\/themes\/skeletontheme\/css\/layout.css":1,"sites\/all\/themes\/skeletontheme\/color\/colors.css":1}},"collapsiblock":{"blocks":{"block-facetapi-scknsnxu2bjlk7sbgpdgo6hscmuvpuog":"2","block-system-navigation":"1","block-facetapi-hrsfbhu9lbazbvbb8f1lj3ehdcwzxsn2":"2","block-facetapi-evkpug0jk03uhhxy3k05ifzcygtzwbxs":"2","block-sharethis-sharethis-block":"1","block-menu-menu-help":"2","block-menu-menu-documentation":"2","block-event-upcoming-event":"1","block-dial-event-upcoming-event":"2","block-dial-requestcopy-dial-requestcopy":"1","block-dial-author-page-publication-counter":"1","block-dial-author-page-author-publication-counter":"1","block-dial-author-page-author-fulltext-repartition":"1","block-dial-author-page-author-informations":"1","block-menu-menu-about-1":"2","block-twitter-block-3":"2","block-menu-menu-quicl-links":"1","block-menu-menu-open-access":"2","block-menu-menu-copyright":"2","block-facetapi-ky4brwt3nkeqmzwogpeijkar4qqygapg":"2","block-facetapi-5glv4jctbbdxxbqd9pbq3y5adjotb81b":"2","block-facetapi-jmmxj21c6ftzfn90xsikpwnknw4yzsov":"1","block-block-3":"1","block-views-dialnews-slideshow-block":"1","block-masquerade-masquerade":"1","block-block-4":"1","block-block-5":"1","block-facetapi-vsylofpmwmutf1dsvcp0v1rfhgda9uzp":"2","block-block-6":"1","block-block-7":"2","block-menu-menu-liens-utiles":"1"},"default_state":"1","slide_type":"1","slide_speed":"200","block_title":":header:first","block":"div.block","block_content":"div.content"},"dialuserlist":{"path":"sites\/all\/modules\/dial\/dial_user\/dial_user_list","base_url":"https:\/\/dial.uclouvain.be\/pr\/boreal"},"popup":{"effects":{"show":{"default":"this.body.show();","fade":"\n        if (this.opacity){\n          this.body.fadeTo(\u0027medium\u0027,this.opacity);\n        }else{\n          this.body.fadeIn(\u0027medium\u0027);\n        }","slide-down":"this.body.slideDown(\u0027medium\u0027)","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027show\u0027,\n            opacity:(this.opacity ? this.opacity : \u0027show\u0027)\n          }, \u0027medium\u0027\n        );"},"hide":{"default":"this.body.hide();","fade":"this.body.fadeOut(\u0027medium\u0027);","slide-down":"this.body.slideUp(\u0027medium\u0027);","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027hide\u0027,\n            opacity:\u0027hide\u0027\n          }, \u0027medium\u0027\n        );"}},"linger":"250","delay":"0"},"matomo":{"trackMailto":1},"urlIsAjaxTrusted":{"\/pr\/boreal\/object\/boreal:158484":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-object page-object-boreal158484 i18n-en" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<div id="wrap">
+    <div class="container">
+        
+                <!-- #header-top -->
+        <div id="header-top" class="sixteen columns clearfix">
+            
+                            
+                          <div class="region region-header-top-right">
+    <div id="block-system-user-menu" class="block block-system block-menu">
+
+    <h2>User menu</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/pr/boreal/en/cart" title="">Cart</a></li>
+<li class="last leaf"><a href="/pr/boreal/en/user/login?current=object/boreal%3A158484" title="">Login</a></li>
+</ul>  </div>
+</div>
+  </div>
+            
+                        
+        </div><!-- /#header-top -->
+                
+        <div class="clear"></div>
+        
+        <!-- #header -->
+                <div id="header" class="sixteen columns clearfix">   
+                
+            <div class="inner">
+    
+                                  <a href="/pr/boreal/en" title="Home" rel="home" id="logo">
+                    <img src="https://dial.uclouvain.be/pr/boreal/sites/PR.boreal/files/dial.pr_new_banner.png" alt="Home" />
+                  </a>
+                                
+                                <div id="name-and-slogan" class="element-invisible">
+                
+                                        <div id="site-name" class="element-invisible">
+                    <a href="/pr/boreal/en" title="Home" rel="home">DIAL.pr - BOREAL</a>
+                    </div>
+                                        
+                                    
+                </div>
+                            </div>
+        </div><!-- /#header -->
+        
+                
+        <div class="clear"></div>
+        
+        <!-- #navigation -->
+        <div id="navigation" class="sixteen columns clearfix">
+          <div class="menu-header">
+                          				      <div class="content">
+				        				          <div id="menu-right">
+                      <div class="region region-menu-right">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/pr/boreal/object/boreal:158484" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search for ..." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Go" class="form-submit" /><input alt="Advanced search" title="Advanced search" for="advanced search" onclick="console.log(&quot;redirect&quot;); window.location.href = &quot;https://dial.uclouvain.be/pr/boreal/search/advanced&quot;; return false;" type="submit" id="edit-advanced-search" name="advanced_search" value="Advanced search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-p-87eQdr1jXr3fntOKEy-_p_hscnVJ0BjMysrLf0PXg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+                  </div>
+                                <ul class="menu"><li class="first leaf"><a href="http://dial.uclouvain.be/Home/institution/UCL" title="">Home</a></li>
+<li class="leaf"><a href="/pr/boreal/en/search/site" title="">All Publications</a></li>
+<li class="leaf"><a href="http://dial.uclouvain.be/DialExport/BibliographyForm?site=BOREAL" title="">Export</a></li>
+<li class="last leaf"><a href="/pr/boreal/en/node/43" title="Help page">Help</a></li>
+</ul>              </div>
+                      </div>
+        </div><!-- /#navigation -->
+        
+                
+                <div id="content" class="sixteen columns clearfix">    
+                
+                    
+                            <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/pr/boreal/en">Home</a><span class="sep">»</span>
+  Phylogeographical footprint of colonial history in the global dispersal of human immunodeficiency virus type 2 group A
+
+</div></div>
+                        
+            <div id="main">
+            
+                <div id="highlighted" class="clearfix">  <div class="region region-highlighted">
+    <div id="block-block-6" class="block block-block">
+
+    
+  <div class="content">
+    <p><span style="font-size:14px"><strong><span style="color:#FF0000">Accès à distance ? S'identifier sur le proxy <a href="https://proxy.bib.ucl.ac.be/proxy-dial">UCLouvain</a></span></strong></span></p>
+  </div>
+</div>
+  </div>
+</div>                
+                                
+                                <h1 class="title" id="page-title">
+                  
+  Phylogeographical footprint of colonial history in the global dispersal of human immunodeficiency virus type 2 group A
+
+                </h1>
+                                
+                                
+                                <div class="tabs">
+                  <h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li class="active"><a href="/pr/boreal/en/object/boreal%3A158484" class="active">view<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="/pr/boreal/en/object/boreal%3A158484/datastreams">attached files</a></li>
+<li><a href="/pr/boreal/en/object/boreal%3A158484/fnrs">FNRS validity</a></li>
+</ul>                </div>
+                                
+                                
+                                
+                  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    
+<div class="publication-detail">
+
+  <!-- RIGHT COLUMN == DATASTREAMS & BADGES ================================ -->
+      <div class="r aside column-230">
+              
+<div class="datastream-small datastream-application-pdf">
+      <div class="download-link"><a href="https://dial.uclouvain.be/downloader/downloader.php?pid=boreal%3A158484&amp;datastream=PDF_01&amp;disclaimer=552dbcf12504e03523e0e98f1374eecb736fc1c115060997f12c85fcc41ce91a">download</a></div>
+    <label class="datastream-label">
+    2012_FAria_J_Gen_Virol.pdf          </label>
+  <ul class="open-access">
+    <li class='access-cell'>Open access</li>
+    <li>PDF</li>
+    <li>724.30 K</li>
+  </ul>
+</div>
+                    <div class="publication-badges">
+                      <div class="publication-badge"><span class="__dimensions_badge_embed__" data-legend="hover-bottom" data-style="medium_circle" data-hide-zero-citations="true" data-doi="10.1099/vir.0.038638-0" data-pmid="22190015"> </span>
+</div>
+                      <div class="publication-badge"><div data-badge-type="medium-donut" data-hide-less-than="0" data-badge-popover="top" data-hide-no-mentions="true" data-link-target="altmetric" class="altmetric-embed" data-doi="10.1099/vir.0.038638-0" data-pmid="22190015"> </div>
+</div>
+                  </div>
+            <div style="clear:both"></div>
+    </div>
+  
+  <div class="content">
+    <!-- AUTHORS =========================================================== -->
+          <span class="authors publication-metadata">
+                  
+<span class="contributor vcard" style="display:inline">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Faria, Nuno R%22">
+    Faria, Nuno R  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:inline">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Hodges-Mameletzis, Ioannis%22">
+    Hodges-Mameletzis, Ioannis  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:inline">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Silva, Joana C%22">
+    Silva, Joana C  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:inline">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Rodés, Berta%22">
+    Rodés, Berta  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:inline">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Erasmus, Smit%22">
+    Erasmus, Smit  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Paolucci, Stefania%22">
+    Paolucci, Stefania  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:inline">
+  <strong>  <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Ruelle, Jean%22">
+    Ruelle, Jean  </a>
+      <span class="label label-plain institution">
+      [UCL]
+    </span>
+    </strong>
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Pieniazek, Danuta%22">
+    Pieniazek, Danuta  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Taveira, Nuno%22">
+    Taveira, Nuno  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Treviño, Ana%22">
+    Treviño, Ana  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Gonçalves, Maria F%22">
+    Gonçalves, Maria F  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Jallow, Sabelle%22">
+    Jallow, Sabelle  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Xu, Li%22">
+    Xu, Li  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Camacho, Ricardo J%22">
+    Camacho, Ricardo J  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Soriano, Vincent%22">
+    Soriano, Vincent  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:inline">
+  <strong>  <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Goubau, Patrick%22">
+    Goubau, Patrick  </a>
+      <span class="label label-plain institution">
+      [UCL]
+    </span>
+    </strong>
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22de Sousa, João D%22">
+    de Sousa, João D  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Vandamme, Anne-Mieke%22">
+    Vandamme, Anne-Mieke  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:none">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Suchard, Marc A%22">
+    Suchard, Marc A  </a>
+    
+    </span>
+                  
+<span class="contributor vcard" style="display:inline">
+    <a href="/pr/boreal/search/site/?f[0]=sm_creator:%22Lemey, Philippe%22">
+    Lemey, Philippe  </a>
+    
+    </span>
+                  <label class="author_name">et al.</label><label class="biblio">[<a href="javascript:void(0)" class="author_see_all" style="font-weight:normal">show all</a>]</label>              </span>
+        <!-- ABSTRACTS ========================================================= -->
+                  <p class="publication-metadata">
+    Human immunodeficiency virus type 2 (HIV-2) emerged in West Africa and has spread further to countries that share socio-historical ties with this region. However, viral origins and dispersal patterns at a global scale remain poorly understood. Here, we adopt a Bayesian phylogeographic approach to investigate the spatial dynamics of HIV-2 group A (HIV-2A) using a collection of 320 partial pol and 248 partial env sequences sampled throughout 19 countries worldwide. We extend phylogenetic diffusion models that simultaneously draw information from multiple loci to estimate location states throughout distinct phylogenies and explicitly attempt to incorporate human migratory fluxes. Our study highlights that Guinea-Bissau, together with Côte d'Ivoire and Senegal, have acted as the main viral sources in the early stages of the epidemic. We show that convenience sampling can obfuscate the estimation of the spatial root of HIV-2A. We explicitly attempt to circumvent this by incorporating rate priors that reflect the ratio of human flow from and to West Africa. We recover four main routes of HIV-2A dispersal that are laid out along colonial ties: Guinea-Bissau and Cape Verde to Portugal, Côte d'Ivoire and Senegal to France. Within Europe, we find strong support for epidemiological linkage from Portugal to Luxembourg and to the UK. We demonstrate that probabilistic models can uncover global patterns of HIV-2A dispersal providing sampling bias is taken into account and we provide a scenario for the international spread of this virus.</p>
+              <!-- ACTIONS =========================================================== -->
+          <ul class="actions">
+                  <li><a href="/pr/boreal/en/ajax/updateCart/boreal%3A158484" class="use-ajax cart_action" action="add" title="Add to cart" alt="Add to cart"><img typeof="foaf:Image" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_user/dial_user_list/images/shopping-basket-gray--plus.png" alt="" /></a></li>
+                  <li><a href="javascript:window.print()" title="print" alt="print"><img typeof="foaf:Image" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_widget_pr/images/icons/printer.png" alt="" /></a></li>
+                  <li><a href="https://dial.uclouvain.be/saxon/SaxonServlet?source=http://www.sherpa.ac.uk/romeo/api29.php?versions=all%26ak=ttU4LLugEKI%26issn=0022-1317&amp;style=https://dial.uclouvain.be/xsl/Sherpa2HTML.xsl&amp;clear-stylesheet-cache=yes" title="copyright" alt="copyright"><img typeof="foaf:Image" src="https://dial.uclouvain.be/pr/boreal/sites/all/modules/dial/dial_widget/dial_widget_pr/images/icons/shield.png" alt="" /></a></li>
+              </ul>
+      <div class="clearfix"></div>
+        <!-- TABS ============================================================== -->
+          <div id="publication-tabs">
+        <ul>
+                      <li><a href="#publication-tabs-tab_metadata">metadata</a></li>
+                  </ul>
+                  <div id="publication-tabs-tab_metadata">
+            <div xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:php="http://php.net/xsl" class="content_display marc21"><table class="publication-metadata"><tbody>
+<tr>
+<th>Document type</th>
+<td>Article de périodique (Journal article) – <i>Article de recherche</i>
+</td>
+</tr>
+<tr>
+<th>Access type</th>
+<td><font color="#339933">
+      Accès libre
+    </font></td>
+</tr>
+<tr>
+<th>Publication date</th>
+<td>2012</td>
+</tr>
+<tr>
+<th>Language</th>
+<td>Anglais</td>
+</tr>
+<tr>
+<th>Journal information</th>
+<td>
+<i>"Journal of General Virology"</i> - Vol. 93, no.Pt_4, p. 889-899 (2012)</td>
+</tr>
+<tr>
+<th>Peer reviewed</th>
+<td>yes</td>
+</tr>
+<tr>
+<th>Publisher</th>
+<td>Society for General Microbiology <i>((United Kingdom) London)</i>
+</td>
+</tr>
+<tr>
+<th>issn</th>
+<td>0022-1317</td>
+</tr>
+<tr>
+<th>e-issn</th>
+<td>1465-2099</td>
+</tr>
+<tr>
+<th>Publication status</th>
+<td>Publié</td>
+</tr>
+<tr>
+<th>Affiliations</th>
+<td>
+<a rel="nofollow" href="/pr/boreal/search/site/sm_institution:%22UCL%22">UCL</a>
+        - <i><a rel="nofollow" href="/pr/boreal/search/site/sm_departement:%22SSS~~IREC~~MBLG%20-%20P%C3%B4le%20de%20Microbiologie%20m%C3%A9dicale%22">SSS/IREC/MBLG - Pôle de Microbiologie médicale</a></i><br><a rel="nofollow" href="/pr/boreal/search/site/sm_institution:%22UCL%22">UCL</a>
+        - <i><a rel="nofollow" href="/pr/boreal/search/site/sm_departement:%22(SLuc)%20Service%20de%20microbiologie%22">(SLuc) Service de microbiologie</a></i>
+</td>
+</tr>
+<tr>
+<th>MESH Subject</th>
+<td>
+<a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Africa,%20Western%22">Africa, Western</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22HIV-2%22">HIV-2</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22History,%2020th%20Century%22">History, 20th Century</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Humans%22">Humans</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Molecular%20Sequence%20Data%22">Molecular Sequence Data</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Phylogeography%22">Phylogeography</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Senegal%22">Senegal</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Bayes%20Theorem%22">Bayes Theorem</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Cape%20Verde%22">Cape Verde</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Colonialism%22">Colonialism</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Cote%20d%22">Cote d</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Genes,%20Viral%22">Genes, Viral</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Genome,%20Viral%22">Genome, Viral</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22Guinea-Bissau%22">Guinea-Bissau</a> ; <a rel="nofollow" href="/pr/boreal/search/site/sm_mesh:%22HIV%20Infections%22">HIV Infections</a>
+</td>
+</tr>
+<tr>
+<th>Links</th>
+<td><ul>
+<li>
+<a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/22190015">http://www.ncbi.nlm.nih.gov/pubmed/22190015</a><span class="info_specification">[Pubmed]</span>
+</li>
+<li>
+<a target="_blank" href="http://hdl.handle.net/2078.1/158484">http://hdl.handle.net/2078.1/158484</a><span class="info_specification">[Handle]</span>
+</li>
+<li>
+<a target="_blank" href="https://doi.org/10.1099/vir.0.038638-0">https://doi.org/10.1099/vir.0.038638-0</a><span class="info_specification">[DOI]</span>
+</li>
+</ul></td>
+</tr>
+</tbody></table></div>
+          </div>
+              </div>
+    
+    <!-- ADDITIONAL DATA =================================================== -->
+                                  <div class="publication_citation"><table>
+  <tbody>
+    <tr>
+      <th>Bibliographic reference</th>
+      <td>Faria, Nuno R ; Hodges-Mameletzis, Ioannis ; Silva, Joana C ; Rodés, Berta ; Erasmus, Smit ; et. al. <i>Phylogeographical footprint of colonial history in the global dispersal of human immunodeficiency virus type 2 group A.</i> In: <i>Journal of General Virology</i>, Vol. 93, no.Pt_4, p. 889-899 (2012)</td>
+    </tr>
+    <tr>
+      <th>Permanent URL</th>
+      <td>http://hdl.handle.net/2078.1/158484</td>
+    </tr>
+  </tbody>
+</table></div>                              <script type="application/ld+json">
+    {
+      
+      "author":[
+    {
+      
+        "name":"Faria, Nuno R",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Hodges-Mameletzis, Ioannis",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Silva, Joana C",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Rodés, Berta",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Erasmus, Smit",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Paolucci, Stefania",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Ruelle, Jean",
+      
+        "affiliation":{
+          "name":"UCL",
+          "@type":"Organization"
+        },  
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Pieniazek, Danuta",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Taveira, Nuno",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Treviño, Ana",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Gonçalves, Maria F",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Jallow, Sabelle",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Xu, Li",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Camacho, Ricardo J",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Soriano, Vincent",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Goubau, Patrick",
+      
+        "affiliation":{
+          "name":"UCL",
+          "@type":"Organization"
+        },  
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"de Sousa, João D",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Vandamme, Anne-Mieke",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Suchard, Marc A",
+      
+      "@type":"Person"
+    },
+    {
+      
+        "name":"Lemey, Philippe",
+      
+      "@type":"Person"
+    }],
+    
+      "name":"Phylogeographical footprint of colonial history in the global dispersal of human immunodeficiency virus type 2 group A",
+      "dateCreated":"2012",
+      "inLanguage":"eng",
+      
+        "description":"Human immunodeficiency virus type 2 (HIV-2) emerged in West Africa and has spread further to countries that share socio-historical ties with this region. However, viral origins and dispersal patterns at a global scale remain poorly understood. Here, we adopt a Bayesian phylogeographic approach to investigate the spatial dynamics of HIV-2 group A (HIV-2A) using a collection of 320 partial pol and 248 partial env sequences sampled throughout 19 countries worldwide. We extend phylogenetic diffusion models that simultaneously draw information from multiple loci to estimate location states throughout distinct phylogenies and explicitly attempt to incorporate human migratory fluxes. Our study highlights that Guinea-Bissau, together with Côte d'Ivoire and Senegal, have acted as the main viral sources in the early stages of the epidemic. We show that convenience sampling can obfuscate the estimation of the spatial root of HIV-2A. We explicitly attempt to circumvent this by incorporating rate priors that reflect the ratio of human flow from and to West Africa. We recover four main routes of HIV-2A dispersal that are laid out along colonial ties: Guinea-Bissau and Cape Verde to Portugal, Côte d'Ivoire and Senegal to France. Within Europe, we find strong support for epidemiological linkage from Portugal to Luxembourg and to the UK. We demonstrate that probabilistic models can uncover global patterns of HIV-2A dispersal providing sampling bias is taken into account and we provide a scenario for the international spread of this virus.",
+      
+        "pagination":"889-899",
+        
+          "pageStart":"889",
+          "pageEnd":"899",
+        
+    "isPartOf":{
+      "datePublished":"2012",
+      "issueNumber":"Pt_4",
+      
+    "isPartOf":{
+      "volumeNumber":"93",
+      
+    "isPartOf":{
+      "name":"Journal of General Virology",
+      "issn":[
+        "0022-1317",
+        "1465-2099"],
+      
+      "publisher":
+      
+        {"name":"Society for General Microbiology",
+         "location":"(United Kingdom) London",
+         "@type":"Organization"
+        }
+      ,
+    
+      "@type":"Periodical"
+    },
+  
+      "@type":"PublicationVolume"
+    },
+  
+      "@type":"PublicationIssue"
+    },
+  
+        "url":"http://hdl.handle.net/2078.1/158484",
+      "sameAs":"http://www.ncbi.nlm.nih.gov/pubmed/22190015","sameAs":"http://dx.doi.org/10.1099/vir.0.038638-0",
+      "@context":"http://schema.org",
+      "@type":"ScholarlyArticle"
+    }
+  </script>                              <span class="Z3988" title="&#xA;        url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&#xA;        &amp;rft_val_fmt=&#xA;        &amp;rft.genre=&#xA;        &amp;rft.aulast=Faria&#xA;        &amp;rft.aufirst=Nuno R&#xA;        &amp;rft.title=Phylogeographical footprint of colonial history in the global dispersal of human immunodeficiency virus type 2 group A&#xA;        &amp;rft.date=2012&#xA;        &amp;rft.language=eng&#xA;          &amp;rft.jtitle=Journal of General Virology&#xA;          &amp;rft.volume=Vol. 93, no.Pt_4, p. 889-899 (2012)&#xA;          &amp;rft.issn=0022-1317&#xA;          &amp;rft.publisher=Society for General Microbiology&#xA;          &amp;rft.place=(United Kingdom) London&#xA;        &amp;rft_id=http://hdl.handle.net/2078.1/158484"></span>          
+  </div>
+
+</div>
+<div class="clearfix"></div>
+  </div>
+</div>
+  </div>
+                                
+            </div>
+        
+        </div><!-- /#content -->
+        
+                
+        <div class="clear"></div>
+        
+                
+	</div>
+        
+	<div id="footer" >
+        <div class="container">
+        	<div class="sixteen columns clearfix">
+        
+                <div class="one_third">
+                  <div class="region region-footer-first">
+    <div id="block-menu-menu-footer-help" class="block block-menu">
+
+    <h2>Footer Help</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="https://www.uclouvain.be/fr/bibliotheques/open-access" title="">OpenAccess</a></li>
+<li class="leaf"><a href="/pr/boreal/en/node/503" title="">FAQ</a></li>
+<li class="last leaf"><a href="/pr/boreal/en/node/533" title="">Bibliography</a></li>
+</ul>  </div>
+</div>
+  </div>
+                </div>
+                
+                <div class="one_third">
+                                </div>
+                
+                <div class="one_third last">
+                  <div class="region region-footer-third">
+    <div id="block-locale-language" class="block block-locale">
+
+    <h2>Languages</h2>
+  
+  <div class="content">
+    <ul class="language-switcher-locale-url"><li class="en first active"><a href="/pr/boreal/en/object/boreal%3A158484" class="language-link active" xml:lang="en">English</a></li>
+<li class="fr last"><a href="/pr/boreal/fr/object/boreal%3A158484" class="language-link" xml:lang="fr">Français</a></li>
+</ul>  </div>
+</div>
+  </div>
+                </div>
+        
+                <div class="clear"></div>
+                
+                  <div class="region region-footer">
+    <div id="block-menu-menu-footer-menu" class="block block-menu">
+
+    <h2>Footer menu</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/pr/boreal/en/node/5433" title="">Conditions</a></li>
+<li class="leaf"><a href="/pr/boreal/en/copyright_policy" title="">Copyright</a></li>
+<li class="leaf"><a href="https://dial.uclouvain.be/osTicket/" title="">Contact</a></li>
+<li class="last leaf"><a href="/pr/boreal/en/statistics" title="">Statistics</a></li>
+</ul>  </div>
+</div>
+  </div>
+                
+                <div class="clear"></div>
+                
+                <!--<div id="credits">
+                  2026                                       DIAL.pr - BOREAL<br/>
+                                  </div>-->
+        	</div>
+        </div>
+    </div>
+    
+</div> <!-- /#wrap -->
+  </body>
+</html>

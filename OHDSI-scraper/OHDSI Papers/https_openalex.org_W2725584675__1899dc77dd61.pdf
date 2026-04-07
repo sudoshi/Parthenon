@@ -1,0 +1,782 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- inj yui3-seed: --><script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/yui/3.6.0/yui/yui-min.js'></script><script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><!-- Adobe Analytics --><script type='text/javascript' src='https://assets.adobedtm.com/4a848ae9611a/d0e96722185b/launch-d525bb0064d8.min.js'></script><script type='text/javascript' src=/assets/nr_browser_production.js></script>
+
+<!-- def.1 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>
+"Automated spacelift training for range operators (ASTRO)" by Gerald R. Williams
+</title>
+
+
+<!-- FILE article_meta-tags.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc -->
+<meta itemprop="name" content="Automated spacelift training for range operators (ASTRO)">
+<meta property="og:title" content="Automated spacelift training for range operators (ASTRO)">
+<meta name="twitter:title" content="Automated spacelift training for range operators (ASTRO)">
+<meta property="article:author" content="Gerald R. Williams">
+<meta name="author" content="Gerald R. Williams">
+<meta name="robots" content="noodp, noydir">
+<meta name="description" content="By Gerald R. Williams, Published on 04/01/01">
+<meta itemprop="description" content="By Gerald R. Williams, Published on 04/01/01">
+<meta name="twitter:description" content="By Gerald R. Williams, Published on 04/01/01">
+<meta property="og:description" content="By Gerald R. Williams, Published on 04/01/01">
+<meta name="keywords" content="Computer simulation, LabVIEW">
+<meta name="bepress_citation_dissertation_institution" content="University of Central Florida">
+<meta name="bepress_citation_dissertation_name" content="Master of Science (M.S.)">
+<meta name="bepress_citation_author" content="Williams, Gerald R.">
+<meta name="bepress_citation_author_institution" content="University of Central Florida">
+<meta name="bepress_citation_title" content="Automated spacelift training for range operators (ASTRO)">
+<meta name="bepress_citation_date" content="2001">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc (cont) -->
+<meta name="bepress_citation_abstract_html_url" content="https://stars.library.ucf.edu/rtd/1401">
+<meta name="bepress_citation_online_date" content="2015/12/8">
+<meta name="viewport" content="width=device-width">
+<!-- Additional Twitter data -->
+<meta name="twitter:card" content="summary">
+<!-- Additional Open Graph data -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://stars.library.ucf.edu/rtd/1401">
+<meta property="og:site_name" content="STARS">
+
+
+
+
+<!-- FILE: article_meta-tags.inc (cont) -->
+<meta name="bepress_is_article_cover_page" content="1">
+
+
+<!-- sh.1 -->
+<link rel="stylesheet" href="/ir-style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/ir-custom.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../ir-custom.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/ir-local.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../ir-local.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/ir-print.css" type="text/css" media="print">
+<link type="text/css" rel="stylesheet" href="/assets/floatbox/floatbox.css">
+<link rel="alternate" type="application/rss+xml" title="Site Feed" href="/recent.rss">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!--[if IE]>
+<link rel="stylesheet" href="/ir-ie.css" type="text/css" media="screen">
+<![endif]-->
+
+<!-- JS -->
+<script type="text/javascript" src="/assets/jsUtilities.js"></script>
+<script type="text/javascript" src="/assets/footnoteLinks.js"></script>
+<script type="text/javascript" src="/assets/scripts/yui-init.pack.js"></script>
+<script type="text/javascript" src="/assets/scripts/bepress-init.debug.js"></script>
+<script type="text/javascript" src="/assets/scripts/JumpListYUI.pack.js"></script>
+
+<!-- end sh.1 -->
+
+
+
+
+<script type="text/javascript">var pageData = {"page":{"environment":"prod","productName":"bpdg","language":"en","name":"ir_etd:article","businessUnit":"els:rp:st"},"visitor":{}};</script>
+
+</head>
+<body >
+<!-- FILE /srv/sequoia/main/data/stars.library.ucf.edu/assets/header.pregen --><!-- FILE: /srv/sequoia/main/data/assets/site/mobile_nav.inc --><!--[if !IE]>-->
+<script src="/assets/scripts/dc-mobile/dc-responsive-nav.js"></script>
+
+<header id="mobile-nav" class="nav-down device-fixed-height" style="visibility: hidden;">
+  
+  
+  <nav class="nav-collapse">
+    <ul>
+      <li class="menu-item active device-fixed-width"><a href="https://stars.library.ucf.edu" title="Home" data-scroll >Home</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://stars.library.ucf.edu/do/search/advanced/" title="Search" data-scroll ><i class="icon-search"></i> Search</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://stars.library.ucf.edu/communities.html" title="Browse" data-scroll >Browse Collections</a></li>
+      <li class="menu-item device-fixed-width"><a href="/cgi/myaccount.cgi?context=rtd" title="My Account" data-scroll >My Account</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://stars.library.ucf.edu/about.html" title="About" data-scroll >About</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://network.bepress.com" title="Digital Commons Network" data-scroll ><img width="16" height="16" alt="DC Network" style="vertical-align:top;" src="/assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png"> Digital Commons Network™</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script src="/assets/scripts/dc-mobile/dc-mobile-nav.js"></script>
+<!--<![endif]-->
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/header.pregen (cont) -->
+
+
+
+<div id="ucf">
+	<div id="container">
+		<a href="#main" class="skiplink" accesskey="2" >Skip to main content</a>
+
+					
+			<div id="header" role="banner">
+				<a href="https://stars.library.ucf.edu" id="banner_link" title="STARS" >
+					<img id="banner_image" alt="STARS" width='980' height='119' src="/assets/md5images/53beaa39309fb0c6d71975a8d2a28dea.png">
+				</a>	
+				
+			</div>
+		
+
+		<div id="wrapper">
+			<div id="content">
+				<div id="main" class="text" role="main">
+
+
+<script type="text/javascript" src="/assets/floatbox/floatbox.js"></script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/article_pager.inc -->
+
+<div id="breadcrumb"><ul id="pager">
+
+                
+                 
+<li>&lt; <a href="https://stars.library.ucf.edu/rtd/1400" class="ignore" >Previous</a></li>
+        
+        
+        
+
+                
+                 
+<li><a href="https://stars.library.ucf.edu/rtd/1402" class="ignore" >Next</a> &gt;</li>
+        
+        
+        
+<li>&nbsp;</li></ul><div class="crumbs"><!-- FILE: /srv/sequoia/main/data/assets/site/ir_breadcrumb.inc -->
+
+<div class="crumbs" role="navigation" aria-label="Breadcrumb">
+    <ol style="list-style:none;margin:0;padding:0">
+	
+	
+	<li style="display:inline;margin:0">
+		<a href="https://stars.library.ucf.edu" class="ignore" >Home</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 <span aria-hidden="true">&gt;</span> 
+	<li style="display:inline;margin:0">
+		<a href="https://stars.library.ucf.edu/rtd" class="ignore" >Retrospective Theses and Dissertations</a>
+	</li>	
+	
+	
+	
+	
+	
+	 <span aria-hidden="true">&gt;</span> 
+	<li style="display:inline;margin:0">
+		<a href="https://stars.library.ucf.edu/rtd/1401" class="ignore" aria-current="page" >1401</a>
+	</li>	
+	
+	
+	
+	</ol>
+</div>
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/article_pager.inc (cont) --></div>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/index.html (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/article_info.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+
+
+
+
+
+
+
+
+
+	
+	
+	
+    
+    
+    
+	
+	
+	
+	
+	
+	
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/ir_article_header.inc --><div id="series-header">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/ir_etd_logo.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/ir_article_header.inc (cont) --><h2 id="series-title"><a href="https://stars.library.ucf.edu/rtd" >Retrospective Theses and Dissertations</a></h2></div>
+<div style="clear: both"></div><div id="sub">
+<div id="alpha">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/article_info.inc (cont) --><div id='title' class='element'>
+<h1>Automated spacelift training for range operators (ASTRO)</h1>
+</div>
+<div class='clear'></div>
+<div id='authors' class='element'>
+<h2 class='visually-hidden'>Author</h2>
+<p class="author"><a href='https://stars.library.ucf.edu/do/search/?q=author%3A%22Gerald%20R.%20Williams%22&start=0&context=7014507'><strong>Gerald R. Williams</strong>, <em>University of Central Florida</em></a><br />
+</p></div>
+<div class='clear'></div>
+<div id='keywords' class='element'>
+<h2 class='field-heading'>Keywords</h2>
+<p>Computer simulation, LabVIEW</p>
+</div>
+<div class='clear'></div>
+<div id='notes' class='element'>
+<h2 class='field-heading'>Notes</h2>
+<p>This item is only available in print in the UCF Libraries. If this is your thesis or dissertation, you can help us make it available online for use by researchers around the world by <a href="mailto:stars@ucf.edu">STARS</a> for more information.</p>
+</div>
+<div class='clear'></div>
+<div id='publication_date' class='element'>
+<h2 class='field-heading'>Graduation Date</h2>
+<p>Spring 2001</p>
+</div>
+<div class='clear'></div>
+<div id='advisor1' class='element'>
+<h2 class='field-heading'>Advisor</h2>
+<p>Zalewski, Janusz</p>
+</div>
+<div class='clear'></div>
+<div id='degree_name' class='element'>
+<h2 class='field-heading'>Degree</h2>
+<p>Master of Science (M.S.)</p>
+</div>
+<div class='clear'></div>
+<div id='college' class='element'>
+<h2 class='field-heading'>College</h2>
+<p>College of Engineering and Computer Science</p>
+</div>
+<div class='clear'></div>
+<div id='department' class='element'>
+<h2 class='field-heading'>Department</h2>
+<p>Electrical Engineering and Computer Science</p>
+</div>
+<div class='clear'></div>
+<div id='degree_program' class='element'>
+<h2 class='field-heading'>Degree Program</h2>
+<p>Computer Engineering</p>
+</div>
+<div class='clear'></div>
+<div id='format' class='element'>
+<h2 class='field-heading'>Format</h2>
+<p>Print</p>
+</div>
+<div class='clear'></div>
+<div id='language' class='element'>
+<h2 class='field-heading'>Language</h2>
+<p>English</p>
+</div>
+<div class='clear'></div>
+<div id='campus_access_length' class='element'>
+<h2 class='field-heading'>Length of Campus-only Access</h2>
+<p>None</p>
+</div>
+<div class='clear'></div>
+<div id='document_type' class='element'>
+<h2 class='field-heading'>Access Status</h2>
+<p>Masters Thesis (Open Access)</p>
+</div>
+<div class='clear'></div>
+<div id='subjects' class='element'>
+<h2 class='field-heading'>Subjects</h2>
+<p>Dissertations, Academic -- Engineering; Engineering -- Dissertations, Academic</p>
+</div>
+<div class='clear'></div>
+<div id='recommended_citation' class='element'>
+<h2 class='field-heading'>STARS Citation</h2>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/ir_citation.inc --><p>
+    Williams, Gerald R., "Automated spacelift training for range operators (ASTRO)" (2001). <em>Retrospective Theses and Dissertations</em>.  1401.
+    <br>
+    
+    
+        https://stars.library.ucf.edu/rtd/1401
+    
+</p>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/article_info.inc (cont) --></div>
+<div class='clear'></div>
+</div>
+    </div>
+    <div id='beta_7-3'>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+
+
+
+
+
+
+
+
+
+	
+	
+	
+    
+    
+    
+	
+	
+	
+	
+	
+	
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_download_button.inc --><div class="aside download-button">
+   <p class="no-file">This document is currently not available here.</p> 
+</div>
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_embargo.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_etd/info_box_custom_upper.inc -->
+
+
+
+
+
+     
+
+<style class="embedly-css">
+  .recmd, .recmd-list {
+    display:none;
+  }
+</style><!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_article_metrics.inc -->
+
+
+
+
+
+
+<div id="article-stats" class="aside hidden">
+
+    <p class="article-downloads-wrapper hidden"><span id="article-downloads"></span> DOWNLOADS</p>
+    <p class="article-stats-date hidden">Since December 08, 2015</p>
+
+    <p class="article-plum-metrics">
+        <a href="https://plu.mx/plum/a/?repo_url=https://stars.library.ucf.edu/rtd/1401" class="plumx-plum-print-popup plum-bigben-theme" data-badge="true" data-hide-when-empty="true" ></a>
+    </p>
+</div>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+
+
+
+
+<!-- Article Download Counts -->
+<script type="text/javascript" src="/assets/scripts/article-downloads.pack.js"></script>
+<script type="text/javascript">
+    insertDownloads(7902445);
+</script>
+
+
+<!-- Add border to Plum badge & download counts when visible -->
+<script>
+// bind to event when PlumX widget loads
+jQuery('body').bind('plum:widget-load', function(e){
+// if Plum badge is visible
+  if (jQuery('.PlumX-Popup').length) {
+// remove 'hidden' class
+  jQuery('#article-stats').removeClass('hidden');
+  jQuery('.article-stats-date').addClass('plum-border');
+  }
+});
+// bind to event when page loads
+jQuery(window).bind('load',function(e){
+// if DC downloads are visible
+  if (jQuery('#article-downloads').text().length > 0) {
+// add border to aside
+  jQuery('#article-stats').removeClass('hidden');
+  }
+});
+</script>
+
+
+
+<!-- Adobe Analytics: Download Click Tracker -->
+<script>
+
+$(function() {
+
+  // Download button click event tracker for PDFs
+  $(".aside.download-button").on("click", "a#pdf", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+      link: {
+          location: 'aside download-button',
+          name: 'pdf'
+      }
+    });
+  });
+
+  // Download button click event tracker for native files
+  $(".aside.download-button").on("click", "a#native", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+        link: {
+            location: 'aside download-button',
+            name: 'native'
+        }
+     });
+  });
+
+});
+
+</script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+
+
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_disciplines.inc -->
+
+
+
+
+	
+		
+	
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/bookmark_widget.inc -->
+
+<div id="share" class="aside">
+<h2>Share</h2>
+	
+	<div class="a2a_kit a2a_kit_size_24 a2a_default_style">
+    	<a class="a2a_button_facebook"></a>
+    	<a class="a2a_button_linkedin"></a>
+		<a class="a2a_button_whatsapp"></a>
+		<a class="a2a_button_email"></a>
+    	<a class="a2a_dd"></a>
+    	<script async src="https://static.addtoany.com/menu/page.js"></script>
+	</div>
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/zotero_coins.inc -->
+
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft_id=https%3A%2F%2Fstars.library.ucf.edu%2Frtd%2F1401&amp;rft.atitle=Automated%20spacelift%20training%20for%20range%20operators%20%28ASTRO%29&amp;rft.aufirst=Gerald&amp;rft.aulast=Williams&amp;rft.jtitle=Retrospective%20Theses%20and%20Dissertations&amp;rft.date=2001-04-01">COinS</span>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_custom_lower.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/article_info.inc (cont) --></div>
+
+
+<div class='clear'>&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_etd/article/ir_article_custom_fields.inc -->
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/article_info.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_etd/article/index.html (cont) -->
+<!-- FILE /srv/sequoia/main/data/assets/site/footer.pregen --></div>
+	<div class="verticalalign">&nbsp;</div>
+	<div class="clear">&nbsp;</div>
+
+</div>
+
+	<div id="sidebar" role="complementary">
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_7_8.inc -->
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc --><!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_etd/ir_sidebar_custom_upper_7_8.inc -->
+
+
+<div id="sb-custom-upper">
+	<h2 class="sb-custom-title">Browse Advisors</h2>
+		<ul class="sb-custom-ul">
+			<li class="sb-custom-li">
+				<a href="http://stars.library.ucf.edu/etd/advisors.html" >
+					Browse recent Advisors
+				</a>
+			</li>
+		</ul>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_search_7_8.inc -->
+
+
+	
+<form method='get' action='https://stars.library.ucf.edu/do/search/' id="sidebar-search">
+	<label for="search" accesskey="4">
+		Enter search terms:
+	</label>
+		<div>
+			<span class="border">
+				<input type="text" name='q' class="search" id="search">
+			</span> 
+			<input type="submit" value="Search" class="searchbutton" style="font-size:11px;">
+		</div>
+	<label for="context">
+		Select context to search:
+	</label> 
+		<div>
+			<span class="border">
+				<select name="fq" id="context">
+					
+					
+						<option value='virtual_ancestor_link:"https://stars.library.ucf.edu/rtd"'>in this series</option>
+					
+					
+					
+					<option value='virtual_ancestor_link:"https://stars.library.ucf.edu"'>in this repository</option>
+					<option value='virtual_ancestor_link:"http:/"'>across all repositories</option>
+				</select>
+			</span>
+		</div>
+</form>
+
+<p class="advanced">
+	
+	
+		<a href="https://stars.library.ucf.edu/do/search/advanced/?fq=virtual_ancestor_link:%22https://stars.library.ucf.edu/rtd%22" >
+			Advanced Search
+		</a>
+	
+</p>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_notify_7_8.inc -->
+
+
+	<ul id="side-notify">
+		<li class="notify">
+			<a href="https://stars.library.ucf.edu/rtd/announcements.html" title="Email or RSS Notifications" >
+				Notify me via email or <acronym title="Really Simple Syndication">RSS</acronym>
+			</a>
+		</li>
+	</ul>
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/urc_badge.inc -->
+
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_notify_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_sidebar_custom_middle_7_8.inc -->
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_sidebar_browse.inc --><h2>Explore</h2>
+<ul id="side-browse">
+
+
+<li class="author"><a href="https://stars.library.ucf.edu/authors.html" title="Browse by Author" >Authors</a></li>
+<li class="collections"><a href="https://stars.library.ucf.edu/communities.html" title="Browse by Colleges & Departments" >Colleges & Departments</a></li>
+<li class="discipline-browser"><a href="https://stars.library.ucf.edu/do/discipline_browser/disciplines" title="Browse by Disciplines" >Disciplines</a></li>
+
+
+
+</ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_sidebar_author_7_8.inc --><h2>Connect</h2>
+
+
+
+
+	<ul id="side-author">
+
+	
+		
+		
+	
+		
+		<li class="sb-custom-li">
+			<a href="https://stars.library.ucf.edu/cgi/myaccount.cgi?context=" title="My STARS Account" >
+				My STARS Account
+			</a>
+		</li>
+		<li class="faq">
+			<a href="https://stars.library.ucf.edu/faq.html" title="Frequently Asked Questions" >
+				Frequently Asked Questions
+			</a>
+		</li>
+		
+	</ul>
+		
+	<ul>
+		<li class="sb-custom-li">
+			<a href="https://stars.library.ucf.edu/announcements.html" title="Follow STARS" >Follow STARS</a>
+		</li>
+		<li class="sb-custom-li">
+			<a href="https://stars.library.ucf.edu/about.html" title="About STARS" >About STARS</a></li>
+		<li class="sb-custom-li">
+			<script type="text/javascript">
+    //<![CDATA[
+        document.write("<a href='mailto:" + "stars" + "@" + "ucf.edu" + "'>" + "Contact Us" + "<\/a>")
+    //]]>
+</script>
+		</li>
+	</ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_sidebar_custom_lower_7_8.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_homepage_links_7_8.inc -->
+
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_sidebar_custom_lower_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sw_links_7_8.inc -->
+
+	
+		
+	
+
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_sidebar_custom_lowest_7_8.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_7_8.inc (cont) -->
+
+		
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+	<div class="verticalalign">&nbsp;</div>
+	</div>
+
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_footer_content.inc --><div id="footer" role="contentinfo">
+	
+	
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_bepress_logo.inc --><div id="bepress">
+
+<a href="https://www.elsevier.com/solutions/digital-commons" title="Elsevier - Digital Commons" >
+	<em>Elsevier - Digital Commons</em>
+</a>
+
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_footer_content.inc (cont) -->
+	<p>
+		<a href="https://stars.library.ucf.edu" title="Home page" accesskey="1" >Home</a> | 
+		<a href="https://stars.library.ucf.edu/about.html" title="About" >About</a> | 
+		<a href="https://stars.library.ucf.edu/faq.html" title="FAQ" >FAQ</a> | 
+		<a href="/cgi/myaccount.cgi?context=rtd" title="My Account Page" accesskey="3" >My Account</a> | 
+		<a href="https://stars.library.ucf.edu/accessibility.html" title="Accessibility Statement" accesskey="0" >Accessibility Statement</a>
+	</p>
+	<p>
+	
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/privacy-policy" title="Privacy Policy" >Privacy</a>
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/elsevier-website-terms-and-conditions" title="Copyright Policy" >Copyright</a>	
+	</p> 
+	
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+
+</div>
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/stars.library.ucf.edu/assets/ir_analytics.inc --><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRZWSP5831"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WRZWSP5831');
+</script><!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+
+<script type='text/javascript' src='/assets/scripts/bpbootstrap-20160726.pack.js'></script><script type='text/javascript'>BPBootstrap.init({appendCookie:''})</script></body></html>

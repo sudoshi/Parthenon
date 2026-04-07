@@ -1,0 +1,2605 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3EAuthor Manuscript%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Gaps in standards for integrating artificial intelligence technologies into ophthalmic practice - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="4F6DB85C9D45AFB30BB85C002B24A031.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="nihpa">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="manuscript">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8373825/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Current opinion in ophthalmology">
+<meta name="citation_title" content="Gaps in standards for integrating artificial intelligence technologies into ophthalmic practice">
+<meta name="citation_author" content="Sally L Baxter">
+<meta name="citation_author_institution" content="Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA">
+<meta name="citation_author_institution" content="Health Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA">
+<meta name="citation_author" content="Aaron Y Lee">
+<meta name="citation_author_institution" content="Department of Ophthalmology, University of Washington, Seattle, WA, USA">
+<meta name="citation_publication_date" content="2021 Sep 1">
+<meta name="citation_volume" content="32">
+<meta name="citation_issue" content="5">
+<meta name="citation_firstpage" content="431">
+<meta name="citation_doi" content="10.1097/ICU.0000000000000781">
+<meta name="citation_pmid" content="34231531">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8373825/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8373825/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8373825/pdf/nihms-1718437.pdf">
+<meta name="description" content="The purpose of this review is to provide an overview of healthcare standards and their relevance to multiple ophthalmic workflows, with a specific emphasis on describing gaps in standards development needed for improved integration of artificial ...">
+<meta name="og:title" content="Gaps in standards for integrating artificial intelligence technologies into ophthalmic practice">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="The purpose of this review is to provide an overview of healthcare standards and their relevance to multiple ophthalmic workflows, with a specific emphasis on describing gaps in standards development needed for improved integration of artificial ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8373825/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="8373825">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1097/ICU.0000000000000781"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/nihms-1718437.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC8373825%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/8373825/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/8373825/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC8373825/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-nihpa.png" alt="NIHPA Author Manuscripts logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to NIHPA Author Manuscripts" title="Link to NIHPA Author Manuscripts" shape="default" href="https://pmc.ncbi.nlm.nih.gov/about/public-access/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Curr Opin Ophthalmol</button></div>. Author manuscript; available in PMC: 2022 Sep 1.</div>
+<div>
+<em>Published in final edited form as: </em>Curr Opin Ophthalmol. 2021 Sep 1;32(5):431–438. doi: <a href="https://doi.org/10.1097/ICU.0000000000000781" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1097/ICU.0000000000000781</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Curr%20Opin%20Ophthalmol"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Curr%20Opin%20Ophthalmol"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Curr%20Opin%20Ophthalmol"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Curr%20Opin%20Ophthalmol"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Gaps in standards for integrating artificial intelligence technologies into ophthalmic practice</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Baxter%20SL"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Sally L Baxter</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Sally L Baxter</span>, <span class="degrees">MD, MSc</span>
+</h3>
+<div class="p">
+<sup>1</sup>Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA</div>
+<div class="p">
+<sup>2</sup>Health Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Baxter%20SL"[Author]' class="usa-link"><span class="name western">Sally L Baxter</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lee%20AY"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Aaron Y Lee</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Aaron Y Lee</span>, <span class="degrees">MD, MSCI</span>
+</h3>
+<div class="p">
+<sup>3</sup>Department of Ophthalmology, University of Washington, Seattle, WA, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lee%20AY"[Author]' class="usa-link"><span class="name western">Aaron Y Lee</span></a>
+</div>
+</div>
+<sup>3</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="A1">
+<sup>1</sup>Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA</div>
+<div id="A2">
+<sup>2</sup>Health Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA</div>
+<div id="A3">
+<sup>3</sup>Department of Ophthalmology, University of Washington, Seattle, WA, USA</div>
+<div class="author-notes p"><div class="fn" id="CR1">
+<sup>✉</sup><p class="display-inline"><strong>Corresponding Author</strong>: Aaron Y. Lee, Box 359608, 325 Ninth Ave., Seattle, WA 98104, <span>leeay@uw.edu</span></p>
+</div></div>
+</div>
+<div id="clp_a" class="d-panel p" style="display: none"><div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div></div>
+</div>
+<div>PMCID: PMC8373825  NIHMSID: NIHMS1718437  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34231531/" class="usa-link">34231531</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article"><div>The publisher's version of this article is available at <a href="https://doi.org/10.1097/ICU.0000000000000781" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Curr Opin Ophthalmol</a>
+</div></div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="ABS1"><h2>Abstract</h2>
+<section id="S1"><h3 class="pmc_sec_title">Purpose of review:</h3>
+<p id="P1">The purpose of this review is to provide an overview of healthcare standards and their relevance to multiple ophthalmic workflows, with a specific emphasis on describing gaps in standards development needed for improved integration of artificial intelligence (AI) technologies into ophthalmic practice.</p></section><section id="S2"><h3 class="pmc_sec_title">Recent findings:</h3>
+<p id="P2">Healthcare standards are an essential component of data exchange and critical for clinical practice, research, and public health surveillance activities. Standards enable interoperability between clinical information systems, healthcare information exchange between institutions, and clinical decision support in a complex health information technology ecosystem. There are several gaps in standards in ophthalmology, including relatively low adoption of imaging standards, lack of use cases for integrating apps providing AI-based decision support, lack of common data models to harmonize big data repositories, and no standards regarding interfaces and algorithmic outputs.</p></section><section id="S3"><h3 class="pmc_sec_title">Summary:</h3>
+<p id="P3">These gaps in standards represent opportunities for future work to develop improved data flow between various elements of the digital health ecosystem. This will enable more widespread adoption and integration of AI-based tools into clinical practice. Engagement and support from the ophthalmology community for standards development will be important for advancing this work.</p></section><section id="kwd-group1" class="kwd-group"><p><strong>Keywords:</strong> artificial intelligence, imaging, informatics, standards, interoperability, ophthalmology</p></section></section><section id="S4"><h2 class="pmc_sec_title">Introduction</h2>
+<p id="P4">Innovations in artificial intelligence (AI) algorithms have exponentially increased with the widespread digitization of healthcare data. The literature describing AI algorithms and models for ophthalmic applications, particularly in automated imaging diagnosis, is ever-increasing(<a href="#R1" class="usa-link" aria-describedby="R1">1</a>,<a href="#R2" class="usa-link" aria-describedby="R2">2</a>). However, the implementation of AI-based technologies into clinical ophthalmic practice is still in relatively early stages. For widespread deployment to be possible, standards need to be developed to enable seamless and automated communication between devices and information systems such as electronic health records (EHRs), imaging systems, and decision support systems.</p>
+<p id="P5">Here, we will provide an overview of healthcare standards and the need for information exchange between different systems (<a href="#F1" class="usa-link">Figure</a>). We will describe some applications for AI-based technologies in ophthalmic workflows and describe key gaps in standards development. We hope to highlight opportunities for future work to enhance the implementation and impact of AI in day-to-day clinical practice.</p>
+<figure class="fig xbox font-sm" id="F1"><h3 class="obj_head">Figure. Integration of AI models into the healthcare ecosystem.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/fafe/8373825/c5410be56f96/nihms-1718437-f0001.jpg" loading="lazy" height="1920" width="1845" alt="Figure."></p>
+<div class="p text-right font-secondary"><a href="figure/F1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p id="P38">A representative sample of information flow between healthcare modalities and the standards that can drive their interoperability.</p></figcaption></figure></section><section id="S5"><h2 class="pmc_sec_title">Standards: What are they and why do we need them?</h2>
+<p id="P6">Healthcare standards enable communication and information exchange essential to clinical care(<a href="#R3" class="usa-link" aria-describedby="R3">3**</a>). Key definitions relevant to healthcare standards are in <a href="#T1" class="usa-link">Table 1</a>, and some concepts related to standards are detailed below.</p>
+<section class="tw xbox font-sm" id="T1"><h3 class="obj_head">Table 1. Key Definitions related to Healthcare Standards.</h3>
+<div class="caption p"><p id="P39">These are examples and descriptions of healthcare standards and clinical terminologies, as well as other abbreviations commonly encountered when discussing healthcare data exchange.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all">
+<colgroup span="1">
+<col align="left" valign="middle" span="1">
+<col align="left" valign="middle" span="1">
+<col align="left" valign="middle" span="1">
+</colgroup>
+<thead><tr>
+<th align="center" valign="top" rowspan="1" colspan="1">Abbreviation/Common Name</th>
+<th align="center" valign="top" rowspan="1" colspan="1">Full Name</th>
+<th align="center" valign="top" rowspan="1" colspan="1">Brief Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>API</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Application Programming Interface</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Interface/software intermediary allowing two applications to interact and exchange information</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>CDA</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Clinical Document Architecture</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Framework for sharing clinical documents that contain both human-readable text and machine-readable XML; important for health information exchange for data transfer between different institutions</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>CPT</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Current Procedural Terminology</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Codes related to procedures, tasks, or services provided in the course of clinical care that can be used for tracking/reporting or billing</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>DICOM</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Digital Imaging and Communications in Medicine</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Standard for storage, exchange, and transmission of medical images</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>EHR</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Electronic Health Record</td>
+<td align="left" valign="top" rowspan="1" colspan="1">System for making “transactions” (i.e. orders) related to clinical care, enabling documentation of clinical care, and storing data related to care</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>FHIR</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Fast Healthcare Interoperability Resource</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Specification for exchanging healthcare data, and includes both clinical components and administrative/infrastructure components</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>HIE</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Health Information Exchange</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Networks to exchange health information for shared patients with health data in different information systems at different institutions</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>HL-7</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Health Level Seven International</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Organization focused on developing standards for exchange, integration, sharing, and retrieval of electronic health information</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>ICD</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">International Statistical Classification of Diseases and Related Health Problems</td>
+<td align="left" valign="top" rowspan="1" colspan="1">International standards for reporting diseases and health conditions in a comprehensive, hierarchical fashion; designed for output/reporting</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>IHE</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Integrating the Healthcare Enterprise</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Organization centered on developing “profiles” to define how different systems should cooperate and share information</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>LOINC</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Logical Observation Identifiers Names and Codes</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Standards for medical laboratory observations, microbiology tests, clinical concepts, clinical documents, and survey instruments; 6-part name given to each observation identity</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>PACS</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Picture archiving and communication system</td>
+<td align="left" valign="top" rowspan="1" colspan="1">System that provides storage and access to images, including the imaging modalities, a secured network for transmitting patient information, workstations/interfaces for reviewing images, and archives for storing images</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>RxNorm</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Standards using normalized names for clinical drugs and allowing linkage between different drug vocabularies</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>SMART on FHIR</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Substitutable Medical Applications, Reusable Technologies (SMART) on Fast Healthcare Interoperability Resource (FHIR)</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Standards for formalizing the process for how apps interact with FHIR interfaces, how they launch within an EHR, and standardizing security protocols for data exchange</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>SNOMED</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Systematized Nomenclature of Medicine</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Reference terminology for medical concepts designed to codify input into EHRs</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section><section id="S6"><h3 class="pmc_sec_title">Interoperability</h3>
+<p id="P7">Standards allow interoperability between different information systems. For example, laboratory measurements need to be transferred from laboratory information systems and the devices that are directly acquiring measurements to EHR systems for clinician viewing, without requiring the clinician to log into the original laboratory system or physically access the device. The Logical Observation Identifiers Names and Codes (LOINC) standard is a coding system that allows electronic transactions between independent computer systems involving laboratory and other clinical measures(<a href="#R4" class="usa-link" aria-describedby="R4">4</a>–<a href="#R6" class="usa-link" aria-describedby="R6">6</a>).</p>
+<p id="P8">Another key example highly relevant for ophthalmology is communicating information from imaging devices. The international standard for biomedical imaging data is the Digital Imaging and Communications in Medicine (DICOM) standard(<a href="#R7" class="usa-link" aria-describedby="R7">7</a>). The standards include not only descriptors of the image itself, but also defines network services for exchange, storage, and access to images; standards for products of image analysis applications; and standards for imaging department workflow management.</p>
+<p id="P9">Clinical terminologies are standards relatively more well-known to clinicians. These include diagnosis codes, such as the International Classification of Disease (ICD)(<a href="#R8" class="usa-link" aria-describedby="R8">8</a>) and the Systemized Nomenclature of Medicine (SNOMED)(<a href="#R9" class="usa-link" aria-describedby="R9">9</a>), as well as procedure codes, such as Current Procedural Terminology (CPT)(<a href="#R10" class="usa-link" aria-describedby="R10">10</a>). These enable consistency in clinical documentation, billing, research, and public health reporting. Although there are known challenges with diagnosis and procedure coding, such as incomplete or inconsistent coding(<a href="#R11" class="usa-link" aria-describedby="R11">11</a>), the lack of standards would make essential tasks such as billing exponentially more challenging.</p>
+<p id="P10">One of the key standards underlying interoperability is the Fast Healthcare Interoperability Resources (FHIR) Specification(<a href="#R12" class="usa-link" aria-describedby="R12">12</a>), which entails a set of modules that encompasses items like security and privacy, terminology, administration, clinical content, medications, diagnostics, workflow, and financial, among others. The FHIR specification also describes exchangeable content as “resources” that include a commonly formatted definition, metadata, and human readable portions. FHIR is a data exchange standard that can be used standalone or in combination with other existing standards.</p></section><section id="S7"><h3 class="pmc_sec_title">Health Information Exchange (HIE)</h3>
+<p id="P11">Information also needs to be communicated between different EHR systems, such as when a patient receives clinical care at multiple locations that do not share the same information technology (IT) infrastructure. This is the central concept underlying HIE(<a href="#R13" class="usa-link" aria-describedby="R13">13</a>). This led to the development of the Clinical Document Architecture (CDA)(<a href="#R14" class="usa-link" aria-describedby="R14">14</a>), an XML-based standard for encoding clinical documents to facilitate healthcare data exchange to different institutions and to regulatory authorities.</p></section><section id="S8"><h3 class="pmc_sec_title">Clinical Decision Support within and outside of EHRs</h3>
+<p id="P12">An important application of health IT tools is to provide clinical decision support (CDS) to clinicians, often at the point of care(<a href="#R15" class="usa-link" aria-describedby="R15">15</a>). Input data (such as patient demographics or relevant clinical variables) are fed through an inference engine (such as a linear model or AI system), which then produces an output for the clinician, such as a risk estimation and/or a recommendation for subsequent management. For CDS tools internal to EHR systems, the input data, inference engine, and output all live within the same system. However, in the modern digital health era and Internet of Things (IoT), increasingly there are more iterations of all of these components(<a href="#R16" class="usa-link" aria-describedby="R16">16</a>). For example, patients may have monitoring devices at home that provide input data rather than measurements conducted in clinical laboratories(<a href="#R17" class="usa-link" aria-describedby="R17">17</a>,<a href="#R18" class="usa-link" aria-describedby="R18">18</a>). Input data may also come from surveys in patient portals(<a href="#R19" class="usa-link" aria-describedby="R19">19</a>). The number of mobile and wearable applications related to health and clinical decision support are exponentially increasing(<a href="#R20" class="usa-link" aria-describedby="R20">20</a>), and these may draw from various input data sources as well, including EHRs. Often these mobile apps have inference engines that live outside the EHR system, so standards are needed to facilitate the input of data from various sources. Similarly, once the inference engine has run and produced an output, again standards are needed for those outputs to be transferred back to EHRs or other systems. Because each app may have its own proprietary specifications, integrating apps with EHR systems on a custom, case-by-case basis would lead to enormous cost and effort, and thereby limit adoption. The recognition of this problem has led to the development of SMART on FHIR(<a href="#R21" class="usa-link" aria-describedby="R21">21</a>), which centers on application programming interfaces (APIs) where standards allow apps to “plug-and-play” to various information systems and achieve effective data flow without requiring custom interface development.</p>
+<p id="P13">Taken together, there is a complex healthcare information ecosystem (<a href="#F1" class="usa-link">Figure</a>) wherein data need to flow between different components. Standards allow different systems to “talk” to one another and ensure that data are generated, transferred, and stored in a consistent manner without needing to customize each data exchange. This is important not only for clinical care, but also for secondary applications of health data such as research and public health surveillance.</p></section></section><section id="S9"><h2 class="pmc_sec_title">Gaps in Standards for Integrating AI into Clinical Workflows</h2>
+<p id="P14">Even if an AI algorithm or model has excellent performance in isolation, its impact will be limited without successful integration within the larger health IT ecosystem. Here, we will describe some areas where AI may be applied into ophthalmic workflows and associated gaps in standards development and/or implementation.</p>
+<section id="S10"><h3 class="pmc_sec_title">Imaging</h3>
+<p id="P15">Imaging has become a core component of ophthalmic practice. A wide range of AI models have been developed to automate diagnoses of various types of images, to segment anatomic components or identify lesions within images, and to predict disease progression in a variety of contexts(<a href="#R22" class="usa-link" aria-describedby="R22">22</a>–<a href="#R24" class="usa-link" aria-describedby="R24">24</a>). However, besides assisting with imaging analysis and interpretation, AI could also be used for streamlining imaging workflows, such as facilitating ordering and scheduling (for instance, automatically generating orders for patients with diabetes to undergo retinal imaging annually).</p>
+<p id="P16">Currently, there are major gaps in ophthalmic imaging standards. DICOM standards are recognized international standards for medical imaging, yet ophthalmology manufacturers’ adoption of DICOM remains disappointingly low, particularly compared to other imaging-centric specialties such as radiology or cardiology(<a href="#R25" class="usa-link" aria-describedby="R25">25*</a>). The DICOM standard specifies a description of the image, patient demographic information, the image capture protocol, and relevant outputs such as algorithmically derived measurements(<a href="#R7" class="usa-link" aria-describedby="R7">7</a>). While it has become commonplace for ophthalmic devices to accept patient demographic information through DICOM modality worklist, ophthalmic devices seldom include adoption of the standards that would facilitate data transfer in and out of imaging devices to other information systems(<a href="#R25" class="usa-link" aria-describedby="R25">25</a>). Frequently, the imaging or measurement data are not readable without proprietary software or custom interfaces. There are currently no standards by which specific ophthalmic clinical data from EHR systems can be exchanged to augment analytics. Even in cases a manufacturer has developed a DICOM interface, it is frequently not included as a standard feature and requires further investment in the form of manufacturer-specific PACS or DICOM module, leading to low adoption by ophthalmology practices. Plus, the prevailing model in ophthalmic devices for the analytic software to be built into the devices. Without a wide adoption of standards that allow third-party algorithms to access the data, this model will likely continue, further hindering implementation of imaging-based AI algorithm into clinical practice.</p></section><section id="S11"><h3 class="pmc_sec_title">Clinical Decision Support (CDS)</h3>
+<p id="P17">With the vast quantities of data now available with widespread adoption of EHRs and other digital health tools(<a href="#R26" class="usa-link" aria-describedby="R26">26</a>–<a href="#R28" class="usa-link" aria-describedby="R28">28</a>), numerous predictive models have been developed across a range of clinical applications(<a href="#R29" class="usa-link" aria-describedby="R29">29</a>). These models aim to improve identification and risk stratification of patients. CDS involves embedding these models into health IT systems for facilitating real-time risk prediction, at the point of care. This “prediction technology” and real-time CDS is one of the key anticipated benefits of AI in improving healthcare(<a href="#R30" class="usa-link" aria-describedby="R30">30</a>). Particularly with the increasing use of machine learning and deep learning, these AI-based algorithms have the potential to improve predictive performance and further advance a precision approach to treatment. However, a recent systematic review of predictive models embedded into EHR systems found that only 10% of implemented models used machine learning or deep learning(<a href="#R31" class="usa-link" aria-describedby="R31">31*</a>), demonstrating the nascent nature of this application.</p>
+<p id="P18">As mentioned previously, there are increasing complexities to data flow (and subsequently to CDS interventions) with a growing digital health environment that expands beyond EHRs. As such, use of standards will become increasingly important to allow data exchange necessary for AI algorithms to provide appropriate and timely CDS. This is a growth area for ophthalmology, as our recent review of the literature yielded zero publications describing SMART on FHIR standards applied to CDS interventions relevant to ophthalmology. As AI-based tools continue to advance for ophthalmic applications, more investigation is needed to develop use cases and describe best practices.</p></section><section id="S12"><h3 class="pmc_sec_title">Harmonizing Big Data Repositories</h3>
+<p id="P19">Many AI algorithms, particularly those leveraging deep learning techniques, are “data-hungry” and require large volumes of training data to achieve high performance(<a href="#R32" class="usa-link" aria-describedby="R32">32</a>). Training data may consist of imaging data, EHR data, or unstructured/narrative data, depending on the context and the anticipated application of the AI algorithm. We have already mentioned how the relative lack of DICOM adoption has hindered the advancement of AI for imaging, and one manifestation of this lies in the difficulty of developing datasets comprised of images from different imaging devices or PACS systems. Developing those datasets is currently an effort-intensive, manual process in the absence of appropriate DICOM standards adoption.</p>
+<p id="P20">In the realm of EHR data, the recognition of the need for big data repositories to drive innovation in AI and allow development of improved algorithms that require massive amounts of data from numerous patients has led to the development of “common data models,” such as the Informatics for Integrating Biology &amp; the Bedside (i2b2) model(<a href="#R33" class="usa-link" aria-describedby="R33">33</a>,<a href="#R34" class="usa-link" aria-describedby="R34">34</a>) or the Observation Medical Outcomes Partnership (OMOP) data model(<a href="#R35" class="usa-link" aria-describedby="R35">35</a>,<a href="#R36" class="usa-link" aria-describedby="R36">36</a>), to provide a standard unifying data from disparate sources using different EHR systems. This allows merging of data from multiple institutions and organizations to create large central data repositories, such as the NIH All of Us Research Program(<a href="#R37" class="usa-link" aria-describedby="R37">37</a>). Even when institutions may not be directly sharing data with each other to create a shared central data repository, the mapping of data to a shared data model allows distributed or federated analyses to be performed and ensures consistency in definitions of clinical variables, such as what has been done by the pSCANNER consortium(<a href="#R38" class="usa-link" aria-describedby="R38">38</a>). However, big datasets in ophthalmology – such as the Intelligent Research in Sight (IRIS) registry hosted by the American Academy of Ophthalmology(<a href="#R39" class="usa-link" aria-describedby="R39">39</a>) and the Sight Outcomes Research Collaborative (SOURCE) Ophthalmology Electronic Health Record Data Repository hosted by the University of Michigan(<a href="#R40" class="usa-link" aria-describedby="R40">40</a>,<a href="#R41" class="usa-link" aria-describedby="R41">41</a>) – have not adopted a common data model. The lack of standards means that these ophthalmic datasets cannot “cross-talk” with each other, nor can they be easily combined with existing datasets that use a common data model. One reason why a common data model has not been adopted could be that the existing models do not adequately address the needs of ophthalmology. Additionally, development of the OMOP model was still in its infancy when the IRIS registry first started. Our field would likely benefit from re-evaluating OMOP and engaging with the body governing the model, the Observational Health Data Sciences and Informatics (OHDSI), to understand how the OMOP model could be revised to be better applied to ophthalmology. Otherwise, we will miss out on opportunities to engage with the massive datasets mapped to OMOP or other common data models.</p></section><section id="S13"><h3 class="pmc_sec_title">Other Implementation Considerations: Interfaces and Algorithmic Outputs</h3>
+<p id="P21">There are well-known implementation principles of CDS from the applied informatics literature, primarily derived from traditional CDS interventions that use rule-based logic, but these principles still apply to AI-based tools that employ more complicated inference engines. These principles include having an appropriate “trigger” for the CDS, presenting CDS to the appropriate audience/user, presenting CDS in the right format (e.g. interruptive alert vs. passive notification on a dashboard), and sociotechnical considerations such as adequate support from system leadership, appropriate training and awareness of the tool, and appropriate stewardship of CDS tools in general to mitigate alert fatigue and cognitive overload for users(<a href="#R42" class="usa-link" aria-describedby="R42">42</a>–<a href="#R45" class="usa-link" aria-describedby="R45">45*</a>). CDS triggers have traditionally lived within EHR systems (e.g. placing certain orders or having particular laboratory values). As medical AI systems evolve, data from different domains of medicine will likely need to be integrated together. For example, deep learning models that can provide CDS in cataract surgery may require data from the EHR systems, biometry, and corneal topography data. These multidomain AI models will likely outperform single domain AI approaches but will require real-time interoperability at the point of care. This is complicated by large EHR vendors that have dominant market share and can potentially monopolize interfaces for AI-based CDS, and also by ophthalmic PACS that insufficiently adopt standards to allow information exchange with AI inference engines. In such a proprietary environment, it will be difficult to achieve a “plug-and-play” system where different AI algorithms can be connected to existing systems for point-of-care clinical use, rather than living in siloed environments or requiring custom interfaces.</p>
+<p id="P22">Another gap is developing standards for algorithmic outputs derived from AI models. There has been a great deal of emphasis on creating machine-readable input for AI models, but relatively less attention paid to creating machine-readable results/outputs. A classic example of limitations associated with non-machine-readable outputs is when a patient is sent for genetic testing, and the results return in a PDF file that is scanned into the EHR, rather than as a discrete LOINC-encoded data point in the way laboratory values are encoded(<a href="#R46" class="usa-link" aria-describedby="R46">46</a>). Subsequently, it is not only difficult to locate the testing result for that individual patient when it is embedded in a PDF file, but querying the data warehouse to identify patients with particular genetic variants is impossible. Similarly, AI algorithms need to produce machine-readable outputs to be of greater clinical utility, and this requires standards development. For example, if an AI algorithm processes an ophthalmic image and produces an output, that output should be able to be transferred to other information systems such as EHRs. Currently, they largely live within non-machine-readable images isolated within ophthalmic PACS and require manual review by ophthalmologists, who then may transcribe the information into their notes, and this remains a non-machine-readable output. Standards are needed to automate the transfer of algorithmic outputs across various settings and systems. Furthermore, without machine-readable algorithmic outputs, it will not be possible to develop multi-step, multi-vendor pipelines for AI-based analysis.</p></section><section id="S14"><h3 class="pmc_sec_title">Health Policy and an Ophthalmology Standards Community</h3>
+<p id="P23">The 21<sup>st</sup> Century Cures Act(<a href="#R47" class="usa-link" aria-describedby="R47">47**</a>) has led to widespread efforts in health IT to improve interoperability in EHRs. Standards development has been crucial to optimizing clinical information systems to share data between organizations and with patients. The ophthalmology community would benefit from greater engagement in standards development, particularly given the need to effectively integrate AI-based technologies with clinical information systems. There are ongoing efforts at the American Academy of Ophthalmology to support standards development and engagement with the broader healthcare standards community. However, without broader support of these efforts from practicing clinicians, vendors and manufacturers will not be incentivized to adopt standards.</p></section></section><section id="S15"><h2 class="pmc_sec_title">Conclusion</h2>
+<p id="P24">In conclusion, there are several areas where further standards development is needed to fully realize the potential benefits of AI technologies in ophthalmic practice. Efforts to promote standards in imaging, information exchange between clinical information systems and external AI inference engines, and AI interfaces and outputs will have substantial benefits in future practice. These standards will facilitate more widespread integration of AI technologies.</p></section><section id="floats-group1" class="floats-group"><section class="bt xbox font-sm" id="BX1"><h2 class="obj_head">Key Points.</h2>
+<ul id="L2" class="list" style="list-style-type:disc">
+<li><p id="P40">Healthcare standards are critical for facilitating information exchange of important clinical data.</p></li>
+<li><p id="P41">Existing standards have been developed for EHR data, imaging, and digital health app ecosystems, but adoption in ophthalmology remains low.</p></li>
+<li><p id="P42">Key gaps in standards that are particularly relevant for AI-related technologies include low adoption of DICOM standards for imaging, a lack of a shared common data model for ophthalmic EHR data, and lack of standards for interfaces and algorithmic outputs.</p></li>
+<li><p id="P43">Support for standards development and adoption among the ophthalmology community will be critical for advancing the utility of AI for real-world clinical practice.</p></li>
+</ul></section></section><section id="S16" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<section id="S17"><h3 class="pmc_sec_title">Financial support and sponsorship:</h3>
+<p id="P25">SLB is supported by the National Institutes of Health Office of the Director Grant 1DP5OD029610 (Bethesda, MD) and an unrestricted grant from Research to Prevent Blindness. AYL reports support from the National Eye Institute (K23EY029246) and an unrestricted grant from the Research to Prevent Blindness.</p></section><section id="S18"><h3 class="pmc_sec_title">Funding/Support:</h3>
+<p id="P26">SLB is supported by the National Institutes of Health Office of the Director Grant 1DP5OD029610 (Bethesda, MD) and an unrestricted grant from Research to Prevent Blindness. AYL reports support from the US Food and Drug Administration, grants from Santen, Regeneron, Carl Zeiss Meditec, and Novartis, personal fees from Genentech, Topcon, Gyroscope, Johnson and Johnson, and Verana Health, outside of the submitted work; This article does not reflect the opinions of the Food and Drug Administration.</p></section><section id="S19"><h3 class="pmc_sec_title">Conflicts of Interest:</h3>
+<p id="P27">SLB has no conflicts of interest to disclose. AYL reports personal fees from Genentech, Topcon, Gyroscope, Johnson and Johnson, and Verana Health, outside of the submitted work. AYL is also an employee of the Food and Drug Administration, grants from Santen, Regeneron, Carl Zeiss Meditec, and Novartis. This article does not reflect the opinions of the Food and Drug Administration.</p></section></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">REFERENCES</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="R1">
+<span class="label">1.</span><cite>Lin W-C, Chen JS, Chiang MF, Hribar MR. Applications of Artificial Intelligence to Electronic Health Record Data in Ophthalmology. Transl Vis Sci Technol. 2020February27;9(2):13.</cite> [<a href="https://doi.org/10.1167/tvst.9.2.13" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7347028/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32704419/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Transl%20Vis%20Sci%20Technol&amp;title=Applications%20of%20Artificial%20Intelligence%20to%20Electronic%20Health%20Record%20Data%20in%20Ophthalmology&amp;author=W-C%20Lin&amp;author=JS%20Chen&amp;author=MF%20Chiang&amp;author=MR%20Hribar&amp;volume=9&amp;issue=2&amp;publication_year=2020&amp;pages=13&amp;pmid=32704419&amp;doi=10.1167/tvst.9.2.13&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R2">
+<span class="label">2.</span><cite>Moraru AD, Costin D, Moraru RL, Branisteanu DC. Artificial intelligence and deep learning in ophthalmology - present and future (Review). Exp Ther Med. 2020October;20(4):3469–73.</cite> [<a href="https://doi.org/10.3892/etm.2020.9118" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7465350/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32905155/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Exp%20Ther%20Med&amp;title=Artificial%20intelligence%20and%20deep%20learning%20in%20ophthalmology%20-%20present%20and%20future%20(Review)&amp;author=AD%20Moraru&amp;author=D%20Costin&amp;author=RL%20Moraru&amp;author=DC%20Branisteanu&amp;volume=20&amp;issue=4&amp;publication_year=2020&amp;pages=3469-73&amp;pmid=32905155&amp;doi=10.3892/etm.2020.9118&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R3">
+<span class="label">3**.</span><cite>Health IT Standards | <a href="https://HealthIT.gov" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">HealthIT.gov</a> [Internet]. [cited2021 May 10]. Available from: <a href="https://www.healthit.gov/topic/standards-technology/health-it-standards" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.healthit.gov/topic/standards-technology/health-it-standards</a></cite>; <cite> This page from  <a href="https://HealthIT.gov" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">HealthIT.gov</a> provides an excellent overview of health IT standards and a broad perspective relevant to the content of this article.</cite>
+</li>
+<li id="R4">
+<span class="label">4.</span><cite>Martin MK. No lab is an island: universal coding of laboratory test names. J Vet Diagn Invest. 2021May;33(3):415–8.</cite> [<a href="https://doi.org/10.1177/1040638721994829" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8120069/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33568009/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Vet%20Diagn%20Invest&amp;title=No%20lab%20is%20an%20island:%20universal%20coding%20of%20laboratory%20test%20names&amp;author=MK%20Martin&amp;volume=33&amp;issue=3&amp;publication_year=2021&amp;pages=415-8&amp;pmid=33568009&amp;doi=10.1177/1040638721994829&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R5">
+<span class="label">5.</span><cite>Bhargava A, Kim T, Quine DB, Hauser RG. A 20-Year Evaluation of LOINC in the United States’ Largest Integrated Health System. Arch Pathol Lab Med. 2020April;144(4):478–84.</cite> [<a href="https://doi.org/10.5858/arpa.2019-0055-OA" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31469586/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Arch%20Pathol%20Lab%20Med&amp;title=A%2020-Year%20Evaluation%20of%20LOINC%20in%20the%20United%20States%E2%80%99%20Largest%20Integrated%20Health%20System&amp;author=A%20Bhargava&amp;author=T%20Kim&amp;author=DB%20Quine&amp;author=RG%20Hauser&amp;volume=144&amp;issue=4&amp;publication_year=2020&amp;pages=478-84&amp;pmid=31469586&amp;doi=10.5858/arpa.2019-0055-OA&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R6">
+<span class="label">6.</span><cite>Home – LOINC [Internet]. [cited2021 May 10]. Available from: <a href="https://loinc.org/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://loinc.org/</a></cite>
+</li>
+<li id="R7">
+<span class="label">7.</span><cite>DICOM [Internet]. DICOM. [cited2021 May 10]. Available from: <a href="https://www.dicomstandard.org" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.dicomstandard.org</a></cite>
+</li>
+<li id="R8">
+<span class="label">8.</span><cite>Classification of Diseases (ICD) [Internet]. [cited2021 May 10]. Available from: <a href="https://www.who.int/standards/classifications/classification-of-diseases" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.who.int/standards/classifications/classification-of-diseases</a></cite>
+</li>
+<li id="R9">
+<span class="label">9.</span><cite>SNOMED - Home | SNOMED International [Internet]. [cited2021 May 10]. Available from: <a href="https://www.snomed.org/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.snomed.org/</a></cite>
+</li>
+<li id="R10">
+<span class="label">10.</span><cite>CPT® (Current Procedural Terminology) | AMA [Internet]. [cited2021 May 10]. Available from: <a href="https://www.ama-assn.org/amaone/cpt-current-procedural-terminology" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.ama-assn.org/amaone/cpt-current-procedural-terminology</a></cite>
+</li>
+<li id="R11">
+<span class="label">11.</span><cite>Rudrapatna VA, Butte AJ. Opportunities and challenges in using real-world data for health care. J Clin Invest. 2020February3;130(2):565–74.</cite> [<a href="https://doi.org/10.1172/JCI129197" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6994109/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32011317/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Clin%20Invest&amp;title=Opportunities%20and%20challenges%20in%20using%20real-world%20data%20for%20health%20care&amp;author=VA%20Rudrapatna&amp;author=AJ%20Butte&amp;volume=130&amp;issue=2&amp;publication_year=2020&amp;pages=565-74&amp;pmid=32011317&amp;doi=10.1172/JCI129197&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R12">
+<span class="label">12.</span><cite>Overview - FHIR v4.0.1 [Internet]. [cited2021 May 10]. Available from: <a href="https://www.hl7.org/fhir/overview.html" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.hl7.org/fhir/overview.html</a></cite>
+</li>
+<li id="R13">
+<span class="label">13.</span><cite>Health Information Exchange | <a href="https://HealthIT.gov" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">HealthIT.gov</a> [Internet]. [cited2021 May 10]. Available from: <a href="https://www.healthit.gov/topic/health-it-and-health-information-exchange-basics/health-information-exchange" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.healthit.gov/topic/health-it-and-health-information-exchange-basics/health-information-exchange</a></cite>
+</li>
+<li id="R14">
+<span class="label">14.</span><cite>Consolidated CDA Overview | <a href="https://HealthIT.gov" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">HealthIT.gov</a> [Internet]. [cited2021 May 10]. Available from: <a href="https://www.healthit.gov/topic/standards-technology/consolidated-cda-overview" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.healthit.gov/topic/standards-technology/consolidated-cda-overview</a></cite>
+</li>
+<li id="R15">
+<span class="label">15.</span><cite>Sutton RT, Pincock D, Baumgart DC, Sadowski DC, Fedorak RN, Kroeker KI. An overview of clinical decision support systems: benefits, risks, and strategies for success. npj Digital Medicine. 2020February6;3(1):1–10.</cite> [<a href="https://doi.org/10.1038/s41746-020-0221-y" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7005290/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32047862/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=npj%20Digital%20Medicine&amp;title=An%20overview%20of%20clinical%20decision%20support%20systems:%20benefits,%20risks,%20and%20strategies%20for%20success&amp;author=RT%20Sutton&amp;author=D%20Pincock&amp;author=DC%20Baumgart&amp;author=DC%20Sadowski&amp;author=RN%20Fedorak&amp;volume=3&amp;issue=1&amp;publication_year=2020&amp;pages=1-10&amp;pmid=32047862&amp;doi=10.1038/s41746-020-0221-y&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R16">
+<span class="label">16.</span><cite>Qadri YA, Nauman A, Zikria YB, Vasilakos AV, Kim SW. The Future of Healthcare Internet of Things: A Survey of Emerging Technologies. IEEE Communications Surveys Tutorials. 2020Secondquarter;22(2):1121–67.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=IEEE%20Communications%20Surveys%20Tutorials&amp;title=The%20Future%20of%20Healthcare%20Internet%20of%20Things:%20A%20Survey%20of%20Emerging%20Technologies&amp;author=YA%20Qadri&amp;author=A%20Nauman&amp;author=YB%20Zikria&amp;author=AV%20Vasilakos&amp;author=SW%20Kim&amp;volume=22&amp;issue=2&amp;publication_year=2020&amp;pages=1121-67&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R17">
+<span class="label">17.</span><cite>Faes L, Bachmann LM, Sim DA. Home monitoring as a useful extension of modern tele-ophthalmology. Eye. 2020November;34(11):1950–3.</cite> [<a href="https://doi.org/10.1038/s41433-020-0964-3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7784909/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32405047/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eye&amp;title=Home%20monitoring%20as%20a%20useful%20extension%20of%20modern%20tele-ophthalmology&amp;author=L%20Faes&amp;author=LM%20Bachmann&amp;author=DA%20Sim&amp;volume=34&amp;issue=11&amp;publication_year=2020&amp;pages=1950-3&amp;pmid=32405047&amp;doi=10.1038/s41433-020-0964-3&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R18">
+<span class="label">18.</span><cite>Bradley SM. Use of Mobile Health and Patient-Generated Data—Making Health Care Better by Making Health Care Different. JAMA Network Open. 2020April16;3(4):e202971–e202971.</cite> [<a href="https://doi.org/10.1001/jamanetworkopen.2020.2971" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32297943/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Network%20Open&amp;title=Use%20of%20Mobile%20Health%20and%20Patient-Generated%20Data%E2%80%94Making%20Health%20Care%20Better%20by%20Making%20Health%20Care%20Different&amp;author=SM%20Bradley&amp;volume=3&amp;issue=4&amp;publication_year=2020&amp;pages=e202971-e202971&amp;pmid=32297943&amp;doi=10.1001/jamanetworkopen.2020.2971&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R19">
+<span class="label">19.</span><cite>Lyles CR, Nelson EC, Frampton S, Dykes PC, Cemballi AG, Sarkar U. Using Electronic Health Record Portals to Improve Patient Engagement: Research Priorities and Best Practices. Ann Intern Med. 2020June2;172(11_Supplement):S123–9.</cite> [<a href="https://doi.org/10.7326/M19-0876" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7800164/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32479176/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Intern%20Med&amp;title=Using%20Electronic%20Health%20Record%20Portals%20to%20Improve%20Patient%20Engagement:%20Research%20Priorities%20and%20Best%20Practices&amp;author=CR%20Lyles&amp;author=EC%20Nelson&amp;author=S%20Frampton&amp;author=PC%20Dykes&amp;author=AG%20Cemballi&amp;volume=172&amp;issue=11_Supplement&amp;publication_year=2020&amp;pages=S123-9&amp;pmid=32479176&amp;doi=10.7326/M19-0876&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R20">
+<span class="label">20.</span><cite>Aruljyothi L, Janakiraman A, Malligarjun B, Babu BM. Smartphone applications in ophthalmology: A quantitative analysis. Indian J Ophthalmol. 2021March;69(3):548–53.</cite> [<a href="https://doi.org/10.4103/ijo.IJO_1480_20" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7942060/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33595469/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Indian%20J%20Ophthalmol&amp;title=Smartphone%20applications%20in%20ophthalmology:%20A%20quantitative%20analysis&amp;author=L%20Aruljyothi&amp;author=A%20Janakiraman&amp;author=B%20Malligarjun&amp;author=BM%20Babu&amp;volume=69&amp;issue=3&amp;publication_year=2021&amp;pages=548-53&amp;pmid=33595469&amp;doi=10.4103/ijo.IJO_1480_20&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R21">
+<span class="label">21.</span><cite>SMART on FHIR [Internet]. [cited2021 May 10]. Available from: <a href="https://docs.smarthealthit.org/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://docs.smarthealthit.org/</a></cite>
+</li>
+<li id="R22">
+<span class="label">22.</span><cite>Gulshan V, Peng L, Coram M, Stumpe MC, Wu D, Narayanaswamy A, et al. Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs. JAMA. 2016December13;316(22):2402.</cite> [<a href="https://doi.org/10.1001/jama.2016.17216" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27898976/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Development%20and%20Validation%20of%20a%20Deep%20Learning%20Algorithm%20for%20Detection%20of%20Diabetic%20Retinopathy%20in%20Retinal%20Fundus%20Photographs&amp;author=V%20Gulshan&amp;author=L%20Peng&amp;author=M%20Coram&amp;author=MC%20Stumpe&amp;author=D%20Wu&amp;volume=316&amp;issue=22&amp;publication_year=2016&amp;pages=2402&amp;pmid=27898976&amp;doi=10.1001/jama.2016.17216&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R23">
+<span class="label">23.</span><cite>Kermany DS, Goldbaum M, Cai W, Valentim CCS, Liang H, Baxter SL, et al. Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning. Cell. 2018February22;172(5):1122–1131.e9.</cite> [<a href="https://doi.org/10.1016/j.cell.2018.02.010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29474911/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Cell&amp;title=Identifying%20Medical%20Diagnoses%20and%20Treatable%20Diseases%20by%20Image-Based%20Deep%20Learning&amp;author=DS%20Kermany&amp;author=M%20Goldbaum&amp;author=W%20Cai&amp;author=CCS%20Valentim&amp;author=H%20Liang&amp;volume=172&amp;issue=5&amp;publication_year=2018&amp;pages=1122-1131.e9&amp;pmid=29474911&amp;doi=10.1016/j.cell.2018.02.010&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R24">
+<span class="label">24.</span><cite>Mehta P, Petersen CA, Wen JC, Banitt MR, Chen PP, Bojikian KD, et al. Automated detection of glaucoma with interpretable machine learning using clinical data and multi-modal retinal images. Am J Ophthalmol. 2021May1;</cite> [<a href="https://doi.org/10.1016/j.ajo.2021.04.021" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8560651/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33945818/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Ophthalmol&amp;title=Automated%20detection%20of%20glaucoma%20with%20interpretable%20machine%20learning%20using%20clinical%20data%20and%20multi-modal%20retinal%20images&amp;author=P%20Mehta&amp;author=CA%20Petersen&amp;author=JC%20Wen&amp;author=MR%20Banitt&amp;author=PP%20Chen&amp;publication_year=2021&amp;pmid=33945818&amp;doi=10.1016/j.ajo.2021.04.021&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R25">
+<span class="label">25*.</span><cite>Lee AY, Campbell JP, Hwang TS, Lum F, Chew EY. Recommendations for Standardization of Images in Ophthalmology. Ophthalmology [Internet]. 2021April5 [cited
+2021 Apr 12]; Available from: <a href="https://www.sciencedirect.com/science/article/pii/S0161642021001640" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.sciencedirect.com/science/article/pii/S0161642021001640</a></cite> [<a href="https://doi.org/10.1016/j.ophtha.2021.03.003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8335850/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33832778/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ophthalmology%20[Internet]&amp;title=Recommendations%20for%20Standardization%20of%20Images%20in%20Ophthalmology&amp;author=AY%20Lee&amp;author=JP%20Campbell&amp;author=TS%20Hwang&amp;author=F%20Lum&amp;author=EY%20Chew&amp;publication_year=2021&amp;pmid=33832778&amp;doi=10.1016/j.ophtha.2021.03.003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]; <cite>This key opinion article from the American Academy of Ophthalmology describes some of the shortcomings in DICOM adoption in ophthalmology and makes the argument for improving standardization of images.</cite>
+</li>
+<li id="R26">
+<span class="label">26.</span><cite>Henry J, Pylypchuk Y, Searcy T, Patel V. Adoption of Electronic Health Record Systems among U.S. Non-Federal Acute Care Hospitals: 2008–2015 [Internet]. The Office of the National Coordinator for Health Information Technology. [cited2019 Sep 18]. Available from: /evaluations/data-briefs/non-federal-acute-care-hospital-ehr-adoption-2008-2015.php</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=The%20Office%20of%20the%20National%20Coordinator%20for%20Health%20Information%20Technology&amp;title=Adoption%20of%20Electronic%20Health%20Record%20Systems%20among%20U.S.%20Non-Federal%20Acute%20Care%20Hospitals:%202008%E2%80%932015%20[Internet]&amp;author=J%20Henry&amp;author=Y%20Pylypchuk&amp;author=T%20Searcy&amp;author=V%20Patel&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R27">
+<span class="label">27.</span><cite>Cohen MF. Impact of the HITECH financial incentives on EHR adoption in small, physician-owned practices. International Journal of Medical Informatics. 2016October;94:143–54.</cite> [<a href="https://doi.org/10.1016/j.ijmedinf.2016.06.017" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27573322/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=International%20Journal%20of%20Medical%20Informatics&amp;title=Impact%20of%20the%20HITECH%20financial%20incentives%20on%20EHR%20adoption%20in%20small,%20physician-owned%20practices&amp;author=MF%20Cohen&amp;volume=94&amp;publication_year=2016&amp;pages=143-54&amp;pmid=27573322&amp;doi=10.1016/j.ijmedinf.2016.06.017&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R28">
+<span class="label">28.</span><cite>Mennemeyer ST, Menachemi N, Rahurkar S, Ford EW. Impact of the HITECH Act on physicians’ adoption of electronic health records. Journal of the American Medical Informatics Association. 2016March;23(2):375–9.</cite> [<a href="https://doi.org/10.1093/jamia/ocv103" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7784315/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26228764/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Journal%20of%20the%20American%20Medical%20Informatics%20Association&amp;title=Impact%20of%20the%20HITECH%20Act%20on%20physicians%E2%80%99%20adoption%20of%20electronic%20health%20records&amp;author=ST%20Mennemeyer&amp;author=N%20Menachemi&amp;author=S%20Rahurkar&amp;author=EW%20Ford&amp;volume=23&amp;issue=2&amp;publication_year=2016&amp;pages=375-9&amp;pmid=26228764&amp;doi=10.1093/jamia/ocv103&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R29">
+<span class="label">29.</span><cite>Parikh RB, Kakad M, Bates DW. Integrating Predictive Analytics Into High-Value Care: The Dawn of Precision Delivery. JAMA. 2016February16;315(7):651–2.</cite> [<a href="https://doi.org/10.1001/jama.2015.19417" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26881365/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Integrating%20Predictive%20Analytics%20Into%20High-Value%20Care:%20The%20Dawn%20of%20Precision%20Delivery&amp;author=RB%20Parikh&amp;author=M%20Kakad&amp;author=DW%20Bates&amp;volume=315&amp;issue=7&amp;publication_year=2016&amp;pages=651-2&amp;pmid=26881365&amp;doi=10.1001/jama.2015.19417&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R30">
+<span class="label">30.</span><cite>Agrawal R, Prabakaran S. Big data in digital healthcare: lessons learnt and recommendations for general practice. Heredity. 2020April;124(4):525–34.</cite> [<a href="https://doi.org/10.1038/s41437-020-0303-2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7080757/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32139886/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Heredity&amp;title=Big%20data%20in%20digital%20healthcare:%20lessons%20learnt%20and%20recommendations%20for%20general%20practice&amp;author=R%20Agrawal&amp;author=S%20Prabakaran&amp;volume=124&amp;issue=4&amp;publication_year=2020&amp;pages=525-34&amp;pmid=32139886&amp;doi=10.1038/s41437-020-0303-2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R31">
+<span class="label">31*.</span><cite>Lee TC, Shah NU, Haack A, Baxter SL. Clinical Implementation of Predictive Models Embedded within Electronic Health Record Systems: A Systematic Review. Informatics. 2020September;7(3):25.</cite> [<a href="https://doi.org/10.3390/informatics7030025" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7710328/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33274178/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Informatics&amp;title=Clinical%20Implementation%20of%20Predictive%20Models%20Embedded%20within%20Electronic%20Health%20Record%20Systems:%20A%20Systematic%20Review&amp;author=TC%20Lee&amp;author=NU%20Shah&amp;author=A%20Haack&amp;author=SL%20Baxter&amp;volume=7&amp;issue=3&amp;publication_year=2020&amp;pages=25&amp;pmid=33274178&amp;doi=10.3390/informatics7030025&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]; <cite>This is a systematic review of predictive models embedded into EHRs and explores some of the implementation challenges associated with them.</cite>
+</li>
+<li id="R32">
+<span class="label">32.</span><cite>Aggarwal CC. Neural Networks and Deep Learning: A Textbook [Internet]. Cham: Springer International Publishing; 2018.  [cited
+2021 May 10]. Available from: <a href="http://link.springer.com/10.1007/978-3-319-94463-0" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://link.springer.com/10.1007/978-3-319-94463-0</a></cite> [<a href="https://scholar.google.com/scholar_lookup?title=Neural%20Networks%20and%20Deep%20Learning:%20A%20Textbook%20[Internet]&amp;author=CC%20Aggarwal&amp;publication_year=2018&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R33">
+<span class="label">33.</span><cite>Sholle ET, Cusick M, Davila MA, Kabariti J, Flores S, Campion TR. Characterizing Basic and Complex Usage of i2b2 at an Academic Medical Center. AMIA Jt Summits Transl Sci Proc. 2020May30;2020:589–96.</cite> [<a href="/articles/PMC7233105/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32477681/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=AMIA%20Jt%20Summits%20Transl%20Sci%20Proc&amp;title=Characterizing%20Basic%20and%20Complex%20Usage%20of%20i2b2%20at%20an%20Academic%20Medical%20Center&amp;author=ET%20Sholle&amp;author=M%20Cusick&amp;author=MA%20Davila&amp;author=J%20Kabariti&amp;author=S%20Flores&amp;volume=2020&amp;publication_year=2020&amp;pages=589-96&amp;pmid=32477681&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R34">
+<span class="label">34.</span><cite>i2b2: Informatics for Integrating Biology &amp; the Bedside [Internet]. [cited2021 May 10]. Available from: <a href="https://www.i2b2.org/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.i2b2.org/</a></cite>
+</li>
+<li id="R35">
+<span class="label">35.</span><cite>Maier C, Kapsner LA, Mate S, Prokosch H-U, Kraus S. Patient Cohort Identification on Time Series Data Using the OMOP Common Data Model. Appl Clin Inform. 2021January;12(1):57–64.</cite> [<a href="https://doi.org/10.1055/s-0040-1721481" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7840432/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33506478/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Appl%20Clin%20Inform&amp;title=Patient%20Cohort%20Identification%20on%20Time%20Series%20Data%20Using%20the%20OMOP%20Common%20Data%20Model&amp;author=C%20Maier&amp;author=LA%20Kapsner&amp;author=S%20Mate&amp;author=H-U%20Prokosch&amp;author=S%20Kraus&amp;volume=12&amp;issue=1&amp;publication_year=2021&amp;pages=57-64&amp;pmid=33506478&amp;doi=10.1055/s-0040-1721481&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R36">
+<span class="label">36.</span><cite>OMOP Common Data Model – OHDSI [Internet]. [cited2021 May 10]. Available from: <a href="https://www.ohdsi.org/data-standardization/the-common-data-model/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.ohdsi.org/data-standardization/the-common-data-model/</a></cite>
+</li>
+<li id="R37">
+<span class="label">37.</span><cite>The “All of Us” Research Program. New England Journal of Medicine. 2019August15;381(7):668–76.</cite> [<a href="https://doi.org/10.1056/NEJMsr1809937" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8291101/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31412182/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=New%20England%20Journal%20of%20Medicine&amp;title=The%20%E2%80%9CAll%20of%20Us%E2%80%9D%20Research%20Program&amp;volume=381&amp;issue=7&amp;publication_year=2019&amp;pages=668-76&amp;pmid=31412182&amp;doi=10.1056/NEJMsr1809937&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R38">
+<span class="label">38.</span><cite>Ohno-Machado L, Agha Z, Bell DS, Dahm L, Day ME, Doctor JN, et al. pSCANNER: patient-centered Scalable National Network for Effectiveness Research. Journal of the American Medical Informatics Association. 2014July1;21(4):621–6.</cite> [<a href="https://doi.org/10.1136/amiajnl-2014-002751" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4078293/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24780722/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Journal%20of%20the%20American%20Medical%20Informatics%20Association&amp;title=pSCANNER:%20patient-centered%20Scalable%20National%20Network%20for%20Effectiveness%20Research&amp;author=L%20Ohno-Machado&amp;author=Z%20Agha&amp;author=DS%20Bell&amp;author=L%20Dahm&amp;author=ME%20Day&amp;volume=21&amp;issue=4&amp;publication_year=2014&amp;pages=621-6&amp;pmid=24780722&amp;doi=10.1136/amiajnl-2014-002751&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R39">
+<span class="label">39.</span><cite>Chiang MF, Sommer A, Rich WL, Lum F, Parke DW. The 2016 American Academy of Ophthalmology IRIS® Registry (Intelligent Research in Sight) Database: Characteristics and Methods. Ophthalmology. 2018August1;125(8):1143–8.</cite> [<a href="https://doi.org/10.1016/j.ophtha.2017.12.001" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29342435/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ophthalmology&amp;title=The%202016%20American%20Academy%20of%20Ophthalmology%20IRIS%C2%AE%20Registry%20(Intelligent%20Research%20in%20Sight)%20Database:%20Characteristics%20and%20Methods&amp;author=MF%20Chiang&amp;author=A%20Sommer&amp;author=WL%20Rich&amp;author=F%20Lum&amp;author=DW%20Parke&amp;volume=125&amp;issue=8&amp;publication_year=2018&amp;pages=1143-8&amp;pmid=29342435&amp;doi=10.1016/j.ophtha.2017.12.001&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R40">
+<span class="label">40.</span><cite>Stein JD, Rahman M, Andrews C, Ehrlich JR, Kamat S, Shah M, et al. Evaluation of an Algorithm for Identifying Ocular Conditions in Electronic Health Record Data. JAMA Ophthalmol. 201901;137(5):491–7.</cite> [<a href="https://doi.org/10.1001/jamaophthalmol.2018.7051" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6512255/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30789656/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Ophthalmol&amp;title=Evaluation%20of%20an%20Algorithm%20for%20Identifying%20Ocular%20Conditions%20in%20Electronic%20Health%20Record%20Data&amp;author=JD%20Stein&amp;author=M%20Rahman&amp;author=C%20Andrews&amp;author=JR%20Ehrlich&amp;author=S%20Kamat&amp;volume=137&amp;issue=5&amp;publication_year=2019&amp;pages=491-7&amp;pmid=30789656&amp;doi=10.1001/jamaophthalmol.2018.7051&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R41">
+<span class="label">41.</span><cite>Bommakanti NK, Zhou Y, Ehrlich JR, Elam AR, John D, Kamat SS, et al. Application of the Sight Outcomes Research Collaborative Ophthalmology Data Repository for Triaging Patients With Glaucoma and Clinic Appointments During Pandemics Such as COVID-19. JAMA Ophthalmology. 2020September1;138(9):974–80.</cite> [<a href="https://doi.org/10.1001/jamaophthalmol.2020.2974" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7368237/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32678424/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Ophthalmology&amp;title=Application%20of%20the%20Sight%20Outcomes%20Research%20Collaborative%20Ophthalmology%20Data%20Repository%20for%20Triaging%20Patients%20With%20Glaucoma%20and%20Clinic%20Appointments%20During%20Pandemics%20Such%20as%20COVID-19&amp;author=NK%20Bommakanti&amp;author=Y%20Zhou&amp;author=JR%20Ehrlich&amp;author=AR%20Elam&amp;author=D%20John&amp;volume=138&amp;issue=9&amp;publication_year=2020&amp;pages=974-80&amp;pmid=32678424&amp;doi=10.1001/jamaophthalmol.2020.2974&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R42">
+<span class="label">42.</span><cite>Amarasingham R, Patzer RE, Huesch M, Nguyen NQ, Xie B. Implementing electronic health care predictive analytics: considerations and challenges. Health Aff (Millwood). 2014July;33(7):1148–54.</cite> [<a href="https://doi.org/10.1377/hlthaff.2014.0352" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25006140/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Aff%20(Millwood)&amp;title=Implementing%20electronic%20health%20care%20predictive%20analytics:%20considerations%20and%20challenges&amp;author=R%20Amarasingham&amp;author=RE%20Patzer&amp;author=M%20Huesch&amp;author=NQ%20Nguyen&amp;author=B%20Xie&amp;volume=33&amp;issue=7&amp;publication_year=2014&amp;pages=1148-54&amp;pmid=25006140&amp;doi=10.1377/hlthaff.2014.0352&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R43">
+<span class="label">43.</span><cite>Sittig DF, Singh H. A New Socio-technical Model for Studying Health Information Technology in Complex Adaptive Healthcare Systems. Qual Saf Health Care. 2010October;19(Suppl 3):i68–74.</cite> [<a href="https://doi.org/10.1136/qshc.2010.042085" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3120130/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20959322/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Qual%20Saf%20Health%20Care&amp;title=A%20New%20Socio-technical%20Model%20for%20Studying%20Health%20Information%20Technology%20in%20Complex%20Adaptive%20Healthcare%20Systems&amp;author=DF%20Sittig&amp;author=H%20Singh&amp;volume=19&amp;issue=Suppl%203&amp;publication_year=2010&amp;pages=i68-74&amp;pmid=20959322&amp;doi=10.1136/qshc.2010.042085&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R44">
+<span class="label">44.</span><cite>Benda NC, Das LT, Abramson EL, Blackburn K, Thoman A, Kaushal R, et al. “How did you get to this number?” Stakeholder needs for implementing predictive analytics: a pre-implementation qualitative study. J Am Med Inform Assoc. 2020March6;</cite> [<a href="https://doi.org/10.1093/jamia/ocaa021" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7647269/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32159774/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=%E2%80%9CHow%20did%20you%20get%20to%20this%20number?%E2%80%9D%20Stakeholder%20needs%20for%20implementing%20predictive%20analytics:%20a%20pre-implementation%20qualitative%20study&amp;author=NC%20Benda&amp;author=LT%20Das&amp;author=EL%20Abramson&amp;author=K%20Blackburn&amp;author=A%20Thoman&amp;publication_year=2020&amp;pmid=32159774&amp;doi=10.1093/jamia/ocaa021&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R45">
+<span class="label">45*.</span><cite>Shaw J, Rudzicz F, Jamieson T, Goldfarb A. Artificial Intelligence and the Implementation Challenge. J Med Internet Res. 201910;21(7):e13659.</cite> [<a href="https://doi.org/10.2196/13659" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6652121/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31293245/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Med%20Internet%20Res&amp;title=Artificial%20Intelligence%20and%20the%20Implementation%20Challenge&amp;author=J%20Shaw&amp;author=F%20Rudzicz&amp;author=T%20Jamieson&amp;author=A%20Goldfarb&amp;volume=21&amp;issue=7&amp;publication_year=2019&amp;pages=e13659&amp;pmid=31293245&amp;doi=10.2196/13659&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]; <cite>This article reviews some of the sociotechnical considerations in implementing AI technologies.</cite>
+</li>
+<li id="R46">
+<span class="label">46.</span><cite>Grebe TA, Khushf G, Chen M, Bailey D, Brenman LM, Williams MS, et al. The interface of genomic information with the electronic health record: a points to consider statement of the American College of Medical Genetics and Genomics (ACMG). Genetics in Medicine. 2020September;22(9):1431–6.</cite> [<a href="https://doi.org/10.1038/s41436-020-0841-2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32475985/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Genetics%20in%20Medicine&amp;title=The%20interface%20of%20genomic%20information%20with%20the%20electronic%20health%20record:%20a%20points%20to%20consider%20statement%20of%20the%20American%20College%20of%20Medical%20Genetics%20and%20Genomics%20(ACMG)&amp;author=TA%20Grebe&amp;author=G%20Khushf&amp;author=M%20Chen&amp;author=D%20Bailey&amp;author=LM%20Brenman&amp;volume=22&amp;issue=9&amp;publication_year=2020&amp;pages=1431-6&amp;pmid=32475985&amp;doi=10.1038/s41436-020-0841-2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R47">
+<span class="label">47**.</span><cite>Bonamici S. H.R.34 – 114th Congress (2015–2016): 21st Century Cures Act [Internet]. 2016.  [cited
+2018 May 6]. Available from: <a href="https://www.congress.gov/bill/114th-congress/house-bill/34" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.congress.gov/bill/114th-congress/house-bill/34</a></cite>; <cite>The 21<sup>st</sup> Century Cures Act is a piece of landmark legislation with regard to health data interoperability and data exchange.</cite>
+</li>
+</ul></section></section></section></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1097/ICU.0000000000000781"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/nihms-1718437.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (218.3 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/8373825/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/8373825/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC8373825%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC8373825/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC8373825/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC8373825/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/34231531/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC8373825/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/34231531/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC8373825/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/8373825/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="zW4JvaWQE3PHINzgahamjRJHNiH6U6WWEImqA94pcDzydIiQIpr1Zj6kqyxVTGf8">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

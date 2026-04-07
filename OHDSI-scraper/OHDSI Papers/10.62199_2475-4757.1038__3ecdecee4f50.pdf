@@ -1,0 +1,661 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- inj yui3-seed: --><script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/yui/3.6.0/yui/yui-min.js'></script><script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><!-- Adobe Analytics --><script type='text/javascript' src='https://assets.adobedtm.com/4a848ae9611a/d0e96722185b/launch-d525bb0064d8.min.js'></script><script type='text/javascript' src=/assets/nr_browser_production.js></script>
+
+<!-- def.1 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>
+"Characterizing core journals in ophthalmology literature using Bradfor" by Leo Meller, Vasan Jagadeesh et al.
+</title>
+ 
+
+<!-- FILE article_meta-tags.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc -->
+<meta itemprop="name" content="Characterizing core journals in ophthalmology literature using Bradford’s law: a bibliometric analysis">
+<meta property="og:title" content="Characterizing core journals in ophthalmology literature using Bradford’s law: a bibliometric analysis">
+<meta name="twitter:title" content="Characterizing core journals in ophthalmology literature using Bradford’s law: a bibliometric analysis">
+<meta property="article:author" content="Leo Meller">
+<meta name="author" content="Leo Meller">
+<meta property="article:author" content="Vasan Jagadeesh">
+<meta name="author" content="Vasan Jagadeesh">
+<meta property="article:author" content="Michael Oca">
+<meta name="author" content="Michael Oca">
+<meta property="article:author" content="Katherine Wilson">
+<meta name="author" content="Katherine Wilson">
+<meta property="article:author" content="Jeffrey Lee">
+<meta name="author" content="Jeffrey Lee">
+<meta property="article:author" content="Sally Baxter">
+<meta name="author" content="Sally Baxter">
+<meta property="article:author" content="Nathan Scott">
+<meta name="author" content="Nathan Scott">
+<meta name="robots" content="noodp, noydir">
+<meta name="description" content="Purpose: The exponential growth of ophthalmology research can be challenging to keep up with for trainees, researchers and clinicians and little has been done to identify core ophthalmology journals. We thus applied Bradford’s law to characterize core journals in ophthalmology.
+Design: Cross-sectional bibliometric analysis
+Methods: Two sets of top 10 National Library of Medicine indexed ophthalmology journals based on h-index and impact factor (IF) were combined to create top 14 journals used for analysis. The references from all articles published in these journals in one randomized quarter were compiled into a citation database. Bradford’s law was applied to identify zonal distribution of journals.
+Results: A total of 3093 journals containing 34633 articles were cited in ophthalmology literature from July-Sept 2022. Under linear regression, IF was significantly associated with h-index for the top 20 journals (P2=0.996), validating Bradford’s law.
+Conclusions: Six core ophthalmology journals were identified: American Journal of Ophthalmology, Investigative Ophthalmology &amp; Visual Science, Ophthalmology, JAMA Ophthalmology, British Journal of Ophthalmology, Journal of Cataract &amp; Refractive Surgery. These highly cited core journals may serve as high-yield resources for describing the latest advances in ophthalmology research and may guide ophthalmology trainees and educators with their learning and teaching.">
+<meta itemprop="description" content="Purpose: The exponential growth of ophthalmology research can be challenging to keep up with for trainees, researchers and clinicians and little has been done to identify core ophthalmology journals. We thus applied Bradford’s law to characterize core journals in ophthalmology.
+Design: Cross-sectional bibliometric analysis
+Methods: Two sets of top 10 National Library of Medicine indexed ophthalmology journals based on h-index and impact factor (IF) were combined to create top 14 journals used for analysis. The references from all articles published in these journals in one randomized quarter were compiled into a citation database. Bradford’s law was applied to identify zonal distribution of journals.
+Results: A total of 3093 journals containing 34633 articles were cited in ophthalmology literature from July-Sept 2022. Under linear regression, IF was significantly associated with h-index for the top 20 journals (P2=0.996), validating Bradford’s law.
+Conclusions: Six core ophthalmology journals were identified: American Journal of Ophthalmology, Investigative Ophthalmology &amp; Visual Science, Ophthalmology, JAMA Ophthalmology, British Journal of Ophthalmology, Journal of Cataract &amp; Refractive Surgery. These highly cited core journals may serve as high-yield resources for describing the latest advances in ophthalmology research and may guide ophthalmology trainees and educators with their learning and teaching.">
+<meta name="twitter:description" content="Purpose: The exponential growth of ophthalmology research can be challenging to keep up with for trainees, researchers and clinicians and little has been done to identify core ophthalmology journals. We thus applied Bradford’s law to characterize core journals in ophthalmology.
+Design: Cross-sectional bibliometric analysis
+Methods: Two sets of top 10 National Library of Medicine indexed ophthalmology journals based on h-index and impact factor (IF) were combined to create top 14 journals used for analysis. The references from all articles published in these journals in one randomized quarter were compiled into a citation database. Bradford’s law was applied to identify zonal distribution of journals.
+Results: A total of 3093 journals containing 34633 articles were cited in ophthalmology literature from July-Sept 2022. Under linear regression, IF was significantly associated with h-index for the top 20 journals (P2=0.996), validating Bradford’s law.
+Conclusions: Six core ophthalmology journals were identified: American Journal of Ophthalmology, Investigative Ophthalmology &amp; Visual Science, Ophthalmology, JAMA Ophthalmology, British Journal of Ophthalmology, Journal of Cataract &amp; Refractive Surgery. These highly cited core journals may serve as high-yield resources for describing the latest advances in ophthalmology research and may guide ophthalmology trainees and educators with their learning and teaching.">
+<meta property="og:description" content="Purpose: The exponential growth of ophthalmology research can be challenging to keep up with for trainees, researchers and clinicians and little has been done to identify core ophthalmology journals. We thus applied Bradford’s law to characterize core journals in ophthalmology.
+Design: Cross-sectional bibliometric analysis
+Methods: Two sets of top 10 National Library of Medicine indexed ophthalmology journals based on h-index and impact factor (IF) were combined to create top 14 journals used for analysis. The references from all articles published in these journals in one randomized quarter were compiled into a citation database. Bradford’s law was applied to identify zonal distribution of journals.
+Results: A total of 3093 journals containing 34633 articles were cited in ophthalmology literature from July-Sept 2022. Under linear regression, IF was significantly associated with h-index for the top 20 journals (P2=0.996), validating Bradford’s law.
+Conclusions: Six core ophthalmology journals were identified: American Journal of Ophthalmology, Investigative Ophthalmology &amp; Visual Science, Ophthalmology, JAMA Ophthalmology, British Journal of Ophthalmology, Journal of Cataract &amp; Refractive Surgery. These highly cited core journals may serve as high-yield resources for describing the latest advances in ophthalmology research and may guide ophthalmology trainees and educators with their learning and teaching.">
+<meta name="keywords" content="Medical Education; Bibliometric Analysis; Ophthalmology; Core Journals; Bradford’s Law">
+<meta name="bepress_citation_journal_title" content="Journal of Academic Ophthalmology">
+<meta name="bepress_citation_firstpage" content="7">
+<meta name="bepress_citation_author" content="Meller, Leo">
+<meta name="bepress_citation_author_institution" content="School of Medicine, University of California, San Diego, La Jolla, CA, USA">
+<meta name="bepress_citation_author" content="Jagadeesh, Vasan">
+<meta name="bepress_citation_author_institution" content="School of Medicine, University of California, San Diego, La Jolla, CA, USA">
+<meta name="bepress_citation_author" content="Oca, Michael">
+<meta name="bepress_citation_author_institution" content="School of Medicine, University of California, San Diego, La Jolla, CA, USA">
+<meta name="bepress_citation_author" content="Wilson, Katherine">
+<meta name="bepress_citation_author_institution" content="School of Medicine, University of California, San Diego, La Jolla, CA, USA">
+<meta name="bepress_citation_author" content="Lee, Jeffrey">
+<meta name="bepress_citation_author_institution" content="Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA">
+<meta name="bepress_citation_author" content="Baxter, Sally">
+<meta name="bepress_citation_author_institution" content="Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA">
+<meta name="bepress_citation_author" content="Scott, Nathan">
+<meta name="bepress_citation_author_institution" content="Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA">
+<meta name="bepress_citation_title" content="Characterizing core journals in ophthalmology literature using Bradford’s law: a bibliometric analysis">
+<meta name="bepress_citation_date" content="2025">
+<meta name="bepress_citation_volume" content="17">
+<meta name="bepress_citation_issue" content="1">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc (cont) -->
+<meta name="bepress_citation_pdf_url" content="https://www.aupojournal.org/cgi/viewcontent.cgi?article=1038&amp;context=jao">
+<meta name="bepress_citation_abstract_html_url" content="https://www.aupojournal.org/jao/vol17/iss1/7">
+<meta name="bepress_citation_publisher" content="Association of University Professors of Ophthalmology">
+<meta name="bepress_citation_doi" content="10.62199/2475-4757.1038">
+<meta name="bepress_citation_issn" content="2475-4757">
+<meta name="bepress_citation_online_date" content="2025/3/25">
+<meta name="viewport" content="width=device-width">
+<!-- Additional Twitter data -->
+<meta name="twitter:card" content="summary">
+<!-- Additional Open Graph data -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.aupojournal.org/jao/vol17/iss1/7">
+<meta property="og:site_name" content="Journal of Academic Ophthalmology">
+
+
+
+
+<!-- FILE: article_meta-tags.inc (cont) -->
+<meta name="bepress_is_article_cover_page" content="1">
+
+
+<!-- sh.1 -->
+<link rel="stylesheet" href="/jao/ir-journal-style.css" type="text/css" media="screen">
+<link rel="alternate" type="application/rss+xml" title="Newsfeed" href="/jao/recent.rss">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link type="text/css" rel="stylesheet" href="/assets/floatbox/floatbox.css">
+<link rel="stylesheet" href="/ir-print.css" type="text/css" media="print">
+<!--[if IE]>
+<link rel="stylesheet" href="/ir-ie.css" type="text/css" media="screen">
+<![endif]-->
+
+<!-- JS -->
+<script type="text/javascript" src="/assets/jsUtilities.js"></script>
+<script type="text/javascript" src="/assets/footnoteLinks.js"></script>
+
+<!-- end sh.1 -->
+
+
+
+
+<script type="text/javascript">var pageData = {"page":{"environment":"prod","productName":"bpdg","language":"en","name":"ir_journal:volume:issue:article","businessUnit":"els:rp:st"},"visitor":{}};</script>
+
+</head>
+<body >
+<!-- FILE /srv/sequoia/main/data/assets/site/ir_journal/header.pregen -->
+
+	<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/header_custom.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/mobile_nav.inc --><!--[if !IE]>-->
+<script src="/assets/scripts/dc-mobile/dc-responsive-nav.js"></script>
+
+<header id="mobile-nav" class="nav-down device-fixed-height" style="visibility: hidden;">
+  
+  
+  <nav class="nav-collapse">
+    <ul>
+      <li class="menu-item active device-fixed-width"><a href="https://www.aupojournal.org" title="Home" data-scroll >Home</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://www.aupojournal.org/do/search/advanced/" title="Search" data-scroll ><i class="icon-search"></i> Search</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://www.aupojournal.org/communities.html" title="Browse" data-scroll >Browse Collections</a></li>
+      <li class="menu-item device-fixed-width"><a href="/cgi/myaccount.cgi?context=" title="My Account" data-scroll >My Account</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://www.aupojournal.org/about.html" title="About" data-scroll >About</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://network.bepress.com" title="Digital Commons Network" data-scroll ><img width="16" height="16" alt="DC Network" style="vertical-align:top;" src="/assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png"> Digital Commons Network™</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script src="/assets/scripts/dc-mobile/dc-mobile-nav.js"></script>
+<!--<![endif]-->
+<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/header_custom.inc (cont) -->
+
+
+
+
+
+<div id="jao">
+	<div id="container">
+		<a href="#main" class="skiplink" accesskey="2" >Skip to main content</a>
+
+		
+			<div id="navigation">
+				<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_navigation.inc --><div id="tabs" role="navigation" aria-label="Main">
+    <ul>
+        <li id="navlogo">
+            <a href="0 1 2 3" >
+                <img alt="logo" width='488' height='162' src="/assets/md5images/c82784b6bc4bc163b42a5f36f1a6e521.gif">
+            </a>
+        </li>
+        <li id="tabone"><a href="https://www.aupojournal.org" title="Home" ><span>Home</span></a></li><li id="tabtwo"><a href="https://www.aupojournal.org/jao/about.html" title="About" ><span>About</span></a></li><li id="tabthree"><a href="https://www.aupojournal.org/faq.html" title="FAQ" ><span>FAQ</span></a></li><li id="tabfour"><a href="https://www.aupojournal.org/cgi/myaccount.cgi?context=" title="My Account" ><span>My Account</span></a></li>
+    </ul>
+</div><!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/header_custom.inc (cont) -->
+			</div>			
+					
+			<div id="header">
+				<a href="https://www.aupojournal.org/jao" id="banner_link" title="Journal of Academic Ophthalmology" >
+					<img id="banner_image" alt="Journal of Academic Ophthalmology" width='1960' height='292' src="/assets/md5images/f68b242595032d6bad02f0275eb43377.png">
+				</a>	
+				
+				
+			</div>
+		
+
+		<div id="wrapper">
+			<div id="content">
+				<div id="main" class="text">					
+					<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_breadcrumb.inc -->
+	<ul id="pager">
+		<li>&nbsp;</li>
+		 
+		<li>&nbsp;</li> 
+		
+	</ul>
+
+<div class="crumbs" role="navigation" aria-label="Breadcrumb">
+	<p>
+		
+
+		
+		
+		
+			<a href="https://www.aupojournal.org" class="ignore" >Home</a>
+		
+		
+		
+		
+		
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://www.aupojournal.org/jao" class="ignore" >JAO</a>
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://www.aupojournal.org/jao/vol17" class="ignore" >Vol. 17 (2025)</a>
+		
+		
+		
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://www.aupojournal.org/jao/vol17/iss1" class="ignore" >Iss. 1</a>
+		
+		
+		
+		
+		
+	</p>
+</div>
+
+<div class="clear">&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/header_custom.inc (cont) -->
+					
+						<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/volume/issue/ir_journal_logo.inc -->
+
+
+
+
+
+ 
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/header_custom.inc (cont) -->
+					
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header.pregen (cont) -->
+ 
+<script type="text/javascript" src="/assets/floatbox/floatbox.js"></script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_article_header.inc --><div id="sub">
+<div id="alpha"><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --><div id='title' class='element'>
+<h1><a href='https://www.aupojournal.org/cgi/viewcontent.cgi?article=1038&amp;context=jao'>Characterizing core journals in ophthalmology literature using Bradford’s law: a bibliometric analysis</a></h1>
+</div>
+<div class='clear'></div>
+<div id='authors' class='element'>
+<h2 class='visually-hidden'>Authors</h2>
+<p class="author"><a href='https://www.aupojournal.org/do/search/?q=author%3A%22Leo%20Meller%22&start=0&context=36755112'><strong>Leo Meller</strong>, <em>School of Medicine, University of California, San Diego, La Jolla, CA, USA</em></a><br />
+<a href='https://www.aupojournal.org/do/search/?q=author%3A%22Vasan%20Jagadeesh%22&start=0&context=36755112'><strong>Vasan Jagadeesh</strong>, <em>School of Medicine, University of California, San Diego, La Jolla, CA, USA</em></a><br />
+<a href='https://www.aupojournal.org/do/search/?q=author%3A%22Michael%20Oca%22&start=0&context=36755112'><strong>Michael Oca</strong>, <em>School of Medicine, University of California, San Diego, La Jolla, CA, USA</em></a><br />
+<a href='https://www.aupojournal.org/do/search/?q=author%3A%22Katherine%20Wilson%22&start=0&context=36755112'><strong>Katherine Wilson</strong>, <em>School of Medicine, University of California, San Diego, La Jolla, CA, USA</em></a><br />
+<a href='https://www.aupojournal.org/do/search/?q=author%3A%22Jeffrey%20Lee%22&start=0&context=36755112'><strong>Jeffrey Lee</strong>, <em>Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA</em></a><br />
+<a href='https://www.aupojournal.org/do/search/?q=author%3A%22Sally%20Baxter%22&start=0&context=36755112'><strong>Sally Baxter</strong>, <em>Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA</em></a><br />
+<a href='https://www.aupojournal.org/do/search/?q=%28author%3A%22Nathan%20Scott%22%20AND%20-bp_author_id%3A%5B%2A%20TO%20%2A%5D%29%20OR%20bp_author_id%3A%28%22069b51fa-2d30-484a-b455-ac6210fe7226%22%29&start=0&context=36755112'><strong>Nathan Scott</strong>, <em>Viterbi Family Department of Ophthalmology and Shiley Eye Institute, University of California San Diego, La Jolla, CA, USA</em></a><a rel="nofollow" href="https://network.bepress.com/api/follow/subscribe?user=YzM2Njk1OTNhOWRjNjAxZA%3D%3D&amp;institution=ZGRkMGJlM2MyMDRlMDBiZjZlMzk1MzkwZDE1NjEzZDE%3D&amp;format=html" data-follow-set="user:YzM2Njk1OTNhOWRjNjAxZA== institution:ZGRkMGJlM2MyMDRlMDBiZjZlMzk1MzkwZDE1NjEzZDE=" title="Follow Nathan Scott" class="btn followable">Follow</a><br />
+</p></div>
+<div class='clear'></div>
+<div id='abstract' class='element'>
+<h2 class='field-heading'>Abstract</h2>
+<p><strong>Purpose: </strong>The exponential growth of ophthalmology research can be challenging to keep up with for trainees, researchers and clinicians and little has been done to identify core ophthalmology journals. We thus applied Bradford’s law to characterize core journals in ophthalmology.</p>
+<p><strong>Design: </strong>Cross-sectional bibliometric analysis<strong></strong></p>
+<p><strong>Methods:</strong> Two sets of top 10 National Library of Medicine indexed ophthalmology journals based on h-index and impact factor (IF) were combined to create top 14 journals used for analysis. The references from all articles published in these journals in one randomized quarter were compiled into a citation database. Bradford’s law was applied to identify zonal distribution of journals.</p>
+<p><strong>Results:</strong> A total of 3093 journals containing 34633 articles were cited in ophthalmology literature from July-Sept 2022. Under linear regression, IF was significantly associated with h-index for the top 20 journals (P2=0.996), validating Bradford’s law.</p>
+<p><strong>Conclusions:</strong> Six core ophthalmology journals were identified: <em>American Journal of Ophthalmology, Investigative Ophthalmology & Visual Science, Ophthalmology, JAMA Ophthalmology, British Journal of Ophthalmology, Journal of Cataract & Refractive Surgery. </em>These highly cited core journals may serve as high-yield resources for describing the latest advances in ophthalmology research and may guide ophthalmology trainees and educators with their learning and teaching.</p>
+</div>
+<div class='clear'></div>
+<div id='received_date' class='element'>
+<h2 class='field-heading'>Received Date</h2>
+<p>21 Nov 2023</p>
+</div>
+<div class='clear'></div>
+<div id='revised_date' class='element'>
+<h2 class='field-heading'>Revised Date</h2>
+<p>20 Sep 2024</p>
+</div>
+<div class='clear'></div>
+<div id='accepted_date' class='element'>
+<h2 class='field-heading'>Accepted Date</h2>
+<p>6 Nov 2024</p>
+</div>
+<div class='clear'></div>
+<div id='recommended_citation' class='element'>
+<h2 class='field-heading'>Recommended Citation</h2>
+<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_citation.inc -->
+<p class="citation">
+Meller, Leo; Jagadeesh, Vasan; Oca, Michael; Wilson, Katherine; Lee, Jeffrey; Baxter, Sally; and Scott, Nathan
+(2025)
+"Characterizing core journals in ophthalmology literature using Bradford’s law: a bibliometric analysis,"
+<em>Journal of Academic Ophthalmology</em>: Vol. 17:
+Iss.
+1, Article 7.
+<br>
+DOI: <a href="https://doi.org/10.62199/2475-4757.1038" >https://doi.org/10.62199/2475-4757.1038</a><br>
+Available at:
+https://www.aupojournal.org/jao/vol17/iss1/7</p><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --></div>
+<div class='clear'></div>
+</div>
+    </div>
+    <div id='beta_7-3'>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_download_button.inc --><div class="aside download-button">
+      <a id="pdf" class="btn" href="https://www.aupojournal.org/cgi/viewcontent.cgi?article=1038&amp;context=jao" title="PDF (617&nbsp;KB) opens in new window" target="_blank" > 
+    	<i class="icon-download-alt" aria-hidden="true"></i>
+        Download
+      </a>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_embargo.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_custom_upper.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_article_metrics.inc -->
+<div id="article-stats" class="aside hidden">
+    <p class="article-downloads-wrapper hidden"><span id="article-downloads"></span> DOWNLOADS</p>
+    <p class="article-stats-date hidden">Since March 25, 2025</p>
+    <p class="article-plum-metrics">
+        <a href="https://plu.mx/plum/a/?repo_url=https://www.aupojournal.org/jao/vol17/iss1/7" class="plumx-plum-print-popup plum-bigben-theme" data-badge="true" data-hide-when-empty="true" ></a>
+    </p>
+</div>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Article Download Counts -->
+<script type="text/javascript" src="/assets/scripts/article-downloads.pack.js"></script>
+<script type="text/javascript">
+    insertDownloads(37876044);
+</script>
+<!-- Add border to Plum badge & download counts when visible -->
+<script>
+// bind to event when PlumX widget loads
+jQuery('body').bind('plum:widget-load', function(e){
+// if Plum badge is visible
+  if (jQuery('.PlumX-Popup').length) {
+// remove 'hidden' class
+  jQuery('#article-stats').removeClass('hidden');
+  jQuery('.article-stats-date').addClass('plum-border');
+  }
+});
+// bind to event when page loads
+jQuery(window).bind('load',function(e){
+// if DC downloads are visible
+  if (jQuery('#article-downloads').text().length > 0) {
+// add border to aside
+  jQuery('#article-stats').removeClass('hidden');
+  }
+});
+</script>
+<!-- Adobe Analytics: Download Click Tracker -->
+<script>
+$(function() {
+  // Download button click event tracker for PDFs
+  $(".aside.download-button").on("click", "a#pdf", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+      link: {
+          location: 'aside download-button',
+          name: 'pdf'
+      }
+    });
+  });
+  // Download button click event tracker for native files
+  $(".aside.download-button").on("click", "a#native", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+        link: {
+            location: 'aside download-button',
+            name: 'native'
+        }
+     });
+  });
+});
+</script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_disciplines.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/bookmark_widget.inc -->
+<div id="share" class="aside">
+<h2>Share</h2>
+	<div class="a2a_kit a2a_kit_size_24 a2a_default_style">
+    	<a class="a2a_button_facebook"></a>
+    	<a class="a2a_button_linkedin"></a>
+		<a class="a2a_button_whatsapp"></a>
+		<a class="a2a_button_email"></a>
+    	<a class="a2a_dd"></a>
+    	<script async src="https://static.addtoany.com/menu/page.js"></script>
+	</div>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/zotero_coins.inc -->
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft_id=https%3A%2F%2Fwww.aupojournal.org%2Fjao%2Fvol17%2Fiss1%2F7&amp;rft.atitle=Characterizing%20core%20journals%20in%20ophthalmology%20literature%20using%20Bradford%E2%80%99s%20law%3A%20a%20bibliometric%20analysis&amp;rft.aufirst=Leo&amp;rft.aulast=Meller&amp;rft.au=Vasan%20Jagadeesh&amp;rft.au=Michael%20Oca&amp;rft.au=Katherine%20Wilson&amp;rft.au=Jeffrey%20Lee&amp;rft.au=Sally%20Baxter&amp;rft.au=Nathan%20Scott&amp;rft.jtitle=Journal%20of%20Academic%20Ophthalmology&amp;rft.volume=17&amp;rft.issue=1&amp;rft.issn=2475-4757&amp;rft.date=2025-03-25&amp;rft_id=info:doi/10.62199%2F2475-4757.1038">COinS</span>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_custom_lower.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --></div>
+<div class='clear'>&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_article_custom_fields.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/volume/issue/article/index.html (cont) --> 
+
+<!-- FILE /srv/sequoia/main/data/assets/site/ir_journal/footer.pregen -->
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc -->				</div>
+
+<div class="verticalalign">&nbsp;</div>
+<div class="clear">&nbsp;</div>
+
+			</div>
+
+				<div id="sidebar">
+					<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc -->
+
+	<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_journal_sidebar_links_7_8.inc --><div id="submit-button">
+<a href="https://www.aupojournal.org/cgi/submit.cgi?context=jao" title="Submit Article to Journal of Academic Ophthalmology" >
+	Submit Article
+</a>
+</div>
+<h2 class="sbh2">Quick Links</h2>
+<ul class="sb-custom-journal">
+	<li class="sb-home">
+		<a href="https://www.aupojournal.org/jao" title="Journal of Academic Ophthalmology" accesskey="1" >
+				Journal Home
+		</a>
+	</li>
+		<li class="sb-about">
+			<a href="https://www.aupojournal.org/jao/about.html" >
+				About This Journal
+			</a>
+		</li>
+		<li class="sb-aims">
+			<a href="https://www.aupojournal.org/jao/aimsandscope.html" >
+				Aims & Scope
+			</a>
+		</li>
+		<li class="sb-ed-board">
+			<a href="https://www.aupojournal.org/jao/editorialboard.html" >
+				Editorial Board
+			</a>
+		</li>
+		<li class="sb-policies">
+			<a href="https://www.aupojournal.org/jao/policies.html" >
+				Editorial Policies
+			</a>
+		</li>
+		<li class="sb-contact">
+			<a href="https://www.aupojournal.org/jao/contact.html" >
+				Contact
+			</a>
+		</li>
+</ul><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+		<!-- FILE: /srv/sequoia/main/data/assets/site/urc_badge.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_journal_navcontainer_7_8.inc --><h2 class="sbh2">Browse</h2>
+<div id="navcontainer">
+	<ul id="navlist">
+			<li class="sb-submit">
+					<a href="https://www2.cloud.editorialmanager.com/ophthalmology/default2.aspx" title="Submit Article to Journal of Academic Ophthalmology" >
+						Submit Article</a>
+			</li>
+			<li class="sb-popular">
+				<a href="https://www.aupojournal.org/jao/topdownloads.html" title="View the top downloaded papers" >
+						Most Popular Papers
+				</a>
+			</li>
+			<li class="sb-rss">
+				<a href="https://www.aupojournal.org/jao/announcements.html" title="Receive notifications of new content" >
+					Receive Email Notices or RSS
+				</a>
+			</li>
+	</ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_special_issue_7_8.inc -->
+<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_journal_navcontainer_7_8.inc (cont) -->
+</div><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_journal_sidebar_search_7_8.inc --><div class="sidebar-search">
+	<form method="post" action="https://www.aupojournal.org/cgi/redirect.cgi" id="browse">
+		<label for="url">
+			Select an issue:
+		</label>
+			<br>
+		<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_volume_issue_popup_7_8.inc --><div>
+	<span class="border">
+								<select name="url" id="url">
+							<option value="https://www.aupojournal.org/jao/all_issues.html">
+								All Issues
+							</option>
+										<option value="https://www.aupojournal.org/jao/vol18/iss1">
+											Vol. 18, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol17/iss3">
+											Vol. 17, 
+											Iss. 3
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol17/iss2">
+											Vol. 17, 
+											Iss. 2
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol17/iss1">
+											Vol. 17, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol16/iss2">
+											Vol. 16, 
+											Iss. 2
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol16/iss1">
+											Vol. 16, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol15/iss2">
+											Vol. 15, 
+											Iss. 2
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol15/iss1">
+											Vol. 15, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol14/iss2">
+											Vol. 14, 
+											Iss. 2
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol14/iss1">
+											Vol. 14, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol13/iss2">
+											Vol. 13, 
+											Iss. 2
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol13/iss1">
+											Vol. 13, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol12/iss2">
+											Vol. 12, 
+											Iss. 2
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol12/iss1">
+											Vol. 12, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol11/iss2">
+											Vol. 11, 
+											Iss. 2
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol11/iss1">
+											Vol. 11, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol10/iss1">
+											Vol. 10, 
+											Iss. 1
+										</option>
+										<option value="https://www.aupojournal.org/jao/vol9/iss1">
+											Vol. 9, 
+											Iss. 1
+										</option>
+						</select>
+		<input type="submit" value="Browse" class="searchbutton" style="font-size:11px;">
+	</span>
+</div>
+<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_journal_sidebar_search_7_8.inc (cont) -->
+			<div style="clear:left;">&nbsp;</div>
+	</form>
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_search_7_8.inc --><h2>Search</h2>
+<form method='get' action='https://www.aupojournal.org/do/search/' id="sidebar-search">
+	<label for="search" accesskey="4">
+		Enter search terms:
+	</label>
+		<div>
+			<span class="border">
+				<input type="text" name='q' class="search" id="search">
+			</span> 
+			<input type="submit" value="Search" class="searchbutton" style="font-size:11px;">
+		</div>
+	<label for="context">
+		Select context to search:
+	</label> 
+		<div>
+			<span class="border">
+				<select name="fq" id="context">
+						<option value='virtual_ancestor_link:"https://www.aupojournal.org/jao"'>in this journal</option>
+					<option value='virtual_ancestor_link:"https://www.aupojournal.org"'>in this site</option>
+					<option value='virtual_ancestor_link:"http:/"'>across all sites</option>
+				</select>
+			</span>
+		</div>
+</form>
+<p class="advanced">
+		<a href="https://www.aupojournal.org/do/search/advanced/?fq=virtual_ancestor_link:%22https://www.aupojournal.org/jao%22" >
+			Advanced Search
+		</a>
+</p>
+<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_journal_sidebar_search_7_8.inc (cont) -->
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_issn_7_8.inc -->
+	<div id="issn">
+		<p class="sb-issn">ISSN: 2475-4757</p>
+	</div>
+	<div class="clear">&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/journals/www.aupojournal.org/jao/assets/ir_journal_custom_lower_7_8.inc --><div id="sb-custom">
+	<a href="https://aupo.org/" ><img width='172' height='183' src="/assets/md5images/d3279c4fa0e20044190a1b579e6ca2a4.png" alt=""></a>
+</div><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_custom_sidebar_images.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_custom_lowest_7_8.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc (cont) -->
+						<div class="verticalalign">&nbsp;</div>
+				</div>
+
+		</div>
+
+			<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_footer_content.inc --><div id="footer" role="contentinfo">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_bepress_logo.inc --><div id="bepress">
+
+<a href="https://www.elsevier.com/solutions/digital-commons" title="Elsevier - Digital Commons" >
+	<em>Elsevier - Digital Commons</em>
+</a>
+
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_footer_content.inc (cont) -->
+    <p>
+        <a href="https://www.aupojournal.org" title="Home page" accesskey="1" >Home</a> | 
+        <a href="https://www.aupojournal.org/about.html" title="About" >About</a> | 
+        <a href="https://www.aupojournal.org/faq.html" title="FAQ" >FAQ</a> | 
+        <a href="/cgi/myaccount.cgi?context=" title="My Account Page" accesskey="3" >My Account</a> | 
+        <a href="https://www.aupojournal.org/accessibility.html" title="Accessibility Statement" accesskey="0" >Accessibility Statement</a>
+    </p>
+    <p>
+	
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/privacy-policy" title="Privacy Policy" >Privacy</a>
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/elsevier-website-terms-and-conditions" title="Copyright Policy" >Copyright</a>	
+    </p> 
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc (cont) -->
+
+	</div>
+</div>
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_analytics.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_custom_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer.pregen (cont) -->
+<script type='text/javascript' src='/assets/scripts/bpbootstrap-20160726.pack.js'></script><script type='text/javascript'>BPBootstrap.init({appendCookie:''})</script></body></html>

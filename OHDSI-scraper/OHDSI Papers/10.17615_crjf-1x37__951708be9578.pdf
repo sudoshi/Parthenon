@@ -1,0 +1,775 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XakywH0yUNJiGVWNZaV/CCj6fgXLgcsC7D3p/z3EaV16P6B5PwhMSVD5nphJBC3CHEJH6y9XHSf4AJMvUcnF6g==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="resourcesync" href="https://cdr.lib.unc.edu/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+  <meta name="twitter:card" content="product" />
+  <meta name="twitter:site" content="@SamveraRepo" />
+  <meta name="twitter:creator" content="@SamveraRepo" />
+  <meta property="og:site_name" content="Carolina Digital Repository" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content="A randomized double-blinded trial to assess recurrence of systemic allergic reactions following COVID-19 mRNA vaccination" />
+  <meta property="og:description" content="A randomized double-blinded trial to assess recurrence of systemic allergic reactions following COVID-19 mRNA vaccination" />
+  <meta property="og:image" content="http://cdr.lib.unc.edu/downloads/7w62fp76n" />
+  <meta property="og:url" content="https://cdr.lib.unc.edu/concern/articles/z603rb671?locale=en" />
+  <meta name="twitter:data1" content="anaphylaxis, booster, dose of BNT162b2, mRNA vaccines, biomarkers, participants, National Institutes of Health, intervention, end points, paresthesia, findings, COVID-19, mRNA, biomarker changes, revaccination of individuals, placebo, study intervention, COVID-19 mRNA vaccines, laboratory features, Institutes of Health, mRNA-1273, individuals, biomarker measurements, BNT162b2 booster, features, health, crossover, months, National Institute, vital signs, dose of COVID-19 mRNA vaccine, booster dose, consecutive days, double-blind, crossover fashion, reaction, stress-related responses, dose, trials, anxiety scores, study, Exploratory end points, years, immunity, systemic allergic reactions, changes, mechanism, traditional vaccines, coronavirus, screening participation, randomized double-blind trial, vaccine, coronavirus disease 2019, allergic reactions, recurrence, revaccination, BNT162b2, response, fashion, rate, measurements, days, interrogating mechanisms, safety, safety of revaccination, scores, phase, second dose, phase 2 trial, double-blind trial, point, booster vaccination, National, immunization stress-related responses, severe systemic allergic reaction, signs" />
+  <meta name="twitter:label1" content="Keywords" />
+  <meta name="twitter:data2" content="http://rightsstatements.org/vocab/InC/1.0/" />
+  <meta name="twitter:label2" content="Rights Statement" />
+
+<!-- Google Scholar metadata -->
+  <meta name="description" content="A randomized double-blinded trial to assess recurrence of systemic allergic reactions following COVID-19 mRNA vaccination" />
+  <meta name="citation_title" content="A randomized double-blinded trial to assess recurrence of systemic allergic reactions following COVID-19 mRNA vaccination" />
+
+  <meta name="citation_author" content="Khalid, Muhammad B" />
+  <meta name="citation_author" content="Zektser, Ellen" />
+  <meta name="citation_author" content="Chu, Eric" />
+  <meta name="citation_author" content="Li, Min" />
+  <meta name="citation_author" content="Utoh, Joanna" />
+  <meta name="citation_author" content="Ryan, Patrick" />
+  <meta name="citation_author" content="Loving, Hanna S" />
+  <meta name="citation_author" content="Harb, Roa" />
+  <meta name="citation_author" content="Kattappuram, Robbie" />
+  <meta name="citation_author" content="Chatman, Lindsay" />
+  <meta name="citation_author" content="Hartono, Stella" />
+  <meta name="citation_author" content="Claudio-Etienne, Estefania" />
+  <meta name="citation_author" content="Sun, Guangping" />
+  <meta name="citation_author" content="Feener, Edward P" />
+  <meta name="citation_author" content="Li, Zhongbo" />
+  <meta name="citation_author" content="Lai, Samuel K" />
+  <meta name="citation_author" content="Le, Quang" />
+  <meta name="citation_author" content="Schwartz, Lawrence B" />
+  <meta name="citation_author" content="Lyons, Jonathan J" />
+  <meta name="citation_author" content="Komarow, Hirsh" />
+  <meta name="citation_author" content="Zhou, Zhao-Hua" />
+  <meta name="citation_author" content="Raza, Haniya" />
+  <meta name="citation_author" content="Pao, Maryland" />
+  <meta name="citation_author" content="Laky, Karen" />
+  <meta name="citation_author" content="Holland, Steven M" />
+  <meta name="citation_author" content="Brittain, Erica" />
+  <meta name="citation_author" content="Frischmeyer-Guerrerio, Pamela A" />
+
+  <meta name="citation_publication_date" content="March 7, 2024" />
+
+  <meta name="citation_pdf_url" content="http://cdr.lib.unc.edu/downloads/7w62fp76n" />
+
+  <meta name="citation_keywords" content="anaphylaxis; booster; dose of BNT162b2; mRNA vaccines; biomarkers; participants; National Institutes of Health; intervention; end points; paresthesia; findings; COVID-19; mRNA; biomarker changes; revaccination of individuals; placebo; study intervention; COVID-19 mRNA vaccines; laboratory features; Institutes of Health; mRNA-1273; individuals; biomarker measurements; BNT162b2 booster; features; health; crossover; months; National Institute; vital signs; dose of COVID-19 mRNA vaccine; booster dose; consecutive days; double-blind; crossover fashion; reaction; stress-related responses; dose; trials; anxiety scores; study; Exploratory end points; years; immunity; systemic allergic reactions; changes; mechanism; traditional vaccines; coronavirus; screening participation; randomized double-blind trial; vaccine; coronavirus disease 2019; allergic reactions; recurrence; revaccination; BNT162b2; response; fashion; rate; measurements; days; interrogating mechanisms; safety; safety of revaccination; scores; phase; second dose; phase 2 trial; double-blind trial; point; booster vaccination; National; immunization stress-related responses; severe systemic allergic reaction; signs" />
+
+  <meta name="citation_publisher" content="Elsevier" />
+
+  <meta name="citation_journal_title" content="Journal of Allergy and Clinical Immunology" />
+
+  <meta name="citation_volume" content="153" />
+
+  <meta name="citation_issue" content="6" />
+
+  <meta name="citation_firstpage" content="1634" />
+
+  <meta name="citation_lastpage" content="1646" />
+
+
+<title>Scholarly Article or Book Chapter | A randomized double-blinded trial to assess recurrence of systemic allergic reactions following COVID-19 mRNA vaccination | ID: z603rb671 | Carolina Digital Repository</title>
+
+<!-- application css -->
+<link rel="stylesheet" media="screen" href="/assets/application-f5458433c19f288276e296507f5a8b1bf859c69fdfe0f11e3eeeca2146c9daac.css" />
+
+<!-- application js -->
+<script src="/assets/application-6ae2502b8e709adf486c5551ad268d0b12983285567e7cb3a28fb879365780d4.js"></script>
+
+<style>
+a { color: #2e74b2; }
+.navbar-dark.bg-dark .navbar-link { color: #ffebcd; }
+
+.navbar-dark.bg-dark { background-color: #3c3c3c !important; }
+
+.navbar-dark.bg-dark .navbar-nav > .open > a,
+.navbar-dark.bg-dark .navbar-nav > .open > a:hover,
+.navbar-dark.bg-dark .navbar-nav > .open > a:focus { background-color: #3c3c3c; }
+
+.navbar-dark.bg-dark .navbar-nav > li > a,
+.navbar-dark.bg-dark .navbar-text,
+.navbar-dark.bg-dark .navbar-brand { color: #dcdcdc; }
+
+.btn-primary {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #245682;
+  border-color: #1d4467;
+}
+
+.btn-primary:hover {
+  background-color: #245682;
+  border-color: #215079;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus{
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+</style>
+
+
+    <script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  // _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.lib.unc.edu/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', "6"]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+  window.analytics = _paq;
+</script>
+<meta name="analytics-provider" content="matomo">
+
+<!-- for extras, e.g., a favicon -->
+<meta name="msvalidate.01" content="6963C16215285DFB9641BD17E441FAAE"/>
+<meta name="google-site-verification" content="WO17zKdoDATg4FxnQafjjRNowoM-TDP4hEfb_H--mdo" />
+
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon-545d11a84432819b25149c67d4e2aa95f3bee9e815f20b9bfbf105e836d70ff5.ico" />
+
+
+    
+  </head>
+
+  <body>
+    <div class="skip-to-content sr-only">
+      <a data-turbolinks="false" href="#skip-to-content">Skip to Content</a>
+    </div>
+    <header aria-label="header" class="top-header">
+  <nav id="masthead" class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between" role="navigation" aria-label="masthead">
+    <h1 class="sr-only">Carolina Digital Repository</h1>
+    <div id="logo" class="navbar-brand">
+  <span class="institution_name">
+    <a href="/"><span>University Library</span> Carolina Digital Repository</a>
+  </span>
+</div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+    <li class="nav-item">
+      <a class="nav-link" href="/sign_in?locale=en">
+        <span class="fa fa-sign-in" aria-hidden="true"></span> Login
+</a>    </li>
+</ul>
+    </div>
+  </nav>
+</header>
+
+      <nav class="navbar navbar-light bg-light navbar-expand-sm justify-content-between align-items-baseline px-2 py-2 border-bottom" role="navigation" aria-label="Root Menu">
+    <ul class="nav navbar-nav col-sm-5">
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?locale=en">Browse Everything</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog/facet/affiliation_label_sim?locale=en">Departments</a></li>
+        <li class="nav-item" data-turbolinks="false">
+          <a class="all-unc-work-types nav-link" data-behavior="select-work" data-target="#worktypes-to-create" data-create-type="single" href="#">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+            Deposit
+</a>        </li>
+    </ul><!-- /.nav -->
+    <div class="col-sm-7">
+      <form class="form-horizontal search-form" id="search-form-header" role="search" action="/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" />
+  
+  <input type="hidden" name="search_field" id="search_field" value="all_fields" autocomplete="off" />
+   <div class="form-group row">
+
+    <label class="col-sm-3 mb-0" for="search-field-header">
+      Search the Carolina Digital Repository
+    </label>
+
+    <div class="input-group col">
+      <input type="text" name="q" id="search-field-header" aria-label="Search" class="q form-control" placeholder="Enter search terms" />
+
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-primary" id="search-submit-header">
+          <span class="fa fa-search" aria-hidden="true"></span> Go
+        </button>
+      </div><!-- /.input-group-btn -->
+    </div><!-- /.input-group -->
+    
+  </div><!-- /.form-group -->
+</form>
+<a class="advanced_search" href="/catalog/advanced?">Advanced search</a>
+    </div>
+  </nav><!-- /.navbar -->
+
+
+    
+    <div id="content-wrapper" class="container-fluid" role="main">
+      
+      
+      <nav class="breadcrumb" role="navigation" aria-label="Breadcrumb"><ol><li><a href="/?locale=en">Home</a></li><li><a href="/concern/articles/z603rb671?locale=en">A randomized double-blinded...</a></li></ol></nav>
+
+      <a name="skip-to-content" id="skip-to-content"></a>
+      
+      
+
+
+
+
+<div class="row work-type">
+  <div class="col-sm-12">
+    <!--
+<h1 class="work-type-tag">
+  <span class="" aria-hidden="true"></span>
+</h1> -->
+  </div>
+  <div itemscope itemtype="http://schema.org/CreativeWork" class="col-12">
+    <div class="work-title-wrapper">
+      <div class="title-with-badges">
+        <h1>A randomized double-blinded trial to assess recurrence of systemic allergic reactions following COVID-19 mRNA vaccination</h1>
+        <span class="badge badge-success">Public</span>
+        <span class="state state-deposited badge badge-primary">Deposited</span>
+      </div>
+</div>
+
+    
+<div class="row show-actions button-row-top-two-column">
+  <div class="col-sm-6">
+      <a id="stats" class="btn btn-default" data-turbolinks="false" href="/works/z603rb671/stats?locale=en">Analytics</a>
+  </div>
+
+  <div class="col-sm-6 text-right">
+  </div>
+</div>
+
+<!-- COinS hook for Zotero -->
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fblacklight.rubyforge.org%3Agenerator&amp;rft.title=A+randomized+double-blinded+trial+to+assess+recurrence+of+systemic+allergic+reactions+following+COVID-19+mRNA+vaccination&amp;rft.publisher=Elsevier&amp;rft.format=Article&amp;rft.identifier=Dimensions+ID%3A+pub.1169493279&amp;rft.identifier=DOI%3A+https%3A%2F%2Fdx.doi.org%2F10.1016%2Fj.jaci.2024.03.001&amp;rft.identifier=PMCID%3A+PMC11162316&amp;rft.identifier=PMID%3A+38460680&amp;rft.relation=anaphylaxis&amp;rft.relation=booster&amp;rft.relation=dose+of+BNT162b2&amp;rft.relation=mRNA+vaccines&amp;rft.relation=biomarkers&amp;rft.relation=participants&amp;rft.relation=National+Institutes+of+Health&amp;rft.relation=intervention&amp;rft.relation=end+points&amp;rft.relation=paresthesia&amp;rft.relation=findings&amp;rft.relation=COVID-19&amp;rft.relation=mRNA&amp;rft.relation=biomarker+changes&amp;rft.relation=revaccination+of+individuals&amp;rft.relation=placebo&amp;rft.relation=study+intervention&amp;rft.relation=COVID-19+mRNA+vaccines&amp;rft.relation=laboratory+features&amp;rft.relation=Institutes+of+Health&amp;rft.relation=mRNA-1273&amp;rft.relation=individuals&amp;rft.relation=biomarker+measurements&amp;rft.relation=BNT162b2+booster&amp;rft.relation=features&amp;rft.relation=health&amp;rft.relation=crossover&amp;rft.relation=months&amp;rft.relation=National+Institute&amp;rft.relation=vital+signs&amp;rft.relation=dose+of+COVID-19+mRNA+vaccine&amp;rft.relation=booster+dose&amp;rft.relation=consecutive+days&amp;rft.relation=double-blind&amp;rft.relation=crossover+fashion&amp;rft.relation=reaction&amp;rft.relation=stress-related+responses&amp;rft.relation=dose&amp;rft.relation=trials&amp;rft.relation=anxiety+scores&amp;rft.relation=study&amp;rft.relation=Exploratory+end+points&amp;rft.relation=years&amp;rft.relation=immunity&amp;rft.relation=systemic+allergic+reactions&amp;rft.relation=changes&amp;rft.relation=mechanism&amp;rft.relation=traditional+vaccines&amp;rft.relation=coronavirus&amp;rft.relation=screening+participation&amp;rft.relation=randomized+double-blind+trial&amp;rft.relation=vaccine&amp;rft.relation=coronavirus+disease+2019&amp;rft.relation=allergic+reactions&amp;rft.relation=recurrence&amp;rft.relation=revaccination&amp;rft.relation=BNT162b2&amp;rft.relation=response&amp;rft.relation=fashion&amp;rft.relation=rate&amp;rft.relation=measurements&amp;rft.relation=days&amp;rft.relation=interrogating+mechanisms&amp;rft.relation=safety&amp;rft.relation=safety+of+revaccination&amp;rft.relation=scores&amp;rft.relation=phase&amp;rft.relation=second+dose&amp;rft.relation=phase+2+trial&amp;rft.relation=double-blind+trial&amp;rft.relation=point&amp;rft.relation=booster+vaccination&amp;rft.relation=National&amp;rft.relation=immunization+stress-related+responses&amp;rft.relation=severe+systemic+allergic+reaction&amp;rft.relation=signs&amp;rft.license=http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-nd%2F4.0%2F"></span>
+<!-- Render Modals -->
+  <div role="dialog" class="modal collection-list-modal fade" id="collection-list-container" tabindex="-1" aria-labelledby="col_add_title">
+  <div class="modal-dialog text-left">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="col_add_title">Add to collection</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+            <em> You do not have access to any existing collections. You may create a new collection.</em><br /><br /><br /><br />
+ <!-- else -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    <div class="card">
+      <div class="card-body">
+        <div class="row metadata-view">
+          <div class="col-12">
+  <div class="workflow-actions">
+    
+  </div>
+</div>
+
+          <div class="col-sm-4 text-center">
+                    <div>
+      <h2 class="sr-only">Downloadable Content</h2>
+      <img class="representative-media" alt="" role="presentation" src="/downloads/7w62fp76n?file=thumbnail" />
+      <a target="_blank" id="file_download" class="btn btn-info" data-label="7w62fp76n" data-work-id="z603rb671" data-collection-ids="[&quot;j3860c88t&quot;]" href="/downloads/7w62fp76n?locale=en">Download PDF</a>
+    </div>
+
+
+            <div class="citations">
+    <button class="btn btn-default" data-toggle="modal" data-target="#citations-modal">Citations</button>
+  <a class="btn btn-default access-request" href="https://blogs.lib.unc.edu/cdr/index.php/accessibility-request">
+    Request Version for Screen Reader</a>
+</div>
+
+<div class="modal fade" id="citations-modal" tabindex="-1" role="dialog" aria-labelledby="citations-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="citations-modal-title">Citation</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body unc-modal">
+        <div class="cite">
+          <h4>MLA</h4>
+          <span class="mla-citation"><span class="citation-author">Khalid, Muhammad B, et al. </span><i class="citation-title">A Randomized Double-blinded Trial to Assess Recurrence of Systemic Allergic Reactions Following Covid-19 Mrna Vaccination.</i> Elsevier, 2024. https://doi.org/10.17615/crjf-1x37</span>
+        </div>
+        <div class="cite">
+          <h4>APA</h4>
+          <span class="apa-citation"><span class="citation-author">Khalid, M., Zektser, E., Chu, E., Li, M., Utoh, J., Ryan, P., Loving, H., Harb, R., Kattappuram, R., Chatman, L., Hartono, S., Claudio Etienne, E., Sun, G., Feener, E., Li, Z., Lai, S., Le, Q., Schwartz, L., Lyons, J., Komarow, H., Zhou, Z., Raza, H., Pao, M., Laky, K., Holland, S., Brittain, E., &amp; Frischmeyer Guerrerio, P.</span> (2024). <i class="citation-title">A randomized double-blinded trial to assess recurrence of systemic allergic reactions following COVID-19 mRNA vaccination.</i> Elsevier. https://doi.org/10.17615/crjf-1x37</span>
+        </div>
+        <div class="cite">
+          <h4>Chicago</h4>
+          <span class="chicago-citation"><span class="citation-author">Khalid, Muhammad B, Ellen Zektser, Eric Chu, Min Li, Joanna Utoh, Patrick Ryan, Hanna S Loving et al.</span> 2024. <i class="citation-title">A Randomized Double-Blinded Trial to Assess Recurrence of Systemic Allergic Reactions Following Covid-19 Mrna Vaccination.</i> Elsevier. https://doi.org/10.17615/crjf-1x37</span>
+        </div>
+        <ul class="list-inline">
+          <li><a href="/concern/articles/z603rb671.endnote?locale=en">EndNote</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="col-sm-8">
+            <dl class="work-show pt-3 article"  itemscope itemtype="http://schema.org/Article">
+    
+<dt>Creator</dt>
+<dd><ul class="tabular">
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Khalid, Muhammad B</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-4396-9984" target="_blank">https://orcid.org/0000-0002-4396-9984</a>
+</li>
+<li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Zektser, Ellen</span><ul><li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Chu, Eric</span><ul><li>Other Affiliation: Clinical Monitoring Research Program Directorate, Frederick National Laboratory for Cancer Research, Frederick, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Li, Min</span><ul><li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Utoh, Joanna</span><ul><li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Ryan, Patrick</span><ul><li>Other Affiliation: Office of the Clinical Director, National Institute of Mental Health, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Loving, Hanna S</span><ul><li>Other Affiliation: Department of Laboratory Medicine, Clinical Center, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Harb, Roa</span><ul><li>Other Affiliation: Department of Laboratory Medicine, Clinical Center, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Kattappuram, Robbie</span><ul><li>Other Affiliation: Investigational Drug Management and Research Section, Clinical Center, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Chatman, Lindsay</span><ul><li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Hartono, Stella</span><ul><li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Claudio-Etienne, Estefania</span><ul><li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Sun, Guangping</span><ul><li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Feener, Edward P</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-1175-8469" target="_blank">https://orcid.org/0000-0003-1175-8469</a>
+</li>
+<li>Other Affiliation: KalVista Pharmaceuticals, Cambridge, Mass.</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Li, Zhongbo</span><ul><li>Eshelman School of Pharmacy, Division of Pharmacoengineering and Molecular Pharmaceutics</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Lai, Samuel K</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-4721-528X" target="_blank">https://orcid.org/0000-0003-4721-528X</a>
+</li>
+<li>Eshelman School of Pharmacy, Division of Pharmacoengineering and Molecular Pharmaceutics</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Le, Quang</span><ul><li>Other Affiliation: Department of Internal Medicine, Division of Rheumatology, Allergy, and Immunology, Virginia Commonwealth University, Richmond, Va.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Schwartz, Lawrence B</span><ul><li>Other Affiliation: Department of Internal Medicine, Division of Rheumatology, Allergy, and Immunology, Virginia Commonwealth University, Richmond, Va.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Lyons, Jonathan J</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-2346-8189" target="_blank">https://orcid.org/0000-0002-2346-8189</a>
+</li>
+<li>Other Affiliation: Translational Allergic Immunopathology Unit, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Komarow, Hirsh</span><ul><li>Other Affiliation: Mast Cell Biology Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Zhou, Zhao-Hua</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-9998-0381" target="_blank">https://orcid.org/0000-0002-9998-0381</a>
+</li>
+<li>Other Affiliation: Office of Biotechnology Products, Office of Pharmaceutical Quality, Center for Drug Evaluation and Research, Food and Drug Administration, Silver Spring, Md.</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Raza, Haniya</span><ul><li>Other Affiliation: Office of the Clinical Director, National Institute of Mental Health, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Pao, Maryland</span><ul><li>Other Affiliation: Office of the Clinical Director, National Institute of Mental Health, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Laky, Karen</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-8197-3941" target="_blank">https://orcid.org/0000-0002-8197-3941</a>
+</li>
+<li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Holland, Steven M</span><ul><li>Other Affiliation: Laboratory of Clinical Immunology and Microbiology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Brittain, Erica</span><ul><li>Other Affiliation: Biostatistics Research Branch, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md.</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Frischmeyer-Guerrerio, Pamela A</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-2259-5546" target="_blank">https://orcid.org/0000-0003-2259-5546</a>
+</li>
+<li>Other Affiliation: Food Allergy Research Section, Laboratory of Allergic Diseases, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Md. Electronic address: pamela.guerrerio@nih.gov.</li>
+</ul>
+</li>
+</ul></dd>
+
+<dt>Abstract</dt>
+<dd><ul class='tabular'><li class="attribute attribute-abstract"><span itemprop="description">BACKGROUND: Systemic allergic reactions (sARs) following coronavirus disease 2019 (COVID-19) mRNA vaccines were initially reported at a higher rate than after traditional vaccines.
+OBJECTIVE: We aimed to evaluate the safety of revaccination in these individuals and to interrogate mechanisms underlying these reactions.
+METHODS: In this randomized, double-blinded, phase 2 trial, participants aged 16 to 69 years who previously reported a convincing sAR to their first dose of COVID-19 mRNA vaccine were randomly assigned to receive a second dose of BNT162b2 (Comirnaty) vaccine and placebo on consecutive days in a blinded, 1:1 crossover fashion at the National Institutes of Health. An open-label BNT162b2 booster was offered 5 months later if the second dose did not result in severe sAR. None of the participants received the mRNA-1273 (Spikevax) vaccine during the study. The primary end point was recurrence of sAR following second dose and booster vaccination; exploratory end points included biomarker measurements.
+RESULTS: Of 111 screened participants, 18 were randomly assigned to receive study interventions. Eight received BNT162b2 second dose followed by placebo; 8 received placebo followed by BNT162b2 second dose; 2 withdrew before receiving any study intervention. All 16 participants received the booster dose. Following second dose and booster vaccination, sARs recurred in 2 participants (12.5%; 95% CI, 1.6 to 38.3). No sAR occurred after placebo. An anaphylaxis mimic, immunization stress-related response (ISRR), occurred more commonly than sARs following both vaccine and placebo and was associated with higher predose anxiety scores, paresthesias, and distinct vital sign and biomarker changes.
+CONCLUSIONS: Our findings support revaccination of individuals who report sARs to COVID-19 mRNA vaccines. Distinct clinical and laboratory features may distinguish sARs from ISRRs.</span></li></ul></dd>
+<dt>Date of publication</dt>
+<dd><ul class='tabular'><li class="attribute attribute-date_issued"><span itemprop="datePublished">March 7, 2024</span></li></ul></dd>
+<dt>Keyword</dt>
+<dd><ul class='tabular'><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=anaphylaxis&amp;locale=en">anaphylaxis</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=booster&amp;locale=en">booster</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=dose+of+BNT162b2&amp;locale=en">dose of BNT162b2</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=mRNA+vaccines&amp;locale=en">mRNA vaccines</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=biomarkers&amp;locale=en">biomarkers</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=participants&amp;locale=en">participants</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=National+Institutes+of+Health&amp;locale=en">National Institutes of Health</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=intervention&amp;locale=en">intervention</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=end+points&amp;locale=en">end points</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=paresthesia&amp;locale=en">paresthesia</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=findings&amp;locale=en">findings</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID-19&amp;locale=en">COVID-19</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=mRNA&amp;locale=en">mRNA</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=biomarker+changes&amp;locale=en">biomarker changes</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=revaccination+of+individuals&amp;locale=en">revaccination of individuals</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=placebo&amp;locale=en">placebo</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=study+intervention&amp;locale=en">study intervention</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID-19+mRNA+vaccines&amp;locale=en">COVID-19 mRNA vaccines</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=laboratory+features&amp;locale=en">laboratory features</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Institutes+of+Health&amp;locale=en">Institutes of Health</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=mRNA-1273&amp;locale=en">mRNA-1273</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=individuals&amp;locale=en">individuals</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=biomarker+measurements&amp;locale=en">biomarker measurements</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=BNT162b2+booster&amp;locale=en">BNT162b2 booster</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=features&amp;locale=en">features</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=health&amp;locale=en">health</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=crossover&amp;locale=en">crossover</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=months&amp;locale=en">months</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=National+Institute&amp;locale=en">National Institute</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=vital+signs&amp;locale=en">vital signs</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=dose+of+COVID-19+mRNA+vaccine&amp;locale=en">dose of COVID-19 mRNA vaccine</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=booster+dose&amp;locale=en">booster dose</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=consecutive+days&amp;locale=en">consecutive days</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=double-blind&amp;locale=en">double-blind</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=crossover+fashion&amp;locale=en">crossover fashion</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=reaction&amp;locale=en">reaction</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=stress-related+responses&amp;locale=en">stress-related responses</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=dose&amp;locale=en">dose</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=trials&amp;locale=en">trials</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=anxiety+scores&amp;locale=en">anxiety scores</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=study&amp;locale=en">study</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Exploratory+end+points&amp;locale=en">Exploratory end points</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=years&amp;locale=en">years</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=immunity&amp;locale=en">immunity</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=systemic+allergic+reactions&amp;locale=en">systemic allergic reactions</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=changes&amp;locale=en">changes</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=mechanism&amp;locale=en">mechanism</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=traditional+vaccines&amp;locale=en">traditional vaccines</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=coronavirus&amp;locale=en">coronavirus</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=screening+participation&amp;locale=en">screening participation</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=randomized+double-blind+trial&amp;locale=en">randomized double-blind trial</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=vaccine&amp;locale=en">vaccine</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=coronavirus+disease+2019&amp;locale=en">coronavirus disease 2019</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=allergic+reactions&amp;locale=en">allergic reactions</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=recurrence&amp;locale=en">recurrence</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=revaccination&amp;locale=en">revaccination</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=BNT162b2&amp;locale=en">BNT162b2</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=response&amp;locale=en">response</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=fashion&amp;locale=en">fashion</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=rate&amp;locale=en">rate</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=measurements&amp;locale=en">measurements</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=days&amp;locale=en">days</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=interrogating+mechanisms&amp;locale=en">interrogating mechanisms</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=safety&amp;locale=en">safety</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=safety+of+revaccination&amp;locale=en">safety of revaccination</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=scores&amp;locale=en">scores</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=phase&amp;locale=en">phase</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=second+dose&amp;locale=en">second dose</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=phase+2+trial&amp;locale=en">phase 2 trial</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=double-blind+trial&amp;locale=en">double-blind trial</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=point&amp;locale=en">point</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=booster+vaccination&amp;locale=en">booster vaccination</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=National&amp;locale=en">National</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=immunization+stress-related+responses&amp;locale=en">immunization stress-related responses</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=severe+systemic+allergic+reaction&amp;locale=en">severe systemic allergic reaction</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=signs&amp;locale=en">signs</a></span></li></ul></dd>
+
+<dt>DOI</dt>
+<dd><ul class='tabular'><li class="attribute attribute-doi"><span itemprop="identifier"><a href="https://doi.org/10.17615/crjf-1x37">https://doi.org/10.17615/crjf-1x37</a></span></li></ul></dd>
+<dt>Identifier</dt>
+<dd><ul class='tabular'><li class="attribute attribute-identifier">Dimensions ID: pub.1169493279</li><li class="attribute attribute-identifier">DOI: <a href="https://dx.doi.org/10.1016/j.jaci.2024.03.001">https://dx.doi.org/10.1016/j.jaci.2024.03.001</a></li><li class="attribute attribute-identifier">PMCID: PMC11162316</li><li class="attribute attribute-identifier">PMID: 38460680</li></ul></dd>
+
+<dt>Resource type</dt>
+<dd><ul class='tabular'><li class="attribute attribute-resource_type">Article</li></ul></dd>
+<dt>Rights statement</dt>
+<dd><ul class='tabular'><li class="attribute attribute-rights_statement_label">In Copyright</li></ul></dd>
+
+<dt>License</dt>
+<dd><ul class='tabular'><li itemprop="license" itemscope itemtype="http://schema.org/URL" class="attribute attribute-license_label"><span itemprop="true">Attribution-NonCommercial-NoDerivs 4.0 International</span></li></ul></dd>
+<dt>Journal title</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_title">Journal of Allergy and Clinical Immunology</li></ul></dd>
+<dt>Journal volume</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_volume">153</li></ul></dd>
+<dt>Journal issue</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_issue">6</li></ul></dd>
+<dt>Page start</dt>
+<dd><ul class='tabular'><li class="attribute attribute-page_start">1634</li></ul></dd>
+<dt>Page end</dt>
+<dd><ul class='tabular'><li class="attribute attribute-page_end">1646</li></ul></dd>
+
+<dt>Version</dt>
+<dd><ul class='tabular'><li class="attribute attribute-edition">Publisher</li></ul></dd>
+
+<dt>Funder</dt>
+<dd><ul class='tabular'><li class="attribute attribute-funder">National Institutes of Health Clinical Center</li><li class="attribute attribute-funder">National Heart Lung and Blood Institute</li><li class="attribute attribute-funder">Mayo Clinic</li><li class="attribute attribute-funder">National Institute of Allergy and Infectious Diseases</li><li class="attribute attribute-funder">National Cancer Institute</li></ul></dd>
+
+<dt>ISSN</dt>
+<dd><ul class='tabular'><li class="attribute attribute-issn">0091-6749</li><li class="attribute attribute-issn">1097-6825</li></ul></dd>
+
+
+
+
+
+
+
+
+<dt>Publisher</dt>
+<dd><ul class='tabular'><li itemprop="publisher" itemscope itemtype="http://schema.org/Organization" class="attribute attribute-publisher"><span itemprop="name">Elsevier</span></li></ul></dd>
+
+
+  
+
+    
+    
+ </dl>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- /card -->
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Relations</h2>
+      </div>
+      <div class="card-body">
+        <dl class="work-show">
+
+
+
+<dt> Parents: </dt>
+  <p>This work has no parents.</p>
+
+
+    <dt> In Collection: </dt>
+<dd>
+      <ul class="tabular">
+          <li class='attribute attribute-title'>
+            <a href="/collections/j3860c88t?locale=en">UNC-Chapel Hill Coronavirus Research</a>
+          </li>
+      </ul>
+  </dd>
+
+
+
+</dl>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Items</h2>
+      </div>
+      <div class="card-body">
+            <table class="table table-striped related-files">
+      <thead>
+      <tr>
+        <th>Thumbnail</th>
+        <th>Title</th>
+        <th>Date Uploaded</th>
+        <th>Visibility</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="file_set attributes">
+  <td class="thumbnail">
+    <a href="/concern/file_sets/7w62fp76n?locale=en"><img alt="file details" src="/downloads/7w62fp76n?file=thumbnail" /></a>
+  </td>
+  <td class="attribute attribute-filename ensure-wrapped"><a href="/concern/parent/z603rb671/file_sets/7w62fp76n">1-s2.0-S0091674924002367-main.pdf</a></td>
+  <td class="attribute attribute-date_uploaded">2024-09-06</td>
+  <td class="attribute attribute-permission"><span class="badge badge-success">Public</span></td>
+  <td>
+        <a class="btn btn-secondary btn-sm" title="Download 1-s2.0-S0091674924002367-main.pdf" target="_blank" id="file_download" data-label="7w62fp76n" data-work-id="z603rb671" data-collection-ids="[&quot;j3860c88t&quot;]" href="/downloads/7w62fp76n?locale=en">Download</a>
+
+
+  </td>
+</tr>
+      </tbody>
+    </table>
+    <div class="row">
+    </div>
+
+      </div>
+    </div>
+
+
+<span class='hide analytics-event' data-category="work" data-action="work-view" data-name="z603rb671" >
+  <span class='hide analytics-event' data-category="work-in-collection" data-action="work-in-collection-view" data-name="j3860c88t" >
+
+  </div>
+</div>
+
+    </div><!-- /#content-wrapper -->
+    <footer id="unc-footer" class="navbar navbar-dark bg-dark site-footer">
+    <div class="navbar-text text-center">
+      <div class="text-center">
+        <div>
+          <ul class="navbar-nav list-unstyled">
+            <li><a href="/"><span class="translation_missing" title="translation missing: en.hyrax.links.home">Home</span></a></li>
+            <li><a href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+            <li><a href="https://library.unc.edu">Library Home</a></li>
+            <li><a href="https://library.unc.edu/policies/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://digitalaccess.unc.edu/report">Accessibility</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="unc-version-footer" class="list-unstyled">
+            <li title="7bb27bdd3f73151edaf47603fa366dfd992427f0"><a href="https://github.com/UNC-Libraries/hy-c">Hy-C v3.4.1</a></li>
+            <li>Deployed on March 30, 2026</li>
+            <li><a href="https://hyrax.samvera.org/">Hyrax version 4.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+<div class="modal worktypes fade" id="worktypes-to-create" tabindex="-1" role="dialog" aria-labelledby="select-worktype-label">
+  <div class="modal-dialog" role="document">
+    <form class="modal-content new-work-select">
+      <div class="modal-header">
+        <h2 class="modal-title" id="select-worktype-label">Select type of work</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <fieldset>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="MastersPaper"
+                         data-single="/masters_papers/department?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=MastersPaper">
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Master&#39;s Papers</h3>
+                    <p>Deposit your masters paper, project or other capstone work.  Theses will be sent to the CDR automatically via ProQuest and do not need to be deposited.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Article"
+                         data-single="/concern/articles/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Article" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Articles and Book Chapters</h3>
+                    <p>Deposit a peer-reviewed article or book chapter.  If you would like to deposit a poster, presentation, conference paper or white paper, use the “Scholarly Works” deposit form.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="HonorsThesis"
+                         data-single="/concern/honors_theses/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=HonorsThesis" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Undergraduate Honors Theses</h3>
+                    <p>Deposit your senior honors thesis.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Journal"
+                         data-single="/concern/journals/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Journal" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Journal, Newsletter or Book</h3>
+                    <p>Deposit a complete issue of a scholarly journal, newsletter or book.  If you would like to deposit an article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="DataSet"
+                         data-single="/concern/data_sets/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=DataSet" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Datasets</h3>
+                    <p>Deposit your dataset.  Datasets may be associated with an article or deposited separately.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Multimed"
+                         data-single="/concern/multimeds/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Multimed" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Multimedia</h3>
+                    <p>Deposit your 3D objects, audio, images or video.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="ScholarlyWork"
+                         data-single="/concern/scholarly_works/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=ScholarlyWork" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Poster, Presentation, Protocol or Paper</h3>
+                    <p>Deposit scholarly works such as posters, presentations, research protocols, conference papers or white papers. If you would like to deposit a peer-reviewed article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+        </fieldset>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <input type="submit" class="btn btn-primary" value="Create work" />
+      </div>
+    </form>
+  </div>
+</div>
+
+
+    <div id="blacklight-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-turbo="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript" id="unc-ub-script" defer data-color="dark-gray" src="https://unc.edu/web-assets/utility-bar/utility-bar.min.js"></script>
+    <script type="text/javascript">
+        // UNC toolbar script doesn't work well with Rails turbo.
+        // So we have to load the script in the body so it executes.
+        // We also have to remove any current toolbars to avoid duplicate toolbars
+        (() => {
+            const UNC_TOOLBAR_SELECTOR = "#unc-utility-bar"; // The id added by the script
+            let currentUncToolbarElements = document.querySelectorAll(UNC_TOOLBAR_SELECTOR);
+            for (let i = 0; i < currentUncToolbarElements.length; i++) {
+                currentUncToolbarElements[i].parentNode.removeChild(currentUncToolbarElements[i]);
+            }
+        })();
+    </script>
+  </body>
+</html>

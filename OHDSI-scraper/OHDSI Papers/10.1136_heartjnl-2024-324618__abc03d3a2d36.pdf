@@ -1,0 +1,1032 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="nexus-font-support">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="tdm-reservation" content="0">
+    <title>
+        Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis.
+      -  University of Edinburgh Research Explorer</title>
+    
+    
+    
+
+
+
+<meta property="og:site_name" content="University of Edinburgh Research Explorer">
+
+
+    <meta property="og:title" content="Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis."/>
+
+
+<meta property="og:url" content="https://www.research.ed.ac.uk/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/">
+<meta property="og:locale" content="en_GB">
+
+
+
+
+    
+        <meta property="og:image" content="https://www.research.ed.ac.uk/skin/headerImage/">
+    
+
+
+
+
+    
+        <meta property="og:type" content="article">
+    
+
+    
+
+    
+
+
+    <link rel="stylesheet" href="/assets/application-bbadabf14375775985ecfd59655b0569.css" />
+    
+    
+    <link href="/skin/css/" rel="stylesheet"/>
+    
+    <script src="/skin/script/" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/application-c9812d1ef516be20094e6491b18de745.js" ></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/assets/html5shiv.min-ca5300beead9a4a9d2c9c584a9016410.js" ></script>
+    <script type="text/javascript" src="/assets/respond.min-678d372b349e434d9923e1b591f14a1e.js" ></script>
+    <![endif]-->
+    
+        
+        
+        <meta name="citation_title" content="Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis. "></meta><meta name="citation_author" content="Thomas Downes"></meta><meta name="citation_author_institution" content="University of Dundee"></meta><meta name="citation_author" content="Bruce Guthrie"></meta><meta name="citation_author_institution" content="Centre for Population Health Sciences"></meta><meta name="citation_author_institution" content="Usher Institute"></meta><meta name="citation_author_institution" content="School of Population Health Sciences"></meta><meta name="citation_author_email" content="Bruce.Guthrie@ed.ac.uk"></meta><meta name="citation_author_orcid" content="0000-0003-4191-4880"></meta><meta name="citation_author" content="David Moreno-Martos"></meta><meta name="citation_author_institution" content="University of Dundee"></meta><meta name="citation_author" content="Daniel R Morales"></meta><meta name="citation_author_institution" content="University of Dundee"></meta><meta name="citation_publication_date" content="2025/03/04"></meta><meta name="citation_pdf_url" content="https://www.research.ed.ac.uk/files/493056472/Heart_AF_manuscript_2025_accepted.pdf"></meta><meta name="citation_online_date" content="2025/03/07"></meta><meta name="citation_doi" content="10.1136/heartjnl-2024-324618"></meta><meta name="citation_language" content="English"></meta><meta name="citation_journal_title" content="Heart"></meta><meta name="citation_issn" content="1355-6037"></meta><meta name="citation_publisher" content="BMJ Publishing Group"></meta>
+        <script src="/assets/Chart.min-27bff060c3e539ceb22e763c8f2e9e10.js"></script>
+        <script src="/assets/jquery.content-chart-9c09bb79ba3fc3829b6478d0e114f737.js"></script>
+        
+    
+    
+    <!-- Google Analytics: No account ID (G) found -->
+    <script src="//assets.adobedtm.com/4a848ae9611a/ea83f870454d/launch-af020409b299.min.js" async=""></script>
+    
+    
+</head>
+
+<body class="" data-page="publications">
+
+<div id="aria-polite" aria-live="polite"></div>
+
+<div id="aria-assertive" aria-live="assertive"></div>
+
+<nav aria-label="Skip to content" class="skip-content">
+    <ul>
+        <li>
+            <a href="#main-navigation" class="sr-only sr-only-focusable">Skip to main navigation</a>
+        </li>
+        
+            <li>
+                <a href="#main-search" class="sr-only sr-only-focusable">Skip to search</a>
+            </li>
+        
+        <li>
+            <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+            
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+    <header class="header" id="page-header">
+        <div class="primary  ">
+            <div class="container">
+                
+                <a href="/en/" class="logo">
+                    
+                        <span class="sr-only">University of Edinburgh Research Explorer Home</span>
+                        <img src="/skin/headerImage/" alt="University of Edinburgh Research Explorer Logo"/>
+                    
+                </a>
+                
+                    <ul class="header-tools ">
+                        
+                            <li class="help-and-faq">
+                                <a href="https://www.ed.ac.uk/information-services/research-support/research-information-management/pure" target="_blank">
+                                    <i class="icon icon-lifebuoy" aria-hidden="true"></i>
+                                    <span class="label">Help &amp; FAQ</span>
+                                    <span class="sr-only">&nbsp; Link opens in a new tab</span>
+                                </a>
+                            </li>
+                        
+                        
+                    </ul>
+                
+                
+                
+            </div>
+        </div>
+
+        
+            <div class="header-search">
+                
+<form action="/en/searchAll/index/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/" method="get"
+      class="search-form" id="search-everything">
+
+    <div class="global-search-wrapper">
+        <div class="global-search mini">
+            <div class="field-button-wrapper">
+                <div class="search-cell search-field">
+                    <label for="main-search" class="sr-only">Search content at University of Edinburgh Research Explorer</label>
+                    <input id="main-search" class="search-field" value="" name="search"
+                           placeholder="Search..."/>
+                </div>
+
+                <div class="search-submit">
+                    <button type="submit" aria-label="Search">
+                        <i class="icon icon-magnifying-glass" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(function () {
+        var searchForm = $("#search-everything");
+        var searchField = $(".search-field", searchForm);
+        searchForm.on("submit", function () {
+            var field = searchField.find("input");
+            var searchString = field.val();
+
+            // No enter key submit nothing :-)
+            if (!searchString) return false;
+
+            if (searchString.length >= 200) {
+                searchForm.attr("method", "post");
+                searchForm.attr("action", "/en/concepts/copypaste/");
+                field.attr("name", "text");
+            }
+        });
+    });
+</script>
+            </div>
+        
+
+
+        
+        
+            <div class="subMenu">
+                <div class="secondary">
+                    <div class="container">
+                        <nav id="main-navigation" aria-label="Main navigation" class="content-navigation three-third">
+                            <ul data-value="More" role="menubar">
+                                <li class="" role="none">
+                                    <a href="/en/" role="menuitem" tabindex="-1">Home</a>
+                                </li>
+
+                                
+                                    <li class="selected" role="none">
+                                        <a class="portal_link" tabindex="0" role="menuitem" href="/en/publications/"><span>Research output</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/persons/"><span>Profiles</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/organisations/"><span>Research units</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/projects/"><span>Projects</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/datasets/"><span>Datasets</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/prizes/"><span>Prizes</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/activities/"><span>Activities</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/clippings/"><span>Press/Media</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/equipments/"><span>Equipment</span></a>
+                                    </li>
+                                
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+    <main id="page-content">
+        
+    <div class="page-section page-section-publications page-section-publications-view ">
+
+        
+        
+        
+        
+        <section
+                class="page-section-header page-section-header-publications page-section-header-publications-view
+                 no-backdrop-image"
+                data-stickyheader=""
+                style="">
+            
+            
+        
+
+
+<div class="container">
+    <div class="row">
+        <div class="introduction no-metrics">
+            <div class="rendering"><h1><span>Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis. </span></h1></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatespersonsclassifiedportal rendering_contributiontojournal rendering_associatespersonsclassifiedportal rendering_contributiontojournal_associatespersonsclassifiedportal"><p class="relations persons">Thomas Downes, <a rel="Person" href="https://www.research.ed.ac.uk/en/persons/bruce-guthrie/" class="link person"><span>Bruce Guthrie</span></a>, David Moreno-Martos, Daniel R Morales</div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatesorganisationsportal rendering_contributiontojournal rendering_associatesorganisationsportal rendering_contributiontojournal_associatesorganisationsportal"><ul class="relations organisations"><li class="research_centre"><a rel="Organisation" href="https://www.research.ed.ac.uk/en/organisations/centre-for-population-health-sciences/" class="link"><span>Centre for Population Health Sciences</span></a></li><li class="research_institute"><a rel="Organisation" href="https://www.research.ed.ac.uk/en/organisations/usher-institute/" class="link"><span>Usher Institute</span></a></li><li class="school"><a rel="Organisation" href="https://www.research.ed.ac.uk/en/organisations/school-of-population-health-sciences/" class="link"><span>School of Population Health Sciences</span></a></li></ul></div>
+            
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationcontenttyperendererportalng rendering_contributiontojournal rendering_publicationcontenttyperendererportalng rendering_contributiontojournal_publicationcontenttyperendererportalng"><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+<div class="subMenu">
+    <div class="content-profile-navigation">
+    <div class="container">
+        <nav role="navigation">
+            <ul role="menubar">
+                <li class="selected" role="none">
+                    <a class="portal_link" role="menuitem" href="/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/"><span>
+                        <i class="icon icon-publication" aria-hidden="true"></i>
+                        <span class="label">Overview</span>
+                    </span></a>
+                </li>
+                
+                    <li class="" role="none">
+                        <a class="portal_link" role="menuitem" href="/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/fingerprints/"><span>
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="label">Fingerprint</span>
+                        </span></a>
+                    </li>
+                
+                
+                    
+                        <li class="" role="none">
+                            <a class="portal_link" role="menuitem" href="/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/projects/"><span>
+                                <i class="icon icon-projects"></i>
+                                <span class="label">Projects</span>
+                                <span class="count">(1)</span>
+                            </span></a>
+                        </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</div>
+
+    
+        </section>
+
+        <div id="main-content"
+             class="page-section-content page-section-content-publications page-section-content-publications-view   ">
+            
+        <section class="page-section content-relation-section">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="content-content publication-content">
+                        
+                        
+                            <h2 class="subheader">Abstract</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_abstractportal rendering_contributiontojournal rendering_abstractportal rendering_contributiontojournal_abstractportal"><div class="textblock">Background: Atrial fibrillation (AF) prevalence is rising due to population ageing and comorbidity is an increasing problem. The aim of this study was to examine the prevalence and association of co-existing health conditions among adults with AF in the general population.<br /><br />Methods: Cross-sectional analysis of Clinical Practice Research Datalink (CPRD) primary care electronic medical records in England linked to hospital admissions as of 30/11/15. CPRD is broadly representative of the UK general population in terms of age, sex and ethnicity. We estimated prevalence and used logistic regression examining risk factors of age, sex and socioeconomic status (SES) to compare prevalence of 252 physical and mental health conditions and 23 higher-level health condition groups in adults with AF compared to adults without. <br /><br />Results: 34,338 adults with AF (57% male; 83% ≥65 years) and 907,739 without AF (49% male; 23% ≥65 years) were identified. Adjusted for age and sex, adults with AF were significantly more likely to have 20/23 (87%) health condition groups than adults without AF. The most prevalent health condition groups in adults with AF were cardiovascular (prevalence 89% in adults with AF vs 26% in adults without, adjusted odds ratio (aOR) 5.82, 95%CI 5.60-6.05), gastrointestinal (62%vs37%, aOR 1.34, 95%CI 1.31-1.38) and orthopaedic (58%vs24%, aOR 1.32, 95%CI 1.29-1.35). 151/252 individual conditions were significantly more common in adults with AF including cardiovascular conditions such as cardiomyopathy (4.5%vs0.3%, aOR 9.58, 95%CI 8.88-10.35) and heart failure (18%vs0.7%, aOR 9.07, 95%CI 8.70-9.46), and non-cardiovascular conditions such as pleural effusion (16%vs1.8%, aOR 3.55, 95%CI 3.42-3.67) and oesophageal malignancy (0.3%vs0.0%, aOR 2.14, 95%CI 1.69-2.70). Associations were similar after SES adjustment.<br /><br />Conclusions: Whilst cardiovascular conditions are highly prevalent and strongly associated with AF, a wide spectrum of non-cardiovascular conditions were also strongly associated requiring a greater understanding of managing comorbid conditions with management principles contradictory to AF.<br /></div></div>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_detailsportal rendering_contributiontojournal rendering_detailsportal rendering_contributiontojournal_detailsportal"><div class="article"><table class="properties"><tbody><tr class="language"><th scope="row">Original language</th><td>English</td></tr><tr><th scope="row">Journal</th><td><a rel="Journal" href="#" class="link"><span>Heart</span></a></td></tr><tr><th scope="row">Early online date</th><td><span class="date">4 Mar 2025</span></td></tr><tr class="digital_object_identifiers"><th scope="row">DOIs</th><td><ul class="relations digital_object_identifiers"><li><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1136/heartjnl-2024-324618" class="link"><span>https://doi.org/10.1136/heartjnl-2024-324618</span></a> </li></ul></td></tr><tr class="status"><th scope="row">Publication status</th><td><span class="prefix">E-pub ahead of print - </span><span class="date">4 Mar 2025</span></td></tr></tbody></table></div></div>
+                        
+
+                        
+
+                        
+
+                        
+
+                    </div>
+
+                    <div class="content-sidebar publication-sidebar">
+                        
+                            <h2 class="subheader">Access to Document</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationaccessrenderer rendering_contributiontojournal rendering_publicationaccessrenderer rendering_contributiontojournal_publicationaccessrenderer"><ul class="dois"><li><div class="doi"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1136/heartjnl-2024-324618" class="link"><span>10.1136/heartjnl-2024-324618</span></a></div></li></ul><ul class="documents"><li class="open-access"><div class="document"><a onclick="if (this.href) {window.open(this.href)}; return false;" href="/files/493056472/Heart_AF_manuscript_2025_accepted.pdf" class="link document-link"><span>Heart_AF_manuscript_2025_accepted</span></a><span class="meta">Accepted author manuscript, 574 KB</span><span class="meta">Licence: <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="http://creativecommons.org/licenses/by/4.0/" class="link">Creative Commons: Attribution (CC-BY)</a></span></div></li></ul></div>
+
+                        
+
+                        
+
+                        
+                            <h2 class="subheader">Other files and links</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationotherfilesandlinksrenderer rendering_contributiontojournal rendering_publicationotherfilesandlinksrenderer rendering_contributiontojournal_publicationotherfilesandlinksrenderer"><ul class="documents"><li><div class="document"><a onclick="if (this.href) {window.open(this.href)}; return false;" href="/files/493056464/Hear_AF_supplementary_file_2025_accepted.pdf" class="link document-link"><span>Hear_AF_supplementary_file_2025_accepted</span></a></div></li><li><div class="document"><a onclick="if (this.href) {window.open(this.href)}; return false;" href="/files/493056466/Heart_AF_Figure_1_002_.JPG" class="link document-link"><span>Heart_AF_Figure_1 (002)</span></a></div></li><li><div class="document"><a onclick="if (this.href) {window.open(this.href)}; return false;" href="/files/493056468/Heart_AF_Figure_2.JPG" class="link document-link"><span>Heart_AF_Figure_2</span></a></div></li><li><div class="document"><a onclick="if (this.href) {window.open(this.href)}; return false;" href="/files/493056470/Heart_AF_Figure_3.JPG" class="link document-link"><span>Heart_AF_Figure 3</span></a></div></li></ul></div>
+
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_versioneddocumentspureportal rendering_contributiontojournal rendering_versioneddocumentspureportal rendering_contributiontojournal_versioneddocumentspureportal"><ul class="relations documents"></ul></div>
+
+                        
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <section class="page-section content-relation-section publication-fingerprint">
+                <div class="container">
+                    <div class="header">
+                        <h2 class="section-title">
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="title">Fingerprint</span>
+                        </h2>
+                        <span class="sub-title">
+                            Dive into the research topics of 'Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis.'. Together they form a unique fingerprint.
+                        </span>
+                    </div>
+
+                    <ul class="publication-top-concepts" role="menubar"  aria-label="Related fingerprints">
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="e9d9a19a-3a55-4b05-9b2d-0f0eeda12243"
+            data-concept-uuid="e9d9a19a-3a55-4b05-9b2d-0f0eeda12243"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Cross Sectional Study</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="0286b666-e346-45be-b329-7975cc9ae8af"
+            data-concept-uuid="0286b666-e346-45be-b329-7975cc9ae8af"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Atrial Fibrillation</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="7327888e-643f-4e20-b8ec-c5fd48cb4cd2"
+            data-concept-uuid="7327888e-643f-4e20-b8ec-c5fd48cb4cd2"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.5384615"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="53%">
+            <span class="rank"></span>
+            <span class="concept">Odds Ratio</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">53%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="2362a136-da8b-40dc-9cd3-6911da5aae58"
+            data-concept-uuid="2362a136-da8b-40dc-9cd3-6911da5aae58"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.3846154"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="38%">
+            <span class="rank"></span>
+            <span class="concept">Prevalence</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">38%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="a79991f4-c976-4a45-90cf-1c14bd270540"
+            data-concept-uuid="a79991f4-c976-4a45-90cf-1c14bd270540"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.3076923"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="30%">
+            <span class="rank"></span>
+            <span class="concept">Cardiovascular Condition</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">30%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="1391fc1d-5f2a-4425-8ed7-e547cd7a2401"
+            data-concept-uuid="1391fc1d-5f2a-4425-8ed7-e547cd7a2401"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.1538462"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="15%">
+            <span class="rank"></span>
+            <span class="concept">Socioeconomic Status</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">15%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="cb3a8029-bccd-4c7d-b792-afbe3922d913"
+            data-concept-uuid="cb3a8029-bccd-4c7d-b792-afbe3922d913"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.0769231"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="7%">
+            <span class="rank"></span>
+            <span class="concept">Primary Health Care</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">7%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="2d11577c-afbf-4e03-ab11-df942d795387"
+            data-concept-uuid="2d11577c-afbf-4e03-ab11-df942d795387"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.0769231"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="7%">
+            <span class="rank"></span>
+            <span class="concept">Mental Health</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">7%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                    </ul>
+                    <div class="footer">
+                        <div class="view-all align-center">
+                            <a class="portal_link btn-primary btn-large" href="/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/fingerprints/"><span>
+                                View full fingerprint
+                                <i class="icon icon-right-open-mini" aria-hidden="true"></i>
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+        
+            
+                <section class="page-section content-relation-section publication-projects">
+                    <div class="container">
+                        <div class="header">
+    
+    
+    
+    <h2 class="section-title" id="related-projects-title">
+    <i class="icon icon-projects" aria-hidden="true"></i>
+        <span class="title">
+            
+                Projects
+            
+        </span>
+    </h2>
+
+    
+
+    
+
+    
+        
+            <div class="content-trends">
+                
+    <ul class="content-statistics">
+        
+            
+                <li class="">
+                    <a class="portal_link count increment-counter" aria-label="1 Finished" href="/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/projects/?status=FINISHED"><span>
+                        1
+                    </span></a>
+                    <span class="label">Finished</span>
+                </li>
+            
+        
+    </ul>
+
+            </div>
+        
+    
+
+</div>
+
+                        <div class="relation-list relation-list-projects">
+                            <ul class="list-results">
+                                
+                                    <li class="list-result-item">
+                                        <div role="region" class="search-result-region" aria-label="Search result 1">
+
+                                            <div class="result-container">
+                                                
+
+                                                <div class="rendering rendering_upmproject rendering_short rendering_upmproject_short"><h3 class="title"><a rel="UPMProject" href="https://www.research.ed.ac.uk/en/projects/multimorbidity-and-clinical-guidelines-using-epidemiology-to-quan-2/" class="link"><span>Multimorbidity And Clinical Guidelines: Using Epidemiology To Quantify The Applicability Of Trial Evidence To Inform Guideline Development</span></a></h3><p><a rel="Person" href="https://www.research.ed.ac.uk/en/persons/bruce-guthrie/" class="link person"><span>Guthrie, B.</span></a> (Principal Investigator)</p><p class="fundings"><a rel="UEOExternalOrganisation" href="#" class="link"><span>Scottish Executive</span></a></p><p class="period"><span class="date">1/09/19</span> → <span class="date">28/02/22</span></p><p class="type"><span class="type_family">Project<span class="type_family_sep">: </span></span><span class="type_classification">Research</span></p></div>
+
+                                                
+                                                
+
+                                                
+                                                    <ul class="content-concept-list" role="menubar" aria-label="Related fingerprints">
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="0286b666-e346-45be-b329-7975cc9ae8af"
+            data-rank-value="1.0"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Atrial Fibrillation</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="e9d9a19a-3a55-4b05-9b2d-0f0eeda12243"
+            data-rank-value="1.0"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Cross Sectional Study</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="7327888e-643f-4e20-b8ec-c5fd48cb4cd2"
+            data-rank-value="0.5384615"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Odds Ratio</span>
+            <span class="value sr-only">53%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="2362a136-da8b-40dc-9cd3-6911da5aae58"
+            data-rank-value="0.3846154"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Prevalence</span>
+            <span class="value sr-only">38%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="a79991f4-c976-4a45-90cf-1c14bd270540"
+            data-rank-value="0.3076923"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Cardiovascular Condition</span>
+            <span class="value sr-only">30%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                    </ul>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer">
+                            
+                        </div>
+                    </div>
+                </section>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        <section class="page-section cite">
+            <div class="container">
+                <section class="publication-cite" aria-labelledby="publications-cite-title">
+    <h2 class="subheader" id="publications-cite-title">Cite this</h2>
+    <ul class="tabs" role="tablist" aria-label="Cite this">
+        
+            <li class="selected" role="tab" id="tab-0" aria-controls="cite-apa" tabindex="-1"  aria-selected="false" >
+                APA
+            </li>
+        
+            <li class="" role="tab" id="tab-1" aria-controls="cite-author" tabindex="-1"  aria-selected="false" >
+                Author
+            </li>
+        
+            <li class="" role="tab" id="tab-2" aria-controls="cite-BIBTEX" tabindex="-1"  aria-selected="false" >
+                BIBTEX
+            </li>
+        
+            <li class="" role="tab" id="tab-3" aria-controls="cite-harvard" tabindex="-1"  aria-selected="false" >
+                Harvard
+            </li>
+        
+            <li class="" role="tab" id="tab-4" aria-controls="cite-standard" tabindex="-1"  aria-selected="false" >
+                Standard
+            </li>
+        
+            <li class="" role="tab" id="tab-5" aria-controls="cite-RIS" tabindex="-1"  aria-selected="false" >
+                RIS
+            </li>
+        
+            <li class="" role="tab" id="tab-6" aria-controls="cite-vancouver" tabindex="-1"  aria-selected="false" >
+                Vancouver
+            </li>
+        
+    </ul>
+    <div class="tab-container">
+        
+            <div id="cite-apa" class="tab selected" role="tabpanel" aria-labelledby="tab-0" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_apa rendering_contributiontojournal rendering_apa rendering_contributiontojournal_apa">Downes, T.<a rel="Person" href="https://www.research.ed.ac.uk/en/persons/bruce-guthrie/" class="link"><span>, Guthrie, B.</span></a>, Moreno-Martos, D., &amp; Morales, D. R. (2025). <a rel="ContributionToJournal" href="https://www.research.ed.ac.uk/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/" class="link"><span>Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis. </span></a>. <a rel="Journal" href="#" class="link"><span><em>Heart</em></span></a>. Advance online publication. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1136/heartjnl-2024-324618" class="link"><span>https://doi.org/10.1136/heartjnl-2024-324618</span></a></div>
+            </div>
+        
+            <div id="cite-author" class="tab " role="tabpanel" aria-labelledby="tab-1" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_author rendering_contributiontojournal rendering_author rendering_contributiontojournal_author">Downes, Thomas <a rel="Person" href="https://www.research.ed.ac.uk/en/persons/bruce-guthrie/" class="link"><span> ; Guthrie, Bruce</span></a> ; Moreno-Martos, David et al. / <a rel="ContributionToJournal" href="https://www.research.ed.ac.uk/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/" class="link"><span><strong>Health conditions in adults with atrial fibrillation compared with the general population : a population-based cross-sectional analysis. </strong></span></a>. In: <a rel="Journal" href="#" class="link"><span>Heart</span></a>. 2025.</div>
+            </div>
+        
+            <div id="cite-BIBTEX" class="tab " role="tabpanel" aria-labelledby="tab-2" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_bibtex rendering_contributiontojournal rendering_bibtex rendering_contributiontojournal_bibtex"><div>@article{ec37599216074e7f930bfcd26b58a20a,</div><div>  title     = "Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis. ",</div><div>  abstract  = "Background: Atrial fibrillation (AF) prevalence is rising due to population ageing and comorbidity is an increasing problem. The aim of this study was to examine the prevalence and association of co-existing health conditions among adults with AF in the general population. Methods: Cross-sectional analysis of Clinical Practice Research Datalink (CPRD) primary care electronic medical records in England linked to hospital admissions as of 30/11/15. CPRD is broadly representative of the UK general population in terms of age, sex and ethnicity. We estimated prevalence and used logistic regression examining risk factors of age, sex and socioeconomic status (SES) to compare prevalence of 252 physical and mental health conditions and 23 higher-level health condition groups in adults with AF compared to adults without. Results: 34,338 adults with AF (57\% male; 83\% ≥65 years) and 907,739 without AF (49\% male; 23\% ≥65 years) were identified. Adjusted for age and sex, adults with AF were significantly more likely to have 20/23 (87\%) health condition groups than adults without AF. The most prevalent health condition groups in adults with AF were cardiovascular (prevalence 89\% in adults with AF vs 26\% in adults without, adjusted odds ratio (aOR) 5.82, 95\%CI 5.60-6.05), gastrointestinal (62\%vs37\%, aOR 1.34, 95\%CI 1.31-1.38) and orthopaedic (58\%vs24\%, aOR 1.32, 95\%CI 1.29-1.35). 151/252 individual conditions were significantly more common in adults with AF including cardiovascular conditions such as cardiomyopathy (4.5\%vs0.3\%, aOR 9.58, 95\%CI 8.88-10.35) and heart failure (18\%vs0.7\%, aOR 9.07, 95\%CI 8.70-9.46), and non-cardiovascular conditions such as pleural effusion (16\%vs1.8\%, aOR 3.55, 95\%CI 3.42-3.67) and oesophageal malignancy (0.3\%vs0.0\%, aOR 2.14, 95\%CI 1.69-2.70). Associations were similar after SES adjustment. Conclusions: Whilst cardiovascular conditions are highly prevalent and strongly associated with AF, a wide spectrum of non-cardiovascular conditions were also strongly associated requiring a greater understanding of managing comorbid conditions with management principles contradictory to AF. ",</div><div>  author    = "Thomas Downes and Bruce Guthrie and David Moreno-Martos and Morales, \{Daniel R\}",</div><div>  year      = "2025",</div><div>  month     = mar,</div><div>  day       = "4",</div><div>  doi       = "10.1136/heartjnl-2024-324618",</div><div>  language  = "English",</div><div>  journal   = "Heart",</div><div>  issn      = "1355-6037",</div><div>  publisher = "BMJ Publishing Group",</div><p>}</p></div>
+            </div>
+        
+            <div id="cite-harvard" class="tab " role="tabpanel" aria-labelledby="tab-3" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_harvard rendering_contributiontojournal rendering_harvard rendering_contributiontojournal_harvard">Downes, T<a rel="Person" href="https://www.research.ed.ac.uk/en/persons/bruce-guthrie/" class="link"><span>, Guthrie, B</span></a>, Moreno-Martos, D &amp; Morales, DR 2025, '<a rel="ContributionToJournal" href="https://www.research.ed.ac.uk/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/" class="link harvard_title"><span>Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis. </span></a>', <a rel="Journal" href="#" class="link"><span><em>Heart</em></span></a>. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1136/heartjnl-2024-324618" class="link"><span>https://doi.org/10.1136/heartjnl-2024-324618</span></a></div>
+            </div>
+        
+            <div id="cite-standard" class="tab " role="tabpanel" aria-labelledby="tab-4" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_standard rendering_contributiontojournal rendering_standard rendering_contributiontojournal_standard"><a rel="ContributionToJournal" href="https://www.research.ed.ac.uk/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/" class="link"><span><strong>Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis. .</strong></span></a> / Downes, Thomas<a rel="Person" href="https://www.research.ed.ac.uk/en/persons/bruce-guthrie/" class="link"><span>; Guthrie, Bruce</span></a>; Moreno-Martos, David et al. <br />In: <a rel="Journal" href="#" class="link"><span>Heart</span></a>, 04.03.2025.<p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+            </div>
+        
+            <div id="cite-RIS" class="tab " role="tabpanel" aria-labelledby="tab-5" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_ris rendering_contributiontojournal rendering_ris rendering_contributiontojournal_ris"><p>TY  - JOUR</p><p>T1  - Health conditions in adults with atrial fibrillation compared with the general population</p><p>T2  - a population-based cross-sectional analysis. </p><p>AU  - Downes, Thomas</p><p>AU  - Guthrie, Bruce</p><p>AU  - Moreno-Martos, David</p><p>AU  - Morales, Daniel R</p><p>PY  - 2025/3/4</p><p>Y1  - 2025/3/4</p><p>N2  - Background: Atrial fibrillation (AF) prevalence is rising due to population ageing and comorbidity is an increasing problem. The aim of this study was to examine the prevalence and association of co-existing health conditions among adults with AF in the general population.
+
+Methods: Cross-sectional analysis of Clinical Practice Research Datalink (CPRD) primary care electronic medical records in England linked to hospital admissions as of 30/11/15. CPRD is broadly representative of the UK general population in terms of age, sex and ethnicity. We estimated prevalence and used logistic regression examining risk factors of age, sex and socioeconomic status (SES) to compare prevalence of 252 physical and mental health conditions and 23 higher-level health condition groups in adults with AF compared to adults without. 
+
+Results: 34,338 adults with AF (57% male; 83% ≥65 years) and 907,739 without AF (49% male; 23% ≥65 years) were identified. Adjusted for age and sex, adults with AF were significantly more likely to have 20/23 (87%) health condition groups than adults without AF. The most prevalent health condition groups in adults with AF were cardiovascular (prevalence 89% in adults with AF vs 26% in adults without, adjusted odds ratio (aOR) 5.82, 95%CI 5.60-6.05), gastrointestinal (62%vs37%, aOR 1.34, 95%CI 1.31-1.38) and orthopaedic (58%vs24%, aOR 1.32, 95%CI 1.29-1.35). 151/252 individual conditions were significantly more common in adults with AF including cardiovascular conditions such as cardiomyopathy (4.5%vs0.3%, aOR 9.58, 95%CI 8.88-10.35) and heart failure (18%vs0.7%, aOR 9.07, 95%CI 8.70-9.46), and non-cardiovascular conditions such as pleural effusion (16%vs1.8%, aOR 3.55, 95%CI 3.42-3.67) and oesophageal malignancy (0.3%vs0.0%, aOR 2.14, 95%CI 1.69-2.70). Associations were similar after SES adjustment.
+
+Conclusions: Whilst cardiovascular conditions are highly prevalent and strongly associated with AF, a wide spectrum of non-cardiovascular conditions were also strongly associated requiring a greater understanding of managing comorbid conditions with management principles contradictory to AF.
+</p><p>AB  - Background: Atrial fibrillation (AF) prevalence is rising due to population ageing and comorbidity is an increasing problem. The aim of this study was to examine the prevalence and association of co-existing health conditions among adults with AF in the general population.
+
+Methods: Cross-sectional analysis of Clinical Practice Research Datalink (CPRD) primary care electronic medical records in England linked to hospital admissions as of 30/11/15. CPRD is broadly representative of the UK general population in terms of age, sex and ethnicity. We estimated prevalence and used logistic regression examining risk factors of age, sex and socioeconomic status (SES) to compare prevalence of 252 physical and mental health conditions and 23 higher-level health condition groups in adults with AF compared to adults without. 
+
+Results: 34,338 adults with AF (57% male; 83% ≥65 years) and 907,739 without AF (49% male; 23% ≥65 years) were identified. Adjusted for age and sex, adults with AF were significantly more likely to have 20/23 (87%) health condition groups than adults without AF. The most prevalent health condition groups in adults with AF were cardiovascular (prevalence 89% in adults with AF vs 26% in adults without, adjusted odds ratio (aOR) 5.82, 95%CI 5.60-6.05), gastrointestinal (62%vs37%, aOR 1.34, 95%CI 1.31-1.38) and orthopaedic (58%vs24%, aOR 1.32, 95%CI 1.29-1.35). 151/252 individual conditions were significantly more common in adults with AF including cardiovascular conditions such as cardiomyopathy (4.5%vs0.3%, aOR 9.58, 95%CI 8.88-10.35) and heart failure (18%vs0.7%, aOR 9.07, 95%CI 8.70-9.46), and non-cardiovascular conditions such as pleural effusion (16%vs1.8%, aOR 3.55, 95%CI 3.42-3.67) and oesophageal malignancy (0.3%vs0.0%, aOR 2.14, 95%CI 1.69-2.70). Associations were similar after SES adjustment.
+
+Conclusions: Whilst cardiovascular conditions are highly prevalent and strongly associated with AF, a wide spectrum of non-cardiovascular conditions were also strongly associated requiring a greater understanding of managing comorbid conditions with management principles contradictory to AF.
+</p><p>U2  - 10.1136/heartjnl-2024-324618</p><p>DO  - 10.1136/heartjnl-2024-324618</p><p>M3  - Article</p><p>SN  - 1355-6037</p><p>JO  - Heart</p><p>JF  - Heart</p><p>ER  - </p></div>
+            </div>
+        
+            <div id="cite-vancouver" class="tab " role="tabpanel" aria-labelledby="tab-6" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_vancouver rendering_contributiontojournal rendering_vancouver rendering_contributiontojournal_vancouver">Downes T<a rel="Person" href="https://www.research.ed.ac.uk/en/persons/bruce-guthrie/" class="link"><span>, Guthrie B</span></a>, Moreno-Martos D, Morales DR. <span class="title"><a rel="ContributionToJournal" href="https://www.research.ed.ac.uk/en/publications/health-conditions-in-adults-with-atrial-fibrillation-compared-wit/" class="link"><span>Health conditions in adults with atrial fibrillation compared with the general population: <span class="subtitle">a population-based cross-sectional analysis. </span></span></a></span>. <a rel="Journal" href="#" class="link"><span>Heart</span></a>. 2025 Mar 4. Epub 2025 Mar 4. doi: 10.1136/heartjnl-2024-324618</div>
+            </div>
+        
+
+        <script>
+            $(function() {
+                $(".tab-container .rendering a:not([href^='http://dx.doi.org'])").contents().unwrap();
+            });
+        </script>
+    </div>
+</section>
+
+            </div>
+        </section>
+        <script>
+    $(function () {
+        if($('.publication-sidebar').length > 0){
+            if($('a.document-link').length === 0){
+                $(".metrics-top").addClass("one");
+                $('div.metrics-downloads').remove();
+            }
+        }
+    });
+
+    function plumXError(e) {
+        $(e).closest('.metric-plum-x').closest('.metrics-bottom').addClass('one');
+        $(e).closest('.metric-plum-x').remove();
+    }
+    $('div.altmetric-embed').on('altmetric:hide', function () {
+        $(this).closest('.metric-altmetric').closest('.metrics-bottom').addClass('one');
+        $(this).closest('.metric-altmetric').remove();
+    });
+</script>
+        
+
+
+
+
+
+    
+        </div>
+    </div>
+
+    <div id="new-modal-overlay"></div>
+    
+    </main>
+
+    <footer id="page-footer" class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="content-navigation three-third">
+                    <div dir="ltr" class="footer-columns">
+                        
+                            <div class="footer-column">
+                                <div class="footer-icon">
+                                    <img src="/skin/footerIcon/" alt="University of Edinburgh Research Explorer Logo"/>
+                                </div>
+                            </div>
+                        
+                        <div class="footer-column">
+                            <p>
+                                Powered by <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure" target="_blank">Pure <span class="sr-only">Link opens in a new tab</span></a>, <a href="http://www.scopus.com/" target="_blank">Scopus <span class="sr-only">Link opens in a new tab</span></a> & <a href="https://www.elsevier.com/products/elsevier-fingerprint-engine" target="_blank">Elsevier Fingerprint Engine&trade; <span class="sr-only">Link opens in a new tab</span></a> 
+                            </p>
+
+                            <p>
+                                All content on this site: Copyright &copy; 2026 University of Edinburgh Research Explorer, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+                            </p>
+
+                            <p>We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the <a href="/en/about/cookies/">use of cookies</a></p>
+                            
+                            
+                            <p></p>
+                        </div>
+
+                        <div class="footer-column">
+                            
+                                <p><a href="https://www.ed.ac.uk/about/website/privacy" target="_blank">University of Edinburgh Research Explorer data protection policy <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            
+                            
+                                <p><a href="https://library.ed.ac.uk/accessibility-statements/university-of-edinburgh-research-explorer-website" target="_blank" rel="nofollow">About web accessibility <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                <a href="https://elsevier.responsibledisclosure.com/hc/en-us/requests/new" target="_blank" rel="nofollow">Report vulnerability <span class="sr-only">&nbsp; Link opens in a new tab</span></a>
+                            </p>
+                        </div>
+
+                        
+                            <div class="footer-column">
+                                
+                                    
+                                        <p>
+                                            <a href="/en/contact/index/"> Contact us</a>
+                                        </p>
+                                    
+                                
+
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top">
+            <a href="#" class="back-to-top" aria-label="Go to top"><i class="icon icon-up-open"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+    
+
+    
+
+
+<script>window.appData = window.appData || [];</script><script type="text/javascript">
+try {(function() {
+appData.push({...{"page":{"businessUnit":"ELS:RP:ST","cmsName":"Pure Portal","environment":"prod","language":"en","loadTime":"303","loadTimestamp":"1775525566855","name":"pure portal:publications:view","noTracking":"false","productName":"PR","type":"CP-CA"},"visitor":{"accountId":"","accountName":"pr:University of Edinburgh","ipAddress":"","accessType":"pr:ANON_GUEST","loginStatus":"anonymous"},"content":[{"id":"ec375992-1607-4e7f-930b-fcd26b58a20a","title":"Health conditions in adults with atrial fibrillation compared with the general population: a population-based cross-sectional analysis.","recordType":"researchoutput"}]}, event: "pageLoad"});})();} catch(e) {if(console) { console.log(e) } }</script>
+<script>try {(function() {
+window.appData = window.appData || [];
+})();} catch(e) {if(console) { console.log(e) } }</script>
+
+</body>
+</html>
+

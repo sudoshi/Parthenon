@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7 oldie" lang="en"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="ie9" lang="en"><![endif]-->
+<!--[[if (gt IE 9)|(gt IEMobile 7)]><!--><html lang="en"><!--<![endif]-->
+<!--
+ * UBC CLF (Common Look and Feel) v7.0.4
+ * Copyright 2012-2013 The University of British Columbia
+ * UBC Communications and Marketing
+ * http://brand.ubc.ca/clf
+ */
+-->
+
+<head>
+            <!-- HEAD -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Learning, knowledge, research, insight: welcome to the world of UBC Library, the second-largest academic research library in Canada." />
+    <meta name="author" content="">
+
+        
+                    
+<!-- Stylesheets -->
+<link href="//cdn.ubc.ca/clf/7.0.4/css/ubc-clf-full.min.css" rel="stylesheet">
+
+<link href="https://lit-clf.library.ubc.ca/css/unit.css" rel="stylesheet">
+
+<!--[if lte IE 7]>
+<link href="//cdn.ubc.ca/clf/7.0.4/css/font-awesome-ie7.css" rel="stylesheet">
+
+<![endif]-->
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="//cdn.ubc.ca/clf/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="//cdn.ubc.ca/clf/7.0.4/img/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="//cdn.ubc.ca/clf/7.0.4/img/apple-touch-icon-57-precomposed.png">
+                            <!-- ROOT https://lit-clf.library.ubc.ca -->
+<!-- JavaScript -->
+<!-- libcal, citation,-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://lit-clf.library.ubc.ca/js/modernizr/modernizr.js" type="text/javascript"></script>
+<!-- Do not use integrity hash as it's not guaranteed that the file doesn't change -->
+<script src="https://cdn.ubc.ca/clf/7.0.4/js/ubc-clf.min.js"></script>
+<script src="https://lit-clf.library.ubc.ca/js/library-ui.min.js" type="text/javascript"></script>
+<script src="https://www.google.com/jsapi?key=ABQIAAAAoRs91XgpKw60K4liNrOHoBStNMhZCa0lqZKLUDgzjZGRsKl38xSnSmVmaulnWVdBLItzW4KsddHCzA" type="text/javascript"></script>
+<script src="https://lit-clf.library.ubc.ca/js/banner.js"></script>
+        
+    
+   
+
+    <title>Scaling Bayesian models for large-scale infectious disease surveillance - UBC Library Open Collections </title>
+    <meta name="description" content="The Banff International Research Station (BIRS) is a joint Canada-US-Mexico initiative that seeks to bring together people from a wide range of mathematical, sc">
+    <link href="https://open.library.ubc.ca/staticfile/build/css/item.2.8.0.css" rel="preload" as="style">
+    <link href="https://open.library.ubc.ca/staticfile/build/css/item.2.8.0.css" rel="stylesheet" type="text/css">
+            <!-- feature theme css -->
+        <link href="https://open.library.ubc.ca/staticfile/build/css/theme-birs.2.8.0.css" rel="preload" as="style">
+        <link href="https://open.library.ubc.ca/staticfile/build/css/theme-birs.2.8.0.css" rel="stylesheet" type="text/css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+            <script src="https://open.library.ubc.ca/staticfile/build/item.2.8.0.js" type="text/javascript"></script>
+    
+    <!-- /HEAD -->
+    
+
+    <link rel="canonical" href="https://open.library.ubc.ca/cIRcle/collections/48630/items/1.0044257" />
+
+
+    
+<meta property="og:url" content="https://open.library.ubc.ca/cIRcle/collections/48630/items/1.0044257" id="metaOgUrl"/>
+<meta name="og:description"
+      content=""/>
+<meta name="url" content="https://open.library.ubc.ca/cIRcle/collections/48630/items/1.0044257" id="metaUrl"/>
+
+<!-- Twitter metadata -->
+<meta name="twitter:description"
+      content=""/>
+
+        <script>
+        var docCookies={getItem:function(e){if(!e){return null}return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||null},setItem:function(e,t,n,r,i,s){if(!e||/^(?:expires|max\-age|path|domain|secure)$/i.test(e)){return false}var o="";if(n){switch(n.constructor){case Number:o=n===Infinity?"; expires=Fri, 31 Dec 9999 23:59:59 GMT":"; max-age="+n;break;case String:o="; expires="+n;break;case Date:o="; expires="+n.toUTCString();break}}document.cookie=encodeURIComponent(e)+"="+encodeURIComponent(t)+o+(i?"; domain="+i:"")+(r?"; path="+r:"")+(s?"; secure":"");return true},removeItem:function(e,t,n){if(!this.hasItem(e)){return false}document.cookie=encodeURIComponent(e)+"=; expires=Thu, 01 Jan 1970 00:00:00 GMT"+(n?"; domain="+n:"")+(t?"; path="+t:"");return true},hasItem:function(e){if(!e){return false}return(new RegExp("(?:^|;\\s*)"+encodeURIComponent(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=")).test(document.cookie)},keys:function(){var e=document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g,"").split(/\s*(?:\=[^;]*)?;\s*/);for(var t=e.length,n=0;n<t;n++){e[n]=decodeURIComponent(e[n])}return e}};
+        var cookie = docCookies.getItem('UBC_LIB_OC_ID_PROD');
+    </script>
+
+    <script>
+            </script>
+    <script>
+        console.log("%c .88888.                                           a88888b.          dP dP                     dP   oo \nd8'   `8b                                         d8'   `88          88 88                     88 \n88     88 88d888b. .d8888b. 88d888b.              88        .d8888b. 88 88 .d8888b. .d8888b. d8888P dP .d8888b. 88d888b. .d8888b. \n88     88 88'  `88 88ooood8 88'  `88              88        88'  `88 88 88 88ooood8 88'  `\"\"   88   88 88'  `88 88'  `88 Y8ooooo. \nY8.   .8P 88.  .88 88.  ... 88    88              Y8.   .88 88.  .88 88 88 88.  ... 88.  ...   88   88 88.  .88 88    88       88 \n `8888P'  88Y888P' `88888P' dP    dP               Y88888P' `88888P' dP dP `88888P' `88888P'   dP   dP `88888P' dP    dP `88888P' \n          88\n          dP\n", "color:blue;");
+        console.log("%c A project by the University of British Columbia.\n\n", "color:blue;");
+        console.log("%c Hi developer, nice to meet you!\n\n", "color:green;");
+        console.log("%c Our public API allows you to access Open Collections via the programming language of your choice,\n", "color:red;");
+        console.log("%c Documentation for it is available here: https://open.library.ubc.ca/docs \n\n", "color:red;");
+        console.log("%c If you have any questions or would like to provide us with feedback, email us at: \n", "color:orange;");
+        console.log("%c library.opencollections@ubc.ca \n\n", "color:orange;");
+        console.log("%c Credits: \n Rod McFarland - Señor Programmer, IIIF & Image Viewer Guru, Math Wizard \n Azadeh Hashemi - ElasticSearch & Data Mastermind \n Jenna Zhen - API Wrangler & Back-end Developer \n Schuyler Lindberg - UI/UX Designer & Front-end Developer \n Stefan Khan-Kernahan - PHP Developer & ElasticSearch Ninja \n Kevin Ho - UI/UX Designer & JS Developer \n Sean McNamara - PHP Developer, Bug Creator & Squisher, Git Merger.\n\n", "color:purple;");
+    </script>
+</head>
+<body class="dl-item-level">
+
+
+                    <div class="container">
+
+    
+    <!-- UBC Global Utility Menu -->
+    <div class="collapse expand" id="ubc7-global-menu">
+        <div id="ubc7-search" class="expand">
+            <div id="ubc7-search-box">
+                <form class="form-search" method="get" action="//www.ubc.ca/search/refine/" role="search">
+                    <input type="text" name="q" id="searchbox" aria-label="searchbox" placeholder="Search this website"
+                           class="input-xlarge search-query"><input type="hidden" name="label" value="UBC Library"/>
+                    <input type="hidden" name="site" value="*.library.ubc.ca"/>
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+        </div>
+        <div id="ubc7-global-header" class="expand">
+            <!-- Global Utility Header from CDN -->
+        </div>
+    </div>
+    <!-- End of UBC Global Utility Menu -->
+
+    <!-- UBC Header -->
+    <header id="ubc7-header" class="row-fluid expand" role="banner">
+        <div class="span1">
+            <div id="ubc7-logo">
+                <a href="http://www.ubc.ca" title="The University of British Columbia (UBC)">The University of British
+                    Columbia
+                </a>
+            </div>
+        </div>
+        <div class="span2">
+            <div id="ubc7-apom">
+                <a href="https://cdn.ubc.ca/clf/ref/aplaceofmind" title="UBC a place of mind">UBC - A Place of Mind</a>
+            </div>
+        </div>
+        <div class="span9" id="ubc7-wordmark-block">
+            <div id="ubc7-wordmark">
+                <a href="http://www.ubc.ca" title="The University of British Columbia (UBC)">
+                    The University of British Columbia
+                    <!--<span class="ubc7-campus" id="ubc7-vancouver-campus">Vancouver campus</span>-->
+                </a>
+            </div>
+            <div id="ubc7-global-utility">
+                <button type="button" data-toggle="collapse" data-target="#ubc7-global-menu"><span>UBC Search</span>
+                </button>
+                <noscript>
+                    <a id="ubc7-global-utility-no-script" href="http://www.ubc.ca/" title="UBC Search">UBC Search</a>
+                </noscript>
+            </div>
+        </div>
+    </header>
+    <!-- End of UBC Header -->
+
+    <!-- UBC Unit Identifier -->
+    <div id="ubc7-unit" class="row-fluid expand">
+        <div class="span12">
+            <!-- Mobile Menu Icon -->
+            <div class="navbar">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target="#ubc7-unit-navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </a>
+            </div>
+
+            <!-- No Faculty Treatment --><!--<div id="ubc7-unit-name" class="ubc7-single-element"> -->
+            <div id="ubc7-unit-name">
+                <a href="https://www.library.ubc.ca"><span id="ubc7-unit-identifier" class="no-umbrella">Library</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End of UBC Unit Identifier -->
+
+        <!-- UBC Unit Navigation -->
+<div id="ubc7-unit-menu" class="navbar expand" role="navigation">
+    <div class="navbar-inner expand">
+        <div class="container">
+            <div class="nav-collapse collapse" id="ubc7-unit-navigation">
+                <style>
+    /**
+* @author sallalji
+* on 07/10/2021
+* Dropdown alignment - unit-nav forloop
+*/
+
+
+    .dropdown-menu .row-fluid [class*="span"] {
+        margin: 0px !important;
+    }
+
+
+</style>
+<ul class="nav">
+
+    
+                    <!-- Library Home-->
+            <li id="home-nav">
+                <a href="https://www.library.ubc.ca">Library Home</a>
+            </li>
+
+
+            
+                    <!-- Search Collections-->
+            <li class="dropdown" id="search-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://search.library.ubc.ca">Search Collections</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Search Collections menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div  >
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Search</li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#general">General (Summon)</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#catalogue">Books & Media (Catalogue)</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#databases">Indexes, Databases & Articles</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#journals">Journals</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#guides">Research Guides</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#research">UBC Research</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#digital">UBC Open Collections</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Hours &amp; Locations-->
+            <li class="dropdown" id="hours-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://hours.library.ubc.ca">Hours &amp; Locations</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Hours &amp; Locations menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div class=row-fluid expand >
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">UBC Vancouver</li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-asian">Asian Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-biomedical">Biomedical Branch Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-chapman">Chapman Learning Commons Help Desk</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-gallery">The Chung | Lind Gallery</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-davidlam">David Lam Management Research Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-education">Education Learning Commons</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ikblc">Irving K. Barber Learning Centre</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-koerner">Koerner Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-law">Law Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-library">Music, Art and Architecture Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-rbsc">Rare Books and Special Collections</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-researchcommons">Research Commons</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-archives">University Archives</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-woodward">Woodward Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-xwi7xwa"><u>X</u>wi7<u>x</u>wa Library</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">UBC Okanagan</li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ubcocommons">The Commons (Okanagan)</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-okanagan">Okanagan Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ubcospcoll">Special Collections & Archives</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">UBC Virtual</li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ask">AskAway Chat Services</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Use The Library-->
+            <li class="dropdown" id="services-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://services.library.ubc.ca">Use The Library</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Use The Library menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div class=row-fluid expand >
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Borrowing Services</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/borrowing-services/library-account/">My Library Account</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/borrowing-services/get-library-access/">How to Get Library Access</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#borrowing">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Electronic Access</li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/connect/">Connect to Library Resources</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/connect/openathens">OpenAthens Login Overview</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#access">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Computers &amp; Technology</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/computers-technology/copy-print-scan/">Print, Copy, Scan</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/computers-technology/public-computers/">Public Computers & Software</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#technology">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Facilities</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/facilities/group-silent-study-space/">Group & Silent Study Spaces</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/facilities/technology-spaces/">Technology Spaces</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#facilities">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Guides for Library Users</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/user-guides/undergraduate-students/">Undergraduate Students</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/user-guides/faculty-instructors/">Faculty & Instructors</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#view-user-guides">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Get Research Help-->
+            <li class="dropdown" id="help-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://help.library.ubc.ca/">Get Research Help</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Get Research Help menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div class=row-fluid expand >
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Planning Your Research</li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/planning-your-research/getting-started-on-your-research">Getting Started on Your Research</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#planning">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Finding Resources</li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/">Research Guides</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/finding-resources/journal-articles/">Journal Articles</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#finding">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Evaluating &amp; Citing Sources</li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/evaluating-and-citing-sources/evaluating-information-sources/">Evaluating Information Sources</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/evaluating-and-citing-sources/how-to-cite/">How to Cite</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#evaluating">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Publishing Research</li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/publishing-research/getting-started-with-circle/">Getting Started with cIRcle</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/publishing-research/building-your-academic-profile/">Building Your Academic Profile</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#publishing">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- About Us-->
+            <li class="dropdown" id="about-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://about.library.ubc.ca">About Us</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand About Us menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div  >
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">About</li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/news/">News</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://collections.library.ubc.ca">Collections</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/policies">Policies, Procedures and Guidelines</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://support.library.ubc.ca">Support Us</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/work-with-us">Work with Us</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Ask Us!! -->
+
+            <li class="hidden-phone">
+                <a class="askus"
+                   style="color:white;font-weight:300;font-size:18px;background-color:#f47a20;height:28px;padding:0px 6px !important;margin:8px 18px;line-height:28px;border:1px solid;"
+                   href="https://ask.library.ubc.ca">Ask Us!
+                </a>
+            </li>
+            <li class="visible-phone">
+                <a href="https://ask.library.ubc.ca">Ask Us!</a>
+            </li>
+
+
+            
+                    <!-- LOGIN-->
+            <li class="dropdown" id="login-nav">
+                <div class="btn-group">
+                                            <a class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand LOGIN menu"
+                           data-toggle="dropdown" href="#">LOGIN</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand LOGIN menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div  >
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Accessing Library Resources?</li>
+
+                                                                            <li>
+                                            <a href="https://openathens.library.ubc.ca">OpenAthens Login</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/connect/ll">Add Browser Extension for Access</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Managing Your Account?</li>
+
+                                                                            <li>
+                                            <a href="https://webcat.library.ubc.ca/vwebv/myAccount">My Library Account Login</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Need Citation Management?</li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/citationmanagement">Citation Management Tools</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+</ul>
+            </div><!-- .nav-collapse -->
+        </div><!-- .container -->
+    </div><!-- .navbar-inner -->
+</div><!-- .navbar -->
+<!-- End of UBC Unit Navigation -->
+<!-- Content Area --><!DOCTYPE html>
+<!--[        <!-- DL TOP CONTENT-->
+
+    <div class="dl expand" role="main">
+
+    <!-- DL Masthead -->
+    <noscript>
+    <div class="dl-masthead-notice expand row-fluid">
+        <p>JavaScript is disabled: Site features and functionality may be limited.</p>
+    </div>
+</noscript>
+
+<div class="dl-masthead expand row-fluid">
+    <ul class="breadcrumb expand" vocab="http://schema.org/" typeof="BreadcrumbList">
+        <li property="itemListElement" typeof="ListItem" >
+            <a href="http://www.library.ubc.ca" property="item" typeof="WebPage" title="UBC Library" link-out>
+                <span property="name">Library Home</span>
+            </a>
+            <span class="divider">/</span>
+            <meta property="position" content="1"/>
+                    </li>
+
+        <li property="itemListElement" typeof="ListItem" >
+            <a href="http://search.library.ubc.ca/" property="item" typeof="WebPage" title="Search Collections" link-out>
+                <span property="name">Search Collections</span>
+            </a>
+            <span class="divider">/</span>
+            <meta property="position" content="2"/>
+                    </li>
+
+                    <li property="itemListElement" typeof="ListItem">
+                <a href="https://open.library.ubc.ca" property="item" typeof="WebPage" title="Open Collections" link-out>
+                    <span property="name">Open Collections</span>
+                </a>
+                <span class="divider">/</span>
+                <meta property="position" content="3"/>
+                            </li>
+        
+                    <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="https://open.library.ubc.ca/collections" title="Browse Collections" link-out>
+                    <span property="name">Browse Collections</span>
+                </a>
+                <span class="divider">/</span>
+                <meta property="position" content="4"/>
+                            </li>
+        
+        
+        
+                                    <li property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" href="https://open.library.ubc.ca/collections/48630" title="BIRS Workshop Lecture Videos"
+                       link-out>
+                        <span property="name">BIRS Workshop Lecture Videos</span>
+                    </a>
+                    <span class="divider">/</span>
+                    <meta property="position" content="5">
+                                    </li>
+                    
+        
+        
+
+        <li>
+            <strong>Scaling Bayesian models for large-scale infectious...</strong>
+        </li>
+
+    </ul>
+
+    <h1 class="libserif"><a href="https://open.library.ubc.ca" title="Open Collections" link-out> Open Collections</a>
+    </h1>
+</div>
+    <div class="dl-2line dl-thm-solid-birs expand"></div>
+
+        
+    <!-- DL Featurehead -->
+    
+
+<!-- FEATURED THEME HEADER -->
+
+
+    <div class="row-fluid expand dl-thm-solid-birs">
+        <div class="dl-bg-shade"></div>
+        <div class="dl-bg"></div>
+    </div>
+    <div class="expand dl-jumbotron-stripe">
+        <div id="results" class="dl-thm-solid-birs expand" ></div> <!-- prev/next search results  attach here -->
+
+            <!-- BIRS theme -->
+
+
+                    <h2 class="dl-call2action dl-fh-title">BIRS Workshop Lecture Videos</h2>
+            </div>
+
+
+        <div class="expand dl-fh dl-thm-solid-birs">
+            <img class="dl-fh-icon" src="/staticfile/img/featured/icon-birs.svg" alt="Banff International Research Station Logo" />
+            <div class="dl-fh-featured">Featured Collection</div>
+        </div>
+
+    
+
+    <!-- /DL TOP CONTENT -->
+        <header class="dl-header expand dl-thm-solid-birs">
+        <div id="results"></div> <!-- attach prev/next results ui here -->
+        <h2 class="dl-i-collection">
+                                        <a href="https://open.library.ubc.ca/collections/48630" link-out> BIRS Workshop Lecture Videos</a>
+                    </h2>
+    </header>
+    <div id="metaNameStore" style="display:none"></div>
+    <section class="expand dl-content dl-thm-base row-fluid" id="mainContent" data-updated="1668417300">
+        <!-- START CONTENT AREA -->
+            <h3 class="dl-i-top" id="titlesHeader">
+                <span class="dl-i-title" id="itemTitle">Scaling Bayesian models for large-scale infectious disease surveillance</span>
+                <span class="dl-i-creator">
+                                            Suchard, Marc                                    </span>
+                <!--<span class="dl-i-date">-->
+                    <!--Mar 6, 2014-->
+                <!--</span>-->
+                <span class="dl-i-date">
+                    
+                </span>
+            </h3>
+
+            <div>
+                <div class="dl-itm-grid-wrapper">
+                    <div class="dl-itm-left-column">
+                        <section class="dl-itm-abstract">
+                                                    </section>
+                        <section class="dl-itm-metadata">
+
+                                                        <section data-i-section="metadata" class="row-fluid dl-i-section">
+    <h4>
+                    Item Metadata
+            </h4>
+    
+    <div class="dl-is-content dl-i-pagemetadata">
+        <table class="dl-item-metadata-table" id="itemTable" about="https://open.library.ubc.ca/cIRcle/collections/48630/items/1.0044257">
+                                                                                                    <tr class="data data-odd metadata-lang-eng" data-metakey="Title">
+                        <td class="dl-r-label">
+                            Title 
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                Scaling Bayesian models for large-scale infectious disease surveillance                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="Creator">
+                        <td class="dl-r-label">
+                            Creator
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                <a href="https://open.library.ubc.ca/search?q=creator:%20&quot;Suchard%2C+Marc&quot;" ga-event=&amp;quot;item_page,clickable_field,Creator&amp;quot;>Suchard, Marc</a>                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="Publisher">
+                        <td class="dl-r-label">
+                            Publisher
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                Banff International Research Station for Mathematical Innovation and Discovery                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="DateIssued">
+                        <td class="dl-r-label">
+                            Date Issued
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                2014-03-06                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="Extent">
+                        <td class="dl-r-label">
+                            Extent
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                52 minutes                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="Subject">
+                        <td class="dl-r-label">
+                            Subject
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                <a href="https://open.library.ubc.ca/search?q=*&amp;subject=Mathematics" >Mathematics</a>; <a href="https://open.library.ubc.ca/search?q=*&amp;subject=Statistics" >Statistics</a>; <a href="https://open.library.ubc.ca/search?q=*&amp;subject=Computer+science" >Computer science</a>                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="Type">
+                        <td class="dl-r-label">
+                            Type
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                <a href="https://open.library.ubc.ca/search?q=*&amp;type=Moving+Image" >Moving Image</a>                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="FileFormat">
+                        <td class="dl-r-label">
+                            File Format
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                video/mp4                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="Language">
+                        <td class="dl-r-label">
+                            Language
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                eng                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="Notes">
+                        <td class="dl-r-label">
+                            Notes
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                Author affiliation: University of California at Los Angeles                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="Series">
+                        <td class="dl-r-label">
+                            Series
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                <a href="https://open.library.ubc.ca/search?q=series:%20&quot;BIRS+Workshop+Lecture+Videos+%28Banff%2C+Alta%29&quot;" ga-event=&amp;quot;item_page,clickable_field,Series&amp;quot;>BIRS Workshop Lecture Videos (Banff, Alta)</a>                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="DateAvailable">
+                        <td class="dl-r-label">
+                            Date Available
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                2014-11-23                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="Provider">
+                        <td class="dl-r-label">
+                            Provider
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                Vancouver : University of British Columbia Library                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="Rights">
+                        <td class="dl-r-label">
+                            Rights
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                Attribution-NonCommercial-NoDerivs 2.5 Canada                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="IsShownAt">
+                        <td class="dl-r-label">
+                            DOI
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                10.14288/1.0044257                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="URI">
+                        <td class="dl-r-label">
+                            URI
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                <a href="http://hdl.handle.net/2429/51171" >http://hdl.handle.net/2429/51171</a>                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="Affiliation">
+                        <td class="dl-r-label">
+                            Affiliation
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                <a href="https://open.library.ubc.ca/search?q=affiliation:%20&quot;Non+UBC&quot;" ga-event=&amp;quot;item_page,clickable_field,Affiliation&amp;quot;>Non UBC</a>                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="PeerReviewStatus">
+                        <td class="dl-r-label">
+                            Peer Review Status
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                Unreviewed                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="ScholarlyLevel">
+                        <td class="dl-r-label">
+                            Scholarly Level
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                Faculty                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-even metadata-lang-eng" data-metakey="RightsURI">
+                        <td class="dl-r-label">
+                            Rights URI
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                <a href="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/" >http://creativecommons.org/licenses/by-nc-nd/2.5/ca/</a>                            </div>
+                        </td>
+                    </tr>
+                                                                                                        <tr class="data data-odd metadata-lang-eng" data-metakey="AggregatedSourceRepository">
+                        <td class="dl-r-label">
+                            Aggregated Source Repository
+                        </td>
+                        <td class="dl-r-data" property="">
+                            <div class="dl-itm-truncate truncated">
+                                DSpace                            </div>
+                        </td>
+                    </tr>
+                                    </table>
+    </div>
+</section>
+                        </section>
+                    </div>
+                    <div class="dl-itm-media-wrap">
+                        <section class="dl-itm-media" >
+                            <h4 class="dl-aria-hide">Item Media</h4>
+                                                            <div id="media" data-media="[{&quot;id&quot;:&quot;211198&quot;,&quot;name&quot;:&quot;201403061715-Suchard_lrv.mp4&quot;,&quot;context&quot;:&quot;ORIGINAL&quot;,&quot;objectFormat&quot;:&quot;MP4&quot;,&quot;objectFileSizeBytes&quot;:&quot;137102133&quot;,&quot;objectIdentifierValue&quot;:&quot;\/bitstreams\/211198\/retrieve&quot;,&quot;objectIdentifierType&quot;:&quot;video\/mp4&quot;,&quot;description&quot;:&quot;&quot;,&quot;objectFormatBasic&quot;:&quot;mp4&quot;,&quot;key&quot;:0,&quot;streamId&quot;:&quot;211198_339858&quot;,&quot;mediaIndex&quot;:0,&quot;iiifIndex&quot;:0,&quot;file&quot;:{&quot;name&quot;:&quot;201403061715-Suchard_lrv.mp4&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/media\/download\/mp4\/48630\/1.0044257\/1&quot;,&quot;type&quot;:&quot;mp4&quot;,&quot;size&quot;:&quot;130.75MB&quot;,&quot;mimeType&quot;:&quot;video\/mp4&quot;,&quot;iiifIndex&quot;:0,&quot;downloadIndex&quot;:1}}]" >
+                                    <noscript>
+                                        <ul>
+                                                                                                                                                <li>
+                                                        <a href="https://open.library.ubc.ca/media/download/mp4/48630/1.0044257/1">201403061715-Suchard_lrv.mp4</a>
+                                                        -- 130.75MB</li>
+                                                                                                                                                                                </ul>
+                                    </noscript>
+                                </div>
+                                                    </section>
+                    </div>
+                    <div class="dl-itm-right-column">
+                        <section class="dl-itm-action-block dl-itm-citation">
+                            <h4 class="dl-aria-hide">Item Citations and Data</h4>
+                            <noscript>
+                                <p><strong>Permanent URL: </strong>https://dx.doi.org/10.14288/1.0044257</p>
+                            </noscript>
+                            <div id="data-actions" data-doi="https://dx.doi.org/10.14288/1.0044257" data-metadl="[{&quot;name&quot;:&quot;48630-1.0044257-json.json&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/media\/download\/json\/48630\/1.0044257\/0.json&quot;,&quot;type&quot;:&quot;json&quot;},{&quot;name&quot;:&quot;48630-1.0044257-jsonld.json&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/media\/download\/jsonld\/48630\/1.0044257\/0.json&quot;,&quot;type&quot;:&quot;jsonld&quot;},{&quot;name&quot;:&quot;48630-1.0044257-rdf-xml.xml&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/media\/download\/rdf-xml\/48630\/1.0044257\/0.xml&quot;,&quot;type&quot;:&quot;rdf-xml&quot;},{&quot;name&quot;:&quot;48630-1.0044257-rdf-json.json&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/media\/download\/rdf-json\/48630\/1.0044257\/0.json&quot;,&quot;type&quot;:&quot;rdf-json&quot;},{&quot;name&quot;:&quot;48630-1.0044257-rdf-turtle.txt&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/media\/download\/rdf-turtle\/48630\/1.0044257\/0.txt&quot;,&quot;type&quot;:&quot;rdf-turtle&quot;},{&quot;name&quot;:&quot;48630-1.0044257-rdf-ntriples.txt&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/media\/download\/rdf-ntriples\/48630\/1.0044257\/0.txt&quot;,&quot;type&quot;:&quot;rdf-ntriples&quot;},{&quot;name&quot;:&quot;48630-1.0044257-source.txt&quot;,&quot;url&quot;:&quot;https:\/\/open.library.ubc.ca\/collections\/48630\/items\/1.0044257\/source.json&quot;,&quot;type&quot;:&quot;source&quot;}]">
+                                <noscript>
+                                    <h5>Download Metadata</h5>
+                                </noscript>
+                                                                    <ul>
+                                                                            <li><a href="https://open.library.ubc.ca/media/download/json/48630/1.0044257/0.json">48630-1.0044257-json.json</a>
+                                        </li>
+                                                                            <li><a href="https://open.library.ubc.ca/media/download/jsonld/48630/1.0044257/0.json">48630-1.0044257-jsonld.json</a>
+                                        </li>
+                                                                            <li><a href="https://open.library.ubc.ca/media/download/rdf-xml/48630/1.0044257/0.xml">48630-1.0044257-rdf-xml.xml</a>
+                                        </li>
+                                                                            <li><a href="https://open.library.ubc.ca/media/download/rdf-json/48630/1.0044257/0.json">48630-1.0044257-rdf-json.json</a>
+                                        </li>
+                                                                            <li><a href="https://open.library.ubc.ca/media/download/rdf-turtle/48630/1.0044257/0.txt">48630-1.0044257-rdf-turtle.txt</a>
+                                        </li>
+                                                                            <li><a href="https://open.library.ubc.ca/media/download/rdf-ntriples/48630/1.0044257/0.txt">48630-1.0044257-rdf-ntriples.txt</a>
+                                        </li>
+                                                                            <li><a href="https://open.library.ubc.ca/collections/48630/items/1.0044257/source.json">48630-1.0044257-source.txt</a>
+                                        </li>
+                                                                        </ul>
+                                                            </div>
+                        </section>
+                                                    <section class="dl-itm-action-block dl-itm-license">
+                                <h5>Rights</h5>
+                                <span id="cc-license" data-uri="http://creativecommons.org/licenses/by-nc-nd/2.5/ca/"></span>
+                                <div class="dl-itm-truncate truncated">
+                                    <p class="dl-small-txt">
+                                                                                    Attribution-NonCommercial-NoDerivs 2.5 Canada
+                                                                            </p>
+                                </div>
+                            </section>
+                                                                    </div>
+                    <div class="dl-itm-bottom">
+                        <span id="stats-section"></span>
+                    </div>
+                                    </div>
+                <span id="prev-next"></span>
+                <span id="license-modal" data-accepted="0"></span>
+            </div> <!-- end vue app -->
+
+        </section>
+
+
+<!-- DL ENDCONTENT -->
+</div><!-- /dl expand main -->
+<script type="text/javascript"
+        id="issue-collector-script"
+                    src="https://issue-collector.library.ubc.ca/build/js/issue-collector.js"
+            data-jira-project="OCSUPP"
+            data-jira-labels=""
+            data-prompt="The Library welcomes questions and comments about Open Collections. If you notice any bugs, display issues, or data issues - or just want to say hi - you're in the right place! Thanks for visiting Open Collections."
+                data-animate="once"
+></script>
+<div class="dl-foot expand dl-thm-solid-birs">
+<div class="dl-2line expand"> </div>
+</div>
+    <!-- /DL ENDCONTENT -->
+<!-- End of Content Area -->
+
+<!-- Footer Area Unit Menu - Mobile Only -->
+<div id="ubc7-unit-alternate-navigation" class="navbar expand visible-phone" role="navigation">
+    <div class="navbar-inner expand">
+        <div class="container">
+            <div class="nav-collapse collapse">
+
+                <style>
+    /**
+* @author sallalji
+* on 07/10/2021
+* Dropdown alignment - unit-nav forloop
+*/
+
+
+    .dropdown-menu .row-fluid [class*="span"] {
+        margin: 0px !important;
+    }
+
+
+</style>
+<ul class="nav">
+
+    
+                    <!-- Library Home-->
+            <li id="home-nav">
+                <a href="https://www.library.ubc.ca">Library Home</a>
+            </li>
+
+
+            
+                    <!-- Search Collections-->
+            <li class="dropdown" id="search-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://search.library.ubc.ca">Search Collections</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Search Collections menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div  >
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Search</li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#general">General (Summon)</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#catalogue">Books & Media (Catalogue)</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#databases">Indexes, Databases & Articles</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#journals">Journals</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#guides">Research Guides</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#research">UBC Research</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://search.library.ubc.ca/#digital">UBC Open Collections</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Hours &amp; Locations-->
+            <li class="dropdown" id="hours-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://hours.library.ubc.ca">Hours &amp; Locations</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Hours &amp; Locations menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div class=row-fluid expand >
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">UBC Vancouver</li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-asian">Asian Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-biomedical">Biomedical Branch Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-chapman">Chapman Learning Commons Help Desk</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-gallery">The Chung | Lind Gallery</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-davidlam">David Lam Management Research Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-education">Education Learning Commons</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ikblc">Irving K. Barber Learning Centre</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-koerner">Koerner Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-law">Law Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-library">Music, Art and Architecture Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-rbsc">Rare Books and Special Collections</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-researchcommons">Research Commons</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-archives">University Archives</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-woodward">Woodward Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-xwi7xwa"><u>X</u>wi7<u>x</u>wa Library</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">UBC Okanagan</li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ubcocommons">The Commons (Okanagan)</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-okanagan">Okanagan Library</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ubcospcoll">Special Collections & Archives</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">UBC Virtual</li>
+
+                                                                            <li>
+                                            <a href="https://hours.library.ubc.ca/#view-ask">AskAway Chat Services</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Use The Library-->
+            <li class="dropdown" id="services-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://services.library.ubc.ca">Use The Library</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Use The Library menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div class=row-fluid expand >
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Borrowing Services</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/borrowing-services/library-account/">My Library Account</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/borrowing-services/get-library-access/">How to Get Library Access</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#borrowing">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Electronic Access</li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/connect/">Connect to Library Resources</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/connect/openathens">OpenAthens Login Overview</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#access">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Computers &amp; Technology</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/computers-technology/copy-print-scan/">Print, Copy, Scan</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/computers-technology/public-computers/">Public Computers & Software</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#technology">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Facilities</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/facilities/group-silent-study-space/">Group & Silent Study Spaces</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/facilities/technology-spaces/">Technology Spaces</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#facilities">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Guides for Library Users</li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/user-guides/undergraduate-students/">Undergraduate Students</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/user-guides/faculty-instructors/">Faculty & Instructors</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://services.library.ubc.ca/#view-user-guides">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Get Research Help-->
+            <li class="dropdown" id="help-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://help.library.ubc.ca/">Get Research Help</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand Get Research Help menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div class=row-fluid expand >
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Planning Your Research</li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/planning-your-research/getting-started-on-your-research">Getting Started on Your Research</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#planning">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Finding Resources</li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/">Research Guides</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/finding-resources/journal-articles/">Journal Articles</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#finding">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Evaluating &amp; Citing Sources</li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/evaluating-and-citing-sources/evaluating-information-sources/">Evaluating Information Sources</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/evaluating-and-citing-sources/how-to-cite/">How to Cite</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#evaluating">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div class=span6 no-margin >
+
+                                    <li class="nav-header">Publishing Research</li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/publishing-research/getting-started-with-circle/">Getting Started with cIRcle</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/publishing-research/building-your-academic-profile/">Building Your Academic Profile</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://help.library.ubc.ca/#publishing">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- About Us-->
+            <li class="dropdown" id="about-nav">
+                <div class="btn-group">
+                                            <a class="btn" href="https://about.library.ubc.ca">About Us</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand About Us menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div  >
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">About</li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/news/">News</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://collections.library.ubc.ca">Collections</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/policies">Policies, Procedures and Guidelines</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://support.library.ubc.ca">Support Us</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/work-with-us">Work with Us</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://about.library.ubc.ca/">See More...</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+                    <!-- Ask Us!! -->
+
+            <li class="hidden-phone">
+                <a class="askus"
+                   style="color:white;font-weight:300;font-size:18px;background-color:#f47a20;height:28px;padding:0px 6px !important;margin:8px 18px;line-height:28px;border:1px solid;"
+                   href="https://ask.library.ubc.ca">Ask Us!
+                </a>
+            </li>
+            <li class="visible-phone">
+                <a href="https://ask.library.ubc.ca">Ask Us!</a>
+            </li>
+
+
+            
+                    <!-- LOGIN-->
+            <li class="dropdown" id="login-nav">
+                <div class="btn-group">
+                                            <a class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand LOGIN menu"
+                           data-toggle="dropdown" href="#">LOGIN</a>
+                        <button class="btn dropdown-toggle" aria-haspopup="true" aria-label="expand LOGIN menu"
+                                data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+
+                                        <ul class="dropdown-menu">
+                        <div  >
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Accessing Library Resources?</li>
+
+                                                                            <li>
+                                            <a href="https://openathens.library.ubc.ca">OpenAthens Login</a>
+                                        </li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/connect/ll">Add Browser Extension for Access</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Managing Your Account?</li>
+
+                                                                            <li>
+                                            <a href="https://webcat.library.ubc.ca/vwebv/myAccount">My Library Account Login</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                                <div  >
+
+                                    <li class="nav-header">Need Citation Management?</li>
+
+                                                                            <li>
+                                            <a href="https://guides.library.ubc.ca/citationmanagement">Citation Management Tools</a>
+                                        </li>
+
+                                    
+                                </div>
+
+                            
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+
+            
+</ul>
+
+            </div><!-- .nav-collapse -->
+        </div><!-- .container -->
+    </div><!-- .navbar-inner -->
+</div><!-- .navbar -->
+<!-- End of Footer Area Unit Menu -->
+
+<footer id="ubc7-footer" class="expand" role="contentinfo">
+    <div class="row-fluid expand" id="ubc7-unit-footer">
+        <div class="span3" id="ubc7-unit-address">
+            <div id="ubc7-address-unit-name">UBC Library</div>
+            <div id="ubc7-address-campus">Vancouver Campus</div>
+            <div id="ubc7-address-street">1961 East Mall</div>
+            <div id="ubc7-address-location">
+                <span id="ubc7-address-city">Vancouver, </span>
+                <span id="ubc7-address-province" title="British Columbia">BC</span>
+                <span id="ubc7-address-country">Canada</span> <span id="ubc7-address-postal">V6T 1Z1</span>
+            </div>
+            <div id="ubc7-address-phone">Phone: 604-822-2406</div>
+            <div id="ubc7-address-phone">Fax: 604-822-3893</div>
+        </div>
+        <div class="span3" id="ubc7-unit-address">
+            <div id="ubc7-address-unit-name">UBC Library</div>
+            <div id="ubc7-address-campus">Okanagan Campus</div>
+            <div id="ubc7-address-street">3287 University Way</div>
+            <div id="ubc7-address-location">
+                <span id="ubc7-address-city">Kelowna, </span>
+                <span id="ubc7-address-province" title="British Columbia">BC</span>
+                <span id="ubc7-address-country">Canada</span> <span id="ubc7-address-postal">V1V 1V7</span>
+            </div>
+            <div id="ubc7-address-phone">Phone: 250-807-9107</div>
+            <div id="ubc7-address-phone">Fax: 250-807-8057</div>
+        </div>
+        <div class="span6 land">
+            <div class="span8">We acknowledge that UBC’s two main campuses are situated within the ancestral and unceded territory of the xʷməθkʷəy̓əm (Musqueam) people and in the traditional, ancestral, unceded territory of the Syilx Okanagan Nation and their peoples.</div>
+            <div class="span4">
+                <strong>Find Us</strong>
+
+                <div id="ubc7-unit-social-icons">
+                    <a href="https://www.facebook.com/UBCLibrary" aria-label="facebook"
+                       title="Facebook icon"><i class="lit-icon-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/company/ubc-library/" aria-label="linkedin"
+                       title="LinkedIn icon"><i class="lit-icon-linkedin-square"></i></a>
+
+                    <a href="https://www.instagram.com/ubclibrary" aria-label="instagram"
+                       title="Instagram icon"><i class="lit-icon-instagram-square"></i></a>
+                    <a href="https://www.youtube.com/channel/UCvscM_BNLgCZplbQ7a5bMkw" aria-label="icon-youtube"
+                       title="Youtube icon"><i class="lit-icon-youtube-square"></i></a>
+                </div>
+                <ul class="unstyled">
+                    <li>
+                        <a href="https://confluence.it.ubc.ca/display/LIBRARY">Staff Site</a>
+                    </li>
+                    <li>
+                        <a href="https://copyright.ubc.ca/">Copyright Guidelines</a>
+                    </li>
+                    <li>
+                        <a href="https://about.library.ubc.ca/policies/">Policies, Procedures and Guidelines</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row-fluid expand ubc7-back-to-top">
+        <div class="span2">
+            <a href="#">Back to top
+                <div role="button" aria-label="Back to the top" class="ubc7-arrow up-arrow grey">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row-fluid expand" id="ubc7-global-footer">
+        <div class="span5" id="ubc7-signature">
+            <a href="https://www.ubc.ca/">The University of British Columbia</a>
+        </div>
+        <div class="span7" id="ubc7-footer-menu"></div>
+    </div>
+    <div class="row-fluid expand" id="ubc7-minimal-footer">
+        <div class="span12">
+            <ul>
+                <li>
+                    <a href="https://cdn.ubc.ca/clf/ref/emergency">Emergency Procedures</a>
+                    <span class="divider">|</span></li>
+                <li>
+                    <a href="https://cdn.ubc.ca/clf/ref/terms">Terms of Use</a>
+                    <span class="divider">|</span></li>
+                <li>
+                    <a href="https://cdn.ubc.ca/clf/ref/copyright">Copyright</a>
+                    <span class="divider">|</span></li>
+                <li>
+                    <a href="https://cdn.ubc.ca/clf/ref/accessibility">Accessibility</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</div><!-- .container -->
+
+
+    
+<!--Google Analytics (analytics.js) -->
+
+    <!-- GA4 root-->
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-CH28RE4DNT'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CH28RE4DNT');
+</script>
+<!-- GA4 End-->
+<!-- .ga-script -->
+
+
+        <!-- BODY END  -->
+        <!--SAL Mar 16, 2023: GA4-->
+    <script src="https://cdn.library.ubc.ca/ga4/js/trackers.js"
+            data-id="lib-ga4-trackers"
+            tracker_ga4_1="G-JKGMRR4BT2"
+            tracker_ga4_2domain="open.library.ubc.ca/">
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JKGMRR4BT2"></script>
+
+    <!-- Ask Us should open in new window so it works -->
+    <script type="text/javascript">
+        (function(){
+            jQuery('a.cboxElement').attr('target','_blank').attr('rel', 'noreferrer noopener').removeClass('cboxElement');
+        })()
+    </script>
+    <!-- internet explorer deprecation warning -->
+    <script>
+        (function(){
+            function isIE () {
+                var ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+                var msie = ua.indexOf('MSIE '); // IE 10 or older
+                var trident = ua.indexOf('Trident/'); //IE 11
+                return (msie > 0 || trident > 0);
+            }
+            function ieWarning () {
+                if (isIE()) {
+                    var noticeHtml = '<div class="dl-masthead-notice expand row-fluid"><p>The Open Collections website no longer supports Internet Explorer. To ensure a consistent browsing experience please use an alternate browser such as Firefox, Chrome, or Edge.</p></div>';
+                    var parent = document.querySelectorAll('.dl');
+                    var masthead = document.querySelectorAll('.dl-masthead');
+                    var notice = document.createElement('div');
+                    notice.innerHTML = noticeHtml.trim();
+                    parent[0].insertBefore(notice, masthead[0]);
+                }
+            };
+            ieWarning();
+        })();
+    </script>
+    <!-- /BODY END  -->
+
+</body>
+</html>
+
+

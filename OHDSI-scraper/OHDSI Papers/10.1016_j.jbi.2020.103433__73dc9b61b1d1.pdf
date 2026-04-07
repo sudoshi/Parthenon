@@ -1,0 +1,2841 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Deep phenotyping: Embracing complexity and temporality—Towards scalability, portability, and interoperability - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="1A81B4959D458EB30BB4950029CBE523.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="pheelsevier">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7179504/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Journal of Biomedical Informatics">
+<meta name="citation_title" content="Deep phenotyping: Embracing complexity and temporality—Towards scalability, portability, and interoperability">
+<meta name="citation_author" content="Chunhua Weng">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University, New York, NY, USA">
+<meta name="citation_author" content="Nigam H Shah">
+<meta name="citation_author_institution" content="Medicine - Biomedical Informatics Research, Stanford University, Stanford, CA, USA">
+<meta name="citation_author" content="George Hripcsak">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University, New York, NY, USA">
+<meta name="citation_publication_date" content="2020 Apr 23">
+<meta name="citation_volume" content="105">
+<meta name="citation_firstpage" content="103433">
+<meta name="citation_doi" content="10.1016/j.jbi.2020.103433">
+<meta name="citation_pmid" content="32335224">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7179504/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7179504/pdf/main.pdf">
+<meta name="og:title" content="Deep phenotyping: Embracing complexity and temporality—Towards scalability, portability, and interoperability">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7179504/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="7179504">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1016/j.jbi.2020.103433"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/main.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7179504%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/7179504/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/7179504/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7179504/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-pheelsevier.png" alt="Elsevier - PMC COVID-19 Collection logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to Elsevier - PMC COVID-19 Collection" title="Link to Elsevier - PMC COVID-19 Collection" shape="default" href="https://www.ncbi.nlm.nih.gov/pmc/about/covid-19/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<span class="usa-tag pmc-tag-pt">editorial</span> <div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">J Biomed Inform</button></div>. 2020 Apr 23;105:103433. doi: <a href="https://doi.org/10.1016/j.jbi.2020.103433" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1016/j.jbi.2020.103433</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="J%20Biomed%20Inform"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="J%20Biomed%20Inform"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="J%20Biomed%20Inform"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="J%20Biomed%20Inform"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Deep phenotyping: Embracing complexity and temporality—Towards scalability, portability, and interoperability</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Weng%20C"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Chunhua Weng</span></a><div hidden="hidden" id="id1">
+<h3><span class="name western">Chunhua Weng</span></h3>
+<div class="p">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University, New York, NY, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Weng%20C"[Author]' class="usa-link"><span class="name western">Chunhua Weng</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>⁎</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Shah%20NH"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Nigam H Shah</span></a><div hidden="hidden" id="id2">
+<h3><span class="name western">Nigam H Shah</span></h3>
+<div class="p">
+<sup>2</sup>Medicine - Biomedical Informatics Research, Stanford University, Stanford, CA, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Shah%20NH"[Author]' class="usa-link"><span class="name western">Nigam H Shah</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">George Hripcsak</span></a><div hidden="hidden" id="id3">
+<h3><span class="name western">George Hripcsak</span></h3>
+<div class="p">
+<sup>3</sup>Department of Biomedical Informatics, Columbia University, New York, NY, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link"><span class="name western">George Hripcsak</span></a>
+</div>
+</div>
+<sup>3</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="af005">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University, New York, NY, USA</div>
+<div id="af010">
+<sup>2</sup>Medicine - Biomedical Informatics Research, Stanford University, Stanford, CA, USA</div>
+<div id="af015">
+<sup>3</sup>Department of Biomedical Informatics, Columbia University, New York, NY, USA</div>
+<div class="author-notes p"><div class="fn" id="cor1">
+<sup>⁎</sup><p class="display-inline">Corresponding author.</p>
+</div></div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Received 2020 Apr 18; Accepted 2020 Apr 20; Issue date 2020 May.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>© 2020 Elsevier Inc. All rights reserved.</div>
+<p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC7179504  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32335224/" class="usa-link">32335224</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section id="s0005"><h2 class="pmc_sec_title">1. Introduction</h2>
+<p id="p0005">Clinical data are the basic staple of health learning <a href="#b0005" class="usa-link" aria-describedby="b0005">[1]</a>. The rapidly growing interoperable clinical datasets, including electronic health records (EHR), administrative and claims records, and human phenotype data collected from clinical research studies, present unprecedented opportunities for developing high-throughput methods for electronic phenotyping. The term <em>phenotyping</em> is still young and evolving, emerging around 2006 when the Electronic Medical Records and Genomics (eMERGE) program was launched in the United States and directed significant effort into phenotyping using EHR data <a href="#b0010" class="usa-link" aria-describedby="b0010">[2]</a>. Meanwhile, the biomedical informatics research community has been exploring electronic phenotyping solutions for decades, given the essential roles electronic phenotyping plays in disease knowledge discovery, application, and clinical research. Early phenotyping research focused primarily on case ascertainment or cohort identification <a href="#b0015" class="usa-link" aria-describedby="b0015">[3]</a>. In contrast, deep phenotyping shifted the focus from identification to characterization, which aims to deliver precise and comprehensive characterization of observable traits representing unique morphological, biochemical, physiological, or behavioral properties of the identified patient populations <a href="#b0020" class="usa-link" aria-describedby="b0020">[4]</a>. Deep phenotyping brings us a step closer on the path towards Precision Medicine via the development of precise disease classification systems. Consequently, the task of deep phenotyping poses the following new requirements.</p>
+<p id="p0010">
+<strong><em>First</em></strong>, it requires the extraction of nuanced phenotypic traits, such as “short stature”, “large head”, “poor weight gain”, “depressed nasal bridge”, and “clubbing of toes”. These traits are occasionally available in structured coded data but more often can only be accurately communicated as clinical text. Therefore, natural language processing (NLP) is essential for identifying the rich information to accomplish deep phenotyping for many phenotypes <a href="#b0025" class="usa-link" aria-describedby="b0025">[5]</a>, and has been playing an increasingly important role in deep phenotyping.</p>
+<p id="p0015">
+<strong><em>Second</em></strong>
+<em>,</em> to achieve richer, deeper, and more precise characterization, deep phenotyping algorithms need to be more expressive, semantically interoperable, and interpretable than the conventional “black box” computational solutions, which are often criticized for lacking explainability <a href="#b0030" class="usa-link" aria-describedby="b0030">[6]</a>. Therefore, the extracted phenotypes need to be normalized using various clinical terminologies or ontologies such as HPO (The Human Phenotype Ontology), ICD-9-CM, ICD-10-CM, and SNOMED-CT. This requirement is at odds with the first requirement because the existing semantic knowledge resources have varying concept coverage and concept granularities, posing challenges for concept normalization in addition to the limitations noted with the first requirement. Consequently, creating code sets for a phenotype has become a foundational building block and yet the most time-consuming bottleneck in the knowledge engineering process for deep phenotyping. Since clinical databases tend to be heterogeneous, empirical knowledge of data sources and clinical processes is critical for identifying useful codes that have high sensitivity and specificity at a given site <a href="#b0035" class="usa-link" aria-describedby="b0035">[7]</a>. This heterogeneity also creates barriers to portability and interoperability of solutions leveraging distributed big clinical data for clinical phenotyping <a href="#b0040" class="usa-link" aria-describedby="b0040">[8]</a>. Standards beyond terminologies and ontologies at a higher level, such as common data models, promise to meet some of these needs, but efforts to improve existing widely adopted standards are still warranted.</p>
+<p id="p0020">
+<strong><em>Third</em></strong>, deep phenotyping requires the processing of a broad range of data types, which can include voice recordings, videos, images, genome sequences, or biological pathways, to name a few. For example, for the current COVID-19 pandemic, the ground-glass appearance in the lower lungs in chest x-rays for COVID-19 patients paired with clinical narrative reports for dry cough and dyspnea (labored breathing) are key phenotypes of COVID-19-positive patients <a href="#b0045" class="usa-link" aria-describedby="b0045">[9]</a>, <a href="#b0050" class="usa-link" aria-describedby="b0050">[10]</a>, <a href="#b0055" class="usa-link" aria-describedby="b0055">[11]</a>.</p>
+<p id="p0025">
+<strong><em>Fourth</em></strong>, deep phenotyping requires more sophisticated analytics beyond case-control classification and may involve the characterization of the temporal trajectory of a phenotype or the identification of disease subtypes based on their differentiating phenotypes, progressions, and clinical outcomes. Incorporation of domain knowledge remains critical. Both supervised and unsupervised methods will be useful for deep phenotyping in different contexts.</p>
+<p id="p0030">
+<strong><em>Fifth,</em></strong> deep phenotyping requires the identification of connections between diseases and their common phenotypic traits (i.e., phenotypes that may be observed across various disease domains) to enable linking potentially common etiologies across diseases and to facilitate important applications such as drug repurposing based on disease physiology commonalities. For example, for the current COVID-19 pandemic, international doctors have reported that loss of smell or taste are widely observed in infected patients. Similarly, studies have also shown olfactory deficits are prevalent in patients with Alzheimer’s disease <a href="#b0060" class="usa-link" aria-describedby="b0060">[12]</a>. Therefore, the currently hot research on calculating disease similarities will play an important role in deep phenotyping to fulfill this need <a href="#b0065" class="usa-link" aria-describedby="b0065">[13]</a>.</p>
+<p id="p0035">In order to satisfy the above requirements for advancing deep phenotyping, this special issue offers twenty original articles presenting novel methodologies for case ascertainment, patient stratification, disease subtyping and temporal phenotyping. These novel methods were demonstrated across various disease domains (such as cancer, rare diseases, obesity, acute or chronic kidney diseases, and schizophrenia, to name a few) using a broad range of novel data sources (including clinical narratives, voice, biological pathways, research questionnaire data, and claims data in addition to EHR data) while addressing challenges in data quality, algorithm portability and interoperability, process efficiency and scalability. <a href="#t0005" class="usa-link">Table 1</a>
+lists the primary contributions of these twenty articles for deep phenotyping towards the above five topic areas.</p>
+<section class="tw xbox font-sm" id="t0005"><h3 class="obj_head">Table 1.</h3>
+<div class="caption p"><p>Contributions of the twenty included papers in response to the five requirements for deep phenotyping.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<th colspan="1" rowspan="1">Reference</th>
+<th colspan="1" rowspan="1">First author</th>
+<th colspan="1" rowspan="1">Summary of Contributions</th>
+</tr></thead>
+<tbody>
+<tr><td colspan="3" rowspan="1"><strong><em>Requirement 1: Natural Language Processing</em></strong></td></tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0070" class="usa-link" aria-describedby="b0070">[14]</a></td>
+<td colspan="1" rowspan="1"><em>Datta, S</em></td>
+<td colspan="1" rowspan="1"><em>A systematic review of NLP on cancer notes</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0075" class="usa-link" aria-describedby="b0075">[15]</a></td>
+<td colspan="1" rowspan="1"><em>Liu, Q</em></td>
+<td colspan="1" rowspan="1"><em>Symptom extraction for patient stratification</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0080" class="usa-link" aria-describedby="b0080">[16]</a></td>
+<td colspan="1" rowspan="1"><em>Lyudovyk, O</em></td>
+<td colspan="1" rowspan="1"><em>NLP on pathology notes for subtyping</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0085" class="usa-link" aria-describedby="b0085">[17]</a></td>
+<td colspan="1" rowspan="1"><em>Liu, C</em></td>
+<td colspan="1" rowspan="1"><em>Ensemble of NLP for better portability</em></td>
+</tr>
+<tr><td colspan="3" rowspan="1">  </td></tr>
+<tr><td colspan="3" rowspan="1"><strong><em>Requirement 2: Standardization</em></strong></td></tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0090" class="usa-link" aria-describedby="b0090">[18]</a></td>
+<td colspan="1" rowspan="1"><em>Hong, N</em></td>
+<td colspan="1" rowspan="1"><em>A FHIR-based EHR phenotyping framework</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0095" class="usa-link" aria-describedby="b0095">[19]</a></td>
+<td colspan="1" rowspan="1"><em>Shang, N</em></td>
+<td colspan="1" rowspan="1"><em>An empirical study of “making phenotyping work visible” that demonstrates the need for standardized processes</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0100" class="usa-link" aria-describedby="b0100">[20]</a></td>
+<td colspan="1" rowspan="1"><em>Hripcsak, G</em></td>
+<td colspan="1" rowspan="1"><em>Demonstrate OMOP’s value in improving phenotyping algorithms’ portability</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0105" class="usa-link" aria-describedby="b0105">[21]</a></td>
+<td colspan="1" rowspan="1"><em>Ostropolets, A</em></td>
+<td colspan="1" rowspan="1"><em>Adapting EHR phenotypes to claims data using OMOP Common Data Model</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0110" class="usa-link" aria-describedby="b0110">[22]</a></td>
+<td colspan="1" rowspan="1"><em>Reps, J</em></td>
+<td colspan="1" rowspan="1"><em>OMOP CDM-based probabilistic phenotyping algorithms using self-reported data</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0115" class="usa-link" aria-describedby="b0115">[23]</a></td>
+<td colspan="1" rowspan="1"><em>Swerdel, J</em></td>
+<td colspan="1" rowspan="1"><em>OMOP CDM-based standardized phenotype evaluation algorithms</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0120" class="usa-link" aria-describedby="b0120">[24]</a></td>
+<td colspan="1" rowspan="1"><em>Warner, J</em></td>
+<td colspan="1" rowspan="1"><em>Expansion of OMOP CDM to cancer phenotypes</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0125" class="usa-link" aria-describedby="b0125">[25]</a></td>
+<td colspan="1" rowspan="1"><em>Shen, F</em></td>
+<td colspan="1" rowspan="1"><em>Extension of HPO using embedding of phenotype knowledge resources</em></td>
+</tr>
+<tr><td colspan="3" rowspan="1">  </td></tr>
+<tr><td colspan="3" rowspan="1"><strong><em>Requirement 3: Novel Data for Phenotyping</em></strong></td></tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0130" class="usa-link" aria-describedby="b0130">[26]</a></td>
+<td colspan="1" rowspan="1"><em>Trace, JM</em></td>
+<td colspan="1" rowspan="1"><em>Using voice to diagnose Parkinson’s disease</em></td>
+</tr>
+<tr><td colspan="3" rowspan="1">  </td></tr>
+<tr><td colspan="3" rowspan="1"><strong><em>Requirement 4: Temporal Phenotyping and Subtyping via Similarity Metrics</em></strong></td></tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0135" class="usa-link" aria-describedby="b0135">[27]</a></td>
+<td colspan="1" rowspan="1"><em>Mate, S</em></td>
+<td colspan="1" rowspan="1"><em>A graphical model of temporal constraints</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0140" class="usa-link" aria-describedby="b0140">[28]</a></td>
+<td colspan="1" rowspan="1"><em>Meng, W</em></td>
+<td colspan="1" rowspan="1"><em>Temporal phenotyping of cancer treatment pathways</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0145" class="usa-link" aria-describedby="b0145">[29]</a></td>
+<td colspan="1" rowspan="1"><em>Zhao, J</em></td>
+<td colspan="1" rowspan="1"><em>Temporal phenotyping via tensor factorization</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0150" class="usa-link" aria-describedby="b0150">[30]</a></td>
+<td colspan="1" rowspan="1"><em>Chen, X</em></td>
+<td colspan="1" rowspan="1"><em>Phenotypic similarity for rare diseases</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0155" class="usa-link" aria-describedby="b0155">[31]</a></td>
+<td colspan="1" rowspan="1"><em>Xu, Z</em></td>
+<td colspan="1" rowspan="1"><em>Subtyping for acute kidney injury</em></td>
+</tr>
+<tr><td colspan="3" rowspan="1">  </td></tr>
+<tr><td colspan="3" rowspan="1"><strong><em>Requirement 5: Scalability</em></strong></td></tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0160" class="usa-link" aria-describedby="b0160">[32]</a></td>
+<td colspan="1" rowspan="1"><em>Zhang, L</em></td>
+<td colspan="1" rowspan="1"><em>Automated grouping of medical codes</em></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0165" class="usa-link" aria-describedby="b0165">[33]</a></td>
+<td colspan="1" rowspan="1"><em>Chen, P</em></td>
+<td colspan="1" rowspan="1"><em>Deep representation learning for phenotyping</em></td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/t0005/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section><section id="s0010"><h2 class="pmc_sec_title">2. Natural language processing for deep phenotyping</h2>
+<p id="p0040">Four articles in this special issue leveraged NLP on different data resources for phenotyping <a href="#b0070" class="usa-link" aria-describedby="b0070">[14]</a>, <a href="#b0075" class="usa-link" aria-describedby="b0075">[15]</a>, <a href="#b0080" class="usa-link" aria-describedby="b0080">[16]</a>, <a href="#b0085" class="usa-link" aria-describedby="b0085">[17]</a>.</p>
+<p id="p0045">Datta et al. provided a methodology review that provides a frame semantic overview of NLP-based information extraction from EHR notes <a href="#b0070" class="usa-link" aria-describedby="b0070">[14]</a>. Using cancer as an example, this article contributes a model for identifying important disease-specific information using NLP techniques and serves as a useful resource for future researchers requiring disease-specific information extracted from EHR notes.</p>
+<p id="p0050">Liu et al. extracted symptom concepts from clinical notes to stratify patients with mental illness <a href="#b0075" class="usa-link" aria-describedby="b0075">[15]</a>. Contextual terms were extracted to identify constellations of symptoms in a cohort of patients diagnosed with schizophrenia and related disorders. Topic modeling and dimensionality reduction were applied to identify similar groups of patients, who were further evaluated through visualization and interrogation of clinically interpretable weighted features.</p>
+<p id="p0055">Lyudovyk et al. extracted differentiating clinical phenotypes from pathology reports and combined these phenotypes with biological pathways to identify novel cancer subtypes with prognostic value <a href="#b0080" class="usa-link" aria-describedby="b0080">[16]</a>. This paper shows the value of integrating multi-level biological and clinical observations for deep phenotyping.</p>
+<p id="p0060">Liu et al. addresses the portability challenge facing NLP phenotyping algorithms by presenting an ensemble-based study <a href="#b0085" class="usa-link" aria-describedby="b0085">[17]</a>. Compared to the previously published ensemble methods, this study initially reported comprehensive comparative effectiveness of four different ensemble techniques over four widely-adopted NLP systems, i.e., MetaMapLite <a href="#b0170" class="usa-link" aria-describedby="b0170">[34]</a>, MedLEE <a href="#b0175" class="usa-link" aria-describedby="b0175">[35]</a>, ClinPhen <a href="#b0180" class="usa-link" aria-describedby="b0180">[36]</a>, and cTAKES <a href="#b0185" class="usa-link" aria-describedby="b0185">[37]</a>. The authors evaluated the performance of different approaches in identifying generic phenotypic concepts and patient-specific phenotypic concepts, respectively, and demonstrated that both tasks benefit from the ensemble techniques.</p></section><section id="s0015"><h2 class="pmc_sec_title">3. Standards: uses and development</h2>
+<p id="p0065">A total of eight papers fall into the category of standards use and development.</p>
+<p id="p0070">The first paper leverages the fairly new standard, FHIR (Fast Healthcare Interoperability Resource), for phenotyping. Hong et al. contributed a FHIR-based framework for phenotyping <a href="#b0090" class="usa-link" aria-describedby="b0090">[18]</a> and demonstrated its effectiveness in identifying patients with obesity and multiple comorbidities from clinical text. Given the National Institutes of Health’s endorsement of FHIR as the primary data standard for supporting clinical research, this work is timely and relevant.</p>
+<p id="p0075">The next cluster of contributions <a href="#b0095" class="usa-link" aria-describedby="b0095">[19]</a>, <a href="#b0100" class="usa-link" aria-describedby="b0100">[20]</a>, <a href="#b0105" class="usa-link" aria-describedby="b0105">[21]</a>, <a href="#b0110" class="usa-link" aria-describedby="b0110">[22]</a>, <a href="#b0115" class="usa-link" aria-describedby="b0115">[23]</a> are from the burgeoning open science community, The Observational Health Data Sciences and Informatics (OHDSI) consortium (<a href="http://www.ohdsi.org" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">www.ohdsi.org</a>), in collaboration with the eMERGE network. All of these papers use the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) to standardizing phenotyping algorithms, data models, or evaluation methods. These standards-based solutions enable transparent collaboration and improve the scalability and efficiency of deep phenotyping.</p>
+<p id="p0080">From firsthand knowledge, retrospective analysis and user surveys, Shang et al. summarized all of the manual effort required to implement electronic phenotypes within the eMERGE Network <a href="#b0095" class="usa-link" aria-describedby="b0095">[19]</a>. This study introduces a novel Knowledge-Interpretation-Programming (KIP) metric to measure portability of phenotype algorithms for quantifying such efforts across the eMERGE Network. The authors concluded that the OMOP CDM can be employed to improve the portability for some ‘knowledge-oriented’ tasks.</p>
+<p id="p0085">Hripcsak et al. conducted a network-wide study in the eMERGE Network and further demonstrated that the OMOP CDM can facilitate phenotype transfer across network sites and minimize manual implementation <a href="#b0100" class="usa-link" aria-describedby="b0100">[20]</a>.</p>
+<p id="p0090">Ostropolets et al. reported lessons learned in adapting EHR-derived phenotypes to claims data, which contain relatively more limited information <a href="#b0105" class="usa-link" aria-describedby="b0105">[21]</a>. The authors succeeded in improving the generalizability and consistency of the chronic kidney disease (CKD) phenotypes by using data and vocabulary standardized by the OMOP CDM. However, performance varied across datasets, implying that even when using a standardized vocabulary, it is important to identify and address coding and data heterogeneity to improve the performance of electronic phenotypes.</p>
+<p id="p0095">Reps et al. developed a novel generalizable probabilistic phenotype model, Current Risk of Smoking Status (CROSS), for current smoking status identification using claims data, which often contains limited data <a href="#b0110" class="usa-link" aria-describedby="b0110">[22]</a>. CROSS can be readily implemented to any US insurance claims mapped to the OMOP CDM and will be useful to impute smoking status when conducting epidemiology studies where smoking is a known confounder but smoking status is not recorded.</p>
+<p id="p0100">A big challenge facing phenotyping research is the lack of rigorous evaluation, which often entails laborious and expensive manual gold standard generation. In order to address this challenge, Swerdel et al. from the OHDSI community contributed an open-source evaluation tool called PheValuator to estimate phenotype algorithm performance <a href="#b0115" class="usa-link" aria-describedby="b0115">[23]</a>. A key contribution of this work is in that it enables scalable, unsupervised evaluation of electronic phenotypes without laborious manual gold standards generation.</p>
+<p id="p0105">Existing standards often have limitations in their content coverage. Warner et al. extended the widely adopted OMOP CDM to expand coverage within the cancer domain by defining a new standard vocabulary for chemotherapy regimen <a href="#b0120" class="usa-link" aria-describedby="b0120">[24]</a>. Similarly, Shen et al. developed a scalable knowledge engineering method to enrich node embedding for HPO <a href="#b0125" class="usa-link" aria-describedby="b0125">[25]</a>. The authors parsed disease-phenotype associations contained in heterogeneous knowledge resources such as OMIM and Orphanet to enrich non-inheritance relationships among phenotypic nodes in HPO.</p></section><section id="s0020"><h2 class="pmc_sec_title">4. Disease subtyping using novel data sources and temporal reasoning</h2>
+<p id="p0110">Trace et al. applied conventional machine learning methods on voice signals to differentiate participants with Parkinson’s disease (PD) who exhibit little to no symptoms from healthy controls. They confirmed that voice may serve as a deep phenotype for Parkinson’s disease <a href="#b0130" class="usa-link" aria-describedby="b0130">[26]</a>.</p>
+<p id="p0115">Both conventional machine learning and emerging deep learning methods have been leveraged for identifying disease subtypes based on temporal characterization of diseases and patient similarity measures.</p>
+<p id="p0120">Mate et al. addressed the temporal complexity of cohort queries and the limitations in existing query tools by creating a novel graphical model for representing temporal cohort queries <a href="#b0135" class="usa-link" aria-describedby="b0135">[27]</a>. This work is a significant applied extension of Allen’s time interval algebra. The model was demonstrated to be effective in representing typical temporal phenotype queries using the public MIMIC data.</p>
+<p id="p0125">Meng et al. developed temporal phenotyping methods to derive cancer treatment pathways within a large insurance claims dataset <a href="#b0140" class="usa-link" aria-describedby="b0140">[28]</a>. The authors aggregated lines of therapy information via clustering followed with data visualization to derive temporal cancer phenotypes in support of disease management and progression prediction.</p>
+<p id="p0130">Zhao et al. applied a constrained non-negative tensor-factorization approach on electronic health records to detect temporal phenotypes of complex cardiovascular diseases (CVD) <a href="#b0145" class="usa-link" aria-describedby="b0145">[29]</a>. From a cohort of 12,380 CVD adults, they identified 14 subphenotypes. Through the association analysis with estimated CVD risk for each subtype, they found novel phenotypic topics such as Vitamin D deficiency, depression, and urinary infections. Through a survival analysis, the authors found different risks of subsequent myocardial infection following the diagnosis of CVD among the six most prevalent topics (p &lt; 0.0001), indicating their correspondence to clinically meaningful subphenotypes of CVD. Of note, this study leveraged a coding standard called PheCode <a href="#b0190" class="usa-link" aria-describedby="b0190">[38]</a> to reduce dimensions.</p></section><section id="s0025"><h2 class="pmc_sec_title">5. Disease subtyping based on patient similarity</h2>
+<p id="p0135">Chen et al. developed a comprehensive phenotype similarity metric integrating clinical and questionnaire data for subtyping rare diseases and applied it to ciliopathies <a href="#b0150" class="usa-link" aria-describedby="b0150">[30]</a>. The computed similarity was then validated using genomic data.</p>
+<p id="p0140">Similarly, Lyudovyk et al. evaluated the use of genomic test reports ordered for cancer patients in order to derive cancer subtypes and to identify biological pathways predictive of poor survival outcomes <a href="#b0080" class="usa-link" aria-describedby="b0080">[16]</a>. A novel patient similarity metric based on affected biological pathways was proposed. The authors demonstrated that this approach identified subtypes of prognostic value, linked to survival, with implications for precision treatment selection and a better understanding of the underlying disease.</p>
+<p id="p0145">Xu et al. used a memory network-based deep learning approach to discover three acute kidney injury (AKI) sub-phenotypes using EHR data <a href="#b0155" class="usa-link" aria-describedby="b0155">[31]</a>. Group one had an average age of 63.0 ± 17.3 years and mild loss of kidney excretory function, characterizing patients more likely to develop stage I AKI. Group two had an average age of 66.8 ± 10.4 years and severe loss of kidney function, characterizing patients more likely to develop stage III AKI. Group three had an average age of 65.1 ± 11.3 years and moderate loss of kidney function, characterizing patients more likely to develop stage II AKI.</p></section><section id="s0030"><h2 class="pmc_sec_title">6. Overcoming challenges in data quality and scalability</h2>
+<p id="p0150">Zhang et al. addresses the scalability challenge in developing accurate phenotype algorithms while minimizing manual efforts by contributing a data-driven approach to automate grouping medical terms into clinically relevant concepts by combining multiple up-to-date data sources in an unbiased manner <a href="#b0160" class="usa-link" aria-describedby="b0160">[32]</a>. The proposed method consists of a banding step that leverages the prior knowledge from the existing coding hierarchy, and a combining step that performs spectral clustering on an optimally weighted matrix. The resulting ICD groupings enjoy comparable interpretability and consistency with the current ICD hierarchy.</p>
+<p id="p0155">In contrast to manually creating unbiased estimators of treatment effects, which can be time-consuming and subjective, Chen et al. contributed a scalable method for deep representation learning <a href="#b0165" class="usa-link" aria-describedby="b0165">[33]</a> and applied it for individualized treatment effect estimation using EHR data. The automatically trained representation revealed consistent findings with existing medical knowledge and generated new clinical hypotheses.</p></section><section id="s0035"><h2 class="pmc_sec_title">7. Summary</h2>
+<p id="p0160">We observed the following trends in deep phenotyping research from this set of articles (<a href="#t0010" class="usa-link">Table 2</a>
+). Both the collaborative open science consortia of OHDSI and eMERGE collectively have made significant contributions to deep phenotyping research, with each contributing five or six articles to this special issue, and established best practices for standards-based collaborative phenotyping efforts. The OMOP CDM contributed by OHDSI has demonstrated its promise in facilitating the reusability, efficiency, portability and reproducibility of electronic phenotyping within the eMERGE network. Cancer offers more research challenges and opportunities than other diseases for deep phenotyping. Rare diseases may suffer from limited data but still have a huge need for deep phenotyping. One third of the included papers leveraged the emerging deep learning technologies. Sixty percent of the included papers use formal methods or standards, implying the significant value of data standards in deep phenotyping. About one third of the studies leveraged various NLP methods to include important clinical text in phenotyping. NLP will continue to play an important role in phenotyping research. Six (30%) articles used novel data sources, including clinical text, biological pathways, voice, public knowledge bases, and claims data.</p>
+<section class="tw xbox font-sm" id="t0010"><h3 class="obj_head">Table 2.</h3>
+<div class="caption p"><p>Observed trends (NLP: using NLP; STND: using formal standards or semantic knowledge resources such as UMLS; DL: using deep learning technologies; SRC: using novel phenotype data sources; SUB: developing subtypes).</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<th colspan="1" rowspan="1">Reference</th>
+<th colspan="1" rowspan="1">First author</th>
+<th colspan="1" rowspan="1">NLP</th>
+<th colspan="1" rowspan="1">STND</th>
+<th colspan="1" rowspan="1">DL</th>
+<th colspan="1" rowspan="1">SRC</th>
+<th colspan="1" rowspan="1">SUB</th>
+<th colspan="1" rowspan="1">Disease Focus</th>
+<th colspan="1" rowspan="1">eMERGE</th>
+<th colspan="1" rowspan="1">OHDSI</th>
+</tr></thead>
+<tbody>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0070" class="usa-link" aria-describedby="b0070">[14]</a></td>
+<td colspan="1" rowspan="1">Datta, S</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0075" class="usa-link" aria-describedby="b0075">[15]</a></td>
+<td colspan="1" rowspan="1">Liu, Q</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0080" class="usa-link" aria-describedby="b0080">[16]</a></td>
+<td colspan="1" rowspan="1">Lyudovyk, O</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">Cancer</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0085" class="usa-link" aria-describedby="b0085">[17]</a></td>
+<td colspan="1" rowspan="1">Liu, C</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0090" class="usa-link" aria-describedby="b0090">[18]</a></td>
+<td colspan="1" rowspan="1">Hong, N</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0095" class="usa-link" aria-describedby="b0095">[19]</a></td>
+<td colspan="1" rowspan="1">Shang, N</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0100" class="usa-link" aria-describedby="b0100">[20]</a></td>
+<td colspan="1" rowspan="1">Hripcsak, G</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0105" class="usa-link" aria-describedby="b0105">[21]</a></td>
+<td colspan="1" rowspan="1">Ostropolets, A</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0110" class="usa-link" aria-describedby="b0110">[22]</a></td>
+<td colspan="1" rowspan="1">Reps, J</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0115" class="usa-link" aria-describedby="b0115">[23]</a></td>
+<td colspan="1" rowspan="1">Swerdel, J</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0120" class="usa-link" aria-describedby="b0120">[24]</a></td>
+<td colspan="1" rowspan="1">Warner, J</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Cancer</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0125" class="usa-link" aria-describedby="b0125">[25]</a></td>
+<td colspan="1" rowspan="1">Shen, F</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0130" class="usa-link" aria-describedby="b0130">[26]</a></td>
+<td colspan="1" rowspan="1">Trace, JM</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Parkinson’s</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0135" class="usa-link" aria-describedby="b0135">[27]</a></td>
+<td colspan="1" rowspan="1">Mate, S</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0140" class="usa-link" aria-describedby="b0140">[28]</a></td>
+<td colspan="1" rowspan="1">Meng, W</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Cancer</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0145" class="usa-link" aria-describedby="b0145">[29]</a></td>
+<td colspan="1" rowspan="1">Zhao, J</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Cardiovascular</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0150" class="usa-link" aria-describedby="b0150">[30]</a></td>
+<td colspan="1" rowspan="1">Chen, X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">Rare disease</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0155" class="usa-link" aria-describedby="b0155">[31]</a></td>
+<td colspan="1" rowspan="1">Xu, Z</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">Acute kidney injury</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0160" class="usa-link" aria-describedby="b0160">[32]</a></td>
+<td colspan="1" rowspan="1">Zhang, L</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><a href="#b0165" class="usa-link" aria-describedby="b0165">[33]</a></td>
+<td colspan="1" rowspan="1">Chen, P</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1"><strong>TOTAL</strong></td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">6</td>
+<td colspan="1" rowspan="1">12</td>
+<td colspan="1" rowspan="1">6</td>
+<td colspan="1" rowspan="1">6</td>
+<td colspan="1" rowspan="1">3</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">5</td>
+<td colspan="1" rowspan="1">6</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/t0010/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section><p id="p0165">We expect that broad sharing of phenotype definitions and inclusion of diverse data-types in those definitions will continue. We anticipate the next set of challenges to be around including time information in phenotyping as well as in defining the criteria when a phenotype ends. We expect advances in incorporating knowledge--such as physiology and previous evidence--into the phenotype generating process. Another fruitful area of investigation will be automated ways of estimating the portability of phenotype definitions and defining conditions under which porting a definition is unlikely to work. The broad sharing of phenotype definitions that already occur will position us well to pursue these research directions.</p></section><section id="sec8"><h2 class="pmc_sec_title">Declaration of Competing Interest</h2>
+<p id="p0170">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></section><section id="ak005" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p id="p0175">The editors acknowledge funding support from the United States National Institutes of Health grants R01LM009886-10, R01LM006910-19, U01HG008680-05 and R01LM011369-07.</p></section><section id="bi005" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="bi005_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="b0005">
+<span class="label">1.</span><cite>In Clinical Data as the Basic Staple of Health Learning: Creating and Protecting a Public Good: Workshop Summary. Washington (DC), 2010.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/21595112/" class="usa-link">PubMed</a>]</li>
+<li id="b0010">
+<span class="label">2.</span><cite>Newton K.M. Validation of electronic medical record-based phenotyping algorithms: results and lessons learned from the eMERGE network. J. Am. Med. Inform. Assoc. 2013;20(e1):e147–e154. doi: 10.1136/amiajnl-2012-000896.</cite> [<a href="https://doi.org/10.1136/amiajnl-2012-000896" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3715338/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23531748/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Am.%20Med.%20Inform.%20Assoc.&amp;title=Validation%20of%20electronic%20medical%20record-based%20phenotyping%20algorithms:%20results%20and%20lessons%20learned%20from%20the%20eMERGE%20network&amp;author=K.M.%20Newton&amp;volume=20&amp;issue=e1&amp;publication_year=2013&amp;pages=e147-e154&amp;pmid=23531748&amp;doi=10.1136/amiajnl-2012-000896&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0015">
+<span class="label">3.</span><cite>Pathak J., Kho A.N., Denny J.C. Electronic health records-driven phenotyping: challenges, recent advances, and perspectives. J. Am. Med. Inform. Assoc. 2013;20(e2):e206–e211. doi: 10.1136/amiajnl-2013-002428.</cite> [<a href="https://doi.org/10.1136/amiajnl-2013-002428" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3861925/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24302669/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Am.%20Med.%20Inform.%20Assoc.&amp;title=Electronic%20health%20records-driven%20phenotyping:%20challenges,%20recent%20advances,%20and%20perspectives&amp;author=J.%20Pathak&amp;author=A.N.%20Kho&amp;author=J.C.%20Denny&amp;volume=20&amp;issue=e2&amp;publication_year=2013&amp;pages=e206-e211&amp;pmid=24302669&amp;doi=10.1136/amiajnl-2013-002428&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0020">
+<span class="label">4.</span><cite>Robinson P.N. Deep phenotyping for precision medicine. Hum. Mutat. 2012;33(5):777–780. doi: 10.1002/humu.22080.</cite> [<a href="https://doi.org/10.1002/humu.22080" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22504886/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Hum.%20Mutat.&amp;title=Deep%20phenotyping%20for%20precision%20medicine&amp;author=P.N.%20Robinson&amp;volume=33&amp;issue=5&amp;publication_year=2012&amp;pages=777-780&amp;pmid=22504886&amp;doi=10.1002/humu.22080&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0025">
+<span class="label">5.</span><cite>Hripcsak G. Unlocking clinical data from narrative reports: a study of natural language processing. Ann. Intern. Med. 1995;122(9):681–688. doi: 10.7326/0003-4819-122-9-199505010-00007.</cite> [<a href="https://doi.org/10.7326/0003-4819-122-9-199505010-00007" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/7702231/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann.%20Intern.%20Med.&amp;title=Unlocking%20clinical%20data%20from%20narrative%20reports:%20a%20study%20of%20natural%20language%20processing&amp;author=G.%20Hripcsak&amp;volume=122&amp;issue=9&amp;publication_year=1995&amp;pages=681-688&amp;pmid=7702231&amp;doi=10.7326/0003-4819-122-9-199505010-00007&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0030">
+<span class="label">6.</span><cite>Cutillo C.M. Machine intelligence in healthcare-perspectives on trustworthiness, explainability, usability, and transparency. NPJ Digit Med. 2020;3:47. doi: 10.1038/s41746-020-0254-2.</cite> [<a href="https://doi.org/10.1038/s41746-020-0254-2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7099019/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32258429/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=NPJ%20Digit%20Med.&amp;title=Machine%20intelligence%20in%20healthcare-perspectives%20on%20trustworthiness,%20explainability,%20usability,%20and%20transparency&amp;author=C.M.%20Cutillo&amp;volume=3&amp;publication_year=2020&amp;pages=47&amp;pmid=32258429&amp;doi=10.1038/s41746-020-0254-2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0035">
+<span class="label">7.</span><cite>Hripcsak G., Albers D.J. High-fidelity phenotyping: richness and freedom from bias. J. Am. Med. Inform. Assoc. 2018;25(3):289–294. doi: 10.1093/jamia/ocx110.</cite> [<a href="https://doi.org/10.1093/jamia/ocx110" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7282504/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29040596/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Am.%20Med.%20Inform.%20Assoc.&amp;title=High-fidelity%20phenotyping:%20richness%20and%20freedom%20from%20bias&amp;author=G.%20Hripcsak&amp;author=D.J.%20Albers&amp;volume=25&amp;issue=3&amp;publication_year=2018&amp;pages=289-294&amp;pmid=29040596&amp;doi=10.1093/jamia/ocx110&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0040">
+<span class="label">8.</span><cite>Wagholikar K.B. Extending i2b2 into a framework for semantic abstraction of EHR to facilitate rapid development and portability of Health IT applications. AMIA Jt. Summits Transl. Sci. Proc. 2019;2019:370–378.</cite> [<a href="/articles/PMC6568124/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31258990/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=AMIA%20Jt.%20Summits%20Transl.%20Sci.%20Proc.&amp;title=Extending%20i2b2%20into%20a%20framework%20for%20semantic%20abstraction%20of%20EHR%20to%20facilitate%20rapid%20development%20and%20portability%20of%20Health%20IT%20applications&amp;author=K.B.%20Wagholikar&amp;volume=2019&amp;publication_year=2019&amp;pages=370-378&amp;pmid=31258990&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0045">
+<span class="label">9.</span><cite>Sohrabi C. World Health Organization declares global emergency: a review of the 2019 novel coronavirus (COVID-19) Int. J. Surg. 2020;76:71–76. doi: 10.1016/j.ijsu.2020.02.034.</cite> [<a href="https://doi.org/10.1016/j.ijsu.2020.02.034" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7105032/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32112977/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int.%20J.%20Surg.&amp;title=World%20Health%20Organization%20declares%20global%20emergency:%20a%20review%20of%20the%202019%20novel%20coronavirus%20(COVID-19)&amp;author=C.%20Sohrabi&amp;volume=76&amp;publication_year=2020&amp;pages=71-76&amp;pmid=32112977&amp;doi=10.1016/j.ijsu.2020.02.034&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0050">
+<span class="label">10.</span><cite>Wong H.Y.F. Frequency and distribution of chest radiographic findings in COVID-19 positive patients. Radiology. 2019 doi: 10.1148/radiol.2020201160.</cite> [<a href="https://doi.org/10.1148/radiol.2020201160" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7233401/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32216717/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Radiology&amp;title=Frequency%20and%20distribution%20of%20chest%20radiographic%20findings%20in%20COVID-19%20positive%20patients&amp;author=H.Y.F.%20Wong&amp;publication_year=2019&amp;pmid=32216717&amp;doi=10.1148/radiol.2020201160&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0055">
+<span class="label">11.</span><cite>Yoon S.H. Chest radiographic and CT findings of the 2019 novel coronavirus disease (COVID-19): analysis of nine patients treated in Korea. Kor. J. Radiol. 2020;21(4):494–500. doi: 10.3348/kjr.2020.0132.</cite> [<a href="https://doi.org/10.3348/kjr.2020.0132" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7082662/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32100485/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Kor.%20J.%20Radiol.&amp;title=Chest%20radiographic%20and%20CT%20findings%20of%20the%202019%20novel%20coronavirus%20disease%20(COVID-19):%20analysis%20of%20nine%20patients%20treated%20in%20Korea&amp;author=S.H.%20Yoon&amp;volume=21&amp;issue=4&amp;publication_year=2020&amp;pages=494-500&amp;pmid=32100485&amp;doi=10.3348/kjr.2020.0132&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0060">
+<span class="label">12.</span><cite>Lu J. Disruptions of the olfactory and default mode networks in Alzheimer's disease. Brain Behav. 2019;9(7) doi: 10.1002/brb3.1296.</cite> [<a href="https://doi.org/10.1002/brb3.1296" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6625464/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31165582/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Brain%20Behav.&amp;title=Disruptions%20of%20the%20olfactory%20and%20default%20mode%20networks%20in%20Alzheimer's%20disease&amp;author=J.%20Lu&amp;volume=9&amp;issue=7&amp;publication_year=2019&amp;pmid=31165582&amp;doi=10.1002/brb3.1296&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0065">
+<span class="label">13.</span><cite>Sun J. Supervised patient similarity measure of heterogeneous patient records. ACM SIGKDD Explorat. Newsletter. 2012;2012(14):16–24.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=ACM%20SIGKDD%20Explorat.%20Newsletter&amp;title=Supervised%20patient%20similarity%20measure%20of%20heterogeneous%20patient%20records&amp;author=J.%20Sun&amp;volume=2012&amp;issue=14&amp;publication_year=2012&amp;pages=16-24&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0070">
+<span class="label">14.</span><cite>Datta S., Bernstam E.V., Roberts K. A frame semantic overview of NLP-based information extraction for cancer-related EHR notes. J. Biomed. Inform. 2019;100 doi: 10.1016/j.jbi.2019.103301.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103301" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC11771512/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31589927/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=A%20frame%20semantic%20overview%20of%20NLP-based%20information%20extraction%20for%20cancer-related%20EHR%20notes&amp;author=S.%20Datta&amp;author=E.V.%20Bernstam&amp;author=K.%20Roberts&amp;volume=100&amp;publication_year=2019&amp;pmid=31589927&amp;doi=10.1016/j.jbi.2019.103301&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0075">
+<span class="label">15.</span><cite>Liu Q. Symptom-based patient stratification in mental illness using clinical notes. J. Biomed. Inform. 2019;98 doi: 10.1016/j.jbi.2019.103274.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103274" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6783390/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31499185/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Symptom-based%20patient%20stratification%20in%20mental%20illness%20using%20clinical%20notes&amp;author=Q.%20Liu&amp;volume=98&amp;publication_year=2019&amp;pmid=31499185&amp;doi=10.1016/j.jbi.2019.103274&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0080">
+<span class="label">16.</span><cite>Lyudovyk O. Pathway analysis of genomic pathology tests for prognostic cancer subtyping. J. Biomed. Inform. 2019;98 doi: 10.1016/j.jbi.2019.103286.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103286" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7136846/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31499184/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Pathway%20analysis%20of%20genomic%20pathology%20tests%20for%20prognostic%20cancer%20subtyping&amp;author=O.%20Lyudovyk&amp;volume=98&amp;publication_year=2019&amp;pmid=31499184&amp;doi=10.1016/j.jbi.2019.103286&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0085">
+<span class="label">17.</span><cite>Liu C. Ensembles of natural language processing systems for portable phenotyping solutions. J. Biomed. Inform. 2019;100 doi: 10.1016/j.jbi.2019.103318.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103318" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6899194/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31655273/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Ensembles%20of%20natural%20language%20processing%20systems%20for%20portable%20phenotyping%20solutions&amp;author=C.%20Liu&amp;volume=100&amp;publication_year=2019&amp;pmid=31655273&amp;doi=10.1016/j.jbi.2019.103318&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0090">
+<span class="label">18.</span><cite>Hong N. Developing a FHIR-based EHR phenotyping framework: a case study for identification of patients with obesity and multiple comorbidities from discharge summaries. J. Biomed. Inform. 2019;99 doi: 10.1016/j.jbi.2019.103310.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103310" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6990976/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31622801/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Developing%20a%20FHIR-based%20EHR%20phenotyping%20framework:%20a%20case%20study%20for%20identification%20of%20patients%20with%20obesity%20and%20multiple%20comorbidities%20from%20discharge%20summaries&amp;author=N.%20Hong&amp;volume=99&amp;publication_year=2019&amp;pmid=31622801&amp;doi=10.1016/j.jbi.2019.103310&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0095">
+<span class="label">19.</span><cite>Shang N. Making work visible for electronic phenotype implementation: Lessons learned from the eMERGE network. J. Biomed. Inform. 2019;99 doi: 10.1016/j.jbi.2019.103293.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103293" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6894517/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31542521/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Making%20work%20visible%20for%20electronic%20phenotype%20implementation:%20Lessons%20learned%20from%20the%20eMERGE%20network&amp;author=N.%20Shang&amp;volume=99&amp;publication_year=2019&amp;pmid=31542521&amp;doi=10.1016/j.jbi.2019.103293&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0100">
+<span class="label">20.</span><cite>Hripcsak G. Facilitating phenotype transfer using a common data model. J. Biomed. Inform. 2019;96 doi: 10.1016/j.jbi.2019.103253.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103253" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6697565/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31325501/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Facilitating%20phenotype%20transfer%20using%20a%20common%20data%20model&amp;author=G.%20Hripcsak&amp;volume=96&amp;publication_year=2019&amp;pmid=31325501&amp;doi=10.1016/j.jbi.2019.103253&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0105">
+<span class="label">21.</span><cite>Ostropolets A. Adapting electronic health records-derived phenotypes to claims data: lessons learned in using limited clinical data for phenotyping. J. Biomed. Inform. 2019 doi: 10.1016/j.jbi.2019.103363.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103363" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7390483/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31866433/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Adapting%20electronic%20health%20records-derived%20phenotypes%20to%20claims%20data:%20lessons%20learned%20in%20using%20limited%20clinical%20data%20for%20phenotyping&amp;author=A.%20Ostropolets&amp;publication_year=2019&amp;pmid=31866433&amp;doi=10.1016/j.jbi.2019.103363&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0110">
+<span class="label">22.</span><cite>Reps J.M., Rijnbeek P.R., Ryan P.B. Supplementing claims data analysis using self-reported data to develop a probabilistic phenotype model for current smoking status. J. Biomed. Inform. 2019;97 doi: 10.1016/j.jbi.2019.103264.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103264" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31386904/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Supplementing%20claims%20data%20analysis%20using%20self-reported%20data%20to%20develop%20a%20probabilistic%20phenotype%20model%20for%20current%20smoking%20status&amp;author=J.M.%20Reps&amp;author=P.R.%20Rijnbeek&amp;author=P.B.%20Ryan&amp;volume=97&amp;publication_year=2019&amp;pmid=31386904&amp;doi=10.1016/j.jbi.2019.103264&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0115">
+<span class="label">23.</span><cite>Swerdel J.N., Hripcsak G., Ryan P.B. PheValuator: development and evaluation of a phenotype algorithm evaluator. J. Biomed. Inform. 2019;97 doi: 10.1016/j.jbi.2019.103258.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103258" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7736922/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31369862/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=PheValuator:%20development%20and%20evaluation%20of%20a%20phenotype%20algorithm%20evaluator&amp;author=J.N.%20Swerdel&amp;author=G.%20Hripcsak&amp;author=P.B.%20Ryan&amp;volume=97&amp;publication_year=2019&amp;pmid=31369862&amp;doi=10.1016/j.jbi.2019.103258&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0120">
+<span class="label">24.</span><cite>Warner J.L. HemOnc: a new standard vocabulary for chemotherapy regimen representation in the OMOP common data model. J. Biomed. Inform. 2019;96 doi: 10.1016/j.jbi.2019.103239.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103239" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6697579/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31238109/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=HemOnc:%20a%20new%20standard%20vocabulary%20for%20chemotherapy%20regimen%20representation%20in%20the%20OMOP%20common%20data%20model&amp;author=J.L.%20Warner&amp;volume=96&amp;publication_year=2019&amp;pmid=31238109&amp;doi=10.1016/j.jbi.2019.103239&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0125">
+<span class="label">25.</span><cite>Shen F. HPO2Vec+: leveraging heterogeneous knowledge resources to enrich node embeddings for the Human Phenotype Ontology. J. Biomed. Inform. 2019;96 doi: 10.1016/j.jbi.2019.103246.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103246" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6710011/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31255713/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=HPO2Vec+:%20leveraging%20heterogeneous%20knowledge%20resources%20to%20enrich%20node%20embeddings%20for%20the%20Human%20Phenotype%20Ontology&amp;author=F.%20Shen&amp;volume=96&amp;publication_year=2019&amp;pmid=31255713&amp;doi=10.1016/j.jbi.2019.103246&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0130">
+<span class="label">26.</span><cite>Tracy J.M. Investigating voice as a biomarker: deep phenotyping methods for early detection of Parkinson's disease. J. Biomed. Inform. 2019 doi: 10.1016/j.jbi.2019.103362.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103362" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31866434/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Investigating%20voice%20as%20a%20biomarker:%20deep%20phenotyping%20methods%20for%20early%20detection%20of%20Parkinson's%20disease&amp;author=J.M.%20Tracy&amp;publication_year=2019&amp;pmid=31866434&amp;doi=10.1016/j.jbi.2019.103362&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0135">
+<span class="label">27.</span><cite>Mate S. A method for the graphical modeling of relative temporal constraints. J. Biomed. Inform. 2019;100 doi: 10.1016/j.jbi.2019.103314.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103314" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31629921/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=A%20method%20for%20the%20graphical%20modeling%20of%20relative%20temporal%20constraints&amp;author=S.%20Mate&amp;volume=100&amp;publication_year=2019&amp;pmid=31629921&amp;doi=10.1016/j.jbi.2019.103314&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0140">
+<span class="label">28.</span><cite>Meng W. Temporal phenotyping by mining healthcare data to derive lines of therapy for cancer. J. Biomed. Inform. 2019;100 doi: 10.1016/j.jbi.2019.103335.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103335" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31689549/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Temporal%20phenotyping%20by%20mining%20healthcare%20data%20to%20derive%20lines%20of%20therapy%20for%20cancer&amp;author=W.%20Meng&amp;volume=100&amp;publication_year=2019&amp;pmid=31689549&amp;doi=10.1016/j.jbi.2019.103335&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0145">
+<span class="label">29.</span><cite>Zhao J. Detecting time-evolving phenotypic topics via tensor factorization on electronic health records: cardiovascular disease case study. J. Biomed. Inform. 2019;98 doi: 10.1016/j.jbi.2019.103270.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103270" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6783385/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31445983/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Detecting%20time-evolving%20phenotypic%20topics%20via%20tensor%20factorization%20on%20electronic%20health%20records:%20cardiovascular%20disease%20case%20study&amp;author=J.%20Zhao&amp;volume=98&amp;publication_year=2019&amp;pmid=31445983&amp;doi=10.1016/j.jbi.2019.103270&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0150">
+<span class="label">30.</span><cite>Chen X. Phenotypic similarity for rare disease: ciliopathy diagnoses and subtyping. J. Biomed. Inform. 2019;100 doi: 10.1016/j.jbi.2019.103308.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103308" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31622800/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Phenotypic%20similarity%20for%20rare%20disease:%20ciliopathy%20diagnoses%20and%20subtyping&amp;author=X.%20Chen&amp;volume=100&amp;publication_year=2019&amp;pmid=31622800&amp;doi=10.1016/j.jbi.2019.103308&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0155">
+<span class="label">31.</span><cite>Xu Z. Identifying sub-phenotypes of acute kidney injury using structured and unstructured electronic health record data with memory networks. J. Biomed. Inform. 2020;102 doi: 10.1016/j.jbi.2019.103361.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103361" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31911172/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Identifying%20sub-phenotypes%20of%20acute%20kidney%20injury%20using%20structured%20and%20unstructured%20electronic%20health%20record%20data%20with%20memory%20networks&amp;author=Z.%20Xu&amp;volume=102&amp;publication_year=2020&amp;pmid=31911172&amp;doi=10.1016/j.jbi.2019.103361&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0160">
+<span class="label">32.</span><cite>Zhang L. Automated grouping of medical codes via multiview banded spectral clustering. J. Biomed. Inform. 2019;100 doi: 10.1016/j.jbi.2019.103322.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103322" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7261410/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31672532/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Automated%20grouping%20of%20medical%20codes%20via%20multiview%20banded%20spectral%20clustering&amp;author=L.%20Zhang&amp;volume=100&amp;publication_year=2019&amp;pmid=31672532&amp;doi=10.1016/j.jbi.2019.103322&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0165">
+<span class="label">33.</span><cite>Chen P. Deep representation learning for individualized treatment effect estimation using electronic health records. J. Biomed. Inform. 2019;100 doi: 10.1016/j.jbi.2019.103303.</cite> [<a href="https://doi.org/10.1016/j.jbi.2019.103303" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31610264/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Biomed.%20Inform.&amp;title=Deep%20representation%20learning%20for%20individualized%20treatment%20effect%20estimation%20using%20electronic%20health%20records&amp;author=P.%20Chen&amp;volume=100&amp;publication_year=2019&amp;pmid=31610264&amp;doi=10.1016/j.jbi.2019.103303&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0170">
+<span class="label">34.</span><cite>Demner-Fushman D., Rogers W.J., Aronson A.R. MetaMap Lite: an evaluation of a new Java implementation of MetaMap. J. Am. Med. Inform. Assoc. 2017;24(4):841–844. doi: 10.1093/jamia/ocw177.</cite> [<a href="https://doi.org/10.1093/jamia/ocw177" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6080672/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28130331/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Am.%20Med.%20Inform.%20Assoc.&amp;title=MetaMap%20Lite:%20an%20evaluation%20of%20a%20new%20Java%20implementation%20of%20MetaMap&amp;author=D.%20Demner-Fushman&amp;author=W.J.%20Rogers&amp;author=A.R.%20Aronson&amp;volume=24&amp;issue=4&amp;publication_year=2017&amp;pages=841-844&amp;pmid=28130331&amp;doi=10.1093/jamia/ocw177&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0175">
+<span class="label">35.</span><cite>Friedman C. A general natural-language text processor for clinical radiology. J. Am. Med. Inform. Assoc. 1994;1(2):161–174. doi: 10.1136/jamia.1994.95236146.</cite> [<a href="https://doi.org/10.1136/jamia.1994.95236146" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC116194/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/7719797/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Am.%20Med.%20Inform.%20Assoc.&amp;title=A%20general%20natural-language%20text%20processor%20for%20clinical%20radiology&amp;author=C.%20Friedman&amp;volume=1&amp;issue=2&amp;publication_year=1994&amp;pages=161-174&amp;pmid=7719797&amp;doi=10.1136/jamia.1994.95236146&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0180">
+<span class="label">36.</span><cite>Deisseroth C.A. ClinPhen extracts and prioritizes patient phenotypes directly from medical records to expedite genetic disease diagnosis. Genet. Med. 2019;21(7):1585–1593. doi: 10.1038/s41436-018-0381-1.</cite> [<a href="https://doi.org/10.1038/s41436-018-0381-1" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6551315/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30514889/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Genet.%20Med.&amp;title=ClinPhen%20extracts%20and%20prioritizes%20patient%20phenotypes%20directly%20from%20medical%20records%20to%20expedite%20genetic%20disease%20diagnosis&amp;author=C.A.%20Deisseroth&amp;volume=21&amp;issue=7&amp;publication_year=2019&amp;pages=1585-1593&amp;pmid=30514889&amp;doi=10.1038/s41436-018-0381-1&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0185">
+<span class="label">37.</span><cite>Savova G.K. Mayo clinical Text Analysis and Knowledge Extraction System (cTAKES): architecture, component evaluation and applications. J. Am. Med. Inform. Assoc. 2010;17(5):507–513. doi: 10.1136/jamia.2009.001560.</cite> [<a href="https://doi.org/10.1136/jamia.2009.001560" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2995668/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20819853/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J.%20Am.%20Med.%20Inform.%20Assoc.&amp;title=Mayo%20clinical%20Text%20Analysis%20and%20Knowledge%20Extraction%20System%20(cTAKES):%20architecture,%20component%20evaluation%20and%20applications&amp;author=G.K.%20Savova&amp;volume=17&amp;issue=5&amp;publication_year=2010&amp;pages=507-513&amp;pmid=20819853&amp;doi=10.1136/jamia.2009.001560&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="b0190">
+<span class="label">38.</span><cite>Wei W.Q. Evaluating phecodes, clinical classification software, and ICD-9-CM codes for phenome-wide association studies in the electronic health record. PLoS ONE. 2017;12(7) doi: 10.1371/journal.pone.0175508.</cite> [<a href="https://doi.org/10.1371/journal.pone.0175508" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5501393/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28686612/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PLoS%20ONE&amp;title=Evaluating%20phecodes,%20clinical%20classification%20software,%20and%20ICD-9-CM%20codes%20for%20phenome-wide%20association%20studies%20in%20the%20electronic%20health%20record&amp;author=W.Q.%20Wei&amp;volume=12&amp;issue=7&amp;publication_year=2017&amp;pmid=28686612&amp;doi=10.1371/journal.pone.0175508&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from Journal of Biomedical Informatics are provided here courtesy of <strong>Elsevier</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1016/j.jbi.2020.103433"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/main.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (677.0 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/7179504/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/7179504/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7179504%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7179504/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC7179504/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC7179504/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/32335224/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC7179504/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/32335224/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC7179504/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/7179504/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="QdcV6gAelk9T8H1JQDeck2ACAFBW1FvFBTs5oI3cdZp3FqsT8RAHcsuWCLQS9ag4">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

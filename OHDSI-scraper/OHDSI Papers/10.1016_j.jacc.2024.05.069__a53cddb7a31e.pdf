@@ -1,0 +1,926 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="nexus-font-support">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="tdm-reservation" content="0">
+    <title>
+        Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM
+      -  Erasmus University Rotterdam</title>
+    
+    
+    
+
+
+
+<meta property="og:site_name" content="Erasmus University Rotterdam">
+
+
+    <meta property="og:title" content="Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM"/>
+
+
+<meta property="og:url" content="https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/">
+<meta property="og:locale" content="en_GB">
+
+
+
+
+    
+        <meta property="og:image" content="https://pure.eur.nl/skin/headerImage/">
+    
+
+
+
+
+    
+        <meta property="og:type" content="article">
+    
+
+    
+
+    
+
+
+    <link rel="stylesheet" href="/assets/application-bbadabf14375775985ecfd59655b0569.css" />
+    <!-- OneTrust Cookies Consent Notice start -->
+<script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="06967b9b-2728-46e2-bc86-5c84b768789f" data-document-language="true"></script>
+<script type="text/javascript">
+    function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+    
+        <link rel="shortcut icon" href="/skin/favIcon/"/>
+    
+    <link href="/skin/css/" rel="stylesheet"/>
+    
+    <script src="/skin/script/" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/application-c9812d1ef516be20094e6491b18de745.js" ></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/assets/html5shiv.min-ca5300beead9a4a9d2c9c584a9016410.js" ></script>
+    <script type="text/javascript" src="/assets/respond.min-678d372b349e434d9923e1b591f14a1e.js" ></script>
+    <![endif]-->
+    
+        
+        
+        <meta name="citation_title" content="Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM"></meta><meta name="citation_author" content="Rohan Khera"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author_institution" content="Yale New Haven Health System"></meta><meta name="citation_author" content="Arya Aminorroaya"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author" content="Lovedeep Singh Dhingra"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author" content="Phyllis M. Thangaraj"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author" content="Aline Pedroso Camargos"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author" content="Fan Bu"></meta><meta name="citation_author_institution" content="University of Michigan, Ann Arbor"></meta><meta name="citation_author" content="Xiyu Ding"></meta><meta name="citation_author_institution" content="Johns Hopkins Bloomberg School of Public Health"></meta><meta name="citation_author" content="Akihiko Nishimura"></meta><meta name="citation_author_institution" content="Johns Hopkins Bloomberg School of Public Health"></meta><meta name="citation_author" content="Tara V. Anand"></meta><meta name="citation_author_institution" content="Columbia University"></meta><meta name="citation_author" content="Faaizah Arshad"></meta><meta name="citation_author_institution" content="University of California at Los Angeles"></meta><meta name="citation_author" content="Clair Blacketer"></meta><meta name="citation_author_institution" content="Medical Informatics"></meta><meta name="citation_author_email" content="m.blacketer@erasmusmc.nl"></meta><meta name="citation_author_orcid" content="0000-0003-2570-2124"></meta><meta name="citation_author" content="Yi Chai"></meta><meta name="citation_author_institution" content="The University of Hong Kong"></meta><meta name="citation_author" content="Shounak Chattopadhyay"></meta><meta name="citation_author_institution" content="University of California at Los Angeles"></meta><meta name="citation_author" content="Michael Cook"></meta><meta name="citation_author_institution" content="Johns Hopkins Bloomberg School of Public Health"></meta><meta name="citation_author" content="David A. Dorr"></meta><meta name="citation_author_institution" content="Oregon Health and Science University"></meta><meta name="citation_author" content="Talita Duarte-Salles"></meta><meta name="citation_author_institution" content="Medical Informatics"></meta><meta name="citation_author_email" content="t.duartesalles@erasmusmc.nl"></meta><meta name="citation_author_orcid" content="0000-0002-8274-0357"></meta><meta name="citation_author" content="Scott L. DuVall"></meta><meta name="citation_author_institution" content="Department of Veterans Affairs"></meta><meta name="citation_author_institution" content="University of Utah School of Medicine"></meta><meta name="citation_author" content="Thomas Falconer"></meta><meta name="citation_author_institution" content="Columbia University"></meta><meta name="citation_author" content="Tina E. French"></meta><meta name="citation_author_institution" content="VA Medical Center"></meta><meta name="citation_author_institution" content="Vanderbilt University School of Medicine"></meta><meta name="citation_author" content="Elizabeth E. Hanchrow"></meta><meta name="citation_author_institution" content="VA Medical Center"></meta><meta name="citation_author_institution" content="Vanderbilt University School of Medicine"></meta><meta name="citation_author" content="Guneet Kaur"></meta><meta name="citation_author_institution" content="University of Dundee School of Medicine"></meta><meta name="citation_author" content="Wallis C.Y. Lau"></meta><meta name="citation_author_institution" content="University College London"></meta><meta name="citation_author_institution" content="University College London Hospitals NHS Foundation Trust"></meta><meta name="citation_author_institution" content="The University of Hong Kong"></meta><meta name="citation_author" content="Jing Li"></meta><meta name="citation_author" content="Kelly Li"></meta><meta name="citation_author_institution" content="University of California at Los Angeles"></meta><meta name="citation_author" content="Yuntian Liu"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author_institution" content="Yale New Haven Health System"></meta><meta name="citation_author" content="Yuan Lu"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author" content="Kenneth K.C. Man"></meta><meta name="citation_author" content="Michael E. Matheny"></meta><meta name="citation_author_institution" content="VA Medical Center"></meta><meta name="citation_author_institution" content="Vanderbilt University School of Medicine"></meta><meta name="citation_author" content="Nestoras Mathioudakis"></meta><meta name="citation_author_institution" content="Johns Hopkins University"></meta><meta name="citation_author" content="Jody Ann McLeggon"></meta><meta name="citation_author_institution" content="Columbia University"></meta><meta name="citation_author" content="Michael F. McLemore"></meta><meta name="citation_author_institution" content="VA Medical Center"></meta><meta name="citation_author_institution" content="Vanderbilt University School of Medicine"></meta><meta name="citation_author" content="Evan Minty"></meta><meta name="citation_author_institution" content="Cumming School of Medicine"></meta><meta name="citation_author" content="Daniel R. Morales"></meta><meta name="citation_author_institution" content="University of Dundee School of Medicine"></meta><meta name="citation_author" content="Paul Nagy"></meta><meta name="citation_author_institution" content="Johns Hopkins University"></meta><meta name="citation_author" content="Anna Ostropolets"></meta><meta name="citation_author_institution" content="Johnson &amp; Johnson"></meta><meta name="citation_author" content="Andrea Pistillo"></meta><meta name="citation_author_institution" content="Fundació Institut Universitari per a la recerca a l’Atenció Primària de Salut Jordi Gol i Gurina (IDIAPJGol)"></meta><meta name="citation_author" content="Thanh Phuc Phan"></meta><meta name="citation_author_institution" content="Taipei Medical University"></meta><meta name="citation_author" content="Nicole Pratt"></meta><meta name="citation_author_institution" content="University of South Australia"></meta><meta name="citation_author" content="Carlen Reyes"></meta><meta name="citation_author_institution" content="Fundació Institut Universitari per a la recerca a l’Atenció Primària de Salut Jordi Gol i Gurina (IDIAPJGol)"></meta><meta name="citation_author" content="Lauren Richter"></meta><meta name="citation_author_institution" content="Columbia University"></meta><meta name="citation_author" content="Joseph S. Ross"></meta><meta name="citation_author_institution" content="Yale New Haven Health System"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author" content="Elise Ruan"></meta><meta name="citation_author_institution" content="Columbia University"></meta><meta name="citation_author" content="Sarah L. Seager"></meta><meta name="citation_author_institution" content="IQVIA Inc."></meta><meta name="citation_author" content="Katherine R. Simon"></meta><meta name="citation_author_institution" content="VA Medical Center"></meta><meta name="citation_author_institution" content="Vanderbilt University School of Medicine"></meta><meta name="citation_author" content="Benjamin Viernes"></meta><meta name="citation_author_institution" content="Department of Veterans Affairs"></meta><meta name="citation_author_institution" content="University of Utah School of Medicine"></meta><meta name="citation_author" content="Jianxiao Yang"></meta><meta name="citation_author_institution" content="David Geffen School of Medicine"></meta><meta name="citation_author" content="Can Yin"></meta><meta name="citation_author_institution" content="IQVIA Inc."></meta><meta name="citation_author" content="Seng Chan You"></meta><meta name="citation_author_institution" content="Yonsei University"></meta><meta name="citation_author" content="Jin J. Zhou"></meta><meta name="citation_author_institution" content="University of California at Los Angeles"></meta><meta name="citation_author_institution" content="David Geffen School of Medicine"></meta><meta name="citation_author" content="Patrick B. Ryan"></meta><meta name="citation_author_institution" content="Columbia University"></meta><meta name="citation_author" content="Martijn J. Schuemie"></meta><meta name="citation_author_institution" content="Medical Informatics"></meta><meta name="citation_author_email" content="m.schuemie@erasmusmc.nl"></meta><meta name="citation_author" content="Harlan M. Krumholz"></meta><meta name="citation_author_institution" content="Yale University"></meta><meta name="citation_author_institution" content="Yale New Haven Health System"></meta><meta name="citation_author" content="George Hripcsak"></meta><meta name="citation_author_institution" content="Columbia University"></meta><meta name="citation_author" content="Marc A. Suchard"></meta><meta name="citation_author_institution" content="University of California at Los Angeles"></meta><meta name="citation_author_institution" content="Department of Veterans Affairs"></meta><meta name="citation_author_institution" content="David Geffen School of Medicine"></meta><meta name="citation_publication_date" content="2024/09/03"></meta><meta name="citation_online_date" content="2025/06/26"></meta><meta name="citation_pdf_url" content="https://pure.eur.nl/files/165049246/1-s2.0-S0735109724077799-main.pdf"></meta><meta name="citation_online_date" content="2025/03/18"></meta><meta name="citation_doi" content="10.1016/j.jacc.2024.05.069"></meta><meta name="citation_language" content="English"></meta><meta name="citation_pmid" content="39197980"></meta><meta name="citation_journal_title" content="Journal of the American College of Cardiology"></meta><meta name="citation_issn" content="0735-1097"></meta><meta name="citation_journal_abbrev" content="Journal of the American College of Cardiology."></meta><meta name="citation_publisher" content="Elsevier Inc."></meta><meta name="citation_volume" content="84"></meta><meta name="citation_issue" content="10"></meta><meta name="citation_firstpage" content="904"></meta><meta name="citation_lastpage" content="917"></meta>
+        <script src="/assets/Chart.min-27bff060c3e539ceb22e763c8f2e9e10.js"></script>
+        <script src="/assets/jquery.content-chart-9c09bb79ba3fc3829b6478d0e114f737.js"></script>
+        
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-2KVJS4YBW6" class="optanon-category-2" type="text/plain" async=""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2KVJS4YBW6', {'cookie_domain' : document.location.hostname, 'anonymize_ip': true });
+</script>
+    <script src="//assets.adobedtm.com/4a848ae9611a/ea83f870454d/launch-af020409b299.min.js" class="optanon-category-2" type="text/plain" async=""></script>
+    
+    
+</head>
+
+<body class="" data-page="publications">
+
+<div id="aria-polite" aria-live="polite"></div>
+
+<div id="aria-assertive" aria-live="assertive"></div>
+
+<nav aria-label="Skip to content" class="skip-content">
+    <ul>
+        <li>
+            <a href="#main-navigation" class="sr-only sr-only-focusable">Skip to main navigation</a>
+        </li>
+        
+            <li>
+                <a href="#main-search" class="sr-only sr-only-focusable">Skip to search</a>
+            </li>
+        
+        <li>
+            <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+            
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+    <header class="header" id="page-header">
+        <div class="primary  ">
+            <div class="container">
+                
+                <a href="/en/" class="logo">
+                    
+                        <span class="sr-only">Erasmus University Rotterdam Home</span>
+                        <img src="/skin/headerImage/" alt="Erasmus University Rotterdam Logo"/>
+                    
+                </a>
+                
+                    <ul class="header-tools ">
+                        
+                            <li class="help-and-faq">
+                                <a href="https://eur-nl.libanswers.com/en/search/?t=0&adv=1&topics=Research%20output%20registration" target="_blank">
+                                    <i class="icon icon-lifebuoy" aria-hidden="true"></i>
+                                    <span class="label">Help &amp; FAQ</span>
+                                    <span class="sr-only">&nbsp; Link opens in a new tab</span>
+                                </a>
+                            </li>
+                        
+                        
+                    </ul>
+                
+                
+                
+            </div>
+        </div>
+
+        
+            <div class="header-search">
+                
+<form action="/en/searchAll/index/comparative-effectiveness-of-second-line-antihyperglycemic-agents/" method="get"
+      class="search-form" id="search-everything">
+
+    <div class="global-search-wrapper">
+        <div class="global-search mini">
+            <div class="field-button-wrapper">
+                <div class="search-cell search-field">
+                    <label for="main-search" class="sr-only">Search content at Erasmus University Rotterdam</label>
+                    <input id="main-search" class="search-field" value="" name="search"
+                           placeholder="Search..."/>
+                </div>
+
+                <div class="search-submit">
+                    <button type="submit" aria-label="Search">
+                        <i class="icon icon-magnifying-glass" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(function () {
+        var searchForm = $("#search-everything");
+        var searchField = $(".search-field", searchForm);
+        searchForm.on("submit", function () {
+            var field = searchField.find("input");
+            var searchString = field.val();
+
+            // No enter key submit nothing :-)
+            if (!searchString) return false;
+
+            if (searchString.length >= 200) {
+                searchForm.attr("method", "post");
+                searchForm.attr("action", "/en/concepts/copypaste/");
+                field.attr("name", "text");
+            }
+        });
+    });
+</script>
+            </div>
+        
+
+
+        
+        
+            <div class="subMenu">
+                <div class="secondary">
+                    <div class="container">
+                        <nav id="main-navigation" aria-label="Main navigation" class="content-navigation three-third">
+                            <ul data-value="More" role="menubar">
+                                <li class="" role="none">
+                                    <a href="/en/" role="menuitem" tabindex="-1">Home</a>
+                                </li>
+
+                                
+                                    <li class="selected" role="none">
+                                        <a class="portal_link" tabindex="0" role="menuitem" href="/en/publications/"><span>Research output</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/persons/"><span>Researchers</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/organisations/"><span>Research units</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/activities/"><span>Activities</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/prizes/"><span>Prizes</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/clippings/"><span>Press/Media</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/datasets/"><span>Datasets</span></a>
+                                    </li>
+                                
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+    <main id="page-content">
+        
+    <div class="page-section page-section-publications page-section-publications-view ">
+
+        
+        
+        
+        
+        <section
+                class="page-section-header page-section-header-publications page-section-header-publications-view
+                 no-backdrop-image"
+                data-stickyheader=""
+                style="">
+            
+            
+        
+
+
+<div class="container">
+    <div class="row">
+        <div class="introduction no-metrics">
+            <div class="rendering"><h1><span>Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM</span></h1></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatespersonsclassifiedportal rendering_contributiontojournal rendering_associatespersonsclassifiedportal rendering_contributiontojournal_associatespersonsclassifiedportal"><ul class="relations persons"><li>Rohan Khera<sup>*</sup></li><li>, Arya Aminorroaya</li><li>, Lovedeep Singh Dhingra</li><li>, Phyllis M. Thangaraj</li><li>, Aline Pedroso Camargos</li><li>, Fan Bu</li><li>, Xiyu Ding</li><li>, Akihiko Nishimura</li><li>, Tara V. Anand</li><li>, Faaizah Arshad</li><li>, <a rel="Person" href="https://pure.eur.nl/en/persons/clair-blacketer/" class="link person"><span>Clair Blacketer</span></a></li><li>, Yi Chai</li><li>, Shounak Chattopadhyay</li><li>, Michael Cook</li><li>, David A. Dorr</li><li>, <a rel="Person" href="https://pure.eur.nl/en/persons/talita-duarte-salles/" class="link person"><span>Talita Duarte-Salles</span></a></li><li>, Scott L. DuVall</li><li>, Thomas Falconer</li><li>, Tina E. French</li><li>, Elizabeth E. Hanchrow</li><span class="common_hidden publication_authors_full_inline_list">Guneet Kaur, Wallis C.Y. Lau, Jing Li, Kelly Li, Yuntian Liu, Yuan Lu, Kenneth K.C. Man, Michael E. Matheny, Nestoras Mathioudakis, Jody Ann McLeggon, Michael F. McLemore, Evan Minty, Daniel R. Morales, Paul Nagy, Anna Ostropolets, Andrea Pistillo, Thanh Phuc Phan, Nicole Pratt, Carlen Reyes, Lauren Richter, Joseph S. Ross, Elise Ruan, Sarah L. Seager, Katherine R. Simon, Benjamin Viernes, Jianxiao Yang, Can Yin, Seng Chan You, Jin J. Zhou, Patrick B. Ryan, <a rel="Person" href="https://pure.eur.nl/en/persons/martijn-schuemie/" class="link person"><span>Martijn J. Schuemie</span></a>, Harlan M. Krumholz, George Hripcsak, Marc A. Suchard<sup>*</sup></span><button aria-expanded="" class="author-link btn show" aria-label="Show all related authors" aria-pressed="" data-customdata="Author list shown, click to hide author list"><span>Show 34 more</span></button><button aria-expanded="" class="author-link btn hide" aria-label="Hide all related authors" aria-pressed="" data-customdata="Authors list hidden, click to show author list"><span>Show less</span></button></ul><div class="info-block"><div class="info"><sup>*</sup><span>Corresponding author for this work</span></div></div></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatesorganisationsportal rendering_contributiontojournal rendering_associatesorganisationsportal rendering_contributiontojournal_associatesorganisationsportal"><ul class="relations organisations"><li class="department"><a rel="Organisation" href="https://pure.eur.nl/en/organisations/medical-informatics-4/" class="link"><span>Medical Informatics</span></a></li></ul></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatesexternalorganisationsportal rendering_contributiontojournal rendering_associatesexternalorganisationsportal rendering_contributiontojournal_associatesexternalorganisationsportal"><ul class="relations organisations"><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Yale University</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Yale New Haven Health System</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>University of Michigan, Ann Arbor</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Johns Hopkins Bloomberg School of Public Health</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Columbia University</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>University of California at Los Angeles</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>The University of Hong Kong</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Oregon Health and Science University</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Department of Veterans Affairs</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>University of Utah School of Medicine</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>VA Medical Center</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Vanderbilt University School of Medicine</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>University of Dundee School of Medicine</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>University College London</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>University College London Hospitals NHS Foundation Trust</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Johns Hopkins University</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Cumming School of Medicine</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Johnson &amp; Johnson</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Fundació Institut Universitari per a la recerca a l’Atenció Primària de Salut Jordi Gol i Gurina (IDIAPJGol)</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Taipei Medical University</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>University of South Australia</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>IQVIA Inc.</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>David Geffen School of Medicine</span></a></li><li><a rel="UEOExternalOrganisation" href="#" class="link"><span>Yonsei University</span></a></li></ul></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationcontenttyperendererportalng rendering_contributiontojournal rendering_publicationcontenttyperendererportalng rendering_contributiontojournal_publicationcontenttyperendererportalng"><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>Academic</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="publication-metrics" role="region" aria-label="Publication metrics section">
+        
+            <div class="metrics-container">
+                
+                    <div class="metrics-wrap metrics-top ">
+                        
+                            <div class="metric scopus-citations">
+                                
+                                <span class="count">17</span>
+                                
+                                <span class="label">Citations
+(Scopus)</span>
+                            </div>
+                        
+                        
+                            <div class="metric metrics-downloads">
+                                <span class="count tooltipped tooltipped-n" aria-label="Total downloads for this work">22</span>
+                                <span class="label">Downloads
+(Pure)</span>
+                            </div>
+                        
+                    </div>
+                
+                
+                    <div class="metrics-wrap metrics-bottom ">
+                        
+                            <div class="metric metric-plum-x">
+                                <a href="https://plu.mx/plum/a/?doi=10.1016/j.jacc.2024.05.069" class="plumx-plum-print-popup" data-on-empty="plumXError" data-on-fail="plumXError" data-on-success="plumXSuccess" data-popup="left" data-hide-when-empty="true" data-site="plum"
+                                   data-badge="false"></a>
+                            </div>
+                        
+
+                        
+                            <div class="metric metric-altmetric">
+                                
+                                    <div data-badge-popover="top" data-badge-type="donut" data-doi="10.1016/j.jacc.2024.05.069" data-hide-no-mentions="true" data-link-target='_blank'
+                                         class="altmetric-embed"></div>
+                                
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        
+    </div>
+
+
+    </div>
+
+</div>
+<div class="subMenu">
+    <div class="content-profile-navigation">
+    <div class="container">
+        <nav role="navigation">
+            <ul role="menubar">
+                <li class="selected" role="none">
+                    <a class="portal_link" role="menuitem" href="/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/"><span>
+                        <i class="icon icon-publication" aria-hidden="true"></i>
+                        <span class="label">Overview</span>
+                    </span></a>
+                </li>
+                
+                    <li class="" role="none">
+                        <a class="portal_link" role="menuitem" href="/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/fingerprints/"><span>
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="label">Fingerprint</span>
+                        </span></a>
+                    </li>
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</div>
+
+    
+        </section>
+
+        <div id="main-content"
+             class="page-section-content page-section-content-publications page-section-content-publications-view   ">
+            
+        <section class="page-section content-relation-section">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="content-content publication-content">
+                        
+                        
+                            <h2 class="subheader">Abstract</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_abstractportal rendering_contributiontojournal rendering_abstractportal rendering_contributiontojournal_abstractportal"><div class="textblock"><p>Background: Sodium-glucose cotransporter 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1 RAs) reduce the risk of major adverse cardiovascular events (MACE) in patients with type 2 diabetes mellitus (T2DM). However, their effectiveness relative to each other and other second-line antihyperglycemic agents is unknown, without any major ongoing head-to-head clinical trials. Objectives: The aim of this study was to compare the cardiovascular effectiveness of SGLT2is, GLP-1 RAs, dipeptidyl peptidase-4 inhibitors (DPP4is), and clinical sulfonylureas (SUs) as second-line antihyperglycemic agents in T2DM. Methods: Across the LEGEND-T2DM (Large-Scale Evidence Generation and Evaluation Across a Network of Databases for Type 2 Diabetes Mellitus) network, 10 federated international data sources were included, spanning 1992 to 2021. In total, 1,492,855 patients with T2DM and cardiovascular disease (CVD) on metformin monotherapy were identified who initiated 1 of 4 second-line agents (SGLT2is, GLP-1 RAs, DPP4is, or SUs). Large-scale propensity score models were used to conduct an active-comparator target trial emulation for pairwise comparisons. After evaluating empirical equipoise and population generalizability, on-treatment Cox proportional hazards models were fit for 3-point MACE (myocardial infarction, stroke, and death) and 4-point MACE (3-point MACE plus heart failure hospitalization) risk and HR estimates were combined using random-effects meta-analysis. Results: Over 5.2 million patient-years of follow-up and 489 million patient-days of time at risk, patients experienced 25,982 3-point MACE and 41,447 4-point MACE. SGLT2is and GLP-1 RAs were associated with lower 3-point MACE risk than DPP4is (HR: 0.89 [95% CI: 0.79-1.00] and 0.83 [95% CI: 0.70-0.98]) and SUs (HR: 0.76 [95% CI: 0.65-0.89] and 0.72 [95% CI: 0.58-0.88]). DPP4is were associated with lower 3-point MACE risk than SUs (HR: 0.87; 95% CI: 0.79-0.95). The pattern for 3-point MACE was also observed for the 4-point MACE outcome. There were no significant differences between SGLT2is and GLP-1 RAs for 3-point or 4-point MACE (HR: 1.06 [95% CI: 0.96-1.17] and 1.05 [95% CI: 0.97-1.13]). Conclusions: In patients with T2DM and CVD, comparable cardiovascular risk reduction was found with SGLT2is and GLP-1 RAs, with both agents more effective than DPP4is, which in turn were more effective than SUs. These findings suggest that the use of SGLT2is and GLP-1 RAs should be prioritized as second-line agents in those with established CVD.</p></div></div>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_detailsportal rendering_contributiontojournal rendering_detailsportal rendering_contributiontojournal_detailsportal"><div class="article"><table class="properties"><tbody><tr class="language"><th scope="row">Original language</th><td>English</td></tr><tr><th scope="row">Pages (from-to)</th><td>904-917</td></tr><tr class="numberofpages"><th scope="row">Number of pages</th><td>14</td></tr><tr><th scope="row">Journal</th><td><a rel="Journal" href="#" class="link"><span>Journal of the American College of Cardiology</span></a></td></tr><tr><th scope="row">Volume</th><td>84</td></tr><tr><th scope="row">Issue number</th><td>10</td></tr><tr class="digital_object_identifiers"><th scope="row">DOIs</th><td><ul class="relations digital_object_identifiers"><li><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.jacc.2024.05.069" class="link"><span>https://doi.org/10.1016/j.jacc.2024.05.069</span></a> </li></ul></td></tr><tr class="status"><th scope="row">Publication status</th><td><span class="prefix">Published - </span><span class="date">3 Sept 2024</span></td></tr></tbody></table></div></div>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationbibliographicalnoteportalrenderer rendering_contributiontojournal rendering_publicationbibliographicalnoteportalrenderer rendering_contributiontojournal_publicationbibliographicalnoteportalrenderer"><h3 class="subheader">Bibliographical note</h3>Publisher Copyright:<br />© 2024 American College of Cardiology Foundation</div>
+
+                        
+
+                        
+    <div class="sdgs-content-page">
+        <h2 id="sdg-title" class="subheader">UN SDGs</h2>
+        <p class="sdg-text">This output contributes to the following UN <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/" target="_blank">Sustainable Development Goals (SDGs)</a></p>
+        <ol class="sdg_icons" aria-labelledby="sdg-title">
+            
+                <li class="content-page">
+                    
+                    <img alt="SDG 3 - Good Health and Well-being" title="SDG 3 - Good Health and Well-being" class="good_health_and_well_being"
+                         src="/assets/sdg_icons/good_health_and_well_being-9e564c34dfe97e37b42d22a76cae8ae4.svg"
+                         role="presentation"/>
+                    <div class="sdg-name">
+                        <span>SDG 3</span>
+                        <span>Good Health and Well-being</span>
+                    </div>
+                </li>
+            
+        </ol>
+    </div>
+
+
+                        
+
+                    </div>
+
+                    <div class="content-sidebar publication-sidebar">
+                        
+                            <h2 class="subheader">Access to Document</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationaccessrenderer rendering_contributiontojournal rendering_publicationaccessrenderer rendering_contributiontojournal_publicationaccessrenderer"><ul class="dois"><li class="open-access"><div class="doi"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.jacc.2024.05.069" class="link"><span>10.1016/j.jacc.2024.05.069</span></a></div></li></ul><ul class="documents"><li class="open-access"><div class="document"><a onclick="if (this.href) {window.open(this.href)}; return false;" href="/files/165049246/1-s2.0-S0735109724077799-main.pdf" class="link document-link"><span>1-s2.0-S0735109724077799-main</span></a><span class="meta">Final published version, 907 KB</span><span class="meta">Licence: <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://www.eur.nl/en/library/media/2024-12-researchoutputsundertaverne-backgroundandtermsofusev2" class="link">Article 25fa Dutch Copyright Act</a></span></div></li></ul></div>
+
+                        
+
+                        
+
+                        
+                            <h2 class="subheader">Other files and links</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationotherfilesandlinksrenderer rendering_contributiontojournal rendering_publicationotherfilesandlinksrenderer rendering_contributiontojournal_publicationotherfilesandlinksrenderer"><ul class="links"><li><div class="link"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://www.scopus.com/pages/publications/85201274487" class="link"><span>Link to publication in Scopus</span></a></div></li></ul></div>
+
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_versioneddocumentspureportal rendering_contributiontojournal rendering_versioneddocumentspureportal rendering_contributiontojournal_versioneddocumentspureportal"><ul class="relations documents"></ul></div>
+
+                        
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <section class="page-section content-relation-section publication-fingerprint">
+                <div class="container">
+                    <div class="header">
+                        <h2 class="section-title">
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="title">Fingerprint</span>
+                        </h2>
+                        <span class="sub-title">
+                            Dive into the research topics of 'Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM'. Together they form a unique fingerprint.
+                        </span>
+                    </div>
+
+                    <ul class="publication-top-concepts" role="menubar"  aria-label="Related fingerprints">
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="90e60adf-f0c4-496d-a845-b483355897ec"
+            data-concept-uuid="90e60adf-f0c4-496d-a845-b483355897ec"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Cardiovascular Disease</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="72019989-c4fd-48f2-b86b-436fe8c55f1f"
+            data-concept-uuid="72019989-c4fd-48f2-b86b-436fe8c55f1f"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Maturity Onset Diabetes of the Young</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="a5937fac-e882-4753-a5cc-7234185786ab"
+            data-concept-uuid="a5937fac-e882-4753-a5cc-7234185786ab"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Cardiovascular System</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="da1a7e94-a136-45fa-ae85-d7c6326dcd8d"
+            data-concept-uuid="da1a7e94-a136-45fa-ae85-d7c6326dcd8d"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Non Insulin Dependent Diabetes Mellitus</span>
+            <span class="thesauri">Pharmacology, Toxicology and Pharmaceutical Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="69b0719a-6aff-4a7f-971c-38cb6f25eb8c"
+            data-concept-uuid="69b0719a-6aff-4a7f-971c-38cb6f25eb8c"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.5"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="50%">
+            <span class="rank"></span>
+            <span class="concept">Glucagon-Like Peptide-1 Agonist</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">50%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="50149f9a-c6a0-453f-bd0f-66aa0f76b794"
+            data-concept-uuid="50149f9a-c6a0-453f-bd0f-66aa0f76b794"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.5"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="50%">
+            <span class="rank"></span>
+            <span class="concept">Sodium Glucose Cotransporter 2 Inhibitor</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">50%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="ce0b6d42-cf91-44e3-b449-8f68403ccebf"
+            data-concept-uuid="ce0b6d42-cf91-44e3-b449-8f68403ccebf"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.5"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="50%">
+            <span class="rank"></span>
+            <span class="concept">Glucagon Like Peptide 1 Receptor Agonist</span>
+            <span class="thesauri">Pharmacology, Toxicology and Pharmaceutical Science</span>
+            <span class="value sr-only">50%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="9b033d07-db2b-415b-b42d-2e4d34072f63"
+            data-concept-uuid="9b033d07-db2b-415b-b42d-2e4d34072f63"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.3571429"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="35%">
+            <span class="rank"></span>
+            <span class="concept">Dipeptidyl Peptidase-4 Inhibitor</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">35%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                    </ul>
+                    <div class="footer">
+                        <div class="view-all align-center">
+                            <a class="portal_link btn-primary btn-large" href="/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/fingerprints/"><span>
+                                View full fingerprint
+                                <i class="icon icon-right-open-mini" aria-hidden="true"></i>
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        <section class="page-section cite">
+            <div class="container">
+                <section class="publication-cite" aria-labelledby="publications-cite-title">
+    <h2 class="subheader" id="publications-cite-title">Cite this</h2>
+    <ul class="tabs" role="tablist" aria-label="Cite this">
+        
+            <li class="selected" role="tab" id="tab-0" aria-controls="cite-apa" tabindex="-1"  aria-selected="false" >
+                APA
+            </li>
+        
+            <li class="" role="tab" id="tab-1" aria-controls="cite-author" tabindex="-1"  aria-selected="false" >
+                Author
+            </li>
+        
+            <li class="" role="tab" id="tab-2" aria-controls="cite-BIBTEX" tabindex="-1"  aria-selected="false" >
+                BIBTEX
+            </li>
+        
+            <li class="" role="tab" id="tab-3" aria-controls="cite-harvard" tabindex="-1"  aria-selected="false" >
+                Harvard
+            </li>
+        
+            <li class="" role="tab" id="tab-4" aria-controls="cite-standard" tabindex="-1"  aria-selected="false" >
+                Standard
+            </li>
+        
+            <li class="" role="tab" id="tab-5" aria-controls="cite-RIS" tabindex="-1"  aria-selected="false" >
+                RIS
+            </li>
+        
+            <li class="" role="tab" id="tab-6" aria-controls="cite-vancouver" tabindex="-1"  aria-selected="false" >
+                Vancouver
+            </li>
+        
+    </ul>
+    <div class="tab-container">
+        
+            <div id="cite-apa" class="tab selected" role="tabpanel" aria-labelledby="tab-0" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_apa rendering_contributiontojournal rendering_apa rendering_contributiontojournal_apa">Khera, R., Aminorroaya, A., Dhingra, L. S., Thangaraj, P. M., Pedroso Camargos, A., Bu, F., Ding, X., Nishimura, A., Anand, T. V., Arshad, F.<a rel="Person" href="https://pure.eur.nl/en/persons/clair-blacketer/" class="link"><span>, Blacketer, C.</span></a>, Chai, Y., Chattopadhyay, S., Cook, M., Dorr, D. A.<a rel="Person" href="https://pure.eur.nl/en/persons/talita-duarte-salles/" class="link"><span>, Duarte-Salles, T.</span></a>, DuVall, S. L., Falconer, T., French, T. E., ... Suchard, M. A. (2024). <a rel="ContributionToJournal" href="https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/" class="link"><span>Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM</span></a>. <a rel="Journal" href="#" class="link"><span><em>Journal of the American College of Cardiology</em></span></a>, <em>84</em>(10), 904-917. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.jacc.2024.05.069" class="link"><span>https://doi.org/10.1016/j.jacc.2024.05.069</span></a></div>
+            </div>
+        
+            <div id="cite-author" class="tab " role="tabpanel" aria-labelledby="tab-1" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_author rendering_contributiontojournal rendering_author rendering_contributiontojournal_author">Khera, Rohan ; Aminorroaya, Arya ; Dhingra, Lovedeep Singh et al. / <a rel="ContributionToJournal" href="https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/" class="link"><span><strong>Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes : A Multinational, Federated Analysis of LEGEND-T2DM</strong></span></a>. In: <a rel="Journal" href="#" class="link"><span>Journal of the American College of Cardiology</span></a>. 2024 ; Vol. 84, No. 10. pp. 904-917.</div>
+            </div>
+        
+            <div id="cite-BIBTEX" class="tab " role="tabpanel" aria-labelledby="tab-2" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_bibtex rendering_contributiontojournal rendering_bibtex rendering_contributiontojournal_bibtex"><div>@article{77a6920d84c940e880bee933ddd14fc8,</div><div>  title     = "Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM",</div><div>  abstract  = "Background: Sodium-glucose cotransporter 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1 RAs) reduce the risk of major adverse cardiovascular events (MACE) in patients with type 2 diabetes mellitus (T2DM). However, their effectiveness relative to each other and other second-line antihyperglycemic agents is unknown, without any major ongoing head-to-head clinical trials. Objectives: The aim of this study was to compare the cardiovascular effectiveness of SGLT2is, GLP-1 RAs, dipeptidyl peptidase-4 inhibitors (DPP4is), and clinical sulfonylureas (SUs) as second-line antihyperglycemic agents in T2DM. Methods: Across the LEGEND-T2DM (Large-Scale Evidence Generation and Evaluation Across a Network of Databases for Type 2 Diabetes Mellitus) network, 10 federated international data sources were included, spanning 1992 to 2021. In total, 1,492,855 patients with T2DM and cardiovascular disease (CVD) on metformin monotherapy were identified who initiated 1 of 4 second-line agents (SGLT2is, GLP-1 RAs, DPP4is, or SUs). Large-scale propensity score models were used to conduct an active-comparator target trial emulation for pairwise comparisons. After evaluating empirical equipoise and population generalizability, on-treatment Cox proportional hazards models were fit for 3-point MACE (myocardial infarction, stroke, and death) and 4-point MACE (3-point MACE plus heart failure hospitalization) risk and HR estimates were combined using random-effects meta-analysis. Results: Over 5.2 million patient-years of follow-up and 489 million patient-days of time at risk, patients experienced 25,982 3-point MACE and 41,447 4-point MACE. SGLT2is and GLP-1 RAs were associated with lower 3-point MACE risk than DPP4is (HR: 0.89 [95\% CI: 0.79-1.00] and 0.83 [95\% CI: 0.70-0.98]) and SUs (HR: 0.76 [95\% CI: 0.65-0.89] and 0.72 [95\% CI: 0.58-0.88]). DPP4is were associated with lower 3-point MACE risk than SUs (HR: 0.87; 95\% CI: 0.79-0.95). The pattern for 3-point MACE was also observed for the 4-point MACE outcome. There were no significant differences between SGLT2is and GLP-1 RAs for 3-point or 4-point MACE (HR: 1.06 [95\% CI: 0.96-1.17] and 1.05 [95\% CI: 0.97-1.13]). Conclusions: In patients with T2DM and CVD, comparable cardiovascular risk reduction was found with SGLT2is and GLP-1 RAs, with both agents more effective than DPP4is, which in turn were more effective than SUs. These findings suggest that the use of SGLT2is and GLP-1 RAs should be prioritized as second-line agents in those with established CVD.",</div><div>  author    = "Rohan Khera and Arya Aminorroaya and Dhingra, \{Lovedeep Singh\} and Thangaraj, \{Phyllis M.\} and \{Pedroso Camargos\}, Aline and Fan Bu and Xiyu Ding and Akihiko Nishimura and Anand, \{Tara V.\} and Faaizah Arshad and Clair Blacketer and Yi Chai and Shounak Chattopadhyay and Michael Cook and Dorr, \{David A.\} and Talita Duarte-Salles and DuVall, \{Scott L.\} and Thomas Falconer and French, \{Tina E.\} and Hanchrow, \{Elizabeth E.\} and Guneet Kaur and Lau, \{Wallis C.Y.\} and Jing Li and Kelly Li and Yuntian Liu and Yuan Lu and Man, \{Kenneth K.C.\} and Matheny, \{Michael E.\} and Nestoras Mathioudakis and McLeggon, \{Jody Ann\} and McLemore, \{Michael F.\} and Evan Minty and Morales, \{Daniel R.\} and Paul Nagy and Anna Ostropolets and Andrea Pistillo and Phan, \{Thanh Phuc\} and Nicole Pratt and Carlen Reyes and Lauren Richter and Ross, \{Joseph S.\} and Elise Ruan and Seager, \{Sarah L.\} and Simon, \{Katherine R.\} and Benjamin Viernes and Jianxiao Yang and Can Yin and You, \{Seng Chan\} and Zhou, \{Jin J.\} and Ryan, \{Patrick B.\} and Schuemie, \{Martijn J.\} and Krumholz, \{Harlan M.\} and George Hripcsak and Suchard, \{Marc A.\}",</div><div>  note      = "Publisher Copyright: {\textcopyright} 2024 American College of Cardiology Foundation",</div><div>  year      = "2024",</div><div>  month     = sep,</div><div>  day       = "3",</div><div>  doi       = "10.1016/j.jacc.2024.05.069",</div><div>  language  = "English",</div><div>  volume    = "84",</div><div>  pages     = "904--917",</div><div>  journal   = "Journal of the American College of Cardiology",</div><div>  issn      = "0735-1097",</div><div>  publisher = "Elsevier Inc.",</div><div>  number    = "10",</div><p>}</p></div>
+            </div>
+        
+            <div id="cite-harvard" class="tab " role="tabpanel" aria-labelledby="tab-3" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_harvard rendering_contributiontojournal rendering_harvard rendering_contributiontojournal_harvard">Khera, R, Aminorroaya, A, Dhingra, LS, Thangaraj, PM, Pedroso Camargos, A, Bu, F, Ding, X, Nishimura, A, Anand, TV, Arshad, F<a rel="Person" href="https://pure.eur.nl/en/persons/clair-blacketer/" class="link"><span>, Blacketer, C</span></a>, Chai, Y, Chattopadhyay, S, Cook, M, Dorr, DA<a rel="Person" href="https://pure.eur.nl/en/persons/talita-duarte-salles/" class="link"><span>, Duarte-Salles, T</span></a>, DuVall, SL, Falconer, T, French, TE, Hanchrow, EE, Kaur, G, Lau, WCY, Li, J, Li, K, Liu, Y, Lu, Y, Man, KKC, Matheny, ME, Mathioudakis, N, McLeggon, JA, McLemore, MF, Minty, E, Morales, DR, Nagy, P, Ostropolets, A, Pistillo, A, Phan, TP, Pratt, N, Reyes, C, Richter, L, Ross, JS, Ruan, E, Seager, SL, Simon, KR, Viernes, B, Yang, J, Yin, C, You, SC, Zhou, JJ, Ryan, PB<a rel="Person" href="https://pure.eur.nl/en/persons/martijn-schuemie/" class="link"><span>, Schuemie, MJ</span></a>, Krumholz, HM, Hripcsak, G &amp; Suchard, MA 2024, '<a rel="ContributionToJournal" href="https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/" class="link harvard_title"><span>Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM</span></a>', <a rel="Journal" href="#" class="link"><span><em>Journal of the American College of Cardiology</em></span></a>, vol. 84, no. 10, pp. 904-917. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1016/j.jacc.2024.05.069" class="link"><span>https://doi.org/10.1016/j.jacc.2024.05.069</span></a></div>
+            </div>
+        
+            <div id="cite-standard" class="tab " role="tabpanel" aria-labelledby="tab-4" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_standard rendering_contributiontojournal rendering_standard rendering_contributiontojournal_standard"><a rel="ContributionToJournal" href="https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/" class="link"><span><strong>Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM.</strong></span></a> / Khera, Rohan; Aminorroaya, Arya; Dhingra, Lovedeep Singh et al. <br />In: <a rel="Journal" href="#" class="link"><span>Journal of the American College of Cardiology</span></a>, Vol. 84, No. 10, 03.09.2024, p. 904-917.<p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>Academic</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+            </div>
+        
+            <div id="cite-RIS" class="tab " role="tabpanel" aria-labelledby="tab-5" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_ris rendering_contributiontojournal rendering_ris rendering_contributiontojournal_ris"><p>TY  - JOUR</p><p>T1  - Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes</p><p>T2  - A Multinational, Federated Analysis of LEGEND-T2DM</p><p>AU  - Khera, Rohan</p><p>AU  - Aminorroaya, Arya</p><p>AU  - Dhingra, Lovedeep Singh</p><p>AU  - Thangaraj, Phyllis M.</p><p>AU  - Pedroso Camargos, Aline</p><p>AU  - Bu, Fan</p><p>AU  - Ding, Xiyu</p><p>AU  - Nishimura, Akihiko</p><p>AU  - Anand, Tara V.</p><p>AU  - Arshad, Faaizah</p><p>AU  - Blacketer, Clair</p><p>AU  - Chai, Yi</p><p>AU  - Chattopadhyay, Shounak</p><p>AU  - Cook, Michael</p><p>AU  - Dorr, David A.</p><p>AU  - Duarte-Salles, Talita</p><p>AU  - DuVall, Scott L.</p><p>AU  - Falconer, Thomas</p><p>AU  - French, Tina E.</p><p>AU  - Hanchrow, Elizabeth E.</p><p>AU  - Kaur, Guneet</p><p>AU  - Lau, Wallis C.Y.</p><p>AU  - Li, Jing</p><p>AU  - Li, Kelly</p><p>AU  - Liu, Yuntian</p><p>AU  - Lu, Yuan</p><p>AU  - Man, Kenneth K.C.</p><p>AU  - Matheny, Michael E.</p><p>AU  - Mathioudakis, Nestoras</p><p>AU  - McLeggon, Jody Ann</p><p>AU  - McLemore, Michael F.</p><p>AU  - Minty, Evan</p><p>AU  - Morales, Daniel R.</p><p>AU  - Nagy, Paul</p><p>AU  - Ostropolets, Anna</p><p>AU  - Pistillo, Andrea</p><p>AU  - Phan, Thanh Phuc</p><p>AU  - Pratt, Nicole</p><p>AU  - Reyes, Carlen</p><p>AU  - Richter, Lauren</p><p>AU  - Ross, Joseph S.</p><p>AU  - Ruan, Elise</p><p>AU  - Seager, Sarah L.</p><p>AU  - Simon, Katherine R.</p><p>AU  - Viernes, Benjamin</p><p>AU  - Yang, Jianxiao</p><p>AU  - Yin, Can</p><p>AU  - You, Seng Chan</p><p>AU  - Zhou, Jin J.</p><p>AU  - Ryan, Patrick B.</p><p>AU  - Schuemie, Martijn J.</p><p>AU  - Krumholz, Harlan M.</p><p>AU  - Hripcsak, George</p><p>AU  - Suchard, Marc A.</p><p>N1  - Publisher Copyright:
+© 2024 American College of Cardiology Foundation</p><p>PY  - 2024/9/3</p><p>Y1  - 2024/9/3</p><p>N2  - Background: Sodium-glucose cotransporter 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1 RAs) reduce the risk of major adverse cardiovascular events (MACE) in patients with type 2 diabetes mellitus (T2DM). However, their effectiveness relative to each other and other second-line antihyperglycemic agents is unknown, without any major ongoing head-to-head clinical trials. Objectives: The aim of this study was to compare the cardiovascular effectiveness of SGLT2is, GLP-1 RAs, dipeptidyl peptidase-4 inhibitors (DPP4is), and clinical sulfonylureas (SUs) as second-line antihyperglycemic agents in T2DM. Methods: Across the LEGEND-T2DM (Large-Scale Evidence Generation and Evaluation Across a Network of Databases for Type 2 Diabetes Mellitus) network, 10 federated international data sources were included, spanning 1992 to 2021. In total, 1,492,855 patients with T2DM and cardiovascular disease (CVD) on metformin monotherapy were identified who initiated 1 of 4 second-line agents (SGLT2is, GLP-1 RAs, DPP4is, or SUs). Large-scale propensity score models were used to conduct an active-comparator target trial emulation for pairwise comparisons. After evaluating empirical equipoise and population generalizability, on-treatment Cox proportional hazards models were fit for 3-point MACE (myocardial infarction, stroke, and death) and 4-point MACE (3-point MACE plus heart failure hospitalization) risk and HR estimates were combined using random-effects meta-analysis. Results: Over 5.2 million patient-years of follow-up and 489 million patient-days of time at risk, patients experienced 25,982 3-point MACE and 41,447 4-point MACE. SGLT2is and GLP-1 RAs were associated with lower 3-point MACE risk than DPP4is (HR: 0.89 [95% CI: 0.79-1.00] and 0.83 [95% CI: 0.70-0.98]) and SUs (HR: 0.76 [95% CI: 0.65-0.89] and 0.72 [95% CI: 0.58-0.88]). DPP4is were associated with lower 3-point MACE risk than SUs (HR: 0.87; 95% CI: 0.79-0.95). The pattern for 3-point MACE was also observed for the 4-point MACE outcome. There were no significant differences between SGLT2is and GLP-1 RAs for 3-point or 4-point MACE (HR: 1.06 [95% CI: 0.96-1.17] and 1.05 [95% CI: 0.97-1.13]). Conclusions: In patients with T2DM and CVD, comparable cardiovascular risk reduction was found with SGLT2is and GLP-1 RAs, with both agents more effective than DPP4is, which in turn were more effective than SUs. These findings suggest that the use of SGLT2is and GLP-1 RAs should be prioritized as second-line agents in those with established CVD.</p><p>AB  - Background: Sodium-glucose cotransporter 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor agonists (GLP-1 RAs) reduce the risk of major adverse cardiovascular events (MACE) in patients with type 2 diabetes mellitus (T2DM). However, their effectiveness relative to each other and other second-line antihyperglycemic agents is unknown, without any major ongoing head-to-head clinical trials. Objectives: The aim of this study was to compare the cardiovascular effectiveness of SGLT2is, GLP-1 RAs, dipeptidyl peptidase-4 inhibitors (DPP4is), and clinical sulfonylureas (SUs) as second-line antihyperglycemic agents in T2DM. Methods: Across the LEGEND-T2DM (Large-Scale Evidence Generation and Evaluation Across a Network of Databases for Type 2 Diabetes Mellitus) network, 10 federated international data sources were included, spanning 1992 to 2021. In total, 1,492,855 patients with T2DM and cardiovascular disease (CVD) on metformin monotherapy were identified who initiated 1 of 4 second-line agents (SGLT2is, GLP-1 RAs, DPP4is, or SUs). Large-scale propensity score models were used to conduct an active-comparator target trial emulation for pairwise comparisons. After evaluating empirical equipoise and population generalizability, on-treatment Cox proportional hazards models were fit for 3-point MACE (myocardial infarction, stroke, and death) and 4-point MACE (3-point MACE plus heart failure hospitalization) risk and HR estimates were combined using random-effects meta-analysis. Results: Over 5.2 million patient-years of follow-up and 489 million patient-days of time at risk, patients experienced 25,982 3-point MACE and 41,447 4-point MACE. SGLT2is and GLP-1 RAs were associated with lower 3-point MACE risk than DPP4is (HR: 0.89 [95% CI: 0.79-1.00] and 0.83 [95% CI: 0.70-0.98]) and SUs (HR: 0.76 [95% CI: 0.65-0.89] and 0.72 [95% CI: 0.58-0.88]). DPP4is were associated with lower 3-point MACE risk than SUs (HR: 0.87; 95% CI: 0.79-0.95). The pattern for 3-point MACE was also observed for the 4-point MACE outcome. There were no significant differences between SGLT2is and GLP-1 RAs for 3-point or 4-point MACE (HR: 1.06 [95% CI: 0.96-1.17] and 1.05 [95% CI: 0.97-1.13]). Conclusions: In patients with T2DM and CVD, comparable cardiovascular risk reduction was found with SGLT2is and GLP-1 RAs, with both agents more effective than DPP4is, which in turn were more effective than SUs. These findings suggest that the use of SGLT2is and GLP-1 RAs should be prioritized as second-line agents in those with established CVD.</p><p>UR  - https://www.scopus.com/pages/publications/85201274487</p><p>U2  - 10.1016/j.jacc.2024.05.069</p><p>DO  - 10.1016/j.jacc.2024.05.069</p><p>M3  - Article</p><p>C2  - 39197980</p><p>AN  - SCOPUS:85201274487</p><p>SN  - 0735-1097</p><p>VL  - 84</p><p>SP  - 904</p><p>EP  - 917</p><p>JO  - Journal of the American College of Cardiology</p><p>JF  - Journal of the American College of Cardiology</p><p>IS  - 10</p><p>ER  - </p></div>
+            </div>
+        
+            <div id="cite-vancouver" class="tab " role="tabpanel" aria-labelledby="tab-6" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_vancouver rendering_contributiontojournal rendering_vancouver rendering_contributiontojournal_vancouver">Khera R, Aminorroaya A, Dhingra LS, Thangaraj PM, Pedroso Camargos A, Bu F et al. <span class="title"><a rel="ContributionToJournal" href="https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/" class="link"><span>Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: <span class="subtitle">A Multinational, Federated Analysis of LEGEND-T2DM</span></span></a></span>. <a rel="Journal" href="#" class="link"><span>Journal of the American College of Cardiology</span></a>. 2024 Sept 3;84(10):904-917. doi: 10.1016/j.jacc.2024.05.069</div>
+            </div>
+        
+
+        <script>
+            $(function() {
+                $(".tab-container .rendering a:not([href^='http://dx.doi.org'])").contents().unwrap();
+            });
+        </script>
+    </div>
+</section>
+
+            </div>
+        </section>
+        <script>
+    $(function () {
+        if($('.publication-sidebar').length > 0){
+            if($('a.document-link').length === 0){
+                $(".metrics-top").addClass("one");
+                $('div.metrics-downloads').remove();
+            }
+        }
+    });
+
+    function plumXError(e) {
+        $(e).closest('.metric-plum-x').closest('.metrics-bottom').addClass('one');
+        $(e).closest('.metric-plum-x').remove();
+    }
+    $('div.altmetric-embed').on('altmetric:hide', function () {
+        $(this).closest('.metric-altmetric').closest('.metrics-bottom').addClass('one');
+        $(this).closest('.metric-altmetric').remove();
+    });
+</script>
+        
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+        
+        
+        
+    
+
+    <div class="share-box">
+        <ul>
+            <li class="icon-share"></li>
+            <li><a aria-label="Share on Facebook"
+                   href="https://www.facebook.com/sharer.php?u=https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.jacc.2024.05.069&p[summary]=Check+out+this+research+output+at+Erasmus+University+Rotterdam%3A+Comparative+Effectiveness+of+Second-Line+Antihyperglycemic+Agents+for+Cardiovascular+Outcomes%3A+A+Multinational%2C+Federated+Analysis+of+LEGEND-T2DM"
+                   class="icon-facebook"
+                   onclick="window.location.origin('https://www.facebook.com/sharer.php?u=https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.jacc.2024.05.069&p[summary]=Check+out+this+research+output+at+Erasmus+University+Rotterdam%3A+Comparative+Effectiveness+of+Second-Line+Antihyperglycemic+Agents+for+Cardiovascular+Outcomes%3A+A+Multinational%2C+Federated+Analysis+of+LEGEND-T2DM', 'Facebook', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" target="popup"></a></li>
+            <li><a aria-label="Share on Twitter"
+                   href="https://twitter.com/intent/tweet?url=https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.jacc.2024.05.069&text=Check+out+this+research+output+at+Erasmus+University+Rotterdam%3A+Comparative+Effectiveness+of+Second-Line+Antihyperglycemic+Agents+for+Cardiovascular+Outcomes%3A+A+Multinational%2C+Federated+Analysis+of+LEGEND-T2DM"
+                   onclick="window.location.origin('https://twitter.com/intent/tweet?url=https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.jacc.2024.05.069&text=Check+out+this+research+output+at+Erasmus+University+Rotterdam%3A+Comparative+Effectiveness+of+Second-Line+Antihyperglycemic+Agents+for+Cardiovascular+Outcomes%3A+A+Multinational%2C+Federated+Analysis+of+LEGEND-T2DM doi%3A10.1016%2Fj.jacc.2024.05.069', 'Twitter', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="twitter" target="popup"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 300 271">
+                    
+                    <path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z"></path>
+                </svg></a></li>
+            <li><a aria-label="Share on LinkedIn"
+                   href="https://www.linkedin.com/shareArticle?mini=true&url=https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.jacc.2024.05.069&summary=Check+out+this+research+output+at+Erasmus+University+Rotterdam%3A+Comparative+Effectiveness+of+Second-Line+Antihyperglycemic+Agents+for+Cardiovascular+Outcomes%3A+A+Multinational%2C+Federated+Analysis+of+LEGEND-T2DM"
+                   onclick="window.location.origin('https://www.linkedin.com/shareArticle?mini=true&url=https://pure.eur.nl/en/publications/comparative-effectiveness-of-second-line-antihyperglycemic-agents/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1016%2Fj.jacc.2024.05.069&summary=Check+out+this+research+output+at+Erasmus+University+Rotterdam%3A+Comparative+Effectiveness+of+Second-Line+Antihyperglycemic+Agents+for+Cardiovascular+Outcomes%3A+A+Multinational%2C+Federated+Analysis+of+LEGEND-T2DM doi%3A10.1016%2Fj.jacc.2024.05.069', 'LinkedIn', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="icon-linkedin" target="popup"></a></li>
+            <li><a aria-label="Share by email" href="/cdn-cgi/l/email-protection#112e6264737b7472652c527e7c61706370657867743423215477777472657867747f7462623423217e773423214274727e7f753c5d787f74342321507f65787968617463767d6872747c78723423215076747f6562342321777e6334232152706375787e67706272647d70633423215e6465727e7c7462342250342321503423215c647d65787f7065787e7f707d342352342321577475746370657475342321507f707d686278623423217e773423215d5456545f553c4523555c37737e75682c527974727a3423217e64653423216579786234232163746274706372793423217e64656164653423217065342321546370627c6462342321447f7867746362786568342321437e6565746375707c342250342321527e7c61706370657867743423215477777472657867747f7462623423217e773423214274727e7f753c5d787f74342321507f65787968617463767d6872747c78723423215076747f6562342321777e6334232152706375787e67706272647d70633423215e6465727e7c7462342250342321503423215c647d65787f7065787e7f707d342352342321577475746370657475342321507f707d686278623423217e773423215d5456545f553c4523555c316d3179656561622b3e3e616463743f7464633f7f7d3e747f3e6164737d78727065787e7f623e727e7c61706370657867743c7477777472657867747f7462623c7e773c6274727e7f753c7d787f743c707f65787968617463767d6872747c78723c7076747f65623e2e64657c4e627e646372742c747c70787d37707c612a64657c4e7c747578647c2c747c70787d37707c612a64657c4e72707c617078767f2c62797063747d787f7a" class="icon-email"></a></li>
+        </ul>
+    </div>
+
+
+
+
+    
+        </div>
+    </div>
+
+    <div id="new-modal-overlay"></div>
+    
+    </main>
+
+    <footer id="page-footer" class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="content-navigation three-third">
+                    <div dir="ltr" class="footer-columns">
+                        
+                            <div class="footer-column">
+                                <div class="footer-icon">
+                                    <img src="/skin/footerIcon/" alt="Erasmus University Rotterdam Logo"/>
+                                </div>
+                            </div>
+                        
+                        <div class="footer-column">
+                            <p>
+                                Powered by <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure" target="_blank">Pure <span class="sr-only">Link opens in a new tab</span></a>, <a href="http://www.scopus.com/" target="_blank">Scopus <span class="sr-only">Link opens in a new tab</span></a> & <a href="https://www.elsevier.com/products/elsevier-fingerprint-engine" target="_blank">Elsevier Fingerprint Engine&trade; <span class="sr-only">Link opens in a new tab</span></a> 
+                            </p>
+
+                            <p>
+                                All content on this site: Copyright &copy; 2026 Erasmus University Rotterdam, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+                            </p>
+
+                            <p>We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the <a href="/en/about/cookies/">use of cookies</a></p>
+                            <p><button id="ot-sdk-btn" class="ot-sdk-show-settings"></button></p>
+                            
+                                <p><a href="https://pure.eur.nl/admin/workspace.xhtml" rel="nofollow" target="_blank">Log in to Pure <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            <p></p>
+                        </div>
+
+                        <div class="footer-column">
+                            
+                                <p><a href="https://my.eur.nl/en/eur-employee/work-support/privacy" target="_blank">Erasmus University Rotterdam data protection policy <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            
+                            
+                                <p><a href="/en/web-accessibility/" rel="nofollow" target="_blank">About web accessibility <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                <a href="https://elsevier.responsibledisclosure.com/hc/en-us/requests/new" target="_blank" rel="nofollow">Report vulnerability <span class="sr-only">&nbsp; Link opens in a new tab</span></a>
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top">
+            <a href="#" class="back-to-top" aria-label="Go to top"><i class="icon icon-up-open"></i></a>
+        </div>
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+    
+
+    
+
+
+<script>window.appData = window.appData || [];</script><script type="text/javascript">
+try {(function() {
+appData.push({...{"page":{"businessUnit":"ELS:RP:ST","cmsName":"Pure Portal","environment":"prod","language":"en","loadTime":"329","loadTimestamp":"1775524914818","name":"pure portal:publications:view","noTracking":"false","productName":"PR","type":"CP-CA"},"visitor":{"accountId":"","accountName":"pr:EUR EMC","ipAddress":"","accessType":"pr:ANON_GUEST","loginStatus":"anonymous"},"content":[{"id":"77a6920d-84c9-40e8-80be-e933ddd14fc8","title":"Comparative Effectiveness of Second-Line Antihyperglycemic Agents for Cardiovascular Outcomes: A Multinational, Federated Analysis of LEGEND-T2DM","recordType":"researchoutput"}]}, event: "pageLoad"});})();} catch(e) {if(console) { console.log(e) } }</script>
+<script>function trackPage(){try {(function() {
+window.appData = window.appData || [];
+})();} catch(e) {if(console) { console.log(e) } }}</script>
+
+</body>
+</html>
+

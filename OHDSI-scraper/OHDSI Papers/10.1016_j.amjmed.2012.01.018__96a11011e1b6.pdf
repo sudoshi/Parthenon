@@ -1,0 +1,3170 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3EAuthor Manuscript%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Body Mass Index and Mortality in Acute Myocardial Infarction Patients - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB8229D45C8A30BB822002DD2D5D3.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="nihpa">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="manuscript">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3408565/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="The American journal of medicine">
+<meta name="citation_title" content="Body Mass Index and Mortality in Acute Myocardial Infarction Patients">
+<meta name="citation_author" content="Emily M Bucholz">
+<meta name="citation_author_institution" content="Yale University School of Medicine, New Haven, Connecticut">
+<meta name="citation_author" content="Saif S Rathore">
+<meta name="citation_author_institution" content="Yale University School of Medicine, New Haven, Connecticut">
+<meta name="citation_author" content="Kimberly J Reid">
+<meta name="citation_author_institution" content="Mid America Heart Institute of St. Luke’s Hospital, Kansas City, Missouri">
+<meta name="citation_author" content="Philip G Jones">
+<meta name="citation_author_institution" content="Mid America Heart Institute of St. Luke’s Hospital and University of Missouri-Kansas City, Kansas City, Missouri">
+<meta name="citation_author" content="Paul S Chan">
+<meta name="citation_author_institution" content="Mid America Heart Institute of St. Luke’s Hospital and University of Missouri-Kansas City, Kansas City, Missouri">
+<meta name="citation_author" content="Michael W Rich">
+<meta name="citation_author_institution" content="Cardiovascular Division, Department of Medicine, Washington University School of Medicine, St. Louis, Missouri">
+<meta name="citation_author" content="John A Spertus">
+<meta name="citation_author_institution" content="Mid America Heart Institute of St. Luke’s Hospital and University of Missouri-Kansas City, Kansas City, Missouri">
+<meta name="citation_author" content="Harlan M Krumholz">
+<meta name="citation_author_institution" content="Section of Cardiovascular Medicine and the Robert Wood Johnson Clinical Scholars Program, Department of Medicine, Yale University School of Medicine, and Section of Health Policy and Administration, Yale School of Public Health; and the Center for Outcomes Research and Evaluation, Yale-New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_publication_date" content="2012 Apr 5">
+<meta name="citation_volume" content="125">
+<meta name="citation_issue" content="8">
+<meta name="citation_firstpage" content="796">
+<meta name="citation_doi" content="10.1016/j.amjmed.2012.01.018">
+<meta name="citation_pmid" content="22483510">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3408565/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3408565/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3408565/pdf/nihms368920.pdf">
+<meta name="description" content="Previous studies have described an “obesity paradox” with heart failure, whereby higher body mass index (BMI) is associated with lower mortality. However, little is known about the impact of obesity on survival after acute myocardial infarction. ...">
+<meta name="og:title" content="Body Mass Index and Mortality in Acute Myocardial Infarction Patients">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Previous studies have described an “obesity paradox” with heart failure, whereby higher body mass index (BMI) is associated with lower mortality. However, little is known about the impact of obesity on survival after acute myocardial infarction. ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3408565/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="3408565">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1016/j.amjmed.2012.01.018"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/nihms368920.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC3408565%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/3408565/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/3408565/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC3408565/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-nihpa.png" alt="NIHPA Author Manuscripts logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to NIHPA Author Manuscripts" title="Link to NIHPA Author Manuscripts" shape="default" href="https://pmc.ncbi.nlm.nih.gov/about/public-access/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Am J Med</button></div>. Author manuscript; available in PMC: 2013 Aug 1.</div>
+<div>
+<em>Published in final edited form as: </em>Am J Med. 2012 Apr 5;125(8):796–803. doi: <a href="https://doi.org/10.1016/j.amjmed.2012.01.018" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1016/j.amjmed.2012.01.018</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Am%20J%20Med"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Am%20J%20Med"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Am%20J%20Med"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Am%20J%20Med"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Body Mass Index and Mortality in Acute Myocardial Infarction Patients</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Bucholz%20EM"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Emily M Bucholz</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Emily M Bucholz</span>, <span class="degrees">MPH</span>
+</h3>
+<div class="p">
+<sup>1</sup>Yale University School of Medicine, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Bucholz%20EM"[Author]' class="usa-link"><span class="name western">Emily M Bucholz</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rathore%20SS"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Saif S Rathore</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Saif S Rathore</span>, <span class="degrees">MPH</span>
+</h3>
+<div class="p">
+<sup>1</sup>Yale University School of Medicine, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rathore%20SS"[Author]' class="usa-link"><span class="name western">Saif S Rathore</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Reid%20KJ"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Kimberly J Reid</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Kimberly J Reid</span>, <span class="degrees">MS</span>
+</h3>
+<div class="p">
+<sup>2</sup>Mid America Heart Institute of St. Luke’s Hospital, Kansas City, Missouri</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Reid%20KJ"[Author]' class="usa-link"><span class="name western">Kimberly J Reid</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Jones%20PG"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Philip G Jones</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Philip G Jones</span>, <span class="degrees">MS</span>
+</h3>
+<div class="p">
+<sup>3</sup>Mid America Heart Institute of St. Luke’s Hospital and University of Missouri-Kansas City, Kansas City, Missouri</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Jones%20PG"[Author]' class="usa-link"><span class="name western">Philip G Jones</span></a>
+</div>
+</div>
+<sup>3</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chan%20PS"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Paul S Chan</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">Paul S Chan</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>3</sup>Mid America Heart Institute of St. Luke’s Hospital and University of Missouri-Kansas City, Kansas City, Missouri</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chan%20PS"[Author]' class="usa-link"><span class="name western">Paul S Chan</span></a>
+</div>
+</div>
+<sup>3</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rich%20MW"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">Michael W Rich</span></a><div hidden="hidden" id="id6">
+<h3>
+<span class="name western">Michael W Rich</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>4</sup>Cardiovascular Division, Department of Medicine, Washington University School of Medicine, St. Louis, Missouri</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rich%20MW"[Author]' class="usa-link"><span class="name western">Michael W Rich</span></a>
+</div>
+</div>
+<sup>4</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Spertus%20JA"[Author]' class="usa-link" aria-describedby="id7"><span class="name western">John A Spertus</span></a><div hidden="hidden" id="id7">
+<h3>
+<span class="name western">John A Spertus</span>, <span class="degrees">MD, MPH</span>
+</h3>
+<div class="p">
+<sup>3</sup>Mid America Heart Institute of St. Luke’s Hospital and University of Missouri-Kansas City, Kansas City, Missouri</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Spertus%20JA"[Author]' class="usa-link"><span class="name western">John A Spertus</span></a>
+</div>
+</div>
+<sup>3</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Krumholz%20HM"[Author]' class="usa-link" aria-describedby="id8"><span class="name western">Harlan M Krumholz</span></a><div hidden="hidden" id="id8">
+<h3>
+<span class="name western">Harlan M Krumholz</span>, <span class="degrees">MD, SM</span>
+</h3>
+<div class="p">
+<sup>5</sup>Section of Cardiovascular Medicine and the Robert Wood Johnson Clinical Scholars Program, Department of Medicine, Yale University School of Medicine, and Section of Health Policy and Administration, Yale School of Public Health; and the Center for Outcomes Research and Evaluation, Yale-New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Krumholz%20HM"[Author]' class="usa-link"><span class="name western">Harlan M Krumholz</span></a>
+</div>
+</div>
+<sup>5</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="A1">
+<sup>1</sup>Yale University School of Medicine, New Haven, Connecticut</div>
+<div id="A2">
+<sup>2</sup>Mid America Heart Institute of St. Luke’s Hospital, Kansas City, Missouri</div>
+<div id="A3">
+<sup>3</sup>Mid America Heart Institute of St. Luke’s Hospital and University of Missouri-Kansas City, Kansas City, Missouri</div>
+<div id="A4">
+<sup>4</sup>Cardiovascular Division, Department of Medicine, Washington University School of Medicine, St. Louis, Missouri</div>
+<div id="A5">
+<sup>5</sup>Section of Cardiovascular Medicine and the Robert Wood Johnson Clinical Scholars Program, Department of Medicine, Yale University School of Medicine, and Section of Health Policy and Administration, Yale School of Public Health; and the Center for Outcomes Research and Evaluation, Yale-New Haven Hospital, New Haven, Connecticut</div>
+<div class="author-notes p"><div class="fn" id="FN1">
+<sup>✉</sup><p class="display-inline">Correspondence: Dr. Harlan M. Krumholz, Yale University School of Medicine, 1 Church St., Suite 200, New Haven CT 06510; 203-764-5885; (f) 203-764-5653; <span>harlan.krumholz@yale.edu</span></p>
+</div></div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Issue date 2012 Aug.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>© 2012 Elsevier Inc. All rights reserved.</div>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC3408565  NIHMSID: NIHMS368920  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/22483510/" class="usa-link">22483510</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article"><div>The publisher's version of this article is available at <a href="https://doi.org/10.1016/j.amjmed.2012.01.018" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Am J Med</a>
+</div></div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<section id="S1"><h3 class="pmc_sec_title">Background</h3>
+<p id="P2">Previous studies have described an “obesity paradox” with heart failure, whereby higher body mass index (BMI) is associated with lower mortality. However, little is known about the impact of obesity on survival after acute myocardial infarction.</p></section><section id="S2"><h3 class="pmc_sec_title">Methods</h3>
+<p id="P3">Data from 2 registries of patients hospitalized in the United States with acute myocardial infarction between 2003–04 (PREMIER) and 2005–08 (TRIUMPH) were used to examine the association of BMI with mortality. Patients (n=6359) were categorized into BMI groups (kg/m<sup>2</sup>) using baseline measurements. Two sets of analyses were performed using Cox proportional hazards regression with fractional polynomials to model BMI as categorical and continuous variables. To assess the independent association of BMI with mortality, analyses were repeated adjusting for 7 domains of patient and clinical characteristics.</p></section><section id="S3"><h3 class="pmc_sec_title">Results</h3>
+<p id="P4">Median BMI was 28.6. BMI was inversely associated with crude 1-year mortality (normal, 9.2%; overweight, 6.1%; obese, 4.7%; morbidly obese; 4.6%; p&lt;0.001), which persisted after multivariable adjustment. When BMI was examined as a continuous variable, the hazards curve declined with increasing BMI and then increased above a BMI of 40. Compared with patients with a BMI of 18.5, patients with higher BMIs had a 20% to 68% lower mortality at 1 year. No interactions between age (p=0.37), gender (p=0.87) or diabetes mellitus (p=0.55) were observed.</p></section><section id="S4"><h3 class="pmc_sec_title">Conclusions</h3>
+<p id="P5">There appears to be an “obesity paradox” among acute myocardial infarction patients such that higher BMI is associated with lower mortality, an effect that was not modified by patient characteristics and was comparable across age, gender, and diabetes subgroups.</p></section><section id="kwd-group1" class="kwd-group"><p><strong>Keywords:</strong> body mass index, mortality, myocardial infarction, fractional polynomials, obesity paradox</p></section></section><section id="S5"><h2 class="pmc_sec_title">INTRODUCTION</h2>
+<p id="P6">The prevalence of obesity in the United States has risen dramatically in the past few decades. Current estimates place two-thirds of adults in the United States in the category of overweight or obese as defined by body mass index (BMI).<sup><a href="#R1" class="usa-link" aria-describedby="R1">1</a></sup> In the general population, obesity is associated with numerous comorbidities and an increased risk of adverse outcomes including cardiovascular disease and mortality.<sup><a href="#R2" class="usa-link" aria-describedby="R2">2</a>–<a href="#R3" class="usa-link" aria-describedby="R3">3</a></sup> Among patients with chronic disease however, this association may be reversed. Evidence from observational studies of patients with heart failure suggests that obese patients may have improved short- and long-term prognoses.<sup><a href="#R4" class="usa-link" aria-describedby="R4">4</a></sup></p>
+<p id="P7">This phenomenon, known as the “obesity paradox,” has been replicated in several settings that have shown either an inverse linear or U-shaped association between BMI and all-cause mortality in heart failure patients.<sup><a href="#R5" class="usa-link" aria-describedby="R5">5</a>–<a href="#R10" class="usa-link" aria-describedby="R10">10</a></sup> Although the nature of this relationship is unclear, several explanations have been proposed including residual confounding by patient and clinical characteristics. Relatively few studies have explored this relationship in patients with acute coronary syndrome or examined interactions between BMI and other demographic or health-related variables. Moreover, no studies of patients with acute coronary syndromes have examined BMI as a continuous variable to more fully characterize the actual shape of the mortality curve.</p>
+<p id="P8">Using data from 2 prospective, multicenter registries of patients with acute myocardial infarction, we sought to describe the relationship between BMI and long-term mortality after acute myocardial infarction to determine whether an observed “obesity paradox” could be explained by confounding with other patient and clinical characteristics. In particular, we systematically identified 7 variable domains to assess whether the obesity paradox was attenuated after adjustment for the potential confounders of patient demographics, risk factors and medical history, healthcare access and utilization, psychosocial factors, clinical presentation, patient functional status, and quality of care received. The goal was to identify important factors associated with obesity outcomes so that future interventions could be designed to optimize care for the growing population of obese patients with acute myocardial infarction. In addition, we examined potential interactions between obesity, gender, age, and diabetes mellitus.</p></section><section id="S6"><h2 class="pmc_sec_title">METHODS</h2>
+<section id="S7"><h3 class="pmc_sec_title">Patient Population</h3>
+<p id="P9">We combined data from 2 acute myocardial infarction registries: PREMIER (Prospective Registry Evaluating Myocardial Infarction: Events and Recovery) and TRIUMPH (Translational Research Investigating Underlying Disparities in Acute Myocardial Infarction Patients’ Health Status). A detailed description of the PREMIER study has been previously published.<sup><a href="#R11" class="usa-link" aria-describedby="R11">11</a></sup> In brief, 2498 patients with acute myocardial infarction were consecutively enrolled between January 1, 2003 and June 28, 2004 from 19 centers in the United States. Similar to PREMIER, the TRIUMPH study recruited 4340 patients with acute myocardial infarction between April 11, 2005 and December 31, 2008 to identify gaps in knowledge related to racial differences in acute myocardial infarction care. Eligibility criteria for both studies required patients to be aged 18 years or older, have an acute myocardial infarction confirmed by elevated cardiac enzymes (troponin I or creatinine kinase MB), and show supporting evidence of acute myocardial infarction including prolonged (&gt;20 minutes) ischemic symptoms or electrocardiographic ST-elevation changes. Patients who were transferred from other institutions more than 24 hours after symptom onset and patients who developed elevated cardiac enzymes as a complication of elective coronary revascularization were not included. We also excluded patients with missing BMI at baseline (n= 368 (5.4%)) and those who were underweight (BMI&lt;18.5 kg/m<sup>2</sup>, n=111) to limit confounding by cachexia or other underlying disease. Of the 6838 patients enrolled in PREMIER and TRIUMPH, 368 (5.4%) had missing BMI data at baseline. Compared with patients with recorded BMI values, patients with missing data were less likely to be white (35.5% vs. 71.7%; p&lt;0.001) or have health insurance (66.6% vs. 81.9%; P&lt;0.001). No differences in sex or age were observed. Patients with missing BMI values had significantly higher mortality rates during the index hospitalization (1.9% vs. 0.5%; p=0.006), at 6 months (11.7% vs. 4.2%; p&lt;0.001), and at 1 year (14.9% vs. 6.3%; p&lt;0.001). Among the 6470 patients with BMI data, an additional 111 were excluded because they were underweight. The final study cohort included 6359 patients.</p>
+<p id="P10">Patients’ demographic, clinical and treatment data were collected from detailed chart abstractions and baseline interviews administered within 24 to 72 hours of the index admission. Institutional review board approval was obtained at each participating center and all patients provided written informed consent to participate.</p></section><section id="S8"><h3 class="pmc_sec_title">Variable Definitions</h3>
+<p id="P11">BMI values were calculated from patients’ admission height and weight data, as abstracted from medical records. For analyses that modeled BMI as an ordinal variable, we used criteria from the Centers for Disease Control and Prevention to define the BMI categories: normal weight (18.5 to 24.9 kg/m<sup>2</sup>), overweight (25 to 29.9 kg/m<sup>2</sup>), obese (30 to 34.9 kg/m<sup>2</sup>), and morbidly obese (≥35 kg/m<sup>2</sup>). In other analyses, we modeled BMI as a continuous variable.</p>
+<p id="P12">As part of the interview, patients completed a series of questionnaires designed to assess quality of life (Seattle Angina Questionnaire [SAQ]), functional status (Short-Form Health Survey 12 [SF-12]), and depression (Patient Health Questionnaire [PHQ]). The SAQ is a 19-item self-administered questionnaire that measures several domains of coronary artery disease on a scale of 0–100 including disease perception, angina frequency, and quality of life.<sup><a href="#R12" class="usa-link" aria-describedby="R12">12</a></sup> Like the SAQ, the SF-12 also evaluates functional status but contains both physical and mental component summary scales (PCS and MCS), on which lower numbers indicate worse health status.<sup><a href="#R13" class="usa-link" aria-describedby="R13">13</a></sup> The PHQ-9 is a 9-item depression scale used to assess symptoms, functional impairment, and severity of depression.<sup><a href="#R14" class="usa-link" aria-describedby="R14">14</a></sup> All scores were included as continuous variables in multivariate models.</p>
+<p id="P13">The primary outcome, 1-year all-cause mortality, was obtained through linkage of the Social Security Death Master File to patient identifiers. We also examined 3 variables (age, gender and diabetes mellitus), obtained from baseline medical records and patient interviews, for potential interactions with BMI.</p></section><section id="S9"><h3 class="pmc_sec_title">Statistical Analyses</h3>
+<p id="P14">Baseline characteristics of patients across the 4 BMI categories were compared using χ<sup>2</sup> tests for categorical variables and analysis of variance for continuous variables. To evaluate the relationship between BMI and mortality, we performed 2 sets of analyses in which we modeled BMI as both a categorical and a continuous variable. For analyses of BMI as a categorical variable, we assessed differences in crude mortality across the 4 categories using χ<sup>2</sup> tests and Kaplan-Meier estimates tested by the log-rank method. We repeated analyses using Cox proportional hazards regression stratified by site of care to adjust for patient and clinical characteristics. In addition, we tested for potential interactions between BMI and age, gender and diabetes status.</p>
+<p id="P15">Covariates for multivariable analyses were selected <em>a priori</em> and categorized into domains using a combination of clinical and statistical judgment. These included: (1) patient demographics (age, gender, race, living arrangement, education level, employment status); (2) risk factors and medical history (smoking status, hypercholesterolemia, hypertension, peripheral artery disease, diabetes mellitus, chronic renal failure); (3) healthcare access (avoidance of medical care due to cost); (4) psychosocial factors (PHQ depression score and antidepressant use); (5) clinical presentation (systolic blood pressure &gt;140 at presentation, left ventricular systolic function &lt; or ≥40%, ST-elevation acute myocardial infarction, Global Registry of Acute Coronary Events (GRACE) risk score);<sup><a href="#R15" class="usa-link" aria-describedby="R15">15</a></sup> (6) functional status (SF-12 PCS, SF-12 MCS, and SAQ scores); and (7) treatment and quality of care received (revascularization procedure, patient instructions including weight management and cardiac rehabilitation, aspirin at arrival and discharge, and beta-blocker at discharge).</p>
+<p id="P16">Missing covariate data were minimal, with 12% of patients missing any covariate data (9% missing 1 covariate, and 3% missing &gt;1 covariate). Missing data were imputed using a multiple imputation approach in IVEware software (University of Michigan, Ann Arbor, MI).</p>
+<p id="P17">In the second set of analyses, we modeled BMI as a continuous variable to determine the specific shape of the association between BMI and 1-year mortality. We used proportional hazards regression polynomial modeling of BMI, which combines different linear and non-linear transformations of BMI for different sections of the mortality curve to identify the model that best reflects the association between BMI and mortality. We identified best fitting transformations by comparing model deviances using a χ<sup>2</sup> distribution with 1 degree of freedom. We repeated analyses adjusting for site of care as well as the same patient and clinical characteristics detailed above to derive BMI-specific mortality estimates. When graphing the relationship between BMI and mortality, we further restricted the sample to patients with a BMI ≤55 because &lt;1% of patients had a BMI &gt;55. All statistical analyses were conducted with SAS 9.2 (SAS Institute, Cary, NC), Stata SE 9.0 (Stata Corporation, College Station, TX), and R version 2.10.1 (R Foundation for Statistical Computing, Vienna, Austria).</p></section></section><section id="S10"><h2 class="pmc_sec_title">RESULTS</h2>
+<p id="P18">Of the 6359 patients with BMI data, 1449 (22.8%) were normal weight, 2314 (36.4%) were overweight, 1531 (24.1%) were obese, and 1065 (16.8%) were morbidly obese. <a href="#T1" class="usa-link">Table 1</a> shows the characteristics of the sample at baseline by BMI category. Patients with lower BMIs were on average younger, more educated, more likely to have smoked in the last 30 days, and less likely to avoid getting health care due to cost. Higher proportions of patients in the obese and morbidly obese groups had obesity-associated comorbid conditions, including hypercholesterolemia, hypertension, diabetes mellitus, and depression. Despite these conditions, patients in higher BMI groups on average presented with lower GRACE mortality risk scores, indicating a better prognosis at baseline.</p>
+<section class="tw xbox font-sm" id="T1"><h3 class="obj_head">Table 1.</h3>
+<div class="caption p"><p>Patient Baseline Characteristics by BMI Category.<a href="#TFN1" class="usa-link"><sup>*</sup></a></p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="below" rules="groups">
+<thead><tr>
+<th valign="top" align="left" rowspan="1" colspan="1"></th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Normal weight<br>BMI 18.5–24.9 (n=1449)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Overweight<br>BMI 25–29.9 (n=2314)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Obese<br>BMI 30–34.9 (n=1531)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Morbidly obese<br>BMI 35 (n=1065)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">P-value</th>
+</tr></thead>
+<tbody>
+<tr><td colspan="6" align="left" valign="bottom" rowspan="1"><strong>Demographic</strong></td></tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Age, mean (SD)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">62.9 (13.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">60.2 (12.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">58.2 (11.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">56.1 (11.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Male</td>
+<td align="center" valign="top" rowspan="1" colspan="1">895 (61.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1735 (75.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1068 (69.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">585 (54.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Married</td>
+<td align="center" valign="top" rowspan="1" colspan="1">745 (52.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1371 (60.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">917 (60.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">559 (53.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.21</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Live alone</td>
+<td align="center" valign="top" rowspan="1" colspan="1">406 (28.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">515 (22.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">297 (19.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">220 (20.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Greater than high school education</td>
+<td align="center" valign="top" rowspan="1" colspan="1">772 (53.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1121 (48.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">730 (48.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">528 (50.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.07</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Employment status</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Unemployed</td>
+<td align="center" valign="top" rowspan="1" colspan="1">861 (60.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1100 (48.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">728 (48.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">558 (53.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Employed part-time</td>
+<td align="center" valign="top" rowspan="1" colspan="1">122 (8.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">232 (10.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">129 (8.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">87 (8.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Employed full-time</td>
+<td align="center" valign="top" rowspan="1" colspan="1">451 (31.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">959 (41.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">656 (43.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">402 (38.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr><td colspan="6" align="left" valign="top" rowspan="1"><strong>Risk Factors and Medical History</strong></td></tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Cigarette smoking status</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Never</td>
+<td align="center" valign="top" rowspan="1" colspan="1">337 (23.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">470 (20.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">337 (22.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">291 (27.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  &lt;100 total</td>
+<td align="center" valign="top" rowspan="1" colspan="1">71 (4.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">135 (5.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">70 (4.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">68 (6.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Stopped &gt;1 year ago</td>
+<td align="center" valign="top" rowspan="1" colspan="1">395 (27.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">760 (33.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">506 (33.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">307 (29.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Stopped 1 month - 1 year ago</td>
+<td align="center" valign="top" rowspan="1" colspan="1">58 (4.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">70 (3.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">58 (3.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">42 (4.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Current (past 30 days)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">577 (40.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">861 (37.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">546 (36.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">348 (33.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Alcohol use</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Never</td>
+<td align="center" valign="top" rowspan="1" colspan="1">680 (47.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">981 (42.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">632 (41.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">549 (52.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Monthly or less</td>
+<td align="center" valign="top" rowspan="1" colspan="1">294 (20.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">541 (23.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">434 (28.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">289 (27.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  2–4 drinks per month</td>
+<td align="center" valign="top" rowspan="1" colspan="1">204 (14.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">360 (15.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">222 (14.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">132 (12.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  2–3 drinks per week</td>
+<td align="center" valign="top" rowspan="1" colspan="1">99 (6.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">197 (8.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">112 (7.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">51 (4.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  4–5 drinks per week</td>
+<td align="center" valign="top" rowspan="1" colspan="1">120 (8.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">158 (6.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">78 (5.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">21 (2.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  ≥6 drinks per week</td>
+<td align="center" valign="top" rowspan="1" colspan="1">40 (2.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">59 (2.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">44 (2.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">14 (1.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Hypercholesterolemia</td>
+<td align="center" valign="top" rowspan="1" colspan="1">618 (42.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1152 (49.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">799 (52.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">589 (55.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Hypertension</td>
+<td align="center" valign="top" rowspan="1" colspan="1">850 (58.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1440 (62.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1042 (58.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">809 (76.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Peripheral arterial disease</td>
+<td align="center" valign="top" rowspan="1" colspan="1">111 (7.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">142 (6.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">72 (4.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">40 (3.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Diabetes mellitus</td>
+<td align="center" valign="top" rowspan="1" colspan="1">294 (20.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">600 (25.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">522 (34.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">494 (46.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Prior PCI</td>
+<td align="center" valign="top" rowspan="1" colspan="1">250 (17.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">442 (19.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">312 (20.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">222 (20.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.01</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Chronic renal failure</td>
+<td align="center" valign="top" rowspan="1" colspan="1">137 (9.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">169 (7.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">98 (6.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">84 (7.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.06</td>
+</tr>
+<tr><td colspan="6" align="left" valign="top" rowspan="1"><strong>Healthcare Access and Utilization</strong></td></tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> No insurance</td>
+<td align="center" valign="top" rowspan="1" colspan="1">237 (16.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">408 (18.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">254 (17.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">216 (20.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.05</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Avoided taking medication due to cost</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Never</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1158 (80.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1849 (81.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1167 (77.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">757 (72.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Rarely</td>
+<td align="center" valign="top" rowspan="1" colspan="1">79 (5.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">124 (5.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">115 (7.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">78 (7.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Occasionally</td>
+<td align="center" valign="top" rowspan="1" colspan="1">103 (7.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">150 (6.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">111 (7.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">109 (10.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Frequently</td>
+<td align="center" valign="top" rowspan="1" colspan="1">62 (4.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">107 (4.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">70 (4.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">74 (7.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Always</td>
+<td align="center" valign="top" rowspan="1" colspan="1">33 (2.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">50 (2.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">49 (3.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">30 (2.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Avoided getting health care due to cost</td>
+<td align="center" valign="top" rowspan="1" colspan="1">301 (21.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">481 (21.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">341 (22.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">282 (27.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr><td colspan="6" align="left" valign="top" rowspan="1"><strong>Psychosocial Factors</strong></td></tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Medication use or counseling for depression</td>
+<td align="center" valign="top" rowspan="1" colspan="1">151 (10.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">247 (10.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">199 (13.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">172 (16.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> PHQ depression score</td>
+<td align="center" valign="top" rowspan="1" colspan="1">5.1 ± 5.3</td>
+<td align="center" valign="top" rowspan="1" colspan="1">4.9 ± 5.2</td>
+<td align="center" valign="top" rowspan="1" colspan="1">5.6 ± 5.6</td>
+<td align="center" valign="top" rowspan="1" colspan="1">6.5 ± 5.8</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr><td colspan="6" align="left" valign="top" rowspan="1"><strong>Clinical Presentation</strong></td></tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> STEMI (vs. NSTEMI)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">616 (42.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1096 (47.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">710 (46.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">408 (38.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.06</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> High systolic blood pressure (&gt;140)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">605 (42.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1062 (46.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">785 (51.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">574 (54.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> LVSF</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Normal</td>
+<td align="center" valign="top" rowspan="1" colspan="1">798 (55.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1340 (58.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">883 (57.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">682 (64.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Mild</td>
+<td align="center" valign="top" rowspan="1" colspan="1">290 (20.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">482 (20.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">323 (21.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">203 (19.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Moderate</td>
+<td align="center" valign="top" rowspan="1" colspan="1">197 (13.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">315 (13.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">205 (13.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">105 (9.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Severe</td>
+<td align="center" valign="top" rowspan="1" colspan="1">162 (11.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">175 (7.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">117 (7.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">72 (6.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> GRACE 6-month mortality risk score</td>
+<td align="center" valign="top" rowspan="1" colspan="1">110.1 ± 32.7</td>
+<td align="center" valign="top" rowspan="1" colspan="1">102.4 ± 30.8</td>
+<td align="center" valign="top" rowspan="1" colspan="1">98.4 ± 28.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">96.2 ± 28.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr><td colspan="6" align="left" valign="top" rowspan="1"><strong>Functional Status</strong></td></tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> SF-12 Mental Component Score</td>
+<td align="center" valign="top" rowspan="1" colspan="1">50.1 ± 11.6</td>
+<td align="center" valign="top" rowspan="1" colspan="1">50.5 ± 11.1</td>
+<td align="center" valign="top" rowspan="1" colspan="1">49.3 ± 11.8</td>
+<td align="center" valign="top" rowspan="1" colspan="1">48.5 ± 11.9</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> SF-12 Physical Component Score</td>
+<td align="center" valign="top" rowspan="1" colspan="1">43.1 ± 12.3</td>
+<td align="center" valign="top" rowspan="1" colspan="1">44.2 ± 12.2</td>
+<td align="center" valign="top" rowspan="1" colspan="1">42.4 ± 12.3</td>
+<td align="center" valign="top" rowspan="1" colspan="1">38.8 ± 12.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> SAQ Score</td>
+<td align="center" valign="top" rowspan="1" colspan="1">64.1 ± 23.6</td>
+<td align="center" valign="top" rowspan="1" colspan="1">64.2 ± 23.4</td>
+<td align="center" valign="top" rowspan="1" colspan="1">62.7 ± 23.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">60.4 ± 24.1</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.08</td>
+</tr>
+<tr><td colspan="6" align="left" valign="top" rowspan="1"><strong>Quality of Care</strong></td></tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Catheterization</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1">.16</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  No catheterization</td>
+<td align="center" valign="top" rowspan="1" colspan="1">169 (11.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">144 (6.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">92 (6.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">91 (8.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Catheterization only</td>
+<td align="center" valign="top" rowspan="1" colspan="1">303 (20.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">381 (16.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">253 (16.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">221 (20.8)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">  Revascularization (PCI and CABG)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">977 (67.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1789 (77.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1186 (77.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">753 (70.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Patient instructions: cardiac rehabilitation</td>
+<td align="center" valign="top" rowspan="1" colspan="1">552 (38.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1043 (45.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">701 (46.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">468 (44.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.002</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Patient instructions: weight management</td>
+<td align="center" valign="top" rowspan="1" colspan="1">144 (10.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">299 (13.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">263 (17.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">236 (22.2)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Aspirin at arrival</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1339 (95.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">2218 (95.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1469 (96.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1022 (96.0)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.21</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Aspirin at discharge</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1339 (92.4)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">2165 (93.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1429 (93.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">977 (91.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.79</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1"> Beta-blocker at discharge</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1257 (86.7)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">2058 (88.9)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1379 (90.1)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">951 (89.3)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">.002</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="TFN1">
+<sup>*</sup><p class="display-inline">All baseline characteristics were collected from detailed chart abstractions and baseline interviews administered within 24 to 72 hours of the index admission. Unless otherwise noted, data are reported as number (percentage) of patients.</p>
+</div>
+<div class="fn" id="TFN2"><p>BMI, body mass index; CABG, coronary artery bypass graft; GRACE, Global Registry of Acute Coronary Events; LVSF, left ventricular systolic function; NSTEMI, non-ST-elevation myocardial infarction; PCI, percutaneous coronary intervention; PHQ, Patient Health Questionnaire; SAQ, Seattle Angina Questionnaire; SD, standard deviation; SF-12, Short-Form 12; STEMI, ST-elevation myocardial infarction</p></div>
+</div></section><p id="P19">After 1 year, there were 392 deaths (6.2%). Patients in higher BMI groups had a lower crude mortality rate (normal, 9.2%; overweight, 6.1%; obese, 4.7%, morbidly obese, 4.6%; p&lt;0.001). Kaplan-Meier survival curves showed differences across BMI categories (p&lt;0.001) with the obese and morbidly obese groups having the lowest risk of death over 1 year (<a href="#F1" class="usa-link">Figure 1</a>). These trends persisted after multivariable adjustment, with patients in the overweight groups having a significantly lower risk of mortality compared with those of normal weight (<a href="#T2" class="usa-link">Table 2</a>). No interactions between age (p=0.54), gender (p=0.97) or diabetes mellitus (p=0.51) were observed.</p>
+<figure class="fig xbox font-sm" id="F1"><h3 class="obj_head">Figure 1.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=3408565_nihms368920f1.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/679b/3408565/0c99a17049b6/nihms368920f1.jpg" loading="lazy" height="518" width="800" alt="Figure 1"></a></p>
+<div class="p text-right font-secondary"><a href="figure/F1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Kaplan Meier plot showing unadjusted mortality by category of body mass index; p&lt;.001 using the log-rank test for the overall comparison among the groups.</p></figcaption></figure><section class="tw xbox font-sm" id="T2"><h3 class="obj_head">Table 2.</h3>
+<div class="caption p"><p>Unadjusted and Adjusted Risk of 1-Year Mortality for Post-Acute Myocardial Infarction Patients by BMI.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="below" rules="groups">
+<thead><tr>
+<th valign="bottom" align="center" rowspan="1" colspan="1"></th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Normal weight<br>BMI 18.5–24.9 (n=1449)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Overweight<br>BMI 25–29.9 (n=2314)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Obese<br>BMI 30–34.9 (n=1531)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Morbidly obese<br>BMI≥35 (n=1065)</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>1-year mortality rate, %</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">9.2</td>
+<td align="center" valign="top" rowspan="1" colspan="1">6.1</td>
+<td align="center" valign="top" rowspan="1" colspan="1">4.7</td>
+<td align="center" valign="top" rowspan="1" colspan="1">4.6</td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>HR (95% CI)</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>Unadjusted</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">1 [Reference]</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.68 (0.54–0.86)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.54 (0.40–0.71)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.49 (0.35–0.69)</td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1">
+<strong>Adjusted</strong><a href="#TFN3" class="usa-link"><sup>*</sup></a>
+</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1 [Reference]</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.76 (0.59–0.97)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.62 (0.45–0.84)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.56 (0.39–0.81)</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="TFN3">
+<sup>*</sup><p class="display-inline">Adjusted for demographic characteristics (age, gender, race, living arrangement, education level), risk factors and medical history (smoking status, hypercholesterolemia, hypertension, peripheral arterial disease, diabetes, chronic renal failure), healthcare access and utilization (avoided medical care due to cost), psychosocial factors (Patient Health Questionnaire score), clinical presentation (systolic blood pressure &gt;140 at presentation, left ventricular systolic function, ST-elevation acute myocardial infarction, GRACE risk score), functional status (SF-12 Physical Component Summary scale, SF-12 Mental Component Summary scale, Seattle Angina Questionnaire scores), and quality of care received (revascularization procedure, patient instructions including weight management and cardiac rehabilitation, aspirin at arrival and discharge, and beta-blockers at discharge).</p>
+</div>
+<div class="fn" id="TFN4"><p>BMI, body mass index; CI, confidence interval; GRACE, Global Registry of Acute Coronary Events; HR, hazard ratio</p></div>
+</div></section><p id="P20">When the relationship between BMI and mortality was examined as a continuous variable using proportional hazards regression, a fractional polynomial with 3 terms best modeled the unadjusted association (<a href="#F2" class="usa-link">Figure 2</a>). The hazards curve appeared to decline with increasing BMI and then increase above a BMI of 40. When compared with patients with a BMI of 18.5, patients with higher BMIs had hazard ratios ranging from 0.32 to 0.80, reflecting a 20% to 68% lower mortality at 1 year. The lowest hazards were observed for patients with BMIs between 34 and 40 (<a href="#T3" class="usa-link">Table 3</a>).</p>
+<figure class="fig xbox font-sm" id="F2"><h3 class="obj_head">Figure 2.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=3408565_nihms368920f2.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/679b/3408565/112199d0208d/nihms368920f2.jpg" loading="lazy" height="581" width="649" alt="Figure 2"></a></p>
+<div class="p text-right font-secondary"><a href="figure/F2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Unadjusted 1-year mortality as a function of body mass index with 95% confidence intervals.</p></figcaption></figure><section class="tw xbox font-sm" id="T3"><h3 class="obj_head">Table 3.</h3>
+<div class="caption p"><p>Hazards of 1-Year Mortality by BMI in Post-Acute Myocardial Infarction Patients.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="below" rules="groups">
+<thead><tr>
+<th valign="bottom" align="left" rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Unadjusted HR (95% CI)</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Adjusted HR (95% CI)<a href="#TFN5" class="usa-link"><sup>*</sup></a>
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">18.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1 [Reference]</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1.00 [Reference]</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">20.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.80 (0.72–0.89)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.91 (0.83–0.99)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">22.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.65 (0.53–0.79)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.82 (0.69–0.98)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">24.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.54 (0.41–0.71)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.75 (0.59–0.96)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">26.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.46 (0.33–0.64)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.69 (0.51–0.93)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">28.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.40 (0.28–0.58)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.64 (0.46–0.90)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">30.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.36 (0.25–0.53)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.60 (0.41–0.87)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">32.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.34 (0.23–0.50)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.57 (0.38–0.84)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">34.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.32 (0.22–0.48)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.54 (0.36–0.81)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">36.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.32 (0.22–0.47)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.52 (0.35–0.79)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">38.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.32 (0.22–0.47)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.51 (0.34–0.77)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">40.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.33 (0.22–0.48)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.50 (0.33–0.77)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">42.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.34 (0.23–0.51)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.49 (0.32–0.76)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">44.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.36 (0.24–0.55)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.49 (0.31–0.78)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">46.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.39 (0.25–0.60)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.49 (0.30–0.81)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">48.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.41 (0.25–0.67)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.50 (0.29–0.85)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">50.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.42 (0.24–0.76)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.50 (0.27–0.92)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">52.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.43 (0.21–0.90)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.51 (0.25–1.02)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">54.5</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.42 (0.16–1.11)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.51 (0.22–1.17)</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T3/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="TFN5">
+<sup>*</sup><p class="display-inline">Adjusted for demographic characteristics (age, gender, race, living arrangement, education level), risk factors and medical history (smoking status, hypercholesterolemia, hypertension, peripheral arterial disease, diabetes, chronic renal failure), healthcare access and utilization (avoided medical care due to cost), psychosocial factors (Patient Health Questionnaire score), clinical presentation (systolic blood pressure &gt;140 at presentation, left ventricular systolic function, ST-elevation acute myocardial infarction, GRACE risk score), functional status (SF-12 Physical Component Summary scale, SF-12 Mental Component Summary scale, Seattle Angina Questionnaire scores), and quality of care received (revascularization procedure, patient instructions including weight management and cardiac rehabilitation, aspirin at arrival and discharge, and beta-blockers at discharge).</p>
+</div>
+<div class="fn" id="TFN6"><p>BMI, body mass index; CI, confidence interval; HR, hazard ratio</p></div>
+</div></section><p id="P21">Higher BMIs continued to be associated with decreased mortality after multivariable adjustment (<a href="#F3" class="usa-link">Figure 3</a>). The survival curve appeared to decrease with increasing BMI and then plateau around a BMI of 40. Hazard ratios for patients with BMIs &gt;18.5 ranged from 0.49 to 0.90, indicating a 10% to 51% reduction in 1-year mortality (<a href="#T3" class="usa-link">Table 3</a>).</p>
+<figure class="fig xbox font-sm" id="F3"><h3 class="obj_head">Figure 3.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/679b/3408565/dfb1fb726ae4/nihms368920f3.jpg" loading="lazy" height="770" width="800" alt="Figure 3"></p>
+<div class="p text-right font-secondary"><a href="figure/F3/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Adjusted 1-year mortality as a function of body mass index with 95% confidence intervals.</p></figcaption></figure></section><section id="S11"><h2 class="pmc_sec_title">DISCUSSION</h2>
+<p id="P22">Despite adjusting for many previously unstudied patient characteristics, this study confirms a paradoxical association between BMI and mortality after acute myocardial infarction. In general, higher BMI was associated with lower long-term mortality. The relationship between BMI and mortality appeared to be J-shaped with an inflection point around a BMI of 40. We observed this effect to be independent of the 7 patient and clinical domains we identified, such that the obesity paradox does not appear to be an artifact of confounding by patient or clinical characteristics.</p>
+<p id="P23">While previous studies of heart failure patients have generally shown that higher BMIs are associated with better outcomes, studies of post-acute myocardial infarction patients are less consistent. Some have found a survival advantage conferred by excess weight<sup><a href="#R16" class="usa-link" aria-describedby="R16">16</a>–<a href="#R20" class="usa-link" aria-describedby="R20">20</a></sup> whereas others have found no association.<sup><a href="#R21" class="usa-link" aria-describedby="R21">21</a>–<a href="#R22" class="usa-link" aria-describedby="R22">22</a></sup> Studies that failed to find an association, however, were generally small and limited to single centers. Still others have reported lower mortality for overweight and obese patients in the short term but no differences in the long term.<sup><a href="#R23" class="usa-link" aria-describedby="R23">23</a>–<a href="#R24" class="usa-link" aria-describedby="R24">24</a></sup> In addition, a few studies have reported interactions with gender<sup><a href="#R20" class="usa-link" aria-describedby="R20">20</a></sup> and age.<sup><a href="#R23" class="usa-link" aria-describedby="R23">23</a></sup> Hoit et al. found a survival advantage among obese patients younger than 65 at 1 year but found that the reverse was true in patients aged 65 and older.<sup><a href="#R23" class="usa-link" aria-describedby="R23">23</a></sup> In contrast, we did not find evidence of an interaction between BMI and age.</p>
+<p id="P24">Although the exact mechanism by which obesity may improve outcomes after acute myocardial infarction is unknown, a number of theories have been proposed. One potential explanation is that overweight and obese patients present earlier in the progression of acute myocardial infarction symptoms. This may be due to increased awareness of their risk of having an acute myocardial infarction or because of more severe symptoms due to increased myocardial demands that accompany excess weight. Overweight and obese patients may also have less severe left ventricular dysfunction at presentation. In a subanalysis of acute myocardial infarction patients from the Global Utilization of Streptokinase and Tissue Plasminogen Activator for Occluded Coronary Arteries (GUSTO-I) trial, Lundergan et al. found that increasing BMI was associated with greater preservation of left ventricular function and improved 30-day survival.<sup><a href="#R25" class="usa-link" aria-describedby="R25">25</a></sup> Overweight and obese subjects in our study also presented with lower rates of moderate and severe left ventricular systolic dysfunction and lower GRACE scores, which may be related to an earlier presentation and may partly explain the association between higher BMI and better prognosis.</p>
+<p id="P25">Patients with low BMIs may have a worse prognosis after acute myocardial infarction due to the presence of cardiac cachexia. These patients may experience weight loss due to additional comorbidities, recent illness, or other BMI-associated risk factors for mortality including malnutrition, multi-organ dysfunction, and depression.<sup><a href="#R26" class="usa-link" aria-describedby="R26">26</a>–<a href="#R27" class="usa-link" aria-describedby="R27">27</a></sup> Although we attempted to reduce the potential for confounding by cachexia by excluding underweight patients from the analysis, the possibility exists for residual confounding in the normal weight group.</p>
+<p id="P26">Other theories related to treatment eligibility and prognosis have also been proposed. For example, some studies have speculated that the lack of a functional reserve in underweight and normal weight patients may lead to unfavorable hemodynamic changes, which can preclude these patients from receiving therapies or make them vulnerable to adverse procedure-related complications.<sup><a href="#R28" class="usa-link" aria-describedby="R28">28</a></sup> In our sample, it is important to note that 77% of overweight and obese patients underwent revascularization procedures compared with only 67% of normal weight patients. Similarly, other studies have suggested that overweight and obese patients may fare better after catheterization because they have larger coronary vessels and thus a more favorable artery/device ratio.<sup><a href="#R29" class="usa-link" aria-describedby="R29">29</a></sup></p>
+<p id="P27">The results of our study should be considered in light of its potential limitations. First, we used BMI values measured at the index hospitalization and did not consider potential changes in BMI over the study follow-up. However, results from a study by Fadl et al. show that patients’ weights in PREMIER changed very little in the year post-acute myocardial infarction, suggesting that changes are unlikely to have biased our results.<sup><a href="#R30" class="usa-link" aria-describedby="R30">30</a></sup> Second, we were unable to account for fat distribution (peripheral vs. abdominal obesity) and other measures of adiposity such as body fat percentage. While BMI is widely used in clinical settings to categorize patients as overweight or obese, it may be an imperfect measure. Third, a small though potentially significant number of patients (5.4%) were excluded from the sample due to missing BMI data. Because these patients had significantly higher mortality rates than patients in the sample, an element of selection bias may be possible. Fourth, patients in this study were followed for 1 year only and our description of the relationship between obesity and improved survival may not extend beyond that period. Finally, this sample was drawn from large, urban medical centers in the United States and may not be generalizable to all patient populations, particularly those in rural areas.</p>
+<p id="P28">In summary, we observed an obesity paradox among patients with acute myocardial infarction in which higher BMI is associated with improved survival. This effect appeared to be independent of other patient and clinical characteristics and comparable across gender, age and diabetes subpopulations. Clinically, these findings are most relevant for patient risk stratification and prognosis at baseline. Future studies evaluating weight changes during follow-up are needed to inform guidelines for weight management in patients following acute myocardial infarction. In addition, future research should aim to understand the mechanisms underlying the obesity paradox and to characterize the obesity paradox in certain patient subgroups.</p></section><section id="S12" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p>Dr. Krumholz discloses that he chairs a cardiac scientific advisory board for UnitedHealth and is the recipient of a research grant from Medtronic, Inc. through Yale University.</p>
+<p>Dr. Spertus discloses that he serves as a consultant for UnitedHealth. Dr. Krumholz is supported by grant U01 HL105270-02 (Center for Cardiovascular Outcomes Research at Yale University) from the National Heart, Lung, and Blood Institute. Dr. Spertus is supported by grant P50 HL077113 from the National Heart, Lung, and Blood Institute.</p>
+<p>There was no sponsor involvement in the design and conduct of the study; collection, management, analysis, and interpretation of the data; and preparation, review, or approval of the manuscript. Ms. Reid had full access to all the data in the study and takes responsibility for the integrity of the data and accuracy of the data analyses.</p>
+<p><strong>Funding:</strong></p>
+<p>Dr. Krumholz is supported by grant U01 HL105270-02 (Center for Cardiovascular Outcomes Research at Yale University) from the National Heart, Lung, and Blood Institute. Dr. Spertus is supported by grant P50 HL077113 from the National Heart, Lung, and Blood Institute.</p></section><section id="fn-group1" class="fn-group"><h2 class="pmc_sec_title">Footnotes</h2>
+<div class="fn-group p font-secondary-light font-sm">
+<div class="fn p" id="FN2">
+<p><strong>Conflicts of Interest:</strong></p>
+<p>Dr. Krumholz discloses that he chairs a cardiac scientific advisory board for UnitedHealth and is the recipient of a research grant from Medtronic, Inc. through Yale University. Dr. Spertus discloses that he serves as a consultant for UnitedHealth. Ms. Bucholz, Mr. Rathore, Ms. Reid, Mr. Jones, Dr. Chan, and Dr. Rich have no conflicts of interest to disclose.</p>
+</div>
+<div class="fn p" id="FN3">
+<p><strong>Contributions:</strong></p>
+<p>The authors had access to the data, read and had a role in writing the final manuscript, and agree to its submission in <em>The American Journal of Medicine.</em> They meet the criteria for authorship as follows: Conception and design (EB, SR, HK, PC, MR), analysis (EB, SR, KR, PJ), drafting (EB, HK, SR, JS), and review of the manuscript for intellectual content (EB, SR, HK, KR, PC, MR, PJ, JS).</p>
+</div>
+<div class="fn p" id="FN4"><p><strong>Publisher's Disclaimer:</strong> This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.</p></div>
+</div></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="R1">
+<span class="label">1.</span><cite>Ogden CT, Carroll MD, Curtin LF, et al.  Prevalence of overweight and obesity in the United States, 1999–2004. JAMA. 2006;295(13):1549–1555. doi: 10.1001/jama.295.13.1549.</cite> [<a href="https://doi.org/10.1001/jama.295.13.1549" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16595758/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Prevalence%20of%20overweight%20and%20obesity%20in%20the%20United%20States,%201999%E2%80%932004&amp;author=CT%20Ogden&amp;author=MD%20Carroll&amp;author=LF%20Curtin&amp;volume=295&amp;issue=13&amp;publication_year=2006&amp;pages=1549-1555&amp;pmid=16595758&amp;doi=10.1001/jama.295.13.1549&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R2">
+<span class="label">2.</span><cite>Calle EE, Thun MJ, Petrelli JM, et al.  Body mass index and mortality in a prospective cohort of US adults. N Engl J Med. 1999;341(15):1097–1105. doi: 10.1056/NEJM199910073411501.</cite> [<a href="https://doi.org/10.1056/NEJM199910073411501" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/10511607/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=N%20Engl%20J%20Med&amp;title=Body%20mass%20index%20and%20mortality%20in%20a%20prospective%20cohort%20of%20US%20adults&amp;author=EE%20Calle&amp;author=MJ%20Thun&amp;author=JM%20Petrelli&amp;volume=341&amp;issue=15&amp;publication_year=1999&amp;pages=1097-1105&amp;pmid=10511607&amp;doi=10.1056/NEJM199910073411501&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R3">
+<span class="label">3.</span><cite>Peeters A, Barendregt JJ, Wilekens F, et al.  Obesity in adulthood and its consequences for life expectancy: a life-table analysis. Ann Intern Med. 2003;138(1):24–32. doi: 10.7326/0003-4819-138-1-200301070-00008.</cite> [<a href="https://doi.org/10.7326/0003-4819-138-1-200301070-00008" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/12513041/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Intern%20Med&amp;title=Obesity%20in%20adulthood%20and%20its%20consequences%20for%20life%20expectancy:%20a%20life-table%20analysis&amp;author=A%20Peeters&amp;author=JJ%20Barendregt&amp;author=F%20Wilekens&amp;volume=138&amp;issue=1&amp;publication_year=2003&amp;pages=24-32&amp;pmid=12513041&amp;doi=10.7326/0003-4819-138-1-200301070-00008&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R4">
+<span class="label">4.</span><cite>Morse SA, Gulati R, Reisin E. The obesity paradox and cardiovascular disease. Curr Hypertens Rep. 2010;12(2):120–126. doi: 10.1007/s11906-010-0099-1.</cite> [<a href="https://doi.org/10.1007/s11906-010-0099-1" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20424935/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Curr%20Hypertens%20Rep&amp;title=The%20obesity%20paradox%20and%20cardiovascular%20disease&amp;author=SA%20Morse&amp;author=R%20Gulati&amp;author=E%20Reisin&amp;volume=12&amp;issue=2&amp;publication_year=2010&amp;pages=120-126&amp;pmid=20424935&amp;doi=10.1007/s11906-010-0099-1&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R5">
+<span class="label">5.</span><cite>Horwich TB, Fonaraow GC, Hamilton MA, et al.  The relationship between obesity and mortality in patients with heart failure. J Am Cardiol. 2001;38(3):789–795. doi: 10.1016/s0735-1097(01)01448-6.</cite> [<a href="https://doi.org/10.1016/s0735-1097(01)01448-6" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11527635/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Cardiol&amp;title=The%20relationship%20between%20obesity%20and%20mortality%20in%20patients%20with%20heart%20failure&amp;author=TB%20Horwich&amp;author=GC%20Fonaraow&amp;author=MA%20Hamilton&amp;volume=38&amp;issue=3&amp;publication_year=2001&amp;pages=789-795&amp;pmid=11527635&amp;doi=10.1016/s0735-1097(01)01448-6&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R6">
+<span class="label">6.</span><cite>Curtis JP, Selter JG, Wang Y, et al.  The obesity paradox: body mass index and outcomes in patients with heart failure. Arch Intern Med. 2005;165(1):55–61. doi: 10.1001/archinte.165.1.55.</cite> [<a href="https://doi.org/10.1001/archinte.165.1.55" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15642875/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Arch%20Intern%20Med&amp;title=The%20obesity%20paradox:%20body%20mass%20index%20and%20outcomes%20in%20patients%20with%20heart%20failure&amp;author=JP%20Curtis&amp;author=JG%20Selter&amp;author=Y%20Wang&amp;volume=165&amp;issue=1&amp;publication_year=2005&amp;pages=55-61&amp;pmid=15642875&amp;doi=10.1001/archinte.165.1.55&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R7">
+<span class="label">7.</span><cite>Fonarow GC, Srikanthan P, Costanzo MR, et al.  An obesity paradox in acute heart failure: analysis of body mass index and inhospital mortality for 108,927 patients in the Acute Decompensated Heart Failure National Registry. Am Heart J. 2007;153(1):74–81. doi: 10.1016/j.ahj.2006.09.007.</cite> [<a href="https://doi.org/10.1016/j.ahj.2006.09.007" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17174642/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20Heart%20J&amp;title=An%20obesity%20paradox%20in%20acute%20heart%20failure:%20analysis%20of%20body%20mass%20index%20and%20inhospital%20mortality%20for%20108,927%20patients%20in%20the%20Acute%20Decompensated%20Heart%20Failure%20National%20Registry&amp;author=GC%20Fonarow&amp;author=P%20Srikanthan&amp;author=MR%20Costanzo&amp;volume=153&amp;issue=1&amp;publication_year=2007&amp;pages=74-81&amp;pmid=17174642&amp;doi=10.1016/j.ahj.2006.09.007&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R8">
+<span class="label">8.</span><cite>Wu AH, Eagle KA, Montgomery DG, et al.  Relation of body mass index to mortality after development of heart failure due to acute coronary syndrome. Am J Cardiol. 2009;103(12):1736–1740. doi: 10.1016/j.amjcard.2009.02.026.</cite> [<a href="https://doi.org/10.1016/j.amjcard.2009.02.026" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19539085/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Cardiol&amp;title=Relation%20of%20body%20mass%20index%20to%20mortality%20after%20development%20of%20heart%20failure%20due%20to%20acute%20coronary%20syndrome&amp;author=AH%20Wu&amp;author=KA%20Eagle&amp;author=DG%20Montgomery&amp;volume=103&amp;issue=12&amp;publication_year=2009&amp;pages=1736-1740&amp;pmid=19539085&amp;doi=10.1016/j.amjcard.2009.02.026&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R9">
+<span class="label">9.</span><cite>Cicoira M, Maggioni AP, Latini R, et al.  Body mass index, prognosis, and mode of death in chronic heart failure: results from the Valsartan Heart Failure Trial. Eur J Heart Fail. 2006;9(4):397–402. doi: 10.1016/j.ejheart.2006.10.016.</cite> [<a href="https://doi.org/10.1016/j.ejheart.2006.10.016" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17166768/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20J%20Heart%20Fail&amp;title=Body%20mass%20index,%20prognosis,%20and%20mode%20of%20death%20in%20chronic%20heart%20failure:%20results%20from%20the%20Valsartan%20Heart%20Failure%20Trial&amp;author=M%20Cicoira&amp;author=AP%20Maggioni&amp;author=R%20Latini&amp;volume=9&amp;issue=4&amp;publication_year=2006&amp;pages=397-402&amp;pmid=17166768&amp;doi=10.1016/j.ejheart.2006.10.016&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R10">
+<span class="label">10.</span><cite>Kenchaiah S, Gaziano JM, Vasan RS. Impact of obesity on the risk of heart failure and survival after the onset of heart failure. Med Clin North Am. 2004;88(5):1273–1294. doi: 10.1016/j.mcna.2004.04.011.</cite> [<a href="https://doi.org/10.1016/j.mcna.2004.04.011" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15331317/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Med%20Clin%20North%20Am&amp;title=Impact%20of%20obesity%20on%20the%20risk%20of%20heart%20failure%20and%20survival%20after%20the%20onset%20of%20heart%20failure&amp;author=S%20Kenchaiah&amp;author=JM%20Gaziano&amp;author=RS%20Vasan&amp;volume=88&amp;issue=5&amp;publication_year=2004&amp;pages=1273-1294&amp;pmid=15331317&amp;doi=10.1016/j.mcna.2004.04.011&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R11">
+<span class="label">11.</span><cite>Spertus JA, Peterson E, Rumsfeld JS, et al.  The Prospective Registry Evaluating Myocardial Infarction: Events and Recovery (PREMIER)–Evaluating the impact of myocardial infarction on patient outcomes. Am Heart J. 2006;151(3):589–597. doi: 10.1016/j.ahj.2005.05.026.</cite> [<a href="https://doi.org/10.1016/j.ahj.2005.05.026" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16504619/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20Heart%20J&amp;title=The%20Prospective%20Registry%20Evaluating%20Myocardial%20Infarction:%20Events%20and%20Recovery%20(PREMIER)%E2%80%93Evaluating%20the%20impact%20of%20myocardial%20infarction%20on%20patient%20outcomes&amp;author=JA%20Spertus&amp;author=E%20Peterson&amp;author=JS%20Rumsfeld&amp;volume=151&amp;issue=3&amp;publication_year=2006&amp;pages=589-597&amp;pmid=16504619&amp;doi=10.1016/j.ahj.2005.05.026&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R12">
+<span class="label">12.</span><cite>Spertus J, Winder J, Dewhurst T, et al.  Development and evaluation of the Seattle Angina Questionnaire: a new functional status measure for coronary artery disease. J Am Coll Cardiol. 1995;25(2):333–341. doi: 10.1016/0735-1097(94)00397-9.</cite> [<a href="https://doi.org/10.1016/0735-1097(94)00397-9" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/7829785/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Coll%20Cardiol&amp;title=Development%20and%20evaluation%20of%20the%20Seattle%20Angina%20Questionnaire:%20a%20new%20functional%20status%20measure%20for%20coronary%20artery%20disease&amp;author=J%20Spertus&amp;author=J%20Winder&amp;author=T%20Dewhurst&amp;volume=25&amp;issue=2&amp;publication_year=1995&amp;pages=333-341&amp;pmid=7829785&amp;doi=10.1016/0735-1097(94)00397-9&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R13">
+<span class="label">13.</span><cite>Ware J, Jr, Kosinski M, Keller SD. A 12-item short-form health survey: construction of scales and preliminary tests of reliability and validity. Med Care. 1996;34(3):220–233. doi: 10.1097/00005650-199603000-00003.</cite> [<a href="https://doi.org/10.1097/00005650-199603000-00003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/8628042/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Med%20Care&amp;title=A%2012-item%20short-form%20health%20survey:%20construction%20of%20scales%20and%20preliminary%20tests%20of%20reliability%20and%20validity&amp;author=J%20Ware&amp;author=M%20Kosinski&amp;author=SD%20Keller&amp;volume=34&amp;issue=3&amp;publication_year=1996&amp;pages=220-233&amp;pmid=8628042&amp;doi=10.1097/00005650-199603000-00003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R14">
+<span class="label">14.</span><cite>Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001;16(9):606–613. doi: 10.1046/j.1525-1497.2001.016009606.x.</cite> [<a href="https://doi.org/10.1046/j.1525-1497.2001.016009606.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1495268/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11556941/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Gen%20Intern%20Med&amp;title=The%20PHQ-9:%20validity%20of%20a%20brief%20depression%20severity%20measure&amp;author=K%20Kroenke&amp;author=RL%20Spitzer&amp;author=JB%20Williams&amp;volume=16&amp;issue=9&amp;publication_year=2001&amp;pages=606-613&amp;pmid=11556941&amp;doi=10.1046/j.1525-1497.2001.016009606.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R15">
+<span class="label">15.</span><cite>Granger CB, Goldberg RJ, Dabbous O, et al.  Predictors of hospital mortality in the Global Registry of Acute Coronary Events. Arch Intern Med. 2003;163(19):2345–2353. doi: 10.1001/archinte.163.19.2345.</cite> [<a href="https://doi.org/10.1001/archinte.163.19.2345" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14581255/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Arch%20Intern%20Med&amp;title=Predictors%20of%20hospital%20mortality%20in%20the%20Global%20Registry%20of%20Acute%20Coronary%20Events&amp;author=CB%20Granger&amp;author=RJ%20Goldberg&amp;author=O%20Dabbous&amp;volume=163&amp;issue=19&amp;publication_year=2003&amp;pages=2345-2353&amp;pmid=14581255&amp;doi=10.1001/archinte.163.19.2345&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R16">
+<span class="label">16.</span><cite>Wienbergen H, Gitt AK, Juenger C, et al.  Impact of body mass index on occurrence and outcome of acute ST-elevation myocardial infarction. Clin Res Cardiol. 2008;97(2):83–88. doi: 10.1007/s00392-007-0585-x.</cite> [<a href="https://doi.org/10.1007/s00392-007-0585-x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17938850/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Clin%20Res%20Cardiol&amp;title=Impact%20of%20body%20mass%20index%20on%20occurrence%20and%20outcome%20of%20acute%20ST-elevation%20myocardial%20infarction&amp;author=H%20Wienbergen&amp;author=AK%20Gitt&amp;author=C%20Juenger&amp;volume=97&amp;issue=2&amp;publication_year=2008&amp;pages=83-88&amp;pmid=17938850&amp;doi=10.1007/s00392-007-0585-x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R17">
+<span class="label">17.</span><cite>Mehta RH, Califf RM, Garg J, et al.  The impact of anthropomorphic indices on clinical outcomes in patients with acute ST-elevation myocardial infarction. Eur Heart J. 2007;28(4):415–424. doi: 10.1093/eurheartj/ehl329.</cite> [<a href="https://doi.org/10.1093/eurheartj/ehl329" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17040928/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20Heart%20J&amp;title=The%20impact%20of%20anthropomorphic%20indices%20on%20clinical%20outcomes%20in%20patients%20with%20acute%20ST-elevation%20myocardial%20infarction&amp;author=RH%20Mehta&amp;author=RM%20Califf&amp;author=J%20Garg&amp;volume=28&amp;issue=4&amp;publication_year=2007&amp;pages=415-424&amp;pmid=17040928&amp;doi=10.1093/eurheartj/ehl329&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R18">
+<span class="label">18.</span><cite>Nicoletti I, Cicoira M, Morando G, et al.  Impact of body mass index on short-term outcome after acute myocardial infarction: does excess body weight have a paradoxical protective role? Int J Cardiol. 2006;107(3):395–399. doi: 10.1016/j.ijcard.2005.04.005.</cite> [<a href="https://doi.org/10.1016/j.ijcard.2005.04.005" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16503262/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Cardiol&amp;title=Impact%20of%20body%20mass%20index%20on%20short-term%20outcome%20after%20acute%20myocardial%20infarction:%20does%20excess%20body%20weight%20have%20a%20paradoxical%20protective%20role?&amp;author=I%20Nicoletti&amp;author=M%20Cicoira&amp;author=G%20Morando&amp;volume=107&amp;issue=3&amp;publication_year=2006&amp;pages=395-399&amp;pmid=16503262&amp;doi=10.1016/j.ijcard.2005.04.005&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R19">
+<span class="label">19.</span><cite>Lee SH, Park JS, Kim W, et al.  Impact of body mass index and waist-to-hip ratio on clinical outcomes in patients with ST-segment elevation acute myocardial infarction. Am J Cardiol. 2008;102(8):957–965. doi: 10.1016/j.amjcard.2008.06.022.</cite> [<a href="https://doi.org/10.1016/j.amjcard.2008.06.022" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18929693/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Cardiol&amp;title=Impact%20of%20body%20mass%20index%20and%20waist-to-hip%20ratio%20on%20clinical%20outcomes%20in%20patients%20with%20ST-segment%20elevation%20acute%20myocardial%20infarction&amp;author=SH%20Lee&amp;author=JS%20Park&amp;author=W%20Kim&amp;volume=102&amp;issue=8&amp;publication_year=2008&amp;pages=957-965&amp;pmid=18929693&amp;doi=10.1016/j.amjcard.2008.06.022&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R20">
+<span class="label">20.</span><cite>Kragelund C, Hassager C, Hildebrandt P, et al.  Impact of obesity on long-term prognosis following acute myocardial infarction. Int J Cardiol. 2005;98(1):123–131. doi: 10.1016/j.ijcard.2004.03.042.</cite> [<a href="https://doi.org/10.1016/j.ijcard.2004.03.042" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15676176/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Cardiol&amp;title=Impact%20of%20obesity%20on%20long-term%20prognosis%20following%20acute%20myocardial%20infarction&amp;author=C%20Kragelund&amp;author=C%20Hassager&amp;author=P%20Hildebrandt&amp;volume=98&amp;issue=1&amp;publication_year=2005&amp;pages=123-131&amp;pmid=15676176&amp;doi=10.1016/j.ijcard.2004.03.042&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R21">
+<span class="label">21.</span><cite>Iakobishvili Z, Danicek V, Porter A, et al.  Is increased body mass index associated with a cardioprotective effect after ST-segment-elevation myocardial infarction? Acute Card Care. 2006;8(2):95–98. doi: 10.1080/17482940600768673.</cite> [<a href="https://doi.org/10.1080/17482940600768673" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16885073/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Acute%20Card%20Care&amp;title=Is%20increased%20body%20mass%20index%20associated%20with%20a%20cardioprotective%20effect%20after%20ST-segment-elevation%20myocardial%20infarction?&amp;author=Z%20Iakobishvili&amp;author=V%20Danicek&amp;author=A%20Porter&amp;volume=8&amp;issue=2&amp;publication_year=2006&amp;pages=95-98&amp;pmid=16885073&amp;doi=10.1080/17482940600768673&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R22">
+<span class="label">22.</span><cite>Wells B, Gentry M, Ruiz-Arango A, et al.  Relation between body mass index and clinical outcome in acute myocardial infarction. Am J Cardiol. 2006;98(4):474–477. doi: 10.1016/j.amjcard.2006.02.053.</cite> [<a href="https://doi.org/10.1016/j.amjcard.2006.02.053" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16893700/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Cardiol&amp;title=Relation%20between%20body%20mass%20index%20and%20clinical%20outcome%20in%20acute%20myocardial%20infarction&amp;author=B%20Wells&amp;author=M%20Gentry&amp;author=A%20Ruiz-Arango&amp;volume=98&amp;issue=4&amp;publication_year=2006&amp;pages=474-477&amp;pmid=16893700&amp;doi=10.1016/j.amjcard.2006.02.053&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R23">
+<span class="label">23.</span><cite>Hoit BD, Gilpin A, Maisel AA, et al.  Influence of obesity on morbidity and mortality after acute myocardial infarction. Am Heart J. 1987;114(6):1334–1341. doi: 10.1016/0002-8703(87)90534-5.</cite> [<a href="https://doi.org/10.1016/0002-8703(87)90534-5" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/3687686/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20Heart%20J&amp;title=Influence%20of%20obesity%20on%20morbidity%20and%20mortality%20after%20acute%20myocardial%20infarction&amp;author=BD%20Hoit&amp;author=A%20Gilpin&amp;author=AA%20Maisel&amp;volume=114&amp;issue=6&amp;publication_year=1987&amp;pages=1334-1341&amp;pmid=3687686&amp;doi=10.1016/0002-8703(87)90534-5&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R24">
+<span class="label">24.</span><cite>Nigam A, Wright RS, Allison TG, et al.  Excess weight at time of presentation of myocardial infarction is associated with lower initial mortality risks but higher long-term risks including recurrent re-infarction and cardiac death. Int J Cardiol. 2006;110(2):153–159. doi: 10.1016/j.ijcard.2005.06.040.</cite> [<a href="https://doi.org/10.1016/j.ijcard.2005.06.040" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16043245/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Cardiol&amp;title=Excess%20weight%20at%20time%20of%20presentation%20of%20myocardial%20infarction%20is%20associated%20with%20lower%20initial%20mortality%20risks%20but%20higher%20long-term%20risks%20including%20recurrent%20re-infarction%20and%20cardiac%20death&amp;author=A%20Nigam&amp;author=RS%20Wright&amp;author=TG%20Allison&amp;volume=110&amp;issue=2&amp;publication_year=2006&amp;pages=153-159&amp;pmid=16043245&amp;doi=10.1016/j.ijcard.2005.06.040&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R25">
+<span class="label">25.</span><cite>Lundergan CF, Ross AM, McCarthy WF, et al.  Predictors of left ventricular function after acute myocardial infarction: effects of time to treatment, patency, and body mass index. Am Heart J. 2001;142(1):43–50. doi: 10.1067/mhj.2001.116076.</cite> [<a href="https://doi.org/10.1067/mhj.2001.116076" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11431655/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20Heart%20J&amp;title=Predictors%20of%20left%20ventricular%20function%20after%20acute%20myocardial%20infarction:%20effects%20of%20time%20to%20treatment,%20patency,%20and%20body%20mass%20index&amp;author=CF%20Lundergan&amp;author=AM%20Ross&amp;author=WF%20McCarthy&amp;volume=142&amp;issue=1&amp;publication_year=2001&amp;pages=43-50&amp;pmid=11431655&amp;doi=10.1067/mhj.2001.116076&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R26">
+<span class="label">26.</span><cite>Habbu A, Lakkis NM, Dokainish H. The obesity paradox: fact or fiction? Am J Cardiol. 2006;98(7):944–948. doi: 10.1016/j.amjcard.2006.04.039.</cite> [<a href="https://doi.org/10.1016/j.amjcard.2006.04.039" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16996880/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Cardiol&amp;title=The%20obesity%20paradox:%20fact%20or%20fiction?&amp;author=A%20Habbu&amp;author=NM%20Lakkis&amp;author=H%20Dokainish&amp;volume=98&amp;issue=7&amp;publication_year=2006&amp;pages=944-948&amp;pmid=16996880&amp;doi=10.1016/j.amjcard.2006.04.039&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R27">
+<span class="label">27.</span><cite>Knudtson MD, Klein BE, Klein R, Shankar A. Association with weight loss and subsequent mortality risk. Ann Epidemiol. 2005;15(7):483–491. doi: 10.1016/j.annepidem.2004.12.003.</cite> [<a href="https://doi.org/10.1016/j.annepidem.2004.12.003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16029840/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Epidemiol&amp;title=Association%20with%20weight%20loss%20and%20subsequent%20mortality%20risk&amp;author=MD%20Knudtson&amp;author=BE%20Klein&amp;author=R%20Klein&amp;author=A%20Shankar&amp;volume=15&amp;issue=7&amp;publication_year=2005&amp;pages=483-491&amp;pmid=16029840&amp;doi=10.1016/j.annepidem.2004.12.003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R28">
+<span class="label">28.</span><cite>Steinberg BA, Cannon CP, Hernandez AF, et al.  Medical therapies and invasive treatments for coronary artery disease by body mass: the “obesity paradox” in Get With The Guideline database. Am J Cardiol. 2007;100(9):1331–1335. doi: 10.1016/j.amjcard.2007.06.019.</cite> [<a href="https://doi.org/10.1016/j.amjcard.2007.06.019" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17950785/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Cardiol&amp;title=Medical%20therapies%20and%20invasive%20treatments%20for%20coronary%20artery%20disease%20by%20body%20mass:%20the%20%E2%80%9Cobesity%20paradox%E2%80%9D%20in%20Get%20With%20The%20Guideline%20database&amp;author=BA%20Steinberg&amp;author=CP%20Cannon&amp;author=AF%20Hernandez&amp;volume=100&amp;issue=9&amp;publication_year=2007&amp;pages=1331-1335&amp;pmid=17950785&amp;doi=10.1016/j.amjcard.2007.06.019&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R29">
+<span class="label">29.</span><cite>Schunkert H, Harrel L, Palacios IF. Implication of small reference vessel diameter in patients undergoing percutaneous revascularization. J Am Coll Cardiol. 1999;34(1):40–48. doi: 10.1016/s0735-1097(99)00181-3.</cite> [<a href="https://doi.org/10.1016/s0735-1097(99)00181-3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/10399990/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Coll%20Cardiol&amp;title=Implication%20of%20small%20reference%20vessel%20diameter%20in%20patients%20undergoing%20percutaneous%20revascularization&amp;author=H%20Schunkert&amp;author=L%20Harrel&amp;author=IF%20Palacios&amp;volume=34&amp;issue=1&amp;publication_year=1999&amp;pages=40-48&amp;pmid=10399990&amp;doi=10.1016/s0735-1097(99)00181-3&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R30">
+<span class="label">30.</span><cite>Fadl YY, Krumholz HM, Kosiborod M, et al.  Predictors of weight change in overweight patients with myocardial infarction. Am Heart J. 2007;154(4):711–717. doi: 10.1016/j.ahj.2007.06.006.</cite> [<a href="https://doi.org/10.1016/j.ahj.2007.06.006" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17892997/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20Heart%20J&amp;title=Predictors%20of%20weight%20change%20in%20overweight%20patients%20with%20myocardial%20infarction&amp;author=YY%20Fadl&amp;author=HM%20Krumholz&amp;author=M%20Kosiborod&amp;volume=154&amp;issue=4&amp;publication_year=2007&amp;pages=711-717&amp;pmid=17892997&amp;doi=10.1016/j.ahj.2007.06.006&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section></section></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1016/j.amjmed.2012.01.018"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/nihms368920.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (888.0 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/3408565/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/3408565/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC3408565%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC3408565/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC3408565/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC3408565/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/22483510/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC3408565/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/22483510/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC3408565/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/3408565/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="wuZa3ls9GBFLgdXmPSoVydXW47YTITILEoDgQUa3Av6YGL60sfGMxMuUslDPU0Fy">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

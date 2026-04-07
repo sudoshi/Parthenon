@@ -1,0 +1,2664 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Clinical Concept Value Sets and Interoperability in Health Data Analytics - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB80F9D45C3330BB80F0022284F53.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="procamia">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6371254/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="AMIA Annual Symposium Proceedings">
+<meta name="citation_title" content="Clinical Concept Value Sets and Interoperability in Health Data Analytics">
+<meta name="citation_author" content="Sigfried Gold">
+<meta name="citation_author_institution" content="University of Maryland, College Park;">
+<meta name="citation_author_institution" content="Observational Health Data Sciences and Informatics;">
+<meta name="citation_author" content="Andrea Batch">
+<meta name="citation_author_institution" content="University of Maryland, College Park;">
+<meta name="citation_author" content="Robert McClure">
+<meta name="citation_author_institution" content="MD Partners, Lafayette, CO;">
+<meta name="citation_author" content="Guoqian Jiang">
+<meta name="citation_author_institution" content="Mayo Clinic, Rochester, MN;">
+<meta name="citation_author_institution" content="Observational Health Data Sciences and Informatics;">
+<meta name="citation_author" content="Hadi Kharrazi">
+<meta name="citation_author_institution" content="Johns Hopkins University, Baltimore, MD;">
+<meta name="citation_author" content="Rishi Saripalle">
+<meta name="citation_author_institution" content="Illinois State University; Normal, IL;">
+<meta name="citation_author" content="Vojtech Huser">
+<meta name="citation_author_institution" content="National Library of Medicine, Bethesda, MD;">
+<meta name="citation_author_institution" content="Observational Health Data Sciences and Informatics;">
+<meta name="citation_author" content="Chunhua Weng">
+<meta name="citation_author_institution" content="Columbia University, New York, NY;">
+<meta name="citation_author_institution" content="Observational Health Data Sciences and Informatics;">
+<meta name="citation_author" content="Nancy Roderer">
+<meta name="citation_author_institution" content="University of Maryland, College Park;">
+<meta name="citation_author" content="Ana Szarfman">
+<meta name="citation_author_institution" content="Center for Drug Evaluation and Research, US Food and Drug Administration, Silver Spring, MD;">
+<meta name="citation_author" content="Niklas Elmqvist">
+<meta name="citation_author_institution" content="University of Maryland, College Park;">
+<meta name="citation_author" content="David Gotz">
+<meta name="citation_author_institution" content="University of North Carolina, Chapel Hill, NC;">
+<meta name="citation_publication_date" content="2018 Dec 5">
+<meta name="citation_volume" content="2018">
+<meta name="citation_firstpage" content="480">
+<meta name="citation_pmid" content="30815088">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC6371254/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC6371254/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC6371254/pdf/2973630.pdf">
+<meta name="description" content="This paper focuses on value sets as an essential component in the health analytics ecosystem. We discuss shared repositories of reusable value sets and offer recommendations for their further development and adoption. In order to motivate these ...">
+<meta name="og:title" content="Clinical Concept Value Sets and Interoperability in Health Data Analytics">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="This paper focuses on value sets as an essential component in the health analytics ecosystem. We discuss shared repositories of reusable value sets and offer recommendations for their further development and adoption. In order to motivate these ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC6371254/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="6371254">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/2973630.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC6371254%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/6371254/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/6371254/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC6371254/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-procamia.gif" alt="AMIA Annual Symposium Proceedings logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to AMIA Annual Symposium Proceedings" title="Link to AMIA Annual Symposium Proceedings" shape="default" href="https://knowledge.amia.org/all-proceedings" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">AMIA Annu Symp Proc</button></div>. 2018 Dec 5;2018:480–489.</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="AMIA%20Annu%20Symp%20Proc"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="AMIA%20Annu%20Symp%20Proc"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="AMIA%20Annu%20Symp%20Proc"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="AMIA%20Annu%20Symp%20Proc"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Clinical Concept Value Sets and Interoperability in Health Data Analytics</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gold%20S"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Sigfried Gold</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Sigfried Gold</span>, <span class="degrees">MFA,, MA</span>
+</h3>
+<div class="p">
+<sup>1</sup>University of Maryland, College Park;</div>
+<div class="p">
+<sup>2</sup>Observational Health Data Sciences and Informatics;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gold%20S"[Author]' class="usa-link"><span class="name western">Sigfried Gold</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Batch%20A"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Andrea Batch</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Andrea Batch</span>, <span class="degrees">MA</span>
+</h3>
+<div class="p">
+<sup>1</sup>University of Maryland, College Park;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Batch%20A"[Author]' class="usa-link"><span class="name western">Andrea Batch</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="McClure%20R"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Robert McClure</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Robert McClure</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>3</sup>MD Partners, Lafayette, CO;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="McClure%20R"[Author]' class="usa-link"><span class="name western">Robert McClure</span></a>
+</div>
+</div>
+<sup>3</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Jiang%20G"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Guoqian Jiang</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Guoqian Jiang</span>, <span class="degrees">MD,, PhD</span>
+</h3>
+<div class="p">
+<sup>4</sup>Mayo Clinic, Rochester, MN;</div>
+<div class="p">
+<sup>2</sup>Observational Health Data Sciences and Informatics;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Jiang%20G"[Author]' class="usa-link"><span class="name western">Guoqian Jiang</span></a>
+</div>
+</div>
+<sup>4,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kharrazi%20H"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Hadi Kharrazi</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">Hadi Kharrazi</span>, <span class="degrees">MD,, PhD</span>
+</h3>
+<div class="p">
+<sup>5</sup>Johns Hopkins University, Baltimore, MD;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kharrazi%20H"[Author]' class="usa-link"><span class="name western">Hadi Kharrazi</span></a>
+</div>
+</div>
+<sup>5</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Saripalle%20R"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">Rishi Saripalle</span></a><div hidden="hidden" id="id6">
+<h3>
+<span class="name western">Rishi Saripalle</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>6</sup>Illinois State University; Normal, IL;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Saripalle%20R"[Author]' class="usa-link"><span class="name western">Rishi Saripalle</span></a>
+</div>
+</div>
+<sup>6</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Huser%20V"[Author]' class="usa-link" aria-describedby="id7"><span class="name western">Vojtech Huser</span></a><div hidden="hidden" id="id7">
+<h3>
+<span class="name western">Vojtech Huser</span>, <span class="degrees">MD,, PhD</span>
+</h3>
+<div class="p">
+<sup>7</sup>National Library of Medicine, Bethesda, MD;</div>
+<div class="p">
+<sup>2</sup>Observational Health Data Sciences and Informatics;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Huser%20V"[Author]' class="usa-link"><span class="name western">Vojtech Huser</span></a>
+</div>
+</div>
+<sup>7,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Weng%20C"[Author]' class="usa-link" aria-describedby="id8"><span class="name western">Chunhua Weng</span></a><div hidden="hidden" id="id8">
+<h3>
+<span class="name western">Chunhua Weng</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>8</sup>Columbia University, New York, NY;</div>
+<div class="p">
+<sup>2</sup>Observational Health Data Sciences and Informatics;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Weng%20C"[Author]' class="usa-link"><span class="name western">Chunhua Weng</span></a>
+</div>
+</div>
+<sup>8,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Roderer%20N"[Author]' class="usa-link" aria-describedby="id9"><span class="name western">Nancy Roderer</span></a><div hidden="hidden" id="id9">
+<h3>
+<span class="name western">Nancy Roderer</span>, <span class="degrees">MLS</span>
+</h3>
+<div class="p">
+<sup>1</sup>University of Maryland, College Park;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Roderer%20N"[Author]' class="usa-link"><span class="name western">Nancy Roderer</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Szarfman%20A"[Author]' class="usa-link" aria-describedby="id10"><span class="name western">Ana Szarfman</span></a><div hidden="hidden" id="id10">
+<h3>
+<span class="name western">Ana Szarfman</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>9</sup>Center for Drug Evaluation and Research, US Food and Drug Administration, Silver Spring, MD;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Szarfman%20A"[Author]' class="usa-link"><span class="name western">Ana Szarfman</span></a>
+</div>
+</div>
+<sup>9</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Elmqvist%20N"[Author]' class="usa-link" aria-describedby="id11"><span class="name western">Niklas Elmqvist</span></a><div hidden="hidden" id="id11">
+<h3>
+<span class="name western">Niklas Elmqvist</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>University of Maryland, College Park;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Elmqvist%20N"[Author]' class="usa-link"><span class="name western">Niklas Elmqvist</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gotz%20D"[Author]' class="usa-link" aria-describedby="id12"><span class="name western">David Gotz</span></a><div hidden="hidden" id="id12">
+<h3>
+<span class="name western">David Gotz</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>10</sup>University of North Carolina, Chapel Hill, NC;</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gotz%20D"[Author]' class="usa-link"><span class="name western">David Gotz</span></a>
+</div>
+</div>
+<sup>10</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="af1-2973630">
+<sup>1</sup>University of Maryland, College Park;</div>
+<div id="af2-2973630">
+<sup>2</sup>Observational Health Data Sciences and Informatics;</div>
+<div id="af3-2973630">
+<sup>3</sup>MD Partners, Lafayette, CO;</div>
+<div id="af4-2973630">
+<sup>4</sup>Mayo Clinic, Rochester, MN;</div>
+<div id="af5-2973630">
+<sup>5</sup>Johns Hopkins University, Baltimore, MD;</div>
+<div id="af6-2973630">
+<sup>6</sup>Illinois State University; Normal, IL;</div>
+<div id="af7-2973630">
+<sup>7</sup>National Library of Medicine, Bethesda, MD;</div>
+<div id="af8-2973630">
+<sup>8</sup>Columbia University, New York, NY;</div>
+<div id="af9-2973630">
+<sup>9</sup>Center for Drug Evaluation and Research, US Food and Drug Administration, Silver Spring, MD;</div>
+<div id="af10-2973630">
+<sup>10</sup>University of North Carolina, Chapel Hill, NC;</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Collection date 2018.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>©2018 AMIA - All rights reserved.</div>
+<p>This is an Open Access article: verbatim copying and redistribution of this article are permitted in all media for any purpose</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC6371254  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/30815088/" class="usa-link">30815088</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p>This paper focuses on <em>value sets</em> as an essential component in the health analytics ecosystem. We discuss shared repositories of reusable value sets and offer recommendations for their further development and adoption. In order to motivate these contributions, we explain how value sets fit into specific analytic tasks and the health analytics landscape more broadly; their growing importance and ubiquity with the advent of Common Data Models, Distributed Research Networks, and the availability of higher order, reusable analytic resources like electronic phenotypes and electronic clinical quality measures; the formidable barriers to value set reuse; and our introduction of a concept-agnostic orientation to vocabulary collections. The costs of ad hoc value set management and the benefits of value set reuse are described or implied throughout. Our standards, infrastructure, and design recommendations are not systematic or comprehensive but invite further work to support value set reuse for health analytics. <em>The views represented in the paper do not necessarily represent the views of the institutions or of all the co-authors</em>.</p></section><section id="sec1"><h2 class="pmc_sec_title">Introduction</h2>
+<p>This paper focuses on <em>value sets</em><sup><a href="#r1-2973630" class="usa-link" aria-describedby="r1-2973630">1</a>-<a href="#r5-2973630" class="usa-link" aria-describedby="r5-2973630">5</a></sup> as an essential component in the health analytics ecosystem.<sup><a href="#r6-2973630" class="usa-link" aria-describedby="r6-2973630">6</a>-<a href="#r11-2973630" class="usa-link" aria-describedby="r11-2973630">11</a></sup> While value sets appear in many contexts and serve many purposes and HL7* offers a a general specification,<sup><a href="#r12-2973630" class="usa-link" aria-describedby="r12-2973630">12</a></sup> our discussion and recommendations focus only on the analytic context; i.e., a value set defines a collection of codes or terms from controlled medical vocabularies that are treated as equivalent for use in a clinical query or analytic task. In order for a clinical idea used in an analytic task to be applied to coded patient data, it will be associated with a collections concepts—represented as codes from code systems, i.e., a value set—that, when taken as a uniform collection, can be used in identifying a cohort of patients or set of patient records matching that idea. A patient cohort is identified by finding value set member codes in patient data records. For instance, a value set representing ACE inhibitor exposure might include thousands of NDC and RxNorm codes. A query using a well-constructed value set of ACE inhibitors that is appropriate for the query context, should return results (e.g., 30 Lisinopril 40 MG Oral Tablet dispensed to patient 123 on 1/1/2011) of the highest possible relevance and recall.</p>
+<p>The phrase <em>value set</em> is problematic. Our usage may be confusing to those familiar with value sets as criteria for populating drop down lists or for constraining the values allowed in a data element. The term may also be unfamiliar to health data researchers and analysts who routinely construct value sets to query encoded data but call them by a different name (e.g, code lists or concept sets) or may not recognize them as distinct components of analytic algorithms at all.</p>
+<p>We will discuss shared repositories of reusable value sets, some of which are already in use, and offer recommendations for their further development and adoption. In order to motivate these contributions, we explain (<strong>1</strong>) how <strong>value sets</strong> fit into specific analytic tasks and the <strong>health analytics</strong> landscape more broadly; (<strong>2</strong>) their growing importance and ubiquity with the advent of <strong>Common Data Models</strong>, Distributed Research Networks, and the availability of higher order, reusable analytic resources like electronic phenotypes and electronic clinical quality measures;<sup><a href="#r13-2973630" class="usa-link" aria-describedby="r13-2973630">13</a></sup> (<strong>3</strong>) the formidable <strong>barriers to value set reuse;</strong> and (<strong>4</strong>) our introduction of a <strong>concept-agnostic orientation</strong> to vocabulary collections. The costs of ad hoc value set management and the benefits of value set reuse are described or implied throughout. Our (<strong>5) standards, infrastructure, and design recommendations</strong> address are not systematic or comprehensive but invite further work to support value set reuse for health analytics.</p></section><section id="sec2"><h2 class="pmc_sec_title">1. Value Sets in Health Analytics</h2>
+<p>We confine our discussion of clinical research and health analytics to contexts in which the data has been collected already in the process of providing care, i.e., <em>secondary use</em>. This excludes much clinical research—randomized control trials, prospective cohort studies, etc.—but makes the discussion relevant to important, non-research secondary uses of health data such as health administration, health economics, public health surveillance, etc., which involve similar processes, resources, and challenges. Secondary use analyses, by definition, depend on data collected without regard for their analytic goals and often lack variables and observations central to their questions. At the same time, they can leverage datasets orders of magnitude larger than the expenses of randomized clinical trials would allow, accelerating formulation, execution, and reformulation of questions with a flexibility and speed impossible in human subjects research. Given our focus on value sets, we further confine our scope to data encoded with controlled medical vocabularies, ignoring narrative text and complex objects like lab results and images.</p>
+<p><a href="#f1-2973630" class="usa-link">Figure 1</a> schematizes the life of a health data analytics task as a process: (1) formulation of a question; (2) selection of a method; (3) selection of a software implementation of that method; (4) execution on data with appropriate parameter configuration; and further steps in which the results may prompt more analysis, be shared with DRN collaborators, or be used in publications or reports, to address patient needs, or otherwise disseminated.</p>
+<figure class="fig xbox font-sm" id="f1-2973630"><h3 class="obj_head">Figure 1.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/650a/6371254/0f62772196f4/2973630f1.jpg" loading="lazy" height="1186" width="783" alt="Figure 1."></p>
+<div class="p text-right font-secondary"><a href="figure/f1-2973630/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Abstract model of health data analytics</p></figcaption></figure><p>Obviously the generation and capture of data by patients and care providers is the substrate on which the execution engine will run. A substrate directly influenced by a vast ecosystem of terminology standards, data transmission standards, networks, software, government policies, regulatory agencies, funding agencies, and health systems, not to mention the IT services and infrastructures of the institution where the data analysis occurs.</p>
+<p>Most questions can be addressed using well-understood methods (from statistics, epidemiology, health economics, etc.), and any widely used method will, of course, be applicable to an unbounded set of questions. Formal methods, further, can be implemented in countless ways: through guided interaction in specialized applications, with predefined functions in statistical packages and other analysis tools, or coded ad hoc in generalized programming platforms. However the method is implemented, its execution will require connection to some sort of CDW. In selecting or developing both methods and implementations, analysts should prefer those that are already established and validated if they are available and appropriate. Developing new ones is time-consuming, error-prone, and complicates interpretation of results and comparing them with results from similar analyses.</p>
+<p>As shown in <a href="#f2-2973630" class="usa-link">Figure 2</a>, regardless of the method and implementation chosen, method inputs (like treatment or outcome) must be specified with particular clinical concepts (lisinopril, angioedema), which should be expressed as value sets, i.e., collections of codes matching relevant records in the data. There are considerable advantages to expressing clinical concepts with established, preferably validated, value sets. The clinical abstractions needed for analysis are better understood and clarified when expressed as value sets because the fitness for the subject matter of the question (specific diseases, treatments) must be starkly examined when discretely specified. Having done so, value sets can be reused across questions, inferences combining results of diverse studies of particular topics are more likely to be meaningful.<sup><a href="#r14-2973630" class="usa-link" aria-describedby="r14-2973630">14</a></sup> Surprisingly then, examination of the work in the areas of research informatics and semantic interoperability suggests that value set reuse is more the exception than the rule. It occurs when mandated (as with eCQMs for clinical quality accreditation) or for value sets that happen to be configured in terminology services that happen to be attached to query interfaces used in analysis, which is not the norm.</p>
+<figure class="fig xbox font-sm" id="f2-2973630"><h3 class="obj_head">Figure 2.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=6371254_2973630f2.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/650a/6371254/73fabebb8f49/2973630f2.jpg" loading="lazy" height="394" width="617" alt="Figure 2."></a></p>
+<div class="p text-right font-secondary"><a href="figure/f2-2973630/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>value sets represent question concepts as parameters for method execution.</p></figcaption></figure><p>A value set is an enumerated list or set of selection criteria that resolves to an enumerated list of codes or terms appropriate to a coded data element. Comprised of a versioned <em>value set definition</em> that, when applied against code systems, generates a set of usable codes known as the <em>value set expansion</em>. Unlike software implementations of analytic methods, value sets do not need to be expressed in specific programming or query languages. Most simply, they can be expressed as enumerated code lists, in which case a value set’s expansion may be identical to its definition. An example of a value set definition expressed as a set of selection criteria could be: all the drug product descendants of a particular concept (ACE inhibitors) with the exception of drug products containing a particular ingredient (lisinopril). There is not yet a single widely accepted grammar for these rules, but a suitable one could be programming language-independent. Even when a value set is defined through rules rather than as an enumeration of codes, it must be resolved into an enumeration of codes before being passed as a parameter to an analytic method implementation. The development and curation of value sets can be managed independently from the objects that depend on them.</p>
+<p>Although recognition of the difficulty and benefits of high quality value set development and reuse is not new,<sup><a href="#r15-2973630" class="usa-link" aria-describedby="r15-2973630">15</a>-<a href="#r19-2973630" class="usa-link" aria-describedby="r19-2973630">19</a></sup> as evidenced by projects such as NLM’s VSAC, we believe the time is ripe for renewed attention and efforts at cross-domain collaboration. VSAC offers a central hub for value set curation in the clinical quality measurement community (CMS, NCQA), but a burgeoning array of secondary use analytics projects, resources, and networks (e.g., All of Us, OHDSI, Sentinel, PCORNet, i2b2, commercial analytics products from EHR vendors and clinical data aggregators, etc.) have gone their own way. Secondary analytics tools, for the most part, have tightly coupled value set management with cohort definition and other query capabilities and users seldom share value sets even in when using a single tool at a single institution, much less across tools, institutions, and communities. The tool developers cannot be faulted for taking this approach (or non-approach, as it were.) The astounding advances made in DRN development and infrastructure and resources for secondary health analytics would not have been possible if developers had tied their value set definition functionality to external technologies, services, and standards.</p></section><section id="sec3"><h2 class="pmc_sec_title">2. Common Data Models.</h2>
+<p>The emergence of CDMs over the past decade has made interoperable analytics possible in the drug safety and clinical research communities that have adopted them.<sup><a href="#r8-2973630" class="usa-link" aria-describedby="r8-2973630">8</a>,<a href="#r9-2973630" class="usa-link" aria-describedby="r9-2973630">9</a>,<a href="#r20-2973630" class="usa-link" aria-describedby="r20-2973630">20</a>-<a href="#r29-2973630" class="usa-link" aria-describedby="r29-2973630">29</a></sup> These data models have evolved rapidly as a result of the opportunities they offer for study reproducibility, observational methods development, tool reuse, and coordination of research across diverse institutions without the need for patient-level data sharing. Software and system infrastructures have sprung up around CDMs in support of their use, encompassing platforms that extend existing, well-established informatics infrastructures, and creating a network effect of exponentially increasing benefits as their adoption spreads.<sup><a href="#r30-2973630" class="usa-link" aria-describedby="r30-2973630">30</a>,<a href="#r31-2973630" class="usa-link" aria-describedby="r31-2973630">31</a></sup></p>
+<p>CDMs allow clinical data networks to share queries, observational study methods, and analytic code. Syntactic interoperability results from sharing a common database schema and standardizing database engine support to allow queries and code to run without generating errors. CDMs must also provide for semantic interoperability by standardizing their use of semantic resources so that query results have compatible meanings across application to different data repositories.</p>
+<p>The predominant public CDMs are (in order of their inception) i2b2, OHDSI (originally called OMOP), Sentinel, and PCORNet. The existence of multiple CDMs can be confusing for potential adopters. Efforts at harmonizing them are being made,<sup><a href="#r32-2973630" class="usa-link" aria-describedby="r32-2973630">32</a></sup> but leadership of the CDM organizations are divided by philosophical differences and the different needs of their primary stakeholders, not to mention organizational rivalries.</p>
+<p>Those of us active in the Observational Health Data Sciences and Informatics (OHDSI) community have a distinctive perspective on value sets (called “concept sets” in that community) as OHDSI’s vocabulary system includes a multiplicity of vocabularies in each of several domains: e.g., ICD9, ICD10, SNOMED CT®, Read, etc. for conditions; NDC, RxNorm, ATC, etc. for drugs. Integrated vocabulary collections allow the CDM, analytic framework, and study code to be shared amongst DRN members using diverse source systems and vocabulary encodings. OHDSI, like UMLS, maps each code or concept from all of their constituent vocabularies to a single, authoritative concept in the collection; in UMLS every distinct unit of meaning is unambiguously associated with a CUI or Concept Unique Identifier; in OHDSI’s vocabulary system, codes or concepts from particular, robust vocabularies or ontologies (e.g., SNOMED CT, RxNorm) are tagged as “standard” or “target” concepts, and items from other vocabularies are mapped to these. Users converting data to the CDM must associate each record with an appropriate standard concept, as well as retaining a reference to the original concept the source data was coded with.</p>
+<p>In addition to supporting query reuse across data encoded with diverse vocabularies, integrated vocabulary collections also allow semantic information embedded in them to be leveraged in code selection. As an example, DeFalco, et al.<sup><a href="#r33-2973630" class="usa-link" aria-describedby="r33-2973630">33</a></sup> takes terms from three different drug classification vocabularies (ATC, NDF-RT, and ETC) and follows mappings to three overlapping sets of NDC codes, which they combine into a single value set they use to represent opioid exposure.</p>
+<p>OHDSI’s strategy for achieving semantic interoperability is not without critics. Sentinel’s CDM requires that clinical codes be represented and queried in their original encodings<sup><a href="#r34-2973630" class="usa-link" aria-describedby="r34-2973630">34</a></sup> to prevent information loss and ambiguity. This can work for Sentinel, which is a centrally controlled DRN, has specific mandates and funding, and has contractual relationships with its DRN members and can require them to use approved code systems and meet rigorous data quality measures. OHDSI, on the other hand, is a voluntary, open collaborative and DRN, bound together by its CDM, a large set of interconnected open source software tools, and an active community of contributors and users.</p>
+<p>OHDSI’s rapid growth—in user base, user diversity, and technical platform—has led its Architecture Workgroup<sup><a href="#r35-2973630" class="usa-link" aria-describedby="r35-2973630">35</a></sup> to begin developing formal OpenAPI specifications for value sets and cohort definitions. This puts OHDSI at a critical juncture: it can take this opportunity to engage the wider informatics community and align with those approaching the same problems in different contexts, or risk reinventing standards and technologies and complicating future cross-domain collaboration. OHDSI’s confrontation with value set specifications will be of interest to a wider audience because OHDSI faces challenges that other efforts have and will continue to face in this arena, as well as facing challenges involved in its international user base and its need to support a wide array of redundant or overlapping vocabularies.</p></section><section id="sec4"><h2 class="pmc_sec_title">3. Barriers against reuse of value sets.</h2>
+<p>Standards for content and structure, platforms for development and maintenance, and repositories for value set sharing already exist, though many of the benefits of reuse are not yet realized. Even with platforms and repositories that make value set sharing technically possible, practices that would lead to reuse are not in place. For researchers or analysts who need a value set to represent some clinical concept in the context of developing a cohort definition or quality measure, the tendency is to create their own rather than taking the trouble to find an existing value set for that concept and verify that it meets their needs.</p>
+<p>As an illustration, Organization A and Organization B belong to a DRN, use the same CDM, and use a common repository of value sets. Org. A defines ACE inhibitors as a particular list of RxNorm or NDC codes for use in a cohort study. Org A’a value set may be syntactically and semantically interoperable, i.e., <em>technically reusable</em> such that Org. B could use it for a new study involving ACE inhibitors, and it will work in their environment on their data as expected. But this reusability is a far cry from <em>real-world reuse</em>. For Org. B to actually reuse Org. A’s value set would require: 1) that they can find it; 2) that they believe it’s worth the effort to find it rather than defining a new one; 3) they can verify that it serves their current purpose; 4) if it doesn’t quite, then Org. B, as a contributing member of a value set reuse community would modify it accordingly and document their change in an easily auditable way so potential future users would understand the difference and, in turn, use or modify the version closest to their own needs.</p>
+<p>In a well-used value set repository, common clinical concepts are likely to have many variant value sets, differing in possibly subtle ways to capture certain use cases or clinical nuances. For this reason, finding the most appropriate match for the analyst’s immediate task may prove time consuming. The logical complexities involved in crafting cohort definitions and other analytics are rife with technical and cognitive challenges. In allocating cognitive resource, the chore of code selection is unlikely to receive more than the minimum attention necessary.Even if a conscientious analyst determines that creating or revising a value set is necessary, allowing for reuse will burden her with the extra work of adding her new value set to the repository, documenting, and naming it, with no guarantee that this work will benefit anyone else. In certain cases a quick text search or vocabulary perusal may yield a perfect value set for a given purpose. Creating one-off value sets without worrying about reuse allows the analyst to format codes to match her data and to render her value set directly as a filtering criterion in the query where it’s needed; no need for translation, data type conversion, joins to vocabulary tables, or consideration of vocabulary versions.</p>
+<p>The disincentives for reuse practices in analytic workflows are immediately felt, while benefits may be unclear, uncertain, or only available to future users..</p>
+<p>One place shared value sets are currently being used is for electronic clinical quality measures (eCQM). The eCQM “Statin Therapy for the Prevention and Treatment of Cardiovascular Disease” from the eCQI Resource Center<sup><a href="#r13-2973630" class="usa-link" aria-describedby="r13-2973630">13</a></sup> is a multi-step algorithm making reference to numerous clinical concepts whose definitions are in the form of value sets specified remotely by the US National Library of Medicine (NLM) Value Set Authority Center (VSAC).<sup><a href="#r4-2973630" class="usa-link" aria-describedby="r4-2973630">4</a></sup> The VSAC, in combination with the functionality provided by JIRA commenting and the companion NLM VSAC Collaboration site, is designed to create and then improve high-quality value sets through reuse and refinement, in addition to supporting distribution of specific code sets for compliance with CMS requirements. The capabilities NLM’s tools provide is only a starting point to address the difficulty practical semantic interoperability faces.</p></section><section id="sec5"><h2 class="pmc_sec_title">4. A Concept-Agnostic Perspective on Terminology Systems</h2>
+<p>No in-depth encounter with value sets and terminology systems can entirely avoid dealing with certain semiotic and ontological difficulties. Jim Cimino’s foundational 1998 and 2006 desiderata papers<sup><a href="#r36-2973630" class="usa-link" aria-describedby="r36-2973630">36</a>,<a href="#r37-2973630" class="usa-link" aria-describedby="r37-2973630">37</a></sup> establish norms and language that would suffice if it weren’t for the need to consider value sets that draw from overlapping vocabularies. Cimino’s “concept orientation” desideratum calls for nonvague, nonambiguous, and nonredundant vocabularies that classify their domains into clear divisions and subdivisions. Concepts are the fundamental units of meaning in such vocabularies, unlike terms, labels, or synonyms, which are names used to denote these concepts, to convey their meaning. We introduce the idea of a concept-agnostic orientation because concept redundancy may be unavoidable in some secondary use contexts, so we use “concept” and “term” somewhat interchangeably.</p>
+<p>Concept orientation is essential for vocabularies used in the capture of clinical data. It would be absurd, for example, to make care provider choose between ICD9 and ICD10 concepts in documenting patient conditions. Besides confusing the data capture process, it would compromise interpretation: e.g., choice between similar concepts appearing in both vocabularies might reflect a better match with the intended meaning, or it might reflect the provider’s greater familiarity with one vocabulary. In the analytic context, however, it may be necessary to support overlapping, redundant, and even inconsistent vocabularies. A query over a data set including records from before and after conversion from ICD9 to ICD10 might need value sets including codes from both. UMLS and OHDSI each provide a concept-oriented layer by which concepts and terms from any number of overlapping vocabularies are mapped to authoritative target concepts. But, according to our concept-agnostic orientation, this may not be necessary. OHDSI’s vocabulary system, as mentioned above, accomplishes concept orientation by singling out certain concepts (or whole vocabularies) as “standard”. But one might ignore this feature and see OHDSI’s collection of vocabularies as an undifferentiated heap of concept-agnostic terms, leaving concept orientation as an exercise for value set designers and users.</p>
+<p>While this might suggest a free-for-all, an abandonment of all hope for value set reuse, our aim is quite the opposite. With many vocabularies, many data sources, many different disciplines, industries, and use cases, the “same” concept will be representable with many different value sets. Some value set differences may reflect idiosyncrasies in regional or medical specialization coding practices, others will reflect actual nuances of meaning, and others still will reflect mistakes or oversights by designers. Our aim is to welcome differences in intended meaning or context-related code choice, while encouraging conformance, consolidation, and reuse whenever meanings are congruent and can be expressed appropriately for relevant contexts.</p>
+<p>Ideally, provenance data of a value set can be captured in a standardized way to represent its intended meaning or context information. Machine learning algorithms may also aid in construction, consolidation, curation, retrieval, or evaluation of shared value sets, but human researchers and analysts must ultimately judge whether a value set fits their intended concept and context. An interface for value set management, according to this principle of concept-agnosticism, would assume the role of facilitator, not arbiter, in determining concept congruence.</p></section><section id="sec6"><h2 class="pmc_sec_title">5. Standards, Infrastructure, and Design Recommendations</h2>
+<p>The following recommendations are intended to support the development of platforms that more effectively support reuse of semantic and analytic resources. While not comprehensive, they serve as a starting point for a more detailed and thorough set of guidelines to make reuse the norm rather than an easily ignored technical affordance.</p>
+<p><em>Value set specifications and functional requirements</em>. HL7 is currently balloting a specification that identifies a standardized approach to value set metadata and structure: <em>Characteristics of a Formal Value Set Definition, Release 1</em>.<sup><a href="#r12-2973630" class="usa-link" aria-describedby="r12-2973630">12</a></sup> This specification has been the basis for the FHIR value set resource. OHDSI’s requirements are not represented in relevant HL7 working groups, and the OHDSI Architecture working group is not considering external standards in its value set specification development process. Even if HL7’s specification is too detailed and complex to helpfully inform OHDSI’s specifications, an important opportunity will be lost if no effort is made to compare value set specifications across these organizations and domains and explore possibilities for shared standards.</p>
+<p><em>Definition processing and resolution</em>. Value set definitions are taken as rules that must be applied at “runtime” in the context of a specific vocabulary collection, at which point they are resolved to a list of codes actually occurring in that vocabulary collection. There are multiple approaches to defining value sets: <em>by enumeration</em> of codes selected by an analyst or copied from an external source like a published study; <em>by rule</em>, e.g., a SNOMED CT code for angioedema and all its descendants; b<em>y composition</em> including set operations (union, intersection, difference, complement) or modifications of existing value sets. A single value set definition may refer to <em>multiple vocabularies</em>, and a resolved value set expansion may include codes from multiple vocabularies.</p>
+<p><em>Standardized metadata</em>. A value set requires more than an executable definition. Metadata standards should include: value set name, vocabularies referenced, vocabulary versions required if any, description, comments, links to external sources (e.g., citations for publications, URLs for value sets copied from online repositories), links to public use of value set (eCQMs, etc.), and <em>provenance tracking</em> of author information, dates of creation and modification, detailed documentation of successive user actions involved in crafting definition, readable presentation of ancestor provenance, as well as documentation of user attempts—successful or not—to locate appropriate value sets to derive from.</p>
+<p><em>Computably traceable pedigree</em> should be enabled by storing references to the “parents” of value sets constructed by by modifying or performing set operations on existing value sets. Parent value sets may themselves have been derived from earlier value sets, forming ancestry paths back to value sets that were created anew. These paths can be used for <em>composite definition processing</em> allowing value set definitions to be assembled and resolved by starting at the start of its ancestry path and successively applying changes or set operations at each step, as well as for <em>provenance documentation</em>. For various reasons, the designer of a value set may want to make reference to other value sets for provenance documentation but not for definition processing.</p>
+<p><em>Infrastructure and adoption</em>. Real-world reuse will depend on adoption of software platforms and value set repositories supporting common specifications.</p>
+<p><em>License-compliant openness</em>. Value sets are composed of codes from controlled vocabularies, many under restrictive licenses. VSAC requires a UMLS license and user authentication for access to any value set. OHDSI authenticates licensing only for restricted vocabularies. A maximally open but legal reuse platform would accommodate vocabulary collections customized to users’ needs and permissions, perhaps redacting license-protected codes from as necessary.</p>
+<p><em>Open, public, crowdsourced curation</em>. Where redundant value sets cover the same concept, they might be merged or one may be favored over others (in value set repository searches) based on evidence of being more widely used or preferred, e.g., by authorities recognized by user configuration. A process that provides shared, open value set definition will lead to improved vetting of the content and thereby ease the use of value sets not under an organization’s direct control.</p>
+<p><em>Network effects</em>. To state the obvious, if there were already a platform and collection of value sets that everybody used or contributed to any time they needed a value set, that would be a powerful incentive for reuse. Conversely, even a perfect platform with every desirable affordance for reuse will face an uphill struggle until adoption reaches critical mass. The point here is that the allegiance of a user community can be as valuable in itself as any technical affordance, and these recommendations should not be taken as encouragement to build brand new platforms, but as a point of reference to facilitate efforts to <em>engage existing communities with value set platforms and repositories</em>, including, perhaps, commercial vendors as well as the non-commercial efforts we’ve brought up. Even if the existence of multiple platforms or repositories is inevitable or necessary, <em>opportunities for synergistic cooperation on harmonization or consolidation projects should be sought and encouraged</em>.</p>
+<p><em>Open standards, resources, and governance</em>. Because of the power of network effects, communities may vie for control of standards, software repositories, or curation of value sets and other shared resources and repositories. Jaron Lanier<sup><a href="#r38-2973630" class="usa-link" aria-describedby="r38-2973630">38</a></sup> describes how companies scramble for the winner-take-all spoils of controlling “siren servers”, central hubs for the sharing of crowd-sourced data. Technology supporting decentralized resource management may be needed to gain trust and participation.</p>
+<p><em>Interactive, information-rich, high-performance visual interfaces</em>. Given the range of formidable social and technical challenges facing value set reuse, especially regarding the ease of constructing one-off value sets, a successful platform will need interface innovation that goes beyond minimizing the cognitive and logistical costs involved in sharing and provides immediate positive benefits to users.</p>
+<p><em>Modular components for integration into health analytics development environments and other analytic interfaces</em>. Value sets are not ends in themselves; they are the computable representation of clinical concepts needed for other analytic tasks. An interface for creating, retrieving, using, or modifying value sets should be embedded unobtrusively into the context where value sets are needed. Users should see how their value set selection or modification choices affect the analytic task at hand immediately if possible.</p>
+<p><em>Semantic graph visualization linked to local patient data</em>. Designing an interface for semantic exploration, understanding, and navigation is challenging with some individual vocabularies (e.g., ontologies like SNOMED CT), and more challenging with a large collection of vocabularies with intra- and inter-vocabulary hierarchies and mappings. An interface should allow the user to: efficiently, intuitively, and flexibly display the semantic neighborhood surrounding a set of codes; efficiently, intuitively, and flexibly display observational data matching currently selected codes; visually compare similar value sets (e.g., the current value set and the same after some modification), in terms of both semantic neighborhood and matched observational data; receive computer-aided simplification prompts, e.g., if a subset of codes can be represented by including some single code and all its descendants (or relatives by some other relationship like mapping or indication), that substitution should be recommended to the user; view and explore provenance execution plan and derivation tree documentation; receive prompts to examine and make use of existing value sets matching or similar to the one being designed.</p></section><section id="sec7"><h2 class="pmc_sec_title">Limitations</h2>
+<p>The perspective on semantic interoperability of value sets presented here and the design ideas reflected in our recommendations have been shaped by our work as academics and professionals. While a systematic survey and wider use case analysis, literature review, or environmental scan might have resulted in a better representation of the informatics community at large, the insights offered here are informed by our long and diverse experience working on this issues.</p>
+<p>Our presentation of practices surrounding secondary use of health data is lopsided; most significantly by ignoring all but coded data. The development of reusable analytics for handling laboratory results, for instance, presents problems not touched on here.</p>
+<p>Though many of the observations and ideas presented here were formed in the course of professional work (much of it for organizations in the OHDSI community), the paper has been written without funding or specific institutional sponsorship. This is reflected in our focus on non-commercial efforts, CDMs, and OHDSI in particular. Our preference for open access standards and open source software should also be noted.</p></section><section id="floats-group1" class="floats-group"><section class="tw xbox font-sm" id="anchor"><div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="none"><tbody>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">ADE</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Adverse Drug Event</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">CDM</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Common Data Model</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">CDW</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Clinical Data Warehouse</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">CMS</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Centers for Medicare and Medicaid Services</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">DRN</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Distributed Research Network</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">eCQM</td>
+<td valign="top" align="left" rowspan="1" colspan="1">electronic Clinical Quality Measure</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">EHR</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Electronic Health Record</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">ETL</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Extract, Transform, Load</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">HL7</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Health Level 7 [cite]</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">i2b2</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Informatics for Integrating Biology and the Bedside<sup><a href="#r41-2973630" class="usa-link" aria-describedby="r41-2973630">41</a></sup>
+</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">ICD</td>
+<td valign="top" align="left" rowspan="1" colspan="1">International Classification of Disease<sup><a href="#r42-2973630" class="usa-link" aria-describedby="r42-2973630">42</a></sup>
+</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">NCQA</td>
+<td valign="top" align="left" rowspan="1" colspan="1">National Committee for Quality Assurance<sup><a href="#r39-2973630" class="usa-link" aria-describedby="r39-2973630">39</a></sup>
+</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">NDC</td>
+<td valign="top" align="left" rowspan="1" colspan="1">National Drug Code<sup><a href="#r40-2973630" class="usa-link" aria-describedby="r40-2973630">40</a></sup>
+</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">NLM</td>
+<td valign="top" align="left" rowspan="1" colspan="1">National Library of Medicine</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">OHDSI</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Observational Health Data Sciences and Informatics</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">OMOP</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Observational Medical Outcomes Partnership</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">PCORNet</td>
+<td valign="top" align="left" rowspan="1" colspan="1">National Patient-Centered Clinical Research Network</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">SME</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Subject Matter Expert</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">SNOMED CT</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Systematized Nomenclature of Medicine</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">UMLS</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Unified Medical Language System</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">VSAC</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Value Set Authority Center</td>
+</tr>
+<tr>
+<td valign="top" align="right" rowspan="1" colspan="1">VSD</td>
+<td valign="top" align="left" rowspan="1" colspan="1">Value Set Definition</td>
+</tr>
+</tbody></table></div>
+<div class="p text-right font-secondary"><a href="table/anchor/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section><section id="ack1" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p>We acknowledge and appreciate discussions with and comments from Michael Kahn, Linda Macri, Ben Shneiderman, Catherine Plaisant, Kristin Feeney, Shelley Rusincovitch, Olivier Bodenreider, Daniella Meeker, Chris Chute, Frank DeFalco, Greg Klebanov, Lee Evans, Anthony Sena, Andreas Mathison, Brian Butler, Susan Winter, Joel Chan, Richard Marciano, David Fram, Patrick Ryan, Jeff Brown, Don Rucker, George Hripcsak, and Jim Cimino. VH work was supported by the Intramural Research Program of the National Institutes of Health (NIH)/ National Library of Medicine (NLM)/ Lister Hill National Center for Biomedical Communications (LHNCBC).</p>
+<p>Appendix: Table of Acronyms</p></section><section id="article1" lang="en" class="fn-group"><h2 class="pmc_sec_title">Footnotes</h2>
+<div class="fn-group p font-secondary-light font-sm"><div class="fn p" id="fn1-2973630">
+<sup>*</sup><p class="display-inline">Given the extreme profusion of acronyms used around our topic, we provide meanings and references in an appendix rather at the first use of each acronym.</p>
+</div></div></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="r1-2973630">
+<span class="label">1.</span><cite>Jiang G, Solbrig HR, Chute CG. Quality evaluation of cancer study Common Data Elements using the UMLS Semantic Network. J Biomed Inform. 2011 Dec;44(Suppl 1):S78–85. doi: 10.1016/j.jbi.2011.08.001.</cite> [<a href="https://doi.org/10.1016/j.jbi.2011.08.001" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21840422/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Jiang%20G,%20Solbrig%20HR,%20Chute%20CG.%20Quality%20evaluation%20of%20cancer%20study%20Common%20Data%20Elements%20using%20the%20UMLS%20Semantic%20Network.%20J%20Biomed%20Inform.%202011%20Dec;44(Suppl%201):S78%E2%80%9385.%20doi:%2010.1016/j.jbi.2011.08.001." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r2-2973630">
+<span class="label">2.</span><cite>Jiang G, Solbrig HR, Chute CG. Quality evaluation of value sets from cancer study common data elements using the UMLS semantic groups. J Am Med Inform Assoc. 2012 Jun;19(e1):e129–36. doi: 10.1136/amiajnl-2011-000739.</cite> [<a href="https://doi.org/10.1136/amiajnl-2011-000739" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3392855/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22511016/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Jiang%20G,%20Solbrig%20HR,%20Chute%20CG.%20Quality%20evaluation%20of%20value%20sets%20from%20cancer%20study%20common%20data%20elements%20using%20the%20UMLS%20semantic%20groups.%20J%20Am%20Med%20Inform%20Assoc.%202012%20Jun;19(e1):e129%E2%80%9336.%20doi:%2010.1136/amiajnl-2011-000739." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r3-2973630">
+<span class="label">3.</span><cite>Peterson KJ, Jiang G, Brue SM, Liu H. Leveraging Terminology Services for Extract-Transform-Load Processes: A User-Centered Approach. AMIA Annu Symp Proc. 2016;2016:1010–9.</cite> [<a href="/articles/PMC5333225/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28269898/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Peterson%20KJ,%20Jiang%20G,%20Brue%20SM,%20Liu%20H.%20Leveraging%20Terminology%20Services%20for%20Extract-Transform-Load%20Processes:%20A%20User-Centered%20Approach.%20AMIA%20Annu%20Symp%20Proc.%202016;2016:1010%E2%80%939." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r4-2973630">
+<span class="label">4.</span><cite>Bodenreider O, Nguyen D, Chiang P, Chuang P, Madden M, Winnenburg R. The NLM value set authority center. Stud Health Technol Inform. 2013;192:1224.</cite> [<a href="/articles/PMC4300102/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23920998/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Bodenreider%20O,%20Nguyen%20D,%20Chiang%20P,%20Chuang%20P,%20Madden%20M,%20Winnenburg%20R.%20The%20NLM%20value%20set%20authority%20center.%20Stud%20Health%20Technol%20Inform.%202013;192:1224." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r5-2973630">
+<span class="label">5.</span><cite>Jiang G, Kiefer R, Prud’hommeaux E, Solbrig HR. Building Interoperable FHIR-Based Vocabulary Mapping Services: A Case Study of OHDSI Vocabularies and Mappings. Stud Health Technol Inform. 2017;245:1327.</cite> [<a href="/articles/PMC5939959/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29295408/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Jiang%20G,%20Kiefer%20R,%20Prud%E2%80%99hommeaux%20E,%20Solbrig%20HR.%20Building%20Interoperable%20FHIR-Based%20Vocabulary%20Mapping%20Services:%20A%20Case%20Study%20of%20OHDSI%20Vocabularies%20and%20Mappings.%20Stud%20Health%20Technol%20Inform.%202017;245:1327." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r6-2973630">
+<span class="label">6.</span><cite>Richesson RL, Sun J, Pathak J, Kho AN, Denny JC. Clinical phenotyping in selected national networks: demonstrating the need for high-throughput, portable, and computational methods. Artif Intell Med. 2016 Jul;71:57–61. doi: 10.1016/j.artmed.2016.05.005.</cite> [<a href="https://doi.org/10.1016/j.artmed.2016.05.005" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5480212/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27506131/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Richesson%20RL,%20Sun%20J,%20Pathak%20J,%20Kho%20AN,%20Denny%20JC.%20Clinical%20phenotyping%20in%20selected%20national%20networks:%20demonstrating%20the%20need%20for%20high-throughput,%20portable,%20and%20computational%20methods.%20Artif%20Intell%20Med.%202016%20Jul;71:57%E2%80%9361.%20doi:%2010.1016/j.artmed.2016.05.005." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r7-2973630">
+<span class="label">7.</span><cite>Mo H, Jiang G, Pacheco JA, Kiefer R, Rasmussen LV, Pathak J. A Decompositional Approach to Executing Quality Data Model Algorithms on the i2b2 Platform. AMIA Jt Summits Transl Sci Proc. 2016 Jul 20;2016:167–75.</cite> [<a href="/articles/PMC5001760/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27570665/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Mo%20H,%20Jiang%20G,%20Pacheco%20JA,%20Kiefer%20R,%20Rasmussen%20LV,%20Pathak%20J.%20A%20Decompositional%20Approach%20to%20Executing%20Quality%20Data%20Model%20Algorithms%20on%20the%20i2b2%20Platform.%20AMIA%20Jt%20Summits%20Transl%20Sci%20Proc.%202016%20Jul%2020;2016:167%E2%80%9375." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r8-2973630">
+<span class="label">8.</span><cite>Brown JS, Kahn M, Toh S. Data quality assessment for comparative effectiveness research in distributed data networks. Med Care. 2013 Aug;51(8 Suppl 3):S22–9. doi: 10.1097/MLR.0b013e31829b1e2c.</cite> [<a href="https://doi.org/10.1097/MLR.0b013e31829b1e2c" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4306391/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23793049/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Brown%20JS,%20Kahn%20M,%20Toh%20S.%20Data%20quality%20assessment%20for%20comparative%20effectiveness%20research%20in%20distributed%20data%20networks.%20Med%20Care.%202013%20Aug;51(8%20Suppl%203):S22%E2%80%939.%20doi:%2010.1097/MLR.0b013e31829b1e2c." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r9-2973630">
+<span class="label">9.</span><cite>Rosenbloom ST, Carroll RJ, Warner JL, Matheny ME, Denny JC. Representing Knowledge Consistently Across Health Systems. Yearb Med Inform. 2017 Aug;26(1):139–47. doi: 10.15265/IY-2017-018.</cite> [<a href="https://doi.org/10.15265/IY-2017-018" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6239235/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29063555/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Rosenbloom%20ST,%20Carroll%20RJ,%20Warner%20JL,%20Matheny%20ME,%20Denny%20JC.%20Representing%20Knowledge%20Consistently%20Across%20Health%20Systems.%20Yearb%20Med%20Inform.%202017%20Aug;26(1):139%E2%80%9347.%20doi:%2010.15265/IY-2017-018." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r10-2973630">
+<span class="label">10.</span><cite>Mo H, Thompson WK, Rasmussen LV, Pacheco JA, Jiang G, Kiefer R. Desiderata for computable representations of electronic health records-driven phenotype algorithms. J Am Med Inform Assoc. 2015 Nov;22(6):1220–30. doi: 10.1093/jamia/ocv112.</cite> [<a href="https://doi.org/10.1093/jamia/ocv112" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4639716/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26342218/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Mo%20H,%20Thompson%20WK,%20Rasmussen%20LV,%20Pacheco%20JA,%20Jiang%20G,%20Kiefer%20R.%20Desiderata%20for%20computable%20representations%20of%20electronic%20health%20records-driven%20phenotype%20algorithms.%20J%20Am%20Med%20Inform%20Assoc.%202015%20Nov;22(6):1220%E2%80%9330.%20doi:%2010.1093/jamia/ocv112." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r11-2973630">
+<span class="label">11.</span><cite>Kirby JC, Speltz P, Rasmussen LV, Basford M, Gottesman O, Peissig PL. PheKB: a catalog and workflow for creating electronic phenotype algorithms for transportability. J Am Med Inform Assoc. 2016 Nov;23(6):1046–52. doi: 10.1093/jamia/ocv202.</cite> [<a href="https://doi.org/10.1093/jamia/ocv202" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5070514/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27026615/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Kirby%20JC,%20Speltz%20P,%20Rasmussen%20LV,%20Basford%20M,%20Gottesman%20O,%20Peissig%20PL.%20PheKB:%20a%20catalog%20and%20workflow%20for%20creating%20electronic%20phenotype%20algorithms%20for%20transportability.%20J%20Am%20Med%20Inform%20Assoc.%202016%20Nov;23(6):1046%E2%80%9352.%20doi:%2010.1093/jamia/ocv202." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r12-2973630">
+<span class="label">12.</span><cite>HL7 Standards Product Brief - HL7 Specification: Characteristics of a Formal Value Set Definition, Release 1 [Internet]  [cited 2018 Mar 8]. Available from:  <a href="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=437" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.hl7.org/implement/standards/product_brief.cfm?product_id=437</a>.</cite>
+</li>
+<li id="r13-2973630">
+<span class="label">13.</span><cite>Centers for Medicare &amp; Medicaid Services, Office of the National Coordinator for Health Information Technology. Statin Therapy for the Prevention and Treatment of Cardiovascular Disease [Internet]. eCQI Resource Center. 2017.  [cited 2018 Mar 3]. Available from:  <a href="https://ecqi.healthit.gov/ecqm/measures/cms347v1" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://ecqi.healthit.gov/ecqm/measures/cms347v1</a>.</cite>
+</li>
+<li id="r14-2973630">
+<span class="label">14.</span><cite>Winnenburg R, Bodenreider O. Metrics for assessing the quality of value sets in clinical quality measures. AMIA Annu Symp Proc. 2013 Nov 16;2013:1497–505.</cite> [<a href="/articles/PMC3900160/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24551422/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Winnenburg%20R,%20Bodenreider%20O.%20Metrics%20for%20assessing%20the%20quality%20of%20value%20sets%20in%20clinical%20quality%20measures.%20AMIA%20Annu%20Symp%20Proc.%202013%20Nov%2016;2013:1497%E2%80%93505." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r15-2973630">
+<span class="label">15.</span><cite>Goss FR, Zhou L, Plasek JM, Broverman C, Robinson G, Middleton B. Evaluating standard terminologies for encoding allergy information. J Am Med Inform Assoc. 2013 Sep;20(5):969–79. doi: 10.1136/amiajnl-2012-000816.</cite> [<a href="https://doi.org/10.1136/amiajnl-2012-000816" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3756252/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23396542/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Goss%20FR,%20Zhou%20L,%20Plasek%20JM,%20Broverman%20C,%20Robinson%20G,%20Middleton%20B.%20Evaluating%20standard%20terminologies%20for%20encoding%20allergy%20information.%20J%20Am%20Med%20Inform%20Assoc.%202013%20Sep;20(5):969%E2%80%9379.%20doi:%2010.1136/amiajnl-2012-000816." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r16-2973630">
+<span class="label">16.</span><cite>Richesson RL, Nadkarni P. Data standards for clinical research data collection forms: current status and challenges. J Am Med Inform Assoc. 2011 May 1;18(3):341–6. doi: 10.1136/amiajnl-2011-000107.</cite> [<a href="https://doi.org/10.1136/amiajnl-2011-000107" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3078665/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21486890/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Richesson%20RL,%20Nadkarni%20P.%20Data%20standards%20for%20clinical%20research%20data%20collection%20forms:%20current%20status%20and%20challenges.%20J%20Am%20Med%20Inform%20Assoc.%202011%20May%201;18(3):341%E2%80%936.%20doi:%2010.1136/amiajnl-2011-000107." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r17-2973630">
+<span class="label">17.</span><cite>Rector AL, Qamar R, Marley T. Binding ontologies and coding systems to electronic health records and messages. Appl Ontol. 2009;4(1):51–69.</cite> [<a href="https://scholar.google.com/scholar_lookup?Rector%20AL,%20Qamar%20R,%20Marley%20T.%20Binding%20ontologies%20and%20coding%20systems%20to%20electronic%20health%20records%20and%20messages.%20Appl%20Ontol.%202009;4(1):51%E2%80%9369." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r18-2973630">
+<span class="label">18.</span><cite>Tu SW, Campbell JR, Glasgow J, Nyman MA, McClure R, McClay J. The SAGE Guideline Model: achievements and overview. J Am Med Inform Assoc. 2007;14(5):589–98. doi: 10.1197/jamia.M2399.</cite> [<a href="https://doi.org/10.1197/jamia.M2399" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1975799/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17600098/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Tu%20SW,%20Campbell%20JR,%20Glasgow%20J,%20Nyman%20MA,%20McClure%20R,%20McClay%20J.%20The%20SAGE%20Guideline%20Model:%20achievements%20and%20overview.%20J%20Am%20Med%20Inform%20Assoc.%202007;14(5):589%E2%80%9398.%20doi:%2010.1197/jamia.M2399." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r19-2973630">
+<span class="label">19.</span><cite>Rector AL. What’s in a code? Towards a formal account of the relation of ontologies and coding systems. Stud Health Technol Inform. 2007;129(Pt 1):730–4.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/17911813/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Rector%20AL.%20What%E2%80%99s%20in%20a%20code?%20Towards%20a%20formal%20account%20of%20the%20relation%20of%20ontologies%20and%20coding%20systems.%20Stud%20Health%20Technol%20Inform.%202007;129(Pt%201):730%E2%80%934." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r20-2973630">
+<span class="label">20.</span><cite>Reisinger SJ, Ryan PB, O’Hara DJ, Powell GE, Painter JL, Pattishall EN. Development and evaluation of a common data model enabling active drug safety surveillance using disparate healthcare databases. J Am Med Inform Assoc. 2010 Nov;17(6):652–62. doi: 10.1136/jamia.2009.002477.</cite> [<a href="https://doi.org/10.1136/jamia.2009.002477" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3000752/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20962127/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Reisinger%20SJ,%20Ryan%20PB,%20O%E2%80%99Hara%20DJ,%20Powell%20GE,%20Painter%20JL,%20Pattishall%20EN.%20Development%20and%20evaluation%20of%20a%20common%20data%20model%20enabling%20active%20drug%20safety%20surveillance%20using%20disparate%20healthcare%20databases.%20J%20Am%20Med%20Inform%20Assoc.%202010%20Nov;17(6):652%E2%80%9362.%20doi:%2010.1136/jamia.2009.002477." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r21-2973630">
+<span class="label">21.</span><cite>Overhage JM, Ryan PB, Reich CG, Hartzema AG, Stang PE. Validation of a common data model for active safety surveillance research. J Am Med Inform Assoc. 2012 Jan;19(1):54–60. doi: 10.1136/amiajnl-2011-000376.</cite> [<a href="https://doi.org/10.1136/amiajnl-2011-000376" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3240764/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22037893/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Overhage%20JM,%20Ryan%20PB,%20Reich%20CG,%20Hartzema%20AG,%20Stang%20PE.%20Validation%20of%20a%20common%20data%20model%20for%20active%20safety%20surveillance%20research.%20J%20Am%20Med%20Inform%20Assoc.%202012%20Jan;19(1):54%E2%80%9360.%20doi:%2010.1136/amiajnl-2011-000376." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r22-2973630">
+<span class="label">22.</span><cite>Garza M, Del Fiol G, Tenenbaum J, Walden A, Zozus MN. Evaluating common data models for use with a longitudinal community registry. J Biomed Inform. 2016 Dec;64:333–41. doi: 10.1016/j.jbi.2016.10.016.</cite> [<a href="https://doi.org/10.1016/j.jbi.2016.10.016" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6810649/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27989817/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Garza%20M,%20Del%20Fiol%20G,%20Tenenbaum%20J,%20Walden%20A,%20Zozus%20MN.%20Evaluating%20common%20data%20models%20for%20use%20with%20a%20longitudinal%20community%20registry.%20J%20Biomed%20Inform.%202016%20Dec;64:333%E2%80%9341.%20doi:%2010.1016/j.jbi.2016.10.016." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r23-2973630">
+<span class="label">23.</span><cite>Kahn MG. 04-EHR data methodologies in clinical research: perspectives from the field. Session 1: Semantic harmonization: definition; content; ontologies. Common data models for sharing EHR data across settings. Health Sciences Library Photograph Collection and Special Collections, University of Colorado Anschutz Medical Campus, Health Sciences Library; Series V: School of Medicine Publications [Internet] 2007.  Available from:  <a href="https://dspace.library.colostate.edu/handle/10968/737" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://dspace.library.colostate.edu/handle/10968/737</a>.</cite>
+</li>
+<li id="r24-2973630">
+<span class="label">24.</span><cite>Kuehn BM. FDA’s Foray Into Big Data Still Maturing. JAMA. 2016 May 10;315(18):1934–6. doi: 10.1001/jama.2016.2752.</cite> [<a href="https://doi.org/10.1001/jama.2016.2752" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27097048/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Kuehn%20BM.%20FDA%E2%80%99s%20Foray%20Into%20Big%20Data%20Still%20Maturing.%20JAMA.%202016%20May%2010;315(18):1934%E2%80%936.%20doi:%2010.1001/jama.2016.2752." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r25-2973630">
+<span class="label">25.</span><cite>Velentgas P, Bohn RL, Brown JS, Chan KA, Gladowski P, Holick CN. A distributed research network model for post-marketing safety studies: the Meningococcal Vaccine Study. Pharmacoepidemiol Drug Saf. 2008 Dec;17(12):1226–34. doi: 10.1002/pds.1675.</cite> [<a href="https://doi.org/10.1002/pds.1675" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18956428/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Velentgas%20P,%20Bohn%20RL,%20Brown%20JS,%20Chan%20KA,%20Gladowski%20P,%20Holick%20CN.%20A%20distributed%20research%20network%20model%20for%20post-marketing%20safety%20studies:%20the%20Meningococcal%20Vaccine%20Study.%20Pharmacoepidemiol%20Drug%20Saf.%202008%20Dec;17(12):1226%E2%80%9334.%20doi:%2010.1002/pds.1675." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r26-2973630">
+<span class="label">26.</span><cite>Brown JS, Kulldorff M, Chan KA, Davis RL, Graham D, Pettus PT. Early detection of adverse drug events within population-based health networks: application of sequential testing methods. Pharmacoepidemiol Drug Saf. 2007 Dec;16(12):1275–84. doi: 10.1002/pds.1509.</cite> [<a href="https://doi.org/10.1002/pds.1509" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17955500/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Brown%20JS,%20Kulldorff%20M,%20Chan%20KA,%20Davis%20RL,%20Graham%20D,%20Pettus%20PT.%20Early%20detection%20of%20adverse%20drug%20events%20within%20population-based%20health%20networks:%20application%20of%20sequential%20testing%20methods.%20Pharmacoepidemiol%20Drug%20Saf.%202007%20Dec;16(12):1275%E2%80%9384.%20doi:%2010.1002/pds.1509." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r27-2973630">
+<span class="label">27.</span><cite>Schneeweiss S. A basic study design for expedited safety signal evaluation based on electronic healthcare data. Pharmacoepidemiol Drug Saf. 2010 Aug;19(8):858–68. doi: 10.1002/pds.1926.</cite> [<a href="https://doi.org/10.1002/pds.1926" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2917262/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20681003/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Schneeweiss%20S.%20A%20basic%20study%20design%20for%20expedited%20safety%20signal%20evaluation%20based%20on%20electronic%20healthcare%20data.%20Pharmacoepidemiol%20Drug%20Saf.%202010%20Aug;19(8):858%E2%80%9368.%20doi:%2010.1002/pds.1926." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r28-2973630">
+<span class="label">28.</span><cite>Huser V, Cimino JJ. Desiderata for healthcare integrated data repositories based on architectural comparison of three public repositories. AMIA Annu Symp Proc. 2013 Nov 16;2013:648–56.</cite> [<a href="/articles/PMC3900207/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24551366/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Huser%20V,%20Cimino%20JJ.%20Desiderata%20for%20healthcare%20integrated%20data%20repositories%20based%20on%20architectural%20comparison%20of%20three%20public%20repositories.%20AMIA%20Annu%20Symp%20Proc.%202013%20Nov%2016;2013:648%E2%80%9356." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r29-2973630">
+<span class="label">29.</span><cite>Stang PE, Ryan PB, Racoosin JA, Overhage JM, Hartzema AG, Reich C. Advancing the science for active surveillance: rationale and design for the Observational Medical Outcomes Partnership. Ann Intern Med. 2010 Nov 2;153(9):600–6. doi: 10.7326/0003-4819-153-9-201011020-00010.</cite> [<a href="https://doi.org/10.7326/0003-4819-153-9-201011020-00010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21041580/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Stang%20PE,%20Ryan%20PB,%20Racoosin%20JA,%20Overhage%20JM,%20Hartzema%20AG,%20Reich%20C.%20Advancing%20the%20science%20for%20active%20surveillance:%20rationale%20and%20design%20for%20the%20Observational%20Medical%20Outcomes%20Partnership.%20Ann%20Intern%20Med.%202010%20Nov%202;153(9):600%E2%80%936.%20doi:%2010.7326/0003-4819-153-9-201011020-00010." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r30-2973630">
+<span class="label">30.</span><cite>Bakken S. An informatics infrastructure is essential for evidence-based practice. J Am Med Inform Assoc. 2001 May;8(3):199–201. doi: 10.1136/jamia.2001.0080199.</cite> [<a href="https://doi.org/10.1136/jamia.2001.0080199" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC131027/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11320064/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Bakken%20S.%20An%20informatics%20infrastructure%20is%20essential%20for%20evidence-based%20practice.%20J%20Am%20Med%20Inform%20Assoc.%202001%20May;8(3):199%E2%80%93201.%20doi:%2010.1136/jamia.2001.0080199." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r31-2973630">
+<span class="label">31.</span><cite>Bowker GC, Star SL.  Springer: Community computing and support systems; 1998. Building information infrastructures for social worlds—The role of classifications and standards; pp. 231–48..</cite> [<a href="https://scholar.google.com/scholar_lookup?Bowker%20GC,%20Star%20SL.%20Springer:%20Community%20computing%20and%20support%20systems;%201998.%20Building%20information%20infrastructures%20for%20social%20worlds%E2%80%94The%20role%20of%20classifications%20and%20standards;%20pp.%20231%E2%80%9348.." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r32-2973630">
+<span class="label">32.</span><cite>Becnel LB, Hastak S, Ver Hoef W, Milius RP, Slack M, Wold D. BRIDG: a domain information model for translational and clinical protocol-driven research. J Am Med Inform Assoc. 2017 Sep 1;24(5):882–90.. doi: 10.1093/jamia/ocx004.</cite> [<a href="https://doi.org/10.1093/jamia/ocx004" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6259662/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28339791/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Becnel%20LB,%20Hastak%20S,%20Ver%20Hoef%20W,%20Milius%20RP,%20Slack%20M,%20Wold%20D.%20BRIDG:%20a%20domain%20information%20model%20for%20translational%20and%20clinical%20protocol-driven%20research.%20J%20Am%20Med%20Inform%20Assoc.%202017%20Sep%201;24(5):882%E2%80%9390..%20doi:%2010.1093/jamia/ocx004." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r33-2973630">
+<span class="label">33.</span><cite>DeFalco FJ, Ryan PB, Soledad Cepeda M. Applying standardized drug terminologies to observational healthcare databases: a case study on opioid exposure. Health Serv Outcomes Res Methodol. 2013 Mar 1;13(1):58–67. doi: 10.1007/s10742-012-0102-1.</cite> [<a href="https://doi.org/10.1007/s10742-012-0102-1" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3566397/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23396660/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?DeFalco%20FJ,%20Ryan%20PB,%20Soledad%20Cepeda%20M.%20Applying%20standardized%20drug%20terminologies%20to%20observational%20healthcare%20databases:%20a%20case%20study%20on%20opioid%20exposure.%20Health%20Serv%20Outcomes%20Res%20Methodol.%202013%20Mar%201;13(1):58%E2%80%9367.%20doi:%2010.1007/s10742-012-0102-1." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r34-2973630">
+<span class="label">34.</span><cite>Curtis LH, Weiner MG, Boudreau DM, Cooper WO, Daniel GW, Nair VP. Design considerations, architecture, and use of the Mini-Sentinel distributed data system. Pharmacoepidemiol Drug Saf. 2012 Jan;21(Suppl 1):23–31. doi: 10.1002/pds.2336.</cite> [<a href="https://doi.org/10.1002/pds.2336" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22262590/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Curtis%20LH,%20Weiner%20MG,%20Boudreau%20DM,%20Cooper%20WO,%20Daniel%20GW,%20Nair%20VP.%20Design%20considerations,%20architecture,%20and%20use%20of%20the%20Mini-Sentinel%20distributed%20data%20system.%20Pharmacoepidemiol%20Drug%20Saf.%202012%20Jan;21(Suppl%201):23%E2%80%9331.%20doi:%2010.1002/pds.2336." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r35-2973630">
+<span class="label">35.</span><cite>DeFalco F. OHDSI Architecture Workgroup [Internet]. Observational Health Data Science and Informatics Wiki. [cited 2018 Mar 3]  Available from:  <a href="http://www.ohdsi.org/web/wiki/doku.php?id=projects:workgroups:architecture_wg" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.ohdsi.org/web/wiki/doku.php?id=projects:workgroups:architecture_wg</a>.</cite>
+</li>
+<li id="r36-2973630">
+<span class="label">36.</span><cite>Cimino JJ. Desiderata for controlled medical vocabularies in the twenty-first century. Methods Inf Med. 1998;37(4-5):394–403.</cite> [<a href="/articles/PMC3415631/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/9865037/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Cimino%20JJ.%20Desiderata%20for%20controlled%20medical%20vocabularies%20in%20the%20twenty-first%20century.%20Methods%20Inf%20Med.%201998;37(4-5):394%E2%80%93403." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r37-2973630">
+<span class="label">37.</span><cite>Cimino JJ. In defense of the Desiderata. J Biomed Inform. 2006 Jun;39(3):299–306. doi: 10.1016/j.jbi.2005.11.008.</cite> [<a href="https://doi.org/10.1016/j.jbi.2005.11.008" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7185649/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16386470/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Cimino%20JJ.%20In%20defense%20of%20the%20Desiderata.%20J%20Biomed%20Inform.%202006%20Jun;39(3):299%E2%80%93306.%20doi:%2010.1016/j.jbi.2005.11.008." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r38-2973630">
+<span class="label">38.</span><cite>Lanier J.  2014. Who Owns the Future? Simon and Schuster; p. 411.</cite> [<a href="https://scholar.google.com/scholar_lookup?Lanier%20J.%202014.%20Who%20Owns%20the%20Future?%20Simon%20and%20Schuster;%20p.%20411." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r39-2973630">
+<span class="label">39.</span><cite>Dean Beaulieu N, Epstein AM. National Committee on Quality Assurance health-plan accreditation: predictors, correlates of performance, and market impact. Med Care. 2002 Apr;40(4):325–37. doi: 10.1097/00005650-200204000-00008.</cite> [<a href="https://doi.org/10.1097/00005650-200204000-00008" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/12021688/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Dean%20Beaulieu%20N,%20Epstein%20AM.%20National%20Committee%20on%20Quality%20Assurance%20health-plan%20accreditation:%20predictors,%20correlates%20of%20performance,%20and%20market%20impact.%20Med%20Care.%202002%20Apr;40(4):325%E2%80%9337.%20doi:%2010.1097/00005650-200204000-00008." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r40-2973630">
+<span class="label">40.</span><cite>National Drug Code Directory [Internet] U.S. Food &amp; Drug Administration. [cited 2018 Jun 27].  Available from:  <a href="https://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm</a>.</cite>
+</li>
+<li id="r41-2973630">
+<span class="label">41.</span><cite>Murphy SN, Weber G, Mendis M, Gainer V, Chueh HC, Churchill S. Serving the enterprise and beyond with informatics for integrating biology and the bedside (i2b2). J Am Med Inform Assoc. 2010 Mar;17(2):124–30. doi: 10.1136/jamia.2009.000893.</cite> [<a href="https://doi.org/10.1136/jamia.2009.000893" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3000779/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20190053/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?Murphy%20SN,%20Weber%20G,%20Mendis%20M,%20Gainer%20V,%20Chueh%20HC,%20Churchill%20S.%20Serving%20the%20enterprise%20and%20beyond%20with%20informatics%20for%20integrating%20biology%20and%20the%20bedside%20(i2b2).%20J%20Am%20Med%20Inform%20Assoc.%202010%20Mar;17(2):124%E2%80%9330.%20doi:%2010.1136/jamia.2009.000893." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r42-2973630">
+<span class="label">42.</span><cite>Organization WH, Others. 2006. History of the development of the ICD. World Health Organization.</cite> [<a href="https://scholar.google.com/scholar_lookup?Organization%20WH,%20Others.%202006.%20History%20of%20the%20development%20of%20the%20ICD.%20World%20Health%20Organization." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from AMIA Annual Symposium Proceedings are provided here courtesy of <strong>American Medical Informatics Association</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               
+               <li>
+                    <a
+                            href="pdf/2973630.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (357.8 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/6371254/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/6371254/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC6371254%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC6371254/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC6371254/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC6371254/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/30815088/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC6371254/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/30815088/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC6371254/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/6371254/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="wi06ANIduFIRxQ5GHHzOhZaplYorOyfIzbwHT4Vn9DsK1Dk0QlzmzRhGtxVR7oZi">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

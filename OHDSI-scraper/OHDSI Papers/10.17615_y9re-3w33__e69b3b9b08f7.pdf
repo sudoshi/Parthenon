@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="cv8vhp5J8BmK3uVxk9upfuOqoMlCaS4QFupOTofOMz+RejNxA8iT6JbNyDAN8CO8YNKsOiVjtx8ADsifZkQpQQ==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="resourcesync" href="https://cdr.lib.unc.edu/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+  <meta name="twitter:card" content="product" />
+  <meta name="twitter:site" content="@SamveraRepo" />
+  <meta name="twitter:creator" content="@SamveraRepo" />
+  <meta property="og:site_name" content="Carolina Digital Repository" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content="Enhancing drug safety through active surveillance of observational healthcare data" />
+  <meta property="og:description" content="Enhancing drug safety through active surveillance of observational healthcare data" />
+  <meta property="og:image" content="http://cdr.lib.unc.edu/downloads/7w62f857z" />
+  <meta property="og:url" content="https://cdr.lib.unc.edu/concern/dissertations/m039k5382?locale=en" />
+  <meta name="twitter:data1" content="" />
+  <meta name="twitter:label1" content="Keywords" />
+  <meta name="twitter:data2" content="http://rightsstatements.org/vocab/InC/1.0/" />
+  <meta name="twitter:label2" content="Rights Statement" />
+
+<!-- Google Scholar metadata -->
+  <meta name="description" content="Enhancing drug safety through active surveillance of observational healthcare data" />
+  <meta name="citation_title" content="Enhancing drug safety through active surveillance of observational healthcare data" />
+
+  <meta name="citation_author" content="Ryan, Patrick B." />
+
+  <meta name="citation_publication_date" content="May 2011" />
+
+  <meta name="citation_pdf_url" content="http://cdr.lib.unc.edu/downloads/7w62f857z" />
+
+
+  <meta name="citation_publisher" content="University of North Carolina at Chapel Hill" />
+
+
+
+
+
+
+
+<title>Dissertation or Thesis | Enhancing drug safety through active surveillance of observational healthcare data | ID: m039k5382 | Carolina Digital Repository</title>
+
+<!-- application css -->
+<link rel="stylesheet" media="screen" href="/assets/application-f5458433c19f288276e296507f5a8b1bf859c69fdfe0f11e3eeeca2146c9daac.css" />
+
+<!-- application js -->
+<script src="/assets/application-6ae2502b8e709adf486c5551ad268d0b12983285567e7cb3a28fb879365780d4.js"></script>
+
+<style>
+a { color: #2e74b2; }
+.navbar-dark.bg-dark .navbar-link { color: #ffebcd; }
+
+.navbar-dark.bg-dark { background-color: #3c3c3c !important; }
+
+.navbar-dark.bg-dark .navbar-nav > .open > a,
+.navbar-dark.bg-dark .navbar-nav > .open > a:hover,
+.navbar-dark.bg-dark .navbar-nav > .open > a:focus { background-color: #3c3c3c; }
+
+.navbar-dark.bg-dark .navbar-nav > li > a,
+.navbar-dark.bg-dark .navbar-text,
+.navbar-dark.bg-dark .navbar-brand { color: #dcdcdc; }
+
+.btn-primary {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #245682;
+  border-color: #1d4467;
+}
+
+.btn-primary:hover {
+  background-color: #245682;
+  border-color: #215079;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus{
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+</style>
+
+
+    <script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  // _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.lib.unc.edu/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', "6"]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+  window.analytics = _paq;
+</script>
+<meta name="analytics-provider" content="matomo">
+
+<!-- for extras, e.g., a favicon -->
+<meta name="msvalidate.01" content="6963C16215285DFB9641BD17E441FAAE"/>
+<meta name="google-site-verification" content="WO17zKdoDATg4FxnQafjjRNowoM-TDP4hEfb_H--mdo" />
+
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon-545d11a84432819b25149c67d4e2aa95f3bee9e815f20b9bfbf105e836d70ff5.ico" />
+
+
+    
+  </head>
+
+  <body>
+    <div class="skip-to-content sr-only">
+      <a data-turbolinks="false" href="#skip-to-content">Skip to Content</a>
+    </div>
+    <header aria-label="header" class="top-header">
+  <nav id="masthead" class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between" role="navigation" aria-label="masthead">
+    <h1 class="sr-only">Carolina Digital Repository</h1>
+    <div id="logo" class="navbar-brand">
+  <span class="institution_name">
+    <a href="/"><span>University Library</span> Carolina Digital Repository</a>
+  </span>
+</div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+    <li class="nav-item">
+      <a class="nav-link" href="/sign_in?locale=en">
+        <span class="fa fa-sign-in" aria-hidden="true"></span> Login
+</a>    </li>
+</ul>
+    </div>
+  </nav>
+</header>
+
+      <nav class="navbar navbar-light bg-light navbar-expand-sm justify-content-between align-items-baseline px-2 py-2 border-bottom" role="navigation" aria-label="Root Menu">
+    <ul class="nav navbar-nav col-sm-5">
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?locale=en">Browse Everything</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog/facet/affiliation_label_sim?locale=en">Departments</a></li>
+        <li class="nav-item" data-turbolinks="false">
+          <a class="all-unc-work-types nav-link" data-behavior="select-work" data-target="#worktypes-to-create" data-create-type="single" href="#">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+            Deposit
+</a>        </li>
+    </ul><!-- /.nav -->
+    <div class="col-sm-7">
+      <form class="form-horizontal search-form" id="search-form-header" role="search" action="/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" />
+  
+  <input type="hidden" name="search_field" id="search_field" value="all_fields" autocomplete="off" />
+   <div class="form-group row">
+
+    <label class="col-sm-3 mb-0" for="search-field-header">
+      Search the Carolina Digital Repository
+    </label>
+
+    <div class="input-group col">
+      <input type="text" name="q" id="search-field-header" aria-label="Search" class="q form-control" placeholder="Enter search terms" />
+
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-primary" id="search-submit-header">
+          <span class="fa fa-search" aria-hidden="true"></span> Go
+        </button>
+      </div><!-- /.input-group-btn -->
+    </div><!-- /.input-group -->
+    
+  </div><!-- /.form-group -->
+</form>
+<a class="advanced_search" href="/catalog/advanced?">Advanced search</a>
+    </div>
+  </nav><!-- /.navbar -->
+
+
+    
+    <div id="content-wrapper" class="container-fluid" role="main">
+      
+      
+      <nav class="breadcrumb" role="navigation" aria-label="Breadcrumb"><ol><li><a href="/?locale=en">Home</a></li><li><a href="/concern/dissertations/m039k5382?locale=en">Enhancing drug safety...</a></li></ol></nav>
+
+      <a name="skip-to-content" id="skip-to-content"></a>
+      
+      
+
+
+
+
+<div class="row work-type">
+  <div class="col-sm-12">
+    <!--
+<h1 class="work-type-tag">
+  <span class="" aria-hidden="true"></span>
+</h1> -->
+  </div>
+  <div itemscope itemtype="http://schema.org/CreativeWork" class="col-12">
+    <div class="work-title-wrapper">
+      <div class="title-with-badges">
+        <h1>Enhancing drug safety through active surveillance of observational healthcare data</h1>
+        <span class="badge badge-success">Public</span>
+        <span class="state state-deposited badge badge-primary">Deposited</span>
+      </div>
+</div>
+
+    
+<div class="row show-actions button-row-top-two-column">
+  <div class="col-sm-6">
+      <a id="stats" class="btn btn-default" data-turbolinks="false" href="/works/m039k5382/stats?locale=en">Analytics</a>
+  </div>
+
+  <div class="col-sm-6 text-right">
+  </div>
+</div>
+
+<!-- COinS hook for Zotero -->
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fblacklight.rubyforge.org%3Agenerator&amp;rft.title=Enhancing+drug+safety+through+active+surveillance+of+observational+healthcare+data&amp;rft.publisher=University+of+North+Carolina+at+Chapel+Hill&amp;rft.date=March+18%2C+2013&amp;rft.format=Dissertation&amp;rft.language=http%3A%2F%2Fid.loc.gov%2Fvocabulary%2Fiso639-2%2Feng"></span>
+<!-- Render Modals -->
+  <div role="dialog" class="modal collection-list-modal fade" id="collection-list-container" tabindex="-1" aria-labelledby="col_add_title">
+  <div class="modal-dialog text-left">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="col_add_title">Add to collection</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+            <em> You do not have access to any existing collections. You may create a new collection.</em><br /><br /><br /><br />
+ <!-- else -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    <div class="card">
+      <div class="card-body">
+        <div class="row metadata-view">
+          <div class="col-12">
+  <div class="workflow-actions">
+    
+  </div>
+</div>
+
+          <div class="col-sm-4 text-center">
+                    <div>
+      <h2 class="sr-only">Downloadable Content</h2>
+      <img class="representative-media" alt="" role="presentation" src="/downloads/7w62f857z?file=thumbnail" />
+      <a target="_blank" id="file_download" class="btn btn-info" data-label="7w62f857z" data-work-id="m039k5382" data-collection-ids="[]" href="/downloads/7w62f857z?locale=en">Download PDF</a>
+    </div>
+
+
+            <div class="citations">
+    <button class="btn btn-default" data-toggle="modal" data-target="#citations-modal">Citations</button>
+  <a class="btn btn-default access-request" href="https://blogs.lib.unc.edu/cdr/index.php/accessibility-request">
+    Request Version for Screen Reader</a>
+</div>
+
+<div class="modal fade" id="citations-modal" tabindex="-1" role="dialog" aria-labelledby="citations-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="citations-modal-title">Citation</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body unc-modal">
+        <div class="cite">
+          <h4>MLA</h4>
+          <span class="mla-citation"><span class="citation-author">Ryan, Patrick B. </span><i class="citation-title">Enhancing Drug Safety Through Active Surveillance of Observational Healthcare Data.</i> Chapel Hill, NC: University of North Carolina at Chapel Hill, 2011. https://doi.org/10.17615/y9re-3w33</span>
+        </div>
+        <div class="cite">
+          <h4>APA</h4>
+          <span class="apa-citation"><span class="citation-author">Ryan, P.</span> (2011). <i class="citation-title">Enhancing drug safety through active surveillance of observational healthcare data.</i> Chapel Hill, NC: University of North Carolina at Chapel Hill. https://doi.org/10.17615/y9re-3w33</span>
+        </div>
+        <div class="cite">
+          <h4>Chicago</h4>
+          <span class="chicago-citation"><span class="citation-author">Ryan, Patrick B.</span> 2011. <i class="citation-title">Enhancing Drug Safety Through Active Surveillance of Observational Healthcare Data.</i> Chapel Hill, NC: University of North Carolina at Chapel Hill. https://doi.org/10.17615/y9re-3w33</span>
+        </div>
+        <ul class="list-inline">
+          <li><a href="/concern/dissertations/m039k5382.endnote?locale=en">EndNote</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="col-sm-8">
+            <dl class="work-show pt-3 dissertation"  itemscope itemtype="http://schema.org/Thesis">
+    
+<dt>Last Modified</dt>
+<dd><ul class='tabular'><li class="attribute attribute-date_modified">March 20, 2019</li></ul></dd>
+<dt>Creator</dt>
+<dd><ul class="tabular"><li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Ryan, Patrick B.</span><ul><li>Eshelman School of Pharmacy, Division of Pharmaceutical Outcomes and Policy</li></ul>
+</li></ul></dd>
+
+<dt>Abstract</dt>
+<dd><ul class='tabular'><li class="attribute attribute-abstract"><span itemprop="description">Drug safety continues to be a major public health concern in the United States, with adverse drug reactions ranking as the 4th to 6th leading cause of death, and resulting in health care costs of $3.6 billion annually. Recent media attention and public scrutiny of high-profile drug safety issues have increased visibility and skepticism of the effectiveness of the current post-approval safety surveillance processes. Current proposals suggest establishing a national active drug safety surveillance system that leverages observational data, including administrative claims and electronic health records, to monitor and evaluate potential safety issues of medicines. However, the development and evaluation of appropriate strategies for systematic analysis of observational data have not yet been studied. This study introduces a novel exploratory analysis approach (Comparator-Adjusted Safety Surveillance or COMPASS) to identify drug-related adverse events in automated healthcare data. The aims of the study were: 1) to characterize the performance of COMPASS in identifying known safety issues associated with ACE inhibitor exposure within an administrative claims database; 2) to evaluate consistency of COMPASS estimates across a network of disparate databases; and 3) to explore differential effects across ingredients within ACE inhibitor class. COMPASS was observed to have improved accuracy to three other methods under consideration for an active surveillance system: observational screening, disproportionality analysis, and self-controlled case series. COMPASS performance was consistently strong within 5 different databases, though important differences in outcome estimates across the sources highlighted the substantial heterogeneity which makes pooling estimates challenging. The comparative safety analysis of products within the ACE inhibitor class provided evidence of similar risk profiles across an array of different outcomes, and raised questions about the product labeling differences and how observational studies should complement existing evidence as part of a broader safety assessment strategy. The results of this study should inform decisions about the appropriateness and utility of analyzing observational data as part of an active drug safety surveillance process. An improved surveillance system would enable a more comprehensive and timelier understanding of the safety of medicines. Such information supports patients and providers in therapeutic decision-making to minimize risks and improve the quality of care.</span></li></ul></dd>
+<dt>Date of publication</dt>
+<dd><ul class='tabular'><li class="attribute attribute-date_issued"><span itemprop="datePublished">May 2011</span></li></ul></dd>
+
+
+<dt>DOI</dt>
+<dd><ul class='tabular'><li class="attribute attribute-doi"><span itemprop="identifier"><a href="https://doi.org/10.17615/y9re-3w33">https://doi.org/10.17615/y9re-3w33</a></span></li></ul></dd>
+
+<dt>Resource type</dt>
+<dd><ul class='tabular'><li class="attribute attribute-resource_type"><a href="/catalog?f%5Bresource_type_sim%5D%5B%5D=Dissertation&amp;locale=en">Dissertation</a></li></ul></dd>
+<dt>Rights statement</dt>
+<dd><ul class='tabular'><li class="attribute attribute-rights_statement_label">In Copyright</li></ul></dd>
+
+<dt>Note</dt>
+<dd><ul class='tabular'><li class="attribute attribute-note">" ... in partial fulfillment of the requirements for the degree of Doctor of Philosophy in the Division of Pharmaceutical Outcomes and Policy in the UNC Eshelman School of Pharmacy."</li></ul></dd>
+<dt>Advisor</dt>
+<dd><ul class="tabular"><li class="attribute attribute-advisor_display"><span>Hansen, Richard A.</span></li></ul></dd>
+
+
+
+
+<dt>Language</dt>
+<dd><ul class='tabular'><li class="attribute attribute-language_label"><span itemprop="inLanguage"><a href="/catalog?f%5Blanguage_label_sim%5D%5B%5D=English&amp;locale=en">English</a></span></li></ul></dd>
+
+<dt>Publisher</dt>
+<dd><ul class='tabular'><li itemprop="publisher" itemscope itemtype="http://schema.org/Organization" class="attribute attribute-publisher"><span itemprop="name"><a href="/catalog?f%5Bpublisher_sim%5D%5B%5D=University+of+North+Carolina+at+Chapel+Hill&amp;locale=en">University of North Carolina at Chapel Hill</a></span></li></ul></dd>
+<dt>Place of publication</dt>
+<dd><ul class='tabular'><li class="attribute attribute-place_of_publication">Chapel Hill, NC</li></ul></dd>
+<dt>Access right</dt>
+<dd><ul class='tabular'><li class="attribute attribute-access_right">Open access</li></ul></dd>
+
+  <dt>Date uploaded</dt>
+<dd><ul class='tabular'><li class="attribute attribute-date_created">March 18, 2013</li></ul></dd>
+
+    
+    
+ </dl>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- /card -->
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Relations</h2>
+      </div>
+      <div class="card-body">
+        <dl class="work-show">
+
+
+
+<dt> Parents: </dt>
+  <p>This work has no parents.</p>
+
+
+
+
+</dl>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Items</h2>
+      </div>
+      <div class="card-body">
+            <table class="table table-striped related-files">
+      <thead>
+      <tr>
+        <th>Thumbnail</th>
+        <th>Title</th>
+        <th>Date Uploaded</th>
+        <th>Visibility</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="file_set attributes">
+  <td class="thumbnail">
+    <a href="/concern/file_sets/7w62f857z?locale=en"><img alt="file details" src="/downloads/7w62f857z?file=thumbnail" /></a>
+  </td>
+  <td class="attribute attribute-filename ensure-wrapped"><a href="/concern/parent/m039k5382/file_sets/7w62f857z"></a></td>
+  <td class="attribute attribute-date_uploaded">March 18, 2013</td>
+  <td class="attribute attribute-permission"><span class="badge badge-success">Public</span></td>
+  <td>
+        <a class="btn btn-secondary btn-sm" title="Download , Enhancing drug safety through active surveillance of observational healthcare data" target="_blank" id="file_download" data-label="7w62f857z" data-work-id="m039k5382" data-collection-ids="[]" href="/downloads/7w62f857z?locale=en">Download</a>
+
+
+  </td>
+</tr>
+      </tbody>
+    </table>
+    <div class="row">
+    </div>
+
+      </div>
+    </div>
+
+
+<span class='hide analytics-event' data-category="work" data-action="work-view" data-name="m039k5382" >
+
+  </div>
+</div>
+
+    </div><!-- /#content-wrapper -->
+    <footer id="unc-footer" class="navbar navbar-dark bg-dark site-footer">
+    <div class="navbar-text text-center">
+      <div class="text-center">
+        <div>
+          <ul class="navbar-nav list-unstyled">
+            <li><a href="/"><span class="translation_missing" title="translation missing: en.hyrax.links.home">Home</span></a></li>
+            <li><a href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+            <li><a href="https://library.unc.edu">Library Home</a></li>
+            <li><a href="https://library.unc.edu/policies/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://digitalaccess.unc.edu/report">Accessibility</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="unc-version-footer" class="list-unstyled">
+            <li title="7bb27bdd3f73151edaf47603fa366dfd992427f0"><a href="https://github.com/UNC-Libraries/hy-c">Hy-C v3.4.1</a></li>
+            <li>Deployed on March 30, 2026</li>
+            <li><a href="https://hyrax.samvera.org/">Hyrax version 4.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+<div class="modal worktypes fade" id="worktypes-to-create" tabindex="-1" role="dialog" aria-labelledby="select-worktype-label">
+  <div class="modal-dialog" role="document">
+    <form class="modal-content new-work-select">
+      <div class="modal-header">
+        <h2 class="modal-title" id="select-worktype-label">Select type of work</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <fieldset>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="MastersPaper"
+                         data-single="/masters_papers/department?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=MastersPaper">
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Master&#39;s Papers</h3>
+                    <p>Deposit your masters paper, project or other capstone work.  Theses will be sent to the CDR automatically via ProQuest and do not need to be deposited.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Article"
+                         data-single="/concern/articles/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Article" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Articles and Book Chapters</h3>
+                    <p>Deposit a peer-reviewed article or book chapter.  If you would like to deposit a poster, presentation, conference paper or white paper, use the “Scholarly Works” deposit form.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="HonorsThesis"
+                         data-single="/concern/honors_theses/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=HonorsThesis" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Undergraduate Honors Theses</h3>
+                    <p>Deposit your senior honors thesis.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Journal"
+                         data-single="/concern/journals/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Journal" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Journal, Newsletter or Book</h3>
+                    <p>Deposit a complete issue of a scholarly journal, newsletter or book.  If you would like to deposit an article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="DataSet"
+                         data-single="/concern/data_sets/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=DataSet" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Datasets</h3>
+                    <p>Deposit your dataset.  Datasets may be associated with an article or deposited separately.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Multimed"
+                         data-single="/concern/multimeds/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Multimed" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Multimedia</h3>
+                    <p>Deposit your 3D objects, audio, images or video.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="ScholarlyWork"
+                         data-single="/concern/scholarly_works/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=ScholarlyWork" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Poster, Presentation, Protocol or Paper</h3>
+                    <p>Deposit scholarly works such as posters, presentations, research protocols, conference papers or white papers. If you would like to deposit a peer-reviewed article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+        </fieldset>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <input type="submit" class="btn btn-primary" value="Create work" />
+      </div>
+    </form>
+  </div>
+</div>
+
+
+    <div id="blacklight-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-turbo="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript" id="unc-ub-script" defer data-color="dark-gray" src="https://unc.edu/web-assets/utility-bar/utility-bar.min.js"></script>
+    <script type="text/javascript">
+        // UNC toolbar script doesn't work well with Rails turbo.
+        // So we have to load the script in the body so it executes.
+        // We also have to remove any current toolbars to avoid duplicate toolbars
+        (() => {
+            const UNC_TOOLBAR_SELECTOR = "#unc-utility-bar"; // The id added by the script
+            let currentUncToolbarElements = document.querySelectorAll(UNC_TOOLBAR_SELECTOR);
+            for (let i = 0; i < currentUncToolbarElements.length; i++) {
+                currentUncToolbarElements[i].parentNode.removeChild(currentUncToolbarElements[i]);
+            }
+        })();
+    </script>
+  </body>
+</html>

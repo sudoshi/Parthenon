@@ -1,0 +1,2978 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Application of Machine Learning to Predict Patient No-Shows in an Academic Pediatric Ophthalmology Clinic - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB7BA9D45AA230BB7BA002599519D.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="procamia">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8075453/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="AMIA Annual Symposium Proceedings">
+<meta name="citation_title" content="Application of Machine Learning to Predict Patient No-Shows in an Academic Pediatric Ophthalmology Clinic">
+<meta name="citation_author" content="Jimmy Chen">
+<meta name="citation_author_institution" content="Department of Ophthalmology, Casey Eye Institute, and">
+<meta name="citation_author" content="Isaac H Goldstein">
+<meta name="citation_author_institution" content="Department of Ophthalmology, Casey Eye Institute, and">
+<meta name="citation_author" content="Wei-Chun Lin">
+<meta name="citation_author_institution" content="Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR">
+<meta name="citation_author" content="Michael F Chiang">
+<meta name="citation_author_institution" content="Department of Ophthalmology, Casey Eye Institute, and">
+<meta name="citation_author_institution" content="Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR">
+<meta name="citation_author" content="Michelle R Hribar">
+<meta name="citation_author_institution" content="Department of Ophthalmology, Casey Eye Institute, and">
+<meta name="citation_author_institution" content="Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR">
+<meta name="citation_publication_date" content="2021 Jan 25">
+<meta name="citation_volume" content="2020">
+<meta name="citation_firstpage" content="293">
+<meta name="citation_pmid" content="33936401">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8075453/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8075453/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8075453/pdf/061_3409315.pdf">
+<meta name="description" content="Patient &quot;no-shows&quot; are missed appointments resulting in clinical inefficiencies, revenue loss, and discontinuity of care. Using secondary electronic health record (EHR) data, we used machine learning to predict patient no-shows in follow-up and new ...">
+<meta name="og:title" content="Application of Machine Learning to Predict Patient No-Shows in an Academic Pediatric Ophthalmology Clinic">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Patient &quot;no-shows&quot; are missed appointments resulting in clinical inefficiencies, revenue loss, and discontinuity of care. Using secondary electronic health record (EHR) data, we used machine learning to predict patient no-shows in follow-up and new ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8075453/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="8075453">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/061_3409315.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC8075453%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/8075453/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/8075453/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC8075453/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-procamia.gif" alt="AMIA Annual Symposium Proceedings logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to AMIA Annual Symposium Proceedings" title="Link to AMIA Annual Symposium Proceedings" shape="default" href="https://knowledge.amia.org/all-proceedings" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">AMIA Annu Symp Proc</button></div>. 2021 Jan 25;2020:293–302.</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="AMIA%20Annu%20Symp%20Proc"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="AMIA%20Annu%20Symp%20Proc"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="AMIA%20Annu%20Symp%20Proc"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="AMIA%20Annu%20Symp%20Proc"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Application of Machine Learning to Predict Patient No-Shows in an Academic Pediatric Ophthalmology Clinic</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chen%20J"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Jimmy Chen</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Jimmy Chen</span>, <span class="degrees">BA</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Ophthalmology, Casey Eye Institute, and</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chen%20J"[Author]' class="usa-link"><span class="name western">Jimmy Chen</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Goldstein%20IH"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Isaac H Goldstein</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Isaac H Goldstein</span>, <span class="degrees">BA</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Ophthalmology, Casey Eye Institute, and</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Goldstein%20IH"[Author]' class="usa-link"><span class="name western">Isaac H Goldstein</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lin%20WC"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Wei-Chun Lin</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Wei-Chun Lin</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>2</sup>Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lin%20WC"[Author]' class="usa-link"><span class="name western">Wei-Chun Lin</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chiang%20MF"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Michael F Chiang</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Michael F Chiang</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Ophthalmology, Casey Eye Institute, and</div>
+<div class="p">
+<sup>2</sup>Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chiang%20MF"[Author]' class="usa-link"><span class="name western">Michael F Chiang</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hribar%20MR"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Michelle R Hribar</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">Michelle R Hribar</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Ophthalmology, Casey Eye Institute, and</div>
+<div class="p">
+<sup>2</sup>Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hribar%20MR"[Author]' class="usa-link"><span class="name western">Michelle R Hribar</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="af1-061_3409315">
+<sup>1</sup>Department of Ophthalmology, Casey Eye Institute, and</div>
+<div id="af2-061_3409315">
+<sup>2</sup>Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Collection date 2020.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>©2020 AMIA - All rights reserved.</div>
+<p>This is an Open Access article: verbatim copying and redistribution of this article are permitted in all media for any purpose</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC8075453  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33936401/" class="usa-link">33936401</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p>Patient "no-shows" are missed appointments resulting in clinical inefficiencies, revenue loss, and discontinuity of care. Using secondary electronic health record (EHR) data, we used machine learning to predict patient no-shows in follow-up and new patient visits in pediatric ophthalmology and to evaluate features for importance. The best model, XGBoost, had an area under the receiver operating characteristics curve (AUC) score of 0.90 for predicting no-shows in follow-up visits. The key findings from this study are: (1) secondary use of EHR data can be used to build datasets for predictive modeling and successfully predict patient no-shows in pediatric ophthalmology, (2) models predicting no-shows for follow-up visits are more accurate than those for new patient visits, and (3) the performance of predictive models is more robust in predicting no-shows compared to individual important features. We hope these models will be used for more effective interventions to mitigate the impact ofpatient no-shows.</p></section><section id="sec1"><h2 class="pmc_sec_title">Introduction</h2>
+<p>Medical clinics rely on full schedules to maintain revenue and provide high quality, longitudinal care for patients. Patient "no-shows" are missed appointments without prior clinic notification that disrupt clinical care. No-shows increase clinical inefficiencies and create revenue loss by decreasing clinic volumes.<sup><a href="#r1-061_3409315" class="usa-link" aria-describedby="r1-061_3409315">1</a>,<a href="#r2-061_3409315" class="usa-link" aria-describedby="r2-061_3409315">2</a></sup> Additionally, missed appointments result in discontinuity of care and worse health outcomes for patients.<sup><a href="#r3-061_3409315" class="usa-link" aria-describedby="r3-061_3409315">3-5</a></sup> Reducing patient no-shows is a focus for most medical clinics today.</p>
+<p>Developing predictive models and/or identifying significant variables associated with patient no-shows may result in more effective, targeted interventions to reduce no-show rates. Electronic health records (EHRs) contain many available variables for secondary use in these models; EHR data has been successfully reused for models in clinical research, quality assurance, predictive modeling, and scheduling simulations.^<sup><a href="#r8-061_3409315" class="usa-link" aria-describedby="r8-061_3409315">8</a></sup> There are many prior studies for patient no-shows in wide range of medical specialties; the average no-show rate reported in these studies is 23%.<sup><a href="#r9-061_3409315" class="usa-link" aria-describedby="r9-061_3409315">9</a></sup> The models developed in these studies found the following significant variables: younger age,<sup><a href="#r10-061_3409315" class="usa-link" aria-describedby="r10-061_3409315">10-14</a></sup> distance from clinic,<sup><a href="#r10-061_3409315" class="usa-link" aria-describedby="r10-061_3409315">10</a>,<a href="#r15-061_3409315" class="usa-link" aria-describedby="r15-061_3409315">15</a></sup> lead time (time from the scheduling date to the appointment date),<sup><a href="#r13-061_3409315" class="usa-link" aria-describedby="r13-061_3409315">13</a>,<a href="#r15-061_3409315" class="usa-link" aria-describedby="r15-061_3409315">15-18</a></sup> insurance carrier<sup><a href="#r19-061_3409315" class="usa-link" aria-describedby="r19-061_3409315">19</a></sup> (especially Medicaid),<sup><a href="#r11-061_3409315" class="usa-link" aria-describedby="r11-061_3409315">11</a>,<a href="#r14-061_3409315" class="usa-link" aria-describedby="r14-061_3409315">14</a>,<a href="#r15-061_3409315" class="usa-link" aria-describedby="r15-061_3409315">15</a>,<a href="#r18-061_3409315" class="usa-link" aria-describedby="r18-061_3409315">18</a></sup> and history of previous no-shows.<sup><a href="#r20-061_3409315" class="usa-link" aria-describedby="r20-061_3409315">20</a>,<a href="#r21-061_3409315" class="usa-link" aria-describedby="r21-061_3409315">21</a>,<a href="#r17-061_3409315" class="usa-link" aria-describedby="r17-061_3409315">17</a>,<a href="#r13-061_3409315" class="usa-link" aria-describedby="r13-061_3409315">13</a>,<a href="#r22-061_3409315" class="usa-link" aria-describedby="r22-061_3409315">22</a>,<a href="#r18-061_3409315" class="usa-link" aria-describedby="r18-061_3409315">18</a></sup> Currently, the best performing models in literature have an AUC from 0.83-0.86.<sup><a href="#r17-061_3409315" class="usa-link" aria-describedby="r17-061_3409315">17</a>,<a href="#r22-061_3409315" class="usa-link" aria-describedby="r22-061_3409315">22</a></sup></p>
+<p>The purpose of our study was to develop and validate a model to predict patient no-shows in a pediatric ophthalmology clinic. We chose pediatric ophthalmology as our subspecialty domain because vision loss due to common pediatric ophthalmology disorders (i.e. retinopathy of prematurity, strabismus, amblyopia) is often preventable with early intervention and regular follow-up. Furthermore, pediatrics is also a specialty with historically high no-show rates, <sup><a href="#r14-061_3409315" class="usa-link" aria-describedby="r14-061_3409315">14</a>,<a href="#r15-061_3409315" class="usa-link" aria-describedby="r15-061_3409315">15</a>,<a href="#r24-061_3409315" class="usa-link" aria-describedby="r24-061_3409315">24</a></sup> but no models have been developed to predict no-shows or to analyze for variables significant for no-shows. We feel there are opportunities to improve prior no-show models for use in pediatric ophthalmology by using a combination of patient clinical and demographic data, history of past no-shows, and EHR specific variables (such as MyChart use), stratifying our models by comparing follow-up versus new patient visits, and rigorously evaluating imbalanced data using state-of-the-art machine learning algorithms.</p></section><section id="sec2"><h2 class="pmc_sec_title">Methods</h2>
+<section id="sec2_1"><h3 class="pmc_sec_title">Study Institution</h3>
+<p>Oregon Health &amp; Science University (OHSU) is a large academic medical center in Portland, Oregon which includes over 50 faculty ophthalmology physicians who perform over 130,000 outpatient eye exams annually. The department provides primary eye care, and serves as a major referral center in the Pacific Northwest and nationally. In 2006, OHSU implemented an institution-wide EHR system (EpicCare; Epic Systems, Madison, WI) All ambulatory practice management, including documentation, order entry, and billing, are performed using the EHR. This study was approved by the institutional review board at OHSU and adheres to the Declaration of Helsinki.</p></section><section id="sec2_2"><h3 class="pmc_sec_title">Dataset</h3>
+<p>Appointment data were extracted from OHSU's EHR datamart for all patient office visits from January 1, 2012 to December 31, 2018 for 7 pediatric ophthalmology providers. The outcome variable, a patient no-show, was defined as a visit in which the patient failed to arrive the day of the appointment without contacting the clinic in advance. Canceled appointments prior to clinic were not counted as no-shows to ensure all missed appointments were truly not intervenable. The scheduled appointments in our modeling dataset were limited to the most recent follow-up appointment for each patient scheduled from January 1, 2015 to December 31, 2018. Specifically, the appointment was included if it was either the most recent follow-up office visit that the patient attended, a new patient visit, or the most recent no-show visit in that timeframe. Only one office visit per patient was included in this study. The restricted time frame of our appointment dataset ensured we had enough previous visit data in our larger dataset of visits from 2012 - 2018. Patients with missing insurance types and diagnoses were excluded from this study.</p></section><section id="sec2_3"><h3 class="pmc_sec_title">Model Features</h3>
+<p>We chose to include features that we hypothesized could potentially be associated with or have an impact on appointment attendance. These features were either readily extractable from the EHR or generated from existing encounter data and consisted of categorical and continuous data.</p>
+<p>Categorical features were separated into the following areas: demographic, time-based, and diagnoses. Demographic features included: age, gender ethnicity, insurance type, clinic location, and English as the first language. Time-based features included appointment time of the day, day of the week, and month. Visit diagnoses were grouped into 15 categories based on ICD-9 and ICD-10 codes.</p>
+<p>Continuous historical features generated from our larger extracted visit dataset included: number of previous visits, number of prior no-shows, lead time (time from when the appointment was scheduled to the visit date), average time between previous visits, number of previous cancels, number of prior same day cancels (defined as a cancelled visit by the patient within 24 hours of the scheduled visit time).</p></section><section id="sec2_4"><h3 class="pmc_sec_title">Predictive Model Development and Validation</h3>
+<p>Data analysis and model training were performed using R<sup><a href="#r25-061_3409315" class="usa-link" aria-describedby="r25-061_3409315">25</a></sup> (version 3.5.1) and Python<sup><a href="#r26-061_3409315" class="usa-link" aria-describedby="r26-061_3409315">26</a></sup> (version 3.7.3), specifically using the machine learning packages <em>scikit-learn</em><sup><a href="#r21-061_3409315" class="usa-link" aria-describedby="r21-061_3409315">21</a></sup> and<em>XGBoost</em>.<sup><a href="#r28-061_3409315" class="usa-link" aria-describedby="r28-061_3409315">28</a></sup> We hypothesized that longitudinal, previous visit data would significantly impact a model's ability to predict patient no-shows and tested this hypothesis by training separate models on datasets of only follow-up visits and new patient visits. In the latter, we excluded all continuous features that required calculations with previous visit data. All categorical features were one-hot encoded into binary variables (0 vs. 1) for each category. Each dataset was split into a training set and a test set in a 3:1 ratio with stratification to maintain the same proportion of no-shows in both datasets. The training set was further split into 5-folds for cross validation and hyperparameters were tuned using a randomized grid search on 4 different algorithms: XGBoost, random forest, support vector regression (SVR), and least absolute shrinkage and selection operator (LASSO) regression. Cross-validation scoring was tuned to maximize the PR score. We chose to train on XGBoost and random forest to evaluate whether these ensemble techniques could identify strong relationships in our set of diverse features. Additionally, we chose two standard regression algorithms (SVR and LASSO regression, a type of regularized logistic regression) to compare performance against the aforementioned models. In particular, logistic regression has historically been used extensively in predicting patient no-shows. <sup><a href="#r10-061_3409315" class="usa-link" aria-describedby="r10-061_3409315">10-13</a>,<a href="#r18-061_3409315" class="usa-link" aria-describedby="r18-061_3409315">18</a>,<a href="#r20-061_3409315" class="usa-link" aria-describedby="r20-061_3409315">20</a>,<a href="#r21-061_3409315" class="usa-link" aria-describedby="r21-061_3409315">21</a>,<a href="#r23-061_3409315" class="usa-link" aria-describedby="r23-061_3409315">23</a></sup></p>
+<p>Resampled learning curves were generated to ensure our algorithms did not overfit. Machine learning metrics evaluating model performance, specifically the area under the receiver operating characteristics curve (AUC-ROC) scores and Precision-Recall (PR) scores, were calculated on the test set of the best performing model for each algorithm. We chose to include PR scores, sensitivity, and positive predictive value (PPV) to emphasize and assess the importance of accurately predicting the minority class (no-shows) and account for dataset imbalance.</p></section><section id="sec2_5"><h3 class="pmc_sec_title">Calculating Feature Importance</h3>
+<p>Feature importances were calculated for the models trained on XGBoost and random forest using default functionality provided in the scikit-learn<sup><a href="#r27-061_3409315" class="usa-link" aria-describedby="r27-061_3409315">27</a></sup> and XGBoost<sup><a href="#r28-061_3409315" class="usa-link" aria-describedby="r28-061_3409315">28</a></sup> packages. Because both algorithms are ensemble methods that use features to construct multiple decision trees, coefficients and effect sizes of individual features are not generated. For each decision tree, importance was defined as the impact of the feature on creating split points. Feature importance was calculated in the packages using a Gini purity index and averaged across all decision trees in each model. Coefficients were also extracted from the models trained on LASSO regression.</p></section></section><section id="sec3"><h2 class="pmc_sec_title">Results</h2>
+<section id="sec3_1"><h3 class="pmc_sec_title">Dataset</h3>
+<p>Overall, 5188 follow-up office visits and 3606 new patient visits met inclusion criteria, with one visit per patient included. The no-show rate for patients in this dataset was 13.4%, of which 794 (15.4%) follow-up visits and 385 (10.7%) new patient visits were no-shows. Features and their distributions are shown for both visit types in <strong><a href="#t2-061_3409315" class="usa-link">Table 2</a>.</strong></p>
+<section class="tw xbox font-sm" id="t2-061_3409315"><h4 class="obj_head">Table 2. <strong>Performance of Models by Algorithm.</strong> Four algorithms were trained on our training dataset of follow-up visits with 5-fold cross validation. For each algorithm, performance metrics were generated on our testing set. We chose to include Precision-Recall (PR) score, sensitivity, and positive predictive value (PPV) to account for data imbalance.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all"><tbody>
+<tr>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">AUC-ROC Score</td>
+<td align="center" rowspan="1" colspan="1">Precision-Recall(PR) Score</td>
+<td align="center" rowspan="1" colspan="1">Sensitivity</td>
+<td align="center" rowspan="1" colspan="1">Positive PredictiveValue (PPV)</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Follow-up Patients</strong></td>
+<td align="center" colspan="4" rowspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">XGBoost</td>
+<td align="center" rowspan="1" colspan="1">0.90</td>
+<td align="center" rowspan="1" colspan="1">0.74</td>
+<td align="center" rowspan="1" colspan="1">0.45</td>
+<td align="center" rowspan="1" colspan="1">0.88</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Random Forest</td>
+<td align="center" rowspan="1" colspan="1">0.88</td>
+<td align="center" rowspan="1" colspan="1">0.69</td>
+<td align="center" rowspan="1" colspan="1">0.34</td>
+<td align="center" rowspan="1" colspan="1">0.92</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Support Vector Regression</td>
+<td align="center" rowspan="1" colspan="1">0.81</td>
+<td align="center" rowspan="1" colspan="1">0.50</td>
+<td align="center" rowspan="1" colspan="1">0.46</td>
+<td align="center" rowspan="1" colspan="1">0.52</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">LASSO Regression</td>
+<td align="center" rowspan="1" colspan="1">0.79</td>
+<td align="center" rowspan="1" colspan="1">0.46</td>
+<td align="center" rowspan="1" colspan="1">0.41</td>
+<td align="center" rowspan="1" colspan="1">0.54</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>New Patients</strong></td>
+<td align="center" colspan="4" rowspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">LASSO Regression</td>
+<td align="center" rowspan="1" colspan="1">0.74</td>
+<td align="center" rowspan="1" colspan="1">0.27</td>
+<td align="center" rowspan="1" colspan="1">0.11</td>
+<td align="center" rowspan="1" colspan="1">0.37</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Random Forest</td>
+<td align="center" rowspan="1" colspan="1">0.74</td>
+<td align="center" rowspan="1" colspan="1">0.26</td>
+<td align="center" rowspan="1" colspan="1">0.04</td>
+<td align="center" rowspan="1" colspan="1">0.40</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Support Vector Regression</td>
+<td align="center" rowspan="1" colspan="1">0.71</td>
+<td align="center" rowspan="1" colspan="1">0.21</td>
+<td align="center" rowspan="1" colspan="1">0.15</td>
+<td align="center" rowspan="1" colspan="1">0.28</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">XGBoost</td>
+<td align="center" rowspan="1" colspan="1">0.64</td>
+<td align="center" rowspan="1" colspan="1">0.26</td>
+<td align="center" rowspan="1" colspan="1">0.14</td>
+<td align="center" rowspan="1" colspan="1">0.25</td>
+</tr>
+</tbody></table></div>
+<div class="p text-right font-secondary"><a href="table/t2-061_3409315/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section><section id="sec3_2"><h3 class="pmc_sec_title">Model Performance</h3>
+<p>Performance metrics (AUC-ROC score, PR score, sensitivity, and PPV) of the best performing models for both follow-up patients and new patients are shown in <strong><a href="#t2-061_3409315" class="usa-link">Table 2</a>.</strong> For follow-up visits, the model trained with XGBoost had the highest performance on the testing set (AUC = 0.90, PR score = 0.74). Though sensitivities and PPV varied across models trained on all 4 algorithms, random forest had the second-best performance (PR = 0.69). AUC and PR curves for the model trained on XGBoost are shown in <strong><a href="#fig1-061_3409315" class="usa-link">Figure 1</a>.</strong> The four algorithms listed above were also used to train models on the new patient dataset. Overall, the model trained on LASSO regression had the highest performance in predicting new patient no-shows, though PR scores were low (AUC = 0.74, PR = 0.27). This was reflected across all algorithms trained on the new patient data (PR = 0.21-0.27). Low sensitivities and PPV for these models also suggest that the majority of no-shows were incorrectly predicted in the new patient dataset.</p>
+<figure class="fig xbox font-sm" id="fig1-061_3409315"><h4 class="obj_head">Figure 1. <strong>Performance Curves of the Follow-up Visit Model Trained on XGBoost.</strong> Performance of the best performing model trained on XGBoost evaluated by predicting patient no-shows in follow-up visits in our testing set. The area under the curve-receiver operating characteristics curve (a) score was 0.90 and the precision-recall score (b) was 0.74.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5ff6/8075453/ac964b699c17/061_3409315f1a.jpg" loading="lazy" height="401" width="578" alt="Figure 1"></p>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5ff6/8075453/e4f07cc2d889/061_3409315f1b.jpg" loading="lazy" height="393" width="566" alt="Figure 1"></p>
+<div class="p text-right font-secondary"><a href="figure/fig1-061_3409315/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></figure></section><section id="sec3_3"><h3 class="pmc_sec_title">Feature Importance for Follow-up Visits</h3>
+<p>We report feature importance for follow-up visits only because the accuracy was significantly higher than the new patient models. <strong><a href="#t3-061_3409315" class="usa-link">Table 3</a></strong> shows the 6 most important features for our highest performing algorithms, XGBoost and random forest. Both algorithms agreed on the relative importance of the number of previous visits and the average number of days between visits in predicting patient no-shows. Though other variables varied in importance depending on the model used, other highly ranked features for both XGBoost and random forest included: younger age and number of previous no shows, lead time, insurance type, and number of previous canceled appointments.</p>
+<section class="tw xbox font-sm" id="t3-061_3409315"><h4 class="obj_head">Table 3. <strong>Most Important Features from XGBoost and Random Forest.</strong> Feature importance was extracted from the models trained on XGBoost and random forest. Overall, both algorithms ranked number of previous visits and average number of days between visits as the most important features associated with patient no-shows.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all"><tbody>
+<tr>
+<td align="center" colspan="2" rowspan="1"><strong>XGBoost</strong></td>
+<td align="center" colspan="2" rowspan="1"><strong>Random Forest</strong></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Feature</strong></td>
+<td align="center" rowspan="1" colspan="1"><strong>Importance</strong></td>
+<td align="center" rowspan="1" colspan="1"><strong>Feature</strong></td>
+<td align="center" rowspan="1" colspan="1"><strong>Importance</strong></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Number of previous visits</td>
+<td align="center" rowspan="1" colspan="1">0.038</td>
+<td align="center" rowspan="1" colspan="1">Average no. of days between visits</td>
+<td align="center" rowspan="1" colspan="1">0.15</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Average no. of days between visits</td>
+<td align="center" rowspan="1" colspan="1">0.023</td>
+<td align="center" rowspan="1" colspan="1">Number of previous visits</td>
+<td align="center" rowspan="1" colspan="1">0.12</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Insurance - Out of state Medicaid</td>
+<td align="center" rowspan="1" colspan="1">0.021</td>
+<td align="center" rowspan="1" colspan="1">Lead time</td>
+<td align="center" rowspan="1" colspan="1">0.08</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Cataract diagnosis</td>
+<td align="center" rowspan="1" colspan="1">0.020</td>
+<td align="center" rowspan="1" colspan="1">Day of the month</td>
+<td align="center" rowspan="1" colspan="1">0.08</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">MyChart activated</td>
+<td align="center" rowspan="1" colspan="1">0.019</td>
+<td align="center" rowspan="1" colspan="1">Number of same day cancels</td>
+<td align="center" rowspan="1" colspan="1">0.02</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Age - toddler</td>
+<td align="center" rowspan="1" colspan="1">0.019</td>
+<td align="center" rowspan="1" colspan="1">Number of prior cancels</td>
+<td align="center" rowspan="1" colspan="1">0.02</td>
+</tr>
+</tbody></table></div>
+<div class="p text-right font-secondary"><a href="table/t3-061_3409315/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section></section><section id="sec4"><h2 class="pmc_sec_title">Discussion</h2>
+<p>This study used EHR data to develop machine learning models to identify factors and evaluate the performance of these models in predicting patient no-shows in pediatric ophthalmology. Our study has three key findings: (1) secondary use of EHR data can be used to build datasets for predictive modeling and successfully predict patient no-shows in pediatric ophthalmology, (2) models predicting no-shows for follow-up visits are more accurate than those for new patient visits, and 3) performance of predictive models is more robust in predicting no-shows compared to individual important features.</p>
+<p>The first key finding is that secondary use of EHR data can be used to build datasets for predictive modeling and successfully predict patient no-shows in pediatric ophthalmology. Because ophthalmology is a busy, high-volume specialty, the EHR is an ideal domain to generate large datasets for modeling. The EHR contains both demographic and clinical patient data, as well as time-series variables that can be calculated from encounter data over patients' visit histories. Using these data, we were able to create a large, robust dataset that contained a broad set of features to predict patient no-shows.</p>
+<p>Our best performing model, trained on follow-up data with XGBoost, performed better than the best performing models currently reported in literature with an AUC of 0.90 compared to models performing with a range of AUCs from 0.68-0.86 <strong>(<a href="#t2-061_3409315" class="usa-link">Table 2</a>)</strong> to our knowledge. However, AUC likely overstates the performance of models focused on predicting patient no-shows because it is not sensitive to data imbalance. We report performance metrics such as PR score, sensitivity, and PPV to emphasize data imbalance in our datasets (15.4% and 10.7% no-show rates for follow-up and new patient datasets respectively) as well as the importance and difficulty of correctly predicting patient no-shows over patients showing up to their appointments. Compared to literature which reported models assessed with these metrics, our best performing model also has slight improvements in performance with these metrics. Though a few models have been developed for prediction of no-shows in primary care,<sup><a href="#r10-061_3409315" class="usa-link" aria-describedby="r10-061_3409315">10</a>,<a href="#r12-061_3409315" class="usa-link" aria-describedby="r12-061_3409315">12</a>,<a href="#r13-061_3409315" class="usa-link" aria-describedby="r13-061_3409315">13</a>,<a href="#r20-061_3409315" class="usa-link" aria-describedby="r20-061_3409315">20</a>,<a href="#r22-061_3409315" class="usa-link" aria-describedby="r22-061_3409315">22</a></sup> our findings suggest that EHR data can be used to build large, robust datasets for many specialties, including ophthalmology.</p>
+<p>The second key finding is that models predicting no-shows for follow-up visits are more accurate than those for new patient visits. For example, when both the follow-up and new patient datasets were trained on XGBoost, the follow-up model outperformed the new patient model (PR score = 0.74 vs. 0.26), especially in its ability to predict patient no-shows (sensitivity = 0.45 vs. 0.14). Our findings suggest that while patient no-shows are largely attributed to random circumstances, there is an element of behavioral tendencies that longitudinal time-series data can be used to predict. Training models on longitudinal data included in follow-up visits resulted in better performance compared to models trained on new patient visits without this data. Though there are studies examining the relationship between specific variables such as lead time and no-shows in follow-up and new patients,<sup><a href="#r30-061_3409315" class="usa-link" aria-describedby="r30-061_3409315">30</a></sup> previously published no-show models have either only used new patient status as a variable<sup><a href="#r17-061_3409315" class="usa-link" aria-describedby="r17-061_3409315">17</a></sup> or did not specifically exclude or stratify new patients from their studies. Since new patient no-shows are especially harmful to clinic efficiency, adding previous visit data from other specialties or clinics to their predictive no-show models may improve their accuracy.</p>
+<p>The third key finding is that performance of predictive models is more robust in predicting no-shows compared to individual important features. There was some consistency in our feature importance: the most important features in our follow-up patient models were the number of previous visits and the average number of days between visits. Number of previous attended visits attended is likely a reflection of patient attendance history, and average number of days between visits is similar to a metric used in a predictive model developed by Mohammadi et al (number of days since last appointment).<sup><a href="#r17-061_3409315" class="usa-link" aria-describedby="r17-061_3409315">17</a></sup> Interestingly, the number of previous no-shows is a well-documented factor associated with no-shows<sup><a href="#r10-061_3409315" class="usa-link" aria-describedby="r10-061_3409315">10-13</a>,<a href="#r17-061_3409315" class="usa-link" aria-describedby="r17-061_3409315">17</a>,<a href="#r18-061_3409315" class="usa-link" aria-describedby="r18-061_3409315">18</a>,<a href="#r21-061_3409315" class="usa-link" aria-describedby="r21-061_3409315">21</a>,<a href="#r22-061_3409315" class="usa-link" aria-describedby="r22-061_3409315">22</a></sup> and was not found to be an important feature in our models. A summary of reviewed show models, their performance, and important features is shown in <strong><a href="#t4-061_3409315" class="usa-link">Table 4</a>.</strong></p>
+<section class="tw xbox font-sm" id="t4-061_3409315"><h3 class="obj_head">Table 4: <strong>Published Models Predicting Patient No-Shows.</strong> We conducted a brief literature review on published no-show models by querying PubMed and Google Scholar using the terms: 'no-show models,' 'missed appointments,' and 'appointment non-adherence.' Ancestor search was used to broaden our search. We extracted the following from each paper: the dataset domain, the top performing algorithm and its performance, and the 3 most important variables (either the three highest odds ratios or the first three listed variables). Variables such as prior no-show history, age, scheduling lead time, and insurance type were the most significant predictors of future no-shows. To our knowledge, performance ranged from an AUC of 0.68 to 0.86.</h3>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all"><tbody>
+<tr>
+<td align="center" rowspan="1" colspan="1">Author, Year</td>
+<td align="center" rowspan="1" colspan="1">Domain</td>
+<td align="center" rowspan="1" colspan="1">Top Performing Algorithm</td>
+<td align="center" rowspan="1" colspan="1">Performance Metrics</td>
+<td align="center" rowspan="1" colspan="1">Top 3 Important Variables</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Odonkor et al, 2017<sup><a href="#r11-061_3409315" class="usa-link" aria-describedby="r11-061_3409315">11</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Anesthesia</td>
+<td align="center" rowspan="1" colspan="1">Logistic regression</td>
+<td align="center" rowspan="1" colspan="1">AUC = 0.74</td>
+<td align="center" rowspan="1" colspan="1">Age &lt; 65 years, Ethnic minority, Medicaid or Medicare</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Guzek et al, 2014<sup><a href="#r15-061_3409315" class="usa-link" aria-describedby="r15-061_3409315">15</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Pediatric neurology</td>
+<td align="center" rowspan="1" colspan="1">Univariate/multivariate logistic regressions</td>
+<td align="center" rowspan="1" colspan="1">Odds ratio</td>
+<td align="center" rowspan="1" colspan="1">Medicaid, distance for clinic, lead time</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Mohammadi et al, 2018<sup><a href="#r17-061_3409315" class="usa-link" aria-describedby="r17-061_3409315">17</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Communityhealthcenters</td>
+<td align="center" rowspan="1" colspan="1">Naive Bayes Classifier</td>
+<td align="center" rowspan="1" colspan="1">AUC = 0.86, PPV = 0.45, Sensitivity = 0.73</td>
+<td align="center" rowspan="1" colspan="1">Lead time, prior no-shows, number of days since last appointment</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Ding et. al,2018<sup><a href="#r23-061_3409315" class="usa-link" aria-describedby="r23-061_3409315">23</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Multiple specialties</td>
+<td align="center" rowspan="1" colspan="1">LASSO regression</td>
+<td align="center" rowspan="1" colspan="1">AUC = 0.8</td>
+<td align="center" rowspan="1" colspan="1">Depended on specialty</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Luo et al, 2018<sup><a href="#r29-061_3409315" class="usa-link" aria-describedby="r29-061_3409315">29</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Surgery</td>
+<td align="center" rowspan="1" colspan="1">Random forest</td>
+<td align="center" rowspan="1" colspan="1">AUC = 0.68, Sensitivity = 0.62,PPV = 0.45</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Goffman et al, 2017<sup><a href="#r21-061_3409315" class="usa-link" aria-describedby="r21-061_3409315">21</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Multiple specialties</td>
+<td align="center" rowspan="1" colspan="1">Logistic regression</td>
+<td align="center" rowspan="1" colspan="1">AUC = 0.71</td>
+<td align="center" rowspan="1" colspan="1">Prior no-shows, lead time, same day appointments</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Huang,Hanauer,2014<sup><a href="#r12-061_3409315" class="usa-link" aria-describedby="r12-061_3409315">12</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Pediatrics</td>
+<td align="center" rowspan="1" colspan="1">Logistic regression</td>
+<td align="center" rowspan="1" colspan="1">Odds ratio</td>
+<td align="center" rowspan="1" colspan="1">Visit type, younger age, prior no-show history</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Torres et al, 2015<sup><a href="#r13-061_3409315" class="usa-link" aria-describedby="r13-061_3409315">13</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Primary care</td>
+<td align="center" rowspan="1" colspan="1">Logistic regression</td>
+<td align="center" rowspan="1" colspan="1">Odds ratio</td>
+<td align="center" rowspan="1" colspan="1">Prior no-shows, lead time, younger age</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Shimoda et al,2018<sup><a href="#r22-061_3409315" class="usa-link" aria-describedby="r22-061_3409315">22</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Primary care (Japan)</td>
+<td align="center" rowspan="1" colspan="1">XGBoost</td>
+<td align="center" rowspan="1" colspan="1">AUC = 0.83</td>
+<td align="center" rowspan="1" colspan="1">Prior no-shows</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Daggy et al, 2010<sup><a href="#r10-061_3409315" class="usa-link" aria-describedby="r10-061_3409315">10</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Primary care</td>
+<td align="center" rowspan="1" colspan="1">Logistic regression</td>
+<td align="center" rowspan="1" colspan="1">Odds ratio</td>
+<td align="center" rowspan="1" colspan="1">Younger, lead time, distance from clinic</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Lenzi et al, 2019<sup><a href="#r20-061_3409315" class="usa-link" aria-describedby="r20-061_3409315">20</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Primary care</td>
+<td align="center" rowspan="1" colspan="1">Naive and mixed effect logistic regression</td>
+<td align="center" rowspan="1" colspan="1">AUC =0.81</td>
+<td align="center" rowspan="1" colspan="1">Previous no-shows, same day appointments</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Harvey et al, 2017<sup><a href="#r18-061_3409315" class="usa-link" aria-describedby="r18-061_3409315">18</a></sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Radiology</td>
+<td align="center" rowspan="1" colspan="1">Logistic regression</td>
+<td align="center" rowspan="1" colspan="1">AUC = 0.75</td>
+<td align="center" rowspan="1" colspan="1">Previous no-shows, lead time, insurance type</td>
+</tr>
+</tbody></table></div>
+<div class="p text-right font-secondary"><a href="table/t4-061_3409315/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section><p>On the other hand, there was significant variability in the other important features in our models such as lead time, age MyChart use, and number of prior cancels. Disagreement in the relative importance of the other features used to build these predictive models may stem from how each algorithm incorporates features into their models. From our review, models reporting odds ratios of high-risk factors for patient no-shows are well reported in literature.<sup><a href="#r10-061_3409315" class="usa-link" aria-describedby="r10-061_3409315">10</a>,<a href="#r12-061_3409315" class="usa-link" aria-describedby="r12-061_3409315">12</a>,<a href="#r13-061_3409315" class="usa-link" aria-describedby="r13-061_3409315">13</a>,<a href="#r15-061_3409315" class="usa-link" aria-describedby="r15-061_3409315">15</a></sup> However, odds ratios show associations with no-shows retrospectively and are not always validated on unseen prospective data. In practice, patients identified as having one of these high-risk factors (i.e. Medicaid insurance) may be double booked in a scheduling system to reduce the risk of idle clinic time, but this may result in frequently overbooked clinics. For example, out of 2543 follow-up patients with Medicaid, 529 (20.8%) of them were no-shows, yet our model trained on XGBoost accurately predicted 45% of patients who no-showed. Therefore, using the model to understand and predict patient no-show behavior may be more meaningful than interpreting feature importances alone.</p>
+<p>While many of our significant features correlate with those previously reported, the full prediction model will better detect patients at high risk of no-shows, allowing for more better overbooking strategies. However, targeted interventions such as customized patient education or mitigation of social factors may also be effective strategies to improve appointment adherence and continuity of care for children at risk for vision loss who are also predicted to be at risk for missing appointments.</p>
+<p>Our study has limitations future work could address. First, our study was performed at a single academic center for a single subspecialty. Pediatrics is a domain in which patients often are brought to clinic by another person, introducing another layer of unpredictability. Additionally, it is unclear how generalizable a model trained on data from a pediatric ophthalmology clinic is generalizable to other ophthalmic subspecialties and institutions. However, it may be beneficial to produce models that focus on a local level such as subspecialty due to the varying context of each medical specialty.<sup><a href="#r23-061_3409315" class="usa-link" aria-describedby="r23-061_3409315">23</a></sup> Second, feature importances only represent how much weight a variable has in discriminating patient no-shows vs. shows and do not give the exact effect of the variable (such as positive or negative). Further work is needed to specifically understand how these variables are impacting patient no-shows.</p></section><section id="sec5"><h2 class="pmc_sec_title">Conclusion</h2>
+<p>In conclusion, machine learning models can be developed to accurately predict follow-up visits in pediatric ophthalmology. Our findings reinforce the importance of incorporating features that take into account past behavior when developing predictive no-show models. While EHRs have been criticized for decreasing clinical efficiency, real-time integration of our predictive models into the EHR may optimize future clinic scheduling compared to current scheduling heuristics. We hope our findings will result in more efficient clinic operations and help mitigate the adverse effects of patient no-shows.</p></section><section id="ack1" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p>Funding: This work was supported by the National Institutes of Health (Bethesda, MD) R00LM12238 and P30EY10572 and by unrestricted departmental funding from Research to Prevent Blindness (New York, NY). Jimmy Chen is supported by the Research to Prevent Blindness Medical Student Fellowship (New York, NY). Wei-Chun Lin is supported by a National Library of Medicine training grant from National Institutes of Health (Bethesda, MD), T15LM007088.</p>
+<section id="sec7"><h3 class="pmc_sec_title">Disclosures</h3>
+<p>Michael F. Chiang is a consultant for Novartis (Basel, Switzerland), an equity owner in InTeleretina, LLC (Honolulu, HI).</p></section></section><section id="sec15"><h2 class="pmc_sec_title">Figures &amp; Table</h2>
+<section class="tw xbox font-sm" id="t1-061_3409315"><h3 class="obj_head">Table 1. <strong>Selected Features in the Follow-Up and New Patient Visit Datasets.</strong> Our dataset contained 5188 follow-up visits and 3606 new patient visits, with one visit included per patient. Time-related data (day of the week, month, etc) was not included in this table for brevity. Only categorical data that did not require previous visit information was included in modeling our new patient visits.</h3>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all"><tbody>
+<tr>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">Follow-Up Patients</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">New-Patients</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Categorical Variables</td>
+<td align="center" rowspan="1" colspan="1">No.</td>
+<td align="center" rowspan="1" colspan="1">%</td>
+<td align="center" rowspan="1" colspan="1">No.</td>
+<td align="center" rowspan="1" colspan="1">%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Gender</strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Female</td>
+<td align="center" rowspan="1" colspan="1">2669</td>
+<td align="center" rowspan="1" colspan="1">51.4%</td>
+<td align="center" rowspan="1" colspan="1">1860</td>
+<td align="center" rowspan="1" colspan="1">51.6%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Age</strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Infant (0-1 years old)</td>
+<td align="center" rowspan="1" colspan="1">255</td>
+<td align="center" rowspan="1" colspan="1">4.9%</td>
+<td align="center" rowspan="1" colspan="1">431</td>
+<td align="center" rowspan="1" colspan="1">12.0%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Toddler (1-3 years old)</td>
+<td align="center" rowspan="1" colspan="1">968</td>
+<td align="center" rowspan="1" colspan="1">18.7%</td>
+<td align="center" rowspan="1" colspan="1">814</td>
+<td align="center" rowspan="1" colspan="1">22.6%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Pre-School (3-6 years old)</td>
+<td align="center" rowspan="1" colspan="1">915</td>
+<td align="center" rowspan="1" colspan="1">17.6%</td>
+<td align="center" rowspan="1" colspan="1">528</td>
+<td align="center" rowspan="1" colspan="1">14.6%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">School Age (6-12 years old)</td>
+<td align="center" rowspan="1" colspan="1">1852</td>
+<td align="center" rowspan="1" colspan="1">35.7%</td>
+<td align="center" rowspan="1" colspan="1">1003</td>
+<td align="center" rowspan="1" colspan="1">27.8%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Adolescent (12 years old-18 years old)</td>
+<td align="center" rowspan="1" colspan="1">602</td>
+<td align="center" rowspan="1" colspan="1">11.6%</td>
+<td align="center" rowspan="1" colspan="1">343</td>
+<td align="center" rowspan="1" colspan="1">9.5%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Adult (&gt; 18 years old)</td>
+<td align="center" rowspan="1" colspan="1">584</td>
+<td align="center" rowspan="1" colspan="1">11.3%</td>
+<td align="center" rowspan="1" colspan="1">487</td>
+<td align="center" rowspan="1" colspan="1">13.5%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Insurance Type</strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Commercial</td>
+<td align="center" rowspan="1" colspan="1">2877</td>
+<td align="center" rowspan="1" colspan="1">55.5%</td>
+<td align="center" rowspan="1" colspan="1">1711</td>
+<td align="center" rowspan="1" colspan="1">47.4%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Oregon Medicaid</td>
+<td align="center" rowspan="1" colspan="1">2103</td>
+<td align="center" rowspan="1" colspan="1">40.5%</td>
+<td align="center" rowspan="1" colspan="1">1392</td>
+<td align="center" rowspan="1" colspan="1">38.6%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Out-of-state Medicaid</td>
+<td align="center" rowspan="1" colspan="1">440</td>
+<td align="center" rowspan="1" colspan="1">8.5%</td>
+<td align="center" rowspan="1" colspan="1">221</td>
+<td align="center" rowspan="1" colspan="1">6.1%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Medicare</td>
+<td align="center" rowspan="1" colspan="1">250</td>
+<td align="center" rowspan="1" colspan="1">4.8%</td>
+<td align="center" rowspan="1" colspan="1">215</td>
+<td align="center" rowspan="1" colspan="1">6.0%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Other</td>
+<td align="center" rowspan="1" colspan="1">76</td>
+<td align="center" rowspan="1" colspan="1">1.5%</td>
+<td align="center" rowspan="1" colspan="1">65</td>
+<td align="center" rowspan="1" colspan="1">1.8%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">None</td>
+<td align="center" rowspan="1" colspan="1">8</td>
+<td align="center" rowspan="1" colspan="1">0.2%</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">0.1%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Ethnicity</strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Non-Hispanic</td>
+<td align="center" rowspan="1" colspan="1">3983</td>
+<td align="center" rowspan="1" colspan="1">76.8%</td>
+<td align="center" rowspan="1" colspan="1">2836</td>
+<td align="center" rowspan="1" colspan="1">78.6%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Hispanic</td>
+<td align="center" rowspan="1" colspan="1">1084</td>
+<td align="center" rowspan="1" colspan="1">20.9%</td>
+<td align="center" rowspan="1" colspan="1">666</td>
+<td align="center" rowspan="1" colspan="1">18.5%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Unknown</td>
+<td align="center" rowspan="1" colspan="1">121</td>
+<td align="center" rowspan="1" colspan="1">2.3%</td>
+<td align="center" rowspan="1" colspan="1">104</td>
+<td align="center" rowspan="1" colspan="1">2.9%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Location</strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Portland</td>
+<td align="center" rowspan="1" colspan="1">4510</td>
+<td align="center" rowspan="1" colspan="1">86.9%</td>
+<td align="center" rowspan="1" colspan="1">3300</td>
+<td align="center" rowspan="1" colspan="1">91.5%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Bend</td>
+<td align="center" rowspan="1" colspan="1">66</td>
+<td align="center" rowspan="1" colspan="1">1.3%</td>
+<td align="center" rowspan="1" colspan="1">36</td>
+<td align="center" rowspan="1" colspan="1">1.0%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Vancouver</td>
+<td align="center" rowspan="1" colspan="1">612</td>
+<td align="center" rowspan="1" colspan="1">11.8%</td>
+<td align="center" rowspan="1" colspan="1">270</td>
+<td align="center" rowspan="1" colspan="1">7.5%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Previous Visit Diagnosis<sup>a</sup></strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Strabismus</td>
+<td align="center" rowspan="1" colspan="1">1896</td>
+<td align="center" rowspan="1" colspan="1">36.5%</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Amblyopia</td>
+<td align="center" rowspan="1" colspan="1">615</td>
+<td align="center" rowspan="1" colspan="1">11.9%</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Oculoplastics</td>
+<td align="center" rowspan="1" colspan="1">481</td>
+<td align="center" rowspan="1" colspan="1">9.3%</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Syndromic Malformation or Systemic Illness</td>
+<td align="center" rowspan="1" colspan="1">330</td>
+<td align="center" rowspan="1" colspan="1">6.4%</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Refractive Error</td>
+<td align="center" rowspan="1" colspan="1">209</td>
+<td align="center" rowspan="1" colspan="1">4.0%</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Retinopathy of Prematurity</td>
+<td align="center" rowspan="1" colspan="1">191</td>
+<td align="center" rowspan="1" colspan="1">3.7%</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Other<sup>b</sup>
+</td>
+<td align="center" rowspan="1" colspan="1">1466</td>
+<td align="center" rowspan="1" colspan="1">28.3%</td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>MyChart Activated</strong></td>
+<td align="center" rowspan="1" colspan="1">1397</td>
+<td align="center" rowspan="1" colspan="1">26.9%</td>
+<td align="center" rowspan="1" colspan="1">799</td>
+<td align="center" rowspan="1" colspan="1">22.2%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>English First Language</strong></td>
+<td align="center" rowspan="1" colspan="1">4590</td>
+<td align="center" rowspan="1" colspan="1">88.5%</td>
+<td align="center" rowspan="1" colspan="1">3291</td>
+<td align="center" rowspan="1" colspan="1">91.3%</td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Continuous Variables<sup>c</sup>
+</td>
+<td align="center" rowspan="1" colspan="1">Mean ± SD</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">Mean ± SD</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Number of Previous Visits</strong></td>
+<td align="center" rowspan="1" colspan="1">2.8 ± 1.7</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Number of Prior No-Shows</strong></td>
+<td align="center" rowspan="1" colspan="1">0.1 ± 0.4</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Lead Time (Days)</strong></td>
+<td align="center" rowspan="1" colspan="1">102.6 ± 80.7</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Time from Last Appointment (Days)</strong></td>
+<td align="center" rowspan="1" colspan="1">152.7 ± 124.3</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Number of Previous Cancels</strong></td>
+<td align="center" rowspan="1" colspan="1">0.5 ± 0.9</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Number of Prior Same Day Cancels</strong></td>
+<td align="center" rowspan="1" colspan="1">0.3 ± 0.6</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1">N/A</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1"><strong>Total</strong></td>
+<td align="center" rowspan="1" colspan="1"><strong>5188</strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"><strong>3606</strong></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+</tbody></table></div>
+<div class="p text-right font-secondary"><a href="table/t1-061_3409315/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="fntable1">
+<sup>a</sup><p class="display-inline">Visit diagnosis was not included with new patients because of overfitting to missing diagnoses as no-show patients</p>
+</div>
+<div class="fn" id="fntable2">
+<sup>b</sup><p class="display-inline">"Other" encompasses the following diagnostic groupings: cornea, diplopia, glaucoma, retina, optic nerve, nystagmus, or non-ophthalmic (systemic) disease</p>
+</div>
+<div class="fn" id="fntable3">
+<sup>c</sup><p class="display-inline">All continuous variables were not included as features in the new patient dataset</p>
+</div>
+</div></section></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="r1-061_3409315">
+<span class="label">1.</span><cite>Berg BP, Murr M, Chermak D, Woodall J, Pignone M, Sandler RS, et al.  Estimating the cost of no-shows and evaluating the effects of mitigation strategies. Med Decis Mak Int J Soc Med Decis Mak. 2013 Nov;33(8):976–85. doi: 10.1177/0272989X13478194.</cite> [<a href="https://doi.org/10.1177/0272989X13478194" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4153419/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23515215/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Med%20Decis%20Mak%20Int%20J%20Soc%20Med%20Decis%20Mak.&amp;title=Estimating%20the%20cost%20of%20no-shows%20and%20evaluating%20the%20effects%20of%20mitigation%20strategies&amp;author=BP%20Berg&amp;author=M%20Murr&amp;author=D%20Chermak&amp;author=J%20Woodall&amp;author=M%20Pignone&amp;volume=33&amp;issue=8&amp;publication_year=2013%20Nov&amp;pages=976-85&amp;pmid=23515215&amp;doi=10.1177/0272989X13478194&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r2-061_3409315">
+<span class="label">2.</span><cite>Kheirkhah P, Feng Q, Travis LM, Tavakoli-Tabasi S, Sharafkhaneh A. Prevalence, predictors and economic consequences of no-shows. BMC Health Serv Res. 2016 Jan 14;16:13–13. doi: 10.1186/s12913-015-1243-z.</cite> [<a href="https://doi.org/10.1186/s12913-015-1243-z" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4714455/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26769153/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=BMC%20Health%20Serv%20Res&amp;title=Prevalence,%20predictors%20and%20economic%20consequences%20of%20no-shows&amp;author=P%20Kheirkhah&amp;author=Q%20Feng&amp;author=LM%20Travis&amp;author=S%20Tavakoli-Tabasi&amp;author=A.%20Sharafkhaneh&amp;volume=16&amp;publication_year=2016&amp;pages=13-13&amp;pmid=26769153&amp;doi=10.1186/s12913-015-1243-z&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r3-061_3409315">
+<span class="label">3.</span><cite>Nguyen DL, Dejesus RS, Wieland ML. Missed appointments in resident continuity clinic: patient characteristics and health care outcomes. J Grad Med Educ. 2011 Sep;3(3):350–5. doi: 10.4300/JGME-D-10-00199.1.</cite> [<a href="https://doi.org/10.4300/JGME-D-10-00199.1" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3179242/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22942961/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Grad%20Med%20Educ.&amp;title=Missed%20appointments%20in%20resident%20continuity%20clinic:%20patient%20characteristics%20and%20health%20care%20outcomes&amp;author=DL%20Nguyen&amp;author=RS%20Dejesus&amp;author=ML.%20Wieland&amp;volume=3&amp;issue=3&amp;publication_year=2011&amp;pages=350-5&amp;pmid=22942961&amp;doi=10.4300/JGME-D-10-00199.1&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r4-061_3409315">
+<span class="label">4.</span><cite>Nuti LA, Lawley M, Turkcan A, Tian Z, Zhang L, Chang K, et al.  No-Shows to primary care appointments: subsequent acute care utilization among diabetic patients. BMC Health Serv Res. 2012 Sep 6;12:304–304. doi: 10.1186/1472-6963-12-304.</cite> [<a href="https://doi.org/10.1186/1472-6963-12-304" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3470968/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22953791/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=BMC%20Health%20Serv%20Res.&amp;title=No-Shows%20to%20primary%20care%20appointments:%20subsequent%20acute%20care%20utilization%20among%20diabetic%20patients&amp;author=LA%20Nuti&amp;author=M%20Lawley&amp;author=A%20Turkcan&amp;author=Z%20Tian&amp;author=L%20Zhang&amp;volume=12&amp;publication_year=2012&amp;pages=304-304&amp;pmid=22953791&amp;doi=10.1186/1472-6963-12-304&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r5-061_3409315">
+<span class="label">5.</span><cite>Hwang AS, Atlas SJ, Cronin P, Ashburner JM, Shah SJ, He W, et al.  Appointment “no-shows” are an independent predictor of subsequent quality of care and resource utilization outcomes. J Gen Intern Med. 2015 Oct;30(10):1426–33. doi: 10.1007/s11606-015-3252-3.</cite> [<a href="https://doi.org/10.1007/s11606-015-3252-3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4579240/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25776581/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Gen%20Intern%20Med.&amp;title=Appointment%20%E2%80%9Cno-shows%E2%80%9D%20are%20an%20independent%20predictor%20of%20subsequent%20quality%20of%20care%20and%20resource%20utilization%20outcomes&amp;author=AS%20Hwang&amp;author=SJ%20Atlas&amp;author=P%20Cronin&amp;author=JM%20Ashburner&amp;author=SJ%20Shah&amp;volume=30&amp;issue=10&amp;publication_year=2015&amp;pages=1426-33&amp;pmid=25776581&amp;doi=10.1007/s11606-015-3252-3&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r6-061_3409315">
+<span class="label">6.</span><cite>Sandhu E, Weinstein S, McKethan A, Jain SH. Secondary Uses of Electronic Health Record Data: Benefits and Barriers. Jt Comm J Qual Patient Saf. 2012 Jan 1;38(1):34–40. doi: 10.1016/s1553-7250(12)38005-7.</cite> [<a href="https://doi.org/10.1016/s1553-7250(12)38005-7" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22324189/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Jt%20Comm%20J%20Qual%20Patient%20Saf.&amp;title=Secondary%20Uses%20of%20Electronic%20Health%20Record%20Data:%20Benefits%20and%20Barriers&amp;author=E%20Sandhu&amp;author=S%20Weinstein&amp;author=A%20McKethan&amp;author=SH.%20Jain&amp;volume=38&amp;issue=1&amp;publication_year=2012&amp;pages=34-40&amp;pmid=22324189&amp;doi=10.1016/s1553-7250(12)38005-7&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r7-061_3409315">
+<span class="label">7.</span><cite>Hribar MR, Read-Brown S, Goldstein IH, Reznick LG, Lombardi L, Parikh M, et al.  Secondary use of electronic health record data for clinical workflow analysis. J Am Med Inform Assoc JAMIA. 2018 Jan 1;25(1):40–6. doi: 10.1093/jamia/ocx098.</cite> [<a href="https://doi.org/10.1093/jamia/ocx098" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6080808/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29036581/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc%20JAMIA.&amp;title=Secondary%20use%20of%20electronic%20health%20record%20data%20for%20clinical%20workflow%20analysis&amp;author=MR%20Hribar&amp;author=S%20Read-Brown&amp;author=IH%20Goldstein&amp;author=LG%20Reznick&amp;author=L%20Lombardi&amp;volume=25&amp;issue=1&amp;publication_year=2018&amp;pages=40-6&amp;pmid=29036581&amp;doi=10.1093/jamia/ocx098&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r8-061_3409315">
+<span class="label">8.</span><cite>Lin W-C, Goldstein IH, Hribar MR, Huang A, Chiang MF. Secondary Use of Electronic Health Record Data for Prediction of Outpatient Visit Length in Ophthalmology Clinics. AMIA Annu Symp Proc AMIA Symp. 2018 Dec 5;2018:1387–94.</cite> [<a href="/articles/PMC6371379/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30815183/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=AMIA%20Annu%20Symp%20Proc%20AMIA%20Symp.&amp;title=Secondary%20Use%20of%20Electronic%20Health%20Record%20Data%20for%20Prediction%20of%20Outpatient%20Visit%20Length%20in%20Ophthalmology%20Clinics&amp;author=W-C%20Lin&amp;author=IH%20Goldstein&amp;author=MR%20Hribar&amp;author=A%20Huang&amp;author=MF.%20Chiang&amp;volume=2018&amp;publication_year=2018&amp;pages=1387-94&amp;pmid=30815183&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r9-061_3409315">
+<span class="label">9.</span><cite>Dantas LF, Fleck JL, Cyrino Oliveira FL, Hamacher S. No-Shows in appointment scheduling – a systematic literature review. Health Policy. 2018 Apr 1;122(4):412–21. doi: 10.1016/j.healthpol.2018.02.002.</cite> [<a href="https://doi.org/10.1016/j.healthpol.2018.02.002" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29482948/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Policy.&amp;title=No-Shows%20in%20appointment%20scheduling%20%E2%80%93%20a%20systematic%20literature%20review&amp;author=LF%20Dantas&amp;author=JL%20Fleck&amp;author=FL%20Cyrino%20Oliveira&amp;author=S.%20Hamacher&amp;volume=122&amp;issue=4&amp;publication_year=2018&amp;pages=412-21&amp;pmid=29482948&amp;doi=10.1016/j.healthpol.2018.02.002&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r10-061_3409315">
+<span class="label">10.</span><cite>Daggy J, Lawley M, Willis D, Thayer D, Suelzer C, DeLaurentis P-C, et al.  Using no-show modeling to improve clinic performance. Health Informatics J. 2010 Dec 1;16(4):246–59. doi: 10.1177/1460458210380521.</cite> [<a href="https://doi.org/10.1177/1460458210380521" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21216805/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Informatics%20J.&amp;title=Using%20no-show%20modeling%20to%20improve%20clinic%20performance&amp;author=J%20Daggy&amp;author=M%20Lawley&amp;author=D%20Willis&amp;author=D%20Thayer&amp;author=C%20Suelzer&amp;volume=16&amp;issue=4&amp;publication_year=2010&amp;pages=246-59&amp;pmid=21216805&amp;doi=10.1177/1460458210380521&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r11-061_3409315">
+<span class="label">11.</span><cite>Odonkor CA, Christiansen S, Chen Y, Sathiyakumar A, Chaudhry H, Cinquegrana D, et al.  Factors Associated With Missed Appointments at an Academic Pain Treatment Center: A Prospective Year-Long Longitudinal Study. Anesth Analg. [Internet] 2017;125(2) doi: 10.1213/ANE.0000000000001794. Available from: <a href="https://journals.lww.com/anesthesia-analgesia/Fulltext/2017/08000/Factors_Associated_With_Missed_Appointments_at_an.31.aspx" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://journals.lww.com/anesthesia- analgesia/Fulltext/2017/08000/Factors_Associated_With_Missed_Appointments_at_an.31.aspx</a> .</cite> [<a href="https://doi.org/10.1213/ANE.0000000000001794" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28277318/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Anesth%20Analg.%20[Internet]&amp;title=Factors%20Associated%20With%20Missed%20Appointments%20at%20an%20Academic%20Pain%20Treatment%20Center:%20A%20Prospective%20Year-Long%20Longitudinal%20Study&amp;author=CA%20Odonkor&amp;author=S%20Christiansen&amp;author=Y%20Chen&amp;author=A%20Sathiyakumar&amp;author=H%20Chaudhry&amp;volume=125&amp;issue=2&amp;publication_year=2017&amp;pmid=28277318&amp;doi=10.1213/ANE.0000000000001794&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r12-061_3409315">
+<span class="label">12.</span><cite>Huang Y, Hanauer DA. Patient no-show predictive model development using multiple data sources for an effective overbooking approach. Appl Clin Inform. 2014 Sep 24;5(3):836–60. doi: 10.4338/ACI-2014-04-RA-0026.</cite> [<a href="https://doi.org/10.4338/ACI-2014-04-RA-0026" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4187098/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25298821/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Appl%20Clin%20Inform.&amp;title=Patient%20no-show%20predictive%20model%20development%20using%20multiple%20data%20sources%20for%20an%20effective%20overbooking%20approach&amp;author=Y%20Huang&amp;author=DA.%20Hanauer&amp;volume=5&amp;issue=3&amp;publication_year=2014&amp;pages=836-60&amp;pmid=25298821&amp;doi=10.4338/ACI-2014-04-RA-0026&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r13-061_3409315">
+<span class="label">13.</span><cite>Torres O, Rothberg MB, Garb J, Ogunneye O, Onyema J, Higgins T. Risk Factor Model to Predict a Missed Clinic Appointment in an Urban, Academic, and Underserved Setting. Popul Health Manag. 2014 Oct 9;18(2):131–6. doi: 10.1089/pop.2014.0047.</cite> [<a href="https://doi.org/10.1089/pop.2014.0047" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25299396/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Popul%20Health%20Manag.&amp;title=Risk%20Factor%20Model%20to%20Predict%20a%20Missed%20Clinic%20Appointment%20in%20an%20Urban,%20Academic,%20and%20Underserved%20Setting&amp;author=O%20Torres&amp;author=MB%20Rothberg&amp;author=J%20Garb&amp;author=O%20Ogunneye&amp;author=J%20Onyema&amp;volume=18&amp;issue=2&amp;publication_year=2014&amp;pages=131-6&amp;pmid=25299396&amp;doi=10.1089/pop.2014.0047&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r14-061_3409315">
+<span class="label">14.</span><cite>Fiorillo CE, Hughes AL, I-Chen C, Westgate PM, Gal TJ, Bush ML, et al.  Factors associated with patient no- show rates in an academic otolaryngology practice. The Laryngoscope. 2018 Mar;128(3):626–31. doi: 10.1002/lary.26816.</cite> [<a href="https://doi.org/10.1002/lary.26816" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5814324/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28815608/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=The%20Laryngoscope&amp;title=Factors%20associated%20with%20patient%20no-%20show%20rates%20in%20an%20academic%20otolaryngology%20practice&amp;author=CE%20Fiorillo&amp;author=AL%20Hughes&amp;author=C%20I-Chen&amp;author=PM%20Westgate&amp;author=TJ%20Gal&amp;volume=128&amp;issue=3&amp;publication_year=2018&amp;pages=626-31&amp;pmid=28815608&amp;doi=10.1002/lary.26816&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r15-061_3409315">
+<span class="label">15.</span><cite>Guzek LM, Fadel WF, Golomb MR. A Pilot Study of Reasons and Risk Factors for “No-Shows” in a Pediatric Neurology Clinic. J Child Neurol. 2014 Dec 10;30(10):1295–9. doi: 10.1177/0883073814559098.</cite> [<a href="https://doi.org/10.1177/0883073814559098" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25503257/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Child%20Neurol.&amp;title=A%20Pilot%20Study%20of%20Reasons%20and%20Risk%20Factors%20for%20%E2%80%9CNo-Shows%E2%80%9D%20in%20a%20Pediatric%20Neurology%20Clinic&amp;author=LM%20Guzek&amp;author=WF%20Fadel&amp;author=MR.%20Golomb&amp;volume=30&amp;issue=10&amp;publication_year=2014&amp;pages=1295-9&amp;pmid=25503257&amp;doi=10.1177/0883073814559098&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r16-061_3409315">
+<span class="label">16.</span><cite>McMullen MJ, Netland PA. Lead time for appointment and the no-show rate in an ophthalmology clinic. Clin Ophthalmol Auckl NZ. 2015 Mar 18;9:513–6. doi: 10.2147/OPTH.S82151.</cite> [<a href="https://doi.org/10.2147/OPTH.S82151" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4370946/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25834388/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Clin%20Ophthalmol%20Auckl%20NZ.&amp;title=Lead%20time%20for%20appointment%20and%20the%20no-show%20rate%20in%20an%20ophthalmology%20clinic&amp;author=MJ%20McMullen&amp;author=PA.%20Netland&amp;volume=9&amp;publication_year=2015&amp;pages=513-6&amp;pmid=25834388&amp;doi=10.2147/OPTH.S82151&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r17-061_3409315">
+<span class="label">17.</span><cite>Mohammadi I, Wu H, Turkcan A, Toscos T, Doebbeling BN. Data Analytics and Modeling for Appointment No-Show in Community Health Centers. J Prim Care Community Health. 2018;9:2150132718811692–2150132718811692. doi: 10.1177/2150132718811692.</cite> [<a href="https://doi.org/10.1177/2150132718811692" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6243417/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30451063/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Prim%20Care%20Community%20Health.&amp;title=Data%20Analytics%20and%20Modeling%20for%20Appointment%20No-Show%20in%20Community%20Health%20Centers&amp;author=I%20Mohammadi&amp;author=H%20Wu&amp;author=A%20Turkcan&amp;author=T%20Toscos&amp;author=BN.%20Doebbeling&amp;volume=9&amp;publication_year=2018&amp;pages=2150132718811692-2150132718811692&amp;pmid=30451063&amp;doi=10.1177/2150132718811692&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r18-061_3409315">
+<span class="label">18.</span><cite>Harvey HB, Liu C, Ai J, Jaworsky C, Guerrier CE, Flores E, et al.  Predicting No-Shows in Radiology Using Regression Modeling of Data Available in the Electronic Medical Record. J Am Coll Radiol. 2017 Oct 1;14(10):1303–9. doi: 10.1016/j.jacr.2017.05.007.</cite> [<a href="https://doi.org/10.1016/j.jacr.2017.05.007" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28673777/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Coll%20Radiol.&amp;title=Predicting%20No-Shows%20in%20Radiology%20Using%20Regression%20Modeling%20of%20Data%20Available%20in%20the%20Electronic%20Medical%20Record&amp;author=HB%20Harvey&amp;author=C%20Liu&amp;author=J%20Ai&amp;author=C%20Jaworsky&amp;author=CE%20Guerrier&amp;volume=14&amp;issue=10&amp;publication_year=2017&amp;pages=1303-9&amp;pmid=28673777&amp;doi=10.1016/j.jacr.2017.05.007&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r19-061_3409315">
+<span class="label">19.</span><cite>Rosenthal BD, Hulst JB, Moric M, Levine BR, Sporer SM. The Effect of Payer Type on Clinical Outcomes in Total Knee Arthroplasty. J Arthroplasty. 2014 Feb 1;29(2):295–8. doi: 10.1016/j.arth.2013.06.010.</cite> [<a href="https://doi.org/10.1016/j.arth.2013.06.010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23927908/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Arthroplasty.&amp;title=The%20Effect%20of%20Payer%20Type%20on%20Clinical%20Outcomes%20in%20Total%20Knee%20Arthroplasty&amp;author=BD%20Rosenthal&amp;author=JB%20Hulst&amp;author=M%20Moric&amp;author=BR%20Levine&amp;author=SM.%20Sporer&amp;volume=29&amp;issue=2&amp;publication_year=2014&amp;pages=295-8&amp;pmid=23927908&amp;doi=10.1016/j.arth.2013.06.010&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r20-061_3409315">
+<span class="label">20.</span><cite>Lenzi H, Ben ÂJ, Stein AT. Development and validation of a patient no-show predictive model at a primary care setting in Southern Brazil. PloS One. 2019 Apr 4;14(4):e0214869–e0214869. doi: 10.1371/journal.pone.0214869.</cite> [<a href="https://doi.org/10.1371/journal.pone.0214869" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6448862/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30947294/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PloS%20One.&amp;title=Development%20and%20validation%20of%20a%20patient%20no-show%20predictive%20model%20at%20a%20primary%20care%20setting%20in%20Southern%20Brazil&amp;author=H%20Lenzi&amp;author=%C3%82J%20Ben&amp;author=AT.%20Stein&amp;volume=14&amp;issue=4&amp;publication_year=2019&amp;pages=e0214869-e0214869&amp;pmid=30947294&amp;doi=10.1371/journal.pone.0214869&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r21-061_3409315">
+<span class="label">21.</span><cite>Goffman RM, Harris SL, May JH, Milicevic AS, Monte RJ, Myaskovsky L, et al.  Modeling Patient No-Show History and Predicting Future Outpatient Appointment Behavior in the Veterans Health Administration. Mil Med. 2017 May 1;182(5–6):e1708–14. doi: 10.7205/MILMED-D-16-00345.</cite> [<a href="https://doi.org/10.7205/MILMED-D-16-00345" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29087915/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Mil%20Med.&amp;title=Modeling%20Patient%20No-Show%20History%20and%20Predicting%20Future%20Outpatient%20Appointment%20Behavior%20in%20the%20Veterans%20Health%20Administration&amp;author=RM%20Goffman&amp;author=SL%20Harris&amp;author=JH%20May&amp;author=AS%20Milicevic&amp;author=RJ%20Monte&amp;volume=182&amp;issue=5%E2%80%936&amp;publication_year=2017&amp;pages=e1708-14&amp;pmid=29087915&amp;doi=10.7205/MILMED-D-16-00345&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r22-061_3409315">
+<span class="label">22.</span><cite>Shimoda A, Ichikawa D, Oyama H. Using machine-learning approaches to predict non-participation in a nationwide general health check-up scheme. Comput Methods Programs Biomed. 2018 Sep 1;163:39–46. doi: 10.1016/j.cmpb.2018.05.032.</cite> [<a href="https://doi.org/10.1016/j.cmpb.2018.05.032" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30119856/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Comput%20Methods%20Programs%20Biomed.&amp;title=Using%20machine-learning%20approaches%20to%20predict%20non-participation%20in%20a%20nationwide%20general%20health%20check-up%20scheme&amp;author=A%20Shimoda&amp;author=D%20Ichikawa&amp;author=H.%20Oyama&amp;volume=163&amp;publication_year=2018&amp;pages=39-46&amp;pmid=30119856&amp;doi=10.1016/j.cmpb.2018.05.032&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r23-061_3409315">
+<span class="label">23.</span><cite>Ding X, Gellad ZF, Mather C, 3rd, Barth P, Poon EG, Newman M, et al.  Designing risk prediction models for ambulatory no-shows across different specialties and clinics. J Am Med Inform Assoc JAMIA. 2018 Aug 1;25(8):924–30. doi: 10.1093/jamia/ocy002.</cite> [<a href="https://doi.org/10.1093/jamia/ocy002" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6077778/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29444283/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc%20JAMIA.&amp;title=Designing%20risk%20prediction%20models%20for%20ambulatory%20no-shows%20across%20different%20specialties%20and%20clinics&amp;author=X%20Ding&amp;author=ZF%20Gellad&amp;author=C%20Mather&amp;author=P%20Barth&amp;author=EG%20Poon&amp;volume=25&amp;issue=8&amp;publication_year=2018&amp;pages=924-30&amp;pmid=29444283&amp;doi=10.1093/jamia/ocy002&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r24-061_3409315">
+<span class="label">24.</span><cite>Samuels RC, Ward VL, Melvin P, Macht-Greenberg M, Wenren LM, Yi J, et al.  Missed Appointments: Factors Contributing to High No-Show Rates in an Urban Pediatrics Primary Care Clinic. Clin Pediatr (Phila) 2015 Feb 12;54(10):976–82. doi: 10.1177/0009922815570613.</cite> [<a href="https://doi.org/10.1177/0009922815570613" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25676833/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Clin%20Pediatr%20(Phila)&amp;title=Missed%20Appointments:%20Factors%20Contributing%20to%20High%20No-Show%20Rates%20in%20an%20Urban%20Pediatrics%20Primary%20Care%20Clinic&amp;author=RC%20Samuels&amp;author=VL%20Ward&amp;author=P%20Melvin&amp;author=M%20Macht-Greenberg&amp;author=LM%20Wenren&amp;volume=54&amp;issue=10&amp;publication_year=2015&amp;pages=976-82&amp;pmid=25676833&amp;doi=10.1177/0009922815570613&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r25-061_3409315">
+<span class="label">25.</span><cite>Core Team R. Austria: R Foundation for Statistical Computing  . R: A Language and Environment for Statistical Computing. Vienna: 2014. </cite> [<a href="https://scholar.google.com/scholar_lookup?title=R:%20A%20Language%20and%20Environment%20for%20Statistical%20Computing&amp;author=R%20Core%20Team&amp;publication_year=2014&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r26-061_3409315">
+<span class="label">26.</span><cite>Python Software Foundation  Python Language Reference.  version 3.7. Available at <a href="http://www.python.org" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.python.org</a> .</cite>
+</li>
+<li id="r27-061_3409315">
+<span class="label">27.</span><cite>Pedregosa F., Varoquaux G., Gramfort A., Michel V., Thirion B., Grisel O., Blondel M., Prettenhofer P., Weiss R., Dubourg V., Vanderplas J., Passos A., Cournapeau D., Brucher M., Perrot M., Duchesnay E. Scikit-Learn: Machine learning in Python. Journal of Machine Learning Research. 2011;12:2825–2830.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Journal%20of%20Machine%20Learning%20Research&amp;title=Scikit-Learn:%20Machine%20learning%20in%20Python&amp;author=F.%20Pedregosa&amp;author=G.%20Varoquaux&amp;author=A.%20Gramfort&amp;author=V.%20Michel&amp;author=B.%20Thirion&amp;volume=12&amp;publication_year=2011&amp;pages=2825-2830&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r28-061_3409315">
+<span class="label">28.</span><cite>Chen T, Guestrin C.  Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining [Internet] New York, NY, USA: Association for Computing Machinery; 2016. XGBoost: A Scalable Tree Boosting System; pp. 785–794. (KDD ’16). Available from: https://doi.org/10.1145/2939672.2939785.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Proceedings%20of%20the%2022nd%20ACM%20SIGKDD%20International%20Conference%20on%20Knowledge%20Discovery%20and%20Data%20Mining%20[Internet]&amp;author=T%20Chen&amp;author=C.%20Guestrin&amp;publication_year=2016&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r29-061_3409315">
+<span class="label">29.</span><cite>Luo L, Zhang F, Yao Y, Gong R, Fu M, Xiao J. Machine learning for identification of surgeries with high risks of cancellation. Health Informatics J. 2018 Dec 5:1460458218813602. doi: 10.1177/1460458218813602.</cite> [<a href="https://doi.org/10.1177/1460458218813602" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30518275/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Informatics%20J.&amp;title=Machine%20learning%20for%20identification%20of%20surgeries%20with%20high%20risks%20of%20cancellation&amp;author=L%20Luo&amp;author=F%20Zhang&amp;author=Y%20Yao&amp;author=R%20Gong&amp;author=M%20Fu&amp;publication_year=2018%20Dec%205&amp;pages=1460458218813602&amp;pmid=30518275&amp;doi=10.1177/1460458218813602&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r30-061_3409315">
+<span class="label">30.</span><cite>Drewek R, Mirea L, Adelson PD. Lead Time to Appointment and No-Show Rates for New and Follow-Up Patients in an Ambulatory Clinic. Health Care Manag [Internet] 2017;36(1) doi: 10.1097/HCM.0000000000000148. Available from: <a href="https://journals.lww.com/healthcaremanagerjournal/Fulltext/2017/01000/Lead_Time_to_Appointment_and_No_Show_Rates_for_New.2.aspx" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://journals.lww.com/healthcaremanagerjournal/Fulltext/2017/01000/Lead_Time_to_Appointment_and_N o_Show_Rates_for_New.2.aspx</a> .</cite> [<a href="https://doi.org/10.1097/HCM.0000000000000148" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28067678/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Care%20Manag%20[Internet]&amp;title=Lead%20Time%20to%20Appointment%20and%20No-Show%20Rates%20for%20New%20and%20Follow-Up%20Patients%20in%20an%20Ambulatory%20Clinic&amp;author=R%20Drewek&amp;author=L%20Mirea&amp;author=PD.%20Adelson&amp;volume=36&amp;issue=1&amp;publication_year=2017&amp;pmid=28067678&amp;doi=10.1097/HCM.0000000000000148&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from AMIA Annual Symposium Proceedings are provided here courtesy of <strong>American Medical Informatics Association</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               
+               <li>
+                    <a
+                            href="pdf/061_3409315.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (417.5 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/8075453/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/8075453/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC8075453%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC8075453/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC8075453/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC8075453/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/33936401/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC8075453/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/33936401/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC8075453/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/8075453/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="1Ivgs9qkhnUVr9cFohauDdSDehVYvuQbIw4TPxOU8UgzPmZZw5t74B71KJ3dAIEr">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

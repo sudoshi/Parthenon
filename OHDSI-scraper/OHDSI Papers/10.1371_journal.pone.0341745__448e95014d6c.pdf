@@ -1,0 +1,1835 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article"
+      class="no-js">
+
+
+
+<head prefix="og: http://ogp.me/ns#">
+
+
+
+
+<link rel="stylesheet" href="/resource/css/screen.css?7e98da019f64e1cf0af29e785117b846"/>
+  <!-- allows for  extra head tags -->
+
+
+<!-- hello -->
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600">
+
+<link media="print" rel="stylesheet" type="text/css"  href="/resource/css/print.css"/>
+    <script type="text/javascript">
+        var siteUrlPrefix = "/plosone/";
+    </script>
+  <script src="/resource/js/vendor/modernizr-v2.7.1.js" type="text/javascript"></script>
+  <script src="/resource/js/vendor/detectizr.min.js" type="text/javascript"></script>
+
+  <link rel="shortcut icon" href="/resource/img/favicon.ico" type="image/x-icon"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+  <link rel="canonical" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341745" />
+  <meta name="description" content="Purpose Prostatitis has been reported in patients with type 2 diabetes mellitus (T2DM) receiving antihyperglycemic agents (AHAs). This study was conducted to evaluate the risk of prostatitis with canagliflozin in response to a specific Health Authority query.   Methods This retrospective cohort study used data from adult male patients with T2DM who were new users of canagliflozin (target) or comparators (empagliflozin, dapagliflozin, sitagliptin, and liraglutide). Data were obtained from 8 global administrative claims databases, transformed to a Common Data Model for consistent analysis across databases. Pairwise comparisons were conducted using propensity scores to match canagliflozin users to users of each comparator at a 1:n ratio (maximum n = 100). Hazard ratios were estimated using a Cox proportional hazards model, conditioned on the matched set.   Results A total of 388,893 adult male patients with T2DM received canagliflozin across databases (mean age, 51.2&ndash;71.7 years) and were matched to 657,134 patients receiving empagliflozin, 340,539 receiving dapagliflozin, 819,047 receiving sitagliptin, and 278,684 receiving liraglutide. On-treatment incidence rates showed that prostatitis was uncommon in the canagliflozin cohort in nearly all databases (4.2&ndash;7.7 per 1000 person-years) and were similar to those of the comparator treatments. The exception was a higher crude incidence rate in the Merative MarketScan&reg; Medicare Supplemental Database (10.1&ndash;12.1 per 1000 person-years). Propensity score matching achieved good balance in all available covariates, and effect estimates were relatively close to a hazard ratio of 1.0, varying on both sides of the null effect. Minimum detectable relative risks were low in most databases, and meta-analytic estimates were near 1.0, with all upper bounds &lt;1.50. No association (either increased or decreased risk) was found with canagliflozin versus other AHAs.   Conclusions This analysis found no evidence of a statistically significantly increased risk of prostatitis among adult male patients with T2DM receiving canagliflozin compared with the other AHAs evaluated in this study." />
+
+  <meta name="citation_abstract" content="Purpose Prostatitis has been reported in patients with type 2 diabetes mellitus (T2DM) receiving antihyperglycemic agents (AHAs). This study was conducted to evaluate the risk of prostatitis with canagliflozin in response to a specific Health Authority query.   Methods This retrospective cohort study used data from adult male patients with T2DM who were new users of canagliflozin (target) or comparators (empagliflozin, dapagliflozin, sitagliptin, and liraglutide). Data were obtained from 8 global administrative claims databases, transformed to a Common Data Model for consistent analysis across databases. Pairwise comparisons were conducted using propensity scores to match canagliflozin users to users of each comparator at a 1:n ratio (maximum n = 100). Hazard ratios were estimated using a Cox proportional hazards model, conditioned on the matched set.   Results A total of 388,893 adult male patients with T2DM received canagliflozin across databases (mean age, 51.2&ndash;71.7 years) and were matched to 657,134 patients receiving empagliflozin, 340,539 receiving dapagliflozin, 819,047 receiving sitagliptin, and 278,684 receiving liraglutide. On-treatment incidence rates showed that prostatitis was uncommon in the canagliflozin cohort in nearly all databases (4.2&ndash;7.7 per 1000 person-years) and were similar to those of the comparator treatments. The exception was a higher crude incidence rate in the Merative MarketScan&reg; Medicare Supplemental Database (10.1&ndash;12.1 per 1000 person-years). Propensity score matching achieved good balance in all available covariates, and effect estimates were relatively close to a hazard ratio of 1.0, varying on both sides of the null effect. Minimum detectable relative risks were low in most databases, and meta-analytic estimates were near 1.0, with all upper bounds &lt;1.50. No association (either increased or decreased risk) was found with canagliflozin versus other AHAs.   Conclusions This analysis found no evidence of a statistically significantly increased risk of prostatitis among adult male patients with T2DM receiving canagliflozin compared with the other AHAs evaluated in this study.">
+
+
+  <meta name="keywords" content="Electronic medical records,Prostatitis,Type 2 diabetes risk,Type 2 diabetes,Comparators,Epidemiology,Medicare,Drug therapy" />
+
+
+<meta name="citation_doi" content="10.1371/journal.pone.0341745"/>
+<meta name="citation_author" content="Zhong Yuan"/>
+  <meta name="citation_author_institution" content="Johnson & Johnson, Horsham, Pennsylvania, United States of America"/>
+<meta name="citation_author" content="Carolyn H. Jeffcoat"/>
+  <meta name="citation_author_institution" content="Johnson & Johnson, Horsham, Pennsylvania, United States of America"/>
+<meta name="citation_author" content="Saberi Rana Ali"/>
+  <meta name="citation_author_institution" content="Johnson & Johnson, Titusville, New Jersey, United States of America"/>
+<meta name="citation_author" content="Anthony G. Sena"/>
+  <meta name="citation_author_institution" content="Johnson & Johnson, Titusville, New Jersey, United States of America"/>
+<meta name="citation_author" content="Martijn J. Schuemie"/>
+  <meta name="citation_author_institution" content="Johnson & Johnson, Titusville, New Jersey, United States of America"/>
+<meta name="citation_author" content="Patrick B. Ryan"/>
+  <meta name="citation_author_institution" content="Johnson & Johnson, Titusville, New Jersey, United States of America"/>
+<meta name="citation_author" content="Sergio A. Fonseca"/>
+  <meta name="citation_author_institution" content="Johnson & Johnson, Titusville, New Jersey, United States of America"/>
+
+<meta name="citation_title" content="Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching"/>
+<meta itemprop="name" content="Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching"/>
+<meta name="citation_journal_title" content="PLOS ONE"/>
+<meta name="citation_journal_abbrev" content="PLOS ONE"/>
+<meta name="citation_date" content="Feb 2, 2026"/>
+<meta name="citation_firstpage" content="e0341745"/>
+<meta name="citation_issue" content="2"/>
+<meta name="citation_volume" content="21"/>
+<meta name="citation_issn" content="1932-6203"/>
+<meta name="citation_publisher" content="Public Library of Science"/>
+
+  <meta name="citation_pdf_url" content="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0341745&type=printable">
+
+  <meta name="citation_article_type" content="Research Article">
+
+<meta name="dc.identifier" content="10.1371/journal.pone.0341745" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="plosone"/>
+    <meta name="twitter:title" content="Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching" />
+    <meta property="twitter:description" content="Purpose Prostatitis has been reported in patients with type 2 diabetes mellitus (T2DM) receiving antihyperglycemic agents (AHAs). This study was conducted to evaluate the risk of prostatitis with canagliflozin in response to a specific Health Authority query.   Methods This retrospective cohort study used data from adult male patients with T2DM who were new users of canagliflozin (target) or comparators (empagliflozin, dapagliflozin, sitagliptin, and liraglutide). Data were obtained from 8 global administrative claims databases, transformed to a Common Data Model for consistent analysis across databases. Pairwise comparisons were conducted using propensity scores to match canagliflozin users to users of each comparator at a 1:n ratio (maximum n = 100). Hazard ratios were estimated using a Cox proportional hazards model, conditioned on the matched set.   Results A total of 388,893 adult male patients with T2DM received canagliflozin across databases (mean age, 51.2&ndash;71.7 years) and were matched to 657,134 patients receiving empagliflozin, 340,539 receiving dapagliflozin, 819,047 receiving sitagliptin, and 278,684 receiving liraglutide. On-treatment incidence rates showed that prostatitis was uncommon in the canagliflozin cohort in nearly all databases (4.2&ndash;7.7 per 1000 person-years) and were similar to those of the comparator treatments. The exception was a higher crude incidence rate in the Merative MarketScan&reg; Medicare Supplemental Database (10.1&ndash;12.1 per 1000 person-years). Propensity score matching achieved good balance in all available covariates, and effect estimates were relatively close to a hazard ratio of 1.0, varying on both sides of the null effect. Minimum detectable relative risks were low in most databases, and meta-analytic estimates were near 1.0, with all upper bounds &lt;1.50. No association (either increased or decreased risk) was found with canagliflozin versus other AHAs.   Conclusions This analysis found no evidence of a statistically significantly increased risk of prostatitis among adult male patients with T2DM receiving canagliflozin compared with the other AHAs evaluated in this study." />
+    <meta property="twitter:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0341745.g004&size=inline" />
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341745"/>
+<meta property="og:title" content="Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching"/>
+<meta property="og:description" content="Purpose Prostatitis has been reported in patients with type 2 diabetes mellitus (T2DM) receiving antihyperglycemic agents (AHAs). This study was conducted to evaluate the risk of prostatitis with canagliflozin in response to a specific Health Authority query.   Methods This retrospective cohort study used data from adult male patients with T2DM who were new users of canagliflozin (target) or comparators (empagliflozin, dapagliflozin, sitagliptin, and liraglutide). Data were obtained from 8 global administrative claims databases, transformed to a Common Data Model for consistent analysis across databases. Pairwise comparisons were conducted using propensity scores to match canagliflozin users to users of each comparator at a 1:n ratio (maximum n = 100). Hazard ratios were estimated using a Cox proportional hazards model, conditioned on the matched set.   Results A total of 388,893 adult male patients with T2DM received canagliflozin across databases (mean age, 51.2&ndash;71.7 years) and were matched to 657,134 patients receiving empagliflozin, 340,539 receiving dapagliflozin, 819,047 receiving sitagliptin, and 278,684 receiving liraglutide. On-treatment incidence rates showed that prostatitis was uncommon in the canagliflozin cohort in nearly all databases (4.2&ndash;7.7 per 1000 person-years) and were similar to those of the comparator treatments. The exception was a higher crude incidence rate in the Merative MarketScan&reg; Medicare Supplemental Database (10.1&ndash;12.1 per 1000 person-years). Propensity score matching achieved good balance in all available covariates, and effect estimates were relatively close to a hazard ratio of 1.0, varying on both sides of the null effect. Minimum detectable relative risks were low in most databases, and meta-analytic estimates were near 1.0, with all upper bounds &lt;1.50. No association (either increased or decreased risk) was found with canagliflozin versus other AHAs.   Conclusions This analysis found no evidence of a statistically significantly increased risk of prostatitis among adult male patients with T2DM receiving canagliflozin compared with the other AHAs evaluated in this study."/>
+<meta property="og:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0341745.g004&size=inline"/>
+
+<meta name="citation_reference" content="citation_title=SGLT2 inhibitors and risk of genitourinary infections;citation_author=S Chaplin;citation_journal_title=Prescriber;citation_volume=27;citation_number=27;citation_issue=12;citation_first_page=26;citation_last_page=30;citation_publication_date=2016;"/>    
+<meta name="citation_reference" content="citation_title=Genital and urinary tract infections in diabetes: impact of pharmacologically-induced glucosuria;citation_author=S Geerlings;citation_author=V Fonseca;citation_author=D Castro-Diaz;citation_author=J List;citation_author=S Parikh;citation_journal_title=Diabetes Res Clin Pract;citation_volume=103;citation_number=103;citation_issue=3;citation_first_page=373;citation_last_page=81;citation_publication_date=2014;"/>    
+<meta name="citation_reference" content="citation_title=Effect of glucose and pH on uropathogenic and non-uropathogenic Escherichia coli: studies with urine from diabetic and non-diabetic individuals;citation_author=SE Geerlings;citation_author=EC Brouwer;citation_author=W Gaastra;citation_author=J Verhoef;citation_author=AIM Hoepelman;citation_journal_title=J Med Microbiol;citation_volume=48;citation_number=48;citation_issue=6;citation_first_page=535;citation_last_page=9;citation_publication_date=1999;"/>    
+<meta name="citation_reference" content="citation_title=Frequency, risk factors, and responsible pathogenic microorganisms of asymptomatic bacteriuria in patients with type 2 diabetes mellitus;citation_author=H Turan;citation_author=K Serefhanoglu;citation_author=AN Torun;citation_author=S Kulaksizoglu;citation_author=M Kulaksizoglu;citation_author=B Pamuk;citation_journal_title=Jpn J Infect Dis;citation_volume=61;citation_number=61;citation_issue=3;citation_first_page=236;citation_last_page=8;citation_publication_date=2008;"/>    
+<meta name="citation_reference" content="citation_title=Pathogenesis and management of bacterial urinary tract infections in adult patients with diabetes mellitus;citation_author=AIM Hoepelman;citation_author=R Meiland;citation_author=SE Geerlings;citation_journal_title=Int J Antimicrob Agents;citation_first_page=35;citation_last_page=43;citation_publication_date=2003;"/>    
+<meta name="citation_reference" content="citation_title=Urinary tract infection in diabetes: epidemiologic considerations;citation_author=V de Lastours;citation_author=B Foxman;citation_journal_title=Curr Infect Dis Rep;citation_volume=16;citation_number=16;citation_issue=1;citation_first_page=389;citation_publication_date=2014;"/>    
+<meta name="citation_reference" content="citation_title=Urinary tract infections in patients with type 2 diabetes mellitus: review of prevalence, diagnosis, and management;citation_author=O Nitzan;citation_author=M Elias;citation_author=B Chazan;citation_author=W Saliba;citation_journal_title=Diabetes Metab Syndr Obes;citation_volume=8;citation_number=8;citation_first_page=129;citation_last_page=36;citation_publication_date=2015;"/>    
+<meta name="citation_reference" content="citation_title=Genitourinary complications of diabetes mellitus: an overview of pathogenesis, evaluation, and management;citation_author=J Gandhi;citation_author=G Dagur;citation_author=K Warren;citation_author=NL Smith;citation_author=SA Khan;citation_journal_title=Curr Diabetes Rev;citation_volume=13;citation_number=13;citation_issue=5;citation_first_page=498;citation_last_page=518;citation_publication_date=2017;"/>    
+<meta name="citation_reference" content="citation_title=Reasons for discontinuing treatment with sodium-glucose cotransporter 2 inhibitors in patients with diabetes in real-world settings: the KAMOGAWA-A study;citation_author=Y Saijo;citation_author=H Okada;citation_author=S Hata;citation_author=H Nakajima;citation_author=N Kitagawa;citation_author=T Okamura;citation_journal_title=J Clin Med;citation_volume=12;citation_number=12;citation_issue=22;citation_first_page=6993;citation_publication_date=2023;"/>    
+<meta name="citation_reference" content="citation_title=SGLT2 inhibitors for type 2 diabetes mellitus treatment;citation_author=RA Plodkowski;citation_author=ME McGarvey;citation_author=HM Huribal;citation_author=K Reisinger-Kindle;citation_author=B Kramer;citation_author=M Solomon;citation_journal_title=Fed Pract;citation_volume=32;citation_number=32;citation_publication_date=2015;"/>    
+<meta name="citation_reference" content="citation_title=Sodium-glucose co-transporter-2 inhibitors causing Candida tropicalis fungemia and renal abscess;citation_author=PK Simhadri;citation_author=P Vaitla;citation_author=S Sriperumbuduri;citation_author=D Chandramohan;citation_author=P Singh;citation_author=U Murari;citation_journal_title=JCEM Case Rep;citation_volume=2;citation_number=2;citation_issue=2;citation_publication_date=2024;"/>    
+<meta name="citation_reference" content="citation_title=Bittersweet: infective complications of drug-induced glycosuria in patients with diabetes mellitus on SGLT2-inhibitors: two case reports;citation_author=C Bartolo;citation_author=V Hall;citation_author=ND Friedman;citation_author=C Lanyon;citation_author=A Fuller;citation_author=CO Morrissey;citation_journal_title=BMC Infect Dis;citation_volume=21;citation_number=21;citation_issue=1;citation_first_page=284;citation_publication_date=2021;"/>    
+<meta name="citation_reference" content="citation_title=Sodium-glucose cotransporter-2 inhibitors and risk for genitourinary infections in older adults with type 2 diabetes;citation_author=N Varshney;citation_author=SJ Billups;citation_author=JJ Saseen;citation_author=CW Fixen;citation_journal_title=Ther Adv Drug Saf;citation_volume=12;citation_number=12;citation_first_page=2042098621997703;citation_publication_date=2021;"/>    
+<meta name="citation_reference" content="citation_title=SGLT-2 inhibitors and the risk of infections: a systematic review and meta-analysis of randomized controlled trials;citation_author=R Puckrin;citation_author=M-P Saltiel;citation_author=P Reynier;citation_author=L Azoulay;citation_author=OHY Yu;citation_author=KB Filion;citation_journal_title=Acta Diabetol;citation_volume=55;citation_number=55;citation_issue=5;citation_first_page=503;citation_last_page=14;citation_publication_date=2018;"/>    
+<meta name="citation_reference" content="citation_title=Effects of SGLT2 inhibitors on UTIs and genital infections in type 2 diabetes mellitus: a systematic review and meta-analysis;citation_author=J Liu;citation_author=L Li;citation_author=S Li;citation_author=P Jia;citation_author=K Deng;citation_author=W Chen;citation_journal_title=Sci Rep;citation_volume=7;citation_number=7;citation_issue=1;citation_first_page=2824;citation_publication_date=2017;"/>    
+<meta name="citation_reference" content="citation_title=Observational Health Data Sciences and Informatics (OHDSI): opportunities for observational researchers;citation_author=G Hripcsak;citation_author=JD Duke;citation_author=NH Shah;citation_author=CG Reich;citation_author=V Huser;citation_author=MJ Schuemie;citation_journal_title=Stud Health Technol Inform;citation_volume=216;citation_number=216;citation_first_page=574;citation_last_page=8;citation_publication_date=2015;"/>    
+<meta name="citation_reference" content="citation_title=Feasibility and utility of applications of the common data model to multiple, disparate observational health databases;citation_author=EA Voss;citation_author=R Makadia;citation_author=A Matcho;citation_author=Q Ma;citation_author=C Knoll;citation_author=M Schuemie;citation_journal_title=J Am Med Inform Assoc;citation_volume=22;citation_number=22;citation_issue=3;citation_first_page=553;citation_last_page=64;citation_publication_date=2015;"/>    
+<meta name="citation_reference" content="citation_title=CohortDiagnostics: Phenotype evaluation across a network of observational data sources using population-level characterization;citation_author=GA Rao;citation_author=A Shoaibi;citation_author=R Makadia;citation_author=J Hardin;citation_author=J Swerdel;citation_author=J Weaver;citation_journal_title=PLoS One;citation_volume=20;citation_number=20;citation_issue=1;citation_publication_date=2025;"/>    
+<meta name="citation_reference" content="citation_title=Interpreting observational studies: why empirical calibration is needed to correct p-values;citation_author=MJ Schuemie;citation_author=PB Ryan;citation_author=W DuMouchel;citation_author=MA Suchard;citation_author=D Madigan;citation_journal_title=Stat Med;citation_volume=33;citation_number=33;citation_issue=2;citation_first_page=209;citation_last_page=18;citation_publication_date=2014;"/>    
+<meta name="citation_reference" content="citation_title=Evaluating large-scale propensity score performance through real-world and synthetic data experiments;citation_author=Y Tian;citation_author=MJ Schuemie;citation_author=MA Suchard;citation_journal_title=Int J Epidemiol;citation_volume=47;citation_number=47;citation_issue=6;citation_first_page=2005;citation_last_page=14;citation_publication_date=2018;"/>    
+<meta name="citation_reference" content="citation_title=One-to-many propensity score matching in cohort studies;citation_author=JA Rassen;citation_author=AA Shelat;citation_author=J Myers;citation_author=RJ Glynn;citation_author=KJ Rothman;citation_author=S Schneeweiss;citation_journal_title=Pharmacoepidemiol Drug Saf;citation_first_page=69;citation_last_page=80;citation_publication_date=2012;"/>    
+<meta name="citation_reference" content="citation_title=Adjusting for indirectly measured confounding using large-scale propensity score;citation_author=L Zhang;citation_author=Y Wang;citation_author=MJ Schuemie;citation_author=DM Blei;citation_author=G Hripcsak;citation_journal_title=J Biomed Inform;citation_volume=134;citation_number=134;citation_first_page=104204;citation_publication_date=2022;"/>    
+<meta name="citation_reference" content="citation_title=A tool for assessing the feasibility of comparative effectiveness research;citation_author=AM Walker;citation_author=AR Patrick;citation_author=MS Lauer;citation_author=MC Hornbrook;citation_author=MG Marin;citation_author=R Platt;citation_journal_title=Comparat Effect Res;citation_volume=3;citation_number=3;citation_first_page=11;citation_last_page=20;citation_publication_date=2013;"/>    
+<meta name="citation_reference" content="citation_title=Combining cox regressions across a heterogeneous distributed research network facing small and zero counts;citation_author=MJ Schuemie;citation_author=Y Chen;citation_author=D Madigan;citation_author=MA Suchard;citation_journal_title=Stat Methods Med Res;citation_volume=31;citation_number=31;citation_issue=3;citation_first_page=438;citation_last_page=50;citation_publication_date=2022;"/>    
+<meta name="citation_reference" content="citation_title=Incidence and clinical characteristics of National Institutes of Health type III prostatitis in the community;citation_author=JQ Clemens;citation_author=RT Meenan;citation_author=MC O’Keeffe Rosetti;citation_author=SY Gao;citation_author=EA Calhoun;citation_journal_title=J Urol;citation_volume=174;citation_number=174;citation_issue=6;citation_first_page=2319;citation_last_page=22;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Sodium-glucose cotransporter-2 inhibitors and the risk for severe urinary tract infections: a population-based cohort study;citation_author=CV Dave;citation_author=S Schneeweiss;citation_author=D Kim;citation_author=M Fralick;citation_author=A Tong;citation_author=E Patorno;citation_journal_title=Ann Intern Med;citation_volume=171;citation_number=171;citation_issue=4;citation_first_page=248;citation_last_page=56;citation_publication_date=2019;"/>    
+<meta name="citation_reference" content="citation_title=Sodium-glucose co-transporter-2 inhibitors and the risk of urosepsis: a multi-site, prevalent new-user cohort study;citation_author=A Fisher;citation_author=M Fralick;citation_author=KB Filion;citation_author=S Dell’Aniello;citation_author=A Douros;citation_author=É Tremblay;citation_journal_title=Diabetes Obes Metab;citation_volume=22;citation_number=22;citation_issue=9;citation_first_page=1648;citation_last_page=58;citation_publication_date=2020;"/>    
+
+
+<script type="text/javascript">
+    var WombatConfig = WombatConfig || {};
+    WombatConfig.journalKey = "PLoSONE";
+    WombatConfig.journalName = "PLOS One";
+    WombatConfig.figurePath = "/plosone/article/figure/image";
+    WombatConfig.figShareInstitutionString = "plos";
+    WombatConfig.doiResolverPrefix = "https://dx.plos.org/";
+</script>
+
+<script type="text/javascript">
+  var WombatConfig = WombatConfig || {};
+  WombatConfig.metrics = WombatConfig.metrics || {};
+  WombatConfig.metrics.referenceUrl      = "http://lagotto.io/plos";
+  WombatConfig.metrics.googleScholarUrl  = "https://scholar.google.com/scholar";
+  WombatConfig.metrics.googleScholarCitationUrl  = WombatConfig.metrics.googleScholarUrl + "?hl=en&lr=&q=";
+  WombatConfig.metrics.crossrefUrl  = "https://www.crossref.org";
+</script>
+<script defer="defer" src="/resource/js/defer.js?7a7aa422bfb89c594626"></script><script src="/resource/js/sync.js?7a7aa422bfb89c594626"></script>
+<script src="/resource/js/vendor/jquery.min.js" type="text/javascript"></script>
+
+          <script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script>
+
+<script src="/resource/js/vendor/fastclick/lib/fastclick.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/underscore-min.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/underscore.string.min.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/moment.js" type="text/javascript"></script>
+
+
+<script src="/resource/js/vendor/jquery-ui-effects.min.js" type="text/javascript"></script>
+
+<script src="/resource/js/vendor/foundation/foundation.tooltip.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.dropdown.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.tab.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.reveal.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.slider.js" type="text/javascript"></script>
+
+<script src="/resource/js/util/utils.js" type="text/javascript"></script>
+<script src="/resource/js/components/toggle.js" type="text/javascript"></script>
+<script src="/resource/js/components/truncate_elem.js" type="text/javascript"></script>
+<script src="/resource/js/components/tooltip_hover.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/jquery.dotdotdot.js" type="text/javascript"></script>
+
+
+<!-- DoubleClick overall ad setup script -->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  if (window.plosCookieConsent?.hasConsented('advertising')) {
+    (function() {
+      var gads = document.createElement('script');
+      gads.async = true;
+      gads.type = 'text/javascript';
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') +
+          '//www.googletagservices.com/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+    })();
+  }
+</script>
+
+<!-- DoubleClick ad slot setup script -->
+
+  <script id="doubleClickSetupScript" type='text/javascript'>
+    googletag.cmd.push(function() {
+  googletag.defineSlot('/75507958/PONE_728x90_ATF', [728, 90], 'div-gpt-ad-1458247671871-0').addService(googletag.pubads());
+  googletag.defineSlot('/75507958/PONE_160x600_BTF', [160, 600], 'div-gpt-ad-1458247671871-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+<!--For Google Tag manager to be able to track site information  -->
+<script>
+
+  dataLayer = [{
+    'mobileSite': 'false',
+    'desktopSite': 'true'
+  }];
+
+</script>
+
+    <title>Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching | PLOS One</title>
+</head>
+
+<body class="article plosone">
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TP26BH"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP26BH');
+</script>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQQMGF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQQMGF');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Start of HubSpot Embed Code -->
+<script>
+  // from https://developers.hubspot.com/docs/reference/api/analytics-and-events/cookie-banner/cookie-banner-api#example-using-a-third-party-cookie-banner-to-control-hubspot-cookies
+  window.disableHubSpotCookieBanner = true;
+  window._hsp = window._hsp || [];
+  window._hsp.push(['setHubSpotConsent',
+      {
+        analytics: window.plosCookieConsent?.hasConsented('analytics'),
+        advertisement: window.plosCookieConsent?.hasConsented('advertising'),
+        functionality: window.plosCookieConsent?.hasConsented('functionality')
+      }
+    ]);
+</script>
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44092021.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<!-- New Relic -->
+<script type="text/javascript">
+  ;window.NREUM||(NREUM={});NREUM.init={distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};
+  window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(32),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(33),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),P=t(15),S=t(10),M=t("ee"),N=M.get("tracer"),C=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),S.on(p,r),M.on(d,o),b.on(l,o),S.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),P.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),N.buffer([u,"no-"+u]),S.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(S,"new-jsonp"),a(S,"jsonp-end"),a(S,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,C(!0)),w[v]("load",i,C(!0)),w[v]("popstate",function(){i(0,U>1)},C(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(33),a=t(32);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(32),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(29),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=NREUM.o.REQ,y=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof y&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof y&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof y&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;"string"==typeof i?n=i:"object"==typeof i&&i instanceof g?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n);var s=(""+(i&&i instanceof g&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.endTime=a.now(),this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(32),s=t(33),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(34);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],28:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(c&&c<r.startTime)return;p("lcp",[r])}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){if(t instanceof v&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),g=!0,p("timing",["fi",e,n])}}function s(t){"hidden"===t&&(c=l.now(),p("pageHide",[c]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d,p=t("handle"),l=t("loader"),h=t(31),m=t(23),v=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(w){}u=new PerformanceObserver(o);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(w){}d=new PerformanceObserver(i);try{d.observe({type:"layout-shift",buffered:!0})}catch(w){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(t){document.addEventListener(t,a,m(!1))})}h(s)}},{}],29:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(31)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],30:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],31:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],32:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],33:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],34:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(32),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=T.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(R,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+T.offset],null,"api"),s("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=h+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===v.readyState&&i()}function i(){s("mark",["domContent",a()+T.offset],null,"api")}var a=t(26),s=t("handle"),c=t(32),f=t("ee"),u=t(30),d=t(27),p=t(21),l=t(23),h=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,w="addEventListener",g="attachEvent",y=m.XMLHttpRequest,x=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var E=""+location,R={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1212.min.js"},O=y&&x&&x[w]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:u,disabled:b};if(!b){t(20),t(28),v[w]?(v[w]("DOMContentLoaded",i,l(!1)),m[w]("load",r,l(!1))):(v[g]("onreadystatechange",o),m[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(33),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);
+  ;NREUM.loader_config={accountID:"804283",trustKey:"804283",agentID:"402703674",licenseKey:"cf99e8d2a3",applicationID:"402703674"}
+  ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"cf99e8d2a3",
+    // Modified this value from the generated script, to pass prod vs dev
+    applicationID: window.location.hostname.includes('journals.plos.org') ? "402703674" : "402694889",
+    sa:1}
+</script>
+<!-- End New Relic -->
+
+
+
+<header>
+  <div id="topslot" class="head-top">
+  <a id="skip-to-content" tabindex="0" class="button" href="#main-content">
+    Skip to main content
+  </a>
+
+<div class="center">
+<div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-0' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-0'); });
+    </script>
+  </div>
+</div>
+  </div>
+
+  <div id="user" class="nav" data-user-management-url="https://community.plos.org">
+  </div>
+  <div id="pagehdr">
+
+    <nav class="nav-main">
+
+
+
+
+<h1 class="logo">
+  <a href="/plosone/.">PLOS One</a>
+</h1>
+
+<section class="top-bar-section"> 
+
+<ul class="nav-elements">
+
+
+    <li class="multi-col-parent menu-section-header has-dropdown" id="publish">
+    Publish
+      <div class="dropdown mega ">
+        <ul class="multi-col" id="publish-dropdown-list">
+
+  <li class="menu-section-header " id="submissions">
+    <span class="menu-section-header-title">  Submissions </span>
+
+    <ul class="menu-section "
+        id="submissions-dropdown-list">
+      <li>
+    <a href="/plosone/s/getting-started" >Getting Started</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submission-guidelines" >Submission Guidelines</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/figures" >Figures</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/tables" >Tables</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/supporting-information" >Supporting Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/latex" >LaTeX</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/what-we-publish" >What We Publish</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/preprints" >Preprints</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/revising-your-manuscript" >Revising Your Manuscript</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submit-now" >Submit Now</a>
+  </li>
+
+      <li>
+    <a href="https://collections.plos.org/s/calls-for-papers" >Calls for Papers</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="policies">
+    <span class="menu-section-header-title">  Policies </span>
+
+    <ul class="menu-section "
+        id="policies-dropdown-list">
+      <li>
+    <a href="/plosone/s/best-practices-in-research-reporting" >Best Practices in Research Reporting</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/human-subjects-research" >Human Subjects Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/animal-research" >Animal Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/competing-interests" >Competing Interests</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/disclosure-of-funding-sources" >Disclosure of Funding Sources</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/licenses-and-copyright" >Licenses and Copyright</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/data-availability" >Data Availability</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/complementary-research" >Complementary Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/materials-software-and-code-sharing" >Materials, Software and Code Sharing</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/ethical-publishing-practice" >Ethical Publishing Practice</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/authorship" >Authorship</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/corrections-expressions-of-concern-and-retractions" >Corrections, Expressions of Concern, and Retractions</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="manuscript-review-and-publication">
+    <span class="menu-section-header-title">  Manuscript Review and Publication </span>
+
+    <ul class="menu-section "
+        id="manuscript-review-and-publication-dropdown-list">
+      <li>
+    <a href="/plosone/s/criteria-for-publication" >Criteria for Publication</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/editorial-and-peer-review-process" >Editorial and Peer Review Process</a>
+  </li>
+
+      <li>
+    <a href="https://explore.plos.org/editor-resources" >Editor Center</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/reviewer-guidelines" >Guidelines for Reviewers</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/accepted-manuscripts" >Accepted Manuscripts</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/comments" >Comments</a>
+  </li>
+
+    </ul>
+
+  </li>
+        </ul>
+          <div class="calloutcontainer">
+
+
+
+  <h3 class="callout-headline">Submit Your Manuscript</h3>
+
+  <div class="action-contain">
+  <p class="callout-content">
+  Discover a faster, simpler path to publishing in a high-quality journal. <em>PLOS ONE</em> promises fair, rigorous peer review,
+  broad scope, and wide readership – a perfect fit for your research every time.
+  </p>
+
+  <p class="button-contain special">
+    <a class="button button-default" href="/plosone/static/publish">
+     Learn More
+    </a>
+    <a class="button-link" href="https://www.editorialmanager.com/pone/default.asp">
+      Submit Now
+    </a>
+  </p>
+  </div>  <!-- opens in siteMenuCalloutDescription -->
+
+
+          </div>
+      </div>
+    </li>
+
+
+
+  <li class="menu-section-header has-dropdown " id="about">
+    <span class="menu-section-header-title">  About </span>
+
+    <ul class="menu-section dropdown "
+        id="about-dropdown-list">
+      <li>
+    <a href="/plosone/static/publish" >Why Publish with PLOS ONE</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/journal-information" >Journal Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/staff-editors" >Staff Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/static/editorial-board" >Editorial Board</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/section-editors" >Section Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/advisory-groups" >Advisory Groups</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/find-and-read-articles" >Find and Read Articles</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/publishing-information" >Publishing Information</a>
+  </li>
+
+      <li>
+    <a href="https://plos.org/publication-fees" >Publication Fees</a>
+  </li>
+
+      <li>
+    <a href="https://plos.org/press-and-media" >Press and Media</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/contact" >Contact</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+  <li data-js-tooltip-hover="trigger" class="subject-area menu-section-header">
+  Browse
+  </li>
+
+<script src="/resource/js/vendor/jquery.hoverIntent.js" type="text/javascript"></script>
+<script src="/resource/js/components/menu_drop.js" type="text/javascript"></script>
+<script src="/resource/js/components/hover_delay.js" type="text/javascript"></script>
+      <li id="navsearch" class="head-search">
+
+
+    <form name="searchForm" action="/plosone/search" method="get">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="search-contain">
+          <input id="search" type="text" name="q" placeholder="SEARCH" required/>
+          <button id="headerSearchButton" type="submit" aria-label="Submit search">
+            <i title="Submit search" class="search-icon"></i>
+          </button>
+        </div>
+      </fieldset>
+      <input type="hidden" name="filterJournals" value="PLoSONE"/>
+    </form>
+
+    <a id="advSearch"
+       href="/plosone/search">
+      advanced search
+    </a>
+
+
+
+
+<script src="/resource/js/components/placeholder_style.js" type="text/javascript"></script>
+      </li>
+
+      </ul>     
+      </section>  
+    </nav>
+  </div>
+
+</header>
+<section id="taxonomyContainer">
+
+<script src="/resource/js/taxonomy-browser.js" type="text/javascript"></script>
+<div id="taxonomy-browser" class="areas" data-search-url="/plosone/browse">
+  <div class="wrapper">
+    <div class="taxonomy-header">
+      Browse Subject Areas
+      <div id="subjInfo">?</div>
+      <div id="subjInfoText">
+        <p>Click through the PLOS taxonomy to find articles in your field.</p>
+        <p>For more information about PLOS Subject Areas, click
+          <a href="https://github.com/PLOS/plos-thesaurus/blob/master/README.md" target="_blank" title="Link opens in new window">here</a>.
+        </p>
+      </div>
+    </div>
+    <div class="levels">
+      <div class="levels-container cf">
+        <div class="levels-position"></div>
+      </div>
+      <a href="#" class="prev"></a>
+      <a href="#" class="next active"></a>
+    </div>
+  </div>
+  <div class="taxonomy-browser-border-bottom"></div>
+</div>
+</section>
+<main id="main-content"> <div class="set-grid">
+
+<header class="title-block">
+
+
+
+<script src="/resource/js/components/signposts.js" type="text/javascript"></script>
+
+<ul id="almSignposts" class="signposts">
+  <li id="loadingMetrics">
+    <p>Loading metrics</p>
+  </li>
+</ul>
+
+<script type="text/template" id="signpostsGeneralErrorTemplate">
+  <li id="metricsError">Article metrics are unavailable at this time. Please try again later.</li>
+</script>
+
+<script type="text/template" id="signpostsNewArticleErrorTemplate">
+  <li></li><li></li><li id="tooSoon">Article metrics are unavailable for recently published articles.</li>
+</script>
+
+<script type="text/template" id="signpostsTemplate">
+    <li id="almSaves">
+      <%= s.numberFormat(saveCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#savedHeader">Save</a>
+        <p class="saves-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#savedHeader">Total Mendeley and Citeulike bookmarks.</a></p>
+      </div>
+    </li>
+
+    <li id="almCitations">
+      <%= s.numberFormat(citationCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#citedHeader">Citation</a>
+        <p class="citations-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#citedHeader">Paper's citation count computed by Dimensions.</a></p>
+      </div>
+    </li>
+
+    <li id="almViews">
+      <%= s.numberFormat(viewCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#viewedHeader">View</a>
+        <p class="views-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#viewedHeader">PLOS views and downloads.</a></p>
+      </div>
+    </li>
+
+    <li id="almShares">
+      <%= s.numberFormat(shareCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#discussedHeader">Share</a>
+        <p class="shares-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0341745#discussedHeader">Sum of Facebook, Twitter, Reddit and Wikipedia activity.</a></p>
+      </div>
+    </li>
+</script>
+
+    <div class="article-meta">
+
+<div class="classifications">
+  <p class="license-short" id="licenseShort">Open Access</p>
+  <p class="peer-reviewed" id="peerReviewed">Peer-reviewed</p>
+
+<div class="article-type" >
+  <p class="type-article" id="artType">Research Article</p>
+</div>
+
+
+</div>
+    </div>
+    <div class="article-title-etc">
+
+
+
+<div class="title-authors">
+  <h1 id="artTitle"><?xml version="1.0" encoding="UTF-8"?>Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching</h1>
+
+<ul class="author-list clearfix"  data-js-tooltip="tooltip_container" id="author-list">
+
+
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="0" class="author-name" >
+Zhong Yuan <span class="email">  </span>,</a>    <div id="author-meta-0" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Data curation,
+
+    Formal analysis,
+
+    Investigation,
+
+    Methodology,
+
+    Project administration,
+
+    Supervision,
+
+    Writing – review & editing
+  </p>
+  <p id="authCorresponding-0"> <span class="email">* E-mail:</span> <a href="mailto:zyuan6@its.jnj.com">zyuan6@its.jnj.com</a></p>
+  <p id="authAffiliations-0"><span class="type">Affiliation</span>
+    Johnson & Johnson, Horsham, Pennsylvania, United States of America
+  </p>
+  <div>
+  <p class="orcid" id="authOrcid-0">
+    <span>
+      <a id="connect-orcid-link" href="https://orcid.org/0000-0002-5824-2040" target="_blank" title="ORCID Registry">
+        <img id="orcid-id-logo" src="/resource/img/orcid_16x16.png" width="16" height="16" alt="ORCID logo"/>
+        https://orcid.org/0000-0002-5824-2040
+      </a>
+    </span>
+  </p>
+  </div>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose0"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="1" class="author-name" >
+Carolyn H. Jeffcoat,</a>    <div id="author-meta-1" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Data curation,
+
+    Formal analysis,
+
+    Investigation,
+
+    Methodology,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-1"><span class="type">Affiliation</span>
+    Johnson & Johnson, Horsham, Pennsylvania, United States of America
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose1"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="2" class="author-name" >
+Saberi Rana Ali,</a>    <div id="author-meta-2" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Investigation,
+
+    Writing – original draft
+  </p>
+  
+  <p id="authAffiliations-2"><span class="type">Affiliation</span>
+    Johnson & Johnson, Titusville, New Jersey, United States of America
+  </p>
+  <div>
+  <p class="orcid" id="authOrcid-2">
+    <span>
+      <a id="connect-orcid-link" href="https://orcid.org/0009-0009-1581-8431" target="_blank" title="ORCID Registry">
+        <img id="orcid-id-logo" src="/resource/img/orcid_16x16.png" width="16" height="16" alt="ORCID logo"/>
+        https://orcid.org/0009-0009-1581-8431
+      </a>
+    </span>
+  </p>
+  </div>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose2"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="3" class="author-name" >
+Anthony G. Sena,</a>    <div id="author-meta-3" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Data curation,
+
+    Formal analysis,
+
+    Investigation,
+
+    Methodology,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-3"><span class="type">Affiliation</span>
+    Johnson & Johnson, Titusville, New Jersey, United States of America
+  </p>
+  <div>
+  <p class="orcid" id="authOrcid-3">
+    <span>
+      <a id="connect-orcid-link" href="https://orcid.org/0000-0001-8630-5347" target="_blank" title="ORCID Registry">
+        <img id="orcid-id-logo" src="/resource/img/orcid_16x16.png" width="16" height="16" alt="ORCID logo"/>
+        https://orcid.org/0000-0001-8630-5347
+      </a>
+    </span>
+  </p>
+  </div>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose3"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="4" class="author-name" >
+Martijn J. Schuemie,</a>    <div id="author-meta-4" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Data curation,
+
+    Formal analysis,
+
+    Investigation,
+
+    Methodology,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-4"><span class="type">Affiliation</span>
+    Johnson & Johnson, Titusville, New Jersey, United States of America
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose4"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="5" class="author-name" >
+Patrick B. Ryan,</a>    <div id="author-meta-5" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Data curation,
+
+    Formal analysis,
+
+    Investigation,
+
+    Methodology,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-5"><span class="type">Affiliation</span>
+    Johnson & Johnson, Titusville, New Jersey, United States of America
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose5"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="6" class="author-name" >
+Sergio A. Fonseca</a>    <div id="author-meta-6" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Investigation,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-6"><span class="type">Affiliation</span>
+    Johnson & Johnson, Titusville, New Jersey, United States of America
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose6"> &#x02A2F; </a>
+    </div>
+</li>
+
+</ul>
+<script src="/resource/js/components/tooltip.js" type="text/javascript"></script>
+
+</div>
+
+
+<div id="floatTitleTop" data-js-floater="title_author" class="float-title" role="presentation">
+  <div class="set-grid">
+    <div class="float-title-inner">
+      <h1><?xml version="1.0" encoding="UTF-8"?>Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching</h1>
+
+<ul id="floatAuthorList" data-js-floater="floated_authors">
+
+  <li data-float-index="1">Zhong Yuan,&nbsp;
+
+  </li>
+  <li data-float-index="2">Carolyn H. Jeffcoat,&nbsp;
+
+  </li>
+  <li data-float-index="3">Saberi Rana Ali,&nbsp;
+
+  </li>
+  <li data-float-index="4">Anthony G. Sena,&nbsp;
+
+  </li>
+  <li data-float-index="5">Martijn J. Schuemie,&nbsp;
+
+  </li>
+  <li data-float-index="6">Patrick B. Ryan,&nbsp;
+
+  </li>
+  <li data-float-index="7">Sergio A. Fonseca
+
+  </li>
+
+</ul>
+
+
+
+    </div>
+    <div class="logo-close" id="titleTopCloser">
+      <img src="/resource/img/logo-plos-full-color.svg" style="height: 2em" alt="PLOS" />
+      <div class="close-floater" title="close">x</div>
+    </div>
+  </div>
+</div>
+
+      <ul class="date-doi">
+        <li id="artPubDate">Published: February 2, 2026</li>
+        <li id="artDoi">
+<a   href="https://doi.org/10.1371/journal.pone.0341745">https://doi.org/10.1371/journal.pone.0341745</a>
+        </li>
+        <li class="flex-spacer"></li>
+      </ul>
+
+    </div>
+  <div>
+
+  </div>
+</header>
+  <section class="article-body">
+
+
+
+<ul class="article-tabs">
+
+          <li class="tab-title active" id="tabArticle">
+            <a href="/plosone/article?id=10.1371/journal.pone.0341745" class="article-tab-1">Article</a>
+        </li>
+
+
+              <li class="tab-title " id="tabAuthors">
+            <a href="/plosone/article/authors?id=10.1371/journal.pone.0341745" class="article-tab-2">Authors</a>
+        </li>
+
+
+          <li class="tab-title " id="tabMetrics">
+            <a href="/plosone/article/metrics?id=10.1371/journal.pone.0341745" class="article-tab-3">Metrics</a>
+        </li>
+
+
+          <li class="tab-title " id="tabComments">
+            <a href="/plosone/article/comments?id=10.1371/journal.pone.0341745" class="article-tab-4">Comments</a>
+        </li>
+
+  <li class="tab-title" id="tabRelated">
+    <a class="article-tab-5" id="tabRelated-link" target="_blank" href="http://plos.altmetric.com/details/doi/10.1371/journal.pone.0341745">Media Coverage</a>
+  </li>
+</ul>
+
+    <div class="article-container">
+
+
+<div id="nav-article">
+  <ul class="nav-secondary">
+
+    <li class="nav-comments" id="nav-comments">
+      <a href="article/comments?id=10.1371/journal.pone.0341745">Reader Comments</a>
+    </li>
+
+    <li id="nav-figures"><a href="#" data-doi="10.1371/journal.pone.0341745">Figures</a></li>
+  </ul>
+  <div id="nav-data-linking" data-data-url="">
+  </div>
+</div>
+<script src="/resource/js/components/scroll.js" type="text/javascript"></script>
+<script src="/resource/js/components/nav_builder.js" type="text/javascript"></script>
+<script src="/resource/js/components/floating_nav.js" type="text/javascript"></script>
+
+<div id="figure-lightbox-container"></div>
+
+<script id="figure-lightbox-template" type="text/template">
+  <div id="figure-lightbox" class="reveal-modal full" data-reveal aria-hidden="true"
+       role="dialog">
+    <div class="lb-header">
+      <h1 id="lb-title"><%= articleTitle %></h1>
+
+      <div id="lb-authors">
+              <span>Zhong Yuan</span>
+              <span>Carolyn H. Jeffcoat</span>
+          <a class="more-authors" href="/plosone/article/authors?id=10.1371/journal.pone.0341745">...</a>
+          <span>Sergio A. Fonseca</span>
+      </div>
+
+      <div class="lb-close" title="close">&nbsp;</div>
+    </div>
+    <div class="img-container">
+      <div class="loader"> <i class="fa-spinner"></i> </div>
+      <img class="main-lightbox-image" src=""/>
+      <aside id="figures-list">
+        <% figureList.each(function (ix, figure) { %>
+        <div class="change-img" data-doi="<%= figure.getAttribute('data-doi') %>">
+          <img class="aside-figure" src="/plosone/article/figure/image?size=inline&id=<%= figure.getAttribute('data-doi') %>" />
+        </div>
+        <% }) %>
+        <div class="dummy-figure">
+        </div>
+      </aside>
+    </div>
+    <div id="lightbox-footer">
+
+      <div id="btns-container" class="lightbox-row <% if(figureList.length <= 1) { print('one-figure-only') } %>">
+        <div class="fig-btns-container reset-zoom-wrapper left">
+          <span class="fig-btn reset-zoom-btn">Reset zoom</span>
+        </div>
+        <div class="zoom-slider-container">
+          <div class="range-slider-container">
+            <span id="lb-zoom-min"></span>
+            <div class="range-slider round" data-slider data-options="start: 20; end: 200; initial: 20;">
+              <span class="range-slider-handle" role="slider" tabindex="0"></span>
+              <span class="range-slider-active-segment"></span>
+              <input type="hidden">
+            </div>
+            <span id="lb-zoom-max"></span>
+          </div>
+        </div>
+        <% if(figureList.length > 1) { %>
+        <div class="fig-btns-container">
+          <span class="fig-btn all-fig-btn"><i class="icon icon-all"></i> All Figures</span>
+          <span class="fig-btn next-fig-btn"><i class="icon icon-next"></i> Next</span>
+          <span class="fig-btn prev-fig-btn"><i class="icon icon-prev"></i> Previous</span>
+        </div>
+        <% } %>
+      </div>
+      <div id="image-context">
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="image-context-template" type="text/template">
+  <div class="footer-text">
+    <div id="figure-description-wrapper">
+      <div id="view-more-wrapper" style="<% descriptionExpanded? print('display:none;') : '' %>">
+        <span id="figure-title"><%= title %></span>
+        <p id="figure-description">
+          <%= description %>&nbsp;&nbsp;
+        </p>
+        <span id="view-more">show more<i class="icon-arrow-right"></i></span>
+
+      </div>
+      <div id="view-less-wrapper" style="<% descriptionExpanded? print('display:inline-block;') : '' %>" >
+        <span id="figure-title"><%= title %></span>
+        <p id="full-figure-description">
+          <%= description %>&nbsp;&nbsp;
+          <span id="view-less">show less<i class="icon-arrow-left"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="show-context-container">
+    <a class="btn show-context" href="<%= showInContext(strippedDoi) %>">Show in Context</a>
+  </div>
+  <div id="download-buttons">
+    <h3>Download:</h3>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=original&download=&id=<%= doi %>" title="original image">
+        <span class="download-btn">TIFF</span>
+      </a>
+      <span class="file-size"><%= fileSizes.original %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=large&download=&id=<%= doi %>" title="large image">
+        <span class="download-btn">PNG</span>
+      </a>
+      <span class="file-size"><%= fileSizes.large %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/powerpoint?id=<%= doi %>" title="PowerPoint slide">
+        <span class="download-btn">PPT</span>
+      </a>
+    </div>
+
+  </div>
+</script>
+      <div class="article-content">
+
+
+
+
+
+
+<div id="figure-carousel-section">
+  <h2>Figures</h2>
+
+  <div id="figure-carousel">
+
+    <div class="carousel-wrapper">
+      <div class="slider">
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0341745.g001">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g001"
+                     loading="lazy"
+                     alt="Fig 1"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0341745.g002">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g002"
+                     loading="lazy"
+                     alt="Fig 2"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0341745.g003">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g003"
+                     loading="lazy"
+                     alt="Fig 3"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0341745.g004">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g004"
+                     loading="lazy"
+                     alt="Fig 4"
+                />
+
+            </div>
+      </div>
+    </div>
+
+    <div class="carousel-control">
+      <span class="button previous"></span>
+      <span class="button next"></span>
+    </div>
+    <div class="carousel-page-buttons">
+
+    </div>
+  </div>
+</div>
+<script src="/resource/js/vendor/jquery.touchswipe.js" type="text/javascript"></script>
+<script src="/resource/js/components/figure_carousel.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/jquery.dotdotdot.js" type="text/javascript"></script>
+
+
+        <div class="article-text" id="artText">
+          
+
+
+
+<div xmlns:plos="http://plos.org" class="abstract toc-section abstract-type-"><a id="abstract0" name="abstract0" data-toc="abstract0" class="link-target" title="Abstract"></a><h2>Abstract</h2><div class="abstract-content">
+<div id="section1" class="section toc-section"><a id="sec001" name="sec001" class="link-target" title="Purpose"></a>
+<h3>Purpose</h3>
+<a id="article1.front1.article-meta1.abstract1.sec1.p1" name="article1.front1.article-meta1.abstract1.sec1.p1" class="link-target"></a><p>Prostatitis has been reported in patients with type 2 diabetes mellitus (T2DM) receiving antihyperglycemic agents (AHAs). This study was conducted to evaluate the risk of prostatitis with canagliflozin in response to a specific Health Authority query.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec002" name="sec002" class="link-target" title="Methods"></a>
+<h3>Methods</h3>
+<a id="article1.front1.article-meta1.abstract1.sec2.p1" name="article1.front1.article-meta1.abstract1.sec2.p1" class="link-target"></a><p>This retrospective cohort study used data from adult male patients with T2DM who were new users of canagliflozin (target) or comparators (empagliflozin, dapagliflozin, sitagliptin, and liraglutide). Data were obtained from 8 global administrative claims databases, transformed to a Common Data Model for consistent analysis across databases. Pairwise comparisons were conducted using propensity scores to match canagliflozin users to users of each comparator at a 1:n ratio (maximum n = 100). Hazard ratios were estimated using a Cox proportional hazards model, conditioned on the matched set.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec003" name="sec003" class="link-target" title="Results"></a>
+<h3>Results</h3>
+<a id="article1.front1.article-meta1.abstract1.sec3.p1" name="article1.front1.article-meta1.abstract1.sec3.p1" class="link-target"></a><p>A total of 388,893 adult male patients with T2DM received canagliflozin across databases (mean age, 51.2–71.7 years) and were matched to 657,134 patients receiving empagliflozin, 340,539 receiving dapagliflozin, 819,047 receiving sitagliptin, and 278,684 receiving liraglutide. On-treatment incidence rates showed that prostatitis was uncommon in the canagliflozin cohort in nearly all databases (4.2–7.7 per 1000 person-years) and were similar to those of the comparator treatments. The exception was a higher crude incidence rate in the Merative MarketScan<sup>®</sup> Medicare Supplemental Database (10.1–12.1 per 1000 person-years). Propensity score matching achieved good balance in all available covariates, and effect estimates were relatively close to a hazard ratio of 1.0, varying on both sides of the null effect. Minimum detectable relative risks were low in most databases, and meta-analytic estimates were near 1.0, with all upper bounds &lt;1.50. No association (either increased or decreased risk) was found with canagliflozin versus other AHAs.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec004" name="sec004" class="link-target" title="Conclusions"></a>
+<h3>Conclusions</h3>
+<a id="article1.front1.article-meta1.abstract1.sec4.p1" name="article1.front1.article-meta1.abstract1.sec4.p1" class="link-target"></a><p>This analysis found no evidence of a statistically significantly increased risk of prostatitis among adult male patients with T2DM receiving canagliflozin compared with the other AHAs evaluated in this study.</p>
+</div>
+</div></div>
+
+
+<div xmlns:plos="http://plos.org" class="articleinfo"><p><strong>Citation: </strong>Yuan Z, Jeffcoat CH, Ali SR, Sena AG, Schuemie MJ, Ryan PB, et al.  (2026) Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching. PLoS One 21(2):
+           e0341745.
+        
+        https://doi.org/10.1371/journal.pone.0341745</p><p><strong>Editor: </strong>Marwan Salih Al-Nimer, University of Diyala College of Medicine, IRAQ</p><p><strong>Received: </strong>January 31, 2025; <strong>Accepted: </strong>January 9, 2026; <strong>Published: </strong> February 2, 2026</p><p><strong>Copyright: </strong> © 2026 Yuan et al. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Data Availability: </strong>The datasets generated and/or analyzed during the current study are not publicly available as they were made available by each company and used under license for the current study. To obtain access to the datasets, researchers can contact the data vendors directly: IQVIA: Anthony Macahilig (Associate Director, Product Management; commercial owner of IQVIA Ambulatory EMR-US and IQVIA PharMetrics® Plus; <a href="mailto:anthony.macahilig@iqvia.com">anthony.macahilig@iqvia.com</a>); Optum: Bree Tremain (Director, Optum Life Sciences Data Support; point of contact for licensed data inquiries; <a href="mailto:bree.tremain@optum.com">bree.tremain@optum.com</a>); Merative: Luke Boulanger (Director, Technology Product Management; Merative Product Management contact for research; <a href="mailto:lboulang@merative.com">lboulang@merative.com</a>); and JMDC: Marimo Mori (Consultant, Account Service Group; main contact for Johnson &amp; Johnson and initial point of contact for data inquiries; <a href="mailto:marimo.mori.zuw@jmdc.co.jp">marimo.mori.zuw@jmdc.co.jp</a>).</p><p><strong>Funding: </strong>This study was funded by Janssen Research &amp; Development, LLC, a Johnson &amp; Johnson Company. The study sponsor/funder was involved in the design of the study; the collection, analysis, and interpretation of data; writing the report; and decisions regarding the publication of the report. Article processing charges were funded by Janssen Research &amp; Development, LLC, a Johnson &amp; Johnson Company.</p><p><strong>Competing interests: </strong> This study was funded by Janssen Research &amp; Development, LLC, a Johnson &amp; Johnson Company, who is the Marketing Authorization Holder of INVOKANA® (canagliflozin), an SGLT2i evaluated in the current analysis. The study sponsor/funder was involved in the design of the study; the collection, analysis, and interpretation of data; writing the report; and decisions regarding the publication of the report. No other individuals or parties had any influence on the reporting of the study findings of this manuscript. Article processing charges were funded by Janssen Research &amp; Development, LLC, a Johnson &amp; Johnson Company. Zhong Yuan, Carolyn H. Jeffcoat, Saberi Rana Ali, Anthony G. Sena, Martijn J. Schuemie, Patrick B. Ryan, and Sergio A. Fonseca are employees of Johnson &amp; Johnson, and may own stock or stock options in Johnson &amp; Johnson. This does not alter our adherence to PLOS ONE policies on sharing data and materials.</p></div>
+
+
+
+
+
+<div xmlns:plos="http://plos.org" id="section1" class="section toc-section"><a id="sec005" name="sec005" data-toc="sec005" class="link-target" title="Introduction"></a><h2>Introduction</h2><a id="article1.body1.sec1.p1" name="article1.body1.sec1.p1" class="link-target"></a><p>Infections, particularly genitourinary infections, such as urinary tract infections (UTIs; e.g., cystitis, pyelonephritis) and genital tract infections (e.g., prostatitis), are common in patients with type 2 diabetes mellitus [<a href="#pone.0341745.ref001" class="ref-tip">1</a>–<a href="#pone.0341745.ref004" class="ref-tip">4</a>]. The predisposition may be the result of several factors, including glucosuria (i.e., an increased presence of glucose in urine), which can promote bacterial growth, an increased adherence of bacteria to uroepithelial cells among patients with suboptimal glycemic control, and immune dysfunction associated with hyperglycemia [<a href="#pone.0341745.ref002" class="ref-tip">2</a>–<a href="#pone.0341745.ref005" class="ref-tip">5</a>]. Incomplete bladder emptying may also increase the risk of genitourinary tract infections in men; in the setting of diabetes, autonomic neuropathy can be present and asymptomatic in a substantial proportion of patients [<a href="#pone.0341745.ref006" class="ref-tip">6</a>]. The UTIs associated with sodium-glucose cotransporter 2 inhibitors (SGLT2is) are typically mild to moderate in intensity and respond to standard treatment. Severe events or events associated with hospital admission were reported in 0.1% to 0.4% of patients in clinical trials; kidney infections and sepsis were “rare” [<a href="#pone.0341745.ref001" class="ref-tip">1</a>]. Men with type 2 diabetes mellitus are at increased risk of developing prostatitis compared with nondiabetic men, which can result in pain, fever, dysuria, urinary retention, and incontinence [<a href="#pone.0341745.ref007" class="ref-tip">7</a>,<a href="#pone.0341745.ref008" class="ref-tip">8</a>].</p>
+<a id="article1.body1.sec1.p2" name="article1.body1.sec1.p2" class="link-target"></a><p>The SGLT2is (e.g., canagliflozin, empagliflozin, dapagliflozin) are a class of oral antihyperglycemic agents (AHAs) that are commonly prescribed to improve glycemic control in patients with type 2 diabetes mellitus [<a href="#pone.0341745.ref009" class="ref-tip">9</a>,<a href="#pone.0341745.ref010" class="ref-tip">10</a>]. As a result of the mechanism of action of SGLT2is, there is increased urinary glucose excretion which may increase the risk of genitourinary infections [<a href="#pone.0341745.ref002" class="ref-tip">2</a>,<a href="#pone.0341745.ref003" class="ref-tip">3</a>]. Although genitourinary infections were commonly reported as adverse events in SGLT2i clinical trials, several case studies have reported instances of more serious genitourinary infections, such as prostatitis, urosepsis, and pyelonephritis, in patients with type 2 diabetes mellitus who were treated with SGLT2is; however, causality has not been comprehensively evaluated and this association is hypothesized to be secondary in nature [<a href="#pone.0341745.ref001" class="ref-tip">1</a>,<a href="#pone.0341745.ref011" class="ref-tip">11</a>–<a href="#pone.0341745.ref013" class="ref-tip">13</a>]. There is mixed support from meta-analyses regarding the association between SGLT2is and the risk of genitourinary infections [<a href="#pone.0341745.ref013" class="ref-tip">13</a>–<a href="#pone.0341745.ref015" class="ref-tip">15</a>], and data are lacking on the risk of prostatitis (separate from UTIs or genitourinary infections as a whole), as well as the specific etiologies, particularly in relation to the use of SGLT2is.</p>
+<a id="article1.body1.sec1.p3" name="article1.body1.sec1.p3" class="link-target"></a><p>The current study was conducted to evaluate the risk of prostatitis with canagliflozin in response to a Health Authority query. The study aimed to evaluate the incidence of prostatitis in adult male patients with type 2 diabetes mellitus receiving canagliflozin versus other AHAs using real-world clinical data.</p>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section2" class="section toc-section"><a id="sec006" name="sec006" data-toc="sec006" class="link-target" title="Methods"></a><h2>Methods</h2>
+<div id="section1" class="section toc-section"><a id="sec007" name="sec007" class="link-target" title="Study design and patient population"></a>
+<h3>Study design and patient population</h3>
+<a id="article1.body1.sec2.sec1.p1" name="article1.body1.sec2.sec1.p1" class="link-target"></a><p>This retrospective, observational, comparative, new-user cohort study evaluated data from adult men (aged ≥18 years) who were newly exposed to the target drug (canagliflozin) or comparator drugs (empagliflozin, dapagliflozin, sitagliptin, and liraglutide) during the study period lasting from 2013 to 2022 (with slight variation in dates of data availability across databases [ranges detailed in <a href="#pone.0341745.s002">S1</a> to <a href="#pone.0341745.s006">S5 Tables</a>]). The comparator drugs were selected for several reasons: 1) to include a broad representation of different classes of AHAs (SGLT2is [empagliflozin and dapagliflozin], dipeptidyl peptidase-4 inhibitors [sitagliptin], and glucagon-like peptide 1 receptor agonists [liraglutide]); 2) they are highly effective agents commonly used in clinical practice for the management of type 2 diabetes mellitus; and 3) there is no well-established evidence linking these medications to the risk of prostatitis. High-level summaries of the overall study design are shown in <a href="#pone-0341745-g001">Figs 1a</a> and <a href="#pone-0341745-g001">1b</a>, respectively.</p>
+<a class="link-target" id="pone-0341745-g001" name="pone-0341745-g001"></a><div class="figure" data-doi="10.1371/journal.pone.0341745.g001"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0341745.g001" data-doi="10.1371/journal.pone.0341745" data-uri="10.1371/journal.pone.0341745.g001"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g001" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0341745.g001"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0341745.g001"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0341745.g001"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Fig 1. </span> Comparative cohort (a) study design and (b) statistical analyses.</div><p class="caption_target"><a id="article1.body1.sec2.sec1.fig1.caption1.p1" name="article1.body1.sec2.sec1.fig1.caption1.p1" class="link-target"></a><p>CCAE, commercial claims and encounters; CDM, Clinformatics<sup>®</sup> Data Mart; EHR, electronic health record; EMR, electronic medical record; LASSO, least absolute shrinkage and selection operator; MDC, medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; PH, proportional hazards; T2DM, type 2 diabetes mellitus.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0341745.g001">
+              https://doi.org/10.1371/journal.pone.0341745.g001</a></p></div><a id="article1.body1.sec2.sec1.p2" name="article1.body1.sec2.sec1.p2" class="link-target"></a><p>Data were included for patients who had ≥ 1 diagnosis of type 2 diabetes mellitus, measurement of elevated hemoglobin A<sub>1C</sub>, or drug treatment for type 2 diabetes mellitus, with ≥1 type 2 diabetes mellitus diagnosis at any time prior to or within 365 days following the first treatment exposure (index date), and no diagnosis of type 1 diabetes mellitus or secondary diabetes. Diagnosis of type 2 diabetes mellitus was based on International Classification of Diseases (ICD)-9 and ICD-10 codes. Additionally, eligible patients had ≥ 365 days of observational data prior to the index date within the database to capture patient characteristics and establish a clean period. There were no other exclusion criteria.</p>
+<a id="article1.body1.sec2.sec1.p3" name="article1.body1.sec2.sec1.p3" class="link-target"></a><p>For each treatment cohort, the at-risk period included all time exposed to the index drug, calculated as index date + 1 day until event occurrence, drug discontinuation, or the end of the observation period within the database. Drug discontinuation was determined by a 30-day period between the end of a given drug’s supply and any subsequent exposure (i.e., ≥ 60 days pass&nbsp;without refilling a 30-day prescription). Only the first at-risk period was considered for each patient within a given treatment cohort, though patients may have belonged to ≥1 cohort at different times.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec008" name="sec008" class="link-target" title="Data sources"></a>
+<h3>Data sources</h3>
+<a id="article1.body1.sec2.sec2.p1" name="article1.body1.sec2.sec2.p1" class="link-target"></a><p>Patient-level data from 8 global administrative claims databases were used for this study, including 7 United States (US) databases and 1 Japanese database. Data were accessed on December 14, 2022. The claims databases included: (1) IQVIA™ Ambulatory electronic medical records (IQVIA™ Ambulatory EMR), (2) IQVIA™ PharMetrics adjudicated health plan claims database (IQVIA™ PharMetrics Plus), (3) Optum’s de-identified electronic health record (Optum<sup>®</sup> EHR), (4) Optum<sup>®</sup> Clinformatics<sup>®</sup> Data Mart – Extended Data Mart – Socioeconomic Status (Optum<sup>®</sup> CDM), (5) Merative MarketScan<sup>®</sup> Commercial Claims and Encounters Database (Merative MarketScan<sup>®</sup> CCAE), (6) Merative MarketScan<sup>®</sup> Multi-State Medicaid Database (Merative MarketScan<sup>®</sup> MDCD), (7) Merative MarketScan<sup>®</sup> Medicare Supplemental Database (Merative MarketScan<sup>®</sup> MDCR), and (8) the Japan Medical Data Center claims database (JMDC). These databases are described in detail in <a href="#pone.0341745.s007">S6 Table</a>. All databases were transformed to the Observational Medical Outcomes Partnership Common Data Model, which provides a standardized representation of database structure and clinical content to enable consistent analysis across disparate health care databases [<a href="#pone.0341745.ref016" class="ref-tip">16</a>,<a href="#pone.0341745.ref017" class="ref-tip">17</a>]. The analyses used commercially licensed de-identified databases and no direct involvement with patients, so no one could identify the individual participants. All authors had access to information, including study reports and manuscript materials, which were aggregated information. The study analysts could have access to patient-level data.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec009" name="sec009" class="link-target" title="Outcome assessment"></a>
+<h3>Outcome assessment</h3>
+<a id="article1.body1.sec2.sec3.p1" name="article1.body1.sec2.sec3.p1" class="link-target"></a><p>Cases were defined as having a prostatitis diagnosis (based on ICD-9 and ICD-10 codes, listed in <a href="#pone.0341745.s008">S7 Table</a>) following the index date, without the presence of testicular lesions, bladder neoplasm, or abdominal or inguinal hernia between 365 days before and 7 days after the index date. Events were identified as the earliest observed diagnosis of prostatitis and new events were defined after no evidence of history of or chronic prostatitis was observed in the previous 365 days. The case ascertainment method followed standard practices [<a href="#pone.0341745.ref018" class="ref-tip">18</a>].</p>
+<a id="article1.body1.sec2.sec3.p2" name="article1.body1.sec2.sec3.p2" class="link-target"></a><p>Negative control outcomes were used to estimate systematic error in each analytic design and enable empirical calibration [<a href="#pone.0341745.ref019" class="ref-tip">19</a>]. Negative controls are outcomes believed not to be caused by any of the medications being studied. Any effect size estimates for negative control ideally should be close to the null. Negative control outcomes are defined as the first occurrence of the negative control concept or any of its descendants.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec010" name="sec010" class="link-target" title="Statistical analysis"></a>
+<h3>Statistical analysis</h3>
+<a id="article1.body1.sec2.sec4.p1" name="article1.body1.sec2.sec4.p1" class="link-target"></a><p>The crude on-treatment incidence of prostatitis (per 1000 person years [PYs]) was estimated for each treatment cohort (i.e., canagliflozin, empagliflozin, dapagliflozin, sitagliptin, and liraglutide; <a href="#pone-0341745-g001">Fig 1b</a>). To control for confounding, a large-scale regularized logistic regression (least absolute shrinkage and selection operator [LASSO]) was used to fit propensity score (PS) model [<a href="#pone.0341745.ref020" class="ref-tip">20</a>], and a variable ratio matching (up to 100 maximum) on PS was employed for each pairwise comparison between the canagliflozin cohort and the comparator treatment cohort [<a href="#pone.0341745.ref021" class="ref-tip">21</a>]. The Large Scale Propensity Scores (LSPS) models were based on a large-scale regularized regression, which included a large, comprehensive set of baseline covariates. Prior research has suggested that under typical circumstances, LSPS may also potentially account for unmeasured confounding indirectly through measured covariates that correlate with unmeasured factors [<a href="#pone.0341745.ref022" class="ref-tip">22</a>]. The covariates used for PS matching included medical history, demographics (i.e., age, sex, race/ethnicity, index year, index month), 30-day preindex variables (i.e., all conditions, all medication use, all procedures, all measurements), 365-day preindex variables (i.e., same as 30-day variables plus measurement results where available), overlapping index date (i.e., drug groups, which are categorized by Anatomical Therapeutic Chemical code, with index dates overlapping with canagliflozin or comparator AHAs), and comorbidity indices calculated using all prior medical history.</p>
+<a id="article1.body1.sec2.sec4.p2" name="article1.body1.sec2.sec4.p2" class="link-target"></a><p>Prior to formal analyses, every combination of time-at-risk, comparator, and database (N = 32) was required to pass diagnostic testing that included standardized difference of covariates (mean difference, &lt; 0.1), equipoise (percentage of population with a preference of 0.3–0.7) [<a href="#pone.0341745.ref023" class="ref-tip">23</a>], minimum detectable relative risks at 80% power, and expected absolute systematic error (negative controls; also used for empirical calibration of results). Note that the preference score was calculated based on a transformation of the PS (ranging from 0 to 1) and it reflected the degree of overlap in treatment choices for different therapies involved in the study. Per the research by Walker et al [<a href="#pone.0341745.ref023" class="ref-tip">23</a>], preference score values within the range of 0.3 to 0.7 suggest that there is a significant degree of similarity in the characteristics of patients receiving each of the treatments under comparison.</p>
+<a id="article1.body1.sec2.sec4.p3" name="article1.body1.sec2.sec4.p3" class="link-target"></a><p>A conditional Cox proportional hazard model based on time-to-event analysis was used to estimate the hazard ratio (HR) within each individual database, conditioned on the matched set, with no adjustments made to account for multiple testing. The effect-size estimates across databases were combined using Bayesian random-effects meta-analysis based on nonnormal likelihood approximation to avoid bias due to small counts [<a href="#pone.0341745.ref024" class="ref-tip">24</a>]. Empirical calibration was performed by first computing meta-analytic estimates for all negative controls, using those to fit empirical null distributions, and finally calibrating the meta-analytic estimates for the outcomes of interest.</p>
+</div>
+
+<div id="section5" class="section toc-section"><a id="sec011" name="sec011" class="link-target" title="Ethical approval"></a>
+<h3>Ethical approval</h3>
+<a id="article1.body1.sec2.sec5.p1" name="article1.body1.sec2.sec5.p1" class="link-target"></a><p>Analyses of de-identified, publicly available data do not constitute human subjects research and, as such, do not require institutional review board review/approval.</p>
+</div>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section3" class="section toc-section"><a id="sec012" name="sec012" data-toc="sec012" class="link-target" title="Results"></a><h2>Results</h2>
+<div id="section1" class="section toc-section"><a id="sec013" name="sec013" class="link-target" title="Study population"></a>
+<h3>Study population</h3>
+<a id="article1.body1.sec3.sec1.p1" name="article1.body1.sec3.sec1.p1" class="link-target"></a><p>Among the 8 databases that passed the diagnostic testing for inclusion in the statistical analyses comparison, the sample sizes were considerably larger for IQVIA™ Ambulatory EMR, IQVIA™ PharMetrics Plus, Optum<sup>®</sup> EHR, Optum<sup>®</sup> CDM, and Merative MarketScan<sup>®</sup> CCAE compared with JMDC, Merative MarketScan<sup>®</sup> MDCD, and Merative MarketScan<sup>®</sup> MDCR (<a href="#pone-0341745-g002">Fig 2</a>). A total of 388,893 adult male patients with type 2 diabetes mellitus received canagliflozin, and were matched with 657,134 patients who received empagliflozin, 340,539 who received dapagliflozin, 819,047 who received sitagliptin, and 278,684 who received liraglutide. Across the databases, the mean age for new users of canagliflozin ranged from 51.2 (Merative MarketScan<sup>®</sup> MDCD) to 71.7 years (Merative MarketScan<sup>®</sup> MDCR). The baseline demographics and clinical characteristics of the 5 treatment cohorts are provided in the supporting information (<a href="#pone.0341745.s002">S1 Table</a> [canagliflozin] and <a href="#pone.0341745.s003">S2</a> to <a href="#pone.0341745.s006">S5 Tables</a> [comparator AHAs]). The median treatment duration ranged from 4 to 6 months for most databases, except for IQVIA™ Ambulatory EMR and Optum<sup>®</sup> EHR (approximately 1 month for each) and JMDC (approximately 10 months).</p>
+<a class="link-target" id="pone-0341745-g002" name="pone-0341745-g002"></a><div class="figure" data-doi="10.1371/journal.pone.0341745.g002"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0341745.g002" data-doi="10.1371/journal.pone.0341745" data-uri="10.1371/journal.pone.0341745.g002"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g002" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0341745.g002"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0341745.g002"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0341745.g002"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Fig 2. </span> Sample size for each exposure cohort by database.</div><p class="caption_target"><a id="article1.body1.sec3.sec1.fig1.caption1.p1" name="article1.body1.sec3.sec1.fig1.caption1.p1" class="link-target"></a><p>CDM, Clinformatics<sup>®</sup> Data Mart; CCAE, commercial claims and encounters; EHR, electronic health record; EMR, electronic medical record; MDC, medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0341745.g002">
+              https://doi.org/10.1371/journal.pone.0341745.g002</a></p></div><a id="article1.body1.sec3.sec1.p2" name="article1.body1.sec3.sec1.p2" class="link-target"></a><p>Baseline patient characteristics from the 8 databases were analyzed based on individual (not aggregated) verbatim terms. Across the databases, most patients in the canagliflozin cohort had hypertension/hypertensive disorder and hyperlipidemia; other common comorbidities included obesity, chest pain, low back pain, and respiratory illnesses during the baseline period (<a href="#pone.0341745.s002">S1 Table</a>). Other AHAs, antihypertensive medications, and cholesterol-lowering drugs were common concomitant treatments.</p>
+<a id="article1.body1.sec3.sec1.p3" name="article1.body1.sec3.sec1.p3" class="link-target"></a><p>During the follow-up period, the crude on-treatment incidence rates showed that prostatitis was uncommon among patients in the canagliflozin cohort in nearly all databases (range, 4.2–7.7 per 1000 PYs) and were similar to those observed for the 4 comparator cohorts. The exception to this was a higher crude incidence rate of prostatitis in the Merative MarketScan<sup>®</sup> MDCR (range, 10.1–12.1 per 1000 PYs; <a href="#pone-0341745-g003">Fig 3</a>). The crude incidence rates and event counts are provided in <a href="#pone.0341745.s009">S8 Table</a>.</p>
+<a class="link-target" id="pone-0341745-g003" name="pone-0341745-g003"></a><div class="figure" data-doi="10.1371/journal.pone.0341745.g003"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0341745.g003" data-doi="10.1371/journal.pone.0341745" data-uri="10.1371/journal.pone.0341745.g003"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g003" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0341745.g003"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0341745.g003"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0341745.g003"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Fig 3. </span> Crude on-treatment incidence rate (per 1000 PYs) of prostatitis for each treatment cohort by database.</div><p class="caption_target"><a id="article1.body1.sec3.sec1.fig2.caption1.p1" name="article1.body1.sec3.sec1.fig2.caption1.p1" class="link-target"></a><p>CDM, Clinformatics<sup>®</sup> Data Mart; CCAE, commercial claims and encounters; EHR, electronic health record; EMR, electronic medical record; MDC, medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; PY, person-year.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0341745.g003">
+              https://doi.org/10.1371/journal.pone.0341745.g003</a></p></div></div>
+
+<div id="section2" class="section toc-section"><a id="sec014" name="sec014" class="link-target" title="Risk estimation"></a>
+<h3>Risk estimation</h3>
+<a id="article1.body1.sec3.sec2.p1" name="article1.body1.sec3.sec2.p1" class="link-target"></a><p>After PS matching, all available covariates were well-matched between cohorts (as an example, covariate balance before and after PS matching using the IQVIA<sup>TM</sup> Ambulatory EMR database is presented in <a href="#pone.0341745.s001">S1 Fig</a>). Effect estimates across the databases for prostatitis risk varied on both sides of the null effect, with the HR relatively close to 1.0. The minimum detectable relative risks were low in most databases, often &lt;1.5, and almost always &lt;2.0. Estimates from the meta-analysis were very close to 1.0 with upper bounds &lt;1.50 for all pairwise comparisons (HR and 95% confidence interval [CI]): canagliflozin versus empagliflozin (0.91 [0.75–1.09]), canagliflozin versus dapagliflozin (1.14 [0.87–1.50]), canagliflozin versus sitagliptin (1.06 [0.88–1.27]), and canagliflozin versus liraglutide (1.06 [0.81–1.37]). There was neither a protective nor harmful association for risk of prostatitis with canagliflozin versus the comparator AHAs (i.e., empagliflozin, dapagliflozin, sitagliptin, and liraglutide; <a href="#pone-0341745-g004">Fig 4</a>).</p>
+<a class="link-target" id="pone-0341745-g004" name="pone-0341745-g004"></a><div class="figure" data-doi="10.1371/journal.pone.0341745.g004"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0341745.g004" data-doi="10.1371/journal.pone.0341745" data-uri="10.1371/journal.pone.0341745.g004"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0341745.g004" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0341745.g004"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0341745.g004"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0341745.g004"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Fig 4. </span> Effect estimation of pairwise comparison of on-treatment prostatitis syndrome events by database.</div><p class="caption_target"><a id="article1.body1.sec3.sec2.fig1.caption1.p1" name="article1.body1.sec3.sec2.fig1.caption1.p1" class="link-target"></a><p>CDM, Clinformatics<sup>®</sup> Data Mart; CCAE, commercial claims and encounters; EHR, electronic health record; EMR, electronic medical record; MDC, medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0341745.g004">
+              https://doi.org/10.1371/journal.pone.0341745.g004</a></p></div></div>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section4" class="section toc-section"><a id="sec015" name="sec015" data-toc="sec015" class="link-target" title="Discussion"></a><h2>Discussion</h2><a id="article1.body1.sec4.p1" name="article1.body1.sec4.p1" class="link-target"></a><p>Using real-world clinical data from 8 global claims databases that met diagnostic criteria, this retrospective, observational study compared the incidence of prostatitis in adult male patients with type 2 diabetes mellitus who were new users of canagliflozin to that of 4 comparator AHA treatments (i.e., empagliflozin, dapagliflozin, sitagliptin, and liraglutide). During the follow-up period, the crude on-treatment incidence rates showed that prostatitis was uncommon in the canagliflozin cohort in nearly all databases (range, 4.2–7.7 per 1000 PYs) and were similar to those found among comparator treatment cohorts. The exception to this observation was a higher crude incidence of prostatitis in 1 database (Merative MarketScan<sup>®</sup> MDCR, range, 10.1–12.1 per 1000 PYs), which mainly consists of patients older than 65 years of age. After PS matching using all available covariates, there was no evidence of a statistically significantly increased risk of prostatitis in patients who received canagliflozin compared with the other AHAs evaluated in this study, including other SGLT2is. In a prior study using the Kaiser Permanente Northwest (Portland, Oregon) database, the incidence of physician-diagnosed prostatitis was 4.9 per 1000 PYs, although the study was not restricted to patients with type 2 diabetes mellitus [<a href="#pone.0341745.ref025" class="ref-tip">25</a>].</p>
+<a id="article1.body1.sec4.p2" name="article1.body1.sec4.p2" class="link-target"></a><p>While UTIs have been identified as adverse drug reactions associated with the use of SGLT2is, there is mixed support from other large data analyses for an association between SGLT2i use and an increased risk of genitourinary infections. Multiple meta-analyses have found SGLT2i use to be associated with an increased risk of genital mycotic infections but not UTIs [<a href="#pone.0341745.ref014" class="ref-tip">14</a>,<a href="#pone.0341745.ref026" class="ref-tip">26</a>], while a meta-analysis among older patients (≥65 years) found no increased incidence of genitourinary infections within 6 months of SGLT2i initiation [<a href="#pone.0341745.ref013" class="ref-tip">13</a>]. It has been suggested that these disparities may be due to the specific SGLT2i molecule being studied, as initial meta-analyses were conducted using patient data from the earlier available drugs [<a href="#pone.0341745.ref027" class="ref-tip">27</a>]. In more recent studies, the increased risk of UTI that was observed for dapagliflozin was not seen with either canagliflozin or empagliflozin [<a href="#pone.0341745.ref014" class="ref-tip">14</a>,<a href="#pone.0341745.ref015" class="ref-tip">15</a>,<a href="#pone.0341745.ref026" class="ref-tip">26</a>,<a href="#pone.0341745.ref027" class="ref-tip">27</a>]. Prostatitis has received limited attention in the literature separate from UTIs as a whole, but findings of the current study suggest that rates of prostatitis are low and similar in patients with type 2 diabetes mellitus who received treatment with the SGLT2i canagliflozin or 1 of the comparator drugs, with no statistically significantly increased risk of prostatitis from canagliflozin treatment versus any of the comparator drugs evaluated in this study.</p>
+<a id="article1.body1.sec4.p3" name="article1.body1.sec4.p3" class="link-target"></a><p>The strengths of the current analysis include its use of well-established LSPS matching methods to control confounding. The results were robust, including very large patient cohorts and evaluating treatment consistency based on 9 years of data from routine clinical practice from 8 large global administrative claims databases. Analyses were required to pass stringent prespecified diagnostic testing and negative control outcomes were also implemented to evaluate any potential systematic study design bias and used for empirical calibration of the overall treatment effect estimates. Additionally, this analysis specifically evaluated the risk for prostatitis among patients with type 2 diabetes mellitus, whereas prior analyses have focused on risk assessments across broader classifications of infection, such as overall genitourinary infections.</p>
+<a id="article1.body1.sec4.p4" name="article1.body1.sec4.p4" class="link-target"></a><p>However, this analysis has several limitations. Although the results showed no statistically significant association of prostatitis with canagliflozin over comparator AHAs, the observational design precludes completely ruling out a causal effect. While the Bayesian meta-analytical estimates for the risk of prostatitis with canagliflozin versus comparator AHAs showed point estimates very close to 1.0, a moderate risk increase cannot be ruled out as the upper bounds of the 95% CI were &lt;1.50. The study used observational retrospective data that were originally collected for insurance claims purposes and medical care processing from routine clinical practice. Accordingly, data accuracy and the level of clinical details may be different than those from a data source that has been prospectively collected or specifically designed to address certain clinical questions. Data-related limitations include dependency on the accuracy of codes and algorithms to identify at risk conditions and the lack of details regarding the circumstances related to prostatitis diagnosis (e.g., urinalysis and urine culture results, prostate-specific variables like prostate-specific antigen levels or imaging results, and alternative etiologies). The use of a 1-year baseline period to capture covariates may not have accounted for long-term chronic conditions that could predispose patients to prostatitis. As the study includes data spanning from 2013 to 2022, the potential for temporal bias (changes in clinical guidelines, prescribing habits, or diagnostic criteria over time) cannot be excluded; this is an inherent limitation of real-world studies. The median follow-up period of 4–6 months for most databases is also relatively short for detecting prostatitis. Misclassification of participants with type 2 diabetes mellitus or prostatitis cannot be ruled out due to the use of ICD codes for diagnosis of these conditions. Bias due to non-random censoring is also a limitation of our study as treatment exposure was determined based on pharmacy drug dispensing records rather than actual administration. In addition, treatment discontinuation due to UTIs (a known SGLT2i risk) might have censored prostatitis events (if the prostatitis event proceeded shortly after a UTI event), potentially biasing the HRs for the risk of prostatitis. The study findings may also be subject to residual confounding effects due to its observational nature and unmeasured confounding such as the frequency of prostate examinations, antibiotic use, sexual history, and lifestyle factors (e.g., smoking, alcohol consumption). Therefore, it was critically essential that our analysis used LSPS methods to minimize the residual confounding and the implementation of negative controls further reassured that no systematic bias or residual confounding were observed, and the results were calibrated based on the empirical distributions of the negative controls [<a href="#pone.0341745.ref022" class="ref-tip">22</a>]. Clinical interpretability of the findings is limited by the lack of stratification of prostatitis by severity (acute versus chronic) and whether prostatitis presents differently in SGLT2i users (e.g., bacterial versus nonbacterial). A broader definition of prostatitis was used in this study to address the specific Health Authority query; further stratification would have been limited by the use of ICD diagnosis codes. The analyses were conducted for 4 specific AHAs using data from 7 US databases and 1 Japanese database, with the majority of patients coming from the US (particularly from the Optum<sup>®</sup> EHR, IQVIA<sup>TM</sup> PharMetrics Plus, and IQVIA<sup>TM</sup> Ambulatory EMR databases); therefore, the findings are not generalizable to other geographic regions and other AHAs. Regarding statistical methodology, although the Cox proportional hazard model that was used to estimate the HR for prostatitis within each database assumes proportionality of hazards, a quantitative evaluation of proportionality of hazards was not conducted. Finally, while there is an established relationship between lower urinary tract dysfunction or prostate enlargement and the development of prostatitis, these risk factors are beyond the scope of this study and would be important endpoints for future analyses.</p>
+<a id="article1.body1.sec4.p5" name="article1.body1.sec4.p5" class="link-target"></a><p>This study, using a comparative cohort design with active comparators, found no evidence of a statistically significantly increased risk of prostatitis in adult male patients with type 2 diabetes mellitus who received canagliflozin compared with the other AHAs evaluated in this study, providing evidence for the lack of a safety issue for this hypothesized association. Future studies based on clinical datasets are needed to validate these findings. In addition, the potential for age-related effect modification (if any) confounding on the risk of prostatitis among SGLT2i users could be explored by future research.</p>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section5" class="section toc-section"><a id="sec016" name="sec016" data-toc="sec016" class="link-target" title="Supporting information"></a><h2>Supporting information</h2><div class="figshare_widget" doi="10.1371/journal.pone.0341745"></div><div class="supplementary-material"><a name="pone.0341745.s001" id="pone.0341745.s001" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s001">S1 Fig. </a>Covariate Balance Before and After Propensity Score Matching (IQVIA<sup>TM</sup> Ambulatory EMR Database).</h3><a id="article1.body1.sec5.supplementary-material1.caption1.p1" name="article1.body1.sec5.supplementary-material1.caption1.p1" class="link-target"></a><p class="preSiDOI">EMR, electronic medical record.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s001">https://doi.org/10.1371/journal.pone.0341745.s001</a></p><a id="article1.body1.sec5.supplementary-material1.caption1.p2" name="article1.body1.sec5.supplementary-material1.caption1.p2" class="link-target"></a><p class="postSiDOI">(PDF)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s002" id="pone.0341745.s002" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s002">S1 Table. </a>Baseline Demographics and Clinical Characteristics of the Canagliflozin Cohort.</h3><a id="article1.body1.sec5.supplementary-material2.caption1.p1" name="article1.body1.sec5.supplementary-material2.caption1.p1" class="link-target"></a><p class="preSiDOI">CCAE, Commercial Claims and Encounters; CDM, Clinformatics<sup>®</sup> Data Mart; EHR, electronic health record; EMR, electronic medical record; JMDC, Japan medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; NA, not available; SD, standard deviation. <sup>a</sup> Select comorbidities and concomitant medications are those with a prevalence of at least 20% in any treatment cohort. Concomitant medications exclude those that were evaluated in this study (i.e., canagliflozin, dapagliflozin, empagliflozin, liraglutide, and sitagliptin).</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s002">https://doi.org/10.1371/journal.pone.0341745.s002</a></p><a id="article1.body1.sec5.supplementary-material2.caption1.p2" name="article1.body1.sec5.supplementary-material2.caption1.p2" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s003" id="pone.0341745.s003" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s003">S2 Table. </a>Baseline Demographics and Clinical Characteristics of the Dapagliflozin Cohort.</h3><a id="article1.body1.sec5.supplementary-material3.caption1.p1" name="article1.body1.sec5.supplementary-material3.caption1.p1" class="link-target"></a><p class="preSiDOI">CCAE, Commercial Claims and Encounters; CDM, Clinformatics<sup>®</sup> Data Mart; EHR, electronic health record; EMR, electronic medical record; JMDC, Japan medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; NA, not available; SD, standard deviation. <sup>a</sup> Select comorbidities and concomitant medications are those with a prevalence of at least 20% in any treatment cohort. Concomitant medications exclude those that were evaluated in this study (i.e., canagliflozin, dapagliflozin, empagliflozin, liraglutide, and sitagliptin).</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s003">https://doi.org/10.1371/journal.pone.0341745.s003</a></p><a id="article1.body1.sec5.supplementary-material3.caption1.p2" name="article1.body1.sec5.supplementary-material3.caption1.p2" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s004" id="pone.0341745.s004" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s004">S3 Table. </a>Baseline Demographics and Clinical Characteristics of the Empagliflozin Cohort.</h3><a id="article1.body1.sec5.supplementary-material4.caption1.p1" name="article1.body1.sec5.supplementary-material4.caption1.p1" class="link-target"></a><p class="preSiDOI">CCAE, Commercial Claims and Encounters; CDM, Clinformatics<sup>®</sup> Data Mart; EHR, electronic health record; EMR, electronic medical record; JMDC, Japan medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; NA, not available; SD, standard deviation. <sup>a</sup> Select comorbidities and concomitant medications are those with a prevalence of at least 20% in any treatment cohort. Concomitant medications exclude those that were evaluated in this study (i.e., canagliflozin, dapagliflozin, empagliflozin, liraglutide, and sitagliptin).</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s004">https://doi.org/10.1371/journal.pone.0341745.s004</a></p><a id="article1.body1.sec5.supplementary-material4.caption1.p2" name="article1.body1.sec5.supplementary-material4.caption1.p2" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s005" id="pone.0341745.s005" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s005">S4 Table. </a>Baseline Demographics and Clinical Characteristics of the Liraglutide Cohort.</h3><a id="article1.body1.sec5.supplementary-material5.caption1.p1" name="article1.body1.sec5.supplementary-material5.caption1.p1" class="link-target"></a><p class="preSiDOI">CCAE, Commercial Claims and Encounters; CDM, Clinformatics<sup>®</sup> Data Mart; EHR, electronic health record; EMR, electronic medical record; JMDC, Japan medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; NA, not available; SD, standard deviation. <sup>a</sup> Select comorbidities and concomitant medications are those with a prevalence of at least 20% in any treatment cohort. Concomitant medications exclude those that were evaluated in this study (i.e., canagliflozin, dapagliflozin, empagliflozin, liraglutide, and sitagliptin).</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s005">https://doi.org/10.1371/journal.pone.0341745.s005</a></p><a id="article1.body1.sec5.supplementary-material5.caption1.p2" name="article1.body1.sec5.supplementary-material5.caption1.p2" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s006" id="pone.0341745.s006" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s006">S5 Table. </a>Baseline Demographics and Clinical Characteristics of the Sitagliptin Cohort.</h3><a id="article1.body1.sec5.supplementary-material6.caption1.p1" name="article1.body1.sec5.supplementary-material6.caption1.p1" class="link-target"></a><p class="preSiDOI">CCAE, Commercial Claims and Encounters; CDM, Clinformatics<sup>®</sup> Data Mart; EHR, electronic health record; EMR, electronic medical record; JMDC, Japan medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; NA, not available; SD, standard deviation. <sup>a</sup> Select comorbidities and concomitant medications are those with a prevalence of at least 20% in any treatment cohort. Concomitant medications exclude those that were evaluated in this study (i.e., canagliflozin, dapagliflozin, empagliflozin, liraglutide, and sitagliptin).</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s006">https://doi.org/10.1371/journal.pone.0341745.s006</a></p><a id="article1.body1.sec5.supplementary-material6.caption1.p2" name="article1.body1.sec5.supplementary-material6.caption1.p2" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s007" id="pone.0341745.s007" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s007">S6 Table. </a>Summary of Administrative Claims Databases Included in This Analysis.</h3><a id="article1.body1.sec5.supplementary-material7.caption1.p1" name="article1.body1.sec5.supplementary-material7.caption1.p1" class="link-target"></a><p class="preSiDOI">CCAE, commercial claims and encounters; CDM, Clinformatics<sup>®</sup> Data Mart; EHR, electronic health record; EMR, electronic medical record; HIPAA, Health Insurance Portability and Accountability Act; MDC, medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental; NLP, natural language processing.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s007">https://doi.org/10.1371/journal.pone.0341745.s007</a></p><a id="article1.body1.sec5.supplementary-material7.caption1.p2" name="article1.body1.sec5.supplementary-material7.caption1.p2" class="link-target"></a><p class="postSiDOI">(DOCX)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s008" id="pone.0341745.s008" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s008">S7 Table. </a>International Classification of Diseases Codes Used to Define Prostatitis.</h3><a id="article1.body1.sec5.supplementary-material8.caption1.p1" name="article1.body1.sec5.supplementary-material8.caption1.p1" class="link-target"></a><p class="preSiDOI">CM, Clinical Modification; ICD, International Classification of Diseases.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s008">https://doi.org/10.1371/journal.pone.0341745.s008</a></p><a id="article1.body1.sec5.supplementary-material8.caption1.p2" name="article1.body1.sec5.supplementary-material8.caption1.p2" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div><div class="supplementary-material"><a name="pone.0341745.s009" id="pone.0341745.s009" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=10.1371/journal.pone.0341745.s009">S8 Table. </a>Crude Incidence Rates and Event Counts of Prostatitis.</h3><a id="article1.body1.sec5.supplementary-material9.caption1.p1" name="article1.body1.sec5.supplementary-material9.caption1.p1" class="link-target"></a><p class="preSiDOI">CCAE, Commercial Claims and Encounters; CDM, Clinformatics® Data Mart; EHR, electronic health record; EMR, electronic medical record; IR, incidence rate; JMDC, Japan medical data center; MDCD, multi-state Medicaid database; MDCR, Medicare supplemental. Note: Data for the following comparisons are not presented because they failed pre-specified diagnostic testing: 1) canagliflozin vs. dapagliflozin – Optum CDM; 2) canagliflozin vs. liraglutide – JMDC.</p>
+<p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0341745.s009">https://doi.org/10.1371/journal.pone.0341745.s009</a></p><a id="article1.body1.sec5.supplementary-material9.caption1.p2" name="article1.body1.sec5.supplementary-material9.caption1.p2" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div></div>
+
+
+
+
+
+<div xmlns:plos="http://plos.org" class="section toc-section"><a id="ack" name="ack" data-toc="ack" title="Acknowledgments" class="link-target"></a><h2>Acknowledgments</h2>
+<a id="article1.back1.ack1.p1" name="article1.back1.ack1.p1" class="link-target"></a><p>Medical writing support was provided by Alex Pilote, PhD, of Lumanity Communications Inc.</p>
+</div><div xmlns:plos="http://plos.org" class="toc-section"><a id="references" name="references" class="link-target" data-toc="references" title="References"></a><h2>References</h2><ol class="references"><li id="ref1"><span class="order">1.
+            </span><a name="pone.0341745.ref001" id="pone.0341745.ref001" class="link-target"></a>Chaplin S. SGLT2 inhibitors and risk of genitourinary infections. Prescriber. 2016;27(12):26–30.  <ul class="reflinks" data-doi="10.1002/psb.1521"><li><a href="https://doi.org/10.1002/psb.1521" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=SGLT2+inhibitors+and+risk+of+genitourinary+infections+Chaplin+2016" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref2"><span class="order">2.
+            </span><a name="pone.0341745.ref002" id="pone.0341745.ref002" class="link-target"></a>Geerlings S, Fonseca V, Castro-Diaz D, List J, Parikh S. Genital and urinary tract infections in diabetes: impact of pharmacologically-induced glucosuria. Diabetes Res Clin Pract. 2014;103(3):373–81.  pmid:24529566 <ul class="reflinks" data-doi="10.1016/j.diabres.2013.12.052"><li><a href="https://doi.org/10.1016/j.diabres.2013.12.052" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/24529566" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Genital+and+urinary+tract+infections+in+diabetes%3A+impact+of+pharmacologically-induced+glucosuria+Geerlings+2014" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref3"><span class="order">3.
+            </span><a name="pone.0341745.ref003" id="pone.0341745.ref003" class="link-target"></a>Geerlings SE, Brouwer EC, Gaastra W, Verhoef J, Hoepelman AIM. Effect of glucose and pH on uropathogenic and non-uropathogenic Escherichia coli: studies with urine from diabetic and non-diabetic individuals. J Med Microbiol. 1999;48(6):535–9.  pmid:10359302 <ul class="reflinks" data-doi="10.1099/00222615-48-6-535"><li><a href="https://doi.org/10.1099/00222615-48-6-535" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/10359302" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Effect+of+glucose+and+pH+on+uropathogenic+and+non-uropathogenic+Escherichia+coli%3A+studies+with+urine+from+diabetic+and+non-diabetic+individuals+Geerlings+1999" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref4"><span class="order">4.
+            </span><a name="pone.0341745.ref004" id="pone.0341745.ref004" class="link-target"></a>Turan H, Serefhanoglu K, Torun AN, Kulaksizoglu S, Kulaksizoglu M, Pamuk B, et al. Frequency, risk factors, and responsible pathogenic microorganisms of asymptomatic bacteriuria in patients with type 2 diabetes mellitus. Jpn J Infect Dis. 2008;61(3):236–8.  pmid:18503181 <ul class="reflinks" data-doi="10.7883/yoken.jjid.2008.236"><li><a href="https://doi.org/10.7883/yoken.jjid.2008.236" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/18503181" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Frequency%2C+risk+factors%2C+and+responsible+pathogenic+microorganisms+of+asymptomatic+bacteriuria+in+patients+with+type+2+diabetes+mellitus+Turan+2008" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref5"><span class="order">5.
+            </span><a name="pone.0341745.ref005" id="pone.0341745.ref005" class="link-target"></a>Hoepelman AIM, Meiland R, Geerlings SE. Pathogenesis and management of bacterial urinary tract infections in adult patients with diabetes mellitus. Int J Antimicrob Agents. 2003;22 Suppl 2:35–43.  pmid:14527769 <ul class="reflinks" data-doi="10.1016/s0924-8579(03)00234-6"><li><a href="https://doi.org/10.1016/s0924-8579(03)00234-6" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/14527769" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Pathogenesis+and+management+of+bacterial+urinary+tract+infections+in+adult+patients+with+diabetes+mellitus+Hoepelman+2003" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref6"><span class="order">6.
+            </span><a name="pone.0341745.ref006" id="pone.0341745.ref006" class="link-target"></a>de Lastours V, Foxman B. Urinary tract infection in diabetes: epidemiologic considerations. Curr Infect Dis Rep. 2014;16(1):389.  pmid:24407547 <ul class="reflinks" data-doi="10.1007/s11908-013-0389-2"><li><a href="https://doi.org/10.1007/s11908-013-0389-2" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/24407547" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Urinary+tract+infection+in+diabetes%3A+epidemiologic+considerations+de+Lastours+2014" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref7"><span class="order">7.
+            </span><a name="pone.0341745.ref007" id="pone.0341745.ref007" class="link-target"></a>Nitzan O, Elias M, Chazan B, Saliba W. Urinary tract infections in patients with type 2 diabetes mellitus: review of prevalence, diagnosis, and management. Diabetes Metab Syndr Obes. 2015;8:129–36.  pmid:25759592 <ul class="reflinks" data-doi="10.2147/DMSO.S51792"><li><a href="https://doi.org/10.2147/DMSO.S51792" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/25759592" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Urinary+tract+infections+in+patients+with+type+2+diabetes+mellitus%3A+review+of+prevalence%2C+diagnosis%2C+and+management+Nitzan+2015" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref8"><span class="order">8.
+            </span><a name="pone.0341745.ref008" id="pone.0341745.ref008" class="link-target"></a>Gandhi J, Dagur G, Warren K, Smith NL, Khan SA. Genitourinary complications of diabetes mellitus: an overview of pathogenesis, evaluation, and management. Curr Diabetes Rev. 2017;13(5):498–518.  pmid:27774877 <ul class="reflinks" data-doi="10.2174/1573399812666161019162747"><li><a href="https://doi.org/10.2174/1573399812666161019162747" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/27774877" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Genitourinary+complications+of+diabetes+mellitus%3A+an+overview+of+pathogenesis%2C+evaluation%2C+and+management+Gandhi+2017" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref9"><span class="order">9.
+            </span><a name="pone.0341745.ref009" id="pone.0341745.ref009" class="link-target"></a>Saijo Y, Okada H, Hata S, Nakajima H, Kitagawa N, Okamura T, et al. Reasons for discontinuing treatment with sodium-glucose cotransporter 2 inhibitors in patients with diabetes in real-world settings: the KAMOGAWA-A study. J Clin Med. 2023;12(22):6993.  pmid:38002608 <ul class="reflinks" data-doi="10.3390/jcm12226993"><li><a href="https://doi.org/10.3390/jcm12226993" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/38002608" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Reasons+for+discontinuing+treatment+with+sodium-glucose+cotransporter+2+inhibitors+in+patients+with+diabetes+in+real-world+settings%3A+the+KAMOGAWA-A+study+Saijo+2023" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref10"><span class="order">10.
+            </span><a name="pone.0341745.ref010" id="pone.0341745.ref010" class="link-target"></a>Plodkowski RA, McGarvey ME, Huribal HM, Reisinger-Kindle K, Kramer B, Solomon M, et al. SGLT2 inhibitors for type 2 diabetes mellitus treatment. Fed Pract. 2015;32(Suppl 11):8S-15S. pmid:30766102 <ul class="reflinks"><li><a href="#" data-author="Plodkowski" data-cit="PlodkowskiRA%2C%20McGarveyME%2C%20HuribalHM%2C%20Reisinger-KindleK%2C%20KramerB%2C%20SolomonM%2C%20et%20al.%20SGLT2%20inhibitors%20for%20type%202%20diabetes%20mellitus%20treatment.%20Fed%20Pract.%202015%3B32%28Suppl%2011%29%3A8S-15S.%2030766102" data-title="SGLT2%20inhibitors%20for%20type%202%20diabetes%20mellitus%20treatment" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/30766102" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=SGLT2+inhibitors+for+type+2+diabetes+mellitus+treatment+Plodkowski+2015" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref11"><span class="order">11.
+            </span><a name="pone.0341745.ref011" id="pone.0341745.ref011" class="link-target"></a>Simhadri PK, Vaitla P, Sriperumbuduri S, Chandramohan D, Singh P, Murari U. Sodium-glucose co-transporter-2 inhibitors causing Candida tropicalis fungemia and renal abscess. JCEM Case Rep. 2024;2(2):luae010.  pmid:38304006 <ul class="reflinks" data-doi="10.1210/jcemcr/luae010"><li><a href="https://doi.org/10.1210/jcemcr/luae010" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/38304006" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Sodium-glucose+co-transporter-2+inhibitors+causing+Candida+tropicalis+fungemia+and+renal+abscess+Simhadri+2024" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref12"><span class="order">12.
+            </span><a name="pone.0341745.ref012" id="pone.0341745.ref012" class="link-target"></a>Bartolo C, Hall V, Friedman ND, Lanyon C, Fuller A, Morrissey CO, et al. Bittersweet: infective complications of drug-induced glycosuria in patients with diabetes mellitus on SGLT2-inhibitors: two case reports. BMC Infect Dis. 2021;21(1):284.  pmid:33743624 <ul class="reflinks" data-doi="10.1186/s12879-021-05982-3"><li><a href="https://doi.org/10.1186/s12879-021-05982-3" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/33743624" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Bittersweet%3A+infective+complications+of+drug-induced+glycosuria+in+patients+with+diabetes+mellitus+on+SGLT2-inhibitors%3A+two+case+reports+Bartolo+2021" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref13"><span class="order">13.
+            </span><a name="pone.0341745.ref013" id="pone.0341745.ref013" class="link-target"></a>Varshney N, Billups SJ, Saseen JJ, Fixen CW. Sodium-glucose cotransporter-2 inhibitors and risk for genitourinary infections in older adults with type 2 diabetes. Ther Adv Drug Saf. 2021;12:2042098621997703.  pmid:33854754 <ul class="reflinks" data-doi="10.1177/2042098621997703"><li><a href="https://doi.org/10.1177/2042098621997703" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/33854754" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Sodium-glucose+cotransporter-2+inhibitors+and+risk+for+genitourinary+infections+in+older+adults+with+type+2+diabetes+Varshney+2021" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref14"><span class="order">14.
+            </span><a name="pone.0341745.ref014" id="pone.0341745.ref014" class="link-target"></a>Puckrin R, Saltiel M-P, Reynier P, Azoulay L, Yu OHY, Filion KB. SGLT-2 inhibitors and the risk of infections: a systematic review and meta-analysis of randomized controlled trials. Acta Diabetol. 2018;55(5):503–14.  pmid:29484489 <ul class="reflinks" data-doi="10.1007/s00592-018-1116-0"><li><a href="https://doi.org/10.1007/s00592-018-1116-0" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/29484489" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=SGLT-2+inhibitors+and+the+risk+of+infections%3A+a+systematic+review+and+meta-analysis+of+randomized+controlled+trials+Puckrin+2018" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref15"><span class="order">15.
+            </span><a name="pone.0341745.ref015" id="pone.0341745.ref015" class="link-target"></a>Liu J, Li L, Li S, Jia P, Deng K, Chen W, et al. Effects of SGLT2 inhibitors on UTIs and genital infections in type 2 diabetes mellitus: a systematic review and meta-analysis. Sci Rep. 2017;7(1):2824.  pmid:28588220 <ul class="reflinks" data-doi="10.1038/s41598-017-02733-w"><li><a href="https://doi.org/10.1038/s41598-017-02733-w" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/28588220" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Effects+of+SGLT2+inhibitors+on+UTIs+and+genital+infections+in+type+2+diabetes+mellitus%3A+a+systematic+review+and+meta-analysis+Liu+2017" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref16"><span class="order">16.
+            </span><a name="pone.0341745.ref016" id="pone.0341745.ref016" class="link-target"></a>Hripcsak G, Duke JD, Shah NH, Reich CG, Huser V, Schuemie MJ, et al. Observational Health Data Sciences and Informatics (OHDSI): opportunities for observational researchers. Stud Health Technol Inform. 2015;216:574–8. pmid:26262116 <ul class="reflinks"><li><a href="#" data-author="Hripcsak" data-cit="HripcsakG%2C%20DukeJD%2C%20ShahNH%2C%20ReichCG%2C%20HuserV%2C%20SchuemieMJ%2C%20et%20al.%20Observational%20Health%20Data%20Sciences%20and%20Informatics%20%28OHDSI%29%3A%20opportunities%20for%20observational%20researchers.%20Stud%20Health%20Technol%20Inform.%202015%3B216%3A574%E2%80%938.%2026262116" data-title="Observational%20Health%20Data%20Sciences%20and%20Informatics%20%28OHDSI%29%3A%20opportunities%20for%20observational%20researchers" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/26262116" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Observational+Health+Data+Sciences+and+Informatics+%28OHDSI%29%3A+opportunities+for+observational+researchers+Hripcsak+2015" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref17"><span class="order">17.
+            </span><a name="pone.0341745.ref017" id="pone.0341745.ref017" class="link-target"></a>Voss EA, Makadia R, Matcho A, Ma Q, Knoll C, Schuemie M, et al. Feasibility and utility of applications of the common data model to multiple, disparate observational health databases. J Am Med Inform Assoc. 2015;22(3):553–64.  pmid:25670757 <ul class="reflinks" data-doi="10.1093/jamia/ocu023"><li><a href="https://doi.org/10.1093/jamia/ocu023" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/25670757" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Feasibility+and+utility+of+applications+of+the+common+data+model+to+multiple%2C+disparate+observational+health+databases+Voss+2015" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref18"><span class="order">18.
+            </span><a name="pone.0341745.ref018" id="pone.0341745.ref018" class="link-target"></a>Rao GA, Shoaibi A, Makadia R, Hardin J, Swerdel J, Weaver J, et al. CohortDiagnostics: Phenotype evaluation across a network of observational data sources using population-level characterization. PLoS One. 2025;20(1):e0310634.  pmid:39820599 <ul class="reflinks" data-doi="10.1371/journal.pone.0310634"><li><a href="https://doi.org/10.1371/journal.pone.0310634" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/39820599" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=CohortDiagnostics%3A+Phenotype+evaluation+across+a+network+of+observational+data+sources+using+population-level+characterization+Rao+2025" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref19"><span class="order">19.
+            </span><a name="pone.0341745.ref019" id="pone.0341745.ref019" class="link-target"></a>Schuemie MJ, Ryan PB, DuMouchel W, Suchard MA, Madigan D. Interpreting observational studies: why empirical calibration is needed to correct p-values. Stat Med. 2014;33(2):209–18.  pmid:23900808 <ul class="reflinks" data-doi="10.1002/sim.5925"><li><a href="https://doi.org/10.1002/sim.5925" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/23900808" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Interpreting+observational+studies%3A+why+empirical+calibration+is+needed+to+correct+p-values+Schuemie+2014" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref20"><span class="order">20.
+            </span><a name="pone.0341745.ref020" id="pone.0341745.ref020" class="link-target"></a>Tian Y, Schuemie MJ, Suchard MA. Evaluating large-scale propensity score performance through real-world and synthetic data experiments. Int J Epidemiol. 2018;47(6):2005–14.  pmid:29939268 <ul class="reflinks" data-doi="10.1093/ije/dyy120"><li><a href="https://doi.org/10.1093/ije/dyy120" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/29939268" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Evaluating+large-scale+propensity+score+performance+through+real-world+and+synthetic+data+experiments+Tian+2018" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref21"><span class="order">21.
+            </span><a name="pone.0341745.ref021" id="pone.0341745.ref021" class="link-target"></a>Rassen JA, Shelat AA, Myers J, Glynn RJ, Rothman KJ, Schneeweiss S. One-to-many propensity score matching in cohort studies. Pharmacoepidemiol Drug Saf. 2012;21 Suppl 2:69–80.  pmid:22552982 <ul class="reflinks" data-doi="10.1002/pds.3263"><li><a href="https://doi.org/10.1002/pds.3263" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/22552982" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=One-to-many+propensity+score+matching+in+cohort+studies+Rassen+2012" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref22"><span class="order">22.
+            </span><a name="pone.0341745.ref022" id="pone.0341745.ref022" class="link-target"></a>Zhang L, Wang Y, Schuemie MJ, Blei DM, Hripcsak G. Adjusting for indirectly measured confounding using large-scale propensity score. J Biomed Inform. 2022;134:104204.  pmid:36108816 <ul class="reflinks" data-doi="10.1016/j.jbi.2022.104204"><li><a href="https://doi.org/10.1016/j.jbi.2022.104204" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/36108816" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Adjusting+for+indirectly+measured+confounding+using+large-scale+propensity+score+Zhang+2022" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref23"><span class="order">23.
+            </span><a name="pone.0341745.ref023" id="pone.0341745.ref023" class="link-target"></a>Walker AM, Patrick AR, Lauer MS, Hornbrook MC, Marin MG, Platt R, et al. A tool for assessing the feasibility of comparative effectiveness research. Comparat Effect Res. 2013;3:11–20. <a href="https://doi.org/10.2147/CER.S40357">https://doi.org/10.2147/CER.S40357</a> <ul class="reflinks"><li><a href="#" data-author="Walker" data-cit="WalkerAM%2C%20PatrickAR%2C%20LauerMS%2C%20HornbrookMC%2C%20MarinMG%2C%20PlattR%2C%20et%20al.%20A%20tool%20for%20assessing%20the%20feasibility%20of%20comparative%20effectiveness%20research.%20Comparat%20Effect%20Res.%202013%3B3%3A11%E2%80%9320.%20https%3A%2F%2Fdoi.org%2F10.2147%2FCER.S40357" data-title="A%20tool%20for%20assessing%20the%20feasibility%20of%20comparative%20effectiveness%20research" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=A+tool+for+assessing+the+feasibility+of+comparative+effectiveness+research+Walker+2013" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref24"><span class="order">24.
+            </span><a name="pone.0341745.ref024" id="pone.0341745.ref024" class="link-target"></a>Schuemie MJ, Chen Y, Madigan D, Suchard MA. Combining cox regressions across a heterogeneous distributed research network facing small and zero counts. Stat Methods Med Res. 2022;31(3):438–50.  pmid:34841975 <ul class="reflinks" data-doi="10.1177/09622802211060518"><li><a href="https://doi.org/10.1177/09622802211060518" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/34841975" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Combining+cox+regressions+across+a+heterogeneous+distributed+research+network+facing+small+and+zero+counts+Schuemie+2022" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref25"><span class="order">25.
+            </span><a name="pone.0341745.ref025" id="pone.0341745.ref025" class="link-target"></a>Clemens JQ, Meenan RT, O’Keeffe Rosetti MC, Gao SY, Calhoun EA. Incidence and clinical characteristics of National Institutes of Health type III prostatitis in the community. J Urol. 2005;174(6):2319–22.  pmid:16280832 <ul class="reflinks" data-doi="10.1097/01.ju.0000182152.28519.e7"><li><a href="https://doi.org/10.1097/01.ju.0000182152.28519.e7" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/16280832" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Incidence+and+clinical+characteristics+of+National+Institutes+of+Health+type+III+prostatitis+in+the+community+Clemens+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref26"><span class="order">26.
+            </span><a name="pone.0341745.ref026" id="pone.0341745.ref026" class="link-target"></a>Dave CV, Schneeweiss S, Kim D, Fralick M, Tong A, Patorno E. Sodium-glucose cotransporter-2 inhibitors and the risk for severe urinary tract infections: a population-based cohort study. Ann Intern Med. 2019;171(4):248–56.  pmid:31357213 <ul class="reflinks" data-doi="10.7326/M18-3136"><li><a href="https://doi.org/10.7326/M18-3136" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/31357213" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Sodium-glucose+cotransporter-2+inhibitors+and+the+risk+for+severe+urinary+tract+infections%3A+a+population-based+cohort+study+Dave+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref27"><span class="order">27.
+            </span><a name="pone.0341745.ref027" id="pone.0341745.ref027" class="link-target"></a>Fisher A, Fralick M, Filion KB, Dell’Aniello S, Douros A, Tremblay É, et al. Sodium-glucose co-transporter-2 inhibitors and the risk of urosepsis: a multi-site, prevalent new-user cohort study. Diabetes Obes Metab. 2020;22(9):1648–58.  pmid:32383792 <ul class="reflinks" data-doi="10.1111/dom.14082"><li><a href="https://doi.org/10.1111/dom.14082" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/32383792" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Sodium-glucose+co-transporter-2+inhibitors+and+the+risk+of+urosepsis%3A+a+multi-site%2C+prevalent+new-user+cohort+study+Fisher+2020" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li></ol></div>
+
+
+
+          <div class="ref-tooltip">
+            <div class="ref_tooltip-content">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <aside class="article-aside">
+
+
+<!--[if IE 9]>
+<style>
+.dload-xml {margin-top: 38px}
+</style>
+<![endif]-->
+<div class="dload-menu">
+  <div class="dload-pdf">
+    <a href="/plosone/article/file?id=10.1371/journal.pone.0341745&type=printable"
+       id="downloadPdf" target="_blank">Download PDF</a>
+  </div>
+  <div data-js-tooltip-hover="trigger" class="dload-hover">&nbsp;
+    <ul class="dload-xml" data-js-tooltip-hover="target">
+      <li><a href="/plosone/article/citation?id=10.1371/journal.pone.0341745"
+             id="downloadCitation">Citation</a></li>
+      <li><a href="/plosone/article/file?id=10.1371/journal.pone.0341745&type=manuscript"
+             id="downloadXml">XML</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="aside-container">
+  <div class="print-article" id="printArticle" data-js-tooltip-hover="trigger">
+    <a href="#" onclick="window.print(); return false;" class="preventDefault" id="printBrowser">Print</a>
+  </div>
+  <div class="share-article" id="shareArticle" data-js-tooltip-hover="trigger">
+    Share
+    <ul data-js-tooltip-hover="target" class="share-options" id="share-options">
+
+      <li><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0341745" id="shareReddit" target="_blank" title="Submit to Reddit"><img src="/resource/img/icon.reddit.16.png" width="16" height="16" alt="Reddit">Reddit</a></li>
+
+      <li><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0341745&t=Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching" id="shareFacebook" target="_blank" title="Share on Facebook"><img src="/resource/img/icon.fb.16.png" width="16" height="16" alt="Facebook">Facebook</a></li>
+
+      <li><a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0341745&title=Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching&summary=Checkout this article I found at PLOS"  id="shareLinkedIn" target="_blank" title="Add to LinkedIn"><img src="/resource/img/icon.linkedin.16.png" width="16" height="16" alt="LinkedIn">LinkedIn</a></li>
+
+      <li><a href="https://www.mendeley.com/import/?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0341745"  id="shareMendeley" target="_blank" title="Add to Mendeley"><img src="/resource/img/icon.mendeley.16.png" width="16" height="16" alt="Mendeley">Mendeley</a></li>
+
+      <li><a href="https://bsky.app/intent/compose?text=Checkout%20this%20article%20I%20found%20at%20PLOS:%20https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0341745"  id="shareBluesky" target="_blank" title="Share on Bluesky"><img src="/resource/img/icon.bluesky.light.png" width="16" height="16" alt="Bluesky">Bluesky</a></li>
+
+      <li><a href="mailto:?subject=Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching&body=I%20thought%20you%20would%20find%20this%20article%20interesting.%20From%20PLOS ONE:%20https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0341745"  id="shareEmail" rel="noreferrer" aria-label="Email"><img src="/resource/img/icon.email.16.png" width="16" height="16" alt="Email">Email</a></li>
+    </ul>
+  </div>
+</div>
+
+
+     <!-- Crossmark 2.0 widget -->
+    <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+    <a aria-label="Check for updates via CrossMark" data-target="crossmark">
+      <img alt="Check for updates via CrossMark" width="150" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_horizontal.svg">
+    </a>
+    <!-- End Crossmark 2.0 widget -->
+
+
+
+<div class="aside-container collections-aside-container"><!-- React Magic --></div>
+
+
+<div class="skyscraper-container">
+  <div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-1' style='width:160px; height:600px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-1'); });
+    </script>
+  </div>
+</div>
+
+
+
+
+<div class="subject-areas-container">
+  <h3>Subject Areas <div id="subjInfo">?</div>
+    <div id="subjInfoText">
+      <p>For more information about PLOS Subject Areas, click
+        <a href="https://github.com/PLOS/plos-thesaurus/blob/master/README.md" target="_blank" title="Link opens in new window">here</a>.</p>
+      <span class="inline-intro">We want your feedback.</span> Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!
+
+
+    </div>
+  </h3>
+  <ul id="subjectList">
+      <li>
+              <a class="taxo-term" title="Search for articles about Electronic medical records"
+                 href="/plosone/search?filterSubjects=Electronic+medical+records&filterJournals=PLoSONE&q=">Electronic medical records</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Electronic medical records"><p class="taxo-explain">Is the Subject Area <strong>"Electronic medical records"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Prostatitis"
+                 href="/plosone/search?filterSubjects=Prostatitis&filterJournals=PLoSONE&q=">Prostatitis</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Prostatitis"><p class="taxo-explain">Is the Subject Area <strong>"Prostatitis"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Type 2 diabetes risk"
+                 href="/plosone/search?filterSubjects=Type+2+diabetes+risk&filterJournals=PLoSONE&q=">Type 2 diabetes risk</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Type 2 diabetes risk"><p class="taxo-explain">Is the Subject Area <strong>"Type 2 diabetes risk"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Type 2 diabetes"
+                 href="/plosone/search?filterSubjects=Type+2+diabetes&filterJournals=PLoSONE&q=">Type 2 diabetes</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Type 2 diabetes"><p class="taxo-explain">Is the Subject Area <strong>"Type 2 diabetes"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Comparators"
+                 href="/plosone/search?filterSubjects=Comparators&filterJournals=PLoSONE&q=">Comparators</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Comparators"><p class="taxo-explain">Is the Subject Area <strong>"Comparators"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Epidemiology"
+                 href="/plosone/search?filterSubjects=Epidemiology&filterJournals=PLoSONE&q=">Epidemiology</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Epidemiology"><p class="taxo-explain">Is the Subject Area <strong>"Epidemiology"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Medicare"
+                 href="/plosone/search?filterSubjects=Medicare&filterJournals=PLoSONE&q=">Medicare</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Medicare"><p class="taxo-explain">Is the Subject Area <strong>"Medicare"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Drug therapy"
+                 href="/plosone/search?filterSubjects=Drug+therapy&filterJournals=PLoSONE&q=">Drug therapy</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Drug therapy"><p class="taxo-explain">Is the Subject Area <strong>"Drug therapy"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+  </ul>
+</div>
+<div id="subjectErrors"></div>
+  </aside>
+</div>
+
+
+
+
+</main>
+<footer id="pageftr">
+  <div class="row">
+    <div class="block x-small">
+
+<ul class="nav nav-secondary">
+    <li class="ftr-header"><a href="https://plos.org/our-journals/">Publications</a></li>
+    <li><a href="/agingandhealth/" id="ftr-age">PLOS Aging and Health</a></li>
+    <li><a href="/plosbiology/" id="ftr-bio">PLOS Biology</a></li>
+    <li><a href="/climate/" id="ftr-climate">PLOS Climate</a></li>
+    <li><a href="/complexsystems/" id="ftr-complex-systems">PLOS Complex Systems</a></li>
+    <li><a href="/ploscompbiol/" id="ftr-compbio">PLOS Computational Biology</a></li>
+    <li><a href="/digitalhealth/" id="ftr-digitalhealth">PLOS Digital Health</a></li>
+    <li><a href="/ecosystems/" id="ftr-eco">PLOS Ecosystems</a></li>
+    <li><a href="/plosgenetics/" id="ftr-gen">PLOS Genetics</a></li>
+  </ul>
+    </div>
+    <div class="block x-small">
+
+<ul class="nav nav-secondary">
+    <li class="ftr-header">&nbsp;</li>
+    <li><a href="/globalpublichealth/" id="ftr-globalpublichealth">PLOS Global Public Health</a></li>
+    <li><a href="/plosmedicine/" id="ftr-med">PLOS Medicine</a></li>
+    <li><a href="/mentalhealth/" id="ftr-mental-health">PLOS Mental Health</a></li>
+    <li><a href="/plosntds/" id="ftr-ntds">PLOS Neglected Tropical Diseases</a></li>
+    <li><a href="/plosone/" id="ftr-one">PLOS One</a></li>
+    <li><a href="/plospathogens/" id="ftr-path">PLOS Pathogens</a></li>
+    <li><a href="/sustainabilitytransformation/" id="ftr-sustainabilitytransformation">PLOS Sustainability and Transformation</a></li>
+    <li><a href="/water/" id="ftr-water">PLOS Water</a></li>
+</ul>
+    </div>
+    <div class="block xx-small">	
+
+
+<ul class="nav nav-tertiary">
+  <li>
+    <a href="https://plos.org" id="ftr-home">Home</a>
+  </li>
+  <li>
+    <a href="https://blogs.plos.org" id="ftr-blog">Blogs</a>
+  </li>
+  <li>
+    <a href="https://collections.plos.org/" id="ftr-collections">Collections</a>
+  </li>
+  <li>
+    <a href="mailto:customercare@plos.org" id="ftr-feedback">Give feedback</a>
+  </li>
+  <li>
+    <a href="/plosone/lockss-manifest" id="ftr-lockss">LOCKSS</a>
+  </li>
+</ul>
+    </div>
+    <div class="block xx-small">
+
+<ul class="nav nav-primary">
+  <li><a href="https://plos.org/privacy-policy" id="ftr-privacy">Privacy Policy</a></li>
+  <li><a href="https://plos.org/terms-of-use" id="ftr-terms">Terms of Use</a></li>
+  <li><a href="https://plos.org/advertise/" id="ftr-advertise">Advertise</a></li>
+  <li><a href="https://plos.org/media-inquiries" id="ftr-media">Media Inquiries</a></li>
+  <li><a href="https://plos.org/contact" id="ftr-contact">Contact</a></li>
+</ul>
+    </div>
+  </div>
+  <div class="row">
+    <p>
+
+<img src="/resource/img/logo-plos-footer.png" alt="PLOS" class="logo-footer"/>
+
+
+<span class="footer-non-profit-statement">PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in California, US</span>    </p>
+    <div class="block">
+    </div>
+  </div>
+ 
+<script src="/resource/js/global.js" type="text/javascript"></script>
+</footer>
+
+
+
+
+<script type="text/javascript">
+  var ArticleData = {
+    doi: '10.1371/journal.pone.0341745',
+    title: '<article-title xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Risk of prostatitis in patients with type 2 diabetes mellitus: An observational retrospective cohort study of canagliflozin versus other antihyperglycemic agents using propensity score matching<\/article-title>',
+    date: 'Feb 02, 2026'
+  };
+</script>
+<script src="/resource/js/components/show_onscroll.js" type="text/javascript"></script>
+<script src="/resource/js/components/pagination.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/spin.js" type="text/javascript"></script>
+<script src="/resource/js/pages/article.js" type="text/javascript"></script>
+<script src="/resource/js/pages/article_references.js" type="text/javascript"></script>
+<script src="/resource/js/pages/article_sidebar.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.dropdown.js" type="text/javascript"></script>
+  <script src="/resource/js/components/table_open.js" type="text/javascript"></script>
+
+        <script src="/resource/js/components/figshare.js" type="text/javascript"></script>
+  <script src="/resource/js/vendor/jquery.panzoom.min.js" type="text/javascript"></script>
+  <script src="/resource/js/vendor/jquery.mousewheel.js" type="text/javascript"></script>
+
+  <script src="/resource/js/components/lightbox.js" type="text/javascript"></script>
+
+  <script src="/resource/js/pages/article_body.js" type="text/javascript"></script>
+
+
+<!-- This file should be loaded before the renderJs, to avoid conflicts with the FigShare, that implements the MathJax also. -->
+
+<!--  mathjax configuration options  -->
+<!-- more can be found at http://docs.mathjax.org/en/latest/ -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  "HTML-CSS": {
+    scale: 100,
+    availableFonts: ["STIX","TeX"],
+    preferredFont: "STIX",
+    webFont: "STIX-Web",
+    linebreaks: { automatic: false }
+  },
+  jax: ["input/MathML", "output/HTML-CSS"]
+});
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+
+<div class="reveal-modal-bg"></div>
+</body>
+</html>

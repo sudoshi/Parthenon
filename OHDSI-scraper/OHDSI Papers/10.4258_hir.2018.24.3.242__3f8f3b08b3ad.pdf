@@ -1,0 +1,1551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" lang="eng" xml:lang="eng" class="ie7"><![endif]-->
+<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" lang="eng" xml:lang="eng" class="ie8"><![endif]-->
+<!--[if IE 9]><html xmlns="http://www.w3.org/1999/xhtml" lang="eng" xml:lang="eng" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="eng" xml:lang="eng" xmlns:mml="http://www.w3.org/1998/Math/MathML"><!--<![endif]-->
+<head>
+<title>Construction of an Electrocardiogram Database Including 12 Lead Waveforms</title>
+<meta name="google-site-verification" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name= "format-detection" content = "telephone=no">
+<meta name="citation_journal_title" content="Healthcare Informatics Research"/>
+<meta name="citation_title" content="Construction of an Electrocardiogram Database Including 12 Lead Waveforms"/>
+<link rel="stylesheet" href="/flowplayer/skin/minimalist.css">
+<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+<script src="/flowplayer/flowplayer.min.js"></script>
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+<link rel="shortcut icon" href="/image/icon/favicon.ico">
+<link type="text/css" rel="stylesheet" href="/css/common_v1.1.css" />
+<link type="text/css" rel="stylesheet" href="/css/style.css?1775525698" />
+<script type="text/javascript" src="/script/jquery.js"></script>
+<script type="text/javascript" src="/script/jquery.placeholder.js"></script>
+<script type="text/javascript" src="/script/user.js"></script>
+<script type="text/javascript">
+	function showBox(obj) {
+		if(reviewLayer.style.display == "block") return;
+		reviewLayer.innerText=document.getElementById(obj.href.split("#")[1]).textContent;
+		reviewLayer.style.top = (event.pageY ? event.pageY : (document.documentElement.scrollTop + event.clientY )) + "px";
+		reviewLayer.style.left = (document.body.clientWidth <= (event.clientX + 310) ? -310 : 10)+ event.clientX + "px";
+		reviewLayer.style.display = "block";
+	}
+	//altmetric-embed 새창연결
+	function blank_action(){
+		$(".altmetric-embed").find('a').attr('target','_blank');
+	}
+</script>
+<meta name="dc.identifier" content="doi:10.4258/hir.2018.24.3.242" />
+<meta name="citation_fulltext_html_url" content="http://e-hir.org/journal/view.php?id=10.4258/hir.2018.24.3.242"/>
+<meta name="citation_publisher" content="Korean Society of Medical Informatics"/>
+<meta name="citation_journal_title" content="Healthcare Informatics Research"/>
+<meta name="citation_journal_abbrev" content="Healthc Inform Res"/>
+<meta name="citation_title" content="Construction of an Electrocardiogram Database Including 12 Lead Waveforms"/>
+<meta name="citation_author" content="Dahee Chung"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="Junggu Choi"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="Jong-Hwan Jang"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="Tae Young Kim"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="JungHyun Byun"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="Hojun Park"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="Hong-Seok Lim"/>
+<meta name="citation_author_institution" content="Department of Cardiology, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="Rae Woong Park"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author" content="Dukyong Yoon"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author_email" content="d.yoon.ajou@gmail.com"/>
+<meta name="citation_publication_date" content="2018/7/31"/>
+<meta name="citation_volume" content="24"/>
+<meta name="citation_issue" content="3"/>
+<meta name="citation_firstpage" content="242"/>
+<meta name="citation_lastpage" content="246"/>
+<meta name="citation_doi" content="10.4258/hir.2018.24.3.242"/>
+<meta name="citation_issn" content="2093-3681">
+<meta name="citation_issn" content="2093-369X">
+<meta name="citation_pdf_url" content="https://e-hir.org/upload/pdf/hir-24-242.pdf"/>
+<meta name="citation_language" content="English"/>
+<meta name="citation_keywords" content="Electrocardiogram; Waveform; QT Interval; Database; Adverse Drug Reaction"/>
+<meta name='citation_reference' content='<html xmlns:mml="http://www.w3.org/1998/Math/MathML">'/>
+<meta name='citation_reference' content='citation_title=Current methods in electrocardiogram characterization; citation_author=RJ Martis; citation_author=UR Acharya; citation_author=H Adeli; citation_journal_title=Comput Biol Med; citation_volume=48; citation_issue=48; citation_pages=133-149; citation_date=2014;'/>
+<meta name='citation_reference' content='citation_title=Incremental benefit of 80-lead electrocardiogram body surface mapping over the 12-lead electrocardiogram in the detection of acute coronary syndromes in patients without ST-elevation myocardial infarction: results from the Optimal Cardiovascular Diagnostic Evaluation Enabling Faster Treatment of Myocardial Infarction (OCCULT MI) trial; citation_author=BJ O'Neil; citation_author=J Hoekstra; citation_author=YB Pride; citation_author=C Lefebvre; citation_author=D Diercks; citation_author=W Frank Peacock; citation_journal_title=Acad Emerg Med; citation_volume=17; citation_issue=17; citation_pages=932-939; citation_date=2010;'/>
+<meta name='citation_reference' content='citation_title=Automatic detection of wave boundaries in multilead ECG signals: validation with the CSE database; citation_author=P Laguna; citation_author=R Jane; citation_author=P Caminal; citation_journal_title=Comput Biomed Res; citation_volume=27; citation_issue=27; citation_pages=45-60; citation_date=1994;'/>
+<meta name='citation_reference' content='citation_title=QT interval prolongation and torsades de pointes in a patient undergoing treatment with vorinostat: a case report and review of the literature; citation_author=DR Lynch; citation_author=JB Washam; citation_author=LK Newby; citation_journal_title=Cardiol J; citation_volume=19; citation_issue=19; citation_pages=434-438; citation_date=2012;'/>
+<meta name='citation_reference' content='citation_title=QT interval prolongation associated with intramuscular ziprasidone in Chinese patients: a case report and a comprehensive literature review with meta-analysis; citation_author=XB Li; citation_author=YL Tang; citation_author=W Zheng; citation_author=CY Wang; citation_author=J de Leon; citation_journal_title=Case Rep Psychiatry; citation_volume=2014; citation_issue=2014; citation_pages=; citation_date=2014;'/>
+<meta name='citation_reference' content='citation_title=Serious QT interval prolongation with ranolazine and amiodarone; citation_author=M Tarapues; citation_author=G Cereza; citation_author=AL Arellano; citation_author=E Montane; citation_author=A Figueras; citation_journal_title=Int J Cardiol; citation_volume=172; citation_issue=172; citation_pages=e60-e61; citation_date=2014;'/>
+<meta name='citation_reference' content='citation_title=Construction of an open-access QT database for detecting the proarrhythmia potential of marketed drugs: ECG-ViEW; citation_author=MY Park; citation_author=D Yoon; citation_author=NK Choi; citation_author=J Lee; citation_author=K Lee; citation_author=HS Lim; citation_journal_title=Clin Pharmacol Ther; citation_volume=92; citation_issue=92; citation_pages=393-396; citation_date=2012;'/>
+<meta name='citation_reference' content='citation_title=ECG-ViEW II, a freely accessible electrocardiogram database; citation_author=YG Kim; citation_author=D Shin; citation_author=MY Park; citation_author=S Lee; citation_author=MS Jeon; citation_author=D Yoon; citation_journal_title=PLoS One; citation_volume=12; citation_issue=12; citation_pages=; citation_date=2017;'/>
+<meta name='citation_reference' content='citation_title=Raw data extraction from electrocardiograms with Portable Document Format; citation_author=N Ortigosa; citation_author=VM Gimenez; citation_journal_title=Comput Methods Programs Biomed; citation_volume=113; citation_issue=113; citation_pages=284-289; citation_date=2014;'/>
+<meta name='citation_reference' content='citation_title=System for collecting biosignal data from multiple patient monitoring systems; citation_author=D Yoon; citation_author=S Lee; citation_author=TY Kim; citation_author=J Ko; citation_author=WY Chung; citation_author=RW Park; citation_journal_title=Healthc Inform Res; citation_volume=23; citation_issue=23; citation_pages=333-337; citation_date=2017;'/>
+
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	$("#gnb>li").mouseover(function(){
+		$(".globalSearch").css("display", "none");
+	});
+});
+
+function journal_download(type, sid, filename) {
+	var increase_column;
+
+	if(type == "pdf") {
+		var openWindow = window.open("about:blank");
+		openWindow.location.href = '/upload/pdf/' + filename;
+
+		increase_column = "pdf_down";
+
+	} else if(type == "epub") {		
+		location.href = '/func/download.php?' + filename;		
+		increase_column = "epub_down";
+	}
+
+	$.ajax({
+		type: 'POST',
+		data: {table: 'journal_tbl', column: increase_column, count: 1, condition_column: 'sid', condition_value: sid},
+		url: '/func/count_increase.php'
+	});
+}
+
+var acIdx = -1;
+	function autoCompleteHead(v) {
+		if(event.keyCode >= 37 && event.keyCode <= 40) {
+			if(event.keyCode % 2) return;
+			var max = $(".autoKeywords").size();
+			if(event.keyCode == 38) acIdx--;
+			else if(event.keyCode == 40) acIdx++;
+			if(acIdx < 0) acIdx = max-1;
+			if(acIdx > max-1) acIdx = 0;
+			$(".autoKeywords").css("background","#ffffff");
+			$(".autoKeywords").eq(acIdx).css("background","#e9e9e9");
+			$("input[name='term_all']").val($(".autoKeywords").eq(acIdx).text());
+			return;
+		}
+		acIdx = -1;
+		$.post("/func/autoComplete.php", "value="+v, function (d, s) {
+			if(s == "success") {
+				if(d != "" && v.length > 1) {
+					$("#autoCompleteLayerHead").attr("class", "");
+					$("#autoCompleteLayerHead").html(d);
+				} else {
+					$("#autoCompleteLayerHead").attr("class", "none");
+					$("#autoCompleteLayerHead").html("");
+				}
+			}
+		});
+	}
+	var autoComplete_ck = 0;
+	function term_all_onblur(){
+		if(autoComplete_ck == 0){
+			$("#autoCompleteLayerHead").html("");
+			$("#autoCompleteLayerHead").attr("class", "none");
+		}
+	}
+	function transText(f) {
+		if(!f.term_all.value) return false;
+	}
+
+//]]>
+</script>
+
+<script type="text/x-mathjax-config">  
+  MathJax.Hub.Config({ 
+	SVG: { 
+	  scale: 90, 
+	  linebreaks: {
+		automatic: true, 
+		width: "container" 
+	  } 
+	}, 
+	showProcessingMessages: false, 
+	messageStyle: "none"
+  }); 
+
+
+
+</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B6M7X1D4D4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B6M7X1D4D4');
+</script>
+</head>
+<body>
+
+<div class="wrapper" style="padding-top:137px">
+	
+	<div class="headerWrap">
+		
+		<div class="header">
+			<div class="header_navi">
+				<div class="util_navi" style="background-image:url('/image/top_bg_t.gif');">
+					<ul class="utilMenu">
+						<li><a href="/" title="Home">Home</a></li>
+						<li><a href="https://www.editorialmanager.com/hir/default.aspx" target="_blank" title="E-submission">E-submission</a></li>
+						<li><a href="/about/sitemap.php" title="Sitemap">Sitemap</a></li>
+						<li><a href="/about/contact.php" title="Contact Us">Contact us</a></li>
+						<li>
+							<div id="google_translate_element" style='padding-top:0;height:20px;'></div><script type="text/javascript">
+							function googleTranslateElementInit() {
+							  new google.translate.TranslateElement({pageLanguage: '', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+							}
+							</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+						</li>
+					</ul>
+				</div>
+			</div>			
+			<div class="header_logo">
+				<h1><a href="/" title="Home"><img src="/image/top_logo.gif" alt="Healthcare Informatics Research" /></a></h1>    
+				<p class="qrCode">			
+					<img src="/image/top_img.gif" alt="QR Code" class="qr" />
+				</p>
+				<div style="clear: both;"></div>
+			</div>
+			<div class="gnbWrap">
+				<div class="gnb_menu">
+					<ul id="gnb">
+						<li><a href="/" title="Home">HOME</a></li>
+						<li><a href="/about/" title="About">ABOUT</a>
+							<ul class="subMenu m1">
+							<li><a href="/about/index.php" title="Aims and scope">Aims and scope</a></li>
+<li><a href="/about/about.php" title="About the journal">About the journal</a></li>
+<li><a href="/about/editorial.php" title="Editorial board">Editorial board</a></li>
+<li><a href="/about/management_policy.php" title="Management policy">Management policy</a></li>
+<li><a href="/about/best_practice.php" title="Best practice">Best practice</a></li>
+<li><a href="/about/open_access.php" title="Open access">Open access</a></li>
+<li><a href="/about/contact.php" title="Contact us">Contact us</a></li>
+							</ul>
+						</li>
+						<li><a href="/articles/category.php" title="ARTICLE CATEGORY">ARTICLE CATEGORY&#160;</a>
+							
+							<dl class="subMenu m2">
+								<dd>
+									<ul>
+									<li><a href="/articles/category.php?article_category=Editorial" title="Editorial">Editorial</a></li>
+<li><a href="/articles/category.php?article_category=Review article" title="Review article">Review article</a></li>
+<li><a href="/articles/category.php?article_category=Original article" title="Original article">Original article</a></li>
+<li><a href="/articles/category.php?article_category=Case report" title="Case report">Case report</a></li>
+<li><a href="/articles/category.php?article_category=Tutorial" title="Tutorial">Tutorial</a></li>
+<li><a href="/articles/category.php?article_category=Communication" title="Communication">Communication</a></li>
+<li><a href="/articles/category.php?article_category=Others" title="Others">Others</a></li>
+									</ul>	
+									<p><a href="/articles/category.php" title="Browse all articles">Browse all articles &gt;</a></p>						
+								</dd>
+							</dl>	
+						</li>
+						<li><a href="/articles/archive.php" title="BROWSE ARTICLES">BROWSE ARTICLES&#160;</a>
+							<dl class="subMenu m3">
+								<dd>
+									<ul>
+									<li><a href="/current/" title="Current issue">Current issue</a></li>
+<li><a href="/articles/archive.php" title="All issues">All issues</a></li>
+<li><a href="/articles/mostread.php" title="Most view">Most view</a></li>
+<li><a href="/articles/mostdownload.php" title="Most download">Most download</a></li>
+<li><a href="/articles/mostcited.php" title="Most cited">Most cited</a></li>
+<li><a href="/articles/funded.php" title="Funded articles">Funded articles</a></li>
+<li><a href="/articles/search.php" title="Search">Search</a></li>
+<li><a href="/articles/author_index.php" title="Author index">Author index</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</li>
+						
+						<li><a href="/authors/authors.php" title="FOR CONTRIBUTORS">FOR CONTRIBUTORS&#160;</a>
+							<ul class="subMenu m4" style='width:180px;'>
+									<li><a href="/authors/authors.php" title="Instructions for authors">Instructions for authors</a></li>
+<li><a href="/authors/ethics.php" title="Code of ethics">Code of ethics</a></li>
+<li><a href="/authors/checklist.php" title="Checklist for submission">Checklist for submission</a></li>
+<li><a href="https://www.editorialmanager.com/hir/default.aspx" title="E-submission">E-submission</a></li>
+<li><a href="/authors/reviewers.php" title="Guideline for peer review process">Guideline for peer review process</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="btn">
+						<li><a href="#" class="viewSearch" title="Search"><img src="/image/headerBtn_search.gif" alt="Search" class="viewSearch" title="Search"/></a></li>
+						<li><a href="/articles/search.php" title="Advanced Search"><img src="/image/headerBtn_search2.gif" alt="Advanced Search" /></a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="globalSearch">
+		
+			<dl>
+				<dt class="hidden">Search</dt>
+				<dd>
+					<form name="searformform" method="post" action="/articles/search_result.php" onsubmit="return transText(this);">
+						<fieldset>
+							<legend>Healthc Inform Res Search</legend>
+							<input type="text" name="term_all" autocomplete="off" value='' placeholder="Keyword, Title, Author, or Citation" class="_placeholder" onkeyup="autoCompleteHead(this.value);" onfocus="autoCompleteHead(this.value);" onblur="term_all_onblur();" />
+							<span class="search"><input class="opacity0" type="submit" value="Search" /></span>
+						</fieldset>
+					</form>
+					<div id="autoCompleteLayerHead" class="none" ></div>
+					<p class="close"><a href="#">CLOSE</a></p>
+				</dd>
+			</dl>		
+		</div>
+
+	</div>
+
+	<!-- //headerWrap -->
+	<hr />
+<style>
+@media print {
+div.headerWrap,
+div.aside,
+div.siteMap,
+div.footerWrap {display:none;}
+.admin_menu,
+.crossmark {display:none;}
+div.wrapper {padding-top:0 !important;}
+div#container {background:none;}
+div.printArea {display:block;float:none;margin:0 auto;padding-top:10px;}
+}
+</style>
+
+<script>
+function proof_request(number){
+if(confirm("해당 논문을 Proof에 등록하시겠습니까?"))
+	location.href="/proof/admin/proof_request.php?number="+number+"&mode=first";
+}
+</script>
+
+<div id="container">
+	<div class="contents printArea">
+		<!-- 본문영역 -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+	<tr>
+		<td valign="top" width="613px;" style="font-family:Lora, arial,sans-serif,'Nanum Gothic';  font-size: 14px; line-height:1.5;">
+							<a href="/articles/archive.php" style="color: #0056af;">Healthc Inform Res</a> &gt; <a href="/current/?vol=24&no=3" style="color: #0056af;">Volume 24(3); 2018</a> &gt; Article</font>
+					</td>
+
+		<td align="right" valign="top" style="padding-right:10px;position: relative;">
+			
+		</td>
+	</tr>
+</table>
+<!-- xml 로딩 영역 -->
+<div id="include_journal">
+
+
+<style>
+<!--
+#include_journal {
+	clear:both;
+	font-family: 'Lora', georgia, "Nanum Gothic", sans-serif;
+	font-size: 1.27em;
+	font-weight: 500;
+	line-height:1.76;
+	letter-spacing:.01em;
+	color:#000000;
+	word-break:keep-all;
+}
+
+#supplementary-material:before {
+	content:"";
+	display:block;	
+	height: 180px;
+	margin : -180px 0 0;
+}
+
+/* jats start */
+
+/* article title */
+#article-front {
+	margin-top: 5px;
+	font-size: 0.85em;
+}
+
+#article-front .PubTitle {
+	clear:both;
+	font-size: 1.7em;
+	line-height: 1.3;
+	margin-top: 20px;
+}
+
+#article-front .author_layer {
+	clear:both;
+	font-size: 1.05em;
+	line-height: 1.3;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+#article-front .abstract-layer{
+	font-size: 1.0em;
+}
+
+#article-front .licens {
+	font-size: 0.8em;
+	margin-top: 10px;
+	margin-bottom: 13px;
+}
+
+#article-front .callout-title, #include_journal .main-title {
+	font-size: 1.1em;
+	font-weight: bold;
+	color:#253E8E;
+}
+
+#article-front .section-title {
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.caption {
+	line-height: 130%;
+	font-family:georgia, sans-serif, "Nanum Gothic";
+	font-weight: normal;
+}
+
+#include_journal .main-title {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	margin-right: 73px;
+    text-indent: -19px;
+    padding-left: 19px;
+}
+
+#article-body .section-title {
+	font-weight: 600;
+	color:#1F1F1F;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#article-body .subsection-title {
+	font-weight:bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#article-body > div > div, #article-body > div > div > div {
+	padding-bottom:15px;
+}
+
+#article-body .section {
+	padding-bottom:0px;
+}
+
+#include_journal table h2 {
+	font-size: 18px;
+}
+
+#include_journal table h3 {
+	font-size: 15px;
+}
+
+#include_journal table h3.title {
+	font-size: 10pt;
+	font-weight: lighter;
+	margin: 0;
+}
+
+#include_journal h5 {
+	font-size: 15px;
+}
+
+.abstract-layer {
+	margin-top: 30px;
+}
+
+#include_journal .abstract {
+	margin-top: 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#include_journal a[name$='Link'] {
+	color: #046eb8;
+}
+
+#include_journal div.panel {
+	cursor: pointer;
+	background:#f5f5f5;
+	padding:25px;
+}
+#include_journal div.panel table * {
+	font-size:12px !important;
+}
+
+#include_journal p.address-line {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 2em
+}
+
+#include_journal .list {
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+#include_journal ul,ol {
+	margin-bottom: 1em
+}
+
+#include_journal li {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+}
+
+#include_journal li>p {
+	margin-top: 0.1em;
+	margin-bottom: 0em
+}
+
+#include_journal div.def-list {
+	border-spacing: 0.25em
+}
+
+#include_journal div.def-list p {
+	margin:0px; padding:0px;
+}
+
+#include_journal .ref_layer {
+	margin-bottom: 10px;
+	word-wrap: break-word;
+	word-break: keep-all;
+	width:760px;
+}
+
+#include_journal .apStyle {
+	text-indent: 10px;
+}
+
+#inThisPage { background:#fff; border:2px solid #253E8E; }
+#include_journal .newITP { border: #253E8E; width:200px;font-size:11pt; }
+#include_journal .newITP a{ color: #000; }
+
+.metadata-area {
+	font-size: 13px;
+	color: 3b3b3b;
+}
+
+.history-date {
+	padding-bottom:15px;
+}
+
+.author_layer {
+	margin-top: 16px;
+}
+
+.author_layer a{
+	color: #2f312f !important;
+}
+
+.author_layer img{
+	vertical-align: middle;
+}
+
+.history_date {
+	font-size: 13px;
+	font-color: #2f312f;
+}
+
+.main-title {
+	font-color: #2f312f;
+	font-weight: bold;
+	font-size: 18px;
+	color: #253E8E;
+}
+
+
+
+.abstract > p.metadata-entry {
+	margin-top: 23px;
+	height: auto;
+}
+
+.row {
+	line-height: 1.5;
+}
+
+.table-wrap table thead {background:#E0F3F5;}
+.table-wrap table tbody {background:#fff;}
+.table-wrap-foot {
+	margin-bottom: 10px;
+	font-size:13px;
+}
+
+.table-wrap-foot .footnote p {
+	margin: 0px;
+}
+
+.section .panel {
+	margin: 15px 0px;
+	padding: 15px 15px;
+	background:#f6f6f6;
+}
+
+.section .panel .label {
+	font-weight: bold;
+}
+
+.label {
+	font-weight: bold;
+	font-size : 15px;
+}
+
+table h2 {
+	font-size: 16px;
+}
+
+table h3 {
+	font-size: 15px;
+}
+
+table h3.title {
+	font-size: 10pt;
+	font-weight: lighter;
+	margin: 0;
+}
+
+div.panel {
+	cursor: pointer;
+	background:#f5f5f5;
+	padding:25px;
+}
+div.panel table * {
+	font-size:14px !important;
+}
+
+.table-wrap table {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+.table-wrap table th {
+	border-bottom: solid 1px black;
+	font-weight: bold;
+}
+
+#after_abstract {
+	margin-top: 10px;
+}
+
+#summary_view {
+	display: none;
+}
+
+
+.corresp{
+	margin-bottom:8px;
+}
+/* jats end */
+-->
+	/* 짝수줄만 배경색을 다르게 */
+	/*.table-wrap.panel tr:nth-child(2n+0){background-color: #E0F3F5;}*/
+
+</style>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chung, Choi, Jang, Kim, Byun, Park, Lim, Park, and Yoon: Construction of an Electrocardiogram Database Including 12 Lead Waveforms</title>
+</head>
+<body>
+<div id="article-front" class="front">
+<div class="metadata"><div class="metadata-group"><div class="metadata-chunk"><b><p class="metadata-entry">Case Report </p></b></div></div></div>
+<div class="metadata"><div class="metadata-group"></div></div>
+<div class="metadata two-column table"><div class="row">
+<div class="metadata-group"><p class="metadata-entry">Healthcare Informatics Research 2018;24(3):242-246.</p></div>
+<div class="metadata-group">
+<div class="metadata-group"><p class="metadata-entry"><span class="generated">Published online: </span>July 31, 2018 </p></div>
+<p class="metadata-entry"><span class="generated">DOI: </span><a href="https://doi.org/10.4258/hir.2018.24.3.242">https://doi.org/10.4258/hir.2018.24.3.242</a></p>
+</div>
+<div class="metadata centered"><h3 class="PubTitle">Construction of an Electrocardiogram Database Including 12 Lead Waveforms</h3></div>
+<div class="metadata-group author_layer" style="margin-bottom:10px;"></div>
+<div class="metadata-group"></div>
+<div class="metadata centered"></div>
+<div class="metadata-group author_layer" style="margin-bottom:10px; color: #000000;">
+<a href="/articles/search_result.php?term=author&amp;f_name=Dahee&amp;l_name=Chung">Dahee Chung, PhD</a><sup>1</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=Junggu&amp;l_name=Choi">Junggu Choi, BE</a><sup>1</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=Jong-Hwan&amp;l_name=Jang">Jong-Hwan Jang, BA</a><sup>1</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=Tae%20Young&amp;l_name=Kim">Tae Young Kim, BE</a><sup>1</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=JungHyun&amp;l_name=Byun">JungHyun Byun, BS</a><sup>1</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=Hojun&amp;l_name=Park">Hojun Park, BS</a><sup>1</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=Hong-Seok&amp;l_name=Lim">Hong-Seok Lim, MD, PhD</a><sup>2</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=Rae%20Woong&amp;l_name=Park">Rae Woong Park, MD, PhD</a><sup>1,</sup><sup>3</sup>, <a href="/articles/search_result.php?term=author&amp;f_name=Dukyong&amp;l_name=Yoon">Dukyong Yoon, MD, PhD</a><sup>1,</sup><sup>3</sup>
+</div>
+<div class="metadata-group affiliation_layer" style="margin-bottom:10px;">
+<p class="metadata-entry"><a id="A1-hir-24-242"><!-- named anchor --></a><sup>1</sup>Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea.</p>
+<p class="metadata-entry"><a id="A2-hir-24-242"><!-- named anchor --></a><sup>2</sup>Department of Cardiology, Ajou University School of Medicine, Suwon, Korea.</p>
+<p class="metadata-entry"><a id="A3-hir-24-242"><!-- named anchor --></a><sup>3</sup>Department of Biomedical Sciences, Ajou University Graduate School of Medicine, Suwon, Korea.</p>
+</div>
+<div class="metadata-group">
+<p class="metadata-entry"><div class="corresp">Corresponding Author: Dukyong Yoon, MD, PhD. Department of Biomedical Sciences, Ajou University Graduate School of Medicine, 206 World cup-ro, Yeongtong-gu, Suwon 16499, Korea. <br/>Tel: +82-31-219-4476, <a href="mailto:d.yoon.ajou@gmail.com" name="emailLink">d.yoon.ajou@gmail.com</a>
+</div> </p>
+<div style="margin-top:12px;">
+<span class="history_view"> Received June 30, 2018</span><span class="history_view">       Revised July 19, 2018</span><span class="history_view">       Accepted July 24, 2018</span>
+</div>
+<p class="metadata-entry copyright" style="margin-top:10px;">© 2018 The Korean Society of Medical Informatics </p>
+<div class="metadata-chunk"><div class="licens" id="idm140432651485408">This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<a target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/" id="idm140432651484992">http://creativecommons.org/licenses/by-nc/4.0/</a>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</div></div>
+</div>
+</div></div>
+<div id="before_abstract"></div>
+<div class="abstract-layer">
+<h3 class="callout-title" id="__abstract" style="margin:15px 0 0 0;">Abstract</h3>
+<div class="abstract">
+<p><div class="section" id="">
+<a id="idm140432651483552"><!-- named anchor --></a><h3 class="section-title"> Objectives</h3>
+<div id="idm140432651483072">Electrocardiogram (ECG) data are important for the study of cardiovascular disease and adverse drug reactions. Although the development of analytical techniques such as machine learning has improved our ability to extract useful information from ECGs, there is a lack of easily available ECG data for research purposes. We previously published an article on a database of ECG parameters and related clinical data (ECG-ViEW), which we have now updated with additional 12-lead waveform information.</div>
+</div><div class="section" id="">
+<a id="idm140432651482272"><!-- named anchor --></a><h3 class="section-title"> Methods</h3>
+<div id="idm140432651481792">All ECGs stored in portable document format (PDF) were collected from a tertiary teaching hospital in Korea over a 23-year study period. We developed software which can extract all ECG parameters and waveform information from the ECG reports in PDF format and stored it in a database (meta data) and a text file (raw waveform).</div>
+</div><div class="section" id="">
+<a id="idm140432651481168"><!-- named anchor --></a><h3 class="section-title"> Results</h3>
+<div id="idm140432651480688">Our database includes all parameters (ventricular rate, PR interval, QRS duration, QT/QTc interval, P-R-T axes, and interpretations) and 12-lead waveforms (for leads I, II, III, aVR, aVL, aVF, V1, V2, V3, V4, V5, and V6) from 1,039,550 ECGs (from 447,445 patients). Demographics, drug exposure data, diagnosis history, and laboratory test results (serum calcium, magnesium, and potassium levels) were also extracted from electronic medical records and linked to the ECG information.</div>
+</div><div class="section" id="">
+<a id="idm140432651479904"><!-- named anchor --></a><h3 class="section-title"> Conclusions</h3>
+<div id="idm140432651479424">Electrocardiogram information that includes 12 lead waveforms was extracted and transformed into a form that can be analyzed. The description and programming codes in this case report could be a reference for other researchers to build ECG databases using their own local ECG repository.</div>
+</div></p>
+<p class="metadata-entry_k" style="margin-top:10px;"><span class="generated"><b>Keywords</b>: </span><a href="/articles/search_result.php?term=4&amp;key=Electrocardiogram">Electrocardiogram</a>, <a href="/articles/search_result.php?term=4&amp;key=Waveform">Waveform</a>, <a href="/articles/search_result.php?term=4&amp;key=QT%20Interval">QT Interval</a>, <a href="/articles/search_result.php?term=4&amp;key=Database">Database</a>, <a href="/articles/search_result.php?term=4&amp;key=Adverse%20Drug%20Reaction">Adverse Drug Reaction</a> </p>
+</div>
+</div>
+</div>
+<div id="article-body" class="body">
+<div class="section" id="">
+<a id="idm140432651474336"><!-- named anchor --></a><h3 class="main-title">I. Introduction</h3>
+<div id="idm140432651473856">Electrocardiogram (ECG) has been widely used to diagnose various cardiovascular diseases including arrhythmia and acute coronary syndrome [<a href="#B1-hir-24-242" name="bibrLink" class="bibrClassB1">1</a><a href="#B2-hir-24-242" name="bibrLink" class="bibrClassB2">2</a><a href="#B3-hir-24-242" name="bibrLink" class="bibrClassB3">3</a>] because it is a non-invasive and convenient tool for measuring the continuous wave sequence characterizing the heart activity [<a href="#B2-hir-24-242" name="bibrLink" class="bibrClassB2">2</a><a href="#B4-hir-24-242" name="bibrLink" class="bibrClassB4">4</a>].</div>
+<div id="idm140432651468336">Information from ECGs is also used to detect a prolonged QT interval, which is one of the life-threatening adverse drug reactions (ADRs). A prolonged QT interval leads to an irregular heart beat and can result in various types of cardiac arrest including ventricular fibrillation, ventricular tachyarrhythmia, Torsades de Pointes, and sudden death [<a href="#B5-hir-24-242" name="bibrLink" class="bibrClassB5">5</a><a href="#B6-hir-24-242" name="bibrLink" class="bibrClassB6">6</a><a href="#B7-hir-24-242" name="bibrLink" class="bibrClassB7">7</a>]. Due to its importance as a drug-induced adverse reaction, a prolonged QT interval is strictly monitored and regulated [<a href="#B5-hir-24-242" name="bibrLink" class="bibrClassB5">5</a>].</div>
+<div id="idm140432651463904">To address the needs of ECG data analysis, we previously constructed the ECG databases, Electrocardiogram Vigilance with Electronic data Warehouse I (ECG-ViEW I) and ECG-ViEW II, using ECG data measured in a tertiary teaching hospital located in Korea [<a href="#B8-hir-24-242" name="bibrLink" class="bibrClassB8">8</a><a href="#B9-hir-24-242" name="bibrLink" class="bibrClassB9">9</a>]. However, these previous versions of the database had limitations because they did not provide the ECG waveform. To overcome these limitations, we designed an update of the ECG database.</div>
+</div>
+<div class="section" id="">
+<a id="idm140432651461424"><!-- named anchor --></a><h3 class="main-title">II. Case Description</h3>
+<div id="idm140432651460944">This study was a retrospective review of Electronic Health Records and was approved by the Ajou University Hospital Institutional Review Board (No. AJIRB-MED-MDB-18-075), which also waived the requirement for informed consent.</div>
+<div class="section" id="">
+<a id="idm140432651460416"><!-- named anchor --></a><h3 class="section-title"> 1. Data Resources and Patient Characteristics</h3>
+<div id="idm140432651459904">ECG-ViEW I and II covered three data sources: scanned images of paper-based ECGs, ECGs in portable document format (PDF) from the MUSE system (GE Healthcare, Waukesha, WI, USA), and image files stored in the hospital's Electronic Medical Records (EMRs). In contrast, we used only the PDF ECGs from the MUSE system and no images in this study due to the following reasons. The images scanned from paper-based ECGs or image files from the EMRs are saved as pixels images; the quality of information extracted by optical character recognition (OCR) is dependent on the quality of image, and there is no appropriate way to extract waveforms with high accuracy. On the other hand, the quality of data extracted from PDF files from the MUSE system is stable and well controlled. Moreover, because the waveforms in PDF files are saved in scalable vector graphics (SVG) format, it is possible to export the waveforms and maintain the quality of the raw data [<a href="#B10-hir-24-242" name="bibrLink" class="bibrClassB10">10</a>].</div>
+</div>
+<div class="section" id="">
+<a id="idm140432651457568"><!-- named anchor --></a><h3 class="section-title"> 2. ECG Data Extraction</h3>
+<div id="idm140432651457088">An ECG report typically contains both alphanumeric values and waveform graphs (<a href="#F1-hir-24-242" name="figLink" class="figClassF1">Figure 1</a>). The upper part of the ECG report is a list of alphanumeric values including demographic information, patient ID, evaluation date, ECG parameters, and interpretations (e.g., normal sinus rhythm). Demographic information refers to basic patient information including name, age, sex, and ethnicity. ECG parameters include ventricular rate, PR interval, QRS duration, QT/QTc, and P-R-T axes. The waveform graphs, which typically cover the middle and bottom part of the ECG, are time series of graphs representing the sensor measurement data.</div>
+<div id="idm140432651455088">The alphanumeric data were converted from PDF to eXtensible Markup Language (XML) format to increase the accuracy of the parsing results. The main difference between parsing in PDF and XML is related to the handling of irrelevant data. In PDF format, data are saved and parsed according to object type, and deletion of unnecessary data requires careful manual revision. In contrast, the XML format enables conditional parsing, and thus, relevant data can be extracted using automated code. Second, the XML format provides x- and y-coordinates for each piece of data. The axes of the coordinates start from the upper left corner of the ECG report. Thus, alphanumeric information can be extracted based on the position information (i.e., the location of each piece of data on the ECG report).</div>
+<div id="idm140432651454000">The part of the PDF file containing the waveform data is stored as metadata of the image in SVG format. To extract the image data, we used INKSCAPE (open-source software, <a target="_blank" href="https://inkscape.org" id="idm140432651453520">https://inkscape.org</a>) in Linux and converted the waveforms in PDF to SVG format images. The waveforms in the SVG format were processed using svgpathtools from the Python library to classify the parsed data into three categories: path, attribute, and svg_attribute. We used the ‘path’ data to convert the waveform into a numeric series. ‘path’ can be considered to be composed of real and imaginary numbers describing the starting and ending points (i.e., a complex plane). After transforming this complex plane into a Cartesian coordinate system (<a href="#F2-hir-24-242" name="figLink" class="figClassF2">Figure 2A</a>), the starting point of each waveform was adjusted to ‘(0,0)’ (<a href="#F2-hir-24-242" name="figLink" class="figClassF2">Figure 2B</a>). It was required to reset the baseline of each waveform because the starting point of the waveforms in raw data corresponds to a certain position on the ECG report. Then, we adjusted the values of the time series data to indicate the units of millivolt (mV), which corresponds to 10 times the height of the grid unit (square) used in the ECG report (<a href="#F2-hir-24-242" name="figLink" class="figClassF2">Figure 2C</a>). Finally, we converted the x- and y-coordinates of the vector images to an equidistant time series similar to that obtained from the sensor (<a href="#F2-hir-24-242" name="figLink" class="figClassF2">Figure 2D</a>). We set the frequency of data at 500 Hz and identified data points on the waveform using linear interpolation between points with known coordinates (the frequency of the raw data was varied from about 200 to 420 Hz).</div>
+<div id="idm140432651446928">There are 13 waveforms in a single ECG report: 3-second strips for each of the 12 leads, plus a 10-second strip, usually for lead II. Each waveform was saved in a separate file in comma-separated value (CSV) format, resulting in 13 waveform CSV files per ECG report. The waveform data were saved as a compressed CSV format using gzip, while their metadata were stored in a database to link the waveform data with the corresponding alphanumeric values from the ECG report as well as with the clinical data from the EMR.</div>
+</div>
+<div class="section" id="">
+<a id="idm140432651446112"><!-- named anchor --></a><h3 class="section-title"> 3. Software Tools</h3>
+<div id="idm140432651445632">We used a Java programming tool to extract the PDF files from the MUSE system, and a Linux-based program (pdftohtml) to convert PDF to the XML format. INKSCAPE for Linux was used to convert PDF to the SVG format. The parsing of XML and SVG files was performed using Python, and the svgpathtools library was used to extract the waveform data. The ElementTree library was used to parse the XML formats. All software tools and codes used during the parsing process are available in <a href="#S1-hir-24-242" name="supplementary-materialLink" class="supplementary-materialClassS1">Supplementary 1</a>.</div>
+</div>
+<div class="section" id="">
+<a id="idm140432651443760"><!-- named anchor --></a><h3 class="section-title"> 4. Data Validation and Quality Control</h3>
+<div id="idm140432651443264">The accuracy of the ECG data extraction was validated according to the correlation between the extracted and calculated QTc values. The parameter QTc can be calculated based on the QT intervals and RR intervals using Bazett formula. Approximately 99.94% of the extracted QTc values and calculated QTc values matched within ± 2 ms. We assume that the cause of this difference between the two values is due to the process of rounding off. The QT and RR values that we used to calculate QTc were already rounded as integers; thus, there might be some difference from the original value used when calculating QTc in the ECG machine. For the extracted results in which the difference with the calculated QTc value was relatively high (&gt; 2 mm), we manually reviewed the results and confirmed that there was no error in the data extraction process.</div>
+<div id="idm140432651442112">Because the frequency of the waveforms was adjusted to 500 Hz, there could be little difference in the converted waveform with the raw data at locations where the time series data point does not coincide with the x- and y-coordinates. To validate the quality of the linear interpolation, we compared the original waveform to the converted waveform for randomly chosen waveforms. The difference was not noticeable shown in <a href="#F3-hir-24-242" name="figLink" class="figClassF3">Figure 3</a>.</div>
+</div>
+<div class="section" id="">
+<a id="idm140432651440304"><!-- named anchor --></a><h3 class="section-title"> 5. Data in the Database</h3>
+<div id="idm140432651439824">The ECG database contains a total of 1,039,550 ECGs from 447,445 patients (<a href="#T1-hir-24-242" name="tableLink" class="tableClassT1">Table 1</a>). The mean follow-up period per person was 717 ± 1,534 days.</div>
+</div>
+<div class="section" id="">
+<a id="idm140432651438384"><!-- named anchor --></a><h3 class="section-title"> 6. Software Availability</h3>
+<div id="idm140432651437888">All programming codes for extracting both the alphanumeric and waveform data are provided in <a href="#S1-hir-24-242" name="supplementary-materialLink" class="supplementary-materialClassS1">Supplementary 1</a>.</div>
+</div>
+</div>
+<div class="section" id="">
+<a id="idm140432651436400"><!-- named anchor --></a><h3 class="main-title">III. Discussion</h3>
+<div id="idm140432651435920">The update of the ECG databases includes a complete dataset in which the relevant data (ECG values, ECG waveforms, and demographic, diagnosis, medication, laboratory, and any other information related to the hospital visit) are provided for all patients covered by the database. Therefore, the database could be used as a data source in various studies including comprehensive clinical evaluation to determine the potential associations between ECG values or patterns and specific diagnoses, medications, or hospital visit characteristics.</div>
+<div id="idm140432651435072">We are currently working on collecting biosignal data from patient monitoring devices from more than 100 beds in an emergency room, intensive care units, and an operating room [<a href="#B11-hir-24-242" name="bibrLink" class="bibrClassB11">11</a>]. All biosignals including ECG lead II, peripheral capillary oxygen saturation, respiration, arterial blood pressure, central venous pressure, and end-tidal CO2 data are collected onto a local server. By constructing the ECG database from the ECG reports, we could expand coverage of the biosignal collection into general wards.</div>
+<div id="idm140432651433536">The ECG database, described in this article, is one of the largest ECG databases linked to relevant clinical data. This database has integrated all 12 lead ECG waveforms and not just only the numeric parameters of ECG, patient demographics, diagnosis data and drug prescription data. Although the full dataset cannot be made publicly available due to legal restrictions imposed by the Korean government in relation to the Personal Information Protection Act, we expect that the description of the process for constructing the database and the programming codes provided in <a href="#S1-hir-24-242" name="supplementary-materialLink" class="supplementary-materialClassS1">Supplementary 1</a> could be a good reference for other researchers to build their own ECG databases using their own local ECG repository.</div>
+</div>
+</div>
+<div id="article-back" class="back">
+<div class="back-section">
+<a id="idm140432651431312"><!-- named anchor --></a><h3 class="main-title">Acknowledgments</h3>
+<div id="idm140432651430832">This research was supported by a grant of the Korea Health Technology R&amp;D Project through the Korea Health Industry Development Institute (KHIDI), funded by the Ministry of Health &amp; Welfare, Republic of Korea (No. HI16C0982, HI17C0970, and HI6C0992).</div>
+</div>
+<div class="back-section">
+<a id="idm140432651430272"><!-- named anchor --></a><h3 class="main-title">Notes</h3>
+<div class="footnote">
+<a id="idm140432651430112"><!-- named anchor --></a><p id="idm140432651429648"><sup></sup> <b>Conflict of Interest:</b> No potential conflict of interest relevant to this article was reported.</p>
+</div>
+</div>
+<div class="section" id="supplementary-material">
+<a id="idm140432643397680"><!-- named anchor --></a><h3 class="main-title">Supplementary Materials</h3>
+<div id="idm140432643396896">Supplementary materials can be found via <a target="_blank" href="http://doi.org/10.4258/hir.2018.24.3.242" id="idm140432643396544">http://doi.org/10.4258/hir.2018.24.3.242</a>.</div>
+<div class="panel">
+<a id="S1-hir-24-242"><!-- named anchor --></a><div class="caption">
+<h4 class="subsection-title"> Supplement 1</h4>
+<div id="idm140432643394144">Software for extracting information from an ECG report in PDF format</div>
+</div>
+<a id="d35e851-hir-24-242" href="/upload/media/hir-24-242-s001.pdf">hir-24-242-s001.pdf</a>
+</div>
+</div>
+<div class="back-section">
+<a id="idm140432651428944"><!-- named anchor --></a><h3 class="main-title">References</h3>
+<div class="section ref-list">
+<a id="idm140432651428944"><!-- named anchor --></a><div class="ref-list table">
+<div id="B1-hir-24-242" name="jats-ref-pub" class="ref_layer">1. Ovreiu M, Simon D. Biogeography-based optimization of neuro-fuzzy system parameters for diagnosis of cardiac disease Proceedings of the 12th Annual Conference on Genetic and Evolutionary Computation; 2010 Jul 7–11. Portland, OR; p. 1235-1242.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="B2-hir-24-242" name="jats-ref-pub" class="ref_layer">2. Martis RJ, Acharya UR, Adeli H. Current methods in electrocardiogram characterization. Comput Biol Med 2014;48:133-149. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/24681634" target="_blank">24681634</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/24681634' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a> <br/></div>
+<div id="B3-hir-24-242" name="jats-ref-pub" class="ref_layer">3. O'Neil BJ, Hoekstra J, Pride YB, Lefebvre C, Diercks D, Frank Peacock W, et al. Incremental benefit of 80-lead electrocardiogram body surface mapping over the 12-lead electrocardiogram in the detection of acute coronary syndromes in patients without ST-elevation myocardial infarction: results from the Optimal Cardiovascular Diagnostic Evaluation Enabling Faster Treatment of Myocardial Infarction (OCCULT MI) trial. Acad Emerg Med 2010;17(9):932-939. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20836773" target="_blank">20836773</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/20836773' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a> <br/></div>
+<div id="B4-hir-24-242" name="jats-ref-pub" class="ref_layer">4. Laguna P, Jane R, Caminal P. Automatic detection of wave boundaries in multilead ECG signals: validation with the CSE database. Comput Biomed Res 1994;27(1):45-60. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/8004942" target="_blank">8004942</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/8004942' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a> <br/></div>
+<div id="B5-hir-24-242" name="jats-ref-pub" class="ref_layer">5. Lynch DR Jr, Washam JB, Newby LK. QT interval prolongation and torsades de pointes in a patient undergoing treatment with vorinostat: a case report and review of the literature. Cardiol J 2012;19(4):434-438. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22825908" target="_blank">22825908</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/22825908' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a> <br/></div>
+<div id="B6-hir-24-242" name="jats-ref-pub" class="ref_layer">6. Li XB, Tang YL, Zheng W, Wang CY, de Leon J. QT interval prolongation associated with intramuscular ziprasidone in Chinese patients: a case report and a comprehensive literature review with meta-analysis. Case Rep Psychiatry 2014;2014:489493. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/25530900" target="_blank">25530900</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/25530900' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pmc/articles/4235192' target='_blank'><img src='/image/icon/bnr_ref_PMC.gif' alt='pmc' border='0'/></a> <br/></div>
+<div id="B7-hir-24-242" name="jats-ref-pub" class="ref_layer">7. Tarapues M, Cereza G, Arellano AL, Montane E, Figueras A. Serious QT interval prolongation with ranolazine and amiodarone. Int J Cardiol 2014;172(1):e60-e61. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/24424337" target="_blank">24424337</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/24424337' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a> <br/></div>
+<div id="B8-hir-24-242" name="jats-ref-pub" class="ref_layer">8. Park MY, Yoon D, Choi NK, Lee J, Lee K, Lim HS, et al. Construction of an open-access QT database for detecting the proarrhythmia potential of marketed drugs: ECG-ViEW. Clin Pharmacol Ther 2012;92(3):393-396. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22828716" target="_blank">22828716</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/22828716' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a> <br/></div>
+<div id="B9-hir-24-242" name="jats-ref-pub" class="ref_layer">9. Kim YG, Shin D, Park MY, Lee S, Jeon MS, Yoon D, et al. ECG-ViEW II, a freely accessible electrocardiogram database. PLoS One 2017;12(4):e0176222. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28437484" target="_blank">28437484</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/28437484' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pmc/articles/5402933' target='_blank'><img src='/image/icon/bnr_ref_PMC.gif' alt='pmc' border='0'/></a> <br/></div>
+<div id="B10-hir-24-242" name="jats-ref-pub" class="ref_layer">10. Ortigosa N, Gimenez VM. Raw data extraction from electrocardiograms with Portable Document Format. Comput Methods Programs Biomed 2014;113(1):284-289. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/24210168" target="_blank">24210168</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/24210168' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a> <br/></div>
+<div id="B11-hir-24-242" name="jats-ref-pub" class="ref_layer">11. Yoon D, Lee S, Kim TY, Ko J, Chung WY, Park RW. System for collecting biosignal data from multiple patient monitoring systems. Healthc Inform Res 2017;23(4):333-337. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/29181244" target="_blank">29181244</a>.<br/> <a href='https://doi.org/p_doi' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pubmed/29181244' target='_blank'><img src='/image/icon/bnr_ref_pmid.gif' alt='pmid' border='0'/></a>  <a href='http://www.ncbi.nlm.nih.gov/pmc/articles/5688034' target='_blank'><img src='/image/icon/bnr_ref_PMC.gif' alt='pmc' border='0'/></a> <br/></div>
+</div>
+</div>
+</div>
+</div>
+<div id="article-floats" class="back">
+<div class="fig panel" style="display: float; clear: both; width: 690px; overflow: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Figure 1</h5>
+<a id="F1-hir-24-242"><!-- named anchor --></a><div class="caption"><h3 class="title">Example of an electrocardiogram (ECG) report. Alphanumeric values (demographic information, ECG parameter values, and interpretation) are located in the upper part of the report. Waveform data are given as time-series graphs with a grid, covering the middle and lower part of the report. One grid unit (1 mm × 1 mm square) corresponds to 0.1 mV × 0.04 seconds.</h3></div>
+<img alt="hir-24-242-g001.jpg" width="200" src="/upload//thumbnails/hir-24-242-g001.jpg">
+</div>
+<div class="fig panel" style="display: float; clear: both; width: 690px; overflow: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Figure 2</h5>
+<a id="F2-hir-24-242"><!-- named anchor --></a><div class="caption"><h3 class="title">Data transformation process for the waveform data. (A) Raw data in SVG format contains information regarding the exact position of the data point on the electrocardiogram. (B) The start point of all 12-lead waveforms was set to 0. (C) Because 1 mV in the raw data corresponds to y-axis values of 28, we divided all y-axis values by 28 to adjust the scale of the y-axis to mV. (D) Using linear interpolation (500 Hz), vector image data given as x- and y-coordinates were converted into equidistant time series data. Although the resulting waveform data consist of a series of values without timestamps, the timestamps could be calculated by counting the data points from the starting point because the starting point was provided in the file name or database, and one data point corresponds to 1/500 seconds.</h3></div>
+<img alt="hir-24-242-g002.jpg" width="200" src="/upload//thumbnails/hir-24-242-g002.jpg">
+</div>
+<div class="fig panel" style="display: float; clear: both; width: 690px; overflow: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Figure 3</h5>
+<a id="F3-hir-24-242"><!-- named anchor --></a><div class="caption"><h3 class="title">Comparison between the raw waveform and converted waveform data. Due to high-density interpolation, there was no significant difference between the raw data (which are based on x- and y-coordinates) and time series data.</h3></div>
+<img alt="hir-24-242-g003.jpg" width="200" src="/upload//thumbnails/hir-24-242-g003.jpg">
+</div>
+<div class="table-wrap panel" style="display: float; clear: both; width: 690px; overflow: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Table 1</h5>
+<a id="T1-hir-24-242"><!-- named anchor --></a><div class="caption"><h3 class="title">Summary of demographic and ECG data covered by ECG-ViEW III (n = 447,445)</h3></div>
+<img alt="hir-24-242-i001.jpg" width="200" src="/upload//thumbnails/hir-24-242-i001.jpg"><div class="table-wrap-foot">
+<a id=""></a><div class="footnote">
+<a id="idm140432643380720"><!-- named anchor --></a><p id="idm140432643380560"><sup><span class="generated"></span></sup> Values are presented as mean ± standard deviation or number (%).</p>
+<p id="idm140432643380192">ECG: electrocardiogram; ECG-ViEW: Electrocardiogram Vigilance with Electronic data Warehouse.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+<div id="inThisPage" style="padding-top:0px;padding-left:0px;display:none;"></div></div><script type="text/javascript">
+
+
+<!--
+function _ajax(url, data, func, sync, type) {
+	var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+	xmlhttp.onreadystatechange = function() {
+		if (xmlhttp.readyState == 4) func(xmlhttp.responseText, xmlhttp.status == 200);
+	};
+	xmlhttp.open(type ? type : 'POST', url, !sync ? true : false);
+	xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+	xmlhttp.send(data);
+}
+var jColor = "#253E8E";
+$(function () {
+	abs_flag = true;
+	if($("#__abstract").html()) {
+		$("#inThisPage").append("<div style='border-bottom:1px dotted silver;padding:5px 0px;'><a class='anchor' href='#__abstract' style='text-decoration:none;'>Abstract</a></div>");
+		abs_flag = false;
+	}
+	var len = $(".main-title").size();
+	for(var i  = 0; i < len; i++) {
+		if($(".main-title").eq(i).html()) {
+			$(".main-title").eq(i).attr("id", "__sec"+i+"title");
+			if(i == len-1) {
+				$("#inThisPage").append("<div style='padding:5px 0px;'><a href='#__sec"+i+"title' style='text-decoration:none;'>"+$(".main-title").eq(i).html()+"</a></div>");
+			} else {
+				$("#inThisPage").append("<div style='border-bottom:1px dotted silver;padding:5px 0px;'><a class='anchor' href='#__sec"+i+"title' style='text-decoration:none;'>"+$(".main-title").eq(i).html()+"</a></div>");
+			}
+		}
+	}
+
+	// insert goto buttons
+	{ 
+		var html = "<div onclick='openITP(this, false);' style='color:"+jColor+";position:absolute;text-align:right;top:0;right:0;cursor:pointer;'>Go to : <img src='/image/button/goto.gif' alt='Goto' title='Goto' border='0' align='bottom' style='vertical-align:middle;margin-bottom:3px;'/><div class='ITPArrow' style=\"display:none;width:0;height:0;border:5px solid transparent;border-top-color:"+jColor+";border-bottom-color:"+jColor+";border-bottom-width:0;\"></div></div>";
+
+		var sc = $(".abstract-layer");
+		sc.css('position','relative');
+		sc.append(html);
+		
+		var size1 = $(".body > .section").size();
+		for(var i = 0; i < size1; i++) {
+			var sc = $(".body > .section").eq(i);
+			if($(".body > .section:eq("+i+") .main-title").html()) {
+				sc.css('position','relative');
+				sc.append(html);
+			}
+		}
+		var size2 = $(".back > .back-section").size();
+		for(var i = 0; i < size2; i++) {
+			var sc = $(".back > .back-section").eq(i);
+			sc.css('position','relative');
+			sc.append(html);
+		}
+	}
+	_ajax("/cited/getCitedBy.php", "doi=10.4258/hir.2018.24.3.242", function(s,f) {
+		if(!s.indexOf('OK')) {
+			s = s.split(':');
+			if(s[1] > 0) {
+				$("#cited_wrap").css("display","block");
+				$(".CitedNum a").eq(0).html(s[1]);
+			}
+		}
+	});
+});
+
+
+
+$("#body").click(function() {if(new_node_obj)openITP(null, true);});
+var new_node = null, new_node_see = false, new_node_obj = null;
+function openITP(o, f) {
+	if(new_node_see || f) {
+		new_node_see = false;
+		$(".newITP").css("display","none");
+		$(".ITPArrow").css("border-bottom-width", "0");
+		$(".ITPArrow").css("border-top-width", "5px");
+		if(new_node_obj != o && !f) openITP(o, false);
+	} else {
+		event.cancelBubble = true;       //for IE
+		if(event.stopPropagation) event.stopPropagation();
+		new_node_obj = o;
+		if(!new_node) {
+			new_node = inThisPage.cloneNode(true);
+			o.appendChild(new_node);
+			new_node.className='newITP';
+			$(".newITP").css("position","absolute");
+			$(".newITP").css("background","#fff");
+			$(".newITP").css("border-radius","7px");
+			$(".newITP").css("border","2px solid");
+			$(".newITP").css("padding","5px");
+			$(".newITP").css("text-align","left");
+			$(".newITP").css("white-space",""); // Box size 자동 제거 "nowrap"
+			$(".newITP").css("z-index","999");
+			$(".newITP").css("right","0");
+		}
+		$(".newITP").css("display","block");
+		$(".ITPArrow").css("border-bottom-width", "0");
+		$(".ITPArrow").css("border-top-width", "5px");
+		o.appendChild(new_node);
+		$(".newITP").prev().css("border-bottom-width", "5px");
+		$(".newITP").prev().css("border-top-width", "0");
+		new_node_see = true;
+	}
+}
+// Array에 inArray 메서드 추가
+Array.prototype.inArray = function(obj) {
+	if(this==null) return false;
+	for (var i = 0, length = this.length; i < length; i++)
+		if (this[i] == obj) return true;
+	return false;
+};
+Array.prototype.indexOf = function(obj) {
+	if(this==null) return -1;
+    for (var i = 0, length = this.length; i < length; i++)
+        if (this[i] == obj) return i;
+    return -1;
+};
+
+// 팝업 레이어 관리
+	function getPopupLayer() {
+		var POPUP = {
+			lr : null,
+			ot : 0,
+			ol : 0,
+			show : function () {
+				if(this.lr) return this. lr;
+				var w;
+				w = document.getElementById("article-body").appendChild(document.createElement("div"));
+				ot = document.getElementById("article-body").offsetTop;
+				ol = document.getElementById("article-body").offsetLeft;
+				this. lr = w;
+				with(w.style) {
+					background = "#ffffff";
+					position = "absolute";
+					cursor = "pointer";
+					borderColor = "#1381ce";
+					padding = "10px";
+					margin = "0px";
+					border = "2px solid #d0d0d0";
+					clear = "both";
+					zIndex = "99";
+				};
+				return w;
+			},
+			hide : function () {
+				if(!this.lr) return;
+				this.lr.parentNode.removeChild(this.lr);
+				this.lr = null;
+			},
+			resize : function (w, h) {
+				if(!this.lr) return;
+				this.lr.style.width = w==0?"":(w+"px");
+				this.lr.style.height = h==0?"":(h+"px");
+			},
+			moveTo : function (x, y) {
+				if(!this.lr) return;
+				this.lr.style.left = x-2+"px";
+				this.lr.style.top = y-14+"px";
+			},
+			setHTML : function (html) {
+				if(!this.lr) return;
+				this.lr.innerHTML = html;
+			}
+		};
+		return POPUP;
+	}
+
+	var popup = new getPopupLayer();
+
+// 레퍼런스 마우스오버 이벤트 추가
+	var bibrLink = document.getElementsByName("bibrLink");
+	var rLen = bibrLink.length;
+	for(var i = 0; i < rLen; i++) {
+		bibrLink[i].onmouseover = function() {
+			var referId = this.getAttribute("href").split("#")[1];
+			var referElement = document.getElementById(referId);/*.parentNode;
+			var referText = referElement.firstChild.textContent + ". ";
+			referElement = referElement.parentNode;
+			while(referElement = referElement.nextSibling) if(referElement.nodeName=="DIV") break;*/
+			referText = referElement.textContent;
+			var ll = popup.show();
+			ll.onmouseout = function () {
+				popup.hide();
+			};
+			popup.resize(400, 0);
+			var bd = document.body.firstChild;
+			do {
+				if(bd.nodeName=="DIV") {
+					bd = bd.offsetLeft;
+					break;
+				}
+			} while(bd = bd.nextSibling) 
+			var scrollLeft = document.documentElement.scrollLeft | document.body.scrollLeft;
+			var scrollTop = document.documentElement.scrollTop | document.body.scrollTop;
+			popup.moveTo(this.getBoundingClientRect().left+scrollLeft-10, this.getBoundingClientRect().top+scrollTop);
+			
+			popup.setHTML(referText);
+
+			ll.setAttribute("title", referId); 
+			
+			ll.onclick = function () {
+				//location.href = "#"+this.title;
+
+				event.preventDefault();
+				var target = $("#"+this.title);
+				var header_height = $('.headerWrap').height()+20;
+				var offset_top = target.offset().top - header_height; 
+
+				$('html, body').animate({scrollTop: offset_top}, 1);
+
+			};
+		};
+	}
+
+	window.name = "1034_940";
+
+	// 피겨를 문단 사이에 끼워넣기
+	var figureArr = new Array();
+	var figLink = document.getElementsByName("figLink");
+	var fLen = figLink.length;
+
+	for(var i = 0; i < fLen; i++) {
+		var clsName = figLink[i].className;
+		if(!figureArr.inArray(clsName)) {
+			try {
+				var fig_ck = figLink[i];
+				var ck_limit =0;
+				while($(fig_ck).attr("class") != "body"){
+					if($(fig_ck).attr("class") == "fig panel"){
+						break;
+					}
+					fig_ck = fig_ck.parentNode;
+
+					if(ck_limit == 100) break;
+					ck_limit++;
+				}
+				if($(fig_ck).attr("class") != "fig panel"){
+					figureArr.push(clsName);
+					var figureId = figLink[i].getAttribute("href").split("#")[1];
+					var figureElement = document.getElementById(figureId).parentNode;
+					figLink[i].parentNode.appendChild(figureElement);
+					var dLink = document.createElement("P");
+					dLink.setAttribute("align", "right");
+					dLink.innerHTML = "<a href=\"./Figure.php?xn=hir-24-242.xml&id="+figureId+"&mode=export\"><img src=\"/image/icon/down_figure.gif\" align=\"bottom\" alt=\"Download Figure\" title=\"Download Figure\" border=\"0\"/></a>";
+					figureElement.appendChild(dLink);
+				}
+			} catch (e) { }
+		}
+	}
+
+// 테이블을 문단 사이에 끼워넣기
+	var tableArr = new Array();
+	var tableLink = document.getElementsByName("tableLink");
+	var tLen = tableLink.length;
+	for(var i = 0; i < tLen; i++) {
+		var clsName = tableLink[i].className;
+		if(!tableArr.inArray(clsName)) {
+			try {
+			tableArr.push(clsName);
+			var tableId = tableLink[i].getAttribute("href").split("#")[1];
+			if(/^t[0-9]+a/.test(tableId)) continue;
+			var tableElement = document.getElementById(tableId).parentNode;
+			if(tableElement.getElementsByTagName('TABLE')[0]) {
+				tableElement.getElementsByTagName('TABLE')[0].onclick = function () {
+					var chd = this.parentNode.firstChild;
+					while(!chd.id) {
+						chd = chd.nextSibling;
+					}
+					var tid = chd.id;
+					window.open("/journal/Table.php?xn=hir-24-242.xml&id="+tid+"&number=940&p_name="+window.name, "tableView", "width=1000,height=700,scrollbars=yes");
+				};
+				var dLink = document.createElement("P");
+				dLink.setAttribute("align", "right");
+				dLink.innerHTML = "<a href=\"./Table.php?xn=hir-24-242.xml&id="+tableId+"&mode=export\"><img style=\"margin-top: 15px;\" src=\"/image/icon/down_table.gif\" border=\"0\" alt=\"Download Table\" title=\"Download Table\"></a>";
+				tableElement.appendChild(dLink);
+
+			} else if(tableElement.getElementsByTagName('IMG')[0]) {
+				tableElement.getElementsByTagName('IMG')[0].onclick = function () {
+					var chd = this.parentNode.firstChild;
+					while(!chd.id) {
+						chd = chd.nextSibling;
+					}
+					var tid = chd.id;
+					window.open("/journal/Table.php?xn=hir-24-242.xml&id="+tid+"&number=940&p_name="+window.name, "tableView", "width=800,height=600,scrollbars=yes");
+				};
+				var dLink = document.createElement("P");
+				dLink.setAttribute("align", "right");
+				dLink.innerHTML = "<a href=\"./Table.php?xn=hir-24-242.xml&id="+tableId+"&mode=export\"><img style=\"margin-top: 15px;\" src=\"/image/icon/down_table.gif\" border=\"0\" alt=\"Download Table\" title=\"Download Table\"></a>";
+				tableElement.appendChild(dLink);
+
+			} else {
+				tableElement.onclick = function () {
+					var chd = this.firstChild;
+					while(!chd.id) {
+						chd = chd.nextSibling;
+					}
+					var tid = chd.id;
+					window.open("/journal/Table.php?xn=hir-24-242.xml&id="+tid+"&number=940&p_name="+window.name, "tableView", "width=1000,height=700,scrollbars=yes");
+				};
+			}
+
+			//논문 서브 타이틀에 링크가 있을 경우 테이블이 H3 태그 안으로 들어가서 상위 노드로 이전시킴. 2016-12-28 문찬범
+				if(tableLink[i].parentNode.nodeName == "H3") {
+					tableLink[i].parentNode.parentNode.appendChild(tableElement);
+				} else {
+					tableLink[i].parentNode.appendChild(tableElement);
+				}
+			
+			} catch (e) { }
+		}
+	}
+
+	$("#supplementary-material .table-wrap > a[id^=t]").each(function(index) {
+		var tid = $(this).attr("id");
+		$(this).parent().append("<p align=\"right\"><a href=\"./Table.php?xn=hir-24-242.xml&id="+tid+"&mode=export\"><img src=\"/image/icon/down_table.gif\" border=\"0\" alt=\"Download Table\" title=\"Download Table\"></a></p>");
+	});
+
+
+	
+	function layoutFix() {
+		/*$(".artCat").html(" : "+$(".artCat").html());*/
+		
+		var div = document.getElementsByTagName("DIV");
+		for(var i = 0; i < div.length; i++)
+		if(div[i].className == "ref_layer") {
+			if(/^[^0-9]/.test(div[i].textContent)) {
+				div[i].style.padding = "0px 0px 0px 30px";
+				div[i].style.textIndent = "-30px";
+			}
+		} else if(div[i].className == "fig panel") {
+			var aid, img, h5, cap, dp;
+			var fc = div[i].firstChild;
+			do {
+				if(fc.nodeName == "A") aid = fc.outerHTML;
+				if(fc.nodeName == "IMG") img = fc.outerHTML;
+				if(fc.nodeName == "H5") h5 = fc.outerHTML;
+				if(fc.nodeName == "P") dp = fc.outerHTML;
+				if(fc.nodeName == "DIV" && fc.className == "caption") cap = fc.outerHTML;
+			}while(fc = fc.nextSibling);
+			var nHTML;
+			if(!h5 && !cap) {
+				nHTML = aid+"<CENTER>"+img+"</CENTER>";
+			} else {
+				nHTML = aid+"<TABLE><TR><TD width='30%'>"+img+"</TD><TD valign='top' style='padding-left:10px;'>"+h5+cap+dp+"</TD></TR></TABLE>";
+			}
+			div[i].innerHTML = nHTML;
+			div[i].getElementsByTagName('IMG')[0].onclick = function () {
+				var chd = this.parentNode;
+				while(chd.className != "fig panel") chd = chd.parentNode;
+				chd = chd.firstChild;
+				while(!chd.id) {
+					chd = chd.nextSibling;
+				}
+				var fid = chd.id;
+				window.open("/journal/Figure.php?xn=hir-24-242.xml&id="+fid+"&number=940&p_name="+window.name, "figureView","width=1000,height=1000,scrollbars=yes");
+			};
+		}
+		
+		$(".panel").css("margin-bottom","25px");
+		$("a[href^='#']").click(function(event) {
+			event.preventDefault();
+			var target = $(this.hash);
+			var header_height = $('.headerWrap').height()+20;
+			var offset_top = target.offset().top - header_height; 
+
+			$('html, body').animate({scrollTop: offset_top}, 1);
+		});
+
+	}
+	var ll = $("a[target='xrefwindow']");
+	for(var i = 0; i < ll.size(); i++) {
+		ll.eq(i).attr("href",ll.eq(i).attr("href"));
+		//if(ll.eq(i).attr("href").indexOf("http://"))
+			//ll.eq(i).attr("href","http://"+ll.eq(i).attr("href"));
+	}
+	setTimeout("layoutFix()", 1);
+	
+$(document).ready(function(){
+	$("#slide_button").click(function(){
+		if($("#summary_view").css("display") == "none") {
+			$("#slide_button").attr("src", "/image/button/slide_on_btn.png");
+			$("#summary_view").css("display", "block");
+		} else {
+			$("#slide_button").attr("src", "/image/button/slide_off_btn.png");
+			$("#summary_view").css("display", "none");
+		}
+	});
+	
+	var shiftWindow = function() { scrollBy(0, -180) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+	
+});
+
+	//var shiftWindow = function() { scrollBy(0, -180) };
+    //window.addEventListener("hashchange", shiftWindow);
+    //function load() { if (window.location.hash) shiftWindow(); }
+	
+//-->
+
+
+
+/*$(document).ready(function(){
+
+$(".hr").parentsUntil('tr').unwrap();
+$(".hr").unwrap();
+});*/
+
+</script></div>
+		<!-- xml 로딩 영역 -->
+	<!-- 본문영역 종료 -->
+	<div class="aside viewArea">
+
+			<dl class="tool">
+				<dt>TOOLS</dt>
+				<dd>
+					<ul>
+						
+<li><a style='cursor: pointer;' onclick='journal_download("pdf", "940", "hir-24-242.pdf")'><img src="/image/aside/icon_pdf.gif" alt="PDF Links" border="0"/> PDF Links</a></li><li><a href="view.php?viewtype=pubreader&number=940"><img src="/image/icon/pubreader.gif" alt="PubReader" border="0"/> PubReader</a></li><li><a href="/journal/scholar_xmls.php?doi=10.4258/hir.2018.24.3.242"><img src="/image/icon/icon_xml.gif" alt="XML Download" border="0"/>XML Download</a></li>						<li>
+<a href="https://doi.org/10.4258/hir.2018.24.3.242"><img src="/image/aside/icon_doi.gif" alt="Full text via DOI" border="0"/> Full text via DOI</a>					
+		</li>
+<li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/6085199" target="_blank"><img src="/image/aside/icon_pmc.gif" alt="Full text via PMC" border="0"/> Full text via PMC</li>						<!-- summary -->
+							
+						<li>
+							<a onclick="window.open('/journal/CitationForm.php?number=940','CitationDownload','width=720,height=600,scrollbars=yes')" style="cursor:pointer"><img src="/image/aside/icon_citation.gif" alt="Download Citation" border=0> Download Citation</a>
+						</li>						
+				
+						<li><a href="/upload/media/hir-24-242-s001.pdf" target="_blank"><img src="/image/icon/material.gif" alt="Supplement" border="0" class="vertical_middle"/> Supplement</a></li>
+					</ul>
+
+
+					<dl>
+						<dt>Share :</dt>
+						<dd>
+							<a href="http://www.facebook.com/sharer.php?u=%0Dhttp%3A%2F%2Fe-hir.org%2Fjournal%2Fview.php%3Fid%3D10.4258%2Fhir.2018.24.3.242&t=Construction of an Electrocardiogram Database Including 12 Lead Waveforms" onclick="window.open(this.href, 'Facebook', 'width=800,height=500,scrollbars=yes');return false;"><img src="/image/aside/icon_facebook.png" alt="Facebook" /></a>
+							<a href="http://twitter.com/home?status=Construction+of+an+Electrocardiogram+Database+Including+12+Lead+Waveforms%0Dhttp%3A%2F%2Fe-hir.org%2Fjournal%2Fview.php%3Fid%3D10.4258%2Fhir.2018.24.3.242" onclick="window.open(this.href, 'Twitter', 'width=750,height=500,scrollbars=yes');return false;"><img src="/image/aside/icon_twitter.png" alt="Twitter" /></a>
+							<a href="https://www.linkedin.com/shareArticle?mini=true&url=http://e-hir.org/journal/view.php?id=10.4258/hir.2018.24.3.242&title=Construction+of+an+Electrocardiogram+Database+Including+12+Lead+Waveforms" onclick="window.open(this.href, 'LinkedIn', 'width=750,height=500,scrollbars=yes');return false;"><img src="/image/aside/icon_linkedin.png" alt="Linked In" /></a>
+							<a href="https://plus.google.com/share?url=http://e-hir.org/journal/view.php?id=10.4258/hir.2018.24.3.242&t=Construction+of+an+Electrocardiogram+Database+Including+12+Lead+Waveforms" onclick="window.open(this.href, 'Google', 'width=750,height=500,scrollbars=yes');return false;"><img src="/image/aside/icon_google_plus.png" alt="Google+" /></a>
+							<a href="http://line.me/R/msg/text/?Construction+of+an+Electrocardiogram+Database+Including+12+Lead+Waveforms http://e-hir.org/journal/view.php?id=10.4258/hir.2018.24.3.242" onclick="window.open(this.href, 'Google', 'width=750,height=500,scrollbars=yes');return false;"><img src="/image/aside/icon_line_share-b.png" alt="Line it" /></a>
+		
+							<!--
+															<a href="#" onclick="alert('KakaoTalk is only accessible from mobile.');" style="padding-top:10px;"> 
+									<img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/>
+								</a>
+								<a href="javascript:shareStory2();" style="padding-top:10px;">
+									<img src="https://developers.kakao.com/sdk/js/resources/story/icon_small.png"/>
+								</a>
+							
+														-->
+
+						</dd>
+					</dl>
+				</dd>
+			</dl>
+
+			<dl class="metrics">
+				<dt>
+					METRICS
+					<a href="/metrics/metrics_down_ref.php?number=940" onclick="window.open(this.href, 'Metrics View', 'width=720, height=800,scrollbars=yes');return false;" style="cursor:pointer;"><img src="/image/aside/btn_graphView.png" alt="Graph View" /></a>
+				</dt>
+				<dd>
+					<ul>
+						
+						
+						<li style='width:100%;'>
+							<span class="count">
+							<a class='viewPoint' href="https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=m2pi2024&SrcAuth=WosAPI&KeyUT=WOS:000441189500010&DestLinkType=CitingArticles&DestApp=WOS" target='_blank'>11</a>							</span>
+							<span>Web of Science</span>
+						</li>
+
+						
+						<li>
+							<span class="count">
+							<a class='viewPoint' href="/journal/CitedBy.php?number=940" onclick="window.open(this.href, 'CrossRef Citedby', 'width=720,height=800,scrollbars=yes');return false;">11</a>							</span>
+							<span>Crossref</span>
+						</li>
+						<li class="border">
+							<span class="count">
+							
+							<a class='viewPoint' href="http://www.scopus.com/inward/citedby.url?partnerID=HzOxMe3b&scp=85052753500" target="_blank" title="More information">16</a>							
+							&#160;</span>
+							
+							<span>Scopus</span>
+							
+						</li>
+												<li>
+							<span class="count">13,664</span>
+							<span>View</span>
+						</li>
+						<li class="border">
+							<span class="count">
+							122							</span>
+							<span>Download</span>
+						</li>
+											 <li style="width:100%;text-align:center;">
+												</li>
+										</ul>
+				</dd>
+
+
+					<dt>
+						Related articles in <i>Healthc Inform Res</i>
+					</dt>
+					<dd>
+										</dd>
+				
+			</dl>
+
+		</div>	
+		</div>
+<hr/>
+<hr />
+	
+	<div class="siteMap">
+		<dl class="last" style='width:230px'>
+			<dt><a href="/about/" title="ABOUT">ABOUT</a></dt>
+			<dd>
+				<dl>
+					<dd>
+						<ul>
+							<li><a href="/about/index.php" title="Aims and scope">Aims and scope</a></li>
+<li><a href="/about/about.php" title="About the journal">About the journal</a></li>
+<li><a href="/about/editorial.php" title="Editorial board">Editorial board</a></li>
+<li><a href="/about/management_policy.php" title="Management policy">Management policy</a></li>
+<li><a href="/about/best_practice.php" title="Best practice">Best practice</a></li>
+<li><a href="/about/open_access.php" title="Open access">Open access</a></li>
+<li><a href="/about/contact.php" title="Contact us">Contact us</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</dd>
+		</dl>
+		<dl style='width:255px'>
+			<dt><a href="/articles/category.php" title="ARTICLES">ARTICLE CATEGORY</a></dt>
+			<dd>
+				<ul>
+				<li><a href="/articles/category.php?article_category=Editorial" title="Editorial">Editorial</a></li>
+<li><a href="/articles/category.php?article_category=Review article" title="Review article">Review article</a></li>
+<li><a href="/articles/category.php?article_category=Original article" title="Original article">Original article</a></li>
+<li><a href="/articles/category.php?article_category=Case report" title="Case report">Case report</a></li>
+<li><a href="/articles/category.php?article_category=Tutorial" title="Tutorial">Tutorial</a></li>
+<li><a href="/articles/category.php?article_category=Communication" title="Communication">Communication</a></li>
+<li><a href="/articles/category.php?article_category=Others" title="Others">Others</a></li>
+				</ul>
+				<p><a href="/articles/category.php" title="Browse all articles">Browse all articles &gt;</a></p>
+				
+			</dd>
+		</dl>
+		
+		<dl style='width:255px'>
+			<dt><a href="/articles/archive.php" title="ISSUES">BROWSE ARTICLES</a></dt>
+			<dd>
+				<ul>
+				<li><a href="/current/" title="Current issue">Current issue</a></li>
+<li><a href="/articles/archive.php" title="All issues">All issues</a></li>
+<li><a href="/articles/mostread.php" title="Most view">Most view</a></li>
+<li><a href="/articles/mostdownload.php" title="Most download">Most download</a></li>
+<li><a href="/articles/mostcited.php" title="Most cited">Most cited</a></li>
+<li><a href="/articles/funded.php" title="Funded articles">Funded articles</a></li>
+<li><a href="/articles/search.php" title="Search">Search</a></li>
+<li><a href="/articles/author_index.php" title="Author index">Author index</a></li>
+				</ul>
+			</dd>
+		</dl>
+
+		<dl style='width:220px'>
+			<dt><a href="/authors/authors.php" title="FOR CONTRIBUTORS">FOR CONTRIBUTORS</a></dt>
+			<dd>
+				<ul>
+				<li><a href="/authors/authors.php" title="Instructions for authors">Instructions for authors</a></li>
+<li><a href="/authors/ethics.php" title="Code of ethics">Code of ethics</a></li>
+<li><a href="/authors/checklist.php" title="Checklist for submission">Checklist for submission</a></li>
+<li><a href="https://www.editorialmanager.com/hir/default.aspx" title="E-submission">E-submission</a></li>
+<li><a href="/authors/reviewers.php" title="Guideline for peer review process">Guideline for peer review process</a></li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+	
+	<div class="footerWrap">
+		<div>
+			<dl>
+				<dt>Editorial Office</dt>
+				<dd>
+					608, 6th floor, Twin City Namsan Office Building, 366 Hangang-daero, Yongsan-gu, Seoul, 04323, Korea<br/>
+					Tel: +82-2-733-7637, +82-2-734-7637&nbsp;&nbsp;&nbsp;&nbsp;<!--Fax: +82-&nbsp;&nbsp;&nbsp;&nbsp;-->E-mail: <a href="mailto:hir@kosmi.org" style="color:#ffffff;">hir@kosmi.org</a> 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					
+					<script>
+						document.addEventListener('DOMContentLoaded', function() {
+							document.getElementById('view_mobile_site').addEventListener('click', function(event) {
+								event.preventDefault();
+								var url = '/journal/view.php?id=10.4258/hir.2018.24.3.242';
+								document.cookie = "mobileView=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+								window.location.href = url;
+							});
+						});
+					</script>
+				</dd>
+			</dl>
+			
+			<p>Copyright &copy; <a href="http://www.kosmi.org" target='_blank'>2026 by Korean Society of Medical Informatics.</a>  </p>
+			<p class="posTR"><a href="http://publishing.m2comm.kr/" target="_blank"><img src="/image/developed_m2.png" alt="Developed in M2community" /></a></p>
+		</div>
+	</div>
+	<!-- //footerWrap -->
+
+
+</div>
+<!-- //wrapper -->
+<style>
+	#overlay { display: none; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 999; }
+	#overlay #overlay_close { margin:25px auto 0px auto; height: 20px; text-align: right; }
+	#overlay #main_image_wrap { margin:25px auto 25px auto; height: 448px; text-align: center; }
+</style>
+<div id="overlay">
+	<div style="width:900px; background-color: rgba(208,208,208,0.85); border: 1px solid #a0a0a0; padding-bottom: 25px; margin: auto;">
+	<div id="overlay_close"><img src="/image/b_close.png" alt="Close layer" onclick="closePhotoView(); return false;" style="cursor:pointer;margin-right:25px;" /></div>
+	<div id="main_image_wrap"><table style="margin: auto;"><tr>
+	<td onclick="mImage_sliding('prev')" valign="middle" style="cursor: pointer;"><img src="/image/b_prev.png" alt="prev" border="0" /></td>
+	<td valign="middle" style="width: 800px;height:448px;"><img id="main_image" src="" width="800" height="448" /></td>
+	<td onclick="mImage_sliding('next')" valign="middle" style="cursor: pointer;"><img src="/image/b_next.png" alt="next" border="0" /></td>
+	</tr></table></div>
+	</div>
+</div>
+<script>
+
+/* Image Slide */
+	var thumb_array = new Array();
+	var thumb_index = 0;
+
+// 	$(window).scroll(function () {
+// 		var y = $(this).scrollTop();
+// 		$("#overlay").css("margin-top", y+100);
+// 	});
+	
+	function mImage_sliding(dir) {
+		 if(dir == 'next') {
+			 thumb_index++;
+			 if(thumb_index >= thumb_array.length) {
+				 thumb_index--;
+				 return false;
+			 }
+		 } else {
+			 thumb_index--;
+			 if(thumb_index < 0) {
+				 thumb_index++;
+				 return false;
+			 }
+		 }
+		 changeMainImage(thumb_array[thumb_index]);
+	}
+	
+	function openPhotoView(obj) {
+		var y = $(this).scrollTop();
+		$("#overlay").css("margin-top", y+100);
+		$("#overlay").show();
+		thumb_array = new Array();
+		$(obj).parent().parent().find('img.thumb').each(function (index) {
+			thumb_array.push($(this).attr("src"));
+			if($(obj).attr("src") == $(this).attr("src")) {
+				thumb_index = index;
+				changeMainImage($(this).attr("src"));
+			}
+		});
+	}
+	
+	function openPhotoView2() {
+		var y = $(this).scrollTop();
+		$("#overlay").css("margin-top", y+100);
+		$("#overlay").show();
+		thumb_array = new Array();
+		
+		var src_data = $("#ss_516").html();
+		
+		console.log(src_data);
+	}
+	/*
+	function openPhotoView2() {
+		var y = $(this).scrollTop();
+		$("#overlay").css("margin-top", y+100);
+		$("#overlay").show();
+		thumb_array = new Array();
+		$("#ss_516").find('img.thumb').each(function (index) {
+			if(index != 0) {
+				thumb_array.push($("#ss_516").attr("src"));
+				if($("#ss_516").attr("src") == $(this).attr("src")) {
+					thumb_index = index;
+					changeMainImage($(this).attr("src"));
+				}
+			} 
+		});
+		
+		console.log(thumb_array);
+	}
+	*/
+
+	function closePhotoView() {
+		$('#overlay').hide();
+		thumb_array = new Array();
+	}
+
+	function changeMainImage(src) {
+		$("<img />").attr("src", src).load(function() {
+			var ratio = 800 / this.width;
+			var width = this.width * ratio;
+			var height = this.height * ratio;
+			if(height > 448) {
+				ratio = 448 / this.height;
+				width = this.width * ratio;
+				height = this.height * ratio;
+			}
+			$("#overlay #main_image_wrap #main_image").attr('src', this.src);
+			$("#overlay #main_image_wrap #main_image").attr('width', width);
+			$("#overlay #main_image_wrap #main_image").attr('height', height);
+		});
+	}
+/* Image Slide End */
+</script>
+</body>
+</html>

@@ -1,0 +1,2736 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3EAuthor Manuscript%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Can following formula-feeding recommendations still result in infants who are overweight or have obesity? - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB76B9D4591B30BB76B003BF1BF07.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="nihpa">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="manuscript">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492437/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Pediatric research">
+<meta name="citation_title" content="Can following formula-feeding recommendations still result in infants who are overweight or have obesity?">
+<meta name="citation_author" content="Marie C Ferguson">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Kelly J O’Shea">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Lawrence D Hammer">
+<meta name="citation_author_institution" content="Department of Pediatrics, Stanford University, Stanford, CA">
+<meta name="citation_author" content="Daniel L Hertenstein">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Rafay M Syed">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Sindiso Nyathi">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Mario Solano Gonzales">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Molly Domino">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Sheryl Siegmund">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Sam Randall">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Patrick Wedlock">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Atif Adam">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_author" content="Bruce Y Lee">
+<meta name="citation_author_institution" content="PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)">
+<meta name="citation_publication_date" content="2020 Mar 16">
+<meta name="citation_volume" content="88">
+<meta name="citation_issue" content="4">
+<meta name="citation_firstpage" content="661">
+<meta name="citation_doi" content="10.1038/s41390-020-0844-3">
+<meta name="citation_pmid" content="32179869">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492437/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492437/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492437/pdf/nihms-1573256.pdf">
+<meta name="description" content="Studies show that by three months, over half of US infants receive formula and guidelines play a key role in formula feeding. The question then is, what might happen if caregivers follow guidelines and, more specifically, are there situations where ...">
+<meta name="og:title" content="Can following formula-feeding recommendations still result in infants who are overweight or have obesity?">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Studies show that by three months, over half of US infants receive formula and guidelines play a key role in formula feeding. The question then is, what might happen if caregivers follow guidelines and, more specifically, are there situations where ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492437/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="7492437">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1038/s41390-020-0844-3"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/nihms-1573256.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7492437%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/7492437/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/7492437/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492437/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-nihpa.png" alt="NIHPA Author Manuscripts logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to NIHPA Author Manuscripts" title="Link to NIHPA Author Manuscripts" shape="default" href="https://pmc.ncbi.nlm.nih.gov/about/public-access/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Pediatr Res</button></div>. Author manuscript; available in PMC: 2020 Oct 2.</div>
+<div>
+<em>Published in final edited form as: </em>Pediatr Res. 2020 Mar 16;88(4):661–667. doi: <a href="https://doi.org/10.1038/s41390-020-0844-3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1038/s41390-020-0844-3</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Pediatr%20Res"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Pediatr%20Res"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Pediatr%20Res"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Pediatr%20Res"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Can following formula-feeding recommendations still result in infants who are overweight or have obesity?</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ferguson%20MC"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Marie C Ferguson</span></a><div hidden="hidden" id="id1">
+<h3><span class="name western">Marie C Ferguson</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ferguson%20MC"[Author]' class="usa-link"><span class="name western">Marie C Ferguson</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="O%E2%80%99Shea%20KJ"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Kelly J O’Shea</span></a><div hidden="hidden" id="id2">
+<h3><span class="name western">Kelly J O’Shea</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="O%E2%80%99Shea%20KJ"[Author]' class="usa-link"><span class="name western">Kelly J O’Shea</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hammer%20LD"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Lawrence D Hammer</span></a><div hidden="hidden" id="id3">
+<h3><span class="name western">Lawrence D Hammer</span></h3>
+<div class="p">
+<sup>2</sup>Department of Pediatrics, Stanford University, Stanford, CA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hammer%20LD"[Author]' class="usa-link"><span class="name western">Lawrence D Hammer</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hertenstein%20DL"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Daniel L Hertenstein</span></a><div hidden="hidden" id="id4">
+<h3><span class="name western">Daniel L Hertenstein</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hertenstein%20DL"[Author]' class="usa-link"><span class="name western">Daniel L Hertenstein</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Syed%20RM"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Rafay M Syed</span></a><div hidden="hidden" id="id5">
+<h3><span class="name western">Rafay M Syed</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Syed%20RM"[Author]' class="usa-link"><span class="name western">Rafay M Syed</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Nyathi%20S"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">Sindiso Nyathi</span></a><div hidden="hidden" id="id6">
+<h3><span class="name western">Sindiso Nyathi</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Nyathi%20S"[Author]' class="usa-link"><span class="name western">Sindiso Nyathi</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gonzales%20MS"[Author]' class="usa-link" aria-describedby="id7"><span class="name western">Mario Solano Gonzales</span></a><div hidden="hidden" id="id7">
+<h3><span class="name western">Mario Solano Gonzales</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gonzales%20MS"[Author]' class="usa-link"><span class="name western">Mario Solano Gonzales</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Domino%20M"[Author]' class="usa-link" aria-describedby="id8"><span class="name western">Molly Domino</span></a><div hidden="hidden" id="id8">
+<h3><span class="name western">Molly Domino</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Domino%20M"[Author]' class="usa-link"><span class="name western">Molly Domino</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Siegmund%20S"[Author]' class="usa-link" aria-describedby="id9"><span class="name western">Sheryl Siegmund</span></a><div hidden="hidden" id="id9">
+<h3><span class="name western">Sheryl Siegmund</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Siegmund%20S"[Author]' class="usa-link"><span class="name western">Sheryl Siegmund</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Randall%20S"[Author]' class="usa-link" aria-describedby="id10"><span class="name western">Sam Randall</span></a><div hidden="hidden" id="id10">
+<h3><span class="name western">Sam Randall</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Randall%20S"[Author]' class="usa-link"><span class="name western">Sam Randall</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Wedlock%20P"[Author]' class="usa-link" aria-describedby="id11"><span class="name western">Patrick Wedlock</span></a><div hidden="hidden" id="id11">
+<h3><span class="name western">Patrick Wedlock</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Wedlock%20P"[Author]' class="usa-link"><span class="name western">Patrick Wedlock</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Adam%20A"[Author]' class="usa-link" aria-describedby="id12"><span class="name western">Atif Adam</span></a><div hidden="hidden" id="id12">
+<h3>
+<span class="name western">Atif Adam</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Adam%20A"[Author]' class="usa-link"><span class="name western">Atif Adam</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lee%20BY"[Author]' class="usa-link" aria-describedby="id13"><span class="name western">Bruce Y Lee</span></a><div hidden="hidden" id="id13">
+<h3><span class="name western">Bruce Y Lee</span></h3>
+<div class="p">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lee%20BY"[Author]' class="usa-link"><span class="name western">Bruce Y Lee</span></a>
+</div>
+</div>
+<sup>1</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="A1">
+<sup>1</sup>PHICOR (Public Health Informatics Computational Operations Research), City University of New York, New York, New York, (previously at Johns Hopkins University, Baltimore, MD)</div>
+<div id="A2">
+<sup>2</sup>Department of Pediatrics, Stanford University, Stanford, CA</div>
+<div class="author-notes p">
+<div class="fn" id="FN1"><p id="P1"><strong>AUTHOR CONTRIBUTIONS</strong>: Conceived and designed the experiments: MCF, KJO, BYL, RMS, SN, AA. Parameterized the experiments: MCF, KJO, RMS, SN. Programed the model and experiments: DLH, MSG, MD. Performed the experiments: RMS, DHL, KJO, SN, AA. Analyzed the data: KJO, MCF, LDH, RMS, SN, SS, SR, PW, AA, BYL. Wrote the paper: MCF, KJO, BYL, LDH, RMS, SN, SS, SR, PW, AA. Helped guide input data collection: BYL, MCF, SS, AA. Helped guide technical methodology: BYL, MCF, DLH, AA.</p></div>
+<div class="fn" id="CR1">
+<sup>✉</sup><p class="display-inline"><strong>CORRESPONDING AUTHOR:</strong> Bruce Y. Lee, Professor of Health Policy and Management; Executive Director, PHICOR, CUNY Graduate School of Public Health and Health Policy New York, 55 W 125th Street New York City, NY 10027, <span>bruceleemdmba@gmail.com</span>, Phone: (646) 364-9523, Fax: (646) 364-9600</p>
+</div>
+</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Issue date 2020 Oct.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<a href="http://www.nature.com/authors/editorial_policies/license.html#terms" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.nature.com/authors/editorial_policies/license.html#terms</a></p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC7492437  NIHMSID: NIHMS1573256  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32179869/" class="usa-link">32179869</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article"><div>The publisher's version of this article is available at <a href="https://doi.org/10.1038/s41390-020-0844-3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Pediatr Res</a>
+</div></div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="ABS1"><h2>Abstract</h2>
+<section id="S1"><h3 class="pmc_sec_title">Background</h3>
+<p id="P2">Studies show that by three months, over half of US infants receive formula and guidelines play a key role in formula feeding. The question then is, what might happen if caregivers follow guidelines and, more specifically, are there situations where following guidelines can result in infants who are overweight/have obesity?</p></section><section id="S2"><h3 class="pmc_sec_title">Methods</h3>
+<p id="P3">We used our “Virtual Infant” agent-based model representing infant-caregiver pairs that allowed caregivers to feed infants each day according to guidelines put forth by Johns Hopkins Medicine(JHM), Children’s Hospital of Philadelphia(CHOP), Children’s Hospital of the King’s Daughters(CHKD), and WIC. The model simulated the resulting development of the infants from birth to six months. The two sets of guidelines vary in their recommendations, and do not provide studies that support amounts at given ages.</p></section><section id="S3"><h3 class="pmc_sec_title">Results</h3>
+<p id="P4">Simulations identified several scenarios where caregivers followed JHM/CHOP/CHKD and WIC guidelines but infants still became overweight/with obesity by six months. For JHM/CHOP/CHKD guidelines, this occurred even when caregivers adjusted feeding based on infant’s weight. For WIC guidelines, when caregivers adjusted formula amounts, infants maintained healthy weight.</p></section><section id="S4"><h3 class="pmc_sec_title">Conclusions</h3>
+<p id="P5">WIC guidelines may be a good starting point for caregivers who adjust as their infant grows, but the minimum amounts for JHM/CHKD/CHOP recommendations may be too high.</p></section></section><section id="S5"><h2 class="pmc_sec_title">Introduction</h2>
+<p id="P6">In the United States, formula feeding infants is extremely common.(<a href="#R1" class="usa-link" aria-describedby="R1">1</a>) In fact, over half of infants have received some formula by three months,(<a href="#R2" class="usa-link" aria-describedby="R2">2</a>) and guidelines exist to guide caregivers about how much formula to give infants each day.(<a href="#R3" class="usa-link" aria-describedby="R3">3</a>) Though the counseling and guidance for infant feeding varies across clinics, guidelines do play an important role in infant feeding. Studies have shown that clinicians can influence caregivers’ infant feeding decisions,(<a href="#R4" class="usa-link" aria-describedby="R4">4</a>–<a href="#R6" class="usa-link" aria-describedby="R6">6</a>) and in 2017 90% of children under the age of 2 received a well-child check-up where they meet with a health care professional to check their growth and development. Clinicians may refer to and rely on recommendations put forth by reputable hospitals and institutions such as Johns Hopkins Medicine (JHM), Children’s Hospital of Philadelphia (CHOP) and Children’s Hospital of the King’s Daughters (CHKD). Additionally, 1.71 million infants receive benefits from the Women, Infants, and Children (WIC) program, which covers more than half of infants in the United States.(<a href="#R7" class="usa-link" aria-describedby="R7">7</a>) Studies estimate that infants participating in WIC consume over half of all formula sold in the US.(<a href="#R8" class="usa-link" aria-describedby="R8">8</a>) WIC implements a structured program to guide parents on infant feeding, where WIC staff are encouraged to provide resources such as the feeding recommendations listed in the WIC <em>Infant Nutrition and Feeding</em> handbook.(<a href="#R9" class="usa-link" aria-describedby="R9">9</a>)</p>
+<p id="P7">The question then is, what happens if caregivers follow the guidelines? And more specifically, can following guidelines result in infants who are overweight or have obesity? This is important because overweight or obesity in infancy can affect a child’s risk later in childhood and adulthood.(<a href="#R10" class="usa-link" aria-describedby="R10">10</a>, <a href="#R11" class="usa-link" aria-describedby="R11">11</a>) Therefore, we developed a virtual infant computational simulation model to see what happens to an infant’s body mass index (BMI) when their caregivers follow formula-feeding recommendations. Our infant model represents daily caloric intake, physical activity, metabolism, and the resulting changes in body size. In this study, the modeled scenarios allow for potential weekly changes to the amount of formula a caregiver feeds an infant, but each day of feeding is represented. The goal of this study is to use our computational simulation model to test formula feeding guidelines and observe whether or not they result in appropriate patterns of infant weight gain.</p>
+<p id="P8">Computational simulation models help overcome the logistic and ethical challenges of testing feeding guidelines on a cohort of infants. Using computational simulation models, we can test different formula feeding recommendations in a virtual laboratory before implementing recommendations in real life. Computational models have been used previously to guide infant feeding. For example, in a previously published study, researchers used an agent-based model to test the impact of caregivers following complementary feeding guides on infants BMIs.(<a href="#R12" class="usa-link" aria-describedby="R12">12</a>) The model identified scenarios where following guidelines could lead to infants becoming overweight or developing obesity. Such models can help decisionmakers adjust existing guidelines and inform infant feeding practices.</p></section><section id="S6"><h2 class="pmc_sec_title">Methods</h2>
+<section id="S7"><h3 class="pmc_sec_title">Virtual Infant Model</h3>
+<p id="P9">We used our previously published Virtual Infant model to represent infant-caregiver pairs (e.g. pair consisting of an infant fed by a single caregiver) and infant feeding and growth from birth to six months in one-day time steps. In real life, caregivers can make his or her own decisions about feeding their infant, and can change their feeding decisions (e.g., how much formula to give) over time based on the daily growth and needs of their infant. Thus, in order to account for these we used an agent-based model.</p>
+<p id="P10">Similar to infants in real life, each virtual infant has characteristics such as a sex and a starting weight, length, and body mass index (BMI). We sampled across a normal distribution of BMI percentiles centered around the 50<sup>th</sup> BMI percentile (varying the birthweight and length) from birth through six months. We simulated infants born at term without congenital abnormalities. Each infant also had an embedded metabolic model (adapted from previously published models (<a href="#R13" class="usa-link" aria-describedby="R13">13</a>, <a href="#R14" class="usa-link" aria-describedby="R14">14</a>)) that represents the processes by which the infant’s body translates consumed and expended calories into daily changes in weight. This translation occurs in a series of steps. First, when a caregiver feeds an infant, the consumed calories enter the metabolic model. Ingested calories first satisfy energy needs for the basal metabolic rate (BMR), thermic effect of feeding (TEF), adaptive thermogenesis, and physical activity. BMR is the energy needed to keep a body functioning when at rest and is calculated for each virtual infant by summing the energy needs of the infant’s fat mass (FM), fat-free mass (FFM), and organs.(<a href="#R14" class="usa-link" aria-describedby="R14">14</a>) The thermic effect of feeding refers to the energy needed by the infant to process food.(<a href="#R14" class="usa-link" aria-describedby="R14">14</a>) Adaptive thermogenesis is the regulation of metabolic speed based on changes in energy intake.(<a href="#R14" class="usa-link" aria-describedby="R14">14</a>, <a href="#R15" class="usa-link" aria-describedby="R15">15</a>) Studies conducted to derive these weight-specific energy needs were also conducted among infants.(<a href="#R16" class="usa-link" aria-describedby="R16">16</a>, <a href="#R17" class="usa-link" aria-describedby="R17">17</a>) Values for specific components are in the Appendix. To obtain daily caloric expenditure from physical activity, we added calories from BMR, TEF, and thermogenesis and then subtracted them from the total energy requirements observed in Butte’s seminal study on infant energy needs.(<a href="#R18" class="usa-link" aria-describedby="R18">18</a>) When calculating the energy needs for each of these components, the model determines the energy needed to grow along the Centers for Disease Control (CDC) projection of the infant’s weight(<a href="#R19" class="usa-link" aria-describedby="R19">19</a>), meaning these caloric needs changed each day to account for growth as the infant aged. At the end of each day, if the caloric intake was greater than the calories needed to achieve desired growth, the infant would gain extra weight. If the total caloric intake does not meet the number of calories needed to maintain infant weight, the virtual infant metabolizes energy stores resulting in weight loss.</p>
+<p id="P11">The model updates the virtual infant weight each day by calculating the changes in the FM and FFM. To calculate changes in FM and FFM, the model multiplies the energy surplus or energy deficit by the energy density of the particular tissue type. The model then adds the updated FM and FFM together (which captures the varying densities of different tissue types), which equals the weight of the virtual infant (in kg) for the start of the next time step/following day. We used the CDC definitions for overweight (85<sup>th</sup> BMI percentile) and obesity (95<sup>th</sup> BMI percentile) in this study.(<a href="#R20" class="usa-link" aria-describedby="R20">20</a>) This standard was used instead of the weight-for-length standard as recommended by the American Academy of Pediatrics(<a href="#R21" class="usa-link" aria-describedby="R21">21</a>) because of a previous study conducted by Roy et al. that concluded that BMI more accurately predicts future obesity risk.(<a href="#R22" class="usa-link" aria-describedby="R22">22</a>) Additionally, the weight-for-length standard is more pertinent to assessments of age-specific growth patterns, whereas BMI percentile better describes changes in FM and FFM. Each day, the infant’s caregiver decides the total number of feeds for the day by randomly selecting from a uniform distribution of the range of daily feeding frequencies in the recommendation. Then, the caregiver decides the amount for each feed by randomly selecting an amount from a uniform distribution with a range also based on the recommendations (see <a href="#T1" class="usa-link">Table 1</a>).</p>
+<section class="tw xbox font-sm" id="T1"><h4 class="obj_head">Table 1:</h4>
+<div class="caption p"><p id="P30">Infant formula-feeding recommendations</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all">
+<colgroup span="1">
+<col align="left" valign="middle" span="1">
+<col align="left" valign="middle" span="1">
+<col align="left" valign="middle" span="1">
+<col align="left" valign="middle" span="1">
+<col align="left" valign="middle" span="1">
+<col align="left" valign="middle" span="1">
+</colgroup>
+<thead>
+<tr>
+<th colspan="3" align="center" valign="middle" rowspan="1">Women Infants and Children/United States Department of Agriculture<a href="#TFN1" class="usa-link"><sup>*</sup></a>
+</th>
+<th colspan="3" align="center" valign="middle" rowspan="1">Children’s Hospital of <br>Philadelphia/Johns Hopkins <br>Medicine/Children’s Hospital of the <br>King’s Daughters Recommendations<a href="#TFN1" class="usa-link"><sup>*</sup></a>
+</th>
+</tr>
+<tr>
+<th align="center" valign="middle" rowspan="1" colspan="1">Age (months)</th>
+<th align="center" valign="middle" rowspan="1" colspan="1">Daily Formula Milk (mL)</th>
+<th align="center" valign="middle" rowspan="1" colspan="1">Ref</th>
+<th align="center" valign="middle" rowspan="1" colspan="1">Age (months)</th>
+<th align="center" valign="middle" rowspan="1" colspan="1">Daily Formula Milk (mL)</th>
+<th align="center" valign="middle" rowspan="1" colspan="1">Ref</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>0</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">414–1242.1</td>
+<td rowspan="6" align="left" valign="middle" colspan="1">(<a href="#R26" class="usa-link" aria-describedby="R26">26</a>)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>0</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">354.9–946.4</td>
+<td rowspan="6" align="left" valign="middle" colspan="1">(<a href="#R27" class="usa-link" aria-describedby="R27">27</a>), <br>(<a href="#R28" class="usa-link" aria-describedby="R28">28</a>), <br>(<a href="#R29" class="usa-link" aria-describedby="R29">29</a>)</td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>1</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">414–1242.1</td>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>1</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">354.9–946.4</td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>2</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">414–1242.1</td>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>2</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">739.3–1064.7</td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>3</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">414–1242.1</td>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>3</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">887.2–1242.1</td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>4</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">768.9–1153.4</td>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>4</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">887.2–1242.1</td>
+</tr>
+<tr>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>5</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">768.9–1153.4</td>
+<td align="center" valign="top" rowspan="1" colspan="1"><strong>5</strong></td>
+<td align="center" valign="top" rowspan="1" colspan="1">887.2–1242.1</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p"><div class="fn" id="TFN1">
+<sup>*</sup><p class="display-inline" id="P31">we assume formula milk caloric density is 0.676 kcal/mL(<a href="#R37" class="usa-link" aria-describedby="R37">37</a>)</p>
+</div></div></section><p id="P12">Each week, caregivers reassess the amount to feed their infant according to the recommendations in order to simulate caregivers adapting the amount they feed their infant based on the daily growth and needs of their infant. Specifically, if in the past week the infant has had a change in weight and has passed a major BMI percentile (5<sup>th</sup>, 10<sup>th</sup>, 25<sup>th</sup>, 50<sup>th</sup>, 75<sup>th</sup>, 90<sup>th</sup> and 95<sup>th</sup>), then the caregiver will adjust the feeding amounts to the lower end of the range (if BMI increases) or the upper end of the range (if BMI decreases). Depending on which scenario, the normal distribution is either truncated at the mean (when feeding from the upper half the mean is new minimum, or feeding from the lower half the mean is new maximum ) or truncated at the upper/lower quartile (75<sup>th</sup> percentile feeding amount is the new minimum for the upper quartile, and 25<sup>th</sup> percentile feeding amount is the new maximum for the lower quartile). For example, the WIC guidelines recommend between 414 and 1242.1 mL, (mean 828 mL) between 0 and 4 months. For a scenario where caregivers adjust to the upper/lower half, caregivers start off feeding an amount from the full range (normal distribution), and if the infant’s BMI increases and passes a major BMI percentile then the amount fed is pulled from the lower half of this distribution (e.g. the distribution is truncated at 828, new range, 414 to 828 mL). If an infant’s BMI continues to increase and crosses another major BMI percentile and they are already consuming the lower end of the range, then they will continue to consume portions at the lower end. If their BMI starts to decrease and crosses a major BMI percentile by the next week, the caregiver will adjust and feed from the full range. If after another week their BMI continues to decrease and crosses another major BMI percentile, the caregiver will adjust to the upper half. We allowed for only one adjustment per week, such that the portion size would not jump from the lower half to the upper half in one week or from the upper to the lower quartile in one week. The same is true for the scenario where they adjust to the upper/lower quartiles.</p></section><section id="S8"><h3 class="pmc_sec_title">Validation</h3>
+<p id="P13">To validate our model, we compared infant BMIs generated from the metabolic model to the WHO growth standards for children under 24 months, which is based on the longitudinal component of the Multicentre Growth Reference Study which included cohorts of infants measured from birth through age 23.(<a href="#R23" class="usa-link" aria-describedby="R23">23</a>) This data was not used to build the model. The validation focused on energy intake and corresponding growth and did not distinguish between different types of calories (e.g., different macronutrients such as proteins, carbohydrate, etc.). We simulated caregivers feeding normal weight virtual infants (15<sup>th</sup> and 85<sup>th</sup> BMI percentile) calories equaling the necessary energy requirements for infants as derived in the study conducted by Butte.(<a href="#R24" class="usa-link" aria-describedby="R24">24</a>) This was the same study we used to derive the physical activity levels, another input described earlier in the Methods. Then, we plotted the resulting BMI percentile curves. Next, we compared these trajectories to the WHO reference BMI growth curves.(<a href="#R25" class="usa-link" aria-describedby="R25">25</a>) The difference between the BMI trajectories was not statistically significant. We conducted a z-test and found that the p-value was less than 0.05. For example, a virtual female infant at the 50<sup>th</sup> BMI percentile weighed 6.06 kg at three months of age and 7.37 kg at six months, 8.24 kg at nine months, compared to 5.84 kg and 7.29 kg at three and six months respectively on the WHO growth standard curve. As seen in <a href="#F1" class="usa-link">Figure 1</a>, we also validated the model for infants deviating from normal growth. We simulated caregivers feeding infants in the 97<sup>th</sup> BMI percentile calories equaling energy requirements to maintain 97<sup>th</sup> BMI percentile over the first sixth months, per Butte’s observed energy needs. When we compared this extreme scenario to the WHO growth standard curve, we observed that the BMI trajectory from the model output follows the same pattern as the WHO standard.</p>
+<figure class="fig xbox font-sm" id="F1"><h4 class="obj_head">Figure 1. Validation of Simulation Model.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=7492437_nihms-1573256-f0001.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/578a/7492437/81366473126f/nihms-1573256-f0001.jpg" loading="lazy" height="1046" width="800" alt="Figure 1."></a></p>
+<div class="p text-right font-secondary"><a href="figure/F1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p id="P28">This figures compares outputs from the Virtual Infant model when infants were fed calories to meet required energy needs derived from Butte (<a href="#R24" class="usa-link" aria-describedby="R24">24</a>) (dotted line) to real world data from WHO reference curve (solid line).</p></figcaption></figure></section><section id="S9"><h3 class="pmc_sec_title">Testing Different Feeding Guidelines</h3>
+<p id="P14">Next, we reviewed the literature for various formula-feeding guidelines and chose to test the sources that were detailed enough to derive calorie amounts. We tested two sets of formula-feeding recommendations over the first six months (<a href="#T1" class="usa-link">Table 1</a>): (<a href="#R1" class="usa-link" aria-describedby="R1">1</a>) Women Infants and Children (WIC)(<a href="#R26" class="usa-link" aria-describedby="R26">26</a>) (<a href="#R2" class="usa-link" aria-describedby="R2">2</a>) Children’s Hospital of Philadelphia (CHOP)(<a href="#R27" class="usa-link" aria-describedby="R27">27</a>)/the Johns Hopkins Medicine (JHM)(<a href="#R28" class="usa-link" aria-describedby="R28">28</a>)/Children’s Hospital of the King’s Daughters (CHKD).(<a href="#R29" class="usa-link" aria-describedby="R29">29</a>) The WIC recommendations are intended to guide low-income mothers involved in the WIC program, which provides supplemental food and formula and nutrition education to low-income pregnant women and mothers of infants and young children (0–5 years).(<a href="#R30" class="usa-link" aria-describedby="R30">30</a>) The CHOP/JHM/CHKD recommendations are plausibly meant to guide clinicians, patients, and others accessing their resources, though the intended audience is not clearly stated. The two sets of recommendations vary; thus, we conducted a literature search to determine how these guidelines were developed. This involved manually searching the literature on PubMed and Google Scholar using search terms including: infant formula feeding recommendations; deriving formula recommendations; feeding guidelines. Neither the guidelines nor the literature in our search cite any studies or explain how they derived the amounts. We considered recommendations from WHO and CDC, but they did not provide enough specificity to parameterize the model. Recommendations from WHO and CDC were considered but did not provide enough specificity to parameterize the model.</p>
+<p id="P15">For the purposes of this paper, we only examined formula-fed infants.</p>
+<p id="P16">To conduct a thorough exploration intended to identify if there are situations where growth deviates from a standard pattern of weight gain when adhering to formula feeding recommendations, we simulated the following scenarios for each feeding guideline : 1) Caregivers check BMI each week and adjust amount to the lower/upper half of the recommendation depending on their infant’s growth, 2) Caregivers check BMI each week and adjust amount to lower/upper quartile of the recommendation depending on their infant’s growth, 3) Caregivers feed infants according to the normal distribution of the full range, and they do not adjust the amount, and 4) Caregivers feed infants according to the lower quartile of the range, and they do not adjust the amount (most conservative feeding profile).</p>
+<p id="P17">Each simulation experiment consisted of running the model 10,000 times to run 10,000 different infants. Mean daily BMI percentiles are reported in the results and figures, along with 95% uncertainty intervals.</p></section></section><section id="S10"><h2 class="pmc_sec_title">Results</h2>
+<section id="S11"><h3 class="pmc_sec_title">Caregivers feeding infants according to the WIC Formula-Feeding Recommendations for 6 months, Exclusive Formula-feeding</h3>
+<p id="P18">When caregivers were feeding infants according to the WIC formula-feeding recommendations, and could make adjustments, approximately 50% of male and female infants crossed the 75<sup>th</sup> BMI percentile within the first two weeks. At this point the caregivers adjusted the feed amounts and their BMIs remained healthy and relatively stable through six months, with an increase beginning in the fifth month. At six months, the female BMI was in the 74<sup>th</sup> percentile when caregivers adjusted to upper and lower half and 70<sup>th</sup> percentile when they adjusted to upper and lower quartile. The male BMI was at the 65<sup>th</sup> percentile when they adjusted to the upper and lower half and 62<sup>nd</sup> percentile when they adjusted to the upper and lower quartile. When caregivers follow the WIC recommendations without adjusting feeding amounts in response to infant weight trajectory, female infant BMIs reached overweight levels in the second month, which steadily increased to obese levels by six months. Male infant BMIs did not become unhealthy, though they did reach the 82<sup>nd</sup> percentile within the first month and ended at the 77<sup>th</sup> percentile. When caregivers always fed within the lowest quartile of feeding recommendations, infant BMIs reached underweight levels, by the fourth month for females and the second month for males. Female infant BMIs did reach healthy weights after the fourth month and the 40<sup>th</sup> BMI percentile by six months, and males reached the 10<sup>th</sup> BMI percentile by six months. See <a href="#F2" class="usa-link">Figure 2</a>.</p>
+<figure class="fig xbox font-sm" id="F2"><h4 class="obj_head">Figure 2. Assessing impact of formula-feeding recommendations on infant BMI for 6 Months, Exclusive Formula-feeding.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=7492437_nihms-1573256-f0002.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/578a/7492437/25a94513679e/nihms-1573256-f0002.jpg" loading="lazy" height="592" width="800" alt="Figure 2."></a></p>
+<div class="p text-right font-secondary"><a href="figure/F2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p id="P29">Panel A: Food consumption based on Children’s Hospital of Philadelphia (CHOP)/Johns Hopkins Medicine (JHM)/Children’s Hospital of the King’s Daughters (CHKD) recommendations in female infants. Panel B: Food consumption based on Children’s Hospital of Philadelphia (CHOP)/Johns Hopkins Medicine (JHM)/Children’s Hospital of the King’s Daughters (CHKD) recommendations in male infants. Panel C: Food consumption based on Women Infants and Children (WIC) in female infants. Panel D: Food consumption based on Women Infants and Children (WIC) in male infants. Two-dashed lines (– – – –) represent virtual caregivers adjusting to the infants’ weight trajectory by feeding in the lower or upper quartile of feeding amounts in response to significant weight gain or loss, respectively. Solid lines (——) represent virtual caregivers adjusting to infants’ weight trajectory by feeding in the lower or upper half of feeding amounts in response to significant weight gain or loss, respectively. Dotted lines (·······) represent virtual caregivers feeding only within the bottom quartile of feeding amounts. Dashed lines (– – –) represent virtual caregivers feeding within the full range of feeding amounts with no adjustment responding to infant weight trajectories.</p></figcaption></figure></section><section id="S12"><h3 class="pmc_sec_title">Caregivers feeding infants according to the CHOP/JHM/CHKD Formula-Feeding Recommendations for 6 months, Exclusive Formula-feeding</h3>
+<p id="P19">When caregivers adjusted feeding amounts by half or quartile in response to infant weight trajectory, infant BMIs reached overweight levels in the fourth month for all infants, and males maintained these overweight levels in both scenarios at six months and female infants reached obese BMI levels by six months in both scenarios where caregivers could adjust feeding amounts. When caregivers follow the CHOP/JHM/CHKD recommendations, drawing from the full recommended range of feeding amounts, without adjusting feeding amount in response to infant weight trajectory, female infant BMIs reached overweight levels in the fourth month, and obese levels by the fifth month. Male infant BMIs reached overweight in the fifth month and obese levels by the sixth month. When caregivers always fed within the lowest quartile of feeding recommendations, infant BMIs for both males and females reached underweight levels in the second month, and after two months the infant BMIs subsequently rapidly rebounded, with female infant BMIs reaching unhealthy overweight levels in the fifth month and males reaching the 83nd percentile by six months. See <a href="#F2" class="usa-link">Figure 2</a>.</p></section></section><section id="S13"><h2 class="pmc_sec_title">Discussion</h2>
+<p id="P20">Our study identified a number of different situations in which caregivers followed JHM/CHOP/CHKD and WIC guidelines, yet infants still moved into the overweight/obese weight category by six months of age. This occurred for the JHM/CHOP/CHKD guidelines even when caregivers adjusted the amount of formula that they fed their infants based on their infant’s weekly weight. Such adjustments did help infants maintain healthy weight when the WIC guidelines were followed. However, there is evidence that caregivers don’t tend to make such feeding adjustments even when closely monitoring an infant’s weight.(<a href="#R31" class="usa-link" aria-describedby="R31">31</a>)</p>
+<p id="P21">Our results suggest that the minimum amounts of daily formula recommended by JHM/CHOP/CHKD (which are 325 mL, 473 mL and 118 mL higher than WIC for the second, third, fourth/fifth month respectively) may be too high, not allowing caregivers the flexibility to adjust feed sizes low enough to prevent or move their infant out of the overweight/obese category. Further, caregivers may be introducing complementary foods during the four to six month window, which means that even smaller formula amounts may be needed by the infant, in order to account for the calories from solid foods.</p>
+<p id="P22">Current infant feeding recommendations provide caregivers with ranges and estimates within which to feed their infants. However, further research must identify how infant feeding may change under varying circumstances and determine how best to respond to these variations. Since infant feeding guidelines offer a foundation for communication between nurses, doctors, and parents to help monitor infant health and encourage healthy diets, it is important to be able to demonstrate the impact of recommendations to caregivers. Feeding recommendations guide parents and health practitioners, and caregivers must know how to adjust the guidelines for individual infants. In order to understand how to adjust guidelines, we can use computational simulation models which serve as “virtual laboratories” to help overcome the logistical and ethical issues of clinical trials. Simulation models can iteratively test formula recommendations in the safety of a computer, to not only help clinicians and caregivers understand the impact of the guidelines on infant weight, but also help adapt the recommendations to fit the needs of the infant.</p></section><section id="S14"><h2 class="pmc_sec_title">Limitations</h2>
+<p id="P23">Computational models are simplifications of reality and cannot include all possible factors that impact feeding in infants. Our simulations did not account for potential alterations in feeding during illnesses and sleep disturbances. We also did not represent different types of calories, such as different macronutrients which may vary between breastmilk and formula milk. One study found higher protein intake among breastfed infants which also resulted in more weight gain, which means we could be underestimating weight gain for formula fed infants.(<a href="#R32" class="usa-link" aria-describedby="R32">32</a>) Our study, similar to existing recommendations, assumed healthy infants over the first year of life. Similarly, our study assumed that feeding recommendations would have the same efficacy regardless of the mother’s health status, number of siblings, and economic status. Feeding guidelines from WIC, CHOP, JHM, and CHKD provide the flexibility of introducing solid foods between four and six months of age; however, we introduce at six months for each guideline because studies show that introducing solid foods too early can impact infant weight.(<a href="#R33" class="usa-link" aria-describedby="R33">33</a>) Because this paper sought to identify situations when following feeding recommendations could result in overweight or obese BMIs among infants, we did not model the impact of other cofounding factors, including sleep issues, medication, and growth-impacting medical conditions. We also acknowledge that there is likely a difference between an infant’s actual hunger and satiation and how hunger and satiety are understood by researchers and caregivers. This makes interpreting and responding to infant cues challenging. Therefore, we developed a model to track how infant growth follows standard patterns under specific feeding recommendations. We did not represent a caregiver’s level of responsiveness to an infant’s appetitive cues or behavior, nor did we represent caregivers misinterpreting cues ranging from restlessness to sucking on fists to excessive crying, which could be driven by an infant having a larger appetite or propensity for weight gain. Studies estimate about one in six infants displays excessive crying (e.g., any amount of crying that worries the caregivers or colic which may involve crying for least three hours a day, three times a week for three consecutive weeks and lasting three months (<a href="#R34" class="usa-link" aria-describedby="R34">34</a>)) which may result in more frequent feeding than we represented in our model for those infants.(<a href="#R35" class="usa-link" aria-describedby="R35">35</a>) Another study suggests that perceived fussiness may result in earlier introduction of solid foods, which we also did not model.(<a href="#R36" class="usa-link" aria-describedby="R36">36</a>) We did, however, include feedback due to infant weight changes.</p></section><section id="S15"><h2 class="pmc_sec_title">Conclusion</h2>
+<p id="P24">Our study identified a number of different situations in which caregivers followed existing guidelines, yet infants still moved into the overweight/obese weight category by six months of age, even when caregivers adjusted the amount of formula they fed their infant based on their infant’s weekly changes in weight. This study suggests that the minimum amounts recommended by JHM/CHOP/CHKD may be too high. Lower minimum of the daily formula amounts better support responsive infant feeding, as the wider range gives caregivers more flexibility in responding to changes in growth.</p></section><section id="SM1"><h2 class="pmc_sec_title">Supplementary Material</h2>
+<section class="sm xbox font-sm" id="SD1"><div class="caption p"><span>1</span></div>
+<div class="media p" id="d39e510"><div class="caption">
+<a href="/articles/instance/7492437/bin/NIHMS1573256-supplement-1.pdf" data-ga-action="click_feat_suppl" class="usa-link">NIHMS1573256-supplement-1.pdf</a><sup> (125.9KB, pdf) </sup>
+</div></div></section></section><section id="floats-group1" class="floats-group"><section class="bt xbox font-sm" id="BX1"><h2 class="obj_head">CATEGORY OF STUDY: Population Study.</h2>
+<section id="S17"><h3 class="pmc_sec_title">IMPACT</h3>
+<ul id="L1" class="list" style="list-style-type:none">
+<li>
+<span class="label">⚪</span><p class="display-inline" id="P32">Our virtual infant simulation study answers the question: can caregivers follow current formula feeding guidelines and still end up with an infant who is overweight or has obesity?</p>
+</li>
+<li>
+<span class="label">⚪</span><p class="display-inline" id="P33">Our study identified several situations in which unhealthy weight gain and/or weight loss could result from following established formula-feeding recommendations.</p>
+</li>
+<li>
+<span class="label">⚪</span><p class="display-inline" id="P34">Our study also suggests that the minimum recommended amount of daily formula-feeding should be lower for Johns Hopkins Medicine/Children’s Hospital of Philadelphia/ Children’s Hospital of the King’s Daughters guidelines to give caregivers more flexibility in adjusting daily feeding levels in response to infant weight.</p>
+</li>
+<li>
+<span class="label">⚪</span><p class="display-inline" id="P35">WIC guidelines may be a good starting point for caregivers who adjust as their infant grows.</p>
+</li>
+<li>
+<span class="label">⚪</span><p class="display-inline" id="P36">In order to understand how to adjust guidelines, we can use computational simulation models which serve as “virtual laboratories” to help overcome the logistical and ethical issues of clinical trials.</p>
+</li>
+</ul></section></section></section><section id="S16" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p id="P25"><strong>FINANCIAL SUPPORT</strong>: Research reported in this publication was supported by the Global Obesity Prevention Center (GOPC) and the <em>Eunice Kennedy Shriver</em> National Institute of Child Health and Human Development (NICHD) and the Office of the Director, National Institutes of Health (OD) under award number U54HD070725. It was also supported by NICHD via grant U01HD086861 and 5R01HD086013, and the Agency for Healthcare Research and Quality (AHRQ) via grant R01HS023317. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health or Agency for Healthcare Research and Quality (AHRQ).</p></section><section id="fn-group1" class="fn-group"><h2 class="pmc_sec_title">Footnotes</h2>
+<div class="fn-group p font-secondary-light font-sm">
+<div class="fn p" id="FN2"><p id="P26"><strong>DISCLOSURE</strong>: The authors declare no conflict of interest.</p></div>
+<div class="fn p" id="FN3"><p id="P27">Patient consent was not required.</p></div>
+</div></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References:</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="R1">
+<span class="label">1.</span><cite>Grummer-Strawn LM, Scanlon KS, Fein SB
+2008. 
+Infant feeding and feeding transitions during the first year of life. Pediatrics
+122
+Suppl 2:S36–42.</cite> [<a href="https://doi.org/10.1542/peds.2008-1315d" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18829829/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=Infant%20feeding%20and%20feeding%20transitions%20during%20the%20first%20year%20of%20life&amp;author=LM%20Grummer-Strawn&amp;author=KS%20Scanlon&amp;author=SB%20Fein&amp;volume=122&amp;issue=Suppl%202&amp;publication_year=2008&amp;pages=S36-42&amp;pmid=18829829&amp;doi=10.1542/peds.2008-1315d&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R2">
+<span class="label">2.</span><cite>Division of Nutrition PA, and Obesity, National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention, 2018 Breastfeeding Report Card: United States, 2018. 
+U.S. Department of Health and Human Services.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=2018%20Breastfeeding%20Report%20Card:%20United%20States&amp;publication_year=2018&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R3">
+<span class="label">3.</span><cite>Odom EC, et al. 
+2014. 
+Association of family and health care provider opinion on infant feeding with mother’s breastfeeding decision. Journal of the Academy of Nutrition and Dietetics
+114:1203–1207.</cite> [<a href="https://doi.org/10.1016/j.jand.2013.08.001" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4443256/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24200653/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Journal%20of%20the%20Academy%20of%20Nutrition%20and%20Dietetics&amp;title=Association%20of%20family%20and%20health%20care%20provider%20opinion%20on%20infant%20feeding%20with%20mother%E2%80%99s%20breastfeeding%20decision&amp;author=EC%20Odom&amp;volume=114&amp;publication_year=2014&amp;pages=1203-1207&amp;pmid=24200653&amp;doi=10.1016/j.jand.2013.08.001&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R4">
+<span class="label">4.</span><cite>Marchand L, Morrow M
+1994. 
+Infant feeding practices: understanding the decision-making process. Family medicine
+26:319–324.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/8050652/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Family%20medicine&amp;title=Infant%20feeding%20practices:%20understanding%20the%20decision-making%20process&amp;author=L%20Marchand&amp;author=M%20Morrow&amp;volume=26&amp;publication_year=1994&amp;pages=319-324&amp;pmid=8050652&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R5">
+<span class="label">5.</span><cite>Cairney PA, Alder EM, Barbour RS
+2006. 
+Support for infant feeding: mothers’ perceptions. British Journal of Midwifery
+14:694–700.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=British%20Journal%20of%20Midwifery&amp;title=Support%20for%20infant%20feeding:%20mothers%E2%80%99%20perceptions&amp;author=PA%20Cairney&amp;author=EM%20Alder&amp;author=RS%20Barbour&amp;volume=14&amp;publication_year=2006&amp;pages=694-700&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R6">
+<span class="label">6.</span><cite>Heinig MJ, et al. 
+2006. 
+Barriers to compliance with infant-feeding recommendations among low-income women. Journal of Human Lactation
+22:27–38.</cite> [<a href="https://doi.org/10.1177/0890334405284333" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16467285/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Journal%20of%20Human%20Lactation&amp;title=Barriers%20to%20compliance%20with%20infant-feeding%20recommendations%20among%20low-income%20women&amp;author=MJ%20Heinig&amp;volume=22&amp;publication_year=2006&amp;pages=27-38&amp;pmid=16467285&amp;doi=10.1177/0890334405284333&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R7">
+<span class="label">7.</span><cite>United States Department of Agriculture The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC Program) Fact Sheet. <a href="https://fnsprod.azureedge.net/sites/default/files/wic/wic-fact-sheet.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://fnsprod.azureedge.net/sites/default/files/wic/wic-fact-sheet.pdf</a>.</cite>
+</li>
+<li id="R8">
+<span class="label">8.</span><cite>Prell MA
+2004. 
+An economic model of WIC, the infant formula rebate program, and the retail price of infant formula.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=An%20economic%20model%20of%20WIC,%20the%20infant%20formula%20rebate%20program,%20and%20the%20retail%20price%20of%20infant%20formula&amp;author=MA%20Prell&amp;publication_year=2004&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R9">
+<span class="label">9.</span><cite>Blum-Kemelor D LB, Christie L, Bartholomew A, Mitchell P, Singleton U, Salley T
+2009. 
+Infant Nutrition and Feeding: A Guide for Use in the WIC and CSF Programs. US Department of Agriculture, Food and Nutrition Service, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC Program), <a href="https://wicworks.fns.usda.gov/wicworks/Topics/FG/CompleteIFG.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://wicworks.fns.usda.gov/wicworks/Topics/FG/CompleteIFG.pdf</a>.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Infant%20Nutrition%20and%20Feeding:%20A%20Guide%20for%20Use%20in%20the%20WIC%20and%20CSF%20Programs&amp;author=LB%20Blum-Kemelor%20D&amp;author=L%20Christie&amp;author=A%20Bartholomew&amp;author=P%20Mitchell&amp;author=U%20Singleton&amp;publication_year=2009&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R10">
+<span class="label">10.</span><cite>Druet C, et al. 
+2012. 
+Prediction of childhood obesity by infancy weight gain: an individual‐level meta‐analysis. Paediatric and perinatal epidemiology
+26:19–26.</cite> [<a href="https://doi.org/10.1111/j.1365-3016.2011.01213.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22150704/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Paediatric%20and%20perinatal%20epidemiology&amp;title=Prediction%20of%20childhood%20obesity%20by%20infancy%20weight%20gain:%20an%20individual%E2%80%90level%20meta%E2%80%90analysis&amp;author=C%20Druet&amp;volume=26&amp;publication_year=2012&amp;pages=19-26&amp;pmid=22150704&amp;doi=10.1111/j.1365-3016.2011.01213.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R11">
+<span class="label">11.</span><cite>Reilly JJ, et al. 
+2005. 
+Early life risk factors for obesity in childhood: cohort study. Bmj
+330:1357.</cite> [<a href="https://doi.org/10.1136/bmj.38470.670903.E0" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC558282/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15908441/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Bmj&amp;title=Early%20life%20risk%20factors%20for%20obesity%20in%20childhood:%20cohort%20study&amp;author=JJ%20Reilly&amp;volume=330&amp;publication_year=2005&amp;pages=1357&amp;pmid=15908441&amp;doi=10.1136/bmj.38470.670903.E0&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R12">
+<span class="label">12.</span><cite>Ferguson MC, et al. 
+2019. 
+The Impact of Following Solid Food Feeding Guides on BMI Among Infants: A Simulation Study. American journal of preventive medicine
+57:355–364.</cite> [<a href="https://doi.org/10.1016/j.amepre.2019.04.011" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6871772/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31353163/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=American%20journal%20of%20preventive%20medicine&amp;title=The%20Impact%20of%20Following%20Solid%20Food%20Feeding%20Guides%20on%20BMI%20Among%20Infants:%20A%20Simulation%20Study&amp;author=MC%20Ferguson&amp;volume=57&amp;publication_year=2019&amp;pages=355-364&amp;pmid=31353163&amp;doi=10.1016/j.amepre.2019.04.011&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R13">
+<span class="label">13.</span><cite>Hall KD, Butte NF, Swinburn BA, Chow CC
+2013. 
+Dynamics of childhood growth and obesity: development and validation of a quantitative mathematical model. The lancet Diabetes &amp; endocrinology
+1:97–105.</cite> [<a href="https://doi.org/10.1016/s2213-8587(13)70051-2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3857695/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24349967/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=The%20lancet%20Diabetes%20&amp;%20endocrinology&amp;title=Dynamics%20of%20childhood%20growth%20and%20obesity:%20development%20and%20validation%20of%20a%20quantitative%20mathematical%20model&amp;author=KD%20Hall&amp;author=NF%20Butte&amp;author=BA%20Swinburn&amp;author=CC%20Chow&amp;volume=1&amp;publication_year=2013&amp;pages=97-105&amp;pmid=24349967&amp;doi=10.1016/s2213-8587(13)70051-2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R14">
+<span class="label">14.</span><cite>Rahmandad H
+2014. 
+Human growth and body weight dynamics: an integrative systems model. PLoS One
+9:e114609.</cite> [<a href="https://doi.org/10.1371/journal.pone.0114609" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4257729/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25479101/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PLoS%20One&amp;title=Human%20growth%20and%20body%20weight%20dynamics:%20an%20integrative%20systems%20model&amp;author=H%20Rahmandad&amp;volume=9&amp;publication_year=2014&amp;pmid=25479101&amp;doi=10.1371/journal.pone.0114609&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R15">
+<span class="label">15.</span><cite>Doucet E, et al. 
+2001. 
+Evidence for the existence of adaptive thermogenesis during weight loss. British Journal of Nutrition
+85:715–723.</cite> [<a href="https://doi.org/10.1079/bjn2001348" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11430776/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=British%20Journal%20of%20Nutrition&amp;title=Evidence%20for%20the%20existence%20of%20adaptive%20thermogenesis%20during%20weight%20loss&amp;author=E%20Doucet&amp;volume=85&amp;publication_year=2001&amp;pages=715-723&amp;pmid=11430776&amp;doi=10.1079/bjn2001348&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R16">
+<span class="label">16.</span><cite>Torun B
+2005. 
+Energy requirements of children and adolescents. Public Health Nutrition
+8:968–993.</cite> [<a href="https://doi.org/10.1079/phn2005791" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16277815/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Public%20Health%20Nutrition&amp;title=Energy%20requirements%20of%20children%20and%20adolescents&amp;author=B%20Torun&amp;volume=8&amp;publication_year=2005&amp;pages=968-993&amp;pmid=16277815&amp;doi=10.1079/phn2005791&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R17">
+<span class="label">17.</span><cite>Wang Z
+2012. 
+High ratio of resting energy expenditure to body mass in childhood and adolescence: a mechanistic model. American Journal of Human Biology
+24:460–467.</cite> [<a href="https://doi.org/10.1002/ajhb.22246" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22368150/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=American%20Journal%20of%20Human%20Biology&amp;title=High%20ratio%20of%20resting%20energy%20expenditure%20to%20body%20mass%20in%20childhood%20and%20adolescence:%20a%20mechanistic%20model&amp;author=Z%20Wang&amp;volume=24&amp;publication_year=2012&amp;pages=460-467&amp;pmid=22368150&amp;doi=10.1002/ajhb.22246&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R18">
+<span class="label">18.</span><cite>Butte NF
+2005. 
+Energy requirements of infants. Public health nutrition
+8:953–967.</cite> [<a href="https://doi.org/10.1079/phn2005790" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16277814/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Public%20health%20nutrition&amp;title=Energy%20requirements%20of%20infants&amp;author=NF%20Butte&amp;volume=8&amp;publication_year=2005&amp;pages=953-967&amp;pmid=16277814&amp;doi=10.1079/phn2005790&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R19">
+<span class="label">19.</span><cite>Kuczmarski RJ, et al. 
+2000. 
+CDC growth charts: United States advance data from vital and health statistics, no. 314. Hyattsville, MD: National Center for Health Statistics.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=CDC%20growth%20charts:%20United%20States%20advance%20data%20from%20vital%20and%20health%20statistics,%20no.%20314&amp;author=RJ%20Kuczmarski&amp;publication_year=2000&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R20">
+<span class="label">20.</span><cite>Barlow SE
+2007. 
+Expert committee recommendations regarding the prevention, assessment, and treatment of child and adolescent overweight and obesity: summary report. Pediatrics
+120:S164–S192.</cite> [<a href="https://doi.org/10.1542/peds.2007-2329C" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18055651/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=Expert%20committee%20recommendations%20regarding%20the%20prevention,%20assessment,%20and%20treatment%20of%20child%20and%20adolescent%20overweight%20and%20obesity:%20summary%20report&amp;author=SE%20Barlow&amp;volume=120&amp;publication_year=2007&amp;pages=S164-S192&amp;pmid=18055651&amp;doi=10.1542/peds.2007-2329C&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R21">
+<span class="label">21.</span><cite>Daniels SR, Hassink SG
+2015. 
+The role of the pediatrician in primary prevention of obesity. Pediatrics
+136:e275–e292.</cite> [<a href="https://doi.org/10.1542/peds.2015-1558" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26122812/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=The%20role%20of%20the%20pediatrician%20in%20primary%20prevention%20of%20obesity&amp;author=SR%20Daniels&amp;author=SG%20Hassink&amp;volume=136&amp;publication_year=2015&amp;pages=e275-e292&amp;pmid=26122812&amp;doi=10.1542/peds.2015-1558&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R22">
+<span class="label">22.</span><cite>Roy SM, et al. 
+2016. 
+Infant BMI or weight-for-length and obesity risk in early childhood. Pediatrics
+137.</cite> [<a href="https://doi.org/10.1542/peds.2015-3492" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4845873/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27244803/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=Infant%20BMI%20or%20weight-for-length%20and%20obesity%20risk%20in%20early%20childhood&amp;author=SM%20Roy&amp;volume=137&amp;publication_year=2016&amp;pmid=27244803&amp;doi=10.1542/peds.2015-3492&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R23">
+<span class="label">23.</span><cite>Grummer-Strawn L, Krebs NF, Reinold CM
+2009. 
+Use of World Health Organization and CDC growth charts for children aged 0–59 months in the United States.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/20829749/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Use%20of%20World%20Health%20Organization%20and%20CDC%20growth%20charts%20for%20children%20aged%200%E2%80%9359%20months%20in%20the%20United%20States&amp;author=L%20Grummer-Strawn&amp;author=NF%20Krebs&amp;author=CM%20Reinold&amp;publication_year=2009&amp;pmid=20829749&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R24">
+<span class="label">24.</span><cite>Butte NF
+2005. 
+Energy requirements of infants. Public Health Nutr
+8:953–967.</cite> [<a href="https://doi.org/10.1079/phn2005790" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16277814/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Public%20Health%20Nutr&amp;title=Energy%20requirements%20of%20infants&amp;author=NF%20Butte&amp;volume=8&amp;publication_year=2005&amp;pages=953-967&amp;pmid=16277814&amp;doi=10.1079/phn2005790&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R25">
+<span class="label">25.</span><cite>Group WMGRS, de Onis M
+2006. 
+WHO Child Growth Standards based on length/height, weight and age. Acta Paediatrica
+95:76–85.</cite> [<a href="https://doi.org/10.1111/j.1651-2227.2006.tb02378.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16817681/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Acta%20Paediatrica&amp;title=WHO%20Child%20Growth%20Standards%20based%20on%20length/height,%20weight%20and%20age&amp;author=M%20de%20Onis&amp;volume=95&amp;publication_year=2006&amp;pages=76-85&amp;pmid=16817681&amp;doi=10.1111/j.1651-2227.2006.tb02378.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R26">
+<span class="label">26.</span><cite>U.S. Department of Agriculture
+2009. 
+Infant Nutrition and Feeding: A Guide for Use in the WIC and CSF Program.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Infant%20Nutrition%20and%20Feeding:%20A%20Guide%20for%20Use%20in%20the%20WIC%20and%20CSF%20Program&amp;publication_year=2009&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R27">
+<span class="label">27.</span><cite>Children’s Hospital of Philadelphia Feeding Guide for the First Year. Children’s Hospital of Philadelphia, Philadelphia, PA.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Children%E2%80%99s%20Hospital%20of%20Philadelphia,%20Philadelphia,%20PA&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R28">
+<span class="label">28.</span><cite>Johns Hopkins Medicine Feeding Guide for the First Year. The Johns Hopkins University, The Johns Hopkins Hospital, and Johns Hopkins Health System, Baltimore, MD.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=The%20Johns%20Hopkins%20University,%20The%20Johns%20Hopkins%20Hospital,%20and%20Johns%20Hopkins%20Health%20System,%20Baltimore,%20MD&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R29">
+<span class="label">29.</span><cite>Children’s Hospital of The King’s Daughters
+2011. 
+Infant Feeding Guide for the First Year. Norfolk, VA.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Infant%20Feeding%20Guide%20for%20the%20First%20Year&amp;publication_year=2011&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R30">
+<span class="label">30.</span><cite>U.S. Department of Agriculture FaNS Special Supplemental Nutrition Program for Women, Infants, and Children (WIC).</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/12814069/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Infants,%20and%20Children%20(WIC)&amp;pmid=12814069&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R31">
+<span class="label">31.</span><cite>Kavanagh-Prochaska K, Cohen R, Heinig M, Dewey K
+2006. 
+Educational intervention to modify bottle-feeding behaviors among formula feeding mothers in the WIC Program: Impact on infant formula intake, weight gain and fatness. Federation of American Societies for Experimental Biology.</cite> [<a href="https://doi.org/10.1016/j.jneb.2007.01.002" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18565465/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Federation%20of%20American%20Societies%20for%20Experimental%20Biology&amp;title=Educational%20intervention%20to%20modify%20bottle-feeding%20behaviors%20among%20formula%20feeding%20mothers%20in%20the%20WIC%20Program:%20Impact%20on%20infant%20formula%20intake,%20weight%20gain%20and%20fatness&amp;author=K%20Kavanagh-Prochaska&amp;author=R%20Cohen&amp;author=M%20Heinig&amp;author=K%20Dewey&amp;publication_year=2006&amp;pmid=18565465&amp;doi=10.1016/j.jneb.2007.01.002&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R32">
+<span class="label">32.</span><cite>Koletzko B, et al. 
+2005. 
+Protein intake in the first year of life: a risk factor for later
+obesity?
+Early nutrition and its later consequences: new opportunities. Springer, pp 69–79.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Early%20nutrition%20and%20its%20later%20consequences:%20new%20opportunities&amp;author=B%20Koletzko&amp;publication_year=2005&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R33">
+<span class="label">33.</span><cite>Moorcroft KE, Marshall JL, McCormick FM
+2011. 
+Association between timing of introducing solid foods and obesity in infancy and childhood: a systematic review. Maternal &amp; child nutrition
+7:3–26.</cite> [<a href="https://doi.org/10.1111/j.1740-8709.2010.00284.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6860567/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21143583/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Maternal%20&amp;%20child%20nutrition&amp;title=Association%20between%20timing%20of%20introducing%20solid%20foods%20and%20obesity%20in%20infancy%20and%20childhood:%20a%20systematic%20review&amp;author=KE%20Moorcroft&amp;author=JL%20Marshall&amp;author=FM%20McCormick&amp;volume=7&amp;publication_year=2011&amp;pages=3-26&amp;pmid=21143583&amp;doi=10.1111/j.1740-8709.2010.00284.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R34">
+<span class="label">34.</span><cite>Halpern R, Coelho R
+2016. 
+Excessive crying in infants. Jornal de pediatria
+92:S40–S45.</cite> [<a href="https://doi.org/10.1016/j.jped.2016.01.004" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26994450/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Jornal%20de%20pediatria&amp;title=Excessive%20crying%20in%20infants&amp;author=R%20Halpern&amp;author=R%20Coelho&amp;volume=92&amp;publication_year=2016&amp;pages=S40-S45&amp;pmid=26994450&amp;doi=10.1016/j.jped.2016.01.004&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R35">
+<span class="label">35.</span><cite>Morris S, St James-Roberts I, Sleep J, Gillham P
+2001. 
+Economic evaluation of strategies for managing crying and sleeping problems. Archives of disease in childhood
+84:15–19.</cite> [<a href="https://doi.org/10.1136/adc.84.1.15" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1718606/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11124777/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Archives%20of%20disease%20in%20childhood&amp;title=Economic%20evaluation%20of%20strategies%20for%20managing%20crying%20and%20sleeping%20problems&amp;author=S%20Morris&amp;author=I%20St%20James-Roberts&amp;author=J%20Sleep&amp;author=P%20Gillham&amp;volume=84&amp;publication_year=2001&amp;pages=15-19&amp;pmid=11124777&amp;doi=10.1136/adc.84.1.15&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R36">
+<span class="label">36.</span><cite>Wasser H, et al. 
+2011. 
+Infants perceived as “fussy” are more likely to receive complementary foods before 4 months. Pediatrics
+127:229–237.</cite> [<a href="https://doi.org/10.1542/peds.2010-0166" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3025423/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21220398/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=Infants%20perceived%20as%20%E2%80%9Cfussy%E2%80%9D%20are%20more%20likely%20to%20receive%20complementary%20foods%20before%204%20months&amp;author=H%20Wasser&amp;volume=127&amp;publication_year=2011&amp;pages=229-237&amp;pmid=21220398&amp;doi=10.1542/peds.2010-0166&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R37">
+<span class="label">37.</span><cite>O’Connor NR
+2009. 
+Infant formula. American family physician
+79:565–570.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/19378873/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=American%20family%20physician&amp;title=Infant%20formula&amp;author=NR%20O%E2%80%99Connor&amp;volume=79&amp;publication_year=2009&amp;pages=565-570&amp;pmid=19378873&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section><section id="_ad93_" lang="en" class="associated-data"><h2 class="pmc_sec_title">Associated Data</h2>
+<p class="font-secondary"><em>This section collects any data citations, data availability statements, or supplementary materials included in this article.</em></p>
+<section id="_adsm93_" lang="en" class="supplementary-materials"><h3 class="pmc_sec_title">Supplementary Materials</h3>
+<section class="sm xbox font-sm" id="db_ds_supplementary-material1_reqid_"><div class="caption p"><span>1</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/7492437/bin/NIHMS1573256-supplement-1.pdf" data-ga-action="click_feat_suppl" class="usa-link">NIHMS1573256-supplement-1.pdf</a><sup> (125.9KB, pdf) </sup>
+</div></div></section></section></section></section></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1038/s41390-020-0844-3"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/nihms-1573256.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (1.3 MB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/7492437/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/7492437/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7492437%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492437/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC7492437/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC7492437/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/32179869/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC7492437/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/32179869/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC7492437/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/7492437/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="KAdB8xxueidCxhvEoDaS64vRhjynqbFQ5jGdFrFyXCfz2nmOrR4nFa8Bm82nm61z">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

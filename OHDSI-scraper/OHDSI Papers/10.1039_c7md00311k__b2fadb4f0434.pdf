@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head id="Head1">
+    <title>
+        
+    MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, in vitro study, and docking calculations - MedChemComm (RSC Publishing)
+
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRJS-aaa897feae8feeca979","applicationID":"1313546638","transactionName":"M1wANxQFCEcDVU0PWgoWLzUlSyVbDEJcCEEnVgwXFAsKWAdEFgdHEFABDwMIB1oGX1cB","queueTime":0,"applicationTime":141,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["soft_nav"],distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1386013924",accountID:"2851366",trustKey:"1029994",xpid:"Vg4CUFVVDhABV1BRAgUBUFcJ",licenseKey:"NRJS-aaa897feae8feeca979",applicationID:"1313546638",browserID:"1386013924"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(31),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(32),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),S=t(15),P=t(10),M=t("ee"),C=M.get("tracer"),N=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),P.on(p,r),M.on(d,o),b.on(l,o),P.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),S.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),C.buffer([u,"no-"+u]),P.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(P,"new-jsonp"),a(P,"jsonp-end"),a(P,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,N(!0)),w[v]("load",i,N(!0)),w[v]("popstate",function(){i(0,U>1)},N(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(32),a=t(31);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(31),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(28),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=t(25).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;if("string"==typeof i?n=i:"object"==typeof i&&i instanceof y?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n),"data"!==this.params.protocol){var s=(""+(i&&i instanceof y&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(31),s=t(32),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(33);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var o=[r],i=a({});i&&o.push(i),l("lcp",o)}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,l("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),l("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,p,l=t("handle"),h=t("loader"),m=t(30),v=t(23),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(o);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}p=new PerformanceObserver(i);try{p.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],28:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(t)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],29:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],30:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],31:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],32:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],33:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(31),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!T++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===m.readyState&&i()}function i(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(26),s=t("handle"),c=t(31),f=t("ee"),u=t(29),d=t(21),p=t(23),l=d.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",w="attachEvent",g=h.XMLHttpRequest,y=g&&g.prototype,x=!1;NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:g,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1216.min.js"},R=g&&y&&y[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:x};if(!x){t(20),t(27),m[v]?(m[v]("DOMContentLoaded",i,p(!1)),h[v]("load",r,p(!1))):(m[w]("onreadystatechange",o),h[w]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var T=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(32),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="dns-prefetch" href="//www.rsc-cdn.org">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <!--[if lt IE 9 ]>
+      <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+      </script>
+    <![endif]-->
+    <link href="https://www.rsc-cdn.org/oxygen/assets/webfonts/fonts.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/stylesheets/pubs-ui.min.css" rel="stylesheet" type="text/css" />
+    
+    
+
+<meta name="dc.domain" content="pdf" />
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Royal Society of Chemistry"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://pubs.rsc.org/en/content/articlelanding/2017/md/c7md00311k"
+    },
+    "headline": "MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, in vitro study, and docking calculations",
+    "image": "https://pubs.rsc.org/en/Content/Image/GA/C7MD00311K",
+    "isAccessibleForFree": "False",
+    "hasPart": {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".t-html"
+    }
+  }
+</script>
+<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@MedChemComm" />
+<meta property="og:url" content="https://pubs.rsc.org/en/content/articlelanding/2017/md/c7md00311k" />
+<meta property="og:type" content="Article" />
+<meta property="og:title" content="MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, in vitro study, and docking calculations" />
+    <meta property="og:image" content="https://pubs.rsc.org/en/Content/Image/GA/C7MD00311K" />
+    <meta property="og:description" content="Monoamine oxidase (MAO) is an enzyme responsible for metabolism of monoamine neurotransmitters which play an important role in brain development and function. This enzyme exists in two isoforms, and it has been demonstrated that MAO-B activity, but not MAO-A activity, increases with aging. MAO inhibitors sho" />
+<link rel="canonical" href="https://pubs.rsc.org/en/content/articlelanding/2017/md/c7md00311k" />
+    <meta name="DC.Creator" content="G. L. Delogu" />
+<meta content="G. L. Delogu" name="citation_author" /><meta content="Department of Life Sciences and Environment – Section of Pharmaceutical Sciences – University of Cagliari, 09124 Cagliari, Italy" name="citation_author_institution" />    <meta name="DC.Creator" content="F. Pintus" />
+<meta content="F. Pintus" name="citation_author" /><meta content="Department of Life Sciences and Environment – Section of Pharmaceutical Sciences – University of Cagliari, 09124 Cagliari, Italy" name="citation_author_institution" />    <meta name="DC.Creator" content="L. May&#225;n" />
+<meta content="L. Mayán" name="citation_author" /><meta content="Department of Pharmacology – CIMUS University of Santiago de Compostela Avda Barcelona s/n, Campus Vida, 15782 Santiago de Compostela, Spain" name="citation_author_institution" /><meta content="Department of Pharmacology, Faculty of Pharmacy, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain" name="citation_author_institution" />    <meta name="DC.Creator" content="M. J. Matos" />
+<meta content="M. J. Matos" name="citation_author" /><meta content="Department of Organic Chemistry, Faculty of Pharmacy, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain" name="citation_author_institution" />    <meta name="DC.Creator" content="S. Vilar" />
+<meta content="S. Vilar" name="citation_author" /><meta content="Department of Organic Chemistry, Faculty of Pharmacy, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain" name="citation_author_institution" /><meta content="Department of Biomedical Informatics, Columbia University, Medical Center of New York, 10032 New York, USA" name="citation_author_institution" />    <meta name="DC.Creator" content="J. Mun&#237;n" />
+<meta content="J. Munín" name="citation_author" /><meta content="Department of Pharmacology – CIMUS University of Santiago de Compostela Avda Barcelona s/n, Campus Vida, 15782 Santiago de Compostela, Spain" name="citation_author_institution" /><meta content="Department of Organic Chemistry, Faculty of Pharmacy, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain" name="citation_author_institution" />    <meta name="DC.Creator" content="J. A. Fontenla" />
+<meta content="J. A. Fontenla" name="citation_author" /><meta content="Department of Pharmacology, Faculty of Pharmacy, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain" name="citation_author_institution" />    <meta name="DC.Creator" content="G. Hripcsak" />
+<meta content="G. Hripcsak" name="citation_author" /><meta content="Department of Biomedical Informatics, Columbia University, Medical Center of New York, 10032 New York, USA" name="citation_author_institution" />    <meta name="DC.Creator" content="F. Borges" />
+<meta content="F. Borges" name="citation_author" /><meta content="CIQUP/Department of Chemistry and Biochemistry, University of Porto, Portugal" name="citation_author_institution" />    <meta name="DC.Creator" content="D. Vi&#241;a" />
+<meta content="D. Viña" name="citation_author" /><meta content="Department of Pharmacology – CIMUS University of Santiago de Compostela Avda Barcelona s/n, Campus Vida, 15782 Santiago de Compostela, Spain" name="citation_author_institution" /><meta name="DC.title" content="MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, in vitro study, and docking calculations" />
+<meta name="DC.publisher" content="The Royal Society of Chemistry" />
+<meta name="DC.issued" content="2017/07/07" />
+<meta name="DC.Identifier" content="10.1039/C7MD00311K" />
+<meta name="DC.Language" content="en" />
+<meta name="PPL.DocType" content="journals" />
+<meta name="description" content="Monoamine oxidase (MAO) is an enzyme responsible for metabolism of monoamine neurotransmitters which play an important role in brain development and function. This enzyme exists in two isoforms, and it has been demonstrated that MAO-B activity, but not MAO-A activity, increases with aging. MAO inhibitors sho
+    " />
+
+<meta content="2040-2511" name="citation_issn" />
+<meta content="MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, in vitro study, and docking calculations" name="citation_title" />
+<meta content="2017/07/07" name="citation_online_date" /><meta content="2017/09/21" name="citation_publication_date" />
+<meta content="MedChemComm" name="citation_journal_title" />
+<meta content="8" name="citation_volume" />
+<meta content="9" name="citation_issue" />
+<meta content="1788" name="citation_firstpage" />
+<meta content="1796" name="citation_lastpage" />
+<meta content="10.1039/C7MD00311K" name="citation_doi" />
+<meta content="https://pubs.rsc.org/en/content/articlepdf/2017/md/c7md00311k" name="citation_pdf_url" />
+<meta content="https://pubs.rsc.org/en/content/articlelanding/2017/md/c7md00311k" name="citation_abstract_html_url" />
+<meta content="https://pubs.rsc.org/en/content/articlehtml/2017/md/c7md00311k" name="citation_fulltext_html_url" />
+<meta content="Med. Chem. Commun." name="citation_journal_abbrev" />
+<meta name="keywords" content="" />
+            <meta name="citation_reference" content="citation_author=R. R. Ramsay;
+citation_journal_title=Curr. Top. Med. Chem.;
+citation_volume=12;
+citation_pages=2189;citation_publication_date=2012;
+" />
+            <meta name="citation_reference" content="citation_author=J. P. Finberg;
+citation_journal_title=Pharmacol. Ther.;
+citation_volume=143;
+citation_pages=133;citation_publication_date=2014;
+" />
+            <meta name="citation_reference" content="citation_author=J. S. Fowler;
+citation_author=N. D. Volkow;
+citation_author=G. J. Wang;
+citation_author=J. Logan;
+citation_author=N. Pappas;
+citation_author=C. Shea;
+citation_author=R. MacGregor;
+citation_journal_title=Neurobiol. Aging;
+citation_volume=18;
+citation_pages=431;citation_publication_date=1997;
+" />
+            <meta name="citation_reference" content="citation_author=M. Naoi;
+citation_author=W. Maruyama;
+citation_journal_title=Curr. Pharm. Des.;
+citation_volume=16;
+citation_pages=2799;citation_publication_date=2010;
+" />
+            <meta name="citation_reference" content="citation_author=G. Cohen;
+citation_journal_title=J. Neural Transm., Suppl.;
+citation_volume=32;
+citation_pages=229;citation_publication_date=1990;
+" />
+            <meta name="citation_reference" content="citation_author=Y. Yuan;
+citation_author=Q. Tong;
+citation_author=L. Zhang;
+citation_author=S. Jiang;
+citation_author=H. Zhou;
+citation_author=R. Zhang;
+citation_author=S. Zhang;
+citation_author=Q. Xu;
+citation_author=D. Li;
+citation_author=X. Zhou;
+citation_author=J. Ding;
+citation_author=K. Zhang;
+citation_journal_title=Int. J. Neurosci.;
+citation_volume=126;
+citation_pages=641;citation_publication_date=2016;
+" />
+            <meta name="citation_reference" content="citation_author=C. J. Fowler;
+citation_author=A. Wiberg;
+citation_author=L. Oreland;
+citation_author=J. Marcusson;
+citation_author=B. Winblad;
+citation_journal_title=J. Neural Transm.: Gen. Sect.;
+citation_volume=49;
+citation_pages=1;citation_publication_date=1980;
+" />
+            <meta name="citation_reference" content="citation_author=F. Vaiclav;
+citation_author=E. Koliba&#39;s;
+citation_journal_title=J. Psychiatry Neurosci.;
+citation_volume=24;
+citation_pages=234;citation_publication_date=1999;
+" />
+            <meta name="citation_reference" content="citation_author=A. M. Helguera;
+citation_author=G. Perez-Machado;
+citation_author=M. N. Cordeiro;
+citation_author=F. Borges;
+citation_journal_title=Mini-Rev. Med. Chem.;
+citation_volume=12;
+citation_pages=907;citation_publication_date=2012;
+" />
+            <meta name="citation_reference" content="citation_author=J. Reis;
+citation_author=I. Encarna&#231;&#227;o;
+citation_author=A. Gaspar;
+citation_author=A. Morales;
+citation_author=N. Milhazes;
+citation_author=F. Borges;
+citation_journal_title=Curr. Top. Med. Chem.;
+citation_volume=12;
+citation_pages=2116;citation_publication_date=2012;
+" />
+            <meta name="citation_reference" content="citation_author=C. Binda;
+citation_author=P. Newton-Vinson;
+citation_author=F. Hubalek;
+citation_author=D. E. Edmondson;
+citation_author=A. Mattevi;
+citation_journal_title=Nat. Struct. Mol. Biol.;
+citation_volume=9;
+citation_pages=22;citation_publication_date=2002;
+" />
+            <meta name="citation_reference" content="citation_author=C. Binda;
+citation_author=M. Li;
+citation_author=F. Hubelek;
+citation_author=N. Restelli;
+citation_author=D. E. Edmondson;
+citation_author=A. Mattevi;
+citation_journal_title=Proc. Natl. Acad. Sci. U. S. A.;
+citation_volume=100;
+citation_pages=9750;citation_publication_date=2003;
+" />
+            <meta name="citation_reference" content="citation_author=L. De Colibus;
+citation_author=M. Li;
+citation_author=C. Binda;
+citation_author=A. Lustig;
+citation_author=D. E. Edmondson;
+citation_author=A. Mattevi;
+citation_journal_title=Proc. Natl. Acad. Sci. U. S. A.;
+citation_volume=102;
+citation_pages=12684;citation_publication_date=2005;
+" />
+            <meta name="citation_reference" content="citation_author=Y. Jiang;
+citation_author=B. Gao;
+citation_author=W. Huang;
+citation_author=Y. Liang;
+citation_author=G. Huang;
+citation_author=Y. Ma;
+citation_journal_title=Synth. Commun.;
+citation_volume=39;
+citation_pages=197;citation_publication_date=2008;
+" />
+            <meta name="citation_reference" content="citation_author=S. A. Galal;
+citation_author=A. S. Abd El-All;
+citation_author=M. M. Abdallah;
+citation_author=H. I. El-Diwani;
+citation_journal_title=Bioorg. Med. Chem. Lett.;
+citation_volume=19;
+citation_pages=2420;citation_publication_date=2009;
+" />
+            <meta name="citation_reference" content="citation_author=L. H. A. Prins;
+citation_author=J. P. Petzer;
+citation_author=S. F. Malan;
+citation_journal_title=Eur. J. Med. Chem.;
+citation_volume=45;
+citation_pages=4458;citation_publication_date=2010;
+" />
+            <meta name="citation_reference" content="citation_author=W. J. Geldenhuys;
+citation_author=M. O. Funk;
+citation_author=C. J. Van der Schyf;
+citation_author=R. T. Carroll;
+citation_journal_title=Bioorg. Med. Chem. Lett.;
+citation_volume=22;
+citation_pages=1380;citation_publication_date=2012;
+" />
+            <meta name="citation_reference" content="citation_author=L. Pisani;
+citation_author=M. Barletta;
+citation_author=R. Soto-Otero;
+citation_author=O. Nicolotti;
+citation_author=E. Mendez-Alvarez;
+citation_author=M. Catto;
+citation_author=A. Introcaso;
+citation_author=A. Stefanachi;
+citation_author=S. Cellamare;
+citation_author=C. Altomare;
+citation_author=A. Carotti;
+citation_journal_title=J. Med. Chem.;
+citation_volume=56;
+citation_pages=2651;citation_publication_date=2013;
+" />
+            <meta name="citation_reference" content="citation_author=A. S. Van Dyk;
+citation_author=J. P. Petzer;
+citation_author=A. Petzer;
+citation_author=L. J. Legoabe;
+citation_journal_title=Drug Des., Dev. Ther.;
+citation_volume=9;
+citation_pages=5479;citation_publication_date=2015;
+" />
+            <meta name="citation_reference" content="citation_author=G. Ferino;
+citation_author=E. Cadoni;
+citation_author=M. J. Matos;
+citation_author=E. Quezada;
+citation_author=E. Uriarte;
+citation_author=L. Santana;
+citation_author=S. Vilar;
+citation_author=N. P. Tatonetti;
+citation_author=M. Y&#225;&#241;ez;
+citation_author=D. Vi&#241;a;
+citation_author=C. Picciau;
+citation_author=S. Serra;
+citation_author=G. Delogu;
+citation_journal_title=ChemMedChem;
+citation_volume=8;
+citation_pages=956;citation_publication_date=2013;
+" />
+            <meta name="citation_reference" content="citation_author=M. J. Matos;
+citation_author=C. Ter&#225;n;
+citation_author=Y. P&#233;rez-Castillo;
+citation_author=E. Uriarte;
+citation_author=L. Santana;
+citation_author=D. Vi&#241;a;
+citation_journal_title=J. Med. Chem.;
+citation_volume=54;
+citation_pages=7127;citation_publication_date=2011;
+" />
+            <meta name="citation_reference" content="citation_author=D. Vi&#241;a;
+citation_author=M. J. Matos;
+citation_author=G. Ferino;
+citation_author=E. Cadoni;
+citation_author=R. Laguna;
+citation_author=F. Borges;
+citation_author=E. Uriarte;
+citation_author=L. Santana;
+citation_journal_title=ChemMedChem;
+citation_volume=7;
+citation_pages=464;citation_publication_date=2012;
+" />
+            <meta name="citation_reference" content="citation_author=S. Carradori;
+citation_author=R. Silvestri;
+citation_journal_title=J. Med. Chem.;
+citation_volume=58;
+citation_pages=6717;citation_publication_date=2015;
+" />
+            <meta name="citation_reference" content="citation_author=B. Wendt;
+citation_author=H. Riem Ha;
+citation_author=M. Hesse;
+citation_journal_title=Helv. Chim. Acta;
+citation_volume=85;
+citation_pages=2990;citation_publication_date=2002;
+" />
+            <meta name="citation_reference" content="citation_author=C. Ducho;
+citation_author=S. Wendicke;
+citation_author=U. G&#246;rbig;
+citation_author=J. Balzarini;
+citation_author=C. Meier;
+citation_journal_title=Eur. J. Org. Chem.;
+citation_volume=2003;
+citation_pages=4786;citation_publication_date=2003;
+" />
+            <meta name="citation_reference" content="citation_author=C. Meier;
+citation_author=E. De Clercq;
+citation_author=J. Balzarini;
+citation_journal_title=Eur. J. Org. Chem.;
+citation_volume=1998;
+citation_pages=837;citation_publication_date=1998;
+" />
+            <meta name="citation_reference" content="citation_author=A. Hercouet;
+citation_author=M. Le Corre;
+citation_journal_title=Tetrahedron Lett.;
+citation_volume=23;
+citation_pages=2145;citation_publication_date=1979;
+" />
+            <meta name="citation_reference" content="citation_author=L. J. Twyman;
+citation_author=D. Allsop;
+citation_journal_title=Tetrahedron Lett.;
+citation_volume=40;
+citation_pages=9383;citation_publication_date=1999;
+" />
+            <meta name="citation_reference" content="citation_author=N. Takeda;
+citation_author=O. Miyata;
+citation_author=T. Naito;
+citation_journal_title=Eur. J. Org. Chem.;
+citation_pages=1491;citation_publication_date=2007;
+" />
+            <meta name="citation_reference" content="citation_author=M. Y&#225;&#241;ez;
+citation_author=N. Fraiz;
+citation_author=E. Cano;
+citation_author=F. Orallo;
+citation_journal_title=Biochem. Biophys. Res. Commun.;
+citation_volume=344;
+citation_pages=688;citation_publication_date=2006;
+" />
+            <meta name="citation_reference" content="citation_author=M. Gerlach;
+citation_author=P. Riederer;
+citation_author=M. B. Youdim;
+citation_journal_title=Eur. J. Pharmacol.;
+citation_volume=226;
+citation_pages=97;citation_publication_date=1992;
+" />
+            <meta name="citation_reference" content="citation_author=Y. Liu;
+citation_author=D. A. Peterson;
+citation_author=H. Kimura;
+citation_author=D. Schubert;
+citation_journal_title=J. Neurochem.;
+citation_volume=69;
+citation_pages=581;citation_publication_date=1997;
+" />
+            <meta name="citation_reference" content="citation_author=C. Binda;
+citation_author=J. Wang;
+citation_author=L. Pisani;
+citation_author=C. Caccia;
+citation_author=A. Carotti;
+citation_author=P. Salvati;
+citation_author=D. E. Edmondson;
+citation_author=A. Mattevi;
+citation_journal_title=J. Med. Chem.;
+citation_volume=50;
+citation_pages=5848;citation_publication_date=2007;
+" />
+            <meta name="citation_reference" content="citation_author=M. J. Matos;
+citation_author=P. Janeiro;
+citation_author=R. M. Gonz&#225;lez Franco;
+citation_author=S. Vilar;
+citation_author=N. P. Tatonetti;
+citation_author=L. Santana;
+citation_author=E. Uriarte;
+citation_author=F. Borges;
+citation_author=J. A. Fontenla;
+citation_author=D. Vi&#241;a;
+citation_journal_title=Future Med. Chem.;
+citation_volume=6;
+citation_pages=371;citation_publication_date=2014;
+" />
+            <meta name="citation_reference" content="citation_author=G. L. Delogu;
+citation_author=S. Serra;
+citation_author=E. Quezada;
+citation_author=E. Uriarte;
+citation_author=S. Vilar;
+citation_author=N. P. Tatonetti;
+citation_author=D. Vi&#241;a;
+citation_journal_title=ChemMedChem;
+citation_volume=9;
+citation_pages=1672;citation_publication_date=2014;
+" />
+            <meta name="citation_reference" content="citation_author=M. J. Matos;
+citation_author=S. Vilar;
+citation_author=V. Garc&#237;a-Morales;
+citation_author=N. P. Tatonetti;
+citation_author=E. Uriarte;
+citation_author=L. Santana;
+citation_author=D. Vi&#241;a;
+citation_journal_title=ChemMedChem;
+citation_volume=9;
+citation_pages=1488;citation_publication_date=2014;
+" />
+            <meta name="citation_reference" content="citation_author=C. A. Lipinsky;
+citation_author=F. Lombardo;
+citation_author=B. W. Dominy;
+citation_author=P. J. Feeny;
+citation_journal_title=Adv. Drug Delivery Rev.;
+citation_volume=23;
+citation_pages=3;citation_publication_date=1997;
+" />
+            <meta name="citation_reference" content="citation_author=A. K. Ghose;
+citation_author=V. N. Viswanadhan;
+citation_author=J. J. Wendoloski;
+citation_journal_title=J. Comb. Chem.;
+citation_volume=1;
+citation_pages=55;citation_publication_date=1999;
+" />
+            <meta name="citation_reference" content="citation_author=D. Bonivento;
+citation_author=E. M. Milczek;
+citation_author=G. R. McDonald;
+citation_author=C. Binda;
+citation_author=A. Holt;
+citation_author=D. E. Edmondson;
+citation_author=A. Mattevi;
+citation_journal_title=J. Biol. Chem.;
+citation_volume=285;
+citation_pages=36849;citation_publication_date=2010;
+" />
+            <meta name="citation_reference" content="citation_author=R. Constantinescu;
+citation_author=A. T. Constantinescu;
+citation_author=H. Reichmann;
+citation_author=B. Janetzky;
+citation_journal_title=J. Neural Transm.;
+citation_volume=S72;
+citation_pages=17;citation_publication_date=2007;
+" />
+<meta content="       Monoamine oxidase (MAO) is an enzyme responsible for metabolism of monoamine neurotransmitters which play an important role in brain development and function. This enzyme exists in two isoforms, and it has been demonstrated that MAO-B activity, but not MAO-A activity, increases with aging. MAO inhibitors show clinical value because besides the monoamine level regulation they reduce the formation of by-products of the MAO catalytic cycle, which are toxic to the brain. A series of 2-phenylbenzofuran derivatives was designed, synthesized and evaluated against hMAO-A and hMAO-B enzymes. A bromine substituent was introduced in the 2-phenyl ring, whereas position 5 or 7 of the benzofuran moiety was substituted with a methyl group. Most of the tested compounds inhibited preferentially MAO-B in a reversible manner, with IC50 values in the low micro or nanomolar range. The 2-(2′-bromophenyl)-5-methylbenzofuran (5) was the most active compound identified (IC50 = 0.20 μM). In addition, none of the studied compounds showed cytotoxic activity against the human neuroblastoma cell line SH-SY5Y. Molecular docking simulations were used to explain the observed hMAO-B structure–activity relationship for this type of compounds.     " name="citation_abstract" />
+
+<meta name="fragment" content="!" />
+
+
+<!-- OneTrust Cookies Consent Notice start for pubs.rsc.org -->
+    <script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/4858ece2-d985-4da2-982d-42219fead606/OtAutoBlock.js"></script>
+    <script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="4858ece2-d985-4da2-982d-42219fead606"></script>
+    <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script>
+
+<!-- OneTrust Cookies Consent Notice end for pubs.rsc.org -->
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5HVSFVCN');</script>
+        <!-- End Google Tag Manager -->
+
+</head>
+
+<body id="pagetop" class="oxy-ui pubs-ui 
+    alp-page
+">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5HVSFVCN"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+
+        <div data-id="pnlAccSkipLinks" class="skipto-control">
+            <a href="#maincontent" class="skipto__link">
+                <div class="viewport r-gutter">
+                    Jump to main content <img src="https://www.rsc-cdn.org/oxygen/assets/icons/arrow-right-o-light.png" width="24" class="ver-m" alt="">
+                </div>
+            </a>
+            <a href="#SearchText" class="skipto__link">
+                <div class="viewport r-gutter">
+                    Jump to site search <img src="https://www.rsc-cdn.org/oxygen/assets/icons/arrow-right-o-light.png" width="24" class="ver-m" alt="">
+                </div>
+            </a>
+        </div>
+
+    <header role="banner" data-id="pnlGlobalHeader" class="pubs-header">
+        <div class="viewport">
+            <div class="pubs-header__wrapper">
+                <div class="pubs-header__cell pubs-header__cell--menu">
+                    <a href="#" role="button" id="btnHamburgerMainNav" class="pubs-header__btn pubs-header__btn--open" aria-label="Open site menu"><img src="https://www.rsc-cdn.org/oxygen/assets/icons/menu-light.png" width="24" alt=""></a>
+                </div>
+
+                <div class="pubs-header__cell pubs-header__cell--home">
+                    <a href="/" class="pubs-header__link pubs-header__link--home" title="Publishing home page" aria-label="Publishing home page">Publishing</a>
+                </div>
+
+
+
+<div class="pubs-header__cell pubs-header__cell--nav">
+    <nav class="pubs-header__nav">
+        <ul>
+                    <li class="pubs-header__nav-item"><a href="/en/journals?key=title&amp;value=current" class="pubs-header__link" target="_self">Journals</a></li>
+                    <li class="pubs-header__nav-item"><a href="https://books.rsc.org/books/search-results?fl_SiteID=5&amp;page=1&amp;f_ContentType=Book&amp;sort=Date+-+Newest+First" class="pubs-header__link" target="_blank">Books</a></li>
+                    <li class="pubs-header__nav-item"><a href="https://www.rsc.org/journals-books-databases/databases-literature-updates/" class="pubs-header__link" target="_blank">Databases</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+
+<div class="pubs-header__cell pubs-header__cell--search-mobile">
+    <a href="#" class="pubs-header__btn" aria-label="Search" id="mobileSearchTrigger"><img src="https://www.rsc-cdn.org/oxygen/assets/icons/search-light.png" width="24" alt="" id="mobileSearchIcon"></a>
+</div>
+
+<div class="pubs-header__cell pubs-header__cell--search">
+    <div class="pubs-search-control">
+<form action="/en/results" aria-label="Sitewide" id="SimpleSearch-form" method="post" role="search">            <label for="SearchText" class="sr-only">Search</label>
+            <input autocomplete="off" class="pubs-search__input" id="SearchText" name="SearchText" type="search" value="" />
+            <div class="pubs-search__actions">
+                <button class="input__search-submit" type="submit" aria-label="Search" id="btnNavSearchInput"><img src="https://www.rsc-cdn.org/oxygen/assets/icons/arrow-right.png" width="32" alt=""></button>
+                <a class="pubs-search__adv-link" href="/en/search/advancedsearch" aria-label="Advanced search" id="advancedLink">Advanced</a>
+            </div>
+            <span class="pubs-search__icon"></span>
+</form>    </div>
+</div>
+
+
+                <div class="pubs-header__cell pubs-header__cell--login">
+                        <a href="/en/account/logon" class="pubs-header__btn" aria-label="Log in or register"><img src="https://www.rsc-cdn.org/oxygen/assets/icons/user-light.png" width="24" alt="" id="userIcon"></a>
+                </div>
+
+
+<div class="pubs-header__cell pubs-header__cell--trolley">
+    <a href="https://www.rsc.org/basket/shoppingcart/orderitems?returnurl=https://pubs.rsc.org/en/content/articlelanding/2017/md/c7md00311k/unauth" class="pubs-header__btn" aria-label="View your basket"><img src="https://www.rsc-cdn.org/oxygen/assets/icons/trolley-light.png" width="24" alt="" id="trolleyIcon"></a>
+    <span class="badge badge--count" style="display: none;"></span>
+</div>
+
+
+                <div class="pubs-header__cell pubs-header__cell--logo">
+                    <a href="https://www.rsc.org" class=""><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/rsc-logo-rev-pubs.svg" height="40" alt="Royal Society of Chemistry homepage"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-search" id="mobileSearchPanel">
+            <div class="viewport">
+                <div class="">
+                    <div class="autopad--h fixpadt--l">
+<form action="/en/results" aria-label="Sitewide" id="SimpleSearch-formMobile" method="post" role="search">                            <label for="SearchTextMobile" class="sr-only">Search</label>
+                            <div class="input__search">
+                                <i class="icon--search"></i>
+                                <input autocomplete="off" placeholder="Search term, doi, title, author" type="search" class="input__field input__field--basic input__label--block" id="SearchTextMobile" name="SearchText">
+                                <button class="input__search-submit" name="search" type="submit" aria-label="Search">
+                                    <img src="https://www.rsc-cdn.org/oxygen/assets/icons/arrow-right.png" width="32" alt="" class="input__submit-icon">
+                                </button>
+                            </div>
+                            <div class="input--error" id="errSimpleSearchMobileText">You must enter a search term</div>
+                            <div class="fixpadv--m">
+                                <a class="pubs-search__adv-link " href="/en/search/advancedsearch" aria-label="Advanced search" id="advancedLink">Advanced search</a>
+                            </div>
+</form>                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="auth-header" data-id="pnlAuthHeader">
+            <div data-id="pnlSignIn"></div>
+            <div class="viewport">
+                <div class="auth-header__institute-access">
+                    <div class="auth-header__institute-messaging">
+                        <span id="divWelcomeUser"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <main role="main">
+
+        
+
+        <noscript>
+            <div class="viewport autopad--h fixpadb--m">
+                <div class="plate plate--warning">
+                    You do not have JavaScript enabled. Please enable JavaScript
+                    to access the full features of the site or access our
+                    <a href="/en/home/nonjavascriptversion">non-JavaScript page</a>.
+                </div>
+            </div>
+        </noscript>
+
+        <div id="maincontent">
+            <div id="a11y-announcer" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+            
+
+
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+    googletag.cmd.push(function () {
+        googletag.defineSlot('/97414310/pubs_generic_mpu_1', [300, 250], 'div-dfp-ad-1').addService(googletag.pubads());
+        googletag.defineSlot('/97414310/pubs_generic_mpu_2', [300, 250], 'div-dfp-ad-2').addService(googletag.pubads());
+        googletag.defineSlot('/97414310/pubs_generic_mpu_3', [300, 250], 'div-dfp-ad-3').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
+</script>
+
+
+
+
+
+<input type="hidden" id="clicked_GetPatents" value="false" />
+<input id="pageNumberTab" type="hidden" />
+<input id="CitedByPN" type="hidden" />
+
+<br>
+<div class="viewport">
+
+    <div class="layout-control">
+        <div class="layout__panel layout__panel--primary layout__panel--60 layout__panel--filled">
+            <section class="layout__content layout__content--padded">
+
+                <div class="article-nav">
+
+                        <div class="article-nav__issue autopad--h">
+                            <a href="/en/journals/journal/md?issueid=md008009&amp;type=current" aria-label="From Issue 9, 2017. Click to view all articles in this issue." title="Issue 9, 2017">Issue 9, 2017</a>
+                        </div>
+
+                        <nav aria-label="Article">
+                            <ul class="article-nav__bar">
+                                <li>
+                                    <a href="/en/Content/ArticleLanding/2017/MD/C7MD00252A">
+                                        Previous <span class="v-mobile-hide--inline">Article</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/en/Content/ArticleLanding/2017/MD/C7MD00270J">
+                                        Next <span class="v-mobile-hide--inline">Article</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    <div class="list-control">
+                        <div class="list__collection--image">
+                            <div class="list__item">
+                                <a href="/en/journals/journal/md" class="list__item-link">
+                                    <div class="list__image-col">
+                                        <img src="/en/Image/Get?imageInfo.ImageType=CoverIssue&amp;imageInfo.ImageIdentifier.SerCode=MD&amp;imageInfo.ImageIdentifier.IssueId=MD008009" id="imgLoader" alt="" class="list__item-img" height="88">
+                                    </div>
+                                    <div class="list__text-col">
+                                        <div class="list__item-label">
+                                            <span class="page-head__context">From the journal:</span>
+                                            <h3 class="h--heading3 no-heading">MedChemComm</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+                <article class="article-control">
+                    <div class="article__title">
+                        <h2 class="capsule__title fixpadv--m">
+
+MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, <em>in vitro</em> study, and docking calculations<a href="#fn1" title="The authors declare no competing interest.">&#8224;</a>                                                    </h2>
+    <div class="fixpadv--m crossmark-button">
+        <button type="button" data-target="crossmark"><img width="150" height="32" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" alt="Check for updates" /></button>
+    </div>
+
+                    </div>
+                        <div class="article__authors">
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AG.%20L.%20Delogu">G. L.
+Delogu</a>,                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for G. L. Delogu (orcid.org/0000-0003-0307-1544) in a new window" href="https://orcid.org/0000-0003-0307-1544"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+*<span><sup><i>a</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AF.%20Pintus">F.
+Pintus</a>,                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for F. Pintus (orcid.org/0000-0003-2350-7966) in a new window" href="https://orcid.org/0000-0003-2350-7966"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+<span><sup><i>a</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AL.%20May%C3%A1n">L.
+May&#225;n</a>,<span><sup><i>bc</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AM.%20J.%20Matos">M. J.
+Matos</a>,                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for M. J. Matos (orcid.org/0000-0002-3470-8299) in a new window" href="https://orcid.org/0000-0002-3470-8299"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+<span><sup><i>d</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AS.%20Vilar">S.
+Vilar</a>,                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for S. Vilar (orcid.org/0000-0003-2663-4370) in a new window" href="https://orcid.org/0000-0003-2663-4370"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+<span><sup><i>de</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AJ.%20Mun%C3%ADn">J.
+Mun&#237;n</a>,<span><sup><i>bd</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AJ.%20A.%20Fontenla">J. A.
+Fontenla</a>,                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for J. A. Fontenla (orcid.org/0000-0002-9758-676X) in a new window" href="https://orcid.org/0000-0002-9758-676X"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+<span><sup><i>c</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AG.%20Hripcsak">G.
+Hripcsak</a>,                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for G. Hripcsak (orcid.org/0000-0003-2664-7614) in a new window" href="https://orcid.org/0000-0003-2664-7614"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+<span><sup><i>e</i></sup></span>
+&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AF.%20Borges">F.
+Borges</a>                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for F. Borges (orcid.org/0000-0003-1050-2402) in a new window" href="https://orcid.org/0000-0003-1050-2402"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+<span><sup><i>f</i></sup></span>
+&nbsp;and&nbsp;
+        </span>
+        <span class="article__author-link">
+<a href="/en/results?searchtext=Author%3AD.%20Vi%C3%B1a">D.
+Vi&#241;a</a>                    <span class="orcid ver-b"><a target="_blank" title="Select to open ORCID record for D. Vi&#241;a (orcid.org/0000-0001-5777-1955) in a new window" href="https://orcid.org/0000-0001-5777-1955"><img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/orcid_16x16.png" alt="ORCID logo"></a></span>
+*<span><sup><i>b</i></sup></span>
+&nbsp;
+        </span>
+
+                        </div>
+                        <div class="drawer-control fixpadv--m">
+        <a href="#" role="button" id="btnAuthorAffiliations" aria-expanded="false" aria-controls="pnlAuthorAffiliations" class="drawer__handle">
+            <span class="drawer__icon"></span> Author affiliations
+        </a>
+        <div class="drawer__content" id="pnlAuthorAffiliations" aria-labelledby="btnAuthorAffiliations">
+            <div>
+                    <p class="article__author-affiliation">
+                        <span>
+*                        </span>
+
+                        <span>
+                            Corresponding authors
+
+                                                                                                            </span>
+                    </p>
+                    <p class="article__author-affiliation">
+                        <span>
+                                <sup>a</sup>
+                        </span>
+
+                        <span>
+                            Department of Life Sciences and Environment – Section of Pharmaceutical Sciences – University of Cagliari, 09124 Cagliari, Italy
+
+                                <br />
+                                <b>E-mail:</b>
+                                    <a href="mailto:delogug@unica.it" title="delogug@unica.it">delogug@unica.it</a>                                                                                                            </span>
+                    </p>
+                    <p class="article__author-affiliation">
+                        <span>
+                                <sup>b</sup>
+                        </span>
+
+                        <span>
+                            Department of Pharmacology – CIMUS University of Santiago de Compostela Avda Barcelona s/n, Campus Vida, 15782 Santiago de Compostela, Spain
+
+                                <br />
+                                <b>E-mail:</b>
+                                    <a href="mailto:mdolores.vina@usc.es" title="mdolores.vina@usc.es">mdolores.vina@usc.es</a>                                                                                                            </span>
+                    </p>
+                    <p class="article__author-affiliation">
+                        <span>
+                                <sup>c</sup>
+                        </span>
+
+                        <span>
+                            Department of Pharmacology, Faculty of Pharmacy, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain
+
+                                                                                                            </span>
+                    </p>
+                    <p class="article__author-affiliation">
+                        <span>
+                                <sup>d</sup>
+                        </span>
+
+                        <span>
+                            Department of Organic Chemistry, Faculty of Pharmacy, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain
+
+                                                                                                            </span>
+                    </p>
+                    <p class="article__author-affiliation">
+                        <span>
+                                <sup>e</sup>
+                        </span>
+
+                        <span>
+                            Department of Biomedical Informatics, Columbia University, Medical Center of New York, 10032 New York, USA
+
+                                                                                                            </span>
+                    </p>
+                    <p class="article__author-affiliation">
+                        <span>
+                                <sup>f</sup>
+                        </span>
+
+                        <span>
+                            CIQUP/Department of Chemistry and Biochemistry, University of Porto, Portugal
+
+                                                                                                            </span>
+                    </p>
+            </div>
+        </div>
+    </div>
+
+                    <h3 class="h--heading3 article-abstract__heading">Abstract</h3>
+                    <div class="capsule__column-wrapper">
+
+
+        <div class="capsule__text">
+                   <p xmlns="http://www.rsc.org/schema/rscart38">Monoamine oxidase (MAO) is an enzyme responsible for metabolism of monoamine neurotransmitters which play an important role in brain development and function. This enzyme exists in two isoforms, and it has been demonstrated that MAO-B activity, but not MAO-A activity, increases with aging. MAO inhibitors show clinical value because besides the monoamine level regulation they reduce the formation of by-products of the MAO catalytic cycle, which are toxic to the brain. A series of 2-phenylbenzofuran derivatives was designed, synthesized and evaluated against hMAO-A and hMAO-B enzymes. A bromine substituent was introduced in the 2-phenyl ring, whereas position 5 or 7 of the benzofuran moiety was substituted with a methyl group. Most of the tested compounds inhibited preferentially MAO-B in a reversible manner, with IC<small><sub>50</sub></small> values in the low micro or nanomolar range. The 2-(2′-bromophenyl)-5-methylbenzofuran (<strong>5</strong>) was the most active compound identified (IC<small><sub>50</sub></small> = 0.20 μM). In addition, none of the studied compounds showed cytotoxic activity against the human neuroblastoma cell line SH-SY5Y. Molecular docking simulations were used to explain the observed hMAO-B structure–activity relationship for this type of compounds.</p>     
+        </div>
+            <div class="capsule__article-image fixpadv--s">
+                <img src="/en/Image/Get?imageInfo.ImageType=GA&amp;imageInfo.ImageIdentifier.ManuscriptID=C7MD00311K&amp;imageInfo.ImageIdentifier.Year=2017" alt="Graphical abstract: MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, in vitro study, and docking calculations" />
+            </div>
+
+                    </div>
+                    <p></p>
+
+
+
+
+                    <div id="pnlArticleAccess" class="article-access fixpadt--xxl" style="display: none; border: 0;">
+                        <div class="article-access__inner" style="background-color: #F1F1F3;">
+                            <div class="article-access__head fixpad--s">
+                                You have access to this article
+                            </div>
+                            <div class="fixpad--xl">
+                                <div id="pnlViewFullArticleButton" class="paywall__body text--centered">
+                                    <div id="pnlArticleLoading">
+                                        <span id="thtmlLoadingMessage">
+                                            <img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/Ajax-GA-Loader.gif" alt="" class="ver-m" />
+                                            Please wait while we load your content...
+                                        </span>
+                                        <span id="thtmlErrorMessage" style="display: none;">
+                                            Something went wrong. <a href="#" id="btnTryAgain">Try again?</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pnlArticleContent" class="t-html">
+                        <div id="pnlArticleContentLoaded">
+                        </div>
+                    </div>
+
+                </article>
+
+            </section>
+
+        </div>
+        <div class="layout__panel layout__panel--secondary layout__panel--40 layout__panel--filled">
+
+            <section class="layout__content">
+
+                <input id="contentType" name="contentType" type="hidden" value="" />
+
+                <div class="tab-control">
+
+                    <div class="tab__nav" role="tablist" aria-label="Article">
+                        <div class="tab__item" role="none">
+                            <a href="#pnlAbstract" class="tab__btn selected" role="tab" id="btnAbstract" aria-selected="true" aria-controls="pnlAbstract">About</a>
+                        </div>
+                        <div class="tab__item" role="none">
+                            <a href="#pnlCitation" class="tab__btn" role="tab" id="btnCitation" aria-selected="false" aria-controls="pnlCitation">Cited by</a>
+                        </div>
+                            <div class="tab__item" role="none">
+                                <a href="#pnlRelatedContent" class="tab__btn" role="tab" id="btnRelatedContent" aria-selected="false" aria-controls="pnlRelatedContent">Related</a>
+                            </div>
+                    </div>
+
+                    
+                    <div class="tab__panel open" role="tabpanel" id="pnlAbstract" aria-hidden="false" aria-labelledby="btnAbstract" data-loaded="true">
+                        <div class="fixpadv--m">
+                            <div id="divAbout">
+                                    <div id="DownloadOption" class="autopad--h fixpadv--l" style="min-height: 150px;">
+                                        <div class="text--centered">
+                                            <a href="#" class="btn btn--cta btn--disabled btn--block btn--stack btn-icon btn-icon--loading">
+                                                Download options <span class="btn-info">Please wait...</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+<div class="autopad--h">
+
+    <h2 class="h--heading3">Article information</h2>
+
+    <dl class="definition-list">
+
+            <div class="c doi-link">
+                <dt class="sr-only">DOI</dt>
+                <dd class="c__24"><a class="text--small" title="Link to landing page via DOI" href="https://doi.org/10.1039/C7MD00311K">https://doi.org/10.1039/C7MD00311K</a></dd>
+            </div>
+
+        <div class="c fixpadt--l line-separator">
+            <dt class="c__10"><strong>Article type</strong></dt>
+            <dd class="c__14">Research Article</dd>
+        </div>
+
+                <div class="c fixpadt--l">
+                    <dt class="c__10">Submitted</dt>
+                    <dd class="c__14">22 Jun 2017</dd>
+                </div>
+                <div class="c fixpadt--l">
+                    <dt class="c__10">Accepted</dt>
+                    <dd class="c__14">05 Jul 2017</dd>
+                </div>
+                <div class="c fixpadt--l">
+                    <dt class="c__10">First published</dt>
+                    <dd class="c__14">07 Jul 2017</dd>
+                </div>
+
+    </dl>
+
+        <div class="c fixpadt--l line-separator">
+            <div class="c__10">
+                <h3 class="definition-label">
+                    <label for="ResultAbstractFormat"><span class="sr-only">Download</span> Citation</label>
+                </h3>
+            </div>
+            <div class="c__14">
+                <i><strong>Med. Chem. Commun.</strong></i>, 2017,<span style='padding-right:2px'></span><strong>8</strong>, 1788-1796
+                <br>
+<form action="/en/content/getformatedresult/c7md00311k?downloadtype=article" method="post">                    <div class="select-basic">
+                        <span>
+                            <select class="select-field" id="ResultAbstractFormat" name="ResultAbstractFormat"><option>BibTex</option>
+<option>EndNote</option>
+<option>MEDLINE</option>
+<option>ProCite</option>
+<option>ReferenceManager</option>
+<option>RefWorks</option>
+<option>RIS</option>
+</select>
+                        </span>
+                        <span>
+                                <input type="submit" name="go" id="Submit1" value="Go" class="btn btn--tiny" />
+                        </span>
+                    </div>
+</form>            </div>
+        </div>
+
+
+<div class="alp-request-permissions" style="display: block;">
+
+    <div class="c fixpadt--l">
+        <div class="c__10"><h3 class="definition-label">Permissions</h3></div>
+        <div class="c__14">
+            
+            <a class="alp-request-permissions__open-btn" id="requestPermission" role="button"
+               rel="license" href="#" target="_blank" aria-label="Request permissions: Click to open.">
+                Request permissions
+            </a>
+        </div>
+    </div>
+
+    
+    <div class="alp-request-permissions__content scrollbar--slim">
+
+        <a href="#" class="alp-request-permissions__close-btn btn__enter-popup"
+           aria-label="You are in the 'Request permissions' pop up window. Click enter to close, or tab to continue.">
+            <img src="https://www.rsc-cdn.org/oxygen/assets/icons/cross.png" class="icon" width="24" alt="">
+        </a>
+
+        <h3 class="h--heading3">
+            MAO inhibitory activity of bromo-2-phenylbenzofurans: synthesis, <em>in vitro</em> study, and docking calculations
+        </h3>
+
+        <p>
+ G. L. Delogu, F. Pintus, L. May&#225;n, M. J. Matos, S. Vilar, J. Mun&#237;n, J. A. Fontenla, G. Hripcsak, F. Borges and D. Vi&#241;a,
+            <i>Med. Chem. Commun.</i>, 2017,&nbsp;<strong>8</strong>, 1788
+
+                <strong>DOI: </strong> 10.1039/C7MD00311K        </p>
+
+<p>
+    To request permission to reproduce material from this article, please go to the 
+    <a href="https://marketplace.copyright.com/rs-ui-web/mp/search/all/10.1039%2fC7MD00311K">Copyright Clearance Center request page</a>.
+</p>
+<p>
+    If you are <b>an author contributing to an RSC publication, you do not need to request permission</b>
+    provided correct acknowledgement is given.
+</p>
+<p>
+    If you are <b>the author of this article, you do not need to request permission to reproduce figures 
+    and diagrams</b> provided correct acknowledgement is given. If you want to reproduce the whole article 
+    in a third-party publication (excluding your thesis/dissertation for which permission is not required) 
+    please go to the <a href="https://marketplace.copyright.com/rs-ui-web/mp/search/all/10.1039%2fC7MD00311K">Copyright Clearance Center request page</a>.
+</p>
+        <p>
+          Read more about <a href="https://www.rsc.org/journals-books-databases/journal-authors-reviewers/licences-copyright-permissions/#acknowledgements">how to correctly acknowledge RSC content</a>.
+        </p>
+
+        <a href="#" class="alp-request-permissions__close-btn btn__exit-popup" aria-label="You are at the end of the 'Request permissions' pop up window. Click enter to close, or tab to continue."><img src="https://www.rsc-cdn.org/oxygen/assets/icons/cross.png" class="icon" width="24" alt=""></a>
+
+    </div>
+    
+</div>
+
+
+</div>
+
+
+
+<form action="/en/results/searchbyauthor" aria-label="Author" id="SearchByAuthor" method="post" role="search">    <div class="autopad">
+        <h2 class="h--heading3">Search articles by author</h2>
+        <div class="input-group">
+                <div class="input__checkbox">
+                    <input type="checkbox" id="1" data-givenname="G. L." data-familyname="Delogu">
+                    <label for="1" class="input__label">G. L. Delogu</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="2" data-givenname="F." data-familyname="Pintus">
+                    <label for="2" class="input__label">F. Pintus</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="3" data-givenname="L." data-familyname="May&#225;n">
+                    <label for="3" class="input__label">L. May&#225;n</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="4" data-givenname="M. J." data-familyname="Matos">
+                    <label for="4" class="input__label">M. J. Matos</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="5" data-givenname="S." data-familyname="Vilar">
+                    <label for="5" class="input__label">S. Vilar</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="6" data-givenname="J." data-familyname="Mun&#237;n">
+                    <label for="6" class="input__label">J. Mun&#237;n</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="7" data-givenname="J. A." data-familyname="Fontenla">
+                    <label for="7" class="input__label">J. A. Fontenla</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="8" data-givenname="G." data-familyname="Hripcsak">
+                    <label for="8" class="input__label">G. Hripcsak</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="9" data-givenname="F." data-familyname="Borges">
+                    <label for="9" class="input__label">F. Borges</label>
+                </div>
+                <div class="input__checkbox">
+                    <input type="checkbox" id="10" data-givenname="D." data-familyname="Vi&#241;a">
+                    <label for="10" class="input__label">D. Vi&#241;a</label>
+                </div>
+        </div>
+        <input type="submit" name="go" id="Search" value="Go" title="Go" class="btn btn--tiny">
+        <input id="DOI" name="DOI" type="hidden" value="C7MD00311K" />
+        <input id="selectedAuthors" name="selectedAuthors" type="hidden" value="" />
+    </div>
+</form>
+                                <input id="authors" name="authors" type="hidden" value="PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8QXJyYXlPZkF1dGhvckluZm8geG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSI+DQogIDxBdXRob3JJbmZvPg0KICAgIDxHaXZlbk5hbWU+Ry4gTC48L0dpdmVuTmFtZT4NCiAgICA8Rmlyc3ROYW1lPkcuIEwuPC9GaXJzdE5hbWU+DQogICAgPEZhbWlseU5hbWU+RGVsb2d1PC9GYW1pbHlOYW1lPg0KICAgIDxHaXZlbk5hbWVOb01hcmt1cD5HLiBMLjwvR2l2ZW5OYW1lTm9NYXJrdXA+DQogICAgPEZpcnN0TmFtZU5vTWFya3VwPkcuIEwuPC9GaXJzdE5hbWVOb01hcmt1cD4NCiAgICA8RmFtaWx5TmFtZU5vTWFya3VwPkRlbG9ndTwvRmFtaWx5TmFtZU5vTWFya3VwPg0KICAgIDxUeXBlPkF1dGhvcjwvVHlwZT4NCiAgICA8Rmlyc3RBdXRob3I+dHJ1ZTwvRmlyc3RBdXRob3I+DQogICAgPEFmZmlsaWF0aW9uPmFmZmE8L0FmZmlsaWF0aW9uPg0KICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgICA8QWZmaWxpYXRpb25JZD5hPC9BZmZpbGlhdGlvbklkPg0KICAgICAgICA8T3JnYW5pc2F0aW9uTmFtZT5EZXBhcnRtZW50IG9mIExpZmUgU2NpZW5jZXMgYW5kIEVudmlyb25tZW50IOKAkyBTZWN0aW9uIG9mIFBoYXJtYWNldXRpY2FsIFNjaWVuY2VzIOKAkyBVbml2ZXJzaXR5IG9mIENhZ2xpYXJpPC9PcmdhbmlzYXRpb25OYW1lPg0KICAgICAgICA8QWRkcmVzcyAvPg0KICAgICAgICA8Q2l0eT4wOTEyNCBDYWdsaWFyaTwvQ2l0eT4NCiAgICAgICAgPFN0YXRlIC8+DQogICAgICAgIDxQb3N0Y29kZSAvPg0KICAgICAgICA8Q291bnRyeT5JdGFseTwvQ291bnRyeT4NCiAgICAgICAgPEVtYWlscz4NCiAgICAgICAgICA8c3RyaW5nPmRlbG9ndWdAdW5pY2EuaXQ8L3N0cmluZz4NCiAgICAgICAgPC9FbWFpbHM+DQogICAgICAgIDxGYXggLz4NCiAgICAgICAgPFBob25lIC8+DQogICAgICAgIDxVcmwgLz4NCiAgICAgICAgPE9yZ2FuaXphdGlvblVybCAvPg0KICAgICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPFJvbGU+Y29ycmVzPC9Sb2xlPg0KICAgIDxBZmZpbGlhdGlvbkNvZGVzPg0KICAgICAgPHN0cmluZz4qPC9zdHJpbmc+DQogICAgICA8c3RyaW5nPmE8L3N0cmluZz4NCiAgICA8L0FmZmlsaWF0aW9uQ29kZXM+DQogICAgPFF1YWxpZmllck5hbWUgLz4NCiAgPC9BdXRob3JJbmZvPg0KICA8QXV0aG9ySW5mbz4NCiAgICA8R2l2ZW5OYW1lPkYuPC9HaXZlbk5hbWU+DQogICAgPEZpcnN0TmFtZT5GLjwvRmlyc3ROYW1lPg0KICAgIDxGYW1pbHlOYW1lPlBpbnR1czwvRmFtaWx5TmFtZT4NCiAgICA8R2l2ZW5OYW1lTm9NYXJrdXA+Ri48L0dpdmVuTmFtZU5vTWFya3VwPg0KICAgIDxGaXJzdE5hbWVOb01hcmt1cD5GLjwvRmlyc3ROYW1lTm9NYXJrdXA+DQogICAgPEZhbWlseU5hbWVOb01hcmt1cD5QaW50dXM8L0ZhbWlseU5hbWVOb01hcmt1cD4NCiAgICA8VHlwZT5BdXRob3I8L1R5cGU+DQogICAgPEZpcnN0QXV0aG9yPmZhbHNlPC9GaXJzdEF1dGhvcj4NCiAgICA8QWZmaWxpYXRpb24+YWZmYTwvQWZmaWxpYXRpb24+DQogICAgPEFmZmlsaWF0aW9uSW5mbz4NCiAgICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICAgIDxBZmZpbGlhdGlvbklkPmE8L0FmZmlsaWF0aW9uSWQ+DQogICAgICAgIDxPcmdhbmlzYXRpb25OYW1lPkRlcGFydG1lbnQgb2YgTGlmZSBTY2llbmNlcyBhbmQgRW52aXJvbm1lbnQg4oCTIFNlY3Rpb24gb2YgUGhhcm1hY2V1dGljYWwgU2NpZW5jZXMg4oCTIFVuaXZlcnNpdHkgb2YgQ2FnbGlhcmk8L09yZ2FuaXNhdGlvbk5hbWU+DQogICAgICAgIDxBZGRyZXNzIC8+DQogICAgICAgIDxDaXR5PjA5MTI0IENhZ2xpYXJpPC9DaXR5Pg0KICAgICAgICA8U3RhdGUgLz4NCiAgICAgICAgPFBvc3Rjb2RlIC8+DQogICAgICAgIDxDb3VudHJ5Pkl0YWx5PC9Db3VudHJ5Pg0KICAgICAgICA8RW1haWxzPg0KICAgICAgICAgIDxzdHJpbmc+ZGVsb2d1Z0B1bmljYS5pdDwvc3RyaW5nPg0KICAgICAgICA8L0VtYWlscz4NCiAgICAgICAgPEZheCAvPg0KICAgICAgICA8UGhvbmUgLz4NCiAgICAgICAgPFVybCAvPg0KICAgICAgICA8T3JnYW5pemF0aW9uVXJsIC8+DQogICAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICA8QWZmaWxpYXRpb25Db2Rlcz4NCiAgICAgIDxzdHJpbmc+YTwvc3RyaW5nPg0KICAgIDwvQWZmaWxpYXRpb25Db2Rlcz4NCiAgICA8UXVhbGlmaWVyTmFtZSAvPg0KICA8L0F1dGhvckluZm8+DQogIDxBdXRob3JJbmZvPg0KICAgIDxHaXZlbk5hbWU+TC48L0dpdmVuTmFtZT4NCiAgICA8Rmlyc3ROYW1lPkwuPC9GaXJzdE5hbWU+DQogICAgPEZhbWlseU5hbWU+TWF5w6FuPC9GYW1pbHlOYW1lPg0KICAgIDxHaXZlbk5hbWVOb01hcmt1cD5MLjwvR2l2ZW5OYW1lTm9NYXJrdXA+DQogICAgPEZpcnN0TmFtZU5vTWFya3VwPkwuPC9GaXJzdE5hbWVOb01hcmt1cD4NCiAgICA8RmFtaWx5TmFtZU5vTWFya3VwPk1hecOhbjwvRmFtaWx5TmFtZU5vTWFya3VwPg0KICAgIDxUeXBlPkF1dGhvcjwvVHlwZT4NCiAgICA8Rmlyc3RBdXRob3I+ZmFsc2U8L0ZpcnN0QXV0aG9yPg0KICAgIDxBZmZpbGlhdGlvbj5hZmZiIGFmZmM8L0FmZmlsaWF0aW9uPg0KICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgICA8QWZmaWxpYXRpb25JZD5iPC9BZmZpbGlhdGlvbklkPg0KICAgICAgICA8T3JnYW5pc2F0aW9uTmFtZT5EZXBhcnRtZW50IG9mIFBoYXJtYWNvbG9neSDigJMgQ0lNVVMgVW5pdmVyc2l0eSBvZiBTYW50aWFnbyBkZSBDb21wb3N0ZWxhIEF2ZGEgQmFyY2Vsb25hIHMvbiwgQ2FtcHVzIFZpZGE8L09yZ2FuaXNhdGlvbk5hbWU+DQogICAgICAgIDxBZGRyZXNzIC8+DQogICAgICAgIDxDaXR5PjE1NzgyIFNhbnRpYWdvIGRlIENvbXBvc3RlbGE8L0NpdHk+DQogICAgICAgIDxTdGF0ZSAvPg0KICAgICAgICA8UG9zdGNvZGUgLz4NCiAgICAgICAgPENvdW50cnk+U3BhaW48L0NvdW50cnk+DQogICAgICAgIDxFbWFpbHM+DQogICAgICAgICAgPHN0cmluZz5tZG9sb3Jlcy52aW5hQHVzYy5lczwvc3RyaW5nPg0KICAgICAgICA8L0VtYWlscz4NCiAgICAgICAgPEZheCAvPg0KICAgICAgICA8UGhvbmUgLz4NCiAgICAgICAgPFVybCAvPg0KICAgICAgICA8T3JnYW5pemF0aW9uVXJsIC8+DQogICAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICAgIDxBZmZpbGlhdGlvbklkPmM8L0FmZmlsaWF0aW9uSWQ+DQogICAgICAgIDxPcmdhbmlzYXRpb25OYW1lPkRlcGFydG1lbnQgb2YgUGhhcm1hY29sb2d5LCBGYWN1bHR5IG9mIFBoYXJtYWN5LCBVbml2ZXJzaXR5IG9mIFNhbnRpYWdvIGRlIENvbXBvc3RlbGE8L09yZ2FuaXNhdGlvbk5hbWU+DQogICAgICAgIDxBZGRyZXNzIC8+DQogICAgICAgIDxDaXR5PjE1NzgyIFNhbnRpYWdvIGRlIENvbXBvc3RlbGE8L0NpdHk+DQogICAgICAgIDxTdGF0ZSAvPg0KICAgICAgICA8UG9zdGNvZGUgLz4NCiAgICAgICAgPENvdW50cnk+U3BhaW48L0NvdW50cnk+DQogICAgICAgIDxFbWFpbHMgLz4NCiAgICAgICAgPEZheCAvPg0KICAgICAgICA8UGhvbmUgLz4NCiAgICAgICAgPFVybCAvPg0KICAgICAgICA8T3JnYW5pemF0aW9uVXJsIC8+DQogICAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICA8QWZmaWxpYXRpb25Db2Rlcz4NCiAgICAgIDxzdHJpbmc+Yjwvc3RyaW5nPg0KICAgICAgPHN0cmluZz5jPC9zdHJpbmc+DQogICAgPC9BZmZpbGlhdGlvbkNvZGVzPg0KICAgIDxRdWFsaWZpZXJOYW1lIC8+DQogIDwvQXV0aG9ySW5mbz4NCiAgPEF1dGhvckluZm8+DQogICAgPEdpdmVuTmFtZT5NLiBKLjwvR2l2ZW5OYW1lPg0KICAgIDxGaXJzdE5hbWU+TS4gSi48L0ZpcnN0TmFtZT4NCiAgICA8RmFtaWx5TmFtZT5NYXRvczwvRmFtaWx5TmFtZT4NCiAgICA8R2l2ZW5OYW1lTm9NYXJrdXA+TS4gSi48L0dpdmVuTmFtZU5vTWFya3VwPg0KICAgIDxGaXJzdE5hbWVOb01hcmt1cD5NLiBKLjwvRmlyc3ROYW1lTm9NYXJrdXA+DQogICAgPEZhbWlseU5hbWVOb01hcmt1cD5NYXRvczwvRmFtaWx5TmFtZU5vTWFya3VwPg0KICAgIDxUeXBlPkF1dGhvcjwvVHlwZT4NCiAgICA8Rmlyc3RBdXRob3I+ZmFsc2U8L0ZpcnN0QXV0aG9yPg0KICAgIDxBZmZpbGlhdGlvbj5hZmZkPC9BZmZpbGlhdGlvbj4NCiAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgPEFmZmlsaWF0aW9uSW5mbz4NCiAgICAgICAgPEFmZmlsaWF0aW9uSWQ+ZDwvQWZmaWxpYXRpb25JZD4NCiAgICAgICAgPE9yZ2FuaXNhdGlvbk5hbWU+RGVwYXJ0bWVudCBvZiBPcmdhbmljIENoZW1pc3RyeSwgRmFjdWx0eSBvZiBQaGFybWFjeSwgVW5pdmVyc2l0eSBvZiBTYW50aWFnbyBkZSBDb21wb3N0ZWxhPC9PcmdhbmlzYXRpb25OYW1lPg0KICAgICAgICA8QWRkcmVzcyAvPg0KICAgICAgICA8Q2l0eT4xNTc4MiBTYW50aWFnbyBkZSBDb21wb3N0ZWxhPC9DaXR5Pg0KICAgICAgICA8U3RhdGUgLz4NCiAgICAgICAgPFBvc3Rjb2RlIC8+DQogICAgICAgIDxDb3VudHJ5PlNwYWluPC9Db3VudHJ5Pg0KICAgICAgICA8RW1haWxzIC8+DQogICAgICAgIDxGYXggLz4NCiAgICAgICAgPFBob25lIC8+DQogICAgICAgIDxVcmwgLz4NCiAgICAgICAgPE9yZ2FuaXphdGlvblVybCAvPg0KICAgICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPEFmZmlsaWF0aW9uQ29kZXM+DQogICAgICA8c3RyaW5nPmQ8L3N0cmluZz4NCiAgICA8L0FmZmlsaWF0aW9uQ29kZXM+DQogICAgPFF1YWxpZmllck5hbWUgLz4NCiAgPC9BdXRob3JJbmZvPg0KICA8QXV0aG9ySW5mbz4NCiAgICA8R2l2ZW5OYW1lPlMuPC9HaXZlbk5hbWU+DQogICAgPEZpcnN0TmFtZT5TLjwvRmlyc3ROYW1lPg0KICAgIDxGYW1pbHlOYW1lPlZpbGFyPC9GYW1pbHlOYW1lPg0KICAgIDxHaXZlbk5hbWVOb01hcmt1cD5TLjwvR2l2ZW5OYW1lTm9NYXJrdXA+DQogICAgPEZpcnN0TmFtZU5vTWFya3VwPlMuPC9GaXJzdE5hbWVOb01hcmt1cD4NCiAgICA8RmFtaWx5TmFtZU5vTWFya3VwPlZpbGFyPC9GYW1pbHlOYW1lTm9NYXJrdXA+DQogICAgPFR5cGU+QXV0aG9yPC9UeXBlPg0KICAgIDxGaXJzdEF1dGhvcj5mYWxzZTwvRmlyc3RBdXRob3I+DQogICAgPEFmZmlsaWF0aW9uPmFmZmQgYWZmZTwvQWZmaWxpYXRpb24+DQogICAgPEFmZmlsaWF0aW9uSW5mbz4NCiAgICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICAgIDxBZmZpbGlhdGlvbklkPmQ8L0FmZmlsaWF0aW9uSWQ+DQogICAgICAgIDxPcmdhbmlzYXRpb25OYW1lPkRlcGFydG1lbnQgb2YgT3JnYW5pYyBDaGVtaXN0cnksIEZhY3VsdHkgb2YgUGhhcm1hY3ksIFVuaXZlcnNpdHkgb2YgU2FudGlhZ28gZGUgQ29tcG9zdGVsYTwvT3JnYW5pc2F0aW9uTmFtZT4NCiAgICAgICAgPEFkZHJlc3MgLz4NCiAgICAgICAgPENpdHk+MTU3ODIgU2FudGlhZ28gZGUgQ29tcG9zdGVsYTwvQ2l0eT4NCiAgICAgICAgPFN0YXRlIC8+DQogICAgICAgIDxQb3N0Y29kZSAvPg0KICAgICAgICA8Q291bnRyeT5TcGFpbjwvQ291bnRyeT4NCiAgICAgICAgPEVtYWlscyAvPg0KICAgICAgICA8RmF4IC8+DQogICAgICAgIDxQaG9uZSAvPg0KICAgICAgICA8VXJsIC8+DQogICAgICAgIDxPcmdhbml6YXRpb25VcmwgLz4NCiAgICAgIDwvQWZmaWxpYXRpb25JbmZvPg0KICAgICAgPEFmZmlsaWF0aW9uSW5mbz4NCiAgICAgICAgPEFmZmlsaWF0aW9uSWQ+ZTwvQWZmaWxpYXRpb25JZD4NCiAgICAgICAgPE9yZ2FuaXNhdGlvbk5hbWU+RGVwYXJ0bWVudCBvZiBCaW9tZWRpY2FsIEluZm9ybWF0aWNzLCBDb2x1bWJpYSBVbml2ZXJzaXR5LCBNZWRpY2FsIENlbnRlciBvZiBOZXcgWW9yazwvT3JnYW5pc2F0aW9uTmFtZT4NCiAgICAgICAgPEFkZHJlc3MgLz4NCiAgICAgICAgPENpdHk+MTAwMzIgTmV3IFlvcms8L0NpdHk+DQogICAgICAgIDxTdGF0ZSAvPg0KICAgICAgICA8UG9zdGNvZGUgLz4NCiAgICAgICAgPENvdW50cnk+VVNBPC9Db3VudHJ5Pg0KICAgICAgICA8RW1haWxzIC8+DQogICAgICAgIDxGYXggLz4NCiAgICAgICAgPFBob25lIC8+DQogICAgICAgIDxVcmwgLz4NCiAgICAgICAgPE9yZ2FuaXphdGlvblVybCAvPg0KICAgICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPEFmZmlsaWF0aW9uQ29kZXM+DQogICAgICA8c3RyaW5nPmQ8L3N0cmluZz4NCiAgICAgIDxzdHJpbmc+ZTwvc3RyaW5nPg0KICAgIDwvQWZmaWxpYXRpb25Db2Rlcz4NCiAgICA8UXVhbGlmaWVyTmFtZSAvPg0KICA8L0F1dGhvckluZm8+DQogIDxBdXRob3JJbmZvPg0KICAgIDxHaXZlbk5hbWU+Si48L0dpdmVuTmFtZT4NCiAgICA8Rmlyc3ROYW1lPkouPC9GaXJzdE5hbWU+DQogICAgPEZhbWlseU5hbWU+TXVuw61uPC9GYW1pbHlOYW1lPg0KICAgIDxHaXZlbk5hbWVOb01hcmt1cD5KLjwvR2l2ZW5OYW1lTm9NYXJrdXA+DQogICAgPEZpcnN0TmFtZU5vTWFya3VwPkouPC9GaXJzdE5hbWVOb01hcmt1cD4NCiAgICA8RmFtaWx5TmFtZU5vTWFya3VwPk11bsOtbjwvRmFtaWx5TmFtZU5vTWFya3VwPg0KICAgIDxUeXBlPkF1dGhvcjwvVHlwZT4NCiAgICA8Rmlyc3RBdXRob3I+ZmFsc2U8L0ZpcnN0QXV0aG9yPg0KICAgIDxBZmZpbGlhdGlvbj5hZmZiIGFmZmQ8L0FmZmlsaWF0aW9uPg0KICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgICA8QWZmaWxpYXRpb25JZD5iPC9BZmZpbGlhdGlvbklkPg0KICAgICAgICA8T3JnYW5pc2F0aW9uTmFtZT5EZXBhcnRtZW50IG9mIFBoYXJtYWNvbG9neSDigJMgQ0lNVVMgVW5pdmVyc2l0eSBvZiBTYW50aWFnbyBkZSBDb21wb3N0ZWxhIEF2ZGEgQmFyY2Vsb25hIHMvbiwgQ2FtcHVzIFZpZGE8L09yZ2FuaXNhdGlvbk5hbWU+DQogICAgICAgIDxBZGRyZXNzIC8+DQogICAgICAgIDxDaXR5PjE1NzgyIFNhbnRpYWdvIGRlIENvbXBvc3RlbGE8L0NpdHk+DQogICAgICAgIDxTdGF0ZSAvPg0KICAgICAgICA8UG9zdGNvZGUgLz4NCiAgICAgICAgPENvdW50cnk+U3BhaW48L0NvdW50cnk+DQogICAgICAgIDxFbWFpbHM+DQogICAgICAgICAgPHN0cmluZz5tZG9sb3Jlcy52aW5hQHVzYy5lczwvc3RyaW5nPg0KICAgICAgICA8L0VtYWlscz4NCiAgICAgICAgPEZheCAvPg0KICAgICAgICA8UGhvbmUgLz4NCiAgICAgICAgPFVybCAvPg0KICAgICAgICA8T3JnYW5pemF0aW9uVXJsIC8+DQogICAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICAgIDxBZmZpbGlhdGlvbklkPmQ8L0FmZmlsaWF0aW9uSWQ+DQogICAgICAgIDxPcmdhbmlzYXRpb25OYW1lPkRlcGFydG1lbnQgb2YgT3JnYW5pYyBDaGVtaXN0cnksIEZhY3VsdHkgb2YgUGhhcm1hY3ksIFVuaXZlcnNpdHkgb2YgU2FudGlhZ28gZGUgQ29tcG9zdGVsYTwvT3JnYW5pc2F0aW9uTmFtZT4NCiAgICAgICAgPEFkZHJlc3MgLz4NCiAgICAgICAgPENpdHk+MTU3ODIgU2FudGlhZ28gZGUgQ29tcG9zdGVsYTwvQ2l0eT4NCiAgICAgICAgPFN0YXRlIC8+DQogICAgICAgIDxQb3N0Y29kZSAvPg0KICAgICAgICA8Q291bnRyeT5TcGFpbjwvQ291bnRyeT4NCiAgICAgICAgPEVtYWlscyAvPg0KICAgICAgICA8RmF4IC8+DQogICAgICAgIDxQaG9uZSAvPg0KICAgICAgICA8VXJsIC8+DQogICAgICAgIDxPcmdhbml6YXRpb25VcmwgLz4NCiAgICAgIDwvQWZmaWxpYXRpb25JbmZvPg0KICAgIDwvQWZmaWxpYXRpb25JbmZvPg0KICAgIDxBZmZpbGlhdGlvbkNvZGVzPg0KICAgICAgPHN0cmluZz5iPC9zdHJpbmc+DQogICAgICA8c3RyaW5nPmQ8L3N0cmluZz4NCiAgICA8L0FmZmlsaWF0aW9uQ29kZXM+DQogICAgPFF1YWxpZmllck5hbWUgLz4NCiAgPC9BdXRob3JJbmZvPg0KICA8QXV0aG9ySW5mbz4NCiAgICA8R2l2ZW5OYW1lPkouIEEuPC9HaXZlbk5hbWU+DQogICAgPEZpcnN0TmFtZT5KLiBBLjwvRmlyc3ROYW1lPg0KICAgIDxGYW1pbHlOYW1lPkZvbnRlbmxhPC9GYW1pbHlOYW1lPg0KICAgIDxHaXZlbk5hbWVOb01hcmt1cD5KLiBBLjwvR2l2ZW5OYW1lTm9NYXJrdXA+DQogICAgPEZpcnN0TmFtZU5vTWFya3VwPkouIEEuPC9GaXJzdE5hbWVOb01hcmt1cD4NCiAgICA8RmFtaWx5TmFtZU5vTWFya3VwPkZvbnRlbmxhPC9GYW1pbHlOYW1lTm9NYXJrdXA+DQogICAgPFR5cGU+QXV0aG9yPC9UeXBlPg0KICAgIDxGaXJzdEF1dGhvcj5mYWxzZTwvRmlyc3RBdXRob3I+DQogICAgPEFmZmlsaWF0aW9uPmFmZmM8L0FmZmlsaWF0aW9uPg0KICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgICA8QWZmaWxpYXRpb25JZD5jPC9BZmZpbGlhdGlvbklkPg0KICAgICAgICA8T3JnYW5pc2F0aW9uTmFtZT5EZXBhcnRtZW50IG9mIFBoYXJtYWNvbG9neSwgRmFjdWx0eSBvZiBQaGFybWFjeSwgVW5pdmVyc2l0eSBvZiBTYW50aWFnbyBkZSBDb21wb3N0ZWxhPC9PcmdhbmlzYXRpb25OYW1lPg0KICAgICAgICA8QWRkcmVzcyAvPg0KICAgICAgICA8Q2l0eT4xNTc4MiBTYW50aWFnbyBkZSBDb21wb3N0ZWxhPC9DaXR5Pg0KICAgICAgICA8U3RhdGUgLz4NCiAgICAgICAgPFBvc3Rjb2RlIC8+DQogICAgICAgIDxDb3VudHJ5PlNwYWluPC9Db3VudHJ5Pg0KICAgICAgICA8RW1haWxzIC8+DQogICAgICAgIDxGYXggLz4NCiAgICAgICAgPFBob25lIC8+DQogICAgICAgIDxVcmwgLz4NCiAgICAgICAgPE9yZ2FuaXphdGlvblVybCAvPg0KICAgICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPEFmZmlsaWF0aW9uQ29kZXM+DQogICAgICA8c3RyaW5nPmM8L3N0cmluZz4NCiAgICA8L0FmZmlsaWF0aW9uQ29kZXM+DQogICAgPFF1YWxpZmllck5hbWUgLz4NCiAgPC9BdXRob3JJbmZvPg0KICA8QXV0aG9ySW5mbz4NCiAgICA8R2l2ZW5OYW1lPkcuPC9HaXZlbk5hbWU+DQogICAgPEZpcnN0TmFtZT5HLjwvRmlyc3ROYW1lPg0KICAgIDxGYW1pbHlOYW1lPkhyaXBjc2FrPC9GYW1pbHlOYW1lPg0KICAgIDxHaXZlbk5hbWVOb01hcmt1cD5HLjwvR2l2ZW5OYW1lTm9NYXJrdXA+DQogICAgPEZpcnN0TmFtZU5vTWFya3VwPkcuPC9GaXJzdE5hbWVOb01hcmt1cD4NCiAgICA8RmFtaWx5TmFtZU5vTWFya3VwPkhyaXBjc2FrPC9GYW1pbHlOYW1lTm9NYXJrdXA+DQogICAgPFR5cGU+QXV0aG9yPC9UeXBlPg0KICAgIDxGaXJzdEF1dGhvcj5mYWxzZTwvRmlyc3RBdXRob3I+DQogICAgPEFmZmlsaWF0aW9uPmFmZmU8L0FmZmlsaWF0aW9uPg0KICAgIDxBZmZpbGlhdGlvbkluZm8+DQogICAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgICA8QWZmaWxpYXRpb25JZD5lPC9BZmZpbGlhdGlvbklkPg0KICAgICAgICA8T3JnYW5pc2F0aW9uTmFtZT5EZXBhcnRtZW50IG9mIEJpb21lZGljYWwgSW5mb3JtYXRpY3MsIENvbHVtYmlhIFVuaXZlcnNpdHksIE1lZGljYWwgQ2VudGVyIG9mIE5ldyBZb3JrPC9PcmdhbmlzYXRpb25OYW1lPg0KICAgICAgICA8QWRkcmVzcyAvPg0KICAgICAgICA8Q2l0eT4xMDAzMiBOZXcgWW9yazwvQ2l0eT4NCiAgICAgICAgPFN0YXRlIC8+DQogICAgICAgIDxQb3N0Y29kZSAvPg0KICAgICAgICA8Q291bnRyeT5VU0E8L0NvdW50cnk+DQogICAgICAgIDxFbWFpbHMgLz4NCiAgICAgICAgPEZheCAvPg0KICAgICAgICA8UGhvbmUgLz4NCiAgICAgICAgPFVybCAvPg0KICAgICAgICA8T3JnYW5pemF0aW9uVXJsIC8+DQogICAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICA8L0FmZmlsaWF0aW9uSW5mbz4NCiAgICA8QWZmaWxpYXRpb25Db2Rlcz4NCiAgICAgIDxzdHJpbmc+ZTwvc3RyaW5nPg0KICAgIDwvQWZmaWxpYXRpb25Db2Rlcz4NCiAgICA8UXVhbGlmaWVyTmFtZSAvPg0KICA8L0F1dGhvckluZm8+DQogIDxBdXRob3JJbmZvPg0KICAgIDxHaXZlbk5hbWU+Ri48L0dpdmVuTmFtZT4NCiAgICA8Rmlyc3ROYW1lPkYuPC9GaXJzdE5hbWU+DQogICAgPEZhbWlseU5hbWU+Qm9yZ2VzPC9GYW1pbHlOYW1lPg0KICAgIDxHaXZlbk5hbWVOb01hcmt1cD5GLjwvR2l2ZW5OYW1lTm9NYXJrdXA+DQogICAgPEZpcnN0TmFtZU5vTWFya3VwPkYuPC9GaXJzdE5hbWVOb01hcmt1cD4NCiAgICA8RmFtaWx5TmFtZU5vTWFya3VwPkJvcmdlczwvRmFtaWx5TmFtZU5vTWFya3VwPg0KICAgIDxUeXBlPkF1dGhvcjwvVHlwZT4NCiAgICA8Rmlyc3RBdXRob3I+ZmFsc2U8L0ZpcnN0QXV0aG9yPg0KICAgIDxBZmZpbGlhdGlvbj5hZmZmPC9BZmZpbGlhdGlvbj4NCiAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgPEFmZmlsaWF0aW9uSW5mbz4NCiAgICAgICAgPEFmZmlsaWF0aW9uSWQ+ZjwvQWZmaWxpYXRpb25JZD4NCiAgICAgICAgPE9yZ2FuaXNhdGlvbk5hbWU+Q0lRVVAvRGVwYXJ0bWVudCBvZiBDaGVtaXN0cnkgYW5kIEJpb2NoZW1pc3RyeSwgVW5pdmVyc2l0eSBvZiBQb3J0bzwvT3JnYW5pc2F0aW9uTmFtZT4NCiAgICAgICAgPEFkZHJlc3MgLz4NCiAgICAgICAgPENpdHkgLz4NCiAgICAgICAgPFN0YXRlIC8+DQogICAgICAgIDxQb3N0Y29kZSAvPg0KICAgICAgICA8Q291bnRyeT5Qb3J0dWdhbDwvQ291bnRyeT4NCiAgICAgICAgPEVtYWlscyAvPg0KICAgICAgICA8RmF4IC8+DQogICAgICAgIDxQaG9uZSAvPg0KICAgICAgICA8VXJsIC8+DQogICAgICAgIDxPcmdhbml6YXRpb25VcmwgLz4NCiAgICAgIDwvQWZmaWxpYXRpb25JbmZvPg0KICAgIDwvQWZmaWxpYXRpb25JbmZvPg0KICAgIDxBZmZpbGlhdGlvbkNvZGVzPg0KICAgICAgPHN0cmluZz5mPC9zdHJpbmc+DQogICAgPC9BZmZpbGlhdGlvbkNvZGVzPg0KICAgIDxRdWFsaWZpZXJOYW1lIC8+DQogIDwvQXV0aG9ySW5mbz4NCiAgPEF1dGhvckluZm8+DQogICAgPEdpdmVuTmFtZT5ELjwvR2l2ZW5OYW1lPg0KICAgIDxGaXJzdE5hbWU+RC48L0ZpcnN0TmFtZT4NCiAgICA8RmFtaWx5TmFtZT5WacOxYTwvRmFtaWx5TmFtZT4NCiAgICA8R2l2ZW5OYW1lTm9NYXJrdXA+RC48L0dpdmVuTmFtZU5vTWFya3VwPg0KICAgIDxGaXJzdE5hbWVOb01hcmt1cD5ELjwvRmlyc3ROYW1lTm9NYXJrdXA+DQogICAgPEZhbWlseU5hbWVOb01hcmt1cD5WacOxYTwvRmFtaWx5TmFtZU5vTWFya3VwPg0KICAgIDxUeXBlPkF1dGhvcjwvVHlwZT4NCiAgICA8Rmlyc3RBdXRob3I+ZmFsc2U8L0ZpcnN0QXV0aG9yPg0KICAgIDxBZmZpbGlhdGlvbj5hZmZiPC9BZmZpbGlhdGlvbj4NCiAgICA8QWZmaWxpYXRpb25JbmZvPg0KICAgICAgPEFmZmlsaWF0aW9uSW5mbz4NCiAgICAgICAgPEFmZmlsaWF0aW9uSWQ+YjwvQWZmaWxpYXRpb25JZD4NCiAgICAgICAgPE9yZ2FuaXNhdGlvbk5hbWU+RGVwYXJ0bWVudCBvZiBQaGFybWFjb2xvZ3kg4oCTIENJTVVTIFVuaXZlcnNpdHkgb2YgU2FudGlhZ28gZGUgQ29tcG9zdGVsYSBBdmRhIEJhcmNlbG9uYSBzL24sIENhbXB1cyBWaWRhPC9PcmdhbmlzYXRpb25OYW1lPg0KICAgICAgICA8QWRkcmVzcyAvPg0KICAgICAgICA8Q2l0eT4xNTc4MiBTYW50aWFnbyBkZSBDb21wb3N0ZWxhPC9DaXR5Pg0KICAgICAgICA8U3RhdGUgLz4NCiAgICAgICAgPFBvc3Rjb2RlIC8+DQogICAgICAgIDxDb3VudHJ5PlNwYWluPC9Db3VudHJ5Pg0KICAgICAgICA8RW1haWxzPg0KICAgICAgICAgIDxzdHJpbmc+bWRvbG9yZXMudmluYUB1c2MuZXM8L3N0cmluZz4NCiAgICAgICAgPC9FbWFpbHM+DQogICAgICAgIDxGYXggLz4NCiAgICAgICAgPFBob25lIC8+DQogICAgICAgIDxVcmwgLz4NCiAgICAgICAgPE9yZ2FuaXphdGlvblVybCAvPg0KICAgICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPC9BZmZpbGlhdGlvbkluZm8+DQogICAgPFJvbGU+Y29ycmVzPC9Sb2xlPg0KICAgIDxBZmZpbGlhdGlvbkNvZGVzPg0KICAgICAgPHN0cmluZz4qPC9zdHJpbmc+DQogICAgICA8c3RyaW5nPmI8L3N0cmluZz4NCiAgICA8L0FmZmlsaWF0aW9uQ29kZXM+DQogICAgPFF1YWxpZmllck5hbWUgLz4NCiAgPC9BdXRob3JJbmZvPg0KPC9BcnJheU9mQXV0aG9ySW5mbz4=" />
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="tab__panel" role="tabpanel" id="pnlCitation" aria-hidden="true" aria-labelledby="btnCitation" data-loaded="false">
+                        <div class="autopad--h fixpadv--m">
+                                    <div id="divCitation">
+                                        <p>
+                                            <img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/Ajax-GA-Loader.gif" alt="" style="float:left" />
+                                            Fetching data from CrossRef.<br />
+                                            This may take some time to load.
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                        <div class="tab__panel" role="tabpanel" id="pnlRelatedContent" aria-hidden="true" aria-labelledby="btnRelatedContent" data-loaded="false">
+                            <div class="autopad--h fixpadv--m">
+                                <div id="divRelatedContent">
+                                    <p>
+                                        <span class="sr-only">Loading related content</span>
+                                        <img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/Ajax-GA-Loader.gif" alt="" />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+            </section>
+<section class="layout__content layout__content--padded text--centered">
+    <h3 class="h--heading4">Spotlight</h3>
+    <div id='div-dfp-ad-1' class="dfp-ad__slot--mpu">
+        <script>googletag.cmd.push(function() { googletag.display('div-dfp-ad-1'); });</script>
+    </div>
+    <h3 class="h--heading4">Advertisements</h3>
+    <div id='div-dfp-ad-2' class="dfp-ad__slot--mpu">
+        <script>googletag.cmd.push(function() { googletag.display('div-dfp-ad-2'); });</script>
+    </div>
+    <div id='div-dfp-ad-3' class="dfp-ad__slot--mpu">
+        <script>googletag.cmd.push(function() { googletag.display('div-dfp-ad-3'); });</script>
+    </div>
+</section>
+            <section id="pbgrd-mpur-c" class="layout__content layout__content--padded text--centered"></section>
+        </div>
+
+    </div>
+
+</div>
+
+
+        </div>
+
+    </main>
+
+    <div data-id="pnlGlobalFooter">
+        <div class="rsc-ui">
+            <!-- start oxygen footer -->
+            <footer class="rsc-footer">
+                <div class="breadcrumbs">
+                    <div class="viewport">
+                        <nav aria-label="Breadcrumb">
+                            <ul>
+                                <li class="extra"><a href="https://www.rsc.org">rsc.org</a></li>
+                                <li>
+                                    <img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/chevron-right.png" width="8" height="8" alt="" />
+                                    <a href="https://www.rsc.org/journals-books-databases/" class="selected">Journals, books &amp; databases</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class='nav' id='pnlSiteMap'>
+                    <div class='viewport'>
+                        <div class='rsc-logo'>
+                            <img src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/rsc-logo-rev-pubs.svg" alt="Royal Society of Chemistry homepage">
+                        </div>
+                        <div class='links'>
+                            <ul>
+                                <li><a href='https://www.rsc.org/'>Home</a></li>
+                                <li><a href='https://www.rsc.org/about-us/'>About us</a></li>
+                                <li><a href='https://www.rsc.org/membership-and-community/'>Membership &#38; professional community</a></li>
+                                <li><a href='https://www.rsc.org/campaigning-outreach/'>Campaigning &#38; outreach</a></li>
+                                <li><a href='https://www.rsc.org/journals-books-databases/'>Journals, books &#38; databases</a></li>
+                                <li><a href='https://www.rsc.org/teaching-and-learning/'>Teaching &#38; learning</a></li>
+                                <li><a href='https://www.rsc.org/news-events/'>News&#160;&#38; events</a></li>
+                                <li><a href='https://www.rsc.org/locations-contacts/'>Locations &#38; contacts</a></li>
+                                <li><a href='https://www.rsc.org/careers/'>Careers</a></li>
+                                <li><a href='https://www.rsc.org/awards-funding/'>Awards &#38; funding</a></li>
+                                <li><a href='https://www.rsc.org/advertise/'>Advertise</a></li>
+                                <li><a href='https://www.rsc.org/help-legal/'>Help &#38; legal</a></li>
+                                <li><a href='https://www.rsc.org/help-legal/legal/privacy/'>Privacy policy</a></li>
+                                <li><a href='https://www.rsc.org/help-legal/legal/terms-conditions/'>Terms &#38; conditions</a></li>
+                            </ul>
+                        </div>
+                        <hr class='clear'>
+                    </div>
+                </div>
+                <div class='baseline'>
+                    <div class='viewport'>
+                        <div class='social-icons'>
+                            <a href='https://www.facebook.com/RoyalSocietyofChemistry' class='facebook'><span class='sr-only'>Facebook</span><img src='https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/facebook-128.png' height='32' width='32' alt=''></a>
+                            <a href='https://twitter.com/RoySocChem' class='twitter'><span class='sr-only'>Twitter</span><img src='https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/twitter-128.png' height='32' width='32' alt=''></a>
+                            <a href='https://www.linkedin.com/company/23105' class='linkedin'><span class='sr-only'>LinkedIn</span><img src='https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/linkedin-128.png' height='32' width='32' alt=''></a>
+                            <a href='https://www.youtube.com/user/wwwRSCorg' id='lastLinkOnPage' class='youtube'><span class='sr-only'>YouTube</span><img src='https://www.rsc-cdn.org/pubs-core/2022.0.191/content/NewImages/youtube-128.png' height='32' width='32' alt=''></a>
+                        </div>
+                        <div class='copyright'>
+                            &#169; Royal Society of Chemistry 2026<br>Registered charity number: 207890
+                        </div>
+                    </div>
+                </div>
+                <hr class='clear'>
+            </footer>
+            <!-- end oxygen footer -->
+<div class="rsc-onetrust-cookie-footer">
+    <div id="rsc-onetrust-cookie-footer-non-br">This website collects cookies to deliver a better user experience.
+        <span id="rsc-onetrust-cookie-footer-global">
+            See how this site uses <a href="/en/content/cookies" title="See how this site uses cookies" aria-label="See how this site uses cookies">Cookies</a>. 
+        </span>
+        <span id="rsc-onetrust-cookie-footer-ca" style="display: none;">
+            <a href="/en/content/cookies" title="Do not sell my personal data" aria-label="Do not sell my personal data">Do not sell my personal data</a>. 
+        </span>
+    </div>
+    <div id="rsc-onetrust-cookie-footer-br" style="display: none;">
+        Este site coleta cookies para oferecer uma melhor experi&ecirc;ncia ao usu&aacute;rio.
+        <span>
+            Veja como este site usa <a href="/en/content/cookies" title="Veja como este site usa cookies" aria-label="Veja como este site usa cookies">Cookies</a>. 
+        </span>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <div class="modal__canvas modal__canvas--clickclose">
+    </div>
+
+
+
+<div class="pubs-nav-drawer" aria-hidden="true">
+    <nav class="pubs-nav-control" aria-label="Site menu">
+        <div class="pubs-nav__header">
+            <a href="#" role="button" class="pubs-header__btn pubs-nav__close nav-item-first" tabindex="-1" aria-label="Close site menu"><img src="https://www.rsc-cdn.org/oxygen/assets/icons/cross-light.png" width="24" alt=""></a>
+            <a href="/" class="pubs-header__link--home pubs-nav__title" tabindex="-1" title="Publishing home page" aria-label="Publishing home page">Publishing</a>
+        </div>
+        <div class="pubs-nav__body scrollbar--slim">
+                    <div class="pubs-nav__list autopad--h">
+                        <h2 class="pubs-nav__heading">Journals</h2>
+                        <ul class="pubs-nav__ul">
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_self" href="/en/journals?key=title&amp;value=current" class="pubs-nav__link" tabindex="-1">Current Journals</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_self" href="/en/journals?key=title&amp;value=archive" class="pubs-nav__link" tabindex="-1">Archive Journals</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_self" href="/en/journals?key=title&amp;value=all" class="pubs-nav__link" tabindex="-1">All Journals</a>
+                                        
+                                    </li>
+                        </ul>
+                    </div>
+                    <div class="pubs-nav__list autopad--h">
+                        <h2 class="pubs-nav__heading">Books</h2>
+                        <ul class="pubs-nav__ul">
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://books.rsc.org/books/search-results?fl_SiteID=5&amp;page=1&amp;f_ContentType=Book&amp;sort=Date+-+Newest+First" class="pubs-nav__link" tabindex="-1">Browse Books</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://books.rsc.org/books/collections/series" class="pubs-nav__link" tabindex="-1">Series</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.rsc.org/journals-books-databases/book-authors/propose-book-idea/" class="pubs-nav__link" tabindex="-1">For Authors and Editors</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.rsc.org/journals-books-databases/book-authors/" class="pubs-nav__link" tabindex="-1">About</a>
+                                        
+                                    </li>
+                        </ul>
+                    </div>
+                    <div class="pubs-nav__list autopad--h">
+                        <h2 class="pubs-nav__heading">Databases</h2>
+                        <ul class="pubs-nav__ul">
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.rsc.org/journals-books-databases/databases-literature-updates/" class="pubs-nav__link" tabindex="-1">Literature Updates</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="http://www.chemspider.com/" class="pubs-nav__link" tabindex="-1">ChemSpider</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.rsc.org/merck-index" class="pubs-nav__link" tabindex="-1">The Merck Index*</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://marinlit.rsc.org/" class="pubs-nav__link" tabindex="-1">MarinLit</a>
+                                        
+                                    </li>
+                        </ul>
+                    </div>
+                    <div class="pubs-nav__list autopad--h">
+                        <h2 class="pubs-nav__heading">More</h2>
+                        <ul class="pubs-nav__ul">
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.rsc.org/resources-tools/research-tools/#access" class="pubs-nav__link" tabindex="-1">For Members</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_self" href="/en/librarian/home" class="pubs-nav__link" tabindex="-1">For Librarians</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.rsc.org/journals-books-databases/about-journals/journal-email-alerts-service/" class="pubs-nav__link" tabindex="-1">Subscribe</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_self" href="/en/ealerts/rssfeed" class="pubs-nav__link" tabindex="-1">RSS Feeds</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="http://blogs.rsc.org/" class="pubs-nav__link" tabindex="-1">Blogs</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.chemistryworld.com/" class="pubs-nav__link" tabindex="-1">Chemistry World</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://edu.rsc.org/eic" class="pubs-nav__link" tabindex="-1">Education in Chemistry</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="https://www.rsc.org/journals-books-databases/open-access/" class="pubs-nav__link" tabindex="-1">Open Access</a>
+                                        
+                                    </li>
+                                    <li class="pubs-nav__item pubs-nav__indent">
+                                            <a target="_blank" href="http://pubs.rsc.org/historical-collection" class="pubs-nav__link" tabindex="-1">Historical Collection</a>
+                                        
+                                    </li>
+                        </ul>
+                    </div>
+
+        </div>
+    </nav>
+</div>
+
+
+    <script>
+        var eCommerceGetOrderItemCountUrl = 'https://www.rsc.org/basket/shoppingcart/getorderitemcount';
+        var hideNotificationMessageUrl = '/en/home/HideNotificationMessage';
+        var brandingBarUrl = '/en/home/branding_New';
+    </script>
+    <script src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/Scripts/dist/vendor.min.js"></script>
+    <script src="https://www.rsc-cdn.org/pubs-core/2022.0.191/content/Scripts/dist/pubs-ui.min.js"></script>
+    
+
+    <script>
+
+        var Model = {
+            IsEnableRelatedContentTab: true,
+            DownloadOptionAsync: '/en/content/checkaccess?msid=c7md00311k&type=article&pubyear=2017&sercode=md&publicationdate=2017-07-07&pubstatus=prt&doi=10.1039%2Fc7md00311k&ispdfexist=True&title=mao%20inhibitory%20activity%20of%20bromo-2-phenylbenzofurans%3A%20synthesis%2C%20in%20vitro%20study%2C%20and%20docking%20calculations&fulltext=xml&checkFullText=True&totalPages=9',
+            ArticleTitleFull: 'mao inhibitory activity of bromo-2-phenylbenzofurans: synthesis, &lt;em&gt;in vitro&lt;/em&gt; study, and docking calculations - c7md00311k - sercode=md'
+        };
+
+        var ALPTabs = {
+            "Abstract": {
+                hash: "divAbstract",
+                link: "#btnAbstract",
+                panel: "#pnlAbstract",
+                content: "#divAbout",
+                remoteUrl: "",
+            },
+            "Citation": {
+                hash: "divCitation",
+                link: "#btnCitation",
+                panel: "#pnlCitation",
+                content: "#divCitation",
+                remoteUrl: '/en/content/forwardlinks?doi=10.1039%2Fc7md00311k',
+            },
+            "RelatedContent": {
+                hash: "divRelatedContent",
+                link: "#btnRelatedContent",
+                panel: "#pnlRelatedContent",
+                content: "#divRelatedContent",
+                remoteUrl: '/en/content/relatedarticleschapters/c7md00311k?title=mao%20inhibitory%20activity%20of%20bromo-2-phenylbenzofurans%3A%20synthesis%2C%20in%20vitro%20study%2C%20and%20docking%20calculations&journalname=MedChemComm&doctype=Research%20Article&journalthemesCount=0&authorscount=10',
+                subTabs: {
+                    "articles": {
+                        radio: "articles",
+                        links: "#RelatedArticle",
+                        content: "#RelatedArticles",
+                        hasContent: "hasRelatedArticles"
+                    },
+                    "chapters": {
+                        radio: "chapters",
+                        links: "#RelatedBookChapter",
+                        content: "#RelatedBookChapters",
+                        hasContent: "hasRelatedBookChapters",
+                    },
+                    "themes": {
+                        radio: "themes",
+                        links: "",
+                        content: "#themeIssueNWebcollection",
+                        hasContent: "hasRelatedThemes"
+                    }
+                }
+            }
+        };
+
+        var CheckArticleHtmlButton = function CheckArticleHtmlButton() {
+
+            var ahtmlBtn = $("a[href*='/content/articlehtml']"),
+                ahtmlBtnText = $.trim(ahtmlBtn.text()),
+                ahtmlBtnHref;
+
+            if (ahtmlBtnText === "Article HTML") {
+                ahtmlBtnHref = ahtmlBtn.attr("href");
+                $("#pnlArticleAccess").show();
+                BindRetryButton(ahtmlBtnHref);
+                LoadArticleHtml(ahtmlBtnHref);
+            }
+
+        };
+
+        var LoadArticleHtml = function LoadArticleHtml(ahtmlUrl) {
+
+            $.ajax({
+                url: ahtmlUrl,
+                data: { t2: "y" },
+                success: function (data) {
+                    $("#pnlArticleAccess").remove();
+                    $("#pnlArticleContentLoaded").html(data);
+                    LazyLoadImages();
+                    StyleHeadings();
+                    StyleTables();
+                },
+                error: function () {
+                    $("#thtmlLoadingMessage").hide();
+                    $("#thtmlErrorMessage").show();
+                },
+                dataType: "html"
+            });
+
+        };
+
+        var BindRetryButton = function BindRetryButton(ahtmlUrl) {
+
+            $("#btnTryAgain").on("click", function (e) {
+                e.preventDefault();
+                $("#thtmlLoadingMessage").show();
+                $("#thtmlErrorMessage").hide();
+                LoadArticleHtml(ahtmlUrl);
+            });
+
+        };
+
+        var OpenPopupWindow = function OpenPopupWindow(url, width, height) {
+
+            var left = (screen.width / 2) - (width / 2),
+                top = (screen.height / 2) - (height / 2);
+            window.open(
+                url,
+                "",
+                "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left
+            );
+
+        }
+
+        var LazyLoadImages = function LazyLoadImages() {
+
+            $("img[data-original]").lazyload({
+                effect: "fadeIn",
+                threshold: 200
+            });
+
+        };
+
+        var StyleHeadings = function StyleHeadings() {
+
+            $(".t-html h5.h--heading5").each(function (idx, el) {
+                if ($(this).next().is("h6")) {
+                    $(this).css("display", "block").next().css("margin-top", "0");
+                }
+            });
+
+        };
+
+        var StyleTables = function StyleTables() {
+
+            $(".t-html table.table").each(function (idx, el) {
+                var tw = $(this).width();
+                $(this).parent().css("min-width", tw * 0.8 + "px");
+            });
+        };
+
+        var ShowALPTab = function ShowALPTab(tabName) {
+
+            if (ALPTabs.hasOwnProperty(tabName)) {
+
+                var tab = ALPTabs[tabName],
+                    tabPanel = $(tab.panel),
+                    tabContent = $(tab.content);
+
+                // Requires jQuery Address Plugin v1.5 (scripts/jquery.address-1.5.min.js)
+                $.address.value(tab.hash);
+
+                // If tab was not yet shown
+                if (tabPanel.attr("data-loaded") === "false") {
+
+                    if (tab.remoteUrl) {
+                        pubsui.$handler.announcer.update(tabContent.text());
+                        tabContent.load(tab.remoteUrl);
+                    }
+
+                    tabPanel.attr("data-loaded", "true");
+                }
+            }
+        };
+
+        $(document).ready(function () {
+
+            var currentHash = window.location.hash,
+                tabProps, subTabProps,
+                $contentType = $("#contentType");
+
+            // Requires jQuery Address Plugin v1.5 (scripts/jquery.address-1.5.min.js)
+            $.address.crawlable(true);
+            $.address.strict(false);
+
+            $(".btn-icon--loading").on("click", function (e) {
+                e.preventDefault();
+            });
+
+            $("#DownloadOption").load(Model.DownloadOptionAsync, CheckArticleHtmlButton);
+
+            // Bind all tabs
+            $(".tab__btn").on("click", function () {
+                ShowALPTab($(this).attr("id").substring(3));
+            });
+
+            // Bind social sharing buttons
+            $(".btn--social").on("click", function (e) {
+                e.preventDefault();
+                OpenPopupWindow($(this).attr("href"), 800, 600);
+            });
+
+            // Override the initial tab selection if the URL hash matches an available tab
+            for (tab in ALPTabs)
+            {
+                tabProps = ALPTabs[tab];
+                if (currentHash.indexOf(tabProps.hash) !== -1 && $(tabProps.link).length)
+                {
+                    $(tabProps.link).trigger("click");
+                }
+            }
+
+            if (Model.IsEnableRelatedContentTab)
+            {
+                for (subTab in ALPTabs.RelatedContent.subTabs)
+                {
+                    subTabProps = ALPTabs.RelatedContent.subTabs[subTab];
+                    if (currentHash.indexOf(subTabProps.radio) !== -1)
+                    {
+                        $contentType.val(subTabProps.radio);
+                    }
+                }
+            }
+
+            // Crossmark 'Check for updates' button
+            if (!$("html").hasClass("ie8") && $(".crossmark-button").length) {
+                $.ajax({
+                    url: "https://crossmark-cdn.crossref.org/widget/v2.0/widget.js",
+                    dataType: "script",
+                    cache: true
+                }).done(function() {
+                    $(".crossmark-button").addClass("visible");
+                });
+            }
+
+            // Search articles by author form
+            $("#Search").click(function () {
+                var authorList = '';
+                var checkboxeschecked = '';
+
+                $('input[type=checkbox][data-givenname][data-familyname]').each(function () {
+                    if (this.checked) {
+                        checkboxeschecked = 'true';
+                        authorList = $(this).data("givenname") + ":" + $(this).data("familyname") + "|" + authorList;
+                    }
+                });
+                authorList = authorList.slice(0, authorList.length - 1);
+                $("#selectedAuthors").attr("value", authorList);
+
+                if (checkboxeschecked != 'true') {
+                    alert('Please select at least one author');
+                    return false;
+                }
+            });
+
+        });
+
+    </script>
+    <script src="https://cdn.pbgrd.com/core-rsc.js" async></script>
+
+</body>
+</html>

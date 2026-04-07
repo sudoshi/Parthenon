@@ -1,0 +1,831 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PR6QJ35M47"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70768851-25');
+  gtag('config', 'G-PR6QJ35M47');
+</script>
+<title>Clinical Outcomes of Antiplatelets Combined with Statins in Patients with Ischemic Heart Disease</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/favicon.ico?v=2604071035" type="image/x-icon">
+<link rel="icon" href="/favicon.ico?v=2604071035" type="image/x-icon">
+<meta name="citation_language" content="en" />
+<meta name="citation_doi" content="10.24304/kjcp.2019.29.4.254" />
+<meta name="citation_journal_title" content="Korean Journal of Clinical Pharmacy" />
+<meta name="citation_journal_abbrev" content="Korean J Clin Pharm" />
+<meta name="citation_publisher" content="Korean College of Clinical Pharmacy" />
+<meta name="citation_issn" content="1226-6051" />
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author" content="Chungsoo Kim">
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author_institution" content="Department of Biomedical Science, Graduate School of Medicine, Ajou University, Suwon 16499, Republic of Korea">
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author" content="Jimin Lee">
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author_institution" content="College of Pharmacy, Ajou University, Suwon 16499, Republic of Korea">
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author" content="Rae Woong Park">
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author_institution" content="Department of Biomedical Science, Graduate School of Medicine, Ajou University, Suwon 16499, Republic of Korea; Department of Biomedical Informatics, School of Medicine, Ajou University, Suwon 16499, Republic of Korea">
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author" content="Sukhyang Lee">
+<meta xmlns="https://www.w3.org/1999/xhtml" name="citation_author_institution" content="College of Pharmacy, Ajou University, Suwon 16499, Republic of Korea">
+<meta name="citation_publication_date" content="2019/12/31" />
+<meta name="citation_online_date" content="2019/12/31" />
+<meta name="citation_volume" content="29" />
+<meta name="citation_issue" content="4" />
+<meta name="citation_firstpage" content="254" />
+<meta name="citation_lastpage" content="266" />
+<meta name="citation_keywords" content="Major adverse cerebro-cardiovascular events (MACCE); statin; clopidogrel; cilostazol; sarpogrelate; real world data" />
+<meta name="citation_abstract_html_url" content="https://www.ekjcp.org/journal/view.html?doi=10.24304/kjcp.2019.29.4.254" />
+<meta name="citation_pdf_url" content="https://www.ekjcp.org/journal/download_pdf.php?doi=10.24304/kjcp.2019.29.4.254" />
+<meta name="citation_title" content="Clinical Outcomes of Antiplatelets Combined with Statins in Patients with Ischemic Heart Disease" />
+
+<meta name="dc.title" content="Clinical Outcomes of Antiplatelets Combined with Statins in Patients with Ischemic Heart Disease" />
+<meta name="dc.type" content="text" />
+<meta name="dc.publisher" content="Korean College of Clinical Pharmacy" />
+<meta name="dc.contributors" content="Chungsoo Kim, Jimin Lee, Rae Woong Park, and Sukhyang Lee" />
+<meta name="dc.date" content="2019/12/31" />
+<meta name="dc.identifier" content="doi:10.24304/kjcp.2019.29.4.254" />
+<meta name="dc.language" content="en" />
+
+<meta property="og:title" content="Clinical Outcomes of Antiplatelets Combined with Statins in Patients with Ischemic Heart Disease">
+<meta property="og:url" content="https://www.ekjcp.org/journal/view.html?doi=10.24304/kjcp.2019.29.4.254">
+<meta property="og:image" content="https://www.ekjcp.org/img/og-img.jpg">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Korean Journal of Clinical Pharmacy">
+<meta property="og:description" content="Chungsoo Kim, Jimin Lee, Rae Woong Park, and Sukhyang Lee. Korean J Clin Pharm 2019;29:254-66. https://doi.org/10.24304/kjcp.2019.29.4.254">
+	
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=2604071035">
+<link rel="stylesheet" type="text/css" href="/css/main.css?v=2604071035">
+<link rel="stylesheet" type="text/css" href="/css/sub.css?v=2604071035">
+
+
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/link.js?v=2604071035"></script>
+<script type="text/javascript" src="/js/flash.js"></script>
+<script type="text/javascript" src="/js/roll_over.js"></script>
+<script type="text/javascript" src="/js/rsliding.js"></script>
+<script type="text/javascript" src="/journal/js/script.js"></script>
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.form.js"></script>
+<script type="text/javascript" src="https://www.inforang.com/js/left.js"></script>
+<script type="text/javascript" src="/js/jquery.infieldlabel.min.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+	jQuery(function() { jQuery("label").inFieldLabels(); });
+//]]>
+</script>
+
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+	form label {
+		background: #fff;
+	}
+</style>
+<![endif]-->
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
+		processEscapes: true
+	},
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+</script>
+
+<script src="https://tools.inforang.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+ <script type="text/javascript">
+
+//<![CDATA[
+
+// 2011-12-27(화) 글자 크기 추가
+
+jQuery(document).ready(function() {
+
+	jQuery('#text_size_p').click(function() {
+
+		jQuery('.j_text_size').each(function() {
+
+			var a = jQuery(this).css('font-size');
+
+			var b = a.replace(/[^0-9]/gi, '') ;
+
+			var c = parseInt(b) +2;
+
+			jQuery(this).css('font-size', c);
+
+		});
+
+	});
+
+	jQuery('#text_size_m').click(function() {
+
+		jQuery('.j_text_size').each(function() {
+
+			var a = jQuery(this).css('font-size');
+
+			var b = a.replace(/[^0-9]/gi, '') ;
+
+			var c = parseInt(b) -2;
+
+			jQuery(this).css('font-size', c);
+
+		});
+
+	});
+
+});
+
+
+
+
+
+function chkLayerSlide() {
+
+	jQuery('#submenu').slideDown(500);
+
+}
+
+
+
+function chkLayerMenu(no) {
+
+	switch (no) {
+
+		case "M1" :
+
+
+
+			jQuery('#tapNavi1').attr("src", "../img/main/navi_img10.gif");
+
+			jQuery('#tapNavi2').attr("src", "../img/main/navi_img2.gif");
+
+			jQuery('#tapNavi3').attr("src", "../img/main/navi_img3.gif");
+
+			jQuery('#tapNavi4').attr("src", "../img/main/navi_img4.gif");
+
+			jQuery('#tapNavi5').attr("src", "../img/main/navi_img5.gif");
+
+		break;
+
+
+
+		case "M2" :
+
+			jQuery('#tapNavi1').attr("src", "../img/main/navi_img1.gif");
+
+			jQuery('#tapNavi2').attr("src", "../img/main/navi_img20.gif");
+
+			jQuery('#tapNavi3').attr("src", "../img/main/navi_img3.gif");
+
+			jQuery('#tapNavi4').attr("src", "../img/main/navi_img4.gif");
+
+			jQuery('#tapNavi5').attr("src", "../img/main/navi_img5.gif");
+
+		break;
+
+
+
+		case "M3" :
+
+			jQuery('#tapNavi1').attr("src", "../img/main/navi_img1.gif");
+
+			jQuery('#tapNavi2').attr("src", "../img/main/navi_img2.gif");
+
+			jQuery('#tapNavi3').attr("src", "../img/main/navi_img30.gif");
+
+			jQuery('#tapNavi4').attr("src", "../img/main/navi_img4.gif");
+
+			jQuery('#tapNavi5').attr("src", "../img/main/navi_img5.gif");
+
+		break;
+
+
+
+		case "M4" :
+
+			jQuery('#tapNavi1').attr("src", "../img/main/navi_img1.gif");
+
+			jQuery('#tapNavi2').attr("src", "../img/main/navi_img2.gif");
+
+			jQuery('#tapNavi3').attr("src", "../img/main/navi_img3.gif");
+
+			jQuery('#tapNavi4').attr("src", "../img/main/navi_img40.gif");
+
+			jQuery('#tapNavi5').attr("src", "../img/main/navi_img5.gif");
+
+		break;
+
+
+
+		default:
+
+			jQuery('#tapNavi1').attr("src", "../img/main/navi_img1.gif");
+
+			jQuery('#tapNavi2').attr("src", "../img/main/navi_img2.gif");
+
+			jQuery('#tapNavi3').attr("src", "../img/main/navi_img3.gif");
+
+			jQuery('#tapNavi4').attr("src", "../img/main/navi_img4.gif");
+
+			jQuery('#tapNavi5').attr("src", "../img/main/navi_img50.gif");
+
+	}
+
+}
+
+//]]>
+
+</script>
+
+<div id="header2">
+
+	<form id="searchForm1" name="searchForm1" method="get" action="/journal/list.html">
+
+	<input type="hidden" name="pn" value="search">
+
+
+
+    <div class="searchbar">
+
+      <table width="930" border="0" cellspacing="0" cellpadding="0">
+
+        <tr>
+
+          <td width="10" height="40" align="left"></td>
+
+          <td width="677"  align="left" >Search for
+
+		  <p style="display:inline;"><label for="all_k" class="inputlabel" style="padding-top:0px;" >Search All Journals</label><br />
+
+		  <input name="all_k" id="all_k" type="text" value="" class="input_txt" />
+
+		  </p></td>
+
+          <td width="243" align="right">
+
+		  <!-- <table width="114" border="0" cellspacing="0" cellpadding="0">
+
+              <tr>
+
+                <td width="70" align="left">TEXT SIZE</td>
+
+                <td width="22" align="left"><img src="../img/main/text_size_p.gif" id='text_size_p' class='pointer' width="19" height="18" /></td>
+
+                <td width="22" align="left"><img src="../img/main/text_size_m.gif" id='text_size_m' class='pointer' width="19" height="18" /></td>
+
+              </tr>
+
+            </table> --></td>
+
+        </tr>
+
+      </table>
+
+    </div>
+
+	</form>
+
+    <div class="mainimg">
+
+      <a href="javascript:Home()"><img src="../img/pic_top_new3.jpg" border="0"/></a>
+
+    </div>
+
+
+
+    <div id="menuarea">  <!--css / main.css---->
+
+      <table width="950" height="27" border="0" cellpadding="0" cellspacing="0">
+
+
+        <tr align="center">
+
+
+			<td><a href="javascript:about01()"><span class="top_menu">About this Journal</span></a></td>
+			<td width="20"><span class="top_menu">|</span></td>
+
+          <td width="130"><a href="javascript:articles01()"><span class="top_menu">Articles</span></a></td>
+
+
+			<td width="20"><span class="top_menu">|</span></td>
+
+          <td><a href="javascript:authors01()"><span class="top_menu">Authors Guideline</span></a></td>
+
+			<td width="20"><span class="top_menu">|</span></td>
+
+          <td width="130"><a href="javascript:policy01()"><span class="top_menu">Policy</span></a></td>
+
+
+			<td width="20"><span class="top_menu">|</span></td>
+
+          <td><a href="/submission/Login.html" target="_blank"><span class="top_menu">e-Submission</span></a></td>
+
+        </tr>
+
+      </table>
+
+    </div>
+
+
+
+<!--
+
+    <div id="menuarea">
+
+      <table border="0" cellspacing="0" cellpadding="0">
+
+        <tr>
+
+          <td><a href="javascript:articles01()" onmouseover="chkLayerMenu('M1'); chkLayerSlide();" ><img src="../img/main/navi_img10.gif" width="190" height="24" id="tapNavi1" /></a></td>
+
+          <td><a href="javascript:authors01()" onmouseover="chkLayerMenu('M2'); chkLayerSlide();"><img src="../img/main/navi_img2.gif" width="190" height="24" id="tapNavi2" /></a></td>
+
+          <td><a href="javascript:reviewers01()" onmouseover="chkLayerMenu('M3'); chkLayerSlide();"><img src="../img/main/navi_img3.gif" width="190" height="24" id="tapNavi3" /></a></td>
+
+          <td><a href="javascript:about01()" onmouseover="chkLayerMenu('M4'); chkLayerSlide();"><img src="../img/main/navi_img4.gif" width="190" height="24"   id="tapNavi4" /></a></td>
+
+          <td><a href="javascript:mypage01()" onmouseover="chkLayerMenu('M5'); chkLayerSlide();" ><img src="../img/main/navi_img5.gif" width="190" height="24" id="tapNavi5" /></a></td>
+
+        </tr>
+
+      </table>
+
+    </div>
+
+
+
+    <hr class="line1px" />
+
+
+
+    <div class="submenu" id="submenu"  style="display:none;">
+
+      <ul onmouseover="chkLayerMenu('M1')">
+
+        <li><a href="javascript:articles01()">Lastest Articles</a></li>
+
+        <li><a href="javascript:articles02()">Ahead of Print</a></li>
+
+        <li><a href="javascript:articles03()">Most Read Articles</a></li>
+
+        <li><a href="javascript:articles04()">Archives</a></li>
+
+        <li><a href="javascript:articles05()">Advanced Search</a></li>
+
+      </ul>
+
+      <ul onmouseover="chkLayerMenu('M2')">
+
+        <li><a href="javascript:authors01()">Instructions to Authors</a></li>
+
+        <li><a href="javascript:authors02()">How to Submit a Manuscript</a></li>
+
+        <li><a href="javascript:authors03()">Categories of Publications</a></li>
+
+      </ul>
+
+      <ul onmouseover="chkLayerMenu('M3')">
+
+        <li><a href="javascript:reviewers01()">Guide for Korean J Clin Pharm</a></li>
+
+        <li><a href="javascript:reviewers02()">Peer Review at Korean J Clin Pharm</a></li>
+
+        <li><a href="javascript:reviewers03()">Editorial Policy</a></li>
+
+      </ul>
+
+      <ul onmouseover="chkLayerMenu('M4')">
+
+        <li><a href="javascript:about01()">Aims and Scope</a></li>
+
+        <li><a href="javascript:about02()">Editorial Board</a></li>
+
+        <li><a href="javascript:about03()">Open Access</a></li>
+
+        <li><a href="javascript:about04()">Subscription</a></li>
+
+        <li><a href="javascript:about05()">Contact Us</a></li>
+
+        <li><a href="javascript:about06()">News</a></li>
+
+      </ul>
+
+      <ul onmouseover="chkLayerMenu('M5')">
+
+
+        <li><a href="javascript:mypage01()">Log in</a></li>
+
+        <li><a href="javascript:mypage02()">Register</a></li>
+
+
+		<li><a href="javascript:mypage05()">e-Submission</a></li>
+
+      </ul>
+
+    </div>
+
+-->
+
+
+
+    <div class="searchbar2">
+
+	<form id="searchForm2" name="searchForm2" method="get" action="/journal/list.html">
+
+	<input type="hidden" name="pn" value="search">
+
+
+
+      <table width="930" border="0" cellspacing="0" cellpadding="0">
+
+        <tr>
+
+          <td width="66"><img src="../img/main/searchbar_img.gif" alt="search for" width="66px" height="12px" /></td>
+
+          <td width="219">
+
+		  <p>
+
+		  <label for="s_t" class="inputlabel">Title</label><br />
+
+		  <input name="s_t" id="s_t" type="text" value=""  class="search_tit" />
+
+		  </p>
+
+		  </td>
+
+          <td width="162">
+
+		  <p>
+
+		  <label for="s_a" class="inputlabel">Author</label><br />
+
+		  <input name="s_a" id="s_a" type="text" value="" class="serch_author"/>
+
+		  </p>
+
+		  </td>
+
+          <td width="164">
+
+		  <p>
+
+		  <label for="s_k" class="inputlabel">Keyword</label><br />
+
+		  <input name="s_k" id="s_k" type="text" value="" class="serch_key"/>
+
+		  </p>
+
+		  </td>
+
+		<td width="113">
+
+		
+		<select name='s_v'>
+
+		<option value=''>::: Volume :::</option>
+
+		<option value='36'>Vol. 36</option><option value='35'>Vol. 35</option><option value='34'>Vol. 34</option><option value='33'>Vol. 33</option><option value='32'>Vol. 32</option><option value='31'>Vol. 31</option><option value='30'>Vol. 30</option><option value='29'>Vol. 29</option><option value='28'>Vol. 28</option><option value='27'>Vol. 27</option><option value='26'>Vol. 26</option><option value='25'>Vol. 25</option><option value='24'>Vol. 24</option><option value='23'>Vol. 23</option><option value='22'>Vol. 22</option><option value='21'>Vol. 21</option><option value='20'>Vol. 20</option><option value='19'>Vol. 19</option><option value='18'>Vol. 18</option><option value='17'>Vol. 17</option><option value='16'>Vol. 16</option><option value='15'>Vol. 15</option><option value='14'>Vol. 14</option><option value='13'>Vol. 13</option><option value='12'>Vol. 12</option><option value='11'>Vol. 11</option><option value='10'>Vol. 10</option><option value='9'>Vol. 9</option><option value='8'>Vol. 8</option><option value='7'>Vol. 7</option><option value='6'>Vol. 6</option><option value='5'>Vol. 5</option><option value='3'>Vol. 3</option><option value='2'>Vol. 2</option><option value='1'>Vol. 1</option>
+		</select>
+
+		</td>
+
+		<td width="100">
+
+		
+		<select name='s_n'>
+
+		<option value=''>::: Issue :::</option>
+
+		<option value='4'>No. 4</option><option value='3'>No. 3</option><option value='2'>No. 2</option><option value='1'>No. 1</option>
+		</select>
+
+		</td>
+
+          <td width="106"><input type="image" src="../img/main/top_btn_search.gif" width="85" height="19" /></td>
+
+        </tr>
+
+      </table>
+
+      <p>&nbsp;</p>
+
+      <label for="Volume"></label>
+
+	</form>
+
+    </div>
+
+  </div>  <div id="sub_contents">
+    <div class="left_con">
+        <div class="submn">
+	<ul>
+	  <li><a href="javascript:articles01()"><span class="sub_menu">Current Issue</span></a></li>
+	  <li>&nbsp;&nbsp; <span class="sub_menu">|</span> &nbsp;&nbsp;</li>	  
+	<!--  <li><a href="javascript:articles02()"><span class="sub_menu">Online First</span></a></li>
+	  <li>&nbsp;&nbsp; <span class="sub_menu">|</span> &nbsp;&nbsp;</li>	  -->
+	  <li><a href="javascript:articles04()"><span class="sub_menu">Archives</span></a></li>
+	  <li>&nbsp;&nbsp; <span class="sub_menu">|</span> &nbsp;&nbsp;</li>
+	  <li><a href="javascript:articles03()"><span class="sub_menu">Most Read Articles</span></a></li>
+	</ul>
+</div>
+
+<!--
+<div class="submn">
+	<ul>
+	  <li><a href="javascript:articles01()" swapImg='/img/articles/menu10.gif'><img src="../img/articles/menu1.gif" width="106" height="35" /></a></li>
+	  <li><a href="javascript:articles02()" swapImg='/img/articles/menu20.gif'><img src="../img/articles/menu2.gif" width="105" height="35" /></a></li>
+	  <li><a href="javascript:articles03()" swapImg='/img/articles/menu30.gif'><img src="../img/articles/menu3.gif" width="130" height="35" /></a></li>
+	  <li><a href="javascript:articles04()" swapImg='/img/articles/menu40.gif'><img src="../img/articles/menu4.gif" width="80" height="35" /></a></li>
+	  <li><a href="javascript:articles05()" swapImg='/img/articles/menu50.gif'><img src="../img/articles/menu5.gif" width="120" height="35" /></a></li>
+	</ul>
+</div>
+-->		<div class="list"><link rel='stylesheet' type='text/css' href='/journal/css/style.css' />
+<!--<link rel='stylesheet' type='text/css' href='/journal/css/dev_style.css' />-->
+<script type='text/javascript' src='/journal/js/script.js'></script>
+<iframe name='update_proc' width='0' height='0' frameborder='0' marginheight='0' marginwidth='0'></iframe><link rel="stylesheet" href="src/tip-skyblue/tip-skyblue.css" type="text/css" />
+<link rel="stylesheet" href="src/tip-darkgray/tip-darkgray.css" type="text/css" />
+<link rel="stylesheet" href="src/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+<script type="text/javascript" src="js/jquery.poshytip.js"></script>
+<script type="text/javascript" src="js/jquery.poshytip.script.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+/*
+jQuery.noConflict();
+
+jQuery(document).ready(function() {
+	jQuery("span.xref a").each(function() {
+		var ah = jQuery(this).attr("href");
+		var bh = jQuery(""+ah+"").text();
+		jQuery(this).parent().attr("title", bh);
+	});
+});
+*/
+
+
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+// Blue !!!	2012-05-10	페이지내 section 링크
+function ViewNamePositionFun(ID) {
+	location.href = "/journal/view.html?doi=10.24304/kjcp.2019.29.4.254" + ID;
+	return false;
+}
+
+
+// Blue !!!	2012-05-10	참고문헌 연결시 배경색을 넣음.
+var tmpID = "";
+function ViewReferencePositionFun(ID) {
+	if (tmpID) document.getElementById(tmpID.substring(1)).style.backgroundColor = "#FFFFFF";
+
+	location.href = "/journal/view.html?doi=10.24304/kjcp.2019.29.4.254" + ID;
+	document.getElementById(ID.substring(1)).style.backgroundColor = "#F2F2FF";
+	tmpID = ID;
+}
+//]]>
+</script>
+
+
+<div style="margin:0 auto; width:98%;">
+
+	<div>
+		
+<!-- CrossMark widget v2.0 -->
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+<a data-target="crossmark"><img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="150" /></a>
+			<div class="list_top"><div style='padding-left: 10px'><div style="padding-top: 5px;"><a href='https://doi.org/10.24304/kjcp.2019.29.4.254' target='_blank'>https://doi.org/10.24304/kjcp.2019.29.4.254</a></div></div><div class='tit j_text_size'><strong>Clinical Outcomes of Antiplatelets Combined with Statins in Patients with Ischemic Heart Disease</strong></div><div class="author j_text_size">Korean J Clin Pharm 2019;29(4):254-266</div><div class="author j_text_size">Published online December 31, 2019</div><div class="author j_text_size">&copy; 2019 Korean College of Clinical Pharmacy.</div><br /></div><div class="border_line"></div><div style='padding:10px 0;'><div class='bold j_text_size'>Chungsoo Kim<sup>1</sup>, Jimin Lee<sup>2</sup>, Rae Woong Park<sup>1,3</sup>, and Sukhyang Lee<sup>2*</sup></div><br /><div class='j_text_size'><sup>1</sup>Department of Biomedical Science, Graduate School of Medicine, Ajou University, Suwon 16499, Republic of Korea<br><sup>2</sup>College of Pharmacy, Ajou University, Suwon 16499, Republic of Korea<br><sup>3</sup>Department of Biomedical Informatics, School of Medicine, Ajou University, Suwon 16499, Republic of Korea</div></div><div class="border_line"></div><div style='padding:10px 0;' class='j_text_size'><strong>Correspondence to:</strong> Sukhyang Lee, PharmD, PhD, College of Pharmacy, Ajou University, Worldcup-ro  206, Yeungtong-gu, Suwon Kyounggi-do 16499, Republic of Korea<br>Tel: +82-31-219-3443, E-mail: <a href="mailto:suklee@ajou.ac.kr">suklee@ajou.ac.kr</a></div><div class="border_line"></div><div><div style='padding:10px 0;' class='j_text_size'><span style='font-weight: bold;'>Received</span> August 20, 2019; <span style='font-weight: bold;'>Revised</span> November 27, 2019; <span style='font-weight: bold;'>Accepted</span> December 5, 2019.</div><img src="http://www.inforang.com/img/banner/CC-BY-NC-88x31.png" width="88" height="31" /><div style='padding:10px 0;' class='j_text_size'>This is an Open Access journal distributed under the terms of the Creative Commons Attribution Non-Commercial License (<a href="http://creativecommons.org/licenses/by-nc/4.0" onclick="window.open(this.href);return false;">http://creativecommons.org/licenses/by-nc/4.0</a>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</div></div><div class="Abstract"><dl><dt class='j_text_size' id='body01'>Abstract<span style="float: right; "><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><sec><h3>Background:</h3><p>Patients with cardiovascular risks are recommended to use statins and antiplatelet agents to prevent major cerebro- cardiovascular events (MACCE). Antiplatelet agents also possess anti-inflammatory and antioxidant effects, in addition to their inhibitory activity on platelets. The differences in clinical outcomes in ischemic heart disease (IHD) based on the type of antiplatelet therapy combined with statin treatment were investigated in this study.</p></sec><sec><h3><strong>Methods:</strong></h3><p>We conducted a retrospective cohort study using electronic medical records of IHD patients from January 2010 to December 2014 at Ajou University Hospital. Patients on combination therapy of antiplatelet drugs and statins were grouped based on antiplatelet drug types clopidogrel, cilostazol, or sarpogrelate. Propensity score matching was applied to balance the baseline of the groups of clopidogrel vs. cilostazol and the groups of clopidogrel vs. sarpogrelate. The incidence and risk of MACCE as primary outcomes were assessed between the groups of antiplatelet drugs.</p></sec><sec><h3><strong>Results:</strong></h3><p>Among the approximately 128,500 patients with IHD, 1,049 patients had taken a combination therapy of statin and antiplatelet agents. The cohorts of patients administered clopidogrel, cilostazol, or sarpogrelate were 906, 79, and 64, respectively. The incidence of MACCE was not significantly different among the cohorts (p=0.58), and there were no differences between clopidogrel vs. cilostazol (p=0.72) or clopidogrel vs. sarpogrelate (p=1.00) after propensity score matching.</p></sec><sec><h3><strong>Conclusion:</strong></h3><p>There was no difference in the incidence of MACCE based on the type of antiplatelet drug (clopidogrel, cilostazol, or sarpogrelate) in combination with a statin in patients with IHD.</p></sec></dd><dd class='j_text_size'><strong>Keywords</strong> : Major adverse cerebro-cardiovascular events (MACCE), statin, clopidogrel, cilostazol, sarpogrelate, real world data</dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body02'>Body<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><p>건강보험심사평가원의 보건의료빅데이터 통계자료에 의하 면 2018년 기준 허혈성 심장질환으로 인한 입원 환자수는 912,436명, 이에 따른 의료 비용은 1조 이상으로 매년 증가하 고 있다.<span class='xref'><a href="#B1" ><sup>1</sup></a></span><sup>)</sup> 2018년 미국심장학회 가이드라인(American College of Cardiology/American Heart Association guideline, ACC/ AHA) 에 따르면 만성질환인 고혈압 등의 심혈관계 질환을 가 진 환자에게 허혈성 심장질환 및 뇌졸중의 1차 또는 2차 예방 목적으로 고지혈증 치료제인 스타틴과 항혈소판제의 사용이 권장되고 있다.<span class='xref'><a href="#B2" ><sup>2</sup></a></span><sup>-</sup><span class='xref'><a href="#B5" ><sup>5</sup></a></span><sup>)</sup> 건강보험심사평가원 의약품통계의 다빈도 병용약물 사용현황에서 스타틴과 항혈소판제를 병용하는 빈 도가 높으며, aspirin, clopidogrel 외에 당뇨병 환자와 출혈위 험이 높은 환자에서 cilostazol, sarpogrelate와 같은 항혈소판 제가 1차 예방요법으로 우리나라에서 많이 사용되고 있다.<span class='xref'><a href="#B1" ><sup>1</sup></a></span><sup>)</sup> 이들 항혈소판제는 항혈소판 효과와 함께 항염증, 항산화, 혈 관 확장 및 혈관 보호 효과를 가지는 것으로 보고되고 있으며, 스타틴과 병용하여 주요심장질환 예방을 위하여 사용되고 있 다.<span class='xref'><a href="#B6" ><sup>6</sup></a></span><sup>)</sup> 우리나라 환자는 clopidogrel 대사유전자 다형성에 의한 약물 효과의 내성이 있을 수 있으며, 관상동맥중재술 후 aspirin clopidogrel, cilostazol 3제 요법이 임상적 근거에 의하여 사용 되고 있다.<span class='xref'><a href="#B7" ><sup>7</sup></a></span><sup>-</sup><span class='xref'><a href="#B11" ><sup>11</sup></a></span><sup>)</sup> Cilostazol은 혈소판의 c-AMP phosphodiesterase type Ⅲ를 선택적으로 억제하여 혈소판 응집 억제 및 혈관 확 장 등의 다양한 작용기전을 가지며, Aoki 등은 cilostazol이 염 증인자(iNOS, COX-2, MCP-1, IL-1&beta;, TNF-&alpha;) 발현을 억제한 다고 밝혔다.<span class='xref'><a href="#B12" ><sup>12</sup></a></span><sup>,</sup><span class='xref'><a href="#B13" ><sup>13</sup></a></span><sup>)</sup>Sarpogrelate는 세로토닌 작용에 의한 혈소 판 응집 억제 기전을 가진 약물로서 심장, 신장혈관 보호 작용 을 갖는 adiponectin 농도를 증가시키고, MCP-1, IL-6 등 염증 인자를 감소시키는 효과가 있다.<span class='xref'><a href="#B14" ><sup>14</sup></a></span><sup>-</sup><span class='xref'><a href="#B16" ><sup>16</sup></a></span><sup>)</sup></p>
+<p>관상동맥시술후 항혈소판제 병용요법에 대한 평가는 많으 나 1차 예방 목적의 스타틴과 항혈소판제 병용요법의 평가는 미흡하다. 이러한 항혈소판제의 항염증, 혈관 보호 효과가 보 고되는 상황에서 clopidogrel과 같은 P2Y12 저해제와 다른 기 전의 항혈소판제와 스타틴 병용요법에 대한 평가가 필요하다. 본 연구에서는 허혈성 심장질환 환자의 심혈관 질환 예방요법 으로서 statin과 항혈소판제의 병용요법에서 항혈소판제의 종 류에 따라 환자의 임상 결과에 영향을 평가하고자 하였다.</p></dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body03'>연구 방법<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><h3>자료원 및 연구디자인</h3>
+<p>본 연구는 아주대학교병원의 2010.01.01~2014.12.31 동안 허혈성 심장질환인 협심증(International Classification of Diseases, Tenth Revision ICD-10: I20), 급성 심근경색증 (ICD-10: I21), 만성 허혈성 심장병(ICD-10: I25) 진단이 있는 18세 이상 80세 이하 환자의 의무기록 자료를 활용하였다. 코 호트의 입적일(Index date) 은 statin과 항혈소판제 병용요법이 처음으로 시작된 날이며, 2015년 12월 31일까지 추적 관찰하 였다. 연구 대상은 statin과 clopidogrel, cilostazol, sarpogrelate 의 각 병용군으로 구분하였다. Statin과 항혈소판제 병용군 환 자의 인구학적 정보, 공존질환과 병용약물 정보를 수집하였고, 추후 환자 정보의 차이에 의한 교란변수의 영향을 조정하기 위하여 성향점수 매칭 방법을 사용하였다.<span class='xref'><a href="#B17" ><sup>17</sup></a></span><sup>,</sup><span class='xref'><a href="#B18" ><sup>18</sup></a></span><sup>)</sup>일차적으로 세 항혈소판제 사용군을 동시에 비교 분석하였고, 이차적으로 두 항혈소판제 사용군의 성향점수 매칭 방법을 통해 환자의 정보 를 매칭하여 비교 분석하였다. 성향점수 매칭을 통한 분석에 는 현재 허혈성 심장질환 환자의 항혈소판제 가이드라인에 의 하여 임상적으로 사용하는 clopidogrel군을 대조군으로 분석 하였다.<span class='xref'><a href="#B19" ><sup>19</sup></a></span><sup>)</sup> 환자 기본정보는 연령, 성별, Charlson Comorbidity Index (CCI), statin 종류(atorvastatin, rosuvastatin, simvastatin, pravastatin, pitavastatin, fluvastatin), 공존질환과 병력(고혈압, 심부전, 당뇨, 제2형 당뇨, 심근경색 병력, 말초혈관질환, 뇌혈 관 사건, 신장질환, 만성 신장질환, 말기 신장 질환), 병용약물 (아스피린, 안지오텐신 전환효소 억제제, 알파 수용체 차단제, 베타 수용체 차단제, 칼슘채널 억제제, 티아지드계 이뇨제, 루 프 이뇨제, 칼륨 보존 이뇨제, 기타 지질저하제, 항당뇨 약제, 항응고제, 혈전 용해제) 등을 조사하였다.</p>
+<h3>연구대상 포함 및 제외기준</h3>
+<p>연구 대상의 포함 기준으로는 허혈성 심장질환 진단명을 갖 고, 대상 항혈소판제(clopidogrel, cilostazol, sarpogrelate)와 statin 계열 약물을 각 30일 이상, 병용으로 7일 이상 사용한 자 로 설정하였다. 제외 기준은 연구 대상 항혈소판제 외의 다른 항혈소판제(ticagrelor, prasugrel)를 투여 받은 자, 기준일 이전 3개월 동안 대상 약물을 7일 이상 사용한 환자, 기준일 이전 주 요심뇌혈관사건을 경험한 환자, 기준일 이전 울혈성 심부전 (ICD10: I50.0), 허혈성 뇌졸중, 급성 관상동맥질환, 뇌 혈관질 환 등의 공존질환이 있는 환자로 설정하였다.</p>
+<h3>환자의 특성 및 평가항목</h3>
+<p>연구 대상으로 추출된 허혈성 심장질환자에서 statin, 항혈 소판제의 약물 사용 현황을 분석하였고, 공존질환, 병용약물 사용 현황과 차이를 통계적으로 비교하여 기술하였다.</p>
+<p>평가 항목은 1차적으로 주요심뇌혈관사건(사망, 심근경색, 뇌 졸중의 합)을 구하였으며, 사망, 심근경색, 뇌졸중, 말초혈관질환 도 포함하였다. 심근경색이 두 번 이상 발생한 환자는 재발률을 구하여 나타내었다. 항혈소판제 clopidogrel, cilostazol, sarpogrelate 병용군에서 임상결과를 비교하였으며, 유의미한 차이가 있는 항목은 사후분석(post hoc)을 실시하였다. 성향점수 매칭 방법 을 통한 두 개의 병용군간 비교 평가에서 환자 수를 성향점수로 매칭한 후, 동일하게 항혈소판제의 종류에 따른 주요심뇌혈관 사건의 총합, 심근경색과 뇌졸중을 포함한 심장사건의 발생률 및 위험률, 누적발생률 계산과 생존분석을 수행하였다.</p>
+<h3>통계 분석</h3>
+<p>본 연구의 통계학적 분석은 SAS 9.4 (SAS Institute Inc., USA)를 사용하여 수행하였다. 연속변수는 평균과 표준편차 를 구하였으며, 분포의 정규성 검정 후 t-test와 Kruskal-Wallis test를 사용하였다. 범주형 변수는 카이 제곱 검정과 Fisher의 정확 검정을 사용하였다. 통계적 유의성의 기준은 <italic>p</italic>-value 0.05 미만인 경우로 설정하였다. 세 군 간 다중 비교에 따른 보 정 방법으로는 Bonferroni법을 사용하였다. 연구 코호트의 교 란변수를 통제하기 위해 성향점수 매칭 방법을 사용하였으며, 각 군의 매칭 비율은 1:1에서 5:1까지 시행하여 두 군 간의 차 이가 나타나지 않는 비율을 선택하였다. 주요 심뇌혈관사건 결과에 대하여 위험 비(hazard ratio) 와 신뢰구간을 구하였으 며, 누적 발생률 곡선(cumulative incidence curve) 작성을 위 해 환자-년(patient-year, PY)을 계산하여 작성하였다.</p>
+<p>본 연구는 아주대학교병원 기관연구윤리심의위원회의 승 인(AJIRB-MED-MDB-15-518)을 받아 진행되었다.</p></dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body04'>연구 결과<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><h3>연구대상과 특성</h3>
+<p>연구 대상 기간에 아주대병원을 방문한 허혈성 심장질환 환자 약 128,500명에서 statin과 항혈소판제 병용요법으로 clopidogrel, cilostazol, sarpogrelate 복용력이 있는 환자는 6,395명을 추출 하였다. 중장기적 효과를 평가하기 위하여 statin과 항혈소판 제를 30일 이상 동시에 사용한 환자(각 약물의 사용기간은 최 소 3개월 이상)는 2,234명이었으며, 항혈소판제 시작 전 심혈 관 사건 병력이 있는 환자와 말기질환자 등의 제외 기준을 적 용한 최종 연구 대상 환자의 수는 1,049명이었다. 선정된 환자 1,049명 중 항혈소판제 clopidogrel의 병용 환자 수는 906명, cilostazol 79명, sarpogrelate 64명이었다(<span class="xref"><a href="#F1">Fig. 1</a></span>).</p>
+<dl>
+				<dd id='F1' style='padding: 10px 0'>
+					<img src='https://pdf.medrang.co.kr/KJCP/2019/029/thumb/KJCP_29_254_fig_1.jpg' width='200' align='left' class='view_img pointer' onclick="popen('popup_file.html?uid=696&file=KJCP_29_254_fig_1.jpg&md=fig&idx=1','','840','800','yes');"  ehref="./file/029/thumb/KJCP_29_254_fig_1.jpg" jhref="popup_file.html?uid=696&file=KJCP_29_254_fig_1.jpg&md=fig&idx=1" id="F1I" iwidth="" iheight="" />
+					<a href='popup_file.html?uid=696&file=KJCP_29_254_fig_1.jpg&md=fig&idx=1' class='j_text_size' onclick="popen(this.getAttribute('href'),'','840','800','yes'); return false;"><strong>Fig. 1.</strong></a> <p>Flowchart for selection of study population</p>
+					<br clear='all' />
+				</dd></dl><br />
+<p>환자 기본 정보를 비교하였을 때, 연령과 성별, statin 약물 사 용 현황, 병용 약물(아스피린, 당뇨치료제)에서 유의미한 차이가 있었다(<italic>p</italic>&lt;0.05). 환자군 연령에 있어서 clopidogrel, cilostazol, sarpogrelate 병용군 환자의 평균 연령은 62.1, 64.9, 61.7세였 고, clopidogrel, sarpogrelate군에 비해 cilostazol 군에서 65-74 세 연령군이 많았다. 성별은 모든 군에서 주로 남성이 많았고, clopidogrel에서 가장 높은 비율을 가졌다(67.9, 64.6, 50.0%). 병용약물 비교 분석 결과로는 clopidogrel 병용군, cilostazol 병용군, sarpogrelate 병용군에서 아스피린과 안지오텐신 전환 효소 억제제/안지오텐신 수용체 저해제가 타 약제에 비해 높은 비율로 사용되었고, 항응고제(0.08, 0, 0%)는 거의 사용되 지 않았다. 아스피린과의 병용 투여는 clopidogrel 군에서 가 장 높았으며, sarpogrelate 병용군에서는 clopidogrel, cilostazol 병용군보다 유의미하게 낮은 아스피린 사용량을 보였다(93.3, 89.9, 62.5%, <italic>p</italic>&lt;0.001). 항당뇨약제의 경우는 clopidogrel보다 cilostazol 병용군에서 유의미하게 높은 사용 현황을 보였다 (<italic>p</italic>=0.013). Statin 약물 사용 현황의 차이는 atorvastatin이 cilostazol 군에서 가장 많았고, rosuvastatin은 clopidogrel 군 에서 가장 많았다. Pitavastatin, fluvastatin은 sarpogrelate 군에 서 많이 사용하였다. 허혈성 심장질환 전체 환자에서 사용하는 statin의 처방 현황은 세 군 모두에서 atorvastatin, rosuvastatin 이 가장 많이 사용하였고, pitavastatin, fluvastatin이 적은 빈도 로 사용하였다(<span class="xref"><a href="#T1">Table 1</a></span>).</p>
+<dl>
+				<dd id='T1' style='padding: 10px 0'>
+				<div style='width:100%;overflow-x:auto;overflow-y:hidden;'>
+					<label><a href='popup_file.html?uid=696&file=KJCP_29_254_fig_1.jpg&md=tbl&idx=1' class='j_text_size' onclick="popen(this.getAttribute('href'),'','840','800','yes'); return false;"><strong>Table 1</strong></a> </label><p>Baseline characteristics of patient on statin and antiplatelet before propensity score matching</p><table frame="hsides" rules="groups" width="100%"><thead><tr><th align="left"></th><th align="center">Clopidogrel (n=906)</th><th align="center">Cilostazol (n=79)</th><th align="center">Sarpogrelate (n=64)</th><th align="center"><italic>p</italic>-value</th></tr></thead><tbody><tr><td align="left">Age, years (mean±SD)</td><td align="center">62.1±9.9</td><td align="center">64.9±8.1</td><td align="center">61.7±8.9</td><td align="center">0.066</td></tr><tr><td align="center" colspan="5"><hr></td></tr><tr><td align="left" colspan="5">Age, n (%)</td></tr><tr><td align="left"> Less than 45 years</td><td align="center">34(3.8)</td><td align="center">0(0.00)</td><td align="center">1(1.6)</td><td align="center">0.046</td></tr><tr><td align="left"> 45-64 years</td><td align="center">468(51.7)</td><td align="center">33(41.8)</td><td align="center">39(60.9)</td><td align="center"></td></tr><tr><td align="left"> 65-74 years</td><td align="center">307(33.9)</td><td align="center">39(49.4)</td><td align="center">20(31.3)</td><td align="center"></td></tr><tr><td align="left"> 75 years and older</td><td align="center">97(10.7)</td><td align="center">7(8.9)</td><td align="center">4(6.3)</td><td align="center"></td></tr><tr><td align="left">Male, n (%)</td><td align="center">615(67.9)</td><td align="center">51(64.6)</td><td align="center">32(50.0)</td><td align="center">0.013</td></tr><tr><td align="left">CCI (mean+/-SD)</td><td align="center">0.12±0.58</td><td align="center">0.19±0.68</td><td align="center">0.08±0.41</td><td align="center">0.327</td></tr><tr><td align="center" colspan="5"><hr></td></tr><tr><td align="left">Statin types, n (%)</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center">&lt;.0001</td></tr><tr><td align="left"> Atorvastatin</td><td align="center">363(40.1)</td><td align="center">44(55.7)</td><td align="center">27(42.2)</td><td align="center">0.026</td></tr><tr><td align="left"> Rosuvastatin</td><td align="center">375(41.4)</td><td align="center">25(31.7)</td><td align="center">13(20.3)</td><td align="center">0.001</td></tr><tr><td align="left"> Simvastatin</td><td align="center">107(11.8)</td><td align="center">3(3.8)</td><td align="center">7(10.9)</td><td align="center">0.095</td></tr><tr><td align="left"> Pravastatin</td><td align="center">36(4.0)</td><td align="center">4(5.1)</td><td align="center">3(4.7)</td><td align="center">0.735</td></tr><tr><td align="left"> Pitavastatin</td><td align="center">19(2.1)</td><td align="center">3(3.8)</td><td align="center">9(14.1)</td><td align="center">&lt;0.001</td></tr><tr><td align="left"> Fluvastatin</td><td align="center">6(0.7)</td><td align="center">0(0)</td><td align="center">5(7.8)</td><td align="center">&lt;0.001</td></tr><tr><td align="center" colspan="5"><hr></td></tr><tr><td align="left">Comorbidities, n (%)</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="left"> Hypertension</td><td align="center">81 (8.9)</td><td align="center">7(8.9)</td><td align="center">4(6.3)</td><td align="center">0.763</td></tr><tr><td align="left"> Heart failure</td><td align="center">2(0.2)</td><td align="center">0(0)</td><td align="center">0(0)</td><td align="center">1.000</td></tr><tr><td align="left"> Diabetes mellitus, type 2</td><td align="center">21 (2.3)</td><td align="center">4(5.1)</td><td align="center">1(1.6)</td><td align="center">0.253</td></tr><tr><td align="left"> Chronic kidney disease</td><td align="center">13(1.4)</td><td align="center">0(0)</td><td align="center">0(0)</td><td align="center">0.831</td></tr><tr><td align="center" colspan="5"><hr></td></tr><tr><td align="left">Concomitant medications, n (%)</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="left"> Aspirin</td><td align="center">845(93.3)</td><td align="center">71(89.9)</td><td align="center">40(62.5)</td><td align="center">&lt;0.001</td></tr><tr><td align="left"> ACEI/ARB</td><td align="center">629(69.4)</td><td align="center">59(74.7)</td><td align="center">43(67.2)</td><td align="center">0.562</td></tr><tr><td align="left"> Beta Blocker</td><td align="center">410(45.3)</td><td align="center">31 (39.2)</td><td align="center">23(35.9)</td><td align="center">0.227</td></tr><tr><td align="left"> NDHP-CCB</td><td align="center">415(45.8)</td><td align="center">27(34.2)</td><td align="center">24(37.5)</td><td align="center">0.071</td></tr><tr><td align="left"> DHP-CCB</td><td align="center">308(34.0)</td><td align="center">34(43.0)</td><td align="center">28(43.8)</td><td align="center">0.093</td></tr><tr><td align="left"> Thiazide</td><td align="center">162(17.9)</td><td align="center">11(13.9)</td><td align="center">6(9.4)</td><td align="center">0.161</td></tr><tr><td align="left"> Loop diuretics</td><td align="center">67(7.4)</td><td align="center">4(5.1)</td><td align="center">5(7.8)</td><td align="center">0.733</td></tr><tr><td align="left"> Potassium sparing agents</td><td align="center">43(4.8)</td><td align="center">2(2.5)</td><td align="center">2(3.1)</td><td align="center">0.754</td></tr><tr><td align="left"> Other lipid lowering agents</td><td align="center">135(14.9)</td><td align="center">7(8.9)</td><td align="center">8(12.5)</td><td align="center">0.310</td></tr><tr><td align="left"> Antidiabetic agents</td><td align="center">235(25.9)</td><td align="center">32(40.5)</td><td align="center">21 (32.8)</td><td align="center">0.013</td></tr></tbody></table><table-wrap-foot><fn><p>CCI, Charlson comorbidity index; ACEI/ARB, angiotensin converting enzyme inhibitor/angiotensin receptor blocker; N/DHP-CCB, non/dihydro- pyridine calcium channel blocker.</p></fn></table-wrap-foot>
+					<br clear='all' />
+					</div>
+
+				</dd></dl><br />
+<h3>평가 항목</h3>
+<p>성향점수 매칭 전 Statin과 clopidogrel의 병용군, cilostazol 병 용군, sarpogrelate 병용군에서 주요심뇌혈관사건, 사망, 심근경 색, 뇌졸중, 말초혈관질환의 발생률은 유의한 차이가 없었다 (<italic>p</italic>&gt;0.05). Clopidogrel 병용군이 cilostazol 병용군, sarpogrelate 병용군에 비하여 환자수와 환자-년 값이 높았으며, MACCE은 각 군별 4.42, 6.03, 4.2/100PYs, 사망률은 0.47, 0.35, 0.35/ 100PYs, 심근경색은 2.19, 2.62, 0.7/100PYs, 허혈성 뇌졸중 은 1.06, 1.45. 1.07/100PYs의 발생률을 보였다(<span class="xref"><a href="#T2">Table 2</a></span>). 항혈 소판제 clopidogrel, cilostazol, sarpogrelate 세 군간 비교한 주 요심뇌혈관사건, 사망, 심근경색, 뇌졸중, 말초혈관질환의 누 적발생율 그래프에서도 유의한 차이는 없었다(<a href="http://pdf.medrang.co.kr/KJCP/2019/029/KJCP-29-254_suppl.pdf" target="_blank" rel="noopener">Supplement Fig. 1</a>).</p>
+<dl>
+				<dd id='T2' style='padding: 10px 0'>
+				<div style='width:100%;overflow-x:auto;overflow-y:hidden;'>
+					<label><a href='popup_file.html?uid=696&file=KJCP_29_254_fig_2.jpg&md=tbl&idx=2' class='j_text_size' onclick="popen(this.getAttribute('href'),'','840','800','yes'); return false;"><strong>Table 2</strong></a> </label><p>Clinical outcomes of major cardiac and cerebrovascular events among patients with clopidogrel, cilostazol and sarpogrelate</p><table frame="hsides" rules="groups" width="100%"><thead><tr><th align="left"></th><th align="center"></th><th align="center">Clopidogrel (n=906)</th><th align="center">Cilostazol (n=79)</th><th align="center">Sarpogrelate (n=64)</th><th align="center"><italic>p</italic>-value</th></tr></thead><tbody><tr><td align="center" rowspan="3">MACCE</td><td align="left">Patient with event(n)</td><td align="center">114(12.58)</td><td align="center">12(15.19)</td><td align="center">6(9.38)</td><td align="center" valign="top" rowspan="3">0.581</td></tr><tr><td align="left">Patient-year(PYs)</td><td align="center">3079.00</td><td align="center">248.79</td><td align="center">261.79</td></tr><tr><td align="left">Incidence rate per 100 PYs</td><td align="center">4.42</td><td align="center">6.03</td><td align="center">4.2</td></tr><tr><td align="center" colspan="6"><hr></td></tr><tr><td align="center" rowspan="3">Death</td><td align="left">Patient with event(n)</td><td align="center">16(1.77)</td><td align="center">1(1.27)</td><td align="center">1(1.56)</td><td align="center" valign="top" rowspan="3">1.000</td></tr><tr><td align="left">Patient-year(PYs)</td><td align="center">3403.31</td><td align="center">287.97</td><td align="center">288.45</td></tr><tr><td align="left">Incidence rate per 100 PYs</td><td align="center">0.47</td><td align="center">0.35</td><td align="center">0.35</td></tr><tr><td align="center" colspan="6"><hr></td></tr><tr><td align="center" rowspan="3">MI</td><td align="left">Patient with event(n)</td><td align="center">70(7.73)</td><td align="center">7(8.86)</td><td align="center">2(3.13)</td><td align="center" valign="top" rowspan="3">0.362</td></tr><tr><td align="left">Patient-year(PYs)</td><td align="center">3193.9</td><td align="center">267.39</td><td align="center">283.92</td></tr><tr><td align="left">Incidence rate per 100 PYs</td><td align="center">2.19</td><td align="center">2.62</td><td align="center">0.7</td></tr><tr><td align="center" colspan="6"><hr></td></tr><tr><td align="center" rowspan="3">Stroke</td><td align="left">Patient with event(n)</td><td align="center">35(3.86)</td><td align="center">4(5.06)</td><td align="center">3(4.69)</td><td align="center" valign="top" rowspan="3">0.685</td></tr><tr><td align="left">Patient-year(PYs)</td><td align="center">3317.42</td><td align="center">274.93</td><td align="center">280.04</td></tr><tr><td align="left">Incidence rate per 100 PYs</td><td align="center">1.06</td><td align="center">1.45</td><td align="center">1.07</td></tr><tr><td align="center" colspan="6"><hr></td></tr><tr><td align="center" rowspan="3">PVD</td><td align="left">Patient with event(n)</td><td align="center">28(3.09)</td><td align="center">3(3.80)</td><td align="center">5(7.81)</td><td align="center" valign="top" rowspan="3">0.125</td></tr><tr><td align="left">Patient-year(PYs)</td><td align="center">3351.59</td><td align="center">282.42</td><td align="center">274.74</td></tr><tr><td align="left">Incidence rate per 100 PYs</td><td align="center">0.84</td><td align="center">1.06</td><td align="center">1.82</td></tr></tbody></table><table-wrap-foot><fn><p>MACCE, major adverse cardiac and cerebrovascular event; MI, myocardial infarction; PVD, peripheral vascular disease</p></fn></table-wrap-foot>
+					<br clear='all' />
+					</div>
+
+				</dd></dl><br />
+<p>교란변수의 통제를 위해 사용한 성향점수 매칭 방법에서는 현재 가이드라인에 반영되어 사용량이 많은 clopidogrel군을 대조군으로 분석하였으며 기본 분석에서 유의미한 차이가 있 었던 연령군, 성별, Statin 약제 사용, 병용약물 사용 비율 등을 매칭 변수로 사용하였다. Clopidogrel 병용군과 cilostazol 병 용군은 5:1로, clopidogrel 병용군과 Sarpogrelate 병용군은 1:1 로 매칭하였을 때 매칭 변수의 통계적 차이가 없었다 (<a href="http://pdf.medrang.co.kr/KJCP/2019/029/KJCP-29-254_suppl.pdf" target="_blank" rel="noopener">Supplement Table 1, 2</a>).</p>
+<p>첫 번째로 성향점수 매칭 전후 clopidogrel 대비 cilostazol의 주요심뇌혈관사건(<italic>p</italic>=0.72), 사망(<italic>p</italic>=1.00), 심근경색(<italic>p</italic>=0.58), 뇌졸중(<italic>p</italic>=1.00), 말초혈관질환(<italic>p</italic>=0.31)에서 발생률과 위험률 의 유의한 차이는 없었다(<span class="xref"><a href="#T3">Table 3</a></span>). 주요 심뇌혈관사건과 세부 항목의 누적발생율 그래프에서도 clopidogrel 대비 cilostazol 군간 유의한 차이는 없었다(<span class="xref"><a href="#F2">Fig. 2</a></span>). 두 번째로 clopidogrel 병 용군과 sarpogrelate 병용군 비교에서도 성향점수 매칭을 수 행하였고, 환자 기본정보, statin계 약물의 종류, 공존질환, 병용 약물 모두 유사하게 매칭하였다(<italic>p</italic>&gt;0.05) (<a href="http://pdf.medrang.co.kr/KJCP/2019/029/KJCP-29-254_suppl.pdf" target="_blank" rel="noopener">Supplement Table 2</a>). 매칭 전 결과와 마찬가지로 clopidogrel 대비 sarpogrelate의 주요 심뇌혈관사건(<italic>p</italic>=1.00), 사망(<italic>p</italic>=1.00), 심근경색(<italic>p</italic>=1.00), 뇌졸중(<italic>p</italic>=0.71), 말초혈관질환 모두에서 빈도와 위험율의 유 의한 차이는 나타나지 않았다(<span class="xref"><a href="#T4">Table 4</a></span>). 주요 심뇌혈관사건과 세부항목의 누적발생율 그래프에서도 유의한 차이가 없었다 (<span class="xref"><a href="#F3">Fig. 3</a></span>).</p>
+<dl>
+				<dd id='T3' style='padding: 10px 0'>
+				<div style='width:100%;overflow-x:auto;overflow-y:hidden;'>
+					<label><a href='popup_file.html?uid=696&file=KJCP_29_254_fig_3.jpg&md=tbl&idx=3' class='j_text_size' onclick="popen(this.getAttribute('href'),'','840','800','yes'); return false;"><strong>Table 3</strong></a> </label><p>Hazard ratio of MACCE in patients on cilostazol or sarpogrelate compared to clopidogrel</p><table frame="hsides" rules="groups" width="100%"><thead><tr><th align="center" colspan="2" rowspan="3">Clinical outcomes</th><th align="center" colspan="2">Cilostazol vs. Clopidogrel 5:1 matching</th><th align="center" colspan="2">Sarpogrelate vs. Clopidogrel 1:1 matching</th></tr><tr><th align="center" colspan="4"><hr></th></tr><tr><th align="center">HR (CI)</th><th align="center"><italic>p</italic>-value</th><th align="center">HR (CI)</th><th align="center"><italic>p</italic>-value</th></tr></thead><tbody><tr><td align="left" rowspan="2">MACCE</td><td align="center">Crude</td><td align="center">1.25 (0.69-2.29)</td><td align="center">0.456</td><td align="center">0.66 (0.30-1.46)</td><td align="center">0.301</td></tr><tr><td align="center">Adjusted</td><td align="center">1.17 (0.63-2.19)</td><td align="center">0.620</td><td align="center">0.88 (0.29-2.61)</td><td align="center">0.810</td></tr><tr><td align="left" rowspan="2">Death</td><td align="center">Crude</td><td align="center">0.75 (0.10-5.73)</td><td align="center">0.785</td><td align="center">0.71 (0.10-5.15)</td><td align="center">0.734</td></tr><tr><td align="center">Adjusted</td><td align="center">0.61 (0.08-4.80)</td><td align="center">0.642</td><td align="center">0.76 (0.06-9.86)</td><td align="center">0.836</td></tr><tr><td align="left" rowspan="2">MI</td><td align="center">Crude</td><td align="center">1.17 (0.54-2.53)</td><td align="center">0.696</td><td align="center">0.37 (0.09-1.46)</td><td align="center">0.154</td></tr><tr><td align="center">Adjusted</td><td align="center">1.28 (0.56-2.91)</td><td align="center">0.558</td><td align="center">0.90 (0.14-5.82)</td><td align="center">0.909</td></tr><tr><td align="left" rowspan="2">Stroke</td><td align="center">Crude</td><td align="center">1.34 (0.47-3.81)</td><td align="center">0.579</td><td align="center">1.12 (0.35-3.57)</td><td align="center">0.855</td></tr><tr><td align="center">Adjusted</td><td align="center">1.09 (0.37-3.23)</td><td align="center">0.874</td><td align="center">0.54 (0.13-2.18)</td><td align="center">0.388</td></tr><tr><td align="left" rowspan="2">PVD</td><td align="center">Crude</td><td align="center">1.27 (0.39-4.15)</td><td align="center">0.688</td><td align="center">2.13 (0.80-5.65)</td><td align="center">0.129</td></tr><tr><td align="center">Adjusted</td><td align="center">0.86 (0.25-2.93)</td><td align="center">0.814</td><td align="center">1.59 (0.38-6.56)</td><td align="center">0.523</td></tr></tbody></table><table-wrap-foot><fn><p>MACCE, major adverse cardiac and cerebrovascular event; MI, myocardial infarction; PVD, peripheral vascular disease; *Adjusted for age, sex, comorbidity, concurrent medications. Crude: before PS matching, Adjusted: after PS matching and adjusted for patient characteristics.</p></fn></table-wrap-foot>
+					<br clear='all' />
+					</div>
+
+				</dd></dl><dl>
+				<dd id='F2' style='padding: 10px 0'>
+					<img src='https://pdf.medrang.co.kr/KJCP/2019/029/thumb/KJCP_29_254_fig_2.jpg' width='200' align='left' class='view_img pointer' onclick="popen('popup_file.html?uid=696&file=KJCP_29_254_fig_2.jpg&md=fig&idx=2','','840','800','yes');"  ehref="./file/029/thumb/KJCP_29_254_fig_2.jpg" jhref="popup_file.html?uid=696&file=KJCP_29_254_fig_2.jpg&md=fig&idx=2" id="F2I" iwidth="" iheight="" />
+					<a href='popup_file.html?uid=696&file=KJCP_29_254_fig_2.jpg&md=fig&idx=2' class='j_text_size' onclick="popen(this.getAttribute('href'),'','840','800','yes'); return false;"><strong>Fig. 2.</strong></a> <p>Cumulative incidence rate in propensity score matched groups (group 1 vs. 2, clopidogrel vs. cilostazol) A. Major adverse cardiac cerebrovascular events, B. Death, C. Myocardial infarction, D. Ischemic stroke, E. Peripheral vascular disease</p>
+					<br clear='all' />
+				</dd></dl><dl>
+				<dd id='T4' style='padding: 10px 0'>
+				<div style='width:100%;overflow-x:auto;overflow-y:hidden;'>
+					<label><a href='popup_file.html?uid=696&file=&md=tbl&idx=4' class='j_text_size' onclick="popen(this.getAttribute('href'),'','840','800','yes'); return false;"><strong>Table 4</strong></a> </label><p>Clinical outcomes after PS matching between clopidogrel vs cilostazol and clopidogrel vs sarpogrelate</p><table frame="hsides" rules="groups" width="100%"><thead><tr><th align="left" rowspan="3"></th><th align="center" colspan="2">Clopidogrel vs. Cilostazol (5:1)</th><th align="center"></th><th align="center" colspan="3">Clopidogrel vs. Sarpogrelate (1:1)</th></tr><tr><th align="center" colspan="6"><hr></th></tr><tr><th align="center">Clopidogrel (n=395)</th><th align="center">Cilostazol (n=79)</th><th align="center" rowspan="2"><italic>p</italic>-value</th><th align="center">Clopidogrel (n=64)</th><th align="center">Sarpogrelate (n=64)</th><th align="center"><italic>p</italic>-value</th></tr></thead><tbody><tr><td align="left">MACCE</td><td align="center">54(13.67)</td><td align="center">12(15.19)</td><td align="center">0.722</td><td align="center">6(9.38)</td><td align="center">1.000</td></tr><tr><td align="left">Death</td><td align="center">9(2.28)</td><td align="center">1(1.27)</td><td align="center">1.000</td><td align="center">1(1.56)</td><td align="center">1(1.56)</td><td align="center">1.000</td></tr><tr><td align="left">CV death</td><td align="center">3(0.76)</td><td align="center">0(0)</td><td align="center">1.000</td><td align="center">1(1.56)</td><td align="center">0(0)</td><td align="center">1.000</td></tr><tr><td align="left">Non-CV death</td><td align="center">6(1.52)</td><td align="center">1(1.27)</td><td align="center">1.000</td><td align="center">0(0.00)</td><td align="center">1(1.06)</td><td align="center">1.000</td></tr><tr><td align="left">Overall MI</td><td align="center">28(7.09)</td><td align="center">7(8.86)</td><td align="center">0.582</td><td align="center">2(3.13)</td><td align="center">2(3.13)</td><td align="center">1.000</td></tr><tr><td align="left">MI (new onset)</td><td align="center">23(5.82)</td><td align="center">6(7.59)</td><td align="center">0.605</td><td align="center">1(1.56)</td><td align="center">0(0.00)</td><td align="center">1.000</td></tr><tr><td align="left">MI (recurrent)</td><td align="center">5(1.27)</td><td align="center">1(1.27)</td><td align="center">1.000</td><td align="center">1(1.56)</td><td align="center">2(3.13)</td><td align="center">1.000</td></tr><tr><td align="left">Stroke</td><td align="center">19(4.81)</td><td align="center">4(5.06)</td><td align="center">1.000</td><td align="center">5(7.81)</td><td align="center">3(4.69)</td><td align="center">0.718</td></tr><tr><td align="left">Stroke, ischemic</td><td align="center">13(3.29)</td><td align="center">3(3.80)</td><td align="center">0.738</td><td align="center">3(4.69)</td><td align="center">3(4.69)</td><td align="center">1.000</td></tr><tr><td align="left">PVD</td><td align="center">1 (0.25)</td><td align="center">1(1.27)</td><td align="center">0.306</td><td align="center">0(0)</td><td align="center">0(0)</td><td align="center">-</td></tr></tbody></table><table-wrap-foot><fn><p>MACCE, major adverse cardiac and cerebrovascular event; MI, myocardial infarction; PVD, peripheral vascular disease</p></fn></table-wrap-foot>
+					<br clear='all' />
+					</div>
+
+				</dd></dl><dl>
+				<dd id='F3' style='padding: 10px 0'>
+					<img src='https://pdf.medrang.co.kr/KJCP/2019/029/thumb/KJCP_29_254_fig_3.jpg' width='200' align='left' class='view_img pointer' onclick="popen('popup_file.html?uid=696&file=KJCP_29_254_fig_3.jpg&md=fig&idx=3','','840','800','yes');"  ehref="./file/029/thumb/KJCP_29_254_fig_3.jpg" jhref="popup_file.html?uid=696&file=KJCP_29_254_fig_3.jpg&md=fig&idx=3" id="F3I" iwidth="" iheight="" />
+					<a href='popup_file.html?uid=696&file=KJCP_29_254_fig_3.jpg&md=fig&idx=3' class='j_text_size' onclick="popen(this.getAttribute('href'),'','840','800','yes'); return false;"><strong>Fig. 3.</strong></a> <p>Cumulative incidence rate in propensity score matched groups (group 1 vs. 3, clopidogrel vs. sarpogrelate) A. Major adverse cardiac cerebrovascular events, B. Death, C. Myocardial infarction, D. Ischemic stroke, E. Peripheral vascular disease</p>
+					<br clear='all' />
+				</dd></dl><br />
+<p>종합적으로 성향점수 매칭 전후 모두 clopidogrel 병용군 대 비 cilostazol 병용군, sarpogrelate 병용군에서 주요심뇌혈관 사건과 각 세부 항목에서 hazard ratio의 유의한 차이는 없었다 (<span class="xref"><a href="#T3">Table 3</a></span>, <span class="xref"><a href="#T4">4</a></span>).</p></dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body05'>고 찰<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><p>본 연구에서는 현재 허혈성 심장질환 환자의 약물 요법으로 1차 예방 및 관상동맥중재술 후 항혈소판제 약물요법으로 사 용되는 clopidogrel과 항염증 작용 및 항산화 효과를 부가적으 로 가지고 있으며, 당뇨병, 고지혈증 환자에서 병용되는 경우 가 많은 cilostazol, sarpogrelate를 비교하여 허혈성 심장질환 환자의 임상 결과를 실제 임상데이터를 활용하여 분석하였 다.<span class='xref'><a href="#B2" ><sup>2</sup></a></span><sup>,</sup><span class='xref'><a href="#B4" ><sup>4</sup></a></span><sup>,</sup><span class='xref'><a href="#B5" ><sup>5</sup></a></span><sup>)</sup> 결론적으로 Statin 과 병용하는 clopidogrel, cilostazol, sarpogrelate 병용군 간 임상결과(주요 심뇌혈관사건, 사망, 심 근경색, 뇌졸중, 말초혈관질환)의 차이는 없었으며, 환자의 기 본정보, 병용약물, 공존질환 등의 차이를 성향점수 매칭법을 통해 교정한 분석에서도 기존 clopidogrel군과 비교한 cilostazol 군, sarpogrelate군 간의 임상 결과 차이는 없었다. 임상 결과의 발생율을 비교하기 위해 계산된 발생률(incidence), 발생률/ 100 환자-년(patient-year, PY), 환자의 임상 결과(주요 심뇌혈 관사건, 사망, 심근경색, 뇌졸중, 말초혈관질환)별 누적발생률 그래프에서도 유의한 차이는 없었다.</p>
+<p>Clopidogrel의 투여는 스텐트 시술 이후 표준약물요법으로 사용하는 경우가 많아 cilostazol, sarpogrelate 사용 환자군에 비하여 심혈관 위험요인이 높은 환자가 많았으며, 영향 요인 으로 알려져 있는 나이, statin, 당뇨병 약물 등을 유사하게 매 칭하여 분석한 결과, 주요심혈관사건 결과에서 유의한 차이가 없었다. 이는 심혈관질환자에 사용하는 항혈소판제 clopidogrel 과 cilostazol과 효과가 유사함을 시사하였다. clopidogrel- sarpogrelate 군을 매칭하여 분석한 결과에서도 효과가 유사하 였다. 환자 기본특성, statin 약물 사용 매칭 후 모든 임상결과 가 차이가 없었으며 환자의 누적 발생률에서도 유의한 차이가 없었다.</p>
+<p>우리나라에서 관상동맥중재술 이후 aspirin, clopidogrel, cilostazol 3제요법으로 임상시험 결과 2제요법에 비하여 주요 심뇌혈관사건 2차 예방의 효과를 우수하게 보였으며,<span class='xref'><a href="#B10" ><sup>10</sup></a></span><sup>,</sup><span class='xref'><a href="#B11" ><sup>11</sup></a></span><sup>)</sup>항 혈소판제 약물요법 가이드라인에도 수록되었다. 우리나라에 서는 cilostazol을 포함하는 항혈소판제 3제요법이 보험급여에 서도 인정되어 있다. 서양인에 비하여 아시아인종과 우리나라 에서 빈도가 높은 clopidogrel 대사 저해 등 내성이 가능한 환 자에서 심장사건 예방 약물요법을 효과를 유지하기 위하여 3 제 요법의 근거가 제시되었다. <sup>8-11,20,21)</sup></p>
+<p>Cilostazol은 신장세포 보호 효과나 항염증 효과가 동물실험 이나 후향적 연구에서 보고되었으며, 당뇨병 환자에서 신기능 의 저하가 나타날 때 단백뇨와 신기능 저하 진행의 예방에 있 어서 연관성도 보고되었다.<span class='xref'><a href="#B22" ><sup>22</sup></a></span><sup>-</sup><span class='xref'><a href="#B25" ><sup>25</sup></a></span><sup>)</sup> 또한 동물실험에서 Pravastatin- cilostazol 병용투여가 죽상경화증 예방에 효과가 있다는 것을 보여주었으며,<span class='xref'><a href="#B26" ><sup>26</sup></a></span><sup>)</sup> statin과 sarpogrelate 병용투여도 심장질환 및 신장보호에 상승효과를 보여주었다.<span class='xref'><a href="#B27" ><sup>27</sup></a></span><sup>-</sup><span class='xref'><a href="#B29" ><sup>29</sup></a></span><sup>)</sup> 아시아 지역의 환자를 대상으로 진행된 임상시험에서 clopidogrel과 비교하 여 cilostazol이 대안적으로 사용될 수 있다는 임상적 근거 또 한 제시되었다.</p>
+<p>Sarpogrelate는 주요 심뇌혈관사건 예방과 관련한 연구는 많 지 않으나, 실제 임상자료를 이용한 분석에서 노인이나 당뇨 병 환자에서 aspirin, cilostazol, sarpogrelate의 3제요법이 출 혈 위험을 높이지 않으면서 관상동맥중재술 후 심혈관질환 예 방효과가 있다는 점을 보여주었다.<span class='xref'><a href="#B8" ><sup>8</sup></a></span><sup>)</sup> 이처럼 항혈소판제의 특 성이 다양하며, 부가적인 항산화효과, 항염증 효과 등으로 혈 관 보호, 신장조직 보호 효과를 보여주는 근거들이 있어 이에 대한 실제 임상데이터를 활용하여 후향적으로 평가할 필요가 있다.</p>
+<p>본 연구의 제한점으로는 상급 종합병원 한 곳의 자료를 활 용하여 임상적으로 많이 사용하는 clopidogrel 병용군과 비교 하기에 cilostazol, sarpogrelate 병용군의 환자 수가 적어 통계 분석력이 낮고, cilostazol, sarpogrelate 병용군 간의 상호 비교 는 환자수의 부족으로 성향점수 매칭이 불가능하여 각 약물별 로 clopidogrel 대비 비교하였다는 점이다. 또한 허혈성 심장 질환 환자라는 점을 고려하였을 때 예상되는 수준보다 공존질 환 현황의 수치가 낮고, 고혈압, 당뇨 등과 같은 만성질환의 비 율이 크지 않아 실제 허혈성 심장질환 환자들의 특성이 온전 히 반영되어 있다고 하기 어려운 점이 있다. 상급종합병원 여 러 곳의 자료를 통합하여 분석하고, 교란변수의 조정을 세밀 하게 하여 실제 임상자료를 분석하거나 실용적 임상시험을 진 행하여 평가하는 방법도 추후 고려할 수 있다. 본 연구는 임상 적 사용의 충분한 근거로 제시하기에 부족하지만, 허혈성 심 장질환 환자 가이드라인에 수록되어 있는 clopidogrel 외에 cilostazol, sarpogrelate 또한 당뇨병환자, 출혈위험이 큰 노인 환자에서 장기간 사용하는 항혈소판제로서 임상적으로 활용 될 수 있는 가능성을 보여주었다는 점에서 의의가 있다.</p></dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body06'>결 론<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><p>항고지질혈증 약제인 Statin과 항혈소판제를 병용하는 허혈 성 심장질환 환자에게서 항혈소판제 clopidogrel, cilostazol, sarpogrelate의 종류에 따른 임상적 주요 심뇌혈관사건 발생의 차이가 없었으며, 허혈성 심장질환 환자에서 aspirin, clopidogrel 등의 약물 사용이 제한적일 때 심혈관 질환의 예방요법으로 cilostazol, sarpogrelate의 사용 가능성을 제안해 볼 수 있다.</p></dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body07'>이해 상충<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><p>저자들은 본 논문의 내용과 관련하여 그 어떠한 이해상충도 없었다.</p></dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body08'>Supplementary<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd class='j_text_size' style='text-align:justify;'><div><br /><a id="KJCP-29-254" href="https://pdf.medrang.co.kr/KJCP/2019/029/KJCP-29-254_suppl.pdf" class="download">KJCP-29-254_suppl.pdf</a></div></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dd class='j_text_size' style='text-align:justify;'></dd></dl></div><div class="section"><dl><dt class='j_text_size' id='body09'>References<span style="float: right;"><select onchange="ViewNamePositionFun(this.value); this.selectedIndex = 0;"><option value='#body00' style='background-color: #7d8ca6; color: #FFF;'>Other Sections</option><option value='#body01' style='background-color: #7d8ca6; color: #FFF;'>Abstract</option><option value='#body02' style='background-color: #7d8ca6; color: #FFF;'>Body</option><option value='#body03' style='background-color: #7d8ca6; color: #FFF;'>연구 방법</option><option value='#body04' style='background-color: #7d8ca6; color: #FFF;'>연구 결과</option><option value='#body05' style='background-color: #7d8ca6; color: #FFF;'>고 찰</option><option value='#body06' style='background-color: #7d8ca6; color: #FFF;'>결 론</option><option value='#body07' style='background-color: #7d8ca6; color: #FFF;'>이해 상충</option><option value='#body08' style='background-color: #7d8ca6; color: #FFF;'>Supplementary</option><option value='#body09' style='background-color: #7d8ca6; color: #FFF;'>Reference</option></select></span></dt><dd ><ol style='width:97%; padding-left:20px;'><li id='B1' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Health Insurance Review Assessment Service. Healthcare Bigdata hub. Available from <a href="http://opendata.hira.or.kr/op/opc/olapHifrqSickInfo.do" target="_blank">http://opendata.hira.or.kr/op/opc/olapHifrqSickInfo.do</a> Accessed August 12 2019</div><div style='margin:5px 0;'></div></li><li id='B2' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Grundy SM, Stone NJ. 2018 American Heart Association/ American College of Cardiology Multisociety Guideline on the management of blood cholesterol:primary prevention. JAMA Cardiol 2019;4(5):488-9.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/30969322' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1001/jamacardio.2019.0777' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B3' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Grundy SM, Stone NJ. 2018 American Heart Association/ American College of Cardiology/Multisociety Guideline on the management of blood cholesterol-secondary prevention. JAMA Cardiol 2019;4(6):589-91.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/30994869' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1001/jamacardio.2019.0911' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B4' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Eikelboom JW, Hirsh J, Spencer FA, Baglin TP, Weitz JI. Antiplatelet drugs:antithrombotic therapy and prevention of thrombosis:American College of Chest Physicians evidence-based clinical practice guidelines. Chest 2012;141:e89S-e119S.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/22315278' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3278069' target='_blank'><img src='./img/pmc_link.png' alt='PMC' /></a> <a href='https://doi.org/10.1378/chest.11-2293' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B5' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Levine GN, Bates ER, Bittl JA, <italic>et al</italic>. 2016 ACC/AHA guideline focused update on duration of dual antiplatelet therapy in patients with coronary artery disease:a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol 2016;68:1082-115.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/27036918' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1016/j.jacc.2016.03.513' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B6' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Johansen ME, Hefner JL, Foraker RE. Antiplatelet and statin use in US patients With coronary artery disease categorized by race/ ethnicity and gender 2003 to 2012. Am J Cardiol 2015;115:1507-12.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/25840577' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1016/j.amjcard.2015.02.052' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B7' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Ye K, Kim JT, Lee S. Effect of triple compared to dual antiplatelet therapy after drug-eluting stent implantation in percutaneous coronary intervention 2012;22:113-22.</div><div style='margin:5px 0;'></div></li><li id='B8' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Noh Y, Lee J, Shin S, <italic>et al</italic>. Antiplatelet therapy of cilostazol or sarpogrelate with aspirin and clopidogrel after percutaneous coronary intervention:a retrospective cohort study using the Korean national health insurance claim database. PLoS One 2016;11:e0150475.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/26939062' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4777511' target='_blank'><img src='./img/pmc_link.png' alt='PMC' /></a> <a href='https://doi.org/10.1371/journal.pone.0150475' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B9' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Nakao T, Kimura T, Morimoto T, <italic>et al</italic>. The long-term efficacy of cilostazol in addition to dual antiplatelet therapy after sirolimus- eluting stent implantation for Japanese patients:an analysis of the 3- year follow-up outcomes from the j-Cypher registry. Cardiovasc Interv Ther 2012;27:161-7.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/22638734' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1007/s12928-012-0105-4' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B10' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Shim CY, Yoon SJ, Park S, <italic>et al</italic>. The clopidogrel resistance can be attenuated with triple antiplatelet therapy in patients undergoing drug-eluting stents implantation. Int J Cardiol 2009;134:351-5.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/18579227' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1016/j.ijcard.2008.02.016' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B11' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Kim JY, Lee K, Shin M, <italic>et al</italic>. Cilostazol could ameliorate platelet responsiveness to clopidogrel in patients undergoing primary percutaneous coronary intervention. Circ J 2007;71:1867-72.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/18037738' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1253/circj.71.1867' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B12' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Aoki C, Hattori Y, Tomizawa A, Jojima T, Kasai K. Anti- inflammatory role of cilostazol in vascular smooth muscle cells in vitro and in vivo. J Atheroscler Thromb 2010;17:503-9.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/20179359' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.5551/jat.3392' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B13' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Aoki M, Morishita R, Hayashi S, <italic>et al</italic>. Inhibition of neointimal formation after balloon injury by cilostazol, accompanied by improvement of endothelial dysfunction and induction of hepatocyte growth factor in rat diabetes model. Diabetologia 2001;44:1034-42.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/11484082' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1007/s001250100593' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B14' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Ogawa S, Mori T, Nako K, Ishizuka T, Ito S. Reduced albuminuria with sarpogrelate is accompanied by a decrease in monocyte chemoattractant protein-1 levels in type 2 diabetes. Clin J Am Soc Nephrol 2008;3:362-8.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/18235151' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2390947' target='_blank'><img src='./img/pmc_link.png' alt='PMC' /></a> <a href='https://doi.org/10.2215/CJN.03450807' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B15' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Jeong IS, Park JH, Jin SA, <italic>et al</italic>. Oral sarpogrelate can improve endothelial dysfunction as effectively as oral cilostazol, with fewer headaches, in active young male smokers. Heart Vessels 2013;28:578-82.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/22968852' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1007/s00380-012-0282-1' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B16' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Hidaka S, Kobayashi S, Iwagami M, <italic>et al</italic>. Sarpogrelate hydrochloride, a selective 5-HT(2A) receptor antagonist, improves skin perfusion pressure of the lower extremities in hemodialysis patients with peripheral arterial disease. Ren Fail 2013;35:43-8.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/23110683' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.3109/0886022X.2012.734758' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B17' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Murphy B, Fraeman KH. A general SAS®macro to implement optimal N:1 propensity score matching within a maximum radius 2017;13.</div><div style='margin:5px 0;'></div></li><li id='B18' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Fraeman K. An introduction to implementing propensity score ® 2010. Available from <a href="https://www.research- gate.net/publication/306159704_An_introduction_to_implementing propensity_score_matching_with_SAS" target="_blank">https://www.research- gate.net/publication/306159704_An_introduction_to_implementing propensity_score_matching_with_SAS</a> Accessed August 12 2019</div><div style='margin:5px 0;'></div></li><li id='B19' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Knuuti J, Wijns W, Saraste A, <italic>et al</italic>. 2019 ESC Guidelines for the diagnosis and management of chronic coronary syndromes:The Task Force for the diagnosis and management of chronic coronary syndromes of the European Society of Cardiology (ESC). Eur Heart J 2019 Aug 31. pii:ehz425</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/31504439' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1093/eurheartj/ehz425' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B20' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Kim IS, Jeong YH, Park Y, <italic>et al</italic>. Interaction analysis between genetic polymorphisms and pharmacodynamic effect in patients treated with adjunctive cilostazol to dual antiplatelet therapy:results of the ACCEL-TRIPLE (Accelerated Platelet Inhibition by Triple Antiplatelet Therapy According to Gene Polymorphism) study. Br J Clin Pharmacol 2012;73:629-40.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/22007612' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3376439' target='_blank'><img src='./img/pmc_link.png' alt='PMC' /></a> <a href='https://doi.org/10.1111/j.1365-2125.2011.04131.x' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B21' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Han Y, Li Y, Wang S, <italic>et al</italic>. Cilostazol in addition to aspirin and clopidogrel improves long-term outcomes after percutaneous coronary intervention in patients with acute coronary syndromes:a randomized, controlled study. Am Heart J 2009;157:733-9.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/19332203' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1016/j.ahj.2009.01.006' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B22' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Hafez HM, Ibrahim MA, Zedan MZ, Hassan M, Hassanein H. Nephroprotective effect of cilostazol and verapamil against thioacetamide-induced toxicity in rats may involve Nrf2/HO-1/ NQO-1 signaling pathway. Toxicol Mech Methods 2019;29:146-52.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/30295103' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1080/15376516.2018.1528648' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B23' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Noh Y, Lee J, Shin S, <italic>et al</italic>. Effects of cilostazol and renin- angiotensin system (RAS) blockers on the renal disease progression of Korean patients:a retrospective cohort study. Int J Clin Pharm 2018;40:160-8.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/29282632' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1007/s11096-017-0578-4' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B24' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Park JH, Choi BH, Ku SK, <italic>et al</italic>. Amelioration of high fat diet- induced nephropathy by cilostazol and rosuvastatin. Arch Pharm Res 2017;40:391-402.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/28084586' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1007/s12272-017-0889-y' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B25' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Tang WH, Lin FH, Lee CH, <italic>et al</italic>. Cilostazol effectively attenuates deterioration of albuminuria in patients with type 2 diabetes:a randomized, placebo-controlled trial. Endocrine 2014;45:293-301.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/23775007' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1007/s12020-013-0002-3' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B26' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Park K-Y, Heo T-H. Combination therapy with cilostazol andpravastatin improves antiatherogenic effects in low-density lipoprotein receptor knockout mice. <italic>Cardiovasc Ther</italic> 2018;36:e12476.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/30378752' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1111/1755-5922.12476' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B27' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Kim SR, Choi KH, Song YB, <italic>et al</italic>. Effect of sarpogrelate and high- dose statin on the reduction of coronary spasm in vasospastic angina:A two by two factorial, pilot randomized study. Clin Cardiol 2019. 10.1002/clc.23239. [Epub ahead of print.]</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/31339594' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6788571' target='_blank'><img src='./img/pmc_link.png' alt='PMC' /></a> <a href='https://doi.org/10.1002/clc.23239' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B28' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Yoo H, Park I, Kim DJ, Lee S. Effects of sarpogrelate on microvascular complications with type 2 diabetes. Int J Clin Pharm 2019;41:563-73.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/30864083' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://doi.org/10.1007/s11096-019-00794-7' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li><li id='B29' style='padding-bottom: 10px;word-break:break-all;'><div class='j_text_size' style='text-align:justify;'>Nomura S, Taniura T, Shouzu A, <italic>et al</italic>. Effects of sarpogrelate, eicosapentaenoic acid and pitavastatin on arterioslcerosis obliterans- related biomarkers in patients with type 2 diabetes (SAREPITASO study). Vasc Health Risk Manag 2018;14:225-32.</div><div style='margin:5px 0;'> <a href='https://pubmed.ncbi.nlm.nih.gov/30271161' target='_blank'><img src='./img/pubmed_link.png' alt='Pubmed' /></a> <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6151091' target='_blank'><img src='./img/pmc_link.png' alt='PMC' /></a> <a href='https://doi.org/10.2147/VHRM.S171143' target='_blank'><img src='./img/crossref_link.png' alt='CrossRef' /></a></div></li></ol></dd></dl></div>	</div>
+
+
+	
+<!--
+	<script>
+	//<![[CDATA[
+	document.getElementById("TwitterTopView").setAttribute('href', "https://twitter.com/intent/tweet?text=Clinical+Outcomes+of+Antiplatelets+Combined+with+Statins+in+Patients+with+Ischemic+Heart+Disease+%3A%3A+Korean+J+Clin+Pharm&url=https%3A%2F%2Fwww.ekjcp.org%2Fjournal%2Fview.html%3Fspage%3D254%26volume%3D29%26number%3D4");
+	document.getElementById("FacebookTopView").setAttribute('href', "http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ekjcp.org%2Fjournal%2Fview.html%3Fuid%3D696");
+	//]]>
+	</script>
+-->
+
+	
+	<!--table width='100%' style='margin:10px 0;'>
+	<tr>
+		<td></td>
+		<td align='right'><a href='list.html?page=&amp;sort=&amp;scale=&amp;s_t=&amp;s_a=&amp;s_k=&amp;s_v=&amp;s_n=&amp;spage=&amp;TG=&amp;pn=&amp;year='><img src="img/jsp_btn10.gif" style='vertical-align: middle;' /></a></td>
+	</tr>
+	</table-->
+</div>
+
+
+<hr /><div style='text-align:right; width:100%'><input type='button' value='Back' onclick="history.back();" /></div><hr />
+
+	</div>
+	</div>
+<div class="right_con">
+
+<p class="t_r"><a href="javascript:mypage05()"><img src="/img/main/submission_s.gif" /></a></p>
+<div class="sub_rig01">
+	<dl>
+	<dt><img src="/img/main/sub_rig01_ti.gif" /></dt>
+	<dd><a href="javascript:articles01()"><img src="../img/pic_journal.gif" /></a></dd>
+	<dd>March 2026, 36 (1)</dd>
+	</dl>
+</div>
+
+ <div class="sub_rig02">
+      <dl>
+        <dt><img src="/img/main/sub_rig02_ti.gif" /></dt>
+ 		        <dd><a href="https://www.ekjcp.org/journal/download_pdf.php?doi=10.24304/kjcp.2019.29.4.254" target="_blank"><img src="/icon/pdf_icon.gif" align="absmiddle" /> <strong style="color:#777;font-size:11px;">Full Text(PDF) Free</strong></a></dd>
+
+		<dd><a href="https://pdf.medrang.co.kr/KJCP/2019/029/KJCP-29-254_suppl.pdf" target="_blank"><img src="/icon/icon_file.gif" style="vertical-align: middle" /> <span						 class="thesis_linkout">Supplementary File</span></a></dd>		        <br />
+        <dt class="list">Social Network Service</dt>
+        <dd>
+          <table width="180" border="0" cellspacing="0" cellpadding="0" style='border:0px;'>
+			  <tr>
+				<td align="center"><a href="https://twitter.com/intent/tweet?text=Clinical+Outcomes+of+Antiplatelets+Combined+with+Statins+in+Patients+with+Ischemic+Heart+Disease+%3A%3A+Korean+J+Clin+Pharm&amp;url=https%3A%2F%2Fwww.ekjcp.org%2Fjournal%2Fview.html%3Fspage%3D254%26volume%3D29%26number%3D4" target="_blank" id="TwitterTopView" alt="Add to Twitter" title="Twitter"><img src="/img/main/sns_01.gif" width="32" height="32" /></a></td>
+				<td align="center"><a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ekjcp.org%2Fjournal%2Fview.html%3Fuid%3D696" target="_blank" id="FacebookTopView" alt="Add to Facebook" title="Facebook"><img src="/img/main/sns_02.gif" width="32" height="32" /></a></td>
+			  </tr>
+			</table>
+        </dd>
+        <dt class="list">Services</dt>
+        <dd>
+          <ul>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> <a href="citation.html?uid=696" onclick="popen(this.getAttribute('href'), 'NewWindow', 750, 480, 1, 'bcenter');return false;">Export Citation for this Article</a></li>
+            <!-- <li><img src="/icon/dot_2.gif" width="4" height="4" /> <a href="elink.html?uid=696" onclick="popen(this.getAttribute('href'), 'ShareContents', 750, 620, 1, 'bcenter');return false;">E-mail Link to this Article</a></li> -->
+          </ul>
+        </dd>
+		<!--
+        <dt class="list">Social Network Service</dt>
+        <dd>
+          <table width="180" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				<td align="center"><a href="https://twitter.com/intent/tweet?text=Clinical+Outcomes+of+Antiplatelets+Combined+with+Statins+in+Patients+with+Ischemic+Heart+Disease+%3A%3A+Korean+J+Clin+Pharm&amp;url=https%3A%2F%2Fwww.ekjcp.org%2Fjournal%2Fview.html%3Fspage%3D254%26volume%3D29%26number%3D4" target="_blank" id="TwitterTopView" alt="Add to Twitter" title="Twitter"><img src="/img/main/sns_01.gif" width="32" height="32" /></a></td>
+				<td align="center"><a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ekjcp.org%2Fjournal%2Fview.html%3Fuid%3D696" target="_blank" id="FacebookTopView" alt="Add to Facebook" title="Facebook"><img src="/img/main/sns_02.gif" width="32" height="32" /></a></td>
+			  </tr>
+			</table>
+        </dd>
+        <dt class="list">Services</dt>
+        <dd>
+          <ul>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> <a href="view.html?uid=696&amp;page=&amp;sort=book_Seq&amp;scale=&amp;all_k=&amp;s_t=&amp;s_a=&amp;s_k=&amp;s_v=&amp;s_n=&amp;spage=&amp;pn=&amp;year=2019&amp;vmd=AR">Abstract + Reference</a></li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> <a href="view.html?uid=696&amp;page=&amp;sort=book_Seq&amp;scale=&amp;all_k=&amp;s_t=&amp;s_a=&amp;s_k=&amp;s_v=&amp;s_n=&amp;spage=&amp;pn=&amp;year=2019&amp;vmd=AFTR">Abs + Fig & Tbl + Ref</a></li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> <a href="view.html?uid=696&amp;page=&amp;sort=book_Seq&amp;scale=&amp;all_k=&amp;s_t=&amp;s_a=&amp;s_k=&amp;s_v=&amp;s_n=&amp;spage=&amp;pn=&amp;year=2019&amp;vmd=Full">Full Text</a></li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> <a href="citation.html?uid=696" onclick="popen(this.getAttribute('href'), 'NewWindow', 750, 450, 1, 'bcenter');return false;">Export Citation for this Article</a></li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> <a href="elink.html?uid=696" onclick="popen(this.getAttribute('href'), 'ShareContents', 750, 500, 1, 'bcenter');return false;">E-mail Link to this Article</a></li>
+          </ul>
+        </dd>
+        <dt class="list">Citing Articles</dt>
+        <dd>
+          <ul>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Abstract + Reference</li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Full Text</li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Export Citation for this Article</li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> E-mail Link to this Article</li>
+          </ul>
+        </dd>
+        <dt class="list">Services</dt>
+        <dd>
+          <ul>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> View citing article information</li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> No Scopus citing articles</li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Citing articles via Web of Science (39)</li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Citing articles via Google Scholar</li>
+          </ul>
+        </dd>
+        <dt class="list">Google Scholar</dt>
+        <dd>
+          <ul>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Articles by </li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Search for related content</li>
+          </ul>
+        </dd>
+        <dt class="list">PubMed</dt>
+        <dd>
+          <ul>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> PubMed citation</li>
+            <li><img src="/icon/dot_2.gif" width="4" height="4" /> Articles by </li>
+          </ul>
+        </dd>-->
+
+
+
+	<br />
+	<dt class="list">Cited By Articles</dt>
+	<dd>
+	  <ul>
+		<li><img src="/icon/dot_2.gif" /> <a href="citedBy.html?doi=10.24304/kjcp.2019.29.4.254" onclick="popen(this.getAttribute('href'), 'NewWindow', 840, 600, 1, 'bcenter');return false;"><span style='color: #D85B20'>CrossRef (<strong>2</strong>)</span></a></li>
+	  </ul>
+	</dd>
+      </dl>
+    </div><div class="sub_rig03">
+  <ul>
+		<li><a href="http://www.kofst.or.kr/kofst_us/index.html" target="_blank"><img src="https://www.inforang.com/img/banner/kofst2_200x38.gif" /></a></li>
+     	<li><a href="https://journals.koreamed.org/search.php?where=vd&id=226" target="_blank"><img src="https://www.inforang.com/img/banner/koreamed_200x38.gif" /></a></li>
+     	<li><a href="https://scholar.google.com/scholar?q=Korean+Journal+of+Clinical+Pharmacy+&btnG=&hl=en&scisbd=1&as_publication=Korean+Journal+of+Clinical+Pharmacy&as_sdt=0%2C5" target="_blank"><img src="https://www.inforang.com/img/banner/googlescholar_200x38.gif" /></a></li>
+     	<li><a href="https://e-sciencecentral.org/journals/258" target="_blank"><img src="https://www.inforang.com/img/banner/science_central_200x38.gif" /></a></li>
+     	<li><a href="https://www.jw-lifescience.co.kr/lifescience/ko/main.jsp" target="_blank"><img src="../../img/lifescience_200x38.jpg" /></a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+	</div>
+
+</div>
+
+
+
+<div id="footer">
+
+	<div class="copyright">&copy; The Korean College of Clinical Pharmacy. <br />102-611, College of Pharmacy, Chung-Ang University 84 Heukseok-Ro, Dangjak-gu, Seoul, 06974, Korea.<br /><strong>Phone</strong>: +82-2-820-5791&nbsp; <strong>Fax</strong>: +82-2-816-7338&nbsp; <strong>E-mail</strong>: <a href='mailto:journal@ekjcp.org'>journal@ekjcp.org</a> / Powered by <a href="https://www.inforang.com/eng" onclick="window.open(this.getAttribute('href'));return false;">INFOrang Co., Ltd</a></div>
+
+</div>
+
+
+</body>
+
+</html>
+
+

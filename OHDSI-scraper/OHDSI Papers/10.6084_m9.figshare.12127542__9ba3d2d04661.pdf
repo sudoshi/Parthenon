@@ -1,0 +1,741 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="nexus-font-support">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="tdm-reservation" content="0">
+    <title>
+        Additional file 1 of Methotrexate and relative risk of dementia amongst patients with rheumatoid arthritis: a multi-national multi-database case-control study
+      -  King&#39;s College London</title>
+    
+    
+    
+
+
+
+<meta property="og:site_name" content="King&#39;s College London">
+
+
+    <meta property="og:title" content="Additional file 1 of Methotrexate and relative risk of dementia amongst patients with rheumatoid arthritis: a multi-national multi-database case-control study"/>
+
+
+<meta property="og:url" content="https://kclpure.kcl.ac.uk/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/">
+<meta property="og:locale" content="en_GB">
+
+
+    <meta property="og:type" content="website">
+
+
+
+    
+        <meta property="og:image" content="https://kclpure.kcl.ac.uk/portal/skin/headerImage/">
+    
+
+
+
+
+    
+
+    
+
+    
+
+
+    <link rel="stylesheet" href="/portal/assets/application-bbadabf14375775985ecfd59655b0569.css" />
+    <!-- OneTrust Cookies Consent Notice start -->
+<script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="7b766ee7-64f7-4ca5-8674-1571913434c7" data-document-language="true"></script>
+<script type="text/javascript">
+    function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+    
+    <link href="/portal/skin/css/" rel="stylesheet"/>
+    
+    <script src="/portal/skin/script/" type="text/javascript"></script>
+    <script type="text/javascript" src="/portal/assets/application-c9812d1ef516be20094e6491b18de745.js" ></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/portal/assets/html5shiv.min-ca5300beead9a4a9d2c9c584a9016410.js" ></script>
+    <script type="text/javascript" src="/portal/assets/respond.min-678d372b349e434d9923e1b591f14a1e.js" ></script>
+    <![endif]-->
+    
+        
+        
+        <script src="/portal/assets/Chart.min-27bff060c3e539ceb22e763c8f2e9e10.js"></script>
+        <script src="/portal/assets/jquery.content-chart-9c09bb79ba3fc3829b6478d0e114f737.js"></script>
+    
+    
+    <!-- Google Analytics: No account ID (G) found -->
+    <script src="//assets.adobedtm.com/4a848ae9611a/ea83f870454d/launch-af020409b299.min.js" class="optanon-category-2" type="text/plain" async=""></script>
+    
+    
+</head>
+
+<body class="" data-page="datasets">
+
+<div id="aria-polite" aria-live="polite"></div>
+
+<div id="aria-assertive" aria-live="assertive"></div>
+
+<nav aria-label="Skip to content" class="skip-content">
+    <ul>
+        <li>
+            <a href="#main-navigation" class="sr-only sr-only-focusable">Skip to main navigation</a>
+        </li>
+        
+            <li>
+                <a href="#main-search" class="sr-only sr-only-focusable">Skip to search</a>
+            </li>
+        
+        <li>
+            <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+            
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+    <header class="header" id="page-header">
+        <div class="primary  ">
+            <div class="container">
+                
+                <a href="/portal/en/" class="logo">
+                    
+                        <span class="sr-only">King's College London Home</span>
+                        <img src="/portal/skin/headerImage/" alt="King's College London Logo"/>
+                    
+                </a>
+                
+                
+                
+            </div>
+        </div>
+
+        
+            <div class="header-search">
+                
+<form action="/portal/en/searchAll/index/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/" method="get"
+      class="search-form" id="search-everything">
+
+    <div class="global-search-wrapper">
+        <div class="global-search mini">
+            <div class="field-button-wrapper">
+                <div class="search-cell search-field">
+                    <label for="main-search" class="sr-only">Search content at King&#39;s College London</label>
+                    <input id="main-search" class="search-field" value="" name="search"
+                           placeholder="Search..."/>
+                </div>
+
+                <div class="search-submit">
+                    <button type="submit" aria-label="Search">
+                        <i class="icon icon-magnifying-glass" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(function () {
+        var searchForm = $("#search-everything");
+        var searchField = $(".search-field", searchForm);
+        searchForm.on("submit", function () {
+            var field = searchField.find("input");
+            var searchString = field.val();
+
+            // No enter key submit nothing :-)
+            if (!searchString) return false;
+
+            if (searchString.length >= 200) {
+                searchForm.attr("method", "post");
+                searchForm.attr("action", "/portal/en/concepts/copypaste/");
+                field.attr("name", "text");
+            }
+        });
+    });
+</script>
+            </div>
+        
+
+
+        
+        
+            <div class="subMenu">
+                <div class="secondary">
+                    <div class="container">
+                        <nav id="main-navigation" aria-label="Main navigation" class="content-navigation three-third">
+                            <ul data-value="More" role="menubar">
+                                <li class="" role="none">
+                                    <a href="/portal/en/" role="menuitem" tabindex="-1">Home</a>
+                                </li>
+
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/persons/"><span>Profiles</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/organisations/"><span>Research units</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/publications/"><span>Research output</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/projects/"><span>Projects</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/studentTheses/"><span>Student theses</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/activities/"><span>Activities</span></a>
+                                    </li>
+                                
+                                    <li class="selected" role="none">
+                                        <a class="portal_link" tabindex="0" role="menuitem" href="/portal/en/datasets/"><span>Datasets</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/impacts/"><span>Impacts</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/portal/en/prizes/"><span>Prizes</span></a>
+                                    </li>
+                                
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+    <main id="page-content">
+        
+    <div class="page-section page-section-datasets page-section-datasets-view ">
+
+        
+        
+        
+        
+        <section
+                class="page-section-header page-section-header-datasets page-section-header-datasets-view
+                 no-backdrop-image"
+                data-stickyheader=""
+                style="">
+            
+            
+        
+    <div class="container">
+        <div class="row">
+            <div class="introduction">
+                <h1>Additional file 1 of Methotrexate and relative risk of dementia amongst patients with rheumatoid arthritis: a multi-national multi-database case-control study</h1>
+                <div class="rendering rendering_dataset rendering_classifiedpersonassociationrendererportal rendering_dataset_classifiedpersonassociationrendererportal"><ul class="relations persons"><li><a rel="Person" href="https://kclpure.kcl.ac.uk/portal/en/persons/danielle-newby/" class="link person"><span>Danielle Newby</span></a><span class="dimmed"> (Creator)</span></li><li>Daniel Prieto-Alhambra<span class="dimmed"> (Creator)</span></li><li>Talita Duarte-Salles<span class="dimmed"> (Creator)</span></li><li>David Ansell<span class="dimmed"> (Creator)</span></li><li>Lars Pedersen<span class="dimmed"> (Creator)</span></li><li>Johan van der Lei<span class="dimmed"> (Creator)</span></li><li>Mees Mosseveld<span class="dimmed"> (Creator)</span></li><li>Peter Rijnbeek<span class="dimmed"> (Creator)</span></li><li>Glen James<span class="dimmed"> (Creator)</span></li><li>Myriam Alexander<span class="dimmed"> (Creator)</span></li><li>Peter Egger<span class="dimmed"> (Creator)</span></li><li>Jana Podhorna<span class="dimmed"> (Creator)</span></li><li><a rel="Person" href="https://kclpure.kcl.ac.uk/portal/en/persons/robert.stewart/" class="link person"><span>Robert Stewart</span></a><span class="dimmed"> (Creator)</span></li><li>Gayan Perera<span class="dimmed"> (Creator)</span></li><li>Paul Avillach<span class="dimmed"> (Creator)</span></li><li>Solène Grosdidier<span class="dimmed"> (Creator)</span></li><li><a rel="Person" href="https://kclpure.kcl.ac.uk/portal/en/persons/simon-lovestone/" class="link person"><span>Simon Lovestone</span></a><span class="dimmed"> (Creator)</span></li><li>Alejo J. Nevado-Holgado<span class="dimmed"> (Creator)</span></li></ul></div>
+                <div class="rendering rendering_dataset rendering_associatesorganisationsportal rendering_dataset_associatesorganisationsportal"><ul class="relations organisations"><li class="department"><a rel="Organisation" href="https://kclpure.kcl.ac.uk/portal/en/organisations/medical-molecular-genetics/" class="link"><span>Medical &amp; Molecular Genetics</span></a></li><li class="department"><a rel="Organisation" href="https://kclpure.kcl.ac.uk/portal/en/organisations/psychological-medicine/" class="link"><span>Psychological Medicine</span></a></li><li class="researchgroup"><a rel="Organisation" href="https://kclpure.kcl.ac.uk/portal/en/organisations/nihr-maudsley-biomedical-research-centre-brc/" class="link"><span>NIHR Maudsley Biomedical Research Centre (BRC)</span></a></li><li class="department"><a rel="Organisation" href="https://kclpure.kcl.ac.uk/portal/en/organisations/old-age-psychiatry/" class="link"><span>Old Age Psychiatry</span></a></li></ul></div>
+                <p class="content-type-name">Dataset</p>
+            </div>
+        </div>
+    </div>
+
+<div class="subMenu">
+    <div class="content-profile-navigation">
+    <div class="container">
+        <nav>
+            <ul role="menubar">
+                <li class="selected" role="none">
+                    <a class="portal_link" role="menuitem" href="/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/"><span>
+                        <i class="icon icon-dataset" aria-hidden="true"></i>
+                        <span class="label">Overview</span>
+                    </span></a>
+                </li>
+                
+                    
+                
+                    
+                        <li class="" role="none">
+                            <a class="portal_link" role="menuitem" href="/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/publications/"><span>
+                                <i class="icon icon-publications" aria-hidden="true"></i>
+                                <span class="label">Research output</span>
+                                <span class="count">(1)</span>
+                            </span></a>
+                        </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</div>
+    
+        </section>
+
+        <div id="main-content"
+             class="page-section-content page-section-content-datasets page-section-content-datasets-view   ">
+            
+        <div class="container">
+            <section class="page-section content-relation-section dataset-details">
+                <div class="clearfix">
+                    <div class="content-content dataset-content">
+                        <div class="rendering rendering_dataset rendering_detailsportal rendering_dataset_detailsportal"><h2 class="subheader">Description</h2><div class="textblock">Additional file 1 : Supporting Information.xlsx Description of data: Excel document containing 1). Table S1. of characteristics of databases utilised in this study 2). Table S2. of clinical diagnosis codes for disease variables 3). Table S3. of the age specific breakdown of dementia occurrence in 5 year intervals with duration of drug treatment usage 4). Table S3. showing the association between of days of use of methotrexate treatment and dementia diagnosis in people with rheumatoid arthritis and 5). Figure S1. showing the association between methotrexate and sulfasalazine treatment with dementia diagnosis in people with rheumatoid arthritis.</div><div class="dataset"><table class="properties"><tbody><tr><th scope="row">Date made available</th><td><span class="date">15 Apr 2020</span></td></tr><tr><th scope="row">Publisher</th><td><a rel="Publisher" href="#" class="link"><span>figshare</span></a></td></tr></tbody></table></div></div>
+                        
+                        
+                        
+                    </div>
+
+                    <div class="content-sidebar dataset-sidebar">
+                        <div class="rendering rendering_dataset rendering_detailportallinks rendering_dataset_detailportallinks"><ul><li><h2 class="subheader dataset-view">DOI</h2><div class="doi-link"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.6084/m9.figshare.12127542" class="link"><span>10.6084/m9.figshare.12127542</span></a></div></li></ul></div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+                
+            
+                
+                    <section class="page-section content-relation-section dataset-publications">
+                        <div class="container">
+                            <div class="header">
+    
+    
+    
+    <h2 class="section-title" id="related-publications-title">
+    <i class="icon icon-publications" aria-hidden="true"></i>
+        <span class="title">
+            
+                Research output
+            
+        </span>
+    </h2>
+
+    
+        
+            <div class="content-trends">
+            
+                
+                    
+
+
+    
+    <ul class="content-statistics">
+        
+        
+    
+        <li class="">
+            <a class="portal_link count increment-counter" aria-label=" 1 Article" href="/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"><span>
+                1
+            </span></a>
+            <span class="label">Article</span>
+        </li>
+    
+    
+
+
+    </ul>
+
+<script>
+ $("ul.content-statistics li.index").last().addClass("separator");
+</script>
+                
+            </div>
+        
+    
+
+    
+
+    
+
+</div>
+
+                            <div class="relation-list relation-list-publications">
+                                <ul class="list-results">
+                                    
+                                        <li class="list-result-item">
+                                            <div class="relation-list relation-list-publications">
+
+                                                <div class="result-container">
+                                                
+
+                                                <div class="rendering rendering_researchoutput  rendering_researchoutput_portal-short rendering_contributiontojournal rendering_portal-short rendering_contributiontojournal_portal-short"><h3 class="title"><a rel="ContributionToJournal" href="https://kclpure.kcl.ac.uk/portal/en/publications/methotrexate-and-relative-risk-of-dementia-amongst-patients-with-/" class="link"><span>Methotrexate and relative risk of dementia amongst patients with rheumatoid arthritis: A multi-national multi-database case-control study</span></a></h3>Newby, D., Prieto-Alhambra, D., Duarte-Salles, T., Ansell, D., Pedersen, L., Van Der Lei, J., Mosseveld, M., Rijnbeek, P., James, G., Alexander, M., Egger, P., Podhorna, J., <a rel="Person" href="https://kclpure.kcl.ac.uk/portal/en/persons/robert.stewart/" class="link person"><span>Stewart, R.</span></a>, <a rel="Person" href="https://kclpure.kcl.ac.uk/portal/en/persons/gayan.perera/" class="link person"><span>Perera, G.</span></a>, Avillach, P., Grosdidier, S., <a rel="Person" href="https://kclpure.kcl.ac.uk/portal/en/persons/simon-lovestone/" class="link person"><span>Lovestone, S.</span></a> &amp; Nevado-Holgado, A. J., <span class="date">6 Apr 2020</span>, <span class="journal">In: <a rel="Journal" href="#" class="link"><span>Alzheimer's Research and Therapy.</span></a></span> <span class="volume">12</span>, <span class="journalnumber">1</span>, <span class="numberofpages">10 p.</span>, 38.<p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+
+                                                
+
+                                                
+<div class="rendering rendering_researchoutput  rendering_researchoutput_publicationattacheddocumentsportalrenderer rendering_contributiontojournal rendering_publicationattacheddocumentsportalrenderer rendering_contributiontojournal_publicationattacheddocumentsportalrenderer"><div class="open-access">Open Access</div><div class="files">File</div></div>
+
+                                                
+                                                    <ul class="content-concept-list" role="menubar" aria-label="Related fingerprints">
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="b63811f4-1580-4d19-a7d0-99778417a234"
+            data-rank-value="1.0"
+            data-summary-url="/portal/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Rheumatoid Arthritis</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="582c6c23-e4e0-44b4-908e-51360e4e35de"
+            data-rank-value="1.0"
+            data-summary-url="/portal/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Case-Control Study</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="6d329606-20bf-49cb-948b-915a1c72a468"
+            data-rank-value="1.0"
+            data-summary-url="/portal/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Inflammatory Arthritis</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="4a84ae58-de57-4059-8903-7123bd16ef4a"
+            data-rank-value="1.0"
+            data-summary-url="/portal/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Methotrexate</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                            <li class="concept-badge-small-container dropdown-overflow" role="none">
+    <button tabindex="-1" class="concept-badge-small tooltipped tooltipped-multiline tooltipped-e dropdown-toggle"
+            role="menuitem"
+            aria-expanded="false"
+            aria-haspopup="true"
+            data-concept-uuid="e24beab0-e6c5-44e6-beab-ce4b7f91e710"
+            data-rank-value="1.0"
+            data-summary-url="/portal/en/concepts/summary/">
+        <span class="concept-wrapper">
+            <span class="rank"></span>
+            <span class="concept">Relative Risk</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+</li>
+
+                                                        
+                                                    </ul>
+                                                
+                                            </div>
+                                            
+                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="publication-metrics" role="region" aria-label="Publication metrics section">
+        
+            <div class="metrics-container">
+                
+                    <div class="metrics-wrap metrics-top ">
+                        
+                            <div class="metric scopus-citations">
+                                
+                                <span class="count">32</span>
+                                
+                                <span class="label">Citations
+(Scopus)</span>
+                            </div>
+                        
+                        
+                            <div class="metric metrics-downloads">
+                                <span class="count tooltipped tooltipped-n" aria-label="Total downloads for this work">200</span>
+                                <span class="label">Downloads
+(Pure)</span>
+                            </div>
+                        
+                    </div>
+                
+                
+                    <div class="metrics-wrap metrics-bottom one">
+                        
+
+                        
+                            <div class="metric metric-altmetric">
+                                
+                                    <div data-badge-popover="top" data-badge-type="donut" data-doi="10.1186/s13195-020-00606-5" data-hide-no-mentions="true" data-link-target='_blank'
+                                         class="altmetric-embed"></div>
+                                
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        
+    </div>
+
+                                            
+                                            </div>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="footer">
+                                
+                            </div>
+                        </div>
+                    </section>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            <section class="page-section cite">
+                    <section class="publication-cite" aria-labelledby="publications-cite-title">
+    <h2 class="subheader" id="publications-cite-title">Cite this</h2>
+    <ul class="tabs" role="tablist" aria-label="Cite this">
+        
+            <li class="selected" role="tab" id="tab-0" aria-controls="cite-dataSetCite" tabindex="-1"  aria-selected="false" >
+                DataSetCite
+            </li>
+        
+    </ul>
+    <div class="tab-container">
+        
+            <div id="cite-dataSetCite" class="tab selected" role="tabpanel" aria-labelledby="tab-0" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_dataset rendering_datasetcite rendering_dataset_datasetcite">Newby, D. (Creator), Prieto-Alhambra, D. (Creator), Duarte-Salles, T. (Creator), Ansell, D. (Creator), Pedersen, L. (Creator), van der Lei, J. (Creator), Mosseveld, M. (Creator), Rijnbeek, P. (Creator), James, G. (Creator), Alexander, M. (Creator), Egger, P. (Creator), Podhorna, J. (Creator), Stewart, R. (Creator), Perera, G. (Creator), Avillach, P. (Creator), Grosdidier, S. (Creator), Lovestone, S. (Creator), Nevado-Holgado, A. J. (Creator) (<span class="date">15 Apr 2020</span>). Additional file 1 of Methotrexate and relative risk of dementia amongst patients with rheumatoid arthritis: a multi-national multi-database case-control study. figshare. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.6084/m9.figshare.12127542" class="link"><span>10.6084/m9.figshare.12127542</span></a></div>
+            </div>
+        
+
+        <script>
+            $(function() {
+                $(".tab-container .rendering a:not([href^='http://dx.doi.org'])").contents().unwrap();
+            });
+        </script>
+    </div>
+</section>
+
+            </section>
+        </div>
+
+        
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+
+    <div class="share-box">
+        <ul>
+            <li class="icon-share"></li>
+            <li><a aria-label="Share on Facebook"
+                   href="https://www.facebook.com/sharer.php?u=https://kclpure.kcl.ac.uk/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&p[summary]=Check+out+this+dataset+at+King%27s+College+London%3A+Additional+file+1+of+Methotrexate+and+relative+risk+of+dementia+amongst+patients+with+rheumatoid+arthritis%3A+a+multi-national+multi-database+case-control+study"
+                   class="icon-facebook"
+                   onclick="window.location.origin('https://www.facebook.com/sharer.php?u=https://kclpure.kcl.ac.uk/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&p[summary]=Check+out+this+dataset+at+King%27s+College+London%3A+Additional+file+1+of+Methotrexate+and+relative+risk+of+dementia+amongst+patients+with+rheumatoid+arthritis%3A+a+multi-national+multi-database+case-control+study', 'Facebook', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" target="popup"></a></li>
+            <li><a aria-label="Share on Twitter"
+                   href="https://twitter.com/intent/tweet?url=https://kclpure.kcl.ac.uk/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&text=Check+out+this+dataset+at+King%27s+College+London%3A+Additional+file+1+of+Methotrexate+and+relative+risk+of+dementia+amongst+patients+with+rheumatoid+arthritis%3A+a+multi-national+multi-database+case-control+study"
+                   onclick="window.location.origin('https://twitter.com/intent/tweet?url=https://kclpure.kcl.ac.uk/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&text=Check+out+this+dataset+at+King%27s+College+London%3A+Additional+file+1+of+Methotrexate+and+relative+risk+of+dementia+amongst+patients+with+rheumatoid+arthritis%3A+a+multi-national+multi-database+case-control+study ', 'Twitter', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="twitter" target="popup"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 300 271">
+                    
+                    <path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z"></path>
+                </svg></a></li>
+            <li><a aria-label="Share on LinkedIn"
+                   href="https://www.linkedin.com/shareArticle?mini=true&url=https://kclpure.kcl.ac.uk/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&summary=Check+out+this+dataset+at+King%27s+College+London%3A+Additional+file+1+of+Methotrexate+and+relative+risk+of+dementia+amongst+patients+with+rheumatoid+arthritis%3A+a+multi-national+multi-database+case-control+study"
+                   onclick="window.location.origin('https://www.linkedin.com/shareArticle?mini=true&url=https://kclpure.kcl.ac.uk/portal/en/datasets/additional-file-1-of-methotrexate-and-relative-risk-of-dementia-a/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&summary=Check+out+this+dataset+at+King%27s+College+London%3A+Additional+file+1+of+Methotrexate+and+relative+risk+of+dementia+amongst+patients+with+rheumatoid+arthritis%3A+a+multi-national+multi-database+case-control+study ', 'LinkedIn', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="icon-linkedin" target="popup"></a></li>
+            <li><a aria-label="Share by email" href="/cdn-cgi/l/email-protection#4f703c3a2d252a2c3b720e2b2b263b2620212e236a7d7f2926232a6a7d7f7e6a7d7f20296a7d7f022a3b27203b3d2a372e3b2a6a7d7f2e212b6a7d7f3d2a232e3b26392a6a7d7f3d263c246a7d7f20296a7d7f2b2a222a213b262e6a7d7f2e222021283c3b6a7d7f3f2e3b262a213b3c6a7d7f38263b276a7d7f3d272a3a222e3b20262b6a7d7f2e3d3b273d263b263c6a7c0e6a7d7f2e6a7d7f223a233b2662212e3b2620212e236a7d7f223a233b26622b2e3b2e2d2e3c2a6a7d7f2c2e3c2a622c20213b3d20236a7d7f3c3b3a2b36692d202b36720c272a2c246a7d7f203a3b6a7d7f3b27263c6a7d7f2b2e3b2e3c2a3b6a7d7f2e3b6a7d7f04262128696c7c76743c6a7d7f0c2023232a282a6a7d7f0320212b20216a7c0e6a7d7f0e2b2b263b2620212e236a7d7f2926232a6a7d7f7e6a7d7f20296a7d7f022a3b27203b3d2a372e3b2a6a7d7f2e212b6a7d7f3d2a232e3b26392a6a7d7f3d263c246a7d7f20296a7d7f2b2a222a213b262e6a7d7f2e222021283c3b6a7d7f3f2e3b262a213b3c6a7d7f38263b276a7d7f3d272a3a222e3b20262b6a7d7f2e3d3b273d263b263c6a7c0e6a7d7f2e6a7d7f223a233b2662212e3b2620212e236a7d7f223a233b26622b2e3b2e2d2e3c2a6a7d7f2c2e3c2a622c20213b3d20236a7d7f3c3b3a2b366f336f273b3b3f3c756060242c233f3a3d2a61242c23612e2c613a24603f203d3b2e23602a21602b2e3b2e3c2a3b3c602e2b2b263b2620212e23622926232a627e62202962222a3b27203b3d2a372e3b2a622e212b623d2a232e3b26392a623d263c24622029622b2a222a213b262e622e60703a3b22103c203a3d2c2a722a222e2623692e223f743a3b2210222a2b263a22722a222e2623692e223f743a3b22102c2e223f2e262821723c272e3d2a23262124" class="icon-email"></a></li>
+        </ul>
+    </div>
+
+
+
+
+    
+        </div>
+    </div>
+
+    <div id="new-modal-overlay"></div>
+    
+    </main>
+
+    <footer id="page-footer" class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="content-navigation three-third">
+                    <div dir="ltr" class="footer-columns">
+                        
+                        <div class="footer-column">
+                            <p>
+                                Powered by <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure" target="_blank">Pure <span class="sr-only">Link opens in a new tab</span></a>, <a href="http://www.scopus.com/" target="_blank">Scopus <span class="sr-only">Link opens in a new tab</span></a> & <a href="https://www.elsevier.com/products/elsevier-fingerprint-engine" target="_blank">Elsevier Fingerprint Engine&trade; <span class="sr-only">Link opens in a new tab</span></a> 
+                            </p>
+
+                            <p>
+                                All content on this site: Copyright &copy; 2026 King's College London, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+                            </p>
+
+                            <p>We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the <a href="/portal/en/about/cookies/">use of cookies</a></p>
+                            <p><button id="ot-sdk-btn" class="ot-sdk-show-settings"></button></p>
+                            
+                                <p><a href="https://kclpure.kcl.ac.uk/admin/workspace.xhtml" rel="nofollow" target="_blank">Log in to Pure <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            <p></p>
+                        </div>
+
+                        <div class="footer-column">
+                            
+                                <p><a href="https://www.kcl.ac.uk/terms/privacy" target="_blank">King&#39;s College London data protection policy <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            
+                            
+                                <p><a href="/portal/en/web-accessibility/" rel="nofollow" target="_blank">About web accessibility <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                <a href="https://elsevier.responsibledisclosure.com/hc/en-us/requests/new" target="_blank" rel="nofollow">Report vulnerability <span class="sr-only">&nbsp; Link opens in a new tab</span></a>
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top">
+            <a href="#" class="back-to-top" aria-label="Go to top"><i class="icon icon-up-open"></i></a>
+        </div>
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+    
+
+    
+
+
+<script>window.appData = window.appData || [];</script><script type="text/javascript">
+try {(function() {
+appData.push({...{"page":{"businessUnit":"ELS:RP:ST","cmsName":"Pure Portal","environment":"prod","language":"en","loadTime":"222","loadTimestamp":"1775525469914","name":"pure portal:datasets:view","noTracking":"false","productName":"PR","type":"CP-CA"},"visitor":{"accountId":"","accountName":"pr:King\u0027s College London","ipAddress":"","accessType":"pr:ANON_GUEST","loginStatus":"anonymous"},"content":[{"id":"7b292131-d322-40d4-bf63-a93e0d0ddabb","title":"Additional file 1 of Methotrexate and relative risk of dementia amongst patients with rheumatoid arthritis: a multi-national multi-database case-control study","recordType":"dataset"}]}, event: "pageLoad"});})();} catch(e) {if(console) { console.log(e) } }</script>
+<script>function trackPage(){try {(function() {
+window.appData = window.appData || [];
+})();} catch(e) {if(console) { console.log(e) } }}</script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="citation_title" content="Normal values of the electrocardiogram for ages 16-90 years" />
+<meta name="citation_publication_date" content="2014-12-31" />
+<meta name="citation_book_title" content="Journal of Electrocardiology" />
+<meta name="citation_journal_title" content="Journal of Electrocardiology" />
+<meta name="citation_volume" content="47" />
+<meta name="citation_issue" content="6" />
+<meta name="citation_firstpage" content="914" />
+<meta name="citation_lastpage" content="921" />
+<meta name="citation_doi" content="doi:10.1016/j.jelectrocard.2014.07.022" />
+<meta name="citation_public_url" content="https://hdl.handle.net/1887/117357" />
+<meta name="citation_language" content="en" />
+<meta name="citation_abstract_html_url" content="https://scholarlypublications.universiteitleiden.nl/handle/1887/117357/" />
+<link rel="shortcut icon" href="https://scholarlypublications.universiteitleiden.nl/sites/scholarlypublications.universiteitleiden.nl/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="citation_author" content="Rijnbeek, P.R." />
+<meta name="citation_author" content="Herpen, G. van" />
+<meta name="citation_author" content="Bots, M.L." />
+<meta name="citation_author" content="Man, S." />
+<meta name="citation_author" content="Verweij, N." />
+<meta name="citation_author" content="Hofman, A." />
+<meta name="citation_author" content="Hillege, H." />
+<meta name="citation_author" content="Numans, M.E." />
+<meta name="citation_author" content="Swenne, C.A." />
+<meta name="citation_author" content="Witteman, J.C.M." />
+<meta name="citation_author" content="Kors, J.A." />
+<meta name="citation_keywords" content="Electrocardiogram" />
+<meta name="citation_keywords" content="Adult" />
+<meta name="citation_keywords" content="Elderly" />
+<meta name="citation_keywords" content="Normal limits" />
+<meta name="citation_keywords" content="Normal values" />
+<meta name="citation_pdf_url" content="https://scholarlypublications.universiteitleiden.nl/access/item%3A2991970/view" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Normal values of the electrocardiogram for ages 16-90 years | Scholarly Publications</title>
+  <style type="text/css" media="all">
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/system/system.base.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/system/system.menus.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/system/system.messages.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/system/system.theme.css?td3gap");
+</style>
+<style type="text/css" media="all">
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/comment/comment.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/field/theme/field.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora/css/islandora.base.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora/css/islandora.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_audio/css/islandora_audio.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_collection/css/islandora_basic_collection.base.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_collection/css/islandora_basic_collection.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_image/css/islandora_basic_image.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_batch/css/views_table_contextual_links_fix.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_bookmark/css/islandora_bookmark.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_document/css/islandora_document.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_fits/css/islandora_fits.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_large_image/css/islandora_large_image.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_newspaper/css/islandora_newspaper.base.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_newspaper/css/islandora_newspaper.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_pdf/css/islandora_pdf.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/custom/islandora_solr_search/css/islandora_solr.base.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solr_metadata/css/islandora_solr_metadata.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/islandora_solution_pack_video/css/islandora_video.theme.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/node/node.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/search/search.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/modules/user/user.css?td3gap");
+</style>
+<style type="text/css" media="all">
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/contrib/ctools/css/ctools.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/modules/custom/islandora_solution_pack_compound/css/islandora_compound_object.block.css?td3gap");
+</style>
+<style type="text/css" media="all">
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/font-awesome-4.7.0/css/font-awesome.min.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/kube.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/styles.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/main.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/imageblock.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/pager.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/searchresults.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/compound.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/menu.css?td3gap");
+@import url("https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/css/views.css?td3gap");
+</style>
+  <script type="text/javascript" src="https://scholarlypublications.universiteitleiden.nl/sites/scholarlypublications.universiteitleiden.nl/files/js/js_Pt6OpwTd6jcHLRIjrE-eSPLWMxWDkcyYrPTIrXDSON0.js"></script>
+<script type="text/javascript" src="https://scholarlypublications.universiteitleiden.nl/sites/scholarlypublications.universiteitleiden.nl/files/js/js_n0j97XEUHTynUjb1ttHd_rdJxxj2OoFLyAS2RwM-rjo.js"></script>
+<script type="text/javascript" src="https://scholarlypublications.universiteitleiden.nl/sites/scholarlypublications.universiteitleiden.nl/files/js/js_mH-NrDu4SEyo9mlYwSlsbOkw0aNFTON2T5p6g_LA2sA.js"></script>
+<script type="text/javascript" src="https://scholarlypublications.universiteitleiden.nl/sites/scholarlypublications.universiteitleiden.nl/files/js/js_EDjIwyWn1UQyYQ1AHk78aF87G0wkdRRfH-4mM0eFExg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"scholarly","theme_token":"yVT0qg4UqOMLM2F0mRSu3OljYl0OqpsjX-vDswlC14I","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.12\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/custom\/islandora_solution_pack_ead\/js\/eadPopovers.js":1,"sites\/all\/modules\/islandora_ga_reports\/js\/track_ds_downloads.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/custom\/islandora_conditional_access_rights\/js\/conditional_access_rights.js":1,"misc\/form.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/custom\/islandora_solution_pack_compound\/js\/caption_width.js":1,"sites\/all\/modules\/custom\/islandora_solution_pack_compound\/js\/show_selected.js":1,"sites\/all\/themes\/scholarly\/js\/cbpHorizontalMenu.js":1,"sites\/all\/themes\/scholarly\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/islandora\/css\/islandora.base.css":1,"sites\/all\/modules\/islandora\/css\/islandora.theme.css":1,"sites\/all\/modules\/islandora_solution_pack_audio\/css\/islandora_audio.theme.css":1,"sites\/all\/modules\/islandora_solution_pack_collection\/css\/islandora_basic_collection.base.css":1,"sites\/all\/modules\/islandora_solution_pack_collection\/css\/islandora_basic_collection.theme.css":1,"sites\/all\/modules\/islandora_solution_pack_image\/css\/islandora_basic_image.theme.css":1,"sites\/all\/modules\/islandora_batch\/css\/views_table_contextual_links_fix.css":1,"sites\/all\/modules\/islandora_bookmark\/css\/islandora_bookmark.css":1,"sites\/all\/modules\/islandora_solution_pack_document\/css\/islandora_document.theme.css":1,"sites\/all\/modules\/islandora_fits\/css\/islandora_fits.css":1,"sites\/all\/modules\/islandora_solution_pack_large_image\/css\/islandora_large_image.theme.css":1,"sites\/all\/modules\/islandora_solution_pack_newspaper\/css\/islandora_newspaper.base.css":1,"sites\/all\/modules\/islandora_solution_pack_newspaper\/css\/islandora_newspaper.theme.css":1,"sites\/all\/modules\/islandora_solution_pack_pdf\/css\/islandora_pdf.theme.css":1,"sites\/all\/modules\/custom\/islandora_solr_search\/css\/islandora_solr.base.css":1,"sites\/all\/modules\/islandora_solr_metadata\/css\/islandora_solr_metadata.css":1,"sites\/all\/modules\/islandora_solution_pack_video\/css\/islandora_video.theme.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/islandora_solution_pack_compound\/css\/islandora_compound_object.block.css":1,"sites\/all\/themes\/scholarly\/css\/font-awesome-4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/scholarly\/css\/kube.css":1,"sites\/all\/themes\/scholarly\/css\/styles.css":1,"sites\/all\/themes\/scholarly\/css\/main.css":1,"sites\/all\/themes\/scholarly\/css\/imageblock.css":1,"sites\/all\/themes\/scholarly\/css\/pager.css":1,"sites\/all\/themes\/scholarly\/css\/searchresults.css":1,"sites\/all\/themes\/scholarly\/css\/compound.css":1,"sites\/all\/themes\/scholarly\/css\/menu.css":1,"sites\/all\/themes\/scholarly\/css\/views.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/scholarlypublications.universiteitleiden.nl\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"conditional_access_rights":{"tn_access_restricted":"https:\/\/scholarlypublications.universiteitleiden.nl\/sites\/all\/modules\/custom\/access_rights\/tn_restricted_access.gif"},"urlIsAjaxTrusted":{"\/handle\/1887\/117357":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-islandora page-islandora-object page-islandora-object-item2991969 designkit" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+
+    <div id="theheader">
+      <div class="section clearfix">
+
+        <div class="dc-centercontent" id="thetopmenu">
+                  </div>
+
+        <div class="dc-centercontent" id="thetitle">
+          <div class="dc-logo">
+                          <a href="https://www.universiteitleiden.nl" target="_blank">
+                <img src="https://scholarlypublications.universiteitleiden.nl/sites/all/themes/scholarly/logo.png" alt="Universiteit Leiden" />
+              </a>
+                      </div>
+                            <h1>
+                    Leiden University                    <em>Scholarly Publications</em>
+                  </h1>
+                  </div>
+
+                <div id="themenu" class="dc-menu">
+          <div class="dc-centercontent">
+            
+                  <div class="region region-navigation">
+    <div class="block block-system block-menu">
+  <nav id="cbp-hrmenu" class="cbp-hrmenu">
+    <ul class="menu"><li class="first leaf"><a href="/" class="first leaf">Home</a></li><li class="leaf"><a href="https://lucris.leidenuniv.nl " class="leaf" target="_blank">Submit</a></li><li><a href="/about" class="last leaf">About</a></li><li class="dc-menu-search"><form action="/handle/1887/117357" method="post" id="islandora-collection-search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-simple"><div class="form-item form-type-select form-item-collection-select">
+  <label class="element-invisible" for="edit-collection-select">Select Collection </label>
+ <select id="edit-collection-select" name="collection_select" class="form-select"><option value="all">All collections</option><option value="collection:20801" selected="selected">Medicine / Leiden University Medical Centre (LUMC)</option><option value="collection:19030">Academic speeches</option><option value="collection:9744">Dissertations</option><option value="collection:20773">Faculty of Archaeology</option><option value="collection:20774">Faculty of Governance and Global Affairs</option><option value="collection:20775">Faculty of Humanities</option><option value="collection:20778">Faculty of Science</option><option value="collection:20812">Faculty of Social and Behavioural Sciences</option><option value="collection:20470">Leiden Journals, Conference Proceedings and Books</option><option value="collection:20776">Leiden Law School</option><option value="collection:20636">Leiden University Press</option><option value="collection:20765">Research output UL</option></select>
+</div>
+<div class="form-item form-type-textfield form-item-islandora-simple-search-query">
+  <label class="element-invisible" for="edit-islandora-simple-search-query">Search box </label>
+ <input placeholder="Search" type="text" id="edit-islandora-simple-search-query" name="islandora_simple_search_query" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="" class="form-submit" /><button type="submit" class="form-submit"><i class="fa fa-search"></i></button></div><input type="hidden" name="form_build_id" value="form-jlweQjsQJYZqYZ9GJ5U9A-FGTy6P_2gJxkcBqFMYfvw" />
+<input type="hidden" name="form_id" value="islandora_collection_search_form" />
+</div></form></li></ul>  </nav>
+</div>  </div>
+
+                      </div>
+        </div>
+
+      </div>
+    </div> <!-- /#theheader -->
+
+    
+
+
+    <main id="themain">
+
+
+                    <div class="dc-centercontent">
+
+          
+          
+                      <div class="dc-sidebar dc-sidebar-right"><div class="section">
+                  <div class="region region-sidebar-second">
+    <section class="">
+  <div id="block-views-58fda38e2111cb9c7dbea57150bbc9b3" class="block block-views">
+
+            
+    <div class="content">
+      <div class="view view-persistent-url-and-access-view view-id-persistent_url_and_access_view view-display-id-block view-dom-id-bcacbe0527c63414fdf6186eb9d25571">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-mods-identifier-hdl-ms">    <span class="views-label views-label-mods-identifier-hdl-ms">Persistent URL of this record</span>    <span class="field-content"><A href="https://hdl.handle.net/1887/117357">https://hdl.handle.net/1887/117357</A></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section><h3 class="ubl_matomo_reports_button"><section class="">
+  <div id="block-ubl-matomo-reports-ubl-matomo-reports-button" class="block block-ubl-matomo-reports ubl_matomo_reports_button">
+
+            
+    <div class="content">
+      <a href="/handle/1887/117357/stats" title="Statistics for Normal values of the electrocardiogram for ages 16-90 years">View statistics</a>    </div>
+  </div>
+</section></h3><section class="">
+  <div id="block-islandora-compound-object-compound-navigation" class="block block-islandora-compound-object">
+
+              <h3 class="" >Documents</h3>
+        
+    <div class="content">
+       <div class="islandora-compound-prev-next">
+
+   
+       <ul class="dc-grid dc-grid-compound dc-compound-items islandora-compound">
+        <li class="ubl-file ubl-file-pdf">
+     <ul>
+            <li class="ubl-file-download"><a href="/access/item%3A2991970/download">Download</a></li>
+       <li class="ubl-file-view">
+         <a href="/access/item%3A2991970/view" target="_blank">Numans,_2014_Normal_values_of_the_electrocardiogram_for_ages_16-90_years</a>       </li>
+                    <li class="ubl-file-version">
+         Not Applicable (or Unknown)     </li>
+          <li class="ubl-file-remarks ubl-embargo ubl-embargo-none">
+       open access                                  <a href="https://hdl.handle.net/1887/license:3" target="_blank"><img class="ubl-file-license" typeof="foaf:Image" src="/sites/all/themes/scholarly/img/license_3.png" alt="license_3" title="Leiden University Non-exclusive license" /></a>            </li>
+          </ul>
+     </li>
+      </ul> <!-- //dc-compound-items islandora-compound-thumbs -->
+  </div>
+    </div>
+  </div>
+</section><section class="">
+  <div id="block-islandora-in-collections-block-islandora-in-collections" class="block block-islandora-in-collections-block">
+
+              <h3 class="" >In Collections</h3>
+        
+    <div class="content">
+      
+<p>This item can be found in the following collections:</p>
+<ul>
+      <li><a href="/handle/1887/20801">Medicine / Leiden University Medical Centre (LUMC)</a></li>
+  </ul>
+
+    </div>
+  </div>
+</section>  </div>
+              </div></div> <!-- /.section, /#sidebar-second -->
+          
+          <div class="dc-content" class="column"><div class="section">
+                                          <a id="main-content"></a>
+              <div class="tabs"></div>                                            <div class="region region-content">
+    <section class="dc-webexpositions">
+  <div id="block-system-main" class="block block-system">
+
+            
+    <div class="content">
+      
+<div class="islandora-compound-object-object islandora">
+  <div class="islandora-compound-object-content-wrapper clearfix">
+          <div class="islandora-compound-object-content">
+        <img typeof="foaf:Image" src="/islandora/object/item%3A2991969/datastream/TN/view" alt="" title="Normal values of the electrocardiogram for ages 16-90 years" />      </div>
+      </div>
+          <section class="dc-metadata islandora islandora-metadata">
+          <!-- Metadata -->
+          <div class="fieldset-wrapper">
+                                        <dd class="first author">
+                                <span class="name">
+                  <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3ARijnbeek%2C%5C%20P.R.">Rijnbeek, P.R.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AHerpen%2C%5C%20G.%5C%20van">Herpen, G. van</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3ABots%2C%5C%20M.L.">Bots, M.L.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AMan%2C%5C%20S.">Man, S.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AVerweij%2C%5C%20N.">Verweij, N.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AHofman%2C%5C%20A.">Hofman, A.</a>; ... ; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AKors%2C%5C%20J.A.">Kors, J.A.</a>                                  </span>
+                                <span class="year">
+                                  (2014)                                </span>
+              </dd>
+                                          <dd class="title">
+                  <h3>
+                                                            Normal values of the electrocardiogram for ages 16-90 years                  </h3>
+              </dd>
+                                          <dd class="genre">
+                <a href="/search?type=dismax&amp;f%5B0%5D=mods_genre_authority_local_ms%3AArticle%5C%20%5C/%5C%20Letter%5C%20to%5C%20editor">Article / Letter to editor</a>              </dd>
+                                                          <dd class="topics">
+                <div class="tag"><a href="/search?type=dismax&amp;f%5B0%5D=mods_subject_topic_ms%3AElectrocardiogram">Electrocardiogram</a></div><div class="tag"><a href="/search?type=dismax&amp;f%5B0%5D=mods_subject_topic_ms%3AAdult">Adult</a></div><div class="tag"><a href="/search?type=dismax&amp;f%5B0%5D=mods_subject_topic_ms%3AElderly">Elderly</a></div><div class="tag"><a href="/search?type=dismax&amp;f%5B0%5D=mods_subject_topic_ms%3ANormal%5C%20limits">Normal limits</a></div><div class="tag"><a href="/search?type=dismax&amp;f%5B0%5D=mods_subject_topic_ms%3ANormal%5C%20values">Normal values</a></div>              </dd>
+                                                                                                        <dl title="All authors" class="mods_name_AuthorRole_namePart_custom_ms">
+                          <dt>All authors</dt>
+                          <dd><a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3ARijnbeek%2C%5C%20P.R.">Rijnbeek, P.R.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AHerpen%2C%5C%20G.%5C%20van">Herpen, G. van</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3ABots%2C%5C%20M.L.">Bots, M.L.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AMan%2C%5C%20S.">Man, S.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AVerweij%2C%5C%20N.">Verweij, N.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AHofman%2C%5C%20A.">Hofman, A.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AHillege%2C%5C%20H.">Hillege, H.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3ANumans%2C%5C%20M.E.">Numans, M.E.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3ASwenne%2C%5C%20C.A.">Swenne, C.A.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AWitteman%2C%5C%20J.C.M.">Witteman, J.C.M.</a>; <a href="/search?type=dismax&amp;f%5B0%5D=mods_name_AuthorRole_namePart_custom_ms%3AKors%2C%5C%20J.A.">Kors, J.A.</a></dd>
+                        </dl>
+                       
+               
+               
+               
+               
+               
+               
+                                                                                                                                                        <dl title="Date" class="mods_originInfo_encoding_w3cdtf_keyDate_yes_dateIssued_ms">
+                          <dt>Date</dt>
+                          <dd>2014-12-31</dd>
+                        </dl>
+                                                                                  <dl title="Journal" class="mods_relatedItem_host_titleInfo_title_ms">
+                  <dt>Journal</dt>
+                  <dd>
+                    <a href="/search?type=dismax&amp;f%5B0%5D=mods_relatedItem_host_titleInfo_title_ms%3AJournal%5C%20of%5C%20Electrocardiology">Journal of Electrocardiology</a>                  </dd>
+                </dl>
+                                           
+                                                              <dl title="Volume" class="mods_relatedItem_host_part_detail_volume_number_ms">
+                          <dt>Volume</dt>
+                          <dd>47</dd>
+                        </dl>
+                                                                                    <dl title="Issue" class="mods_relatedItem_host_part_detail_issue_number_ms">
+                          <dt>Issue</dt>
+                          <dd>6</dd>
+                        </dl>
+                                                                                              <dl title="Pages" class="mods_relatedItem_host_part_extent_start_ms mods_relatedItem_host_part_extent_end_ms">
+                  <dt>Pages</dt>
+                  <dd>
+                    914                                          -
+                                        921                  </dd>
+                </dl>
+                                                                                                                                              <dl title="DOI" class="mods_identifier_doi_ms">
+                  <dt>DOI</dt>
+                  <dd>
+                                          <a href="https://doi.org/doi:10.1016/j.jelectrocard.2014.07.022" absolute="1" target="_blank">doi:10.1016/j.jelectrocard.2014.07.022</a>                                      </dd>
+                </dl>
+                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+      </section>
+    
+</div>
+
+    </div>
+  </div>
+</section>  </div>
+                                        </div></div> <!-- /.section, /.dc-content -->
+
+
+
+
+        </div> <!-- /.dc-centercontent -->
+      </main> <!-- /#themain, /#main-wrapper -->
+
+    <footer id="thefooter"><div class="dc-centercontent">
+          <div class="region region-footer">
+    <section class="">
+  <div id="block-block-3" class="block block-block">
+
+            
+    <div class="content">
+      <p>©2020-2024 Leiden University<br />
+				A service provided by <a target="”_blank”" href="https://www.library.universiteitleiden.nl/">Leiden University Libraries</a></p>
+    </div>
+  </div>
+</section><section class="">
+  <div id="block-menu-menu-footer-menu" class="block block-menu">
+
+            
+    <div class="content">
+      <ul class="menu"><li class="first leaf"><a href="https://www.library.universiteitleiden.nl/about-us/contact" class="first leaf" target="_blank">Contact</a></li><li class="leaf"><a href="/about" class="leaf">About us</a></li><li class="leaf"><a href="/added-last-2-weeks" class="leaf">Recently Added</a></li><li class="leaf"><a href="https://digitalcollections.universiteitleiden.nl/" class="leaf" target="_blank">Digital Collections</a></li><li class="last leaf"><a href="https://studenttheses.universiteitleiden.nl/" class="last leaf" target="_blank">Student Repository</a></li></ul>    </div>
+  </div>
+</section>  </div>
+      </div></footer> <!-- /.section, /#footer -->
+
+  </div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>

@@ -1,0 +1,558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NHM9M4Z');</script>
+	<!-- End Google Tag Manager -->
+	<title>Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<script type="text/javascript" src="/js/lib/jquery.js"></script>
+	<script type="text/javascript" src="/js/lib/jquery.ui.js"></script>
+	<script type="text/javascript" src="/js/lib/core.site.js"></script>
+	<script type="text/javascript" src="/js/lib/ext/jquery.corner.js"></script>
+	<script type="text/javascript" src="/js/lib/ext/jquery.hover.intent.js"></script>
+	<script type="text/javascript" src="/js/lib/ext/jquery.simplemodal.1.4.2.js"></script>
+	<script type="text/javascript" src="/js/lib/contact.js.php"></script>
+	<link rel="stylesheet" href="/css/main.php" type="text/css" />
+	<link rel="stylesheet" href="/css/main.php?print" type="text/css" media="print"/>
+	<link rel="shortcut icon" href="/img/favicon.ico"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'/>
+
+	<link rel="stylesheet" href="/rutgers-lib/css/base.css" type="text/css" />
+	<link rel="alternate" type="application/atom+xml" title="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics- Atom 1.0" href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/syndicate/atom/" />
+	<link rel="alternate" type="application/rss+xml" title="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics- RSS 2.0" href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/syndicate/rss/" />
+	<link rel="stylesheet" href="https://rucore.libraries.rutgers.edu/partnerportal/stylizer/styles/generator.php?render=262" type="text/css" />
+	<meta name="citation" content="Spring 2015Accompanied by video file" />
+	<meta name="citation_author" content="Khan, Farrah" />
+	<meta name="citation_author" content="Tuason, Karissa" />
+	<meta name="citation_author" content="Sena, Anthony" />
+	<meta name="citation_author" content="Fagan, Julie M." />
+	<meta name="citation_date" content="2015" />
+	<meta name="citation_doi" content="doi:10.7282/T3QV3PCK" />
+	<meta name="citation_keywords" content="Environmental Issues; Plastics; Bioplastics; Polyhydroxyalkanoates; Prosthesis; Thermoplastics; Biodegradation; Petroleum chemicals" />
+	<meta name="citation_language" content="English" />
+	<meta name="citation_pdf_url" content="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/PDF/1/" />
+	<meta name="citation_title" content="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics" />
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHM9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	//width checking
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);
+
+	//apply corners
+	if (!$.browser.msie) {
+		$('#sPage').corner("5px bottom");
+		$('#bcHolder').corner("5px top");
+		$('#bcHolder').corner("5px top");
+		$('.qsLink').corner("3px");
+		$('.tBtn').corner("3px");
+		$('#bmark-summary').corner("3px");
+	}
+
+	$("#bigButtons li.buttonSearch").hoverIntent(showSearch,hideSearch);
+	$("#bigButtons li.buttonFac").hoverIntent(showFac,hideFac);
+	$("#bigButtons li.buttonColl").hoverIntent(showColl,hideColl);
+	$("#bigButtons li.buttonCollab").hoverIntent(showCollab,hideCollab);
+
+	$("#buttonDev").click(function(){$("#subContainer").slideToggle(200); $(".devLnk").toggleClass('over');});
+
+	//expose default(all) at load
+	$("#qportal-all").show();
+
+	//hide all when clicked
+	$(".qsNav-portal").click(function(){$(".qsNav-portal").removeClass("hlight");$(".qsNav-info").hide();});
+	//expose only what was clicked
+	$("#qlink-root").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-all").show();
+	});
+	$("#qlink-digitalcoll").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-digitalcoll").show();
+	});
+	$("#qlink-research").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-research").show();
+	});
+	$("#qlink-scholarship").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-scholarship").show();
+	});
+
+	//QUICK SEARCH STUFF
+	//expose default(all) at load
+	$(".qsLink.all").addClass("hlight");
+	$("#rtype-val").val('');
+
+	//hide all when clicked
+	$(".qsLink").click(function(){$(".qsLink").removeClass("hlight");$(this).addClass("hlight");});
+	//expose only what was clicked
+	$(".qsLink.all").click(function(){
+		$("#rtype-val").val('');
+		$("#qsNav-info-block").html("Search all content in all RUcore collections.");
+	});
+	$(".qsLink.text").click(function(){
+		$("#rtype-val").val('text');
+		$("#qsNav-info-block").html("Search books, manuscripts and web documents in all RUcore collections.");
+	});
+	$(".qsLink.image").click(function(){
+		$("#rtype-val").val('stillimage');
+		$("#qsNav-info-block").html("Search graphic art, maps, photographs, photographic negatives and 3-D objects in all RUcore collections.");
+	});
+	$(".qsLink.audio").click(function(){
+		$("#rtype-val").val('sound');
+		$("#qsNav-info-block").html("Search music and spoken word sound recordings in all RUcore collections.");
+	});
+	$(".qsLink.video").click(function(){
+		$("#rtype-val").val('movingimage');
+		$("#qsNav-info-block").html("Search films and video recordings in all RUcore collections.");
+	});
+
+	//bookmark item stuff
+	$('.bmark-content').width($('#bmark-summary').width());
+}); // close document.ready
+
+function showSearch(){
+	$("#btn-content-search").show();
+	$(".buttonSearch").addClass("over");
+}
+function hideSearch(){
+	$("#btn-content-search").hide();
+	$(".buttonSearch").removeClass("over");
+}
+
+function showFac(){
+	$("#btn-content-faculty").show();
+	$(".buttonFac").addClass("over");
+}
+function hideFac(){
+	$("#btn-content-faculty").hide();
+	$(".buttonFac").removeClass("over");
+}
+
+function showColl(){
+	$("#btn-content-collection").show();
+	$(".buttonColl").addClass("over");
+}
+function hideColl(){
+	$("#btn-content-collection").hide();
+	$(".buttonColl").removeClass("over");
+}
+
+function showCollab(){
+	$("#btn-content-collab").show();
+	$(".buttonCollab").addClass("over");
+}
+function hideCollab(){
+	$("#btn-content-collab").hide();
+	$(".buttonCollab").removeClass("over");
+}
+-->
+</script>
+<!--start page-->
+	<div id="mContainer">
+		<div id="bContainer" role="banner" class="sub">
+		
+			<div id="bHolder" >
+				<img id="logoRUL" src="/img/rutgers-library.svg" alt="Rutgers University Libraries"/>
+				<div id="rucoreLogo" class="hand" onclick="location.href='/';" alt="Home" >RUcore: Rutgers University Community Repository</div>
+
+				<ul class="btn-container" id="bigButtons">
+					<li class="buttonSearch" style="margin-left: -258px;">
+						<span class="btn-title buttonSearch">Search</span>
+						<div class="btn-content" id="btn-content-search" style="margin: 14px 0 0 -191px;">
+							<form id="qsNav-form" name="SearchObjects" action="/search/results/" method="get">
+								<input type="hidden" name="key" value="root"/>
+								<input type="hidden" id="rtype-val" name="rtype[]"/>
+								<div id="qsNav-type">
+									<ul id="qsNav-filter">
+										<li class="qsLink all">All</li>
+										<li class="qsLink text">Text</li>
+										<li class="qsLink image">Images</li>
+										<li class="qsLink audio">Audio</li>
+										<li class="qsLink video">Video</li>
+									</ul>
+								</div>
+								<div id="qsNav-field-block">
+									<input type="text" name="query" value="" id="qsNav-input" aria-label="Search"/>
+									<input id="qsNav-btn" value="Go" type="submit">
+								</div>
+								<div id="qsNav-links"><a id="qlink-search" href="/search/">Advanced Search</a> | <a id="qlink-help" href="/search/index.php?help">Help</a></div>
+								<div id="qsNav-info-block">Search all content in all RUcore collections.</div>
+							</form>
+						</div>
+					</li>
+					<li class="buttonFac" style="margin-left: -182px;">
+						<span class="btn-title buttonFac">Services</span>
+						<div class="btn-content" id="btn-content-faculty" style="margin: 14px 0 0 -135px;">
+							<div class="btn-entry">
+								<ul class="top-menu">
+									<a href="/account/" title="My Account"><li>My Account</li></a>
+									<a href="https://scholarship.libraries.rutgers.edu/esploro/login?institution=01RUT_INST&lang=en" title="Deposit Your Work (SOAR Deposit)"><li>Deposit Your Work (SOAR Deposit)</li></a>
+									<a href="https://etd.libraries.rutgers.edu/" title="Submit Your Rutgers Thesis or Dissertation (RUetd)"><li>Submit Your Rutgers Thesis or Dissertation (RUetd)</li></a>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="buttonColl" style="margin-left: -100px;">
+						<span class="btn-title buttonColl">Collections</span>
+						<div class="btn-content" id="btn-content-collection" style="margin: 14px 0 0 -115px;">
+							<div class="btn-entry">
+								<ul class="top-menu">
+									<a href="http://soar.libraries.rutgers.edu" title="SOAR (Scholarly Open Access at Rutgers)"><li>SOAR (Scholarly Open Access at Rutgers)</li></a>
+									<a href="/etd/" title="RUetd (Rutgers Electronic Theses and Dissertations)"><li>RUetd (Rutgers Electronic Theses and Dissertations)</li></a>
+									<a href="/portals/" title="RUcore Portals to Specific Collections"><li>Search Portals to Specific Collections</li></a>
+									<a href="/exhibits/" title="Digital Exhibitions"><li>Digital Exhibitions</li></a>
+									<a href="/njdh/" title="New Jersey Digital Highway"><li>New Jersey Digital Highway</li></a>
+									<a href="/njedl/" title="NJEDL"><li>New Jersey Environmental Digital Library</li></a>
+									<a href="/scholar/browse/" title="Browse Scholarly Materials by Publication Year"><li>Browse Scholarly Materials by Publication Year</li></a>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div id="tlLink">
+					<div id="bmark-summary" class="tBtn">
+						<span title="View selected items"><div id="bmark-caret"></div><div id="bmark-quantity"></div><a href="/rutgers-lib/items/" class='bmark-list-link'><div id="bmark-message"></div></a><div id="bmark-icon"></div></span>
+						<div class="bmark-content">
+							<ul>
+								<li><a href="/rutgers-lib/items/#cite" title="Cite Items" data-target='cite'>Cite</a></li>
+								<li><a href="/rutgers-lib/items/#export" title="Export Items" data-target='export'>Export</a></li>
+								<li><a href="/rutgers-lib/items/#share" title="Share Items"  data-target='share'>Share</a></li>
+								<li><a href="/rutgers-lib/items/#print" title="Print Items"  data-target='print'>Print</a></li>
+								<li><a href="/rutgers-lib/items/#email" title="Email Items"  data-target='email'>Email</a></li>
+							</ul>
+						</div>
+					</div>
+					<a class="tBtn left" title="Help" href="/help/">Help</a>
+					<a class="tBtn left contactLink" title="Contact us" href="">Contact Us</a>
+					<a class="tBtn left account" title="My Account" href="/account/">My Account</a>
+				</div>
+			</div>
+			
+			<div id="bcContainer">
+				<div id="bcHolder">
+					<div class="bCrumb home"><a href="/">Home</a><img src="/img/crumb.self.png" alt="crumb"/></div>
+					<div class="bCrumb now">Resource</div>
+				</div><!--end breadcrumbs-->
+			</div><!--end breadcrumb holder-->
+		</div>
+		<!--start page body-->
+		<div id="sPage" role="main" class="sub">
+<h1 class="visually-hidden">RUcore Search Results</h1>
+		<link rel="stylesheet" href="/rutgers-lib/css/statistics.css" type="text/css">
+		<script type="text/javascript" src="/rutgers-lib/js/bookmark.js.php"></script>
+		<script type="text/javascript">
+		<!--
+			$(document).ready(function(){
+				$('.tnail-wrapper.full').mouseover(function(){$(this).children('.tnail').hide();$(this).children('.thint').show();});
+				$('.tnail-wrapper.full').mouseout(function(){$('.thint').hide();$('.tnail').show();});
+				$('.resultFull__media-text.embed, .thumbLink.embed').bind('click', function(){
+					//is this iframe already loaded
+					var cname = $(this).attr('class');
+					cname = cname.split(' ');
+					$('.resultBlock').hide();//hide all blocks
+					$('.resultFull__media-metadata').removeClass('current');
+					if ($('iframe.embed.'+cname[2]).attr('src') == undefined || $('iframe.embed.'+cname[2]).attr('src') == ''){
+						$('.resultBlock').hide();//hide all blocks
+						$('iframe.embed').each(function(){$(this).attr('src', '');})//remove any iframes that were open
+						$('.linkblock.arrow').each(function(){$(this).removeClass('playback-icon');})//remove any play icons
+						$('.resultBlock.playback.'+cname[2]).show();//show block
+						//set height based on ratio
+						if ($('iframe.embed.'+cname[2]).attr('ratio')){
+							thisHeight = $('iframe.embed.'+cname[2]).width()/$('iframe.embed.'+cname[2]).attr('ratio');
+							$('iframe.embed.'+cname[2]).height(Math.round(thisHeight));
+						}
+						//load iframe data-src
+						$('iframe.embed.'+cname[2]).attr('src', $('iframe.embed.'+cname[2]).attr('data-src'));
+					}
+					else {
+						$('.resultBlock.playback.'+cname[2]).show();//show block
+					}
+					$('#icon-'+cname[2]).addClass('playback-icon');
+				});
+				$('.resultFull__media-metadata').bind('click', function(){
+					//confirm we can locate which section was selected
+					var cname = $(this).attr('class');
+					cname = cname.split(' ');
+					if (cname[1] != undefined && cname[1] != 'project') {
+						$('.resultBlock').hide();//hide
+						$('.resultBlock.'+cname[1]).show();//show
+						window.location.hash=cname[1];
+						$('.resultFull__media-metadata').removeClass('current');
+						$(this).addClass('current');
+						scrollToElement('html');
+					}
+				});
+				$('.hide, .resultFull__record-text.playback').bind('click', function(){
+					$('.resultFull__media-metadata').removeClass('current');
+					$(this).parent().parent().hide(200, 'easeOutBack');//hide
+					document.location.href='#close';//hide
+					//iframe cleanup?
+					var cname = $(this).parent().parent().attr('class');
+					cname = cname.split(' ');
+					if (cname[1] && cname[1] == 'playback'){
+						$('iframe.embed').each(function(){$(this).attr('src', '');})//remove any iframes that were open
+						$('.linkblock.arrow').each(function(){$(this).removeClass('playback-icon');})//remove any play icons
+					}//end if iframe cleanup
+					else {
+						$('iframe.embed').each(function(){
+							if ($(this).attr('src') != undefined && $(this).attr('src') != ''){
+								var dname = $(this).attr('class').split(' ');console.log($(this).attr('src'));
+								$('.resultBlock.'+dname[2]).show();
+							}
+						});//focus and open iframe
+					}
+				});
+				$('.iIcon').bind('click', function(){
+					var cname = $(this).attr('class');
+					cname = cname.split(' ');
+					if (cname[1] != undefined && $('#'+cname[1]).is(':visible')) {
+						$('#'+cname[1]).hide();
+					}
+					else {$('#'+cname[1]).show();}
+				});
+				//sniff for a hash, presist URL's as much as possible
+				if(window.location.hash) {
+					var hash = window.location.hash;
+					hash = hash.substring(1);
+					if (hash && $('.resultFull__media-metadata.'+hash).length != 0) {
+						//trigger event
+						$('.resultFull__media-metadata.'+hash).trigger('click');
+						if (hash == 'statistics' || hash == 'related' || hash == 'versions' || hash == 'citation-export'){$(function(){$('.resultFull__media-metadata.'+hash).trigger('click');});}
+						if (hash == 'package'){$(function(){$('#package').trigger('click');});}
+					}
+					if (hash && $('.resultFull__media-text.embed.'+hash.replace('playback/', '.')).length != 0) {
+						$('.resultFull__media-text.embed.'+hash.replace('playback/', '.')).trigger('click');
+					}
+				}
+				else {
+					$('#left-nav-wrapper-full').find('.thumbLink.embed').trigger('click');
+				}
+				//load tnail img after thumnail is loaded
+				$('.thumbImg').one('load', function() {$('.tnail').show(); $('.result__result-entry.full').css('min-height', $('#left-nav-wrapper-full').height());}).each(function() {if(this.complete) $(this).load();});
+				//see if an embed link for the thumbnail exists; if so init a click event on it.  starts audio/video
+			}); // close document.ready
+
+			function openWin(URL, w, h) {window.open(URL,'_blank','width='+w+',height='+h+',directories=no,titlebar=no,toolbar=no,location=no,status=no,scrollbars=no,resize=no,menubar=no');}
+		-->
+		</script>
+		<script type="text/javascript">
+		<!--
+			$(document).ready(function(){
+				//apply corners
+				if (!$.browser.msie) {
+					$('.all__nav-info').corner('5px');
+					$('.request-copy-btn').corner('3px');
+				}
+			}); // close document.ready
+
+		-->
+		</script>
+		<div id="share-container">
+			<div class="all__nav-info share">
+				<div class="all__nav-select">
+					<div id="bookmark" class="bmark full rutgers-lib:47892 off" title="Bookmark this item">Selected item</div>
+				 </div>
+				<div id="feeds">
+					<a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/syndicate/" target="_blank"><img title="RSS and Atom feeds" alt="RSS and Atom feeds" src="/img/search/i-rss.png" border="0"/></a>
+				</div>
+				<div id="sThis">
+					<span class="st_sharethis"  st_url="https://doi.org/doi:10.7282/T3QV3PCK" st_title="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics"  title="Sharing Options"></span>
+					<span class="st_facebook"  st_url="https://doi.org/doi:10.7282/T3QV3PCK" st_title="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics"  title="Facebook"></span>
+					<span class="st_twitter"  st_url="https://doi.org/doi:10.7282/T3QV3PCK" st_title="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics"  title="Twitter"></span>
+					<span class="st_pinterest"  st_url="https://doi.org/doi:10.7282/T3QV3PCK" st_title="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics"  title="Pinterest"></span>
+					<span class="st_email"  st_url="https://doi.org/doi:10.7282/T3QV3PCK" st_title="Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics"  title="Email"></span>
+					<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+					<script type="text/javascript">
+						stLight.options({
+							publisher:'6452ab64-9159-4232-a797-863858a5735c',
+							doNotHash:true,
+							doNotCopy:true,
+							hashAddressBar:false,
+							onhover:false
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+		<h1 id="contentTitle">Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics</h1>
+			<div id="left-nav-wrapper-full">
+				<a class="thumbLink embed MP4-1" href="#playback/MP4-1" title="Watch Video1"><div class="tnail-wrapper full"><img class="thumbImg" alt="Watch Video1" src="https://rucore.libraries.rutgers.edu/api/get/rutgers-lib:47892/THUMBJPEG/1" class='thumb-is-too-legit-to-quit'></img><div class="thint embed"></div><div class="tnail video"></div></div></a>
+				<div  class="resultBlock-files">
+				<div class="fileSecTitle">VIDEO</div>
+					<div id="icon-MP4-1" class="linkblock arrow"><span class="resultFull__media-text embed MP4-1"><a href="#playback/MP4-1" title="Watch video">Video1</a></span></div>
+				<div class="fileSecTitle">PDF<span class="iIcon note-pdf-1" alt="More Information" title="More Information"></span></div>
+<div id="note-pdf-1" class="resultFull__media-info"><div class="fileMsg">PDF format is widely accepted and good for printing.</div><div class="plugin"><a class="ext" href="http://get.adobe.com/reader/" target="_blank">Plug-in required</a></div></div>
+					<div class="linkblock arrow"><span class="resultFull__media-text"><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/PDF/1/play/" target="_blank" title="Download rutgers-lib-47892_PDF-1.pdf">PDF-1</a></span><span class="fsize">(1.99 MB)</span></div>
+				</div>
+				<div class="resultFull__media-metadata citation-export">
+					<span class="resultFull__record-text" title="View Citation &amp; Export">Citation &amp; Export</span>
+				</div>
+				<div class="resultFull__media-metadata related">
+					<span class="resultFull__record-text" title="View related resources">Related Resources (3)</span>
+				</div>
+				<div class="resultFull__media-metadata statistics">
+					<span class="resultFull__record-text" title="View Usage Statistics">View Usage Statistics</span>
+				</div>
+				<div class="resultFull__media-metadata">
+					<span class="resultFull__record-text"><a class="ext" href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/record/" title="View Staff View" target="_blank">Staff View</a></span></div>
+				</div>
+			<div class="result__result-entry full">
+				<div class="resultBlock playback MP4-1"><h2 class="prnHeading">Now Playing: Video1<div class="hide">Close</div></h2>
+					<div class="mediaPlayback"><iframe class="embed video MP4-1" width="100%" ratio="1.78" frameborder="0" data-src="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/MP4/1/standalone/logo:false"></iframe>
+<div class="resultFull__record-text playback"><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/MP4/1/play/" class="ext" target="_blank">Open in new window/tab</a></div>
+					</div>
+				</div>
+				<div class="resultBlock citation-export">
+					<h2 class="prnHeading">Citation &amp; Export<div class="hide">Hide</div></h2>
+					<div class="citationExportResults">
+						<h4>Simple citation</h4>
+						<div class="citation-entry">Khan, Farrah & Tuason, Karissa & Sena, Anthony & Fagan, Julie M.. <strong>Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics. </strong> Retrieved from <a target="_blank" href="https://doi.org/doi:10.7282/T3QV3PCK">https://doi.org/doi:10.7282/T3QV3PCK</a></div>
+						<h4 class="t-space">Export<span class="iIcon note-export" alt="More Information" title="More Information"></span></h4>
+						<div id="note-export" class="resultFull__media-info panel"><a href="http://www.libraries.rutgers.edu/researchers/citation_management_tools" target="_blank" class="ext">Click here for information about Citation Management Tools at Rutgers.</a></div>
+						<ul class="export-list">
+							<li><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/export/endnote/file/">EndNote Desktop Client</a></li>
+							<li><a class="ext" href="http://www.myendnoteweb.com/?func=directExport&partnerName=Rutgers&dataIdentifier=1&dataRequestUrl=https%3A%2F%2Frucore.libraries.rutgers.edu%2Frutgers-lib%2F47892%2Fexport%2Fendnote%2Fweb%2F" target="_blank">EndNoteWeb</a></li>
+							<li><a class="ext" href="http://www.refworks.com/express/expressimport.asp?vendor=Rutgers&encoding=65001&filter=RefWorks+Tagged+Format&url=https%3A%2F%2Frucore.libraries.rutgers.edu%2Frutgers-lib%2F47892%2Fexport%2Frefworks%2Fweb%2F" target="_blank">RefWorks</a></li>
+							<li><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/47892/export/ris/file/">RIS File Download</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="resultBlock related"><h2 class="prnHeading">Related Resources (3)<div class="hide">Hide</div></h2>
+				<div class="relatedResults"></div>
+</div>
+				<script type="text/javascript">
+				<!--
+				$(document).ready(function(){
+					$('.resultFull__media-metadata.related').bind('click', function(){
+						if ($('.relatedResults').html() == ''){
+							$('.relatedResults').html('<div class="rels-init">Accumulating related resources...</div>');
+							$.ajax({
+								url: '/rutgers-lib/ajax/ajax.rels.php',
+								data: 'id=rutgers-lib:47892',
+								success: (function(data) {$('.relatedResults').html(data);}),
+								dataType: 'html'
+							});
+						}
+					});
+				});
+				function relsChangePage(pg){
+						$('.rels-page-num').removeClass('selected');
+						$('#relsPage-'+pg).addClass('selected');
+					$('.rels-page').hide();
+					$('#rp-'+pg).show();
+				}
+				-->
+				</script>
+
+				<div class="resultBlock statistics"><h2 class="prnHeading">Statistics<div class="hide">Hide</div></h2>
+				<div class="statisticsResults"></div>
+</div>
+				<script type="text/javascript">
+				<!--
+				$(document).ready(function(){
+					$('.resultFull__media-metadata.statistics').bind('click', function(){
+						if ($('.statisticsResults').html() == ''){
+							$('.statisticsResults').html('<div class="stats-init">Retrieving statistics ...</div>');
+							$.ajax({
+								url: '/rutgers-lib/ajax/ajax.stats.php',
+								data: 'key=root&id=rutgers-lib:47892',
+								success: (function(data) {$('.statisticsResults').html(data)}),
+								dataType: 'html'
+							});
+						}
+					});
+				});
+				-->
+				</script>
+
+				<div class="resultBlock-metadata">
+				<h2 class="prnHeading">Description</h2>
+				<div class="result__result-field full"><span class="resultFull__result-title">Title</span><span class="resultFull__result-text">Bioplastics: An Alternative to Petrochemical Plastics in Prosthetics</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Name</span><span class="resultFull__result-text"><a href="/search/results/?key=root&q1=Khan%2C+Farrah&q1field=mods%3Aname">Khan, Farrah (Author)</a>; <a href="/search/results/?key=root&q1=Tuason%2C+Karissa&q1field=mods%3Aname">Tuason, Karissa (Author)</a>; <a href="/search/results/?key=root&q1=Sena%2C+Anthony&q1field=mods%3Aname">Sena, Anthony (Author)</a>; <a href="/search/results/?key=root&q1=Fagan%2C+Julie+M.&q1field=mods%3Aname">Fagan, Julie M. (Author)</a></span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Date Created</span><span class="resultFull__result-text">2015</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Subjects</span><span class="resultFull__result-text"><a href="/search/results/?key=root&q1=%22Environmental+Issues%22&q1field=mods%3Asubjects">Environmental Issues</a>, <a href="/search/results/?key=root&q1=%22Plastics%22&q1field=mods%3Asubjects">Plastics</a>, <a href="/search/results/?key=root&q1=%22Bioplastics%22&q1field=mods%3Asubjects">Bioplastics</a>, <a href="/search/results/?key=root&q1=%22Polyhydroxyalkanoates%22&q1field=mods%3Asubjects">Polyhydroxyalkanoates</a>, <a href="/search/results/?key=root&q1=%22Prosthesis%22&q1field=mods%3Asubjects">Prosthesis</a>, <a href="/search/results/?key=root&q1=%22Thermoplastics%22&q1field=mods%3Asubjects">Thermoplastics</a>, <a href="/search/results/?key=root&q1=%22Biodegradation%22&q1field=mods%3Asubjects">Biodegradation</a>, <a href="/search/results/?key=root&q1=%22Petroleum+chemicals%22&q1field=mods%3Asubjects">Petroleum chemicals</a></span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Extent</span><span class="resultFull__result-text">23 p.</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Description</span><span class="resultFull__result-text">A proposal to prosthetic companies and plastic manufacturers to utilize polyhydroxyalkanoate in their products</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Note</span><span class="resultFull__result-text">Spring 2015</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Note</span><span class="resultFull__result-text">Accompanied by video file</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Genre</span><span class="resultFull__result-text">research study</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Persistent URL</span><span class="resultFull__result-text"><a class="ext" href="https://doi.org/doi:10.7282/T3QV3PCK" target="_blank">https://doi.org/doi:10.7282/T3QV3PCK</a></span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Language</span><span class="resultFull__result-text">English</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Associated Event(s)</span><span class="resultFull__result-text"><div style="padding: 0.4em 0 0 0.6em;">Colloquium: Ethics in Science and Society(Course), 2015<br/>Paper and video completed in partial requirement for the course, Colloquium: Ethics in Science and Society.</div><blockquote style="padding-left: 1em; border-left: 2px solid #ccc;"><span class="result-text-label">Teacher</span>: Julie M. Fagan (SEBS - Animal Science, Rutgers University)<br />
+						</blockquote></span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Collection</span><span class="resultFull__result-text">GGREAT Student Projects</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Organization Name</span><span class="resultFull__result-text">Rutgers, The State University of New Jersey</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Rights</span><span class="resultFull__result-text">The author owns the copyright to this work</span></div>
+				</div>
+			</div>
+		</div><!--close sPage div-->
+<!--footer-->
+		<div role="contentinfo" id="fContainer">
+			<div id="fLnkContainer">
+				<div id="fHolder">
+					<div id="bLnkContainer">
+						<div class="footerLnkBlock left">
+							<div class="footerLnk heading"><a href="/about/">About Us</a></div>
+							<div class="footerLnk"><a href="/about/how.php">How does RUcore work?</a></div>
+							<div class="footerLnk"><a href="/policies/">Policies</a></div>
+							<div class="footerLnk"><a href="/services/">Services</a></div>
+							<div class="footerLnk"><a href="/about/participate.php">Participate in RUcore</a></div>
+							<div class="footerLnk"><a href="/collections/">Collections</a></div>
+						</div>
+						<div class="footerLnkBlock">
+							<div class="footerLnk heading"><a href="/cyber/">Infrastructure</a></div>
+							<div class="footerLnk"><a href="/cyber/trusted.php">Trusted Repository</a></div>
+							<div class="footerLnk"><a href="/cyber/preservation.php">Preservation</a></div>
+							<div class="footerLnk"><a href="/cyber/metadata.php">Understanding Metadata</a></div>
+							<div class="footerLnk"><a href="/faq/glossary.php">Technical Glossary</a></div>
+						</div>
+						<div class="footerLnkBlock right">
+							<div class="footerLnk heading"><a href="/collab/">Developers</a></div>
+							<div class="footerLnk"><a href="/collab/reference.php">Reference Materials</a></div>
+							<div class="footerLnk"><a href="/api/">Web Services/APIs</a></div>
+							<div class="footerLnk"><a href="/schemas">Schemas</a></div>
+							<div class="footerLnk"><a href="/harvesting">Harvesting</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+<div id="idenContainer">
+    <div id="idenHolder">
+        <div id="statusContainer">
+            <span class="link tan noline"><a href="/about/profile/"><img src="/img/icon-ekg.png" border="0" title="Statistical Profile" alt="Statistical icon"/>Statistical Profile</a></span>
+            <span class="middot_white"></span>
+            <span class="link tan noline"><a href="/about/version.php">Version 9.3.7</a></span>
+        </div>
+        <span class="link tan noline"><a href="/sitesearch/">Site Search</a></span>
+        <span class="middot_white"></span>
+        <span class="link tan noline"><a href="http://www.libraries.rutgers.edu/privacy_policy" target="_blank">Privacy Policy</a></span>
+    </div>
+</div>
+<div id="rulibContainer">
+    <div id="rulibHolder" class="rulibLinks">
+        <div class="rulibLnk"><a href="//www.libraries.rutgers.edu">libraries.rutgers.edu</a></div>
+        Copyright &copy;2026
+ <a href="http://www.rutgers.edu" target="_blank">Rutgers, The State University of New Jersey</a><a href="http://www.libraries.rutgers.edu/copyright" target="_blank">(Further Copyright Information)</a>
+    </div>
+</div>
+</div><!--close footer container div-->
+<!--print footer-->
+<div id="printFooter"><div style="float: left;">Version 9.3.7</div>Rutgers University Libraries - Copyright &copy;2026</div>
+	</div><!--close main container div-->
+</body>
+</html>

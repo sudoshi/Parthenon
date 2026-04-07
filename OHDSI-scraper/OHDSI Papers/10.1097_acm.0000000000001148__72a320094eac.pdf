@@ -1,0 +1,2761 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3EAuthor Manuscript%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            How Do Residents Spend Their Shift Time? A Time and Motion Study With a Particular Focus on the Use of Computers - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="1A81B51B9D45B6730BB51B000D0C0372.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="nihpa">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="manuscript">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4879085/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Academic medicine : journal of the Association of American Medical Colleges">
+<meta name="citation_title" content="How Do Residents Spend Their Shift Time? A Time and Motion Study With a Particular Focus on the Use of Computers">
+<meta name="citation_author" content="Lena Mamykina">
+<meta name="citation_author_institution" content="Assistant professor of biomedical informatics, Department of Biomedical Informatics, Columbia University, New York, New York">
+<meta name="citation_author" content="David K Vawdrey">
+<meta name="citation_author_institution" content="Assistant professor of clinical biomedical informatics, Department of Biomedical Informatics, Columbia University, and vice president, Value Institute, NewYork-Presbyterian Hospital, New York, New York">
+<meta name="citation_author" content="George Hripcsak">
+<meta name="citation_author_institution" content="Chair, Department of Biomedical Informatics, Vivian Beaumont Allen Professor of Biomedical Informatics, Columbia University, and director, Medical Informatics Services, NewYork-Presbyterian/Columbia University Medical Center, New York, New York">
+<meta name="citation_publication_date" content="2016 Jun">
+<meta name="citation_volume" content="91">
+<meta name="citation_issue" content="6">
+<meta name="citation_firstpage" content="827">
+<meta name="citation_doi" content="10.1097/ACM.0000000000001148">
+<meta name="citation_pmid" content="27028026">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4879085/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4879085/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4879085/pdf/nihms757177.pdf">
+<meta name="description" content="To understand how much time residents spend using computers as compared with other activities, and what residents use computers for. This time and motion study was conducted in June and July 2010 at NewYork-Presbyterian/Columbia University Medical ...">
+<meta name="og:title" content="How Do Residents Spend Their Shift Time? A Time and Motion Study With a Particular Focus on the Use of Computers">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="To understand how much time residents spend using computers as compared with other activities, and what residents use computers for. This time and motion study was conducted in June and July 2010 at NewYork-Presbyterian/Columbia University Medical ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4879085/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="4879085">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1097/ACM.0000000000001148"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/nihms757177.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC4879085%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/4879085/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/4879085/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC4879085/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-nihpa.png" alt="NIHPA Author Manuscripts logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to NIHPA Author Manuscripts" title="Link to NIHPA Author Manuscripts" shape="default" href="https://pmc.ncbi.nlm.nih.gov/about/public-access/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Acad Med</button></div>. Author manuscript; available in PMC: 2017 Jun 1.</div>
+<div>
+<em>Published in final edited form as: </em>Acad Med. 2016 Jun;91(6):827–832. doi: <a href="https://doi.org/10.1097/ACM.0000000000001148" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1097/ACM.0000000000001148</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Acad%20Med"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Acad%20Med"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Acad%20Med"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Acad%20Med"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>How Do Residents Spend Their Shift Time? A Time and Motion Study With a Particular Focus on the Use of Computers</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mamykina%20L"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Lena Mamykina</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Lena Mamykina</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Assistant professor of biomedical informatics, Department of Biomedical Informatics, Columbia University, New York, New York</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mamykina%20L"[Author]' class="usa-link"><span class="name western">Lena Mamykina</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Vawdrey%20DK"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">David K Vawdrey</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">David K Vawdrey</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>2</sup>Assistant professor of clinical biomedical informatics, Department of Biomedical Informatics, Columbia University, and vice president, Value Institute, NewYork-Presbyterian Hospital, New York, New York</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Vawdrey%20DK"[Author]' class="usa-link"><span class="name western">David K Vawdrey</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">George Hripcsak</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">George Hripcsak</span>, <span class="degrees">MD, MS</span>
+</h3>
+<div class="p">
+<sup>3</sup>Chair, Department of Biomedical Informatics, Vivian Beaumont Allen Professor of Biomedical Informatics, Columbia University, and director, Medical Informatics Services, NewYork-Presbyterian/Columbia University Medical Center, New York, New York</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link"><span class="name western">George Hripcsak</span></a>
+</div>
+</div>
+<sup>3</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="A1">
+<sup>1</sup>Assistant professor of biomedical informatics, Department of Biomedical Informatics, Columbia University, New York, New York</div>
+<div id="A2">
+<sup>2</sup>Assistant professor of clinical biomedical informatics, Department of Biomedical Informatics, Columbia University, and vice president, Value Institute, NewYork-Presbyterian Hospital, New York, New York</div>
+<div id="A3">
+<sup>3</sup>Chair, Department of Biomedical Informatics, Vivian Beaumont Allen Professor of Biomedical Informatics, Columbia University, and director, Medical Informatics Services, NewYork-Presbyterian/Columbia University Medical Center, New York, New York</div>
+<div class="author-notes p"><div class="fn" id="FN1">
+<sup>✉</sup><p class="display-inline">Correspondence should be addressed to Lena Mamykina, Department of Biomedical Informatics, 622 West 168th St., PH-20, New York, NY 10032; telephone: (212) 305-3923; <span>om2196@cumc.columbia.edu</span></p>
+</div></div>
+</div>
+<div id="clp_a" class="d-panel p" style="display: none"><div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div></div>
+</div>
+<div>PMCID: PMC4879085  NIHMSID: NIHMS757177  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/27028026/" class="usa-link">27028026</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article"><div>The publisher's version of this article is available at <a href="https://doi.org/10.1097/ACM.0000000000001148" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Acad Med</a>
+</div></div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<section id="S1"><h3 class="pmc_sec_title">Purpose</h3>
+<p id="P1">To understand how much time residents spend using computers as compared with other activities, and what residents use computers for.</p></section><section id="S2"><h3 class="pmc_sec_title">Method</h3>
+<p id="P2">This time and motion study was conducted in June and July 2010 at NewYork-Presbyterian/Columbia University Medical Center with seven residents (first-, second-, and third-year) on the general medicine service. An experienced observer shadowed residents during a single day shift, captured all their activities using an iPad application, and took field notes. The activities were captured using a validated taxonomy of clinical activities, expanded to describe computer-based activities with a greater level of detail.</p></section><section id="S3"><h3 class="pmc_sec_title">Results</h3>
+<p id="P3">Residents spent 364.5 minutes (50.6%) of their shift time using computers, compared with 67.8 minutes (9.4%) interacting with patients. In addition, they spent 292.3 minutes (40.6%) talking with others in person, 186.0 minutes (25.8%) handling paper notes, 79.7 minutes (11.1%) in rounds, 80.0 minutes (11.1%) walking or waiting, and 54.0 minutes (7.5%) talking on the phone. Residents spent 685 minutes (59.6%) multitasking. Computer-based documentation activities amounted to 189.9 minutes (52.1%) of all computer-based activities time, with 128.7 minutes (35.3%) spent writing notes and 27.3 minutes (7.5%) reading notes composed by others.</p></section><section id="S4"><h3 class="pmc_sec_title">Conclusions</h3>
+<p id="P4">The study showed residents spent considerably more time interacting with computers (over 50% of their shift time), than in direct contact with patients (less than 10% of their shift time). Some of this may be due to an increasing reliance on computing systems for access to patient data, further exacerbated by inefficiencies in the design of the electronic health record.</p></section></section><hr class="headless">
+<p id="P5">With the increasing focus on the dissemination of health information technology (HIT) and the electronic health record (EHR), questions regarding the impact of these technologies on clinical practice become of paramount importance. Studies conducted thus far outline both the benefits of HIT and EHRs, such as reduction in medication errors and improved patient outcomes,<sup><a href="#R1" class="usa-link" aria-describedby="R1">1</a>,<a href="#R2" class="usa-link" aria-describedby="R2">2</a></sup> and their unintended consequences, such as reduced efficiency, lower quality of care, increased possibility of medical errors,<sup><a href="#R3" class="usa-link" aria-describedby="R3">3</a>,<a href="#R4" class="usa-link" aria-describedby="R4">4</a></sup> and disruptions in clinicians' workflows, particularly if the design of the HIT or EHR does not match clinical work practices.<sup><a href="#R5" class="usa-link" aria-describedby="R5">5</a></sup></p>
+<p id="P6">Despite the growing importance of HIT and EHRs, the actual patterns of clinicians' use of these technologies remain poorly understood. Many studies do not discriminate between different types of tasks clinicians perform using electronic systems or only focus on particular types of HIT, such as computerized provider order entry<sup><a href="#R3" class="usa-link" aria-describedby="R3">3</a>,<a href="#R6" class="usa-link" aria-describedby="R6">6</a>,<a href="#R7" class="usa-link" aria-describedby="R7">7</a></sup> and electronic documentation.<sup><a href="#R8" class="usa-link" aria-describedby="R8">8</a>,<a href="#R9" class="usa-link" aria-describedby="R9">9</a></sup> However, the rich functionality of modern EHRs suggests that a wide variety of tasks related to patient care may now be performed using computing systems. Moreover, new generations of clinicians increasingly rely on computing and information technologies in different aspects of their lives. The question then becomes how these increasing expectations and experiences with technologies change the way clinicians practice medicine, engage with patients, and carry out their professional duties.</p>
+<p id="P7">Previous studies of resident workflows suggested physicians in training spend little time on direct patient care and the majority of their time on educational and administrative tasks.<sup><a href="#R10" class="usa-link" aria-describedby="R10">10</a>,<a href="#R11" class="usa-link" aria-describedby="R11">11</a></sup> These observations remained consistent for several decades,<sup><a href="#R12" class="usa-link" aria-describedby="R12">12</a>,<a href="#R13" class="usa-link" aria-describedby="R13">13</a></sup> leading to a standing concern about residents' time allocation. The introduction of HIT and EHRs inspired an ongoing debate in the medical community not only about their benefits and limitations,<sup><a href="#R14" class="usa-link" aria-describedby="R14">14</a>,<a href="#R15" class="usa-link" aria-describedby="R15">15</a></sup> but also about their impact on how residents spend their time, particularly with regard to the proportion of time residents spend on direct patient care.<sup><a href="#R10" class="usa-link" aria-describedby="R10">10</a></sup> The study reported here contributes to this discussion by investigating the use of computing and information technologies by residents in inpatient care settings. The goal of the study was to understand not only how much time residents spend using computers as compared with other activities, but also what residents use computers for, thus providing a snapshot of the role of HIT in modern patient care. To accomplish this, we conducted a time and motion study of medical residents at a large urban teaching hospital. To add to the previous research in this area, the study expanded on a validated taxonomy of clinical activities by introducing a set of fine-grained categories describing computer use that allowed us to examine these activities with an unprecedented level of detail.</p>
+<section id="S5"><h2 class="pmc_sec_title">Method</h2>
+<section id="S6"><h3 class="pmc_sec_title">Empirical setting</h3>
+<p id="P8">We conducted this time and motion study in June and July 2010 at NewYork-Presbyterian/Columbia University Medical Center (NYP/CUMC), a large urban teaching hospital in New York, New York. NYP/CUMC had over 2,300 beds and discharged over 110,000 patients in 2009, with an average length of stay of 6.4 days.<sup><a href="#R16" class="usa-link" aria-describedby="R16">16</a></sup></p>
+<p id="P9">We conducted this study with residents (first-, second-, and third-year) on the general medicine service. Patient care on the general medicine service was practiced in teams; the physicians on each team included an attending physician, a fellow, a second- or third-year resident, a first-year resident (intern), and a medical student.</p>
+<p id="P10">In 2004, NYP/CUMC deployed a commercial EHR system (Allscripts Sunrise, Allscripts, Chicago, Illinois). Before that, NYP/CUMC used WebCIS, which was developed in-house. The Allscripts Sunrise EHR system included a number of modules, separated into tabs (e.g., results, flowsheets, and orders). Most licensed independent practitioners entered their notes directly into the EHR via a keyboard and mouse as opposed to using dictation.</p>
+<p id="P11">In addition to the EHR, all residents had two-way pagers, which were used as the main means of communication on the general medicine service. No work-related mobile or handheld devices were actively used during the study.</p></section><section id="S7"><h3 class="pmc_sec_title">Subjects</h3>
+<p id="P12">At the time of the study, 16 residents rotated on the general medicine service (8 second- or third-year residents and 8 interns). Four (25.0%) of these residents participated in a pilot study, conducted immediately prior to the study described here. Another 7 (43.8%) participated in the final data collection study—3 (42.9%) of these participants were interns, who began their first rotations 3–4 weeks prior to the study, and 4 (57.1%) were second- and third-year residents. The 7 participants were randomly selected from the pool of rotating residents with the assistance of chief residents. All residents who were approached agreed to participate in the study, and there were no withdrawals. Each participant was observed for the entire duration of one of his or her shifts. The participants were introduced to the purpose of the study (time and motion study of their activities); there was no compensation for participating.</p></section><section id="S8"><h3 class="pmc_sec_title">Study design</h3>
+<p id="P13">This study used a time and motion design to allow us to capture data on clinical activities with a high level of detail.<sup><a href="#R10" class="usa-link" aria-describedby="R10">10</a></sup> During the course of the study, an experienced observer (L.M.) shadowed each participant for the 7–14 hours of their day shift (typically starting between 7:00 a.m. and 8:00 a.m. and ending between 3:00 p.m. and 9:00 p.m.). We did not include night shifts in the study. While shadowing participants, the observer captured all their activities using a custom-developed iPad application. Notably, the application allowed us to capture multiple activities simultaneously to account for multitasking (e.g., when participants were viewing a patient's record while talking on the phone). The observer had extensive expertise with qualitative research methods, including observations of clinicians' use of electronic documentation systems<sup><a href="#R17" class="usa-link" aria-describedby="R17">17</a></sup> and clinical work practices.<sup><a href="#R18" class="usa-link" aria-describedby="R18">18</a></sup></p>
+<p id="P14">During the data collection sessions (i.e., the residents' shifts), the observer kept detailed field notes describing the captured activities and the context of these activities. We conducted informal interviews with study participants as member checks to confirm our findings and interpretations of the findings. The interviews were conducted during the days following the observations as one-on-one conversations and lasted between 15 and 45 minutes.</p>
+<p id="P15">The study was approved by the institutional review board of Columbia University Medical Center; all participants consented to participate in the study prior to observation.</p></section><section id="S9"><h3 class="pmc_sec_title">Taxonomy of clinical activities</h3>
+<p id="P16">For this study, we used a modified taxonomy of clinical activities developed by Overhage et al<sup><a href="#R19" class="usa-link" aria-describedby="R19">19</a></sup> and refined by Pizziferri et al,<sup><a href="#R20" class="usa-link" aria-describedby="R20">20</a></sup> which we expanded to allow for a fine-grained examination of computer-based activities. Specifically, we added six new subitems to the looking up data category—viewing the patient list, viewing flowsheets, viewing results, viewing imaging data, viewing general patient data, and viewing a visualization of patient data. In addition, we introduced several new subitems describing different activities related to managing patient care (e.g., managing handoff to-do lists and clearing to-do flags). Because dictation was not used, we did not include the category of reviewing dictation in our taxonomy. The final breakdown of the computer-based activities category is given in <a href="#T2" class="usa-link">Table 2</a> [NOTE TO LWW: This is not the <a href="#T2" class="usa-link">Table 2</a> callout].</p>
+<section class="tw xbox font-sm" id="T2"><h4 class="obj_head">Table 2. Time Spent on Different Computer-Based Activities by Residents Per Shift, Time and Motion Study, General Medicine Service, NewYork-Presbyterian/Columbia University Medical Center, June and July 2010.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="rows">
+<thead><tr>
+<th valign="bottom" align="left" rowspan="1" colspan="1">Computer read/write category</th>
+<th valign="bottom" align="right" rowspan="1" colspan="1">Average total time spent, min</th>
+<th valign="bottom" align="right" rowspan="1" colspan="1">% of average total computer-based activities time</th>
+</tr></thead>
+<tbody>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Documentation</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Writing notes (or documenting)</td>
+<td valign="top" align="right" rowspan="1" colspan="1">128.7</td>
+<td valign="top" align="right" rowspan="1" colspan="1">35.3</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing the list of available notes</td>
+<td valign="top" align="right" rowspan="1" colspan="1">33.9</td>
+<td valign="top" align="right" rowspan="1" colspan="1">9.3</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Reading notes</td>
+<td valign="top" align="right" rowspan="1" colspan="1">27.3</td>
+<td valign="top" align="right" rowspan="1" colspan="1">7.5</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">189.9</td>
+<td valign="top" align="right" rowspan="1" colspan="1">52.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">
+<strong>Looking up patient data</strong><a href="#TFN6" class="usa-link"><sup>a</sup></a>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing the patient list</td>
+<td valign="top" align="right" rowspan="1" colspan="1">25.5</td>
+<td valign="top" align="right" rowspan="1" colspan="1">7.0</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing flowsheets</td>
+<td valign="top" align="right" rowspan="1" colspan="1">25.1</td>
+<td valign="top" align="right" rowspan="1" colspan="1">6.9</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing results</td>
+<td valign="top" align="right" rowspan="1" colspan="1">15.9</td>
+<td valign="top" align="right" rowspan="1" colspan="1">4.4</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing imaging data</td>
+<td valign="top" align="right" rowspan="1" colspan="1">3.3</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.9</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing general patient data</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.7</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.2</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing a visualization of patient data</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.3</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">70.8</td>
+<td valign="top" align="right" rowspan="1" colspan="1">19.4</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Managing orders</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Writing orders</td>
+<td valign="top" align="right" rowspan="1" colspan="1">24.2</td>
+<td valign="top" align="right" rowspan="1" colspan="1">6.6</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Viewing orders</td>
+<td valign="top" align="right" rowspan="1" colspan="1">23.9</td>
+<td valign="top" align="right" rowspan="1" colspan="1">6.6</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">48.1</td>
+<td valign="top" align="right" rowspan="1" colspan="1">13.2</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Other</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1">24.0</td>
+<td valign="top" align="right" rowspan="1" colspan="1">6.6</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Communicating</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Paging</td>
+<td valign="top" align="right" rowspan="1" colspan="1">9.2</td>
+<td valign="top" align="right" rowspan="1" colspan="1">2.5</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> E-mail</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.4</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">9.6</td>
+<td valign="top" align="right" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Logistics</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Logging in</td>
+<td valign="top" align="right" rowspan="1" colspan="1">6.5</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1.8</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Printing</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.3</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Managing schedules</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Managing operating room</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">7.0</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1.9</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Managing to-do lists</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Clearing to-do flags</td>
+<td valign="top" align="right" rowspan="1" colspan="1">5.4</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1.5</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Managing handoff to-do lists</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1.2</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.3</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">6.6</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1.8</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Reference look up</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> UpToDate</td>
+<td valign="top" align="right" rowspan="1" colspan="1">3.8</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.5</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Google</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1.6</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Wikipedia</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">5.5</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1.5</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Managing medications</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Looking up doses</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.3</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Writing prescriptions</td>
+<td valign="top" align="right" rowspan="1" colspan="1">2.7</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.2</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">3.0</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.8</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"><strong>Total computer-based activities time</strong></td>
+<td valign="top" align="right" rowspan="1" colspan="1">364.5</td>
+<td valign="top" align="right" rowspan="1" colspan="1"></td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p"><div class="fn" id="TFN6">
+<sup>a</sup><p class="display-inline">See the main text for more information on the six items in this category.</p>
+</div></div></section></section><section id="S10"><h3 class="pmc_sec_title">Data analysis</h3>
+<p id="P17">The analytic approach used in this study was inspired by the work of Zheng et al<sup><a href="#R5" class="usa-link" aria-describedby="R5">5</a></sup> that described multiple analytical tools to visualize and uncover hidden regularities embedded in the sequential execution of patient care tasks in a clinical workflow. The frequencies and durations of activities were calculated using Excel (version 14.5.8 for Mac, Microsoft, Redmond, Washington). The activity visualization tool used in <a href="#F1" class="usa-link">Figure 1</a> [NOTE TO LWW: This is not the <a href="#F1" class="usa-link">Figure 1</a> callout.] was custom-developed using the D3 visualization package.<sup><a href="#R21" class="usa-link" aria-describedby="R21">21</a></sup> The aggregated activity view (heat map visualization) used in <a href="#F2" class="usa-link">Figure 2</a> [NOTE TO LWW: This is not the <a href="#F2" class="usa-link">Figure 2</a> callout.] was generated using an Excel stacked bar chart feature. Finally, we reviewed all field notes taken during observations and grouped them in accordance with the taxonomy based on the category of activities they referred to. We also conducted a thematic analysis of notes and transcripts from interviews. These notes, transcripts, and themes were used to provide context and explanations for data captured with the time and motion study.</p>
+<figure class="fig xbox font-sm" id="F1"><h4 class="obj_head">Figure 1.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=4879085_nihms757177f1.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3c84/4879085/b1f0e597b8cf/nihms757177f1.jpg" loading="lazy" height="299" width="800" alt="Figure 1"></a></p>
+<div class="p text-right font-secondary"><a href="figure/F1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Aggregated times (in minutes) spent on different activity categories for each participant in the time and motion study, general medicine service, NewYork-Presbyterian/Columbia University Medical Center, June and July 2010. Each row represents a single participant; different shades of gray indicate different activity categories. Notably, in this figure the Computer read/write category does not include the subcategory Documenting (or writing notes), which is presented as a separate category here.</p></figcaption></figure><figure class="fig xbox font-sm" id="F2"><h4 class="obj_head">Figure 2.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=4879085_nihms757177f2.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3c84/4879085/b1f0e597b8cf/nihms757177f2.jpg" loading="lazy" height="299" width="800" alt="Figure 2"></a></p>
+<div class="p text-right font-secondary"><a href="figure/F2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Heat map visualization of the activities captured for each participant in the time and motion study, general medicine service, NewYork-Presbyterian/Columbia University Medical Center, June and July 2010. The x axis shows the timeline of observations, starting from between 7:00 a.m. and 8:00 a.m. and ending between 3:00 p.m. and 9:00 p.m. In the y axis, each row represents a single participant; the rows are grouped by the participants' postgraduate year (interns on top and second- and third-year residents on bottom). Each shaded block represents a captured activity. The length of the blocks on the horizontal timeline represents the duration of the activities. White spaces (see participants 2 and 6) indicate times when participants were called off the floor and reflect a pause in data capture activities. Notably, in this figure the Computer read/write category does not include the subcategory Documenting (or writing notes), which is presented as a separate category here.</p></figcaption></figure></section></section><section id="S11"><h2 class="pmc_sec_title">Results</h2>
+<section id="S12"><h3 class="pmc_sec_title">General patterns of activities</h3>
+<p id="P18">The total times spent by residents on different clinical activities per shift are presented in <a href="#T1" class="usa-link">Table 1</a>. On average, out of 720.2 minutes shift time, the residents spent 364.5 minutes (50.6%) using computers (Computer read/write); in comparison, they spent 67.8 minutes (9.4%) interacting with patients (Patient). After computer-based activities, the second most time-consuming activity residents did during their shift time was talking with others in person (Talking, 292.3 minutes [40.6%]); this included conversations about both patient care and general social topics. In addition to reading and writing notes on the computer, residents spent a quarter of their shift time (186.0 minutes [25.8%]) handling paper (Paper read/write), primarily printouts of the electronic signout note; residents in the study often printed this note in the morning and used it throughout the day to capture updates and handwritten to-do lists. The residents spent just over an hour of their shift time in rounds (Rounds, 79.7 minutes [11.1%]). Because the general medicine service covered several floors of the hospital building, the residents spent a considerable amount of their shift time walking or waiting (Moving/waiting, 80.0 minutes [11.1%]). The residents spent 54.0 minutes (7.5%) of their shift time talking on the phone (Phone); most of this time was spent in consultations and on managing patients' discharges. The residents spent 22.8 minutes (3.2%) of their shift time engaged in nonwork or personal activities (Personal). The remaining activity category, Looking for (used for activities related to searching for documents or people), was insignificant and took 2.4 minutes (0.3%) of residents' shift time. Notably, because the study allowed for the capturing of different activities that happened at the same time, the total time of captured activities (1,149.4 minutes) exceeded the total observation time per shift (720.2 minutes on average) by 429.2 minutes (59.6% of shift time), suggesting 59.6% of residents' time was spent multitasking. <a href="#F1" class="usa-link">Figure 1</a> shows aggregated times spent on different activity categories for each participant.</p>
+<section class="tw xbox font-sm" id="T1"><h4 class="obj_head">Table 1. Time Spent on Different Clinical Activities by Residents Per Shift, Time and Motion Study, General Medicine Service, NewYork-Presbyterian/Columbia University Medical Center, June and July 2010.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="rows">
+<thead><tr>
+<th valign="bottom" align="left" rowspan="1" colspan="1">Activity category</th>
+<th valign="bottom" align="right" rowspan="1" colspan="1">Average total time spent, min</th>
+<th valign="bottom" align="right" rowspan="1" colspan="1">% of average shift time<a href="#TFN1" class="usa-link"><sup>a</sup></a>
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Computer read/write</td>
+<td valign="top" align="right" rowspan="1" colspan="1">364.5</td>
+<td valign="top" align="right" rowspan="1" colspan="1">50.6</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> Documenting<a href="#TFN2" class="usa-link"><sup>b</sup></a>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">128.7</td>
+<td valign="top" align="right" rowspan="1" colspan="1">17.9</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Talking<a href="#TFN3" class="usa-link"><sup>c</sup></a>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">292.3</td>
+<td valign="top" align="right" rowspan="1" colspan="1">40.6</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Paper read/write</td>
+<td valign="top" align="right" rowspan="1" colspan="1">186.0</td>
+<td valign="top" align="right" rowspan="1" colspan="1">25.8</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Moving/waiting</td>
+<td valign="top" align="right" rowspan="1" colspan="1">80.0</td>
+<td valign="top" align="right" rowspan="1" colspan="1">11.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Rounds</td>
+<td valign="top" align="right" rowspan="1" colspan="1">79.7</td>
+<td valign="top" align="right" rowspan="1" colspan="1">11.1</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Patient</td>
+<td valign="top" align="right" rowspan="1" colspan="1">67.8</td>
+<td valign="top" align="right" rowspan="1" colspan="1">9.4</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Phone<a href="#TFN4" class="usa-link"><sup>d</sup></a>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">54.0</td>
+<td valign="top" align="right" rowspan="1" colspan="1">7.5</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Personal</td>
+<td valign="top" align="right" rowspan="1" colspan="1">22.8</td>
+<td valign="top" align="right" rowspan="1" colspan="1">3.2</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1">Looking for<a href="#TFN5" class="usa-link"><sup>e</sup></a>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">2.4</td>
+<td valign="top" align="right" rowspan="1" colspan="1">0.3</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="1" colspan="1"> <em>Total</em>
+</td>
+<td valign="top" align="right" rowspan="1" colspan="1">1,149.4</td>
+<td valign="top" align="right" rowspan="1" colspan="1">159.6</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="TFN1">
+<sup>a</sup><p class="display-inline">Due to frequent multitasking, the average total time of captured activities exceeds the average total time of observations (720.2 minutes) by 59.6%.</p>
+</div>
+<div class="fn" id="TFN2">
+<sup>b</sup><p class="display-inline">Data for Documenting (or writing notes) are included in the Computer read/write category above, but are provided here for reference.</p>
+</div>
+<div class="fn" id="TFN3">
+<sup>c</sup><p class="display-inline">Included conversations about both patient care and general social topics.</p>
+</div>
+<div class="fn" id="TFN4">
+<sup>d</sup><p class="display-inline">Most of this time was spent in consultations and on managing patients' discharges.</p>
+</div>
+<div class="fn" id="TFN5">
+<sup>e</sup><p class="display-inline">Used for activities related to searching for documents or people.</p>
+</div>
+</div></section></section><section id="S13"><h3 class="pmc_sec_title">Computer-based activities</h3>
+<p id="P19"><a href="#T2" class="usa-link">Table 2</a> presents a more detailed breakdown of the residents' computer-based activities per shift. On average, over half of this time, 189.9 minutes (52.1%) was spent on documentation (writing, viewing, and reading notes). The residents spent considerably more time writing their own notes (128.7 minutes [35.3%]) than readings notes composed by others (27.3 minutes [7.5%]). Notably, the residents spent another 33.9 minutes (9.3%) viewing the list of available notes. This most commonly occurred in situations where residents were expecting a note (from an attending physician or a consultant) and were checking to see whether the note had been made available.</p>
+<p id="P20">On average, the residents spent over an hour (70.8 minutes [19.4%]) looking up patient data. This time included viewing the patient list, a necessary step when switching between patients (25.5 minutes [7.0%]); viewing flowsheets, which covered patient vital signs, intakes and outputs, respiratory parameters, and nursing assessments (25.1 minutes [6.9%]); viewing results, which included laboratory test results and radiology, cardiology, and pathology reports in either the new or legacy EHR system (15.9 minutes [4.4%]); viewing imaging data (3.3 minutes [0.9%]); viewing general patient data (0.7 minutes [0.2%]); and viewing a visualization of patient data, a custom-developed feature, which allows patient data to be viewed on a timeline (0.3 minutes [0.1%]). The residents also spent 48.1 minutes (13.2%) managing orders, including viewing (23.9 minutes [6.6%]) and writing (24.2 minutes [6.6%]) orders, and just under 10 minutes using computer-mediated communication, such as paging (9.2 minutes [2.5%]) and e-mail (0.4 minutes [0.1%]). Other activities, related to logistics, managing to-do lists, reference look up, and managing medications, each took less than 10 minutes on average. Finally, the residents spent 24.0 minutes (6.6%) on computer-based activities not included in the taxonomy; these were classified in the other category.</p></section><section id="S14"><h3 class="pmc_sec_title">Visualizing activities</h3>
+<p id="P21"><a href="#F2" class="usa-link">Figure 2</a> shows a heat map visualization of the activities captured for each participant during the observed clinical shifts. As is evident from the visualization, patient interactions (black) happened mainly in three different ways: as part of the morning pre-rounding activities, after rounds (usually to carry out the established care plans), and sometimes before the end of the shift. The figure also shows that there was a visible difference in time spent with patients between interns and residents; the informal interviews confirmed the participants perceived interns as being primarily responsible for direct patient contact, unless it involved procedures that required a higher level of skill or expertise. Both computers and paper were most commonly used in the morning while preparing for rounds, after rounds to update care plans, and later in the day to document changes in patients' conditions and to check off completed to-do list items. In the morning hours, the use of computers was tightly coupled with the use of paper. During this time, the residents copied important bits of data from the EHR onto their paper notes to have this information available for rounds. In the afternoon, however, the use of computers was tightly interspersed with communication, as residents often engaged in discussions with others in person and on the phone while using computers.</p></section></section><section id="S15"><h2 class="pmc_sec_title">Discussion</h2>
+<p id="P22">In this study, we examined how residents (first-, second-, and third-year) on the general medicine service in a large urban teaching hospital spent their shift time, with a particular focus on their use of computers. Consistent with previous reports, our study showed residents spend considerably more time interacting with computers (over 50% of their shift time), than in direct contact with patients (less than 10% of their shift time). The difference we found, however, was even more pronounced than what had been reported in earlier studies (e.g., 40% computer use and 12% patient care<sup><a href="#R10" class="usa-link" aria-describedby="R10">10</a></sup>). The study may have identified two factors that might contribute to the high level of computer use: inefficiencies in the design of the EHR system and an increasing reliance on computing systems for access to patient data.</p>
+<section id="S16"><h3 class="pmc_sec_title">Inefficiencies in the design of the EHR system</h3>
+<p id="P23">First, the study indicated a significant portion of the computer-based activities was dedicated to documentation (128.7 minutes, 35.3%). This finding is higher than similar findings in previous reports (e.g., 21% of time spent on documentation<sup><a href="#R22" class="usa-link" aria-describedby="R22">22</a>,<a href="#R23" class="usa-link" aria-describedby="R23">23</a></sup>), including a previous report from our institution.<sup><a href="#R24" class="usa-link" aria-describedby="R24">24</a></sup> This observation raises a question about whether electronic documentation is inevitably time-consuming and burdensome or whether there are limitations in the design of the current electronic documentation systems that inflate documentation time. This study may have highlighted several aspects of electronic documentation that contributed to inefficient use of time spent documenting. For example, residents spent 33.9 minutes (9.3%) of their shift time viewing the list of available notes, rather than reading them. Our field notes suggested that these situations often occurred when residents were waiting for an attending physician to “drop” their progress note, which would make the discussed care plan official, before proceeding with the planned activities. Since the EHR did not alert the residents to newly posted notes, they had to periodically look for updates. In addition, the high degree of fragmentation in the organization of the patient record, reflected in the six distinct items within the looking up patient data category (which corresponded to six different areas of the EHR containing patient data), may have required residents to spend a considerable amount of time consolidating data from these different areas. Finally, the reliance on desktop computers and their positioning away from patients made it impossible for clinicians to integrate computer-based activities with more direct patient care activities.</p></section><section id="S17"><h3 class="pmc_sec_title">Increasing reliance on computing systems for access to patient data</h3>
+<p id="P24">Second, the study suggested half of residents' computer-based activities time was spent on activities not related to documentation, but rather to reviewing patient data (looking up patient data, 70.8 minutes [19.4%]), managing and coordinating patient care (managing orders, 48.1 minutes [13.2%], and communicating, 9.6 minutes [2.6%]), and other activities (other, 24 minutes, [6.6%]). These findings suggest that delivery of patient care necessitates frequent updates to orders and to-do lists to allow members of patient care teams to carry out their respective responsibilities in an efficient and effective manner. Moreover, during the informal interviews, residents who previously completed specialty rotations, such as nephrology, reported decreased reliance on patient contact and increased reliance on information stored within the EHRs (e.g., the available laboratory test results). With the growing amount and richness of patient data available only through computing systems, these trends are likely to amplify. Questions remain, however, as to the role of patients in helping clinicians to interpret these data and ways computing systems can help to facilitate engagement between patients and clinicians, rather than diminish it.</p>
+<p id="P25">These findings further reinforce the importance of continuous focus on improvements to the design and usability of EHRs.<sup><a href="#R25" class="usa-link" aria-describedby="R25">25</a>,<a href="#R26" class="usa-link" aria-describedby="R26">26</a></sup> They also suggest the need to re-envision the EHR as a dynamic tool for facilitating and coordinating complex multidisciplinary patient care and for enhancing communication within patient care teams and between clinicians and patients, rather than as a static record of patient care.</p></section><section id="S18"><h3 class="pmc_sec_title">Study limitations</h3>
+<p id="P26">This study has a number of limitations. First of all, it was conducted with a limited number of participants on one general medicine service within one large urban teaching hospital. As such, it has limited generalizability beyond these settings. However, the scale of the study is comparable with other recent time and motion studies of resident workflows. Moreover, the distribution of activities captured in the study is likely to be different in specialty units, such as critical care units, or for different types of residents, such as surgical residents. In addition, the study was conducted in June and July, at the time when new interns begin their residency and do not yet have established work patterns. Further research can show whether these patterns change over time as interns gain more experience. Complementing time and motion studies of clinical workflows with analysis of EHR usage logs (similar to Hripcsak et al<sup><a href="#R24" class="usa-link" aria-describedby="R24">24</a></sup>) could allow for an expansion of the number of participants and examinations of differences in workflows between physicians in different subspecialties and of different parameters (time of day, severity of patients' conditions, etc.) on clinical work.</p></section></section><section id="S19"><h2 class="pmc_sec_title">Conclusions</h2>
+<p id="P27">This time and motion study investigated how residents on the general internal medicine service of a large urban teaching hospital spent their shift time, with a particular focus on their use of computers. The study may have uncovered a number of inefficiencies in the design of the EHR system that led to inefficient use of time for documentation of and reviewing patient data, suggesting improvements in the design and usability of EHRs may help to streamline computer-based activities. Arguably, the practice of medicine may have reached the “point of no return” in regard to its reliance on computing systems. The question then becomes not whether and how much clinicians should use computers, but what they should use them for and to what degree the use of computing systems can support clinical care activities.</p></section><section id="S20" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p><em>Funding/Support:</em> This work was funded by the National Library of Medicine (National Institutes of Health) grants R01 LM006910 “Discovering and applying knowledge in clinical databases” and T15 LM007079 “Training in Biomedical Informatics at Columbia University.”</p></section><section id="fn-group1" class="fn-group"><h2 class="pmc_sec_title">Footnotes</h2>
+<div class="fn-group p font-secondary-light font-sm">
+<div class="fn p" id="FN2"><p><em>Other disclosures:</em> The authors have no competing interests for this publication. The authors have no competing interests for this publication.</p></div>
+<div class="fn p" id="FN3"><p><em>Ethical approval:</em> This study was approved by the institutional review board of Columbia University Medical Center.</p></div>
+</div></section><section id="_ci93_" lang="en" class="contrib-info"><h2 class="pmc_sec_title">Contributor Information</h2>
+<p>Lena Mamykina, Assistant professor of biomedical informatics, Department of Biomedical Informatics, Columbia University, New York, New York.</p>
+<p>David K. Vawdrey, Assistant professor of clinical biomedical informatics, Department of Biomedical Informatics, Columbia University, and vice president, Value Institute, NewYork-Presbyterian Hospital, New York, New York.</p>
+<p>George Hripcsak, Chair, Department of Biomedical Informatics, Vivian Beaumont Allen Professor of Biomedical Informatics, Columbia University, and director, Medical Informatics Services, NewYork-Presbyterian/Columbia University Medical Center, New York, New York.</p></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="R1">
+<span class="label">1.</span><cite>Amarasingham R, Plantinga L, Diener-West M, Gaskin DJ, Powe NR. Clinical information technologies and inpatient outcomes: A multiple hospital study. Arch Intern Med. 2009;169:108–114. doi: 10.1001/archinternmed.2008.520.</cite> [<a href="https://doi.org/10.1001/archinternmed.2008.520" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19171805/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Arch%20Intern%20Med&amp;title=Clinical%20information%20technologies%20and%20inpatient%20outcomes:%20A%20multiple%20hospital%20study&amp;author=R%20Amarasingham&amp;author=L%20Plantinga&amp;author=M%20Diener-West&amp;author=DJ%20Gaskin&amp;author=NR%20Powe&amp;volume=169&amp;publication_year=2009&amp;pages=108-114&amp;pmid=19171805&amp;doi=10.1001/archinternmed.2008.520&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R2">
+<span class="label">2.</span><cite>Wong DH, Gallegos Y, Weinger MB, Clack S, Slagle J, Anderson CT. Changes in intensive care unit nurse task activity after installation of a third-generation intensive care unit information system. Crit Care Med. 2003;31:2488–2494. doi: 10.1097/01.CCM.0000089637.53301.EF.</cite> [<a href="https://doi.org/10.1097/01.CCM.0000089637.53301.EF" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14530756/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Crit%20Care%20Med&amp;title=Changes%20in%20intensive%20care%20unit%20nurse%20task%20activity%20after%20installation%20of%20a%20third-generation%20intensive%20care%20unit%20information%20system&amp;author=DH%20Wong&amp;author=Y%20Gallegos&amp;author=MB%20Weinger&amp;author=S%20Clack&amp;author=J%20Slagle&amp;volume=31&amp;publication_year=2003&amp;pages=2488-2494&amp;pmid=14530756&amp;doi=10.1097/01.CCM.0000089637.53301.EF&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R3">
+<span class="label">3.</span><cite>Campbell EM, Sittig DF, Ash JS, Guappone KP, Dykstra RH. Types of unintended consequences related to computerized provider order entry. J Am Med Inform Assoc. 2006;13:547–556. doi: 10.1197/jamia.M2042.</cite> [<a href="https://doi.org/10.1197/jamia.M2042" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1561794/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16799128/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Types%20of%20unintended%20consequences%20related%20to%20computerized%20provider%20order%20entry&amp;author=EM%20Campbell&amp;author=DF%20Sittig&amp;author=JS%20Ash&amp;author=KP%20Guappone&amp;author=RH%20Dykstra&amp;volume=13&amp;publication_year=2006&amp;pages=547-556&amp;pmid=16799128&amp;doi=10.1197/jamia.M2042&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R4">
+<span class="label">4.</span><cite>Han YY, Carcillo JA, Venkataraman ST, et al.  Unexpected increased mortality after implementation of a commercially sold computerized physician order entry system. Pediatrics. 2005;116:1506–1512. doi: 10.1542/peds.2005-1287.</cite> [<a href="https://doi.org/10.1542/peds.2005-1287" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16322178/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=Unexpected%20increased%20mortality%20after%20implementation%20of%20a%20commercially%20sold%20computerized%20physician%20order%20entry%20system&amp;author=YY%20Han&amp;author=JA%20Carcillo&amp;author=ST%20Venkataraman&amp;volume=116&amp;publication_year=2005&amp;pages=1506-1512&amp;pmid=16322178&amp;doi=10.1542/peds.2005-1287&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R5">
+<span class="label">5.</span><cite>Zheng K, Haftel HM, Hirschl RB, O'Reilly M, Hanauer DA. Quantifying the impact of health IT implementations on clinical workflow: A new methodological perspective. J Am Med Inform Assoc. 2010;17:454–461. doi: 10.1136/jamia.2010.004440.</cite> [<a href="https://doi.org/10.1136/jamia.2010.004440" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2995654/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20595314/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Quantifying%20the%20impact%20of%20health%20IT%20implementations%20on%20clinical%20workflow:%20A%20new%20methodological%20perspective&amp;author=K%20Zheng&amp;author=HM%20Haftel&amp;author=RB%20Hirschl&amp;author=M%20O'Reilly&amp;author=DA%20Hanauer&amp;volume=17&amp;publication_year=2010&amp;pages=454-461&amp;pmid=20595314&amp;doi=10.1136/jamia.2010.004440&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R6">
+<span class="label">6.</span><cite>Ash JS, Berg M, Coiera E. Some unintended consequences of information technology in health care: The nature of patient care information system-related errors. J Am Med Inform Assoc. 2004;11:104–112. doi: 10.1197/jamia.M1471.</cite> [<a href="https://doi.org/10.1197/jamia.M1471" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC353015/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14633936/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Some%20unintended%20consequences%20of%20information%20technology%20in%20health%20care:%20The%20nature%20of%20patient%20care%20information%20system-related%20errors&amp;author=JS%20Ash&amp;author=M%20Berg&amp;author=E%20Coiera&amp;volume=11&amp;publication_year=2004&amp;pages=104-112&amp;pmid=14633936&amp;doi=10.1197/jamia.M1471&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R7">
+<span class="label">7.</span><cite>Ash JS, Sittig DF, Dykstra R, Campbell E, Guappone K. The unintended consequences of computerized provider order entry: Findings from a mixed methods exploration. Int J Med Inform. 2009;78:S69–S76. doi: 10.1016/j.ijmedinf.2008.07.015.</cite> [<a href="https://doi.org/10.1016/j.ijmedinf.2008.07.015" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2683676/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18786852/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Med%20Inform&amp;title=The%20unintended%20consequences%20of%20computerized%20provider%20order%20entry:%20Findings%20from%20a%20mixed%20methods%20exploration&amp;author=JS%20Ash&amp;author=DF%20Sittig&amp;author=R%20Dykstra&amp;author=E%20Campbell&amp;author=K%20Guappone&amp;volume=78&amp;publication_year=2009&amp;pages=S69-S76&amp;pmid=18786852&amp;doi=10.1016/j.ijmedinf.2008.07.015&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R8">
+<span class="label">8.</span><cite>Ammenwerth E, Spötl HP. The time needed for clinical documentation versus direct patient care. A work-sampling analysis of physicians' activities. Methods Inf Med. 2009;48:84–91.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/19151888/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Methods%20Inf%20Med&amp;title=The%20time%20needed%20for%20clinical%20documentation%20versus%20direct%20patient%20care.%20A%20work-sampling%20analysis%20of%20physicians'%20activities&amp;author=E%20Ammenwerth&amp;author=HP%20Sp%C3%B6tl&amp;volume=48&amp;publication_year=2009&amp;pages=84-91&amp;pmid=19151888&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R9">
+<span class="label">9.</span><cite>Poissant L, Pereira J, Tamblyn R, Kawasumi Y. The impact of electronic health records on time efficiency of physicians and nurses: A systematic review. J Am Med Inform Assoc. 2005;12:505–516. doi: 10.1197/jamia.M1700.</cite> [<a href="https://doi.org/10.1197/jamia.M1700" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1205599/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15905487/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=The%20impact%20of%20electronic%20health%20records%20on%20time%20efficiency%20of%20physicians%20and%20nurses:%20A%20systematic%20review&amp;author=L%20Poissant&amp;author=J%20Pereira&amp;author=R%20Tamblyn&amp;author=Y%20Kawasumi&amp;volume=12&amp;publication_year=2005&amp;pages=505-516&amp;pmid=15905487&amp;doi=10.1197/jamia.M1700&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R10">
+<span class="label">10.</span><cite>Block L, Habicht R, Wu AW, et al.  In the wake of the 2003 and 2011 duty hours regulations, how do internal medicine interns spend their time? J Gen Intern Med. 2013;28:1042–1047. doi: 10.1007/s11606-013-2376-6.</cite> [<a href="https://doi.org/10.1007/s11606-013-2376-6" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3710392/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23595927/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Gen%20Intern%20Med&amp;title=In%20the%20wake%20of%20the%202003%20and%202011%20duty%20hours%20regulations,%20how%20do%20internal%20medicine%20interns%20spend%20their%20time?&amp;author=L%20Block&amp;author=R%20Habicht&amp;author=AW%20Wu&amp;volume=28&amp;publication_year=2013&amp;pages=1042-1047&amp;pmid=23595927&amp;doi=10.1007/s11606-013-2376-6&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R11">
+<span class="label">11.</span><cite>Moore SS, Nettleman MD, Beyer S, et al.  How residents spend their nights on call. Acad Med. 2000;75:1021–1024. doi: 10.1097/00001888-200010000-00020.</cite> [<a href="https://doi.org/10.1097/00001888-200010000-00020" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11031151/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Acad%20Med&amp;title=How%20residents%20spend%20their%20nights%20on%20call&amp;author=SS%20Moore&amp;author=MD%20Nettleman&amp;author=S%20Beyer&amp;volume=75&amp;publication_year=2000&amp;pages=1021-1024&amp;pmid=11031151&amp;doi=10.1097/00001888-200010000-00020&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R12">
+<span class="label">12.</span><cite>Parenti C, Lurie N. Are things different in the light of day? A time study of internal medicine house staff days. Am J Med. 1993;94:654–658. doi: 10.1016/0002-9343(93)90220-j.</cite> [<a href="https://doi.org/10.1016/0002-9343(93)90220-j" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/8506894/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Med&amp;title=Are%20things%20different%20in%20the%20light%20of%20day?%20A%20time%20study%20of%20internal%20medicine%20house%20staff%20days&amp;author=C%20Parenti&amp;author=N%20Lurie&amp;volume=94&amp;publication_year=1993&amp;pages=654-658&amp;pmid=8506894&amp;doi=10.1016/0002-9343(93)90220-j&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R13">
+<span class="label">13.</span><cite>Finkler SA, Knickman JR, Hendrickson G, Lipkin M, Thompson WG. A comparison of work-sampling and time-and-motion techniques for studies in health services research. Health Serv Res. 1993;28:577–597.</cite> [<a href="/articles/PMC1069965/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/8270422/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Serv%20Res&amp;title=A%20comparison%20of%20work-sampling%20and%20time-and-motion%20techniques%20for%20studies%20in%20health%20services%20research&amp;author=SA%20Finkler&amp;author=JR%20Knickman&amp;author=G%20Hendrickson&amp;author=M%20Lipkin&amp;author=WG%20Thompson&amp;volume=28&amp;publication_year=1993&amp;pages=577-597&amp;pmid=8270422&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R14">
+<span class="label">14.</span><cite>Cimino JJ. Improving the electronic health record—Are clinicians getting what they wished for? JAMA. 2013;309:991–992. doi: 10.1001/jama.2013.890.</cite> [<a href="https://doi.org/10.1001/jama.2013.890" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3858675/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23483171/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Improving%20the%20electronic%20health%20record%E2%80%94Are%20clinicians%20getting%20what%20they%20wished%20for?&amp;author=JJ%20Cimino&amp;volume=309&amp;publication_year=2013&amp;pages=991-992&amp;pmid=23483171&amp;doi=10.1001/jama.2013.890&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R15">
+<span class="label">15.</span><cite>Wang C, Huang AT. Integrating technology into health care: What will it take? JAMA. 2012;307:569–570. doi: 10.1001/jama.2012.102.</cite> [<a href="https://doi.org/10.1001/jama.2012.102" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22318276/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Integrating%20technology%20into%20health%20care:%20What%20will%20it%20take?&amp;author=C%20Wang&amp;author=AT%20Huang&amp;volume=307&amp;publication_year=2012&amp;pages=569-570&amp;pmid=22318276&amp;doi=10.1001/jama.2012.102&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R16">
+<span class="label">16.</span><cite>NewYork-Presbyterian. 2010 annual report.  [Accessed November 12, 2015];  <a href="http://nyp.org/pdf/annual_report_2010.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://nyp.org/pdf/annual_report_2010.pdf</a>.</cite>
+</li>
+<li id="R17">
+<span class="label">17.</span><cite>Mamykina L, Vawdrey DK, Stetson PD, Zheng K, Hripcsak G. Clinical documentation: Composition or synthesis? J Am Med Inform Assoc. 2012;19:1025–1031. doi: 10.1136/amiajnl-2012-000901.</cite> [<a href="https://doi.org/10.1136/amiajnl-2012-000901" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3534467/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22813762/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Clinical%20documentation:%20Composition%20or%20synthesis?&amp;author=L%20Mamykina&amp;author=DK%20Vawdrey&amp;author=PD%20Stetson&amp;author=K%20Zheng&amp;author=G%20Hripcsak&amp;volume=19&amp;publication_year=2012&amp;pages=1025-1031&amp;pmid=22813762&amp;doi=10.1136/amiajnl-2012-000901&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R18">
+<span class="label">18.</span><cite>Mamykina L, Wolf CG. Evolution of contact point: A case study of a help desk and its users. In: Kellog W, ACM Digital Library; ACM Special Interest Group on Supporting Group Work; ACM Special Interest Group on Computer-Human Interaction, editor. Proceedings of the 2000 ACM Conference on Computer Supported Cooperative Work; New York, NY. pp. 41–48.</cite> [<a href="https://scholar.google.com/scholar_lookup?Mamykina%20L,%20Wolf%20CG.%20Evolution%20of%20contact%20point:%20A%20case%20study%20of%20a%20help%20desk%20and%20its%20users.%20In:%20Kellog%20W,%20ACM%20Digital%20Library;%20ACM%20Special%20Interest%20Group%20on%20Supporting%20Group%20Work;%20ACM%20Special%20Interest%20Group%20on%20Computer-Human%20Interaction,%20editor.%20Proceedings%20of%20the%202000%20ACM%20Conference%20on%20Computer%20Supported%20Cooperative%20Work;%20New%20York,%20NY.%20pp.%2041%E2%80%9348." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R19">
+<span class="label">19.</span><cite>Overhage JM, Perkins S, Tierney WM, McDonald CJ. Controlled trial of direct physician order entry. J Am Med Inform Assoc. 2001;8:361–371. doi: 10.1136/jamia.2001.0080361.</cite> [<a href="https://doi.org/10.1136/jamia.2001.0080361" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC130081/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11418543/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Controlled%20trial%20of%20direct%20physician%20order%20entry&amp;author=JM%20Overhage&amp;author=S%20Perkins&amp;author=WM%20Tierney&amp;author=CJ%20McDonald&amp;volume=8&amp;publication_year=2001&amp;pages=361-371&amp;pmid=11418543&amp;doi=10.1136/jamia.2001.0080361&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R20">
+<span class="label">20.</span><cite>Pizziferri L, Kittler AF, Volk LA, et al.  Primary care physician time utilization before and after implementation of an electronic health record: A time-motion study. J Biomed Inform. 2005;38:176–188. doi: 10.1016/j.jbi.2004.11.009.</cite> [<a href="https://doi.org/10.1016/j.jbi.2004.11.009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15896691/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Biomed%20Inform&amp;title=Primary%20care%20physician%20time%20utilization%20before%20and%20after%20implementation%20of%20an%20electronic%20health%20record:%20A%20time-motion%20study&amp;author=L%20Pizziferri&amp;author=AF%20Kittler&amp;author=LA%20Volk&amp;volume=38&amp;publication_year=2005&amp;pages=176-188&amp;pmid=15896691&amp;doi=10.1016/j.jbi.2004.11.009&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R21">
+<span class="label">21.</span><cite>Bostock M, Ogievetsky V, Heer J. D3: Data-Driven Documents. IEEE Trans Vis Comput Graph. 2011;17:2301–2309. doi: 10.1109/TVCG.2011.185.</cite> [<a href="https://doi.org/10.1109/TVCG.2011.185" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22034350/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=IEEE%20Trans%20Vis%20Comput%20Graph&amp;title=D3:%20Data-Driven%20Documents&amp;author=M%20Bostock&amp;author=V%20Ogievetsky&amp;author=J%20Heer&amp;volume=17&amp;publication_year=2011&amp;pages=2301-2309&amp;pmid=22034350&amp;doi=10.1109/TVCG.2011.185&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R22">
+<span class="label">22.</span><cite>Hollingsworth JC, Chisholm CD, Giles BK, Cordell WH, Nelson DR. How do physicians and nurses spend their time in the emergency department? Ann Emerg Med. 1998;31:87–91. doi: 10.1016/s0196-0644(98)70287-2.</cite> [<a href="https://doi.org/10.1016/s0196-0644(98)70287-2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/9437348/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Emerg%20Med&amp;title=How%20do%20physicians%20and%20nurses%20spend%20their%20time%20in%20the%20emergency%20department?&amp;author=JC%20Hollingsworth&amp;author=CD%20Chisholm&amp;author=BK%20Giles&amp;author=WH%20Cordell&amp;author=DR%20Nelson&amp;volume=31&amp;publication_year=1998&amp;pages=87-91&amp;pmid=9437348&amp;doi=10.1016/s0196-0644(98)70287-2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R23">
+<span class="label">23.</span><cite>Gabow PA, Karkhanis A, Knight A, Dixon P, Eisert S, Albert RK. Observations of residents' work activities for 24 consecutive hours: Implications for workflow redesign. Acad Med. 2006;81:766–775. doi: 10.1097/00001888-200608000-00016.</cite> [<a href="https://doi.org/10.1097/00001888-200608000-00016" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16868436/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Acad%20Med&amp;title=Observations%20of%20residents'%20work%20activities%20for%2024%20consecutive%20hours:%20Implications%20for%20workflow%20redesign&amp;author=PA%20Gabow&amp;author=A%20Karkhanis&amp;author=A%20Knight&amp;author=P%20Dixon&amp;author=S%20Eisert&amp;volume=81&amp;publication_year=2006&amp;pages=766-775&amp;pmid=16868436&amp;doi=10.1097/00001888-200608000-00016&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R24">
+<span class="label">24.</span><cite>Hripcsak G, Vawdrey DK, Fred MR, Bostwick SB. Use of electronic clinical documentation: Time spent and team interactions. J Am Med Inform Assoc. 2011;18:112–117. doi: 10.1136/jamia.2010.008441.</cite> [<a href="https://doi.org/10.1136/jamia.2010.008441" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3116265/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21292706/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Use%20of%20electronic%20clinical%20documentation:%20Time%20spent%20and%20team%20interactions&amp;author=G%20Hripcsak&amp;author=DK%20Vawdrey&amp;author=MR%20Fred&amp;author=SB%20Bostwick&amp;volume=18&amp;publication_year=2011&amp;pages=112-117&amp;pmid=21292706&amp;doi=10.1136/jamia.2010.008441&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R25">
+<span class="label">25.</span><cite>Thyvalikakath TP, Dziabiak MP, Johnson R, et al.  Advancing cognitive engineering methods to support user interface design for electronic health records. Int J Med Inform. 2014;83:292–302. doi: 10.1016/j.ijmedinf.2014.01.007.</cite> [<a href="https://doi.org/10.1016/j.ijmedinf.2014.01.007" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3977320/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24503391/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Med%20Inform&amp;title=Advancing%20cognitive%20engineering%20methods%20to%20support%20user%20interface%20design%20for%20electronic%20health%20records&amp;author=TP%20Thyvalikakath&amp;author=MP%20Dziabiak&amp;author=R%20Johnson&amp;volume=83&amp;publication_year=2014&amp;pages=292-302&amp;pmid=24503391&amp;doi=10.1016/j.ijmedinf.2014.01.007&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R26">
+<span class="label">26.</span><cite>Walji MF, Kalenderian E, Tran D, et al.  Detection and characterization of usability problems in structured data entry interfaces in dentistry. Int J Med Inform. 2013;82:128–138. doi: 10.1016/j.ijmedinf.2012.05.018.</cite> [<a href="https://doi.org/10.1016/j.ijmedinf.2012.05.018" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3492538/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22749840/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Med%20Inform&amp;title=Detection%20and%20characterization%20of%20usability%20problems%20in%20structured%20data%20entry%20interfaces%20in%20dentistry&amp;author=MF%20Walji&amp;author=E%20Kalenderian&amp;author=D%20Tran&amp;volume=82&amp;publication_year=2013&amp;pages=128-138&amp;pmid=22749840&amp;doi=10.1016/j.ijmedinf.2012.05.018&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section></section></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1097/ACM.0000000000001148"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/nihms757177.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (133.5 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/4879085/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/4879085/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC4879085%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC4879085/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC4879085/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC4879085/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/27028026/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC4879085/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/27028026/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC4879085/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/4879085/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="FOrIbRuLlt4xyxp1y7tnG3hWGJ9tajqLlKTzAHNwlCI8KSB5fFZRNy5q6pOrMs7j">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

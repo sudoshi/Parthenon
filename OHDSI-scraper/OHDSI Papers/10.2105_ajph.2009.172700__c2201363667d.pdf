@@ -1,0 +1,2884 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            e-Ana and e-Mia: A Content Analysis of Pro–Eating Disorder Web Sites - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB8529D45D7630BB85200058550A5.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="amjph">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2901299/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="American Journal of Public Health">
+<meta name="citation_title" content="e-Ana and e-Mia: A Content Analysis of Pro–Eating Disorder Web Sites">
+<meta name="citation_author" content="Dina L G Borzekowski">
+<meta name="citation_author_institution" content="At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.">
+<meta name="citation_author" content="Summer Schenk">
+<meta name="citation_author_institution" content="At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.">
+<meta name="citation_author" content="Jenny L Wilson">
+<meta name="citation_author_institution" content="At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.">
+<meta name="citation_author" content="Rebecka Peebles">
+<meta name="citation_author_institution" content="At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.">
+<meta name="citation_publication_date" content="2010 Aug">
+<meta name="citation_volume" content="100">
+<meta name="citation_issue" content="8">
+<meta name="citation_firstpage" content="1526">
+<meta name="citation_doi" content="10.2105/AJPH.2009.172700">
+<meta name="citation_pmid" content="20558807">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC2901299/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC2901299/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC2901299/pdf/1526.pdf">
+<meta name="description" content="Objectives. The Internet offers Web sites that describe, endorse, and support eating disorders. We examined the features of pro–eating disorder Web sites and the messages to which users may be exposed. Methods. We conducted a systematic content ...">
+<meta name="og:title" content="e-Ana and e-Mia: A Content Analysis of Pro–Eating Disorder Web Sites">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Objectives. The Internet offers Web sites that describe, endorse, and support eating disorders. We examined the features of pro–eating disorder Web sites and the messages to which users may be exposed. Methods. We conducted a systematic content ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC2901299/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="2901299">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.2105/AJPH.2009.172700"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/1526.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC2901299%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/2901299/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/2901299/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC2901299/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-amjph-new.gif" alt="American Journal of Public Health logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to American Journal of Public Health" title="Link to American Journal of Public Health" shape="default" href="http://www.ajph.org" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Am J Public Health</button></div>. 2010 Aug;100(8):1526–1534. doi: <a href="https://doi.org/10.2105/AJPH.2009.172700" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.2105/AJPH.2009.172700</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Am%20J%20Public%20Health"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Am%20J%20Public%20Health"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Am%20J%20Public%20Health"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Am%20J%20Public%20Health"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>e-Ana and e-Mia: A Content Analysis of Pro–Eating Disorder Web Sites</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Borzekowski%20DLG"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Dina L G Borzekowski</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Dina L G Borzekowski</span>, <span class="degrees">EdD</span>
+</h3>
+<div class="p">
+<sup>1</sup>At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Borzekowski%20DLG"[Author]' class="usa-link"><span class="name western">Dina L G Borzekowski</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>✉</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schenk%20S"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Summer Schenk</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Summer Schenk</span>, <span class="degrees">MPH</span>
+</h3>
+<div class="p">
+<sup>1</sup>At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schenk%20S"[Author]' class="usa-link"><span class="name western">Summer Schenk</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Wilson%20JL"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Jenny L Wilson</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Jenny L Wilson</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>1</sup>At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Wilson%20JL"[Author]' class="usa-link"><span class="name western">Jenny L Wilson</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Peebles%20R"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Rebecka Peebles</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Rebecka Peebles</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>1</sup>At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Peebles%20R"[Author]' class="usa-link"><span class="name western">Rebecka Peebles</span></a>
+</div>
+</div>
+<sup>1</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="aff1">
+<sup>1</sup>At the time this research was completed, Dina L. G. Borzekowski and Summer Schenk were with the Johns Hopkins Bloomberg School of Public Health, Baltimore, MD. Jenny L. Wilson and Rebecka Peebles were with the Stanford University School of Medicine, Mountain View, CA.</div>
+<div class="author-notes p">
+<div class="fn" id="corresp1">
+<sup>✉</sup><p class="display-inline">Correspondence should be sent to Dina L. G. Borzekowski, EdD, Department of Health, Behavior and Society, Johns Hopkins Bloomberg School of Public Health, 624 N Broadway, Baltimore, MD 21205 (e-mail: <span>dborzeko@jhsph.edu</span>). Reprints can be ordered at http://www.ajph.org by clicking on the “Reprints/Eprints” link.</p>
+</div>
+<div class="fn" id="fn1"><p>Peer Reviewed</p></div>
+<div class="fn" id="fn2">
+<p><strong>Contributors</strong></p>
+<p>D. L. G. Borzekowski, S. Schenk, and R. Peebles contributed to the statistical analysis. All of the authors were involved in study concept and design, acquisition of data, and the drafting of the article.</p>
+</div>
+<div class="fn" id="_fncrsp93pmc__">
+<sup>✉</sup><p class="display-inline">Corresponding author.</p>
+</div>
+</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Accepted 2009 Dec 10.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>© American Public Health Association 2010</div>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC2901299  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/20558807/" class="usa-link">20558807</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p><em>Objectives.</em> The Internet offers Web sites that describe, endorse, and support eating disorders. We examined the features of pro–eating disorder Web sites and the messages to which users may be exposed.</p>
+<p><em>Methods.</em> We conducted a systematic content analysis of 180 active Web sites, noting site logistics, site accessories, “thinspiration” material (images and prose intended to inspire weight loss), tips and tricks, recovery, themes, and perceived harm.</p>
+<p><em>Results.</em> Practically all (91%) of the Web sites were open to the public, and most (79%) had interactive features. A large majority (84%) offered pro-anorexia content, and 64% provided pro-bulimia content. Few sites focused on eating disorders as a lifestyle choice. Thinspiration material appeared on 85% of the sites, and 83% provided overt suggestions on how to engage in eating-disordered behaviors. Thirty-eight percent of the sites included recovery-oriented information or links. Common themes were success, control, perfection, and solidarity.</p>
+<p><em>Conclusions.</em> Pro–eating disorder Web sites present graphic material to encourage, support, and motivate site users to continue their efforts with anorexia and bulimia. Continued monitoring will offer a valuable foundation to build a better understanding of the effects of these sites on their users.</p></section><hr class="headless">
+<p>While health professionals investigate causes of and prevention strategies and treatments for eating disorders and their poor health consequences,<sup><a href="#bib1" class="usa-link" aria-describedby="bib1">1</a></sup> pro–eating disorder Web sites and communities have emerged wherein users can find material to support the progression and maintenance of eating disorders.<sup><a href="#bib2" class="usa-link" aria-describedby="bib2">2</a>–<a href="#bib4" class="usa-link" aria-describedby="bib4">4</a></sup> Similar to Web sites that promote other equally unhealthy behaviors such as self-injury and suicide,<sup><a href="#bib5" class="usa-link" aria-describedby="bib5">5</a></sup> pro–eating disorder Web sites (also identified as pro-Ana and pro-Mia Web sites) are of great concern. A pro–eating disorder Web site is a collection of Internet pages, all accessed through a domain name or IP address, that deliver content about eating disorder such as anorexia and bulimia. This content can be conveyed through text, images, audio, or video, and it encourages knowledge, attitudes, and behaviors to achieve terribly low body weights.</p>
+<p>A distinction must be made; unlike Web sites that encourage healthy weights, moderate exercise, and recognized nutrition and diets, many pro–eating disorder sites recommend that their users try intense practices, such as vomiting and fasting, with an emphasis on achieving extremely thin or skeletal appearances. Adolescents exposed to pro–eating disorder Web sites have been shown to have higher levels of body dissatisfaction than adolescents not exposed to these sites, as well as decreased quality of life and longer durations of eating disorders.<sup><a href="#bib4" class="usa-link" aria-describedby="bib4">4</a>,<a href="#bib6" class="usa-link" aria-describedby="bib6">6</a>,<a href="#bib7" class="usa-link" aria-describedby="bib7">7</a></sup> In addition, increased use of pro–eating disorder sites has been positively correlated with disordered eating behaviors and negatively correlated with disease-specific quality of life among adults (R. Peebles et al., unpublished data, 2010).</p>
+<p>Behavior change and communication theories justify concern about pro–eating disorder Web sites. Bandura's social cognitive theory proposes that modeled behaviors are more likely to be imitated when message receivers can relate to the model and perceive rewards with the communicated behavior.<sup><a href="#bib8" class="usa-link" aria-describedby="bib8">8</a></sup> Vulnerable users may adopt conveyed behaviors not only when they admire online peers but also if they are repeatedly exposed to images of successful models, celebrities, and even real people with life-threatening and dangerously low body weights.</p>
+<p>Cultivation theory, a theory developed by communication scholar George Gerbner,<sup><a href="#bib9" class="usa-link" aria-describedby="bib9">9</a>,<a href="#bib10" class="usa-link" aria-describedby="bib10">10</a></sup> posits that when messages are pervasive and repeated, individuals with higher exposure levels are more likely to accept the conveyed messages as normative. Therefore, frequent visitors to pro–eating disorder Web sites may perceive extreme dieting and exercise as normal rather than symptomatic of a dangerous disease. Given the potential deleterious influence of pro–eating disorder sites, researchers must monitor these online sources to better understand the available messages and resources. The content analysis methodology allows such a systematic review.<sup><a href="#bib11" class="usa-link" aria-describedby="bib11">11</a>,<a href="#bib12" class="usa-link" aria-describedby="bib12">12</a></sup></p>
+<p>We conducted an in-depth examination of pro–eating disorder websites and the messages to which users may be exposed. To date, only a handful of studies have explored pro–eating disorder sites,<sup><a href="#bib13" class="usa-link" aria-describedby="bib13">13</a>–<a href="#bib21" class="usa-link" aria-describedby="bib21">21</a></sup> and these content analyses have considered fewer than a dozen sites.<sup><a href="#bib3" class="usa-link" aria-describedby="bib3">3</a>,<a href="#bib22" class="usa-link" aria-describedby="bib22">22</a></sup> These studies seem inadequate in that each reviewed only 12 Web sites and none of the assessments involved more than 1 coder. By contrast, we used extensive first- and second-generation sampling, a well-developed and detailed coding manual (created by the research team), and interrater reliability techniques. As a result, we are able to present a more valid depiction of what visitors to pro–eating disorder Web sites may encounter in this digital space.</p>
+<section id="sec1"><h2 class="pmc_sec_title">METHODS</h2>
+<p>To obtain a valid and generalizable sample for this content analysis, we initially established a population of sites using the Yahoo and Google search engines (<a href="#fig1" class="usa-link">Figure 1</a>). We included the following terms in our search: Proana, Pro-Ana, Proanorexia, Pro-Anorexia, Promia, Pro-Mia, Probulimia, Pro-Bulimia, ProED, Pro-ED, Pro eating disorder, Pro-Eating disorder, thin and support, thin and Pro Acceptance, and thin and Pro-Reality. This search (as well as all data collection) occurred in spring 2007.</p>
+<figure class="fig xbox font-sm" id="fig1"><h3 class="obj_head">FIGURE 1.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=2901299_1526fig1.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1894/2901299/05120e9469cd/1526fig1.jpg" loading="lazy" height="374" width="510" alt="FIGURE 1"></a></p>
+<div class="p text-right font-secondary"><a href="figure/fig1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p><strong>Establishment of the study population of pro–eating disorder Web sites: 2007.</strong></p>
+<p><sup>a</sup>Links from the first 10 pages of results that fit criteria.</p>
+<p><sup>b</sup>Links found on the first generation Web pages.</p></figcaption></figure><p>The first 10 pages of search results for each term from each search engine were used to generate a list of Web sites (“first” generation). Next, viable links offered on these sites were included in the sample (“second” generation). This provided a total of 302 unique URL addresses. All Web sites, forums, journals, and blogs characterized by a primary focus on or promotion of eating disorders were included. A primary focus was determined by the core concepts or topics dominating a site's displayed information, discussion, and features. Web sites that included pro-Ana or pro-Mia as one of several topics (i.e., drug use, self-injury, extreme behaviors) were not considered. Furthermore, news articles, medical reference pages, medical journals, and professional or medical organization sites focusing on eating disorders were excluded. A total of 180 active Web sites met the criteria for our analysis.</p>
+<p>Before coding the sample, a team of 6 public health and adolescent health researchers reviewed the existing literature and proposed variables for our analysis. Variables were pilot tested on a random sample of 25 Web sites. This testing was conducted in order to streamline the number of variables considered; the team removed approximately a dozen variables from consideration because they were not providing new information. Also, pilot testing resulted in a codebook with detailed guidelines and examples to ensure high reliability.</p>
+<p>Two members performed the majority of the coding; however, the entire team was called on to unanimously resolve discrepancies and ambiguous situations. As a means of standardizing techniques across Web sites with varying amounts of content, no more than 10 minutes were spent searching for each variable on any site. For each site, researchers coded 64 variables that fell into 6 general categories, as described in <a href="#tbl1" class="usa-link">Table 1</a>. Most variables were objective and easy to code; however, the constructs for themes and harm were more subjective.</p>
+<section class="tw xbox font-sm" id="tbl1"><h3 class="obj_head">TABLE 1.</h3>
+<div class="caption p"><p><strong>Descriptions of and Details on Coded Variables</strong></p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<td align="center" rowspan="1" colspan="1">Variable</td>
+<td align="center" rowspan="1" colspan="1">Description</td>
+<td align="center" rowspan="1" colspan="1">Details</td>
+</tr></thead>
+<tbody>
+<tr>
+<td rowspan="1" colspan="1">Site logistics</td>
+<td rowspan="1" colspan="1">General items that provide logistical information about a site</td>
+<td rowspan="1" colspan="1">Site type and purpose, warnings and disclaimers, tones and statements against “wannabes,” and information about the site maintainer</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Site accessories</td>
+<td rowspan="1" colspan="1">Items and tools commonly found on the sites</td>
+<td rowspan="1" colspan="1">ED information, letters or creeds to Ana, creative expression sections, and calculators or logs to track caloric intake and body composition</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Thinspiration, tips, and techniques</td>
+<td rowspan="1" colspan="1">Items that can be used by viewers as inspiration or suggestions to motivate or engage in behaviors associated with EDs</td>
+<td rowspan="1" colspan="1">Quotes, advice, and images; also, information on how to diet, hide behaviors, fast, purge, exercise, select food and diet pills, and modify personal appearances</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Recovery</td>
+<td rowspan="1" colspan="1">Items providing information on or support with obtaining help to discontinue unhealthy behaviors associated with EDs</td>
+<td rowspan="1" colspan="1">Information, tools, or links to recovery treatment sites</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Perceived themes</td>
+<td rowspan="1" colspan="1">Ideas that commonly emerge in discussions of EDs (derived from Norris et al.<sup>3</sup>)</td>
+<td rowspan="1" colspan="1">Control, success, perfection, isolation, sacrifice, transformation, coping, deceit, solidarity, revolution</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Perceived harm</td>
+<td rowspan="1" colspan="1">Subjective assessment of how potentially harmful the site might be; independent and trained researchers assigned a general score</td>
+<td rowspan="1" colspan="1">Range from 1 to 5 (1 = not too harmful, may have recovery information; 2 = slightly harmful; 3 = average, typical level of harm; 4 = dangerous; 5 = very dangerous, could do immediate harm)</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/tbl1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p"><div class="fn" id="fn3"><p><em>Note</em>. ED = eating disorder.</p></div></div></section><p>We assessed interrater reliability by double coding the full set of variables from 20 randomly selected Web sites. Although other reliability statistics can be employed, we used percentage agreement because it is unambiguous; coders either agreed or disagreed. The calculated average percentage agreement was 81%, as determined by examining agreement across different Web site variables, some of which had moderate agreement and others of which had near perfect agreement (range: 62%–96%). Discrepancies were examined by a third reviewer, and results were the majority opinion.</p>
+<p>The majority of the Web sites examined were available in the public domain. No deception was involved in entering password-protected or invitation-only portions. Exclusive entry to certain pages, requiring approval from a maintainer, occurred with only 9% (n = 27) of the sites; in these cases we requested a password, but if one was not given we collected data from only the publicly available portions.</p>
+<p>Our analysis was straightforward and primarily descriptive. Univariate and bivariate relationships were noted; significance was set at the <em>P</em> &lt; .05 level. We used SPSS for Windows 17 (SPSS Inc, Chicago, IL) in conducting the analyses.</p></section><section id="sec2"><h2 class="pmc_sec_title">RESULTS</h2>
+<p>In the sections to follow, we present information on the various features of the sites reviewed. Also, we describe perceived harm findings.</p>
+<section id="sec3"><h3 class="pmc_sec_title">Site Logistics</h3>
+<p>Most Web sites (79%) were interactive and not static or read only; that is, they allowed a community wherein users could post comments or artwork, communicate via an online forum or message board, or use personalized diet or exercise-related tools. Practically all of the sites (87%) held “free” Web addresses and were hosted through another site; 13% had purchased URLs. It was unclear as to when 24% of the sites had been updated; 29% had been updated in the previous month, and 46% had not been updated in the 30 days before the coding. Approximately half (49%) of the sites were mostly graphic and written at less than an 8th-grade reading level.</p>
+<p>Of the sites visited, 84% had pro-Ana content and 63% had pro-Mia content; only 7% included neither type of content in an overt manner. In addition, 31% (n = 56) had a substantial amount of pro-recovery content. Two thirds (67%; n = 120) expressed a combination of these philosophies. In fact, seldom did sites endorse only one focus: only 17% (n = 31) were exclusively pro-Ana, 2% (n = 3) exclusively pro-Mia, and 4% (n = 7) exclusively pro-recovery. Nearly half (n = 86) went on to expressly state a claim of pro–eating disorder or not pro–eating disorder status; of those making a claim, 29% (n = 25) indicated that they were not pro–eating disorder. Of the 60 sites that discussed eating disorders as a lifestyle choice or disease, 58% referred to it as a disease and 42% referred to it as a lifestyle choice.</p>
+<p>Approximately 40% (n = 73) of the sites warned users that some of the posted material might be dangerous or distressing; 27% (n = 48) even offered a formal disclaimer that exposure to the site's material might trigger dangerous behaviors and that the site was not responsible for any such ensuing behaviors. It is unclear whether these warnings or claims were posted because of altruistic or litigious reasons. Forty-two percent (n = 26) of the sites that warned users about distressing material also had disclaimers about not being responsible for the site's effects, as compared with only 9% (n = 10) of those without warnings (χ<sup>2</sup> = 24.5; <em>P</em> &lt; .001).</p>
+<p>Approximately one third (32%; n = 57) of the sites had an overt tone or statement directed to “wannabes.” These were elitist and exclusive statements, varying from polite to harsh, made by those with eating disorders to site visitors who might be trying to develop an eating disorder. An example of a polite statement was “If you are looking to become anorexic or become bulimic by being here then please leave”; an example of a harsh one was</p>
+<blockquote class="text-italic"><p>IF YOU WANT TO LOSE WEIGHT, GO ON A DIET FATTY. ONE IS EITHER ANA/MIA, OR NOT. IT IS A GIFT AND YOU CANNOT DECIDE TO HAVE AN EATING DISORDER. SO IF YOU ARE LOOKING FOR A WAY TO LOSE WEIGHT, S-S-S-SORRY JUNIOR!! MOVE ON, TRY JENNY CRAIG.</p></blockquote>
+<p>Approximately three quarters (72%; n = 129) of the sites appeared to be maintained by an individual and the remaining 27% (n = 48) by a group. Half (n = 91) contained a biography of the maintainer, and nearly all (98%; n = 101) revealed the site administrator's gender as female. Age of the site maintainer was not available for 62% of the sites; of those with age information, 16% stated that they were maintained by adolescents, 66% by young adults (18–24 years), and 18% by older adults (25 years or older). Contact listings for site maintainers were provided on 79% (n = 142) of the sites; 55% (n = 98) provided an e-mail contact, and 31% (n = 56) used an automatic but anonymous system. Only 13% (n = 23) of maintainers offered an overt statement indicating that their own eating disorder was a problem.</p></section><section id="sec4"><h3 class="pmc_sec_title">Site Accessories</h3>
+<p><a href="#tbl2" class="usa-link">Table 2</a> provides data on site accessories. Nutritional information and charts on caloric intake and expenditure were regularly included, whereas more interactive features, such as calculators and food and activity diaries, were less common. Familiar measures of calories for foods and minutes for time were used in practically all of the accessories. Most Web sites offered visitors enough information to perform these calculations on their own. Sites with any accessories often had several; 24% (n = 42) had 2 or more accessories.</p>
+<section class="tw xbox font-sm" id="tbl2"><h4 class="obj_head">TABLE 2.</h4>
+<div class="caption p"><p><strong>Accessories Found on the Reviewed Web Sites (n = 180): 2007</strong></p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<td align="center" rowspan="1" colspan="1">Accessory</td>
+<td align="center" rowspan="1" colspan="1">Present on the Site, %</td>
+<td align="center" rowspan="1" colspan="1">Links to Another Site, %</td>
+<td align="center" rowspan="1" colspan="1">Not Present on the Site, %</td>
+</tr></thead>
+<tbody>
+<tr>
+<td rowspan="1" colspan="1">Food calculator</td>
+<td align="center" rowspan="1" colspan="1">30</td>
+<td align="center" rowspan="1" colspan="1">8</td>
+<td align="center" rowspan="1" colspan="1">62</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Food diary</td>
+<td align="center" rowspan="1" colspan="1">16</td>
+<td align="center" rowspan="1" colspan="1">5</td>
+<td align="center" rowspan="1" colspan="1">79</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Activity diary</td>
+<td align="center" rowspan="1" colspan="1">12</td>
+<td align="center" rowspan="1" colspan="1">2</td>
+<td align="center" rowspan="1" colspan="1">86</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Basal metabolic rate calculator</td>
+<td align="center" rowspan="1" colspan="1">10</td>
+<td align="center" rowspan="1" colspan="1">7</td>
+<td align="center" rowspan="1" colspan="1">83</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Body mass index calculator</td>
+<td align="center" rowspan="1" colspan="1">16</td>
+<td align="center" rowspan="1" colspan="1">10</td>
+<td align="center" rowspan="1" colspan="1">74</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/tbl2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section><p>Thirty-eight percent (n = 69) of the Web sites offered detailed information about eating disorders, and 2% (n = 3) contained links to other sites that provided information on eating disorders. This information ranged from basic definitions to more involved descriptions of risk factors, symptoms, effects, and treatments.</p>
+<p>Sixteen percent of the sites (n = 29) had a written creed or oath to Ana or a statement of “thin commandments” (the <a href="#box1" class="usa-link">box</a> on the next page provides examples of this content). Nearly half (42%; n = 76) of the sites provided venues for artistic expression, created by either the site maintainers or users. Poetry (such as that presented in the <a href="#box1" class="usa-link">box</a> on the next page) was common, but site users also posted artwork, music, and videos. Claims that eating disorders were a lifestyle choice were not associated with any increase in likelihood of artistic expression on the sites.</p>
+<section class="bt xbox font-sm" id="box1"><section id="sec5"><h4 class="pmc_sec_title">Examples of Creeds, “Thin Commandments,” and Poetry in Pro–Eating Disorders Web Sites</h4>
+<section id="sec6"><h5 class="pmc_sec_title">Ana Creed</h5>
+<p>I believe in Control, the only force mighty enough to bring order to the chaos that is my world. I believe that I am the most vile, worthless and useless person ever to have existed on this planet, and that I am totally unworthy of anyone's time and attention. I believe that other people who tell me differently must be idiots. If they could see how I really am, then they would hate me almost as much as I do. I believe in oughts, musts and shoulds as unbreakable laws to determine my daily behavior. I believe in perfection and strive to attain it. I believe in salvation through trying just a bit harder than I did yesterday. I believe in calorie counters as the inspired word of god, and memorize them accordingly. I believe in bathroom scales as an indicator of my daily successes and failures. I believe in hell, because I sometimes think that I'm living in it. I believe in a wholly black and white world, the losing of weight, recrimination for sins, the abnegation of the body and a life ever fasting.</p>
+<p>—Author unknown</p></section><section id="sec7"><h5 class="pmc_sec_title">The Thin Commandments</h5>
+<ol class="list" style="list-style-type:decimal">
+<li><p>If you aren't thin you aren't attractive.</p></li>
+<li><p>Being thin is more important than being healthy.</p></li>
+<li><p>You must buy clothes, cut your hair, take laxatives, starve yourself, do anything to make yourself look thinner.</p></li>
+<li><p>Thou shall not eat without feeling guilty.</p></li>
+<li><p>Thou shall not eat fattening food without punishing oneself afterward.</p></li>
+<li><p>Thou shall count calories and restrict intake accordingly.</p></li>
+<li><p>What the scale says is the most important thing.</p></li>
+<li><p>Losing weight is good/gaining weight is bad.</p></li>
+<li><p>You can never be too thin.</p></li>
+<li><p>Being thin and not eating are signs of true will power and success.</p></li>
+</ol>
+<p>—Carolyn Costin, <em>Your Dieting Daughter: Is She Dying for Attention?</em><sup><a href="#bib30" class="usa-link" aria-describedby="bib30">30</a></sup></p></section><section id="sec8"><h5 class="pmc_sec_title">Twisted Minds</h5>
+<p>some look at us and call us crazy</p>
+<p>how little they really know</p>
+<p>they pass us by and stare</p>
+<p>like we're in some sickly show</p>
+<p>don't they see?</p>
+<p>it is not us who is at fault</p>
+<p>they kill their bodies with fats and grease</p>
+<p>but we give our bodies nothing at all</p>
+<p>so, you see,</p>
+<p>we really are the purest of the pure</p>
+<p>nothing but skin and bones,</p>
+<p>plus a scale to reassure</p>
+<p>so think about which one of us is on top</p>
+<p>next time you stop and stare</p>
+<p>for we float in the realm of nonexistence</p>
+<p>where all we need is air …</p>
+<p>—Melissa Cox, with permission</p></section></section></section></section><section id="sec9"><h3 class="pmc_sec_title">Thinspiration, Tips, and Techniques</h3>
+<p>Of the Web sites reviewed, 85% (n = 153) included “thinspiration”: images or prose intended to inspire weight loss. In a majority (58%; n = 88) of cases, these sites contained images overtly labeled as thinspiration; another subset (37%; n = 56) contained similar images that were not identified as thinspiration; and a small group (6%; n = 9) had a section listed as “under construction.” Known fashion models were most frequently shown (66% of sites included at least one photograph of a model), followed by celebrities (57%), real people (44%), and athletes (12%). <a href="#fig2" class="usa-link">Figure 2</a> presents a prototype of a thinspiration Web page.</p>
+<figure class="fig xbox font-sm" id="fig2"><h4 class="obj_head">FIGURE 2.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=2901299_1526fig2.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1894/2901299/246b26e19057/1526fig2.jpg" loading="lazy" height="370" width="498" alt="FIGURE 2"></a></p>
+<div class="p text-right font-secondary"><a href="figure/fig2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p><strong>Example of a “thinspiration” page.</strong></p></figcaption></figure><p>Thinspiration sections often displayed a group (in our analyses, defined as 5 or more) of models (40%; n = 72), celebrities (24%; n = 44), real people (16%; n = 29), or athletes (4%; n = 7). Similarly, sites often included several types of images. For example, sites including photos of thin models were also likely to have images of thin celebrities (χ<sup>2</sup> = 34.3; <em>P</em> &lt; .001), thin real people (χ<sup>2</sup> = 9.1; <em>P</em> &lt; .005), and thin athletes (χ<sup>2</sup> = 4.3; <em>P</em> &lt; .05). Only 18% of the sites had no such pictures, 23% had just 1 type of picture, 28% had 2 types, and 31% had 3 or more types. Other types of thinspiration were also shown: 13% of the sites included “reverse triggers” or images of overweight people, 11% showed photos of food, and 12% incorporated images not falling into any of these categories (such as videos, cartoon images, and music lyrics that could encourage self-harm).</p>
+<p>“Tips and techniques” that could foster eating disorder behaviors were another common feature of pro–eating disorder Web sites; 40% had a section overtly labeled as containing tips for practicing eating disorder behaviors, and an additional 43% offered such tips throughout the site without designating a particular area for this purpose. <a href="#fig3" class="usa-link">Figure 3</a> presents common tips. More than 70% of the sites offered dieting strategies, including specific dietary regimes and advice on fasting; 68% listed “safe” foods or charts with low-calorie foods; half offered tips on purging or the use of laxatives or diet pills; and 43% offered advice on how to hide an eating disorder from others.</p>
+<figure class="fig xbox font-sm" id="fig3"><h4 class="obj_head">FIGURE 3.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=2901299_1526fig3.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1894/2901299/60c6e74707d9/1526fig3.jpg" loading="lazy" height="231" width="405" alt="FIGURE 3"></a></p>
+<div class="p text-right font-secondary"><a href="figure/fig3/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p><strong>Percentages of Web sites featuring various tips for engaging in eating-disordered behaviors.</strong></p>
+<p><em>Note</em>. Compl or Alt = complementary or alternative.</p></figcaption></figure><p>Tips ranged from simple and seemingly harmless (“Sit up straight. You'll burn at least ten percent more calories sitting upright than reclining”) to intricate and potentially life threatening (“TO PURGE: You can start off with two fingers or a Toothbrush—3 fingers if nothing is happening. Next, rub the back of your throat; you should feel sort of a Button-ish thing at the back. Well, you need to push it!”). Sites offered a range of diverse tips; only 17% contained no tips or techniques, 5% offered 1 type, 4% listed 2 types, and 74% displayed 3 or more types.</p></section><section id="sec10"><h3 class="pmc_sec_title">Recovery</h3>
+<p>A feature of many of the sites was the inclusion of recovery-oriented advice or information. Within our sample of Web sites, 38% contained recovery-oriented information or links to other sites with recovery content, and 21% featured specific sections dedicated to recovery. Thirteen percent of these sites offered an interactive discussion of recovery, and 2% included images that could be considered “anti-thinspiration” (i.e., photos of models who had died from anorexia or celebrities who had recovered and were living happily at a normal weight).</p>
+<p>Discussions of media literacy and how photos can be altered so that subjects appear thinner were also included on 13% of the sites. Sites that described eating disorders as a disease showed a trend toward being more likely than sites that described eating disorders as a lifestyle choice to have any recovery-oriented material or links (70% vs 30%; χ<sup>2</sup> = 2.5; <em>P</em> = .10).</p></section><section id="sec11"><h3 class="pmc_sec_title">Themes</h3>
+<p>Using a grounded theory approach, Norris et al. described prominent themes that appear on pro–eating disorder Web sites.<sup><a href="#bib3" class="usa-link" aria-describedby="bib3">3</a></sup> To monitor and track changes, we considered these same themes; as can be seen in <a href="#fig4" class="usa-link">Figure 4</a>, the most common were those of success, control, perfection, and solidarity. An example of control might be found in an Ana creed wherein one feels that committing to an eating disorder will help bring order to the chaos in one's world (see the <a href="#box1" class="usa-link">box</a> on the next page).</p>
+<figure class="fig xbox font-sm" id="fig4"><h4 class="obj_head">FIGURE 4.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=2901299_1526fig4.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1894/2901299/907ab49102c4/1526fig4.jpg" loading="lazy" height="176" width="421" alt="FIGURE 4"></a></p>
+<div class="p text-right font-secondary"><a href="figure/fig4/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p><strong>Percentages of Web sites featuring various themes relating to eating disorders.</strong></p></figcaption></figure><p>Issues involving isolation, where people describe how they need to be separate from, for example, all of the “obese fatties around that want me to be just like them,” were found on close to 60% of the sites. Revolution, characterized by statements such as “We can choose to live as victims, in that helpless, hopeless victim mentality[, or] we can choose to stand up and fight, take action, take control, make things happen,” was found on only 6% (n = 11) of the sites, and it was strongly associated with recovery-oriented content or links (13% vs 3% of sites without such content; χ<sup>2</sup> = 8.1; <em>P</em> &lt; .01).</p>
+<p>Practically all (98%) of the sites had at least 2 themes; 3% had 2, 5% had 3, and 90% had 4 or more themes. Most themes were significantly associated with each other in cases in which there was a “co-presence” of multiple themes. The only exceptions were revolution, which was associated only with solidarity (100% of sites with a revolution theme vs 0% of sites without such a theme; χ<sup>2</sup> = 3.7; <em>P</em> ≤ .05) and isolation (91% vs 9%; χ<sup>2</sup> = 5.0; <em>P</em> &lt; .05), and solidarity, which was strongly associated with deceit (85% of sites with solidarity vs 15% of those without; χ<sup>2</sup> = 13.1; <em>P</em> &lt; .001), isolation (70% vs 30%; χ<sup>2</sup> = 27.6; <em>P</em> &lt; .001), transformation (62% vs 38%; χ<sup>2</sup> = 7.2; <em>P</em> &lt; .001), and coping (56% vs 44%; χ<sup>2</sup> = 10.9; <em>P</em> &lt; .001) but not success, control, or perfection.</p></section><section id="sec12"><h3 class="pmc_sec_title">Perceived Harm</h3>
+<p>Perceived harm was scored on a scale from 1 (not too harmful, may have recovery information) to 5 (very dangerous, could do immediate harm; <a href="#tbl1" class="usa-link">Table 1</a>). However, to allow sufficiently large sample sizes for meaningful analyses, we grouped scores into low harm (a score of 1, 28%), medium harm (scores of 2 [27%] or 3 [22%]), and high harm (scores of 4 [18%] or 5 [6%]) categories. Web sites grouped in the lowest level of perceived harm (n = 47) often included some recovery information and aspects that could be considered helpful, with 26% of these sites including a separate section devoted to recovery.</p>
+<p>Sites with medium levels of perceived harm (n = 83) had similar content and were categorized by independent and trained reviewers as somewhat dangerous. Sites with high levels of perceived harm (n = 39) were considered dangerous or very dangerous, and the content featured on these sites could lead to immediate and life-threatening problems. Patterns emerged with these groupings, and <a href="#tbl3" class="usa-link">Table 3</a> shows how site features were significantly associated with assigned harm ratings.</p>
+<section class="tw xbox font-sm" id="tbl3"><h4 class="obj_head">TABLE 3.</h4>
+<div class="caption p"><p><strong>Web Site Features Associated With Perceived Harm Categories (n = 180): 2007</strong></p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead>
+<tr>
+<td rowspan="1" colspan="1"></td>
+<td colspan="3" align="center" rowspan="1">Perceived Harm Category<a href="#tblfn1" class="usa-link"><sup>a</sup></a><hr>
+</td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="center" rowspan="1" colspan="1">Feature</td>
+<td align="center" rowspan="1" colspan="1">Low, %</td>
+<td align="center" rowspan="1" colspan="1">Medium, %</td>
+<td align="center" rowspan="1" colspan="1">High, %</td>
+<td align="center" rowspan="1" colspan="1">χ<sup>2</sup>
+</td>
+<td align="center" rowspan="1" colspan="1"><em>P</em></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="1" colspan="1">Site logistics</td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Declares anorexia a lifestyle choice</td>
+<td align="center" rowspan="1" colspan="1">0</td>
+<td align="center" rowspan="1" colspan="1">18</td>
+<td align="center" rowspan="1" colspan="1">26</td>
+<td align="center" rowspan="1" colspan="1">12.5</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Offers a warning about distressing material</td>
+<td align="center" rowspan="1" colspan="1">30</td>
+<td align="center" rowspan="1" colspan="1">42</td>
+<td align="center" rowspan="1" colspan="1">62</td>
+<td align="center" rowspan="1" colspan="1">8.8</td>
+<td align="center" rowspan="1" colspan="1">&lt;.05</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Host admits EDs are a personal problem</td>
+<td align="center" rowspan="1" colspan="1">23</td>
+<td align="center" rowspan="1" colspan="1">13</td>
+<td align="center" rowspan="1" colspan="1">3</td>
+<td align="center" rowspan="1" colspan="1">7.6</td>
+<td align="center" rowspan="1" colspan="1">&lt;.05</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Letters to Ana, creeds, commandments</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">18</td>
+<td align="center" rowspan="1" colspan="1">28</td>
+<td align="center" rowspan="1" colspan="1">9.1</td>
+<td align="center" rowspan="1" colspan="1">&lt;.05</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Diatribe against “wannabes”</td>
+<td align="center" rowspan="1" colspan="1">26</td>
+<td align="center" rowspan="1" colspan="1">29</td>
+<td align="center" rowspan="1" colspan="1">49</td>
+<td align="center" rowspan="1" colspan="1">6.2</td>
+<td align="center" rowspan="1" colspan="1">&lt;.05</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Site accessories: food and calorie counts</td>
+<td align="center" rowspan="1" colspan="1">17</td>
+<td align="center" rowspan="1" colspan="1">46</td>
+<td align="center" rowspan="1" colspan="1">54</td>
+<td align="center" rowspan="1" colspan="1">14.6</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Devoted section to thinspiration</td>
+<td align="center" rowspan="1" colspan="1">81</td>
+<td align="center" rowspan="1" colspan="1">89</td>
+<td align="center" rowspan="1" colspan="1">90</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Models</td>
+<td align="center" rowspan="1" colspan="1">51</td>
+<td align="center" rowspan="1" colspan="1">69</td>
+<td align="center" rowspan="1" colspan="1">82</td>
+<td align="center" rowspan="1" colspan="1">9.5</td>
+<td align="center" rowspan="1" colspan="1">&lt;.01</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Athletes</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">18</td>
+<td align="center" rowspan="1" colspan="1">8</td>
+<td align="center" rowspan="1" colspan="1">6.3</td>
+<td align="center" rowspan="1" colspan="1">&lt;.05</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Reverse triggers</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">15</td>
+<td align="center" rowspan="1" colspan="1">21</td>
+<td align="center" rowspan="1" colspan="1">5.3</td>
+<td align="center" rowspan="1" colspan="1">.07</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Devoted section to tips and tricks</td>
+<td align="center" rowspan="1" colspan="1">55</td>
+<td align="center" rowspan="1" colspan="1">93</td>
+<td align="center" rowspan="1" colspan="1">100</td>
+<td align="center" rowspan="1" colspan="1">41.0</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Dieting techniques</td>
+<td align="center" rowspan="1" colspan="1">40</td>
+<td align="center" rowspan="1" colspan="1">86</td>
+<td align="center" rowspan="1" colspan="1">95</td>
+<td align="center" rowspan="1" colspan="1">43.3</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Purging techniques</td>
+<td align="center" rowspan="1" colspan="1">19</td>
+<td align="center" rowspan="1" colspan="1">57</td>
+<td align="center" rowspan="1" colspan="1">80</td>
+<td align="center" rowspan="1" colspan="1">32.8</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Hiding an ED</td>
+<td align="center" rowspan="1" colspan="1">11</td>
+<td align="center" rowspan="1" colspan="1">48</td>
+<td align="center" rowspan="1" colspan="1">77</td>
+<td align="center" rowspan="1" colspan="1">38.9</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Diet pills/laxatives</td>
+<td align="center" rowspan="1" colspan="1">19</td>
+<td align="center" rowspan="1" colspan="1">54</td>
+<td align="center" rowspan="1" colspan="1">77</td>
+<td align="center" rowspan="1" colspan="1">29.8</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">     “Safe” foods</td>
+<td align="center" rowspan="1" colspan="1">36</td>
+<td align="center" rowspan="1" colspan="1">82</td>
+<td align="center" rowspan="1" colspan="1">82</td>
+<td align="center" rowspan="1" colspan="1">33.4</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Exercise tips</td>
+<td align="center" rowspan="1" colspan="1">26</td>
+<td align="center" rowspan="1" colspan="1">72</td>
+<td align="center" rowspan="1" colspan="1">72</td>
+<td align="center" rowspan="1" colspan="1">30.5</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    How to distract oneself from eating</td>
+<td align="center" rowspan="1" colspan="1">34</td>
+<td align="center" rowspan="1" colspan="1">49</td>
+<td align="center" rowspan="1" colspan="1">64</td>
+<td align="center" rowspan="1" colspan="1">7.8</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Recovery information</td>
+<td align="center" rowspan="1" colspan="1">32</td>
+<td align="center" rowspan="1" colspan="1">37</td>
+<td align="center" rowspan="1" colspan="1">28</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Themes</td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+<td rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Control</td>
+<td align="center" rowspan="1" colspan="1">64</td>
+<td align="center" rowspan="1" colspan="1">81</td>
+<td align="center" rowspan="1" colspan="1">100</td>
+<td align="center" rowspan="1" colspan="1">17.8</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Success</td>
+<td align="center" rowspan="1" colspan="1">64</td>
+<td align="center" rowspan="1" colspan="1">87</td>
+<td align="center" rowspan="1" colspan="1">100</td>
+<td align="center" rowspan="1" colspan="1">21.5</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Perfection</td>
+<td align="center" rowspan="1" colspan="1">72</td>
+<td align="center" rowspan="1" colspan="1">77</td>
+<td align="center" rowspan="1" colspan="1">87</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Isolation</td>
+<td align="center" rowspan="1" colspan="1">38</td>
+<td align="center" rowspan="1" colspan="1">64</td>
+<td align="center" rowspan="1" colspan="1">72</td>
+<td align="center" rowspan="1" colspan="1">11.7</td>
+<td align="center" rowspan="1" colspan="1">&lt;.005</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Sacrifice</td>
+<td align="center" rowspan="1" colspan="1">34</td>
+<td align="center" rowspan="1" colspan="1">69</td>
+<td align="center" rowspan="1" colspan="1">80</td>
+<td align="center" rowspan="1" colspan="1">22.1</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Transformation</td>
+<td align="center" rowspan="1" colspan="1">47</td>
+<td align="center" rowspan="1" colspan="1">52</td>
+<td align="center" rowspan="1" colspan="1">72</td>
+<td align="center" rowspan="1" colspan="1">6.0</td>
+<td align="center" rowspan="1" colspan="1">&lt;.05</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Coping</td>
+<td align="center" rowspan="1" colspan="1">30</td>
+<td align="center" rowspan="1" colspan="1">52</td>
+<td align="center" rowspan="1" colspan="1">64</td>
+<td align="center" rowspan="1" colspan="1">10.8</td>
+<td align="center" rowspan="1" colspan="1">&lt;.005</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Deceit</td>
+<td align="center" rowspan="1" colspan="1">30</td>
+<td align="center" rowspan="1" colspan="1">70</td>
+<td align="center" rowspan="1" colspan="1">87</td>
+<td align="center" rowspan="1" colspan="1">33.6</td>
+<td align="center" rowspan="1" colspan="1">&lt;.001</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Solidarity</td>
+<td align="center" rowspan="1" colspan="1">70</td>
+<td align="center" rowspan="1" colspan="1">78</td>
+<td align="center" rowspan="1" colspan="1">82</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">    Revolution</td>
+<td align="center" rowspan="1" colspan="1">9</td>
+<td align="center" rowspan="1" colspan="1">4</td>
+<td align="center" rowspan="1" colspan="1">5</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+<td align="center" rowspan="1" colspan="1">NS</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/tbl3/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="fn4"><p><em>Note</em>. ED = eating disorder; NS = nonsignificant.</p></div>
+<div class="fn" id="tblfn1">
+<sup>a</sup><p class="display-inline">Values represent the frequency at which the listed features were found in the respective (low, medium, high) categories.</p>
+</div>
+</div></section></section></section><section id="sec13"><h2 class="pmc_sec_title">DISCUSSION</h2>
+<p>Pro–eating disorder Web sites are an interactive resource with a range of accessories and features available to anyone with an Internet connection. The sites were alarmingly easy to access and understand, with few requiring membership and half written at less than a high school grade level. The sites often served as a venue for expression wherein users could voice opinions or post original poetry or artwork. Striking images of glorified but emaciated models, celebrities, and real people were found throughout. Suggestions on how to lose weight, exercise, and conceal one's behaviors were common. It is clear from our analysis that pro–eating disorder Web sites are available and dynamic communities with ever-changing, user-contributed content.</p>
+<p>Although pro–eating disorder sites have been described as portraying eating disorders as a lifestyle choice, fewer than 20% of the examined sites expressed this stance. Frequently the content of these sites was not overtly pro–eating disorder but nonetheless contained the same elements as sites that declared themselves as pro-Ana. The subjective scale developed for this study suggests that the most harmful sites included warnings about distressing material, inform “wannabes” that they should not enter, and include tips and techniques describing multiple and extreme dieting behaviors.</p>
+<p>Less subjectively harmful Web sites were far less likely to declare anorexia as a lifestyle choice or to have dieting tips, and they often provided recovery information. In fact, it is somewhat surprising that nearly one third of the sites contained some type of recovery-oriented focus. This situation could reflect a duality of purpose for pro–eating disorder visitors, who may feel pulled simultaneously toward continued eating disorder behaviors and recovery. These stories and images of people who have successfully sought treatment for eating disorders might convince a site visitor that eating disorders are not a way of life; however, it is equally possible that sites containing positive messages of recovery alongside thinspiration and techniques could entice a larger demographic to this online world.</p>
+<p>Themes were common, and sites often featured more than one theme. The only theme that stood out as less common than others was that of revolution, which was also associated with recovery-oriented content, isolation, and deceit and was not significantly associated with harm. Themes of solidarity and perfection, although highly prevalent, were also not associated with harm on our subjective scale. These themes may be valuable in future qualitative work examining these sites.</p>
+<p>Many Web sites offered information on eating disorders and weight loss techniques; however, these “facts” were displayed in an unmonitored and often distorted way, with no guarantee of accuracy or credibility. Although some of the concepts appear to be the suggestions of site administrators who have attempted a particular activity (i.e., 48 hours of fasting), others seem to be “lifted” from more established diet and physical activity sites. One fascinating example of co-opting and distorting well-intentioned messages exists with the often-featured “thin commandments.” These commandments were developed by a well-respected and experienced eating disorder specialist, through field work with patients, as a tool to help parents better understand their daughters with anorexia. These commandments were often altered and displayed on pro–eating disorder Web sites, without permission and out of their original context, as examples of pro-Ana philosophy.</p>
+<p>Social cognitive theory would warn that the high prevalence of interaction opportunities in the pro–eating disorder community has the potential to be extremely harmful if viewers are learning dangerous behaviors from one another, particularly if they are similar in age and gender. Other studies suggest that discussing techniques and perceived benefits may also have contagious effects on those not yet committed to the behaviors.<sup><a href="#bib5" class="usa-link" aria-describedby="bib5">5</a></sup> The disclaimers included on pro–eating disorder Web sites may warn unsuspecting readers away from distressing content but also may entice vulnerable individuals to read further. Although there is no evidence as to the impact of warnings or disclaimers on pro–eating disorder sites, research on other media such as movies and video games with adult ratings suggests that labels might entice young viewers to want to see media that are not appropriate for them.<sup><a href="#bib23" class="usa-link" aria-describedby="bib23">23</a></sup></p>
+<p>Behavioral and communication theories, such as the social cognitive and cultivation theories mentioned earlier,<sup><a href="#bib8" class="usa-link" aria-describedby="bib8">8</a>,<a href="#bib9" class="usa-link" aria-describedby="bib9">9</a></sup> would also suggest that the most deleterious components of these sites are the evocative images depicted coupled with constant social support encouraging extreme behaviors. On these Web sites, striving to be underweight is deemed not only as normative but as a signal of success. Only 13% of site maintainers offered an overt statement indicating that their own eating disorder was a problem. In addition, the Internet's easy accessibility allows users to tap into a site's features at any time of day or night.</p>
+<p>Social interaction is the most common reason young people use the Internet.<sup><a href="#bib24" class="usa-link" aria-describedby="bib24">24</a></sup> This may be particularly relevant to the eating disorder online community, as research shows that individuals suffering from eating disorders have difficulty relating with same-age peers, attempt to hide their eating disorder behaviors, and often experience shame and isolation.<sup><a href="#bib25" class="usa-link" aria-describedby="bib25">25</a>–<a href="#bib28" class="usa-link" aria-describedby="bib28">28</a></sup> Online venues for interaction with friends or strangers may seem like a safer and even appropriate place to disclose personal information. Furthermore, the Internet allows one to not only maintain relative anonymity but also easily retreat from criticism or uncomfortable situations.</p>
+<section id="sec14"><h3 class="pmc_sec_title">Strengths and Limitations</h3>
+<p>After a 2001 request from several national associations of health professionals, the search engine Yahoo and MSN agreed to shut down Web sites that were overtly pro-anorexia or pro-bulimia.<sup><a href="#bib29" class="usa-link" aria-describedby="bib29">29</a></sup> This led to the remaining sites concealing their purposes, going underground, and using other servers, proving that Internet content is extremely difficult to regulate. Because we employed a snowball approach to locating pro–eating disorder Web sites, we believe that our sample included more clandestine sites that could elude a basic search engine approach. Still, our approach may not have captured all pro–eating disorder sites.</p>
+<p>It should be kept in mind that Web sites are dynamic and sometimes short-lived. Returning to the sampled sites might reveal new data. This analysis represents a snapshot in time of pro–eating disorder Web sites; more regular monitoring is warranted. The constant change inherent in the Internet represents an obvious limitation of our study given that, despite our efforts to be as efficient as possible, multiple sites were already shut down when our study began the coding phase. Thus, our original search provided many links that could not be further examined, and this limited the final sample.</p>
+<p>A final limitation concerns the subjectivity involved in an analysis such as ours. We had multiple researchers consider the data objectively, adhering to a strict coding scheme. However, one variable—our harm scale—certainly had a researcher–health professional bias. Although we believe that a quarter of the Web sites examined communicated very harmful messages, site maintainers or users might disagree.</p></section><section id="sec15"><h3 class="pmc_sec_title">Conclusions</h3>
+<p>Content analyses such as the one described here provide systematic data on what is available and likely to be seen by users of pro–eating disorder Web sites. In addition, we have provided a methodology to characterize the harmful nature of these sites by noting the features significantly associated with higher levels of perceived harm. Different methodologies must be employed to determine whether and how exposure to such material and media affects users. Coupled with this work, our research team has been investigating the relationship between frequent exposure and use of pro–eating disorder Web sites and the severity of disordered eating behaviors and quality of life impairment (R. Peebles et al., unpublished data, 2010).</p>
+<p>Because technology is constantly advancing, these Web sites will evolve and change. Already, recent media reports have noted that pro–eating disorder sites now use more video and social networking approaches,<sup><a href="#bib29" class="usa-link" aria-describedby="bib29">29</a></sup> and we suspect this interactivity will increase. To better understand how messages and potential harm are communicated through such media venues, researchers must continue to investigate both the messages an individual is exposed to and their impact. Although technological, political, and cultural challenges would be abundant, attempts could be made to regulate pro–eating disorder sites. However, such efforts and actions cannot move forward without important information on existing messages and their effects.</p></section></section><section id="ack1" class="ack"><h2 class="pmc_sec_title">Human Participant Protection</h2>
+<p>The institutional review boards at both Johns Hopkins University and Stanford University reviewed this research and determined that no protocol approval was necessary.</p></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="bib1">
+<span class="label">1.</span><cite>Stice E, Shaw H. Eating disorder prevention programs: a meta-analytic review. Psychol Bull 2004;130(2):206–227</cite> [<a href="https://doi.org/10.1037/0033-2909.130.2.206" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14979770/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Psychol%20Bull&amp;title=Eating%20disorder%20prevention%20programs:%20a%20meta-analytic%20review&amp;author=E%20Stice&amp;author=H%20Shaw&amp;volume=130&amp;issue=2&amp;publication_year=2004&amp;pages=206-227&amp;pmid=14979770&amp;doi=10.1037/0033-2909.130.2.206&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib2">
+<span class="label">2.</span><cite>Lapinski MK. StarvingforPerfect.com: a theoretically based content analysis of pro-eating disorder Web sites. Health Commun 2006;20(3):243–253</cite> [<a href="https://doi.org/10.1207/s15327027hc2003_4" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17137416/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Commun&amp;title=StarvingforPerfect.com:%20a%20theoretically%20based%20content%20analysis%20of%20pro-eating%20disorder%20Web%20sites&amp;author=MK%20Lapinski&amp;volume=20&amp;issue=3&amp;publication_year=2006&amp;pages=243-253&amp;pmid=17137416&amp;doi=10.1207/s15327027hc2003_4&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib3">
+<span class="label">3.</span><cite>Norris ML, Boydell KM, Pinhas L, Katzman DK. Ana and the Internet: a review of pro-anorexia Websites. Int J Eat Disord 2006;39(6):443–447</cite> [<a href="https://doi.org/10.1002/eat.20305" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16721839/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Eat%20Disord&amp;title=Ana%20and%20the%20Internet:%20a%20review%20of%20pro-anorexia%20Websites&amp;author=ML%20Norris&amp;author=KM%20Boydell&amp;author=L%20Pinhas&amp;author=DK%20Katzman&amp;volume=39&amp;issue=6&amp;publication_year=2006&amp;pages=443-447&amp;pmid=16721839&amp;doi=10.1002/eat.20305&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib4">
+<span class="label">4.</span><cite>Wilson JL, Peebles R, Hardy KK, Litt IF. Surfing for thinness: a pilot study of pro-eating disorder Web site usage in adolescents with eating disorders. Pediatrics 2006;118(6):e1635–e1643</cite> [<a href="https://doi.org/10.1542/peds.2006-1133" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17142493/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=Surfing%20for%20thinness:%20a%20pilot%20study%20of%20pro-eating%20disorder%20Web%20site%20usage%20in%20adolescents%20with%20eating%20disorders&amp;author=JL%20Wilson&amp;author=R%20Peebles&amp;author=KK%20Hardy&amp;author=IF%20Litt&amp;volume=118&amp;issue=6&amp;publication_year=2006&amp;pages=e1635-e1643&amp;pmid=17142493&amp;doi=10.1542/peds.2006-1133&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib5">
+<span class="label">5.</span><cite>Whitlock JL, Powers JL, Eckenrode J. The virtual cutting edge: the Internet and adolescent self-injury. Dev Psychol 2006;42(3):407–417</cite> [<a href="https://doi.org/10.1037/0012-1649.42.3.407" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16756433/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Dev%20Psychol&amp;title=The%20virtual%20cutting%20edge:%20the%20Internet%20and%20adolescent%20self-injury&amp;author=JL%20Whitlock&amp;author=JL%20Powers&amp;author=J%20Eckenrode&amp;volume=42&amp;issue=3&amp;publication_year=2006&amp;pages=407-417&amp;pmid=16756433&amp;doi=10.1037/0012-1649.42.3.407&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib6">
+<span class="label">6.</span><cite>Harper K, Sperry S, Thompson JK. Viewership of pro-eating disorder Websites: association with body image and eating disturbances. Int J Eat Disord 2008;41(1):92–95</cite> [<a href="https://doi.org/10.1002/eat.20408" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17634964/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Eat%20Disord&amp;title=Viewership%20of%20pro-eating%20disorder%20Websites:%20association%20with%20body%20image%20and%20eating%20disturbances&amp;author=K%20Harper&amp;author=S%20Sperry&amp;author=JK%20Thompson&amp;volume=41&amp;issue=1&amp;publication_year=2008&amp;pages=92-95&amp;pmid=17634964&amp;doi=10.1002/eat.20408&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib7">
+<span class="label">7.</span><cite>Bardone-Cone AM, Cass KM. What does viewing a pro-anorexia Website do? An experimental examination of Website exposure and moderating effects. Int J Eat Disord 2007;40(6):537–548</cite> [<a href="https://doi.org/10.1002/eat.20396" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17525952/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Eat%20Disord&amp;title=What%20does%20viewing%20a%20pro-anorexia%20Website%20do?%20An%20experimental%20examination%20of%20Website%20exposure%20and%20moderating%20effects&amp;author=AM%20Bardone-Cone&amp;author=KM%20Cass&amp;volume=40&amp;issue=6&amp;publication_year=2007&amp;pages=537-548&amp;pmid=17525952&amp;doi=10.1002/eat.20396&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib8">
+<span class="label">8.</span><cite>Bandura A. Social cognitive theory. : Vasta R,  Annals of Child Development Vol. 6 Greenwich, CT: JAI Press; 1989:1–60</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Annals%20of%20Child%20Development&amp;author=A%20Bandura&amp;publication_year=1989&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib9">
+<span class="label">9.</span><cite>Heath RL, Bryant J. Human Communication Theory and Research: Concepts, Contexts, and Challenges Mahwah, NJ: Lawrence Erlbaum Associates; 2000</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Human%20Communication%20Theory%20and%20Research:%20Concepts,%20Contexts,%20and%20Challenges&amp;author=RL%20Heath&amp;author=J%20Bryant&amp;publication_year=2000&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib10">
+<span class="label">10.</span><cite>Hesse-Biber SLP, Quinn CE, Zoino J. The mass marketing of disordered eating and eating disorders: the social psychology of women, thinness and culture. Womens Stud Int Forum 2006;29(2):208–224</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Womens%20Stud%20Int%20Forum&amp;title=The%20mass%20marketing%20of%20disordered%20eating%20and%20eating%20disorders:%20the%20social%20psychology%20of%20women,%20thinness%20and%20culture&amp;author=SLP%20Hesse-Biber&amp;author=CE%20Quinn&amp;author=J%20Zoino&amp;volume=29&amp;issue=2&amp;publication_year=2006&amp;pages=208-224&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib11">
+<span class="label">11.</span><cite>Krippendorff K. Content Analysis: An Introduction to Its Methodology 2nd ed Thousand Oaks, CA: Sage Publications; 2004</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Content%20Analysis:%20An%20Introduction%20to%20Its%20Methodology&amp;author=K%20Krippendorff&amp;publication_year=2004&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib12">
+<span class="label">12.</span><cite>Weber RP. Basic Content Analysis 2nd ed Newbury Park, CA: Sage Publications; 1990</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Basic%20Content%20Analysis&amp;author=RP%20Weber&amp;publication_year=1990&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib13">
+<span class="label">13.</span><cite>Custers K, Van den Bulck J. Viewership of pro-anorexia Websites in seventh, ninth and eleventh graders. Eur Eat Disord Rev 2009;17(3):214–219</cite> [<a href="https://doi.org/10.1002/erv.910" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19142974/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20Eat%20Disord%20Rev&amp;title=Viewership%20of%20pro-anorexia%20Websites%20in%20seventh,%20ninth%20and%20eleventh%20graders&amp;author=K%20Custers&amp;author=J%20Van%20den%20Bulck&amp;volume=17&amp;issue=3&amp;publication_year=2009&amp;pages=214-219&amp;pmid=19142974&amp;doi=10.1002/erv.910&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib14">
+<span class="label">14.</span><cite>Tierney S. Creating communities in cyberspace: pro-anorexia Web sites and social capital. J Psychiatr Ment Health Nurs 2008;15(4):340–343</cite> [<a href="https://doi.org/10.1111/j.1365-2850.2007.01190.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18387153/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Psychiatr%20Ment%20Health%20Nurs&amp;title=Creating%20communities%20in%20cyberspace:%20pro-anorexia%20Web%20sites%20and%20social%20capital&amp;author=S%20Tierney&amp;volume=15&amp;issue=4&amp;publication_year=2008&amp;pages=340-343&amp;pmid=18387153&amp;doi=10.1111/j.1365-2850.2007.01190.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib15">
+<span class="label">15.</span><cite>Gavin J, Rodham K, Poyer H. The presentation of “pro-anorexia” in online group interactions. Qual Health Res 2008;18(3):325–333</cite> [<a href="https://doi.org/10.1177/1049732307311640" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18235156/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Qual%20Health%20Res&amp;title=The%20presentation%20of%20%E2%80%9Cpro-anorexia%E2%80%9D%20in%20online%20group%20interactions&amp;author=J%20Gavin&amp;author=K%20Rodham&amp;author=H%20Poyer&amp;volume=18&amp;issue=3&amp;publication_year=2008&amp;pages=325-333&amp;pmid=18235156&amp;doi=10.1177/1049732307311640&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib16">
+<span class="label">16.</span><cite>Eichenberg C, Brahler E. “Nothing tastes as good as thin feels…”: considerations about pro-anorexia Websites. Psychother Psychosom Med Psychol 2007;57(7):269–270</cite> [<a href="https://doi.org/10.1055/s-2007-970912" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17566953/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Psychother%20Psychosom%20Med%20Psychol&amp;title=%E2%80%9CNothing%20tastes%20as%20good%20as%20thin%20feels%E2%80%A6%E2%80%9D:%20considerations%20about%20pro-anorexia%20Websites&amp;author=C%20Eichenberg&amp;author=E%20Brahler&amp;volume=57&amp;issue=7&amp;publication_year=2007&amp;pages=269-270&amp;pmid=17566953&amp;doi=10.1055/s-2007-970912&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib17">
+<span class="label">17.</span><cite>Csipke E, Horne O. Pro-eating disorder Websites: users’ opinions. Eur Eat Disord Rev 2007;15(3):196–206</cite> [<a href="https://doi.org/10.1002/erv.789" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17676689/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20Eat%20Disord%20Rev&amp;title=Pro-eating%20disorder%20Websites:%20users%E2%80%99%20opinions&amp;author=E%20Csipke&amp;author=O%20Horne&amp;volume=15&amp;issue=3&amp;publication_year=2007&amp;pages=196-206&amp;pmid=17676689&amp;doi=10.1002/erv.789&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib18">
+<span class="label">18.</span><cite>Brotsky SR, Giles D. Inside the “pro-Ana” community: a covert online participant observation. Eat Disord 2007;15(2):93–109</cite> [<a href="https://doi.org/10.1080/10640260701190600" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17454069/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eat%20Disord&amp;title=Inside%20the%20%E2%80%9Cpro-Ana%E2%80%9D%20community:%20a%20covert%20online%20participant%20observation&amp;author=SR%20Brotsky&amp;author=D%20Giles&amp;volume=15&amp;issue=2&amp;publication_year=2007&amp;pages=93-109&amp;pmid=17454069&amp;doi=10.1080/10640260701190600&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib19">
+<span class="label">19.</span><cite>Tierney S. The dangers and draw of online communication: pro-anorexia Websites and their implications for users, practitioners, and researchers. Eat Disord 2006;14(3):181–190</cite> [<a href="https://doi.org/10.1080/10640260600638865" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16807213/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eat%20Disord&amp;title=The%20dangers%20and%20draw%20of%20online%20communication:%20pro-anorexia%20Websites%20and%20their%20implications%20for%20users,%20practitioners,%20and%20researchers&amp;author=S%20Tierney&amp;volume=14&amp;issue=3&amp;publication_year=2006&amp;pages=181-190&amp;pmid=16807213&amp;doi=10.1080/10640260600638865&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib20">
+<span class="label">20.</span><cite>Mulveen R, Hepworth J. An interpretative phenomenological analysis of participation in a pro-anorexia Internet site and its relationship with disordered eating. J Health Psychol 2006;11(2):283–296</cite> [<a href="https://doi.org/10.1177/1359105306061187" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16464925/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Health%20Psychol&amp;title=An%20interpretative%20phenomenological%20analysis%20of%20participation%20in%20a%20pro-anorexia%20Internet%20site%20and%20its%20relationship%20with%20disordered%20eating&amp;author=R%20Mulveen&amp;author=J%20Hepworth&amp;volume=11&amp;issue=2&amp;publication_year=2006&amp;pages=283-296&amp;pmid=16464925&amp;doi=10.1177/1359105306061187&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib21">
+<span class="label">21.</span><cite>Giles D. Constructing identities in cyberspace: the case of eating disorders. Br J Soc Psychol 2006;45(3):463–477</cite> [<a href="https://doi.org/10.1348/014466605X53596" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16984715/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Br%20J%20Soc%20Psychol&amp;title=Constructing%20identities%20in%20cyberspace:%20the%20case%20of%20eating%20disorders&amp;author=D%20Giles&amp;volume=45&amp;issue=3&amp;publication_year=2006&amp;pages=463-477&amp;pmid=16984715&amp;doi=10.1348/014466605X53596&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib22">
+<span class="label">22.</span><cite>Harshbarger JL, Ahlers-Schmidt CR, Mayans L, Mayans D, Hawkins JH. Pro-anorexia Websites: what a clinician should know. Int J Eat Disord 2008;42(4):367–370</cite> [<a href="https://doi.org/10.1002/eat.20608" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19040264/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Eat%20Disord&amp;title=Pro-anorexia%20Websites:%20what%20a%20clinician%20should%20know&amp;author=JL%20Harshbarger&amp;author=CR%20Ahlers-Schmidt&amp;author=L%20Mayans&amp;author=D%20Mayans&amp;author=JH%20Hawkins&amp;volume=42&amp;issue=4&amp;publication_year=2008&amp;pages=367-370&amp;pmid=19040264&amp;doi=10.1002/eat.20608&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib23">
+<span class="label">23.</span><cite>Bushman B. Effects of warning and information labels on attraction to television violence in viewers of different ages. J Appl Soc Psychol 2006;36(9):2073–2078</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Appl%20Soc%20Psychol&amp;title=Effects%20of%20warning%20and%20information%20labels%20on%20attraction%20to%20television%20violence%20in%20viewers%20of%20different%20ages&amp;author=B%20Bushman&amp;volume=36&amp;issue=9&amp;publication_year=2006&amp;pages=2073-2078&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib24">
+<span class="label">24.</span><cite>Borzekowski DL. Adolescents’ use of the Internet: a controversial, coming-of-age resource. Adolesc Med Clin 2006;17(1):205–216</cite> [<a href="https://doi.org/10.1016/j.admecli.2005.10.006" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16473301/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Adolesc%20Med%20Clin&amp;title=Adolescents%E2%80%99%20use%20of%20the%20Internet:%20a%20controversial,%20coming-of-age%20resource&amp;author=DL%20Borzekowski&amp;volume=17&amp;issue=1&amp;publication_year=2006&amp;pages=205-216&amp;pmid=16473301&amp;doi=10.1016/j.admecli.2005.10.006&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib25">
+<span class="label">25.</span><cite>Gerner B, Wilson PH. The relationship between friendship factors and adolescent girls’ body image concern, body dissatisfaction, and restrained eating. Int J Eat Disord 2005;37(4):313–320</cite> [<a href="https://doi.org/10.1002/eat.20094" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15856495/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Eat%20Disord&amp;title=The%20relationship%20between%20friendship%20factors%20and%20adolescent%20girls%E2%80%99%20body%20image%20concern,%20body%20dissatisfaction,%20and%20restrained%20eating&amp;author=B%20Gerner&amp;author=PH%20Wilson&amp;volume=37&amp;issue=4&amp;publication_year=2005&amp;pages=313-320&amp;pmid=15856495&amp;doi=10.1002/eat.20094&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib26">
+<span class="label">26.</span><cite>Schutz HK, Paxton SJ. Friendship quality, body dissatisfaction, dieting and disordered eating in adolescent girls. Br J Clin Psychol 2007;46(1):67–83</cite> [<a href="https://doi.org/10.1348/014466506x115993" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17472202/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Br%20J%20Clin%20Psychol&amp;title=Friendship%20quality,%20body%20dissatisfaction,%20dieting%20and%20disordered%20eating%20in%20adolescent%20girls&amp;author=HK%20Schutz&amp;author=SJ%20Paxton&amp;volume=46&amp;issue=1&amp;publication_year=2007&amp;pages=67-83&amp;pmid=17472202&amp;doi=10.1348/014466506x115993&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib27">
+<span class="label">27.</span><cite>Stewart MC, Schiavo RS, Herzog DB, Franko DL. Stereotypes, prejudice and discrimination of women with anorexia nervosa. Eur Eat Disord Rev 2008;16(4):311–318</cite> [<a href="https://doi.org/10.1002/erv.849" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18240121/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20Eat%20Disord%20Rev&amp;title=Stereotypes,%20prejudice%20and%20discrimination%20of%20women%20with%20anorexia%20nervosa&amp;author=MC%20Stewart&amp;author=RS%20Schiavo&amp;author=DB%20Herzog&amp;author=DL%20Franko&amp;volume=16&amp;issue=4&amp;publication_year=2008&amp;pages=311-318&amp;pmid=18240121&amp;doi=10.1002/erv.849&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib28">
+<span class="label">28.</span><cite>Vandereycken W, Van Humbeeck I. Denial and concealment of eating disorders: a retrospective survey. Eur Eat Disord Rev 2008;16(2):109–114</cite> [<a href="https://doi.org/10.1002/erv.857" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18240122/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20Eat%20Disord%20Rev&amp;title=Denial%20and%20concealment%20of%20eating%20disorders:%20a%20retrospective%20survey&amp;author=W%20Vandereycken&amp;author=I%20Van%20Humbeeck&amp;volume=16&amp;issue=2&amp;publication_year=2008&amp;pages=109-114&amp;pmid=18240122&amp;doi=10.1002/erv.857&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib29">
+<span class="label">29.</span><cite>Reaves J. Anorexia goes high tech. Time Magazine Available at: <a href="http://www.time.com/time/health/article/0" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.time.com/time/health/article/0,8599,169660,00.html</a>. Accessed May 3, 2010</cite>
+</li>
+<li id="bib30">
+<span class="label">30.</span><cite>Costin C. Your Dieting Daughter: Is She Dying for Attention? New York, NY: Brunner/Mazel; 1997</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Your%20Dieting%20Daughter:%20Is%20She%20Dying%20for%20Attention?&amp;author=C%20Costin&amp;publication_year=1997&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from American Journal of Public Health are provided here courtesy of <strong>American Public Health Association</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.2105/AJPH.2009.172700"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/1526.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (626.6 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/2901299/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/2901299/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC2901299%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC2901299/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC2901299/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC2901299/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/20558807/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC2901299/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/20558807/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC2901299/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/2901299/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="6bVuIa0wIMqOGhuVAlZXH84bTZT2ryNcwDVRtIxgOS0AauFl8v2izir6UffN1SLY">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

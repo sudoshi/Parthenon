@@ -1,0 +1,687 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=100"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="citation_fulltext_html_url" content="https://synapse.koreamed.org/articles/1042600"/>
+<meta name="citation_publisher" content="Korean Medical Association"/>
+<meta name="citation_journal_title" content="Journal of the Korean Medical Association"/>
+<meta name="citation_journal_abbrev" content="J Korean Med Assoc"/>
+<meta name="citation_title" content="A clinical research strategy using longitudinal observational data in the post-electronic health records era"/>
+<meta name="citation_author" content="Rae Woong Park"/>
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea."/>
+<meta name="citation_author_email" content="veritas@ajou.ac.kr"/>
+<meta name="citation_publication_date" content="2012/08/16"/>
+<meta name="citation_volume" content="55"/>
+<meta name="citation_issue" content="8"/>
+<meta name="citation_firstpage" content="711"/>
+<meta name="citation_lastpage" content="719"/>
+<meta name="citation_doi" content="10.5124/jkma.2012.55.8.711"/>
+<meta name="citation_pdf_url" content="https://synapse.koreamed.org/upload/SynapseData/PDFData/0119jkma/jkma-55-711.pdf">
+<meta name="citation_keywords" content="Electronic health records; Data warehouse; Medical informatics; Longitudinal observation study"/>
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/image/favicon.ico" type="image/x-icon">
+    <title>KoreaMed Synapse</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/script/sub.css"/>
+    	<link rel="shortcut icon" href="/image/icon/favicon.ico">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script src="/script/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="/script/common.js"></script>
+	<script type="text/javascript" src="/script/user.js"></script>
+	<script type="text/javascript" src="/script/user_sub.js"></script>
+
+            <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full"></script>
+    
+    <script type="text/javascript">
+        <!--
+        var acIdx = -1;
+        function autoCompleteHead(v) {
+            if(event.keyCode >= 37 && event.keyCode <= 40) {
+                if(event.keyCode % 2) return;
+                var max = $(".autoKeywords").size();
+                if(event.keyCode == 38) acIdx--;
+                else if(event.keyCode == 40) acIdx++;
+                if(acIdx < 0) acIdx = max-1;
+                if(acIdx > max-1) acIdx = 0;
+                $(".autoKeywords").css("background","#ffffff");
+                $(".autoKeywords").eq(acIdx).css("background","#e9e9e9");
+                $("input[name='term_all']").val($(".autoKeywords").eq(acIdx).text());
+                return;
+            }
+            acIdx = -1;
+            $.post("/func/ajax.php", "type=autoComplete2&value="+v, function (d, s) {
+                if(s == "success") {
+                    if(d != "") {
+                        $("#autoCompleteLayerHead").attr("class", "");
+                        $("#autoCompleteLayerHead").html(d);
+                    } else {
+                        $("#autoCompleteLayerHead").attr("class", "none");
+                        $("#autoCompleteLayerHead").html("");
+                    }
+                }
+            });
+        }
+        //-->
+    </script>
+    <meta name="google-translate-customization" content="c76a81f9675326a5-9a83cfab5ac81fe6-gc853b503d46f6207-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RS66D40VW5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RS66D40VW5');
+</script>
+</head>
+
+
+
+
+<body>
+    <div id="wrapper">
+        <div id="header" class="sub" style="border:none;">
+            <div class="container">
+                <div id="top-logo">
+					<img src="/image/main/logo.png" alt="" usemap="#header_logo">
+					<map name="header_logo">
+					 <area shape="rect" coords="0,11,140,60" href="https://www.kamje.or.kr/" target="_blank" onfocus="this.blur()">
+					 <area shape="rect" coords="160,11,340,60" href="https://synapse.koreamed.org" onfocus="this.blur()">
+					</map>
+
+				</div>
+                <div class="fr">
+                    <ul id="gnb">
+                        <!--<li>
+                            <a href="/">About Synapse</a>
+                            <ul>
+                                <li title="1st"><a href="/">1st</a></li>
+                                <li title="2nd"><a href="/">2nd</a></li>
+                                <li title="3rd"><a href="/">3rd</a></li>
+                                <li title="4th 134152bhdtdddej"><a href="/">4th 134152bhdtdddej</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">User Guide</a></li>
+                        <li><a href="/">Journal List</a></li>
+                        <li><a href="/">Contact Us</a></li>-->
+                                                    <li>
+                                <font style='cursor:pointer;'>About Synapse</font>
+                                                                <ul>
+                                                                        										<li><a href="/about/overview.php" title="Overview">Overview</a></li>
+									                                                                        										<li><a href="/about/disclaimer.php" title="Disclaimer">Disclaimer</a></li>
+									                                                                        										<li><a href="/journals/list.php" title="Journal list">Journal list</a></li>
+									                                                                        										<li><a href="/advanced/" title="Advanced">Advanced</a></li>
+									                                                                        										<li><a href="/about/contact.php" title="Contact us">Contact us</a></li>
+									                                                                        										<li><a href="/advanced/help.php" title="Search Guidelines">Search Guidelines</a></li>
+									                                                                    </ul>
+                                                            </li>
+                                                    <li>
+                                <font style='cursor:pointer;'>How to Participate</font>
+                                                                <ul>
+                                                                        										<li><a href="/pub/how_to_add.php" title="How to add a journal to Synapse">How to add a journal to Synapse</a></li>
+									                                                                        										<li><a href="/pub/how_to_validation.php" title="How to submit a file after validating the JATS XML file">How to submit a file after validating the JATS XML file</a></li>
+									                                                                        										<li><a href="/tools/stylechecker/" title="File Validation tools">File Validation tools</a></li>
+									                                                                    </ul>
+                                                            </li>
+                                                    <li>
+                                <font style='cursor:pointer;'>KAMJE Databases</font>
+                                                                <ul>
+                                                                        										<li><a href="http://koreamed.org" title="KoreaMed" target='_blank'>KoreaMed</a></li>
+									                                                                        										<li><a href="http://komci.org/" title="KoMCI" target='_blank'>KoMCI</a></li>
+									                                                                        										<li><a href="https://journals.koreamed.org/" title="Korean Medical Journal Information" target='_blank'>Korean Medical Journal Information</a></li>
+									                                                                        										<li><a href="https://www.kamje.or.kr/" title="KAMJE" target='_blank'>KAMJE</a></li>
+									                                                                    </ul>
+                                                            </li>
+                                            </ul>
+					<a href="javascript:;" class="mobile_btn"><img src="/image/mobile_btn.png" alt=""></a>
+					<div class="mobile_menu">
+						<div class="mobile_menu_header">
+							<h2><img src="/image/menu_logo.png" alt=""></h2>
+							<a href="javascript:;" class="mobile_menu_close"><img src="/image/mobile_close.png" alt=""></a>
+						</div>
+						<ul>
+							<!--<li>
+								<a href="/">About Synapse</a>
+								<ul>
+									<li title="1st"><a href="/">1st</a></li>
+									<li title="2nd"><a href="/">2nd</a></li>
+									<li title="3rd"><a href="/">3rd</a></li>
+									<li title="4th 134152bhdtdddej"><a href="/">4th 134152bhdtdddej</a></li>
+								</ul>
+							</li>
+							<li><a href="/">User Guide</a></li>
+							<li><a href="/">Journal List</a></li>
+							<li><a href="/">Contact Us</a></li>-->
+															<li>
+									<font style='cursor:pointer;'>About Synapse</font>
+																		<ul>
+																															<li><a href="/about/overview.php" title="Overview">Overview</a></li>
+																																									<li><a href="/about/disclaimer.php" title="Disclaimer">Disclaimer</a></li>
+																																									<li><a href="/journals/list.php" title="Journal list">Journal list</a></li>
+																																									<li><a href="/advanced/" title="Advanced">Advanced</a></li>
+																																									<li><a href="/about/contact.php" title="Contact us">Contact us</a></li>
+																																									<li><a href="/advanced/help.php" title="Search Guidelines">Search Guidelines</a></li>
+																													</ul>
+																	</li>
+															<li>
+									<font style='cursor:pointer;'>How to Participate</font>
+																		<ul>
+																															<li><a href="/pub/how_to_add.php" title="How to add a journal to Synapse">How to add a journal to Synapse</a></li>
+																																									<li><a href="/pub/how_to_validation.php" title="How to submit a file after validating the JATS XML file">How to submit a file after validating the JATS XML file</a></li>
+																																									<li><a href="/tools/stylechecker/" title="File Validation tools">File Validation tools</a></li>
+																													</ul>
+																	</li>
+															<li>
+									<font style='cursor:pointer;'>KAMJE Databases</font>
+																		<ul>
+																															<li><a href="http://koreamed.org" title="KoreaMed" target='_blank'>KoreaMed</a></li>
+																																									<li><a href="http://komci.org/" title="KoMCI" target='_blank'>KoMCI</a></li>
+																																									<li><a href="https://journals.koreamed.org/" title="Korean Medical Journal Information" target='_blank'>Korean Medical Journal Information</a></li>
+																																									<li><a href="https://www.kamje.or.kr/" title="KAMJE" target='_blank'>KAMJE</a></li>
+																													</ul>
+																	</li>
+													</ul>
+					</div>
+					<script>
+						$(".mobile_btn").click(function(){
+							$('.mobile_menu').addClass('active');
+							$('body').addClass('active');
+						});
+						$(".mobile_menu_close").click(function(){
+							$('.mobile_menu').removeClass('active');
+							$('body').removeClass('active');
+						});
+					</script>
+                    <!--form action="" id="search-form">
+                        <input type="text" name="search" id="search">
+                        <input type="submit" value="">
+                    </form-->
+
+                </div>
+            </div>
+			
+			
+			<div style="width:100%;height:90%;border-bottom:1px solid #D1D1D1;">
+				<div class="sub_container">
+					<form id="search-form" method="post" action="/advanced/?term=advanced">
+						<input type="text" name="term_all" id="search" placeholder="Search Synapse" value=''>
+						<input type="submit" value="Search">
+					</form>
+					<div style='display:block;padding:5px 14px;font-size:1.1em;'>
+						<a href="/advanced/">-Advanced</a>&nbsp;&nbsp;
+						<a href="/advanced/help.php">-Search Guidelines</a>
+					</div>
+				</div>
+			</div>
+			        </div>
+
+        <div id="sub_content">
+<object type="application/x-shockwave-flash" width="0" height="0"></object>
+<link rel="stylesheet" href="/flowplayer/skin/minimalist.css">
+<style>
+.flowplayer { width: 690px; }
+</style>
+<script src="/flowplayer/flowplayer.min.js"></script>
+<div class="container">
+
+<p style='padding-bottom:16px;font-size:1.1em;'><a href='/journals/list.php'>Journal List</a> > <a href='/journals/119/'>J Korean Med Assoc</a> > <a href='/issues/3054/'>v.55(8)</a> > <a href='/articles/1042600'>1042600</a></p>
+
+<div class="bm30">
+</div>
+
+<!-- wingBnr 버튼 추가-->
+<div id="wingBnr">
+	<a href="" class="goTop"><font>Go to Top</font><span>Go to Top</span></a>
+	<a href="" class="goDown"><font>Go to Bottom</font><span>Go to Bottom</span></a>
+</div>
+<!-- // wingBnr 버튼 추가-->	
+
+<div class="table">
+
+<div id="articleLayer" class="cell" style="background:url('/func/border.php?txt=J Korean Med Assoc&c=') repeat-y; font-family: 'Georgia', 'Nanum Gothic';padding-left:30px;">
+
+
+<div class="mobile_tool">
+	<dl class="tool">
+		<dt>TOOLS</dt>
+
+				<dd>
+			<ul>
+				<li><a href="/func/download.php?path=L2hvbWUvdmlydHVhbC9rYW1qZS9zeW5hcHNlL3VwbG9hZC9TeW5hcHNlRGF0YS9QREZEYXRhLzAxMTlqa21hL2prbWEtNTUtNzExLnBkZg==&filename=amttYS01NS03MTEucGRm")'><img src="/image/aside/ic_pdf.gif" alt="PDF Link" border="0"/> PDF</a></li><li><a href="/func/download.php?path=L2hvbWUvdmlydHVhbC9rYW1qZS9zeW5hcHNlL3VwbG9hZC9TeW5hcHNlRGF0YS9UcmFuc2Zvcm1EYXRhL0VQVUIvMDExOWprbWEvMTE5X2prbWFfNTVfOF83MTEuZXB1Yg==&filename=MTE5X2prbWFfNTVfOF83MTEuZXB1Yg==")'><img src="/image/aside/ic_epub.gif" alt="ePub Link" border="0"/> ePub</a></li>
+				<li>
+					<a href="/utils/CitationForm.php?ksid=1042600" target="_blank" onclick="window.open(this.href, '_blank', 'width=600,height=340'); return false;"><img src="/image/aside/ic_citation.gif" alt="Citation" border=0> Citation</a>
+				</li>
+				
+				<!--li>
+					<a href="/journal/crossRefTDM.php?number=" target="_blank" onclick="window.open(this.href, 'CrossRef TDM', 'width=800,height=800,scrollbars=yes');return false;"><img src="/image/aside/ic_tdm.gif" alt="CrossRef TDM" border="0"/> CrossRef TDM</a>
+				</li-->
+
+				<li><a href="javascript:window.print();"><img src="/image/aside/ic_print.gif" alt="" /> Print</a></li>
+
+				<li>
+					<a href="http://www.facebook.com/sharer.php?u=&t=" onclick="window.open(this.href, 'Facebook', 'width=800,height=500,scrollbars=yes');return false;">
+						<img src="/image/aside/ic_facebook.gif" alt="Facebook" style='padding-left:10px;padding-right:0px;'/></a>
+					<a href="http://twitter.com/home?status=" onclick="window.open(this.href, 'Twitter', 'width=750,height=500,scrollbars=yes');return false;">
+						<img src="/image/aside/ic_twitter.gif" alt="Twitter" style='padding-left:10px;padding-right:0px;'/></a>
+					<a href="https://www.linkedin.com/shareArticle?mini=true&url=&title=" onclick="window.open(this.href, 'LinkedIn', 'width=750,height=500,scrollbars=yes');return false;">
+						<img src="/image/aside/ic_linkedin.gif" alt="Linked In" style='padding-left:10px;padding-right:0px;'/></a>
+				</li>
+
+			</ul>
+		</dd>
+
+			</dl>
+</div>
+
+<style>
+<!--
+.panel .label,.caption,.artCat {
+	color: ;
+}
+
+.main-title,.section-title,.callout-title {
+	color: ;
+	font-weight: bold;
+}
+/* jats start */
+table h2 {
+	font-size: 16px;
+}
+
+table h3 {
+	font-size: 15px;
+}
+
+h5 {
+	font-size: 15px;
+}
+
+.PubTitle {
+	line-height: normal;
+}
+
+.abstract {
+	margin-top: 10px;
+}
+
+a[name='bibrLink']:link {
+	color: #046eb8;
+}
+
+a[name='figLink']:link {
+	color: #046eb8;
+}
+
+a[name='tableLink']:link {
+	color: #046eb8;
+}
+
+.abstract {
+	border-top: 1px solid #184CA1;
+	border-bottom: 1px solid #184CA1;
+}
+
+.caption {
+	color: #184CA1;
+}
+
+div.panel,.fig-group {
+	background:#f5f5f5;
+	padding:25px;
+	margin:15px 0px;
+}
+
+div.panel table, div.panel img {
+	cursor: pointer;
+}
+
+.section-title {
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.subsection-title {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.metadata-entry {
+	margin: 2px 0px;
+}
+
+p.address-line {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 2em
+}
+
+ul,ol {
+	margin-bottom: 1em
+}
+
+li {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	font-size: 9pt
+}
+
+li>p {
+	margin-top: 0.1em;
+	margin-bottom: 0em
+}
+
+div.def-list {
+	border-spacing: 0.25em
+}
+
+div.def-list p {
+	margin:0px; padding:0px;
+}
+
+div.panel {
+	margin-bottom:20px;
+}
+
+.ref_layer {
+	margin-bottom: 10px;
+	white-space: normal;
+	word-break: break-all;
+}
+
+.apStyle {
+	text-indent: 10px;
+}
+#inThisPage {background:#fff;}
+.table-wrap thead tr {background:#CAD6FA;}
+.table-wrap tbody tr {background:#ffffff;}
+.corresp p {
+	margin:0;padding:0;
+}
+/* .table-wrap tbody tr:nth-child(even) {background:#E3EAFC;} */
+/* .table-wrap th,.table-wrap td { padding:5px; } */
+
+/* jats end */
+-->
+</style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Park: A clinical research strategy using longitudinal observational data in the post-electronic health records era</title>
+</head>
+<body>
+<div id="article-front" class="front">
+<div class="metadata"><div class="metadata-group">
+<div class="artCat" style="font-weight:bold;">Focused Issue of This Month</div>Medical Information</div></div>
+<div class="metadata"><div class="metadata-group"></div></div>
+<div class="metadata two-column table"><div class="row">
+<div class="metadata-group" style="font-size:15px;">Journal of the Korean Medical Association<p class="metadata-entry">Journal of the Korean Medical Association 2012; 55(8): 711-719.</p>
+</div>
+<div class="metadata-group" style="font-size:15px;">
+<div class="metadata-group"><p class="metadata-entry"><span class="generated">Published online: </span>16 August 2012 </p></div>
+<p class="metadata-entry"><span class="generated">DOI: </span><a target="_blank" href="https://doi.org/10.5124/jkma.2012.55.8.711">https://doi.org/10.5124/jkma.2012.55.8.711</a></p>
+</div>
+<div class="metadata centered"></div>
+<div class="metadata-group" style="margin-bottom:10px;"></div>
+<div class="metadata-group"></div>
+<div class="metadata centered"><h3 class="PubTitle">A clinical research strategy using longitudinal observational data in the post-electronic health records era</h3></div>
+<div class="metadata-group" style="margin-bottom:10px;">Rae Woong Park, MD<sup></sup>
+</div>
+<div class="metadata-group" style="margin-bottom:10px;"><p class="metadata-entry"><a id="A1"><!-- named anchor --></a>Department of Biomedical Informatics, Ajou University School of Medicine, Suwon, Korea.</p></div>
+<div class="metadata centered"></div>
+<div class="metadata-group author_layer" style="margin-bottom:10px;"></div>
+<div class="metadata-group aff_layer"></div>
+<div class="metadata-group">
+<div class="metadata-chunk">
+<a id="idm140484454028256"><!-- named anchor --></a><p class="metadata-entry">Corresponding author: Rae Woong Park, <a href="mailto:veritas@ajou.ac.kr">veritas@ajou.ac.kr</a> </p>
+</div> Received 29 June 2012       Accepted 12 July 2012<p class="metadata-entry">Copyright © 2012 Korean Medical Association </p>
+<span class="permissions_"><p class="metadata-entry"><span class="generated"> (<span class="data">open-access</span>): </span> </p>
+<div class="metadata-chunk"><div class="first" id="idm140484452154560">This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<a target="xrefwindow" href="http://creativecommons.org/licenses/by-nc/3.0" id="idm140484452154144">http://creativecommons.org/licenses/by-nc/3.0</a>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</div></div></span>
+</div>
+</div></div>
+<div id="cited_info" style="display:none;">This article has been <a href="" id="cited_link">cited</a> by other articles in ScienceCentral.</div>
+<div id="before_abstract"></div>
+<div class="abstract-layer">
+<h3 class="callout-title" id="__abstract" style="margin:15px 0 0 0;">Abstract</h3>
+<div class="abstract"><p><div class="first" id="idm140484452151920">Adoption of electronic health records (EHRs) is increasing worldwide. The worldwide EHR adoption rate is estimated to be around 9% to 12%. Thus, the accumulation of medical records in electronic form is also sharply increasing and is expected to be a precious asset for clinical research. Longitudinal observational studies based on EHRs are also increasing. Observational studies covering more than a million people are not rare at present. However, much of the current EHR data are equivalent in form to those of paper records, but are just stored in electronic stor-age devices, rather than as electronic data that can be transferred and shared without loss of clinical semantics. Current EHR systems must be improved in many ways to be used for anal-yses to yield important clinical knowledge. These improvements, which are addressed in this review, include the adoption of clinical data warehouses, use of controlled vocabulary, avoidance of personal/departmental research databases, a standardized interface of many diagnostic devices with the EHR system, control of time-stamp granularity, preparedness for whole-genome sequencing of every patient, confederation or consolidation of multi-institutional EHR data, protection of privacy and confidentiality, and an education system for clinical informaticians.</div></p></div>
+</div>
+<p class="metadata-entry"><span class="generated">Keywords: </span><a href="/advanced/?term=keywords&amp;keyword=Electronic%20health%20records">Electronic health records</a>, <a href="/advanced/?term=keywords&amp;keyword=Data%20warehouse">Data warehouse</a>, <a href="/advanced/?term=keywords&amp;keyword=Medical%20informatics">Medical informatics</a>, <a href="/advanced/?term=keywords&amp;keyword=Longitudinal%20observation%20study">Longitudinal observation study</a> </p>
+</div>
+<div id="article-back" class="back"><div class="back-section">
+<a id="idm140484452146912"><!-- named anchor --></a><h3 class="main-title">References</h3>
+<div class="section ref-list">
+<a id="idm140484452146912"><!-- named anchor --></a><div class="ref-list table">
+<div id="B1" name="jats-ref-pub" class="ref_layer">1. Ray WA, Murray KT, Hall K, Arbogast PG, Stein CM. Azithromycin and the risk of cardiovascular death. N Engl J Med. 2012. 366:1881–1890. <br/> <a href='https://doi.org/10.1056/nejmoa1003833' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B2" name="jats-ref-pub" class="ref_layer">2. Yoon D, Chang BC, Kang SW, Bae H, Park RW. Adoption of electronic health records in Korean tertiary teaching and general hospitals. Int J Med Inform. 2012. 81:196–203. <br/> <a href='https://doi.org/10.1016/j.ijmedinf.2011.12.002' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B3" name="jats-ref-pub" class="ref_layer">3. Park RW, Shin SS, Choi YI, Ahn JO, Hwang SC. Computerized physician order entry and electronic medical record systems in Korean teaching and general hospitals: results of a 2004 survey. J Am Med Inform Assoc. 2005. 12:642–647. <br/> <a href='https://doi.org/10.1197/jamia.m1768' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B4" name="jats-ref-pub" class="ref_layer">4. Yoon D, Park MY, Choi NK, Park BJ, Kim JH, Park RW. Detection of adverse drug reaction signals using an electronic health records database: Comparison of the Laboratory Extreme Abnormality Ratio (CLEAR) algorithm. Clin Pharmacol Ther. 2012. 91:467–474. <br/> <a href='https://doi.org/10.1038/clpt.2011.248' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B5" name="jats-ref-pub" class="ref_layer">5. Jha AK, DesRoches CM, Campbell EG, Donelan K, Rao SR, Ferris TG, Shields A, Rosenbaum S, Blumenthal D. Use of electronic health records in U.S. hospitals. N Engl J Med. 2009. 360:1628–1638. <br/> <a href='https://doi.org/10.1056/nejmsa0900592' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B6" name="jats-ref-pub" class="ref_layer">6. Hubner U, Ammenwerth E, Flemming D, Schaubmayr C, Sellemann B. IT adoption of clinical information systems in Austrian and German hospitals: results of a comparative survey with a focus on nursing. BMC Med Inform Decis Mak. 2010. 10:8. <br/> <a href='https://doi.org/10.1186/1472-6947-10-8' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B7" name="jats-ref-pub" class="ref_layer">7. Yasunaga H, Imamura T, Yamaki S, Endo H. Computerizing medical records in Japan. Int J Med Inform. 2008. 77:708–713. <br/> <a href='https://doi.org/10.1016/j.ijmedinf.2008.03.005' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B8" name="jats-ref-pub" class="ref_layer">8. Park MY, Yoon D, Lee K, Kang SY, Park I, Lee SH, Kim W, Kam HJ, Lee YH, Kim JH, Park RW. A novel algorithm for detection of adverse drug reaction signals using a hospital electronic medical record database. Pharmacoepidemiol Drug Saf. 2011. 20:598–607. <br/> <a href='https://doi.org/10.1002/pds.2139' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B9" name="jats-ref-pub" class="ref_layer">9. Sheen SS, Choi JE, Park RW, Kim EY, Lee YH, Kang UG. Overdose rate of drugs requiring renal dose adjustment: data analysis of 4 years prescriptions at a tertiary teaching hospital. J Gen Intern Med. 2008. 23:423–428. <br/> <a href='https://doi.org/10.1007/s11606-007-0336-8' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B10" name="jats-ref-pub" class="ref_layer">10. Lee SM, Park RW. Basic concepts and principles of data mining in clinical practice. J Korean Soc Med Inform. 2009. 15:175–189. <br/> <a href='https://doi.org/10.4258/jksmi.2009.15.2.175' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B11" name="jats-ref-pub" class="ref_layer">11. Han J, Kamber M. Han J, Kamber M, editors. Data warehouse and OLAP technology for data mining. Data mining: concepts and techniques. 2001. San Francisco: Morgan Kaufmann Publishers;39–43. <br/></div>
+<div id="B12" name="jats-ref-pub" class="ref_layer">12. Prather JC, Lobach DF, Goodwin LK, Hales JW, Hage ML, Hammond WE. Medical data mining: knowledge discovery in a clinical data warehouse. Proc AMIA Annu Fall Symp. 1997. 101–105. <br/></div>
+<div id="B13" name="jats-ref-pub" class="ref_layer">13. Friedman C, Hripcsak G, Shagina L, Liu H. Representing information in patient reports using natural language processing and the extensible markup language. J Am Med Inform Assoc. 1999. 6:76–87. <br/> <a href='https://doi.org/10.1136/jamia.1999.0060076' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B14" name="jats-ref-pub" class="ref_layer">14. Meystre SM, Haug PJ. Randomized controlled trial of an automated problem list with improved sensitivity. Int J Med Inform. 2008. 77:602–612. <br/> <a href='https://doi.org/10.1016/j.ijmedinf.2007.12.001' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B15" name="jats-ref-pub" class="ref_layer">15. Xu H, Stenner SP, Doan S, Johnson KB, Waitman LR, Denny JC. MedEx: a medication information extraction system for clinical narratives. J Am Med Inform Assoc. 2010. 17:19–24. <br/> <a href='https://doi.org/10.1197/jamia.m3378' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B16" name="jats-ref-pub" class="ref_layer">16. Haerian K, Varn D, Vaidya S, Ena L, Chase HS, Friedman C. Detection of pharmacovigilance-related adverse events using electronic health records and automated methods. Clin Pharmacol Ther. 2012. 92:228–234. <br/> <a href='https://doi.org/10.1038/clpt.2012.54' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B17" name="jats-ref-pub" class="ref_layer">17. Hripcsak G, Friedman C, Alderson PO, DuMouchel W, Johnson SB, Clayton PD. Unlocking clinical data from narrative reports: a study of natural language processing. Ann Intern Med. 1995. 122:681–688. <br/> <a href='https://doi.org/10.7326/0003-4819-122-9-199505010-00007' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B18" name="jats-ref-pub" class="ref_layer">18. Park MY, Yoon D, Choi NK, Lee J, Lee K, Lim HS, Park BJ, Kim JH, Park RW. Construction of an open-access QT database for detecting the proarrhythmia potential of marketed drugs: ECG-ViEW. Clin Pharmacol Ther. 2012. 07. 25. [Epub]. DOI:<a target="xrefwindow" href="/upload/SynapseXML/0119jkma/media/10.1038/clpt.2012.93" id="idm140484451897088">10.1038/clpt.2012.93.</a>
+<br/> <a href='https://doi.org/10.1038/clpt.2012.93' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B19" name="jats-ref-pub" class="ref_layer">19. Murphy SN, Mendis ME, Berkowitz DA, Kohane I, Chueh HC. Integration of clinical and genetic data in the i2b2 architecture. AMIA Annu Symp Proc. 2006. 1040. <br/></div>
+<div id="B20" name="jats-ref-pub" class="ref_layer">20. Platt R, Carnahan RM, Brown JS, Chrischilles E, Curtis LH, Hennessy S, Nelson JC, Racoosin JA, Robb M, Schneeweiss S, Toh S, Weiner MG. The U.S. Food and Drug Administration.s Mini-Sentinel program: status and direction. Pharmacoepidemiol Drug Saf. 2012. 21:Suppl 1. 1–8. <br/> <a href='https://doi.org/10.1002/pds.2343' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B21" name="jats-ref-pub" class="ref_layer">21. Trifiro G, Fourrier-Reglat A, Sturkenboom MC, Diaz Acedo C, Van Der Lei J. EU-ADR Group. The EU-ADR project: preliminary results and perspective. Stud Health Technol Inform. 2009. 148:43–49. <br/></div>
+<div id="B22" name="jats-ref-pub" class="ref_layer">22. Cios KJ, Moore GW. Uniqueness of medical data mining. Artif Intell Med. 2002. 26:1–24. <br/> <a href='https://doi.org/10.1016/s0933-3657(02)00049-0' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B23" name="jats-ref-pub" class="ref_layer">23. U.S. Department of Health and Human Services. National Institutes of Health. Research repositories, databases, and the HIPAA privacy rule [Internet]. 2004. cited 2012 Jun 27. Bethesda: National Institutes of Health;Available from: <a target="xrefwindow" href="http://privacyruleandresearch.nih.gov/research_repositories.asp" id="idm140484451832416">http://privacyruleandresearch.nih.gov/research_repositories.asp</a>. <br/></div>
+<div id="B24" name="jats-ref-pub" class="ref_layer">24. El Emam K, Arbuckle L, Koru G, Eze B, Gaudette L, Neri E, Rose S, Howard J, Gluck J. De-identification methods for open health data: the case of the Heritage Health Prize claims dataset. J Med Internet Res. 2012. 14:e33. <br/> <a href='https://doi.org/10.2196/jmir.2001' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a></div>
+<div id="B25" name="jats-ref-pub" class="ref_layer">25. Service RF. Gene sequencing. The race for the $1000 genome. Science. 2006. 311:1544–1546. <br/></div>
+<div id="B26" name="jats-ref-pub" class="ref_layer">26. Dondorp WJ, de Wert GM. The 'thousand-dollar genome': an ethical exploration. 2010. The Hague: Centre for Ethics and Health.<br/></div>
+</div>
+</div>
+</div></div>
+</body>
+</html>
+<script type="text/javascript">
+
+// popup layer manage
+	function getPopupLayer() {
+		var POPUP = {
+			lr : null,
+			ot : 0,
+			ol : 0,
+			show : function () {
+				if(this.lr) return this. lr;
+				var w;
+				w = document.getElementById("article-body").appendChild(document.createElement("div"));
+				ot = document.getElementById("article-body").offsetTop;
+				ol = document.getElementById("article-body").offsetLeft;
+				//alert(ot + "," + ol);
+				this. lr = w;
+				//w.className = "fig panel";
+				with(w.style) {
+					background = "#ffffff";
+					position = "absolute";
+					cursor = "pointer";
+					borderColor = "#1381ce";
+					padding = "10px";
+					margin = "0px";
+					border = "2px solid #d0d0d0";
+					clear = "both";
+					zIndex = "99";
+				};
+				return w;
+			},
+			hide : function () {
+				if(!this.lr) return;
+				this.lr.parentNode.removeChild(this.lr);
+				this.lr = null;
+			},
+			resize : function (w, h) {
+				if(!this.lr) return;
+				this.lr.style.width = w==0?"":(w+"px");
+				this.lr.style.height = h==0?"":(h+"px");
+			},
+			moveTo : function (x, y) {
+				if(!this.lr) return;
+				this.lr.style.left = x-2+"px";
+				this.lr.style.top = y-14+"px";
+			},
+			setHTML : function (html) {
+				if(!this.lr) return;
+				this.lr.innerHTML = html;
+			}
+		};
+		return POPUP;
+	}
+
+	var popup = new getPopupLayer();
+
+	function layoutFix() {
+		var div = document.getElementsByTagName("DIV");
+		for(var i = 0; i < div.length; i++)
+		if(div[i].className == "ref_layer") {
+			if(/^[^0-9]/.test(div[i].textContent)) {
+				div[i].style.padding = "0px 0px 0px 30px";
+				div[i].style.textIndent = "-30px";
+			}
+		} else if(div[i].className == "fig panel") {
+			var aid=img=h5=cap=dp=img_name='';
+			var fc = div[i].firstChild;
+			var chd = div[i].firstChild;
+			while(!chd.id) chd = chd.nextSibling;
+			var chd = chd.id;
+			var img_name = div[i].getElementsByTagName('IMG')[0].alt;
+
+			var dLink = document.createElement("P");
+			dLink.setAttribute("align", "right");
+			dLink.innerHTML = "<a href=\"/articles/ViewImage.php?fn="+img_name+"_0119jkma&mode=export\"><img src=\"/image/icon/down_figure.gif\" border=\"0\" alt=\"Download Figure\" title=\"Download Figure\"></a>";
+			div[i].appendChild(dLink);
+			
+			do {
+				if(fc.nodeName == "A") aid = fc.outerHTML;
+				if(fc.nodeName == "IMG") {
+					img = fc.outerHTML;
+					img_name = fc.nodeName.alt;
+				}
+				if(fc.nodeName == "H5") h5 = fc.outerHTML;
+				if(fc.nodeName == "P") dp = fc.outerHTML;
+				if(fc.nodeName == "DIV" && fc.className == "caption") cap = fc.outerHTML;
+			}while(fc = fc.nextSibling);
+			var nHTML;
+			if(!h5 && !cap) {
+				nHTML = aid+"<CENTER>"+img+"</CENTER>";
+			} else {
+				nHTML = aid+"<TABLE><TR><TD width='30%'>"+img+"</TD><TD valign='top' style='padding-left:10px;'>"+h5+cap+dp+"</TD></TR></TABLE>";
+			}
+
+			div[i].innerHTML = nHTML;
+			div[i].getElementsByTagName('IMG')[0].onclick = function () {
+				var img_name = this.alt;
+				var chd = this.parentNode;
+				while(chd.className != "fig panel") chd = chd.parentNode;
+				chd = chd.firstChild;
+				while(!chd.id) {
+					chd = chd.nextSibling;
+				}
+				var fid = chd.id;
+				window.open("/articles/ViewImage.php?fn="+img_name+"_0119jkma&id="+fid, "figureView","width=1000,height=1000,scrollbars=yes");
+				//window.open("/articles/Figure.php?xn=JKMA-55-711(3)&jc=0119jkma&id="+fid, "figureView","width=1000,height=1000,scrollbars=yes");
+			};
+		} else if(div[i].className == "table-wrap panel") {
+			
+			var img_name = div[i].getElementsByTagName('IMG')[0].alt;
+			var dLink = document.createElement("P");
+			dLink.setAttribute("align", "right");
+			dLink.innerHTML = "<a href=\"/articles/ViewImage.php?fn="+img_name+"_0119jkma&mode=export\"><img src=\"/image/icon/down_table.gif\" border=\"0\" alt=\"Download Table\" title=\"Download Table\"> </a>";
+			div[i].appendChild(dLink);
+
+			div[i].getElementsByTagName('IMG')[0].onclick = function () {
+				var img_name = this.alt;
+				var chd = this.parentNode;
+				while(chd.className != "table-wrap panel") chd = chd.parentNode;
+				chd = chd.firstChild;
+				while(!chd.id) {
+					chd = chd.nextSibling;
+				}
+				var tid = chd.id;
+				//window.open("/articles/Table.php?xn=JKMA-55-711(3)&jc=0119jkma&id="+tid, "tableView", "width=800,height=600,scrollbars=yes");
+				window.open("/articles/ViewImage.php?fn="+img_name+"_0119jkma&id="+tid, "figureView","width=1000,height=1000,scrollbars=yes");
+			};
+
+		}
+		
+		$(".panel").css("margin-bottom","25px");
+	}
+	setTimeout("layoutFix()", 1);
+	
+</script>	<style>
+		.flowplayer a{ max-width:0px; }
+	</style>
+
+	</div>
+
+	<div class="article_aside aside viewArea" style='width:25%;padding-left:30px;'>
+		        <dl class="tool">
+            <dt>TOOLS</dt>
+            <dd>
+                <ul>
+					<li><a href="/func/download.php?path=L2hvbWUvdmlydHVhbC9rYW1qZS9zeW5hcHNlL3VwbG9hZC9TeW5hcHNlRGF0YS9QREZEYXRhLzAxMTlqa21hL2prbWEtNTUtNzExLnBkZg==&filename=amttYS01NS03MTEucGRm")'><img src="/image/aside/ic_pdf.gif" alt="PDF Link" border="0"/> PDF Links</a></li><li><a href="/api/?mode=download&type=xml&kmsid=1042600"><img src="/image/aside/ic_xml.gif" alt="XML Download" border="0"/>XML Download</a></li><li><a href="/func/download.php?path=L2hvbWUvdmlydHVhbC9rYW1qZS9zeW5hcHNlL3VwbG9hZC9TeW5hcHNlRGF0YS9UcmFuc2Zvcm1EYXRhL0VQVUIvMDExOWprbWEvMTE5X2prbWFfNTVfOF83MTEuZXB1Yg==&filename=MTE5X2prbWFfNTVfOF83MTEuZXB1Yg==")'><img src="/image/aside/ic_epub.gif" alt="ePub Link" border="0"/> ePub Link</a></li>
+					<li>
+						<a href="/utils/CitationForm.php?ksid=1042600" target="_blank" onclick="window.open(this.href, '_blank', 'width=600,height=340'); return false;"><img src="/image/aside/ic_citation.gif" alt="Download Citation" border=0> Download Citation</a>
+                    </li>
+                    
+					<!--li>
+                        <a href="/journal/crossRefTDM.php?number=" target="_blank" onclick="window.open(this.href, 'CrossRef TDM', 'width=800,height=800,scrollbars=yes');return false;"><img src="/image/aside/ic_tdm.gif" alt="CrossRef TDM" border="0"/> CrossRef TDM</a>
+                    </li-->
+
+                    <li><a href="javascript:window.print();"><img src="/image/aside/ic_print.gif" alt="" /> Print</a></li>
+
+                    <li>
+                        &nbsp;&nbsp;&nbsp;Share :&nbsp;
+                        <a href="http://www.facebook.com/sharer.php?u=&t=" onclick="window.open(this.href, 'Facebook', 'width=800,height=500,scrollbars=yes');return false;">
+                            <img src="/image/aside/ic_facebook.gif" alt="Facebook" style='padding-left:10px;padding-right:0px;'/></a>
+                        <a href="http://twitter.com/home?status=" onclick="window.open(this.href, 'Twitter', 'width=750,height=500,scrollbars=yes');return false;">
+                            <img src="/image/aside/ic_twitter.gif" alt="Twitter" style='padding-left:10px;padding-right:0px;'/></a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=&title=" onclick="window.open(this.href, 'LinkedIn', 'width=750,height=500,scrollbars=yes');return false;">
+                            <img src="/image/aside/ic_linkedin.gif" alt="Linked In" style='padding-left:10px;padding-right:0px;'/></a>
+                    </li>
+
+                </ul>
+            </dd>
+        </dl>
+
+        <dl class="metrics">
+            
+			 <dt style='padding-top:17px;'>
+                Similar articles
+            </dt>
+
+            <dd>
+                            </dd>	
+        </dl>
+		    </div>
+</div>
+
+<style>
+#related a:hover, #inThisPage a:hover {
+	color: ;
+	text-decoration: none;
+}
+</style>
+        </div>
+
+        <div id="footer">
+            <p>Copyright &copy; 2026. Korean Association of Medical Journal Editors. <span class="footer_mobile">&nbsp;&nbsp;&nbsp;&nbsp;</span>E-mail: <a href="mailto:koreamed@kamje.or.kr">koreamed@kamje.or.kr</a></p>
+        </div>
+    </div>
+
+
+</body>
+</html>

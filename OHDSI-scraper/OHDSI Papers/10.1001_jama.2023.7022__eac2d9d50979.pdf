@@ -1,0 +1,2719 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Excess Mortality and Years of Potential Life Lost Among the Black Population in the US, 1999-2020 - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB8659D45DD030BB865001BC1763B.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="jamasd">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189563/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="JAMA">
+<meta name="citation_title" content="Excess Mortality and Years of Potential Life Lost Among the Black Population in the US, 1999-2020">
+<meta name="citation_author" content="César Caraballo">
+<meta name="citation_author_institution" content="Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_author_institution" content="Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut">
+<meta name="citation_author" content="Daisy S Massey">
+<meta name="citation_author_institution" content="University of Massachusetts T.H. Chan School of Medicine, Worcester">
+<meta name="citation_author" content="Chima D Ndumele">
+<meta name="citation_author_institution" content="Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut">
+<meta name="citation_author" content="Trent Haywood">
+<meta name="citation_author_institution" content="Zing Health, Chicago, Illinois">
+<meta name="citation_author" content="Shayaan Kaleem">
+<meta name="citation_author_institution" content="Department of Human Biology, University of Toronto, Toronto, Ontario, Canada">
+<meta name="citation_author" content="Terris King">
+<meta name="citation_author_institution" content="Lukan Group, Randallstown, Maryland">
+<meta name="citation_author" content="Yuntian Liu">
+<meta name="citation_author_institution" content="Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_author" content="Yuan Lu">
+<meta name="citation_author_institution" content="Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_author_institution" content="Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut">
+<meta name="citation_author" content="Marcella Nunez-Smith">
+<meta name="citation_author_institution" content="Equity Research and Innovation Center, Section of General Internal Medicine, Yale School of Medicine, New Haven, Connecticut">
+<meta name="citation_author" content="Herman A Taylor">
+<meta name="citation_author_institution" content="Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, Georgia">
+<meta name="citation_author" content="Karol E Watson">
+<meta name="citation_author_institution" content="Division of Cardiology, Department of Medicine, David Geffen School of Medicine, University of California, Los Angeles">
+<meta name="citation_author" content="Jeph Herrin">
+<meta name="citation_author_institution" content="Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut">
+<meta name="citation_author" content="Clyde W Yancy">
+<meta name="citation_author_institution" content="Division of Cardiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois">
+<meta name="citation_author_institution" content="Deputy Editor, JAMA Cardiology">
+<meta name="citation_author" content="Jeremy Samuel Faust">
+<meta name="citation_author_institution" content="Brigham and Women&#x27;s Hospital, Harvard Medical School, Boston, Massachusetts">
+<meta name="citation_author" content="Harlan M Krumholz">
+<meta name="citation_author_institution" content="Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_author_institution" content="Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut">
+<meta name="citation_author_institution" content="Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut">
+<meta name="citation_publication_date" content="2023 May 16">
+<meta name="citation_volume" content="329">
+<meta name="citation_issue" content="19">
+<meta name="citation_firstpage" content="1662">
+<meta name="citation_doi" content="10.1001/jama.2023.7022">
+<meta name="citation_pmid" content="37191702">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189563/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189563/">
+<meta name="description" content="How many excess deaths and years of potential life lost for the Black population, compared with the White population, occurred in the United States from 1999 through 2020? Based on Centers for Disease Control and Prevention data, excess deaths and ...">
+<meta name="og:title" content="Excess Mortality and Years of Potential Life Lost Among the Black Population in the US, 1999-2020">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="How many excess deaths and years of potential life lost for the Black population, compared with the White population, occurred in the United States from 1999 through 2020? Based on Centers for Disease Control and Prevention data, excess deaths and ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189563/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="10189563">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1001/jama.2023.7022"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC10189563%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/10189563/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/10189563/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189563/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-jamasd.png" alt="JAMA Network logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to JAMA Network" title="Link to JAMA Network" shape="default" href="https://doi.org/10.1001/jama.2023.7022" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">JAMA</button></div>. 2023 May 16;329(19):1662–1670. doi: <a href="https://doi.org/10.1001/jama.2023.7022" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1001/jama.2023.7022</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="JAMA"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="JAMA"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="JAMA"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="JAMA"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Excess Mortality and Years of Potential Life Lost Among the Black Population in the US, 1999-2020</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Caraballo%20C"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">César Caraballo</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">César Caraballo</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">
+<sup>2</sup>Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Caraballo%20C"[Author]' class="usa-link"><span class="name western">César Caraballo</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Massey%20DS"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Daisy S Massey</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Daisy S Massey</span>, <span class="degrees">BA</span>
+</h3>
+<div class="p">
+<sup>3</sup>University of Massachusetts T.H. Chan School of Medicine, Worcester</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Massey%20DS"[Author]' class="usa-link"><span class="name western">Daisy S Massey</span></a>
+</div>
+</div>
+<sup>3</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ndumele%20CD"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Chima D Ndumele</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Chima D Ndumele</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>4</sup>Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ndumele%20CD"[Author]' class="usa-link"><span class="name western">Chima D Ndumele</span></a>
+</div>
+</div>
+<sup>4</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Haywood%20T"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Trent Haywood</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Trent Haywood</span>, <span class="degrees">MD, JD</span>
+</h3>
+<div class="p">
+<sup>5</sup>Zing Health, Chicago, Illinois</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Haywood%20T"[Author]' class="usa-link"><span class="name western">Trent Haywood</span></a>
+</div>
+</div>
+<sup>5</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kaleem%20S"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Shayaan Kaleem</span></a><div hidden="hidden" id="id5">
+<h3><span class="name western">Shayaan Kaleem</span></h3>
+<div class="p">
+<sup>6</sup>Department of Human Biology, University of Toronto, Toronto, Ontario, Canada</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kaleem%20S"[Author]' class="usa-link"><span class="name western">Shayaan Kaleem</span></a>
+</div>
+</div>
+<sup>6</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="King%20T"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">Terris King</span></a><div hidden="hidden" id="id6">
+<h3>
+<span class="name western">Terris King</span>, <span class="degrees">BS, MS, ScD</span>
+</h3>
+<div class="p">
+<sup>7</sup>Lukan Group, Randallstown, Maryland</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="King%20T"[Author]' class="usa-link"><span class="name western">Terris King</span></a>
+</div>
+</div>
+<sup>7</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Liu%20Y"[Author]' class="usa-link" aria-describedby="id7"><span class="name western">Yuntian Liu</span></a><div hidden="hidden" id="id7">
+<h3>
+<span class="name western">Yuntian Liu</span>, <span class="degrees">MPH</span>
+</h3>
+<div class="p">
+<sup>1</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Liu%20Y"[Author]' class="usa-link"><span class="name western">Yuntian Liu</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lu%20Y"[Author]' class="usa-link" aria-describedby="id8"><span class="name western">Yuan Lu</span></a><div hidden="hidden" id="id8">
+<h3>
+<span class="name western">Yuan Lu</span>, <span class="degrees">ScD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">
+<sup>2</sup>Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Lu%20Y"[Author]' class="usa-link"><span class="name western">Yuan Lu</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Nunez-Smith%20M"[Author]' class="usa-link" aria-describedby="id9"><span class="name western">Marcella Nunez-Smith</span></a><div hidden="hidden" id="id9">
+<h3>
+<span class="name western">Marcella Nunez-Smith</span>, <span class="degrees">MD, MHS</span>
+</h3>
+<div class="p">
+<sup>8</sup>Equity Research and Innovation Center, Section of General Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Nunez-Smith%20M"[Author]' class="usa-link"><span class="name western">Marcella Nunez-Smith</span></a>
+</div>
+</div>
+<sup>8</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Taylor%20HA"[Author]' class="usa-link" aria-describedby="id10"><span class="name western">Herman A Taylor</span></a><div hidden="hidden" id="id10">
+<h3>
+<span class="name western">Herman A Taylor</span>, <span class="degrees">MD, MPH</span>
+</h3>
+<div class="p">
+<sup>9</sup>Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, Georgia</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Taylor%20HA"[Author]' class="usa-link"><span class="name western">Herman A Taylor</span></a>
+</div>
+</div>
+<sup>9</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Watson%20KE"[Author]' class="usa-link" aria-describedby="id11"><span class="name western">Karol E Watson</span></a><div hidden="hidden" id="id11">
+<h3>
+<span class="name western">Karol E Watson</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>10</sup>Division of Cardiology, Department of Medicine, David Geffen School of Medicine, University of California, Los Angeles</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Watson%20KE"[Author]' class="usa-link"><span class="name western">Karol E Watson</span></a>
+</div>
+</div>
+<sup>10</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Herrin%20J"[Author]' class="usa-link" aria-describedby="id12"><span class="name western">Jeph Herrin</span></a><div hidden="hidden" id="id12">
+<h3>
+<span class="name western">Jeph Herrin</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>2</sup>Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Herrin%20J"[Author]' class="usa-link"><span class="name western">Jeph Herrin</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Yancy%20CW"[Author]' class="usa-link" aria-describedby="id13"><span class="name western">Clyde W Yancy</span></a><div hidden="hidden" id="id13">
+<h3>
+<span class="name western">Clyde W Yancy</span>, <span class="degrees">MD, MSc</span>
+</h3>
+<div class="p">
+<sup>11</sup>Division of Cardiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois</div>
+<div class="p">
+<sup>12</sup>Deputy Editor, <em>JAMA Cardiology</em>
+</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Yancy%20CW"[Author]' class="usa-link"><span class="name western">Clyde W Yancy</span></a>
+</div>
+</div>
+<sup>11,</sup><sup>12</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Faust%20JS"[Author]' class="usa-link" aria-describedby="id14"><span class="name western">Jeremy Samuel Faust</span></a><div hidden="hidden" id="id14">
+<h3>
+<span class="name western">Jeremy Samuel Faust</span>, <span class="degrees">MD, MS</span>
+</h3>
+<div class="p">
+<sup>13</sup>Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Faust%20JS"[Author]' class="usa-link"><span class="name western">Jeremy Samuel Faust</span></a>
+</div>
+</div>
+<sup>13</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Krumholz%20HM"[Author]' class="usa-link" aria-describedby="id15"><span class="name western">Harlan M Krumholz</span></a><div hidden="hidden" id="id15">
+<h3>
+<span class="name western">Harlan M Krumholz</span>, <span class="degrees">MD, SM</span>
+</h3>
+<div class="p">
+<sup>1</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">
+<sup>2</sup>Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div class="p">
+<sup>4</sup>Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Krumholz%20HM"[Author]' class="usa-link"><span class="name western">Harlan M Krumholz</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2,</sup><sup>4,</sup><sup>✉</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="joi230047aff1">
+<sup>1</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div id="joi230047aff2">
+<sup>2</sup>Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div id="joi230047aff3">
+<sup>3</sup>University of Massachusetts T.H. Chan School of Medicine, Worcester</div>
+<div id="joi230047aff4">
+<sup>4</sup>Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut</div>
+<div id="joi230047aff5">
+<sup>5</sup>Zing Health, Chicago, Illinois</div>
+<div id="joi230047aff6">
+<sup>6</sup>Department of Human Biology, University of Toronto, Toronto, Ontario, Canada</div>
+<div id="joi230047aff7">
+<sup>7</sup>Lukan Group, Randallstown, Maryland</div>
+<div id="joi230047aff8">
+<sup>8</sup>Equity Research and Innovation Center, Section of General Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div id="joi230047aff9">
+<sup>9</sup>Cardiovascular Research Institute, Morehouse School of Medicine, Atlanta, Georgia</div>
+<div id="joi230047aff10">
+<sup>10</sup>Division of Cardiology, Department of Medicine, David Geffen School of Medicine, University of California, Los Angeles</div>
+<div id="joi230047aff11">
+<sup>11</sup>Division of Cardiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois</div>
+<div id="joi230047aff12">
+<sup>12</sup>Deputy Editor, <em>JAMA Cardiology</em>
+</div>
+<div id="joi230047aff13">
+<sup>13</sup>Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts</div>
+<div class="author-notes p">
+<div class="fn" id="p1"><p><strong>Accepted for Publication:</strong> April 11, 2023.</p></div>
+<div class="fn" id="joi230047cor1">
+<sup>✉</sup><p class="display-inline"><strong>Corresponding Author:</strong> Harlan M. Krumholz, MD, SM, Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, 195 Church St, Fifth Floor, New Haven, CT 06510 (<span>harlan.krumholz@yale.edu</span>).</p>
+</div>
+<div class="fn" id="p2">
+<p><strong>Author Contributions:</strong> Dr Caraballo had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.</p>
+<p><em>Concept and design:</em> Caraballo, Massey, Nunez-Smith, Watson, Faust, Krumholz.</p>
+<p><em>Acquisition, analysis, or interpretation of data:</em> Caraballo, Massey, Ndumele, Haywood, Kaleem, King, Liu, Lu, Taylor, Watson, Herrin, Yancy, Faust, Krumholz.</p>
+<p><em>Drafting of the manuscript:</em> Caraballo, Krumholz.</p>
+<p><em>Critical revision of the manuscript for important intellectual content:</em> Massey, Ndumele, Haywood, Kaleem, King, Liu, Lu, Nunez-Smith, Taylor, Watson, Herrin, Yancy, Faust, Krumholz.</p>
+<p><em>Statistical analysis:</em> Caraballo, Massey, Kaleem, Liu, Lu.</p>
+<p><em>Obtained funding:</em> Watson, Krumholz.</p>
+<p><em>Administrative, technical, or material support:</em> Ndumele, Kaleem, Nunez-Smith, Watson.</p>
+<p><em>Supervision:</em> Haywood, Nunez-Smith, Watson, Yancy, Krumholz.</p>
+<p><strong>Conflict of Interest Disclosures:</strong> Dr Haywood reported that he is the chief medical officer of Zing Health and had served as deputy chief medical officer for the Centers for Medicare &amp; Medicaid Services, Blue Cross Blue Shield Association, and Vizient. Dr Taylor reported serving as an advisor and consultant for UnitedHealth Group, Pfizer, and Novartis. Dr Yancy reported spousal (former) employment at Abbott Labs, Inc. Dr Krumholz reported receiving personal fees from UnitedHealth, Element Science, Eyedentifeye, and F-Prime; being a cofounder of Refactor Health and HugoHealth; and being associated with contracts, through Yale New Haven Hospital, from the Centers for Medicare &amp; Medicaid Services and through Yale University from the US Food and Drug Administration, Johnson &amp; Johnson, Pfizer, and Google. No other disclosures were reported.</p>
+<p><strong>Disclaimer:</strong> Dr Yancy is Deputy Editor of <em>JAMA Cardiology</em>, but he was not involved in any of the decisions regarding review of the manuscript or its acceptance.</p>
+<p><strong>Data Sharing Statement:</strong> See <a href="#note-JOI230047-1-s" class="usa-link">Supplement 2</a>.</p>
+</div>
+<div class="fn" id="_fncrsp93pmc__">
+<sup>✉</sup><p class="display-inline">Corresponding author.</p>
+</div>
+</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Received 2022 Dec 31; Accepted 2023 Apr 11; Issue date 2023 May 16.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>Copyright 2023 American Medical Association. All Rights Reserved.</div>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC10189563  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37191702/" class="usa-link">37191702</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article">
+<div>See "<a href="/articles/PMC9121301/" class="usa-link">Trends in Cancer Mortality Among Black Individuals in the US From 1999 to 2019</a>" in <em>JAMA Oncol</em>,  volume 8 on page 1184.</div>
+<div>See "<a href="/articles/PMC10018407/" class="usa-link">State-Level Cardiovascular Mortality Rates Among Hispanic, Non-Hispanic Black, and Non-Hispanic White Populations, 1990 to 2019</a>" in <em>JAMA Cardiol</em>,  volume 8 on page 429.</div>
+<div>See "<a href="/articles/PMC9171658/" class="usa-link">Association of Estimated GFR Calculated Using Race-Free Equations With Kidney Failure and Mortality by Black vs Non-Black Race</a>" in  volume 327 on page 2306.</div>
+<div>See "<a href="/articles/PMC9386890/" class="usa-link">Comparison of All-Cause Mortality Rates and Inequities Between Black
+and White Populations Across the 30 Most Populous US Cities</a>" in <em>JAMA Netw Open</em>,  volume 4, e2032086.</div>
+<div>
+<strong>This article has been corrected.</strong> See <a href="/articles/PMC10463167/" class="usa-link">JAMA. 2023 Aug 28;330(11):1101</a>.</div>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Key Points</h2>
+<section id="ab-joi230047-1"><h3 class="pmc_sec_title">Question</h3>
+<p>How many excess deaths and years of potential life lost for the Black population, compared with the White population, occurred in the United States from 1999 through 2020?</p></section><section id="ab-joi230047-2"><h3 class="pmc_sec_title">Findings</h3>
+<p>Based on Centers for Disease Control and Prevention data, excess deaths and years of potential life lost persisted throughout the period, with initial progress followed by stagnation of improvement and substantial worsening in 2020. The Black population had 1.63 million excess deaths, representing more than 80 million years of potential life lost over the study period.</p></section><section id="ab-joi230047-3"><h3 class="pmc_sec_title">Meaning</h3>
+<p>After initial progress, excess mortality and years of potential life lost among the US Black population stagnated and then worsened, indicating a need for new approaches.</p></section></section><section class="abstract" id="abstract2"><h2>Abstract</h2>
+<section id="ab-joi230047-4"><h3 class="pmc_sec_title">Importance</h3>
+<p>Amid efforts in the US to promote health equity, there is a need to assess recent progress in reducing excess deaths and years of potential life lost among the Black population compared with the White population.</p></section><section id="ab-joi230047-5"><h3 class="pmc_sec_title">Objective</h3>
+<p>To evaluate trends in excess mortality and years of potential life lost among the Black population compared with the White population.</p></section><section id="ab-joi230047-6"><h3 class="pmc_sec_title">Design, setting, and participants</h3>
+<p>Serial cross-sectional study using US national data from the Centers for Disease Control and Prevention from 1999 through 2020. We included data from non-Hispanic White and non-Hispanic Black populations across all age groups.</p></section><section id="ab-joi230047-7"><h3 class="pmc_sec_title">Exposures</h3>
+<p>Race as documented in the death certificates.</p></section><section id="ab-joi230047-8"><h3 class="pmc_sec_title">Main outcomes and measures</h3>
+<p>Excess age-adjusted all-cause mortality, cause-specific mortality, age-specific mortality, and years of potential life lost rates (per 100 000 individuals) among the Black population compared with the White population.</p></section><section id="ab-joi230047-9"><h3 class="pmc_sec_title">Results</h3>
+<p>From 1999 to 2011, the age-adjusted excess mortality rate declined from 404 to 211 excess deaths per 100 000 individuals among Black males (<em>P</em> for trend &lt;.001). However, the rate plateaued from 2011 through 2019 (<em>P</em> for trend = .98) and increased in 2020 to 395—rates not seen since 2000. Among Black females, the rate declined from 224 excess deaths per 100 000 individuals in 1999 to 87 in 2015 (<em>P</em> for trend &lt;.001). There was no significant change between 2016 and 2019 (<em>P</em> for trend = .71) and in 2020 rates increased to 192—levels not seen since 2005. The trends in rates of excess years of potential life lost followed a similar pattern. From 1999 to 2020, the disproportionately higher mortality rates in Black males and females resulted in 997 623 and 628 464 excess deaths, respectively, representing a loss of more than 80 million years of life. Heart disease had the highest excess mortality rates, and the excess years of potential life lost rates were largest among infants and middle-aged adults.</p></section><section id="ab-joi230047-10"><h3 class="pmc_sec_title">Conclusions and relevance</h3>
+<p>Over a recent 22-year period, the Black population in the US experienced more than 1.63 million excess deaths and more than 80 million excess years of life lost when compared with the White population. After a period of progress in reducing disparities, improvements stalled, and differences between the Black population and the White population worsened in 2020.</p></section></section><section class="abstract" id="abstract3"><hr class="headless">
+<p>This study focuses on differences in mortality and years of potential life lost between Black and White populations to understand recent trends.</p></section><section id="H1-1-JOI230047"><h2 class="pmc_sec_title">Introduction</h2>
+<p>In 1985, the US Department of Health and Human Services (HHS) Secretary Margaret M. Heckler issued the Report of the Secretary’s Task Force on Black and Minority Health, also known as the Heckler Report.<sup><a href="#joi230047r1" class="usa-link" aria-describedby="joi230047r1">1</a></sup> The landmark report found that the Black population had strikingly higher mortality rates than the White population, resulting in almost 60 000 excess deaths a year relative to the White population. Race offers no intrinsic biological reason for those categorized as Black individuals to have worse outcomes than White individuals, indicating therefore that these disparities are driven by the burden of acquired risk factors, influence of social determinants of health, limitations in access to care, and structural barriers indicative of bias (ie, structural racism).<sup><a href="#joi230047r2" class="usa-link" aria-describedby="joi230047r2">2</a>,<a href="#joi230047r3" class="usa-link" aria-describedby="joi230047r3">3</a>,<a href="#joi230047r4" class="usa-link" aria-describedby="joi230047r4">4</a>,<a href="#joi230047r5" class="usa-link" aria-describedby="joi230047r5">5</a>,<a href="#joi230047r6" class="usa-link" aria-describedby="joi230047r6">6</a>,<a href="#joi230047r7" class="usa-link" aria-describedby="joi230047r7">7</a>,<a href="#joi230047r8" class="usa-link" aria-describedby="joi230047r8">8</a>,<a href="#joi230047r9" class="usa-link" aria-describedby="joi230047r9">9</a></sup> Although these static disparities in mortality were and have since been documented, the cumulative magnitude of compounded inequities has not been well articulated. Such metrics, as they relate to racial disparities, can both focus national efforts and communicate progress (or lack thereof).</p>
+<p>The Heckler Report focused on excess mortality, as had prior seminal academic reports by Du Bois and others.<sup><a href="#joi230047r10" class="usa-link" aria-describedby="joi230047r10">10</a>,<a href="#joi230047r11" class="usa-link" aria-describedby="joi230047r11">11</a>,<a href="#joi230047r12" class="usa-link" aria-describedby="joi230047r12">12</a>,<a href="#joi230047r13" class="usa-link" aria-describedby="joi230047r13">13</a></sup> Although comparative death rates are a common way to describe one aspect of health inequity, they do not constitute a summary measure and do not convey the impact of differences in mortality across different age groups. Quantifying excess years of potential life lost provides a complemental and deeper measure of the differential burden of excess mortality as a function of race by giving more weight to deaths at younger ages, thus addressing the impact on the social and economic loss from early deaths.<sup><a href="#joi230047r14" class="usa-link" aria-describedby="joi230047r14">14</a>,<a href="#joi230047r15" class="usa-link" aria-describedby="joi230047r15">15</a></sup> Communicating the mortality inequity within a population in terms of excess number of people lost or excess years lost may create the more compelling case for change in the underlying causes of these disparities. However, there is little recent information on the trends in years of potential life lost by race, especially so in Black populations compared with White populations. Because these mortality metrics call attention to the aggregate burden of health inequities, addressing this knowledge gap could motivate national reporting of excess deaths and reporting of years of potential life lost among the Black population.</p>
+<p>Accordingly, excess deaths and years of potential life lost as metrics are presented herein to quantify, track, and drive change in the effect of health inequities on lives and years lost, placing in bright relief the health consequences of race in the US. Importantly, these metrics may summarize the inequitable loss of life in a form that can be readily communicated to the general US public as key—though not sole—indicators of the overall societal progress toward health equity. Over the most recent 22-year period for which data are available, the difference in mortality and years of potential life lost rates were calculated between the Black population and the White population in the US. These disparities were also investigated by causes of death and how they varied by age. Besides focusing on the period before the COVID-19 pandemic, this analysis focused on 2020 to provide an early perspective on differences attributable to the pandemic. These metrics can draw attention to the magnitude of the disparities, thereby attracting resources and promoting action to address the unmet need for progress.<sup><a href="#joi230047r16" class="usa-link" aria-describedby="joi230047r16">16</a></sup></p>
+<p>This study focuses on differences in non-Hispanic Black and non-Hispanic White populations to understand recent trends in disparities between these 2 specific groups, with the non-Hispanic White population as the reference group. Nevertheless, subsequent studies using data from other racial, ethnic, and socioeconomic groups would be needed to have a complete understanding of mortality inequities in the US.</p></section><section id="H1-2-JOI230047"><h2 class="pmc_sec_title">Methods</h2>
+<section id="H2-1-JOI230047"><h3 class="pmc_sec_title">Data Source</h3>
+<p>We used national US death certificate data from the Centers for Disease Control and Prevention Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) for the years 1999 through 2020.<sup><a href="#joi230047r17" class="usa-link" aria-describedby="joi230047r17">17</a></sup> For this period, we obtained the annual life expectancy by 5-year age groups from the National Center for Health Statistics life tables.<sup><a href="#joi230047r18" class="usa-link" aria-describedby="joi230047r18">18</a></sup> The Yale institutional review boards waived this study from review because it used deidentified population-level data that are publicly available; thus, it was designated as not human–participant research.</p></section><section id="H2-2-JOI230047"><h3 class="pmc_sec_title">Study Population</h3>
+<p>We included data from the non-Hispanic Black or African American (hereafter Black) population and the non-Hispanic White (hereafter White) population. From CDC WONDER, the annual number of deaths, population size, and age-adjusted mortality rate (per 100 000 individuals) by race (Black, White), sex (female, male), and age were obtained. Also included were the 15 leading causes of death from 1999-2020 among both populations, separately, resulting in a total of 18 unique causes of death (eMethods, eTables 1, 2, and 3 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>). For 2020 only, we also included deaths due to COVID-19.</p></section><section id="H2-3-JOI230047"><h3 class="pmc_sec_title">Statistical Analysis</h3>
+<p>For all analyses, we stratified by sex and reported rates per 100 000 individuals. For each year, all-cause excess age-adjusted mortality rate was calculated by subtracting the year-specific age-adjusted mortality rate among the White population from that of the Black population. Similarly, the annual age-adjusted mortality rate ratio was estimated by dividing the age-adjusted mortality rate of the Black population by that of the White population.</p>
+<p>Separately, to estimate the excess number of deaths, we estimated the annual age-specific mortality rate using 10-year age groups by race and then multiplied the White population age-specific mortality rate by the Black population size for that calendar year. Then, the hypothetical number of deaths among the Black population was divided by the Black population size to arrive at a hypothetical annual Black population mortality rate. We subtracted this hypothetical rate from the observed Black population mortality rate to arrive at the estimated excess age-specific Black population mortality rate, which we multiplied by the observed Black population size to obtain the total annual and 22-year cumulative number of excess deaths among the Black population.<sup><a href="#joi230047r19" class="usa-link" aria-describedby="joi230047r19">19</a></sup></p>
+<p>Then, we estimated the rate of annual years of potential life lost (defined as the number of years that a person would have lived had they not died when they did)<sup><a href="#joi230047r20" class="usa-link" aria-describedby="joi230047r20">20</a></sup> for each race by multiplying each 5-year age group’s crude mortality rate by its respective annual sex- and age-specific life expectancy in years and obtaining the mean rate across all age groups. For both racial groups, year-, age-, and sex-specific White life expectancy was used as the referent metric (eTable 2 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>).<sup><a href="#joi230047r18" class="usa-link" aria-describedby="joi230047r18">18</a></sup></p>
+<p>To assess the trends over the study period, we graphically assessed the relationship between each metric and study year. Based on this assessment, we used autoregressive integrated moving average models using a 1-year correlation and modeled time as a linear spline with knots that reflected the observed inflection points from 1999 through 2019 (eMethods in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>) and used a <em>z</em> test to estimate the 2019-2020 change. Separately, annual rates in age-adjusted excess deaths and years of potential life lost rates were calculated and visually evaluated by the leading causes of death (eMethods, eTable 1 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>).</p>
+<p>To estimate mortality differences by age, we combined all study years and used the average crude mortality rate for each 5-year age group and subtracted the age-specific mortality rate of the White population from that of the Black population. Similarly, to estimate the rate differences by age in years of potential life lost, we estimated the annual mortality rate for each age group, multiplied it by their respective annual sex- and age-specific life expectancy in years, and then estimated the mean rate of years of potential life lost for each age group across the entire study period. Lastly, changes in the relationship between age and the excess mortality rate and the years of potential life lost rate were visually assessed over the study period by analyzing separately data from 5-year periods.</p>
+<p>Cause-of-death heatmaps were produced using Python version 3.7.<sup><a href="#joi230047r21" class="usa-link" aria-describedby="joi230047r21">21</a>,<a href="#joi230047r22" class="usa-link" aria-describedby="joi230047r22">22</a>,<a href="#joi230047r23" class="usa-link" aria-describedby="joi230047r23">23</a>,<a href="#joi230047r24" class="usa-link" aria-describedby="joi230047r24">24</a>,<a href="#joi230047r25" class="usa-link" aria-describedby="joi230047r25">25</a></sup> All statistical tests performed were 2-sided, with a level of significance of .05, using Stata SE version 17.0 (StataCorp).</p></section></section><section id="H1-3-JOI230047"><h2 class="pmc_sec_title">Results</h2>
+<section id="H2-4-JOI230047"><h3 class="pmc_sec_title">Temporal Trends in Racial Differences in Mortality and Years of Potential Life Lost Rates</h3>
+<p>From 1999 to 2011, the age-adjusted excess mortality rate declined from 404 to 211 excess deaths per 100 000 individuals among Black males (1999-2007, <em>P </em>for trend &lt; .001; 2007-2011, <em>P </em>for trend &lt; .001; <a href="#joi230047f1" class="usa-link">Figure 1</a>). However, the rate plateaued from 2012 through 2019 (<em>P</em> for trend = .98), with a subsequent single-year increase in 2020 to 395, rates not seen since 2000 (<a href="#joi230047f1" class="usa-link">Figure 1</a>). Among Black females, the estimated age-adjusted excess mortality rate declined from 224 excess deaths per 100 000 individuals in 1999 to 87 in 2015 (<em>P</em> for trend &lt;.001; <a href="#joi230047f1" class="usa-link">Figure 1</a>). There was no significant change between 2016 and 2019 (<em>P</em> for trend = .71), but in 2020 rates increased to 192—levels not seen since 2005 (<a href="#joi230047f1" class="usa-link">Figure 1</a>). Although a similar pattern was observed in the total number of excess deaths, in 2020 the number of excess deaths among both Black males and Black females was higher than in any other year of the entire study period (79 801 and 47 545 excess deaths, respectively; eFigure 1 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>). In relative terms, over the study period the age-adjusted mortality rate ranged from 21% to 40% higher among Black males and from 13% to 31% higher among Black females compared with their White counterparts (eFigure 2 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>).</p>
+<figure class="fig xbox font-sm" id="joi230047f1"><h4 class="obj_head">Figure 1.  US Black Population Excess Age-Adjusted Mortality and Years of Potential Life Lost Rates, 1999-2020.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/92da/10189563/af306d9320ba/jama-e237022-g001.jpg" loading="lazy" height="2308" width="3892" alt="Figure 1. "></p>
+<div class="p text-right font-secondary"><a href="figure/joi230047f1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>To assess trends over time, the relationship between each metric and study year was graphically assessed, and time was modeled as a linear spline with knots that reflected the observed inflection points from 1999 to 2019. For excess mortality rates, these inflection points were from 2007 to 2011 for males and 2015 for females. For excess rates of years of potential life lost, the knots were 2007 and 2011 for males and 2012 for females. Rates that fall above the dotted line indicate rates higher than the White population and those that fall below, rates lower than the White population. Autoregressive integrated moving average models using a 1-year correlation were implemented to account for the serial correlation of annual rates. The 2019-2020 change was estimated using a <em>z</em> test.</p></figcaption></figure><p>In 1999, the excess years of potential life lost for Black males and Black females were 14 964 and 10 806 per 100 000 people, respectively. There was a continuous decline until 2011 among males (<em>P</em> for trend &lt; .001), and until 2012 among females (<em>P</em> for trend &lt; .001; <a href="#joi230047f1" class="usa-link">Figure 1</a>). Then there was a plateau until 2019 for both groups (<em>P</em> for trend = .26 for males and <em>P</em> for trend = .90 for females), after which the rate of excess years of potential life lost increased in 2020 to rates similar to those of 2001 and 2005 among Black males and Black females, respectively (<a href="#joi230047f1" class="usa-link">Figure 1</a>). Although there was a reduction in absolute numbers of years of potential life lost from 1999 through 2019, in 2020 the total excess years of potential life lost reached its highest number among Black males (2 898 669 years) and reached numbers similar to those in 1999 among Black females (1 940 604 years; eFigure 3 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>). The annual years of potential life lost rate ratio followed a similar pattern over the 22-year period (eFigure 4 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>).</p>
+<p>The rates of age-adjusted mortality and years of potential life lost are reported separately for the Black population and the White population in eFigure 5 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>.</p>
+<p>When analyzed by cause of death and year, the highest excess mortality rates among the Black population through the study period were due to heart disease (<a href="#joi230047f2" class="usa-link">Figure 2</a>). In both sex groups, excess mortality rates for leading causes of death (eg, heart disease, cancer, diabetes) generally decreased over the study period, except for deaths due to assault and cerebrovascular disease in Black males. There were similar patterns in rates of years of potential life lost, with the notable exception of perinatal deaths, which had the highest rates of years of potential life lost through the study period (<a href="#joi230047f2" class="usa-link">Figure 2</a>).</p>
+<figure class="fig xbox font-sm" id="joi230047f2"><h4 class="obj_head">Figure 2.  US Black Population Excess Age-Adjusted Mortality and Years of Potential Life Lost Rates by Leading Causes of Death, 1999-2020.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/92da/10189563/04784050c99d/jama-e237022-g002.jpg" loading="lazy" height="3325" width="5504" alt="Figure 2. "></p>
+<div class="p text-right font-secondary"><a href="figure/joi230047f2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Excess mortality or the years of potential life lost rates were defined as the difference in each year’s mortality rate or years of potential life lost rate between the Black population and the White population. All rates are estimated per 100 000 individuals. Presented herein are the 22-year leading causes of death among both populations (details are in the Methods section). For visualization purposes, causes of death are presented in descending order based on the mean 22-year excess mortality rate among Black males. An excess mortality rate or years of potential life lost rate of 0 is shown in white and represents the absence of a difference. In shades of red are the annual metrics for which the Black population estimates were higher than those of the White population. In shades of blue are the annual metrics for which the White population estimates were higher than those of the Black population.</p></figcaption></figure><p>In 2020, the highest excess age-adjusted mortality rate among Black males was for deaths due to COVID-19 (80 per 100 000 individuals), whereas it was only second to heart disease among Black females (47 per 100 000 individuals). Similarly, the excess years of potential life lost due to COVID-19 (per 100 000 individuals) was 2572 among Black males and 1759 among Black females, in both groups ranking third below conditions from the perinatal period and heart disease (eFigure 6 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>).</p></section><section id="H2-5-JOI230047"><h3 class="pmc_sec_title">Cumulative 22-Year Excess Mortality and Years of Potential Life Lost Among the Black Population</h3>
+<p>From 1999 to 2020, the mean age-adjusted mortality rate among White males and females was 930.7 and 667.7, respectively, whereas among Black males and females it was 1214.9 and 816.3, respectively. There was a total of 997 623 estimated excess deaths among Black males and 628 464 excess deaths among Black females over the study period. The distribution of excess deaths by age group is shown in eFigure 7 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>. The mean 22-year rate per 100 000 individuals of years of potential life lost among White males and females was 20 365 and 15 428, respectively, whereas among Black males and females it was 31 944 and 23 360, respectively. This represented an estimated total of 47 005 048 and 34 938 070 excess years of potential life lost among Black males and Black females, respectively.</p></section><section id="H2-6-JOI230047"><h3 class="pmc_sec_title">Racial Differences in Rates of Mortality and Years of Potential Life Lost Rate by Age Group</h3>
+<p>Among those younger than 1 year, excessive deaths per 100 000 individuals among Black males were 776 and among Black females, 654. Such rates narrowed among those aged 1 to 14 years among males, and among those aged 1 through 20 years among females. The maximum excess death rate occurred among those between the ages of 75 and 79 years, reaching 1302 per 100 000 males and 677 per 100 000 females (<a href="#joi230047f3" class="usa-link">Figure 3</a>; eFigure 8 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>). The greatest difference in years of potential life lost rate between the Black population and the White population was among those younger than 1 year (59 232 per 100 000 Black males and 53 061 per 100 000 Black females), decreasing to its minimum among those between the ages of 1 and 14 years. Consistent with the excess mortality pattern, the rate of excess years of potential life lost increased with age among males older than 15 years and among females older than 20 years, increasing up to those aged 65 to 69 years old and decreasing among those older (<a href="#joi230047f3" class="usa-link">Figure 3</a>; eFigure 9 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>). The strength of the association between age and the rates of excess mortality and years of potential life lost shifted lower from 1999 through 2018, increasing again in 2019-2020, particularly among middle aged and older adults (eFigure 10 in <a href="#note-JOI230047-1-s" class="usa-link">Supplement 1</a>).</p>
+<figure class="fig xbox font-sm" id="joi230047f3"><h4 class="obj_head">Figure 3.  US Black Population Excess Mortality Rate and Years of Potential Life Lost by Age Group.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/92da/10189563/52548601bdc2/jama-e237022-g003.jpg" loading="lazy" height="1383" width="3892" alt="Figure 3. "></p>
+<div class="p text-right font-secondary"><a href="figure/joi230047f3/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Excess mortality rates among the US Black population by age group were calculated by subtracting the mortality rate of the White population from that of the Black population. Excess years of potential life lost rates among the US Black population were defined as the difference in years of potential life lost within each age group between the Black population and the White population. An excess mortality or years of potential life lost rate of 0 represents the absence of a difference. Rates were estimated per 100 000 individuals. Rates that fall above the blue dotted line indicate rates higher than the White population and those that fall below, rates lower than the White population.</p></figcaption></figure></section></section><section id="H1-4-JOI230047"><h2 class="pmc_sec_title">Discussion</h2>
+<p>In this study of US mortality data from 1999 through 2020, an estimated 997 623 excess deaths occurred among Black males and 628 464 excess deaths among Black females relative to their White counterparts—accounting for a total of 1.63 million excess deaths. These excess deaths corresponded to a total of 47 million and 35 million excess years of potential life lost among Black males and Black females, respectively. After a period of progress from 1999 to the early 2010s, improvements stalled at least through 2020 when, coincident with the first year of the pandemic, the number of excess deaths increased abruptly and exceeded that of any previous year of the study. Moreover, even at the lowest of excess of deaths and years of potential life lost there were more than 50 000 annual excess deaths and 3 million annual excess years of potential life lost among the Black population compared with the White population. Differences in loss of life were most prominent among infants, with Black-White mortality and years of potential life lost rate ratios greater than 2.3 among those younger than 1 year old. Heart disease in both sexes and cancer in males were the largest drivers of differences in excess deaths. Broadly, these findings indicate that current efforts to curb or eliminate mortality disparities have been minimally effective, and progress, when made, has been fragile.</p>
+<p>This study should serve as a call to action—especially for policy makers—as we highlighted and contextualized the substantial toll of structural racism on life in the US. Although the specific causes and drivers of differences in deaths and years of potential life lost are multifactorial and warrant further study, the sheer scale of the difference requires a revisiting of our national approach to combatting disparities. A wealth of prior work, however, points to the contribution of structural racism, unmet social needs, and systemic bias as root causes.<sup><a href="#joi230047r2" class="usa-link" aria-describedby="joi230047r2">2</a>,<a href="#joi230047r3" class="usa-link" aria-describedby="joi230047r3">3</a>,<a href="#joi230047r4" class="usa-link" aria-describedby="joi230047r4">4</a>,<a href="#joi230047r5" class="usa-link" aria-describedby="joi230047r5">5</a></sup> This study also demonstrated that a brief period of progress stalled and disparities substantially worsened at the onset of and well into the early pandemic. Although this study was not equipped to address the long-term effect of the pandemic on racial disparities, these early trends are consistent with the fear that the pandemic both disproportionately attacked populations experiencing structural inequities and increased existing disparities. The increase in excess mortality among the Black population relative to the White population during the pandemic was so large that it reached levels not seen in the prior 2 decades. In addition to pandemic-specific factors (eg, disproportionately higher infection exposure, financial instability, food insecurity, psychological distress), the pervasive social factors that contributed to such high vulnerability among the Black population include persistently higher barriers to health care, higher prevalence of multimorbidity, and worse average health status.<sup><a href="#joi230047r6" class="usa-link" aria-describedby="joi230047r6">6</a>,<a href="#joi230047r7" class="usa-link" aria-describedby="joi230047r7">7</a>,<a href="#joi230047r26" class="usa-link" aria-describedby="joi230047r26">26</a></sup> Overall, these findings demonstrate the potential for progress but indicate the fragility of the gains and herald a need for new approaches to ensure sustainability of advancements.</p>
+<p>Prior studies have found persistently large numbers of excess deaths among the Black population but have not explicitly quantified excess years of potential life lost, nor have they measured excess deaths over a recent period. A study found that the disparity in mortality rates between the Black population and the White population remained mostly stable from 1960 to 2000, and another report estimated that 2.7 million excess deaths occurred among the Black population from 1970 to 2004.<sup><a href="#joi230047r27" class="usa-link" aria-describedby="joi230047r27">27</a></sup> A separate study found that from 1990 to 2000, the decade leading to the current study period, nearly a million deaths among the Black population would have been averted had their mortality rates been comparable with those of the White population.<sup><a href="#joi230047r19" class="usa-link" aria-describedby="joi230047r19">19</a></sup> We found that excess mortality declined substantially from 1999 through the early 2010s, consistent with other studies of Black and White mortality rates.<sup><a href="#joi230047r28" class="usa-link" aria-describedby="joi230047r28">28</a>,<a href="#joi230047r29" class="usa-link" aria-describedby="joi230047r29">29</a></sup> In the current study, there were no substantial increases in all-cause age-adjusted mortality rates for White males and females. These observations could indicate the success of efforts toward reducing disparities. However, the disproportionately higher increases in mortality among White younger adults in the 2000s<sup><a href="#joi230047r30" class="usa-link" aria-describedby="joi230047r30">30</a>,<a href="#joi230047r31" class="usa-link" aria-describedby="joi230047r31">31</a>,<a href="#joi230047r32" class="usa-link" aria-describedby="joi230047r32">32</a></sup> could also marginally contribute to the narrowing of these disparities.</p>
+<p>In addition, studies have described disparities in the COVID-19 pandemic toll by comparing the observed mortality rates during this period and the expected mortality rates for specific populations based on recent temporal trends.<sup><a href="#joi230047r33" class="usa-link" aria-describedby="joi230047r33">33</a>,<a href="#joi230047r34" class="usa-link" aria-describedby="joi230047r34">34</a>,<a href="#joi230047r35" class="usa-link" aria-describedby="joi230047r35">35</a></sup> This study places the pandemic toll in context of rates of excess mortality and years of potential life lost as additional metrics of racial disparity that may be useful should another pandemic-type public health calamity occur.</p>
+<p>The excess deaths and years of potential life lost were elevated among most of the major causes of death, even though heart disease was the most prominent. This is consistent with a study by Kyalwazi and colleagues<sup><a href="#joi230047r36" class="usa-link" aria-describedby="joi230047r36">36</a></sup> who found that, despite a decline in the absolute difference, age-adjusted cardiovascular mortality rates were persistently higher among the Black population than among the White population from 1999 to 2019. It is likely that disparities in rates of hypertension control and other factors associated with heart disease are in part responsible for this excess loss of life.<sup><a href="#joi230047r37" class="usa-link" aria-describedby="joi230047r37">37</a>,<a href="#joi230047r38" class="usa-link" aria-describedby="joi230047r38">38</a></sup> Cancer was also an important source of the disparity. Both heart disease and cancer have modifiable risk factors that are importantly affected by social determinants of health. Targeted and renewed efforts aimed at diseases that disproportionately drive differences are necessary to make sure clinical advancements are experienced uniformly across the population.</p>
+<p>The sobering disparity noted in this study among infants and during childhood accounted for a markedly elevated number of excess deaths and an even more pronounced disparity in years of potential life lost. This excess mortality occurred in a period of life of highest vulnerability and warrants new dedicated public health initiatives targeting early childhood health. After childhood, the excess deaths and years of potential life lost became evident in early adulthood and generally increased with age. This finding is consistent with a recent report by the National Academies of Sciences, Engineering, and Medicine that found consistently higher mortality rates among Black adults aged 25 through 65 years from 1990 to 2017 compared with other racial and ethnic groups of the same age, despite increasing trends among their White counterparts and regardless of educational attainment or geography.<sup><a href="#joi230047r32" class="usa-link" aria-describedby="joi230047r32">32</a>,<a href="#joi230047r39" class="usa-link" aria-describedby="joi230047r39">39</a></sup> These alarming excess deaths in working-aged groups may be the most socially disruptive<sup><a href="#joi230047r15" class="usa-link" aria-describedby="joi230047r15">15</a></sup> given the destabilizing effect on productivity and economic gains for Black families, potentially contributing to the perpetuation of generational racial disparities. Among those older than 65 years, these disparity metrics declined, as would be expected because of the persistently lower average lifespan among the Black population.<sup><a href="#joi230047r40" class="usa-link" aria-describedby="joi230047r40">40</a>,<a href="#joi230047r41" class="usa-link" aria-describedby="joi230047r41">41</a></sup></p>
+<p>The implications of these findings are important. The Black population in the US, regardless of cause or the burden of risk factors, continue to die at much greater rates than the White population, with dramatic long-run consequences when accounting for the effect of premature mortality. These metrics, especially years of potential life lost, are suitable for public reporting and may inspire strategies directed toward more in-depth root-cause analysis and where qualified by evidence of efficacy, implementation of steps to improve these disparities. As such, an annual publicly reported metric of race-based years of potential life lost may be useful for national accountability. Excess mortality and years of potential life lost by race could serve as a major national (and local) gauge of progress toward achieving health equity. Although achieving equity in these metrics may need persistent multigenerational efforts, it is crucial to advance rapidly in that direction.</p>
+<section id="H2-7-JOI230047"><h3 class="pmc_sec_title">Limitations</h3>
+<p>Our study has limitations. First, there are known inaccuracies in race and ethnicity information reported in death certificates.<sup><a href="#joi230047r42" class="usa-link" aria-describedby="joi230047r42">42</a>,<a href="#joi230047r43" class="usa-link" aria-describedby="joi230047r43">43</a></sup> However, there is near complete agreement between self-reported race and the race reported in non-Hispanic Black and non-Hispanic White decedents’ death certificates.<sup><a href="#joi230047r44" class="usa-link" aria-describedby="joi230047r44">44</a></sup> Second, the cause of death may be uncertain in many cases, especially during the pandemic, but that does not detract from our central findings of a sustained major difference in mortality. Third, the CDC WONDER does not provide rates or population estimates for subsamples of decedents 85 years or older, which prevented evaluation of some disparities in these age groups. Fourth, although there may be differences in mortality rates by country of origin, such data are not publicly available for incorporation in these analyses.</p></section></section><section id="H1-5-JOI230047"><h2 class="pmc_sec_title">Conclusion</h2>
+<p>Excess deaths and years of potential life lost among the US Black population persist and by scale warrant national attention. Over a recent 22-year period, the US Black population experienced 1.63 million excess deaths and much greater losses in years of potential life. Although encouraging gains were noted in the early 2000s, the disparities abruptly increased in 2020 and years of potential life lost replicated 1999 benchmarks. The call to action generated more than 100 years ago from Du Bois and echoed nearly 40 years ago by the Heckler Report remains extant today. With millions more lives and life-years at stake, new strategies are needed.</p></section><section id="note-JOI230047-1"><section class="sm xbox font-sm" id="note-JOI230047-1-s"><div class="caption p">
+<span>Supplement 1.</span><p>
+eMethods
+</p>
+<p><strong>eTable 1.</strong>
+<em>ICD-10</em> codes for leading causes of death</p>
+<p><strong>eTable 2</strong>. White females (A) and males (B) life expectancy in years by age group and calendar year</p>
+<p><strong>eTable 3</strong>. Population distribution across the study period</p>
+<p><strong>eFigure 1</strong>. Annual and cumulative total number of excess deaths among the Black population</p>
+<p><strong>eFigure 2.</strong> Black population–White population age-adjusted mortality rate ratio</p>
+<p><strong>eFigure 3</strong>. Annual and cumulative total number of excess years of potential life lost the among Black population</p>
+<p><strong>eFigure 4.</strong> Black population–White population years of potential life lost rate ratio</p>
+<p><strong>eFigure 5</strong>. Age-adjusted mortality and years of potential life lost rates by race and sex</p>
+<p><strong>eFigure 6. </strong>Excess mortality rate (A) and YPLL rate (B) among the Black population by cause of death in 2020</p>
+<p><strong>eFigure 7</strong>. Cumulative 22-year total number of excess deaths in the Black population by age and sex</p>
+<p><strong>eFigure 8.</strong> Black population–White population age-specific mortality rate ratio by age</p>
+<p><strong>eFigure 9.</strong> Black population–White population years of potential life lost rate ratio by age</p>
+<p><strong>eFigure 10</strong>. US Black population excess mortality rate and years of potential life lost by age group and study period</p>
+<p>
+eReferences
+</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/10189563/bin/jama-e237022-s001.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (2.7MB, pdf) </sup>
+</div></div></section><section class="sm xbox font-sm" id="supplementary-material2"><div class="caption p">
+<span>Supplement 2.</span><p>
+Data Sharing Statement
+</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/10189563/bin/jama-e237022-s002.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (16KB, pdf) </sup>
+</div></div></section></section><section id="REF-JOI230047" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="REF-JOI230047_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="joi230047r1">
+<span class="label">1.</span><cite>Heckler M. Report of the Secretary’s Task Force on Black &amp; Minority Health. US Dept of Health and Human Services; 1985.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Report%20of%20the%20Secretary%E2%80%99s%20Task%20Force%20on%20Black%20&amp;%20Minority%20Health&amp;publication_year=1985&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r2">
+<span class="label">2.</span><cite>Bailey ZD, Krieger N, Agénor M, Graves J, Linos N, Bassett MT. Structural racism and health inequities in the USA: evidence and interventions. Lancet. 2017;389(10077):1453-1463. doi: 10.1016/S0140-6736(17)30569-X</cite> [<a href="https://doi.org/10.1016/S0140-6736(17)30569-X" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28402827/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Lancet&amp;title=Structural%20racism%20and%20health%20inequities%20in%20the%20USA:%20evidence%20and%20interventions&amp;volume=389&amp;issue=10077&amp;publication_year=2017&amp;pages=1453-1463&amp;pmid=28402827&amp;doi=10.1016/S0140-6736(17)30569-X&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r3">
+<span class="label">3.</span><cite>Cogburn CD. Culture, race, and health: implications for racial inequities and population health. Milbank Q. 2019;97(3):736-761. doi: 10.1111/1468-0009.12411</cite> [<a href="https://doi.org/10.1111/1468-0009.12411" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6739606/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31512293/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Milbank%20Q&amp;title=Culture,%20race,%20and%20health:%20implications%20for%20racial%20inequities%20and%20population%20health&amp;volume=97&amp;issue=3&amp;publication_year=2019&amp;pages=736-761&amp;pmid=31512293&amp;doi=10.1111/1468-0009.12411&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r4">
+<span class="label">4.</span><cite>Churchwell K, Elkind MSV, Benjamin RM, et al. ; American Heart Association . Call to action: structural racism as a fundamental driver of health disparities: a presidential advisory from the American Heart Association. Circulation. 2020;142(24):e454-e468. doi: 10.1161/CIR.0000000000000936</cite> [<a href="https://doi.org/10.1161/CIR.0000000000000936" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33170755/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Circulation&amp;title=Call%20to%20action:%20structural%20racism%20as%20a%20fundamental%20driver%20of%20health%20disparities:%20a%20presidential%20advisory%20from%20the%20American%20Heart%20Association&amp;volume=142&amp;issue=24&amp;publication_year=2020&amp;pages=e454-e468&amp;pmid=33170755&amp;doi=10.1161/CIR.0000000000000936&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r5">
+<span class="label">5.</span><cite>Bailey ZD, Feldman JM, Bassett MT. How structural racism works—racist policies as a root cause of U.S. racial health inequities. N Engl J Med. 2021;384(8):768-773. doi: 10.1056/NEJMms2025396</cite> [<a href="https://doi.org/10.1056/NEJMms2025396" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC11393777/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33326717/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=N%20Engl%20J%20Med&amp;title=How%20structural%20racism%20works%E2%80%94racist%20policies%20as%20a%20root%20cause%20of%20U.S.%20racial%20health%20inequities&amp;volume=384&amp;issue=8&amp;publication_year=2021&amp;pages=768-773&amp;pmid=33326717&amp;doi=10.1056/NEJMms2025396&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r6">
+<span class="label">6.</span><cite>Mahajan S, Caraballo C, Lu Y, et al. Trends in differences in health status and health care access and affordability by race and ethnicity in the United States, 1999-2018. JAMA. 2021;326(7):637-648. doi: 10.1001/jama.2021.9907</cite> [<a href="https://doi.org/10.1001/jama.2021.9907" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8371573/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/34402830/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Trends%20in%20differences%20in%20health%20status%20and%20health%20care%20access%20and%20affordability%20by%20race%20and%20ethnicity%20in%20the%20United%20States,%201999-2018&amp;volume=326&amp;issue=7&amp;publication_year=2021&amp;pages=637-648&amp;pmid=34402830&amp;doi=10.1001/jama.2021.9907&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r7">
+<span class="label">7.</span><cite>Caraballo C, Herrin J, Mahajan S, et al. Temporal trends in racial and ethnic disparities in multimorbidity prevalence in the United States, 1999-2018. Am J Med. 2022;135(9):1083-1092.e14. doi: 10.1016/j.amjmed.2022.04.010</cite> [<a href="https://doi.org/10.1016/j.amjmed.2022.04.010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/35472394/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Med&amp;title=Temporal%20trends%20in%20racial%20and%20ethnic%20disparities%20in%20multimorbidity%20prevalence%20in%20the%20United%20States,%201999-2018&amp;volume=135&amp;issue=9&amp;publication_year=2022&amp;pages=1083-1092.e14&amp;pmid=35472394&amp;doi=10.1016/j.amjmed.2022.04.010&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r8">
+<span class="label">8.</span><cite>Caraballo C, Ndumele CD, Roy B, et al. Trends in racial and ethnic disparities in barriers to timely medical care among adults in the US, 1999 to 2018. JAMA Health Forum. 2022;3(10):e223856-e223856. doi: 10.1001/jamahealthforum.2022.3856</cite> [<a href="https://doi.org/10.1001/jamahealthforum.2022.3856" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC9617175/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/36306118/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Health%20Forum&amp;title=Trends%20in%20racial%20and%20ethnic%20disparities%20in%20barriers%20to%20timely%20medical%20care%20among%20adults%20in%20the%20US,%201999%20to%202018&amp;volume=3&amp;issue=10&amp;publication_year=2022&amp;pages=e223856-e223856&amp;pmid=36306118&amp;doi=10.1001/jamahealthforum.2022.3856&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r9">
+<span class="label">9.</span><cite>Caraballo C, Mahajan S, Valero-Elizondo J, et al. Evaluation of temporal trends in racial and ethnic disparities in sleep duration among US adults, 2004-2018. JAMA Netw Open. 2022;5(4):e226385-e226385. doi: 10.1001/jamanetworkopen.2022.6385</cite> [<a href="https://doi.org/10.1001/jamanetworkopen.2022.6385" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8990329/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/35389500/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Netw%20Open&amp;title=Evaluation%20of%20temporal%20trends%20in%20racial%20and%20ethnic%20disparities%20in%20sleep%20duration%20among%20US%20adults,%202004-2018&amp;volume=5&amp;issue=4&amp;publication_year=2022&amp;pages=e226385-e226385&amp;pmid=35389500&amp;doi=10.1001/jamanetworkopen.2022.6385&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r10">
+<span class="label">10.</span><cite>Du Bois WEB. The Philadelphia Negro: A Social Study. Publications of the Unversity of Pennsylvania; 1899.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=The%20Philadelphia%20Negro:%20A%20Social%20Study&amp;publication_year=1899&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r11">
+<span class="label">11.</span><cite>Du Bois WEB, ed. The Health and Physique of the Negro American: Report of a Social Study Made Under the Direction of Atlanta University; together with the Proceedings of the Eleventh Conference for the Study of the Negro Problems, Held at Atlanta University, on May the 29th, 1906. Atlanta University Press; 1906. Accessed April 19, 2023. <a href="https://repository.wellesley.edu/object/wellesley30494" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://repository.wellesley.edu/object/wellesley30494</a></cite> [<a href="https://scholar.google.com/scholar_lookup?title=The%20Health%20and%20Physique%20of%20the%20Negro%20American:%20Report%20of%20a%20Social%20Study%20Made%20Under%20the%20Direction%20of%20Atlanta%20University;%20together%20with%20the%20Proceedings%20of%20the%20Eleventh%20Conference%20for%20the%20Study%20of%20the%20Negro%20Problems,%20Held%20at%20Atlanta%20University,%20on%20May%20the%2029th,%201906&amp;publication_year=1906&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r12">
+<span class="label">12.</span><cite>Kitagawa EM, Hauser PM. Differential Mortality in the United States. Harvard University Press; 1973. doi: 10.4159/harvard.9780674188471</cite> [<a href="https://doi.org/10.4159/harvard.9780674188471" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://scholar.google.com/scholar_lookup?title=Differential%20Mortality%20in%20the%20United%20States&amp;publication_year=1973&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r13">
+<span class="label">13.</span><cite>Jackman MR, Shauman KA. The toll of inequality: excess African American deaths in the United States over the twentieth century. Du Bois Rev. 2019;16(2):291-340. doi: 10.1017/S1742058X20000028</cite> [<a href="https://doi.org/10.1017/S1742058X20000028" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Du%20Bois%20Rev&amp;title=The%20toll%20of%20inequality:%20excess%20African%20American%20deaths%20in%20the%20United%20States%20over%20the%20twentieth%20century&amp;volume=16&amp;issue=2&amp;publication_year=2019&amp;pages=291-340&amp;doi=10.1017/S1742058X20000028&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r14">
+<span class="label">14.</span><cite>Centers for Disease Control (CDC) . Premature mortality in the United States: public health issues in the use of years of potential life lost. MMWR Suppl. 1986;35(2):1S-11S.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/3097485/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=MMWR%20Suppl&amp;title=Premature%20mortality%20in%20the%20United%20States:%20public%20health%20issues%20in%20the%20use%20of%20years%20of%20potential%20life%20lost&amp;volume=35&amp;issue=2&amp;publication_year=1986&amp;pages=1S-11S&amp;pmid=3097485&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r15">
+<span class="label">15.</span><cite>Gardner JW, Sanborn JS. Years of potential life lost (YPLL)–what does it measure?
+Epidemiology. 1990;1(4):322-329. doi: 10.1097/00001648-199007000-00012</cite> [<a href="https://doi.org/10.1097/00001648-199007000-00012" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/2083312/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Epidemiology&amp;title=Years%20of%20potential%20life%20lost%20(YPLL)%E2%80%93what%20does%20it%20measure?&amp;volume=1&amp;issue=4&amp;publication_year=1990&amp;pages=322-329&amp;pmid=2083312&amp;doi=10.1097/00001648-199007000-00012&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r16">
+<span class="label">16.</span><cite>Krumholz HM, Massey DS, Dorsey KB. Racism as a leading cause of death in the United States. BMJ. 2022;376:o213. doi: 10.1136/bmj.o213</cite> [<a href="https://doi.org/10.1136/bmj.o213" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/35078777/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=BMJ&amp;title=Racism%20as%20a%20leading%20cause%20of%20death%20in%20the%20United%20States&amp;volume=376&amp;publication_year=2022&amp;pages=o213&amp;pmid=35078777&amp;doi=10.1136/bmj.o213&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r17">
+<span class="label">17.</span><cite>CDC WONDER. Centers for Disease Control and Prevention . Updated March 14, 2022. Accessed April 26, 2023. <a href="https://wonder.cdc.gov/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://wonder.cdc.gov/</a></cite>
+</li>
+<li id="joi230047r18">
+<span class="label">18.</span><cite>Life Tables. National Center for Health Statistics . Updated April 25, 2022. Accessed April 26, 2023. <a href="https://www.cdc.gov/nchs/products/life_tables.htm" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.cdc.gov/nchs/products/life_tables.htm</a></cite>
+</li>
+<li id="joi230047r19">
+<span class="label">19.</span><cite>Woolf SH, Johnson RE, Fryer GE Jr, Rust G, Satcher D. The health impact of resolving racial disparities: an analysis of US mortality data. Am J Public Health. 2008;98(9)(suppl):S26-S28. doi: 10.2105/ajph.98.supplement_1.S26</cite> [<a href="https://doi.org/10.2105/ajph.98.supplement_1.S26" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2518606/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18687615/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Public%20Health&amp;title=The%20health%20impact%20of%20resolving%20racial%20disparities:%20an%20analysis%20of%20US%20mortality%20data&amp;volume=98&amp;issue=9&amp;publication_year=2008&amp;pages=S26-S28&amp;pmid=18687615&amp;doi=10.2105/ajph.98.supplement_1.S26&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r20">
+<span class="label">20.</span><cite>Wise RP, Livengood JR, Berkelman RL, Goodman RA. Methodological alternatives for measuring premature mortality. Am J Prev Med. 1988;4(5):268-273. doi: 10.1016/S0749-3797(18)31160-7</cite> [<a href="https://doi.org/10.1016/S0749-3797(18)31160-7" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/3224004/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Prev%20Med&amp;title=Methodological%20alternatives%20for%20measuring%20premature%20mortality&amp;volume=4&amp;issue=5&amp;publication_year=1988&amp;pages=268-273&amp;pmid=3224004&amp;doi=10.1016/S0749-3797(18)31160-7&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r21">
+<span class="label">21.</span><cite><em>Python Language Reference</em>. Version 3.7. Python Software Foundation . Accessed October 20, 2022. <a href="https://www.python.org/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.python.org/</a></cite>
+</li>
+<li id="joi230047r22">
+<span class="label">22.</span><cite>Hunter JD. Matplotlib: a 2D graphics environment. Comput Sci Eng. 2007;9(3):90-95. doi: 10.1109/MCSE.2007.55</cite> [<a href="https://doi.org/10.1109/MCSE.2007.55" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Comput%20Sci%20Eng&amp;title=Matplotlib:%20a%202D%20graphics%20environment&amp;volume=9&amp;issue=3&amp;publication_year=2007&amp;pages=90-95&amp;doi=10.1109/MCSE.2007.55&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r23">
+<span class="label">23.</span><cite>McKinney W. Data structures for statistical computing in Python. Paper presented at: the Proceedings of the 9th Python in Science Conference; June 28-July 3, 2010; Austin, TX; 2010:51-56. Accessed April 13, 2023. <a href="https://conference.scipy.org/proceedings/scipy2010/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://conference.scipy.org/proceedings/scipy2010/</a></cite>
+</li>
+<li id="joi230047r24">
+<span class="label">24.</span><cite>Waskom ML. Seaborn: statistical data visualization. J Open Source Softw. 2021;6(60):3021. doi: 10.21105/joss.03021</cite> [<a href="https://doi.org/10.21105/joss.03021" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Open%20Source%20Softw&amp;title=Seaborn:%20statistical%20data%20visualization&amp;volume=6&amp;issue=60&amp;publication_year=2021&amp;pages=3021&amp;doi=10.21105/joss.03021&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r25">
+<span class="label">25.</span><cite>Harris CR, Millman KJ, van der Walt SJ, et al. Array programming with NumPy. Nature. 2020;585(7825):357-362.</cite> [<a href="https://doi.org/10.1038/s41586-020-2649-2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7759461/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32939066/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Nature&amp;title=Array%20programming%20with%20NumPy&amp;volume=585&amp;issue=7825&amp;publication_year=2020&amp;pages=357-362&amp;pmid=32939066&amp;doi=10.1038/s41586-020-2649-2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r26">
+<span class="label">26.</span><cite>Lavizzo-Mourey RJ, Besser RE, Williams DR. Understanding and mitigating health inequities—past, current, and future directions. N Engl J Med. 2021;384(18):1681-1684. doi: 10.1056/NEJMp2008628</cite> [<a href="https://doi.org/10.1056/NEJMp2008628" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33951376/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=N%20Engl%20J%20Med&amp;title=Understanding%20and%20mitigating%20health%20inequities%E2%80%94past,%20current,%20and%20future%20directions&amp;volume=384&amp;issue=18&amp;publication_year=2021&amp;pages=1681-1684&amp;pmid=33951376&amp;doi=10.1056/NEJMp2008628&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r27">
+<span class="label">27.</span><cite>Rodriguez JM, Geronimus AT, Bound J, Dorling D. Black lives matter: differential mortality and the racial composition of the U.S. electorate, 1970-2004. Soc Sci Med. 2015;136-137:193-199. doi: 10.1016/j.socscimed.2015.04.014</cite> [<a href="https://doi.org/10.1016/j.socscimed.2015.04.014" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4465208/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25934268/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Soc%20Sci%20Med&amp;title=Black%20lives%20matter:%20differential%20mortality%20and%20the%20racial%20composition%20of%20the%20U.S.%20electorate,%201970-2004&amp;volume=136-137&amp;publication_year=2015&amp;pages=193-199&amp;pmid=25934268&amp;doi=10.1016/j.socscimed.2015.04.014&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r28">
+<span class="label">28.</span><cite>Cunningham TJ, Croft JB, Liu Y, Lu H, Eke PI, Giles WH. Vital signs: racial disparities in age-specific mortality among Blacks or African Americans—United States, 1999-2015. MMWR Morb Mortal Wkly Rep. 2017;66(17):444-456. doi: 10.15585/mmwr.mm6617e1</cite> [<a href="https://doi.org/10.15585/mmwr.mm6617e1" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5687082/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28472021/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=MMWR%20Morb%20Mortal%20Wkly%20Rep&amp;title=Vital%20signs:%20racial%20disparities%20in%20age-specific%20mortality%20among%20Blacks%20or%20African%20Americans%E2%80%94United%20States,%201999-2015&amp;volume=66&amp;issue=17&amp;publication_year=2017&amp;pages=444-456&amp;pmid=28472021&amp;doi=10.15585/mmwr.mm6617e1&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r29">
+<span class="label">29.</span><cite>Pathak EB. Mortality among Black men in the USA. J Racial Ethn Health Disparities. 2018;5(1):50-61. doi: 10.1007/s40615-017-0341-5</cite> [<a href="https://doi.org/10.1007/s40615-017-0341-5" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28236289/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Racial%20Ethn%20Health%20Disparities&amp;title=Mortality%20among%20Black%20men%20in%20the%20USA&amp;volume=5&amp;issue=1&amp;publication_year=2018&amp;pages=50-61&amp;pmid=28236289&amp;doi=10.1007/s40615-017-0341-5&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r30">
+<span class="label">30.</span><cite>Woolf SH, Schoomaker H. Life expectancy and mortality rates in the United States, 1959-2017. JAMA. 2019;322(20):1996-2016. doi: 10.1001/jama.2019.16932</cite> [<a href="https://doi.org/10.1001/jama.2019.16932" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7146991/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31769830/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Life%20expectancy%20and%20mortality%20rates%20in%20the%20United%20States,%201959-2017&amp;volume=322&amp;issue=20&amp;publication_year=2019&amp;pages=1996-2016&amp;pmid=31769830&amp;doi=10.1001/jama.2019.16932&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r31">
+<span class="label">31.</span><cite>Ruhm CJ. Drug mortality and lost life years among U.S. midlife adults, 1999-2015. Am J Prev Med. 2018;55(1):11-18. doi: 10.1016/j.amepre.2018.03.014</cite> [<a href="https://doi.org/10.1016/j.amepre.2018.03.014" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29801685/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Prev%20Med&amp;title=Drug%20mortality%20and%20lost%20life%20years%20among%20U.S.%20midlife%20adults,%201999-2015&amp;volume=55&amp;issue=1&amp;publication_year=2018&amp;pages=11-18&amp;pmid=29801685&amp;doi=10.1016/j.amepre.2018.03.014&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r32">
+<span class="label">32.</span><cite>Becker T, Majmundar MK, Harris KM, eds. High and Rising Mortality Rates Among Working-Age Adults. National Academies Press; 2021.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/33656826/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?title=High%20and%20Rising%20Mortality%20Rates%20Among%20Working-Age%20Adults&amp;publication_year=2021&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r33">
+<span class="label">33.</span><cite>Rossen LM, Ahmad FB, Anderson RN, et al. Disparities in excess mortality associated with COVID-19—United States, 2020. MMWR Morb Mortal Wkly Rep. 2021;70(33):1114-1119. doi: 10.15585/mmwr.mm7033a2</cite> [<a href="https://doi.org/10.15585/mmwr.mm7033a2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8375709/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/34411075/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=MMWR%20Morb%20Mortal%20Wkly%20Rep&amp;title=Disparities%20in%20excess%20mortality%20associated%20with%20COVID-19%E2%80%94United%20States,%202020&amp;volume=70&amp;issue=33&amp;publication_year=2021&amp;pages=1114-1119&amp;pmid=34411075&amp;doi=10.15585/mmwr.mm7033a2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r34">
+<span class="label">34.</span><cite>Shiels MS, Haque AT, Haozous EA, et al. Racial and ethnic disparities in excess deaths during the COVID-19 pandemic, March to December 2020. Ann Intern Med. 2021;174(12):1693-1699. doi: 10.7326/M21-2134</cite> [<a href="https://doi.org/10.7326/M21-2134" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8489677/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/34606321/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Intern%20Med&amp;title=Racial%20and%20ethnic%20disparities%20in%20excess%20deaths%20during%20the%20COVID-19%20pandemic,%20March%20to%20December%202020&amp;volume=174&amp;issue=12&amp;publication_year=2021&amp;pages=1693-1699&amp;pmid=34606321&amp;doi=10.7326/M21-2134&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r35">
+<span class="label">35.</span><cite>Faust JS, Du C, Renton B, et al. Two years of COVID-19: excess mortality by age, region, gender, and race/ethnicity in the United States during the COVID-19 pandemic, March 1, 2020, through February 28, 2022.
+medRxiv. Preprint posted online September 26, 2022. doi: 10.1101/2022.08.16.22278800</cite> [<a href="https://doi.org/10.1101/2022.08.16.22278800" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>]</li>
+<li id="joi230047r36">
+<span class="label">36.</span><cite>Kyalwazi AN, Loccoh EC, Brewer LC, et al. Disparities in cardiovascular mortality between black and white adults in the United States, 1999 to 2019. Circulation. 2022;146(3):211-228. doi: 10.1161/circulationaha.122.060199</cite> [<a href="https://doi.org/10.1161/circulationaha.122.060199" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC9310198/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/35861764/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Circulation&amp;title=Disparities%20in%20cardiovascular%20mortality%20between%20black%20and%20white%20adults%20in%20the%20United%20States,%201999%20to%202019&amp;volume=146&amp;issue=3&amp;publication_year=2022&amp;pages=211-228&amp;pmid=35861764&amp;doi=10.1161/circulationaha.122.060199&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r37">
+<span class="label">37.</span><cite>Shah NS, Lloyd-Jones DM, O’Flaherty M, et al. Trends in cardiometabolic mortality in the United States, 1999-2017. JAMA. 2019;322(8):780-782. doi: 10.1001/jama.2019.9161</cite> [<a href="https://doi.org/10.1001/jama.2019.9161" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6714016/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31454032/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Trends%20in%20cardiometabolic%20mortality%20in%20the%20United%20States,%201999-2017&amp;volume=322&amp;issue=8&amp;publication_year=2019&amp;pages=780-782&amp;pmid=31454032&amp;doi=10.1001/jama.2019.9161&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r38">
+<span class="label">38.</span><cite>Lopez KN, Morris SA, Sexson Tejtel SK, Espaillat A, Salemi JL. US mortality attributable to congenital heart disease across the lifespan from 1999 through 2017 exposes persistent racial/ethnic disparities. Circulation. 2020;142(12):1132-1147. doi: 10.1161/CIRCULATIONAHA.120.046822</cite> [<a href="https://doi.org/10.1161/CIRCULATIONAHA.120.046822" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7508797/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32795094/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Circulation&amp;title=US%20mortality%20attributable%20to%20congenital%20heart%20disease%20across%20the%20lifespan%20from%201999%20through%202017%20exposes%20persistent%20racial/ethnic%20disparities&amp;volume=142&amp;issue=12&amp;publication_year=2020&amp;pages=1132-1147&amp;pmid=32795094&amp;doi=10.1161/CIRCULATIONAHA.120.046822&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r39">
+<span class="label">39.</span><cite>Harris KM, Woolf SH, Gaskin DJ. High and rising working-age mortality in the US: a report from the National Academies of Sciences, Engineering, and Medicine. JAMA. 2021;325(20):2045-2046. doi: 10.1001/jama.2021.4073</cite> [<a href="https://doi.org/10.1001/jama.2021.4073" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33970196/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=High%20and%20rising%20working-age%20mortality%20in%20the%20US:%20a%20report%20from%20the%20National%20Academies%20of%20Sciences,%20Engineering,%20and%20Medicine&amp;volume=325&amp;issue=20&amp;publication_year=2021&amp;pages=2045-2046&amp;pmid=33970196&amp;doi=10.1001/jama.2021.4073&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r40">
+<span class="label">40.</span><cite>GBD US Health Disparities Collaborators . Life expectancy by county, race, and ethnicity in the USA, 2000-19: a systematic analysis of health disparities. Lancet. 2022;400(10345):25-38. doi: 10.1016/S0140-6736(22)00876-5</cite> [<a href="https://doi.org/10.1016/S0140-6736(22)00876-5" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC9256789/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/35717994/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Lancet&amp;title=Life%20expectancy%20by%20county,%20race,%20and%20ethnicity%20in%20the%20USA,%202000-19:%20a%20systematic%20analysis%20of%20health%20disparities&amp;volume=400&amp;issue=10345&amp;publication_year=2022&amp;pages=25-38&amp;pmid=35717994&amp;doi=10.1016/S0140-6736(22)00876-5&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r41">
+<span class="label">41.</span><cite>Johnson CO, Boon-Dooley AS, DeCleene NK, et al. Life expectancy for White, Black, and Hispanic race/ethnicity in U.S. states: trends and disparities, 1990 to 2019. Ann Intern Med. 2022;175(8):1057-1064. doi: 10.7326/M21-3956</cite> [<a href="https://doi.org/10.7326/M21-3956" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC10519623/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/35759765/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Intern%20Med&amp;title=Life%20expectancy%20for%20White,%20Black,%20and%20Hispanic%20race/ethnicity%20in%20U.S.%20states:%20trends%20and%20disparities,%201990%20to%202019&amp;volume=175&amp;issue=8&amp;publication_year=2022&amp;pages=1057-1064&amp;pmid=35759765&amp;doi=10.7326/M21-3956&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r42">
+<span class="label">42.</span><cite>Arias E, Schauman WS, Eschbach K, Sorlie PD, Backlund E. The validity of race and Hispanic origin reporting on death certificates in the United States. Vital Health Stat 2. 2008;(148):1-23.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/19024798/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Vital%20Health%20Stat%202&amp;title=The%20validity%20of%20race%20and%20Hispanic%20origin%20reporting%20on%20death%20certificates%20in%20the%20United%20States&amp;issue=148&amp;publication_year=2008&amp;pages=1-23&amp;pmid=19024798&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r43">
+<span class="label">43.</span><cite>Hoffman RA, Venugopalan J, Qu L, Wu H, Wang MD. Improving validity of cause of death on death certificates. ACM BCB. 2018;2018:178-183. doi: 10.1145/3233547.3233581</cite> [<a href="https://doi.org/10.1145/3233547.3233581" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7302107/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32558825/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=ACM%20BCB&amp;title=Improving%20validity%20of%20cause%20of%20death%20on%20death%20certificates&amp;volume=2018&amp;publication_year=2018&amp;pages=178-183&amp;pmid=32558825&amp;doi=10.1145/3233547.3233581&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="joi230047r44">
+<span class="label">44.</span><cite>Arias E, Heron M, Hakes J; National Center for Health Statistics; US Census Bureau . The validity of race and Hispanic-origin reporting on death certificates in the United States: an update. Vital Health Stat 2. 2016;(172):1-21.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/28436642/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Vital%20Health%20Stat%202&amp;title=The%20validity%20of%20race%20and%20Hispanic-origin%20reporting%20on%20death%20certificates%20in%20the%20United%20States:%20an%20update&amp;issue=172&amp;publication_year=2016&amp;pages=1-21&amp;pmid=28436642&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section><section id="_ad93_" lang="en" class="associated-data"><h2 class="pmc_sec_title">Associated Data</h2>
+<p class="font-secondary"><em>This section collects any data citations, data availability statements, or supplementary materials included in this article.</em></p>
+<section id="_adsm93_" lang="en" class="supplementary-materials"><h3 class="pmc_sec_title">Supplementary Materials</h3>
+<section class="sm xbox font-sm" id="db_ds_supplementary-material1_reqid_"><div class="caption p">
+<span>Supplement 1.</span><p>
+eMethods
+</p>
+<p><strong>eTable 1.</strong>
+<em>ICD-10</em> codes for leading causes of death</p>
+<p><strong>eTable 2</strong>. White females (A) and males (B) life expectancy in years by age group and calendar year</p>
+<p><strong>eTable 3</strong>. Population distribution across the study period</p>
+<p><strong>eFigure 1</strong>. Annual and cumulative total number of excess deaths among the Black population</p>
+<p><strong>eFigure 2.</strong> Black population–White population age-adjusted mortality rate ratio</p>
+<p><strong>eFigure 3</strong>. Annual and cumulative total number of excess years of potential life lost the among Black population</p>
+<p><strong>eFigure 4.</strong> Black population–White population years of potential life lost rate ratio</p>
+<p><strong>eFigure 5</strong>. Age-adjusted mortality and years of potential life lost rates by race and sex</p>
+<p><strong>eFigure 6. </strong>Excess mortality rate (A) and YPLL rate (B) among the Black population by cause of death in 2020</p>
+<p><strong>eFigure 7</strong>. Cumulative 22-year total number of excess deaths in the Black population by age and sex</p>
+<p><strong>eFigure 8.</strong> Black population–White population age-specific mortality rate ratio by age</p>
+<p><strong>eFigure 9.</strong> Black population–White population years of potential life lost rate ratio by age</p>
+<p><strong>eFigure 10</strong>. US Black population excess mortality rate and years of potential life lost by age group and study period</p>
+<p>
+eReferences
+</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/10189563/bin/jama-e237022-s001.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (2.7MB, pdf) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material2_reqid_"><div class="caption p">
+<span>Supplement 2.</span><p>
+Data Sharing Statement
+</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/10189563/bin/jama-e237022-s002.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (16KB, pdf) </sup>
+</div></div></section></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from JAMA are provided here courtesy of <strong>American Medical Association</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1001/jama.2023.7022"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/10189563/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/10189563/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC10189563%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189563/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC10189563/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC10189563/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/37191702/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC10189563/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/37191702/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC10189563/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/10189563/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="3vpsyNv0c3OPBwftGowGnJxNY5KbHf61mB4CL7eRdL2c7nKNXx0V2iDp8qUtSxA0">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

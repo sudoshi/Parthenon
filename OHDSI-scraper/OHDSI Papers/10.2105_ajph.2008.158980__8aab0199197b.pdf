@@ -1,0 +1,2586 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Using Health Information Exchange to Improve Public Health - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="1A81B52A9D45BA630BB52A0009F6890C.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="amjph">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3052326/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="American Journal of Public Health">
+<meta name="citation_title" content="Using Health Information Exchange to Improve Public Health">
+<meta name="citation_author" content="Jason S Shapiro">
+<meta name="citation_author_institution" content="Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.">
+<meta name="citation_author" content="Farzad Mostashari">
+<meta name="citation_author_institution" content="Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.">
+<meta name="citation_author" content="George Hripcsak">
+<meta name="citation_author_institution" content="Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.">
+<meta name="citation_author" content="Nicholas Soulakis">
+<meta name="citation_author_institution" content="Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.">
+<meta name="citation_author" content="Gilad Kuperman">
+<meta name="citation_author_institution" content="Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.">
+<meta name="citation_publication_date" content="2011 Apr">
+<meta name="citation_volume" content="101">
+<meta name="citation_issue" content="4">
+<meta name="citation_firstpage" content="616">
+<meta name="citation_doi" content="10.2105/AJPH.2008.158980">
+<meta name="citation_pmid" content="21330598">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3052326/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3052326/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3052326/pdf/616.pdf">
+<meta name="description" content="Public health relies on data reported by health care partners, and information technology makes such reporting easier than ever. However, data are often structured according to a variety of different terminologies and formats, making data interfaces ...">
+<meta name="og:title" content="Using Health Information Exchange to Improve Public Health">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Public health relies on data reported by health care partners, and information technology makes such reporting easier than ever. However, data are often structured according to a variety of different terminologies and formats, making data interfaces ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3052326/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="3052326">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.2105/AJPH.2008.158980"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/616.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC3052326%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/3052326/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/3052326/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC3052326/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-amjph-new.gif" alt="American Journal of Public Health logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to American Journal of Public Health" title="Link to American Journal of Public Health" shape="default" href="http://www.ajph.org" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Am J Public Health</button></div>. 2011 Apr;101(4):616–623. doi: <a href="https://doi.org/10.2105/AJPH.2008.158980" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.2105/AJPH.2008.158980</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Am%20J%20Public%20Health"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Am%20J%20Public%20Health"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Am%20J%20Public%20Health"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Am%20J%20Public%20Health"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Using Health Information Exchange to Improve Public Health</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Shapiro%20JS"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Jason S Shapiro</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Jason S Shapiro</span>, <span class="degrees">MD, MA</span>
+</h3>
+<div class="p">
+<sup>1</sup>Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Shapiro%20JS"[Author]' class="usa-link"><span class="name western">Jason S Shapiro</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>✉</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mostashari%20F"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Farzad Mostashari</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Farzad Mostashari</span>, <span class="degrees">MD, MSc, MSPH</span>
+</h3>
+<div class="p">
+<sup>1</sup>Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mostashari%20F"[Author]' class="usa-link"><span class="name western">Farzad Mostashari</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">George Hripcsak</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">George Hripcsak</span>, <span class="degrees">MD, MS</span>
+</h3>
+<div class="p">
+<sup>1</sup>Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link"><span class="name western">George Hripcsak</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Soulakis%20N"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Nicholas Soulakis</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Nicholas Soulakis</span>, <span class="degrees">MS</span>
+</h3>
+<div class="p">
+<sup>1</sup>Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Soulakis%20N"[Author]' class="usa-link"><span class="name western">Nicholas Soulakis</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kuperman%20G"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Gilad Kuperman</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">Gilad Kuperman</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kuperman%20G"[Author]' class="usa-link"><span class="name western">Gilad Kuperman</span></a>
+</div>
+</div>
+<sup>1</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="aff1">
+<sup>1</sup>Jason S. Shapiro is with the Department of Emergency Medicine, Mount Sinai Medical Center, New York, NY. When the article was written, Jason S. Shapiro, George Hripcsak, and Gilad Kuperman were with the Department of Biomedical Informatics, Columbia University, New York, NY. Farzad Mostashari and Nicholas Soulakis were with the New York City Department of Health and Mental Hygiene, New York, NY.</div>
+<div class="author-notes p">
+<div class="fn" id="corresp1">
+<sup>✉</sup><p class="display-inline">Correspondence should be sent to Jason S. Shapiro, Mount Sinai Medical Center, Department of Emergency Medicine, 1468 Madison Ave, New York, NY 10029 (e-mail: <span>jason.shapiro@mssm.edu</span>). Reprints can be ordered at http://www.ajph.org by clicking the “Reprints/Eprints” link.</p>
+</div>
+<div class="fn" id="fn1"><p>Peer Reviewed</p></div>
+<div class="fn" id="fn2">
+<p><strong>Contributors</strong></p>
+<p>F. Mostashari conceptualized the article and led the writing. J. S. Shapiro and G. Kuperman assisted with literature review and writing. J. S. Shapiro led the editing. All authors contributed conceptually to the article.</p>
+</div>
+<div class="fn" id="_fncrsp93pmc__">
+<sup>✉</sup><p class="display-inline">Corresponding author.</p>
+</div>
+</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Accepted 2009 Jun 1.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>© American Public Health Association 2011</div>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC3052326  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/21330598/" class="usa-link">21330598</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p>Public health relies on data reported by health care partners, and information technology makes such reporting easier than ever. However, data are often structured according to a variety of different terminologies and formats, making data interfaces complex and costly.</p>
+<p>As one strategy to address these challenges, health information organizations (HIOs) have been established to allow secure, integrated sharing of clinical information among numerous stakeholders, including clinical partners and public health, through health information exchange (HIE). We give detailed descriptions of 11 typical cases in which HIOs can be used for public health purposes.</p>
+<p>We believe that HIOs, and HIE in general, can improve the efficiency and quality of public health reporting, facilitate public health investigation, improve emergency response, and enable public health to communicate information to the clinical community.</p></section><hr class="headless">
+<p><strong>PUBLIC HEALTH RELIES ON</strong> data reported by health care partners to conduct nearly every aspect of its core functions. Information technology offers the opportunity to replace manual reporting processes with automated ones, and innovators are increasingly developing such approaches. The electronic transfer of data for public health reporting requires each health care partner to translate data from its proprietary structures—its vocabulary or format for storing data, and its protocols for sending the data as messages—into standards defined specifically by and for various public health authorities so the data are represented consistently and can be analyzed in a uniform fashion.<sup><a href="#bib1" class="usa-link" aria-describedby="bib1">1</a>,<a href="#bib2" class="usa-link" aria-describedby="bib2">2</a></sup> However, the cost of developing these interfaces and associated translation services is high, partly because each specific use of clinical data to support public health (e.g., notifiable disease surveillance, birth and death registration, hospital adverse event reporting, occupational health, injury prevention, and chronic disease improvement) currently requires a separate, dedicated technical solution and the requisite management and organizational activities on each side to support the initiative. Consequently, electronic data gathering has not been widely adopted for public health purposes, even where the benefits of electronic public health reporting have been well described.<sup><a href="#bib3" class="usa-link" aria-describedby="bib3">3</a>–<a href="#bib5" class="usa-link" aria-describedby="bib5">5</a></sup></p>
+<p>Recently, health information organizations (HIOs) across the country have been developing networks to enable health information exchange (HIE) among diverse stakeholders within a given region. These stakeholders may include clinicians, provider organizations, pharmacies, laboratories, radiology facilities, payers, emergency management and first responder groups, and health departments.<sup><a href="#bib6" class="usa-link" aria-describedby="bib6">6</a></sup> Although there is some public health agency involvement in many HIOs, the primary use case of most HIOs—that is, the way that a system would be used by end users—is centered around direct patient care with the primary goals of improving providers’ access to information, thereby improving the safety and quality of care, and reducing costs.<sup><a href="#bib7" class="usa-link" aria-describedby="bib7">7</a>–<a href="#bib12" class="usa-link" aria-describedby="bib12">12</a></sup> As part of this work, HIOs provide the organizational infrastructure, legal underpinnings, and technical expertise to enable HIE. This includes building physical data interfaces between the stakeholders and the HIO, and mapping proprietary database codes from each stakeholder to widely accepted standard vocabularies.</p>
+<p>Although HIOs usually do this work for clinical use cases, public health agencies can also leverage it to help promote a variety of public health use cases. As demonstrated in several jurisdictions, public health involvement in the identification and development of use cases, data standards, and protocols in the early stages of HIOs can help drive this synergy.<sup><a href="#bib13" class="usa-link" aria-describedby="bib13">13</a></sup> There are, however, certain preconditions: the requisite data must exist in electronic form, analytics that are appropriate for public health purposes must be created, and the HIOs involved must understand the value of the public health use cases.</p>
+<p>The federal government, state governments, and foundations have supported the development of important infrastructure for HIOs. In 2004, the Office of the National Coordinator of Health Information Technology (IT) laid out a number of health IT goals, 2 of which were to “interconnect clinicians” and “improve population health”; these can be loosely translated into supporting the development of HIE for clinical and public health use cases.<sup><a href="#bib14" class="usa-link" aria-describedby="bib14">14</a></sup> Since then, the Office of the Coordinator has launched 2 rounds of programs to fund testing of nationwide health information network prototypes.<sup><a href="#bib15" class="usa-link" aria-describedby="bib15">15</a>–<a href="#bib17" class="usa-link" aria-describedby="bib17">17</a></sup> In 2005, the Robert Wood Johnson Foundation provided a series of small grants to help link public health officials to emerging HIOs through the InformationLinks program.<sup><a href="#bib18" class="usa-link" aria-describedby="bib18">18</a></sup></p>
+<p>More recently, the Centers for Disease Control and Prevention (CDC) implemented a large program to examine the extent to which HIOs can be used to support biosurveillance activities.<sup><a href="#bib19" class="usa-link" aria-describedby="bib19">19</a></sup> In an example of local government support, the New York City Department of Health and Mental Hygiene led a CDC-funded Center of Excellence in Public Health Informatics. The department was also one of 3 participants (along with New York State) in the previously mentioned CDC biosurveillance program. New York State has also funded contracts totaling more than $840 million to support the development of HIOs for both clinical and public health use cases.<sup><a href="#bib20" class="usa-link" aria-describedby="bib20">20</a></sup></p>
+<section id="sec1"><h2 class="pmc_sec_title">POTENTIAL USES OF HEALTH INFORMATION EXCHANGE</h2>
+<p>Public health in the abstract has frequently been promoted as a potential benefit of HIE.<sup><a href="#bib7" class="usa-link" aria-describedby="bib7">7</a>,<a href="#bib21" class="usa-link" aria-describedby="bib21">21</a>–<a href="#bib23" class="usa-link" aria-describedby="bib23">23</a></sup> If HIOs become part of the health care landscape, they could significantly accelerate efforts to automate public health activities. However, except for the research initiatives discussed in this article, there have been very few implementations of these ideas. Also, specific use cases through which public health can be improved with HIE have not yet been described comprehensively in the literature. We formally describe 11 potential use cases in which HIE can improve public health-related activities. The <a href="#box1" class="usa-link">box</a> on page 618 provides hypothetical scenarios illustrating the potential utility of these public health-specific use cases.</p>
+<section class="bt xbox font-sm" id="box1"><section id="sec2"><h3 class="pmc_sec_title">Public Health Use Cases for Health Information Exchange With Event Scenarios Assuming Current Methods Are Used</h3>
+<section class="tw xbox font-sm" id="d32e217"><div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<thead><tr>
+<td rowspan="1" colspan="1">Potential Health Information Exchange Applications</td>
+<td align="center" rowspan="1" colspan="1">Event Scenarios Assuming Use of Current Methods</td>
+</tr></thead>
+<tbody>
+<tr>
+<td rowspan="1" colspan="1">Mass-casualty events</td>
+<td rowspan="1" colspan="1">The city of Metropolis is rocked by an early-morning explosion. Even before the arrival of the wounded, the telephone lines of the city's 24 emergency departments are swamped by calls from family members seeking information about their loved ones. Staff are distracted, and communication is hindered.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Disaster medical response</td>
+<td rowspan="1" colspan="1">As Metropolis' wounded flood into unfamiliar emergency departments, providers scramble to obtain medical records and struggle to treat patients without knowing their medications, allergies, or existing conditions.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Clinical care in public health clinics</td>
+<td rowspan="1" colspan="1">A week has passed since the explosion, and the city is beginning to regain its equilibrium. At a city tuberculosis clinic, a public health physician is examining a homeless patient with atypical symptoms. He reports malaise, fever, chills, and a bloody cough, but the characteristic lesions of tuberculosis are absent. He also reports a vague history of prior lung problems.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Reporting of laboratory diagnoses</td>
+<td rowspan="1" colspan="1">The patient decompensates and is transferred to an emergency department. Blood cultures are drawn. The laboratory identifies an unusual gram-negative rod growing in 4/4 bottles, but the laboratorian, by nature conservative, is reluctant to report it officially until he can run some confirmatory tests.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Public health alerting: patient level</td>
+<td rowspan="1" colspan="1">By the time public health officials are notified, the patient is very ill in intensive care. Alarmingly, he reports similar problems in a drinking buddy. He knows his friend's name and approximate age, but public health officials are unable to find him at the usual shelter. The friend also becomes very ill and is brought into an emergency department at another hospital, where they are unaware of the patient's exposure history.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Reporting of physician-based diagnoses</td>
+<td rowspan="1" colspan="1">The outbreak is now confirmed as having been caused by a specific bacillus. Public health investigators desperately need to identify additional cases, and they issue an alert through the Health Alert Network informing providers of the need to report. However, some clinicians are not subscribed through this system, and those who are subscribed are overwhelmed by the “worried well” coming in for visits. Thus, they are unable to transmit case reports to the health department in a timely manner.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Nonmandatory reporting of laboratory data</td>
+<td rowspan="1" colspan="1">To make matters worse, it appears that this strain of bacillus has been engineered to be resistant to the antibiotics normally used to treat it. The authorities would like to require the tracking of antibiotic resistance patterns to be added to the electronic lab reporting data streams, but they are unable to alter these interfaces in a short time period.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Public health investigation</td>
+<td rowspan="1" colspan="1">Public health authorities still don't understand the connections among the cases that are starting to trickle in. This is complicated by the fact that there are hundreds of suspect cases; without more clinical data, it is hard to narrow down the high-probability cases and try to understand the connections among them. Tracking down written medical charts is difficult and time-consuming.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Nonmandatory reporting of clinical data</td>
+<td rowspan="1" colspan="1">Public health officials are concerned that the reported cases could be the tip of the iceberg. The affected individuals seem limited to the immunocompromised and the elderly, who may have received a high dose of the presumed agent of bioterrorism. Policymakers are desperate to know whether there have been increases in ambulatory and Emergency Department (ED) visits by individuals with prodromic symptoms and measured fever.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Public health alerting: population level</td>
+<td rowspan="1" colspan="1">An old antibiotic is found that has efficacy against the agent. A public health alert is drafted and disseminated through the health department's health alert network, but providers are still not getting the message. It is crucial that therapy be started as soon as possible.</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Quality measurement</td>
+<td rowspan="1" colspan="1">The outbreak is being brought under control, but to be sure that it does not flare up again, public health officials recommend vaccinating individuals at risk for the disease. After releasing this recommendation, public health authorities need to know what percentage of susceptible patients at particular health care sites have received the vaccine. These data would allow authorities to target hospitals out of compliance for education and support.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/d32e217/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section></section><section id="sec3"><h3 class="pmc_sec_title">Mandated Reporting of Laboratory Diagnoses</h3>
+<p>Mandated reporting of a predefined list of notifiable diseases and conditions is the cornerstone of public health surveillance. However, paper and faxed reports can be costly to generate and process. Electronic laboratory reporting has been shown to improve the timeliness and completeness of reporting,<sup><a href="#bib24" class="usa-link" aria-describedby="bib24">24</a>–<a href="#bib26" class="usa-link" aria-describedby="bib26">26</a></sup> but laboratories and health departments have been slow to adopt this reporting method. In a 2007 survey, only 14 of 56 jurisdictions reported electronic laboratory reporting systems that were at least 50% operational.<sup><a href="#bib27" class="usa-link" aria-describedby="bib27">27</a></sup> Local laboratory test and result codes are often customized for billing purposes, and it can be time-consuming to map them to a standardized vocabulary (e.g., Logical Observation Identifiers Names and Codes)<sup><a href="#bib28" class="usa-link" aria-describedby="bib28">28</a></sup> and to maintain that mapping on an ongoing basis. Furthermore, if electronic reporting draws only from laboratory information systems, the quality of reported data (e.g., inclusion of patient addresses) may actually decline, and certain health department programs may be reluctant to automate the entry of electronic reports into surveillance databases.<sup><a href="#bib4" class="usa-link" aria-describedby="bib4">4</a></sup> Still, the electronic transmission of laboratory reports can increase the efficiency of public health surveillance for high-volume diseases and the timeliness of reporting for cases requiring immediate public health action.<sup><a href="#bib29" class="usa-link" aria-describedby="bib29">29</a></sup></p>
+<p>The technical and organizational infrastructure and standards implemented as part of emerging HIO activities could facilitate automated laboratory reporting. Although the legal requirement to report rests upon the laboratories and can not be delegated, the HIO could ensure that (1) all the data necessary for notifiable disease reporting would be integrated and mapped to standard vocabularies, (2) notifiable conditions would be identified according to a standard rule set (e.g., what constitutes positive syphilis serology), (3) a standards-based secure message could be sent to public health, and (4) an electronic log of transmissions would be maintained for audit purposes. This mandated reporting to public health agencies would include full patient identifiers and could trigger a public health investigation, including contact tracing.</p></section><section id="sec4"><h3 class="pmc_sec_title">Nonmandated Reporting of Laboratory Data</h3>
+<p>Not all infectious diseases of public health significance are legally required to be reported. For example, viral diseases that account for the majority of seasonal disease morbidity for respiratory illnesses (e.g., influenza, respiratory syncitial virus) and gastrointestinal illnesses (e.g., norovirus, rotavirus) are not routinely reportable in most jurisdictions. These cases will not require public health action on an individual basis, but knowledge of the disease patterns in the community can help stakeholders guide public health messages and rule out other, less innocuous outbreaks. Sentinel laboratories already conduct manual reporting of selected respiratory and enteric viral pathogens.<sup><a href="#bib30" class="usa-link" aria-describedby="bib30">30</a></sup> As laboratory assays for these diseases become more available in clinical laboratories, automated electronic reporting to public health becomes more feasible and useful. Rather than adding these conditions to notifiable disease lists, an alternative would be for laboratories or HIOs to voluntarily report them to public health.</p>
+<p>Another example of nonreportable laboratory data that could be very useful for public health monitoring is antimicrobial resistance patterns. In both of these examples, negative as well as positive tests could be reported (in contrast to traditional reporting), providing an understanding of denominators and allowing an estimation of sensitivity and resistance patterns of specific infectious agents to specific drugs. This information could be used in conjunction with a geographical information system to provide spatial-temporal displays<sup><a href="#bib31" class="usa-link" aria-describedby="bib31">31</a></sup> such as a community-wide antibiogram that could help clinicians be more selective in their choices of antibiotics and prevent unnecessary propagation of antibiotic resistance within a given community. This nonmandated reporting would not require patient identifiers, although the ability to link results from the same patient would offer some benefits by reducing double counting. As in the use cases already described, the HIO would provide the local infrastructure needed to map required data elements (e.g., laboratory results) to standard vocabularies, identify individual cases of interest according to standardized rules, and securely report them to public health. Deidentification of the cases (with or without a linking variable) would be an additional requirement of this use case.</p></section><section id="sec5"><h3 class="pmc_sec_title">Mandated Reporting of Physician-Based Diagnoses</h3>
+<p>The second arm of notifiable disease surveillance is independent named reporting from physicians, mandated by law. Electronic laboratory reporting does not cover reporting from physicians, who are separately required to report, and who may be the only sources of required clinical information (e.g., onset date) or risk factor information (e.g., occupation, travel). Physician compliance with reporting requirements is highly variable (9%–99%),<sup><a href="#bib32" class="usa-link" aria-describedby="bib32">32</a></sup> depending on the disease entity, the provider's awareness of reporting requirements, and the provider's perception of the benefits of reporting. A counterpart to electronic laboratory reporting would therefore be enhanced reporting of suspect or confirmed clinical cases on the basis of diagnoses, procedures, or medications entered into clinical information systems and available to the local HIO infrastructure. This enhanced report could be sent in an automated fashion, or it could produce an alert that prompts clinicians to efficiently comply with the reporting requirement in line with their clinical workflow, a mechanism which should improve both compliance and timeliness of reporting.</p>
+<p>The Boston Center of Excellence in Public Health Informatics is developing such a model on the basis of reporting from each individual institutions, electronic medical records,<sup><a href="#bib33" class="usa-link" aria-describedby="bib33">33</a></sup> but the principle could be readily extended to standardized data repositories maintained for HIE. The HIO would need to ensure mapping of required data elements to standard vocabularies, implementation of a standard rules engine, secure messaging to public health, and an audit trail. An additional workflow that might be prudent would be to have such cases first trigger a review by a hospital or health system's infection control practitioner prior to transmission to the health department. This would reduce the number of erroneous reports caused by nonspecific diagnoses (e.g., rule-outs) or miscodings (e.g., “trichinosis” entered instead of “trichomonas”) and ensure that the surveillance reports contain all the needed information, some of which may require manual chart review (e.g., occupation, travel history).</p></section><section id="sec6"><h3 class="pmc_sec_title">Nonmandatory Reporting of Clinical Data</h3>
+<p>Syndromic surveillance systems are based on ongoing monitoring of nonreportable, nondiagnostic data from existing information systems that can nonetheless provide information on trends in community health. Examples include monitoring of emergency department chief complaints or discharge diagnoses<sup><a href="#bib34" class="usa-link" aria-describedby="bib34">34</a>,<a href="#bib35" class="usa-link" aria-describedby="bib35">35</a></sup> and Web search engine hits for topics such as flu-related illnesses<sup><a href="#bib36" class="usa-link" aria-describedby="bib36">36</a>,<a href="#bib37" class="usa-link" aria-describedby="bib37">37</a></sup> or sales of over-the-counter flu remedies.<sup><a href="#bib38" class="usa-link" aria-describedby="bib38">38</a></sup> Most such surveillance systems are also tied to sophisticated statistical algorithms for detection of temporal and spatial-temporal clusters that may require investigation to rule out disease outbreaks of public health significance, whether naturally occurring or manmade.<sup><a href="#bib39" class="usa-link" aria-describedby="bib39">39</a>,<a href="#bib40" class="usa-link" aria-describedby="bib40">40</a></sup> The HIO infrastructure could enable voluntary automated transmission of these data to public health authorities.</p>
+<p>Such a system should also support the ability of public health to conduct investigations in the event of a disease cluster of concern. The HIO would need to enable standards-based mapping of a potentially large array of data elements,<sup><a href="#bib41" class="usa-link" aria-describedby="bib41">41</a></sup> the ability to filter for cases of interest, and secure messaging to public health. Because identifiers are not required or mandated, 2 general approaches could be employed. As with laboratory data, individual clinical cases of interest could be found according to a standardized rules engine and then deidentified or pseudonymized before reporting. Alternatively, events of interest could be aggregated and reported to public health as counts (e.g., number of total encounters with febrile respiratory illness). Public health investigation of clusters would require a protocol for using the audit mechanism (e.g., with exact time of transmission) to enable reidentification of individual cases when necessary.</p></section><section id="sec7"><h3 class="pmc_sec_title">Public Health Investigation</h3>
+<p>In this use case, public health queries the HIO for clinical data relating to a particular case that has already been identified as requiring investigation through other means (e.g., laboratory report, contact tracing). Under this scenario, public health would already be in possession of full patient identifiers used to query the HIO and would access clinical data needed for the public health investigation as required by law. In this model, public health acts as merely another authorized user of the HIO network, albeit with different authorization requirements from those that apply to clinical users (i.e., that the individual searched for is a patient under care and has consented to their information being shared). The HIO would need to have a mechanism for auditing such public health access.</p></section><section id="sec8"><h3 class="pmc_sec_title">Clinical Care in Public Health Clinics</h3>
+<p>In different jurisdictions, public health departments are directly responsible for providing health care for certain conditions (e.g., tuberculosis, sexually transmitted diseases) or in certain settings (e.g., schools, jails, homeless shelters). Under this scenario, public health would already be in possession of full patient identifiers used to query the HIO and would access data needed for clinical purposes, much as any other user of the HIO network. In some jurisdictions, there may be public health exemptions that explicitly permit release of information to public health clinicians even without patient consent.<sup><a href="#bib42" class="usa-link" aria-describedby="bib42">42</a></sup></p></section><section id="sec9"><h3 class="pmc_sec_title">Population-Level Quality Monitoring</h3>
+<p>In the past decade, public health has become increasingly attuned to the mounting burden of epidemics of chronic diseases and the growing efficacy of clinical preventive services (e.g., lipid control, early detection of cancers) for asymptomatic individuals and medical treatment for prevention of sequelae for diseases such as diabetes and heart disease. Although overall quality of preventive care is known to be poor,<sup><a href="#bib10" class="usa-link" aria-describedby="bib10">10</a></sup> current methods of measuring the quality of care rely on chart reviews at provider settings or claims-based analysis of different insured populations. Chart reviews are costly, and neither method supports ongoing population-level (neighborhood or community) quality monitoring outside of closed systems. To the extent that regional HIE can penetrate across systems of care, it offers the possibility of measuring the quality of care delivered to members of a community across health plans and providers. The HIO infrastructure could be leveraged to provide core data elements (e.g., medications, procedures, diagnoses) needed for a focused, high-quality data warehouse. A system-generated identifier could be used to link patient data across different institutions. If patient-level linking across institutions is not required, then summary quality measures from individual institutions (i.e., counts of numerators, denominators, and exclusions) could be aggregated at the HIO level with no risk to patient privacy.</p></section><section id="sec10"><h3 class="pmc_sec_title">Mass-Casualty Events</h3>
+<p>When mass-casualty events occur, hospitals are often overwhelmed with requests for information regarding loved ones who have gone missing and are feared injured or dead. Currently no efficient system exists for disseminating this information across health systems. In the days following the September 11th terrorist attacks in New York City, the Greater New York Hospital Association, a New York City–area trade association that represents hospitals and continuing care facilities, gathered and compiled emergency department visit logs from more than 100 hospitals and served as a single point of contact for these public requests. If a record locator service (RLS) architecture was designed to receive ongoing admission-discharge-transfer messages from clinical registration systems (with updated dates of service), then the HIO would be well-suited to fulfill this patient locator function. The HIE hub would merely need to allow the designated call center(s) to query the RLS in the event of an emergency. To provide the minimum data necessary, however, the HIO would ideally include a mechanism to display only the results of the RLS query (i.e., no clinical information) and filter these responses by date range to only include encounters since the state of emergency began.</p></section><section id="sec11"><h3 class="pmc_sec_title">Disaster Medical Response</h3>
+<p>Electronic availability of clinical data through the Department of Veterans Affairs and other systems allowed some large health care providers to have their patients’ data available very soon after Hurricane Katrina destroyed much of their physical infrastructure.<sup><a href="#bib43" class="usa-link" aria-describedby="bib43">43</a></sup> HIE may further benefit the medical care of refugees and other dislocated individuals by opening up clinical data exchange query functions to providers and HIOs in other areas via a rapid credentialing process that would permit authorization and access.</p></section><section id="sec12"><h3 class="pmc_sec_title">Public Health Alerting: Patient Level</h3>
+<p>In most of the previously described scenarios, the flow of information is from HIOs to public health. However, one could conceive of the HIO infrastructure also enabling targeted communication from public health to HIO network users. Health departments are typically constrained in their ability to disclose identifiable surveillance data for clinical purposes, but there are some examples where the duty to warn outweighs this prerogative to confidentiality. For example, emergency department physicians who query the HIO for a patient's past medical history could receive a highlighted public health alert for patients with active tuberculosis who were lost to follow-up. This alert system would make it possible to isolate infectious patients earlier, when appropriate, thus decreasing the rate of nosocomial spread.<sup><a href="#bib44" class="usa-link" aria-describedby="bib44">44</a></sup> In this scenario, the public health agency acts as merely another data source on the HIE, but a source with very selective data to share.</p>
+<p>A similar use case for patient-level alerting involves antibiotic-resistant organism (ARO) surveillance for early isolation of infected patients when they present to a hospital. AROs such as methicillin-resistant <em>Staphylococcus aureus</em> (MRSA), vancomycin-resistant enterococcus, and multidrug-resistant tuberculosis can pose a significant threat to hospital staff, visitors, and other patients who are exposed to individuals carrying these organisms—especially immunocompromised patients with HIV or those on medication for organ transplant or other medical conditions. MRSA in particular has gained much attention in the press lately, and not without reason. The incidence of both community-acquired and hospital-acquired MRSA is on the rise in many regions<sup><a href="#bib45" class="usa-link" aria-describedby="bib45">45</a></sup> and is a significant cause of morbidity, mortality, and increased incremental costs, with some nosocomial infections costing as much as $17,422.<sup><a href="#bib46" class="usa-link" aria-describedby="bib46">46</a>,<a href="#bib47" class="usa-link" aria-describedby="bib47">47</a></sup></p>
+<p>ARO-infected patients who are diagnosed at a given facility may present to an emergency department at another facility without being identified or appropriately isolated for an extended period of time, exposing other patients and hospital staff and putting them at risk for infection with these virulent agents. Early isolation of patients infected with these agents has been shown to decrease nosocomial spread as much as 16-fold.<sup><a href="#bib48" class="usa-link" aria-describedby="bib48">48</a>–<a href="#bib50" class="usa-link" aria-describedby="bib50">50</a></sup> An ARO surveillance use case could be designed around HIE from the hospital's local health department or neighboring facilities, so that the patient could be flagged on the HIO enterprise master patient index, and the admitting facility could be alerted at registration that the patient should be placed in appropriate isolation.<sup><a href="#bib51" class="usa-link" aria-describedby="bib51">51</a>,<a href="#bib52" class="usa-link" aria-describedby="bib52">52</a></sup></p></section><section id="sec13"><h3 class="pmc_sec_title">Public Health Alerting: Population Level</h3>
+<p>The HIE user interface could also be a gateway to relevant epidemiologic information that the provider might be interested in. For example, an emergency department physician might receive trends in influenza A and B viral cultures in the community and outpatient antibiograms, and a primary care physician might receive updated preventive services recommendations. These findings could be presented to all users, or they could be customized to the particular queried patient's age, race, neighborhood, or prior medical history. General public health messages could be incorporated into the HIO portal, and more tailored epidemiologic information could be integrated into a patient query. HIOs that offer access to patients through online portals might also enable targeted public health communication with patients in much the same way.</p></section></section><section id="sec14"><h2 class="pmc_sec_title">DISCUSSION</h2>
+<p>We have presented an expanded vision of how the organizational and technical infrastructure of HIOs could improve the efficiency and quality of public health reporting, facilitate public health investigation, improve emergency response, and enable public health to communicate information to the clinical community. We note that there are significant worries about the financial viability of some HIOs,<sup><a href="#bib53" class="usa-link" aria-describedby="bib53">53</a></sup> some notable failures,<sup><a href="#bib54" class="usa-link" aria-describedby="bib54">54</a>–<a href="#bib57" class="usa-link" aria-describedby="bib57">57</a></sup> and much concern about developing business models for HIO sustainability.<sup><a href="#bib58" class="usa-link" aria-describedby="bib58">58</a></sup> These issues notwithstanding, there were 193 HIE projects at various stages of development in 48 states, including 42 that were operational at the time of a 2009 survey.<sup><a href="#bib6" class="usa-link" aria-describedby="bib6">6</a></sup> In addition, new models for health information exchange are being developed to augment regional health information organization efforts, such as the Nationwide Health Information Network Direct Project (available at: <a href="http://nhindirect.org" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://nhindirect.org</a>). The use cases described here provide clear advantages to public health, but each use case also provides benefits to clinical participants, whether by easing the burden of mandated reporting and responding to public health investigations, improved clinical decision-making that is based on epidemiologic data, or protecting the ability of the institution to function during public health emergencies.</p>
+<p>Although clinical use cases often seem to be the initial motivators of HIOs, public health can and should get involved during the initial phases of development. Having appropriate public health agency representatives at the table early in the process may help influence governance issues and architectural design decisions so that the HIO project can support public health use cases.</p>
+<p>Different technological approaches may be required to support public health use cases, depending on the system or network architectures for a given HIO. Examples of the varying architectures include (1) centralized repositories, as in the case of large hospital networks with enterprise-wide electronic health record implementation (e.g., the Veterans Affairs or Kaiser Permanente health systems); (2) hybrid peer-to-peer file-sharing models, in which all clinical information is stored at the participant organization on edge servers that sit behind their firewalls but with patient demographics stored centrally to allow patient matching and retrieval of relevant clinical information; and (3) patient-controlled health records, in which patients determine which data to deposit into their account and who has permission to view or change them (e.g., Google Health or Microsoft Health Vault). Obtaining the public health benefit envisioned here will require additional capabilities and functionality on the part of HIOs<sup><a href="#bib59" class="usa-link" aria-describedby="bib59">59</a></sup> and a thorough understanding of pertinent legal and privacy issues.</p>
+<p>Depending on regulations and the particular details of a given HIO implementation, the information relayed in the various use cases may be summarized counts that are fully identified, deidentified or anonymized—so that a patient cannot reasonably be identified individually—, or pseudonymized in instances where patient identifiers are not initially reported but a mechanism exists to allow reidentification if necessary (e.g., a clustered outbreak where confirmation and investigation are necessary). Although we have briefly mentioned the likely level of privacy necessary for each use case, the privacy implications of HIE are complex and are discussed in detail elsewhere.<sup><a href="#bib60" class="usa-link" aria-describedby="bib60">60</a></sup></p>
+<p>Having a single point of contact on the clinical side for establishing, testing, and maintaining data flows would be invaluable to public health partners. What we have not discussed is the reciprocal need to consider how public health is organized to interface with clinical entities, both within public health agencies and across them. An assessment by the Council of State and Territorial Epidemiologists notes the limited progress made in integrating electronic disease surveillance systems, with only 13 of 48 states reporting interoperability between any surveillance modules.<sup><a href="#bib61" class="usa-link" aria-describedby="bib61">61</a></sup> The Universal Public Health Node being developed in New York state is the latest in a series of attempts to accomplish this integration.<sup><a href="#bib59" class="usa-link" aria-describedby="bib59">59</a></sup> The potential for harmonization of clinical reporting through HIE challenges public health officials to develop their own analog to the HIO, with parallel requirements for technology standards, staffing, governance, and trust.</p>
+<p>Multiple parallel and discrete efforts are under way to institute electronic reporting from clinical providers to public health, covering such areas as electronic lab reporting, immunization and cancer registries, birth and death registration, adverse events, and syndromic surveillance, to name just a few. Unprecedented national investments in health information technology are poised to dramatically increase the amount of structured electronic data available and stimulate the advancement of multiple models for health information exchange. To maximize the benefits of these investments to public health, new HIE infrastructure must also demonstrate its ability to support these public health use cases, and health jurisdictions must be given the financial resources necessary to fully participate.</p></section><section id="ack1" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p>The CDC provided funding in the form of Center of Excellence in Public Health Informatics grants (8P01-CD000275 to Mostashari, Hripcsak, and Soulakis, and 1K99LM009556-01 2007-2009 to Shapiro).</p></section><section id="ack2" class="ack"><h2 class="pmc_sec_title">Human Participant Protection</h2>
+<p>No protocol approval was necessary because data were obtained from secondary sources.</p></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="bib1">
+<span class="label">1.</span><cite>Yasnoff WA, O'Carroll PW, Koo D, Linkins RW, Kilbourne EM. Public health informatics: improving and transforming public health in the information age. J Public Health Manag Pract. 2000;6(6):67–75</cite> [<a href="https://doi.org/10.1097/00124784-200006060-00010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18019962/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Public%20Health%20Manag%20Pract&amp;title=Public%20health%20informatics:%20improving%20and%20transforming%20public%20health%20in%20the%20information%20age&amp;author=WA%20Yasnoff&amp;author=PW%20O'Carroll&amp;author=D%20Koo&amp;author=RW%20Linkins&amp;author=EM%20Kilbourne&amp;volume=6&amp;issue=6&amp;publication_year=2000&amp;pages=67-75&amp;pmid=18019962&amp;doi=10.1097/00124784-200006060-00010&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib2">
+<span class="label">2.</span><cite>Chute CG, Koo D. Public health, data standards, and vocabulary: crucial infrastructure for reliable public health surveillance. J Public Health Manag Pract. 2002;8(3):11–17</cite> [<a href="https://doi.org/10.1097/00124784-200205000-00003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15156620/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Public%20Health%20Manag%20Pract&amp;title=Public%20health,%20data%20standards,%20and%20vocabulary:%20crucial%20infrastructure%20for%20reliable%20public%20health%20surveillance&amp;author=CG%20Chute&amp;author=D%20Koo&amp;volume=8&amp;issue=3&amp;publication_year=2002&amp;pages=11-17&amp;pmid=15156620&amp;doi=10.1097/00124784-200205000-00003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib3">
+<span class="label">3.</span><cite>Effler P, Ching-Lee M, Bogard A, Ieong MC, Nekomoto T, Jernigan D. Statewide system of electronic notifiable disease reporting from clinical laboratories: comparing automated reporting with conventional methods. JAMA. 1999;282(19):1845–1850</cite> [<a href="https://doi.org/10.1001/jama.282.19.1845" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/10573276/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Statewide%20system%20of%20electronic%20notifiable%20disease%20reporting%20from%20clinical%20laboratories:%20comparing%20automated%20reporting%20with%20conventional%20methods&amp;author=P%20Effler&amp;author=M%20Ching-Lee&amp;author=A%20Bogard&amp;author=MC%20Ieong&amp;author=T%20Nekomoto&amp;volume=282&amp;issue=19&amp;publication_year=1999&amp;pages=1845-1850&amp;pmid=10573276&amp;doi=10.1001/jama.282.19.1845&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib4">
+<span class="label">4.</span><cite>Moore KM, Reddy V, Kapell D, Balter S. Impact of electronic laboratory reporting on hepatitis A surveillance in New York City. J Public Health Manag Pract. 2008;14(5):437–441</cite> [<a href="https://doi.org/10.1097/01.PHH.0000333877.78443.f0" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18708886/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Public%20Health%20Manag%20Pract&amp;title=Impact%20of%20electronic%20laboratory%20reporting%20on%20hepatitis%20A%20surveillance%20in%20New%20York%20City&amp;author=KM%20Moore&amp;author=V%20Reddy&amp;author=D%20Kapell&amp;author=S%20Balter&amp;volume=14&amp;issue=5&amp;publication_year=2008&amp;pages=437-441&amp;pmid=18708886&amp;doi=10.1097/01.PHH.0000333877.78443.f0&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib5">
+<span class="label">5.</span><cite>Overhage JM, Grannis S, McDonald CJ. A comparison of the completeness and timeliness of automated electronic laboratory reporting and spontaneous reporting of notifiable conditions. Am J Public Health. 2008;98(2):344–350</cite> [<a href="https://doi.org/10.2105/AJPH.2006.092700" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2376898/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18172157/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Public%20Health&amp;title=A%20comparison%20of%20the%20completeness%20and%20timeliness%20of%20automated%20electronic%20laboratory%20reporting%20and%20spontaneous%20reporting%20of%20notifiable%20conditions&amp;author=JM%20Overhage&amp;author=S%20Grannis&amp;author=CJ%20McDonald&amp;volume=98&amp;issue=2&amp;publication_year=2008&amp;pages=344-350&amp;pmid=18172157&amp;doi=10.2105/AJPH.2006.092700&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib6">
+<span class="label">6.</span><cite>eHealth Initiative Migrating toward meaningful use: the state of health information exchange. Available at: <a href="http://ehealthinitiative.org/sites/default/files/file/2009%20Survey%20Report%20FINAL.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://ehealthinitiative.org/sites/default/files/file/2009%20Survey%20Report%20FINAL.pdf</a>. Published 2009. Accessed September 9, 2010</cite>
+</li>
+<li id="bib7">
+<span class="label">7.</span><cite>Walker J, Pan E, Johnston D, Adler-Milstein J, Bates DW, Middleton B. The value of health care information exchange and interoperability. Health Aff (Millwood). 2005;W5.10–W5.18</cite> [<a href="https://doi.org/10.1377/hlthaff.w5.10" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15659453/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Aff%20(Millwood)&amp;title=The%20value%20of%20health%20care%20information%20exchange%20and%20interoperability&amp;author=J%20Walker&amp;author=E%20Pan&amp;author=D%20Johnston&amp;author=J%20Adler-Milstein&amp;author=DW%20Bates&amp;publication_year=2005&amp;pages=W5.10-W5.18&amp;pmid=15659453&amp;doi=10.1377/hlthaff.w5.10&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib8">
+<span class="label">8.</span><cite>Institute of Medicine To Err Is Human: Building a Safer Health System. Washington, DC: National Academies Press; 2000</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/25077248/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?title=To%20Err%20Is%20Human:%20Building%20a%20Safer%20Health%20System&amp;publication_year=2000&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib9">
+<span class="label">9.</span><cite>Institute of Medicine Crossing the Quality Chasm: A New Health System for the 21st Century. Washington, DC: National Academies Press; 2001</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/25057539/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?title=Crossing%20the%20Quality%20Chasm:%20A%20New%20Health%20System%20for%20the%2021st%20Century&amp;publication_year=2001&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib10">
+<span class="label">10.</span><cite>McGlynn EA, Asch SM, Adams J, et al.  The quality of health care delivered to adults in the United States. N Engl J Med. 2003;348(26):2635–2645</cite> [<a href="https://doi.org/10.1056/NEJMsa022615" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/12826639/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=N%20Engl%20J%20Med&amp;title=The%20quality%20of%20health%20care%20delivered%20to%20adults%20in%20the%20United%20States&amp;author=EA%20McGlynn&amp;author=SM%20Asch&amp;author=J%20Adams&amp;volume=348&amp;issue=26&amp;publication_year=2003&amp;pages=2635-2645&amp;pmid=12826639&amp;doi=10.1056/NEJMsa022615&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib11">
+<span class="label">11.</span><cite>Smith PC, Araya-Guerra R, Bublitz C, et al.  Missing clinical information during primary care visits. JAMA. 2005;293(5):565–571</cite> [<a href="https://doi.org/10.1001/jama.293.5.565" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15687311/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Missing%20clinical%20information%20during%20primary%20care%20visits&amp;author=PC%20Smith&amp;author=R%20Araya-Guerra&amp;author=C%20Bublitz&amp;volume=293&amp;issue=5&amp;publication_year=2005&amp;pages=565-571&amp;pmid=15687311&amp;doi=10.1001/jama.293.5.565&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib12">
+<span class="label">12.</span><cite>Stiell A, Forster AJ, Stiell IG, van Walraven C. Prevalence of information gaps in the emergency department and the effect on patient outcomes. CMAJ. 2003;169(10):1023–1028</cite> [<a href="/articles/PMC236227/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14609971/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=CMAJ&amp;title=Prevalence%20of%20information%20gaps%20in%20the%20emergency%20department%20and%20the%20effect%20on%20patient%20outcomes&amp;author=A%20Stiell&amp;author=AJ%20Forster&amp;author=IG%20Stiell&amp;author=C%20van%20Walraven&amp;volume=169&amp;issue=10&amp;publication_year=2003&amp;pages=1023-1028&amp;pmid=14609971&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib13">
+<span class="label">13.</span><cite>Kass-Hout TA, Gray SK, Massoudi BL, Immanuel GY, Dollacker M, Cothren R. NHIN, RHIOs, and public health. J Public Health Manag Pract. 2007;13(1):31–34</cite> [<a href="https://doi.org/10.1097/00124784-200701000-00006" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17149097/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Public%20Health%20Manag%20Pract&amp;title=NHIN,%20RHIOs,%20and%20public%20health&amp;author=TA%20Kass-Hout&amp;author=SK%20Gray&amp;author=BL%20Massoudi&amp;author=GY%20Immanuel&amp;author=M%20Dollacker&amp;volume=13&amp;issue=1&amp;publication_year=2007&amp;pages=31-34&amp;pmid=17149097&amp;doi=10.1097/00124784-200701000-00006&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib14">
+<span class="label">14.</span><cite>Thompson launches “Decade of Health Information Technology” [news release] Washington, DC: US Dept of Health and Human Services; July 21, 2004. Available at: <a href="http://archive.hhs.gov/news/press/2004pres/20040721a.html" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://archive.hhs.gov/news/press/2004pres/20040721a.html</a>. Accessed September 9, 2010</cite> [<a href="https://scholar.google.com/scholar_lookup?Thompson%20launches%20%E2%80%9CDecade%20of%20Health%20Information%20Technology%E2%80%9D%20[news%20release]%20Washington,%20DC:%20US%20Dept%20of%20Health%20and%20Human%20Services;%20July%2021,%202004.%20Available%20at:%20http://archive.hhs.gov/news/press/2004pres/20040721a.html.%20Accessed%20September%209,%202010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib15">
+<span class="label">15.</span><cite>DeBor G, Diamond C, Grodecki D, Halamka J, Overhage JM, Shirky C. A tale of three cities—where RHIOs meet the NHIN. J Healthc Inf Manag. 2006;20(3):63–70</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/16903663/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Healthc%20Inf%20Manag&amp;title=A%20tale%20of%20three%20cities%E2%80%94where%20RHIOs%20meet%20the%20NHIN&amp;author=G%20DeBor&amp;author=C%20Diamond&amp;author=D%20Grodecki&amp;author=J%20Halamka&amp;author=JM%20Overhage&amp;volume=20&amp;issue=3&amp;publication_year=2006&amp;pages=63-70&amp;pmid=16903663&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib16">
+<span class="label">16.</span><cite>HHS awards contracts to develop Nationwide Health Information Network [news release] Washington, DC: US Dept of Health and Human Services; November 10, 2005. Available at: <a href="http://archive.hhs.gov/news/press/2005pres/20051110.html" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://archive.hhs.gov/news/press/2005pres/20051110.html</a>. Accessed September 9, 2010</cite> [<a href="https://scholar.google.com/scholar_lookup?HHS%20awards%20contracts%20to%20develop%20Nationwide%20Health%20Information%20Network%20[news%20release]%20Washington,%20DC:%20US%20Dept%20of%20Health%20and%20Human%20Services;%20November%2010,%202005.%20Available%20at:%20http://archive.hhs.gov/news/press/2005pres/20051110.html.%20Accessed%20September%209,%202010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib17">
+<span class="label">17.</span><cite>HHS awards contracts for trial implementation of the Nationwide Health Information Network [news release] Washington, DC: US Dept of Health and Human Services; October 5, 2007. Available at: <a href="http://www.hhs.gov/news/press/2007pres/10/pr20071005a.html" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.hhs.gov/news/press/2007pres/10/pr20071005a.html</a>. Accessed September 9, 2010</cite> [<a href="https://scholar.google.com/scholar_lookup?HHS%20awards%20contracts%20for%20trial%20implementation%20of%20the%20Nationwide%20Health%20Information%20Network%20[news%20release]%20Washington,%20DC:%20US%20Dept%20of%20Health%20and%20Human%20Services;%20October%205,%202007.%20Available%20at:%20http://www.hhs.gov/news/press/2007pres/10/pr20071005a.html.%20Accessed%20September%209,%202010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib18">
+<span class="label">18.</span><cite><em>InformationLinks</em>: connecting public health with health information exchanges [news release] Princeton, NJ: Robert Wood Johnson Foundation; February 27, 2006. Available at: <a href="http://www.rwjf.org/newsroom/product.jsp?id=20948" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.rwjf.org/newsroom/product.jsp?id=20948</a>. Accessed September 9, 2010</cite> [<a href="https://scholar.google.com/scholar_lookup?InformationLinks:%20connecting%20public%20health%20with%20health%20information%20exchanges%20[news%20release]%20Princeton,%20NJ:%20Robert%20Wood%20Johnson%20Foundation;%20February%2027,%202006.%20Available%20at:%20http://www.rwjf.org/newsroom/product.jsp?id=20948.%20Accessed%20September%209,%202010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib19">
+<span class="label">19.</span><cite>Ferris N. CDC contracts will seed large biosurveillance networks. GovernmentHealthIT. Available at: <a href="http://www.cdc.gov/BioSense/files/HIEcontract.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.cdc.gov/BioSense/files/HIEcontract.pdf</a>. Published March 20, 2008. Accessed November 24, 2009</cite>
+</li>
+<li id="bib20">
+<span class="label">20.</span><cite>Health information technology (health IT) grants—HEAL NY phase 1 Albany, NY: New York State Department of Health; 2006. Available at: <a href="http://www.health.state.ny.us/technology" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.health.state.ny.us/technology</a>. Accessed November 24, 2009</cite> [<a href="https://scholar.google.com/scholar_lookup?Health%20information%20technology%20(health%20IT)%20grants%E2%80%94HEAL%20NY%20phase%201%20Albany,%20NY:%20New%20York%20State%20Department%20of%20Health;%202006.%20Available%20at:%20http://www.health.state.ny.us/technology.%20Accessed%20November%2024,%202009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib21">
+<span class="label">21.</span><cite>Foldy S, Ross DA. Public health opportunities in health information exchange. Decatur, GA: Public Health Informatics Institute; 2005. Available at: <a href="http://www.phii.org/resources/doc/Opportunities_0605.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.phii.org/resources/doc/Opportunities_0605.pdf</a>. Accessed November 24, 2009</cite> [<a href="https://scholar.google.com/scholar_lookup?Foldy%20S,%20Ross%20DA.%20Public%20health%20opportunities%20in%20health%20information%20exchange.%20Decatur,%20GA:%20Public%20Health%20Informatics%20Institute;%202005.%20Available%20at:%20http://www.phii.org/resources/doc/Opportunities_0605.pdf.%20Accessed%20November%2024,%202009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib22">
+<span class="label">22.</span><cite>Public Health Informatics Institute Healthy partnerships. Available at: <a href="http://www.phii.org/resources/doc/18181_ShepProd%20Trifold7.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.phii.org/resources/doc/18181_ShepProd%20Trifold7.pdf</a>. Published July 5, 2007. Accessed November 24, 2009</cite>
+</li>
+<li id="bib23">
+<span class="label">23.</span><cite>Ross DA, Hasting T, Kiely J. The big picture: developing an enterprise view of public health information systems. Decatur, GA: Public Health Informatics Institute; 2005. Available at: <a href="http://phii.org/resources/doc/BigPicture.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://phii.org/resources/doc/BigPicture.pdf</a>. Accessed November 24, 2009</cite> [<a href="https://scholar.google.com/scholar_lookup?Ross%20DA,%20Hasting%20T,%20Kiely%20J.%20The%20big%20picture:%20developing%20an%20enterprise%20view%20of%20public%20health%20information%20systems.%20Decatur,%20GA:%20Public%20Health%20Informatics%20Institute;%202005.%20Available%20at:%20http://phii.org/resources/doc/BigPicture.pdf.%20Accessed%20November%2024,%202009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib24">
+<span class="label">24.</span><cite>Hripcsak G, Knirsch CA, Jain NL, Stazesky RC, Jr, Pablos-Mendez A, Fulmer T. A health information network for managing inner-city tuberculosis: bridging clinical care, public health, and home care. Comput Biomed Res. 1999;32(1):67–76</cite> [<a href="https://doi.org/10.1006/cbmr.1998.1496" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/10066356/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Comput%20Biomed%20Res&amp;title=A%20health%20information%20network%20for%20managing%20inner-city%20tuberculosis:%20bridging%20clinical%20care,%20public%20health,%20and%20home%20care&amp;author=G%20Hripcsak&amp;author=CA%20Knirsch&amp;author=NL%20Jain&amp;author=RC%20Stazesky&amp;author=A%20Pablos-Mendez&amp;volume=32&amp;issue=1&amp;publication_year=1999&amp;pages=67-76&amp;pmid=10066356&amp;doi=10.1006/cbmr.1998.1496&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib25">
+<span class="label">25.</span><cite>Silk BJ, Berkelman RL. A review of strategies for enhancing the completeness of notifiable disease reporting. J Public Health Manag Pract. 2005;11(3):191–200</cite> [<a href="https://doi.org/10.1097/00124784-200505000-00003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15829831/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Public%20Health%20Manag%20Pract&amp;title=A%20review%20of%20strategies%20for%20enhancing%20the%20completeness%20of%20notifiable%20disease%20reporting&amp;author=BJ%20Silk&amp;author=RL%20Berkelman&amp;volume=11&amp;issue=3&amp;publication_year=2005&amp;pages=191-200&amp;pmid=15829831&amp;doi=10.1097/00124784-200505000-00003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib26">
+<span class="label">26.</span><cite>Overhage JM, Suico J, McDonald CJ. Electronic laboratory reporting: barriers, solutions and findings. J Public Health Manag Pract. 2001;7(6):60–66</cite> [<a href="https://doi.org/10.1097/00124784-200107060-00007" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11713754/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Public%20Health%20Manag%20Pract&amp;title=Electronic%20laboratory%20reporting:%20barriers,%20solutions%20and%20findings&amp;author=JM%20Overhage&amp;author=J%20Suico&amp;author=CJ%20McDonald&amp;volume=7&amp;issue=6&amp;publication_year=2001&amp;pages=60-66&amp;pmid=11713754&amp;doi=10.1097/00124784-200107060-00007&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib27">
+<span class="label">27.</span><cite>Magnuson JA. 2007 national electronic laboratory reporting (ELR) snapshot survey. Available at: <a href="http://www.coast2coastinformatics.com/2007NationalELRSurvey-Summary.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.coast2coastinformatics.com/2007NationalELRSurvey-Summary.pdf</a>. Published June 3, 2008. Accessed November 24, 2009</cite>
+</li>
+<li id="bib28">
+<span class="label">28.</span><cite>Huff SM, Rocha RA, McDonald CJ, et al.  Development of the Logical Observation Identifier Names and Codes (LOINC) vocabulary. J Am Med Inform Assoc. 1998;5(3):276–292</cite> [<a href="https://doi.org/10.1136/jamia.1998.0050276" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC61302/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/9609498/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Development%20of%20the%20Logical%20Observation%20Identifier%20Names%20and%20Codes%20(LOINC)%20vocabulary&amp;author=SM%20Huff&amp;author=RA%20Rocha&amp;author=CJ%20McDonald&amp;volume=5&amp;issue=3&amp;publication_year=1998&amp;pages=276-292&amp;pmid=9609498&amp;doi=10.1136/jamia.1998.0050276&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib29">
+<span class="label">29.</span><cite>Nguyen TQ, Thorpe L, Makki HA, Mostashari F. Benefits and barriers to electronic laboratory results reporting for notifiable diseases: the New York City Department of Health and Mental Hygiene experience. Am J Public Health. 2007;97(suppl 1):S142–S145</cite> [<a href="https://doi.org/10.2105/AJPH.2006.098996" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1854985/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17413058/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Public%20Health&amp;title=Benefits%20and%20barriers%20to%20electronic%20laboratory%20results%20reporting%20for%20notifiable%20diseases:%20the%20New%20York%20City%20Department%20of%20Health%20and%20Mental%20Hygiene%20experience&amp;author=TQ%20Nguyen&amp;author=L%20Thorpe&amp;author=HA%20Makki&amp;author=F%20Mostashari&amp;volume=97&amp;issue=suppl%201&amp;publication_year=2007&amp;pages=S142-S145&amp;pmid=17413058&amp;doi=10.2105/AJPH.2006.098996&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib30">
+<span class="label">30.</span><cite>Centers for Disease Control and Prevention Laboratory-based surveillance for rotavirus—United States, July 1997–June 1998. MMWR Morb Mortal Wkly Rep. 1998;47(45):978–980</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/9843356/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=MMWR%20Morb%20Mortal%20Wkly%20Rep&amp;title=Laboratory-based%20surveillance%20for%20rotavirus%E2%80%94United%20States,%20July%201997%E2%80%93June%201998&amp;volume=47&amp;issue=45&amp;publication_year=1998&amp;pages=978-980&amp;pmid=9843356&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib31">
+<span class="label">31.</span><cite>Gao S, Mioc D, Anton F, Yi X, Coleman DJ. Online GIS services for mapping and sharing disease information. Int J Health Geogr. 2008;7:8 Available at: <a href="http://www.ij-healthgeographics.com/content/7/1/8" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.ij-healthgeographics.com/content/7/1/8</a>. Accessed September 9, 2010</cite> [<a href="https://doi.org/10.1186/1476-072X-7-8" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2277489/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18298859/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Health%20Geogr&amp;title=Online%20GIS%20services%20for%20mapping%20and%20sharing%20disease%20information&amp;author=S%20Gao&amp;author=D%20Mioc&amp;author=F%20Anton&amp;author=X%20Yi&amp;author=DJ%20Coleman&amp;volume=7&amp;publication_year=2008&amp;pages=8&amp;pmid=18298859&amp;doi=10.1186/1476-072X-7-8&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib32">
+<span class="label">32.</span><cite>Doyle TJ, Glynn MK, Groseclose SL. Completeness of notifiable infectious disease reporting in the United States: an analytical literature review. Am J Epidemiol. 2002;155(9):866–874</cite> [<a href="https://doi.org/10.1093/aje/155.9.866" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11978592/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Epidemiol&amp;title=Completeness%20of%20notifiable%20infectious%20disease%20reporting%20in%20the%20United%20States:%20an%20analytical%20literature%20review&amp;author=TJ%20Doyle&amp;author=MK%20Glynn&amp;author=SL%20Groseclose&amp;volume=155&amp;issue=9&amp;publication_year=2002&amp;pages=866-874&amp;pmid=11978592&amp;doi=10.1093/aje/155.9.866&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib33">
+<span class="label">33.</span><cite>Klompas M, Haney G, Church D, Lazarus R, Hou X, Platt R. Automated identification of acute hepatitis B using electronic medical record data to facilitate public health surveillance. PLoS ONE. 2008;3(7):e2626.</cite> [<a href="https://doi.org/10.1371/journal.pone.0002626" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2440348/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18612462/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PLoS%20ONE&amp;title=Automated%20identification%20of%20acute%20hepatitis%20B%20using%20electronic%20medical%20record%20data%20to%20facilitate%20public%20health%20surveillance&amp;author=M%20Klompas&amp;author=G%20Haney&amp;author=D%20Church&amp;author=R%20Lazarus&amp;author=X%20Hou&amp;volume=3&amp;issue=7&amp;publication_year=2008&amp;pages=e2626&amp;pmid=18612462&amp;doi=10.1371/journal.pone.0002626&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib34">
+<span class="label">34.</span><cite>Heffernan R, Mostashari F, Das D, Karpati A, Kulldorff M, Weiss D. Syndromic surveillance in public health practice, New York City. Emerg Infect Dis. 2004;10(5):858–864</cite> [<a href="https://doi.org/10.3201/eid1005.030646" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15200820/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Emerg%20Infect%20Dis&amp;title=Syndromic%20surveillance%20in%20public%20health%20practice,%20New%20York%20City&amp;author=R%20Heffernan&amp;author=F%20Mostashari&amp;author=D%20Das&amp;author=A%20Karpati&amp;author=M%20Kulldorff&amp;volume=10&amp;issue=5&amp;publication_year=2004&amp;pages=858-864&amp;pmid=15200820&amp;doi=10.3201/eid1005.030646&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib35">
+<span class="label">35.</span><cite>Fleischauer AT, Silk BJ, Schumacher M, et al.  The validity of chief complaint and discharge diagnosis in emergency department-based syndromic surveillance. Acad Emerg Med. 2004;11(12):1262–1267</cite> [<a href="https://doi.org/10.1197/j.aem.2004.07.013" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15576514/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Acad%20Emerg%20Med&amp;title=The%20validity%20of%20chief%20complaint%20and%20discharge%20diagnosis%20in%20emergency%20department-based%20syndromic%20surveillance&amp;author=AT%20Fleischauer&amp;author=BJ%20Silk&amp;author=M%20Schumacher&amp;volume=11&amp;issue=12&amp;publication_year=2004&amp;pages=1262-1267&amp;pmid=15576514&amp;doi=10.1197/j.aem.2004.07.013&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib36">
+<span class="label">36.</span><cite>Eysenbach G. Infodemiology: tracking flu-related searches on the web for syndromic surveillance. AMIA Annu Symp Proc. 2006;244–248</cite> [<a href="/articles/PMC1839505/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17238340/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=AMIA%20Annu%20Symp%20Proc&amp;title=Infodemiology:%20tracking%20flu-related%20searches%20on%20the%20web%20for%20syndromic%20surveillance&amp;author=G%20Eysenbach&amp;publication_year=2006&amp;pages=244-248&amp;pmid=17238340&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib37">
+<span class="label">37.</span><cite>Ginsberg J, Mohebbi MH, Patel RS, Brammer L, Smolinski MS, Brilliant L. Detecting influenza epidemics using search engine query data. Nature. 2009;457(7232):1012–1014</cite> [<a href="https://doi.org/10.1038/nature07634" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19020500/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Nature&amp;title=Detecting%20influenza%20epidemics%20using%20search%20engine%20query%20data&amp;author=J%20Ginsberg&amp;author=MH%20Mohebbi&amp;author=RS%20Patel&amp;author=L%20Brammer&amp;author=MS%20Smolinski&amp;volume=457&amp;issue=7232&amp;publication_year=2009&amp;pages=1012-1014&amp;pmid=19020500&amp;doi=10.1038/nature07634&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib38">
+<span class="label">38.</span><cite>Das D, Metzger K, Heffernan R, Balter S, Weiss D, Mostashari F. Monitoring over-the-counter medication sales for early detection of disease outbreaks—New York City. MMWR Morb Mortal Wkly Rep. 2005;54(suppl):41–46</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/16177692/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=MMWR%20Morb%20Mortal%20Wkly%20Rep&amp;title=Monitoring%20over-the-counter%20medication%20sales%20for%20early%20detection%20of%20disease%20outbreaks%E2%80%94New%20York%20City&amp;author=D%20Das&amp;author=K%20Metzger&amp;author=R%20Heffernan&amp;author=S%20Balter&amp;author=D%20Weiss&amp;volume=54&amp;issue=suppl&amp;publication_year=2005&amp;pages=41-46&amp;pmid=16177692&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib39">
+<span class="label">39.</span><cite>Kulldorff M, Zhang Z, Hartman J, Heffernan R, Huang L, Mostashari F. Benchmark data and power calculations for evaluating disease outbreak detection methods. MMWR Morb Mortal Wkly Rep. 2004;53(suppl):144–151</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/15714644/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=MMWR%20Morb%20Mortal%20Wkly%20Rep&amp;title=Benchmark%20data%20and%20power%20calculations%20for%20evaluating%20disease%20outbreak%20detection%20methods&amp;author=M%20Kulldorff&amp;author=Z%20Zhang&amp;author=J%20Hartman&amp;author=R%20Heffernan&amp;author=L%20Huang&amp;volume=53&amp;issue=suppl&amp;publication_year=2004&amp;pages=144-151&amp;pmid=15714644&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib40">
+<span class="label">40.</span><cite>Kulldorff M, Heffernan R, Hartman J, Assuncao R, Mostashari F. A space-time permutation scan statistic for disease outbreak detection. PLoS Med. 2005;2(3):e59.</cite> [<a href="https://doi.org/10.1371/journal.pmed.0020059" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC548793/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15719066/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PLoS%20Med&amp;title=A%20space-time%20permutation%20scan%20statistic%20for%20disease%20outbreak%20detection&amp;author=M%20Kulldorff&amp;author=R%20Heffernan&amp;author=J%20Hartman&amp;author=R%20Assuncao&amp;author=F%20Mostashari&amp;volume=2&amp;issue=3&amp;publication_year=2005&amp;pages=e59&amp;pmid=15719066&amp;doi=10.1371/journal.pmed.0020059&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib41">
+<span class="label">41.</span><cite>Biosurveillance Data Steering Group Minimum Data Set Specifications. Available at: <a href="http://nccphp.sph.unc.edu/APC/tarrant/Tarrant_MinimumDataSet.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://nccphp.sph.unc.edu/APC/tarrant/Tarrant_MinimumDataSet.pdf</a>. Accessed November 24, 2009</cite>
+</li>
+<li id="bib42">
+<span class="label">42.</span><cite> NY Correction Law §601(d)</cite>
+</li>
+<li id="bib43">
+<span class="label">43.</span><cite>Conn J. IT systems survive Katrina: hospitals with EMRs able to retrieve patient data. Mod Healthc. 2005;35(37):12–14</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/16224945/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Mod%20Healthc&amp;title=IT%20systems%20survive%20Katrina:%20hospitals%20with%20EMRs%20able%20to%20retrieve%20patient%20data&amp;author=J%20Conn&amp;volume=35&amp;issue=37&amp;publication_year=2005&amp;pages=12-14&amp;pmid=16224945&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib44">
+<span class="label">44.</span><cite>Oscherwitz T, Tulsky JP, Roger S, et al.  Detention of persistently nonadherent patients with tuberculosis. JAMA. 1997;278(10):843–846</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/9293993/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Detention%20of%20persistently%20nonadherent%20patients%20with%20tuberculosis&amp;author=T%20Oscherwitz&amp;author=JP%20Tulsky&amp;author=S%20Roger&amp;volume=278&amp;issue=10&amp;publication_year=1997&amp;pages=843-846&amp;pmid=9293993&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib45">
+<span class="label">45.</span><cite>National Nosocomial Infections Surveillance (NNIS) system report Data summary from January 1992 through June 2003, issued August 2003. Am J Infect Control. 2003;31(8):481–498</cite> [<a href="https://doi.org/10.1016/j.ajic.2003.09.002" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14647111/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Infect%20Control&amp;title=Data%20summary%20from%20January%201992%20through%20June%202003,%20issued%20August%202003&amp;volume=31&amp;issue=8&amp;publication_year=2003&amp;pages=481-498&amp;pmid=14647111&amp;doi=10.1016/j.ajic.2003.09.002&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib46">
+<span class="label">46.</span><cite>Karchmer TB, Durbin LJ, Simonton BM, Farr BM. Cost-effectiveness of active surveillance cultures and contact/droplet precautions for control of methicillin-resistant <em>Staphylococcus aureus</em>. J Hosp Infect. 2002;51(2):126–132</cite> [<a href="https://doi.org/10.1053/jhin.2002.1200" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/12090800/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Hosp%20Infect&amp;title=Cost-effectiveness%20of%20active%20surveillance%20cultures%20and%20contact/droplet%20precautions%20for%20control%20of%20methicillin-resistant%20Staphylococcus%20aureus&amp;author=TB%20Karchmer&amp;author=LJ%20Durbin&amp;author=BM%20Simonton&amp;author=BM%20Farr&amp;volume=51&amp;issue=2&amp;publication_year=2002&amp;pages=126-132&amp;pmid=12090800&amp;doi=10.1053/jhin.2002.1200&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib47">
+<span class="label">47.</span><cite>Abramson MA, Sexton DJ. Nosocomial methicillin-resistant and methicillin-susceptible <em>Staphylococcus aureus</em> primary bacteremia: at what costs? Infect Control Hosp Epidemiol. 1999;20(6):408–411</cite> [<a href="https://doi.org/10.1086/501641" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/10395142/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Infect%20Control%20Hosp%20Epidemiol&amp;title=Nosocomial%20methicillin-resistant%20and%20methicillin-susceptible%20Staphylococcus%20aureus%20primary%20bacteremia:%20at%20what%20costs?&amp;author=MA%20Abramson&amp;author=DJ%20Sexton&amp;volume=20&amp;issue=6&amp;publication_year=1999&amp;pages=408-411&amp;pmid=10395142&amp;doi=10.1086/501641&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib48">
+<span class="label">48.</span><cite>Chaix C, Durand-Zaleski I, Alberti C, Brun-Buisson C. Control of endemic methicillin-resistant <em>Staphylococcus aureus</em>: a cost-benefit analysis in an intensive care unit. JAMA. 1999;282(18):1745–1751</cite> [<a href="https://doi.org/10.1001/jama.282.18.1745" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/10568647/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Control%20of%20endemic%20methicillin-resistant%20Staphylococcus%20aureus:%20a%20cost-benefit%20analysis%20in%20an%20intensive%20care%20unit&amp;author=C%20Chaix&amp;author=I%20Durand-Zaleski&amp;author=C%20Alberti&amp;author=C%20Brun-Buisson&amp;volume=282&amp;issue=18&amp;publication_year=1999&amp;pages=1745-1751&amp;pmid=10568647&amp;doi=10.1001/jama.282.18.1745&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib49">
+<span class="label">49.</span><cite>Tomic V, Svetina SP, Trinkaus D, Sorli J, Widmer AF, Trampuz A. Comprehensive strategy to prevent nosocomial spread of methicillin-resistant <em>Staphylococcus aureus</em> in a highly endemic setting. Arch Intern Med. 2004;164(18):2038–2043</cite> [<a href="https://doi.org/10.1001/archinte.164.18.2038" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15477440/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Arch%20Intern%20Med&amp;title=Comprehensive%20strategy%20to%20prevent%20nosocomial%20spread%20of%20methicillin-resistant%20Staphylococcus%20aureus%20in%20a%20highly%20endemic%20setting&amp;author=V%20Tomic&amp;author=SP%20Svetina&amp;author=D%20Trinkaus&amp;author=J%20Sorli&amp;author=AF%20Widmer&amp;volume=164&amp;issue=18&amp;publication_year=2004&amp;pages=2038-2043&amp;pmid=15477440&amp;doi=10.1001/archinte.164.18.2038&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib50">
+<span class="label">50.</span><cite>Jernigan JA, Titus MG, Groschel DH, Getchell-White S, Farr BM. Effectiveness of contact isolation during a hospital outbreak of methicillin-resistant Staphylococcus aureus. Am J Epidemiol. 1996;143(5):496–504</cite> [<a href="https://doi.org/10.1093/oxfordjournals.aje.a008770" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/8610665/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20J%20Epidemiol&amp;title=Effectiveness%20of%20contact%20isolation%20during%20a%20hospital%20outbreak%20of%20methicillin-resistant%20Staphylococcus%20aureus&amp;author=JA%20Jernigan&amp;author=MG%20Titus&amp;author=DH%20Groschel&amp;author=S%20Getchell-White&amp;author=BM%20Farr&amp;volume=143&amp;issue=5&amp;publication_year=1996&amp;pages=496-504&amp;pmid=8610665&amp;doi=10.1093/oxfordjournals.aje.a008770&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib51">
+<span class="label">51.</span><cite>Kho AN, Lemmon L, Commiskey M, Wilson SJ, McDonald CJ. Use of a regional health information exchange to detect crossover of patients with MRSA between urban hospitals. J Am Med Inform Assoc. 2008;15(2):212–216</cite> [<a href="https://doi.org/10.1197/jamia.M2577" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2274796/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18096903/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Use%20of%20a%20regional%20health%20information%20exchange%20to%20detect%20crossover%20of%20patients%20with%20MRSA%20between%20urban%20hospitals&amp;author=AN%20Kho&amp;author=L%20Lemmon&amp;author=M%20Commiskey&amp;author=SJ%20Wilson&amp;author=CJ%20McDonald&amp;volume=15&amp;issue=2&amp;publication_year=2008&amp;pages=212-216&amp;pmid=18096903&amp;doi=10.1197/jamia.M2577&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib52">
+<span class="label">52.</span><cite>Evans RS, Lloyd JF, Abouzelof RH, Taylor CW, Anderson VR, Samore MH. System-wide surveillance for clinical encounters by patients previously identified with MRSA and VRE. Stud Health Technol Inform. 2004;107(pt 1):212–216</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/15360805/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Stud%20Health%20Technol%20Inform&amp;title=System-wide%20surveillance%20for%20clinical%20encounters%20by%20patients%20previously%20identified%20with%20MRSA%20and%20VRE&amp;author=RS%20Evans&amp;author=JF%20Lloyd&amp;author=RH%20Abouzelof&amp;author=CW%20Taylor&amp;author=VR%20Anderson&amp;volume=107&amp;issue=pt%201&amp;publication_year=2004&amp;pages=212-216&amp;pmid=15360805&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib53">
+<span class="label">53.</span><cite>Adler-Milstein J, McAfee AP, Bates DW, Jha AK. The state of regional health information organizations: current activities and financing. Health Aff (Millwood). 2008;27(1):w60–w69</cite> [<a href="https://doi.org/10.1377/hlthaff.27.1.w60" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18073225/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Aff%20(Millwood)&amp;title=The%20state%20of%20regional%20health%20information%20organizations:%20current%20activities%20and%20financing&amp;author=J%20Adler-Milstein&amp;author=AP%20McAfee&amp;author=DW%20Bates&amp;author=AK%20Jha&amp;volume=27&amp;issue=1&amp;publication_year=2008&amp;pages=w60-w69&amp;pmid=18073225&amp;doi=10.1377/hlthaff.27.1.w60&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib54">
+<span class="label">54.</span><cite>Miller RH, Miller BS. The Santa Barbara County Care Data Exchange: what happened? Health Aff (Millwood). 2007;26(5):w568–w580</cite> [<a href="https://doi.org/10.1377/hlthaff.26.5.w568" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17670775/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Aff%20(Millwood)&amp;title=The%20Santa%20Barbara%20County%20Care%20Data%20Exchange:%20what%20happened?&amp;author=RH%20Miller&amp;author=BS%20Miller&amp;volume=26&amp;issue=5&amp;publication_year=2007&amp;pages=w568-w580&amp;pmid=17670775&amp;doi=10.1377/hlthaff.26.5.w568&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib55">
+<span class="label">55.</span><cite>Brailer DJ. From Santa Barbara to Washington: a person's and a nation's journey toward portable health information. Health Aff (Millwood). 2007;26(5):w581–w588</cite> [<a href="https://doi.org/10.1377/hlthaff.26.5.w581" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17670776/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Aff%20(Millwood)&amp;title=From%20Santa%20Barbara%20to%20Washington:%20a%20person's%20and%20a%20nation's%20journey%20toward%20portable%20health%20information&amp;author=DJ%20Brailer&amp;volume=26&amp;issue=5&amp;publication_year=2007&amp;pages=w581-w588&amp;pmid=17670776&amp;doi=10.1377/hlthaff.26.5.w581&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib56">
+<span class="label">56.</span><cite>Frohlich J, Karp S, Smith MD, Sujansky W. Retrospective: lessons learned from the Santa Barbara project and their implications for health information exchange. Health Aff (Millwood). 2007;26(5):w589–w591</cite> [<a href="https://doi.org/10.1377/hlthaff.26.5.w589" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17670777/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Aff%20(Millwood)&amp;title=Retrospective:%20lessons%20learned%20from%20the%20Santa%20Barbara%20project%20and%20their%20implications%20for%20health%20information%20exchange&amp;author=J%20Frohlich&amp;author=S%20Karp&amp;author=MD%20Smith&amp;author=W%20Sujansky&amp;volume=26&amp;issue=5&amp;publication_year=2007&amp;pages=w589-w591&amp;pmid=17670777&amp;doi=10.1377/hlthaff.26.5.w589&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib57">
+<span class="label">57.</span><cite>Holmquest DL. Another lesson from Santa Barbara. Health Aff (Millwood). 2007;26(5):w592–w594</cite> [<a href="https://doi.org/10.1377/hlthaff.26.5.w592" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17670778/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Health%20Aff%20(Millwood)&amp;title=Another%20lesson%20from%20Santa%20Barbara&amp;author=DL%20Holmquest&amp;volume=26&amp;issue=5&amp;publication_year=2007&amp;pages=w592-w594&amp;pmid=17670778&amp;doi=10.1377/hlthaff.26.5.w592&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib58">
+<span class="label">58.</span><cite>Raths D. Real solutions for RHIO problems: pioneering data exchange groups seek sustainability by solving business problems for members. Healthc Inform. 2006;23(8):26–29</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/16948332/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Healthc%20Inform&amp;title=Real%20solutions%20for%20RHIO%20problems:%20pioneering%20data%20exchange%20groups%20seek%20sustainability%20by%20solving%20business%20problems%20for%20members&amp;author=D%20Raths&amp;volume=23&amp;issue=8&amp;publication_year=2006&amp;pages=26-29&amp;pmid=16948332&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib59">
+<span class="label">59.</span><cite>Le LH, Gotham IJ, Evans L, et al.  Universal Public Health Node: an evolution of health information exchange for public health in New York [abstract]. Public Health Information Network conference; August 28, 2008; Atlanta, GA:  Available at: <a href="http://cdc.confex.com/cdc/phin2008/webprogram/Paper17377.html" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://cdc.confex.com/cdc/phin2008/webprogram/Paper17377.html</a>. Accessed November 24, 2009</cite> [<a href="https://scholar.google.com/scholar_lookup?Le%20LH,%20Gotham%20IJ,%20Evans%20L,%20et%20al.%20Universal%20Public%20Health%20Node:%20an%20evolution%20of%20health%20information%20exchange%20for%20public%20health%20in%20New%20York%20[abstract].%20Public%20Health%20Information%20Network%20conference;%20August%2028,%202008;%20Atlanta,%20GA:%20Available%20at:%20http://cdc.confex.com/cdc/phin2008/webprogram/Paper17377.html.%20Accessed%20November%2024,%202009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib60">
+<span class="label">60.</span><cite>Sengupta S, Calman NS, Hripcsak G. A model for expanded public health reporting in the context of HIPAA. J Am Med Inform Assoc. 2008;15(5):569–574</cite> [<a href="https://doi.org/10.1197/jamia.M2207" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2528028/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18579843/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=A%20model%20for%20expanded%20public%20health%20reporting%20in%20the%20context%20of%20HIPAA&amp;author=S%20Sengupta&amp;author=NS%20Calman&amp;author=G%20Hripcsak&amp;volume=15&amp;issue=5&amp;publication_year=2008&amp;pages=569-574&amp;pmid=18579843&amp;doi=10.1197/jamia.M2207&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="bib61">
+<span class="label">61.</span><cite>Council of State and Territorial Epidemiologists National Electronic Disease Surveillance System: a status report on implementation. Available at: <a href="http://www.cste.org/dnn/Portals/0/NEDSSassessmentCSTE2008.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.cste.org/dnn/Portals/0/NEDSSassessmentCSTE2008.pdf</a>. Accessed November 24, 2009</cite>
+</li>
+</ul></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from American Journal of Public Health are provided here courtesy of <strong>American Public Health Association</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.2105/AJPH.2008.158980"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/616.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (563.0 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/3052326/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/3052326/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC3052326%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC3052326/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC3052326/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC3052326/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/21330598/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC3052326/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/21330598/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC3052326/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/3052326/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="Ch3P0AjZh7xx2CdNqOA6aeFr3SHkYw6FFEkGg5PqQPEe2iZ1LeeLjoxikFuGWYqQ">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

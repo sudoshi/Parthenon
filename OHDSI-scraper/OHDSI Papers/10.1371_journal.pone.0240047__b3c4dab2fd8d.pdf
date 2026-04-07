@@ -1,0 +1,1785 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article"
+      class="no-js">
+
+
+
+<head prefix="og: http://ogp.me/ns#">
+
+
+
+
+<link rel="stylesheet" href="/resource/css/screen.css?7e98da019f64e1cf0af29e785117b846"/>
+  <!-- allows for  extra head tags -->
+
+
+<!-- hello -->
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600">
+
+<link media="print" rel="stylesheet" type="text/css"  href="/resource/css/print.css"/>
+    <script type="text/javascript">
+        var siteUrlPrefix = "/plosone/";
+    </script>
+  <script src="/resource/js/vendor/modernizr-v2.7.1.js" type="text/javascript"></script>
+  <script src="/resource/js/vendor/detectizr.min.js" type="text/javascript"></script>
+
+  <link rel="shortcut icon" href="/resource/img/favicon.ico" type="image/x-icon"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+  <link rel="canonical" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240047" />
+  <meta name="description" content="Background Efforts to define research Common Data Elements try to harmonize data collection across clinical studies.   Objective Our goal was to analyze the quality and usability of data dictionaries of HIV studies.   Methods For the clinical domain of HIV, we searched data sharing platforms and acquired a set of 18 HIV related studies from which we analyzed 26 328 data elements. We identified existing standards for creating a data dictionary and reviewed their use. To facilitate aggregation across studies, we defined three types of data dictionary (data element, forms, and permissible values) and created a simple information model for each type.   Results An average study had 427 data elements (ranging from 46 elements to 9 945 elements). In terms of data type, 48.6% of data elements were string, 47.8% were numeric, 3.0% were date and 0.6% were date-time. No study in our sample explicitly declared a data element as a categorical variable and rather considered them either strings or numeric. Only for 61% of studies were we able to obtain permissible values. The majority of studies used CSV files to share a data dictionary while 22% of the studies used a non-computable, PDF format. All studies grouped their data elements. The average number of groups or forms per study was 24 (ranging between 2 and 124 groups/forms). An accurate and well formatted data dictionary facilitates error-free secondary analysis and can help with data de-identification.   Conclusion We saw features of data dictionaries that made them difficult to use and understand. This included multiple data dictionary files or non-machine-readable documents, data elements included in data but not in the dictionary or missing data types or descriptions. Building on experience with aggregating data elements across a large set of studies, we created a set of recommendations (called CONSIDER statement) that can guide optimal data sharing of future studies." />
+
+  <meta name="citation_abstract" content="Background Efforts to define research Common Data Elements try to harmonize data collection across clinical studies.   Objective Our goal was to analyze the quality and usability of data dictionaries of HIV studies.   Methods For the clinical domain of HIV, we searched data sharing platforms and acquired a set of 18 HIV related studies from which we analyzed 26 328 data elements. We identified existing standards for creating a data dictionary and reviewed their use. To facilitate aggregation across studies, we defined three types of data dictionary (data element, forms, and permissible values) and created a simple information model for each type.   Results An average study had 427 data elements (ranging from 46 elements to 9 945 elements). In terms of data type, 48.6% of data elements were string, 47.8% were numeric, 3.0% were date and 0.6% were date-time. No study in our sample explicitly declared a data element as a categorical variable and rather considered them either strings or numeric. Only for 61% of studies were we able to obtain permissible values. The majority of studies used CSV files to share a data dictionary while 22% of the studies used a non-computable, PDF format. All studies grouped their data elements. The average number of groups or forms per study was 24 (ranging between 2 and 124 groups/forms). An accurate and well formatted data dictionary facilitates error-free secondary analysis and can help with data de-identification.   Conclusion We saw features of data dictionaries that made them difficult to use and understand. This included multiple data dictionary files or non-machine-readable documents, data elements included in data but not in the dictionary or missing data types or descriptions. Building on experience with aggregating data elements across a large set of studies, we created a set of recommendations (called CONSIDER statement) that can guide optimal data sharing of future studies.">
+
+
+  <meta name="keywords" content="HIV,HIV infections,HIV prevention,HIV vaccines,Metadata,Virus testing,Pediatrics,Young adults" />
+
+
+<meta name="citation_doi" content="10.1371/journal.pone.0240047"/>
+<meta name="citation_author" content="Craig S. Mayer"/>
+  <meta name="citation_author_institution" content="Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH, Bethesda, MD, United States of America"/>
+<meta name="citation_author" content="Nick Williams"/>
+  <meta name="citation_author_institution" content="Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH, Bethesda, MD, United States of America"/>
+<meta name="citation_author" content="Vojtech Huser"/>
+  <meta name="citation_author_institution" content="Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH, Bethesda, MD, United States of America"/>
+
+<meta name="citation_title" content="Analysis of data dictionary formats of HIV clinical trials"/>
+<meta itemprop="name" content="Analysis of data dictionary formats of HIV clinical trials"/>
+<meta name="citation_journal_title" content="PLOS ONE"/>
+<meta name="citation_journal_abbrev" content="PLOS ONE"/>
+<meta name="citation_date" content="Oct 5, 2020"/>
+<meta name="citation_firstpage" content="e0240047"/>
+<meta name="citation_issue" content="10"/>
+<meta name="citation_volume" content="15"/>
+<meta name="citation_issn" content="1932-6203"/>
+<meta name="citation_publisher" content="Public Library of Science"/>
+
+  <meta name="citation_pdf_url" content="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0240047&type=printable">
+
+  <meta name="citation_article_type" content="Research Article">
+
+<meta name="dc.identifier" content="10.1371/journal.pone.0240047" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="plosone"/>
+    <meta name="twitter:title" content="Analysis of data dictionary formats of HIV clinical trials" />
+    <meta property="twitter:description" content="Background Efforts to define research Common Data Elements try to harmonize data collection across clinical studies.   Objective Our goal was to analyze the quality and usability of data dictionaries of HIV studies.   Methods For the clinical domain of HIV, we searched data sharing platforms and acquired a set of 18 HIV related studies from which we analyzed 26 328 data elements. We identified existing standards for creating a data dictionary and reviewed their use. To facilitate aggregation across studies, we defined three types of data dictionary (data element, forms, and permissible values) and created a simple information model for each type.   Results An average study had 427 data elements (ranging from 46 elements to 9 945 elements). In terms of data type, 48.6% of data elements were string, 47.8% were numeric, 3.0% were date and 0.6% were date-time. No study in our sample explicitly declared a data element as a categorical variable and rather considered them either strings or numeric. Only for 61% of studies were we able to obtain permissible values. The majority of studies used CSV files to share a data dictionary while 22% of the studies used a non-computable, PDF format. All studies grouped their data elements. The average number of groups or forms per study was 24 (ranging between 2 and 124 groups/forms). An accurate and well formatted data dictionary facilitates error-free secondary analysis and can help with data de-identification.   Conclusion We saw features of data dictionaries that made them difficult to use and understand. This included multiple data dictionary files or non-machine-readable documents, data elements included in data but not in the dictionary or missing data types or descriptions. Building on experience with aggregating data elements across a large set of studies, we created a set of recommendations (called CONSIDER statement) that can guide optimal data sharing of future studies." />
+    <meta property="twitter:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0240047.t007&size=inline" />
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240047"/>
+<meta property="og:title" content="Analysis of data dictionary formats of HIV clinical trials"/>
+<meta property="og:description" content="Background Efforts to define research Common Data Elements try to harmonize data collection across clinical studies.   Objective Our goal was to analyze the quality and usability of data dictionaries of HIV studies.   Methods For the clinical domain of HIV, we searched data sharing platforms and acquired a set of 18 HIV related studies from which we analyzed 26 328 data elements. We identified existing standards for creating a data dictionary and reviewed their use. To facilitate aggregation across studies, we defined three types of data dictionary (data element, forms, and permissible values) and created a simple information model for each type.   Results An average study had 427 data elements (ranging from 46 elements to 9 945 elements). In terms of data type, 48.6% of data elements were string, 47.8% were numeric, 3.0% were date and 0.6% were date-time. No study in our sample explicitly declared a data element as a categorical variable and rather considered them either strings or numeric. Only for 61% of studies were we able to obtain permissible values. The majority of studies used CSV files to share a data dictionary while 22% of the studies used a non-computable, PDF format. All studies grouped their data elements. The average number of groups or forms per study was 24 (ranging between 2 and 124 groups/forms). An accurate and well formatted data dictionary facilitates error-free secondary analysis and can help with data de-identification.   Conclusion We saw features of data dictionaries that made them difficult to use and understand. This included multiple data dictionary files or non-machine-readable documents, data elements included in data but not in the dictionary or missing data types or descriptions. Building on experience with aggregating data elements across a large set of studies, we created a set of recommendations (called CONSIDER statement) that can guide optimal data sharing of future studies."/>
+<meta property="og:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0240047.t007&size=inline"/>
+
+<meta name="citation_reference" content="citation_title=Analyzing Real-World Use of Research Common Data Elements;citation_author=V Huser;citation_author=L Amos;citation_journal_title=AMIA Annu Symp Proc AMIA Symp;citation_volume=2018;citation_number=2,018;citation_first_page=602;citation_last_page=8;citation_publication_date=2018;"/>    
+<meta name="citation_reference" content="citation_title=Improving the value of clinical research through the use of Common Data Elements;citation_author=J Sheehan;citation_author=S Hirschfeld;citation_author=E Foster;citation_author=U Ghitza;citation_author=K Goetz;citation_author=J Karpinski;citation_journal_title=Clin Trials Lond Engl;citation_volume=13;citation_number=13;citation_issue=6;citation_first_page=671;citation_last_page=6;citation_publication_date=2016;"/>    
+<meta name="citation_reference" content="citation_title=CDISC HIV Therapeutic Area User Guide (TAUG);citation_journal_title=CDISC HIV Therapeutic Area User Guide (TAUG);citation_publication_date=2019;"/>    
+<meta name="citation_reference" content="citation_title=Data Sharing and Embedded Research;citation_author=GE Simon;citation_author=G Coronado;citation_author=LL DeBar;citation_author=LM Dember;citation_author=BB Green;citation_author=SS Huang;citation_journal_title=Ann Intern Med;citation_volume=167;citation_number=167;citation_issue=9;citation_first_page=668;citation_last_page=70;citation_publication_date=2017;"/>    
+<meta name="citation_reference" content="citation_title=Data sharing platforms for de-identified data from human clinical trials. Clin Trials Lond Engl;citation_author=V Huser;citation_author=D Shmueli-Blumberg;citation_journal_title=Aug;citation_volume=15;citation_number=15;citation_issue=4;citation_first_page=413;citation_last_page=23;citation_publication_date=2018;"/>    
+<meta name="citation_reference" content="citation_title=Clinical Research Informatics: Supporting the Research Study Lifecycle;citation_author=SB Johnson;citation_journal_title=Yearb Med Inform;citation_volume=26;citation_number=26;citation_issue=1;citation_first_page=193;citation_last_page=200;citation_publication_date=2017;"/>    
+
+<meta name="citation_reference" content="Guidance to Encourage the Use of CDEs [Internet]. U.S. National Library of Medicine; [cited 2020 Jul 29]. Available from:  https://www.nlm.nih.gov/cde/policyinformation.html "/>
+<meta name="citation_reference" content="citation_title=Data Sharing;citation_author=DL Longo;citation_author=JM Drazen;citation_journal_title=N Engl J Med;citation_volume=374;citation_number=374;citation_issue=3;citation_first_page=276;citation_last_page=7;citation_publication_date=2016;"/>    
+<meta name="citation_reference" content="citation_title=Celebrating parasites;citation_author=CS Greene;citation_author=LX Garmire;citation_author=JA Gilbert;citation_author=MD Ritchie;citation_author=LE Hunter;citation_journal_title=Nat Genet;citation_volume=49;citation_number=49;citation_issue=4;citation_first_page=483;citation_last_page=4;citation_publication_date=2017;"/>    
+
+<meta name="citation_reference" content="Big Data and Collaboration Seek to Fight COVID-19 [Internet]. The Scientist Magazine®. [cited 2020 Jul 29]. Available from:  https://www.the-scientist.com/news-opinion/big-data-and-collaboration-seek-to-fight-covid-19-67759 "/>
+<meta name="citation_reference" content="citation_title=Data sharing in the era of COVID-19;citation_author=CV Cosgriff;citation_author=DK Ebner;citation_author=LA Celi;citation_journal_title=Lancet Digit Health;citation_volume=2;citation_number=2;citation_issue=5;citation_first_page=e224;citation_publication_date=2020;"/>    
+
+<meta name="citation_reference" content="Website for research project: Identification of Research Common Data Elements in HIV/AIDS using data science methods [Internet]. Available from:  https://github.com/lhncbc/CDE/tree/master/hiv/ "/>
+
+<meta name="citation_reference" content="Data Share Platform [Internet]. [cited 2019 Jul 8]. Available from:  https://datashare.nida.nih.gov "/>
+
+<meta name="citation_reference" content="Chapman DD. Using SAS Catalogs to Develop and Manage SAS DATA Step Programs. In. Available from:  http://www2.sas.com/proceedings/sugi29/051-29.pdf "/>
+
+<meta name="citation_reference" content="NIH Scientific Data Council Committee [Internet]. [cited 2019 Oct 2]. Available from:  https://datascience.nih.gov/sdc "/>
+
+<meta name="citation_reference" content="NIH Common Data Element Task Force: Glossary sub-group: Definitions of Terms [Internet]. [cited 2020 Mar 22]. Available from:  https://github.com/lhncbc/CDE/blob/master/definitions.md "/>
+<meta name="citation_reference" content="citation_title=Reflection paper on copyright, patient-reported outcome instruments and their translations. Health Qual Life Outcomes;citation_author=C Anfray;citation_author=B Arnold;citation_author=M Martin;citation_author=S Eremenco;citation_author=DL Patrick;citation_author=K Conway;citation_journal_title=Dec 5;citation_volume=16;citation_number=16;citation_issue=1;citation_first_page=224;citation_publication_date=2018;"/>    
+<meta name="citation_reference" content="citation_title=Questions of copyright. Health Qual Life Outcomes;citation_author=C Anfray;citation_author=M-P Emery;citation_author=K Conway;citation_author=C Acquadro;citation_journal_title=Jan 31;citation_volume=10;citation_number=10;citation_first_page=16;citation_publication_date=2012;"/>    
+<meta name="citation_reference" content="citation_title=Sharing of Individual Participant Data from Clinical Trials: General Comparison and HIV Use Case;citation_author=C Mayer;citation_author=N Williams;citation_author=S Gold;citation_author=K Fung;citation_author=V Huser;citation_journal_title=AMIA Annu Symp Proc;citation_publication_date=2019;"/>    
+
+<meta name="citation_reference" content="Study Data for Submission to CDER and CBER | FDA [Internet]. [cited 2019 Sep 20]. Available from:  https://www.fda.gov/industry/study-data-standards-resources/study-data-submission-cder-and-cber "/>
+<meta name="citation_reference" content="citation_title=The REDCap consortium: Building an international community of software platform partners. J Biomed Inform;citation_author=PA Harris;citation_author=R Taylor;citation_author=BL Minor;citation_author=V Elliott;citation_author=M Fernandez;citation_author=L O’Neal;citation_journal_title=Jul;citation_volume=95;citation_number=95;citation_first_page=103208;citation_publication_date=2019;"/>    
+
+<meta name="citation_reference" content="PhenX Toolkit: REDCap Instruments ZIP files [Internet]. [cited 2019 Sep 23]. Available from:  https://www.phenxtoolkit.org/resources/redcap "/>
+<meta name="citation_reference" content="citation_title=One Step Away from Technology but One Step Towards Domain Experts-MDRBridge: A Template-Based ISO 11179-Compliant Metadata Processing Pipeline;citation_author=A-K Kock-Schoppenhauer;citation_author=B Kroll;citation_author=M Lambarki;citation_author=H Ulrich;citation_author=S Stahl-Toyota;citation_author=JK Habermann;citation_journal_title=Methods Inf Med;citation_volume=58;citation_number=58;citation_issue=S 02;citation_first_page=e72;citation_last_page=9;citation_publication_date=2019;"/>    
+<meta name="citation_reference" content="citation_title=Retraction Notice to: The Negative Association between Religiousness and Children’s Altruism across the World;citation_author=J Decety;citation_author=JM Cowell;citation_author=K Lee;citation_author=R Mahasneh;citation_author=S Malcolm-Smith;citation_author=B Selcuk;citation_journal_title=Curr Biol;citation_volume=29;citation_number=29;citation_issue=15;citation_first_page=2595;citation_publication_date=2019;"/>    
+<meta name="citation_reference" content="citation_title=The National Sleep Research Resource: towards a sleep data commons;citation_author=G-Q Zhang;citation_author=L Cui;citation_author=R Mueller;citation_author=S Tao;citation_author=M Kim;citation_author=M Rueschman;citation_journal_title=J Am Med Inform Assoc JAMIA;citation_volume=25;citation_number=25;citation_issue=10;citation_first_page=1351;citation_last_page=8;citation_publication_date=2018;"/>    
+
+<meta name="citation_reference" content="CDASH ODM.XML [Internet]. CDISC. [cited 2019 Oct 2]. Available from:  https://www.cdisc.org/standards/foundational/cdash/cdash-odmxml "/>
+<meta name="citation_reference" content="citation_title=Evaluation of Research Accessibility and Data Elements of HIV Registries;citation_author=CS Mayer;citation_author=N Williams;citation_author=KW Fung;citation_author=V Huser;citation_journal_title=Curr HIV Res;citation_publication_date=2019;"/>    
+<meta name="citation_reference" content="citation_title=Standardized Representation of Clinical Study Data Dictionaries with CIMI Archetypes;citation_author=DK Sharma;citation_author=HR Solbrig;citation_author=E Prud’hommeaux;citation_author=J Pathak;citation_author=G Jiang;citation_journal_title=AMIA Annu Symp Proc AMIA Symp;citation_volume=2016;citation_number=2,016;citation_first_page=1119;citation_last_page=28;citation_publication_date=2016;"/>    
+<meta name="citation_reference" content="citation_title=A Concept for a Data Dictionary System Supporting for Clinical Research;citation_author=M Strickler;citation_author=C Zbinden;citation_author=R Saccilotto;citation_author=K Denecke;citation_journal_title=Stud Health Technol Inform;citation_volume=258;citation_number=258;citation_first_page=158;citation_last_page=62;citation_publication_date=2019;"/>    
+
+<meta name="citation_reference" content="Pew-Report-v2018DEC08FINAL3.pdf [Internet]. [cited 2019 Sep 13]. Available from:  https://dcri.org/wp-content/uploads/2018/12/Pew-Report-v2018DEC08FINAL3.pdf "/>
+<meta name="citation_reference" content="citation_title=The FAIR Guiding Principles for scientific data management and stewardship. Sci Data;citation_author=MD Wilkinson;citation_author=M Dumontier;citation_author=IJJ Aalbersberg;citation_author=G Appleton;citation_author=M Axton;citation_author=A Baak;citation_journal_title=Mar 15;citation_volume=3;citation_number=3;citation_first_page=160018;citation_publication_date=2016;"/>    
+<meta name="citation_reference" content="citation_title=Problems in FAIRifying Medical Datasets;citation_author=M Löbe;citation_author=F Matthies;citation_author=S Stäubert;citation_author=FA Meineke;citation_author=A Winter;citation_journal_title=Stud Health Technol Inform;citation_volume=270;citation_number=270;citation_first_page=392;citation_last_page=6;citation_publication_date=2020;"/>    
+
+
+<script type="text/javascript">
+    var WombatConfig = WombatConfig || {};
+    WombatConfig.journalKey = "PLoSONE";
+    WombatConfig.journalName = "PLOS One";
+    WombatConfig.figurePath = "/plosone/article/figure/image";
+    WombatConfig.figShareInstitutionString = "plos";
+    WombatConfig.doiResolverPrefix = "https://dx.plos.org/";
+</script>
+
+<script type="text/javascript">
+  var WombatConfig = WombatConfig || {};
+  WombatConfig.metrics = WombatConfig.metrics || {};
+  WombatConfig.metrics.referenceUrl      = "http://lagotto.io/plos";
+  WombatConfig.metrics.googleScholarUrl  = "https://scholar.google.com/scholar";
+  WombatConfig.metrics.googleScholarCitationUrl  = WombatConfig.metrics.googleScholarUrl + "?hl=en&lr=&q=";
+  WombatConfig.metrics.crossrefUrl  = "https://www.crossref.org";
+</script>
+<script defer="defer" src="/resource/js/defer.js?7a7aa422bfb89c594626"></script><script src="/resource/js/sync.js?7a7aa422bfb89c594626"></script>
+<script src="/resource/js/vendor/jquery.min.js" type="text/javascript"></script>
+
+          <script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script>
+
+<script src="/resource/js/vendor/fastclick/lib/fastclick.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/underscore-min.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/underscore.string.min.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/moment.js" type="text/javascript"></script>
+
+
+<script src="/resource/js/vendor/jquery-ui-effects.min.js" type="text/javascript"></script>
+
+<script src="/resource/js/vendor/foundation/foundation.tooltip.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.dropdown.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.tab.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.reveal.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.slider.js" type="text/javascript"></script>
+
+<script src="/resource/js/util/utils.js" type="text/javascript"></script>
+<script src="/resource/js/components/toggle.js" type="text/javascript"></script>
+<script src="/resource/js/components/truncate_elem.js" type="text/javascript"></script>
+<script src="/resource/js/components/tooltip_hover.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/jquery.dotdotdot.js" type="text/javascript"></script>
+
+
+<!-- DoubleClick overall ad setup script -->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  if (window.plosCookieConsent?.hasConsented('advertising')) {
+    (function() {
+      var gads = document.createElement('script');
+      gads.async = true;
+      gads.type = 'text/javascript';
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') +
+          '//www.googletagservices.com/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+    })();
+  }
+</script>
+
+<!-- DoubleClick ad slot setup script -->
+
+  <script id="doubleClickSetupScript" type='text/javascript'>
+    googletag.cmd.push(function() {
+  googletag.defineSlot('/75507958/PONE_728x90_ATF', [728, 90], 'div-gpt-ad-1458247671871-0').addService(googletag.pubads());
+  googletag.defineSlot('/75507958/PONE_160x600_BTF', [160, 600], 'div-gpt-ad-1458247671871-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+<!--For Google Tag manager to be able to track site information  -->
+<script>
+
+  dataLayer = [{
+    'mobileSite': 'false',
+    'desktopSite': 'true'
+  }];
+
+</script>
+
+    <title>Analysis of data dictionary formats of HIV clinical trials | PLOS One</title>
+</head>
+
+<body class="article plosone">
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TP26BH"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP26BH');
+</script>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQQMGF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQQMGF');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Start of HubSpot Embed Code -->
+<script>
+  // from https://developers.hubspot.com/docs/reference/api/analytics-and-events/cookie-banner/cookie-banner-api#example-using-a-third-party-cookie-banner-to-control-hubspot-cookies
+  window.disableHubSpotCookieBanner = true;
+  window._hsp = window._hsp || [];
+  window._hsp.push(['setHubSpotConsent',
+      {
+        analytics: window.plosCookieConsent?.hasConsented('analytics'),
+        advertisement: window.plosCookieConsent?.hasConsented('advertising'),
+        functionality: window.plosCookieConsent?.hasConsented('functionality')
+      }
+    ]);
+</script>
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44092021.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<!-- New Relic -->
+<script type="text/javascript">
+  ;window.NREUM||(NREUM={});NREUM.init={distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};
+  window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(32),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(33),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),P=t(15),S=t(10),M=t("ee"),N=M.get("tracer"),C=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),S.on(p,r),M.on(d,o),b.on(l,o),S.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),P.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),N.buffer([u,"no-"+u]),S.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(S,"new-jsonp"),a(S,"jsonp-end"),a(S,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,C(!0)),w[v]("load",i,C(!0)),w[v]("popstate",function(){i(0,U>1)},C(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(33),a=t(32);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(32),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(29),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=NREUM.o.REQ,y=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof y&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof y&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof y&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;"string"==typeof i?n=i:"object"==typeof i&&i instanceof g?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n);var s=(""+(i&&i instanceof g&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.endTime=a.now(),this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(32),s=t(33),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(34);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],28:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(c&&c<r.startTime)return;p("lcp",[r])}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){if(t instanceof v&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),g=!0,p("timing",["fi",e,n])}}function s(t){"hidden"===t&&(c=l.now(),p("pageHide",[c]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d,p=t("handle"),l=t("loader"),h=t(31),m=t(23),v=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(w){}u=new PerformanceObserver(o);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(w){}d=new PerformanceObserver(i);try{d.observe({type:"layout-shift",buffered:!0})}catch(w){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(t){document.addEventListener(t,a,m(!1))})}h(s)}},{}],29:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(31)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],30:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],31:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],32:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],33:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],34:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(32),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=T.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(R,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+T.offset],null,"api"),s("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=h+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===v.readyState&&i()}function i(){s("mark",["domContent",a()+T.offset],null,"api")}var a=t(26),s=t("handle"),c=t(32),f=t("ee"),u=t(30),d=t(27),p=t(21),l=t(23),h=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,w="addEventListener",g="attachEvent",y=m.XMLHttpRequest,x=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var E=""+location,R={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1212.min.js"},O=y&&x&&x[w]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:u,disabled:b};if(!b){t(20),t(28),v[w]?(v[w]("DOMContentLoaded",i,l(!1)),m[w]("load",r,l(!1))):(v[g]("onreadystatechange",o),m[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(33),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);
+  ;NREUM.loader_config={accountID:"804283",trustKey:"804283",agentID:"402703674",licenseKey:"cf99e8d2a3",applicationID:"402703674"}
+  ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"cf99e8d2a3",
+    // Modified this value from the generated script, to pass prod vs dev
+    applicationID: window.location.hostname.includes('journals.plos.org') ? "402703674" : "402694889",
+    sa:1}
+</script>
+<!-- End New Relic -->
+
+
+
+<header>
+  <div id="topslot" class="head-top">
+  <a id="skip-to-content" tabindex="0" class="button" href="#main-content">
+    Skip to main content
+  </a>
+
+<div class="center">
+<div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-0' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-0'); });
+    </script>
+  </div>
+</div>
+  </div>
+
+  <div id="user" class="nav" data-user-management-url="https://community.plos.org">
+  </div>
+  <div id="pagehdr">
+
+    <nav class="nav-main">
+
+
+
+
+<h1 class="logo">
+  <a href="/plosone/.">PLOS One</a>
+</h1>
+
+<section class="top-bar-section"> 
+
+<ul class="nav-elements">
+
+
+    <li class="multi-col-parent menu-section-header has-dropdown" id="publish">
+    Publish
+      <div class="dropdown mega ">
+        <ul class="multi-col" id="publish-dropdown-list">
+
+  <li class="menu-section-header " id="submissions">
+    <span class="menu-section-header-title">  Submissions </span>
+
+    <ul class="menu-section "
+        id="submissions-dropdown-list">
+      <li>
+    <a href="/plosone/s/getting-started" >Getting Started</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submission-guidelines" >Submission Guidelines</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/figures" >Figures</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/tables" >Tables</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/supporting-information" >Supporting Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/latex" >LaTeX</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/what-we-publish" >What We Publish</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/preprints" >Preprints</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/revising-your-manuscript" >Revising Your Manuscript</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submit-now" >Submit Now</a>
+  </li>
+
+      <li>
+    <a href="https://collections.plos.org/s/calls-for-papers" >Calls for Papers</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="policies">
+    <span class="menu-section-header-title">  Policies </span>
+
+    <ul class="menu-section "
+        id="policies-dropdown-list">
+      <li>
+    <a href="/plosone/s/best-practices-in-research-reporting" >Best Practices in Research Reporting</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/human-subjects-research" >Human Subjects Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/animal-research" >Animal Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/competing-interests" >Competing Interests</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/disclosure-of-funding-sources" >Disclosure of Funding Sources</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/licenses-and-copyright" >Licenses and Copyright</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/data-availability" >Data Availability</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/complementary-research" >Complementary Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/materials-software-and-code-sharing" >Materials, Software and Code Sharing</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/ethical-publishing-practice" >Ethical Publishing Practice</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/authorship" >Authorship</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/corrections-expressions-of-concern-and-retractions" >Corrections, Expressions of Concern, and Retractions</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="manuscript-review-and-publication">
+    <span class="menu-section-header-title">  Manuscript Review and Publication </span>
+
+    <ul class="menu-section "
+        id="manuscript-review-and-publication-dropdown-list">
+      <li>
+    <a href="/plosone/s/criteria-for-publication" >Criteria for Publication</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/editorial-and-peer-review-process" >Editorial and Peer Review Process</a>
+  </li>
+
+      <li>
+    <a href="https://explore.plos.org/editor-resources" >Editor Center</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/reviewer-guidelines" >Guidelines for Reviewers</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/accepted-manuscripts" >Accepted Manuscripts</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/comments" >Comments</a>
+  </li>
+
+    </ul>
+
+  </li>
+        </ul>
+          <div class="calloutcontainer">
+
+
+
+  <h3 class="callout-headline">Submit Your Manuscript</h3>
+
+  <div class="action-contain">
+  <p class="callout-content">
+  Discover a faster, simpler path to publishing in a high-quality journal. <em>PLOS ONE</em> promises fair, rigorous peer review,
+  broad scope, and wide readership – a perfect fit for your research every time.
+  </p>
+
+  <p class="button-contain special">
+    <a class="button button-default" href="/plosone/static/publish">
+     Learn More
+    </a>
+    <a class="button-link" href="https://www.editorialmanager.com/pone/default.asp">
+      Submit Now
+    </a>
+  </p>
+  </div>  <!-- opens in siteMenuCalloutDescription -->
+
+
+          </div>
+      </div>
+    </li>
+
+
+
+  <li class="menu-section-header has-dropdown " id="about">
+    <span class="menu-section-header-title">  About </span>
+
+    <ul class="menu-section dropdown "
+        id="about-dropdown-list">
+      <li>
+    <a href="/plosone/static/publish" >Why Publish with PLOS ONE</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/journal-information" >Journal Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/staff-editors" >Staff Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/static/editorial-board" >Editorial Board</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/section-editors" >Section Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/advisory-groups" >Advisory Groups</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/find-and-read-articles" >Find and Read Articles</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/publishing-information" >Publishing Information</a>
+  </li>
+
+      <li>
+    <a href="https://plos.org/publication-fees" >Publication Fees</a>
+  </li>
+
+      <li>
+    <a href="https://plos.org/press-and-media" >Press and Media</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/contact" >Contact</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+  <li data-js-tooltip-hover="trigger" class="subject-area menu-section-header">
+  Browse
+  </li>
+
+<script src="/resource/js/vendor/jquery.hoverIntent.js" type="text/javascript"></script>
+<script src="/resource/js/components/menu_drop.js" type="text/javascript"></script>
+<script src="/resource/js/components/hover_delay.js" type="text/javascript"></script>
+      <li id="navsearch" class="head-search">
+
+
+    <form name="searchForm" action="/plosone/search" method="get">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="search-contain">
+          <input id="search" type="text" name="q" placeholder="SEARCH" required/>
+          <button id="headerSearchButton" type="submit" aria-label="Submit search">
+            <i title="Submit search" class="search-icon"></i>
+          </button>
+        </div>
+      </fieldset>
+      <input type="hidden" name="filterJournals" value="PLoSONE"/>
+    </form>
+
+    <a id="advSearch"
+       href="/plosone/search">
+      advanced search
+    </a>
+
+
+
+
+<script src="/resource/js/components/placeholder_style.js" type="text/javascript"></script>
+      </li>
+
+      </ul>     
+      </section>  
+    </nav>
+  </div>
+
+</header>
+<section id="taxonomyContainer">
+
+<script src="/resource/js/taxonomy-browser.js" type="text/javascript"></script>
+<div id="taxonomy-browser" class="areas" data-search-url="/plosone/browse">
+  <div class="wrapper">
+    <div class="taxonomy-header">
+      Browse Subject Areas
+      <div id="subjInfo">?</div>
+      <div id="subjInfoText">
+        <p>Click through the PLOS taxonomy to find articles in your field.</p>
+        <p>For more information about PLOS Subject Areas, click
+          <a href="https://github.com/PLOS/plos-thesaurus/blob/master/README.md" target="_blank" title="Link opens in new window">here</a>.
+        </p>
+      </div>
+    </div>
+    <div class="levels">
+      <div class="levels-container cf">
+        <div class="levels-position"></div>
+      </div>
+      <a href="#" class="prev"></a>
+      <a href="#" class="next active"></a>
+    </div>
+  </div>
+  <div class="taxonomy-browser-border-bottom"></div>
+</div>
+</section>
+<main id="main-content"> <div class="set-grid">
+
+<header class="title-block">
+
+
+
+<script src="/resource/js/components/signposts.js" type="text/javascript"></script>
+
+<ul id="almSignposts" class="signposts">
+  <li id="loadingMetrics">
+    <p>Loading metrics</p>
+  </li>
+</ul>
+
+<script type="text/template" id="signpostsGeneralErrorTemplate">
+  <li id="metricsError">Article metrics are unavailable at this time. Please try again later.</li>
+</script>
+
+<script type="text/template" id="signpostsNewArticleErrorTemplate">
+  <li></li><li></li><li id="tooSoon">Article metrics are unavailable for recently published articles.</li>
+</script>
+
+<script type="text/template" id="signpostsTemplate">
+    <li id="almSaves">
+      <%= s.numberFormat(saveCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#savedHeader">Save</a>
+        <p class="saves-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#savedHeader">Total Mendeley and Citeulike bookmarks.</a></p>
+      </div>
+    </li>
+
+    <li id="almCitations">
+      <%= s.numberFormat(citationCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#citedHeader">Citation</a>
+        <p class="citations-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#citedHeader">Paper's citation count computed by Dimensions.</a></p>
+      </div>
+    </li>
+
+    <li id="almViews">
+      <%= s.numberFormat(viewCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#viewedHeader">View</a>
+        <p class="views-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#viewedHeader">PLOS views and downloads.</a></p>
+      </div>
+    </li>
+
+    <li id="almShares">
+      <%= s.numberFormat(shareCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#discussedHeader">Share</a>
+        <p class="shares-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0240047#discussedHeader">Sum of Facebook, Twitter, Reddit and Wikipedia activity.</a></p>
+      </div>
+    </li>
+</script>
+
+    <div class="article-meta">
+
+<div class="classifications">
+  <p class="license-short" id="licenseShort">Open Access</p>
+  <p class="peer-reviewed" id="peerReviewed">Peer-reviewed</p>
+
+<div class="article-type" >
+  <p class="type-article" id="artType">Research Article</p>
+</div>
+
+
+</div>
+    </div>
+    <div class="article-title-etc">
+
+
+
+<div class="title-authors">
+  <h1 id="artTitle"><?xml version="1.0" encoding="UTF-8"?>Analysis of data dictionary formats of HIV clinical trials</h1>
+
+<ul class="author-list clearfix"  data-js-tooltip="tooltip_container" id="author-list">
+
+
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="0" class="author-name" >
+Craig S. Mayer <span class="contribute"> </span> <span class="email">  </span>,</a>    <div id="author-meta-0" class="author-info" data-js-tooltip="tooltip_target">
+
+  <p>
+    <span class="contribute"> </span> Contributed equally to this work with:
+    Craig S. Mayer,
+    Nick Williams,
+    Vojtech Huser
+  </p>
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Data curation,
+
+    Formal analysis,
+
+    Methodology,
+
+    Project administration,
+
+    Software,
+
+    Validation,
+
+    Writing – original draft,
+
+    Writing – review & editing
+  </p>
+  <p id="authCorresponding-0"> <span class="email">* E-mail:</span> <a href="mailto:craig.mayer2@nih.gov">craig.mayer2@nih.gov</a></p>
+  <p id="authAffiliations-0"><span class="type">Affiliation</span>
+    Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH, Bethesda, MD, United States of America
+  </p>
+  <div>
+  <p class="orcid" id="authOrcid-0">
+    <span>
+      <a id="connect-orcid-link" href="http://orcid.org/0000-0002-2705-9550" target="_blank" title="ORCID Registry">
+        <img id="orcid-id-logo" src="/resource/img/orcid_16x16.png" width="16" height="16" alt="ORCID logo"/>
+        http://orcid.org/0000-0002-2705-9550
+      </a>
+    </span>
+  </p>
+  </div>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose0"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="1" class="author-name" >
+Nick Williams <span class="contribute"> </span>,</a>    <div id="author-meta-1" class="author-info" data-js-tooltip="tooltip_target">
+
+  <p>
+    <span class="contribute"> </span> Contributed equally to this work with:
+    Craig S. Mayer,
+    Nick Williams,
+    Vojtech Huser
+  </p>
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Methodology,
+
+    Software,
+
+    Validation,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-1"><span class="type">Affiliation</span>
+    Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH, Bethesda, MD, United States of America
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose1"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="2" class="author-name" >
+Vojtech Huser <span class="contribute"> </span></a>    <div id="author-meta-2" class="author-info" data-js-tooltip="tooltip_target">
+
+  <p>
+    <span class="contribute"> </span> Contributed equally to this work with:
+    Craig S. Mayer,
+    Nick Williams,
+    Vojtech Huser
+  </p>
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Formal analysis,
+
+    Funding acquisition,
+
+    Investigation,
+
+    Methodology,
+
+    Project administration,
+
+    Software,
+
+    Supervision,
+
+    Validation,
+
+    Writing – original draft,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-2"><span class="type">Affiliation</span>
+    Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH, Bethesda, MD, United States of America
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose2"> &#x02A2F; </a>
+    </div>
+</li>
+
+</ul>
+<script src="/resource/js/components/tooltip.js" type="text/javascript"></script>
+
+</div>
+
+
+<div id="floatTitleTop" data-js-floater="title_author" class="float-title" role="presentation">
+  <div class="set-grid">
+    <div class="float-title-inner">
+      <h1><?xml version="1.0" encoding="UTF-8"?>Analysis of data dictionary formats of HIV clinical trials</h1>
+
+<ul id="floatAuthorList" data-js-floater="floated_authors">
+
+  <li data-float-index="1">Craig S. Mayer,&nbsp;
+
+  </li>
+  <li data-float-index="2">Nick Williams,&nbsp;
+
+  </li>
+  <li data-float-index="3">Vojtech Huser
+
+  </li>
+
+</ul>
+
+
+
+    </div>
+    <div class="logo-close" id="titleTopCloser">
+      <img src="/resource/img/logo-plos-full-color.svg" style="height: 2em" alt="PLOS" />
+      <div class="close-floater" title="close">x</div>
+    </div>
+  </div>
+</div>
+
+      <ul class="date-doi">
+        <li id="artPubDate">Published: October 5, 2020</li>
+        <li id="artDoi">
+<a   href="https://doi.org/10.1371/journal.pone.0240047">https://doi.org/10.1371/journal.pone.0240047</a>
+        </li>
+        <li class="flex-spacer"></li>
+      </ul>
+
+    </div>
+  <div>
+
+  </div>
+</header>
+  <section class="article-body">
+
+
+
+<ul class="article-tabs">
+
+          <li class="tab-title active" id="tabArticle">
+            <a href="/plosone/article?id=10.1371/journal.pone.0240047" class="article-tab-1">Article</a>
+        </li>
+
+
+              <li class="tab-title " id="tabAuthors">
+            <a href="/plosone/article/authors?id=10.1371/journal.pone.0240047" class="article-tab-2">Authors</a>
+        </li>
+
+
+          <li class="tab-title " id="tabMetrics">
+            <a href="/plosone/article/metrics?id=10.1371/journal.pone.0240047" class="article-tab-3">Metrics</a>
+        </li>
+
+
+          <li class="tab-title " id="tabComments">
+            <a href="/plosone/article/comments?id=10.1371/journal.pone.0240047" class="article-tab-4">Comments</a>
+        </li>
+
+  <li class="tab-title" id="tabRelated">
+    <a class="article-tab-5" id="tabRelated-link" target="_blank" href="http://plos.altmetric.com/details/doi/10.1371/journal.pone.0240047">Media Coverage</a>
+  </li>
+            <li class="tab-title " id="tabPeerReview">
+            <a href="/plosone/article/peerReview?id=10.1371/journal.pone.0240047" class="article-tab-6">Peer Review</a>
+        </li>
+
+</ul>
+
+    <div class="article-container">
+
+
+<div id="nav-article">
+  <ul class="nav-secondary">
+
+    <li class="nav-comments" id="nav-comments">
+      <a href="article/comments?id=10.1371/journal.pone.0240047">Reader Comments</a>
+    </li>
+
+    <li id="nav-figures"><a href="#" data-doi="10.1371/journal.pone.0240047">Figures</a></li>
+  </ul>
+  <div id="nav-data-linking" data-data-url="https://github.com/lhncbc/CDE/tree/master/hiv/datadictionary">
+  </div>
+</div>
+<script src="/resource/js/components/scroll.js" type="text/javascript"></script>
+<script src="/resource/js/components/nav_builder.js" type="text/javascript"></script>
+<script src="/resource/js/components/floating_nav.js" type="text/javascript"></script>
+
+<div id="figure-lightbox-container"></div>
+
+<script id="figure-lightbox-template" type="text/template">
+  <div id="figure-lightbox" class="reveal-modal full" data-reveal aria-hidden="true"
+       role="dialog">
+    <div class="lb-header">
+      <h1 id="lb-title"><%= articleTitle %></h1>
+
+      <div id="lb-authors">
+            <span>Craig S. Mayer</span>
+            <span>Nick Williams</span>
+            <span>Vojtech Huser</span>
+      </div>
+
+      <div class="lb-close" title="close">&nbsp;</div>
+    </div>
+    <div class="img-container">
+      <div class="loader"> <i class="fa-spinner"></i> </div>
+      <img class="main-lightbox-image" src=""/>
+      <aside id="figures-list">
+        <% figureList.each(function (ix, figure) { %>
+        <div class="change-img" data-doi="<%= figure.getAttribute('data-doi') %>">
+          <img class="aside-figure" src="/plosone/article/figure/image?size=inline&id=<%= figure.getAttribute('data-doi') %>" />
+        </div>
+        <% }) %>
+        <div class="dummy-figure">
+        </div>
+      </aside>
+    </div>
+    <div id="lightbox-footer">
+
+      <div id="btns-container" class="lightbox-row <% if(figureList.length <= 1) { print('one-figure-only') } %>">
+        <div class="fig-btns-container reset-zoom-wrapper left">
+          <span class="fig-btn reset-zoom-btn">Reset zoom</span>
+        </div>
+        <div class="zoom-slider-container">
+          <div class="range-slider-container">
+            <span id="lb-zoom-min"></span>
+            <div class="range-slider round" data-slider data-options="start: 20; end: 200; initial: 20;">
+              <span class="range-slider-handle" role="slider" tabindex="0"></span>
+              <span class="range-slider-active-segment"></span>
+              <input type="hidden">
+            </div>
+            <span id="lb-zoom-max"></span>
+          </div>
+        </div>
+        <% if(figureList.length > 1) { %>
+        <div class="fig-btns-container">
+          <span class="fig-btn all-fig-btn"><i class="icon icon-all"></i> All Figures</span>
+          <span class="fig-btn next-fig-btn"><i class="icon icon-next"></i> Next</span>
+          <span class="fig-btn prev-fig-btn"><i class="icon icon-prev"></i> Previous</span>
+        </div>
+        <% } %>
+      </div>
+      <div id="image-context">
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="image-context-template" type="text/template">
+  <div class="footer-text">
+    <div id="figure-description-wrapper">
+      <div id="view-more-wrapper" style="<% descriptionExpanded? print('display:none;') : '' %>">
+        <span id="figure-title"><%= title %></span>
+        <p id="figure-description">
+          <%= description %>&nbsp;&nbsp;
+        </p>
+        <span id="view-more">show more<i class="icon-arrow-right"></i></span>
+
+      </div>
+      <div id="view-less-wrapper" style="<% descriptionExpanded? print('display:inline-block;') : '' %>" >
+        <span id="figure-title"><%= title %></span>
+        <p id="full-figure-description">
+          <%= description %>&nbsp;&nbsp;
+          <span id="view-less">show less<i class="icon-arrow-left"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="show-context-container">
+    <a class="btn show-context" href="<%= showInContext(strippedDoi) %>">Show in Context</a>
+  </div>
+  <div id="download-buttons">
+    <h3>Download:</h3>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=original&download=&id=<%= doi %>" title="original image">
+        <span class="download-btn">TIFF</span>
+      </a>
+      <span class="file-size"><%= fileSizes.original %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=large&download=&id=<%= doi %>" title="large image">
+        <span class="download-btn">PNG</span>
+      </a>
+      <span class="file-size"><%= fileSizes.large %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/powerpoint?id=<%= doi %>" title="PowerPoint slide">
+        <span class="download-btn">PPT</span>
+      </a>
+    </div>
+
+  </div>
+</script>
+      <div class="article-content">
+
+
+
+
+
+
+<div id="figure-carousel-section">
+  <h2>Figures</h2>
+
+  <div id="figure-carousel">
+
+    <div class="carousel-wrapper">
+      <div class="slider">
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0240047.t001">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t001"
+                     loading="lazy"
+                     alt="Table 1"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0240047.t002">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t002"
+                     loading="lazy"
+                     alt="Table 2"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0240047.t003">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t003"
+                     loading="lazy"
+                     alt="Table 3"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0240047.t004">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t004"
+                     loading="lazy"
+                     alt="Table 4"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0240047.t005">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t005"
+                     loading="lazy"
+                     alt="Table 5"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0240047.t006">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t006"
+                     loading="lazy"
+                     alt="Table 6"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0240047.t007">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t007"
+                     loading="lazy"
+                     alt="Table 7"
+                />
+
+            </div>
+      </div>
+    </div>
+
+    <div class="carousel-control">
+      <span class="button previous"></span>
+      <span class="button next"></span>
+    </div>
+    <div class="carousel-page-buttons">
+
+    </div>
+  </div>
+</div>
+<script src="/resource/js/vendor/jquery.touchswipe.js" type="text/javascript"></script>
+<script src="/resource/js/components/figure_carousel.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/jquery.dotdotdot.js" type="text/javascript"></script>
+
+
+        <div class="article-text" id="artText">
+          
+
+
+
+<div xmlns:plos="http://plos.org" class="abstract toc-section abstract-type-"><a id="abstract0" name="abstract0" data-toc="abstract0" class="link-target" title="Abstract"></a><h2>Abstract</h2><div class="abstract-content">
+<div id="section1" class="section toc-section"><a id="sec001" name="sec001" class="link-target" title="Background"></a>
+<h3>Background</h3>
+<a id="article1.front1.article-meta1.abstract1.sec1.p1" name="article1.front1.article-meta1.abstract1.sec1.p1" class="link-target"></a><p>Efforts to define research Common Data Elements try to harmonize data collection across clinical studies.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec002" name="sec002" class="link-target" title="Objective"></a>
+<h3>Objective</h3>
+<a id="article1.front1.article-meta1.abstract1.sec2.p1" name="article1.front1.article-meta1.abstract1.sec2.p1" class="link-target"></a><p>Our goal was to analyze the quality and usability of data dictionaries of HIV studies.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec003" name="sec003" class="link-target" title="Methods"></a>
+<h3>Methods</h3>
+<a id="article1.front1.article-meta1.abstract1.sec3.p1" name="article1.front1.article-meta1.abstract1.sec3.p1" class="link-target"></a><p>For the clinical domain of HIV, we searched data sharing platforms and acquired a set of 18 HIV related studies from which we analyzed 26 328 data elements. We identified existing standards for creating a data dictionary and reviewed their use. To facilitate aggregation across studies, we defined three types of data dictionary (data element, forms, and permissible values) and created a simple information model for each type.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec004" name="sec004" class="link-target" title="Results"></a>
+<h3>Results</h3>
+<a id="article1.front1.article-meta1.abstract1.sec4.p1" name="article1.front1.article-meta1.abstract1.sec4.p1" class="link-target"></a><p>An average study had 427 data elements (ranging from 46 elements to 9 945 elements). In terms of data type, 48.6% of data elements were string, 47.8% were numeric, 3.0% were date and 0.6% were date-time. No study in our sample explicitly declared a data element as a categorical variable and rather considered them either strings or numeric. Only for 61% of studies were we able to obtain permissible values. The majority of studies used CSV files to share a data dictionary while 22% of the studies used a non-computable, PDF format. All studies grouped their data elements. The average number of groups or forms per study was 24 (ranging between 2 and 124 groups/forms). An accurate and well formatted data dictionary facilitates error-free secondary analysis and can help with data de-identification.</p>
+</div>
+
+<div id="section5" class="section toc-section"><a id="sec005" name="sec005" class="link-target" title="Conclusion"></a>
+<h3>Conclusion</h3>
+<a id="article1.front1.article-meta1.abstract1.sec5.p1" name="article1.front1.article-meta1.abstract1.sec5.p1" class="link-target"></a><p>We saw features of data dictionaries that made them difficult to use and understand. This included multiple data dictionary files or non-machine-readable documents, data elements included in data but not in the dictionary or missing data types or descriptions. Building on experience with aggregating data elements across a large set of studies, we created a set of recommendations (called CONSIDER statement) that can guide optimal data sharing of future studies.</p>
+</div>
+</div></div>
+
+
+<div xmlns:plos="http://plos.org" class="articleinfo"><p><strong>Citation: </strong>Mayer CS, Williams N, Huser V (2020) Analysis of data dictionary formats of HIV clinical trials. PLoS ONE 15(10):
+           e0240047.
+        
+        https://doi.org/10.1371/journal.pone.0240047</p><p><strong>Editor: </strong>Nguyen Tien Huy, Institute of Tropical Medicine (NEKKEN), Nagasaki University, JAPAN</p><p><strong>Received: </strong>May 6, 2020; <strong>Accepted: </strong>September 17, 2020; <strong>Published: </strong> October 5, 2020</p><p>This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0</a> public domain dedication.</p><p><strong>Data Availability: </strong>All data underlying our analysis are publicly available at the project repository at <a href="https://github.com/lhncbc/CDE/tree/master/hiv/datadictionary">https://github.com/lhncbc/CDE/tree/master/hiv/datadictionary</a>.</p><p><strong>Funding: </strong>This research was supported by the NIH Office of AIDS Research and Intramural Research Program of the National Institutes of Health (NIH)/National Library of Medicine (NLM)/Lister Hill National Center for Biomedical Communications (LHNCBC) Funder: NIH Office of AIDS Research (<a href="https://www.oar.nih.gov/">https://www.oar.nih.gov/</a>) The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests: </strong> NO authors have competing interests</p></div>
+
+
+
+
+
+<div xmlns:plos="http://plos.org" id="section1" class="section toc-section"><a id="sec006" name="sec006" data-toc="sec006" class="link-target" title="1 Introduction"></a><h2>1 Introduction</h2><a id="article1.body1.sec1.p1" name="article1.body1.sec1.p1" class="link-target"></a><p>In recent years, efforts to define research Common Data Elements (CDEs) attempt to harmonize data collection across clinical studies [<a href="#pone.0240047.ref001" class="ref-tip">1</a>]. Sheehan at al. defined a CDE as ‘a combination of a precisely defined question paired with a specified set of responses to the question that is common to multiple datasets or used across different studies’ [<a href="#pone.0240047.ref002" class="ref-tip">2</a>]. CDEs have been defined on both a general level applicable to a broad range of diseases and studies, as well as on a disease specific level that focuses on data elements applicable to a narrow context. An example of general data elements are those defined by PhenX initiative, such as employment status, education attainment, or health insurance coverage (all with appropriate permissible values for such elements). An example of disease specific CDEs are those defined by the Therapeutic Area User Guide for HIV [<a href="#pone.0240047.ref003" class="ref-tip">3</a>] published by the Clinical Data Interchange Standard Consortium (CDISC). CDEs are expected to deliver the following benefits: faster and cheaper study start-up, improved comparability and aggregation of data across studies, improved study data collection and study data quality, and improved data organization for re-use.</p>
+<a id="article1.body1.sec1.p2" name="article1.body1.sec1.p2" class="link-target"></a><p>Another phenomenon that highlights the importance of CDEs is the requirement to share de-identified individual participant data (IPD) of a completed observational study or interventional trial [<a href="#pone.0240047.ref004" class="ref-tip">4</a>]. When data is shared, a data dictionary is typically provided to describe individual data elements used in a study. In recent decades, tens of new data sharing platforms with the aim of facilitating secondary research have emerged [<a href="#pone.0240047.ref005" class="ref-tip">5</a>].</p>
+<a id="article1.body1.sec1.p3" name="article1.body1.sec1.p3" class="link-target"></a><p>Identification and standardization of CDEs is, however, an ongoing challenge in the field of clinical research informatics [<a href="#pone.0240047.ref006" class="ref-tip">6</a>]. Some leaders have argued strongly for adoption of policies that require much stronger sponsor-enforced standardization [<a href="#pone.0240047.ref002" class="ref-tip">2</a>, <a href="#pone.0240047.ref007" class="ref-tip">7</a>], while others point to possible restrictions and additional CDE burden on principal investigators of future studies [<a href="#pone.0240047.ref008" class="ref-tip">8</a>, <a href="#pone.0240047.ref009" class="ref-tip">9</a>]. Increased pressure for CDE adoption can be seen in research efforts triggered by the COVID-19 pandemic [<a href="#pone.0240047.ref010" class="ref-tip">10</a>, <a href="#pone.0240047.ref011" class="ref-tip">11</a>]. Many CDE initiatives use expert consensus to achieve standardization. We refer to this method as a top down approach. If the number of data elements to standardize is large, expert consensus can be very time consuming. With increased availability of de-identified IPD data from completed studies, it is possible to arrive at CDEs using a data-driven approach. Most common data elements will simply appear in a high number of shared study datasets if a simple usage frequency approach is used. We refer to this method as a bottom up approach. A data-driven approach can also handle a large volume of common data elements. However, this data-driven approach depends on studies sharing their data elements in an analyzable format.</p>
+<a id="article1.body1.sec1.p4" name="article1.body1.sec1.p4" class="link-target"></a><p>These two general clinical research trends (effort to arrive at standardized CDEs and increased sharing of completed studies) have also impacted the clinical domain of infectious diseases and HIV. For example, at ClinicalTrials.gov, the number of studies that provide a link to de-identified IPD increased from 4.4% in 2014 (3 HIV studies have link to IPD out of 68 total HIV studies that completed in 2014) to 12.6% in 2019 (8 HIV studies have link to IPD out of 63 total HIV studies that completed in 2019). Such numbers demonstrate a gradual shift towards increased data sharing.</p>
+<a id="article1.body1.sec1.p5" name="article1.body1.sec1.p5" class="link-target"></a><p>Despite improvements, there are still opportunities for further enhancements in terms of format and the extent of data sharing in the HIV domain as well in clinical research in general). We present a study to analyze the quality and usability of data dictionaries of HIV studies. We focused on data dictionaries because they are an important common metadata artifact for data sharing. We thus search for HIV/AIDS interventional trials or observational studies using several approaches. In our article, we use the term study to refer to both interventional trials and observational studies. Our goal is to find HIV studies that provide a data dictionary with a list of data elements used in a study and relevant additional metadata. We analyze the format and content of those data dictionaries. The study contribution lies in the generating of recommendations that improve data sharing of future HIV studies. Our study is the first informatics study of data sharing format that analyzes a large body of HIV studies shared to date via various data sharing mechanisms. The presented study is limited to data dictionary analysis, although the motivation is to later analyze a large body of past HIV data elements to inform data-driven consensus on CDEs. This study is part of a larger research project titled ‘Identification of Research Common Data Elements in HIV/AIDS using data science methods’ [<a href="#pone.0240047.ref012" class="ref-tip">12</a>].</p>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section2" class="section toc-section"><a id="sec007" name="sec007" data-toc="sec007" class="link-target" title="2 Materials and methods"></a><h2>2 Materials and methods</h2><a id="article1.body1.sec2.p1" name="article1.body1.sec2.p1" class="link-target"></a><p>In this section, we outline how we identified a set of analyzed HIV studies and define important terms for the analysis of data dictionaries. We also describe relevant standards for study data dictionaries.</p>
+
+<div id="section1" class="section toc-section"><a id="sec008" name="sec008" class="link-target" title="2.1 Trials acquisition"></a>
+<h3>2.1 Trials acquisition</h3>
+<a id="article1.body1.sec2.sec1.p1" name="article1.body1.sec2.sec1.p1" class="link-target"></a><p>We searched clinical study data sharing platforms [<a href="#pone.0240047.ref005" class="ref-tip">5</a>] for HIV studies that shared IPD. We defined HIV studies as any study relating to HIV, which includes any study with HIV positive participants, or any study relating to HIV infection (i.e. HIV prevention or vaccine trials). A data sharing platform is a web-based repository of completed clinical studies with study IPD and other study artifacts (such as protocol, study publications or case report forms) for each included study. The platforms we searched included National Institute of Drug Abuse (NIDA) Data Share [<a href="#pone.0240047.ref013" class="ref-tip">13</a>], the National Heart, Lung and Blood Institute (NHLBI) BioLINCC, the National Institute of Child Health and Human Development Data and Specimen Hub (NICHD DASH), Vivli, <a href="http://clinicalstudydatarequest.com">clinicalstudydatarequest.com</a>, Project Data Sphere, the National Institute of Mental Health Data Archive (NDA) and the Yale Open Data Access Project. We also searched for HIV clinical trial networks using a web search engine and requested IPD from completed studies conducted by those networks. We excluded studies for which a data dictionary could not be obtained or inferred from IPD or studies that were not registered at ClinicalTrials.gov. In order to aggregate this data across many HIV studies, we obtained Institutional Review Board approval at our local institution (or exemption if the data were de-identified). We filed appropriate data requests at the platforms where we found relevant HIV studies.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec009" name="sec009" class="link-target" title="2.2 Data dictionaries"></a>
+<h3>2.2 Data dictionaries</h3>
+<a id="article1.body1.sec2.sec2.p1" name="article1.body1.sec2.sec2.p1" class="link-target"></a><p>For each HIV study included in our analysis, we organized the available data artifacts into the following categories: IPD data files, data dictionary files, study protocol documents and study de-identification notes. Within the data dictionary category, we observed several different formats. Some studies used single or multiple Comma Separated Value files (CSV), a widely accessible and machine-readable file format. Some studies used Portable Document Format (PDF) or a proprietary SAS data catalog format (*.sas7bcat) [<a href="#pone.0240047.ref014" class="ref-tip">14</a>]. Because we used computerized methods for aggregation, we did not include studies whose data dictionaries were not in a machine-readable format or could not be readily converted into such a format. This includes PDFs with scanned content.</p>
+<a id="article1.body1.sec2.sec2.p2" name="article1.body1.sec2.sec2.p2" class="link-target"></a><p>In our analysis of data dictionaries and data elements, we adopt the definitions developed by NIH CDE Task Force of the NIH Data Council [<a href="#pone.0240047.ref015" class="ref-tip">15</a>]. They clearly defined terms such as data element, common data element, form and permissible value [<a href="#pone.0240047.ref016" class="ref-tip">16</a>]. In addition to using terminology defined by the NIH CDE task force, we have introduced three types of data dictionaries.</p>
+<a id="article1.body1.sec2.sec2.p3" name="article1.body1.sec2.sec2.p3" class="link-target"></a><p>We use the term Element Data Dictionary (or element dictionary in shorter form) to describe a spreadsheet that enumerates individual data elements used in a study with fields such as data element name and description. We combined all data element data dictionaries to create an aggregate data elements file that contains data elements from a set of studies. Due to the large number of data elements and to limit the project scope, we did not perform any semantic mapping of identical DEs. This aggregated file targeted the following attributes about each data element (referred to as target DE model): (1) data element description, (2) data element ID (sometimes called DE name, DE short label, variable name, or variable ID), (3) data type (such as character, numeric, date, enumerated, or boolean), (4) length (provides information about the length of the character string or maximum value or range for a numeric data element), and (5) group ID (sometimes called form name or form ID; provides information on which form the DE is being collected). To demonstrate some examples of study data elements, <a href="#pone-0240047-t001">Table 1</a> shows the element data dictionary from study NCT00099359: ‘Trial of Three Neonatal Antiretroviral Regimens for Prevention of Intrapartum HIV Transmission.’ For brevity, the table shows only 10 selected data elements out of all 577 data elements used in that study.</p>
+<a class="link-target" id="pone-0240047-t001" name="pone-0240047-t001"></a><div class="figure" data-doi="10.1371/journal.pone.0240047.t001"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0240047.t001" data-doi="10.1371/journal.pone.0240047" data-uri="10.1371/journal.pone.0240047.t001"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t001" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0240047.t001"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0240047.t001"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0240047.t001"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Table 1. </span> Example data elements (for trial NCT00099359: ‘Trial of Three Neonatal Antiretroviral Regimens for Prevention of Intrapartum HIV Transmission’).</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0240047.t001">
+              https://doi.org/10.1371/journal.pone.0240047.t001</a></p></div><a id="article1.body1.sec2.sec2.p4" name="article1.body1.sec2.sec2.p4" class="link-target"></a><p>For each element data dictionary, we analyzed the accuracy and completeness of the dictionary. This included an analysis of the previously specified features, such as the presence and clarity of the data element descriptions and the prevalence, common usage, and accurate representation of the data type for each listed data element.</p>
+<a id="article1.body1.sec2.sec2.p5" name="article1.body1.sec2.sec2.p5" class="link-target"></a><p>We use the term Forms Data Dictionary (or forms dictionary in shorter form) to refer to a data dictionary that provides a full list of titles and descriptions of all Case Report Forms (CRFs) used in the study (or other relevant metadata for data element grouping). <a href="#pone-0240047-t002">Table 2</a> shows an example of a forms dictionary from study NCT01751646: ‘Vitamin D Absorption in HIV Infected Young Adults Being Treated With Tenofovir Containing cART.’ We followed the same approach as with the element data dictionary and combined all form dictionaries across all analyzed studies. The intention was to see whether some CRF titles appear more frequently. To eliminate similarly named forms, we manually mapped synonymous form titles to their preferred title and identified common CRF names that appeared in at least two studies. For example, forms by the names ‘F89’ for NCT01751646 and ‘hxw0100’ for NCT01418014 both map to a common form name of ‘family history’. The semantic mapping was much more feasible for forms (compared to data elements, where it was out of project scope) due to the relatively small total number of forms across all studies. For harmonizing data collection across studies, the issue of copyright protection on case report forms must be considered [<a href="#pone.0240047.ref017" class="ref-tip">17</a>, <a href="#pone.0240047.ref018" class="ref-tip">18</a>]. To measure the impact of copyright, we analyzed whether any of the form (across all studies in our sample) were marked as copyrighted.</p>
+<a class="link-target" id="pone-0240047-t002" name="pone-0240047-t002"></a><div class="figure" data-doi="10.1371/journal.pone.0240047.t002"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0240047.t002" data-doi="10.1371/journal.pone.0240047" data-uri="10.1371/journal.pone.0240047.t002"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t002" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0240047.t002"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0240047.t002"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0240047.t002"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Table 2. </span> List of 6 selected forms (out of 40 total) present in the forms dictionary for NCT01751646: ‘Vitamin D Absorption in HIV Infected Young Adults Being Treated With Tenofovir Containing cART’.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0240047.t002">
+              https://doi.org/10.1371/journal.pone.0240047.t002</a></p></div><a id="article1.body1.sec2.sec2.p6" name="article1.body1.sec2.sec2.p6" class="link-target"></a><p>Finally, we use the term Permissible Values Data Dictionary (or Permissible Values Dictionary in shorter form) to list permissible values that are possible for categorical data elements. Each permissible value (on separate rows) is linked to the data element it provides the value for (the link is via data element ID). For example, in study NCT01772823 ‘An Open Label Demonstration Project and Phase II Safety Study of Pre-Exposure Prophylaxis’ for data element OFFTXR, which describes the reason for discontinuation, its permissible value dictionary has 6 permissible values defined: 1 (Viral Breakthrough), 2 (Adverse Reaction), 3 (Subject’s Decision), 4 (Clinician’s Decision), 5 (Course Completed), and 99 (Other). Each row represents a single possible value (organized under a respective data element). The permissible value information model has the following columns defined: (1) permissible value ID (or permissible value short label; this column is optional and can be missing), (2) permissible value, (3) permissible value description (if the previous field does not sufficiently define the permissible value), and (4) data element ID (for proper linking of this permissible value dictionary to the element dictionary). For the permissible value dictionaries, we assessed commonly used formats for permissible values, as well as the most commonly used values.</p>
+<a id="article1.body1.sec2.sec2.p7" name="article1.body1.sec2.sec2.p7" class="link-target"></a><p>For all analyzed studies, we also looked at primary and secondary outcomes [<a href="#pone.0240047.ref001" class="ref-tip">1</a>] as defined for each study at ClinicalTrials.gov. The assumption was that every outcome on ClinicalTrials.gov would be linked to at least one study data element. During our review of the study’s ClinicalTrials.gov record we also determined whether the ClinicalTrials.gov study record reflects the availability of the study results data, IPD data [<a href="#pone.0240047.ref019" class="ref-tip">19</a>] or data dictionary.</p>
+<a id="article1.body1.sec2.sec2.p8" name="article1.body1.sec2.sec2.p8" class="link-target"></a><p>Finally, during aggregation of data dictionaries across studies, we recorded positive features of dictionaries as well as challenges of dictionary formats that complicated the analysis. Our goal was to create a set of recommendations for optimal data sharing for future HIV studies (presented in the discussion section).</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec010" name="sec010" class="link-target" title="2.3 Relevant standards"></a>
+<h3>2.3 Relevant standards</h3>
+<a id="article1.body1.sec2.sec3.p1" name="article1.body1.sec2.sec3.p1" class="link-target"></a><p>In addition to analyzing a set of real studies, we also investigated relevant standards for clinical study data dictionaries. Our reason why we looked into such standards was to inform our efforts to combine multiple data dictionaries into a single data structure. There are two relevant data dictionary standards: CDISC Define-XML and REDCap.</p>
+<a id="article1.body1.sec2.sec3.p2" name="article1.body1.sec2.sec3.p2" class="link-target"></a><p>CDISC Define-XML standard is used by the Food and Drug Administration in the US [<a href="#pone.0240047.ref020" class="ref-tip">20</a>] and Pharmaceuticals and Medical Devices Agency in Japan. It was first released in 2005 and it uses eXtensible Markup Language (XML) to describe a data dictionary of a clinical study.</p>
+<a id="article1.body1.sec2.sec3.p3" name="article1.body1.sec2.sec3.p3" class="link-target"></a><p>REDCap data dictionary format is another standard defined by the REDCap electronic data capture system used by more than 3200 institutions world-wide [<a href="#pone.0240047.ref021" class="ref-tip">21</a>]. REDCap stands for REsearch Data Capture. The REDCap software was first released in 2004 and it uses a ZIP compressed spreadsheet file to represent a data dictionary. While it is not widely used by individual studies, it is of note that, for example, the PhenX initiative provides their CDEs in the REDCap data dictionary format [<a href="#pone.0240047.ref022" class="ref-tip">22</a>]. We also acknowledge that ISO 11179 specification aims at describing data element metadata, however it does not clearly define an exchange format [<a href="#pone.0240047.ref023" class="ref-tip">23</a>].</p>
+</div>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section3" class="section toc-section"><a id="sec011" name="sec011" data-toc="sec011" class="link-target" title="3 Results"></a><h2>3 Results</h2>
+<div id="section1" class="section toc-section"><a id="sec012" name="sec012" class="link-target" title="3.1 Analyzed set of studies"></a>
+<h3>3.1 Analyzed set of studies</h3>
+<a id="article1.body1.sec3.sec1.p1" name="article1.body1.sec3.sec1.p1" class="link-target"></a><p>Our platform search identified relevant HIV studies on three data sharing platforms: NHLBI BioLINCC (3 studies), NICHD Data and Specimen Hub (DASH) (11 studies) and NIDA Data Archive (5 studies). We searched 5 additional data sharing platforms which did not yield any more results due to several reasons, including: (1) we did not find any HIV studies on those platforms, (2) the study data request process was still pending at the start of our dictionary analysis, or (3) we could not obtain the data.</p>
+<a id="article1.body1.sec3.sec1.p2" name="article1.body1.sec3.sec1.p2" class="link-target"></a><p>Our web search identified 5 HIV/AIDS clinical trial networks. They were the HIV Vaccine Trials Network (HVTN), the HIV Prevention Trials Network (HPTN), the AIDS Clinical Trial Group (ACTG), the International Maternal, Pediatrics Adolescent AIDS and the Microbicide Trials Network (MTN). After filing official or email requests, we obtained studies from two networks: (1) HPTN (9 studies were obtained), and (2) HVTN (2 studies were obtained). One trial network, MTN, was inactive and for the two remaining networks, ACTG and IMPAACT, our data request was pending at the time of our data dictionary analysis.</p>
+<a id="article1.body1.sec3.sec1.p3" name="article1.body1.sec3.sec1.p3" class="link-target"></a><p>Our web search for individual HIV studies (outside any network) identified one additional HIV study (Multicenter AIDS Cohort Study; MACS). Our searches were conducted between October 1, 2018 and March 31, 2019.</p>
+<a id="article1.body1.sec3.sec1.p4" name="article1.body1.sec3.sec1.p4" class="link-target"></a><p>After pooling all possible study acquisition channels, we acquired a total of 31 HIV studies from 5 distinct sources. NIDA Data Share was the only source with a widely used standard as it used CDISC. Both HPTN and HVTN stated that newer trials in their networks would be standardizing to CDISC as well. All other data sharing platforms and studies allowed for custom formats to be used by the studies present on their platform. Of our set of studies, one from HPTN and the 5 acquired from the NIDA Data Archive used a CDISC format. Studies that used CDISC format were excluded from the main analysis presented here (we have a separate research project that focuses solely on CDISC-formatted studies). For another 7 studies in our input set, the data dictionary was either (1) not convertible into a machine-readable format, (2) the dictionary was not included in the shared data package, or (3) the dictionary could not be readily inferred from the provided IPD data. This resulted in a total of 18 studies in our final sample of studies that we analyzed. <a href="#pone-0240047-t003">Table 3</a> provides a ClinicalTrials.gov study identifier and the study titles for this final set. Seven studies (38.9%) in our sample were observational studies while the remaining 11 (61.1%) were interventional trials.</p>
+<a class="link-target" id="pone-0240047-t003" name="pone-0240047-t003"></a><div class="figure" data-doi="10.1371/journal.pone.0240047.t003"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0240047.t003" data-doi="10.1371/journal.pone.0240047" data-uri="10.1371/journal.pone.0240047.t003"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t003" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0240047.t003"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0240047.t003"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0240047.t003"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Table 3. </span> List of 18 HIV trials in the final set analyzed for data elements.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0240047.t003">
+              https://doi.org/10.1371/journal.pone.0240047.t003</a></p></div></div>
+
+<div id="section2" class="section toc-section"><a id="sec013" name="sec013" class="link-target" title="3.2 Data element dictionaries"></a>
+<h3>3.2 Data element dictionaries</h3>
+<a id="article1.body1.sec3.sec2.p1" name="article1.body1.sec3.sec2.p1" class="link-target"></a><p>We identified a total of 26 328 data elements across the analyzed 18 studies. See Supplemental file S1 at the project repository, <a href="https://github.com/lhncbc/CDE/tree/master/hiv/datadictionary">https://github.com/lhncbc/CDE/tree/master/hiv/datadictionary</a>, to see the aggregated data element file (complete list of data elements). The median number of data elements for the studies in our set was 427 elements. The number of elements ranged between a minimum of 46 elements (study NCT02404311) and a maximum of 9 945 elements (study NCT00046280).</p>
+
+<div id="section1" class="section toc-section"><a id="sec014" name="sec014" class="link-target" title="3.2.1 Data dictionary format"></a><h4>3.2.1 Data dictionary format.</h4><a id="article1.body1.sec3.sec2.sec1.p1" name="article1.body1.sec3.sec2.sec1.p1" class="link-target"></a><p>A total of 14 studies used only CSV files to provide their data dictionaries. In most cases, the studies provided a single CSV dictionary file for the entire study. A single dictionary file is the most user-friendly format for data re-using researchers. A minority of studies split the dictionary into multiple files. The most extreme case of a split dictionary was a study that provided 55 dictionary files (one for each of the 55 study data files generated).</p>
+<a id="article1.body1.sec3.sec2.sec1.p2" name="article1.body1.sec3.sec2.sec1.p2" class="link-target"></a><p>Four studies (NCT00000590, NCT00005273, NCT00005274, and NCT01418014) used PDF files to share the element dictionary. This PDF format required a manual conversion into a CSV machine readable format. One study (NCT01233531) had a mixture of formats with some data elements provided in a PDF format and some in CSV format (spread across 8 files). For some of the studies where we also obtained IPD data (10 studies), we saw data elements present in data, but missing and not defined in the data dictionary, making the data dictionary incomplete. To quantify this level of completeness, we generated data element dictionaries for half of the trials we had IPD for and calculated the percentage of data elements included in the data dictionary. <a href="#pone-0240047-t004">Table 4</a> presents the results of this dictionary completeness analysis and shows that completeness ranges from 45.4% to 100%.</p>
+<a class="link-target" id="pone-0240047-t004" name="pone-0240047-t004"></a><div class="figure" data-doi="10.1371/journal.pone.0240047.t004"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0240047.t004" data-doi="10.1371/journal.pone.0240047" data-uri="10.1371/journal.pone.0240047.t004"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t004" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0240047.t004"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0240047.t004"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0240047.t004"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Table 4. </span> Proportion of data elements found in IPD data that are also present in the data dictionary.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0240047.t004">
+              https://doi.org/10.1371/journal.pone.0240047.t004</a></p></div></div>
+
+<div id="section2" class="section toc-section"><a id="sec015" name="sec015" class="link-target" title="3.2.2 Data type"></a><h4>3.2.2 Data type.</h4><a id="article1.body1.sec3.sec2.sec2.p1" name="article1.body1.sec3.sec2.sec2.p1" class="link-target"></a><p>We observed missing or incorrect information about data types within our sample of studies. Explicit declaration of data type for each data element is important for proper data interpretation and correct data analysis. In one psychology study, incorrect results were published when a categorical variable (code for country of birth) was incorrectly used as a numerical variable in the model [<a href="#pone.0240047.ref024" class="ref-tip">24</a>]. Thanks to data sharing and secondary analysis by a researcher (external to the original study team) the error was discovered and revised study results were generated.</p>
+<a id="article1.body1.sec3.sec2.sec2.p2" name="article1.body1.sec3.sec2.sec2.p2" class="link-target"></a><p><em>3</em>.<em>2</em>.<em>2</em>.<em>1 Missing data type</em>. In terms of missing data type, 12 studies provided data type for all DEs. One study (NCT01492842) had missing data type for 49% of its data elements. Data type was completely missing in four studies (22% out of 18 studies). On an aggregate level, across all studies, a total of 10 755 DEs had missing data type (40.9% out of all 26 328 DEs). However, this was mainly due to a single study (The Multicenter AIDS Cohort Study [MACS]; NCT00046280) with 9 945 DEs without data type which accounted for 92.5% of all DEs with missing data type. The breakdown of the number of data elements for a given data type can be found in <a href="#pone-0240047-t005">Table 5</a>. For the 15 573 data elements where data type was declared the most common data type was string with 48.6%, followed by numeric with 47.8%.</p>
+<a class="link-target" id="pone-0240047-t005" name="pone-0240047-t005"></a><div class="figure" data-doi="10.1371/journal.pone.0240047.t005"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0240047.t005" data-doi="10.1371/journal.pone.0240047" data-uri="10.1371/journal.pone.0240047.t005"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t005" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0240047.t005"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0240047.t005"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0240047.t005"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Table 5. </span> Count and percentage of data elements by data type.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0240047.t005">
+              https://doi.org/10.1371/journal.pone.0240047.t005</a></p></div><a id="article1.body1.sec3.sec2.sec2.p3" name="article1.body1.sec3.sec2.sec2.p3" class="link-target"></a><p><em>3</em>.<em>2</em>.<em>2</em>.<em>2 Incorrect data type</em>. In terms of incorrect data type, we observed that no studies used a categorical data type. Use of categorical variables is common in research. For example, all 13 studies in the National Sleep Research Resource [<a href="#pone.0240047.ref025" class="ref-tip">25</a>], which is a sharing platform that we consider exemplary in terms of data dictionary format, have at least one categorical variable. In addition, a special case of categorical data type is a Boolean data type and it was also not present in any of the element dictionaries. Both CDISC Define.XML and REDCap standards clearly distinguish categorical data elements and support enumeration of permissible values. For the purpose of data analysis and when data is loaded into a database, a categorical variable may still be implemented as a string or a number; however, a flag that indicates that only a set of permissible strings or numbers are expected as values represent good analytical practice.</p>
+<a id="article1.body1.sec3.sec2.sec2.p4" name="article1.body1.sec3.sec2.sec2.p4" class="link-target"></a><p>By inspecting the data element title and description and study data, we found numerous categorical data elements; however, their formally listed data dictionary data type was not categorical and there was no flag marking them as categorical.</p>
+<a id="article1.body1.sec3.sec2.sec2.p5" name="article1.body1.sec3.sec2.sec2.p5" class="link-target"></a><p>We consider string data type (sometimes also called character) to be a free-text entry with no restrictions. In other words, no set of permissible values is defined for a string data element. An example of a data element of type string (from study NCT01751646) is the element titled ‘Reason missed vitamins—Specify’ (data element ID: VTMRSP). It asks about the specific reasons why the patient missed taking vitamins. The study does not provide any list of permissible values for this question, and there are 107 distinct responses in the IPD data).</p>
+<a id="article1.body1.sec3.sec2.sec2.p6" name="article1.body1.sec3.sec2.sec2.p6" class="link-target"></a><p>To demonstrate incorrect data type, we provide two examples. The first example shows the imperfect use of string data type. The study NCT00099359 contains a data element ‘Severity grade of a medical event’ (data element ID: GRADE). This categorical data element has five permissible values: ‘mild’, ‘moderate’, ‘severe’, ‘life threatening’ and ‘death’. The IPD data shows 5 distinct values that are all subsumed by this permissible value set. An accurate data dictionary should adopt and use categorical data type as one of the valid data types. If, for some reason, this semantically-rich modelling approach for data dictionary is not used, it should at least use a flag or other mechanism to distinguish data as ‘string-categorical’ versus ‘string-proper’.</p>
+<a id="article1.body1.sec3.sec2.sec2.p7" name="article1.body1.sec3.sec2.sec2.p7" class="link-target"></a><p>The second example shows the other variant of this misclassification problem when a categorical data element is in the data dictionary marked as numeric data type (with numbers representing codes for a particular permissible value). As demonstrated in the previously cited retracted analysis [<a href="#pone.0240047.ref024" class="ref-tip">24</a>], this misclassification can be even more error-prone. In our sample, an example of a numeric-categorical data element (a data element that is not formally designated as categorical in the data dictionary and not distinguished from numerical-proper by any flag) is from study NCT00005273 with title ‘pain severity’ that asks about severity of pain. It has the following permissible values: 0 for none, 1 for mild, 2 for moderate, 3 for severe, and 9 for unsure. Not interpreting this element as numerical value is crucial for correct data analysis.</p>
+<a id="article1.body1.sec3.sec2.sec2.p8" name="article1.body1.sec3.sec2.sec2.p8" class="link-target"></a><p>If the data dictionary does not model correctly categorical variables, the provision of a complete permissible value dictionary can still fully compensate for the lack of distinction between numeric-categorical and numeric-proper or string-categorical and string-proper. However, we found that many studies in our sample did not provide the permissible value dictionary, and the problem can thus still occur.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec016" name="sec016" class="link-target" title="3.2.3 Data element description"></a><h4>3.2.3 Data element description.</h4><a id="article1.body1.sec3.sec2.sec3.p1" name="article1.body1.sec3.sec2.sec3.p1" class="link-target"></a><p>For data re-using researchers, the ability to properly interpret each data element is crucial. For that purpose, having an unambiguous description for each data element (in addition to a data element ID) facilitates this proper interpretation. If the data element definition or meaning cannot be fully understood (description is missing or is vague), the resulting analysis can misinterpret these data elements (leading to incorrect results) or exclude them from the analysis (leading to incomplete results).</p>
+<a id="article1.body1.sec3.sec2.sec3.p2" name="article1.body1.sec3.sec2.sec3.p2" class="link-target"></a><p>We found missing data element descriptions in three studies. The element description field was missing for 4 447 DEs (16.9% out of all 26 328 DEs). One study (NCT00005274) with 4 249 DEs omitted descriptions for all its data elements, while two studies (NCT00865566 and NCT01233531) had missing descriptions for some DEs. The remaining 15 studies (83.3% out of 18 studies) provided descriptions for 100% of their DEs. We also do, however, acknowledge the fact that a well formulated data element name can be in some cases sufficient to fully define an element. In the aggregate DE file, we observed 327 DEs where the DE description was identical to the DE name (1.9% out of all 17 014 elements with descriptions). We also found that some DE descriptions were vague or difficult to understand. DEs with confusing description can sometimes be disambiguated by inspecting the IPD data. Although, such inspection may require the submission (and approval) of a formal data request that may not be necessary for the data dictionary alone.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec017" name="sec017" class="link-target" title="3.2.4 ClinicalTrials.gov record"></a><h4>3.2.4 ClinicalTrials.gov record.</h4><a id="article1.body1.sec3.sec2.sec4.p1" name="article1.body1.sec3.sec2.sec4.p1" class="link-target"></a><p>Review of the ClinicalTrials.gov records showed that 7 studies (38.9% out of 18 studies) provided study results. No study included a hyperlink (or actual file) for the data dictionary. Two studies (11.1%) referenced IPD availability on ClinicalTrials.gov.</p>
+</div>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec018" name="sec018" class="link-target" title="3.3 Forms data dictionaries"></a>
+<h3>3.3 Forms data dictionaries</h3>
+<a id="article1.body1.sec3.sec3.p1" name="article1.body1.sec3.sec3.p1" class="link-target"></a><p>Although it is theoretically possible for a study to not organize its DEs into groups, all 18 studies in our sample did group their elements and utilized a group ID mechanism. The majority of studies (11 out of 18 studies) used the case report form as the organizing principle (group ID is the form name). The remaining 7 studies organized their elements by study data table and used the table name as the group ID. The median number of forms in a study (or distinct groups) was 27 (ranging from a minimum of 2 (NCT02404311) to a maximum of 124 (NCT00005274).</p>
+<a id="article1.body1.sec3.sec3.p2" name="article1.body1.sec3.sec3.p2" class="link-target"></a><p>A review of form names (or group IDs) can provide data re-using researchers a highly pragmatic and quick overview of what data was collected in a given study. If a standardized data collection instrument was used in a study, it may be easiest to discover it via the review of the forms dictionary. If a previously defined and standardized form addresses well the study’s data collection needs, use of such a standardized form allows for a very straightforward method of meta-analysis across studies. For example, CDISC Clinical Data Acquisition Standards Harmonization standard (CDASH) defines such common forms for ‘Protocol Deviations’, ‘Demographics’, ‘Adverse Event’, ‘End of Study’, or ‘Concomitant Medications’ [<a href="#pone.0240047.ref026" class="ref-tip">26</a>].</p>
+<a id="article1.body1.sec3.sec3.p3" name="article1.body1.sec3.sec3.p3" class="link-target"></a><p>We identified a total of 28 common form names. Some form names, such as ‘Off Study’ (in 11 of 18 studies, 61.1.6%), ‘Eligibility’ (in 10 on 18 studies, 55.6%) and ‘Visit Report’ (in 10 of 18 studies, 55.6%) were very common in our set of studies. We defined very common as forms being present in 50% or more studies out of a set of studies that had a forms dictionary. <a href="#pone-0240047-t006">Table 6</a> shows the very common form names and quantitative measures of their use (count of studies and percentage). Less common form names (present in two studies) were Body Measurements, Family History, Medical History, Missed Visit, Behavior, and Skin Test. Our results for common form names are affected by the fact that 10 (out of 18 studies) were executed by the same research network (Adolescent Medicine Trials Network for HIV/AIDS Interventions).</p>
+<a class="link-target" id="pone-0240047-t006" name="pone-0240047-t006"></a><div class="figure" data-doi="10.1371/journal.pone.0240047.t006"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0240047.t006" data-doi="10.1371/journal.pone.0240047" data-uri="10.1371/journal.pone.0240047.t006"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t006" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0240047.t006"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0240047.t006"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0240047.t006"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Table 6. </span> Very common form names and the number and percentage of studies their used in.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0240047.t006">
+              https://doi.org/10.1371/journal.pone.0240047.t006</a></p></div><a id="article1.body1.sec3.sec3.p4" name="article1.body1.sec3.sec3.p4" class="link-target"></a><p>Similarly, to data elements, we have observed form names data inaccuracies in 11 studies within our sample. We observed form names (or group names) that were ambiguous, and instances of identical names used to refer to two clearly different forms (See <a href="#pone-0240047-t002">Table 2</a> for an example: two forms both titled ‘Specimen Tracking Form’). For data recipients, unambiguous and good data descriptions are important for proper analysis.</p>
+<a id="article1.body1.sec3.sec3.p5" name="article1.body1.sec3.sec3.p5" class="link-target"></a><p>No study in our sample marked any of the forms as copyrighted. Copyright protection typically does not impact the use of the collected data in a secondary research analysis. However, for researchers obtaining common forms and data elements with the intent to use the most prominent ones in a future study (especially those used frequently in past studies), the copyright status is important.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec019" name="sec019" class="link-target" title="3.4 Permissible values data dictionaries"></a>
+<h3>3.4 Permissible values data dictionaries</h3>
+<a id="article1.body1.sec3.sec4.p1" name="article1.body1.sec3.sec4.p1" class="link-target"></a><p>Use of categorical data elements in research is extremely common and, as stated earlier, most studies would be expected to provide a permissible value dictionary.</p>
+<a id="article1.body1.sec3.sec4.p2" name="article1.body1.sec3.sec4.p2" class="link-target"></a><p>We were able to extract permissible values for 11 studies. The aggregate file contained a total of 7 669 permissible values for 1 815 DEs. The mean number of permissible values per data element is 4.23. Use of numerical IDs is most common: 1 511 categorical DEs (83.3%) used numbers as permissible values. The most frequent permissible value description was ‘No’ (for 1 334 DEs in 10 distinct studies).</p>
+<a id="article1.body1.sec3.sec4.p3" name="article1.body1.sec3.sec4.p3" class="link-target"></a><p>In some cases, permissible values represent administered drugs (e.g., values 3TC, NFV, NVP and ZDV were permissible values for data element ‘DRUGNM’ which represents the drug name in trial NCT00099359). Permissible values can also represent laboratory tests. For example, ‘CD4 T cell percent’ is a permissible value for data element ‘TESTNM’ in study NCT01772823. Some permissible values can be further linked to established healthcare terminologies, such as RxNorm terminology for drugs or Logical Observation Identifiers Names and Codes (LOINC) terminology for laboratory tests. Both data dictionary standards (Define-XML and REDCap) allow for such annotation of permissible values by relevant external terminology codes. No study in our sample made any such annotations.</p>
+</div>
+
+<div id="section5" class="section toc-section"><a id="sec020" name="sec020" class="link-target" title="3.5 Studies using CDISC format"></a>
+<h3>3.5 Studies using CDISC format</h3>
+<a id="article1.body1.sec3.sec5.p1" name="article1.body1.sec3.sec5.p1" class="link-target"></a><p>Six HIV studies we obtained for our analysis used a CDISC format. CDISC specifications mandate IPD data to be represented in an SDTM (Study Data Tabulation Model) format and a corresponding data dictionary in the Define-XML format. <a href="#pone-0240047-t007">Table 7</a> lists the studies that used CDISC format (which are excluded from the main analysis). The SDTM format accommodates some data elements directly as a column in a standardized spreadsheet (we refer to those as SDTM-model-hardcoded DEs) and for other data elements it uses an entity-attribute-value (EAV) approach with concepts for those entities defined in CDISC Controlled Terminology (we refer to those as SDTM EAV DEs). CDISC Controlled Terminology (CT) thus represents yet a third, tightly linked and relevant CDISC standard. In fact, CDISC CT concepts are also used for coded permissible values. All six studies that used some CDISC standard used SDTM format and also provided a Define-XML dictionary.</p>
+<a class="link-target" id="pone-0240047-t007" name="pone-0240047-t007"></a><div class="figure" data-doi="10.1371/journal.pone.0240047.t007"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=10.1371/journal.pone.0240047.t007" data-doi="10.1371/journal.pone.0240047" data-uri="10.1371/journal.pone.0240047.t007"><img src="article/figure/image?size=inline&amp;id=10.1371/journal.pone.0240047.t007" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><a href="article/figure/powerpoint?id=10.1371/journal.pone.0240047.t007"><div class="definition-label">PPT</div><div class="definition-description">PowerPoint slide</div></a></li><li><a href="article/figure/image?download&amp;size=large&amp;id=10.1371/journal.pone.0240047.t007"><div class="definition-label">PNG</div><div class="definition-description">larger image</div></a></li><li><a href="article/figure/image?download&amp;size=original&amp;id=10.1371/journal.pone.0240047.t007"><div class="definition-label">TIFF</div><div class="definition-description">original image</div></a></li></ul></div><div class="figcaption"><span>Table 7. </span> List of acquired studies using CDISC.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0240047.t007">
+              https://doi.org/10.1371/journal.pone.0240047.t007</a></p></div></div>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section4" class="section toc-section"><a id="sec021" name="sec021" data-toc="sec021" class="link-target" title="4 Discussion"></a><h2>4 Discussion</h2><a id="article1.body1.sec4.p1" name="article1.body1.sec4.p1" class="link-target"></a><p>We obtained a large number of HIV trials and analyzed the format and content of their data dictionaries. To our knowledge, our study is the first to aggregate HIV data elements from a large set of completed HIV studies that were later shared via a platform or other mechanism.</p>
+<a id="article1.body1.sec4.p2" name="article1.body1.sec4.p2" class="link-target"></a><p>The majority of studies used a custom, non-standardized format that required significant processing to make the data machine-readable. The lack of consensus to use a single standard should be viewed in light of the fact that data sharing of clinical study data is still a developing and evolving scientific challenge. Moreover, the studies in our sample may have been initiated at a time when the emphasis on proper data sharing (by research enterprise in general) was smaller. Only in recent years has the importance of study metadata become more prominent.</p>
+
+<div id="section1" class="section toc-section"><a id="sec022" name="sec022" class="link-target" title="4.1 Related work"></a>
+<h3>4.1 Related work</h3>
+<a id="article1.body1.sec4.sec1.p1" name="article1.body1.sec4.sec1.p1" class="link-target"></a><p>In the clinical domain of HIV, we did not find any prior study that analyzed HIV-specific research data elements. CDISC HIV therapeutic area user guide, published in January 2019, is the only relevant HIV-specific data element effort [<a href="#pone.0240047.ref003" class="ref-tip">3</a>] (in addition to base SDTM elements, it highlights lab codes for CD4 count, LOINC codes for HIV viral load testing and mother-infant data linking among many other things). A study focused on data elements and data sharing for HIV registries was published by our team in 2019 [<a href="#pone.0240047.ref027" class="ref-tip">27</a>]. There are, however, prior studies that are not specific to HIV and cover data elements and dictionaries for medicine in general. Sharma et al. analyzed three data dictionaries and used Archetype Modeling Language developed by the Clinical Information Modeling Initiative [<a href="#pone.0240047.ref028" class="ref-tip">28</a>]. They also developed a platform (called D2Refine) for data element harmonization and standardization. In their report they discuss impediments to comparison and interoperability caused by the lack of standardization of data dictionaries from clinical studies. This lack of standardization we observed in our analysis as well. Another analysis by Strickler et al. analyzed case report forms and utilized CDISC Operational Data Model (ODM) [<a href="#pone.0240047.ref029" class="ref-tip">29</a>] to represent data elements present on such forms. Finally, Tcheng et al. analyzed data elements from 32 registries in the 2018 project titled ‘Common Healthcare Data Interoperability Project’ (CHDIP) funded by The Pew Charitable Trusts in 2018) [<a href="#pone.0240047.ref030" class="ref-tip">30</a>]. Their report defines 28 general CDEs (e.g., last name, date of death) and several composite CDEs (that group several elements; procedure history, medication history and laboratory result history).</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec023" name="sec023" class="link-target" title="4.2 Recommendations"></a>
+<h3>4.2 Recommendations</h3>
+<a id="article1.body1.sec4.sec2.p1" name="article1.body1.sec4.sec2.p1" class="link-target"></a><p>Due to the evolution of some of the data dictionary standards and sharing policies, it is difficult to recommend a single data dictionary standard. As outlined in section 2.3, there are essentially two data dictionary standards (CDISC Define-XML and REDCap) to consider. Although, the REDCap format is not backed up by any formal Standard Developing Organization (SDO). A recommendation to adopt a CDISC Define-XML triggers the requirement to also adopt other related CDISC standards (including CDISC Controlled Term terminology and possibly CDISC SDTM) and such adoption requires significant training and technical expertise. We consider it too significant a hurdle to be universally recommending such an adoption. With regards to the REDCap format, we view it to be very similar to simply formulating a good set of best practices to create a single spreadsheet, compliant with FAIR principles [<a href="#pone.0240047.ref031" class="ref-tip">31</a>, <a href="#pone.0240047.ref032" class="ref-tip">32</a>], that captures all significant parameters of all study data elements (either unique to the study or formal CDEs adopted by the study). In other words, if REDCap format is not formally utilized, we also find it acceptable to use an ad-hoc single spreadsheet-based data dictionary.</p>
+<a id="article1.body1.sec4.sec2.p2" name="article1.body1.sec4.sec2.p2" class="link-target"></a><p>Based on transformation of data dictionaries and the creation of the aggregated DE file, we have designed a set of general recommendations for the optimal sharing of data element metadata for future studies in the HIV domain. We, however, do believe that these recommendations also apply beyond HIV and to other medical domains.</p>
+<a id="article1.body1.sec4.sec2.p3" name="article1.body1.sec4.sec2.p3" class="link-target"></a><p>We enumerate some of the most important recommendations as a list below. We developed a more detailed set of recommendations as part of CONSIDER statement (Consolidated Recommendations for Sharing Individual Participant Data from Human Clinical Studies) to improve the practice of data sharing and reuse. It is available at <a href="http://w3id.org/CONSIDER">w3id.org/CONSIDER</a> and includes details defining the desired best data sharing practices, positive examples of studies following the recommendations, challenging examples of studies where recommendations are not followed and notes on how to evaluate adherence of a study to a given recommendation (CONSIDER checklist).</p>
+
+
+<ul class="bulleted">
+
+<li>Provide data dictionary documentation separate from de-identified individual participant data. Since it contains no participant level data and it does not require local ethical approval as a condition of releasing the data dictionary (avoid a request wall for the data dictionary).</li>
+
+<li>Share a data dictionary as soon as possible. Do not wait until the data collection is complete.</li>
+
+<li>Provide the data dictionary in a single, machine-readable file.</li>
+
+<li>For each data element, provide a data type (such as numeric, date, string, categorical).</li>
+
+<li>For categorical data elements, provide a list of permissible values and distinguish when a numerical code or a string code is a code for a permissible value (versus when it is an actual number or string)</li>
+
+<li>Provide a complete data dictionary (all elements in the data are listed in a dictionary) and all types of applicable dictionaries (date elements, forms [or groupings], and permissible values). Utilize a description field, in addition to title, to fully describe a data element or form.</li>
+
+<li>At study design time and when resources allow, adopt previously defined applicable common data elements (including adoption of grouped data elements).</li>
+
+</ul></div>
+
+<div id="section3" class="section toc-section"><a id="sec024" name="sec024" class="link-target" title="4.3 Grouped data elements"></a>
+<h3>4.3 Grouped data elements</h3>
+<a id="article1.body1.sec4.sec3.p1" name="article1.body1.sec4.sec3.p1" class="link-target"></a><p>Within the analyzed data dictionaries, we saw instances of closely related DEs. For example, HIV 1 RNA viral load and HIV 1 RNA viral load date. This split into multiple self-standing DEs that are closely related data elements created higher counts of distinct data elements. In recent decades, several common data models (CDMs) for Electronic Health Record (EHR) data have emerged that group related data elements into more complex structures. Similarly, the CDISC SDTM standard provides higher level structures (LB [= laboratory] domain) that group data elements together into one row of data in a higher level structure. This grouping has been referred to as the EHR data convention [<a href="#pone.0240047.ref020" class="ref-tip">20</a>] and is increasingly becoming the method of choice for modelling closely related DEs.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec025" name="sec025" class="link-target" title="4.4 De-identification"></a>
+<h3>4.4 De-identification</h3>
+<a id="article1.body1.sec4.sec4.p1" name="article1.body1.sec4.sec4.p1" class="link-target"></a><p>Sharing of clinical study data is inherently linked to de-identification. If a study collected sensitive information (patient’s exact date of birth or other identifying data enumerated in regulations or various policies), such information is removed or obfuscated prior to data sharing. Nine studies in our sample provided de-identification notes. Maintaining a data element dictionary can greatly facilitate IPD de-identification. For example, all elements with date data type may need a relative time obfuscation (shifting all events for a given participant by some fixed number of days). Annotation of data elements with common terminologies can help in finding data elements that need to be de-identified and it can help identify an appropriate de-identification method based on a knowledge base organized by CDE created from prior instances of study de-identification.</p>
+</div>
+
+<div id="section5" class="section toc-section"><a id="sec026" name="sec026" class="link-target" title="4.5 Limitations"></a>
+<h3>4.5 Limitations</h3>
+<a id="article1.body1.sec4.sec5.p1" name="article1.body1.sec4.sec5.p1" class="link-target"></a><p>Our findings are time dependent and based on studies shared at the time of our review (October 2019; 18 studies). Ongoing studies or studies currently being planned may use a more complete data dictionary and employ better dictionary formats. Thanks to requirements to use CDEs included in new funding opportunity announcements [<a href="#pone.0240047.ref002" class="ref-tip">2</a>], newly initiated studies are more likely to adopt CDEs during the study design stage. Because we searched specifically for HIV studies, our findings may not generalize fully to other clinical domains.</p>
+</div>
+</div>
+
+<div xmlns:plos="http://plos.org" id="section5" class="section toc-section"><a id="sec027" name="sec027" data-toc="sec027" class="link-target" title="5 Conclusion"></a><h2>5 Conclusion</h2><a id="article1.body1.sec5.p1" name="article1.body1.sec5.p1" class="link-target"></a><p>We analyzed 26 328 DEs from 18 HIV studies. All analyzed studies organized their DEs into groups. An average study, represented by the median of our set, had 427 data elements. The majority of studies used CSV files to share a data dictionary while 22% of the studies used a non-computable, PDF format. String and numeric data types were the most frequent data types with many studies incorrectly representing categorical data elements (100%) and not providing a full list of permissible values (39%). Only a minority of studies reported study results or linked IPD within their ClinicalTrials.gov record. We also identified two relevant data dictionary standards that have many features that encourage proper data sharing. Using our analysis and review, we designed a set of recommendations that provide best practices for data sharing for future studies.</p>
+</div>
+
+
+
+
+
+<div xmlns:plos="http://plos.org" class="section toc-section"><a id="ack" name="ack" data-toc="ack" title="Acknowledgments" class="link-target"></a><h2>Acknowledgments</h2>
+<a id="article1.back1.ack1.p1" name="article1.back1.ack1.p1" class="link-target"></a><p>This research was supported by the NIH Office of AIDS Research and Intramural Research Program of the National Institutes of Health (NIH)/National Library of Medicine (NLM)/Lister Hill National Center for Biomedical Communications (LHNCBC). We would like to thank Kin Wah Fung and Laritza Rodriguez for providing comments on the earlier version of the manuscript. The findings and conclusions in this article are those of the authors and do not necessarily represent the official position of NLM, NIH, or the Department of Health and Human Services.</p>
+</div><div xmlns:plos="http://plos.org" class="toc-section"><a id="references" name="references" class="link-target" data-toc="references" title="References"></a><h2>References</h2><ol class="references"><li id="ref1"><span class="order">1.
+            </span><a name="pone.0240047.ref001" id="pone.0240047.ref001" class="link-target"></a>Huser V, Amos L. Analyzing Real-World Use of Research Common Data Elements. AMIA Annu Symp Proc AMIA Symp. 2018;2018:602–8. pmid:30815101 <ul class="reflinks"><li><a href="#" data-author="Huser" data-cit="HuserV%2C%20AmosL.%20Analyzing%20Real-World%20Use%20of%20Research%20Common%20Data%20Elements.%20AMIA%20Annu%20Symp%20Proc%20AMIA%20Symp.%202018%3B2018%3A602%E2%80%938.%2030815101" data-title="Analyzing%20Real-World%20Use%20of%20Research%20Common%20Data%20Elements" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/30815101" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Analyzing+Real-World+Use+of+Research+Common+Data+Elements+Huser+2018" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref2"><span class="order">2.
+            </span><a name="pone.0240047.ref002" id="pone.0240047.ref002" class="link-target"></a>Sheehan J, Hirschfeld S, Foster E, Ghitza U, Goetz K, Karpinski J, et al. Improving the value of clinical research through the use of Common Data Elements. Clin Trials Lond Engl. 2016;13(6):671–6. <ul class="reflinks"><li><a href="#" data-author="Sheehan" data-cit="SheehanJ%2C%20HirschfeldS%2C%20FosterE%2C%20GhitzaU%2C%20GoetzK%2C%20KarpinskiJ%2C%20et%20al.%20Improving%20the%20value%20of%20clinical%20research%20through%20the%20use%20of%20Common%20Data%20Elements.%20Clin%20Trials%20Lond%20Engl.%202016%3B13%286%29%3A671%E2%80%936." data-title="Improving%20the%20value%20of%20clinical%20research%20through%20the%20use%20of%20Common%20Data%20Elements" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Improving+the+value+of+clinical+research+through+the+use+of+Common+Data+Elements+Sheehan+2016" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref3"><span class="order">3.
+            </span><a name="pone.0240047.ref003" id="pone.0240047.ref003" class="link-target"></a>CDISC. CDISC HIV Therapeutic Area User Guide (TAUG) [Internet]. CDISC HIV Therapeutic Area User Guide (TAUG). [cited 2019 Sep 13]. Available from: <a href="https://www.cdisc.org/standards/therapeutic-areas/hiv">https://www.cdisc.org/standards/therapeutic-areas/hiv</a> <ul class="reflinks"><li><a href="#" data-author="" data-cit="CDISC.%20CDISC%20HIV%20Therapeutic%20Area%20User%20Guide%20%28TAUG%29%20%5BInternet%5D.%20CDISC%20HIV%20Therapeutic%20Area%20User%20Guide%20%28TAUG%29.%20%5Bcited%202019%20Sep%2013%5D.%20Available%20from%3A%20https%3A%2F%2Fwww.cdisc.org%2Fstandards%2Ftherapeutic-areas%2Fhiv" data-title="CDISC%20HIV%20Therapeutic%20Area%20User%20Guide%20%28TAUG%29" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=CDISC+HIV+Therapeutic+Area+User+Guide+%28TAUG%29++2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref4"><span class="order">4.
+            </span><a name="pone.0240047.ref004" id="pone.0240047.ref004" class="link-target"></a>Simon GE, Coronado G, DeBar LL, Dember LM, Green BB, Huang SS, et al. Data Sharing and Embedded Research. Ann Intern Med. 2017 Nov 7;167(9):668–70.  pmid:28973353 <ul class="reflinks" data-doi="10.7326/M17-0863"><li><a href="https://doi.org/10.7326/M17-0863" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/28973353" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Data+Sharing+and+Embedded+Research+Simon+2017" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref5"><span class="order">5.
+            </span><a name="pone.0240047.ref005" id="pone.0240047.ref005" class="link-target"></a>Huser V, Shmueli-Blumberg D. Data sharing platforms for de-identified data from human clinical trials. Clin Trials Lond Engl. 2018 Aug;15(4):413–23. <ul class="reflinks"><li><a href="#" data-author="Huser" data-cit="HuserV%2C%20Shmueli-BlumbergD.%20Data%20sharing%20platforms%20for%20de-identified%20data%20from%20human%20clinical%20trials.%20Clin%20Trials%20Lond%20Engl.%202018%20Aug%3B15%284%29%3A413%E2%80%9323." data-title="Data%20sharing%20platforms%20for%20de-identified%20data%20from%20human%20clinical%20trials.%20Clin%20Trials%20Lond%20Engl" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Data+sharing+platforms+for+de-identified+data+from+human+clinical+trials.+Clin+Trials+Lond+Engl+Huser+2018" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref6"><span class="order">6.
+            </span><a name="pone.0240047.ref006" id="pone.0240047.ref006" class="link-target"></a>Johnson SB. Clinical Research Informatics: Supporting the Research Study Lifecycle. Yearb Med Inform. 2017 Aug;26(1):193–200.  pmid:29063565 <ul class="reflinks" data-doi="10.15265/IY-2017-022"><li><a href="https://doi.org/10.15265/IY-2017-022" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/29063565" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Clinical+Research+Informatics%3A+Supporting+the+Research+Study+Lifecycle+Johnson+2017" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref7"><span class="order">7.
+            </span><a name="pone.0240047.ref007" id="pone.0240047.ref007" class="link-target"></a>Guidance to Encourage the Use of CDEs [Internet]. U.S. National Library of Medicine; [cited 2020 Jul 29]. Available from: <a href="https://www.nlm.nih.gov/cde/policyinformation.html">https://www.nlm.nih.gov/cde/policyinformation.html</a> <ul class="find-nolinks"></ul></li><li id="ref8"><span class="order">8.
+            </span><a name="pone.0240047.ref008" id="pone.0240047.ref008" class="link-target"></a>Longo DL, Drazen JM. Data Sharing. N Engl J Med. 2016 Jan 21;374(3):276–7.  pmid:26789876 <ul class="reflinks" data-doi="10.1056/NEJMe1516564"><li><a href="https://doi.org/10.1056/NEJMe1516564" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/26789876" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Data+Sharing+Longo+2016" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref9"><span class="order">9.
+            </span><a name="pone.0240047.ref009" id="pone.0240047.ref009" class="link-target"></a>Greene CS, Garmire LX, Gilbert JA, Ritchie MD, Hunter LE. Celebrating parasites. Nat Genet. 2017 Mar 30;49(4):483–4.  pmid:28358134 <ul class="reflinks" data-doi="10.1038/ng.3830"><li><a href="https://doi.org/10.1038/ng.3830" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/28358134" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Celebrating+parasites+Greene+2017" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref10"><span class="order">10.
+            </span><a name="pone.0240047.ref010" id="pone.0240047.ref010" class="link-target"></a>Big Data and Collaboration Seek to Fight COVID-19 [Internet]. The Scientist Magazine®. [cited 2020 Jul 29]. Available from: <a href="https://www.the-scientist.com/news-opinion/big-data-and-collaboration-seek-to-fight-covid-19-67759">https://www.the-scientist.com/news-opinion/big-data-and-collaboration-seek-to-fight-covid-19-67759</a> <ul class="find-nolinks"></ul></li><li id="ref11"><span class="order">11.
+            </span><a name="pone.0240047.ref011" id="pone.0240047.ref011" class="link-target"></a>Cosgriff CV, Ebner DK, Celi LA. Data sharing in the era of COVID-19. Lancet Digit Health. 2020 May;2(5):e224.  pmid:32373785 <ul class="reflinks" data-doi="10.1016/S2589-7500(20)30082-0"><li><a href="https://doi.org/10.1016/S2589-7500(20)30082-0" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/32373785" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Data+sharing+in+the+era+of+COVID-19+Cosgriff+2020" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref12"><span class="order">12.
+            </span><a name="pone.0240047.ref012" id="pone.0240047.ref012" class="link-target"></a>Website for research project: Identification of Research Common Data Elements in HIV/AIDS using data science methods [Internet]. Available from: <a href="https://github.com/lhncbc/CDE/tree/master/hiv/">https://github.com/lhncbc/CDE/tree/master/hiv/</a> <ul class="find-nolinks"></ul></li><li id="ref13"><span class="order">13.
+            </span><a name="pone.0240047.ref013" id="pone.0240047.ref013" class="link-target"></a>Data Share Platform [Internet]. [cited 2019 Jul 8]. Available from: <a href="https://datashare.nida.nih.gov">https://datashare.nida.nih.gov</a> <ul class="find-nolinks"></ul></li><li id="ref14"><span class="order">14.
+            </span><a name="pone.0240047.ref014" id="pone.0240047.ref014" class="link-target"></a>Chapman DD. Using SAS Catalogs to Develop and Manage SAS DATA Step Programs. In. Available from: <a href="http://www2.sas.com/proceedings/sugi29/051-29.pdf">http://www2.sas.com/proceedings/sugi29/051-29.pdf</a> <ul class="find-nolinks"></ul></li><li id="ref15"><span class="order">15.
+            </span><a name="pone.0240047.ref015" id="pone.0240047.ref015" class="link-target"></a>NIH Scientific Data Council Committee [Internet]. [cited 2019 Oct 2]. Available from: <a href="https://datascience.nih.gov/sdc">https://datascience.nih.gov/sdc</a> <ul class="find-nolinks"></ul></li><li id="ref16"><span class="order">16.
+            </span><a name="pone.0240047.ref016" id="pone.0240047.ref016" class="link-target"></a>NIH Common Data Element Task Force: Glossary sub-group: Definitions of Terms [Internet]. [cited 2020 Mar 22]. Available from: <a href="https://github.com/lhncbc/CDE/blob/master/definitions.md">https://github.com/lhncbc/CDE/blob/master/definitions.md</a> <ul class="find-nolinks"></ul></li><li id="ref17"><span class="order">17.
+            </span><a name="pone.0240047.ref017" id="pone.0240047.ref017" class="link-target"></a>Anfray C, Arnold B, Martin M, Eremenco S, Patrick DL, Conway K, et al. Reflection paper on copyright, patient-reported outcome instruments and their translations. Health Qual Life Outcomes. 2018 Dec 5;16(1):224. <ul class="reflinks"><li><a href="#" data-author="Anfray" data-cit="AnfrayC%2C%20ArnoldB%2C%20MartinM%2C%20EremencoS%2C%20PatrickDL%2C%20ConwayK%2C%20et%20al.%20Reflection%20paper%20on%20copyright%2C%20patient-reported%20outcome%20instruments%20and%20their%20translations.%20Health%20Qual%20Life%20Outcomes.%202018%20Dec%205%3B16%281%29%3A224." data-title="Reflection%20paper%20on%20copyright%2C%20patient-reported%20outcome%20instruments%20and%20their%20translations.%20Health%20Qual%20Life%20Outcomes" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Reflection+paper+on+copyright%2C+patient-reported+outcome+instruments+and+their+translations.+Health+Qual+Life+Outcomes+Anfray+2018" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref18"><span class="order">18.
+            </span><a name="pone.0240047.ref018" id="pone.0240047.ref018" class="link-target"></a>Anfray C, Emery M-P, Conway K, Acquadro C. Questions of copyright. Health Qual Life Outcomes. 2012 Jan 31;10:16. <ul class="reflinks"><li><a href="#" data-author="Anfray" data-cit="AnfrayC%2C%20EmeryM-P%2C%20ConwayK%2C%20AcquadroC.%20Questions%20of%20copyright.%20Health%20Qual%20Life%20Outcomes.%202012%20Jan%2031%3B10%3A16." data-title="Questions%20of%20copyright.%20Health%20Qual%20Life%20Outcomes" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Questions+of+copyright.+Health+Qual+Life+Outcomes+Anfray+2012" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref19"><span class="order">19.
+            </span><a name="pone.0240047.ref019" id="pone.0240047.ref019" class="link-target"></a>Mayer C, Williams N, Gold S, Fung K, Huser V. Sharing of Individual Participant Data from Clinical Trials: General Comparison and HIV Use Case. AMIA Annu Symp Proc. 2019; <ul class="reflinks"><li><a href="#" data-author="Mayer" data-cit="MayerC%2C%20WilliamsN%2C%20GoldS%2C%20FungK%2C%20HuserV.%20Sharing%20of%20Individual%20Participant%20Data%20from%20Clinical%20Trials%3A%20General%20Comparison%20and%20HIV%20Use%20Case.%20AMIA%20Annu%20Symp%20Proc.%202019%3B" data-title="Sharing%20of%20Individual%20Participant%20Data%20from%20Clinical%20Trials%3A%20General%20Comparison%20and%20HIV%20Use%20Case" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Sharing+of+Individual+Participant+Data+from+Clinical+Trials%3A+General+Comparison+and+HIV+Use+Case+Mayer+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref20"><span class="order">20.
+            </span><a name="pone.0240047.ref020" id="pone.0240047.ref020" class="link-target"></a>Study Data for Submission to CDER and CBER | FDA [Internet]. [cited 2019 Sep 20]. Available from: <a href="https://www.fda.gov/industry/study-data-standards-resources/study-data-submission-cder-and-cber">https://www.fda.gov/industry/study-data-standards-resources/study-data-submission-cder-and-cber</a> <ul class="find-nolinks"></ul></li><li id="ref21"><span class="order">21.
+            </span><a name="pone.0240047.ref021" id="pone.0240047.ref021" class="link-target"></a>Harris PA, Taylor R, Minor BL, Elliott V, Fernandez M, O’Neal L, et al. The REDCap consortium: Building an international community of software platform partners. J Biomed Inform. 2019 Jul;95:103208. <ul class="reflinks"><li><a href="#" data-author="Harris" data-cit="HarrisPA%2C%20TaylorR%2C%20MinorBL%2C%20ElliottV%2C%20FernandezM%2C%20O%E2%80%99NealL%2C%20et%20al.%20The%20REDCap%20consortium%3A%20Building%20an%20international%20community%20of%20software%20platform%20partners.%20J%20Biomed%20Inform.%202019%20Jul%3B95%3A103208." data-title="The%20REDCap%20consortium%3A%20Building%20an%20international%20community%20of%20software%20platform%20partners.%20J%20Biomed%20Inform" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=The+REDCap+consortium%3A+Building+an+international+community+of+software+platform+partners.+J+Biomed+Inform+Harris+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref22"><span class="order">22.
+            </span><a name="pone.0240047.ref022" id="pone.0240047.ref022" class="link-target"></a>PhenX Toolkit: REDCap Instruments ZIP files [Internet]. [cited 2019 Sep 23]. Available from: <a href="https://www.phenxtoolkit.org/resources/redcap">https://www.phenxtoolkit.org/resources/redcap</a> <ul class="find-nolinks"></ul></li><li id="ref23"><span class="order">23.
+            </span><a name="pone.0240047.ref023" id="pone.0240047.ref023" class="link-target"></a>Kock-Schoppenhauer A-K, Kroll B, Lambarki M, Ulrich H, Stahl-Toyota S, Habermann JK, et al. One Step Away from Technology but One Step Towards Domain Experts-MDRBridge: A Template-Based ISO 11179-Compliant Metadata Processing Pipeline. Methods Inf Med. 2019;58(S 02):e72–9.  pmid:31853911 <ul class="reflinks" data-doi="10.1055/s-0039-3399579"><li><a href="https://doi.org/10.1055/s-0039-3399579" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/31853911" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=One+Step+Away+from+Technology+but+One+Step+Towards+Domain+Experts-MDRBridge%3A+A+Template-Based+ISO+11179-Compliant+Metadata+Processing+Pipeline+Kock-Schoppenhauer+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref24"><span class="order">24.
+            </span><a name="pone.0240047.ref024" id="pone.0240047.ref024" class="link-target"></a>Decety J, Cowell JM, Lee K, Mahasneh R, Malcolm-Smith S, Selcuk B, et al. Retraction Notice to: The Negative Association between Religiousness and Children’s Altruism across the World. Curr Biol. 2019 Aug 5;29(15):2595.  pmid:31386841 <ul class="reflinks" data-doi="10.1016/j.cub.2019.07.030"><li><a href="https://doi.org/10.1016/j.cub.2019.07.030" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/31386841" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Retraction+Notice+to%3A+The+Negative+Association+between+Religiousness+and+Children%E2%80%99s+Altruism+across+the+World+Decety+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref25"><span class="order">25.
+            </span><a name="pone.0240047.ref025" id="pone.0240047.ref025" class="link-target"></a>Zhang G-Q, Cui L, Mueller R, Tao S, Kim M, Rueschman M, et al. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc JAMIA. 2018 01;25(10):1351–8.  pmid:29860441 <ul class="reflinks" data-doi="10.1093/jamia/ocy064"><li><a href="https://doi.org/10.1093/jamia/ocy064" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/29860441" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=The+National+Sleep+Research+Resource%3A+towards+a+sleep+data+commons+Zhang+2018" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref26"><span class="order">26.
+            </span><a name="pone.0240047.ref026" id="pone.0240047.ref026" class="link-target"></a>CDASH ODM.XML [Internet]. CDISC. [cited 2019 Oct 2]. Available from: <a href="https://www.cdisc.org/standards/foundational/cdash/cdash-odmxml">https://www.cdisc.org/standards/foundational/cdash/cdash-odmxml</a> <ul class="find-nolinks"></ul></li><li id="ref27"><span class="order">27.
+            </span><a name="pone.0240047.ref027" id="pone.0240047.ref027" class="link-target"></a>Mayer CS, Williams N, Fung KW, Huser V. Evaluation of Research Accessibility and Data Elements of HIV Registries. Curr HIV Res. 2019 Sep 24; <ul class="reflinks"><li><a href="#" data-author="Mayer" data-cit="MayerCS%2C%20WilliamsN%2C%20FungKW%2C%20HuserV.%20Evaluation%20of%20Research%20Accessibility%20and%20Data%20Elements%20of%20HIV%20Registries.%20Curr%20HIV%20Res.%202019%20Sep%2024%3B" data-title="Evaluation%20of%20Research%20Accessibility%20and%20Data%20Elements%20of%20HIV%20Registries" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Evaluation+of+Research+Accessibility+and+Data+Elements+of+HIV+Registries+Mayer+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref28"><span class="order">28.
+            </span><a name="pone.0240047.ref028" id="pone.0240047.ref028" class="link-target"></a>Sharma DK, Solbrig HR, Prud’hommeaux E, Pathak J, Jiang G. Standardized Representation of Clinical Study Data Dictionaries with CIMI Archetypes. AMIA Annu Symp Proc AMIA Symp. 2016;2016:1119–28. pmid:28269909 <ul class="reflinks"><li><a href="#" data-author="Sharma" data-cit="SharmaDK%2C%20SolbrigHR%2C%20Prud%E2%80%99hommeauxE%2C%20PathakJ%2C%20JiangG.%20Standardized%20Representation%20of%20Clinical%20Study%20Data%20Dictionaries%20with%20CIMI%20Archetypes.%20AMIA%20Annu%20Symp%20Proc%20AMIA%20Symp.%202016%3B2016%3A1119%E2%80%9328.%2028269909" data-title="Standardized%20Representation%20of%20Clinical%20Study%20Data%20Dictionaries%20with%20CIMI%20Archetypes" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/28269909" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Standardized+Representation+of+Clinical+Study+Data+Dictionaries+with+CIMI+Archetypes+Sharma+2016" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref29"><span class="order">29.
+            </span><a name="pone.0240047.ref029" id="pone.0240047.ref029" class="link-target"></a>Strickler M, Zbinden C, Saccilotto R, Denecke K. A Concept for a Data Dictionary System Supporting for Clinical Research. Stud Health Technol Inform. 2019;258:158–62. pmid:30942736 <ul class="reflinks"><li><a href="#" data-author="Strickler" data-cit="StricklerM%2C%20ZbindenC%2C%20SaccilottoR%2C%20DeneckeK.%20A%20Concept%20for%20a%20Data%20Dictionary%20System%20Supporting%20for%20Clinical%20Research.%20Stud%20Health%20Technol%20Inform.%202019%3B258%3A158%E2%80%9362.%2030942736" data-title="A%20Concept%20for%20a%20Data%20Dictionary%20System%20Supporting%20for%20Clinical%20Research" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/30942736" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=A+Concept+for+a+Data+Dictionary+System+Supporting+for+Clinical+Research+Strickler+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref30"><span class="order">30.
+            </span><a name="pone.0240047.ref030" id="pone.0240047.ref030" class="link-target"></a>Pew-Report-v2018DEC08FINAL3.pdf [Internet]. [cited 2019 Sep 13]. Available from: <a href="https://dcri.org/wp-content/uploads/2018/12/Pew-Report-v2018DEC08FINAL3.pdf">https://dcri.org/wp-content/uploads/2018/12/Pew-Report-v2018DEC08FINAL3.pdf</a> <ul class="find-nolinks"></ul></li><li id="ref31"><span class="order">31.
+            </span><a name="pone.0240047.ref031" id="pone.0240047.ref031" class="link-target"></a>Wilkinson MD, Dumontier M, Aalbersberg IJJ, Appleton G, Axton M, Baak A, et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data. 2016 Mar 15;3:160018. <ul class="reflinks"><li><a href="#" data-author="Wilkinson" data-cit="WilkinsonMD%2C%20DumontierM%2C%20AalbersbergIJJ%2C%20AppletonG%2C%20AxtonM%2C%20BaakA%2C%20et%20al.%20The%20FAIR%20Guiding%20Principles%20for%20scientific%20data%20management%20and%20stewardship.%20Sci%20Data.%202016%20Mar%2015%3B3%3A160018." data-title="The%20FAIR%20Guiding%20Principles%20for%20scientific%20data%20management%20and%20stewardship.%20Sci%20Data" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=The+FAIR+Guiding+Principles+for+scientific+data+management+and+stewardship.+Sci+Data+Wilkinson+2016" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref32"><span class="order">32.
+            </span><a name="pone.0240047.ref032" id="pone.0240047.ref032" class="link-target"></a>Löbe M, Matthies F, Stäubert S, Meineke FA, Winter A. Problems in FAIRifying Medical Datasets. Stud Health Technol Inform. 2020 Jun 16;270:392–6.  pmid:32570413 <ul class="reflinks" data-doi="10.3233/SHTI200189"><li><a href="https://doi.org/10.3233/SHTI200189" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/32570413" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Problems+in+FAIRifying+Medical+Datasets+L%C3%B6be+2020" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li></ol></div>
+
+
+
+          <div class="ref-tooltip">
+            <div class="ref_tooltip-content">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <aside class="article-aside">
+
+
+<!--[if IE 9]>
+<style>
+.dload-xml {margin-top: 38px}
+</style>
+<![endif]-->
+<div class="dload-menu">
+  <div class="dload-pdf">
+    <a href="/plosone/article/file?id=10.1371/journal.pone.0240047&type=printable"
+       id="downloadPdf" target="_blank">Download PDF</a>
+  </div>
+  <div data-js-tooltip-hover="trigger" class="dload-hover">&nbsp;
+    <ul class="dload-xml" data-js-tooltip-hover="target">
+      <li><a href="/plosone/article/citation?id=10.1371/journal.pone.0240047"
+             id="downloadCitation">Citation</a></li>
+      <li><a href="/plosone/article/file?id=10.1371/journal.pone.0240047&type=manuscript"
+             id="downloadXml">XML</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="aside-container">
+  <div class="print-article" id="printArticle" data-js-tooltip-hover="trigger">
+    <a href="#" onclick="window.print(); return false;" class="preventDefault" id="printBrowser">Print</a>
+  </div>
+  <div class="share-article" id="shareArticle" data-js-tooltip-hover="trigger">
+    Share
+    <ul data-js-tooltip-hover="target" class="share-options" id="share-options">
+
+      <li><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0240047" id="shareReddit" target="_blank" title="Submit to Reddit"><img src="/resource/img/icon.reddit.16.png" width="16" height="16" alt="Reddit">Reddit</a></li>
+
+      <li><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0240047&t=Analysis of data dictionary formats of HIV clinical trials" id="shareFacebook" target="_blank" title="Share on Facebook"><img src="/resource/img/icon.fb.16.png" width="16" height="16" alt="Facebook">Facebook</a></li>
+
+      <li><a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0240047&title=Analysis of data dictionary formats of HIV clinical trials&summary=Checkout this article I found at PLOS"  id="shareLinkedIn" target="_blank" title="Add to LinkedIn"><img src="/resource/img/icon.linkedin.16.png" width="16" height="16" alt="LinkedIn">LinkedIn</a></li>
+
+      <li><a href="https://www.mendeley.com/import/?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0240047"  id="shareMendeley" target="_blank" title="Add to Mendeley"><img src="/resource/img/icon.mendeley.16.png" width="16" height="16" alt="Mendeley">Mendeley</a></li>
+
+      <li><a href="https://bsky.app/intent/compose?text=Checkout%20this%20article%20I%20found%20at%20PLOS:%20https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0240047"  id="shareBluesky" target="_blank" title="Share on Bluesky"><img src="/resource/img/icon.bluesky.light.png" width="16" height="16" alt="Bluesky">Bluesky</a></li>
+
+      <li><a href="mailto:?subject=Analysis of data dictionary formats of HIV clinical trials&body=I%20thought%20you%20would%20find%20this%20article%20interesting.%20From%20PLOS ONE:%20https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0240047"  id="shareEmail" rel="noreferrer" aria-label="Email"><img src="/resource/img/icon.email.16.png" width="16" height="16" alt="Email">Email</a></li>
+    </ul>
+  </div>
+</div>
+
+
+     <!-- Crossmark 2.0 widget -->
+    <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+    <a aria-label="Check for updates via CrossMark" data-target="crossmark">
+      <img alt="Check for updates via CrossMark" width="150" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_horizontal.svg">
+    </a>
+    <!-- End Crossmark 2.0 widget -->
+
+
+
+<div class="aside-container collections-aside-container"><!-- React Magic --></div>
+
+
+<div class="skyscraper-container">
+  <div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-1' style='width:160px; height:600px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-1'); });
+    </script>
+  </div>
+</div>
+
+
+
+
+<div class="subject-areas-container">
+  <h3>Subject Areas <div id="subjInfo">?</div>
+    <div id="subjInfoText">
+      <p>For more information about PLOS Subject Areas, click
+        <a href="https://github.com/PLOS/plos-thesaurus/blob/master/README.md" target="_blank" title="Link opens in new window">here</a>.</p>
+      <span class="inline-intro">We want your feedback.</span> Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!
+
+
+    </div>
+  </h3>
+  <ul id="subjectList">
+      <li>
+              <a class="taxo-term" title="Search for articles about HIV"
+                 href="/plosone/search?filterSubjects=HIV&filterJournals=PLoSONE&q=">HIV</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="HIV"><p class="taxo-explain">Is the Subject Area <strong>"HIV"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about HIV infections"
+                 href="/plosone/search?filterSubjects=HIV+infections&filterJournals=PLoSONE&q=">HIV infections</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="HIV infections"><p class="taxo-explain">Is the Subject Area <strong>"HIV infections"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about HIV prevention"
+                 href="/plosone/search?filterSubjects=HIV+prevention&filterJournals=PLoSONE&q=">HIV prevention</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="HIV prevention"><p class="taxo-explain">Is the Subject Area <strong>"HIV prevention"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about HIV vaccines"
+                 href="/plosone/search?filterSubjects=HIV+vaccines&filterJournals=PLoSONE&q=">HIV vaccines</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="HIV vaccines"><p class="taxo-explain">Is the Subject Area <strong>"HIV vaccines"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Metadata"
+                 href="/plosone/search?filterSubjects=Metadata&filterJournals=PLoSONE&q=">Metadata</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Metadata"><p class="taxo-explain">Is the Subject Area <strong>"Metadata"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Virus testing"
+                 href="/plosone/search?filterSubjects=Virus+testing&filterJournals=PLoSONE&q=">Virus testing</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Virus testing"><p class="taxo-explain">Is the Subject Area <strong>"Virus testing"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Pediatrics"
+                 href="/plosone/search?filterSubjects=Pediatrics&filterJournals=PLoSONE&q=">Pediatrics</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Pediatrics"><p class="taxo-explain">Is the Subject Area <strong>"Pediatrics"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Young adults"
+                 href="/plosone/search?filterSubjects=Young+adults&filterJournals=PLoSONE&q=">Young adults</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Young adults"><p class="taxo-explain">Is the Subject Area <strong>"Young adults"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+  </ul>
+</div>
+<div id="subjectErrors"></div>
+  </aside>
+</div>
+
+
+
+
+</main>
+<footer id="pageftr">
+  <div class="row">
+    <div class="block x-small">
+
+<ul class="nav nav-secondary">
+    <li class="ftr-header"><a href="https://plos.org/our-journals/">Publications</a></li>
+    <li><a href="/agingandhealth/" id="ftr-age">PLOS Aging and Health</a></li>
+    <li><a href="/plosbiology/" id="ftr-bio">PLOS Biology</a></li>
+    <li><a href="/climate/" id="ftr-climate">PLOS Climate</a></li>
+    <li><a href="/complexsystems/" id="ftr-complex-systems">PLOS Complex Systems</a></li>
+    <li><a href="/ploscompbiol/" id="ftr-compbio">PLOS Computational Biology</a></li>
+    <li><a href="/digitalhealth/" id="ftr-digitalhealth">PLOS Digital Health</a></li>
+    <li><a href="/ecosystems/" id="ftr-eco">PLOS Ecosystems</a></li>
+    <li><a href="/plosgenetics/" id="ftr-gen">PLOS Genetics</a></li>
+  </ul>
+    </div>
+    <div class="block x-small">
+
+<ul class="nav nav-secondary">
+    <li class="ftr-header">&nbsp;</li>
+    <li><a href="/globalpublichealth/" id="ftr-globalpublichealth">PLOS Global Public Health</a></li>
+    <li><a href="/plosmedicine/" id="ftr-med">PLOS Medicine</a></li>
+    <li><a href="/mentalhealth/" id="ftr-mental-health">PLOS Mental Health</a></li>
+    <li><a href="/plosntds/" id="ftr-ntds">PLOS Neglected Tropical Diseases</a></li>
+    <li><a href="/plosone/" id="ftr-one">PLOS One</a></li>
+    <li><a href="/plospathogens/" id="ftr-path">PLOS Pathogens</a></li>
+    <li><a href="/sustainabilitytransformation/" id="ftr-sustainabilitytransformation">PLOS Sustainability and Transformation</a></li>
+    <li><a href="/water/" id="ftr-water">PLOS Water</a></li>
+</ul>
+    </div>
+    <div class="block xx-small">	
+
+
+<ul class="nav nav-tertiary">
+  <li>
+    <a href="https://plos.org" id="ftr-home">Home</a>
+  </li>
+  <li>
+    <a href="https://blogs.plos.org" id="ftr-blog">Blogs</a>
+  </li>
+  <li>
+    <a href="https://collections.plos.org/" id="ftr-collections">Collections</a>
+  </li>
+  <li>
+    <a href="mailto:customercare@plos.org" id="ftr-feedback">Give feedback</a>
+  </li>
+  <li>
+    <a href="/plosone/lockss-manifest" id="ftr-lockss">LOCKSS</a>
+  </li>
+</ul>
+    </div>
+    <div class="block xx-small">
+
+<ul class="nav nav-primary">
+  <li><a href="https://plos.org/privacy-policy" id="ftr-privacy">Privacy Policy</a></li>
+  <li><a href="https://plos.org/terms-of-use" id="ftr-terms">Terms of Use</a></li>
+  <li><a href="https://plos.org/advertise/" id="ftr-advertise">Advertise</a></li>
+  <li><a href="https://plos.org/media-inquiries" id="ftr-media">Media Inquiries</a></li>
+  <li><a href="https://plos.org/contact" id="ftr-contact">Contact</a></li>
+</ul>
+    </div>
+  </div>
+  <div class="row">
+    <p>
+
+<img src="/resource/img/logo-plos-footer.png" alt="PLOS" class="logo-footer"/>
+
+
+<span class="footer-non-profit-statement">PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in California, US</span>    </p>
+    <div class="block">
+    </div>
+  </div>
+ 
+<script src="/resource/js/global.js" type="text/javascript"></script>
+</footer>
+
+
+
+
+<script type="text/javascript">
+  var ArticleData = {
+    doi: '10.1371/journal.pone.0240047',
+    title: '<article-title xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Analysis of data dictionary formats of HIV clinical trials<\/article-title>',
+    date: 'Oct 05, 2020'
+  };
+</script>
+<script src="/resource/js/components/show_onscroll.js" type="text/javascript"></script>
+<script src="/resource/js/components/pagination.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/spin.js" type="text/javascript"></script>
+<script src="/resource/js/pages/article.js" type="text/javascript"></script>
+<script src="/resource/js/pages/article_references.js" type="text/javascript"></script>
+<script src="/resource/js/pages/article_sidebar.js" type="text/javascript"></script>
+<script src="/resource/js/vendor/foundation/foundation.dropdown.js" type="text/javascript"></script>
+  <script src="/resource/js/components/table_open.js" type="text/javascript"></script>
+
+        <script src="/resource/js/components/figshare.js" type="text/javascript"></script>
+  <script src="/resource/js/vendor/jquery.panzoom.min.js" type="text/javascript"></script>
+  <script src="/resource/js/vendor/jquery.mousewheel.js" type="text/javascript"></script>
+
+  <script src="/resource/js/components/lightbox.js" type="text/javascript"></script>
+
+  <script src="/resource/js/pages/article_body.js" type="text/javascript"></script>
+
+
+<!-- This file should be loaded before the renderJs, to avoid conflicts with the FigShare, that implements the MathJax also. -->
+
+<!--  mathjax configuration options  -->
+<!-- more can be found at http://docs.mathjax.org/en/latest/ -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  "HTML-CSS": {
+    scale: 100,
+    availableFonts: ["STIX","TeX"],
+    preferredFont: "STIX",
+    webFont: "STIX-Web",
+    linebreaks: { automatic: false }
+  },
+  jax: ["input/MathML", "output/HTML-CSS"]
+});
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+
+<div class="reveal-modal-bg"></div>
+</body>
+</html>

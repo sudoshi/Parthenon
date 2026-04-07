@@ -1,0 +1,1572 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s"/>
+    <meta name="google-site-verification" content="Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4"/>
+
+    
+    
+    <meta name="generator" content="InvenioRDM 14.0"/>
+
+    
+    
+    
+  
+    <meta name="description" content="The potential inclusion of ocular imaging data into the All of Us Research Program (All of Us) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the All of Us Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop." />
+    <meta name="citation_title" content="Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop" />
+    <meta name="citation_author" content="Weixelbaum, Jay" />
+    <meta name="citation_author" content="Beezley, Kelly E." />
+    <meta name="citation_author" content="Tuvesson, Nancy" />
+    <meta name="citation_author" content="Reed, Amberlynn" />
+    <meta name="citation_author" content="Haqqani, Syed" />
+    <meta name="citation_author" content="Giannini, John" />
+    <meta name="citation_author" content="Landis, Erica" />
+    <meta name="citation_author" content="Anderson, Afrouz" />
+    <meta name="citation_author" content="Schully, Sheri" />
+    <meta name="citation_author" content="Goetz, Kerry E." />
+    <meta name="citation_doi" content="10.5281/zenodo.8384372" />
+    <meta name="citation_keywords" content="ocular imaging" />
+    <meta name="citation_abstract_html_url" content="https://zenodo.org/records/8384372" />
+    <meta property="og:title" content="Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop" />
+    <meta property="og:description" content="The potential inclusion of ocular imaging data into the All of Us Research Program (All of Us) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the All of Us Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop." />
+    <meta property="og:url" content="https://zenodo.org/records/8384372" />
+    <meta property="og:site_name" content="Zenodo" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@zenodo_org" />
+    <meta name="twitter:title" content="Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop" />
+    <meta name="twitter:description" content="The potential inclusion of ocular imaging data into the All of Us Research Program (All of Us) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the All of Us Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop." />
+    
+      <meta name="citation_pdf_url" content="https://zenodo.org/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf"/>
+    <link rel="alternate" type="application/pdf" href="https://zenodo.org/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf">
+    <link rel="item" type="application/pdf" href="https://zenodo.org/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf">
+
+
+<link rel="canonical" href="https://zenodo.org/records/8384372">
+      <title>Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop</title>
+      <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+          <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-touch-icon-120.png"/>
+          <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-touch-icon-152.png"/>
+          <link rel="apple-touch-icon" sizes="167x167" href="/static/apple-touch-icon-167.png"/>
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon-180.png"/>
+    
+      <link rel="stylesheet" href="/static/dist/css/3526.7651b58ff2a6f2fc884a.css" />
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  <body data-invenio-config='{"isMathJaxEnabled": "//cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML"}'  itemscope itemtype="http://schema.org/WebPage" data-spy="scroll" data-target=".scrollspy-target">
+      <a id="skip-to-main" class="ui button primary ml-5 mt-5 skip-link" href="#main">Skip to main</a>
+      <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+    
+
+<div>
+  <header class="theme header">
+
+    <div class="outer-navbar">
+      <div class="ui container invenio-header-container">
+        <nav id="invenio-nav" class="ui inverted menu borderless p-0">
+          <div class="item logo p-0">
+                    <a class="logo-link" href="/">
+                      <img class="ui image rdm-logo"
+                            src="/static/images/invenio-rdm.svg"
+                            alt="Zenodo home"/>
+                    </a>
+          </div>
+
+          <div id="rdm-burger-toggle">
+            <button
+              id="rdm-burger-menu-icon"
+              class="ui button transparent"
+              aria-label="Menu"
+              aria-haspopup="menu"
+              aria-expanded="false"
+              aria-controls="invenio-menu"
+            >
+              <span class="navicon" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <nav
+            id="invenio-menu"
+            aria-labelledby="rdm-burger-menu-icon"
+            class="ui fluid menu borderless mobile-hidden"
+          >
+            <button
+              id="rdm-close-burger-menu-icon"
+              class="ui button transparent"
+              aria-label="Close menu"
+            >
+              <span class="navicon" aria-hidden="true"></span>
+            </button>
+    
+    
+    
+      <div class="item p-0 search-bar">
+        <div id="header-search-bar" data-options='[{"key": "records", "text": "All Zenodo", "value": "/search"}]'>
+          <div class="ui fluid search">
+            <div class="ui icon input">
+              <input
+                autocomplete="off"
+                aria-label="Search records"
+                placeholder="Search records..."
+                type="text"
+                tabindex="0"
+                class="prompt"
+                value=""
+              >
+              <i aria-hidden="true" class="search icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                  <div class="item">
+                    <a href="/communities">Communities</a>
+                  </div>
+
+              
+                <div class="item">
+                  <a href="/me/uploads">My dashboard</a>
+                </div>
+              
+              <div class="right menu item">
+    <form>
+      <a
+        href="/login/?next=/records/8384372"
+        class="ui button auth-button" aria-busy="false" aria-live="polite" aria-label="Log in"
+      >
+        <i class="sign-in icon auth-icon" aria-hidden="true"></i>
+        Log in
+      </a>
+      
+        <a href="/signup/" class="ui button signup">
+          <i class="edit outline icon"></i>
+          Sign up
+        </a>
+      
+    </form>
+              </div>
+          </nav>
+        </nav>
+      </div>
+    </div>
+      
+      
+    
+      
+    
+    
+  </header>
+</div>
+
+  <main id="main">
+    <div class="invenio-page-body">
+<span id="detail-share-btn-require-link-expiration"
+        data-share-btn-require-link-expiration='false'>
+
+  <section id="banners" class="banners" aria-label="Information banner">
+    <!-- COMMUNITY HEADER: hide it when displaying the submission request -->
+    
+      
+    
+    <!-- /COMMUNITY HEADER -->
+
+    <!-- PREVIEW HEADER -->
+    
+    <!-- /PREVIEW HEADER -->
+
+    
+  </section>
+
+
+  <div class="ui container">
+    <div class="ui relaxed grid mt-5">
+      <div class="two column row top-padded">
+
+        
+        <article
+          class="sixteen wide tablet eleven wide computer column main-record-content">
+          
+
+              
+
+              
+
+              <section id="record-info"
+                       aria-label="Publication date and version number">
+                <div class="ui grid middle aligned">
+                  <div class="two column row">
+                    <div class="left floated left aligned column">
+                      <span class="ui" title="Publication date">
+                        Published October 2, 2023
+                      </span>
+                      <span
+                        class="label text-muted"> | Version 1</span>
+                    </div>
+                    <div class="right floated right aligned column">
+
+                      
+                        <span role="note"
+                              class="ui label horizontal small neutral mb-5"
+                              aria-label="Resource type"
+                        >
+                          Report
+                        </span>
+                      
+
+                      <span role="note"
+                            class="ui label horizontal small access-status open mb-5"
+                            data-tooltip="The record and files are publicly accessible."
+                            data-inverted=""
+                            aria-label="Access status"
+                      >
+                        
+                          <i class="icon unlock"
+                             aria-hidden="true"></i>
+                        
+                        <span
+                          aria-label="The record and files are publicly accessible.">
+                          Open
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="ui divider hidden"></div><section id="record-title-section"
+                       aria-label="Record title, authors and contributors">
+                <h1 id="record-title"
+                    class="wrap-overflowing-text">Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop</h1>
+
+                
+                  <section id="creatibutors"
+                           aria-label="Authors and contributors">
+
+<div class="ui grid">
+  
+    <div class="row ui accordion affiliations">
+      <div class="sixteen wide mobile twelve wide tablet thirteen wide computer column">
+          <h3 class="sr-only">Authors/Creators</h3>
+          <ul class="creatibutors">
+            
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Rose Li &amp; Associates, Inc."
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Weixelbaum,+Jay%22"
+    >
+
+      <span class="creatibutor-name">Weixelbaum, Jay</span><sup class="font-tiny">1</sup></a>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+      <i class="user icon"></i>
+    
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Rose Li &amp; Associates, Inc."
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Beezley,+Kelly+E.%22"
+    >
+
+      <span class="creatibutor-name">Beezley, Kelly E.</span><sup class="font-tiny">1</sup></a>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+      <i class="user icon"></i>
+    
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Rose Li &amp; Associates, Inc."
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Tuvesson,+Nancy%22"
+    >
+
+      <span class="creatibutor-name">Tuvesson, Nancy</span><sup class="font-tiny">1</sup></a>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+      <i class="user icon"></i>
+    
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="National Eye Institute, NIH"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Reed,+Amberlynn%22"
+    >
+
+      <span class="creatibutor-name">Reed, Amberlynn</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0001-8249-0581"
+           aria-label="Reed, Amberlynn's ORCID profile"
+           title="Reed, Amberlynn's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="National Eye Institute, NIH"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Haqqani,+Syed%22"
+    >
+
+      <span class="creatibutor-name">Haqqani, Syed</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0009-0004-1429-983X"
+           aria-label="Haqqani, Syed's ORCID profile"
+           title="Haqqani, Syed's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="All of Us Research Program, NIH"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Giannini,+John%22"
+    >
+
+      <span class="creatibutor-name">Giannini, John</span><sup class="font-tiny">3</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0001-7626-6540"
+           aria-label="Giannini, John's ORCID profile"
+           title="Giannini, John's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="All of Us Research Program, NIH"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Landis,+Erica%22"
+    >
+
+      <span class="creatibutor-name">Landis, Erica</span><sup class="font-tiny">3</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-3773-0659"
+           aria-label="Landis, Erica's ORCID profile"
+           title="Landis, Erica's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="National Institute of Biomedical Imaging and Bioengineering, NIH"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Anderson,+Afrouz%22"
+    >
+
+      <span class="creatibutor-name">Anderson, Afrouz</span><sup class="font-tiny">4</sup></a>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+      <i class="user icon"></i>
+    
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="All of Us Research Program, NIH"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Schully,+Sheri%22"
+    >
+
+      <span class="creatibutor-name">Schully, Sheri</span><sup class="font-tiny">3</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-1550-9224"
+           aria-label="Schully, Sheri's ORCID profile"
+           title="Schully, Sheri's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="National Eye Institute, NIH"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Goetz,+Kerry+E.%22"
+    >
+
+      <span class="creatibutor-name">Goetz, Kerry E.</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-9821-7704"
+           aria-label="Goetz, Kerry E.'s ORCID profile"
+           title="Goetz, Kerry E.'s ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+          </ul>
+      </div>
+
+        
+        
+          
+<div class="ui sixteen wide tablet three wide computer column title right aligned bottom aligned">
+  <button class="ui affiliations-button trigger button mini mr-0"
+          aria-controls="creators-affiliations"
+          data-open-text="Show affiliations"
+          data-close-text="Hide affiliations"
+          aria-expanded="false"
+  >
+    Show affiliations
+  </button>
+</div>
+
+<section class="ui sixteen wide column content" id="creators-affiliations" aria-label="Affiliations for creators">
+  <ul>
+    
+    <li>
+      1.
+
+      
+
+      Rose Li &amp; Associates, Inc.
+    </li>
+  
+    <li>
+      2.
+
+      
+
+      National Eye Institute, NIH
+    </li>
+  
+    <li>
+      3.
+
+      
+
+      All of Us Research Program, NIH
+    </li>
+  
+    <li>
+      4.
+
+      
+
+      National Institute of Biomedical Imaging and Bioengineering, NIH
+    </li>
+  
+
+    </ul>
+</section>
+
+        
+
+    </div>
+  
+
+  
+</div>
+                  </section>
+                
+              </section>
+
+
+
+  <section id="description" class="rel-mt-2 rich-input-content" aria-label="Record description">
+    <h2 id="description-heading" class="sr-only">Description</h2>
+    
+    <div style="word-wrap: break-word;">
+      <p>The potential inclusion of ocular imaging data into the <em>All of Us</em> Research Program (<em>All of Us</em>) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the <em>All of Us</em> Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop.</p>
+    </div>
+  </section>
+
+
+<section
+      id="record-files" class="rel-mt-2 rel-mb-3"
+      aria-label="Files"
+    ><h2 id="files-heading">Files</h2>
+            
+  <div class="ui accordion panel mb-10 open" href="#files-preview-accordion-panel">
+    <h3 class="active title panel-heading open m-0">
+      <div
+        role="button"
+        id="files-preview-accordion-trigger"
+        aria-controls="files-preview-accordion-panel"
+        aria-expanded="true"
+        tabindex="0"
+        class="trigger"
+        aria-label="File preview"
+      >
+        <span id="preview-file-title">Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf</span>
+        <i class="angle right icon" aria-hidden="true"></i>
+      </div>
+    </h3>
+    <div
+      role="region"
+      id="files-preview-accordion-panel"
+      aria-labelledby="files-preview-accordion-trigger"
+      class="active content preview-container pt-0 open"
+    >
+      <div>
+        
+  
+  <iframe
+    title="Preview"
+    class="preview-iframe"
+    id="preview-iframe"
+    name="preview-iframe"
+    src="/records/8384372/preview/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf?include_deleted=0"
+  >
+  </iframe>
+      </div>
+    </div>
+  </div>
+  <div class="ui accordion panel mb-10 open" href="#files-list-accordion-panel">
+    <h3 class="active title panel-heading open m-0">
+      <div role="button" id="files-list-accordion-trigger" aria-controls="files-list-accordion-panel" aria-expanded="true" tabindex="0" class="trigger">
+        Files
+        <small class="text-muted"> (386.7 kB)</small>
+        <i class="angle right icon" aria-hidden="true"></i>
+      </div>
+    </h3>
+
+    <div role="region" id="files-list-accordion-panel" aria-labelledby="files-list-accordion-trigger" class="active content pt-0">
+      
+      <div>
+        
+  <table class="ui striped table files fluid open">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th class>
+            
+            <a role="button" class="ui compact mini button right floated archive-link" href="https://zenodo.org/api/records/8384372/files-archive">
+              <i class="file archive icon button" aria-hidden="true"></i> Download all
+            </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      
+        
+        
+        <tr>
+          <td class="ten wide">
+            <div>
+              <a href="/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf?download=1">Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:2fc92309626b075bf951bdc7cc6858fa
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+          <td>386.7 kB</td>
+          <td class="right aligned">
+            <span>
+              
+                <a role="button" class="ui compact mini button preview-link" href="/records/8384372/preview/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf?include_deleted=0" target="preview-iframe" data-file-key="Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf">
+                  <i class="eye icon" aria-hidden="true"></i>Preview
+                </a>
+              
+              <a role="button" class="ui compact mini button" href="/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+    </tbody>
+  </table>
+      </div>
+    </div>
+  </div>
+
+    </section>
+              
+
+  <section id="additional-details" class="rel-mt-2" aria-label="Additional record details">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  </section>
+    
+    <section
+      id="citations-search"
+      data-record-pids='{"doi": {"client": "datacite", "identifier": "10.5281/zenodo.8384372", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:8384372", "provider": "oai"}}'
+      data-record-parent-pids='{"doi": {"client": "datacite", "identifier": "10.5281/zenodo.8384371", "provider": "datacite"}}'
+      data-citations-endpoint="https://zenodo-broker.web.cern.ch/api/relationships"
+      aria-label="Record citations"
+      class="rel-mb-1"
+    >
+    </section>
+  
+        </article>
+
+        
+        <aside class="sixteen wide tablet five wide computer column sidebar"
+               aria-label="Record details">
+          
+
+
+
+
+<section id="metrics" aria-label="Metrics" class="ui segment rdm-sidebar sidebar-container">
+
+
+<div class="ui tiny two statistics rel-mt-1">
+  
+  
+
+  <div class="ui statistic">
+    <div class="value">2K</div>
+    <div class="label">
+      <i aria-hidden="true" class="eye icon"></i>
+      Views
+    </div>
+  </div>
+
+  <div class="ui statistic">
+    <div class="value">989</div>
+    <div class="label">
+      <i aria-hidden="true" class="download icon"></i>
+      Downloads
+    </div>
+  </div>
+</div>
+
+<div class="ui accordion rel-mt-1 centered">
+  <div class="title trigger" tabindex="0">
+    <i class="caret right icon" aria-hidden="true"></i>
+    <span
+      data-open-text="Show more details"
+      data-close-text="Show less details"
+    >
+      Show more details
+    </span>
+  </div>
+
+  <div class="content">
+    <table id="record-statistics" class="ui definition table fluid">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="right aligned">All versions</th>
+          <th class="right aligned">This version</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Views
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total views
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    1,572
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    1,371
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Downloads
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total downloads
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    989
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    793
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Data volume
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total data volume
+            </p>
+          </td>
+
+          <td data-label="All versions" class="right aligned">427.7 MB</td>
+          <td data-label="This version" class="right aligned">346.1 MB</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="text-align-center rel-mt-1">
+      <small>
+        <a href="/help/statistics">More info on how stats are collected....</a>
+      </small>
+    </p>
+  </div>
+
+</div>
+
+</section>
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Versions</h2>
+  <div id="record-versions" class="ui segment rdm-sidebar bottom attached pl-0 pr-0 pt-0">
+    <div class="versions">
+      <div id="recordVersions" data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2023-10-02T20:28:37.449447+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "158975", "is_current_user": false, "links": {"avatar": "https://zenodo.org/api/users/158975/avatar.svg", "records_html": "https://zenodo.org/search/records?q=parent.access.owned_by.user:158975", "self": "https://zenodo.org/api/users/158975"}, "profile": {"affiliations": "", "full_name": ""}, "username": "goetzke", "verified_at": null}}}}, "files": {"count": 1, "enabled": true, "entries": {"Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf": {"access": {"hidden": false}, "checksum": "md5:2fc92309626b075bf951bdc7cc6858fa", "ext": "pdf", "id": "79430bbf-9d93-48d7-80e2-060375d7df8c", "key": "Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf", "links": {"content": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/content", "iiif_api": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf", "iiif_canvas": "https://zenodo.org/api/iiif/record:8384372/canvas/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf", "iiif_info": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/info.json", "self": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf"}, "metadata": null, "mimetype": "application/pdf", "size": 386702, "storage_class": "L"}}, "order": [], "total_bytes": 386702}, "id": "8384372", "is_draft": false, "is_published": true, "links": {"access": "https://zenodo.org/api/records/8384372/access", "access_grants": "https://zenodo.org/api/records/8384372/access/grants", "access_links": "https://zenodo.org/api/records/8384372/access/links", "access_request": "https://zenodo.org/api/records/8384372/access/request", "access_users": "https://zenodo.org/api/records/8384372/access/users", "archive": "https://zenodo.org/api/records/8384372/files-archive", "archive_media": "https://zenodo.org/api/records/8384372/media-files-archive", "communities": "https://zenodo.org/api/records/8384372/communities", "communities-suggestions": "https://zenodo.org/api/records/8384372/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.8384372", "draft": "https://zenodo.org/api/records/8384372/draft", "file_modification": "https://zenodo.org/api/records/8384372/file-modification", "files": "https://zenodo.org/api/records/8384372/files", "latest": "https://zenodo.org/api/records/8384372/versions/latest", "latest_html": "https://zenodo.org/records/8384372/latest", "media_files": "https://zenodo.org/api/records/8384372/media-files", "parent": "https://zenodo.org/api/records/8384371", "parent_doi": "https://doi.org/10.5281/zenodo.8384371", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8384371", "parent_html": "https://zenodo.org/records/8384371", "preview_html": "https://zenodo.org/records/8384372?preview=1", "request_deletion": "https://zenodo.org/api/records/8384372/request-deletion", "requests": "https://zenodo.org/api/records/8384372/requests", "reserve_doi": "https://zenodo.org/api/records/8384372/draft/pids/doi", "self": "https://zenodo.org/api/records/8384372", "self_doi": "https://doi.org/10.5281/zenodo.8384372", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8384372", "self_html": "https://zenodo.org/records/8384372", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8384372/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8384372/sequence/default", "thumbnails": {"10": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E10,/0/default.jpg", "100": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E100,/0/default.jpg", "1200": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E1200,/0/default.jpg", "250": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E250,/0/default.jpg", "50": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E50,/0/default.jpg", "750": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E750,/0/default.jpg"}, "versions": "https://zenodo.org/api/records/8384372/versions"}, "media_files": {"count": 1, "enabled": true, "entries": {"Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "ff20b064-5ea3-4f63-b566-339be5c4bf89", "key": "Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif", "links": {"content": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif/content", "self": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "79430bbf-9d93-48d7-80e2-060375d7df8c", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}}, "order": [], "total_bytes": 0}, "metadata": {"creators": [{"affiliations": [{"name": "Rose Li \u0026 Associates, Inc."}], "person_or_org": {"family_name": "Weixelbaum", "given_name": "Jay", "name": "Weixelbaum, Jay", "type": "personal"}}, {"affiliations": [{"name": "Rose Li \u0026 Associates, Inc."}], "person_or_org": {"family_name": "Beezley", "given_name": "Kelly E.", "name": "Beezley, Kelly E.", "type": "personal"}}, {"affiliations": [{"name": "Rose Li \u0026 Associates, Inc."}], "person_or_org": {"family_name": "Tuvesson", "given_name": "Nancy", "name": "Tuvesson, Nancy", "type": "personal"}}, {"affiliations": [{"name": "National Eye Institute, NIH"}], "person_or_org": {"family_name": "Reed", "given_name": "Amberlynn", "identifiers": [{"identifier": "0000-0001-8249-0581", "scheme": "orcid"}], "name": "Reed, Amberlynn", "type": "personal"}}, {"affiliations": [{"name": "National Eye Institute, NIH"}], "person_or_org": {"family_name": "Haqqani", "given_name": "Syed", "identifiers": [{"identifier": "0009-0004-1429-983X", "scheme": "orcid"}], "name": "Haqqani, Syed", "type": "personal"}}, {"affiliations": [{"name": "All of Us Research Program, NIH"}], "person_or_org": {"family_name": "Giannini", "given_name": "John", "identifiers": [{"identifier": "0000-0001-7626-6540", "scheme": "orcid"}], "name": "Giannini, John", "type": "personal"}}, {"affiliations": [{"name": "All of Us Research Program, NIH"}], "person_or_org": {"family_name": "Landis", "given_name": "Erica", "identifiers": [{"identifier": "0000-0003-3773-0659", "scheme": "orcid"}], "name": "Landis, Erica", "type": "personal"}}, {"affiliations": [{"name": "National Institute of Biomedical Imaging and Bioengineering, NIH"}], "person_or_org": {"family_name": "Anderson", "given_name": "Afrouz", "name": "Anderson, Afrouz", "type": "personal"}}, {"affiliations": [{"name": "All of Us Research Program, NIH"}], "person_or_org": {"family_name": "Schully", "given_name": "Sheri", "identifiers": [{"identifier": "0000-0003-1550-9224", "scheme": "orcid"}], "name": "Schully, Sheri", "type": "personal"}}, {"affiliations": [{"name": "National Eye Institute, NIH"}], "person_or_org": {"family_name": "Goetz", "given_name": "Kerry E.", "identifiers": [{"identifier": "0000-0002-9821-7704", "scheme": "orcid"}], "name": "Goetz, Kerry E.", "type": "personal"}}], "description": "\u003cp\u003eThe potential inclusion of ocular imaging data into the \u003cem\u003eAll of Us\u003c/em\u003e Research Program (\u003cem\u003eAll of Us\u003c/em\u003e) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the \u003cem\u003eAll of Us\u003c/em\u003e Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop.\u003c/p\u003e", "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2023-10-02", "publisher": "Zenodo", "resource_type": {"id": "publication-report", "title": {"de": "Bericht", "en": "Report"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "subjects": [{"subject": "ocular imaging"}], "title": "Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop", "version": "1"}, "parent": {"access": {"owned_by": {"user": "158975"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {}, "id": "8384371", "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.8384371", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.8384372", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:8384372", "provider": "oai"}}, "revision_id": 6, "stats": {"all_versions": {"data_volume": 427692412.0, "downloads": 1106, "unique_downloads": 989, "unique_views": 1572, "views": 1701}, "this_version": {"data_volume": 346098290.0, "downloads": 895, "unique_downloads": 793, "unique_views": 1371, "views": 1465}}, "status": "published", "swh": {}, "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "created_date_l10n_long": "October 2, 2023", "creators": {"affiliations": [[1, "Rose Li \u0026 Associates, Inc.", null], [2, "National Eye Institute, NIH", null], [3, "All of Us Research Program, NIH", null], [4, "National Institute of Biomedical Imaging and Bioengineering, NIH", null]], "creators": [{"affiliations": [[1, "Rose Li \u0026 Associates, Inc."]], "person_or_org": {"family_name": "Weixelbaum", "given_name": "Jay", "name": "Weixelbaum, Jay", "type": "personal"}}, {"affiliations": [[1, "Rose Li \u0026 Associates, Inc."]], "person_or_org": {"family_name": "Beezley", "given_name": "Kelly E.", "name": "Beezley, Kelly E.", "type": "personal"}}, {"affiliations": [[1, "Rose Li \u0026 Associates, Inc."]], "person_or_org": {"family_name": "Tuvesson", "given_name": "Nancy", "name": "Tuvesson, Nancy", "type": "personal"}}, {"affiliations": [[2, "National Eye Institute, NIH"]], "person_or_org": {"family_name": "Reed", "given_name": "Amberlynn", "identifiers": [{"identifier": "0000-0001-8249-0581", "scheme": "orcid"}], "name": "Reed, Amberlynn", "type": "personal"}}, {"affiliations": [[2, "National Eye Institute, NIH"]], "person_or_org": {"family_name": "Haqqani", "given_name": "Syed", "identifiers": [{"identifier": "0009-0004-1429-983X", "scheme": "orcid"}], "name": "Haqqani, Syed", "type": "personal"}}, {"affiliations": [[3, "All of Us Research Program, NIH"]], "person_or_org": {"family_name": "Giannini", "given_name": "John", "identifiers": [{"identifier": "0000-0001-7626-6540", "scheme": "orcid"}], "name": "Giannini, John", "type": "personal"}}, {"affiliations": [[3, "All of Us Research Program, NIH"]], "person_or_org": {"family_name": "Landis", "given_name": "Erica", "identifiers": [{"identifier": "0000-0003-3773-0659", "scheme": "orcid"}], "name": "Landis, Erica", "type": "personal"}}, {"affiliations": [[4, "National Institute of Biomedical Imaging and Bioengineering, NIH"]], "person_or_org": {"family_name": "Anderson", "given_name": "Afrouz", "name": "Anderson, Afrouz", "type": "personal"}}, {"affiliations": [[3, "All of Us Research Program, NIH"]], "person_or_org": {"family_name": "Schully", "given_name": "Sheri", "identifiers": [{"identifier": "0000-0003-1550-9224", "scheme": "orcid"}], "name": "Schully, Sheri", "type": "personal"}}, {"affiliations": [[2, "National Eye Institute, NIH"]], "person_or_org": {"family_name": "Goetz", "given_name": "Kerry E.", "identifiers": [{"identifier": "0000-0002-9821-7704", "scheme": "orcid"}], "name": "Goetz, Kerry E.", "type": "personal"}}]}, "custom_fields": {}, "description_stripped": "The potential inclusion of ocular imaging data into the All of Us Research Program (All of Us) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the All of Us Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop.", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "October 2, 2023", "publication_date_l10n_medium": "Oct 2, 2023", "resource_type": {"id": "publication-report", "title_l10n": "Report"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "July 11, 2024", "version": "1"}, "updated": "2024-07-11T04:58:06.631716+00:00", "versions": {"index": 1, "is_latest": true}}' data-preview='false'>
+        <div class="rel-p-1"></div>
+        <div class="ui fluid placeholder rel-mr-1 rel-ml-1"></div>
+        <div class="header">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="sidebar-container">
+  <h2 class="ui small top attached header">External resources</h2>
+  <dl id="external-resource" aria-label="External resources" class="ui bottom attached segment rdm-sidebar external resource details-list">
+
+    <dt class="ui tiny header">Indexed in</dt>
+      <ul class="ui list no-bullet m-0">
+              <li class="item flex align-items-center">
+
+                
+                  <img class="ui image" src="/static/images/openaire.svg" alt="" width="32">
+                
+
+                <div class="content">
+                  <a
+                    class="header"
+                    href="https://explore.openaire.eu/search/result?pid=10.5281/zenodo.8384372"
+                    target="_blank"
+                    rel="noreferrer"
+                  >OpenAIRE
+                  </a>
+
+                  </div>
+              </li></ul></dl>
+</div><div
+  id="sidebar-communities-manage"
+  data-user-communities-memberships='{}'
+  data-record-community-endpoint='https://zenodo.org/api/records/8384372/communities'
+  data-record-community-search-endpoint='https://zenodo.org/api/records/8384372/communities-suggestions'
+  data-record-community-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "funder", "field": "metadata.funding.funder", "title": "Funders"}, {"aggName": "organization", "field": "metadata.organizations", "title": "Organizations"}], "appId": "InvenioAppRdm.RecordCommunitiesSuggestions", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": null, "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}]}, "searchApi": {"axios": {"headers": {"Accept": "application/vnd.inveniordm.v1+json"}, "url": "https://zenodo.org/api/records/8384372/communities-suggestions", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}], "sortOrderDisabled": true}'
+  data-record-user-community-search-endpoint=''
+  data-record-user-community-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "funder", "field": "metadata.funding.funder", "title": "Funders"}, {"aggName": "organization", "field": "metadata.organizations", "title": "Organizations"}], "appId": "InvenioAppRdm.RecordUserCommunitiesSuggestions", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": [["membership", "true"]], "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}]}, "searchApi": {"axios": {"headers": {"Accept": "application/vnd.inveniordm.v1+json"}, "url": "https://zenodo.org/api/records/8384372/communities-suggestions", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}], "sortOrderDisabled": true}'
+  data-pending-communities-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "status", "field": "status", "title": "Status"}], "appId": "InvenioAppRdm.RecordRequests", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": [["expand", "1"], ["is_open", "true"], ["type", "community-inclusion"], ["type", "community-submission"]], "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}, {"text": "50", "value": 50}]}, "searchApi": {"axios": {"headers": {"Accept": "application/json"}, "url": "https://zenodo.org/api/records/8384372/requests", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}, {"sortBy": "newestactivity", "text": "Newest activity"}, {"sortBy": "oldestactivity", "text": "Oldest activity"}], "sortOrderDisabled": true}'
+  data-permissions='{"can_edit": false, "can_immediately_delete": false, "can_manage": false, "can_media_read_files": true, "can_moderate": false, "can_new_version": false, "can_read_files": true, "can_request_deletion": false, "can_review": false, "can_update_draft": false, "can_view": false}'
+  data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2023-10-02T20:28:37.449447+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "158975", "is_current_user": false, "links": {"avatar": "https://zenodo.org/api/users/158975/avatar.svg", "records_html": "https://zenodo.org/search/records?q=parent.access.owned_by.user:158975", "self": "https://zenodo.org/api/users/158975"}, "profile": {"affiliations": "", "full_name": ""}, "username": "goetzke", "verified_at": null}}}}, "files": {"count": 1, "enabled": true, "entries": {"Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf": {"access": {"hidden": false}, "checksum": "md5:2fc92309626b075bf951bdc7cc6858fa", "ext": "pdf", "id": "79430bbf-9d93-48d7-80e2-060375d7df8c", "key": "Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf", "links": {"content": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/content", "iiif_api": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf", "iiif_canvas": "https://zenodo.org/api/iiif/record:8384372/canvas/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf", "iiif_info": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/info.json", "self": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf"}, "metadata": null, "mimetype": "application/pdf", "size": 386702, "storage_class": "L"}}, "order": [], "total_bytes": 386702}, "id": "8384372", "is_draft": false, "is_published": true, "links": {"access": "https://zenodo.org/api/records/8384372/access", "access_grants": "https://zenodo.org/api/records/8384372/access/grants", "access_links": "https://zenodo.org/api/records/8384372/access/links", "access_request": "https://zenodo.org/api/records/8384372/access/request", "access_users": "https://zenodo.org/api/records/8384372/access/users", "archive": "https://zenodo.org/api/records/8384372/files-archive", "archive_media": "https://zenodo.org/api/records/8384372/media-files-archive", "communities": "https://zenodo.org/api/records/8384372/communities", "communities-suggestions": "https://zenodo.org/api/records/8384372/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.8384372", "draft": "https://zenodo.org/api/records/8384372/draft", "file_modification": "https://zenodo.org/api/records/8384372/file-modification", "files": "https://zenodo.org/api/records/8384372/files", "latest": "https://zenodo.org/api/records/8384372/versions/latest", "latest_html": "https://zenodo.org/records/8384372/latest", "media_files": "https://zenodo.org/api/records/8384372/media-files", "parent": "https://zenodo.org/api/records/8384371", "parent_doi": "https://doi.org/10.5281/zenodo.8384371", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8384371", "parent_html": "https://zenodo.org/records/8384371", "preview_html": "https://zenodo.org/records/8384372?preview=1", "request_deletion": "https://zenodo.org/api/records/8384372/request-deletion", "requests": "https://zenodo.org/api/records/8384372/requests", "reserve_doi": "https://zenodo.org/api/records/8384372/draft/pids/doi", "self": "https://zenodo.org/api/records/8384372", "self_doi": "https://doi.org/10.5281/zenodo.8384372", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8384372", "self_html": "https://zenodo.org/records/8384372", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8384372/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8384372/sequence/default", "thumbnails": {"10": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E10,/0/default.jpg", "100": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E100,/0/default.jpg", "1200": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E1200,/0/default.jpg", "250": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E250,/0/default.jpg", "50": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E50,/0/default.jpg", "750": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E750,/0/default.jpg"}, "versions": "https://zenodo.org/api/records/8384372/versions"}, "media_files": {"count": 1, "enabled": true, "entries": {"Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "ff20b064-5ea3-4f63-b566-339be5c4bf89", "key": "Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif", "links": {"content": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif/content", "self": "https://zenodo.org/api/records/8384372/files/Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "79430bbf-9d93-48d7-80e2-060375d7df8c", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}}, "order": [], "total_bytes": 0}, "metadata": {"creators": [{"affiliations": [{"name": "Rose Li \u0026 Associates, Inc."}], "person_or_org": {"family_name": "Weixelbaum", "given_name": "Jay", "name": "Weixelbaum, Jay", "type": "personal"}}, {"affiliations": [{"name": "Rose Li \u0026 Associates, Inc."}], "person_or_org": {"family_name": "Beezley", "given_name": "Kelly E.", "name": "Beezley, Kelly E.", "type": "personal"}}, {"affiliations": [{"name": "Rose Li \u0026 Associates, Inc."}], "person_or_org": {"family_name": "Tuvesson", "given_name": "Nancy", "name": "Tuvesson, Nancy", "type": "personal"}}, {"affiliations": [{"name": "National Eye Institute, NIH"}], "person_or_org": {"family_name": "Reed", "given_name": "Amberlynn", "identifiers": [{"identifier": "0000-0001-8249-0581", "scheme": "orcid"}], "name": "Reed, Amberlynn", "type": "personal"}}, {"affiliations": [{"name": "National Eye Institute, NIH"}], "person_or_org": {"family_name": "Haqqani", "given_name": "Syed", "identifiers": [{"identifier": "0009-0004-1429-983X", "scheme": "orcid"}], "name": "Haqqani, Syed", "type": "personal"}}, {"affiliations": [{"name": "All of Us Research Program, NIH"}], "person_or_org": {"family_name": "Giannini", "given_name": "John", "identifiers": [{"identifier": "0000-0001-7626-6540", "scheme": "orcid"}], "name": "Giannini, John", "type": "personal"}}, {"affiliations": [{"name": "All of Us Research Program, NIH"}], "person_or_org": {"family_name": "Landis", "given_name": "Erica", "identifiers": [{"identifier": "0000-0003-3773-0659", "scheme": "orcid"}], "name": "Landis, Erica", "type": "personal"}}, {"affiliations": [{"name": "National Institute of Biomedical Imaging and Bioengineering, NIH"}], "person_or_org": {"family_name": "Anderson", "given_name": "Afrouz", "name": "Anderson, Afrouz", "type": "personal"}}, {"affiliations": [{"name": "All of Us Research Program, NIH"}], "person_or_org": {"family_name": "Schully", "given_name": "Sheri", "identifiers": [{"identifier": "0000-0003-1550-9224", "scheme": "orcid"}], "name": "Schully, Sheri", "type": "personal"}}, {"affiliations": [{"name": "National Eye Institute, NIH"}], "person_or_org": {"family_name": "Goetz", "given_name": "Kerry E.", "identifiers": [{"identifier": "0000-0002-9821-7704", "scheme": "orcid"}], "name": "Goetz, Kerry E.", "type": "personal"}}], "description": "\u003cp\u003eThe potential inclusion of ocular imaging data into the \u003cem\u003eAll of Us\u003c/em\u003e Research Program (\u003cem\u003eAll of Us\u003c/em\u003e) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the \u003cem\u003eAll of Us\u003c/em\u003e Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop.\u003c/p\u003e", "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2023-10-02", "publisher": "Zenodo", "resource_type": {"id": "publication-report", "title": {"de": "Bericht", "en": "Report"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "subjects": [{"subject": "ocular imaging"}], "title": "Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop", "version": "1"}, "parent": {"access": {"owned_by": {"user": "158975"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {}, "id": "8384371", "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.8384371", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.8384372", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:8384372", "provider": "oai"}}, "revision_id": 6, "stats": {"all_versions": {"data_volume": 427692412.0, "downloads": 1106, "unique_downloads": 989, "unique_views": 1572, "views": 1701}, "this_version": {"data_volume": 346098290.0, "downloads": 895, "unique_downloads": 793, "unique_views": 1371, "views": 1465}}, "status": "published", "swh": {}, "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "created_date_l10n_long": "October 2, 2023", "creators": {"affiliations": [[1, "Rose Li \u0026 Associates, Inc.", null], [2, "National Eye Institute, NIH", null], [3, "All of Us Research Program, NIH", null], [4, "National Institute of Biomedical Imaging and Bioengineering, NIH", null]], "creators": [{"affiliations": [[1, "Rose Li \u0026 Associates, Inc."]], "person_or_org": {"family_name": "Weixelbaum", "given_name": "Jay", "name": "Weixelbaum, Jay", "type": "personal"}}, {"affiliations": [[1, "Rose Li \u0026 Associates, Inc."]], "person_or_org": {"family_name": "Beezley", "given_name": "Kelly E.", "name": "Beezley, Kelly E.", "type": "personal"}}, {"affiliations": [[1, "Rose Li \u0026 Associates, Inc."]], "person_or_org": {"family_name": "Tuvesson", "given_name": "Nancy", "name": "Tuvesson, Nancy", "type": "personal"}}, {"affiliations": [[2, "National Eye Institute, NIH"]], "person_or_org": {"family_name": "Reed", "given_name": "Amberlynn", "identifiers": [{"identifier": "0000-0001-8249-0581", "scheme": "orcid"}], "name": "Reed, Amberlynn", "type": "personal"}}, {"affiliations": [[2, "National Eye Institute, NIH"]], "person_or_org": {"family_name": "Haqqani", "given_name": "Syed", "identifiers": [{"identifier": "0009-0004-1429-983X", "scheme": "orcid"}], "name": "Haqqani, Syed", "type": "personal"}}, {"affiliations": [[3, "All of Us Research Program, NIH"]], "person_or_org": {"family_name": "Giannini", "given_name": "John", "identifiers": [{"identifier": "0000-0001-7626-6540", "scheme": "orcid"}], "name": "Giannini, John", "type": "personal"}}, {"affiliations": [[3, "All of Us Research Program, NIH"]], "person_or_org": {"family_name": "Landis", "given_name": "Erica", "identifiers": [{"identifier": "0000-0003-3773-0659", "scheme": "orcid"}], "name": "Landis, Erica", "type": "personal"}}, {"affiliations": [[4, "National Institute of Biomedical Imaging and Bioengineering, NIH"]], "person_or_org": {"family_name": "Anderson", "given_name": "Afrouz", "name": "Anderson, Afrouz", "type": "personal"}}, {"affiliations": [[3, "All of Us Research Program, NIH"]], "person_or_org": {"family_name": "Schully", "given_name": "Sheri", "identifiers": [{"identifier": "0000-0003-1550-9224", "scheme": "orcid"}], "name": "Schully, Sheri", "type": "personal"}}, {"affiliations": [[2, "National Eye Institute, NIH"]], "person_or_org": {"family_name": "Goetz", "given_name": "Kerry E.", "identifiers": [{"identifier": "0000-0002-9821-7704", "scheme": "orcid"}], "name": "Goetz, Kerry E.", "type": "personal"}}]}, "custom_fields": {}, "description_stripped": "The potential inclusion of ocular imaging data into the All of Us Research Program (All of Us) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the All of Us Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop.", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "October 2, 2023", "publication_date_l10n_medium": "Oct 2, 2023", "resource_type": {"id": "publication-report", "title_l10n": "Report"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "July 11, 2024", "version": "1"}, "updated": "2024-07-11T04:58:06.631716+00:00", "versions": {"index": 1, "is_latest": true}}'
+  data-record-requests='{}'
+  class='sidebar-container'
+>
+
+  <h2 class="ui medium top attached header">Communities</h2>
+
+  <div class="ui segment bottom attached rdm-sidebar">
+    <div class="ui fluid placeholder">
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Keywords and subjects</h2>
+    <div id="keywords-and-subjects" aria-label="Keywords and subjects"
+            class="ui segment bottom attached rdm-sidebar">
+  
+  
+  <h3 class="hidden">Keywords</h3>
+  <ul class="ui horizontal list no-bullets subjects">
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22ocular+imaging%22"
+          class="subject"
+          title="Search results for ocular imaging"
+      >
+        ocular imaging
+      </a>
+    </li>
+  </ul>
+  
+
+    </div>
+  </div>
+
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Details</h2>
+  <div id="record-details" class="ui segment bottom attached rdm-sidebar">
+
+    <dl class="details-list">
+      
+
+ 
+  <dt class="ui tiny header">DOI
+    
+  </dt>
+  <dd>
+    <span class="get-badge details-doi-section" data-toggle="tooltip" data-placement="bottom">
+      <img id='record-doi-badge' data-target="[data-modal='10.5281/zenodo.8384372']" title="Get the DOI badge!"
+        src="/badge/DOI/10.5281/zenodo.8384372.svg" alt="10.5281/zenodo.8384372" />
+      <div id="copy-button-record-doi-badge" class="copy-doi-button" data-value=https://doi.org/10.5281/zenodo.8384372 data-size="mini"></div>
+    </span>
+
+    <div id="doi-modal" class="ui modal fade badge-modal" data-modal="10.5281/zenodo.8384372">
+      <div class="header">DOI Badge</div>
+      <div class="content">
+        <h4>
+          <small>DOI</small>
+        </h4>
+        <h4>
+          <pre>10.5281/zenodo.8384372</pre>
+        </h4>
+        
+        
+
+    <h3 class="ui small header">
+      Markdown
+    </h3>
+    <div class="ui message code">
+      <pre>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8384372.svg)](https://doi.org/10.5281/zenodo.8384372)</pre>
+    </div>
+
+    <h3 class="ui small header">
+      reStructuredText
+    </h3>
+      <div class="ui message code">
+        <pre>.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.8384372.svg
+  :target: https://doi.org/10.5281/zenodo.8384372</pre>
+      </div>
+
+    <h3 class="ui small header">
+      HTML
+    </h3>
+    <div class="ui message code">
+      <pre>&lt;a href="https://doi.org/10.5281/zenodo.8384372"&gt;&lt;img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8384372.svg" alt="DOI"&gt;&lt;/a&gt;</pre>
+    </div>
+
+    <h3 class="ui small header">
+      Image URL
+    </h3>
+    <div class="ui message code">
+      <pre>https://zenodo.org/badge/DOI/10.5281/zenodo.8384372.svg</pre>
+    </div>
+
+    <h3 class="ui small header">
+    Target URL
+    </h3>
+    <div class="ui message code">
+      <pre>https://doi.org/10.5281/zenodo.8384372</pre>
+    </div>
+      </div>
+    </div>
+  </dd>
+
+      
+      
+  <dt class="ui tiny header">Resource type</dt>
+  <dd>Report</dd>
+      
+      
+  <dt class="ui tiny header">Publisher</dt>
+  <dd>Zenodo</dd>
+      
+      
+      
+      
+      
+  <dt class="ui tiny header">Languages</dt>
+  <dd>
+  
+    English
+  
+</dd>
+      
+      
+    </dl>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Rights</h2>
+    <div id="licenses" class="ui segment bottom attached rdm-sidebar">
+      <dl class="details-list">
+      
+        <dt class="ui tiny header">License</dt><dd id="license-cc-by-4.0-1" class="has-popup">
+              <div id="title-cc-by-4.0-1"
+                   class="license clickable"
+                   tabindex="0"
+                   aria-haspopup="dialog"
+                   aria-expanded="false"
+                   role="button"
+                   aria-label="Creative Commons Attribution 4.0 International"
+              >
+                
+                  
+                  <span class="icon-wrap">
+                  <img class="icon" src="/static/icons/licenses/cc-by-icon.svg"
+                       alt="cc-by-4.0 icon"/>
+                </span>
+                
+                <span class="title-text">
+                Creative Commons Attribution 4.0 International
+              </span>
+              </div>
+              <div id="description-cc-by-4.0-1"
+                   class="licenses-description ui flowing popup transition hidden"
+                   role="dialog"
+                   aria-labelledby="title-cc-by-4.0-1"
+              >
+                <i role="button" tabindex="0" class="close icon text-muted"
+                   aria-label="Close"></i>
+                <div id="license-description-1" class="description">
+                <span class="text-muted">
+                  The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.
+                </span>
+                  
+  
+    <a class="license-link" href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank"
+       title="Opens in new tab">Read more</a>
+  
+
+                </div>
+              </div>
+            </dd>
+          
+      
+      
+      </dl>
+    </div>
+  </div>
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Citation</h2>
+  <div id="citation" class="ui segment bottom attached rdm-sidebar">
+
+<div id="recordCitation" data-record-links='{"access": "https://zenodo.org/api/records/8384372/access", "access_grants": "https://zenodo.org/api/records/8384372/access/grants", "access_links": "https://zenodo.org/api/records/8384372/access/links", "access_request": "https://zenodo.org/api/records/8384372/access/request", "access_users": "https://zenodo.org/api/records/8384372/access/users", "archive": "https://zenodo.org/api/records/8384372/files-archive", "archive_media": "https://zenodo.org/api/records/8384372/media-files-archive", "communities": "https://zenodo.org/api/records/8384372/communities", "communities-suggestions": "https://zenodo.org/api/records/8384372/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.8384372", "draft": "https://zenodo.org/api/records/8384372/draft", "file_modification": "https://zenodo.org/api/records/8384372/file-modification", "files": "https://zenodo.org/api/records/8384372/files", "latest": "https://zenodo.org/api/records/8384372/versions/latest", "latest_html": "https://zenodo.org/records/8384372/latest", "media_files": "https://zenodo.org/api/records/8384372/media-files", "parent": "https://zenodo.org/api/records/8384371", "parent_doi": "https://doi.org/10.5281/zenodo.8384371", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8384371", "parent_html": "https://zenodo.org/records/8384371", "preview_html": "https://zenodo.org/records/8384372?preview=1", "request_deletion": "https://zenodo.org/api/records/8384372/request-deletion", "requests": "https://zenodo.org/api/records/8384372/requests", "reserve_doi": "https://zenodo.org/api/records/8384372/draft/pids/doi", "self": "https://zenodo.org/api/records/8384372", "self_doi": "https://doi.org/10.5281/zenodo.8384372", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8384372", "self_html": "https://zenodo.org/records/8384372", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8384372/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8384372/sequence/default", "thumbnails": {"10": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E10,/0/default.jpg", "100": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E100,/0/default.jpg", "1200": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E1200,/0/default.jpg", "250": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E250,/0/default.jpg", "50": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E50,/0/default.jpg", "750": "https://zenodo.org/api/iiif/record:8384372:Opportunities_for_Ophthalmology_Research_Workshop_Summary_Final.pdf/full/%5E750,/0/default.jpg"}, "versions": "https://zenodo.org/api/records/8384372/versions"}'
+  data-styles='[["apa", "APA"], ["harvard-cite-them-right", "Harvard"], ["modern-language-association", "MLA"], ["vancouver", "Vancouver"], ["chicago-fullnote-bibliography", "Chicago"], ["ieee", "IEEE"]]'
+  data-defaultstyle='"apa"'
+  data-include-deleted='false'>
+</div>
+  </div>
+</div>
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Export</h2>
+    <div id="export-record" class="ui segment bottom attached exports rdm-sidebar">
+
+      
+      
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <div id="recordExportDownload" data-formats='[{"export_url": "/records/8384372/export/json", "name": "JSON"}, {"export_url": "/records/8384372/export/json-ld", "name": "JSON-LD"}, {"export_url": "/records/8384372/export/csl", "name": "CSL"}, {"export_url": "/records/8384372/export/datacite-json", "name": "DataCite JSON"}, {"export_url": "/records/8384372/export/datacite-xml", "name": "DataCite XML"}, {"export_url": "/records/8384372/export/dublincore", "name": "Dublin Core XML"}, {"export_url": "/records/8384372/export/marcxml", "name": "MARCXML"}, {"export_url": "/records/8384372/export/bibtex", "name": "BibTeX"}, {"export_url": "/records/8384372/export/geojson", "name": "GeoJSON"}, {"export_url": "/records/8384372/export/dcat-ap", "name": "DCAT"}, {"export_url": "/records/8384372/export/codemeta", "name": "Codemeta"}, {"export_url": "/records/8384372/export/cff", "name": "Citation File Format"}, {"export_url": "/records/8384372/export/datapackage", "name": "Data Package JSON"}]'></div>
+    </div>
+  </div>
+<section
+  id="upload-info"
+  role="note"
+  aria-label="Upload information"
+  class="sidebar-container ui segment rdm-sidebar text-muted"
+>
+  <h2 class="ui small header text-muted p-0 mb-5"><small>Technical metadata</small></h2>
+  <dl class="m-0">
+    <dt class="inline"><small>Created</small></dt>
+    <dd class="inline">
+      <small>October 2, 2023</small>
+    </dd>
+    <div>
+      <dt class="rel-mt-1 inline"><small>Modified</small></dt>
+      <dd class="inline">
+        <small>July 11, 2024</small>
+      </dd>
+    </div>
+  </dl>
+</section>
+          
+        </aside>
+      </div>
+    </div>
+
+    <div class="ui container">
+      <div class="ui relaxed grid">
+        <div class="two column row">
+          <div class="sixteen wide tablet eleven wide computer column">
+            <div class="ui grid">
+                <div class="centered row rel-mt-1">
+                  <button id="jump-btn" class="jump-to-top ui button labeled icon"
+                          aria-label="Jump to top of page">
+                    <i class="arrow alternate circle up outline icon"></i>
+                    Jump up
+                  </button>
+                </div>
+              </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </main>
+    <footer id="rdm-footer-element">
+        
+
+  <div class="footer-top">
+    <div class="ui container app-rdm-footer">
+<div class="ui equal width stackable grid zenodo-footer">
+  <div class="column">
+    <h2 class="ui inverted tiny header">About</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://about.zenodo.org">About</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/policies">Policies</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/infrastructure">Infrastructure</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/principles">Principles</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/projects/">Projects</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/roadmap/">Roadmap</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Blog</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://blog.zenodo.org">Blog</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Support</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://help.zenodo.org/">Help</a>
+      </li>
+      <li class="item">
+        <a href="https://support.zenodo.org/help/">FAQ</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Developers</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://developers.zenodo.org">REST API</a>
+      </li>
+      <li class="item">
+        <a href="https://developers.zenodo.org#oai-pmh">OAI-PMH</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Contribute</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://github.com/zenodo/zenodo-rdm">
+          <i class="icon external" aria-hidden="true"></i>
+          GitHub
+        </a>
+      </li>
+      <li class="item">
+        <a href="/donate">
+          <i class="icon external" aria-hidden="true"></i>
+          Donate
+        </a>
+      </li>
+    </ul>
+  </div>
+      <div class="six wide column right aligned">
+  <h2 class="ui inverted tiny header">Funded by</h2>
+  <ul class="ui horizontal link list">
+    <li class="item">
+      <a href="https://home.cern" aria-label="CERN">
+        <img src="/static/images/cern.png" width="60" height="60" alt="" />
+      </a>
+    </li>
+    <li class="item">
+      <a href="https://www.openaire.eu" aria-label="OpenAIRE">
+        <img src="/static/images/openaire.png" width="60" height="60" alt="" />
+      </a>
+    </li>
+    <li class="item">
+      <a href="https://commission.europa.eu/index_en" aria-label="European Commission">
+        <img src="/static/images/eu.png" width="88" height="60" alt="" />
+      </a>
+    </li>
+  </ul>
+      </div>
+      </div>
+    </div>
+
+  </div>
+        <div class="footer-bottom">
+  <div class="ui inverted container">
+    <div class="ui grid">
+      <div class="eight wide column left middle aligned">
+        <p class="m-0">
+          Powered by
+          <a href="https://home.cern/science/computing/data-centre">CERN Data Centre</a> & <a href="https://inveniordm.docs.cern.ch/">InvenioRDM</a>
+        </p>
+      </div>
+      <div class="eight wide column right aligned">
+        <ul class="ui inverted horizontal link list">
+          <li class="item">
+            <a href="https://stats.uptimerobot.com/vlYOVuWgM/">Status</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/privacy-policy">Privacy policy</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/cookie-policy">Cookie policy</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/terms">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </footer>
+  
+  
+    
+
+        
+          <script type="text/javascript">
+            window.MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                processEscapes: true // Allows escaping $ signs if needed
+              }
+            };
+          </script>
+          <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+<script src="/static/dist/js/manifest.86dc9ad40902b3aeb71a.js"></script>
+<script src="/static/dist/js/73.eff6d29b79c9412c5335.js"></script>
+<script src="/static/dist/js/3526.351e8d7556355023958f.js"></script>
+<script src="/static/dist/js/theme.46e20d3a883fda8b01b2.js"></script>
+<script src="/static/dist/js/3180.0c49d4bf07e64be03fda.js"></script>
+<script src="/static/dist/js/1057.7522b9b6407fa55bed5b.js"></script>
+<script src="/static/dist/js/7655.49da91d7c142bad19ccb.js"></script>
+<script src="/static/dist/js/5092.a8e9aa3149755c25c425.js"></script>
+<script src="/static/dist/js/8871.21b70d011e443068ff4a.js"></script>
+<script src="/static/dist/js/278.8d92f1a6c45c7759d815.js"></script>
+<script src="/static/dist/js/8118.f587fe017309e5588179.js"></script>
+<script src="/static/dist/js/4157.b89712ff141a054ffdf0.js"></script>
+<script src="/static/dist/js/base-theme-rdm.af2522498ea0c70c2c9f.js"></script>
+<script src="/static/dist/js/i18n_app.45ea25224d14a494a50c.js"></script>
+<script src="/static/dist/js/2301.7b05926e461909740138.js"></script>
+<script src="/static/dist/js/4252.1d10592ed59b0987a6b5.js"></script>
+<script src="/static/dist/js/overridable-registry.b74f4047080b7e408e7b.js"></script>
+  
+    
+      <script type='application/ld+json'>{"@context": "http://schema.org", "@id": "https://doi.org/10.5281/zenodo.8384372", "@type": "https://schema.org/ScholarlyArticle", "author": [{"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Rose Li \u0026 Associates, Inc."}], "familyName": "Weixelbaum", "givenName": "Jay", "name": "Weixelbaum, Jay"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Rose Li \u0026 Associates, Inc."}], "familyName": "Beezley", "givenName": "Kelly E.", "name": "Beezley, Kelly E."}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Rose Li \u0026 Associates, Inc."}], "familyName": "Tuvesson", "givenName": "Nancy", "name": "Tuvesson, Nancy"}, {"@id": "https://orcid.org/0000-0001-8249-0581", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Eye Institute, NIH"}], "familyName": "Reed", "givenName": "Amberlynn", "name": "Reed, Amberlynn"}, {"@id": "https://orcid.org/0009-0004-1429-983X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Eye Institute, NIH"}], "familyName": "Haqqani", "givenName": "Syed", "name": "Haqqani, Syed"}, {"@id": "https://orcid.org/0000-0001-7626-6540", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "All of Us Research Program, NIH"}], "familyName": "Giannini", "givenName": "John", "name": "Giannini, John"}, {"@id": "https://orcid.org/0000-0003-3773-0659", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "All of Us Research Program, NIH"}], "familyName": "Landis", "givenName": "Erica", "name": "Landis, Erica"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Institute of Biomedical Imaging and Bioengineering, NIH"}], "familyName": "Anderson", "givenName": "Afrouz", "name": "Anderson, Afrouz"}, {"@id": "https://orcid.org/0000-0003-1550-9224", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "All of Us Research Program, NIH"}], "familyName": "Schully", "givenName": "Sheri", "name": "Schully, Sheri"}, {"@id": "https://orcid.org/0000-0002-9821-7704", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Eye Institute, NIH"}], "familyName": "Goetz", "givenName": "Kerry E.", "name": "Goetz, Kerry E."}], "contentSize": "377.64 KB", "creator": [{"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Rose Li \u0026 Associates, Inc."}], "familyName": "Weixelbaum", "givenName": "Jay", "name": "Weixelbaum, Jay"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Rose Li \u0026 Associates, Inc."}], "familyName": "Beezley", "givenName": "Kelly E.", "name": "Beezley, Kelly E."}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Rose Li \u0026 Associates, Inc."}], "familyName": "Tuvesson", "givenName": "Nancy", "name": "Tuvesson, Nancy"}, {"@id": "https://orcid.org/0000-0001-8249-0581", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Eye Institute, NIH"}], "familyName": "Reed", "givenName": "Amberlynn", "name": "Reed, Amberlynn"}, {"@id": "https://orcid.org/0009-0004-1429-983X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Eye Institute, NIH"}], "familyName": "Haqqani", "givenName": "Syed", "name": "Haqqani, Syed"}, {"@id": "https://orcid.org/0000-0001-7626-6540", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "All of Us Research Program, NIH"}], "familyName": "Giannini", "givenName": "John", "name": "Giannini, John"}, {"@id": "https://orcid.org/0000-0003-3773-0659", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "All of Us Research Program, NIH"}], "familyName": "Landis", "givenName": "Erica", "name": "Landis, Erica"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Institute of Biomedical Imaging and Bioengineering, NIH"}], "familyName": "Anderson", "givenName": "Afrouz", "name": "Anderson, Afrouz"}, {"@id": "https://orcid.org/0000-0003-1550-9224", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "All of Us Research Program, NIH"}], "familyName": "Schully", "givenName": "Sheri", "name": "Schully, Sheri"}, {"@id": "https://orcid.org/0000-0002-9821-7704", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Eye Institute, NIH"}], "familyName": "Goetz", "givenName": "Kerry E.", "name": "Goetz, Kerry E."}], "dateCreated": "2023-10-02T20:28:37.449447+00:00", "dateModified": "2024-07-11T04:58:06.631716+00:00", "datePublished": "2023-10-02", "description": "\u003cp\u003eThe potential inclusion of ocular imaging data into the \u003cem\u003eAll of Us\u003c/em\u003e Research Program (\u003cem\u003eAll of Us\u003c/em\u003e) dataset provides a unique opportunity to address many of these issues and empower new opportunities for research. To discuss the opportunities and challenges surrounding incorporating ocular imaging data, NIH partners at NEI, NIBIB, and the \u003cem\u003eAll of Us\u003c/em\u003e Research Program organized a workshop with experts in vision science, ophthalmology, imaging technology, data science, and health disparities research. This workshop explored the current state of imaging informatics in the vision research field, opportunities to expand research with large retinal imaging cohorts, and the data and analytical tools needed to advance this research. This document will summarize the presentations, panel discussions, and key findings from the workshop.\u003c/p\u003e", "identifier": "https://doi.org/10.5281/zenodo.8384372", "inLanguage": {"@type": "Language", "alternateName": "eng", "name": "English"}, "keywords": "ocular imaging", "license": "https://creativecommons.org/licenses/by/4.0/legalcode", "name": "Opportunities for Ophthalmology Research in Large Research Cohorts: A National Eye Institute, National Institute of Biomedical Imaging and Bioengineering, and All of Us Research Program Workshop", "publisher": {"@type": "Organization", "name": "Zenodo"}, "size": "377.64 KB", "url": "https://zenodo.org/records/8384372", "version": "1"}</script>
+
+  <script src="/static/dist/js/invenio-app-rdm-landing-page-theme.6621f92f68af6cb1b71a.js"></script>
+  <script src="/static/dist/js/5941.e8d469953f2097d1b80c.js"></script>
+<script src="/static/dist/js/9736.d2eec24d7946bd6d5842.js"></script>
+<script src="/static/dist/js/4683.3dde35073541a4cfab77.js"></script>
+<script src="/static/dist/js/7641.c5257ddf674154c9b6b2.js"></script>
+<script src="/static/dist/js/7302.60cc5652ce662994b29a.js"></script>
+<script src="/static/dist/js/8585.d7c719e4d737eaf98c6c.js"></script>
+<script src="/static/dist/js/1357.e127ab0ea8be479ccd38.js"></script>
+<script src="/static/dist/js/5002.e27ae61e6763574bea57.js"></script>
+<script src="/static/dist/js/1644.7885d9d3dcbd8315f16b.js"></script>
+<script src="/static/dist/js/5400.ef510f260282c73585d0.js"></script>
+<script src="/static/dist/js/8962.19852e93355dac6e4e1c.js"></script>
+<script src="/static/dist/js/5097.7d0a0bd7d0439f9b0ff5.js"></script>
+<script src="/static/dist/js/5680.e9f92f6e9958b03847ba.js"></script>
+<script src="/static/dist/js/invenio-app-rdm-landing-page.b12dba3cb3fad1a8f4e6.js"></script>
+  <script src="/static/dist/js/previewer_theme.e613af66c367ae91620f.js"></script>
+  <script src="/static/dist/js/zenodo-rdm-citations.42ba6ec5068dbee7fa6f.js"></script>
+  
+
+        <div class="ui container info message cookie-banner hidden">
+  <i class="close icon"></i>
+  <div>
+    <i aria-hidden="true" class="info icon"></i>
+    <p class="inline">This site uses cookies. Find out more on <a href="https://about.zenodo.org/cookie-policy">how we use cookies</a></p>
+  </div>
+  <div class="buttons">
+    <button class="ui button small primary" id="cookies-all">Accept all cookies</button>
+    <button class="ui button small" id="cookies-essential">Accept only essential cookies</button>
+  </div>
+</div>
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['requireCookieConsent']);
+
+  (function() {
+    var u="https://webanalytics.web.cern.ch/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '366']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+  const cookieConsent = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("cookie_consent="))
+    ?.split("=")[1];
+
+  if (cookieConsent) {
+    if (cookieConsent === "all") {
+      matomo();
+    }
+  } else {
+    document.querySelector(".cookie-banner").classList.remove("hidden")
+    _paq.push(['forgetConsentGiven']);
+  }
+
+  $('.cookie-banner .close')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","essential");
+    });
+
+  $('#cookies-essential')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","essential");
+    });
+
+  $('#cookies-all')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","all");
+      _paq.push(['rememberCookieConsentGiven']);
+      matomo();
+    });
+
+  function matomo() {
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+  }
+
+  function setCookie(cname, cvalue) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // one year
+    var expires = "expires=" + d.toUTCString();
+    var cookie = cname + "=" + cvalue + ";" + expires + ";"
+    cookie += "Domain=zenodo.org;Path=/;SameSite=None; Secure";
+    document.cookie = cookie;
+  }
+</script>
+  </body>
+</html>

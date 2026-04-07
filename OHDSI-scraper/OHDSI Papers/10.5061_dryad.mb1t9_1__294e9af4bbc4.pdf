@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dryad | Data: Early postembryonic to mature ontogeny of the oryctocephalid trilobite Duodingia duodingensis from the lower Cambrian (Series 2) of southern China</title>
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon-741463e404f80e0cfadb2020cdc1001eb670eb1aaa4f9b4499adac5024617928.ico" />
+<link rel="apple-touch-icon" type="img/png" href="/assets/apple-touch-icon-195689096e0dfc8e00ec30d45688783637e769171244ae2acfc04fee183a84de.png" sizes="180x180" />
+<link rel="icon" type="img/png" href="/assets/favicon-32x32-28e277edfb725756667308f387bff2f116859c778f70205719710f9a39c25576.png" sizes="32x32" />
+<link rel="icon" type="img/png" href="/assets/favicon-16x16-cff82d9df2bf20d663fb72b8adb3d506dea79c4f0e5bb189d6eeaad56f2aa6aa.png" sizes="16x16" />
+<link rel="mask-icon" type="img/svg" href="/assets/safari-pinned-tab-3d20ff979acc97ae9aaf8a8631a1ccc9e95432b5da110693abdb2540f7894119.svg" color="#40853e" />
+<meta name="msapplication-TileColor" content="#40853e">
+<meta name="theme-color" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CWE0T05CC"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6CWE0T05CC');
+  </script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://datadryad.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='//cdn.matomo.cloud/datadryad.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="TUXJzsE7zKBUScjh5mSQddgKDPwDZggLFupxgEUhpe-uRQbz3v_X0-wVFftHWotS7Lgf3xGgEaDkHf6XoCZ6mA" />
+
+  <link rel="stylesheet" href="/assets/stash_engine/application-2929287ae90151844307665bbd43db5538fabcac20df8c4813c632bb024396f8.css" media="all" />
+<link rel="stylesheet" href="/assets/application-cad4808c38c509b1b63bea2a128e6fd9b98507bb0477ae031a9d8bbd6f5eab53.css" media="all" />
+<link rel="stylesheet" href="/assets/stash_datacite/application-aee9015c043c97b53f3098c36d4ecf657f62991af067cc79d655b402aa6f5e63.css" media="all" />
+<script src="/assets/stash_engine/application-d852460958907326c9fc76463b52c7bf0261faf352aabb946a0f913a20d24338.js" data-turbolinks-track="true"></script>
+<script src="/assets/stash_datacite/application-479b1f40154c600454cf64a502ca72180b63f938f1c02173826500ce11aaedd5.js" data-turbolinks-track="true"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+  <link rel="linkset" type="application/linkset" href="https://datadryad.org/dataset/doi:10.5061/dryad.mb1t9/linkset">
+<link rel="linkset" type="application/linkset+json" href="https://datadryad.org/dataset/doi:10.5061/dryad.mb1t9/linkset.json">
+<script data-autotrack="false" src="https://cdn.jsdelivr.net/npm/@datacite/datacite-tracker"></script>
+<script>
+	const { trackMetric } = DataCiteTracker.Tracker({
+		repoId: 'da-80l49bsf',
+		trackLocalhost: true,
+	});
+	let dc_download = DataCiteTracker.MetricType.Download;
+	trackMetric(DataCiteTracker.MetricType.View, { doi: '10.5061/dryad.mb1t9' });
+
+	document.addEventListener("DOMContentLoaded", function(){
+		// track individual downloads
+		const downloadLinks = document.querySelectorAll('a.js-individual-dl');
+		downloadLinks.forEach((link) => {
+			link.addEventListener('click', (e) => {
+				trackMetric(DataCiteTracker.MetricType.Download, { doi: '10.5061/dryad.mb1t9' });
+			});
+		});
+
+		const downloadFullLinks = document.querySelectorAll('button.js-download');
+		downloadFullLinks.forEach((link) => {
+			link.addEventListener('click', (e) => {
+				trackMetric(DataCiteTracker.MetricType.Download, { doi: '10.5061/dryad.mb1t9' });
+			});
+		});
+	});
+</script>
+<script type="text/javascript" src="https://16077a4ae659.us-west-2.captcha-sdk.awswaf.com/16077a4ae659/jsapi.js" defer></script>
+<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs" defer></script>
+
+  <script type="text/javascript" src="/assets/dataload-5b922179b0a8421065662f3cc369ac3a94815977e56956c1f350686fcefe4efb.js" defer></script>
+</head>
+<body class='landing_show'>
+  
+  
+<header class=" c-header">
+  <a class="c-skipnav" href="#maincontent">Skip to main content</a>
+  <div class="c-header__logos">
+    <a class="c-header__dash-logo-link js-nav-out" href="/">
+      <div><img class="c-header__dash-logo-svg" alt="Dryad" src="/assets/stash_engine/logo_dryad-9d1e5c882a79248fb7e6854271159d897b4b3e5cd8c45c00be27b1cb26feeaf2.png" /></div>
+</a>  </div>
+  <nav class="c-header__nav js-header__nav" aria-label="Main">
+  <ul class="c-header__nav-group" id="mobile-nav-bar">
+    <li class="c-header__nav-item c-pot-item"><a class="js-nav-out" href="/pots">Explore</a>
+    <li class="c-header__nav-item show-mobile">
+      <form class="button_to" method="get" action="/sessions/choose_login"><button class="c-header__menu-button" title="Login and then submit a new dataset" type="submit">Submit</button></form>
+    </li>
+      <li class="c-header__nav-item hide-mobile"><a class="js-nav-out" href="/search/advanced">Advanced search</a></li>
+      <li class="c-header__nav-item last-child">
+        <form role="search" class="o-global-search c-header__global-search" action="/search" accept-charset="UTF-8" method="get">
+          <input name="utf8" value="✓" type="hidden">
+          <label class="o-global-search__label" for="search-field-input1">Search Dryad data</label>
+          <input class="o-global-search__input" id="search-field-input1" type="search" name="q" placeholder="Search">
+          <button aria-label="Submit search" class="o-global-search__submit-button" type="submit" id="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </li>
+    <li class="c-header__nav-item show-mobile">
+      <button id="header-menu-button" aria-haspopup="menu" class="c-header__menu-button" aria-controls="site-menu" aria-expanded="false">More <i class="fa fa-bars" aria-hidden="true"></i></button>
+    </li>
+  </ul>
+
+  <ul class="c-header__nav-group" id="site-menu">
+
+    <li class="c-header__nav-item">
+      <button class="c-header_nav-button" aria-haspopup="menu" aria-expanded="false" aria-controls="about-menu">About</button>
+      <ul class="c-header__nav-submenu" id="about-menu" hidden>
+        <li><a href="/about">Who we are</a></li>
+        <li><a href="/mission">What we do</a></li>
+      </ul>
+    </li>
+
+    <li class="c-header__nav-item">
+      <a href="/join_us">Partner with us</a>
+    </li>
+    <li class="c-header__nav-item">
+      <a href="/support_us">Support us</a>
+    </li>
+
+    <li class="c-header__nav-item"><a href="/help">Get help</a></li>
+
+    <li class="c-header__nav-item">  <a id="log-in-out" class="js-nav-out" href="/sessions/choose_login">Login</a>
+</li>
+  </ul>
+</nav>
+
+</header>
+
+  
+
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $('.flash_button').click(function() {
+      $( this ).parent().remove();
+    });
+});
+</script>
+
+    <main id="maincontent">
+    <!-- Track View for COUNTER and new DataCite metrics widget -->
+<div class="c-columns">
+	<article class="t-landing__main c-columns__content">
+		<div id="display_resource">
+  	    <h1 class="o-heading__level1">Data from: Early postembryonic to mature ontogeny of the oryctocephalid trilobite Duodingia duodingensis from the lower Cambrian (Series 2) of southern China</h1>
+<div class="t-landing__metadata o-metadata">
+  	<p class="o-metadata__author-list">
+  <span class="o-metadata__author">Hou, Jin-Bo</span><a class="o-metadata__link" aria-label="Affiliation 1" href="#aff539">1</a>; <span class="o-metadata__author">Hughes, Nigel C.</span><a class="o-metadata__link" aria-label="Affiliation 1" href="#aff539">1</a>; <span class="o-metadata__author">Lan, Tian</span><a class="o-metadata__link" aria-label="Affiliation 1" href="#aff539">1</a>; <span class="o-metadata__author">Yang, Jie</span><a class="o-metadata__link" aria-label="Affiliation 1" href="#aff539">1</a>; <span class="o-metadata__author">Zhang, Xi-Guang</span><a class="o-metadata__link" aria-label="Affiliation 1" href="#aff539">1</a>
+	</p>
+  <div class="o-metadata__aff-list">
+  	<p role="heading" aria-level="2"><button class="o-button__plain-text4" id="affiliation-list-button" aria-expanded="false" aria-controls="affiliation-list">Author affiliations<i class="fas fa-caret-down" aria-hidden="true"></i></button></p>
+  	<ol id="affiliation-list" hidden>
+  		<li id="aff539"><a href="/search?org=https%3A%2F%2Fror.org%2F0040axw97">Yunnan University</a></li>
+  	</ol>
+  </div>
+  <script type="text/javascript">
+  	document.getElementById('affiliation-list-button').addEventListener('click', (e) => {
+  		const list = document.getElementById('affiliation-list')
+  		const button = document.getElementById('affiliation-list-button')
+  		if (list.hasAttribute('hidden')) {
+	  		button.setAttribute('aria-expanded', 'true')
+  		} else {
+  			button.setAttribute('aria-expanded', 'false')
+	  	}
+	  	button.lastElementChild?.classList.toggle('fa-caret-down')
+	  	button.lastElementChild?.classList.toggle('fa-caret-up')
+	  	list.toggleAttribute('hidden')
+  	})
+  	const openHash = () => {
+  		const hashed = document.getElementById(window.location.hash.substring(1))
+			if (hashed && hashed.parentElement.hasAttribute('hidden')) {
+	    	document.getElementById('affiliation-list-button').click()
+	    }
+  	}
+  	if (window.location.hash) openHash()
+  	window.addEventListener('hashchange', openHash)
+  </script>
+
+  <div class="o-metadata__group2">
+  <span class="o-metadata__group2-item">Published Jun 11, 2016
+  on Dryad</span>.
+    <span class="o-metadata__group2-item">
+      https://doi.org/10.5061/dryad.mb1t9
+    </span>
+</div>
+
+</div>
+
+
+
+  <div class="data_files_section">
+  <h2>Data files</h2>
+  <div>
+    <!-- list individual files -->
+      <details id="download_resource" class="c-file-group"  open>
+        <summary role="button" class="o-showhide__summary c-file-group__summary">
+          <span>Jun 11, 2016 version files</span>
+          <span>39.42 KB</span>
+        </summary>
+        <form id="download-select-form" ></form>
+        <ul class="c-file-group__list">
+            <li>
+              <span>
+                <a target="_blank" class="js-individual-dl" href="/downloads/file_stream/53139"><i class='fas fa-download' role='img' aria-label='Download'></i>Morphometric data of trilobite Duodingia duodingensis.xls</a>
+                <div style="min-width: 80px; text-align: center;">
+                </div>
+              </span>
+              <div>
+                39.42 KB
+                      <input class="select-file-download" data-size="39424" type="checkbox" name="Morphometric data of trilobite Duodingia duodingensis.xls" checked hidden aria-label="Select Morphometric data of trilobite Duodingia duodingensis.xls for download" form="download-select-form">
+              </div>
+            </li>
+        </ul>
+      </details>
+    <div id="file_preview_box" role="status"></div>
+    <!-- full download second -->
+    <div class="o-download">
+  <form id="zip_download" action="/dataset/downloadZip/doi_10_5061_dryad_mb1t9__v20160611.zip" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="uwl-u_lK4WCwus3pVZ_0Rb2iwIWfGFn72imrT01lUYhzF7C5TGuMvFx6Lx3B2eqjBPeTJPPhOqH0kkQCKpFdbg" autocomplete="off" />
+      <div id="file_downloads"></div>
+      <p class="download-info"><span>Click names to download individual files</span>
+      <button type="button" class="o-download__files js-download" id="download_zip_button" >
+        <span id="download_icon" aria-hidden="true"></span>
+        <span role="status">Download full dataset</span>
+      </button>
+     </p>
+</form>  <div class="screen-reader-only" id="accessible-dl-msg" aria-live="assertive"></div>
+</div>
+
+  </div>
+</div>
+<script type="text/javascript">
+  const load_preview = (n) => {
+    const box = document.getElementById('file_preview_box');
+    box.innerHTML = `<div class="file_preview"><p role="heading" level="3" id="preview_file_name"><span>Preview: ${n}</span></p><p><i class="fa fa-spin fa-spinner" aria-label="Loading" role="img"></i></p></div>`;
+    box.scrollIntoView();
+  }
+  const close_preview = () => {
+    document.getElementById('file_preview_box').innerHTML = '';
+  }
+</script>
+
+
+  <h2 class="o-heading__level2">Abstract</h2>
+  <div class="t-landing__text-wall">
+    Many well-preserved, articulated exoskeletons recovered from the early Cambrian (Stage 3) Mingxinsi Formation in Weng'an, Guizhou Province, southern China, permit reconstruction of the early postembryonic to mature (i.e. protaspid to holaspid) ontogeny of the small oryctocephalid trilobite Duodingia duodingensis Chow. It is likely that the type material is a latest stage meraspis, and the species had nine thoracic segments in the holaspid phase rather than the eight suggested previously. The earliest holaspis is relatively small in size (about 3.00 mm in total length), and the succeeding instars show little size-related shape change. Striking changes take place in the morphology of the glabella during early ontogeny including forward extension of the axial furrows until they reach the anterior cephalic margin in meraspid degree 0iii, and narrowing of the glabellar mid-region. This is the first noneodiscid trilobite to show three developmental stages within meraspid degree 0. Documentation of ontogenetic changes demonstrates that both Duodingia hubeiensis and D. taihuensis are junior synonyms of D. duodingensis because they bear characters of particular ontogenetic stages of their senior synonym. The per-moult growth increment in D. duodingensis was apparently small in this small trilobite. The development of trunk segmentation during the meraspid phase is apparently more complex than in many other trilobites and could include multiple moults within individual meraspid degrees, intraspecific polymorphism in the pattern of segment release, or phenotypic variation among the population in the degree of segment expression. Fluctuations between accumulative moults, in which segments are added to the meraspid pygidium, and depletive moults, in which segments are released into the thorax, if confirmed, would suggest tight coordination between these different aspects of trunk segment development.
+  </div>
+
+
+
+
+
+
+  
+
+
+
+  <h2 class="expand-button"><button id="usage" aria-expanded="false" aria-controls="usage-sec">Usage notes</button></h2>
+  <div id="usage-sec" hidden class="t-landing__text-wall">
+    <div class="o-metadata__file-usage-entry"><h4 class="o-heading__level3-file-title">Morphometric data of trilobite Duodingia duodingensis</h4><div class="o-metadata__file-description">This dataset belongs to the paper intitled 'Early postembryonic to mature ontogeny of the cheiruroideid trilobite Duodingia duodingensis from the lower Cambrian (Series 2) of southern China'. It has been included in the desciptions of ontogeny of the trilobite Duodingia duodingensis. Bivariate scatter diagrams of cranidia in Figure 6 is also based on those morphometric data.</div><div class="o-metadata__file-name"></div></div>
+  </div>
+
+
+
+
+  <h2 class="expand-button"><button id="citations" aria-expanded="false" aria-controls="citations-sec">Works referencing this dataset</button></h2>
+  <div id="citations-section">
+    <div id="citations-sec" hidden>
+  <ul class="o-list">
+      <li>
+          Hou, Jin-Bo et al. (2015), Early postembryonic to mature ontogeny of the oryctocephalid trilobiteDuodingia duodingensisfrom the lower Cambrian (Series 2) of southern China, Papers in Palaeontology, Article-journal, <a href="https://doi.org/10.1002/spp2.1021" target="_blank">https://doi.org/10.1002/spp2.1021</a><!-- The doi: https://doi.org/10.1002/spp2.1021 -->
+      </li>
+  </ul>
+</div>
+  </div>
+
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.mb1t9",
+  "name": "Early postembryonic to mature ontogeny of the oryctocephalid trilobite Duodingia duodingensis from the lower Cambrian (Series 2) of southern China",
+  "description": [
+    "Many well-preserved, articulated exoskeletons recovered from the early Cambrian (Stage 3) Mingxinsi Formation in Weng'an, Guizhou Province, southern China, permit reconstruction of the early postembryonic to mature (i.e. protaspid to holaspid) ontogeny of the small oryctocephalid trilobite Duodingia duodingensis Chow. It is likely that the type material is a latest stage meraspis, and the species had nine thoracic segments in the holaspid phase rather than the eight suggested previously. The earliest holaspis is relatively small in size (about 3.00 mm in total length), and the succeeding instars show little size-related shape change. Striking changes take place in the morphology of the glabella during early ontogeny including forward extension of the axial furrows until they reach the anterior cephalic margin in meraspid degree 0iii, and narrowing of the glabellar mid-region. This is the first noneodiscid trilobite to show three developmental stages within meraspid degree 0. Documentati...",
+    "Morphometric data of trilobite Duodingia duodingensisThis dataset belongs to the paper intitled 'Early postembryonic to mature ontogeny of the cheiruroideid trilobite Duodingia duodingensis from the lower Cambrian (Series 2) of southern China'. It has been included in the desciptions of ontogeny of the trilobite Duodingia duodingensis. Bivariate scatter diagrams of cranidia in Figure 6 is also based on those morphometric data.",
+    ""
+  ],
+  "url": "http://datadryad.org/dataset/doi%253A10.5061%252Fdryad.mb1t9",
+  "contentUrl": "http://datadryad.org/downloads/file_stream/53139",
+  "identifier": "https://doi.org/10.5061/dryad.mb1t9",
+  "version": 1,
+  "isAccessibleForFree": true,
+  "keywords": [
+    "Duodingia hubeiensis",
+    "Duodingia taihuensis",
+    "Duodingia duodingensis",
+    "Corynexochida",
+    "Lower Cambrian (Series 2)",
+    "Trilobita",
+    "The late Chiungchussian to the early Tsanglangpuan"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Jin-Bo Hou",
+      "givenName": "Jin-Bo",
+      "familyName": "Hou",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/0040axw97",
+        "name": "Yunnan University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Nigel C. Hughes",
+      "givenName": "Nigel C.",
+      "familyName": "Hughes",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/0040axw97",
+        "name": "Yunnan University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Tian Lan",
+      "givenName": "Tian",
+      "familyName": "Lan",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/0040axw97",
+        "name": "Yunnan University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Jie Yang",
+      "givenName": "Jie",
+      "familyName": "Yang",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/0040axw97",
+        "name": "Yunnan University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Xi-Guang Zhang",
+      "givenName": "Xi-Guang",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/0040axw97",
+        "name": "Yunnan University"
+      }
+    }
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/zip",
+    "contentUrl": "http://datadryad.org/api/v2/datasets/doi%253A10.5061%252Fdryad.mb1t9/download"
+  },
+  "temporalCoverage": [
+    "2015-05-27 12:51:56 UTC",
+    "2016-06-11 00:00:00 UTC",
+    "2016-06-11 00:00:00 UTC"
+  ],
+  "spatialCoverage": [
+    "southern China",
+    "Southern China",
+    "Weng'an",
+    "Guizhou"
+  ],
+  "citation": "http://doi.org/10.1002/spp2.1021",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "license": "https://spdx.org/licenses/CC0-1.0.html"
+  },
+  "publisher": {
+    "@id": "https://datadryad.org",
+    "@type": "Organization",
+    "legalName": "Dryad Data Platform",
+    "name": "Dryad",
+    "url": "https://datadryad.org"
+  },
+  "provider": {
+    "@id": "https://datadryad.org"
+  }
+}
+</script>
+
+		</div>
+	</article>
+	<aside class="c-columns__sidebar">
+	  <div class="sidebox" id="sidebox-cite">
+  <div id="cite_section">
+  <h2><span id="expand-citation" role="button" tabindex="0" aria-expanded="false" aria-controls="dataset-citation">Citation<i class="fas fa-caret-down" aria-hidden="true"></i></span></h2>
+<button title="Copy citation" aria-label="Copy citation" class="copy-icon" data-item="Citation"><i class="fa fa-paste" role="status"></i><span>Copy</span></button>
+<p id="dataset-citation" hidden>Hou, Jin-Bo; Hughes, Nigel C.; Lan, Tian et al. (2016). Data from: Early postembryonic to mature ontogeny of the oryctocephalid trilobite Duodingia duodingensis from the lower Cambrian (Series 2) of southern China [Dataset]. Dryad. <a href="https://doi.org/10.5061/dryad.mb1t9">https://doi.org/10.5061/dryad.mb1t9</a></p>
+
+<script type="text/javascript">
+  const expandCitation = (e) => {
+    const citation = document.getElementById('dataset-citation')
+    const button = document.getElementById('expand-citation')
+    if (citation.hasAttribute('hidden')) {
+      button.setAttribute('aria-expanded', 'true')
+    } else {
+      button.setAttribute('aria-expanded', 'false')
+    }
+    button.lastElementChild.classList.toggle('fa-caret-down')
+    button.lastElementChild.classList.toggle('fa-caret-up')
+    citation.toggleAttribute('hidden')
+  }
+  document.getElementById('expand-citation').addEventListener('click', expandCitation)
+  document.getElementById('expand-citation').addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault()
+      expandCitation(e)
+    }
+  });
+</script>
+
+  </div>
+
+  <div id="show_metrics"
+       data-load="/landing/metrics/14290" aria-live="polite" aria-busy="true">
+    <i class="fas fa-spin fa-spinner" aria-hidden="true"></i>
+  </div>
+  
+    <div id="share_section">
+      <div id="share_buttons">
+  <h2>Share:</h2>
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdatadryad.org%2Fdataset%2Fdoi%3A10.5061%2Fdryad.mb1t9" title="Share on LinkedIn" data-share="linkedin" target="_blank" rel="noreferrer"><i class="fab fa-linkedin" aria-label="Share on LinkedIn (opens in new window)" role="img"></i></a>
+  <!-- BlueSky -->
+  <a href="https://bsky.app/intent/compose?text=Dryad+dataset%3A+Data+from%3A+Early+postembryonic+to+mature+ontogeny+of+the+oryctocephalid+trilobite+Duodingia+duodingensis+from+the+lower+Cambrian+%28Series+2%29+of+southern+China%0Ahttps%3A%2F%2Fdatadryad.org%2Fdataset%2Fdoi%3A10.5061%2Fdryad.mb1t9" title="Share on Bluesky" data-share="bluesky" target="_blank" rel="noreferrer"><i class="fab fa-square-bluesky" aria-label="Share on Bluesky (opens in new window)" role="img"></i></a>
+  <!-- Reddit -->
+  <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fdatadryad.org%2Fdataset%2Fdoi%3A10.5061%2Fdryad.mb1t9&title=Dryad+dataset%3A+Data+from%3A+Early+postembryonic+to+mature+ontogeny+of+the+oryctocephalid+trilobite+Duodingia+duodingensis+from+the+lower+Cambrian+%28Series+2%29+of+southern+China" title="Share on Reddit" data-share="reddit" target="_blank" rel="noreferrer"><i class="fab fa-reddit-square" aria-label="Share on Reddit (opens in new window)" role="img"></i></a>
+  <!-- Mastodon -->
+  <a href="https://mastodonshare.com/?url=https%3A%2F%2Fdatadryad.org%2Fdataset%2Fdoi%3A10.5061%2Fdryad.mb1t9&text=Dryad+dataset%3A+Data+from%3A+Early+postembryonic+to+mature+ontogeny+of+the+oryctocephalid+trilobite+Duodingia+duodingensis+from+the+lower+Cambrian+%28Series+2%29+of+southern+China" title="Share on Mastodon" data-share="mastodon" target="_blank" rel="noreferrer"><i class="fab fa-mastodon" aria-label="Share on Mastodon (opens in new window)" role="img"></i></a>
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdatadryad.org%2Fdataset%2Fdoi%3A10.5061%2Fdryad.mb1t9" title="Share on Facebook" data-share="facebook" target="_blank" rel="noreferrer"><i class="fab fa-facebook-square" aria-label="Share on Facebook (opens in new window)" role="img"></i></a>
+  <!-- Email -->
+  <a href="mailto:?subject=Dryad+dataset%3A+Data+from%3A+Early+postembryonic+to+mature+ontogeny+of+the+oryctocephalid+trilobite+Duodingia+duodingensis+from+the+lower+Cambrian+%28Series+2%29+of+southern+China&body=Citation%3A+Hou%2C+Jin-Bo%3B+Hughes%2C+Nigel+C.%3B+Lan%2C+Tian+et+al.+%282016%29.+Data+from%3A+Early+postembryonic+to+mature+ontogeny+of+the+oryctocephalid+trilobite+Duodingia+duodingensis+from+the+lower+Cambrian+%28Series+2%29+of+southern+China+%5BDataset%5D.+Dryad.+https%3A%2F%2Fdoi.org%2F10.5061%2Fdryad.mb1t9%0A%0AAbstract%3A+" title="Share with email" data-share="email" target="_blank" rel="noreferrer"><i class="fa fa-envelope-square" aria-label="Share with email (opens in new window)" role="img"></i></a>
+  <!-- Copy -->
+  <button id="share-panel__copy-url" title="Copy link to this page"><i class="fa fa-share-square" aria-label="Copy link to this page" role="img"></i></button>
+</div>
+<div role="status">
+  <p id="copy-success" hidden><i class="fa fa-check" aria-hidden="true"></i> Link copied</p>
+</div>
+<script type="text/javascript">
+  document.getElementById('share-panel__copy-url').addEventListener('click', () => {
+    window.navigator.clipboard.writeText(window.location.href).then(async () => {
+      const flash = document.getElementById('copy-success');
+      flash.removeAttribute('hidden');
+      await new Promise(res => setTimeout(res, 3000));
+      flash.setAttribute('hidden', 'true');
+    });
+  })
+</script>
+
+    </div>
+
+    <div id="show_license"
+         data-load="/stash_datacite/licenses/details.js?resource_id=14343" aria-live="polite" aria-busy="true">
+      <i class="fas fa-spin fa-spinner" aria-hidden="true"></i>
+    </div>
+</div>
+
+<div class="sidebox" id="sidebox-search">
+  <div id="keyword_section">
+    <h2>Subject keywords</h2>
+    <div id="show_subjects"
+         data-load="/stash_datacite/subjects/landing.js?resource_id=14343" aria-live="polite" aria-busy="true">
+      <i class="fas fa-spin fa-spinner" aria-hidden="true"></i>
+    </div>
+  </div>
+  
+</div>
+
+<div class="sidebox" id="sidebox-related_works">
+  <h2>Related works</h2>
+  <div id="show_related_works"
+       data-load="/stash_datacite/related_identifiers/show.js?resource_id=14343" aria-live="polite" aria-busy="true">
+    <p><i class="fas fa-spin fa-spinner" aria-hidden="true"></i></p>
+  </div>
+</div>
+
+	</aside>
+</div>
+
+
+    </main>
+  <footer class="c-footer" id="page-footer">
+  <div class="c-footer__link-group">
+    <div class="c-footer__policy-group">
+      <a href="/privacy">Privacy</a>
+      <a href="/accessibility" class="js-nav-out">Accessibility</a>
+      <a href="/terms">Terms of service</a>
+      <a href="/partner_terms">Partner terms</a>
+    </div>
+    <div class="c-footer__social-group">
+      <a href="/contact"><i class="far fa-envelope" aria-hidden="true"></i>Enquiries</a>
+      <a href="https://blog.datadryad.org/" class="js-nav-out"><i class="far fa-comment fa-flip-horizontal" aria-hidden="true" style="font-size: 1em"></i>Latest news</a>
+      <a href="https://blog.datadryad.org/about/subscribe" class="js-nav-out"><i class="far fa-bell" aria-hidden="true"></i>Subscribe</a>
+      <a href="https://blog.datadryad.org/jobs" class="js-nav-out"><i class="far fa-pen-to-square" aria-hidden="true"></i>Jobs &amp; opportunities</a>
+    </div>
+  </div>
+  <div class="c-footer__link-group">
+    <span>© 2026 Dryad. <a href="/terms#copyright">Content on this site is licensed for reuse</a>.</span>
+  </div>
+</footer>
+
+  <script type="text/javascript" src="/assets/interactions-c75e7000e6b278acd397aa1c5b7cd75e8c64e460879f13b8d4abda8ff80f07fe.js"></script>
+  <dialog id="railsConfirmDialog" class="modalDialog" role="alertdialog" aria-labelledby="railsConfMsg"
+  aria-describedby="railsConfMsg" aria-modal="true">
+  <div>
+    <button id="railsConfirmDialogClose" class="button-close-modal" style="float: right;" aria-label="close" type="button"></button>
+    <h1 id="railsConfMsg" class="o-heading__level2" style="width: 30ch; max-width: 100%; float: left;"></h1>    
+    <div style="clear: both;">&nbsp;</div>
+    <div style="display: flex; justify-content: flex-end; column-gap: 1rem;">
+      <button id="railsConfirmDialogYes" class="o-button__plain-text2" style="padding: .5rem 2rem;" value="default">Yes</button>
+      <button id="railsConfirmDialogNo" class="o-button__plain-text3" style="padding: .5rem 2rem;" value="cancel">No</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  // adds the polyfill for firefox and some other browsers that are not up to date.
+  // https://github.com/GoogleChrome/dialog-polyfill
+
+  const modal = document.getElementById('railsConfirmDialog');
+  dialogPolyfill.registerDialog(modal);
+</script>
+  <dialog id="genericModalDialog" class="modalDialog" aria-modal="true">
+  <div>
+    <div class="modalClose">
+      <button id="genericModalClose" aria-label="Close dialog" type="button"></button>
+    </div>
+    <!-- to display anything in the dialog, replace content within the genericModalContent (using Javascript) and attach any events
+      you need for what you add. The dialog comes with an event for closing and taking no action for the close button.
+
+      Open modal with <item>.showModal(); and close with <item>.close();
+      -->
+    <div id="genericModalContent" class="c-modal-content__normal">&nbsp;</div>
+  </div>
+</dialog>
+
+<script>
+  // adds the polyfill for firefox and some other browsers that are not up to date.
+  // https://github.com/GoogleChrome/dialog-polyfill
+
+  const modal2 = document.getElementById('genericModalDialog');
+  dialogPolyfill.registerDialog(modal2);
+
+  $('#genericModalClose').click(function(){
+    document.querySelector('#genericModalContent').classList.replace('c-modal-content__wide', 'c-modal-content__normal');
+    document.querySelector('#genericModalContent').classList.replace('c-modal-content__cedar','c-modal-content__normal');
+    $('#genericModalDialog')[0].close(); // uses [0] to get native object rather than jQuery object (I think)
+    $('#genericModalContent').html("");
+  });
+</script>
+
+  <script type="text/javascript" async>
+  const dlbutton = document.getElementById('download_zip_button');
+  if ("serviceWorker" in navigator) {
+    const zip_url = '/downloads/zip_assembly_info/14343';
+    const scope = '/dataset/';
+    const messageChannel = new MessageChannel();
+navigator.serviceWorker.register('/service-worker.js', { scope });
+let keepAlive = null;
+const dialog = document.getElementById('genericModalDialog');
+const dialogContent = document.getElementById('genericModalContent');
+const form = document.getElementById('zip_download');
+const inputs = document.getElementById('file_downloads');
+navigator.serviceWorker.ready.then(worker => {
+  worker.active.postMessage({type: 'PORT_INITIALIZATION', url: form.action}, [messageChannel.port2]); 
+});
+const insertFiles = async (files) => {
+  const selectForm = document.getElementById('download-select-form').elements
+  for (const f of files) {
+    if (selectForm[f.filename]?.checked) {
+      for (const k of Object.keys(f)) {
+        const i = document.createElement('input');
+        i.setAttribute('type', 'hidden');
+        i.setAttribute('name', k);
+        i.setAttribute('value', f[k]);
+        inputs.appendChild(i);
+      }
+    }
+  }
+  return true;
+}
+const loadFiles = async (files) => {
+  await insertFiles(files);
+  form.submit();
+  dlbutton.lastElementChild.innerHTML = 'Download in progress';
+  dialogContent.innerHTML = '<h1>Download in progress</h1><p>Closing this window may interrupt the dataset download. Please keep this window open until your download is complete.</p><p><span id="dl_filename"></span> <span id="dl_filesize"></span><br/><progress id="dl_progressbar" value="0" aria-label="Download progress"></progress></p>';
+  dialog.showModal();
+  keepAlive = setInterval(() => {
+    navigator.serviceWorker.ready.then(worker => {
+      worker.active.postMessage({type: 'KEEP_ALIVE'})
+    })
+  }, 10000);
+}
+const failMessage = () => {
+  if (dialog.open) dialog.close();
+  dialogContent.innerHTML = '<h1>Download error</h1><p>Please reload and try again, or download the individual files.</p>';
+  dialog.showModal();
+  dlbutton.lastElementChild.innerHTML = 'Download full dataset';
+  dlbutton.classList.add('o-download__files');
+  dlbutton.classList.remove('o-download__wait');
+  dlbutton.removeAttribute('disabled');
+}
+const checkResponse = async (response) => {
+  if (response.ok) {
+    const files = await response.json();
+    loadFiles(files);
+  } else if (response.status === 405) {
+    dialogContent.innerHTML = '<h1>Confirm you are human</h1><div id="captcha-div"></div>'
+    AwsWafCaptcha.renderCaptcha(document.getElementById('captcha-div'), {
+      apiKey: 'OqA0o1lGXgubzh918BKgrbWCLVFKb5xL3FLAIYf63QqbCTic7ynhvwViwoEdMzuKgvEHmbjbigMAdy6gLNyDRe4qhdiSwsaBMu0yVtDgS+sGd13E8WzeiysUXXKAF85+x8BVDr9VM1x/n6IT+4aLoAgYpYt51//u+wZCYal8WOXWIpkxz88GmF2JCoiEYn4GxDX9SlRyO8IiJ7Id55Fkq6zXtiZs9L9XHM4Pr/iF50wcT+/L1DgBCH+LUYGIYR04TdJQpgp0cD3kL7rMgmpLfeulydUu6ceYJPGgUVWzOguE5fsAzVbPzkNssRUo9ku0oz/ozDvUucntUEPMbrBSxC3EfoCM6aygV/riufSZm4jk9IV0pgUjvzXCrex8lTZtalefN451KiFTT9Ipa9ipjBKZuKDO2fTvsMK1xB82VsA9M9VmSLtMlkFA/LPJj/2A/mGno+kubKAkgWTRXTA0DTJ9/IQ4D+uSZsoWCidnCfUQk4/qkBZa6BOw8SB1n/IXDYTk5Uk4oDG0HuhUogJvwGKQVUSBzbcDdvmgxO8xcj6B7k7W0j64AO2sSKjAdG8BMhtouxeu71Gb76YBIrv3PswHmyESe5PYgeRuURUEZkL9OTON4lNWP4iKqP/D6e09SVWtlNpkv9aJKnsYQhOizCynKfGS/iWEvBXP70G4JOo=_0_1',
+      skipTitle: true,
+      onLoad: () => { if (!dialog.open) dialog.showModal(); },
+      onSuccess: async (token) =>  {
+        dialog.close();
+        dlbutton.focus();
+        const response = await AwsWafIntegration.fetch(zip_url);
+        checkResponse(response);
+      },
+      onError: failMessage,
+    });
+  } else {
+    failMessage();
+  }
+}
+dlbutton.addEventListener('click', async e => {
+  dlbutton.disabled = true;
+  dlbutton.classList.remove('o-download__files');
+  dlbutton.classList.add('o-download__wait');
+  dlbutton.lastElementChild.innerHTML = 'Preparing download';
+  const response = await AwsWafIntegration.fetch(zip_url);
+  checkResponse(response);
+})
+messageChannel.port1.start();
+messageChannel.port1.addEventListener("message", ({data}) => {
+  if (data.msg === 'Headers') {
+    const {filename, size} = data
+    document.getElementById('dl_filename').innerText = filename
+    document.getElementById('dl_filesize').innerText = `(${formatSizeUnits(Number(size))})`
+  } else if (data.msg == 'Streaming') {
+    document.getElementById('dl_progressbar').setAttribute('value', data.complete)
+  } else if (data.msg === 'Stream complete') {
+    inputs.innerHTML = '';
+    if (keepAlive) clearInterval(keepAlive);
+    dlbutton.classList.add('o-download__files');
+    dlbutton.classList.remove('o-download__wait');
+    dlbutton.lastElementChild.innerHTML = 'Download full dataset';
+    dlbutton.removeAttribute('disabled');
+    if (dialog.open) {
+      dialog.close();
+      dlbutton.focus();
+    }
+  }
+});
+
+  } else {
+    dlbutton.hidden = true;
+    document.getElementById('download_resource').classList.remove('large_download');
+  }
+</script>
+
+</body>
+</html>

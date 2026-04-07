@@ -1,0 +1,2686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <title>PeerJ Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry</title>
+
+    
+        <link rel="dns-prefetch" href="https://d2pdyyx74uypu5.cloudfront.net/">
+    <link rel="dns-prefetch" href="http://static.peerj.com/">
+<link rel="dns-prefetch" href="https://doi.org">
+
+        
+            <meta name="citation_title" content="Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry"><meta name="citation_date" content="2020-10-23"><meta name="citation_doi" content="10.7717/peerj.10261"><meta name="citation_language" content="en"><meta name="citation_pdf_url" content="https://peerj.com/articles/10261.pdf"><meta name="citation_fulltext_html_url" content="https://peerj.com/articles/10261"><meta name="citation_volume" content="8"><meta name="citation_firstpage" content="e10261"><meta name="citation_keywords" content="COVID-19; Clinical trials; Data science"><meta name="citation_journal_title" content="PeerJ"><meta name="citation_journal_abbrev" content="PeerJ"><meta name="citation_publisher" content="PeerJ Inc."><meta name="citation_issn" content="2167-8359"><meta name="citation_author" content="Craig S. Mayer"><meta name="citation_author_email" content="craig.mayer2@nih.gov"><meta name="citation_author" content="Vojtech Huser">
+        <meta name="description" content="Clinical trial registries can provide important information about relevant studies for a given condition to other researchers and the public. We developed a computerized informatics based approach to provide an overview and analysis of COVID-19 studies registered on ClinicalTrials.gov registry. Using the perspective of analyzing active or completed COVID-19 studies, we identified 401 interventional clinical trials, 287 observational studies and 64 registries. We analyzed features of each study type separately such as location, design, interventions and update history. Our results show that the United States had the most COVID-19 interventional trials, France had the most COVID-19 observational studies and France and the United States tied for the most COVID-19 registries on ClinicalTrials.gov. The majority of studies in all three study types had a single study site. For update history “Study Status” is the most updated information and we found that studies located in Canada (2.70 updates per study) and the United States (1.76 updates per study) update their studies more often than studies in any other country. Using normalization and mapping techniques, we identified Hydroxychloroquine (92 studies) as the most common drug intervention, while convalescent plasma (20 studies) is the most common biological intervention. The primary purpose of most interventional trials is for treatment with 298 studies (74.3%). For COVID-19 registries we found the most common proposed follow-up time is 1 year (15 studies). Of specific importance and interest is COVID-19 vaccine trials, of which 12 were identified. Our informatics based approach allows for constant monitoring and updating as well as multiple applications to other conditions and interests.">
+
+        
+                                                    <meta property="og:image" content="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-1x.jpg">
+                <meta name="twitter:image" content="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-1x.jpg">
+                    
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://peerj.com/articles/10261">
+        <meta name="twitter:site" content="@thePeerJ">
+        <meta name="twitter:title" content="Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry">
+        <meta name="twitter:description" content="Clinical trial registries can provide important information about relevant studies for a given condition to other researchers and the public. We developed a computerized informatics based approach to provide an overview and analysis of COVID-19 studies registered on ClinicalTrials.gov registry. Using the perspective of analyzing active or completed COVID-19 studies, we identified 401 interventional clinical trials, 287 observational studies and 64 registries. We analyzed features of each study type separately such as location, design, interventions and update history. Our results show that the United States had the most COVID-19 interventional trials, France had the most COVID-19 observational studies and France and the United States tied for the most COVID-19 registries on ClinicalTrials.gov. The majority of studies in all three study types had a single study site. For update history “Study Status” is the most updated information and we found that studies located in Canada (2.70 updates per study) and the United States (1.76 updates per study) update their studies more often than studies in any other country. Using normalization and mapping techniques, we identified Hydroxychloroquine (92 studies) as the most common drug intervention, while convalescent plasma (20 studies) is the most common biological intervention. The primary purpose of most interventional trials is for treatment with 298 studies (74.3%). For COVID-19 registries we found the most common proposed follow-up time is 1 year (15 studies). Of specific importance and interest is COVID-19 vaccine trials, of which 12 were identified. Our informatics based approach allows for constant monitoring and updating as well as multiple applications to other conditions and interests.">
+
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry">
+        <meta property="og:url" content="https://peerj.com/articles/10261">
+        <meta property="og:site_name" content="PeerJ">
+
+    
+    <link rel="alternate" type="application/pdf" href="/articles/10261.pdf">
+    <link rel="alternate" type="application/rdf+xml" href="/articles/10261.rdf">
+    <link rel="alternate" type="application/json" href="/articles/10261.json">
+    <link rel="alternate" type="application/xml" href="/articles/10261.xml">
+    <link rel="alternate" type="application/unixref+xml" href="/articles/10261.unixref">
+    <link rel="alternate" type="application/vnd.citationstyles.csl+json" href="/articles/10261.citeproc">
+    <link rel="alternate" type="application/bibjson+json" href="/articles/10261.bibjson">
+    <link rel="alternate" type="text/html" href="/articles/10261.html">
+
+    <link rel="canonical" href="https://peerj.com/articles/10261/">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="fb:app_id" content="534542813234464">
+
+                    <style>
+    .legacy-b2-wrap {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #252525;
+        /*background-color: #ffffff;*/
+        box-sizing: unset;
+    }
+
+    .legacy-b2-wrap .activities a.article-title {
+        color: #004ba4 !important;
+    }
+
+    .legacy-b2-wrap .row {
+        margin: unset;
+        display: inherit;
+    }
+</style>
+    <link rel="stylesheet" href="/css/01fda25-05d946e.css" media="screen">
+
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="/assets/css/ie8.css" media="screen">
+<![endif]-->
+
+<!--[if lt IE 10]>
+    <link rel="stylesheet" href="/assets/css/ie9.css" media="screen">
+<![endif]-->
+
+    <style media="screen">html, body { height: 100%; }</style>
+                <link rel="stylesheet" href="https://cdn.peerj.com/06bc6a4/webpack/328.8138f035.css"><link rel="stylesheet" href="https://cdn.peerj.com/06bc6a4/webpack/peerj-app.76ae5544.css">
+    
+
+    <link rel="stylesheet" href="/css/a0c1a2c-78a93c7.css" media="screen">
+
+    <link rel="stylesheet" href="/css/be477b9-dfad01f.css" media="screen">
+            <link rel="stylesheet" href="/css/3e4ba6d-1604405.css" media="print">
+    <script src="/js/f67db00-8264f27.js"></script>
+<script src="/assets/js/mixpanel.js" defer></script>
+
+<script src="/assets/js/polyfills/includes.js"></script>
+<script src="/assets/js/polyfills/startsWith.js"></script><!--[if lt IE 9]>
+<script src="/assets/js/html5shiv.js"></script>
+
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="/assets/js/json2.js"></script>
+<![endif]-->
+
+<script>
+    var PeerJ = {
+        Article: {},
+        User: {
+            anonymous: true        },
+        Publication: {},
+        Production: {},
+        Event: {},
+        Com: {},
+        Payment: {},
+        Annotation: {},
+        Search: {},
+        Home: {},
+        Subjects: {},
+        Advocacy: {},
+        Job: {},
+        ContentAlert: {},
+        Tools: {}
+    };
+</script>
+
+<script type="text/javascript">"use strict";
+
+    function _typeof(t) {
+        return (_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (t) {
+            return typeof t
+        } : function (t) {
+            return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+        })(t)
+    }
+
+    !function () {
+        self.airgap?.ready || (self.airgap = {
+            readyQueue: [], ready(e) {
+                this.readyQueue.push(e)
+            }, ...self.airgap
+        });
+        const e = () => {
+            const e = "__tcfapiLocator", t = [], a = window;
+            let n, s, o = a;
+            for (; o;) {
+                try {
+                    if (o.frames[e]) {
+                        n = o;
+                        break
+                    }
+                } catch (e) {
+                }
+                if (o === a.top) break;
+                o = o.parent
+            }
+            n || (!function t() {
+                const n = a.document, s = !!a.frames[e];
+                if (!s) if (n.body) {
+                    const t = n.createElement("iframe");
+                    t.style.cssText = "display:none", t.name = e, n.body.appendChild(t)
+                } else setTimeout(t, 5);
+                return !s
+            }(), a.__tcfapi = function (...e) {
+                if (!e.length) return t;
+                "setGdprApplies" === e[0] ? e.length > 3 && 2 === parseInt(e[1], 10) && "boolean" == typeof e[3] && (s = e[3], "function" == typeof e[2] && e[2]("set", !0)) : "ping" === e[0] ? "function" == typeof e[2] && e[2]({
+                    gdprApplies: s,
+                    cmpLoaded: !1,
+                    cmpStatus: "stub"
+                }) : t.push(e)
+            }, a.addEventListener("message", (function (e) {
+                const t = "string" == typeof e.data;
+                let a = {};
+                if (t) try {
+                    a = JSON.parse(e.data)
+                } catch (e) {
+                } else a = e.data;
+                const n = "object" == typeof a && null !== a ? a.__tcfapiCall : null;
+                n && window.__tcfapi(n.command, n.version, (function (a, s) {
+                    let o = {__tcfapiReturn: {returnValue: a, success: s, callId: n.callId}};
+                    e && e.source && e.source.postMessage && e.source.postMessage(t ? JSON.stringify(o) : o, "*")
+                }), n.parameter)
+            }), !1))
+        };
+        airgap.ready((t => {
+            "TCF_EU" === t.loadOptions.consentManagerConfig.initialViewStateByPrivacyRegime[t.getRegimes()[0]] && ("undefined" != typeof module ? module.exports = e : e())
+        }))
+    }();</script>
+
+    <script
+            data-cfasync="false"
+            data-local-sync="allow-network-observable"
+            data-prompt="1" data-report-only="off"
+            data-dismissed-view-state="Collapsed"
+            data-tcf-ui-dismissed-view-state="Collapsed"
+            src="https://transcend-cdn.com/cm/ef49a3f1-d8c1-47d6-88fc-50e41130631f/airgap.js"
+    ></script>
+
+<script>
+    PeerJ.Com.GoogleTagManager = (function () {
+        function enable (){
+
+            var tagManagerAccount = 'GTM-KGDWL2J';
+
+                                    
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer',tagManagerAccount);
+
+        }
+
+        function revoke () {
+            var cookies = (document.cookie || '').split('; ');
+            if (!cookies || cookies.length === 0) return;
+
+            // common domain variants to try
+            var domainsToTry = [location.hostname, '.' + location.hostname];
+            // optionally add root domain heuristics if you want (see note below)
+
+            var expire = 'Expires=Thu, 01 Jan 1970 00:00:00 GMT; Path=/;';
+
+            cookies.forEach(function(cookie) {
+                var eq = cookie.indexOf('=');
+                var name = eq > -1 ? cookie.substring(0, eq) : cookie;
+                if (name.indexOf('_ga_') === 0) {
+                    // try deleting with no domain, with hostname and with .hostname
+                    document.cookie = name + '=; ' + expire;
+                    domainsToTry.forEach(function(d) {
+                        try {
+                            document.cookie = name + '=; ' + expire + ' Domain=' + d + '; Path=/;';
+                        } catch (e) {
+                            // ignore invalid domain formats
+                        }
+                    });
+                }
+            });
+        }
+
+        function consentToGoogleTagManager ({consent, enableRevoke = false}) {
+            if (consent) {
+                enable()
+            } else if (!consent && enableRevoke) {
+                revoke()
+            }
+        }
+
+        return {
+            seekConsent: consentToGoogleTagManager
+        }
+    })()
+</script>
+
+
+                    
+    
+    <script>
+        // Run through cookieConsent only
+        PeerJ.Com.GA = new function() {
+            this.disabletracking = function() {
+                window['ga-disable-' + 'UA-31208920-1'] = true;
+
+                var cookies = (document.cookie || '').split('; ');
+                if (!cookies || cookies.length === 0) return;
+
+                // common domain variants to try
+                var domainsToTry = [location.hostname, '.' + location.hostname];
+                // optionally add root domain heuristics if you want (see note below)
+
+                var expire = 'Expires=Thu, 01 Jan 1970 00:00:00 GMT; Path=/;';
+
+                cookies.forEach(function(cookie) {
+                    var eq = cookie.indexOf('=');
+                    var name = eq > -1 ? cookie.substring(0, eq) : cookie;
+                    if (name.indexOf('_ga_') === 0 || name.indexof('_gid') || name.indexof('_gat')) {
+                        // try deleting with no domain, with hostname and with .hostname
+                        document.cookie = name + '=; ' + expire;
+                        domainsToTry.forEach(function(d) {
+                            try {
+                                document.cookie = name + '=; ' + expire + ' Domain=' + d + '; Path=/;';
+                            } catch (e) {
+                                // ignore invalid domain formats
+                            }
+                        });
+                    }
+                });
+            };
+
+            this.runGA = function() {
+                                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+                                ga('create', 'UA\u002D31208920\u002D1', 'auto');
+
+                // Removes last octet
+                ga('set', 'anonymizeIp', true);
+
+                
+                
+                                                ga('set', 'dimension4', ';Clinical\u0020Trials\u003BDrugs\u0020and\u0020Devices\u003BGlobal\u0020Health\u003BInfectious\u0020Diseases\u003BData\u0020Science;');
+                
+                                ga('require', 'displayfeatures');
+
+                                ga('send', 'pageview');
+
+                                                window.setTimeout(function () {
+                    ga('send', 'event', 'adjusted bounce rate', 'page visit 15 seconds or more');
+                }, 15000);
+                
+                                
+                                            }
+
+            this.seekConsent = function({consent, enableRevoke = false}) {
+                if (consent) {
+                    this.runGA()
+                } else if (enableRevoke && !consent) {
+                    this.disabletracking()
+                }
+            }
+        };
+    </script>
+<script type="text/javascript">
+PeerJ.Com.CookieConsent = (function() {
+    var debugConsent = false;
+    var registeredUser = false;
+    var socialAllowCookieName = 'social_allow';
+    var analyticsAllowCookieName = 'analytics_allow';
+    var socialSettingCookie;
+    var analyticsSettingCookie;
+    var countryCode = '';
+    var sessionReferrer = 'pj-ref';
+
+    var euCountries = {
+        'AT': 'Austria',
+        'BE': 'Belgium',
+        'BG': 'Bulgaria',
+        'HR': 'Croatia',
+        'CY': 'Cyprus',
+        'CZ': 'Czech Republic',
+        'DK': 'Denmark',
+        'EE': 'Estonia',
+        'FI': 'Finland',
+        'FR': 'France',
+        'DE': 'Germany',
+        'GR': 'Greece',
+        'HU': 'Hungary',
+        'IE': 'Ireland',
+        'IT': 'Italy',
+        'LV': 'Latvia',
+        'LT': 'Lithuania',
+        'LU': 'Luxembourg',
+        'MT': 'Malta',
+        'NL': 'Netherlands',
+        'PL': 'Poland',
+        'PT': 'Portugal',
+        'RO': 'Romania',
+        'SK': 'Slovakia',
+        'SI': 'Slovenia',
+        'ES': 'Spain',
+        'SE': 'Sweden',
+        'GB': 'United Kingdom'
+    };
+
+    var setCountryCookies = function() {
+        // Set cookie to do check once every 48 hours
+        var expDate = new Date();
+        expDate.setHours(expDate.getHours() + 48);
+
+        $.cookie('pj_country_code', 'unknown', { expires: expDate, path: "/"});
+        $.cookie('pj_is_eu', 'unknown', { expires: expDate, path: "/"});
+
+        $.ajax({
+            type: "GET",
+            url: '/x-country/',
+            cache: false,
+            dataType: "json",
+            success: function(data) {
+                registeredUser = $.cookie("pj_registered");
+
+                var isEuCode = 'unknown';
+                if (data.countryCode) {
+                    var dataCountryCode = data.countryCode;
+
+                    if (euCountries.hasOwnProperty(dataCountryCode)) {
+                        isEuCode = 'y';
+                    } else {
+                        isEuCode = 'n';
+                    }
+
+                    $.cookie('pj_country_code', dataCountryCode, { expires: expDate, path: "/"});
+                    $.cookie('pj_is_eu', isEuCode, { expires: expDate, path: "/"});
+                }
+            }
+        });
+    };
+
+    // // Place all analytics within this consent check
+    // var runAnalytics = function() {
+    //     if (debugConsent) {console.log('running checks');}
+    //     var canRunSocial = false;
+    //     var canRunAnalytics = false;
+    //     var eu = $.cookie("pj_is_eu");
+    //
+    //     if (eu === 'y') {
+    //         // If they are signed up user then they have consented on registration
+    //         if (registeredUser) {
+    //             canRunSocial = true;
+    //             canRunAnalytics = true;
+    //         } else {
+    //             var social = $.cookie(socialAllowCookieName);
+    //             var analytics = $.cookie(analyticsAllowCookieName);
+    //
+    //             if (social === 'y') {
+    //                 canRunSocial = true;
+    //             }
+    //             if (analytics === 'y') {
+    //                 canRunAnalytics = true;
+    //             }
+    //         }
+    //     } else {
+    //         canRunSocial = true;
+    //         canRunAnalytics = true;
+    //     }
+    //
+    //     if (canRunAnalytics) {
+    //         if (debugConsent) {
+    //             console.log('loading analytics');
+    //         }
+    //
+    //         if (typeof PeerJ.Com.GA != 'undefined') {
+    //             $(PeerJ.Com.GA.runGA());
+    //         }
+    //
+    //         if (typeof PeerJ.Com.GoogleTagManager != 'undefined') {
+    //             $(PeerJ.Com.GoogleTagManager.init());
+    //         }
+    //
+    //         // run only if logged out
+    //         if (typeof PeerJ.Com.Mixpanel != 'undefined') {
+    //             $(PeerJ.Com.Mixpanel.leadView());
+    //         }
+    //     }
+    //
+    //     if (canRunSocial) {
+    //         if (debugConsent) {
+    //             console.log('allowing social cookies');
+    //         }
+    //
+    //         if (typeof PeerJ.Com.Social != 'undefined') {
+    //             $(PeerJ.Com.Social.runTwitter());
+    //         }
+    //     }
+    // };
+
+    var init = function() {
+        registeredUser = $.cookie("pj_registered");
+        if (debugConsent) {console.log(registeredUser);}
+
+        // check if country and eu cookie set
+        countryCode = $.cookie("pj_country_code");
+        var euCookieSet = $.cookie("pj_is_eu");
+        if (!countryCode || !euCookieSet) {
+            setCountryCookies();
+        }
+
+        if (!$.cookie('pj-ref')) {
+            $.cookie('pj-ref', document.referrer, { path: '/' });
+        }
+    };
+
+    var deleteNonEssentialCookies = function() {
+        // 'Privacy first' means whitelisting essential cookies, rather than blacklisting (and potentially missing) third-party cookies
+        var essential = [
+            "cookieconsent_status",
+            "PHPSESSID",
+            "meet-new-section-editor",
+            "find-your-section-mar2018",
+            "pj-dimension",
+            "pj-instit",
+            "pj-instit-x",
+            "pj_country_code",
+            "pj_is_eu",
+            'pj-ref',
+            "pub-offer20102014",
+            "peerj_client_id",
+            "pj_logout_id",
+            "peerj_mp_id",
+            "pj_registered",
+            "pj_prereg_campaign",
+            "pj_prereg_content",
+            "pj_prereg_term",
+        ];
+
+        // Get document cookies
+        var cookies = document.cookie.split(";");
+        // Process each cookie
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = $.trim(cookies[i]);
+            if (debugConsent) {console.log(cookie);}
+
+            // Get the cookie name
+            var eqPos = cookie.indexOf("=");
+            var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+
+            // Delete all cookies except those listed in essential
+            if (essential === undefined || essential.length === 0 || essential.indexOf(name) === -1) {
+                if (debugConsent) {console.log('Deleting cookie: ' + name);}
+                document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+            }
+        }
+    }
+
+    return {
+        init: init,
+        deleteNonEssentialCookies: deleteNonEssentialCookies,
+    }
+})()
+
+// $(PeerJ.Com.CookieConsent.init);
+</script><script>
+    PeerJ.Com.metaPixel = (function () {
+        var PIXEL_ID = ''; // keep your templating here
+
+        // Ensure a global manager exists so multiple inclusions won't conflict
+        window._fbqManager = window._fbqManager || {
+            initializedIds: new Set(),
+            consentGranted: false,
+            loadingPromise: null
+        };
+
+        // Detect whether a fbevents script or a loaded fbq exists
+        function isFbeventsPresent() {
+            try {
+                if (window.fbq && window.fbq.callMethod) return true;
+                return !!document.querySelector('script[src*="fbevents.js"]');
+            } catch (e) {
+                return false;
+            }
+        }
+
+        // Inject the official-style shim + async load only if needed.
+        function injectFbeventsIfNeeded() {
+            if (window._fbqManager.loadingPromise) return window._fbqManager.loadingPromise;
+            if (isFbeventsPresent()) {
+                // Already present or fbq already initialized
+                window._fbqManager.loadingPromise = Promise.resolve();
+                return window._fbqManager.loadingPromise;
+            }
+
+            window._fbqManager.loadingPromise = new Promise(function (resolve, reject) {
+                // Minimal safe shim (follows official pattern)
+                (function (f, b, e, v, n, t, s) {
+                    if (f.fbq) {
+                        resolve();
+                        return;
+                    }
+                    n = f.fbq = function () {
+                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+                    };
+                    if (!f._fbq) f._fbq = n;
+                    n.push = n;
+                    n.loaded = true;
+                    n.version = '2.0';
+                    n.queue = [];
+                    t = b.createElement(e);
+                    t.async = true;
+                    t.src = v;
+                    t.id = 'fb-pixel-script';
+                    t.addEventListener('load', function () {
+                        resolve();
+                    });
+                    t.addEventListener('error', function (err) {
+                        reject(new Error('Failed to load fbevents.js'));
+                    });
+                    s = b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s);
+                })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+            });
+
+            return window._fbqManager.loadingPromise;
+        }
+
+        // Initialize pixel (only once per ID)
+        async function initPixelOnce(pixelId) {
+            if (!pixelId) return;
+            pixelId = String(pixelId);
+
+            if (window._fbqManager.initializedIds.has(pixelId)) return; // already initialized
+
+            try {
+                await injectFbeventsIfNeeded();
+
+                if (window.fbq && window.fbq.callMethod) {
+                    // fbq is ready
+                    try {
+                        fbq('init', pixelId);
+                        fbq('track', 'PageView');
+                        window._fbqManager.initializedIds.add(pixelId);
+                    } catch (e) {
+                        console.warn('fbq init/track error', e);
+                    }
+                } else {
+                    // fallback: push to queue on shim
+                    window.fbq = window.fbq || function () {
+                        window.fbq.callMethod ? window.fbq.callMethod.apply(window.fbq, arguments) : window.fbq.queue.push(arguments);
+                    };
+                    window.fbq.queue = window.fbq.queue || [];
+                    window.fbq('init', pixelId);
+                    window.fbq('track', 'PageView');
+                    window._fbqManager.initializedIds.add(pixelId);
+                }
+            } catch (err) {
+                console.warn('Failed to load Meta Pixel script:', err);
+            }
+        }
+
+        // Stop sending events from this manager (we do NOT remove the script)
+        function deactivatePixelManager(pixelId) {
+            // Remove the id from our initialized list so future calls won't re-init automatically
+            if (pixelId) window._fbqManager.initializedIds.delete(String(pixelId));
+            // Mark consent false — our wrapper will refuse to send further events.
+            window._fbqManager.consentGranted = false;
+            location.reload(); // force full page reload to guarantee pixel is deleted
+        }
+
+        function consentToMetaPixel({consent, enableRevoke = false}) {
+            if (consent && !window._fbqManager.consentGranted) {
+                // newly granted
+                window._fbqManager.consentGranted = true;
+
+                initPixelOnce(PIXEL_ID);
+            } else if (enableRevoke && !consent && window._fbqManager.consentGranted) {
+                // revoked
+                deactivatePixelManager(PIXEL_ID);
+            }
+        }
+
+        return {
+            seekConsent: consentToMetaPixel,
+            initPixelOnce: initPixelOnce,
+            deactivatePixelManager: deactivatePixelManager
+        }
+    })()
+</script>
+
+
+<script type="text/javascript">
+    (function () {
+        // Main integration with airgap
+        window.airgap = window.airgap || {
+            ready: function () {
+            }
+        };
+
+        PeerJ.Com.CookieConsent.init()
+
+        // ↓↓↓↓ PUT YOUR COOKIE ETC. CONSENT IN HERE ↓↓↓↓
+        function checkConsent(
+                consent = {Advertising: false, Analytics: false, Functional: false},
+                enableRevoke = false) {
+
+            /**
+             * 1. ensure your service is imported above
+             * 2. ensure it provides a `seekConsent` method (see existing services for examples)
+             * 3. supply the service name and its consent values in the object below.
+             */
+            var services = {
+                'metaPixel': consent.Advertising && consent.Analytics,
+                'GA': consent.Analytics,
+                'GoogleTagManager': consent.Analytics,
+            }
+
+            var keys = Object.keys(services);
+            for (var i = 0; i < keys.length; i++) {
+                var key = keys[i];
+                var value = services[key];
+
+                try {
+                    if (PeerJ.Com.hasOwnProperty(key)) {
+                        PeerJ.Com[key].seekConsent({
+                            consent: value,
+                            enableRevoke: enableRevoke
+                        });
+                    }
+                } catch (e) {
+                    console.warn(e);
+                }
+            }
+
+            if (!consent.Analytics && !consent.Advertising && !consent.Functional) {
+                PeerJ.Com.CookieConsent.deleteNonEssentialCookies()
+            }
+        }
+
+        window.airgap.ready(async function (airgap) {
+            try {
+                await airgap.sync();
+                var consent = await airgap.getConsent();
+
+                checkConsent(consent && consent.purposes)
+
+                try {
+                    airgap.addEventListener('consent-change', async function (d) {
+                        if (!d || !d.detail || !d.detail.changes) return;
+
+                        // Note: many CMPs send only changed purposes — for robustness, fetch consent again
+                        var consent = await airgap.getConsent();
+
+                        checkConsent(consent && consent.purposes, true)
+
+                        // ↓↓↓ MUST GO LAST DO NOT CHECK ANYTHING BELOW THIS SCOPE ↓↓↓
+                        if (window._fbqManager) {
+                            if (!window._fbqManager.consentGranted) {
+                                location.reload()
+                            }
+                        }
+                    });
+                } catch (e) {
+                    console.warn('airgap addEventListener failed', e);
+                }
+            } catch (err) {
+                console.warn('airgap integration failed', err);
+            }
+        });
+    })();
+</script>
+    
+<script>
+    var campaign_keywords = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+    var kw = '';
+    var lastUtms = {};
+    var firstUtms = {};
+    var allUtms = {};
+
+    function campaignParams() {
+        var index;
+        for (index = 0; index < campaign_keywords.length; ++index) {
+            kw = getQueryParam(document.URL, campaign_keywords[index]);
+            if (kw.length) {
+                lastUtms[campaign_keywords[index] + '-last'] = kw;
+                firstUtms[campaign_keywords[index] + '-first'] = kw;
+                allUtms[campaign_keywords[index] + '-all'] = kw;
+            }
+        }
+    }
+
+    function updatePreregCookie(preregCookie, firstUtmKey) {
+        var utmVal = firstUtms[firstUtmKey];
+        if (utmVal) {
+            var existingPreregCampaign = $.cookie(preregCookie);
+            var appendPreregCampaign;
+            if (!existingPreregCampaign) {
+                appendPreregCampaign = utmVal;
+            } else {
+                appendPreregCampaign = existingPreregCampaign + ',' + utmVal;
+
+            }
+            $.cookie(preregCookie, appendPreregCampaign, {expires: 365, path: "/"});
+        }
+    }
+
+    function getQueryParam(url, param) {
+        // Expects a raw URL
+        param = param.replace(/[[]/, "\[").replace(/[]]/, "\]");
+        var regexS = "[\?&]" + param + "=([^&#]*)",
+                regex = new RegExp( regexS ),
+                results = regex.exec(url);
+        if (results === null || (results && typeof(results[1]) !== 'string' && results[1].length)) {
+            return '';
+        } else {
+            return decodeURIComponent(results[1]).replace(/\W/gi, ' ');
+        }
+    }
+
+    function articlePageEvent() {
+        var articleContainer = $('.publication-jsondata');
+        if (articleContainer.length) {
+            var data = articleContainer.data('publication-meta');
+
+            // Must be public
+            if (data.publicationSubjects.length) {
+
+                var eventName = 'Viewed-article';
+                var preprint = data.preprint;
+                if (preprint) {
+                    eventName = 'Viewed-preprint';
+                }
+
+                data['ip-hash'] = '27c47ff7a4e00f7c856dd99c0ea03899';
+                mixpanel.track(eventName, data);
+            }
+        }
+    }
+
+    function sectionListViewEvent() {
+            }
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script>(function(p,u,s,h,x){p.pushpad=p.pushpad||function(){(p.pushpad.q=p.pushpad.q||[]).push(arguments)};h=u.getElementsByTagName('head')[0];x=u.createElement('script');x.async=1;x.src=s;h.appendChild(x);})(window,document,'https://pushpad.xyz/pushpad.js');
+            pushpad('init', 5977, {hostname: 'peerj.com'});
+    </script>
+
+    
+    <link rel="search" type="application/opensearchdescription+xml" href="https://peerj.com/articles/osd.xml" title="PeerJ">
+
+        
+<link rel="apple-touch-icon" sizes="57x57" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/android-icon-192x192.png">
+<link rel="shortcut icon" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/favicon-16x16.png">
+<link rel="manifest" href="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/ms-icon-144x144.png">
+<meta name="msapplication-config" content="https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+        <noscript>
+        <style type="text/css">
+            #wrap {
+                display: block;
+                padding-left: 0;
+                margin-top: 17px;
+            }
+        </style>
+    </noscript>
+</head>
+
+
+<body         class=""
+        data-mp="776a79e14e8f05a81ca92536c83f08b4"
+        data-mp-debug=""
+        data-controllerVars=""
+        data-headerVars='null'
+        data-symfony-route="publication"
+        data-fixed-width="1440px"
+>
+
+
+<div
+        class="legacy-b2-wrap"
+        style="background: none"
+>
+    <div
+            id="wrap"
+            style="background: none"
+                >
+        
+        
+        <div id="nav-pad"></div>
+
+        
+        <div id="MainContent"
+             class="container">
+
+            <noscript class="js-disabled-warning">
+                <div class="alert alert-danger">
+                    <i class="icon icon-warning-sign"></i> Javascript is disabled in your browser. Please <a
+                            href="https://www.enable-javascript.com" target="_blank">enable Javascript</a> to view
+                    PeerJ.
+                </div>
+            </noscript>
+
+            
+    <div class="row publication-jsondata" data-publication-meta="{&quot;publicationId&quot;:&quot;10261&quot;,&quot;Article-section&quot;:&quot;NA&quot;,&quot;journal&quot;:&quot;PeerJ&quot;,&quot;published&quot;:&quot;2020-10-23 07:14:30&quot;,&quot;preprint&quot;:false,&quot;publicationSubjects&quot;:[&quot;Clinical Trials&quot;,&quot;Drugs and Devices&quot;,&quot;Global Health&quot;,&quot;Infectious Diseases&quot;,&quot;Data Science&quot;],&quot;publicationInstitutions&quot;:null,&quot;publicationTop20Institution&quot;:false,&quot;publicationInstitutionPlan&quot;:false}">
+        <!-- Left sidebar -->
+        <div class="span1 article-sidebar">
+            <div class="article-sidebar-left">
+                <div class="sidebar-box sidebar-box--journal">
+                    <a
+                            href="/"
+                            class="sidebar-box--journal-mask"
+                            aria-label="link to journal landing page"
+                    ></a>
+                    <img src="https://d2pdyyx74uypu5.cloudfront.net/images/article/logos/article-logo-peerj.png">
+                </div>
+
+                <div id="btn-view-tweets" class="sidebar-box sidebar-box--tweet" style="display:none;">
+                    <div class="text-center"><span id="tweet-count-container"></span> <img src="/assets/images/landing-pages/social/twitter-x.svg"></div>
+                </div>
+
+                <a aria-label="Link to related research" href="#related-research" class="sidebar-box sidebar-box--related text-center">
+                    Related research
+                    <i class="icon-angle-down"></i>
+                </a>
+
+                <!-- mobile only -->
+                <div class="item-leftside-actions">
+                    <div class="sidebar-box sidebar-box--action js-download-modal-trigger">Download</div>
+
+                                                                                
+                    
+  
+                        
+
+<div class="sidebar-box sidebar-box--social visible-desktop">
+    <div class="sidebar-box--social-title">Share</div>
+    <div class="d-flex">
+        <a aria-label="Share on Bluesky" class="pj-socialism bs-soc" href="https://bsky.app/intent/compose?text&#x3D;PeerJ&#x25;3Cbr&#x25;3E&#x25;3Cbr&#x25;3EComputerized&#x25;20monitoring&#x25;20of&#x25;20COVID-19&#x25;20trials&#x25;2C&#x25;20studies&#x25;20and&#x25;20registries&#x25;20in&#x25;20ClinicalTrials.gov&#x25;20registry&#x25;3Cbr&#x25;3E&#x25;3Cbr&#x25;3Ehttps&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F&#x25;3Cbr&#x25;3E&#x25;3Cbr&#x25;3E&#x25;40peerj.bsky.social" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Bluesky</a>
+        <a aria-label="Share on Facebook" class="pj-socialism fb-soc" href="http://www.facebook.com/sharer/sharer.php?u&#x3D;https&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F&amp;q&#x25;5B0&#x25;5D&#x3D;PeerJ&amp;q&#x25;5B1&#x25;5D&#x3D;Computerized&#x25;20monitoring&#x25;20of&#x25;20COVID-19&#x25;20trials&#x25;2C&#x25;20studies&#x25;20and&#x25;20registries&#x25;20in&#x25;20ClinicalTrials.gov&#x25;20registry&amp;hashtag&#x3D;&#x25;23peerj" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Facebook</a>
+        <a aria-label="Share on X (Twitter)" class="pj-socialism x-soc" href="http://x.com/share?url&#x3D;https&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F&amp;via&#x3D;PeerJLife&amp;text&#x3D;Monitoring&#x25;20of&#x25;20COVID-19&#x25;20studies&amp;related&#x3D;" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">X</a>
+        <a aria-label="Share via Email" class="pj-socialism em-soc" href="/cdn-cgi/l/email-protection#0b34587e69616e687f2d2873384f30596e676e7d6a657f2d2873393e30393b796e786e6a7968632d2873393e30393b7b6a7b6e792d2873393e30393b62652d2873393e30393b5b6e6e79412d6a667b3049646f722d2873384f304864667b7e7f6e7962716e6f2d2873393e30393b666465627f647962656c2d2873393e30393b646d2d2873393e30393b48445d424f263a322d2873393e30393b7f79626a67782d2873393e3039482d2873393e30393b787f7e6f626e782d2873393e30393b6a656f2d2873393e30393b796e6c62787f79626e782d2873393e30393b62652d2873393e30393b4867626562686a675f79626a6778256c647d2d2873393e30393b796e6c62787f79722d2873393e30393b637f7f7b782d2873393e30384a2d2873393e30394d2d2873393e30394d7b6e6e7961256864662d2873393e30394d6a797f6268676e782d2873393e30394d3a3b393d3a2d2873393e30394d" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Email</a>
+    </div>
+</div>
+
+<div class="hidden-desktop sidebar-box--action-container btn-group">
+    <a href="#" style="color: #7a7a7a !important;" class="sidebar-box sidebar-box--action btn-share dropdown-toggle" data-toggle="dropdown">Share</a>
+
+    <ul class="dropdown-menu">
+        <li>
+            <a href="http://twitter.com/share?url&#x3D;https&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F&amp;via&#x3D;PeerJLife&amp;text&#x3D;Monitoring&#x25;20of&#x25;20COVID-19&#x25;20studies&amp;related&#x3D;" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">X</a>
+        </li>
+        <li>
+            <a href="http://www.facebook.com/sharer.php?u&#x3D;https&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Facebook</a>
+        </li>
+        <li>
+            <a href="/cdn-cgi/l/email-protection#be81edcbdcd4dbddca989dc68dfa85ecdbd2dbc8dfd0ca989dc68c8b858c8eccdbcddbdfccddd6989dc68c8b858c8ecedfcedbcc989dc68c8b858c8ed7d0989dc68c8b858c8eeedbdbccf498dfd3ce85fcd1dac7989dc68dfa85fdd1d3cecbcadbccd7c4dbda989dc68c8b858c8ed3d1d0d7cad1ccd7d0d9989dc68c8b858c8ed1d8989dc68c8b858c8efdf1e8f7fa938f87989dc68c8b858c8ecaccd7dfd2cd989dc68c8b858cfd989dc68c8b858c8ecdcacbdad7dbcd989dc68c8b858c8edfd0da989dc68c8b858c8eccdbd9d7cdcaccd7dbcd989dc68c8b858c8ed7d0989dc68c8b858c8efdd2d7d0d7dddfd2eaccd7dfd2cd90d9d1c8989dc68c8b858c8eccdbd9d7cdcaccc7989dc68c8b858c8ed6cacacecd989dc68c8b858dff989dc68c8b858cf8989dc68c8b858cf8cedbdbccd490ddd1d3989dc68c8b858cf8dfcccad7ddd2dbcd989dc68c8b858cf88f8e8c888f989dc68c8b858cf8" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Email</a>
+        </li>
+    </ul>
+</div>
+
+                                    </div>
+
+            </div>
+
+                            <div class="peer-reviewed visible-phone">
+                    <i class="icon-ok"></i> PEER-REVIEWED
+                </div>
+            
+        </div>
+
+        <div id="annotations-sidebar" class="span5"></div>
+
+        <!-- Middle col -->
+        <div id="article-item-middle" class="span7"
+             data-ms-type-entity="articles" data-ms-type-id="research-article" data-ms-type-text="Research-article" data-ms-type-name="Research Article">
+            
+            <div id="article-tweets-container">
+    <div class="row-fluid article-tweets-header">
+        <div class="span9">
+            <h2><em>Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry</em></h2>
+        </div>
+        <div class="span3">
+                            <div class="btn btn-inverse pull-right" id="btn-view-article"><span class="icon-file"></span> View article</div>
+                    </div>
+    </div>
+
+    <div class="tweet-items">
+            </div>
+
+
+</div>
+
+            <div id="article-main-container" data-group="" data-groupId="" data-groupName="">
+                                
+
+                <style>
+                    .editorial-article-notice {
+                        color: #686868;
+                        font-size: 15px;
+                        padding: 12px 18px 11px;
+                    }
+                </style>
+
+                
+                <div class="article-section-breadcrumb">
+                                            <span class="icon-angle-left"></span>
+                        <span><a aria-label="PeerJ, journal landing page" href="/"><em>PeerJ</em></a></span>
+                                    </div>
+
+
+                <div class="hidden-print">
+                    
+                                                <div id="article-collections">
+        <div class="well peerj-paper-well">
+            <div class="row-fluid">
+                <div class="span2">
+                    <img class="article-collection-thumbnail"
+                         src="https://dfzljdn9uc3pi.cloudfront.net/collections/70-thumb.jpg" alt="Coronaviruses and Viral Respiratory Infections thumbnail">
+                </div>
+                <div class="span10">
+                    <div class="article-collection-info">Highlighted in
+                                                    <a href="/collections/70-covid19/" class="article-collection-title">Coronaviruses and Viral Respiratory Infections</a>
+                                                                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                                                        </div>
+
+                <!-- Main article -->
+                <article itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><header class="article-meta front"><h1 class="article-title" itemprop="name headline">Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry</h1>
+<div class="article-authors">
+<span class="contrib" itemscope="itemscope" itemtype="http://schema.org/Person" id="author-1" data-jats-contrib-type="author" data-jats-corresp="yes" itemprop="author"><a href="author-1" rel="author" itemprop="url"><span class="name" itemprop="name"><span class="given-names" itemprop="givenName">Craig S.</span> <span class="surname" itemprop="familyName">Mayer</span></span></a><a class="corresp" href="/cdn-cgi/l/email-protection#ff9c8d9e9698d1929e869a8dcdbf919697d1989089" target="_blank" title="email the corresponding author" data-toggle="tooltip" itemprop="email"><i class="icon-envelope">​</i></a></span>, <span class="contrib" itemscope="itemscope" itemtype="http://schema.org/Person" id="author-2" data-jats-contrib-type="author" itemprop="author"><a href="author-2" rel="author" itemprop="url"><span class="name" itemprop="name"><span class="given-names" itemprop="givenName">Vojtech</span> <span class="surname" itemprop="familyName">Huser</span></span></a></span>
+</div>
+<div id="article-information">
+<div class="article-notes"><div itemscope="itemscope" itemtype="http://schema.org/Organization">
+<span class="article-label-container"> </span><span itemprop="address"><span class="institution">Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH</span>, <span class="addr-line">Bethesda, MD</span>, <span class="country">USA</span></span>
+</div></div>
+<dl class="article-identifiers">
+<dt> DOI</dt>
+<dd>
+<a href="https://doi.org/10.7717/peerj.10261" itemprop="sameAs">10.7717/peerj.10261</a><meta itemprop="sameAs" content="info:doi/10.7717/peerj.10261">
+</dd>
+</dl>
+<dl class="article-dates">
+<dt>Published</dt>
+<dd><time itemprop="datePublished">2020-10-23</time></dd>
+<dt>Accepted</dt>
+<dd><time data-itemprop="dateAccepted">2020-10-07</time></dd>
+<dt>Received</dt>
+<dd><time itemprop="dateCreated">2020-06-18</time></dd>
+</dl>
+<dl class="article-editors">
+<dt>Academic Editor</dt>
+<dd itemprop="editor" itemscope="itemscope" itemtype="http://schema.org/Person"><a itemprop="url" href="editor-1" class="contrib" data-jats-contrib-type="editor"><span class="name" itemprop="name"><span class="given-names" itemprop="givenName">Tatiana</span> <span class="surname" itemprop="familyName">Tatarinova</span></span></a></dd>
+</dl>
+<dl class="article-subjects">
+<dt>Subject Areas</dt>
+<dd>
+<a class="subject" itemprop="about" href="/subjects/?filter=Clinical%20Trials">Clinical Trials</a>, <a class="subject" itemprop="about" href="/subjects/?filter=Drugs%20and%20Devices">Drugs and Devices</a>, <a class="subject" itemprop="about" href="/subjects/?filter=Global%20Health">Global Health</a>, <a class="subject" itemprop="about" href="/subjects/?filter=Infectious%20Diseases">Infectious Diseases</a>, <a class="subject" itemprop="about" href="/subjects/?filter=Data%20Science">Data Science</a>
+</dd>
+<dt>Keywords</dt>
+<dd>
+<span class="kwd" itemprop="keywords">COVID-19</span>, <span class="kwd" itemprop="keywords">Clinical trials</span>, <span class="kwd" itemprop="keywords">Data science</span>
+</dd>
+</dl>
+<dl class="article-license">
+<dt>Copyright</dt>
+<dd>© <span itemprop="copyrightYear">2020</span> <span itemprop="copyrightHolder">Mayer and Huser</span>
+</dd>
+<dt>Licence</dt>
+<dd>
+<span class="license-p">This is an open access article distributed under the terms of the <a class="ext-link" href="https://creativecommons.org/licenses/by/4.0/" rel="license" data-jats-ext-link-type="uri">Creative Commons Attribution License</a>, which permits unrestricted use, distribution, reproduction and adaptation in any medium and for any purpose provided that it is properly attributed. For attribution, the original author(s), title, publication source (PeerJ) and either DOI or URL of the article must be cited.</span>
+</dd>
+</dl>
+<dl class="self-citation">
+<dt>Cite this article</dt>
+<dd>
+<span class="self-citation-authors">Mayer CS, Huser V.</span> <span class="self-citation-year">2020</span>. <span class="self-citation-title">Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry</span>. <span itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="self-citation-journal" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">PeerJ</span></span> <span class="self-citation-volume" itemprop="volumeNumber">8</span></span>:<span class="self-citation-elocation" itemprop="pageStart">e10261</span> <a href="https://doi.org/10.7717/peerj.10261" itemprop="url">https://doi.org/10.7717/peerj.10261</a>
+</dd>
+</dl>
+<div class="alert alert-success view-public-reviews">The authors have chosen to make <a href="/articles/10261/reviews/">the review history of this article</a> public.</div>
+</div>
+<div>
+<h2>Abstract</h2>
+<div class="abstract" itemprop="description">
+<p>Clinical trial registries can provide important information about relevant studies for a given condition to other researchers and the public. We developed a computerized informatics based approach to provide an overview and analysis of COVID-19 studies registered on ClinicalTrials.gov registry. Using the perspective of analyzing active or completed COVID-19 studies, we identified 401 interventional clinical trials, 287 observational studies and 64 registries. We analyzed features of each study type separately such as location, design, interventions and update history. Our results show that the United States had the most COVID-19 interventional trials, France had the most COVID-19 observational studies and France and the United States tied for the most COVID-19 registries on ClinicalTrials.gov. The majority of studies in all three study types had a single study site. For update history “Study Status” is the most updated information and we found that studies located in Canada (2.70 updates per study) and the United States (1.76 updates per study) update their studies more often than studies in any other country. Using normalization and mapping techniques, we identified Hydroxychloroquine (92 studies) as the most common drug intervention, while convalescent plasma (20 studies) is the most common biological intervention. The primary purpose of most interventional trials is for treatment with 298 studies (74.3%). For COVID-19 registries we found the most common proposed follow-up time is 1 year (15 studies). Of specific importance and interest is COVID-19 vaccine trials, of which 12 were identified. Our informatics based approach allows for constant monitoring and updating as well as multiple applications to other conditions and interests.</p>
+</div>
+</div></header><main><div class="body" lang="en">
+<section class="sec" id="intro">
+<h2 class="heading">Introduction</h2>
+<p id="p-1">The purpose of clinical trial registries, among others, is to inform the research community about currently ongoing studies. A registry can also be a sole source of study results for thousands of studies that would otherwise not publish a result article in a journal (<a class="xref xref-bibr" href="https://doi.org/10.1056%2FNEJMsr1907644" title="10-Year update on study results submitted to ClinicalTrials.gov" data-jats-ref-type="bibr" data-jats-rid="ref-12">Zarin et al., 2019</a>). For the current effort to address the COVID-19 epidemic, this function of registries is of great value. The fields of clinical informatics and clinical research informatics have an important role to play in fighting the epidemic (<a class="xref xref-bibr" href="https://doi.org/10.1186%2Fs13040-020-00213-y" title="Ideas for how informaticians can get involved with COVID-19 research" data-jats-ref-type="bibr" data-jats-rid="ref-10">Moore et al., 2020</a>).</p>
+<p id="p-2">We focus on a single registry, ClinicalTrials.gov (CTG), and analyze COVID-19 registered studies. We chose to focus on CTG because it collects a rich set of metadata, supports record updates (<a class="xref xref-bibr" href="https://doi.org/10.1371%2Fjournal.pone.0193088" title="Prevalence of clinical trial status discrepancies: a cross-sectional study of 10,492 trials registered on both ClinicalTrials.gov and the European Union Clinical Trials Register" data-jats-ref-type="bibr" data-jats-rid="ref-7">Fleminger &amp; Goldacre, 2018</a>), allows for basic summary results deposition and studies in CTG make up a large volume of all studies tracked by the World Health Organization registry (<a class="xref xref-bibr" href="https://doi.org/10.1136%2Famiajnl-2012-001501" title="Evaluating adherence to the International Committee of Medical Journal Editors’ policy of mandatory, timely clinical trial registration" data-jats-ref-type="bibr" data-jats-rid="ref-9">Huser &amp; Cimino, 2013</a>). The goal of our study is to demonstrate how automated and clinical research informatics (<a class="xref xref-bibr" href="https://doi.org/10.1197%2Fjamia.M3005" title="Clinical research informatics: challenges, opportunities and definition for an emerging domain" data-jats-ref-type="bibr" data-jats-rid="ref-6">Embi &amp; Payne, 2009</a>) methods can be used to analyze a set of closely related studies, as well as to use general statistical principles to analyze and understand key metrics for studies on a given condition or in a specific clinical domain. The computer code written in R language is open source and available at the project repository.(“regCOVID Project Repository,” 2020; <a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID">https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID</a>) Our project differs from past published analyses of COVID-19 clinical studies (<a class="xref xref-bibr" href="https://doi.org/10.26633%2FRPSP.2020.40" title="Clinical trials on drug repositioning for COVID-19 treatment" data-jats-ref-type="bibr" data-jats-rid="ref-11">Rosa &amp; Santos, 2020</a>; <a class="xref xref-bibr" href="https://doi.org/10.1016%2Fj.cmi.2020.05.019" title="Review of trials currently testing treatment and prevention of COVID-19" data-jats-ref-type="bibr" data-jats-rid="ref-8">Fragkou et al., 2020</a>; <a class="xref xref-bibr" href="https://doi.org/10.23736%2FS0031-0808.20.03958-0" title="The vaccine journey for COVID-19: a comprehensive systematic review of current clinical trials in humans" data-jats-ref-type="bibr" data-jats-rid="ref-3">Checcucci et al., 2020</a>) by not using manual review of study records and instead relying fully on study metadata recorded in the registry.</p>
+<p id="p-3">Unlike manual approaches, our approach of using automation to monitor COVID-19 studies allows for quick and efficient, continuous monitoring of the state of COVID-19 research. Automated queries can provide an instant overview of COVID-19 research. They also allow for computing and visualizing current COVID-19 research trends. Furthermore, the informatics approach we use improves the capability for effective modulation and allows individuals to specifically target the desired information wanted to inform their research decisions (such as on clinical guidelines, and the use of certain interventions). With the gradual publication of COVID-19 study results, this approach also allows for automated detection of registry deposition of basic summary results and the publication of a study result journal article that is clearly tied to a registered COVID-19 trial, study or registry.</p>
+</section>
+<section class="sec" id="materials|methods">
+<h2 class="heading">Materials and Methods</h2>
+<p id="p-4">Our study had two aspects. The first aspect was assuming a journalist perspective and the motivation was whether CTG registry can provide a useful overview of COVID-19 studies without any manual curation. We wanted to demonstrate on a COVID-19 use case whether existing study metadata currently collected by CTG registry are accurate and adequate for a journalist interested in a registry-based picture of COVID-19 research. The methods and results sections address mostly this first aspect.</p>
+<p id="p-5">The second aspect was assuming an informatics or data science perspective and the motivation for this was to apply additional rules, data transformations and heuristics to CTG metadata that could characterize the quality of the registry data and possibly narrow the list of all CTG studies to a smaller set. The critical component of this second informatics aspect was a vision to generalize the fully computerized single disease report to all diseases. The discussion section of this article addresses this second aspect.</p>
+<section class="sec">
+<h3 class="heading">Set of analyzed studies</h3>
+<p id="p-6">We used the Aggregate Analysis of ClincalTrials.gov (AACT), which is a relational database version of CTG data that is created by parsing the XML (Extensible Markup Language) representation of each study (<a class="xref xref-bibr" href="https://aact.ctti-clinicaltrials.org/learn_more" title="Aggregate Analysis of ClinicalTrials.gov (AACT) database" data-jats-ref-type="bibr" data-jats-rid="ref-1">AACT Team, 2020</a>). It is published and maintained by Duke University. AACT data is typically 4 days behind CTG in terms of content or changes, which we deemed as acceptable. We performed separate analyses of COVID-19 studies based on their CTG study type of (1) interventional trials, (2) observational studies, and (3) registry-based studies (we use the term registries) (<a class="xref xref-bibr" href="https://prsinfo.clinicaltrials.gov/definitions.html" title="Definitions" data-jats-ref-type="bibr" data-jats-rid="ref-4">CTG Team, 2020a</a>).</p>
+<p id="p-7">We designed several inclusion criteria to focus only on COVID-19 studies in scope for our analysis. This consisted of first, creating a search strategy based on title or study keywords. We also looked at CTG study metadata to select studies with fields that we considered relevant based on the triggering of quality measures and the connection to the regulatory process.</p>
+<p id="p-8">In terms of keyword and title search strategy, we evaluated three search approaches. The first method involved a search for the presence of keywords in the official title of the study. The keywords used were, “covid”, “sars-cov”, “2019-ncov”, and “coronavirus”. The second method searched for the same keywords in the free text condition field. The third method found studies that had a Medical Subject Heading (MeSH) term for the study of “coronavirus infections”. We limited our search for each method to only include studies first submitted after 27 December 2019 (the date of the official report from Wuhan hospital to the local center for disease control and prevention). For later analysis, we present data for the first search method (with results for all three methods being available on the study repository at <a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID">https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID</a>). The data presented below reflects the search performed on 11 May 2020. The results of the search methods were validated as appropriate COVID-19 studies via the manual review of the titles of a subset of the search results.</p>
+<p id="p-9">In terms of study inclusion criteria based on structured CTG’s study metadata fields we used study status. Study status reflects the progress of the study from “not yet recruiting” to “recruiting” to “completed” (or other statuses such as “terminated” or “suspended”) (<a class="xref xref-bibr" href="https://prsinfo.clinicaltrials.gov/definitions.html" title="Definitions" data-jats-ref-type="bibr" data-jats-rid="ref-4">CTG Team, 2020a</a>). We elected to limit the scope of our analysis to reflect currently ongoing or completed COVID-19 studies. Given this assumption, we excluded studies with “not yet recruiting” study status. Under existing quality assurance rules used by CTG, studies in status “not yet recruiting” do not have to provide the study location (in terms of country) and we considered study country to be essential study metadata. Given our chosen analytical perspective of currently ongoing or completed COVID-19 studies, we excluded studies with an <i>unusual completion</i> status of “terminated”, “suspended”, or “withdrawn”. However, we provide some results for unusually completed COVID-19 studies because when combined with the “Reason for termination” field, such studies may provide important insights.</p>
+</section>
+<section class="sec">
+<h3 class="heading">Analysis</h3>
+<p id="p-10">For all study types, we analyzed a set of study metadata described below. Study metadata specific to a given study type (e.g., those collected only for observational studies or registries) are described in subsequent sections.</p>
+<section class="sec">
+<h4 class="heading">Number of studies over time</h4>
+<p id="p-11">Using the date when the study was first registered on CTG, we counted the number of total studies for each study type on a given date. We created a plot showing the temporal trend over time.</p>
+</section>
+<section class="sec">
+<h4 class="heading">Study sites and country</h4>
+<p id="p-12">Despite the existence of national registries, CTG registry contains studies from many countries. For example, as of 2 June 2020, 61% of recruiting studies were located solely outside the US (according to CTG’s overview page (“Trends, Charts, and Maps—ClinicalTrials.gov”, <a class="uri" href="https://clinicaltrials.gov/ct2/resources/trends">https://clinicaltrials.gov/ct2/resources/trends</a>)). Additional incentive for registration on CTG are FDA rules that require studies submitted in support of new drug applications to FDA to be registered at CTG. Similar requirements of CTG registration also exist from many study funders such as NIH, and journals such as International Committee of Medical Journal Editors (ICMJE) member journals. We analyzed the geographic data for each study by reviewing the location fields in the CTG study record and counted the number of sites and identified the country of their locations. Each study could consequently include one or multiple countries.</p>
+</section>
+<section class="sec">
+<h4 class="heading">Study update activity</h4>
+<p id="p-13">The clinical trial registry allows principal investigators to update the public about study completion, the final number of enrolled participants and basic summary results. High public interest in updates about COVID-19 studies was the main motivation for measuring update activity and study record recency.</p>
+<p id="p-14">We quantified the level of update activity for a study by looking at the number of updates and what fields are updated for a given study after its initial registration. We attempted to classify type of updates into technical updates (e.g., study sites changes) and updates of significant public interest (actual primary completion date or deposition of study results). We also evaluated the recency of the CTG study record by evaluating the number of days between the last update and the current date. Study update data is not available via AACT or the CTG Application Protocol Interface (API) (<a class="xref xref-bibr" href="https://clinicaltrials.gov/api/gui" title="ClinicalTrials.gov—API Home" data-jats-ref-type="bibr" data-jats-rid="ref-5">CTG Team, 2020b</a>). However, information about study updates is available via the CTG website. To obtain this information we wrote an R script to scrape the data into a computable form.</p>
+<p id="p-15">We also evaluated the level of update activity for studies based in each country and found studies from which countries were more active in updating CTG study records.</p>
+</section>
+<section class="sec">
+<h4 class="heading">Study design</h4>
+<p id="p-16">We analyzed CTG metadata pertaining to study design to classify studies. One feature analyzed for all study types was study enrollment (number of participants). CTG allows the reporting of estimated and actual enrollment into the trial. Study record managers can use this mechanism to publicly post updates about the number of enrolled participants.</p>
+</section>
+</section>
+<section class="sec">
+<h3 class="heading">Study type specific analysis</h3>
+<section class="sec">
+<h4 class="heading">Interventional trials</h4>
+<section class="sec">
+<h5 class="heading">Interventional trial specific features</h5>
+<p id="p-17">We analyzed certain features which are specific to interventional trials alone. This includes phase, primary purpose, and number and type of arms.</p>
+</section>
+<section class="sec">
+<h5 class="heading">Intervention type</h5>
+<p id="p-18">For interventional trials specifically we analyzed the intervention types for the collection of COVID-19 studies. To do this we used CTG’s metadata field of intervention type. CTG classifies each intervention as drug, device, biological, procedure, radiation, genetic, dietary supplement, behavioral, combination product, diagnostic test, and other. We counted the number of studies associated with each intervention type. Each study could include one or multiple intervention types. If multiple intervention types were included, we counted each study based on the combination of intervention types associated with the study. For example, NCT04334512, a “Study of Quintuple Therapy to Treat COVID-19 Infection”, included two interventions of type “Drug” (Hydroxychloroquine and Azithromycin) and three interventions of type “Dietary supplement” (Vitamin C, Vitamin D and Zinc). This study was counted exactly once under a composite intervention type that consisted of the alphabetically sorted combination of two types: “dietary supplement|drug”, with the “|” representing the term “and”.</p>
+<p id="p-19">Our analysis of intervention types and names revealed that placebo as an intervention name is often used and captured under type “Drug” or “Biological”. CTG type classification does not include placebo as a separate intervention type, however, we decided to experimentally create it and assign it based on a rule that looked for the term placebo in the intervention name.</p>
+</section>
+<section class="sec">
+<h5 class="heading">Interventions</h5>
+<p id="p-20">Researchers and the public are most interested to see which drugs (or other interventions) are being tested in relation to COVID-19. CTG allows study record administrators to specify intervention using free text and further assign interventions to study arms. Because of the vital importance of interventions and the correct counting of studies using the same intervention, we did implement a limited computerized method of processing free text interventions to achieve some semantic harmonization. After free text string transformations into harmonized intervention terms, we counted the number of studies that included a given intervention. We also evaluated the temporal change in the amount of studies for the most common interventions by showing the number of new studies on a weekly scale (as seen in a figure in the “Results” section).</p>
+<p id="p-21">From prior studies, there is an obvious need to harmonize semantically different interventions expressed as free text across different studies (<a class="xref xref-bibr" href="https://doi.org/10.1177%2F1740774513475849" title="From ClinicalTrials.gov trial registry to an analysis-ready database of clinical trial results" data-jats-ref-type="bibr" data-jats-rid="ref-2">Cepeda, Lobanov &amp; Berlin, 2013</a>). For example, the intervention term “ruxolitinib” can semantically harmonize entries of “Ruxolitinib Oral Tablet” (in study NCT04334044), “Ruxolitinib 10 MG” (NCT04338958) and “Ruxolitinib” (NCT04331665). Initial normalization involved the removal of extra white space and the conversion of each term to lower case. Representing drug dose form was out of scope so further normalization removed commonly occurring dose form terms, such as, “tablet”, “injection”, and “pill”.</p>
+<p id="p-22">Studies with multiple interventions were counted multiple times under each individual intervention. In some cases, the free text string for a single intervention (in the CTG data entry field) specified a combination of several interventions. Our transformation approach in such cases kept the combination as well as expanded the single entry into multiple separate interventions and counted each intervention separately. For example, NCT04334928 has an intervention that includes a combination of Emtricitabine and Tenofovir Disoproxil. In this case the study is counted once for Emtricitabine, once for Tenofovir, and once for the combination of Emtricitabine and Tenofovir. In some cases, the manual mapping reduced the term granularity and used a higher-level term.</p>
+</section>
+<section class="sec">
+<h5 class="heading">COVID-19 vaccine trials</h5>
+<p id="p-23">A segment of COVID-19 interventional trials with high importance and significant public interest are vaccine trials. CTG maintains a hierarchy of intervention types but vaccine as an intervention does not have a designated intervention type and is subsumed under the intervention type “Biological”. Because there is no special vaccine intervention type, our method for finding vaccine trials was based on a string search for the term “vaccine” in the official title of the study. Once we created a COVID-19 vaccine trials subset, we applied on this set the same series of analyses and metrics mentioned above.</p>
+</section>
+</section>
+<section class="sec">
+<h4 class="heading">Observational studies and registries</h4>
+<p id="p-24">Observational studies and registries have metadata features that are not recorded for interventional trials. Such analyzed features were: time perspective and observational model for the set of observational studies and registries. In addition, one feature recorded and analyzed for only registries was follow up time.</p>
+</section>
+</section>
+</section>
+<section class="sec" id="results">
+<h2 class="heading">Results</h2>
+<p id="p-25">We developed a methodology to search and extract metadata on COVID-19 clinical studies. The database is a subset of the AACT database of ClinicalTrials.gov data. The database and result files can be found in our github repository at <a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID">https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID</a>. The repository includes the R code (<a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/regCovid_code_for_analysis.R">https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/regCovid_code_for_analysis.R</a>), with comments explaining how it works, to obtain and analyze the data, as well as all comma separated value (CSV) data files used during the analysis. The repository also includes additional result data files not included in this article but described in the repository documentation. The repository also includes a list of descriptions for each data file (<a class="uri" href="https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html">https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCOVID_data_file_descript.html</a>) for easy use. For example, the files, regCovid_all_studies-a.csv, regCovid_int-a.csv, regCovid_obs-a.csv, and regCovid_registry-a.csv are the lists of all studies, interventional trials, observational studies, and registries generated from search method A respectively. These files include all 64 columns from the AACT studies table, such as NCT ID, official title, start date, primary completion data, and enrollment. The description file has more than 80 entries and provides guidance and descriptions for each included file in the analysis. Also included in the repository is an example of part of the code used in the analysis (<a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/regCovid_example.R">https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/regCovid_example.R</a>) and a quick-start tutorial (<a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/regCovid_Tutorial.md">https://github.com/lhncbc/r-snippets-bmi/blob/master/regCOVID/regCovid_Tutorial.md</a>) that shows users how to easily access and use our code and load the data files into R to review our results and perform their own analysis.</p>
+<p id="p-26">While this paper includes results from the main analysis done on 11 May 2020, the repository report is updated weekly and offers up to date results.</p>
+<section class="sec">
+<h3 class="heading">Set of analyzed studies</h3>
+<section class="sec">
+<h4 class="heading">Search strategy</h4>
+<p id="p-27">We found that the first search method, using the official title of the study, was the most comprehensive and included the most COVID-19 studies. The numbers listed below reflect only the search strategy and not applying the criteria based on study status. As of 11 May 2020, the first search method returned a total of 1,302 studies. The second search method, based on the free text condition field, found fewer records (1,165 studies). The third method based on the MeSH term, returned 328 studies. The significant difference in the studies captured in the third search strategy is likely due to the fact, that there is no specific MeSH term for COVID-19 at this point and the MeSH condition field is not required and is left blank for many studies (38.2% of studies captured in the first search method left MeSH condition term blank).</p>
+<p id="p-28">We then applied metadata inclusion criteria (studies that are active, recruiting or completed and are not expanded access). This reduced the set for the first search method to 752 studies, the set from the second search method to 680 studies, and the set from the third search method to 210 studies.</p>
+<p id="p-29">This led us to select the set of COVID-19 studies generated from the first, most comprehensive search method, based on study title.</p>
+</section>
+<section class="sec">
+<h4 class="heading">Final study set</h4>
+<p id="p-30">In terms of completion and presence of results, 48 studies in the final set were completed at the time of this analysis. None have provided summary results to this point. It is important to note that studies are typically required to submit results within 1 year after the primary completion date (“FDAAA 801 and the Final Rule—ClinicalTrials.gov”, <a class="uri" href="https://clinicaltrials.gov/ct2/manage-recs/fdaaa">https://clinicaltrials.gov/ct2/manage-recs/fdaaa</a>). Also, at the time of the analysis, 106 studies have past their primary completion date (12 studies when using primary completion day + 30 days) declared in the latest study record and have a status that indicates the study is still ongoing. This indicates that the record is possibly not kept current. Administrators do typically have 30 days after a status change to update the record (see 42 Code of Federal Regulation [CFR] 11.64(a)(1)(ii)) (“Frequently Asked Questions—ClinicalTrials.gov”, <a class="uri" href="https://clinicaltrials.gov/ct2/manage-recs/faq#updatesToCT">https://clinicaltrials.gov/ct2/manage-recs/faq#updatesToCT</a>). In an extreme case, 20 studies of those 106 studies have a status of “not yet recruiting” and are past their primary completion date.</p>
+<p id="p-31">To understand how our metadata study inclusion criteria affects the final set, we briefly analyzed the set of studies excluded due to our study metadata criteria. The studies removed due to metadata included 516 studies that were not yet recruiting, 10 that were withdrawn, five that were suspended and two that were terminated. The reasons for termination of the two studies were “We cannot meet number of subjects as recently published similar studies” for NCT04357535 and “The epidemic of COVID-19 has been controlled well in China, no eligible patients can be enrolled at present” for NCT04257656. The interventions of the terminated studies were ACE-I (angiotensin-converting enzyme inhibitors) and ARB (angiotensin receptor blocker) for the former and Remdesivir for the latter. Our study type criteria also excluded 17 studies with a study type of “Expanded access”.</p>
+</section>
+</section>
+<section class="sec">
+<h3 class="heading">Studies over time</h3>
+<p id="p-32"><a class="xref xref-fig" href="#fig-1" data-jats-ref-type="fig" data-jats-rid="fig-1">Figure 1</a> shows the number of registered studies over time by study type. Interventional trials are most numerous. An important regulatory consideration is that, in the US, applicable interventional clinical trials are required to register, while registration of observational studies and registries is optional. When considering the submission date, the first interventional trial, and the first study overall, was submitted to CTG on 23 January 2020, while the first observational study was submitted on 26 January 2020 and the first registry was not submitted until 12 March 2020.</p>
+<figure class="fig" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" id="fig-1"><div class="image-container"><a href="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-2x.jpg" title="View the full image" class="fresco" data-fresco-caption="Figure 1: Studies over time by study type." data-fresco-group="figure" data-fresco-options="fit: 'width', ui: 'outside', thumbnails: false, loop: true, position: true, overflow: true, preload: false"><img class="graphic" src="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-1x.jpg" itemprop="contentUrl" sizes="(min-width: 1200px) 581px, (max-width: 1199px) and (min-width: 980px) 462px, (max-width: 979px) and (min-width: 768px) 347px, (max-width: 767px) calc(100vw - 50px)" srcset="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-2x.jpg 1200w, https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-1x.jpg 600w, https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-small.jpg 355w" data-image-id="fig-1" alt="Studies over time by study type." data-full="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-full.png" data-thumb="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-thumb.jpg" data-original="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1.png" data-image-type="figure" data-jats-mimetype="image" data-jats-mime-subtype="png" width="600" height="424"></a></div>
+<figcaption itemprop="description">
+<h4 class="heading">
+<span class="caption-label">Figure 1: </span>Studies over time by study type.</h4>
+<div class="figcaption-footer">
+<div class="article-image-download"><a href="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-1-full.png" class="btn btn-mini" download="peerj-10261-fig-1.png" itemprop="url"><i class="icon-large icon-picture"> </i> Download full-size image</a></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/fig-1" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/fig-1</a>
+</div>
+</div></figcaption></figure>
+</section>
+<section class="sec">
+<h3 class="heading">Analysis by study type</h3>
+<section class="sec">
+<h4 class="heading">Interventional trials</h4>
+<p id="p-33">We identified a total of 401 COVID-19 interventional trials from CTG. These 401 studies included a total of 1,666 interventions.</p>
+<section class="sec">
+<h5 class="heading">Study sites and country</h5>
+<p id="p-34">The majority of interventional trials had just one study site (259 studies, 64.6%%). A total of 41 studies had two sites and 18 studies had three sites, the second and third highest study counts. The study with the most sites was NCT04292730 (“Study to Evaluate the Safety and Antiviral Activity of Remdesivir in Participants With Moderate Coronavirus Disease (COVID-19) Compared to Standard of Care Treatment”) with 183 sites.</p>
+<p id="p-35">As for country of operation, <a class="xref xref-table" href="#table-1" data-jats-ref-type="table" data-jats-rid="table-1">Table 1</a> shows the count of interventional trials by the country or countries that have at least one site that is part of the study.</p>
+<figure class="table-wrap" id="table-1"><div class="caption">
+<span class="caption-label">Table 1: </span>
+<div class="title">List of countries where COVID-19 interventional trials are conducted.</div>
+</div>
+
+
+
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Country</th>
+<th>Study count</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>United States</td>
+<td>121</td>
+<td>30.2</td>
+</tr>
+<tr>
+<td>China</td>
+<td>49</td>
+<td>12.2</td>
+</tr>
+<tr>
+<td>France</td>
+<td>42</td>
+<td>10.5</td>
+</tr>
+<tr>
+<td>Spain</td>
+<td>23</td>
+<td>5.7</td>
+</tr>
+<tr>
+<td>Italy</td>
+<td>19</td>
+<td>4.7</td>
+</tr>
+<tr>
+<td>Brazil</td>
+<td>10</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>Canada</td>
+<td>10</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>Islamic Republic of Iran</td>
+<td>10</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>Germany</td>
+<td>8</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>Mexico</td>
+<td>8</td>
+<td>2.00</td>
+</tr>
+</tbody>
+</table></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/table-1" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/table-1</a>
+</div>
+</figure>
+<p id="p-36">The vast majority of studies 385 (96.0%) only included sites in a single country. <a class="xref xref-table" href="#table-1" data-jats-ref-type="table" data-jats-rid="table-1">Table 1</a> results indicate that the most common country for interventional trials was the United States with 121 studies (30.2%) followed by China with 49 studies (12.2%).</p>
+</section>
+<section class="sec">
+<h5 class="heading">Update activity</h5>
+<p id="p-37">We evaluated the amount of interventional trials that had updates after the study was first submitted to CTG (full update data are available in a report and as Comma Separated Value (CSV) files in the study github repository) (“regCOVID,” 2020, <a class="uri" href="https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html">https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html</a>). At the time of the analysis, 71.1% (285 studies) of the 401 interventional trials show the presence of at least one update since first being submitted to CTG. The study with the most updates was NCT04280705, “Adaptive COVID-19 Treatment Trial (ACTT)” with 18 updates. The most common public interest and overall feature updated for COVID-19 interventional trials was “Study Status”, which was updated 643 times including at least once by each of the 285 studies that had at least one update. Other commonly updated public interest fields include “Recruitment Status” (212 updates from 199 studies) and “Outcome Measures” (137 updates from 108 studies). The second most commonly updated field overall, and most common technical field, was “Contacts/Locations”, which was updated 393 times by 223 studies. Using 11 May 2020 as the current date, we also looked at the amount of days since last update to evaluate how current the existing CTG record is and found that the average amount of days since the last update is 20.6 days for all COVID-19 interventional trials.</p>
+<p id="p-38"><a class="xref xref-table" href="#table-2" data-jats-ref-type="table" data-jats-rid="table-2">Table 2</a> shows the amount of updates by studies in each country and the ratio of the number of updates compared to the number of studies in a given country. The table is limited to countries with at least eight studies. The country with the highest update rate is Canada with 2.70 updates per study, followed by the United States with 1.76 updates per study.</p>
+<figure class="table-wrap" id="table-2"><div class="caption">
+<span class="caption-label">Table 2: </span>
+<div class="title">Number of updates per study by country (for countries with at least 8 COVID-19 interventional trials).</div>
+</div>
+
+
+
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Country</th>
+<th>Total updates</th>
+<th>Study count</th>
+<th>Changes per study</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Canada</td>
+<td>27</td>
+<td>10</td>
+<td>2.70</td>
+</tr>
+<tr>
+<td>United States</td>
+<td>213</td>
+<td>121</td>
+<td>1.76</td>
+</tr>
+<tr>
+<td>Germany</td>
+<td>14</td>
+<td>8</td>
+<td>1.75</td>
+</tr>
+<tr>
+<td>Brazil</td>
+<td>17</td>
+<td>10</td>
+<td>1.70</td>
+</tr>
+<tr>
+<td>Spain</td>
+<td>38</td>
+<td>23</td>
+<td>1.65</td>
+</tr>
+<tr>
+<td>China</td>
+<td>65</td>
+<td>49</td>
+<td>1.33</td>
+</tr>
+<tr>
+<td>France</td>
+<td>53</td>
+<td>42</td>
+<td>1.26</td>
+</tr>
+<tr>
+<td>Iran</td>
+<td>12</td>
+<td>10</td>
+<td>1.20</td>
+</tr>
+<tr>
+<td>Mexico</td>
+<td>7</td>
+<td>8</td>
+<td>0.88</td>
+</tr>
+<tr>
+<td>Italy</td>
+<td>13</td>
+<td>19</td>
+<td>0.68</td>
+</tr>
+</tbody>
+</table></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/table-2" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/table-2</a>
+</div>
+</figure>
+</section>
+<section class="sec">
+<h5 class="heading">Study design and interventional trial specific features</h5>
+<p id="p-39"><i>Study phase and size:</i> Considering study phase and study size (or enrollment; number of participants), <a class="xref xref-table" href="#table-3" data-jats-ref-type="table" data-jats-rid="table-3">Table 3</a> shows the counts of studies and percentage by study phase, as well as study size indicators: 1st quartile, median, and 3rd quartile for the participants enrolled (either actual or anticipated) for the set of studies of each phase.</p>
+<figure class="table-wrap" id="table-3"><div class="caption">
+<span class="caption-label">Table 3: </span>
+<div class="title">Overview of studies by study phase and number of participants (study size).</div>
+</div>
+
+
+
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Study count</th>
+<th>Percentage</th>
+<th>1st Qu.</th>
+<th># of participants: median (IQR)<a class="xref xref-fn" href="#table-3fn1" data-jats-ref-type="fn" data-jats-rid="table-3fn1">*</a>
+</th>
+<th>3rd Qu.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N/A</td>
+<td>111</td>
+<td>27.7</td>
+<td>49.5</td>
+<td>120</td>
+<td>330</td>
+</tr>
+<tr>
+<td>Early Phase 1</td>
+<td>7</td>
+<td>1.7</td>
+<td>10</td>
+<td>10</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Phase 1</td>
+<td>17</td>
+<td>4.2</td>
+<td>20</td>
+<td>40</td>
+<td>54</td>
+</tr>
+<tr>
+<td>Phase 1/Phase 2</td>
+<td>23</td>
+<td>5.7</td>
+<td>20</td>
+<td>72</td>
+<td>190</td>
+</tr>
+<tr>
+<td>Phase 2</td>
+<td>108</td>
+<td>26.9</td>
+<td>60</td>
+<td>145</td>
+<td>273.75</td>
+</tr>
+<tr>
+<td>Phase 2/Phase 3</td>
+<td>34</td>
+<td>8.5</td>
+<td>108</td>
+<td>269.5</td>
+<td>433.5</td>
+</tr>
+<tr>
+<td>Phase 3</td>
+<td>74</td>
+<td>18.5</td>
+<td>245</td>
+<td>500</td>
+<td>1215</td>
+</tr>
+<tr>
+<td>Phase 4</td>
+<td>27</td>
+<td>6.7</td>
+<td>83</td>
+<td>200</td>
+<td>450</td>
+</tr>
+</tbody>
+</table></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/table-3" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/table-3</a>
+</div>
+<div class="table-wrap-foot">
+<div class="fn" id="table-3fn">
+<p id="p-40"><b>Note:</b></p>
+</div>
+<div class="fn" id="table-3fn1" data-jats-fn-type="other">
+<a class="article-label">*</a>
+<span class="p">IQR is interquartile range (1st quartile [25th percentile] and 3rd quartile [75th percentile]).</span>
+</div>
+</div>
+</figure>
+<p id="p-42"><a class="xref xref-table" href="#table-3" data-jats-ref-type="table" data-jats-rid="table-3">Table 3</a> shows that the phase with the most studies is N/A with 111 studies (27.7%), which represents studies of intervention type device or behavioral. The second most common phase is Phase 2 with 108 studies (26.9%). Unsurprisingly the phase with the highest enrollment is Phase 3 with a median of 500 participants, while the lowest enrollment is Early Phase 1 with a median enrollment of 10 participants.</p>
+<p id="p-43"><i>Arms:</i> Considering number of study arms, most interventional trials have two arms (245 studies, 61.1%), while 73 studies (18.2%) have just one arm.</p>
+<p id="p-44"><i>Primary purpose:</i> Considering study primary purpose, <a class="xref xref-table" href="#table-4" data-jats-ref-type="table" data-jats-rid="table-4">Table 4</a> presents the breakdown into 8 purpose categories. In 298 (74.3%) of the analyzed COVID-19 interventional trials, the primary purpose was treatment. For 41 (10.2%) the primary purpose was prevention.</p>
+<figure class="table-wrap" id="table-4"><div class="caption">
+<span class="caption-label">Table 4: </span>
+<div class="title">Primary purpose of COVID-19 interventional trials.</div>
+</div>
+
+
+
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Primary purpose</th>
+<th>Study count</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Treatment</td>
+<td>298</td>
+<td>74.3</td>
+</tr>
+<tr>
+<td>Prevention</td>
+<td>41</td>
+<td>10.2</td>
+</tr>
+<tr>
+<td>Other</td>
+<td>19</td>
+<td>4.7</td>
+</tr>
+<tr>
+<td>Supportive Care</td>
+<td>17</td>
+<td>4.2</td>
+</tr>
+<tr>
+<td>Diagnostic</td>
+<td>15</td>
+<td>3.7</td>
+</tr>
+<tr>
+<td>Health Services Research</td>
+<td>7</td>
+<td>1.7</td>
+</tr>
+<tr>
+<td>Basic Science</td>
+<td>2</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>Screening</td>
+<td>2</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/table-4" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/table-4</a>
+</div>
+</figure>
+<p id="p-45"><i>Arm type:</i> CTG allows study managers to specify the type of each study arm. Each study arm is named and is classified as a specified arm type. Each study could have one or multiple arms of the same type. For example, NCT04321993, “Treatment of Moderate to Severe Coronavirus Disease in Hospitalized Patients”, has three arms of type “Experimental” and one arm of type “No Intervention”. One arm in this study has patients receiving an intervention of Lopinavir/Ritonavir, the second has patients receiving an intervention of Hydroxychloroquine, and the third has patients receiving an intervention of Barictinib. This study also has a fourth arm of patients receiving no intervention.</p>
+<p id="p-46">Considering types of all COVID-19 interventional trials, we found that the most common arm type is “Experimental”, which appears 489 times. <a class="xref xref-table" href="#table-5" data-jats-ref-type="table" data-jats-rid="table-5">Table 5</a> shows the complete data for arm type in the set of 401 interventional trials.</p>
+<figure class="table-wrap" id="table-5"><div class="caption">
+<span class="caption-label">Table 5: </span>
+<div class="title">Count of the number of arms by arm type.</div>
+</div>
+
+
+
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Arm type</th>
+<th>Arm count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Experimental</td>
+<td>489</td>
+</tr>
+<tr>
+<td>Active Comparator</td>
+<td>160</td>
+</tr>
+<tr>
+<td>Placebo Comparator</td>
+<td>118</td>
+</tr>
+<tr>
+<td>No Intervention</td>
+<td>87</td>
+</tr>
+<tr>
+<td>Other</td>
+<td>43</td>
+</tr>
+<tr>
+<td>Sham Comparator</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/table-5" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/table-5</a>
+</div>
+</figure>
+<p id="p-47">Different diseases at different maturity of clinical research may be employing a different design, such as the inclusion of a placebo or active comparator. We calculated the placebo index, which is the percentage of interventional trials that have a placebo or sham comparator arm. Each study can have one or multiple arms that are assigned a placebo comparator. For our set of COVID-19 studies, the placebo index was 28.7% (115 of 401 total trials). We also calculated the active comparator index, which is the percentage of trials with at least one active comparator arm, and found that 28.9% (116 trials) have at least one active comparator arm.</p>
+</section>
+<section class="sec">
+<h5 class="heading">Intervention type</h5>
+<p id="p-48"><a class="xref xref-table" href="#table-6" data-jats-ref-type="table" data-jats-rid="table-6">Table 6</a> shows the count of studies by intervention type. Intervention type “Drug” is the most common (137 studies [34.2%]). The combination of drug and placebo intervention type was the second most prevalent with 75 studies (18.7%). Biological was the next most prevalent type with 32 studies (8.0%). Based on our methodology for classifying intervention types, each study can be counted only under one composite intervention type.</p>
+<figure class="table-wrap" id="table-6"><div class="caption">
+<span class="caption-label">Table 6: </span>
+<div class="title">Count of intervention types included in interventional trials.</div>
+</div>
+
+
+
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Composite intervention type</th>
+<th>Study count</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Drug</td>
+<td>137</td>
+<td>34.2</td>
+</tr>
+<tr>
+<td>Drug|Placebo</td>
+<td>75</td>
+<td>18.7</td>
+</tr>
+<tr>
+<td>Biological</td>
+<td>32</td>
+<td>8.0</td>
+</tr>
+<tr>
+<td>Other</td>
+<td>31</td>
+<td>7.7</td>
+</tr>
+<tr>
+<td>Device</td>
+<td>22</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>Drug|Other</td>
+<td>22</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>Behavioral</td>
+<td>12</td>
+<td>3.0</td>
+</tr>
+<tr>
+<td>Biological|Placebo</td>
+<td>12</td>
+<td>3.0</td>
+</tr>
+<tr>
+<td>Diagnostic Test</td>
+<td>10</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>Procedure</td>
+<td>8</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>All Other Types<a class="xref xref-fn" href="#table-6fn1" data-jats-ref-type="fn" data-jats-rid="table-6fn1">*</a>
+</td>
+<td>40</td>
+<td>10.0</td>
+</tr>
+</tbody>
+</table></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/table-6" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/table-6</a>
+</div>
+<div class="table-wrap-foot">
+<div class="fn" id="table-6fn">
+<p id="p-49"><b>Note:</b></p>
+</div>
+<div class="fn" id="table-6fn1" data-jats-fn-type="other">
+<a class="article-label">*</a>
+<span class="p">This row combines rare Composite Intervention Types, such as “Drug|Biological”, “Dietary Supplement”, or “Device|Procedure” (see repository report for full table of intervention types) (“r-snippets-bmi/regCOVID at master · lhncbc/r-snippets-bmi”).</span>
+</div>
+</div>
+</figure>
+</section>
+<section class="sec">
+<h5 class="heading">Interventions</h5>
+<p id="p-51">There were a total of 449 distinct interventions listed prior to the implementation of our normalization and mapping process. Once the interventions were mapped the amount of normalized interventions was reduced to 403. The full mapping is available at the study repository (file: intervention_map2.xlsx) (“regCOVID Project Repository,” 2020; <a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID">https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID</a>). <a class="xref xref-table" href="#table-7" data-jats-ref-type="table" data-jats-rid="table-7">Table 7</a> shows the most common interventions used in COVID-19 interventional trials. Given our counting methodology for interventions, each study can be counted multiple times in <a class="xref xref-table" href="#table-7" data-jats-ref-type="table" data-jats-rid="table-7">Table 7</a> because combined interventions are expanded into their components as well as kept as a combination. The most common drug intervention was Hydroxychloroquine with 92 studies, followed by Azithromycin with 24 studies. The two (Hydroxychloroquine and azithromycin) appeared together four times. The most common combination intervention was Lopinavir/Ritonavir with 16 studies. We also found the presence of interventions most likely listed as a comparator or a non-intervention group, rather than a specific intervention. This is seen as 99 studies have placebo listed as an intervention while another 40 studies have standard care listed.</p>
+<figure class="table-wrap" id="table-7"><div class="caption">
+<span class="caption-label">Table 7: </span>
+<div class="title">Most frequent interventions by study count (with a minimum study count of 13).</div>
+</div>
+
+
+
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Intervention type</th>
+<th>Intervention</th>
+<th>Study count</th>
+<th>Date when first appeared</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Placebo</td>
+<td>Placebo</td>
+<td>99</td>
+<td>20-Februay-2020</td>
+</tr>
+<tr>
+<td>Drug</td>
+<td>Hydroxychloroquine</td>
+<td>92</td>
+<td>06-February-2020</td>
+</tr>
+<tr>
+<td>Other</td>
+<td>Standard care</td>
+<td>40</td>
+<td>23-January-2020</td>
+</tr>
+<tr>
+<td>Drug</td>
+<td>Azithromycin</td>
+<td>24</td>
+<td>23-March-2020</td>
+</tr>
+<tr>
+<td>Drug</td>
+<td>Ritonavir</td>
+<td>24</td>
+<td>28-January-2020</td>
+</tr>
+<tr>
+<td>Drug</td>
+<td>Tocilizumab</td>
+<td>21</td>
+<td>09-March-2020</td>
+</tr>
+<tr>
+<td>Biological</td>
+<td>Convalescent plasma</td>
+<td>20</td>
+<td>23-March-2020</td>
+</tr>
+<tr>
+<td>Drug</td>
+<td>Lopinavir</td>
+<td>20</td>
+<td>28-January-2020</td>
+</tr>
+<tr>
+<td>Drug</td>
+<td>Lopinavir/Ritonavir</td>
+<td>16</td>
+<td>30-January-2020</td>
+</tr>
+<tr>
+<td>Drug</td>
+<td>Chloroquine</td>
+<td>13</td>
+<td>19-March-2020</td>
+</tr>
+</tbody>
+</table></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/table-7" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/table-7</a>
+</div>
+</figure>
+<p id="p-52">As for non-drug interventions, the most common biological is convalescent plasma with 20 studies. Other leading interventions for different types (not shown in <a class="xref xref-table" href="#table-7" data-jats-ref-type="table" data-jats-rid="table-7">Table 7</a>) include oxygen supplying equipment for device with six studies and Vitamin C for dietary supplements with four studies. We also found that the same intervention can be listed as different intervention types. For example, convalescent plasma was listed for 14 studies as the intervention type biological, three times as other and three times as drug. We combined each intervention to count as the most commonly used intervention type when counting the intervention. For this case of convalescent plasma, that would count as 20 studies and categorize convalescent plasma as having the type biological.</p>
+<p id="p-53"><i>Interventions over time:</i> We also evaluated the temporal change for the most common interventions by analyzing the amount of new studies weekly for the most common interventions as seen in <a class="xref xref-fig" href="#fig-2" data-jats-ref-type="fig" data-jats-rid="fig-2">Fig. 2</a>.</p>
+<figure class="fig" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" id="fig-2"><div class="image-container"><a href="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-2x.jpg" title="View the full image" class="fresco" data-fresco-caption="Figure 2: Plot of new studies weekly for selected frequent COVID-19 interventions over time." data-fresco-group="figure" data-fresco-options="fit: 'width', ui: 'outside', thumbnails: false, loop: true, position: true, overflow: true, preload: false"><img class="graphic" src="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-1x.jpg" itemprop="contentUrl" sizes="(min-width: 1200px) 581px, (max-width: 1199px) and (min-width: 980px) 462px, (max-width: 979px) and (min-width: 768px) 347px, (max-width: 767px) calc(100vw - 50px)" srcset="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-2x.jpg 1200w, https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-1x.jpg 600w, https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-small.jpg 355w" data-image-id="fig-2" alt="Plot of new studies weekly for selected frequent COVID-19 interventions over time." data-full="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-full.png" data-thumb="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-thumb.jpg" data-original="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2.png" data-image-type="figure" data-jats-mimetype="image" data-jats-mime-subtype="png" width="600" height="477"></a></div>
+<figcaption itemprop="description">
+<h6 class="heading">
+<span class="caption-label">Figure 2: </span>Plot of new studies weekly for selected frequent COVID-19 interventions over time.</h6>
+<div class="figcaption-footer">
+<div class="article-image-download"><a href="https://dfzljdn9uc3pi.cloudfront.net/2020/10261/1/fig-2-full.png" class="btn btn-mini" download="peerj-10261-fig-2.png" itemprop="url"><i class="icon-large icon-picture"> </i> Download full-size image</a></div>
+<div class="object-id article-component-doi">DOI: <a href="https://doi.org/10.7717/peerj.10261/fig-2" data-toggle="tooltip" title="Cite this object using this DOI">10.7717/peerj.10261/fig-2</a>
+</div>
+</div></figcaption></figure>
+<p id="p-54">The plot shows how most interventions, including the most common intervention of hydroxychloroquine, peak in new weekly studies in early April. The plot also shows the later emergence of other interventions, such as convalescent plasma (shown in green).</p>
+</section>
+<section class="sec">
+<h5 class="heading">COVID-19 vaccine interventional trials</h5>
+<p id="p-55">Our search method for vaccine trial intervention type studies identified 12 COVID-19 vaccine trials, that also met our inclusion criteria of being active, recruiting or completed. Due to their high significance and increased public interest, it is interesting to consider how frequently such trials are updated. A total of nine trials (75.0% of the 12 vaccine trials) have at least one update and the median amount of updates is two. Considering the study country, six different countries have at least one vaccine trial, with China (five vaccine trials) having the most, followed by the US with three trials. Five of the trials were Phase 1, six were Phase 1/Phase 2 and one was Phase 2. Of note is the fact that Phase 1 trials are not “applicable clinical trials” (as defined in US regulations) and such trials have no mandatory registration (“FDAAA 801 and the Final Rule—ClinicalTrials.gov”, <a class="uri" href="https://clinicaltrials.gov/ct2/manage-recs/fdaaa">https://clinicaltrials.gov/ct2/manage-recs/fdaaa</a>). Exactly half of vaccine interventional trials (six trials) had more than one site. As for design, the average number of arms was 5.4 with a median overall trial enrollment of 119.5 participants. The 12 vaccine interventional trials also included 52 experimental arms and seven placebo comparator arms. The full overview of all metadata parameters for vaccine trials (as well as for observational studies and registries described in subsequent sections) is available at the study repository (“regCOVID,” 2020, <a class="uri" href="https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html">https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html</a>).</p>
+</section>
+</section>
+<section class="sec">
+<h4 class="heading">Observational studies</h4>
+<p id="p-56">We found a total of 287 observational studies. Similarly, to interventional trials, the vast majority of observational studies had just one site (238 studies, 82.9%). The country with the most observational studies was France with 75 (26.1%), followed by the United States with 47 (16.4%). Observational studies are updated less frequently than interventional trials as only 52.6% (151 studies) of the COVID-19 observational studies have been updated since first being submitted to CTG (compared to the 71.1% of interventional trials that have been updated at least once). The observational study with the most updates was NCT04334954 “SARS-COV2 Pandemic Serosurvey and Blood Sampling” with 25 updates since registration on 6 April 2020. The most commonly updated public interest feature for observational studies was the “Study Status” which was updated 270 times by 151 studies and the most common technical feature updated was “Contacts/Locations” with 99 updates from 83 studies.</p>
+<p id="p-57">The median enrollment for observational studies was 353 participants. One feature of observational study design is the time perspective. A majority of the observational studies analyzed were prospective (180 studies, 62.7%), as opposed to 58 studies (20.2%) which were retrospective. For observational model, 167 of the observational studies (58.2%) use a cohort model. The second most commonly used model for the analyzed observational studies was case (45 studies, 15.7%).</p>
+<p id="p-58">Contrary to our expectation, we found observational studies that included interventions in their CTG record. Of the 287 observational studies, 179 (62.4%) listed something in the free-text intervention field. However, this number is misleading as in many cases the listed intervention was something that stated that there was no intervention (such as “no intervention”, “observation”, “non-interventional”, etc.). Of the listed interventions most are listed as intervention type “Other” (86 studies, 30.0%) or “Diagnostic Test” (34, 11.9%).</p>
+</section>
+<section class="sec">
+<h4 class="heading">Registries</h4>
+<p id="p-59">We analyzed a total of 64 COVID-19 registries (shorter term for registry-based studies). Of these registries 52 (81.3%) were limited to one site. The largest number of sites was 53. The countries with the most COVID-19 registries were France and the United States with nine studies each. Similar to observational studies, just over half of the analyzed registries, 51.6% (33 registries), have been updated at least once since their first registration. Also similar to observational studies, the most common public interest update for registries is to the study status, which has been updated 56 times by all 33 registries with an update, and the most common technical update is to the contacts and locations with 28 updates from 18 studies.</p>
+<p id="p-60">The median enrollment for the set of registries was 388 participants. Registries have many specific design features that differentiate them from other study types. One is the presence of a targeted follow-up time. The most common follow-up time for the analyzed registries was 1 year for 15 studies (23.4%), which was listed as either “1 year” or “12 months” and was combined to get the accurate value. The shortest follow-up time was 1 day for NCT04331171, “Epidemiological Observation From a Smartphone Self-monitoring Application for Suspected COVID-19 Patients’ Triage”, while the longest targeted follow-up duration for a registry was 20 years, for NCT04359602, “COVID-19 Recovered Volunteer Research Participant Pool Registry”. For registries, CTG collects their observational model (similar to observational studies). The majority of registries, 48 (75.0%), use a cohort model. Also similar to observational studies, registries can include a time perspective. However, unlike observational studies, no registries are retrospective. Instead the time perspective is usually either prospective (50 studies, 78.1%), or cross-sectional (six studies, 9.4%). A cross-sectional perspective means that the observation or intervention is made at a single point in time rather than on a continuous or recurring basis (<a class="xref xref-bibr" href="https://prsinfo.clinicaltrials.gov/definitions.html" title="Definitions" data-jats-ref-type="bibr" data-jats-rid="ref-4">CTG Team, 2020a</a>).</p>
+<p id="p-61">Like observational studies, more than half (53.1%, 34 of 64 registries) included an intervention in the free text field. These interventions also include many that are not representative of an actual intervention and rather state the absence of an intervention just like with the previously mentioned observational studies. This is also shown in the intervention type as 19 of the 34 registries (55.9%) have an intervention type of “other”.</p>
+</section>
+</section>
+</section>
+<section class="sec" id="discussion">
+<h2 class="heading">Discussion</h2>
+<p id="p-62">Based on our two perspectives, we discuss separately COVID-19 studies results (journalist perspective) and data science implications (informatics perspective).</p>
+<section class="sec">
+<h3 class="heading">COVID-19 studies</h3>
+<p id="p-63">Our study developed a computerized approach of retrieving COVID-19 studies from CTG registry for analysis. CTG’s study metadata facilitates the useful classification of studies into many relevant subgroups (e.g., by study design, size, phase, recruitment status or intervention). Availability of this data in a structured form (either via CTG’s API or via structured XML or relational data files) provides analytical views that would be difficult or impossible to achieve without a registry. As of 11 May 2020 ( the date of primary analysis), no study had deposited basic summary results.</p>
+<p id="p-64">The results presented above were summarized as of 11 May 2020. Refreshed and more current data (released weekly) can be obtained at the project repository. (“regCOVID Project Repository,” 2020, <a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID">https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID</a>; “regCOVID,” 2020, <a class="uri" href="https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html">https://lhncbc.github.io/r-snippets-bmi/regCOVID/regCovid_notebook2.html</a>). Weekly updated reports allow researchers, journalists or the general public to quickly obtain a snapshot of the ongoing COVID-19 research. For example, a weekly report intervention section (similar to <a class="xref xref-table" href="#table-7" data-jats-ref-type="table" data-jats-rid="table-7">Table 7</a>) can reveal to many research teams concentrated on COVID-19 what interventions are being studied with what intensity. This analytical view would require tens of manual queries using the generic CTG web interface.</p>
+<section class="sec">
+<h4 class="heading">Study limitations</h4>
+<p id="p-65">Our study has several limitations. First, we only used CTG registry to look for COVID-19 studies. Within this registry, we evaluated three search strategies, but some relevant COVID-19 studies may possibly be missed. Without a benchmark gold standard of all COVID-19 studies, the recall of our search strategy cannot be evaluated. It was out of scope of this study to establish the precision of our search. Second, our semantic harmonization of interventions is based on manual mapping by a single expert. Third, there are significant limitations of the informatics-based approach compared to manual review.</p>
+</section>
+<section class="sec">
+<h4 class="heading">Related studies</h4>
+<p id="p-66">For example, COVID-19 Evidence Service from Centre for Evidence-Based Medicine at University of Oxford offers more comprehensive reviews. It was out of scope of our project to offer results comparable to human review. <a class="xref xref-bibr" href="https://doi.org/10.1016%2Fj.cmi.2020.05.019" title="Review of trials currently testing treatment and prevention of COVID-19" data-jats-ref-type="bibr" data-jats-rid="ref-8">Fragkou et al. (2020)</a> used a search and manual review methodology to compile and analyze a set of COVID-19 interventional trials and their interventions. <a class="xref xref-bibr" href="https://doi.org/10.23736%2FS0031-0808.20.03958-0" title="The vaccine journey for COVID-19: a comprehensive systematic review of current clinical trials in humans" data-jats-ref-type="bibr" data-jats-rid="ref-3">Checcucci et al. (2020)</a> did a literature and clinical trial registries search based on built-in search criteria to review COVID-19 vaccine trials. <a class="xref xref-bibr" href="https://doi.org/10.26633%2FRPSP.2020.40" title="Clinical trials on drug repositioning for COVID-19 treatment" data-jats-ref-type="bibr" data-jats-rid="ref-11">Rosa &amp; Santos (2020)</a> did a manual search of CTG to analyze COVID-19 trials using repurposed interventions. Considering the existing published studies, we conclude that our study is the first study to rely solely on computerized data science methods to compile and analyze a set of COVID-19 interventional trials, observational studies and registries. Our approach of using computerized data science methods allows for the continuous monitoring of the current state of COVID-19 research with minimal additional effort compared to a resource intensive manual review methodology. During a continuously changing public health emergency, this ability for any researcher to quickly and efficiently monitor changes and trends in clinical research is invaluable in informing the direction of their research efforts.</p>
+</section>
+</section>
+<section class="sec">
+<h3 class="heading">Data science perspective</h3>
+<p id="p-67">During the creation of a fully computerized, disease-focused report about ongoing or completed clinical studies, we observed several informatics themes described below. Before we describe individual lessons learned, we want to re-emphasize how computable representation of clinical study metadata is a crucial enabler for creating disease-based research snapshots. Moreover, several features of ClinicalTrials.gov registry proved to be highly valuable for our project. Such features are: structured representation of study metadata (XML and relational database format), registry support for result deposition and record updates, and legal and funding source policy requirements to maintain accurate registry records. In our analysis, we were able to build on prior clinical informatics research projects. Our project also shows value in further developing clinical informatics methods for data and metadata representation, semantic harmonization through terminologies and standards. The following informatics lessons were learned:</p>
+<p id="p-68"><i>Updates:</i> Our study is the first to analyze the frequency of updates to a study in CTG. We believe that adding the ability to access study updates to the CTG’s API would be a useful addition. Our results indicate that analyzing study update activity is helpful in distinguishing studies with possibly outdated metadata (e.g., studies in status “not yet recruiting” but are past their anticipated completion date with some grace period allowed for record updating). Our study is also the first to analyze update activity by country of study.</p>
+<p id="p-69"><i>Intervention (free text):</i> CTG collects intervention as free text and for some studies, provides a corresponding concept in Medical Subject Headings (MeSH) terminology. This intervention harmonization as MeSH concept is done post hoc rather than during study metadata entry by the study record manager. We found that the MeSH intervention concept is present in less than half (47%) of COVID-19 analyzed studies. This analysis prompted us to develop the denormalization and mapping method that we used.</p>
+<p id="p-70">Another intervention-related observation is the difference in how intervention combinations are listed in the free text field. In some cases, the combination intervention (e.g., two drugs given to some study group in combination) is recorded as two separate entries and the group or arm free-text description provides a way to clarify the combined usage. In other case the same intervention combination is recorded together as a single entry. This dual way of recording combined interventions formed our methodology for the most comprehensive approach of counting interventions (count them as both combinations and as separate interventions). We did not analyze arm description and so we did not combine separated interventions, which may have been assigned to the same arm and used in combination. This may possibly lead to the undercounting of certain intervention combinations.</p>
+<p id="p-71"><i>Registries:</i> We find valuable that CTG currently allows registration of observational studies and registries. Designing a user interface for registration and study representation format that can accommodate various designs and studies is a challenging task. Due to specific characteristics of certain study types, further customization of user interface or additional data quality checks may further improve the registry value to many stakeholders. For example, registries do not typically post one-time study results and may not have the same concept of primary completion date. Instead, annual or other regular interval updates about number of participants and summary results for participant flow may be more applicable. Clarifications in the user interface for entering interventions for registries (and for observational studies) may prevent entries which declare a formally drug typed intervention with the title “no intervention”.</p>
+<section class="sec">
+<h4 class="heading">Generalizing report to other diseases</h4>
+<p id="p-72">Our emphasis on fully computerized analysis of a COVID-19 set of studies was motivated by our larger vision to apply the R scripted report for all MeSH encoded diseases found within the CTG registry. We refer to this result as the regCTG project and report repository. regCTG allows analysis of research by MeSH keyword for all clinical domains. We generated reports for all MeSH terms with at least 100 registered studies. A collection of nearly 1,000 disease-based reports is available at <a class="uri" href="https://github.com/lhncbc/CRI/tree/master/regCTG">https://github.com/lhncbc/CRI/tree/master/regCTG</a>.</p>
+<p id="p-73">We consider this generalization from a COVID-19 research report to a research report for nearly 1,000 diseases an important result of our project.</p>
+<p id="p-74">In another follow-up research project for this COVID-19 case study, we have also built a disease-intervention snapshot knowledge base (called D-SHOT) that lists all interventions appearing in interventional trials for a given condition (“Project Repository for Disease Snapshot”, <a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/tree/master/D-SHOT">https://github.com/lhncbc/r-snippets-bmi/tree/master/D-SHOT</a>). This knowledge base of disease-intervention pairs has many parameters for each intervention, such as date when first introduced, count of regularly completed studies or count of unusually completed studies (“terminated”, “suspended”, or “withdrawn”) studying that intervention. Experience from semantic harmonization of CTG’s free text field into terminology concepts gained during this COVID-19 project was crucial in these two follow-up projects by our team. A related, non-open source project called Sherlock, proprietary to Johnson and Johnson is similarly parsing CTG’s terms into formal concepts (<a class="xref xref-bibr" href="https://doi.org/10.1177%2F1740774513475849" title="From ClinicalTrials.gov trial registry to an analysis-ready database of clinical trial results" data-jats-ref-type="bibr" data-jats-rid="ref-2">Cepeda, Lobanov &amp; Berlin, 2013</a>).</p>
+</section>
+</section>
+<section class="sec">
+<h3 class="heading">Weekly results updates</h3>
+<p id="p-75">While, the main analysis presented above was done on 11 May 2020 (main analysis date), thanks to the computed nature of the analysis, we have been producing weekly updated reports (available at the github repository). We have also been improving and adding to the automated report since the main analysis date based on the deposition of the first study results and the appearance of study results publications. As of the main analysis date, there were zero studies with results deposited on CTG. Because of data evolution during the article review and revision preparation, the latest weekly report on our github repository (as of 13 August 2020; update analysis date) now snows three interventional trials and one registry with results posted. Analysis of linked PubMed publications for completed interventional trials, found that of the 83 completed interventional trials at the point of secondary analysis, nine had linked PubMed publications (10.8%).</p>
+<p id="p-76">For the weekly reports and data in our github repository, we welcome change requests submitted by interested researchers. For researchers re-using our code and interested in making modifications, a free registration to access the AACT database is required (obtainable within hours).</p>
+</section>
+</section>
+<section class="sec" id="conclusions">
+<h2 class="heading">Conclusions</h2>
+<p id="p-77">We developed a computerized, data science driven approach to monitoring COVID-19 interventional trials, observational studies and registries. We report on several metrics for the 401 interventional trials, 287 observational studies and 64 registries as of our analysis date on 11 May 2020. More current and weekly refreshed data is available at our github repository. We also demonstrated that our COVID-19 disease focused report can be generalized to all diseases represented within a clinical trial registry.</p>
+</section>
+</div></main><footer class="back">
+<section class="ack" id="acknowledgements"><h2 class="heading">Acknowledgements</h2>
+<p>The findings and conclusions in this article are those of the authors and do not necessarily represent the official position of NLM, NIH, or the Department of Health and Human Services. We would like to thank NLM CTG team for help and providing comments (Rebecca Williams) on earlier versions of this manuscript. We would like to thank Kin Wah Fung and Laritza Rodriguez for providing comments on drafts of this manuscript. We would like to thank AACT team from Duke University for producing relational database view of CTG data and all COVID-19 study record managers for time spent with study registration and updates (including using optional CTG metadata fields not required by US regulations).</p>
+</section>
+<div class="sec" id="additional-information">
+<h2 class="heading">Additional Information and Declarations</h2>
+<div class="fn-group" data-jats-content-type="competing-interests">
+<h3 class="heading">Competing Interests</h3>
+<div class="fn" data-jats-fn-type="conflict" id="conflict-1">
+<p>The authors declare that they have no competing interests.</p>
+</div>
+</div>
+<div class="fn-group" data-jats-content-type="author-contributions">
+<h3 class="heading">Author Contributions</h3>
+<div class="fn" data-jats-fn-type="con" id="contribution-1">
+<p><a class="xref xref-contrib" href="#author-1" data-jats-ref-type="contrib" data-jats-rid="author-1">Craig S. Mayer</a> conceived and designed the experiments, performed the experiments, analyzed the data, prepared figures and/or tables, authored or reviewed drafts of the paper, and approved the final draft.</p>
+</div>
+<div class="fn" data-jats-fn-type="con" id="contribution-2">
+<p><a class="xref xref-contrib" href="#author-2" data-jats-ref-type="contrib" data-jats-rid="author-2">Vojtech Huser</a> conceived and designed the experiments, performed the experiments, analyzed the data, authored or reviewed drafts of the paper, and approved the final draft.</p>
+</div>
+</div>
+<div class="fn-group" data-jats-content-type="other">
+<h3 class="heading">Data Availability</h3>
+<div class="fn" id="addinfo-1">
+<p>The following information was supplied regarding data availability:</p>
+<p>REGistered COVID-19 Interventional trials and observational Studies (regCOVID) data are available at GitHub: <a class="uri" href="https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID">https://github.com/lhncbc/r-snippets-bmi/tree/master/regCOVID</a>.</p>
+</div>
+</div>
+<h3 class="heading">Funding</h3>
+<p>This research was supported by the Intramural Research Program of the National Institutes of Health (NIH)/National Library of Medicine (NLM)/Lister Hill National Center for Biomedical Communications (LHNCBC). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+</div>
+<section class="ref-list-container" id="references"><h2 class="heading">References</h2>
+<ul class="ref-list" data-jats-content-type="authoryear">
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" id="ref-1">
+<span class="citation-authors-year"><b><span class="collab" itemprop="author" itemscope="itemscope"><span class="institution">AACT Team</span></span>.</b> <b class="year" itemprop="datePublished">2020</b>.</span> <cite class="article-title"><a class="article-title" target="_blank" itemprop="url" href="https://aact.ctti-clinicaltrials.org/learn_more">Aggregate Analysis of ClinicalTrials.gov (AACT) database</a>.</cite> <span>    <span class="access-date">(accessed <time class="date-in-citation" datetime="2020-03-20">20 March 2020</time>)</span></span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-2">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Cepeda</span> <span class="given-names" itemprop="givenName">MS</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Lobanov</span> <span class="given-names" itemprop="givenName">V</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Berlin</span> <span class="given-names" itemprop="givenName">JA</span></span>.</b> <b class="year" itemprop="datePublished">2013</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.1177%2F1740774513475849">From ClinicalTrials.gov trial registry to an analysis-ready database of clinical trial results</a>.</cite> <span><span class="issue" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationIssue"><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">Clinical Trials: Journal of the Society for Clinical Trials</span></span> <b itemprop="volumeNumber">10</b></span>(<span itemprop="issueNumber">2</span>)</span>:<span class="fpage" itemprop="pageStart">347</span>-<span class="lpage" itemprop="pageEnd">348</span> </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-3">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Checcucci</span> <span class="given-names" itemprop="givenName">E</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Piramide</span> <span class="given-names" itemprop="givenName">F</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Pecoraro</span> <span class="given-names" itemprop="givenName">A</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Amparore</span> <span class="given-names" itemprop="givenName">D</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Campi</span> <span class="given-names" itemprop="givenName">R</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Fiori</span> <span class="given-names" itemprop="givenName">C</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Elhage</span> <span class="given-names" itemprop="givenName">O</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Kotecha</span> <span class="given-names" itemprop="givenName">P</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Vyakarnam</span> <span class="given-names" itemprop="givenName">A</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Serni</span> <span class="given-names" itemprop="givenName">S</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Dasgupta</span> <span class="given-names" itemprop="givenName">P</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Porpiglia</span> <span class="given-names" itemprop="givenName">F</span></span>.</b> <b class="year" itemprop="datePublished">2020</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.23736%2FS0031-0808.20.03958-0">The vaccine journey for COVID-19: a comprehensive systematic review of current clinical trials in humans</a>.</cite> <span><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">Panminerva Medica</span></span>  </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" id="ref-4">
+<span class="citation-authors-year"><b><span class="collab" itemprop="author" itemscope="itemscope"><span class="institution">CTG Team</span></span>.</b> <b class="year" itemprop="datePublished">2020a</b>.</span> <cite class="article-title"><a class="article-title" target="_blank" itemprop="url" href="https://prsinfo.clinicaltrials.gov/definitions.html">Definitions</a>.</cite> <span>    <span class="access-date">(accessed <time class="date-in-citation" datetime="2020-04-15">15 April 2020</time>)</span></span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" id="ref-5">
+<span class="citation-authors-year"><b><span class="collab" itemprop="author" itemscope="itemscope"><span class="institution">CTG Team</span></span>.</b> <b class="year" itemprop="datePublished">2020b</b>.</span> <cite class="article-title"><a class="article-title" target="_blank" itemprop="url" href="https://clinicaltrials.gov/api/gui">ClinicalTrials.gov—API Home</a>.</cite> <span>    <span class="access-date">(accessed <time class="date-in-citation" datetime="2020-04-17">17 April 2020</time>)</span></span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-6">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Embi</span> <span class="given-names" itemprop="givenName">PJ</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Payne</span> <span class="given-names" itemprop="givenName">PRO</span></span>.</b> <b class="year" itemprop="datePublished">2009</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.1197%2Fjamia.M3005">Clinical research informatics: challenges, opportunities and definition for an emerging domain</a>.</cite> <span><span class="issue" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationIssue"><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">JAMIA</span></span> <b itemprop="volumeNumber">16</b></span>(<span itemprop="issueNumber">3</span>)</span>:<span class="fpage" itemprop="pageStart">316</span>-<span class="lpage" itemprop="pageEnd">327</span> </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-7">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Fleminger</span> <span class="given-names" itemprop="givenName">J</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Goldacre</span> <span class="given-names" itemprop="givenName">B</span></span>.</b> <b class="year" itemprop="datePublished">2018</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.1371%2Fjournal.pone.0193088">Prevalence of clinical trial status discrepancies: a cross-sectional study of 10,492 trials registered on both ClinicalTrials.gov and the European Union Clinical Trials Register</a>.</cite> <span><span class="issue" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationIssue"><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">PLOS ONE</span></span> <b itemprop="volumeNumber">13</b></span>(<span itemprop="issueNumber">3</span>)</span>:<span class="elocation-id" itemprop="pageStart">e0193088</span> </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-8">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Fragkou</span> <span class="given-names" itemprop="givenName">PC</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Belhadi</span> <span class="given-names" itemprop="givenName">D</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Peiffer-Smadja</span> <span class="given-names" itemprop="givenName">N</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Moschopoulos</span> <span class="given-names" itemprop="givenName">CD</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Lescure</span> <span class="given-names" itemprop="givenName">F-X</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Janocha</span> <span class="given-names" itemprop="givenName">H</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Karofylakis</span> <span class="given-names" itemprop="givenName">E</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Yazdanpanah</span> <span class="given-names" itemprop="givenName">Y</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Mentré</span> <span class="given-names" itemprop="givenName">F</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Skevaki</span> <span class="given-names" itemprop="givenName">C</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Laouénan</span> <span class="given-names" itemprop="givenName">C</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Tsiodras</span> <span class="given-names" itemprop="givenName">S</span></span>.</b> <b class="year" itemprop="datePublished">2020</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.1016%2Fj.cmi.2020.05.019">Review of trials currently testing treatment and prevention of COVID-19</a>.</cite> <span><span class="issue" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationIssue"><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">Clinical Microbiology and Infection</span></span> <b itemprop="volumeNumber">26</b></span>(<span itemprop="issueNumber">8</span>)</span>:<span class="fpage" itemprop="pageStart">988</span>-<span class="lpage" itemprop="pageEnd">998</span> </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-9">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Huser</span> <span class="given-names" itemprop="givenName">V</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Cimino</span> <span class="given-names" itemprop="givenName">JJ</span></span>.</b> <b class="year" itemprop="datePublished">2013</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.1136%2Famiajnl-2012-001501">Evaluating adherence to the International Committee of Medical Journal Editors’ policy of mandatory, timely clinical trial registration</a>.</cite> <span><span class="issue" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationIssue"><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">JAMIA</span></span> <b itemprop="volumeNumber">20</b></span>(<span itemprop="issueNumber">e1</span>)</span>:<span class="fpage" itemprop="pageStart">e169</span>-<span class="lpage" itemprop="pageEnd">e174</span> </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-10">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Moore</span> <span class="given-names" itemprop="givenName">JH</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Barnett</span> <span class="given-names" itemprop="givenName">I</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Boland</span> <span class="given-names" itemprop="givenName">MR</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Chen</span> <span class="given-names" itemprop="givenName">Y</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Demiris</span> <span class="given-names" itemprop="givenName">G</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Gonzalez-Hernandez</span> <span class="given-names" itemprop="givenName">G</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Herman</span> <span class="given-names" itemprop="givenName">DS</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Himes</span> <span class="given-names" itemprop="givenName">BE</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Hubbard</span> <span class="given-names" itemprop="givenName">RA</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Kim</span> <span class="given-names" itemprop="givenName">D</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Morris</span> <span class="given-names" itemprop="givenName">JS</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Mowery</span> <span class="given-names" itemprop="givenName">DL</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Ritchie</span> <span class="given-names" itemprop="givenName">MD</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Shen</span> <span class="given-names" itemprop="givenName">L</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Urbanowicz</span> <span class="given-names" itemprop="givenName">R</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Holmes</span> <span class="given-names" itemprop="givenName">JH</span></span>.</b> <b class="year" itemprop="datePublished">2020</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.1186%2Fs13040-020-00213-y">Ideas for how informaticians can get involved with COVID-19 research</a>.</cite> <span><span class="issue" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationIssue"><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">BioData Mining</span></span> <b itemprop="volumeNumber">13</b></span>(<span itemprop="issueNumber">1</span>)</span>:<span class="fpage" itemprop="pageStart">149</span> </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-11">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Rosa</span> <span class="given-names" itemprop="givenName">SGV</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Santos</span> <span class="given-names" itemprop="givenName">WC</span></span>.</b> <b class="year" itemprop="datePublished">2020</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.26633%2FRPSP.2020.40">Clinical trials on drug repositioning for COVID-19 treatment</a>.</cite> <span><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">Revista Panamericana De Salud Publica = Pan American Journal of Public Health</span></span> <b itemprop="volumeNumber">44</b></span>:<span class="elocation-id" itemprop="pageStart">e40</span> </span>
+</div></li>
+<li class="ref"><div class="citation" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle" id="ref-12">
+<span class="citation-authors-year"><b><span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Zarin</span> <span class="given-names" itemprop="givenName">DA</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Fain</span> <span class="given-names" itemprop="givenName">KM</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Dobbins</span> <span class="given-names" itemprop="givenName">HD</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Tse</span> <span class="given-names" itemprop="givenName">T</span></span>, <span class="name" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="surname" itemprop="familyName">Williams</span> <span class="given-names" itemprop="givenName">RJ</span></span>.</b> <b class="year" itemprop="datePublished">2019</b>.</span> <cite itemprop="name"><a class="article-title" target="_blank" itemprop="url" href="https://doi.org/10.1056%2FNEJMsr1907644">10-Year update on study results submitted to ClinicalTrials.gov</a>.</cite> <span><span class="issue" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationIssue"><span class="volume" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/PublicationVolume"><span class="source" itemprop="isPartOf" itemscope="itemscope" itemtype="http://schema.org/Periodical"><span itemprop="name">New England Journal of Medicine</span></span> <b itemprop="volumeNumber">381</b></span>(<span itemprop="issueNumber">20</span>)</span>:<span class="fpage" itemprop="pageStart">1966</span>-<span class="lpage" itemprop="pageEnd">1974</span> </span>
+</div></li>
+</ul></section>
+</footer></article>
+            </div>
+
+            <div id="related-research"></div>
+
+            <!-- annotations -->
+            <ul class="nav nav-tabs annotation-tabs-nav">
+                <li class="active"><a href="#questions" aria-label="Questions" data-toggle="tab"><i class="icon-comments"></i> Questions
+                        <span class="annotation-counter annotation-counter-questioning"></span></a></li>
+                <li><a href="#links" aria-label="Links" data-toggle="tab"><i class="icon-link"></i> Links
+                        <span class="annotation-counter annotation-counter-linking"></span></a></li>
+            </ul>
+
+            <div class="tab-content annotation-tab-content">
+                <div class="tab-pane active" id="questions">
+                    <div class="annotations" id="questions" data-target="articles/10261" data-counts="1">
+    <div class="row-fluid row-article-item-section">
+        <div class="span1 article-main-left-span1">&nbsp;</div>
+        <div class="span11 article-item-section-content">
+            
+            <div>
+                <a rel="nofollow" class="annotation-loader"
+                   href="/questions/index.html?target=articles/10261&amp;_sort=score">Questions</a>
+            </div>
+
+                            <a class="btn btn-primary annotation-create-button add-annotation"
+                   id="annotation-create-question"
+                   data-toggle="annotation-form"
+                   data-target="#annotation-question-create-container"
+                   rel="nofollow"
+                   href="/questions.form?format=html&amp;target=articles/10261&amp;_counts=1"><i class="icon-plus"></i> Ask a question</a>
+                <div class="help-block annotation-learn-more"><a href="/contributions/about/" target="_blank">Learn more about Q&amp;A</a></div>
+                <div class="annotation-form-container"
+                     id="annotation-question-create-container"></div>
+                    </div>
+    </div>
+</div>
+                </div>
+
+                <div class="tab-pane" id="links">
+                    <div class="annotations" id="links" data-target="articles/10261" data-counts="1">
+    <div class="row-fluid row-article-item-section">
+        <div class="span1 article-main-left-span1">&nbsp;</div>
+        <div class="span11 article-item-section-content">
+            
+            <div>
+                <a rel="nofollow" class="annotation-loader"
+                   href="/links/index.html?target=articles/10261&amp;_sort=score">Links</a>
+            </div>
+
+            <a class="btn btn-primary annotation-create-button add-annotation"
+               id="annotation-create-link"
+               data-toggle="annotation-form"
+               data-target="#annotation-link-create-container"
+               rel="nofollow"
+               href="/links.form?format=html&amp;target=articles/10261&amp;_counts=1"><i class="icon-plus"></i> Add a link</a>
+            <div class="annotation-form-container"
+                 id="annotation-link-create-container"></div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+
+            <div class="hidden-desktop" id="mobile-featured-jobs"></div>
+        </div>
+
+        <!-- Right sidebar -->
+        <div class="span3 offset1 article-sidebar">
+            <div id="article-sidebar-main-content" class="mt-4"
+     data-todo-href="/todos/50119/">
+                    <div class="dimensions-stats-container visible-desktop">
+            <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.10261" data-hide-zero-citations="true"
+                  data-legend="always" data-style="small_circle"></span>
+        </div>
+    
+    
+    <div class="row-fluid item-action-buttons article-sidebar-item visible-desktop">
+        <div class="span12">
+
+                                                                                                                            <div class="article-ctas">
+                <div id="download-modal-trigger" class="js-download-modal-trigger btn btn-article btn-download btn-success mb-3  ">
+    Download
+</div>                <!--<div class="content-cta-intro-text">Want alerts from articles like this?</div>-->
+<div class="content-alert-link-btn content-alert-link" data-href="/content-alert/?aid=50119">
+    <div class="content-alert-button-label">
+        <i class="icon-envelope btn-content-alert-icon"></i>
+        Content <div class="content-alert-btn-lastword">Alert</div>
+    </div>
+    <div class="content-alert-button-loading" style="display:none;"><i class="icon-spin icon-spinner"></i> Loading...</div>
+</div>
+    <div class="content-cta-help-text">
+        Just enter your email
+    </div>
+                <div>
+                                    </div>
+            </div>
+            
+            
+                                    
+                        
+                        <nav class="article-sidebar-block visible-desktop">
+                <div class="sidebar-heading">
+                    <i class="icon-wrench"></i> Tools & info
+                </div>
+                <ul class="nav nav-list article-item-metrics-counts" data-src="/articles/10261/counter/">
+                                            <li>
+                            <a href="/articles/10261/reviews/"
+                               rel="version-history">Peer
+                                Review history</a>
+                        </li>
+                    
+                                            
+                                                                                <li><a href="/articles/10261/citations/" data-toggle="modal" data-target="#citing-modal">See citing
+                                    articles <span class="metric-counter citation-item-count">3</span></a>
+                            </li>
+                                            
+                    
+                    <li><a href="#questions">Ask questions
+                            <span class="metric-counter annotation-counter-questioning"></span></a></li>
+
+                    <li><a href="#links">Add links
+                            <span class="metric-counter annotation-counter-linking"></span></a></li>
+
+                                            <li class="article-item-metrics-count"><a data-toggle="modal" style="min-height: 24px !important;" href="#metricsModal">Visitors <span class="metric-counter" data-count="visitors">&nbsp;</span> <span class="pull-right metric-counter-details-cta">click for details</span></a></li>
+    <li class="article-item-metrics-count"><a data-toggle="modal" style="min-height: 24px !important;" href="#metricsModal">Views <span class="metric-counter" data-count="views-html">&nbsp;</span></a></li>
+    <li class="article-item-metrics-count"><a data-toggle="modal" style="min-height: 24px !important;" href="#metricsModal">Downloads <span class="metric-counter" data-count="views-pdf">&nbsp;</span></a></li>
+
+                                            <li><a id="item-flag-button" data-toggle="modal" href="#flagModal">Report problem with
+                                article</a></li>
+                                    </ul>
+            </nav>
+
+                        <span class="visible-desktop"></span>
+
+            <div id="related-research-sidebar visible-desktop"></div>
+
+        </div>
+                <nav class="article-sidebar-block follow visible-desktop">
+                            <div class="sidebar-heading">
+                    <i class="icon-list-ul"></i> Outline
+                </div>
+                        <div class="article-navigation"></div>
+                            
+                                                
+                                                                                                                                                                                                                                                                            
+            <div id="top-return" class="top-return">
+                <i class="icon-arrow-up"></i> Return to top
+            </div>
+        </nav>
+
+                <div class="subjects-navigation visible-desktop"></div>
+
+                            <div id="article-identifiers visible-desktop">
+                <span class="article-meta-name">PubMed</span>
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/33150094"
+                   id="article-identifier-pmid" target="_blank">33150094</a>
+            </div>
+            </div>
+</div>
+
+    <nav class="article-sidebar-block follow">
+        
+        
+                        <div class="mt-5">
+            <div id="peerj-vue-user-impact-widget"
+                 class="mt-6"
+                 data-min-cite="8"
+                 data-hide-title="1"
+                 data-sticky-editor="1"
+                 data-editor="65611"
+                 data-section=""
+                 data-subject="[&quot;clinical-trials&quot;,&quot;drugs-and-devices&quot;,&quot;global-health&quot;,&quot;infectious-diseases&quot;,&quot;data-science&quot;]"
+                 data-query="{&quot;journal&quot;:&quot;peerj&quot;,&quot;key&quot;:&quot;10261&quot;,&quot;relatedAuthors&quot;:1,&quot;randomize&quot;:1}"
+            ></div>
+        </div>
+    </nav>
+        </div>
+    </div>
+
+        
+<style>
+    .modal-loading-container{
+        display:flex;
+        justify-content:center;
+        color:#999;
+        padding:3rem;
+    }
+</style>
+
+<div id="download-article-modal" class="modal hide fade peer-review-article" style="">
+
+    <div class="modal-header d-flex" style="justify-content: space-between;">
+        <h3 style="color: #000000">Download article</h3>
+        <button type="button" class="close" style="color: #000000; font-size: 16px" data-dismiss="modal" aria-hidden="true">&times;</button>
+    </div>
+
+    <div class="modal-body">
+        <div id="download-article-modal-loading" class="modal-loading-container" style="display:none;">
+            <i class="icon-spin icon-3x icon-spinner"></i>
+        </div>
+        <div id="download-article-modal-body">
+                    <div id="download-modal-buttons-container">
+        <div class="download-modal-article-title">Computerized monitoring of COVID-19 trials, studies and registries in ClinicalTrials.gov registry</div>
+            <div class="mt-2 download-buttons">
+                                                                                <a target="_blank" download data-format="PDF" data-download-confirm-text="PDF downloading" href="https://peerj.com/articles/10261.pdf" target="_blank" class="btn btn-primary js-download-btn btn-block btn-large mb-2 "><i class="icon-cloud-download mr-1"></i> PDF (1.2MB)</a>
+                                                    <a target="_blank" data-download-confirm-text="Mendeley opened" href="http://www.mendeley.com/import/?doi=10.7717/peerj.10261" class="btn btn-primary js-download-btn btn-block btn-large mb-2"><i class="icon-cloud-download mr-1"></i> Save to Mendeley</a>
+                                    <a target="_blank" data-download-confirm-text="Readcube article opened" href="http://www.readcube.com/articles/10.7717/peerj.10261" class="btn btn-primary js-download-btn btn-block btn-large mb-2"><i class="icon-cloud-download mr-1"></i> Read in ReadCube</a>
+                                                    <a target="_blank" data-format="RIS" data-download-confirm-text="RIS file downloaded" href="https://peerj.com/articles/10261.ris" class="btn btn-primary js-download-btn btn-block btn-large mb-2 "><i class="icon-cloud-download mr-1"></i> RIS</a>
+                    <a target="_blank" data-format="XML" data-download-confirm-text="XML file downloaded" href="https://peerj.com/articles/10261.xml" class="btn btn-primary js-download-btn btn-block btn-large mb-2 "><i class="icon-cloud-download mr-1"></i> XML</a>
+                    <a target="_blank" data-format="BibText" data-download-confirm-text="BibText file downloaded" href="https://peerj.com/articles/10261.bib" class="btn btn-primary js-download-btn btn-block btn-large mb-2 "><i class="icon-cloud-download mr-1"></i> BibTeX</a>
+                
+            </div>
+        </div>
+
+        <div id="download-modal-downloading-message" style="display:none;">
+            <div class="text-center pt-4 pb-4">
+                <div>
+                    <strong>Your download will start in a moment...</strong>
+                </div>
+                <div class="btn btn-secondary mt-4 js-close-download-modal">Close</div>
+            </div>
+        </div>
+        <div id="download-modal-signup-container" style="display:none;">
+                            
+<div class="download-modal-cta-container">
+
+    <div class="download-modal-confirm">
+        <div class="download-modal-confirm-title">
+            <i class="icon-tickcircle downloaded-tick"></i> <span class="download-modal-confirm-title-text"></span>
+            <i class="icon-chevron-down show-download-link"></i>
+        </div>
+        <a class="article-modal-download-url" href=""></a>
+    </div>
+
+    
+    <div class="download-modal-cta-subtitle-small mt-2 mb-4 text-center">
+        Subscribe for subject updates
+    </div>
+
+            <div class="section-subscribe-container mb-2" style="display: flex;justify-content:center;">
+            <div>
+                <input type="text" placeholder="Email address" name="email" value="" class="form-control" id="download-subscribe-email">
+            </div>
+            <div class="ml-1">
+                <select name="freq" class="form-control" style="width: 100%;" id="download-subscribe-freq">
+                    <option value="weekly">Weekly</option>
+                    <option value="daily">Daily</option>                    
+                </select>
+            </div>
+        </div>
+    
+    <div id="download-subscribe-error-container" class="mb-2 text-center text-error" style="display:none;"></div>
+
+                
+    <button class="btn btn-primary btn-block btn-large mb-2 btn-modal-cta"
+            style="display: block;"
+            id="download-subscribe-submit"
+            data-url="/content-alert/download-subscribe?aid=50119"
+            data-signed-in=""
+            data-section-name="">
+        Subscribe
+    </button>
+
+    <a href="#" class="btn btn-block btn-link btn-large btn-modal-close js-close-download-modal mb-2">
+        Close
+    </a>
+
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    (function(){
+        $('#download-subscribe-submit').click(function(){
+
+            var button = $(this);
+            var url = button.data('url');
+            if(button.attr('disabled')) return;
+
+            $.get(url, function(response){
+
+                if(!response.token){
+                    errorContainer.html('Server error, you have not been subscribed').show();
+                    button.html('Subscribe').removeAttr('disabled');
+                    return;
+                }
+
+                var errorContainer = $('#download-subscribe-error-container');
+                errorContainer.html('').hide();
+                button.html('<i class="icon-spin icon-spinner"></i>').attr('disabled', true);
+
+                var signedIn = button.data('signed-in');
+                var sectionName = button.data('section-name');
+                var data = {
+                    _token: response.token
+                };
+
+                if(!signedIn) {
+                    var email = $('#download-subscribe-email').val();
+                    data.email = email;
+                    data.freq = $('download-subscribe-freq').val();
+                }
+
+                $.ajax({
+                    url: url,
+                    method: 'POST',
+                    data: data
+                }).success(function(response){
+                    button.hide();
+                    $('.js-close-download-modal').trigger('click');
+
+                    PeerJ.Tools.ToastNotifications.add({
+                        type: 'success',
+                        title: 'Subscribed',
+                        text: sectionName ? 'You subscribed to ' + sectionName : 'You subscribed to this article\'s subjects'
+                    });
+
+                }).error(function(response){
+                    if(response.responseJSON && response.responseJSON.errors){
+                        errorContainer.html(response.responseJSON.errors[0]).show();
+                    }
+                }).complete(function(){
+                    button.html('Subscribe').removeAttr('disabled');
+                });
+
+            });
+        });
+
+    }());
+</script>
+                    </div>        
+            </div>
+    </div>
+
+    <div class="modal-footer" style="display:none;">
+        <div class="pull-right">
+                    </div>
+
+                    <span class="submit-copy submit-copy-btn btn cancel pull-left" id="modal-cancel" data-dismiss="modal">
+                Cancel
+            </span>
+            </div>
+</div>
+
+        <div id="ajax-form"></div>
+
+    <!-- Flag Modal -->
+        <div id="flagModal" class="legacy-b2-wrap modal hide" style="max-height:none">
+      <div class="modal-header" style="text-align: center">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 class="slim">Report a problem</h3>
+      </div>
+
+      <form id="article-flag-form"
+          data-href="/issues/10261/flag/"
+          method="post">
+
+          <div class="modal-body" style="max-height:350px;overflow-y:auto">
+              <div class="alert alert-info">
+                    <p><strong>Common use cases</strong><br>
+                    Typos, corrections needed, missing information, abuse, etc
+                    </p>
+
+                    <p><strong>Our promise</strong><br>
+                    PeerJ promises to address all issues as quickly and professionally as possible. We
+                    thank you in advance for your patience and understanding.
+                    </p>
+              </div>
+
+                <div id="flag-modal-result" style="margin-left:45px;">
+
+                                            <div>
+                            <label><strong>Type of problem</strong></label>
+                            <p>
+                            <select id="moderation_flag_category" name="moderation_flag[category]" class="span4"><option value="typo">Typo</option><option value="metadata">Missing or incorrect metadata</option><option value="quality">Quality: PDF, figure, table, or data quality</option><option value="download">Download issues</option><option value="abuse">Abusive behavior</option><option value="misconduct">Research misconduct</option><option value="other">Other issue not listed above</option></select>
+                            
+                            </p>
+                         </div>
+                        <div>
+                            <label><strong>Details</strong> <i class="icon-large icon-question-sign" title="Please be as detailed as possible within the 500 character limit. Any details you provide will not be shown publicly." data-toggle="tooltip"></i></label>
+                            <div>
+                                <textarea id="moderation_flag_detail" name="moderation_flag[detail]" required="required" maxlength="500" class="span4" placeholder="Enter any details about this issue. Kept confidential with PeerJ staff." rows="5" data-counter-target="#flag-counter"></textarea>
+                                
+                                <div style="margin:10px 0 0 0; color:#717171; float: left; display: block"><span id="flag-counter" class="label">500</span> characters remaining</div>
+                            </div>
+                         </div>
+                        
+                                    </div>
+
+          </div>
+        </form>
+        <div id="flag-modal-footer" class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+        <input type="submit" class="btn btn-success save-flag-btn" value="Send report">
+        </div>
+</div>
+
+    <!-- Follow Publication Modal -->
+        <div id="followModal" class="modal hide" style="max-height:none">
+      <div class="modal-header" style="text-align:center">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="slim" id="followModalLabel">Follow this publication for updates</h3>
+              </div>
+
+    <div>
+        <div class="modal-body" style="max-height:350px;overflow-y:auto">
+            <div class="row-fluid" style="margin-bottom: 15px">
+                <div class="span1">
+                    <i class="icon-large icon-bullhorn"></i>
+                </div>
+                <div class="span11">
+                    "Following" is like subscribing to any updates related to a publication.
+                    These updates will appear in your home dashboard each time you visit PeerJ.
+                </div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="span1">
+                    <i class="icon-large icon-envelope"></i>
+                </div>
+                <div class="span11">
+                    <p>
+                    You can also choose to receive updates via daily or weekly email digests.
+                    If you are following multiple publications then we will send you
+                    no more than one email per day or week based on your preferences.
+                    </p>
+                    <p>
+                    <em>Note: You are now also subscribed to the subject areas of this publication</em>
+                    and will receive updates in the daily or weekly email digests if turned on.
+                    You can <a href="/settings/details">add specific subject areas</a> through your profile settings.
+                    </p>
+                </div>
+            </div>
+
+                     <hr>
+                <div id="follow-modal-result" style="margin-left:-40px;padding-top:7px;">
+                                    </div>
+
+          </div>
+
+        </div>
+
+        <div id="follow-modal-footer" class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+
+    <!-- Unfollow Publication Modal -->
+    <div id="unfollowModal" class="modal hide">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Change notification settings or unfollow</h3>
+    </div>
+
+    <form id="article-unfollow-form"
+      data-href="/follow/publication/10261/1/"
+      method="put" class="form-horizontal">
+
+
+        <div id="unfollow-form-load-result" class="modal-body" data-href="/follow/publication/10261/edit/" style="max-height:350px;overflow-y:auto">
+            <p>Loading ...</p>
+        </div>
+
+    </form>
+        <div class="modal-footer">
+            <button class="btn follow-close-btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <input type="submit" class="btn btn-success update-follow-btn" value="Update">
+        </div>
+</div>
+
+    <!-- Metrics Modal -->
+    <div id="metricsModal" class="modal hide">
+    <div class="modal-body" style="max-height:330px;overflow-y:auto">
+
+        <div class="row-fluid">
+            <div class="span12">
+                <p class="leadh2">Usage since published - updated daily</p>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+                            <div class="span8">
+                                        <h3 style="margin:30px 0 10px 0">Top referrals <small>unique visitors</small></h3>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="row-fluid" style="font-size: 16px;  color: #444; border-bottom: 1px solid #ccc; margin-bottom: 5px;">
+                            <div class="span8" style="min-height:0">
+                                                                    From bookmark or typed URL
+                                                            </div>
+                            <div class="span3" style="text-align:right;min-height:0">2,238</div>
+                        </div>
+                                            <div class="row-fluid" style="font-size: 16px;  color: #444; border-bottom: 1px solid #ccc; margin-bottom: 5px;">
+                            <div class="span8" style="min-height:0">
+                                                                    Google search
+                                                            </div>
+                            <div class="span3" style="text-align:right;min-height:0">342</div>
+                        </div>
+                                            <div class="row-fluid" style="font-size: 16px;  color: #444; border-bottom: 1px solid #ccc; margin-bottom: 5px;">
+                            <div class="span8" style="min-height:0">
+                                                                    From PeerJ Content Alert Emails
+                                                            </div>
+                            <div class="span3" style="text-align:right;min-height:0">24</div>
+                        </div>
+                                            <div class="row-fluid" style="font-size: 16px;  color: #444; border-bottom: 1px solid #ccc; margin-bottom: 5px;">
+                            <div class="span8" style="min-height:0">
+                                                                    Twitter
+                                                            </div>
+                            <div class="span3" style="text-align:right;min-height:0">1</div>
+                        </div>
+                                                        </div>
+            
+            <div class="span4" style="overflow-x:hidden;">
+                <h3 style="margin-bottom:10px">Share this publication</h3>
+
+                                    
+
+    
+                        <ul class="unstyled">
+    <li>
+        <a aria-label="Share on Bluesky" class="pj-socialism bs-soc" href="https://bsky.app/intent/compose?text&#x3D;PeerJ&#x25;3Cbr&#x25;3E&#x25;3Cbr&#x25;3EComputerized&#x25;20monitoring&#x25;20of&#x25;20COVID-19&#x25;20trials&#x25;2C&#x25;20studies&#x25;20and&#x25;20registries&#x25;20in&#x25;20ClinicalTrials.gov&#x25;20registry&#x25;3Cbr&#x25;3E&#x25;3Cbr&#x25;3Ehttps&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F&#x25;3Cbr&#x25;3E&#x25;3Cbr&#x25;3E&#x25;40peerj.bsky.social" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Bluesky</a>
+    </li>
+    <li>
+        <a aria-label="Share on Facebook" class="pj-socialism fb-soc" href="http://www.facebook.com/sharer/sharer.php?u&#x3D;https&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F&amp;q&#x25;5B0&#x25;5D&#x3D;PeerJ&amp;q&#x25;5B1&#x25;5D&#x3D;Computerized&#x25;20monitoring&#x25;20of&#x25;20COVID-19&#x25;20trials&#x25;2C&#x25;20studies&#x25;20and&#x25;20registries&#x25;20in&#x25;20ClinicalTrials.gov&#x25;20registry&amp;hashtag&#x3D;&#x25;23peerj" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Facebook</a>
+    </li>
+    <li>
+        <a aria-label="Share on X" class="pj-socialism x-soc" href="http://x.com/share?url&#x3D;https&#x25;3A&#x25;2F&#x25;2Fpeerj.com&#x25;2Farticles&#x25;2F10261&#x25;2F&amp;via&#x3D;PeerJLife&amp;text&#x3D;Monitoring&#x25;20of&#x25;20COVID-19&#x25;20studies&amp;related&#x3D;" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">X</a>
+    </li>
+    <li>
+        <a aria-label="Share via Email" class="pj-socialism em-soc" href="/cdn-cgi/l/email-protection#94abc7e1f6fef1f7e0b2b7eca7d0afc6f1f8f1e2f5fae0b2b7eca6a1afa6a4e6f1e7f1f5e6f7fcb2b7eca6a1afa6a4e4f5e4f1e6b2b7eca6a1afa6a4fdfab2b7eca6a1afa6a4c4f1f1e6deb2f5f9e4afd6fbf0edb2b7eca7d0afd7fbf9e4e1e0f1e6fdeef1f0b2b7eca6a1afa6a4f9fbfafde0fbe6fdfaf3b2b7eca6a1afa6a4fbf2b2b7eca6a1afa6a4d7dbc2ddd0b9a5adb2b7eca6a1afa6a4e0e6fdf5f8e7b2b7eca6a1afa6d7b2b7eca6a1afa6a4e7e0e1f0fdf1e7b2b7eca6a1afa6a4f5faf0b2b7eca6a1afa6a4e6f1f3fde7e0e6fdf1e7b2b7eca6a1afa6a4fdfab2b7eca6a1afa6a4d7f8fdfafdf7f5f8c0e6fdf5f8e7baf3fbe2b2b7eca6a1afa6a4e6f1f3fde7e0e6edb2b7eca6a1afa6a4fce0e0e4e7b2b7eca6a1afa7d5b2b7eca6a1afa6d2b2b7eca6a1afa6d2e4f1f1e6febaf7fbf9b2b7eca6a1afa6d2f5e6e0fdf7f8f1e7b2b7eca6a1afa6d2a5a4a6a2a5b2b7eca6a1afa6d2" target="_blank" onclick="window.open(this.href, 'popupwindow', 'width=500,height=500,scrollbars,resizable'); return false;">Email</a>
+    </li>
+</ul>                
+                <h3 style="margin-bottom:10px;margin-top:10px">Metrics</h3>
+
+                <!-- Altmetric -->
+                <div class="altmetric-embed" data-badge-popover="right"
+                     data-link-target="_blank" data-doi="10.7717/peerj.10261"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+</div>
+
+    <!-- Wiki Modal -->
+    
+    <!-- Links Modal -->
+    <div class="modal hide fade" id="article-links-modal">
+    <div class="modal-header">
+        <a rel="nofollow" data-dismiss="modal" aria-hidden="true" class="close">&times;</a>
+
+        <h3 class="modal-title">Links</h3>
+    </div>
+
+    <div class="modal-body"></div>
+
+    <div class="modal-footer">
+        <a rel="nofollow" href="/links.form?target=articles/10261" class="btn btn-primary">Add a link</a>
+        <button class="btn follow-close-btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+</div>
+
+    <!-- Citing Modal -->
+    <div id="citing-modal" class="modal hide">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="slim"><i class="icon-copy"></i> Articles citing this paper</h2>
+    </div>
+  <div class="modal-body">Loading citing articles… <i class="icon icon-spinner icon-spin"></i></div>
+</div>
+
+    <!-- Graphical abstract modal -->
+    
+
+        </div>
+
+        
+                <div id="push"></div>
+
+    </div>
+</div>
+        <div id="vue-peerj-core-app"
+     data-betaTesting="1"
+     data-isDarkTheme="0"
+     data-mercure="https://sse.peerj.com/.well-known/mercure"
+     data-userRoleData="{&quot;isAdmin&quot;:false,&quot;isStaff&quot;:false,&quot;isAimsAdmin&quot;:false,&quot;_roles&quot;:[],&quot;_me&quot;:[]}"
+     data-api="https://peerj.com/api/v2"
+     data-imagePrefix="https://d2pdyyx74uypu5.cloudfront.net/"
+     data-groupFilesPrefix="https://group-files.peerj.com/"
+     data-groupFilesRoot=""
+     data-userImagePrefix="https://s3.amazonaws.com/peerj_prod_upload/images/profile"
+     data-articleBasePrefix="https://dfzljdn9uc3pi.cloudfront.net/"
+     data-recaptchaKey="6LcklyQUAAAAAGWmGpOk76ha4H0b229a5GSVahJr"
+>
+</div>
+                <header id="header-skeleton" class="px-sm text-left shadow-sm v-sheet theme--light v-toolbar v-toolbar--flat v-app-bar v-app-bar--fixed" data-booted="true" style="height: 75px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px; background: #fff; color: #FFF"><div class="v-toolbar__content" style="height: 75px;"><button type="button" class="v-app-bar__nav-icon v-btn v-btn--icon v-btn--round theme--light v-size--default" aria-label="Search"><span class="v-btn__content"><i aria-hidden="true" aria-haspopup="true" aria-expanded="false" class="v-icon notranslate mdi mdi-view-dashboard theme--light" style="color: #FFF"></i><span class="v-tooltip"></span></span></button>
+
+            <div class="d-flex"><div>   </div></div></div></header>
+
+
+
+    <div class="item-top-navbar">
+    <div class="item-top-navbar-inner">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                       <div class="item-metrics-counts-top-nav article-item-metrics-counts">
+                                                                                                        <span class="article-item-metrics-count visible-all">
+                                        <span data-count="citations">3</span>
+                                        <span class="article-item-metrics-label">Citations</span>
+                                    </span>
+                                
+                            <span class="article-item-metrics-count">
+                                <span data-count="views-html">&nbsp;</span>
+                                <span class="article-item-metrics-label">Views</span>
+                            </span>
+
+                            <span class="article-item-metrics-count">
+                                <span data-count="views-pdf">&nbsp;</span>
+                                <span class="article-item-metrics-label">Downloads</span>
+                            </span>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="alerts" class="legacy-b2-wrap" data-async-alerts="/alerts/"></div>
+
+                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/8d39319-582a9a0.js"></script>
+            <script src="/js/05779bd-a411a7a.js"></script>
+        <script src="https://cdn.peerj.com/06bc6a4/webpack/runtime.873bbdff.js"></script><script src="https://cdn.peerj.com/06bc6a4/webpack/198.0671974e.js"></script><script src="https://cdn.peerj.com/06bc6a4/webpack/328.986b3e8a.js"></script><script src="https://cdn.peerj.com/06bc6a4/webpack/peerj-app.5c0cb935.js"></script>
+
+
+    <script src="/js/5d3c493-193ec0b.js"></script>
+
+    <script src="/js/c1dacd9-0a89c61.js"></script>
+        <!--[if gt IE 8]><!-->
+    <script src="/assets/js/highlight/highlight.pack.js"></script>
+
+        <script>
+        (function(){
+
+            function initTweets(){
+                //Get count
+                var tweetCountUrl = '/articles/10261/tweet-count/';
+                $.get(tweetCountUrl, function(response){
+                    if(response.count){
+                        $('#tweet-count-container').html('View ' + response.count + ' post' + (response.count > 1 ? 's' : ''));
+                        $('#btn-view-tweets').fadeIn(200);
+                    }
+                });
+
+                //Get first page
+                $('.tweet-items').html('Loading...');
+                var tweetsPageUrl = '/articles/10261/tweets/';
+                $.get(tweetsPageUrl, function(response){
+                    if(response.html){
+                        $('.tweet-items').html(response.html);
+                        $("html, body").animate({scrollTop: 0}, 500);
+                    }
+                });
+            }
+
+            setTimeout(initTweets, 2500);
+
+        })();
+    </script>
+
+        
+    <script>
+        $(function () {
+            // syntax highlighting for code blocks
+            $("pre > code").each(function() {
+                var node = $(this);
+
+                var language;
+
+                // JATS >=1.1
+                language = node.data('jats-language');
+
+                if (!language) {
+                    // JATS <1.1
+                    language = node.data('jats-preformat-type');
+
+                    // ignore default 'code' type
+                    if (language === 'code') {
+                        language = null;
+                    }
+                }
+
+                if (language) {
+                    node.addClass('language-' + language);
+                }
+
+                hljs.highlightBlock(this);
+            });
+        });
+    </script>
+    <!--<![endif]-->
+
+    <script>
+        //initialise the follow button
+        $(function() {
+            PeerJ.Event.Follow.init();
+        });
+
+        //Show citations modal if query param exists
+        var urlParams = new URLSearchParams(window.location.search);
+        if(urlParams.has('citations')){
+            $('#citing-modal').modal('show');
+        }
+
+    </script>
+
+        
+    
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        messageStyle: "none",
+        imageFont: null,
+        "CommonHTML": {
+            linebreaks: { automatic: true },
+            scale: 95
+        },
+        "HTML-CSS": {
+            linebreaks: { automatic: true },
+            scale: 90,
+            styles: {
+              ".MathJax:focus": {
+                outline: "2px solid #4285f4",
+                outlineOffset: "2px"
+              }
+            }
+        },
+        menuSettings: {
+            zoom: "Click"
+        },
+        tex2jax: {
+            skipTags: ["nobr"],
+        },
+        menuSettings: {
+            explorer: true
+        },
+        explorer: {
+            walker: 'syntactic',
+            highlight: 'hover',
+            background: 'blue',
+            foreground: 'black',
+            speech: true,
+            subtitle: true,
+            ruleset: 'mathspeak'
+        }
+    });
+
+    MathJax.Ajax.config.root = "/bundles/peerjmathjax/MathJax/";
+</script>
+
+<script src="/bundles/peerjmathjax/MathJax/MathJax.js?config=TeX-MML-AM_HTMLorMML,Safe&noContrib"></script>
+
+    <script defer src='https://js.trendmd.com/trendmd.min.js' data-trendmdconfig='{"journal_id":"52926","element":"#related-research"}'></script>
+    <script defer src='https://js.trendmd.com/trendmd.min.js' data-trendmdconfig='{"journal_id":"52926","element":"#related-research-sidebar"}'></script>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div class="legacy-b2-wrap">
+    <div id="content-alert-container"></div>
+    <div id="toast-container"></div>
+
+        <link rel="dns-prefetch" href="https://d2pdyyx74uypu5.cloudfront.net/">
+    <link rel="dns-prefetch" href="http://static.peerj.com/">
+<link rel="dns-prefetch" href="https://doi.org">
+
+    
+    </div>
+</body>
+</html>

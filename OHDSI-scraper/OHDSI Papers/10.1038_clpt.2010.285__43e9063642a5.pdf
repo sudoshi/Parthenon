@@ -1,0 +1,2595 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3EAuthor Manuscript%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Biclustering of Adverse Drug Events in FDA’s Spontaneous Reporting System - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB7EE9D45B8F30BB7EE000A521F8A.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="nihpa">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="manuscript">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3282185/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Clinical Pharmacology and Therapeutics">
+<meta name="citation_title" content="Biclustering of Adverse Drug Events in FDA’s Spontaneous Reporting System">
+<meta name="citation_author" content="Rave Harpaz">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University Medical Center">
+<meta name="citation_author" content="Hector Perez">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University Medical Center">
+<meta name="citation_author" content="Herbert S Chase">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University Medical Center">
+<meta name="citation_author" content="Raul Rabadan">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University Medical Center">
+<meta name="citation_author" content="George Hripcsak">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University Medical Center">
+<meta name="citation_author" content="Carol Friedman">
+<meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University Medical Center">
+<meta name="citation_publication_date" content="2010 Dec 29">
+<meta name="citation_volume" content="89">
+<meta name="citation_issue" content="2">
+<meta name="citation_firstpage" content="243">
+<meta name="citation_doi" content="10.1038/clpt.2010.285">
+<meta name="citation_pmid" content="21191383">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3282185/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3282185/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3282185/pdf/nihms353976.pdf">
+<meta name="description" content="In this paper we present a new pharmacovigilance data mining technique based on the biclustering paradigm, which is designed to identify drug groups that share a common set of adverse events in FDA’s spontaneous reporting system. A taxonomy of ...">
+<meta name="og:title" content="Biclustering of Adverse Drug Events in FDA’s Spontaneous Reporting System">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="In this paper we present a new pharmacovigilance data mining technique based on the biclustering paradigm, which is designed to identify drug groups that share a common set of adverse events in FDA’s spontaneous reporting system. A taxonomy of ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC3282185/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="3282185">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1038/clpt.2010.285"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/nihms353976.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC3282185%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/3282185/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/3282185/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC3282185/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-nihpa.png" alt="NIHPA Author Manuscripts logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to NIHPA Author Manuscripts" title="Link to NIHPA Author Manuscripts" shape="default" href="https://pmc.ncbi.nlm.nih.gov/about/public-access/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Clin Pharmacol Ther</button></div>. Author manuscript; available in PMC: 2012 Feb 19.</div>
+<div>
+<em>Published in final edited form as: </em>Clin Pharmacol Ther. 2010 Dec 29;89(2):243–250. doi: <a href="https://doi.org/10.1038/clpt.2010.285" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1038/clpt.2010.285</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Clin%20Pharmacol%20Ther"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Clin%20Pharmacol%20Ther"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Clin%20Pharmacol%20Ther"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Clin%20Pharmacol%20Ther"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Biclustering of Adverse Drug Events in FDA’s Spontaneous Reporting System</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Harpaz%20R"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Rave Harpaz</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Rave Harpaz</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University Medical Center</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Harpaz%20R"[Author]' class="usa-link"><span class="name western">Rave Harpaz</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Perez%20H"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Hector Perez</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Hector Perez</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University Medical Center</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Perez%20H"[Author]' class="usa-link"><span class="name western">Hector Perez</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chase%20HS"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Herbert S Chase</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Herbert S Chase</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University Medical Center</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Chase%20HS"[Author]' class="usa-link"><span class="name western">Herbert S Chase</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rabadan%20R"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Raul Rabadan</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Raul Rabadan</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University Medical Center</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rabadan%20R"[Author]' class="usa-link"><span class="name western">Raul Rabadan</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">George Hripcsak</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">George Hripcsak</span>, <span class="degrees">MD, MS</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University Medical Center</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link"><span class="name western">George Hripcsak</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Friedman%20C"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">Carol Friedman</span></a><div hidden="hidden" id="id6">
+<h3>
+<span class="name western">Carol Friedman</span>, <span class="degrees">PhD</span>
+</h3>
+<div class="p">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University Medical Center</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Friedman%20C"[Author]' class="usa-link"><span class="name western">Carol Friedman</span></a>
+</div>
+</div>
+<sup>1</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="A1">
+<sup>1</sup>Department of Biomedical Informatics, Columbia University Medical Center</div>
+<div class="author-notes p"><div class="fn" id="FN1">
+<sup>✉</sup><p class="display-inline">Correspondence: Department of Biomedical Informatics, Columbia University Medical Center, 622 West 168th St. VC5, New York, NY 10032, Phone: (212) 305-5399, Fax: (212) 305-3302, <span>rave.harpaz@dbmi.columbia.edu</span></p>
+</div></div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Issue date 2011 Feb.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none"><div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div></div>
+</div>
+<div>PMCID: PMC3282185  NIHMSID: NIHMS353976  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/21191383/" class="usa-link">21191383</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article"><div>The publisher's version of this article is available at <a href="https://doi.org/10.1038/clpt.2010.285" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Clin Pharmacol Ther</a>
+</div></div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p id="P1">In this paper we present a new pharmacovigilance data mining technique based on the biclustering paradigm, which is designed to identify drug groups that share a common set of adverse events in FDA’s spontaneous reporting system. A taxonomy of biclusters is developed, revealing that a significant number of bone fide adverse drug event (ADE) biclusters are identified. Statistical tests indicate that it is extremely unlikely that the discovered bicluster structures as well as their content arose by chance. Some of the biclusters classified as indeterminate provide support for previously unrecognized and potentially novel ADEs. In addition, we demonstrate the importance of the proposed methodology to several important aspects of pharmacovigilance such as: providing insight into the etiology of ADEs, facilitating the identification of novel ADEs, suggesting methods and rational for aggregating terminologies, highlighting areas of focus, and as a data exploratory tool.</p>
+<section id="kwd-group1" class="kwd-group"><p><strong>Keywords:</strong> Pharmacovigilance, Adverse Drug Events, Biclustering, Clustering, FDA Adverse Event Reporting System</p></section></section><section id="S1"><h2 class="pmc_sec_title">1. Introduction</h2>
+<p id="P2">Despite the methodological rigor of clinical trials, it is generally not possible to identify all safety issues associated with drugs during the pre-marketed research phase. This is primarily due to the fact that the size and subject population, drug use, dose, duration, and concomitant therapies in actual post-marketed reality, cannot be exactly mirrored in a clinical trial<sup><a href="#R1" class="usa-link" aria-describedby="R1">1</a></sup>. The impact of ADEs results in significant social costs estimated at several billion dollars annually, and inflicts unnecessary, often fatal, harm to patients<sup><a href="#R2" class="usa-link" aria-describedby="R2">2</a>, <a href="#R3" class="usa-link" aria-describedby="R3">3</a></sup>.</p>
+<p id="P3">Spontaneous reporting systems (SRS) are database resources encompassing voluntary reports of suspected ADEs. The availability of real-world data from SRS provides a rich opportunity to detect novel post-marketed ADEs as they contain populations not well represented in clinical trials. Among the major SRS is the United States Food and Drug Administration’s (FDA) Adverse Event Reporting System (AERS)<sup><a href="#R4" class="usa-link" aria-describedby="R4">4</a></sup>.</p>
+<p id="P4">Present day SRS typically receive tens of thousands of reports each year, amounting to millions of reports in each SRS. Challenged by the vast size and complexity of the SRS, the traditional manual case-by-case review approach has been complemented by more efficient methods consisting of automated and quantitative approaches that are commonly referred to as data mining algorithms (DMAs). DMAs are generally designed to identify statistical associations between drugs and adverse events (AEs). These statistical associations, also referred to as signals, are not necessarily true ADEs but rather hypotheses that warrant further investigation to qualify them as credible ADEs. They allow evaluators to peruse the large volume of reports and focus their attention on potentially important safety issues, while avoiding as much as possible false alerts and missed signals.</p>
+<p id="P5">Over the years, a wide range of DMAs have been developed to screen potential ADEs<sup><a href="#R5" class="usa-link" aria-describedby="R5">5</a>–<a href="#R7" class="usa-link" aria-describedby="R7">7</a></sup>. Most DMAs rely on the use of disproportionality measures, which attempt to quantify the degree of “unexpectedness” of a drug-AE association<sup><a href="#R8" class="usa-link" aria-describedby="R8">8</a></sup>. Typically, a pre-defined disproportionality threshold will be used to screen potential ADEs for further review. The Gamma Poisson Shrinker (GPS)<sup><a href="#R9" class="usa-link" aria-describedby="R9">9</a></sup> used in this work, is a DMA endorsed by the FDA<sup><a href="#R10" class="usa-link" aria-describedby="R10">10</a></sup>, that attempts to account for the uncertainty in a disproportionality measure associated with small samples. Due to the voluntary nature of reporting DMAs are primarily limited by data quality issues of the SRS<sup><a href="#R1" class="usa-link" aria-describedby="R1">1</a>, <a href="#R8" class="usa-link" aria-describedby="R8">8</a>, <a href="#R11" class="usa-link" aria-describedby="R11">11</a></sup>, such as duplicity of reporting, missing data, typographical errors, accuracy of reporting, granularity and variation in the terminology used, underreporting, and media influences.</p>
+<p id="P6">Most DMAs in current use focus on the detection of potential ADEs consisting of one drug and one AE only in isolation of other ADEs, and to the best of our knowledge no studies have considered the type of drug-AE clustering proposed in this paper. Recent work by Bate et al., suggests that “a single drug-AE combination should not be considered in isolation, but combinations of other AEs with that drug (especially similar terms) and other drugs (especially from the same therapeutic group) with the same AE should be considered”<sup><a href="#R8" class="usa-link" aria-describedby="R8">8</a></sup>. The clustering approach presented in this paper provides a structured approach for identifying and describing ADEs and their relationship to other ADEs and drug families. Examining the similarity of drugs and AEs within a cluster should provide valuable insight into the etiology of ADEs, help validate empirical evidence for AEs, and assist in the identification of novel ADEs. Additionally, drug classes identified by clustering can be used to predict potential ADEs for new drugs with similar active ingredients or molecular structure by their affiliation to known drug classes, an advantage recognized in a recent study by Fliri et al.<sup><a href="#R12" class="usa-link" aria-describedby="R12">12</a></sup>.</p>
+<p id="P7">Although acknowledged by the FDA<sup><a href="#R13" class="usa-link" aria-describedby="R13">13</a></sup>, the importance of data exploratory analysis and visualization in the context of pharmacovigilance is often undervalued and overlooked. In the same paper, the FDA suggests that one of the goals should be “to both describe the database in a big picture manner and to be able to proceed from this big picture down to the particulars … that would facilitate medical understanding and insight into drug-event associations in the database”. The proposed clustering approach provides a natural way to explore and visualize the large space, complex structure, and content of SRS. Additionally, clustering can be used to detect data anomalies and highlight other data quality issues existing in SRS.</p>
+<p id="P8">Since SRS heavily rely on drug naming and AE terminology, the success of DMAs may depend on the grouping of similar drugs that appear under different names, and AEs that are pathophysiologically related<sup><a href="#R14" class="usa-link" aria-describedby="R14">14</a></sup>. Bate et al.<sup><a href="#R8" class="usa-link" aria-describedby="R8">8</a></sup> propose that “terminology and clustering of related terms is crucial in signal detection, so better methods of clustering are required”. The proposed clustering approach has the ability to automatically suggest grouping of potentially similar terms, which may increase the signal strength of ADE associations that would otherwise go undetected.</p>
+<p id="P9">Biclustering is a relatively new clustering technique designed to identify clusters in sparse high-dimensional data sets by simultaneously clustering both observations (drugs) and variables (AEs)<sup><a href="#R15" class="usa-link" aria-describedby="R15">15</a>, <a href="#R16" class="usa-link" aria-describedby="R16">16</a></sup>. Typical SRS contain thousands of drugs and thousands of AEs, thus creating a clustering space of several thousand dimensions that appears to be well-suited for the application of biclustering. In this context, a bicluster is defined as a small set of drugs, each of which is associated with the same small set of AEs (<a href="#F1" class="usa-link">Figure 1</a>).</p>
+<figure class="fig xbox font-sm" id="F1"><h3 class="obj_head">Figure 1.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13f8/3282185/a43b3ddda1b5/nihms353976f1.jpg" loading="lazy" height="346" width="601" alt="Figure 1"></p>
+<div class="p text-right font-secondary"><a href="figure/F1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>An ADE bicluster can be visualized as a complete bipartite graph where the left set of nodes correspond to drugs and the right set of nodes to adverse events. An edge represents a statistical association between a drug and an adverse event. By definition each drug must be associated with each adverse event in the bicluster, hence a complete graph. In this example the drugs varenicline, oxycodone, and coricidinhbp were all found to be statistically associated with the adverse events suicidal ideation, mental impairment, euphoric mood, major depression.</p></figcaption></figure><p id="P10">The objective of this paper is to describe a novel pharmacovigilance data mining technique designed to identify drug groups that share a common set of AEs, with which potential ADEs are analyzed, and previously unrecognized ADEs may be identified. The method is based on the biclustering paradigm, and is applied to individual reports from FDA’s AERS 2008. The overall mining process consists of six steps depicted in <a href="#F2" class="usa-link">Figure 2</a>. (1) to reduce drug naming redundancy and strengthen the signal, drug names are mapped to their corresponding generic names. (2) to reduce the number of spurious associations, duplicate reports are identified and removed. (3) to mitigate confounding, stratification by age, gender, and year is performed. (4) to obtain ADE association strengths, disproportionality analysis using the GPS approach is performed. (5) based on the association strengths computed in the previous step, biclustering of drugs and AEs is performed, and (6) a qualitative and quantitative evaluation of clustering results is undertaken. In contrast to current approaches, a set of study drugs or ADEs is not selected prior to mining, but rather our approach is to allow all the data to participate in the mining without any restrictions or prior assumptions.</p>
+<figure class="fig xbox font-sm" id="F2"><h3 class="obj_head">Figure 2.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13f8/3282185/c6a11582c8bf/nihms353976f2.jpg" loading="lazy" height="777" width="480" alt="Figure 2"></p>
+<div class="p text-right font-secondary"><a href="figure/F2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Data analysis and clustering process.</p></figcaption></figure></section><section id="S2"><h2 class="pmc_sec_title">2. Results</h2>
+<section id="S3"><h3 class="pmc_sec_title">Data collection and statistics</h3>
+<p id="P11">The overall data collection process of reports from AERS 2008 resulted in 441,009 individual reports, 65,975 unique drugs, and 10,886 unique AEs. Approximately 66% of the original set of unique drugs were recognized and mapped to generics, reducing the number of unique drugs to 28,341. The number of duplicate reports identified was 22,420.</p></section><section id="S4"><h3 class="pmc_sec_title">Association statistics</h3>
+<p id="P12">The GPS EBGM measure of association was computed for 328,574 drug-AE combinations that had an incidence rate &gt;0. Thus, of 308,520,126 (28,341 drugs × 10,886 AEs) possible drug-AE combinations, over 99% of the cells in the data matrix were empty. The mean and median of the EBGM measures were 12.9 and 3.2 respectively, slightly larger than reported in similar studies<sup><a href="#R9" class="usa-link" aria-describedby="R9">9</a></sup>, but can be expected since only drugs that were reported as primary suspect were used<sup><a href="#R7" class="usa-link" aria-describedby="R7">7</a></sup>.</p>
+<p id="P13">The association strength threshold used to qualify “strong” and worthy associations was set equal to 5, which resulted in a set of 730 drugs and 1695 AEs participating in the clustering.</p></section><section id="S5"><h3 class="pmc_sec_title">Bicluster statistics</h3>
+<p id="P14">Based on the above threshold, biclustering identified a total 3,866 biclusters, involving 467 different drugs and 1025 different AEs. The largest biclusters included a maximum of 17 drugs (cancer related) and a maximum of 57 AEs (bone disorder related). Approximately 33% of the biclusters were cancer related, i.e., drugs given to treat certain types of cancer and AEs commonly associated with cancer treatments. Accordingly, the most frequent drug <em>Clofarabine</em>, used to treat leukemia, was found in 1015 biclusters, and the most frequent AE <em>Febrile Neutropenia</em> (fever due to decreased count of Neutrophils), a leading side effect of chemotherapy and radiation, was found in 647 biclusters. Biclusters related to mental disorders accounted for approximately 5% of the total number of biclusters. Other frequently occurring types of biclusters, accounting for roughly 1% of the total number of biclusters were: <em>Statins</em> (cholesterol level lowering), <em>HIV</em> related, and <em>diabetes</em> related.</p></section><section id="S6"><h3 class="pmc_sec_title">Taxonomy of biclusters</h3>
+<p id="P15">Analysis of the biclusters revealed several patterns, which were used to develop a taxonomy that characterizes the full set of biclusters. Based on an evaluation sample of 100 biclusters we approximated the proportions of each category in the taxonomy. The taxonomy along with the corresponding proportions and representative examples is shown in <a href="#T1" class="usa-link">Table 1</a>. Each bicluster is described by three elements: drugs (DR), adverse events (AE), and their relationship (R). DR-I characterizes drug sets in a bicluster consisting of the same (brand name and generic name) or similar drugs (same class or same active ingredients). DR-II characterizes drugs of different classes prescribed for the same indication, and DR-III drugs prescribed for different indications. Adverse events were categorized in a similar manner. AE-I characterizes clustered events which are identical or similar, AE-II events which are different but correspond to the same syndrome, and AE-III events representing completely different syndromes. The relationship between the drugs and AEs in a bicluster are classified as either R-I characterizing known associations where each drug-AE combination in the bicluster is a known, well established ADE, or R-II characterizing indeterminate associations where reported support for at least one of the drug-AE combinations is either non-existent or very sparse, or R-III characterizing confounded associations where AEs were signs or symptoms of the conditions for which the drug was prescribed (indications). <a href="#T2" class="usa-link">Table 2</a> provides representative examples of biclusters classified according to the taxonomy, along with their average EBGM scores.</p>
+<section class="tw xbox font-sm" id="T1"><h4 class="obj_head">Table 1.</h4>
+<div class="caption p"><p>Taxonomy of Biclusters</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all">
+<thead><tr><th colspan="2" valign="bottom" align="left" rowspan="1">DRUGS</th></tr></thead>
+<tbody>
+<tr>
+<td align="left" valign="middle" rowspan="2" colspan="1">DR-I: same or similar (class) active agents<br> <strong>1%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">alendronate, ibandronate, risedronate, pamidronate<br>These are all bisphosphonates</td>
+</tr>
+<tr><td align="left" valign="top" rowspan="1" colspan="1">phenytoin sodium, phenytoin<br>Both phenytoin sodium and phenytoin share the same active ingredient.</td></tr>
+<tr>
+<td align="left" valign="middle" rowspan="2" colspan="1">DR-II: dissimilar active agents, same indications<br> <strong>36%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">risperidone, olanzapine, haloperidol<br>These are all drugs used to treat schizophrenia.</td>
+</tr>
+<tr><td align="left" valign="top" rowspan="1" colspan="1">gemtuzumab, melphalan, clofarabine<br>These are anti-neoplastic agents used as chemotherapy agents.</td></tr>
+<tr>
+<td align="left" valign="middle" rowspan="1" colspan="1">DR-III: dissimilar active agents, dissimilar indications<br> <strong>63%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">telithromycin, bosentan, sertraline_hydrochloride<br>These are drugs used to treat three different conditions. Telithromycin is an antibiotic used to treat community acquired pneumonia. Bosentan is commonly used to treat pulmonary hypertension. Sertraline is used to treat depression.</td>
+</tr>
+<tr><td colspan="2" align="left" valign="top" rowspan="1"><strong>ADVERSE EVENTS</strong></td></tr>
+<tr>
+<td align="left" valign="middle" rowspan="1" colspan="1">AE-I: same or similar adverse events<br> <strong>3%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Intentional drug misuse, drug dependence, dependence<br>These adverse events are commonly reported with classes of drugs that can be intentionally misused as drugs of abuse.</td>
+</tr>
+<tr>
+<td align="left" valign="middle" rowspan="2" colspan="1">AE-II: dissimilar adverse events, same syndrome<br> <strong>49%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">anxiety, tremor, panic reaction<br>These characterize the symptoms of a panic attack in patients with panic disorder.</td>
+</tr>
+<tr><td align="left" valign="top" rowspan="1" colspan="1">neutropenia, pancytopenia, febrile neutropenia, anaemia, thrombocytopenia<br>These adverse events are all related to bone marrow failure</td></tr>
+<tr>
+<td align="left" valign="middle" rowspan="1" colspan="1">AE-III: dissimilar adverse events, different syndrome<br> <strong>48%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Enterococcal infection, atelectasis, culture urine positive<br>While an enterococcal infection can commonly cause a urinary tract infection and a positive urine culture, atelectasis of the lungs is unrelated.</td>
+</tr>
+<tr><td colspan="2" align="left" valign="top" rowspan="1"><strong>CLUSTERED RELATIONSHIP</strong></td></tr>
+<tr>
+<td align="left" valign="middle" rowspan="1" colspan="1">R-I: Known association between drugs and AEs<br> <strong>46%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">drugs: leflunomide, telithromycin, bosentan, terbinafine, amphotericin b<br>AEs: gamma-glutamyltransferase increased, blood bilirubin increased, liver disorder, aspartate aminotransferase increased, alanine aminotransferase increased, blood alkaline phosphatase increased<br>All of the above drugs have some association with hepatotoxicity, which can cause one or more of the aforementioned adverse events, all of which were characterized as part of the same syndrome.</td>
+</tr>
+<tr>
+<td align="left" valign="middle" rowspan="1" colspan="1">R-II: Indeterminate association<br> <strong>41%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">drugs: nevirapine, efavirenz, zidovudine<br>AEs: drug resistance, abortion induced, immune reconstitution syndrome, hepatotoxicity, abortion spontaneous<br>While the drugs above are all treatment options for HIV positive patients, not all of the adverse events are associated with the drugs. Drug resistance and immune reconstitution syndrome are well established adverse events of antiretroviral therapy. However, only efavirenz has clear evidence of danger to the fetus in pregnant women. None of the drugs are used as abortifacients.</td>
+</tr>
+<tr>
+<td align="left" valign="middle" rowspan="1" colspan="1">R-III: Confounding<br> <strong>13%</strong>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">drugs: erlotinib, capecitabine, pamidronate, zoledronic acid<br>AEs: metastases to lung, metastases to bone, metastases to central nervous system<br>The adverse events are all representative of already existing cancer states and all the drugs described in this group are used to treat varying types of cancer which can produce metastases to lung, bone, and the central nervous system.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section><section class="tw xbox font-sm" id="T2"><h4 class="obj_head">Table 2.</h4>
+<div class="caption p"><p>Classified Bicluster Examples</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all">
+<thead><tr>
+<th valign="bottom" align="center" rowspan="1" colspan="1">Taxonomy</th>
+<th valign="bottom" align="left" rowspan="1" colspan="1">Bicluster Example</th>
+<th valign="bottom" align="center" rowspan="1" colspan="1">EBGM</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">DR-I/AE-II/R-I</td>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>drugs</strong>: <em>valproic acid, sodium valproate, valproate</em><br><strong>AEs</strong>: <em>epilepsy, dysmorphism, speech disorder developmental, congenital nose malformation, foetal anticonvulsant syndrome</em><br>Valproic acid aka sodium valproate, valproate, and Depakote, is used for seizure disorders in patients with epilepsy. The remainder of the adverse events refer to its potential for teratogenicity. It is listed as a category D drug for use in pregnant women by the FDA; it is highly associated with congenital malformations, including facial deformations and neural tube defects. While developmental speech disorder is not specifically listed among the adverse events of valproic acid, it is highly plausible that any number of congenital malformations can result in speech disorders. Lastly, there is evidence that a withdrawal syndrome termed fetal anticonvulsant syndrome exists for babies exposed to valproic acid <em>in utero.</em>
+</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">128</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">DR-III/AE-III/R-II</td>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>drugs</strong>: <em>lochol, entacapone, terbinafine, adefovir</em><br><strong>AEs</strong>: <em>hepatic function abnormal, blood creatine phosphokinase increased, alanine aminotransferase increased</em><br>Lochol is a trade name for cholesterol drugs used outside the US, where the different ingredients may vary. Commonly a statin drug is used as a main ingredient but the specifics differ from country to country. Entacapone is a drug used for Parkinson’s disease that acts by inhibiting an enzyme in the liver and kidney responsible for catalyzing levodopa. Terbinafine is an antifungal drug used in both oral and topical forms. Adefovir is used in chronic Hepatitis B. The adverse events could not be grouped together as creatine phosphokinase is not associated with abnormal hepatic function, though it, like hepatotoxicity, is a rare side effect of statin usage. Terbinafine and adefovir are associated with increased liver enzymes but have no association with muscle damage or elevated creatine phosphokinase. It is plausible entacapone could be associated with liver damage as its major target of inhibition is an enzyme in the liver but it is unassociated with elevated creatine phosphokinase. With the knowledge available to us, this grouping sounds implausible.</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">15</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">DR-II/AE-II/R-III</td>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>drugs</strong>: <em>estradiol, pamidronate, zoledronic acid</em><br><strong>AEs</strong>: <em>nuclear magnetic resonance imaging abnormal, radiotherapy, biopsy, physical disability</em><br>All three drugs are indicated for use with bony metastases from metastatic cancers. Estradiol is primarily indicated for use in metastatic prostate and breast cancer, both of which can cause bony lesions. Pamidronate and zoledronic acid can be used for either bony metastates or primary bone cancers. All the above adverse events are confounders—bone lesions can be associated with abnormal MRIs, radiotherapy, biopsies, and some sort of physical disability.</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">76</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">DR-III/AE-II/R-I</td>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>drugs</strong>: <em>varenicline, sodium oxybate, ambient cr</em><br><strong>AEs</strong>: <em>abnormal dreams, somnambulism, abnormal behaviour</em><br>Varenicline, more commonly known as Chantix, is prescribed as an aid for smoking cessation. Sodium oxybate is prescribed for narcolepsy. Ambien is prescribed for insomnia. All of the categorized drugs can cause sleeping disorders and behavioral changes as adverse events.</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">35</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="1" colspan="1">DR-III/AE-II/R-II</td>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<strong>drugs</strong>: <em>cyclosporine, telithromycin, carbamazepine, azathioprine</em><br><strong>AEs</strong>: <em>blood lactate dehydrogenase increased, lymphadenopathy, splenomegaly</em><br>The drugs are in different categories. Cyclosporine is an immunosuppressant given after transplants. Telithromycin is an antibiotic given for community acquired pneumonia. Carbamazepine is an anti-convulsant. Azathioprine is an immunosuppressant given after renal transplant but also used for a wide variety of immune system disorders. The adverse events were characterized together as signs of a particular type of immune hemolytic anemia which is heretofore unassociated with any of the categorized drugs. Because both cyclosporine and azathioprine are immunomodulators, it is plausible that this collection of adverse events could represent a new side effect profile based upon the drugs’ action on the immune system. Nonetheless, it is more difficult to find a plausible reason for telithromycin and carbamazepine to cause hemolytic anemia, but it is certainly possible.</td>
+<td align="center" valign="middle" rowspan="1" colspan="1">17</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section><section id="S7"><h3 class="pmc_sec_title">Statistical tests</h3>
+<p id="P16">The expected number and probability for the occurrence of a random bicluster was 0.05 (less than one expected bicluster) and 1.1e-18 respectively, demonstrating that it is extremely unlikely that the bicluster structure found in the data is random. The p-value obtained for the hypothesis test that a known ADE bicluster would have arisen just by chance was extremely small (less than 1e-100), exceeding the precision limits of our computing environment.</p></section></section><section id="S8"><h2 class="pmc_sec_title">3. Discussion</h2>
+<p id="P17">Overall, the results demonstrate that a significant number (46%) of bone fide biclusters, which relate common ADEs by grouping similar drugs with a common set of known and often similar AEs, were identified by our method. The two test statistics indicate that it is extremely unlikely that the bicluster structure, as well as its content, occurred by chance. A large proportion (41%) of the clustered relationships was classified as indeterminate due to one or more drug-AE pairs in the cluster being an indeterminate ADE. However, this suggests further investigation, and does not necessarily indicate that the unrecognized ADE association is incorrect. In fact, one of the goals of clustering is to provide insight into the etiology of ADEs for those cases where unrecognized and potentially novel ADEs are highlighted by their affiliation to a set of known ADEs in a cluster. For example, a cluster classified as indeterminate (R-II) linked the following drugs to measures of liver toxicity: <em>leflunomide, telithromycin, bosentan, chlorpromazine, entacapone, lapatinib, gemtuzumab, letrozole, terbinafine, arsenic trioxide, fluvoxamine, amphotericin b, carbamazepine, micafungin, clofarabine, deferasirox, miglitol</em>. Of those drugs, only some have well-established links to hepatic dysfunction. For the remainder, there is less definitive support linking them to liver dysfunction, but reports do exist in the medical literature. For instance, <em>chlorpromazine</em> does not have hepatotoxicity listed as an AE in the drug database Micromedex, but older case reports describe a syndrome known as “chlorpromazine hepatic hypersensitivity” with concomitant biochemical alterations of liver function tests<sup><a href="#R17" class="usa-link" aria-describedby="R17">17</a></sup>. Likewise, the antidepressant <em>fluvoxamine</em> has no established effect on the liver, but a recent case report describes a patient with abnormal liver function tests found to have tissue damage on liver biopsy thought to be due to fluvoxamine<sup><a href="#R18" class="usa-link" aria-describedby="R18">18</a></sup>. Other examples with which potentially novel ADEs are identified, such as the drug-event pairs: <em>chlorpromazine</em> - <em>hepatotoxicity</em>, <em>fluvoxamine</em> - <em>liver toxicity</em>, <em>mirtazapine</em> - <em>inappropriate antidiuretic hormone secretion</em>, <em>bevacizumab</em> - <em>reversible posterior leukoencephalopathy syndrome</em>, <em>methotrexate</em> - <em>pancytopenia</em>, <em>vorinostat</em> - <em>atelectasis</em>, <em>bosentan</em> - <em>hepatic steatosis</em>, <em>busulfan</em> – <em>hyperkalemia</em>, are discussed in <a href="#SD3" class="usa-link">Supplementary Material 1</a>.</p>
+<p id="P18">The results also suggest that the proposed methodology is useful in several other aspects of pharmacovigilance. First, clustering provides a rationale for aggregating various preparations of the same drugs in order to focus on the active agent. This is demonstrated in drug clusters which represent either various forms of the same drug <em>phenytoin</em>, <em>phenytoin sodium</em> or generic or brand preparations <em>proventil hfa</em>, <em>albuterol</em>. These synonymous but unique terms consistently clustered to the same or similar AEs. Hence, mapping drugs to the “active ingredient” should increase the signal, maximizing the potential for identifying rare events. This type of mapping is already possible using RXNORM<sup><a href="#R19" class="usa-link" aria-describedby="R19">19</a></sup>, but which is not entirely complete.</p>
+<p id="P19">Clustering also provides a rational for aggregating individual AEs into syndromes. For example, <em>initial insomnia</em>, <em>nightmare</em>, <em>abnormal dreams</em> are all manifestations of “disordered sleep.” Mapping each of these manifestations to a common parent term such as “disordered sleep,” should in principle increase the strength of a potential drug-AE association.</p>
+<p id="P20">Clustering drugs and AEs may also provide information about whether the AE associated with a particular agent is likely unique to that particular agent or rather a class effect. When an agent is shown to cause an AE and is the first in its class, it is not initially known if the effect is unique to that drug or is a class effect. We found numerous situations where many members of the same drug class were associated with particular AEs, suggesting the potential for any member of a class to cause a given AE. For example, the bisphosphonate drugs <em>alendronate, alendronate sodium, pamidronate</em> were all paired with the AEs <em>impaired healing, femur fracture, pain in jaw</em>. The AE <em>impaired healing</em> is non-specific but most likely means healing after a fracture, which is a common side effect for bisphosphnates. Femur fractures and aseptic necrosis of the jaw (causing <em>pain in jaw</em>) are also more likely in <em>alendronate</em> and <em>pamidronate</em>. The way in which these symptoms clustered to the class of bisphosphonates makes it likely that these effects are class-specific. Not surprisingly, both <em>risedronate</em> and <em>ibandronate</em>, also biphosphonates, can cause this similar side effect profile.</p>
+<p id="P21">Clustering also highlights areas in the data that should be focused on in order to enhance detection of novel ADEs. For example, we observed that a large proportion (roughly 40%) of the biclusters identified were related to cancer or mental disorders. This outcome was not surprising and resulted in numerous associations of AEs which are common and known. A plausible explanation for this dominance is that a large proportion of clinical trials are actively testing new cancer and psychiatric drugs, and many of the reports submitted to AERS are typically by pharmaceutical companies reporting safety issues identified during the trials. Hence, removing these biclusters containing ADEs that are common and known would provide an opportunity for enhanced targeting of novel ADEs associated with other disorders and their related therapies.</p>
+<p id="P22">In summary, the findings demonstrate the importance and utility of this biclustering methodology for several important aspects of parmcovigilance noted in several prominent studies. Biclustering provides insight into the etiology of known ADEs, and facilitates the identification of novel ADEs. Biclustering suggests methods and provides rational for aggregating terminologies used to describe ADEs. Biclustering can be used to identify AEs of drug classes. Biclustering highlights areas of focus and an opportunity for enhanced targeting of novel ADEs. Finally, biclustering provides a data exploratory tool in pharmacovigilance with which the underlying large and complex database can be summarized and described in a big picture manner, capturing important patterns as well as highlighting data quality issues, which can then be used to improve the signal detection process. We note that the proposed approach is fundamentally different than existing approaches and as such a direct comparison with existing methods is not possible. In addition, no claim is made that the proposed approach is able to identify ADEs that existing approaches cannot identify. In fact, since the method is based on an existing DMA (GPS) as a step prior to clustering, the same drug-AE associations will be reported.</p></section><section id="S9"><h2 class="pmc_sec_title">4. Data Sources and Methods</h2>
+<section id="S10"><h3 class="pmc_sec_title">Data Sources</h3>
+<p id="P23">The data used in this analysis included the latest full-year set of individual AERS reports available, published in the year 2008, and which offers the opportunity to examine newer ADEs. Of all the drugs and AEs appearing in the reports we selected only those drugs that were reported as “primary suspect”, and AEs that appeared in reports categorized as having a “serious” patient outcome. Demographic information including gender and age, necessary for stratification, was extracted from AERS and linked to each report. Additionally, we limited our analysis to drug-AE combinations that appeared at least 3 times.</p>
+<p id="P24">The following provides a brief discussion of each of the steps depicted in <a href="#F2" class="usa-link">Figure 2</a>.</p></section><section id="S11"><h3 class="pmc_sec_title">Drug name mapping</h3>
+<p id="P25">Unlike the suspected AEs and the indications, which are coded using the MedDRA terminology, drugs are entered as textual terms. Each drug obtained from a report was mapped to a UMLS<sup><a href="#R19" class="usa-link" aria-describedby="R19">19</a></sup> drug code using MedLEE<sup><a href="#R20" class="usa-link" aria-describedby="R20">20</a></sup>, an existing NLP system. If the drug name included a dose or route, e.g. “Avandia (2 milligram) tablets”, the more general UMLS code consisting of the drug name only was chosen over the more specific code, e.g., C0875967 corresponding to “Avandia”. If the drug name could not be mapped, it was left as is. Finally, UMLS codes were mapped to generics using RXNORM<sup><a href="#R19" class="usa-link" aria-describedby="R19">19</a></sup>. Hence, C0875967 corresponding to the brand name Avandia, would be mapped to C0289313 corresponding to the generic name “Rosiglitazone”.</p></section><section id="S12"><h3 class="pmc_sec_title">Duplicate reporting</h3>
+<p id="P26">It is suggested that between 5%–20% of the total number of reports submitted to AERS are duplicates <sup><a href="#R21" class="usa-link" aria-describedby="R21">21</a>, <a href="#R22" class="usa-link" aria-describedby="R22">22</a></sup>, hence one can expect thousands of duplicates to exist in AERS, and therefore thousands of spurious associations to be generated. While the FDA uses a proprietary algorithm, our method for identifying duplicate reports is based on searching through reports that contain at least 8 drugs/AEs, for pairs of reports that have an exact match of the reported drugs, AEs, and demographic data (age, gender, weight, and dates). The requirement for a match based on a set of at least 8 drugs/AEs minimizes the probability of a match by chance. Nonetheless, many potential duplicates do not demonstrate an exact match, mostly due to missing data or follow-ups which add or remove a small number of drugs/AEs. However, identifying these types of duplicates with high accuracy is a much harder task and beyond the scope of this study. We note that a possible solution has been proposed by Noren et al<sup><a href="#R21" class="usa-link" aria-describedby="R21">21</a></sup>, but their method was fit to the World Health Organization SRS<sup><a href="#R23" class="usa-link" aria-describedby="R23">23</a></sup> and it is not clear how well it will generalize to AERS.</p></section><section id="S13"><h3 class="pmc_sec_title">Stratification</h3>
+<p id="P27">The variables used for stratification included age, gender, and calendar year. The age variable was partitioned into four strata: pediatric (ages 0–15), young adults (ages 15–45), middle age (ages 45–70), and geriatric (ages 70 and above). Missing stratum data resulted in an extra NA stratum for each of the stratification variables, and an overall number of strata equal to 15 (5 age × 3 gender × 1 calendar year).</p></section><section id="S14"><h3 class="pmc_sec_title">Disproportionality analysis using GPS</h3>
+<p id="P28">In order to perform clustering it was first necessary to identify all drugs–AE pairs that are strongly associated. Of those that are strongly associated the clustering will then group drugs that are strongly associated with a common set of AEs. To compute drug-AE association strengths we used the GPS method, which was implemented exactly as described in the original paper<sup><a href="#R9" class="usa-link" aria-describedby="R9">9</a></sup>.</p></section><section id="S15"><h3 class="pmc_sec_title">Biclustering</h3>
+<p id="P29">The clustering data matrix consisted of <em>m</em> rows each representing a different drug, and <em>n</em> columns each representing a different AE, where each cell in the matrix initially contained GPS’ EBGM association strength value corresponding to the <em>i</em>-th drug and the <em>j</em>-th AE. This matrix was then transformed into a binary data matrix, where each cell contained either a 1 or 0, representing the states of “strongly associated” or “weakly associated” respectively. The transformation was performed by selecting an “association strength threshold”, and reflects the fundamental idea that drugs and AEs are either associated due to a causal relationship or not, and that in reality discovering this type of relationship is the ultimate goal. Moreover, clustering based on association strengths would have painted a completely different picture, not aligned with our goals. For example, drug-AE pairs that are associated only by chance, or even not associated at all, would have been clustered together since they share a common low association strength value.</p>
+<p id="P30">Binary inclusion-maximal biclustering (Bimax)<sup><a href="#R24" class="usa-link" aria-describedby="R24">24</a></sup> used in work, is one of the several biclustering algorithms included in Biclustering Analysis Toolbox<sup><a href="#R25" class="usa-link" aria-describedby="R25">25</a></sup>, which is a software platform for biclustering data analysis and visualization. Bimax assumes a binary data model, in which each entry in the data matrix either is 1 or 0, making it consistent with our clustering model. Bimax is designed to find maximal submatrices of the data matrix in which all elements have a value equal to 1. Translating to our problem, Bimax is able to find the largest clusters, such that each is made of a subset of drugs that are all strongly associated with the same subset of AEs. One of the main advantages of Bimax is that in contrast to most clustering algorithms, it is an exact algorithm able to find all of the biclusters that exist in the data. <a href="#SD1" class="usa-link">Supplementary Material 2</a> provides a more detailed discussion of biclustering.</p>
+<p id="P31">Bimax requires the user to pre-specify two parameters – the minimum number of drugs and minimum number of AEs needed to define a bicluster. We selected 3 as the minimum for both drugs and AEs, as we felt that anything less would have produced a very large number of uninteresting small clusters. <a href="#F3" class="usa-link">Figure 3</a> shows a sample of ADE biclusters produced by Bimax displayed in a binary heatmap.</p>
+<figure class="fig xbox font-sm" id="F3"><h4 class="obj_head">Figure 3.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><img class="graphic" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13f8/3282185/598631694bfd/nihms353976f3.jpg" loading="lazy" height="634" width="800" alt="Figure 3"></p>
+<div class="p text-right font-secondary"><a href="figure/F3/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Graphical display of Bimax clustering results. The right pane displays a binary heatmap annotated with drugs along the left side and AEs along the top. Red cells in the heatmap indicate that a drug and AE are strongly associated, green indicates that they are weakly or not associated. After clustering the heatmap is rearranged to display a cluster (selected from the left pane) in the upper left corner of the map. This example shows a cluster of 4 cancer related drugs and their 7 common associated AEs. The left pane displays the loaded data matrix, analysis steps, and a clustering summary sorted according to cluster size.</p></figcaption></figure></section><section id="S16"><h3 class="pmc_sec_title">Evaluation</h3>
+<p id="P32">Validation of clustering results is generally a hard task in the absence of a gold standard, which is typically the case. In the context of pharmacovigilance, the problem is exacerbated, since the evaluation of even a single drug-AE association, not to mention a set of associations which make up a cluster, is difficult due a lack of gold standard (set of all true ADEs is unknown). As a result, evaluation in terms of sensitivity and specificity is usually not possible, unless a small set of study ADEs is selected prior to mining, which is not the case here. One of the more common methods of evaluation in pharmacovigilance is by human experts<sup><a href="#R5" class="usa-link" aria-describedby="R5">5</a>, <a href="#R7" class="usa-link" aria-describedby="R7">7</a></sup>. Following this practice, the full set of biclusters identified by our approach were ranked according to the average EBGM measure between each drug-AE pair in a bicluster, and a random sample of 100 biclusters (from the full range of average EBGM measures) was given to two clinical experts for manual review and qualitative evaluation. Known ADEs were validated by the experts using Micromedex<sup><a href="#R26" class="usa-link" aria-describedby="R26">26</a></sup>, which is considered a reliable and trusted reference for medications and their associated ADEs.</p>
+<p id="P33">In addition, two statistical tests were conducted to demonstrate that (1) it is extremely unlikely that the bicluster structure arose in our data just by chance, and (2) it is extremely unlikely that a known ADE bicluster arose just by chance. As a limiting case, 3×3 biclusters (smallest size) were considered. To show (1) a standard graph theoretic approach was used to compute the expected number and probability of random 3×3 complete bipartite graphs given the sparsity of our data (probability of an association/edge). To show (2) a hypothesis test was conducted by creating a set of 100 random 3×3 biclusters sampled from AERS’ drug and AE distributions, and by comparing the number of known biclusters (R-I) identified in the random set with the number of known biclusters identified by our method. The <em>p-value</em> in this test is the probability of observing as large (or larger) difference between the proportion of known biclusters identified by the method and the proportion of known biclusters identified in the randomly generated set, given the (null) hypothesis of no difference between the two proportions. <a href="#SD2" class="usa-link">Supplementary Material 3</a> provides a more technical description of the two tests.</p></section></section><section id="S17"><h2 class="pmc_sec_title">Supplementary Material</h2>
+<section class="sm xbox font-sm" id="SD1"><div class="caption p"><span>Supplementary Material 2- Biclustering</span></div>
+<div class="media p" id="N0xdd3b940N0xeccba50"><div class="caption">
+<a href="/articles/instance/3282185/bin/NIHMS353976-supplement-Supplementary_Material_2-_Biclustering.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS353976-supplement-Supplementary_Material_2-_Biclustering.doc</a><sup> (90KB, doc) </sup>
+</div></div></section><section class="sm xbox font-sm" id="SD2"><div class="caption p"><span>Supplementary Material 3- Hypothesis Tests for Cluster Validation</span></div>
+<div class="media p" id="N0xdd3b940N0xeccbb10"><div class="caption">
+<a href="/articles/instance/3282185/bin/NIHMS353976-supplement-Supplementary_Material_3-_Hypothesis_Tests_for_Cluster_Validation.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS353976-supplement-Supplementary_Material_3-_Hypothesis_Tests_for_Cluster_Validation.doc</a><sup> (57.5KB, doc) </sup>
+</div></div></section><section class="sm xbox font-sm" id="SD3"><div class="caption p"><span>Supplementary material 1 - Potentially novel ADEs</span></div>
+<div class="media p" id="N0xdd3b940N0xeccbbd0"><div class="caption">
+<a href="/articles/instance/3282185/bin/NIHMS353976-supplement-Supplementary_material_1_-_Potentially_novel_ADEs.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS353976-supplement-Supplementary_material_1_-_Potentially_novel_ADEs.doc</a><sup> (46.5KB, doc) </sup>
+</div></div></section></section><section id="S18" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p>This research was supported in part by grants 1R01LM010016, 3R01LM010016-01S1, 3R01LM010016-02S1 and R01LM006910, from the National Library of Medicine. We thank Dowman Varn for his useful comments, and Lyudmila Shagina and Jianhua Li for their assistance extracting and preprocessing the data.</p></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">Reference List</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="R1">
+<span class="label">1.</span><cite>Almenoff JS, Pattishall EN, Gibbs TG, DuMouchel W, Evans SJ, Yuen N. Novel statistical tools for monitoring the safety of marketed drugs. Clin Pharmacol Ther. 2007 August;82(2):157–66. doi: 10.1038/sj.clpt.6100258.</cite> [<a href="https://doi.org/10.1038/sj.clpt.6100258" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17538548/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Clin%20Pharmacol%20Ther&amp;title=Novel%20statistical%20tools%20for%20monitoring%20the%20safety%20of%20marketed%20drugs&amp;author=JS%20Almenoff&amp;author=EN%20Pattishall&amp;author=TG%20Gibbs&amp;author=W%20DuMouchel&amp;author=SJ%20Evans&amp;volume=82&amp;issue=2&amp;publication_year=2007&amp;pages=157-66&amp;pmid=17538548&amp;doi=10.1038/sj.clpt.6100258&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R2">
+<span class="label">2.</span><cite>Bates DW, Spell N, Cullen DJ, et al.  The costs of adverse drug events in hospitalized patients. Adverse Drug Events Prevention Study Group. JAMA. 1997 January 22;277(4):307–11.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/9002493/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=The%20costs%20of%20adverse%20drug%20events%20in%20hospitalized%20patients.%20Adverse%20Drug%20Events%20Prevention%20Study%20Group&amp;author=DW%20Bates&amp;author=N%20Spell&amp;author=DJ%20Cullen&amp;volume=277&amp;issue=4&amp;publication_year=1997&amp;pages=307-11&amp;pmid=9002493&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R3">
+<span class="label">3.</span><cite>Classen DC, Pestotnik SL, Evans RS, Lloyd JF, Burke JP. Adverse drug events in hospitalized patients. Excess length of stay, extra costs, and attributable mortality. JAMA. 1997 January 22;277(4):301–6.</cite> [<a href="https://pubmed.ncbi.nlm.nih.gov/9002492/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Adverse%20drug%20events%20in%20hospitalized%20patients.%20Excess%20length%20of%20stay,%20extra%20costs,%20and%20attributable%20mortality&amp;author=DC%20Classen&amp;author=SL%20Pestotnik&amp;author=RS%20Evans&amp;author=JF%20Lloyd&amp;author=JP%20Burke&amp;volume=277&amp;issue=4&amp;publication_year=1997&amp;pages=301-6&amp;pmid=9002492&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R4">
+<span class="label">4.</span><cite>Adverse Event Reporting System.   <a href="http://www.fda.gov/cder/aers/default.htm" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.fda.gov/cder/aers/default.htm</a>.</cite>
+</li>
+<li id="R5">
+<span class="label">5.</span><cite>Hauben M, Madigan D, Gerrits CM, Walsh L, van Puijenbroek EP. The role of data mining in pharmacovigilance. Expert Opin Drug Saf. 2005 September;4(5):929–48. doi: 10.1517/14740338.4.5.929.</cite> [<a href="https://doi.org/10.1517/14740338.4.5.929" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16111454/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Expert%20Opin%20Drug%20Saf&amp;title=The%20role%20of%20data%20mining%20in%20pharmacovigilance&amp;author=M%20Hauben&amp;author=D%20Madigan&amp;author=CM%20Gerrits&amp;author=L%20Walsh&amp;author=EP%20van%20Puijenbroek&amp;volume=4&amp;issue=5&amp;publication_year=2005&amp;pages=929-48&amp;pmid=16111454&amp;doi=10.1517/14740338.4.5.929&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R6">
+<span class="label">6.</span><cite>Wilson AM, Thabane L, Holbrook A. Application of data mining techniques in pharmacovigilance. Br J Clin Pharmacol. 2004 February;57(2):127–34. doi: 10.1046/j.1365-2125.2003.01968.x.</cite> [<a href="https://doi.org/10.1046/j.1365-2125.2003.01968.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1884444/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14748811/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Br%20J%20Clin%20Pharmacol&amp;title=Application%20of%20data%20mining%20techniques%20in%20pharmacovigilance&amp;author=AM%20Wilson&amp;author=L%20Thabane&amp;author=A%20Holbrook&amp;volume=57&amp;issue=2&amp;publication_year=2004&amp;pages=127-34&amp;pmid=14748811&amp;doi=10.1046/j.1365-2125.2003.01968.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R7">
+<span class="label">7.</span><cite>Almenoff J, Tonning JM, Gould AL, et al.  Perspectives on the use of data mining in pharmaco-vigilance. Drug Saf. 2005;28(11):981–1007. doi: 10.2165/00002018-200528110-00002.</cite> [<a href="https://doi.org/10.2165/00002018-200528110-00002" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16231953/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Drug%20Saf&amp;title=Perspectives%20on%20the%20use%20of%20data%20mining%20in%20pharmaco-vigilance&amp;author=J%20Almenoff&amp;author=JM%20Tonning&amp;author=AL%20Gould&amp;volume=28&amp;issue=11&amp;publication_year=2005&amp;pages=981-1007&amp;pmid=16231953&amp;doi=10.2165/00002018-200528110-00002&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R8">
+<span class="label">8.</span><cite>Bate A, Evans SJ. Quantitative signal detection using spontaneous ADR reporting. Pharmacoepidemiol Drug Saf. 2009 June;18(6):427–36. doi: 10.1002/pds.1742.</cite> [<a href="https://doi.org/10.1002/pds.1742" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19358225/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pharmacoepidemiol%20Drug%20Saf&amp;title=Quantitative%20signal%20detection%20using%20spontaneous%20ADR%20reporting&amp;author=A%20Bate&amp;author=SJ%20Evans&amp;volume=18&amp;issue=6&amp;publication_year=2009&amp;pages=427-36&amp;pmid=19358225&amp;doi=10.1002/pds.1742&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R9">
+<span class="label">9.</span><cite>DuMouchel W. Bayesian data mining in large frequency tables, with an application to the FDA Spontaneous Reporting System. Am Stat. 1999;53(3):177–90.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20Stat&amp;title=Bayesian%20data%20mining%20in%20large%20frequency%20tables,%20with%20an%20application%20to%20the%20FDA%20Spontaneous%20Reporting%20System&amp;author=W%20DuMouchel&amp;volume=53&amp;issue=3&amp;publication_year=1999&amp;pages=177-90&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R10">
+<span class="label">10.</span><cite>Szarfman A, Machado SG, O’Neill RT. Use of screening algorithms and computer systems to efficiently signal higher-than-expected combinations of drugs and events in the US FDA’s spontaneous reports database. Drug Saf. 2002;25(6):381–92. doi: 10.2165/00002018-200225060-00001.</cite> [<a href="https://doi.org/10.2165/00002018-200225060-00001" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/12071774/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Drug%20Saf&amp;title=Use%20of%20screening%20algorithms%20and%20computer%20systems%20to%20efficiently%20signal%20higher-than-expected%20combinations%20of%20drugs%20and%20events%20in%20the%20US%20FDA%E2%80%99s%20spontaneous%20reports%20database&amp;author=A%20Szarfman&amp;author=SG%20Machado&amp;author=RT%20O%E2%80%99Neill&amp;volume=25&amp;issue=6&amp;publication_year=2002&amp;pages=381-92&amp;pmid=12071774&amp;doi=10.2165/00002018-200225060-00001&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R11">
+<span class="label">11.</span><cite>Stephenson W, Hauben M. Data mining for signals in spontaneous reporting databases: proceed with caution. Pharmacoepidemiol Drug Saf. 2007;16(4):359–65. doi: 10.1002/pds.1323.</cite> [<a href="https://doi.org/10.1002/pds.1323" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17019675/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pharmacoepidemiol%20Drug%20Saf&amp;title=Data%20mining%20for%20signals%20in%20spontaneous%20reporting%20databases:%20proceed%20with%20caution&amp;author=W%20Stephenson&amp;author=M%20Hauben&amp;volume=16&amp;issue=4&amp;publication_year=2007&amp;pages=359-65&amp;pmid=17019675&amp;doi=10.1002/pds.1323&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R12">
+<span class="label">12.</span><cite>Fliri AF, Loging WT, Thadeio PF, Volkmann RA. Analysis of drug-induced effect patterns to link structure and side effects of medicines. Nature Chemical Biology. 2005 December;1(7):389–97. doi: 10.1038/nchembio747.</cite> [<a href="https://doi.org/10.1038/nchembio747" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16370374/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Nature%20Chemical%20Biology&amp;title=Analysis%20of%20drug-induced%20effect%20patterns%20to%20link%20structure%20and%20side%20effects%20of%20medicines&amp;author=AF%20Fliri&amp;author=WT%20Loging&amp;author=PF%20Thadeio&amp;author=RA%20Volkmann&amp;volume=1&amp;issue=7&amp;publication_year=2005&amp;pages=389-97&amp;pmid=16370374&amp;doi=10.1038/nchembio747&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R13">
+<span class="label">13.</span><cite>O’Neill RT, Szarfman A. Data Mining in Large Frequency Tables, with an Application to the FDA Spontaneous Reporting System: Discussion. Am Stat. 1999;53(3):190–6.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Am%20Stat&amp;title=Data%20Mining%20in%20Large%20Frequency%20Tables,%20with%20an%20Application%20to%20the%20FDA%20Spontaneous%20Reporting%20System:%20Discussion&amp;author=RT%20O%E2%80%99Neill&amp;author=A%20Szarfman&amp;volume=53&amp;issue=3&amp;publication_year=1999&amp;pages=190-6&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R14">
+<span class="label">14.</span><cite>Brown EG. Effects of coding dictionary on signal generation: a consideration of use of MedDRA compared with WHO-ART. Drug Saf. 2002;25(6):445–52. doi: 10.2165/00002018-200225060-00009.</cite> [<a href="https://doi.org/10.2165/00002018-200225060-00009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/12071782/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Drug%20Saf&amp;title=Effects%20of%20coding%20dictionary%20on%20signal%20generation:%20a%20consideration%20of%20use%20of%20MedDRA%20compared%20with%20WHO-ART&amp;author=EG%20Brown&amp;volume=25&amp;issue=6&amp;publication_year=2002&amp;pages=445-52&amp;pmid=12071782&amp;doi=10.2165/00002018-200225060-00009&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R15">
+<span class="label">15.</span><cite>Kriegel H, Kröger P, Zimek A. Clustering high-dimensional data: A survey on subspace clustering, pattern-based clustering, and correlation clustering. ACM Trans Knowl Discov Data. 2009;3(1):1–58.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=ACM%20Trans%20Knowl%20Discov%20Data&amp;title=Clustering%20high-dimensional%20data:%20A%20survey%20on%20subspace%20clustering,%20pattern-based%20clustering,%20and%20correlation%20clustering&amp;author=H%20Kriegel&amp;author=P%20Kr%C3%B6ger&amp;author=A%20Zimek&amp;volume=3&amp;issue=1&amp;publication_year=2009&amp;pages=1-58&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R16">
+<span class="label">16.</span><cite>Madeira SC, Oliveira AL. Biclustering Algorithms for Biological Data Analysis: A Survey. IEEE/ACM Trans Comput Biol Bioinformatics. 2004;1(1):24–45. doi: 10.1109/TCBB.2004.2.</cite> [<a href="https://doi.org/10.1109/TCBB.2004.2" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17048406/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=IEEE/ACM%20Trans%20Comput%20Biol%20Bioinformatics&amp;title=Biclustering%20Algorithms%20for%20Biological%20Data%20Analysis:%20A%20Survey&amp;author=SC%20Madeira&amp;author=AL%20Oliveira&amp;volume=1&amp;issue=1&amp;publication_year=2004&amp;pages=24-45&amp;pmid=17048406&amp;doi=10.1109/TCBB.2004.2&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R17">
+<span class="label">17.</span><cite>Breuer RI. Chlorpromazine Hepatotoxicity Manifested by A Selective and Sustained Rise of Serum Alkaline Phosphatase Activity - Report of A Case. American Journal of Digestive Diseases. 1965;10(8):727–731. doi: 10.1007/BF02236073.</cite> [<a href="https://doi.org/10.1007/BF02236073" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14316761/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=American%20Journal%20of%20Digestive%20Diseases&amp;title=Chlorpromazine%20Hepatotoxicity%20Manifested%20by%20A%20Selective%20and%20Sustained%20Rise%20of%20Serum%20Alkaline%20Phosphatase%20Activity%20-%20Report%20of%20A%20Case&amp;author=RI%20Breuer&amp;volume=10&amp;issue=8&amp;publication_year=1965&amp;pages=727-731&amp;pmid=14316761&amp;doi=10.1007/BF02236073&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R18">
+<span class="label">18.</span><cite>Solomons K, Gooch S, Wong A. Toxicity with selective serotonin reuptake inhibitors. American Journal of Psychiatry. 2005 June;162(6):1225. doi: 10.1176/appi.ajp.162.6.1225.</cite> [<a href="https://doi.org/10.1176/appi.ajp.162.6.1225" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15930079/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=American%20Journal%20of%20Psychiatry&amp;title=Toxicity%20with%20selective%20serotonin%20reuptake%20inhibitors&amp;author=K%20Solomons&amp;author=S%20Gooch&amp;author=A%20Wong&amp;volume=162&amp;issue=6&amp;publication_year=2005&amp;pages=1225&amp;pmid=15930079&amp;doi=10.1176/appi.ajp.162.6.1225&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R19">
+<span class="label">19.</span><cite>Unified Medical Language System.   <a href="http://www.nlm.nih.gov/research/umls/rxnorm/" class="usa-link" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.nlm.nih.gov/research/umls/rxnorm/</a></cite>
+</li>
+<li id="R20">
+<span class="label">20.</span><cite>Friedman C, Shagina L, Lussier Y, Hripcsak G. Automated encoding of clinical documents based on natural language processing. J Am Med Inform Assoc. 2004 September;11(5):392–402. doi: 10.1197/jamia.M1552.</cite> [<a href="https://doi.org/10.1197/jamia.M1552" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC516246/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15187068/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Med%20Inform%20Assoc&amp;title=Automated%20encoding%20of%20clinical%20documents%20based%20on%20natural%20language%20processing&amp;author=C%20Friedman&amp;author=L%20Shagina&amp;author=Y%20Lussier&amp;author=G%20Hripcsak&amp;volume=11&amp;issue=5&amp;publication_year=2004&amp;pages=392-402&amp;pmid=15187068&amp;doi=10.1197/jamia.M1552&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R21">
+<span class="label">21.</span><cite>Noren GN, Orre R, Bate A, Edwards IR. Duplicate detection in adverse drug reaction surveillance. Data Mining and Knowledge Discovery. 2007 June;14(3):305–28.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Data%20Mining%20and%20Knowledge%20Discovery&amp;title=Duplicate%20detection%20in%20adverse%20drug%20reaction%20surveillance&amp;author=GN%20Noren&amp;author=R%20Orre&amp;author=A%20Bate&amp;author=IR%20Edwards&amp;volume=14&amp;issue=3&amp;publication_year=2007&amp;pages=305-28&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R22">
+<span class="label">22.</span><cite>Hauben M, Reich L, DeMicco J, Kim K. ‘Extreme Duplication’ in the US FDA Adverse Events Reporting System Database. Drug Safety. 2007;30(6):551–554. doi: 10.2165/00002018-200730060-00009.</cite> [<a href="https://doi.org/10.2165/00002018-200730060-00009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17536881/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Drug%20Safety&amp;title=%E2%80%98Extreme%20Duplication%E2%80%99%20in%20the%20US%20FDA%20Adverse%20Events%20Reporting%20System%20Database&amp;author=M%20Hauben&amp;author=L%20Reich&amp;author=J%20DeMicco&amp;author=K%20Kim&amp;volume=30&amp;issue=6&amp;publication_year=2007&amp;pages=551-554&amp;pmid=17536881&amp;doi=10.2165/00002018-200730060-00009&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R23">
+<span class="label">23.</span><cite>The Upsala monitoring centre.   <a href="http://www.who-umc.org" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.who-umc.org</a>.</cite>
+</li>
+<li id="R24">
+<span class="label">24.</span><cite>Prelic A, Bleuler S, Zimmermann P, et al.  A systematic comparison and evaluation of biclustering methods for gene expression data. Bioinformatics. 2006 May 1;22(9):1122–9. doi: 10.1093/bioinformatics/btl060.</cite> [<a href="https://doi.org/10.1093/bioinformatics/btl060" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16500941/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Bioinformatics&amp;title=A%20systematic%20comparison%20and%20evaluation%20of%20biclustering%20methods%20for%20gene%20expression%20data&amp;author=A%20Prelic&amp;author=S%20Bleuler&amp;author=P%20Zimmermann&amp;volume=22&amp;issue=9&amp;publication_year=2006&amp;pages=1122-9&amp;pmid=16500941&amp;doi=10.1093/bioinformatics/btl060&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R25">
+<span class="label">25.</span><cite>Barkow S, Bleuler S, Prelic A, Zimmermann P, Zitzler E. BicAT: a biclustering analysis toolbox. Bioinformatics. 2006 May 15;22(10):1282–3. doi: 10.1093/bioinformatics/btl099.</cite> [<a href="https://doi.org/10.1093/bioinformatics/btl099" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16551664/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Bioinformatics&amp;title=BicAT:%20a%20biclustering%20analysis%20toolbox&amp;author=S%20Barkow&amp;author=S%20Bleuler&amp;author=A%20Prelic&amp;author=P%20Zimmermann&amp;author=E%20Zitzler&amp;volume=22&amp;issue=10&amp;publication_year=2006&amp;pages=1282-3&amp;pmid=16551664&amp;doi=10.1093/bioinformatics/btl099&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R26">
+<span class="label">26.</span><cite>Micromedex® Healthcare Series [Internet database] Greenwood Village, Colo: Thomson Reuters (Healthcare) Inc; 2010.  Updated periodically.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Micromedex%C2%AE%20Healthcare%20Series%20[Internet%20database]&amp;publication_year=2010&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section><section id="_ad93_" lang="en" class="associated-data"><h2 class="pmc_sec_title">Associated Data</h2>
+<p class="font-secondary"><em>This section collects any data citations, data availability statements, or supplementary materials included in this article.</em></p>
+<section id="_adsm93_" lang="en" class="supplementary-materials"><h3 class="pmc_sec_title">Supplementary Materials</h3>
+<section class="sm xbox font-sm" id="db_ds_supplementary-material1_reqid_"><div class="caption p"><span>Supplementary Material 2- Biclustering</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/3282185/bin/NIHMS353976-supplement-Supplementary_Material_2-_Biclustering.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS353976-supplement-Supplementary_Material_2-_Biclustering.doc</a><sup> (90KB, doc) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material2_reqid_"><div class="caption p"><span>Supplementary Material 3- Hypothesis Tests for Cluster Validation</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/3282185/bin/NIHMS353976-supplement-Supplementary_Material_3-_Hypothesis_Tests_for_Cluster_Validation.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS353976-supplement-Supplementary_Material_3-_Hypothesis_Tests_for_Cluster_Validation.doc</a><sup> (57.5KB, doc) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material3_reqid_"><div class="caption p"><span>Supplementary material 1 - Potentially novel ADEs</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/3282185/bin/NIHMS353976-supplement-Supplementary_material_1_-_Potentially_novel_ADEs.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS353976-supplement-Supplementary_material_1_-_Potentially_novel_ADEs.doc</a><sup> (46.5KB, doc) </sup>
+</div></div></section></section></section></section></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1038/clpt.2010.285"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/nihms353976.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (659.1 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/3282185/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/3282185/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC3282185%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC3282185/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC3282185/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC3282185/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/21191383/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC3282185/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/21191383/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC3282185/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/3282185/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="27O9lp2WAstkp0zo9KAXphGj6V1GcGIIf7cuukYy0cHGNEGnEf3XDZcOMVAMJODL">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

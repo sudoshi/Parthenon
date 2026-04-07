@@ -1,0 +1,3091 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Observational Study of Hydroxychloroquine in Hospitalized Patients with Covid-19 - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="1A81B50D9D45B2630BB50D001022164C.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="phenejm">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7224609/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="The New England Journal of Medicine">
+<meta name="citation_title" content="Observational Study of Hydroxychloroquine in Hospitalized Patients with Covid-19">
+<meta name="citation_author" content="Joshua Geleris">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Yifei Sun">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Jonathan Platt">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Jason Zucker">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Matthew Baldwin">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="George Hripcsak">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Angelena Labella">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Daniel K Manson">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Christine Kubin">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="R Graham Barr">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Magdalena E Sobieszczyk">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_author" content="Neil W Schluger">
+<meta name="citation_author_institution" content="From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.">
+<meta name="citation_publication_date" content="2020 May 7">
+<meta name="citation_firstpage" content="NEJMoa2012410">
+<meta name="citation_doi" content="10.1056/NEJMoa2012410">
+<meta name="citation_pmid" content="32379955">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7224609/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7224609/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7224609/pdf/NEJMoa2012410.pdf">
+<meta name="description" content="Hydroxychloroquine has been widely administered to patients with Covid-19 without robust evidence supporting its use. We examined the association between hydroxychloroquine use and intubation or death at a large medical center in New York City. Data ...">
+<meta name="og:title" content="Observational Study of Hydroxychloroquine in Hospitalized Patients with Covid-19">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Hydroxychloroquine has been widely administered to patients with Covid-19 without robust evidence supporting its use. We examined the association between hydroxychloroquine use and intubation or death at a large medical center in New York City. Data ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC7224609/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="7224609">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1056/NEJMoa2012410"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/NEJMoa2012410.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7224609%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/7224609/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/7224609/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7224609/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-phenejm.png" alt="NEJM Group COVID-19 Collection logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to NEJM Group COVID-19 Collection" title="Link to NEJM Group COVID-19 Collection" shape="default" href="https://doi.org/10.1056/NEJMoa2012410" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">N Engl J Med</button></div>. 2020 May 7:NEJMoa2012410. doi: <a href="https://doi.org/10.1056/NEJMoa2012410" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1056/NEJMoa2012410</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="N%20Engl%20J%20Med"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="N%20Engl%20J%20Med"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="N%20Engl%20J%20Med"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="N%20Engl%20J%20Med"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Observational Study of Hydroxychloroquine in Hospitalized Patients with Covid-19</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Geleris%20J"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Joshua Geleris</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Joshua Geleris</span>, <span class="degrees">M.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Geleris%20J"[Author]' class="usa-link"><span class="name western">Joshua Geleris</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Sun%20Y"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Yifei Sun</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Yifei Sun</span>, <span class="degrees">Ph.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Sun%20Y"[Author]' class="usa-link"><span class="name western">Yifei Sun</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Platt%20J"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Jonathan Platt</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Jonathan Platt</span>, <span class="degrees">Ph.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Platt%20J"[Author]' class="usa-link"><span class="name western">Jonathan Platt</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Zucker%20J"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Jason Zucker</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Jason Zucker</span>, <span class="degrees">M.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Zucker%20J"[Author]' class="usa-link"><span class="name western">Jason Zucker</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Baldwin%20M"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Matthew Baldwin</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">Matthew Baldwin</span>, <span class="degrees">M.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Baldwin%20M"[Author]' class="usa-link"><span class="name western">Matthew Baldwin</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">George Hripcsak</span></a><div hidden="hidden" id="id6">
+<h3>
+<span class="name western">George Hripcsak</span>, <span class="degrees">M.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hripcsak%20G"[Author]' class="usa-link"><span class="name western">George Hripcsak</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Labella%20A"[Author]' class="usa-link" aria-describedby="id7"><span class="name western">Angelena Labella</span></a><div hidden="hidden" id="id7">
+<h3>
+<span class="name western">Angelena Labella</span>, <span class="degrees">M.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Labella%20A"[Author]' class="usa-link"><span class="name western">Angelena Labella</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Manson%20DK"[Author]' class="usa-link" aria-describedby="id8"><span class="name western">Daniel K Manson</span></a><div hidden="hidden" id="id8">
+<h3>
+<span class="name western">Daniel K Manson</span>, <span class="degrees">M.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Manson%20DK"[Author]' class="usa-link"><span class="name western">Daniel K Manson</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kubin%20C"[Author]' class="usa-link" aria-describedby="id9"><span class="name western">Christine Kubin</span></a><div hidden="hidden" id="id9">
+<h3>
+<span class="name western">Christine Kubin</span>, <span class="degrees">Pharm.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kubin%20C"[Author]' class="usa-link"><span class="name western">Christine Kubin</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Barr%20RG"[Author]' class="usa-link" aria-describedby="id10"><span class="name western">R Graham Barr</span></a><div hidden="hidden" id="id10">
+<h3>
+<span class="name western">R Graham Barr</span>, <span class="degrees">M.D., Dr.P.H.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Barr%20RG"[Author]' class="usa-link"><span class="name western">R Graham Barr</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Sobieszczyk%20ME"[Author]' class="usa-link" aria-describedby="id11"><span class="name western">Magdalena E Sobieszczyk</span></a><div hidden="hidden" id="id11">
+<h3>
+<span class="name western">Magdalena E Sobieszczyk</span>, <span class="degrees">M.D., M.P.H.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Sobieszczyk%20ME"[Author]' class="usa-link"><span class="name western">Magdalena E Sobieszczyk</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schluger%20NW"[Author]' class="usa-link" aria-describedby="id12"><span class="name western">Neil W Schluger</span></a><div hidden="hidden" id="id12">
+<h3>
+<span class="name western">Neil W Schluger</span>, <span class="degrees">M.D.</span>
+</h3>
+<div class="p">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schluger%20NW"[Author]' class="usa-link"><span class="name western">Neil W Schluger</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>✉</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="aff1">
+<sup>1</sup>From the Divisions of General Medicine, Infectious Diseases, and Pulmonary, Allergy, and Critical Care Medicine, Department of Medicine (J.G., J.Z., M.B., A.L., D.K.M., C.K., R.G.B., M.E.S., N.W.S.), the Departments of Biostatistics (Y.S.) and Epidemiology (J.P., R.G.B., N.W.S.), Mailman School of Public Health, and the Department of Biomedical Informatics (G.H.), Vagelos College of Physicians and Surgeons, Columbia University, and New York–Presbyterian Hospital–Columbia University Irving Medical Center (J.G., J.Z., M.B., A.L., D.K.M., C.K.,R.G.B., M.E.S., N.W.S.) — all in New York.</div>
+<div class="author-notes p">
+<div class="fn" id="corresp1">
+<sup>✉</sup><p class="display-inline">Address reprint requests to Dr. Schluger at the Division of Pulmonary, Allergy, and Critical Care Medicine, Columbia University Irving Medical Center, PH-8 E., Rm. 101, 622 W. 168th St., New York, NY 10032, or at <span>ns311@cumc.columbia.edu</span>.</p>
+</div>
+<div class="fn" id="_fncrsp93pmc__">
+<sup>✉</sup><p class="display-inline">Corresponding author.</p>
+</div>
+</div>
+</div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>Copyright © 2020 Massachusetts Medical Society. All rights reserved.</div>
+<p>This article is made available via the PMC Open Access Subset for unrestricted re-use, except commercial resale, and analyses in any form or by any means with acknowledgment of the original source. PMC is granted a license to make this article available via PMC and Europe PMC, subject to existing copyright protections.</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC7224609  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32379955/" class="usa-link">32379955</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article"><div>See editorial "<a href="/articles/PMC7224605/" class="usa-link">The Urgency of Care during the Covid-19 Pandemic — Learning as We Go</a>", NEJMe2015903.</div></div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<section id="sc_a1"><h3 class="pmc_sec_title">Background</h3>
+<p>Hydroxychloroquine has been widely administered to patients with Covid-19 without robust evidence supporting its use.</p></section><section id="sc_a2"><h3 class="pmc_sec_title">Methods</h3>
+<p>We examined the association between hydroxychloroquine use and intubation or death at a large medical center in New York City. Data were obtained regarding consecutive patients hospitalized with Covid-19, excluding those who were intubated, died, or discharged within 24 hours after presentation to the emergency department (study baseline). The primary end point was a composite of intubation or death in a time-to-event analysis. We compared outcomes in patients who received hydroxychloroquine with those in patients who did not, using a multivariable Cox model with inverse probability weighting according to the propensity score.</p></section><section id="sc_a3"><h3 class="pmc_sec_title">Results</h3>
+<p>Of 1446 consecutive patients, 70 patients were intubated, died, or discharged within 24 hours after presentation and were excluded from the analysis. Of the remaining 1376 patients, during a median follow-up of 22.5 days, 811 (58.9%) received hydroxychloroquine (600 mg twice on day 1, then 400 mg daily for a median of 5 days); 45.8% of the patients were treated within 24 hours after presentation to the emergency department, and 85.9% within 48 hours. Hydroxychloroquine-treated patients were more severely ill at baseline than those who did not receive hydroxychloroquine (median ratio of partial pressure of arterial oxygen to the fraction of inspired oxygen, 223 vs. 360). Overall, 346 patients (25.1%) had a primary end-point event (180 patients were intubated, of whom 66 subsequently died, and 166 died without intubation). In the main analysis, there was no significant association between hydroxychloroquine use and intubation or death (hazard ratio, 1.04, 95% confidence interval, 0.82 to 1.32). Results were similar in multiple sensitivity analyses.</p></section><section id="sc_a4"><h3 class="pmc_sec_title">Conclusions</h3>
+<p>In this observational study involving patients with Covid-19 who had been admitted to the hospital, hydroxychloroquine administration was not associated with either a greatly lowered or an increased risk of the composite end point of intubation or death. Randomized, controlled trials of hydroxychloroquine in patients with Covid-19 are needed. (Funded by the National Institutes of Health.)</p></section></section><hr class="headless">
+<p>The aminoquinolines chloroquine and hydroxychloroquine are widely used in the treatment of malaria and rheumatic diseases, and they have been suggested as effective treatments for coronavirus disease 2019 (Covid-19) on the grounds of both antiinflammatory and antiviral effects.<sup><a href="#r1" class="usa-link" aria-describedby="r1">1-4</a></sup> In the United States, the Food and Drug Administration issued an Emergency Use Authorization on March 30, 2020, that allowed the use of these drugs in patients with Covid-19 who were not enrolled in clinical trials. Guidelines suggested that these drugs be administered to hospitalized patients who had evidence of pneumonia,<sup><a href="#r5" class="usa-link" aria-describedby="r5">5</a></sup> and to date, they have been used in many thousands of patients with acute Covid-19 around the world. However, to date, there have been no robust clinical trials that have shown efficacy of these agents for this illness, and the data that are available come from small studies that have either been uncontrolled or underpowered to detect meaningful clinical effects.</p>
+<p>The original report of hydroxychloroquine as a treatment for Covid-19 described 26 patients who had been treated in an open-label, single-group study that involved contemporaneous, but nonrandomized controls in hospitals in France.<sup><a href="#r6" class="usa-link" aria-describedby="r6">6</a></sup> Patients were treated with hydroxychloroquine at a dose of 200 mg three times daily for 10 days. Data from this study were reported as showing the effectiveness of hydroxychloroquine in reducing the viral burden in treated patients (65.0% clearance by day 5, vs. 18.8% clearance by day 5 in untreated patients). However, data from 6 patients who received hydroxychloroquine were excluded from the analysis because of clinical worsening or loss to follow-up, which makes it difficult to interpret the findings.</p>
+<p>Recent work suggests that hydroxychloroquine has more potent antiviral properties than chloroquine, as well as a better safety profile.<sup><a href="#r7" class="usa-link" aria-describedby="r7">7</a></sup> In accordance with clinical guidelines developed at our medical center, hydroxychloroquine was suggested as treatment for hospitalized patients with Covid-19 and respiratory difficulty, as indicated by a low resting oxygen saturation, during the period in which patients in this report were admitted.</p>
+<p>We examined the association between hydroxychloroquine use and respiratory failure at a large medical center providing care to a substantial number of patients with Covid-19 in New York City. We hypothesized that hydroxychloroquine use would be associated with a lower risk of a composite end point of intubation or death in analyses that were adjusted for major predictors of respiratory failure and weighted according to propensity scores assessing the probability of hydroxychloroquine use.</p>
+<section id="sc1"><h2 class="pmc_sec_title">Methods</h2>
+<section id="sc1.1"><h3 class="pmc_sec_title">Setting</h3>
+<p>We conducted this study at New York–Presbyterian Hospital (NYP)–Columbia University Irving Medical Center (CUIMC), a quaternary, acute care hospital in northern Manhattan. We obtained samples from all admitted adults who had a positive test result for the virus SARS-CoV-2 from analysis of nasopharyngeal or oropharyngeal swab specimens obtained at any point during their hospitalization from March 7 to April 8, 2020. Follow-up continued through April 25, 2020. These tests were conducted by the New York State Department of Health until the NYP–CUIMC laboratory developed internal testing capability with a reverse-transcriptase–polymerase-chain-reaction assay on March 11, 2020. Patients who were intubated, who died, or who were transferred to another facility within 24 hours after presentation to the emergency department were excluded from the analysis. The institutional review board at CUIMC approved this analysis under an expedited review.</p>
+<p>A guidance developed by the Department of Medicine and distributed to all the house staff and attending staff at our medical center suggested hydroxychloroquine as a therapeutic option for patients with Covid-19 who presented with moderate-to-severe respiratory illness, which was defined as a resting oxygen saturation of less than 94% while they were breathing ambient air. The suggested hydroxychloroquine regimen was a loading dose of 600 mg twice on day 1, followed by 400 mg daily for 4 additional days. Azithromycin at a dose of 500 mg on day 1 and then 250 mg daily for 4 more days in combination with hydroxychloroquine was an additional suggested therapeutic option. The azithromycin suggestion was removed on April 12, 2020, and the hydroxychloroquine suggestion was removed on April 29, 2020. The decision to prescribe either or both medications was left to the discretion of the treating team for each individual patient.</p>
+<p>Patients receiving sarilumab were allowed to continue hydroxychloroquine. Patients receiving remdesivir as part of a randomized trial either did not receive or had completed a course of treatment with hydroxychloroquine.</p></section><section id="sc1.2"><h3 class="pmc_sec_title">Data Sources</h3>
+<p>We obtained data from the NYP–CUIMC clinical data warehouse. This warehouse contains all the clinical data available on all inpatient and outpatient visits to one of the CUIMC facilities (see the Data Extraction section in the <a href="#ap1" class="usa-link">Supplementary Appendix</a>, available with the full text of this article at NEJM.org). No data were manually abstracted from the electronic medical record or charts. The data obtained included patients’ demographic details, insurance status, vital signs, laboratory test results, medication administration data, historical and current medication lists, historical and current diagnoses, clinical notes, historical discharge disposition for previous inpatient hospitalizations, and ventilator use data.</p></section><section id="sc1.3"><h3 class="pmc_sec_title">Variables Assessed</h3>
+<p>From the clinical data warehouse, we obtained the following data elements for each patient: age; sex; patient-reported race and ethnic group; current insurance carrier; the first recorded vital signs on presentation; the ratio of the partial pressure of arterial oxygen to the fraction of inspired oxygen (Pa<span class="font-variant-small-caps">o</span><sub>2</sub>:F<span class="font-variant-small-caps">io</span><sub>2</sub>) at admission, estimated with the use of methods developed by Brown and colleagues<sup><a href="#r8" class="usa-link" aria-describedby="r8">8</a>,<a href="#r9" class="usa-link" aria-describedby="r9">9</a></sup> (see the Data Extraction section in the <a href="#ap1" class="usa-link">Supplementary Appendix</a>); the first recorded body-mass index as calculated for measured height and weight (the body-mass index is the weight in kilograms divided by the square of the height in meters), grouped on the basis of the Centers for Disease Control and Prevention guidelines for adults; the first recorded inpatient laboratory tests; past and current diagnoses; patient-reported smoking status; and medication administration at baseline. Details of the variables assessed are provided in the <a href="#ap1" class="usa-link">Supplementary Appendix</a>.</p></section><section id="sc1.4"><h3 class="pmc_sec_title">Hydroxychloroquine Exposure</h3>
+<p>Patients were defined as receiving hydroxychloroquine if they were receiving it at study baseline or received it during the follow-up period before intubation or death. Study baseline was defined as 24 hours after arrival at the emergency department.</p></section><section id="sc1.5"><h3 class="pmc_sec_title">End Point</h3>
+<p>The primary end point was the time from study baseline to intubation or death. For patients who died after intubation, the timing of the primary end point was defined as the time of intubation.</p></section><section id="sc1.6"><h3 class="pmc_sec_title">Statistical Analysis</h3>
+<p>We calculated bivariate frequencies to examine the associations among the preadmission variables described above. Patients without a primary end-point event had their data censored on April 25, 2020.</p>
+<p>Cox proportional-hazards regression models were used to estimate the association between hydroxychloroquine use and the composite end point of intubation or death. An initial multivariable Cox regression model included demographic factors, clinical factors, laboratory tests, and medications. In addition, to help account for the nonrandomized treatment administration of hydroxychloroquine, we used propensity-score methods to reduce the effects of confounding. The individual propensities for receipt of hydroxychloroquine treatment were estimated with the use of a multivariable logistic-regression model that included the same covariates as the Cox regression model. Associations between hydroxychloroquine use and respiratory failure were then estimated by multivariable Cox regression models with the use of three propensity-score methods.</p>
+<p>The primary analysis used inverse probability weighting. In the inverse-probability-weighted analysis, the predicted probabilities from the propensity-score model were used to calculate the stabilized inverse-probability-weighting weight.<sup><a href="#r10" class="usa-link" aria-describedby="r10">10</a></sup> Kaplan–Meier curves and Cox models that used the inverse-probability-weighting weights were reported.</p>
+<p>We conducted a secondary analysis that used propensity-score matching and another that included the propensity score as an additional covariate. In the propensity-score matching analysis, the nearest-neighbor method was applied to create a matched control sample. Additional sensitivity analyses included the same set of analyses with the use of a different study baseline of 48 hours after arrival to the emergency department as well as analyses that defined the exposure as receipt of the first dose of hydroxychloroquine before study baseline only. Multiple imputation was used to handle missing data, and model estimates and standard errors were calculated with Rubin’s rules.<sup><a href="#r11" class="usa-link" aria-describedby="r11">11</a></sup> The nonparametric bootstrap method was used to obtain 95% pointwise confidence intervals for the inverse-probability-weighted Kaplan–Meier curves. The statistical analyses were performed with the use of R software, version 3.6.1 (R Project for Statistical Computing).</p></section></section><section id="sc2"><h2 class="pmc_sec_title">Results</h2>
+<section id="sc2.1"><h3 class="pmc_sec_title">Characteristics of the Cohort</h3>
+<p>Of 1446 consecutive patients with Covid-19 who were admitted to the hospital between March 7 and April 8, 2020, a total of 70 patients were excluded from this study because they had already had intubation or death, were discharged after inpatient admission, or were directly admitted to alternative facilities within 24 hours after presentation to the emergency department. Thus, 1376 patients were included in the analysis (<a href="#f1" class="usa-link">Figure 1</a>).</p>
+<figure class="fig xbox font-sm" id="f1"><h4 class="obj_head">Figure 1. Study Cohort.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=7224609_NEJMoa2012410_f1.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/63e5/7224609/35af1a3ab96e/NEJMoa2012410_f1.jpg" loading="lazy" height="434" width="743" alt="Figure 1"></a></p>
+<div class="p text-right font-secondary"><a href="figure/f1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Study baseline was defined as 24 hours after arrival at the emergency department. Covid-19 denotes coronavirus disease 2019.</p></figcaption></figure><p>Over a median follow-up of 22.5 days, 346 patients (25.1%) had a primary end-point event (166 patients died without being intubated, and 180 were intubated). At the time of data cutoff on April 25, a total of 232 patients had died (66 after intubation), 1025 had survived to hospital discharge, and 119 were still hospitalized (only 24 of whom were not intubated) (Table S1 in the <a href="#ap1" class="usa-link">Supplementary Appendix</a>).</p>
+<p>Of the 1376 patients, 811 (58.9%) received hydroxychloroquine (median duration of treatment, 5 days) and 565 (41.1%) did not. Among the patients who received hydroxychloroquine, 45.8% received it in the 24 hours between their presentation to the emergency department and the start of study follow-up, and 85.9% received it within 48 hours after presentation to the emergency department. The timing of the first dose of hydroxychloroquine after presentation to the medical center is shown in Figure S3. The distribution of the patients’ baseline characteristics according to hydroxychloroquine exposure is shown in <a href="#t1" class="usa-link">Table 1</a>, both in the unmatched and propensity-score–matched analytic samples. In the unmatched sample, hydroxychloroquine exposure differed according to age group, sex, race and ethnic group, body-mass index, insurance, smoking status, and current use of other medications. Hydroxychloroquine-treated patients had a lower Pa<span class="font-variant-small-caps">o</span><sub>2</sub>:F<span class="font-variant-small-caps">io</span><sub>2</sub> at baseline than did patients who did not receive hydroxychloroquine (median, 233 vs. 360 mm Hg). In addition to the 27 patients listed in <a href="#t1" class="usa-link">Table 1</a> who received remdesivir according to compassionate use, 30 patients in the study cohort were enrolled in randomized, blinded, placebo-controlled trials of that investigational agent or of sarilumab.</p>
+<section class="tw xbox font-sm" id="t1"><h4 class="obj_head">Table 1. Characteristics of Patients Receiving or Not Receiving Hydroxychloroquine, before and after Propensity-Score Matching.<a href="#t1fn1" class="usa-link"><sup>*</sup></a>.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<colgroup span="1">
+<col width="16.83%" span="1" id="t1col1">
+<col width="8.06%" span="1" id="t1col3">
+<col width="9.01%" span="1" id="t1col6">
+<col width="10.45%" span="1" id="t1col7">
+<col width="9.32%" span="1" id="t1col10">
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1">Characteristic</th>
+<th align="center" colspan="2" rowspan="1">Unmatched Patients</th>
+<th align="center" colspan="2" rowspan="1">Propensity-Score–Matched Patients<a href="#t1fn2" class="usa-link"><sup>†</sup></a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="bottom" rowspan="1" colspan="1"></th>
+<th align="center" valign="bottom" rowspan="1" colspan="1">Hydroxychloroquine<br>(N=811)</th>
+<th align="center" valign="bottom" rowspan="1" colspan="1">No Hydroxychloroquine<br>(N=565)</th>
+<th align="center" valign="bottom" rowspan="1" colspan="1">Hydroxychloroquine<br>(N=811)</th>
+<th align="center" valign="bottom" rowspan="1" colspan="1">No Hydroxychloroquine<br>(N=274)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Age — no. (%)</td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">&lt;40 yr</td>
+<td valign="top" align="center" rowspan="1" colspan="1">80 (9.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">105 (18.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">80 (9.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">28 (10.2)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">40–59 yr</td>
+<td valign="top" align="center" rowspan="1" colspan="1">217 (26.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">142 (25.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">217 (26.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">69 (25.2)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">60–79 yr</td>
+<td valign="top" align="center" rowspan="1" colspan="1">367 (45.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">220 (38.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">367 (45.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">118 (43.1)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">≥80 yr</td>
+<td valign="top" align="center" rowspan="1" colspan="1">147 (18.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">98 (17.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">147 (18.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">59 (21.5)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Female sex — no. (%)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">337 (41.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">258 (45.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">337 (41.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">113 (41.2)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Race and ethnic group — no. (%)<a href="#t1fn3" class="usa-link"><sup>‡</sup></a>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Non-Hispanic white</td>
+<td valign="top" align="center" rowspan="1" colspan="1">74 (9.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">57 (10.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">97 (12.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">36 (13.1)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Non-Hispanic black</td>
+<td valign="top" align="center" rowspan="1" colspan="1">89 (11.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">92 (16.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">120 (14.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">40 (14.6)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Hispanic</td>
+<td valign="top" align="center" rowspan="1" colspan="1">412 (50.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">286 (50.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">530 (65.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">172 (62.8)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Other</td>
+<td valign="top" align="center" rowspan="1" colspan="1">48 (5.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">36 (6.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">64 (7.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">26 (9.5)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Missing data</td>
+<td valign="top" align="center" rowspan="1" colspan="1">188 (23.2)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">94 (16.6)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Body-mass index — no. (%)<a href="#t1fn4" class="usa-link"><sup>§</sup></a>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">&lt;18.5</td>
+<td valign="top" align="center" rowspan="1" colspan="1">13 (1.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">13 (2.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">18 (2.2)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">7 (2.6)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">18.5–24.9</td>
+<td valign="top" align="center" rowspan="1" colspan="1">147 (18.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">98 (17.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">184 (22.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">53 (19.3)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">25.0–29.9</td>
+<td valign="top" align="center" rowspan="1" colspan="1">224 (27.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">157 (27.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">279 (34.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">96 (35.0)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">30.0–39.9</td>
+<td valign="top" align="center" rowspan="1" colspan="1">218 (26.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">133 (23.5)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">268 (33.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">99 (36.1)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">≥40.0</td>
+<td valign="top" align="center" rowspan="1" colspan="1">52 (6.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">20 (3.5)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">62 (7.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">19 (6.9)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Missing data</td>
+<td valign="top" align="center" rowspan="1" colspan="1">157 (19.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">144 (25.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Insurance — no. (%)</td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Medicaid</td>
+<td valign="top" align="center" rowspan="1" colspan="1">165 (20.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">146 (25.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">166 (20.5)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">54 (19.7)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Medicare</td>
+<td valign="top" align="center" rowspan="1" colspan="1">396 (48.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">261 (46.2)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">399 (49.2)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">141 (51.5)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">No insurance</td>
+<td valign="top" align="center" rowspan="1" colspan="1">79 (9.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">49 (8.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">79 (9.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">29 (10.6)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Commercial insurance</td>
+<td valign="top" align="center" rowspan="1" colspan="1">166 (20.5)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">106 (18.8)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">167 (20.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">50 (18.2)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Missing data</td>
+<td valign="top" align="center" rowspan="1" colspan="1">5 (0.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">3 (0.5)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Current smoking — no. (%)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">89 (11.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">68 (12.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">89 (11.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">32 (11.7)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Past diagnoses — no. (%)</td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Chronic lung disease<a href="#t1fn5" class="usa-link"><sup>¶</sup></a>
+</td>
+<td valign="top" align="center" rowspan="1" colspan="1">146 (18.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">105 (18.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">146 (18.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">49 (17.9)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Diabetes</td>
+<td valign="top" align="center" rowspan="1" colspan="1">301 (37.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">190 (33.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">301 (37.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">94 (34.3)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Hypertension</td>
+<td valign="top" align="center" rowspan="1" colspan="1">398 (49.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">38 (6.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">398 (49.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">146 (53.3)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Cancer</td>
+<td valign="top" align="center" rowspan="1" colspan="1">109 (13.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">67 (11.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">109 (13.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">35 (12.8)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Chronic kidney disease</td>
+<td valign="top" align="center" rowspan="1" colspan="1">133 (16.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">105 (18.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">133 (16.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">61 (22.3)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Transplantation, HIV infection, or immune-suppressive medications</td>
+<td valign="top" align="center" rowspan="1" colspan="1">40 (4.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">18 (3.2)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">40 (4.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">11 (4.0)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Medications at baseline — no. (%)</td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+<td align="left" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Statin</td>
+<td valign="top" align="center" rowspan="1" colspan="1">308 (38)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">197 (34.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">308 (38)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">107 (39.1)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">ACE inhibitor or ARB</td>
+<td valign="top" align="center" rowspan="1" colspan="1">236 (29.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">142 (25.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">236 (29.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">85 (31.0)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Systemic glucocorticoid</td>
+<td valign="top" align="center" rowspan="1" colspan="1">216 (26.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">57 (10.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">216 (26.6)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">42 (15.3)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Direct oral anticoagulant or warfarin</td>
+<td valign="top" align="center" rowspan="1" colspan="1">76 (9.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">47 (8.3)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">76 (9.4)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">24 (8.8)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Azithromycin</td>
+<td valign="top" align="center" rowspan="1" colspan="1">486 (59.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">127 (22.5)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">486 (59.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">102 (37.2)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Other antibiotic agent</td>
+<td valign="top" align="center" rowspan="1" colspan="1">604 (74.5)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">305 (54.0)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">604 (74.5)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">183 (66.8)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Tocilizumab</td>
+<td valign="top" align="center" rowspan="1" colspan="1">58 (7.2)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">12 (2.1)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">58 (7.2)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">9 (3.3)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Remdesivir</td>
+<td valign="top" align="center" rowspan="1" colspan="1">22 (2.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">5 (0.9)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">22 (2.7)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">5 (1.8)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Initial vital signs — median (IQR)</td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Systolic blood pressure — mm Hg</td>
+<td align="center" valign="top" rowspan="1" colspan="1">125 (111–139)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">127 (111–144)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">125 (111–139)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">126 (110–138)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Diastolic blood pressure — mm Hg</td>
+<td align="center" valign="top" rowspan="1" colspan="1">75 (67–82)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">76 (68–84)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">75 (67–82)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">74 (65–83)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Heart rate — beats/min</td>
+<td align="center" valign="top" rowspan="1" colspan="1">98 (86–111)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">97 (83–109)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">98 (86–111)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">97 (84–108)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Oxygen saturation — %</td>
+<td align="center" valign="top" rowspan="1" colspan="1">94 (90–96)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">96 (94–98)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">94 (90–96)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">94.5 (92–96)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Respiratory rate — breaths/min</td>
+<td align="center" valign="top" rowspan="1" colspan="1">20 (18–22)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">18 (18–20)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">20 (18–22)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">19.5 (18–22)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Calculated Pa<span class="font-variant-small-caps">o</span><sub>2</sub>:F<span class="font-variant-small-caps">io</span><sub>2</sub>
+</td>
+<td align="center" valign="top" rowspan="1" colspan="1">223 (160–303)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">360 (248–431)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">223 (160–303)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">273 (185–360)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Initial laboratory tests — median (IQR)<a href="#t1fn6" class="usa-link"><sup>‖</sup></a>
+</td>
+<td align="left" rowspan="1" colspan="1"></td>
+<td align="left" rowspan="1" colspan="1"></td>
+<td align="left" rowspan="1" colspan="1"></td>
+<td align="left" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">
+<span class="font-variant-small-caps">d</span>-Dimer — μg/ml</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1.25 (0.76–2.28)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1.1 (0.59–2.35)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1.26 (0.76–2.29)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1.33 (0.66–2.45)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Ferritin — ng/ml</td>
+<td align="center" valign="top" rowspan="1" colspan="1">785 (420–1377)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">481 (213–989)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">777 (417–1370)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">552 (283–1095)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Lactate dehydrogenase — U/liter</td>
+<td align="center" valign="top" rowspan="1" colspan="1">414 (322–546)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">333 (246–448)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">412 (321–544)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">370 (273–515)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">C-reactive protein — mg/liter</td>
+<td align="center" valign="top" rowspan="1" colspan="1">125 (75–199)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">76 (20–150)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">125 (74–199)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">106 (48–183)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Procalcitonin — ng/ml</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.21 (0.11–0.53)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.14 (0.09–0.39)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.21 (0.11–0.53)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.18 (0.10–0.45)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Neutrophil count per mm<sup>3</sup>
+</td>
+<td align="center" valign="top" rowspan="1" colspan="1">5.06 (3.64–7.26)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">4.53 (2.72–6.81)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">5.05 (3.63–7.26)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">4.95 (3.20–7.30)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Lymphocyte count per mm<sub>3</sub>
+</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.94 (0.65–1.28)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">1.02 (0.64–1.47)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.95 (0.66–1.30)</td>
+<td align="center" valign="top" rowspan="1" colspan="1">0.98 (0.68–1.37)</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/t1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="t1fn1">
+<sup>*</sup><p class="display-inline">ACE denotes angiotensin-converting enzyme, ARB angiotensin-receptor blocker, F<span class="font-variant-small-caps">io</span><sub>2</sub> fraction of inspired oxygen, HIV human immunodeficiency virus, IQR interquartile range, and Pa<span class="font-variant-small-caps">o</span><sub>2</sub> partial pressure of arterial oxygen.</p>
+</div>
+<div class="fn" id="t1fn2">
+<sup>†</sup><p class="display-inline">Data for patients included in the propensity-score–matched analysis were multiply imputed.</p>
+</div>
+<div class="fn" id="t1fn3">
+<sup>‡</sup><p class="display-inline">Data on race and ethnic group, as reported by the patient, were obtained from the clinical data warehouse.</p>
+</div>
+<div class="fn" id="t1fn4">
+<sup>§</sup><p class="display-inline">The body-mass index is the weight in kilograms divided by the square of the height in meters.</p>
+</div>
+<div class="fn" id="t1fn5">
+<sup>¶</sup><p class="display-inline">Chronic lung disease was defined as chronic obstructive pulmonary disease, asthma, or chronic bronchitis.</p>
+</div>
+<div class="fn" id="t1fn6">
+<sup>‖</sup><p class="display-inline">In the unmatched analysis, data on the <span class="font-variant-small-caps">d</span>-dimer level were missing for 291 patients, on the ferritin level for 168, on the lactate dehydrogenase level for 153, on the C-reactive protein level for 150, on the procalcitonin level for 121, on the neutrophil count for 33, and on the lymphocyte count for 33. Multiple imputation was used to account for missing data in the propensity-score–matched analysis.</p>
+</div>
+</div></section><p>The distribution of the estimated propensity scores for receipt of hydroxychloroquine among patients who did and did not receive hydroxychloroquine is shown in Figure S1. The odds ratios (with 95% confidence intervals) for receipt of hydroxychloroquine according to all the variables included in the propensity-score model are shown in Table S2. The C-statistic of the propensity-score model was 0.81. In the matched analytic sample, 811 patients were exposed to hydroxychloroquine and 274 were not exposed. The differences between hydroxychloroquine and pretreatment variables were attenuated in the propensity-score–matched samples as compared with the unmatched samples (<a href="#t2" class="usa-link">Table 2</a> and Fig. S2).</p>
+<section class="tw xbox font-sm" id="t2"><h4 class="obj_head">Table 2. Associations between Hydroxychloroquine Use and the Composite End Point of Intubation or Death in the Crude Analysis, Multivariable Analysis, and Propensity-Score Analyses.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<colgroup span="1">
+<col width="67.90%" span="1" id="t2col1">
+<col width="32.10%" span="1" id="t2col2">
+</colgroup>
+<thead><tr>
+<th align="left" valign="bottom" rowspan="1" colspan="1">Analysis</th>
+<th align="center" valign="bottom" rowspan="1" colspan="1">Intubation or Death</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">No. of events/no. of patients at risk (%)</td>
+<td align="center" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Hydroxychloroquine</td>
+<td valign="top" align="center" rowspan="1" colspan="1">262/811 (32.3)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">No hydroxychloroquine</td>
+<td valign="top" align="center" rowspan="1" colspan="1">84/565 (14.9)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Crude analysis — hazard ratio (95% CI)</td>
+<td valign="top" align="center" rowspan="1" colspan="1">2.37 (1.84–3.02)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Multivariable analysis — hazard ratio (95% CI)<a href="#t2fn1" class="usa-link"><sup>*</sup></a>
+</td>
+<td valign="top" align="center" rowspan="1" colspan="1">1.00 (0.76–1.32)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Propensity-score analyses — hazard ratio (95% CI)</td>
+<td align="center" valign="top" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">With inverse probability weighting<a href="#t2fn2" class="usa-link"><sup>†</sup></a>
+</td>
+<td valign="top" align="center" rowspan="1" colspan="1">1.04 (0.82–1.32)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">With matching<a href="#t2fn3" class="usa-link"><sup>‡</sup></a>
+</td>
+<td valign="top" align="center" rowspan="1" colspan="1">0.98 (0.73–1.31)</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">Adjusted for propensity score<a href="#t2fn4" class="usa-link"><sup>§</sup></a>
+</td>
+<td valign="top" align="center" rowspan="1" colspan="1">0.97 (0.74–1.28)</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/t2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="t2fn1">
+<sup>*</sup><p class="display-inline">Shown is the hazard ratio from the multivariable Cox proportional-hazards model, with stratification according to sex, chronic lung disease, and body-mass index, and with additional adjustment for age, race and ethnic group, insurance, current smoking, past diagnoses, current medications, vital statistics, and laboratory tests on presentation. The analysis included all 1376 patients.</p>
+</div>
+<div class="fn" id="t2fn2">
+<sup>†</sup><p class="display-inline">Shown is the primary analysis with a hazard ratio from the multivariable Cox proportional-hazards model with the same strata and covariates with inverse probability weighting according to the propensity score. The analysis included all the patients.</p>
+</div>
+<div class="fn" id="t2fn3">
+<sup>‡</sup><p class="display-inline">Shown is the hazard ratio from a multivariable Cox proportional-hazards model with the same strata and covariates with matching according to the propensity score. The analysis included 1085 patients (811 who received hydroxychloroquine and 274 who did not).</p>
+</div>
+<div class="fn" id="t2fn4">
+<sup>§</sup><p class="display-inline">Shown is the hazard ratio from a multivariable Cox proportional-hazards model with the same strata and covariates, with additional adjustment for the propensity score. The analysis included all the patients.</p>
+</div>
+</div></section></section><section id="sc2.2"><h3 class="pmc_sec_title">Study End Points</h3>
+<p>Among the 1376 patients included in the analysis, the primary end point of respiratory failure developed in 346 patients (25.1%); a total of 180 patients were intubated, and 166 died without intubation. In the crude, unadjusted analysis, patients who had received hydroxychloroquine were more likely to have had a primary end-point event than were patients who did not (hazard ratio, 2.37; 95% CI, 1.84 to 3.02) (<a href="#t2" class="usa-link">Table 2</a>). In the primary multivariable analysis with inverse probability weighting according to the propensity score, there was no significant association between hydroxychloroquine use and the composite primary end point (hazard ratio, 1.04; 95% CI, 0.82 to 1.32) (<a href="#f2" class="usa-link">Figure 2</a>). There was also no significant association between treatment with azithromycin and the composite end point (hazard ratio, 1.03; 95% CI, 0.81 to 1.31).</p>
+<figure class="fig xbox font-sm" id="f2"><h4 class="obj_head">Figure 2. Freedom from Composite End Point of Intubation or Death.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=7224609_NEJMoa2012410_f2.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/63e5/7224609/785ad8513aa1/NEJMoa2012410_f2.jpg" loading="lazy" height="678" width="743" alt="Figure 2"></a></p>
+<div class="p text-right font-secondary"><a href="figure/f2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>The shaded areas represent pointwise 95% confidence intervals.</p></figcaption></figure><p>Additional multivariable propensity-score analyses yielded similar results (<a href="#t2" class="usa-link">Table 2</a>). Multiple additional sensitivity analyses, including analyses that used a different baseline at 48 hours after presentation and analyses with treatment defined as receipt of the first dose of hydroxychloroquine before study baseline, showed similar results (Table S3).</p></section></section><section id="sc3"><h2 class="pmc_sec_title">Discussion</h2>
+<p>In this analysis involving a large sample of consecutive patients who had been hospitalized with Covid-19, the risk of intubation or death was not significantly higher or lower among patients who received hydroxychloroquine than among those who did not (hazard ratio, 1.04; 95% CI, 0.82 to 1.32). Given the observational design and the relatively wide confidence interval, the study should not be taken to rule out either benefit or harm of hydroxychloroquine treatment. However, our findings do not support the use of hydroxychloroquine at present, outside randomized clinical trials testing its efficacy.</p>
+<p>As we noted in the introduction, the findings from an early study showing a benefit of hydroxychloroquine in 26 patients who had been treated in French hospitals are difficult to interpret, given the small size of that study, the lack of a randomized control group, and the omission of 6 patients from the analysis.<sup><a href="#r6" class="usa-link" aria-describedby="r6">6</a></sup> A clinical trial testing two doses of chloroquine in patients with Covid-19 planned to include 440 patients but was halted after 81 patients had been enrolled because of excessive QTc prolongation and an indication of higher mortality in the high-dose group (in which patients received 600 mg twice daily for 10 days) than in the low-dose group (in which patients received 450 mg daily for 4 days after an initial dose of 450 mg administered twice on the first day).<sup><a href="#r12" class="usa-link" aria-describedby="r12">12</a></sup></p>
+<p>Two small, randomized trials from China have been reported. Physicians in Wuhan randomly assigned 62 patients with mild illness to either the control group (in which patients could receive supplemental oxygen, unspecified antiviral agents, antibiotic agents, and immune globulin, with or without glucocorticoids) or the experimental group (in which patients also received 400 mg of hydroxychloroquine daily). This report has not yet been fully peer-reviewed, but results were posted to the MedRxiv website for public comment.<sup><a href="#r13" class="usa-link" aria-describedby="r13">13</a></sup> Investigators reported a faster mean time to clinical recovery (resolution of fever and cough and improvement on chest radiography) in the experimental group than in the control group. Four patients (all in the control group) had progression to severe infection. A small, randomized trial involving 30 patients in Shanghai reported on outcomes in patients treated with 400 mg of hydroxychloroquine daily for 5 days, as compared with a control group in which patients received “conventional treatment only.”<sup><a href="#r14" class="usa-link" aria-describedby="r14">14</a></sup> This trial showed that by day 7, a total of 86% of the patients in the hydroxychloroquine-treated group and 93% of those in the control group had negative results on viral throat swabs. All the patients in this trial also received aerosolized interferon alfa by nebulizer.</p>
+<p>A randomized clinical trial is the best approach to determine whether benefit can be ascribed to any given therapeutic intervention because this trial design minimizes the two major problems inherent in observational studies: unmeasured confounding and bias. With the analytic approaches we used in this examination of our observational cohort, we have tried to minimize possible confounding in a variety of ways.</p>
+<p>In the main analysis, a multivariable regression model with inverse probability weighting according to the propensity score, there was no significant association between hydroxychloroquine use and the risk of intubation or death. We also performed a series of analyses using several propensity-score approaches. Findings were similar in multiple sensitivity analyses. The consistency of the results across these analyses is reassuring. In our analysis, we adjusted for likely confounders, including age, race and ethnic group, body-mass index, diabetes, underlying kidney disease, chronic lung disease, hypertension, baseline vital signs, Pa<span class="font-variant-small-caps">o</span><sub>2</sub>:F<span class="font-variant-small-caps">io</span><sub>2</sub>, and inflammatory markers of the severity of illness. Despite this extensive adjustment, it is still possible that some amount of unmeasured confounding remains. Additional limitations of our study include missing data for some variables and potential for inaccuracies in the electronic health records, such as lack of documentation of smoking and coexisting illness for some patients. Nonetheless, we used contemporary methods to deal with missing data to minimize bias. Finally, the single-center design may limit the generalizability of these results.</p>
+<p>Clinical guidance at our medical center has been updated to remove the suggestion that patients with Covid-19 be treated with hydroxychloroquine. In our analysis involving a large sample of consecutive patients who had been hospitalized with Covid-19, hydroxychloroquine use was not associated with a significantly higher or lower risk of intubation or death (hazard ratio, 1.04; 95% CI, 0.82 to 1.32). The study results should not be taken to rule out either benefit or harm of hydroxychloroquine treatment, given the observational design and the 95% confidence interval, but the results do not support the use of hydroxychloroquine at present, outside randomized clinical trials testing its efficacy.</p></section><section id="ack1" class="ack"><h2 class="pmc_sec_title">Acknowledgments</h2>
+<p>We acknowledge the dedication, commitment, and sacrifice of the staff, providers, and personnel in our institution through the Covid-19 crisis and the suffering and loss of our patients as well as in their families and our community.</p></section><section id="ap1" class="app"><h2 class="pmc_sec_title">Supplementary Appendix</h2>
+<section class="sm xbox font-sm" id="supplementary-material1"><div class="media p"><div class="caption">
+<a href="/articles/instance/7224609/bin/NEJMoa2012410_appendix.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (832KB, pdf) </sup>
+</div></div></section></section><section id="ap2" class="app"><h2 class="pmc_sec_title">Disclosure Forms</h2>
+<section class="sm xbox font-sm" id="supplementary-material2"><div class="media p"><div class="caption">
+<a href="/articles/instance/7224609/bin/NEJMoa2012410_disclosures.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (263.2KB, pdf) </sup>
+</div></div></section></section><section id="notes1"><p>This article was published on May 7, 2020, and updated on May 14, 2020, at NEJM.org.</p></section><section id="fn-group1" class="fn-group"><h2 class="pmc_sec_title">Footnotes</h2>
+<div class="fn-group p font-secondary-light font-sm">
+<div class="fn p" id="fn1"><p>Supported in part by grants (RO1-LM006910, RO1-HL077612, RO1-HL093081, and RO1-HL121270) from the <em>National Institutes of Health</em>.</p></div>
+<div class="fn p" id="fn2"><p><a href="#ap2" class="usa-link">Disclosure forms</a> provided by the authors are available with the full text of this article at NEJM.org.</p></div>
+</div></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="r1">
+<span class="label">1.</span><cite>Biot C, Daher W, Chavain N, et al. 
+Design and synthesis of hydroxyferroquine derivatives with antimalarial and antiviral activities.
+J Med Chem
+2006;49:2845-2849.</cite> [<a href="https://doi.org/10.1021/jm0601856" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16640347/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Med%20Chem&amp;title=Design%20and%20synthesis%20of%20hydroxyferroquine%20derivatives%20with%20antimalarial%20and%20antiviral%20activities.&amp;author=C%20Biot&amp;author=W%20Daher&amp;author=N%20Chavain&amp;volume=49&amp;publication_year=2006&amp;pages=2845-2849&amp;pmid=16640347&amp;doi=10.1021/jm0601856&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r2">
+<span class="label">2.</span><cite>Fox RI. Mechanism of action of hydroxychloroquine as an antirheumatic drug.
+Semin Arthritis Rheum
+1993;23:Suppl 1:82-91.</cite> [<a href="https://doi.org/10.1016/s0049-0172(10)80012-5" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/8278823/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Semin%20Arthritis%20Rheum&amp;title=Mechanism%20of%20action%20of%20hydroxychloroquine%20as%20an%20antirheumatic%20drug.&amp;author=RI%20Fox&amp;volume=23&amp;issue=Suppl%201&amp;publication_year=1993&amp;pages=82-91&amp;pmid=8278823&amp;doi=10.1016/s0049-0172(10)80012-5&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r3">
+<span class="label">3.</span><cite>Devaux CA, Rolain JM, Colson P, Raoult D. New insights on the antiviral effects of chloroquine against coronavirus: what to expect for COVID-19?
+Int J Antimicrob Agents
+2020. 
+March
+12
+(Epub ahead of print).</cite> [<a href="https://doi.org/10.1016/j.ijantimicag.2020.105938" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7118659/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32171740/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Antimicrob%20Agents&amp;title=New%20insights%20on%20the%20antiviral%20effects%20of%20chloroquine%20against%20coronavirus:%20what%20to%20expect%20for%20COVID-19?&amp;author=CA%20Devaux&amp;author=JM%20Rolain&amp;author=P%20Colson&amp;author=D%20Raoult&amp;publication_year=2020&amp;pmid=32171740&amp;doi=10.1016/j.ijantimicag.2020.105938&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r4">
+<span class="label">4.</span><cite>Fantini J, Di Scala C, Chahinian H, Yahi N. Structural and molecular modelling studies reveal a new mechanism of action of chloroquine and hydroxychloroquine against SARS-CoV-2 infection.
+Int J Antimicrob Agents
+2020. 
+April
+3
+(Epub ahead of print).</cite> [<a href="https://doi.org/10.1016/j.ijantimicag.2020.105960" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7128678/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32251731/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Antimicrob%20Agents&amp;title=Structural%20and%20molecular%20modelling%20studies%20reveal%20a%20new%20mechanism%20of%20action%20of%20chloroquine%20and%20hydroxychloroquine%20against%20SARS-CoV-2%20infection.&amp;author=J%20Fantini&amp;author=C%20Di%20Scala&amp;author=H%20Chahinian&amp;author=N%20Yahi&amp;publication_year=2020&amp;pmid=32251731&amp;doi=10.1016/j.ijantimicag.2020.105960&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r5">
+<span class="label">5.</span><cite>Wilson KC, Chotirmall SH, Bai C, Rello J. COVID-19: interim guidance on management pending empirical evidence. April
+3, 2020.  (<a href="https://www.thoracic.org/covid/covid-19-guidance.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.thoracic.org/covid/covid-19-guidance.pdf</a>).</cite>
+</li>
+<li id="r6">
+<span class="label">6.</span><cite>Gautret P, Lagier JC, Parola P, et al. 
+Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label non-randomized clinical trial.
+Int J Antimicrob Agents
+2020. 
+March
+20
+(Epub ahead of print).</cite> [<a href="https://doi.org/10.1016/j.ijantimicag.2020.105949" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7102549/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32205204/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Antimicrob%20Agents&amp;title=Hydroxychloroquine%20and%20azithromycin%20as%20a%20treatment%20of%20COVID-19:%20results%20of%20an%20open-label%20non-randomized%20clinical%20trial.&amp;author=P%20Gautret&amp;author=JC%20Lagier&amp;author=P%20Parola&amp;publication_year=2020&amp;pmid=32205204&amp;doi=10.1016/j.ijantimicag.2020.105949&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>] [<a href="/articles/PMC11718083/" class="text-red">Retracted</a>]</li>
+<li id="r7">
+<span class="label">7.</span><cite>Yao X, Ye F, Zhang M, et al. 
+In vitro antiviral activity and projection of optimized dosing design of hydroxychloroquine for the treatment of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
+Clin Infect Dis
+2020. 
+March
+9
+(Epub ahead of print).</cite> [<a href="https://doi.org/10.1093/cid/ciaa237" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7108130/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32150618/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Clin%20Infect%20Dis&amp;title=In%20vitro%20antiviral%20activity%20and%20projection%20of%20optimized%20dosing%20design%20of%20hydroxychloroquine%20for%20the%20treatment%20of%20severe%20acute%20respiratory%20syndrome%20coronavirus%202%20(SARS-CoV-2).&amp;author=X%20Yao&amp;author=F%20Ye&amp;author=M%20Zhang&amp;publication_year=2020&amp;pmid=32150618&amp;doi=10.1093/cid/ciaa237&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r8">
+<span class="label">8.</span><cite>Brown SM, Duggal A, Hou PC, et al. 
+Nonlinear imputation of PaO2/FIO2 from SpO2/FIO2 among mechanically ventilated patients in the ICU: a prospective, observational study.
+Crit Care Med
+2017;45:1317-1324.</cite> [<a href="https://doi.org/10.1097/CCM.0000000000002514" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5511089/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28538439/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Crit%20Care%20Med&amp;title=Nonlinear%20imputation%20of%20PaO2/FIO2%20from%20SpO2/FIO2%20among%20mechanically%20ventilated%20patients%20in%20the%20ICU:%20a%20prospective,%20observational%20study.&amp;author=SM%20Brown&amp;author=A%20Duggal&amp;author=PC%20Hou&amp;volume=45&amp;publication_year=2017&amp;pages=1317-1324&amp;pmid=28538439&amp;doi=10.1097/CCM.0000000000002514&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r9">
+<span class="label">9.</span><cite>Brown SM, Grissom CK, Moss M, et al. 
+Nonlinear imputation of Pao2/Fio2 from Spo2/Fio2 among patients with acute respiratory distress syndrome.
+Chest
+2016;150:307-313.</cite> [<a href="https://doi.org/10.1016/j.chest.2016.01.003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4980543/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26836924/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Chest&amp;title=Nonlinear%20imputation%20of%20Pao2/Fio2%20from%20Spo2/Fio2%20among%20patients%20with%20acute%20respiratory%20distress%20syndrome.&amp;author=SM%20Brown&amp;author=CK%20Grissom&amp;author=M%20Moss&amp;volume=150&amp;publication_year=2016&amp;pages=307-313&amp;pmid=26836924&amp;doi=10.1016/j.chest.2016.01.003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r10">
+<span class="label">10.</span><cite>Robins JM. Marginal structural models. 1998.  (<a href="https://cdn1.sph.harvard.edu/wp-content/uploads/sites/343/2013/03/msm-web.pdf" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://cdn1.sph.harvard.edu/wp-content/uploads/sites/343/2013/03/msm-web.pdf</a>).</cite> [<a href="https://scholar.google.com/scholar_lookup?Robins%20JM.%20Marginal%20structural%20models.%201998.%20(https://cdn1.sph.harvard.edu/wp-content/uploads/sites/343/2013/03/msm-web.pdf)." class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r11">
+<span class="label">11.</span><cite>Rubin DB. Multiple imputation for nonresponse in surveys.
+New York: John Wiley, 1987.</cite> [<a href="https://scholar.google.com/scholar_lookup?title=Multiple%20imputation%20for%20nonresponse%20in%20surveys.&amp;author=DB%20Rubin&amp;publication_year=1987&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r12">
+<span class="label">12.</span><cite>Borba MGS, Val FFA, Sampaio VS, et al. 
+Effect of high vs low doses of chloroquine diphosphate as adjunctive therapy for patients hospitalized with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection: a randomized clinical trial.
+JAMA Netw Open
+2020;3(4):e208857-e208857.</cite> [<a href="https://doi.org/10.1001/jamanetworkopen.2020.8857" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC12124691/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32330277/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Netw%20Open&amp;title=Effect%20of%20high%20vs%20low%20doses%20of%20chloroquine%20diphosphate%20as%20adjunctive%20therapy%20for%20patients%20hospitalized%20with%20severe%20acute%20respiratory%20syndrome%20coronavirus%202%20(SARS-CoV-2)%20infection:%20a%20randomized%20clinical%20trial.&amp;author=MGS%20Borba&amp;author=FFA%20Val&amp;author=VS%20Sampaio&amp;volume=3&amp;issue=4&amp;publication_year=2020&amp;pages=e208857-e208857&amp;pmid=32330277&amp;doi=10.1001/jamanetworkopen.2020.8857&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r13">
+<span class="label">13.</span><cite>Chen Z, Hu J, Zhang Z, et al. 
+Efficacy of hydroxychloroquine in patients with COVID-19: results of a randomized clinical trial.
+MedRxiv. 2020.  (<a href="https://www.medrxiv.org/content/10.1101/2020.03.22.20040758v3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.medrxiv.org/content/10.1101/2020.03.22.20040758v3</a>) (preprint).</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=MedRxiv&amp;title=Efficacy%20of%20hydroxychloroquine%20in%20patients%20with%20COVID-19:%20results%20of%20a%20randomized%20clinical%20trial.&amp;author=Z%20Chen&amp;author=J%20Hu&amp;author=Z%20Zhang&amp;publication_year=2020&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r14">
+<span class="label">14.</span><cite>Chen J, Liu D, Liu L, et al. 
+A pilot study of hydroxychloroquine in treatment of patients with common coronavirus disease-19 (COVID-19). J Zhejiang Univ (Med Sci)
+2020.  (<a href="http://www.zjujournals.com/med/EN/10.3785/j.issn.1008-9292.2020.03.03" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://www.zjujournals.com/med/EN/10.3785/j.issn.1008-9292.2020.03.03</a>).</cite> [<a href="https://doi.org/10.3785/j.issn.1008-9292.2020.03.03" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8800713/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32391667/" class="usa-link">PubMed</a>]</li>
+</ul></section></section><section id="_ad93_" lang="en" class="associated-data"><h2 class="pmc_sec_title">Associated Data</h2>
+<p class="font-secondary"><em>This section collects any data citations, data availability statements, or supplementary materials included in this article.</em></p>
+<section id="_adsm93_" lang="en" class="supplementary-materials"><h3 class="pmc_sec_title">Supplementary Materials</h3>
+<section class="sm xbox font-sm" id="db_ds_supplementary-material1_reqid_"><div class="media p"><div class="caption">
+<a href="/articles/instance/7224609/bin/NEJMoa2012410_appendix.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (832KB, pdf) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material2_reqid_"><div class="media p"><div class="caption">
+<a href="/articles/instance/7224609/bin/NEJMoa2012410_disclosures.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (263.2KB, pdf) </sup>
+</div></div></section></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from The New England Journal of Medicine are provided here courtesy of <strong>Massachusetts Medical Society</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1056/NEJMoa2012410"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/NEJMoa2012410.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (530.6 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/7224609/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/7224609/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC7224609%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC7224609/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC7224609/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC7224609/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/32379955/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC7224609/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/32379955/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC7224609/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/7224609/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="EF2Y9DllVmd0Xd48x4lh3MnNXLufpgoOx3ltoqJRjEvjnTh85eKeHZJkDSJz0Alz">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

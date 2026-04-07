@@ -1,0 +1,2747 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            International Prevalence and Mechanisms of SARS-CoV-2 in Childhood Arterial Ischemic Stroke During the COVID-19 Pandemic - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="4F6DB85C9D45AFB30BB85C002FABC7B8.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="phewolters">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9311284/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Stroke">
+<meta name="citation_title" content="International Prevalence and Mechanisms of SARS-CoV-2 in Childhood Arterial Ischemic Stroke During the COVID-19 Pandemic">
+<meta name="citation_author" content="Lauren A Beslow">
+<meta name="citation_author_institution" content="Division of Neurology, Children’s Hospital of Philadelphia, Departments of Neurology and Pediatrics, Perelman School of Medicine at the University of Pennsylvania (L.A.B.).">
+<meta name="citation_author" content="Shannon C Agner">
+<meta name="citation_author_institution" content="Division of Pediatric and Developmental Neurology, St. Louis Children&#x27;s Hospital, Washington University School of Medicine, MO (S.C.A.).">
+<meta name="citation_author" content="Jonathan D Santoro">
+<meta name="citation_author_institution" content="Division of Neurology, Children’s Hospital Los Angeles, Department of Neurology, Keck School of Medicine at USC, CA (J.D.S.).">
+<meta name="citation_author" content="Dipak Ram">
+<meta name="citation_author_institution" content="Department of Paediatric Neurology, Royal Manchester Children’s Hospital, England, United Kingdom (D.R.).">
+<meta name="citation_author" content="Jenny L Wilson">
+<meta name="citation_author_institution" content="Department of Pediatrics, Division of Pediatric Neurology, Oregon Health &amp; Science University, Portland (J.L.W.).">
+<meta name="citation_author" content="Dana Harrar">
+<meta name="citation_author_institution" content="Division of Neurology, Children’s National Medical Center, Washington‚ D.C. (D.H.).">
+<meta name="citation_author" content="Brian Appavu">
+<meta name="citation_author_institution" content="Divison of Neurology, Phoenix Children’s Hospital, University of Arizona College of Medicine - Phoenix (B.A.).">
+<meta name="citation_author" content="Stuart M Fraser">
+<meta name="citation_author_institution" content="Division of Neurology, Children’s Memorial Hermann Hospital, Houston‚ TX (S.M.F.).">
+<meta name="citation_author" content="Thomas Rossor">
+<meta name="citation_author_institution" content="Evelina London Children’s Hospital, England, United Kingdom (T.R.).">
+<meta name="citation_author" content="Marcela D Torres">
+<meta name="citation_author_institution" content="Division of Hematology, Cook Children’s Medical Center, Fort Worth, TX (M.D.T.).">
+<meta name="citation_author" content="Manoëlle Kossorotoff">
+<meta name="citation_author_institution" content="French Center for Pediatric Stroke, Pediatric Neurology Department, APHP University Hospital Necker-Enfants maladies, Paris, France (M.K.).">
+<meta name="citation_author" content="Yenny C Zuñiga Zambrano">
+<meta name="citation_author_institution" content="Unit of Pediatric Neurology, HOMI Fundación Hospital Pediátrico la Misericordia, Bogotá, Colombia (Y.C.Z.Z.).">
+<meta name="citation_author" content="Marta Hernández-Chávez">
+<meta name="citation_author_institution" content="Unit of Pediatric Neurology, Division of Pediatrics, School of Medicine, Pontificia Universidad Católica de Chile, Santiago (M.H.-C.).">
+<meta name="citation_author" content="Sahar MA Hassanein">
+<meta name="citation_author_institution" content="Department of Pediatrics, Faculty of Medicine, Ain Shams University, Cairo, Egypt (S.M.A.H.).">
+<meta name="citation_author" content="Dimitrios Zafeiriou">
+<meta name="citation_author_institution" content="Department of Pediatrics, Hippokratio General Hospital, Aristotle University, Thessaloniki, Greece (D.Z.).">
+<meta name="citation_author" content="Michael M Dowling">
+<meta name="citation_author_institution" content="Departments of Pediatrics and Neurology, University of Texas Southwestern Medical Center, Dallas (M.M.D.).">
+<meta name="citation_author" content="Ilona Kopyta">
+<meta name="citation_author_institution" content="Department of Child Neurology, Medical University of Silesia in Katowice, Poland (I.K.).">
+<meta name="citation_author" content="Nicholas V Stence">
+<meta name="citation_author_institution" content="Section of Pediatric Radiology, Children’s Hospital Colorado, Department of Radiology, University of Colorado School of Medicine‚ Aurora (N.V.S.).">
+<meta name="citation_author" content="Timothy J Bernard">
+<meta name="citation_author_institution" content="Section of Child Neurology, Children’s Hospital Colorado, Departments of Pediatrics and Neurology, Hemophilia and Thrombosis Center, University of Colorado School of Medicine, Aurora (T.J.B.).">
+<meta name="citation_author" content="Nomazulu Dlamini">
+<meta name="citation_author_institution" content="Division of Neurology, Department of Pediatrics, The Hospital for Sick Children, Child Health Evaluative Sciences Program, University of Toronto, ON, Canada (N.D.).">
+<meta name="citation_publication_date" content="2022 Apr 5">
+<meta name="citation_volume" content="53">
+<meta name="citation_issue" content="8">
+<meta name="citation_firstpage" content="2497">
+<meta name="citation_doi" content="10.1161/STROKEAHA.121.038250">
+<meta name="citation_pmid" content="35380052">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC9311284/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC9311284/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC9311284/pdf/str-53-2497.pdf">
+<meta name="description" content="Data from the early pandemic revealed that 0.62% of children hospitalized with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) had an acute arterial ischemic stroke (AIS). In a larger cohort from June 2020 to December 2020, we sought to ...">
+<meta name="og:title" content="International Prevalence and Mechanisms of SARS-CoV-2 in Childhood Arterial Ischemic Stroke During the COVID-19 Pandemic">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Data from the early pandemic revealed that 0.62% of children hospitalized with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) had an acute arterial ischemic stroke (AIS). In a larger cohort from June 2020 to December 2020, we sought to ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC9311284/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="9311284">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1161/STROKEAHA.121.038250"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/str-53-2497.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC9311284%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/9311284/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/9311284/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC9311284/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-phewolters.png" alt="Wolters Kluwer - PMC COVID-19 Collection logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to Wolters Kluwer - PMC COVID-19 Collection" title="Link to Wolters Kluwer - PMC COVID-19 Collection" shape="default" href="https://www.ncbi.nlm.nih.gov/pmc/about/covid-19/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Stroke</button></div>. 2022 Apr 5;53(8):2497–2503. doi: <a href="https://doi.org/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1161/STROKEAHA.121.038250</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Stroke"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Stroke"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Stroke"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Stroke"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>International Prevalence and Mechanisms of SARS-CoV-2 in Childhood Arterial Ischemic Stroke During the COVID-19 Pandemic</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Beslow%20LA"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Lauren A Beslow</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Lauren A Beslow</span>, <span class="degrees">MD, MSCE</span>
+</h3>
+<div class="p">
+<sup>1</sup>Division of Neurology, Children’s Hospital of Philadelphia, Departments of Neurology and Pediatrics, Perelman School of Medicine at the University of Pennsylvania (L.A.B.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Beslow%20LA"[Author]' class="usa-link"><span class="name western">Lauren A Beslow</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>✉</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Agner%20SC"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Shannon C Agner</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Shannon C Agner</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>2</sup>Division of Pediatric and Developmental Neurology, St. Louis Children's Hospital, Washington University School of Medicine, MO (S.C.A.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Agner%20SC"[Author]' class="usa-link"><span class="name western">Shannon C Agner</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Santoro%20JD"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Jonathan D Santoro</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Jonathan D Santoro</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>3</sup>Division of Neurology, Children’s Hospital Los Angeles, Department of Neurology, Keck School of Medicine at USC, CA (J.D.S.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Santoro%20JD"[Author]' class="usa-link"><span class="name western">Jonathan D Santoro</span></a>
+</div>
+</div>
+<sup>3</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ram%20D"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Dipak Ram</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Dipak Ram</span>, <span class="degrees">MBBS</span>
+</h3>
+<div class="p">
+<sup>4</sup>Department of Paediatric Neurology, Royal Manchester Children’s Hospital, England, United Kingdom (D.R.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ram%20D"[Author]' class="usa-link"><span class="name western">Dipak Ram</span></a>
+</div>
+</div>
+<sup>4</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Wilson%20JL"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Jenny L Wilson</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">Jenny L Wilson</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>5</sup>Department of Pediatrics, Division of Pediatric Neurology, Oregon Health &amp; Science University, Portland (J.L.W.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Wilson%20JL"[Author]' class="usa-link"><span class="name western">Jenny L Wilson</span></a>
+</div>
+</div>
+<sup>5</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Harrar%20D"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">Dana Harrar</span></a><div hidden="hidden" id="id6">
+<h3>
+<span class="name western">Dana Harrar</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>6</sup>Division of Neurology, Children’s National Medical Center, Washington‚ D.C. (D.H.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Harrar%20D"[Author]' class="usa-link"><span class="name western">Dana Harrar</span></a>
+</div>
+</div>
+<sup>6</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Appavu%20B"[Author]' class="usa-link" aria-describedby="id7"><span class="name western">Brian Appavu</span></a><div hidden="hidden" id="id7">
+<h3>
+<span class="name western">Brian Appavu</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>7</sup>Divison of Neurology, Phoenix Children’s Hospital, University of Arizona College of Medicine - Phoenix (B.A.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Appavu%20B"[Author]' class="usa-link"><span class="name western">Brian Appavu</span></a>
+</div>
+</div>
+<sup>7</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Fraser%20SM"[Author]' class="usa-link" aria-describedby="id8"><span class="name western">Stuart M Fraser</span></a><div hidden="hidden" id="id8">
+<h3>
+<span class="name western">Stuart M Fraser</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>8</sup>Division of Neurology, Children’s Memorial Hermann Hospital, Houston‚ TX (S.M.F.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Fraser%20SM"[Author]' class="usa-link"><span class="name western">Stuart M Fraser</span></a>
+</div>
+</div>
+<sup>8</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rossor%20T"[Author]' class="usa-link" aria-describedby="id9"><span class="name western">Thomas Rossor</span></a><div hidden="hidden" id="id9">
+<h3>
+<span class="name western">Thomas Rossor</span>, <span class="degrees">MBBS</span>
+</h3>
+<div class="p">
+<sup>9</sup>Evelina London Children’s Hospital, England, United Kingdom (T.R.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rossor%20T"[Author]' class="usa-link"><span class="name western">Thomas Rossor</span></a>
+</div>
+</div>
+<sup>9</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Torres%20MD"[Author]' class="usa-link" aria-describedby="id10"><span class="name western">Marcela D Torres</span></a><div hidden="hidden" id="id10">
+<h3>
+<span class="name western">Marcela D Torres</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>10</sup>Division of Hematology, Cook Children’s Medical Center, Fort Worth, TX (M.D.T.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Torres%20MD"[Author]' class="usa-link"><span class="name western">Marcela D Torres</span></a>
+</div>
+</div>
+<sup>10</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kossorotoff%20M"[Author]' class="usa-link" aria-describedby="id11"><span class="name western">Manoëlle Kossorotoff</span></a><div hidden="hidden" id="id11">
+<h3>
+<span class="name western">Manoëlle Kossorotoff</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>11</sup>French Center for Pediatric Stroke, Pediatric Neurology Department, APHP University Hospital Necker-Enfants maladies, Paris, France (M.K.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kossorotoff%20M"[Author]' class="usa-link"><span class="name western">Manoëlle Kossorotoff</span></a>
+</div>
+</div>
+<sup>11</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Zu%C3%B1iga%20Zambrano%20YC"[Author]' class="usa-link" aria-describedby="id12"><span class="name western">Yenny C Zuñiga Zambrano</span></a><div hidden="hidden" id="id12">
+<h3>
+<span class="name western">Yenny C Zuñiga Zambrano</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>12</sup>Unit of Pediatric Neurology, HOMI Fundación Hospital Pediátrico la Misericordia, Bogotá, Colombia (Y.C.Z.Z.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Zu%C3%B1iga%20Zambrano%20YC"[Author]' class="usa-link"><span class="name western">Yenny C Zuñiga Zambrano</span></a>
+</div>
+</div>
+<sup>12</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hern%C3%A1ndez-Ch%C3%A1vez%20M"[Author]' class="usa-link" aria-describedby="id13"><span class="name western">Marta Hernández-Chávez</span></a><div hidden="hidden" id="id13">
+<h3>
+<span class="name western">Marta Hernández-Chávez</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>13</sup>Unit of Pediatric Neurology, Division of Pediatrics, School of Medicine, Pontificia Universidad Católica de Chile, Santiago (M.H.-C.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hern%C3%A1ndez-Ch%C3%A1vez%20M"[Author]' class="usa-link"><span class="name western">Marta Hernández-Chávez</span></a>
+</div>
+</div>
+<sup>13</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hassanein%20SMA"[Author]' class="usa-link" aria-describedby="id14"><span class="name western">Sahar MA Hassanein</span></a><div hidden="hidden" id="id14">
+<h3>
+<span class="name western">Sahar MA Hassanein</span>, <span class="degrees">MD PhD</span>
+</h3>
+<div class="p">
+<sup>14</sup>Department of Pediatrics, Faculty of Medicine, Ain Shams University, Cairo, Egypt (S.M.A.H.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Hassanein%20SMA"[Author]' class="usa-link"><span class="name western">Sahar MA Hassanein</span></a>
+</div>
+</div>
+<sup>14</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Zafeiriou%20D"[Author]' class="usa-link" aria-describedby="id15"><span class="name western">Dimitrios Zafeiriou</span></a><div hidden="hidden" id="id15">
+<h3>
+<span class="name western">Dimitrios Zafeiriou</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>15</sup>Department of Pediatrics, Hippokratio General Hospital, Aristotle University, Thessaloniki, Greece (D.Z.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Zafeiriou%20D"[Author]' class="usa-link"><span class="name western">Dimitrios Zafeiriou</span></a>
+</div>
+</div>
+<sup>15</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Dowling%20MM"[Author]' class="usa-link" aria-describedby="id16"><span class="name western">Michael M Dowling</span></a><div hidden="hidden" id="id16">
+<h3>
+<span class="name western">Michael M Dowling</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>16</sup>Departments of Pediatrics and Neurology, University of Texas Southwestern Medical Center, Dallas (M.M.D.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Dowling%20MM"[Author]' class="usa-link"><span class="name western">Michael M Dowling</span></a>
+</div>
+</div>
+<sup>16</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kopyta%20I"[Author]' class="usa-link" aria-describedby="id17"><span class="name western">Ilona Kopyta</span></a><div hidden="hidden" id="id17">
+<h3>
+<span class="name western">Ilona Kopyta</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>17</sup>Department of Child Neurology, Medical University of Silesia in Katowice, Poland (I.K.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Kopyta%20I"[Author]' class="usa-link"><span class="name western">Ilona Kopyta</span></a>
+</div>
+</div>
+<sup>17</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Stence%20NV"[Author]' class="usa-link" aria-describedby="id18"><span class="name western">Nicholas V Stence</span></a><div hidden="hidden" id="id18">
+<h3>
+<span class="name western">Nicholas V Stence</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>18</sup>Section of Pediatric Radiology, Children’s Hospital Colorado, Department of Radiology, University of Colorado School of Medicine‚ Aurora (N.V.S.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Stence%20NV"[Author]' class="usa-link"><span class="name western">Nicholas V Stence</span></a>
+</div>
+</div>
+<sup>18</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Bernard%20TJ"[Author]' class="usa-link" aria-describedby="id19"><span class="name western">Timothy J Bernard</span></a><div hidden="hidden" id="id19">
+<h3>
+<span class="name western">Timothy J Bernard</span>, <span class="degrees">MD, MSCS</span>
+</h3>
+<div class="p">
+<sup>19</sup>Section of Child Neurology, Children’s Hospital Colorado, Departments of Pediatrics and Neurology, Hemophilia and Thrombosis Center, University of Colorado School of Medicine, Aurora (T.J.B.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Bernard%20TJ"[Author]' class="usa-link"><span class="name western">Timothy J Bernard</span></a>
+</div>
+</div>
+<sup>19</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Dlamini%20N"[Author]' class="usa-link" aria-describedby="id20"><span class="name western">Nomazulu Dlamini</span></a><div hidden="hidden" id="id20">
+<h3>
+<span class="name western">Nomazulu Dlamini</span>, <span class="degrees">MBBS, PhD</span>
+</h3>
+<div class="p">
+<sup>20</sup>Division of Neurology, Department of Pediatrics, The Hospital for Sick Children, Child Health Evaluative Sciences Program, University of Toronto, ON, Canada (N.D.).</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Dlamini%20N"[Author]' class="usa-link"><span class="name western">Nomazulu Dlamini</span></a>
+</div>
+</div>
+<sup>20</sup>, <span class="on-behalf-of">on behalf of the International Pediatric Stroke Study Group</span>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="aff1">
+<sup>1</sup>Division of Neurology, Children’s Hospital of Philadelphia, Departments of Neurology and Pediatrics, Perelman School of Medicine at the University of Pennsylvania (L.A.B.).</div>
+<div id="aff2">
+<sup>2</sup>Division of Pediatric and Developmental Neurology, St. Louis Children's Hospital, Washington University School of Medicine, MO (S.C.A.).</div>
+<div id="aff3">
+<sup>3</sup>Division of Neurology, Children’s Hospital Los Angeles, Department of Neurology, Keck School of Medicine at USC, CA (J.D.S.).</div>
+<div id="aff4">
+<sup>4</sup>Department of Paediatric Neurology, Royal Manchester Children’s Hospital, England, United Kingdom (D.R.).</div>
+<div id="aff5">
+<sup>5</sup>Department of Pediatrics, Division of Pediatric Neurology, Oregon Health &amp; Science University, Portland (J.L.W.).</div>
+<div id="aff6">
+<sup>6</sup>Division of Neurology, Children’s National Medical Center, Washington‚ D.C. (D.H.).</div>
+<div id="aff7">
+<sup>7</sup>Divison of Neurology, Phoenix Children’s Hospital, University of Arizona College of Medicine - Phoenix (B.A.).</div>
+<div id="aff8">
+<sup>8</sup>Division of Neurology, Children’s Memorial Hermann Hospital, Houston‚ TX (S.M.F.).</div>
+<div id="aff9">
+<sup>9</sup>Evelina London Children’s Hospital, England, United Kingdom (T.R.).</div>
+<div id="aff10">
+<sup>10</sup>Division of Hematology, Cook Children’s Medical Center, Fort Worth, TX (M.D.T.).</div>
+<div id="aff11">
+<sup>11</sup>French Center for Pediatric Stroke, Pediatric Neurology Department, APHP University Hospital Necker-Enfants maladies, Paris, France (M.K.).</div>
+<div id="aff12">
+<sup>12</sup>Unit of Pediatric Neurology, HOMI Fundación Hospital Pediátrico la Misericordia, Bogotá, Colombia (Y.C.Z.Z.).</div>
+<div id="aff13">
+<sup>13</sup>Unit of Pediatric Neurology, Division of Pediatrics, School of Medicine, Pontificia Universidad Católica de Chile, Santiago (M.H.-C.).</div>
+<div id="aff14">
+<sup>14</sup>Department of Pediatrics, Faculty of Medicine, Ain Shams University, Cairo, Egypt (S.M.A.H.).</div>
+<div id="aff15">
+<sup>15</sup>Department of Pediatrics, Hippokratio General Hospital, Aristotle University, Thessaloniki, Greece (D.Z.).</div>
+<div id="aff16">
+<sup>16</sup>Departments of Pediatrics and Neurology, University of Texas Southwestern Medical Center, Dallas (M.M.D.).</div>
+<div id="aff17">
+<sup>17</sup>Department of Child Neurology, Medical University of Silesia in Katowice, Poland (I.K.).</div>
+<div id="aff18">
+<sup>18</sup>Section of Pediatric Radiology, Children’s Hospital Colorado, Department of Radiology, University of Colorado School of Medicine‚ Aurora (N.V.S.).</div>
+<div id="aff19">
+<sup>19</sup>Section of Child Neurology, Children’s Hospital Colorado, Departments of Pediatrics and Neurology, Hemophilia and Thrombosis Center, University of Colorado School of Medicine, Aurora (T.J.B.).</div>
+<div id="aff20">
+<sup>20</sup>Division of Neurology, Department of Pediatrics, The Hospital for Sick Children, Child Health Evaluative Sciences Program, University of Toronto, ON, Canada (N.D.).</div>
+<div class="author-notes p">
+<div class="fn" id="c1">
+<sup>✉</sup><p class="display-inline">Correspondence to: Lauren A. Beslow, MD, MSCE, 3401 Civic Center Blvd, Philadelphia, PA 19104. Email <span>beslow@chop.edu</span></p>
+</div>
+<div class="fn" id="_fncrsp93pmc__">
+<sup>✉</sup><p class="display-inline">Corresponding author.</p>
+</div>
+</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Received 2021 Dec 2; Revised 2022 Feb 11; Accepted 2022 Mar 9; Issue date 2022 Aug.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>© 2022 American Heart Association, Inc.</div>
+<p>This article is made available via the PMC Open Access Subset for unrestricted re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for the duration of the COVID-19 pandemic or until permissions are revoked in writing. Upon expiration of these permissions, PMC is granted a perpetual license to make this article available via PMC and Europe PMC, consistent with existing copyright protections.</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC9311284  NIHMSID: <a href="/articles/mid/NIHMS1788297/" class="usa-link">NIHMS1788297</a>  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35380052/" class="usa-link">35380052</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<section id="sec1"><h3 class="pmc_sec_title">Background:</h3>
+<p>Data from the early pandemic revealed that 0.62% of children hospitalized with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) had an acute arterial ischemic stroke (AIS). In a larger cohort from June 2020 to December 2020, we sought to determine whether our initial point estimate was stable as the pandemic continued and to understand radiographic and laboratory data that may clarify mechanisms of pediatric AIS in the setting of SARS-CoV-2.</p></section><section id="sec2"><h3 class="pmc_sec_title">Methods:</h3>
+<p>We surveyed international sites with pediatric stroke expertise to determine numbers of hospitalized SARS-CoV-2 patients &lt;18 years, numbers of incident AIS cases among children (29 days to &lt;18 years), frequency of SARS-CoV-2 testing for children with AIS, and numbers of childhood AIS cases positive for SARS-CoV-2 June 1 to December 31, 2020. Two stroke neurologists with 1 neuroradiologist determined whether SARS-CoV-2 was the main stroke risk factor, contributory, or incidental.</p></section><section id="sec3"><h3 class="pmc_sec_title">Results:</h3>
+<p>Sixty-one centers from 21 countries provided AIS data. Forty-eight centers (78.7%) provided SARS-CoV-2 hospitalization data. SARS-CoV-2 testing was performed in 335/373 acute AIS cases (89.8%) compared with 99/166 (59.6%) in March to May 2020, <em>P</em>&lt;0.0001. Twenty-three of 335 AIS cases tested (6.9%) were positive for SARS-CoV-2 compared with 6/99 tested (6.1%) in March to May 2020, <em>P</em>=0.78. Of the 22 of 23 AIS cases with SARS-CoV-2 in whom we could collect additional data, SARS-CoV-2 was the main stroke risk factor in 6 (3 with arteritis/vasculitis, 3 with focal cerebral arteriopathy), a contributory factor in 13, and incidental in 3. Elevated inflammatory markers were common, occurring in 17 (77.3%). From centers with SARS-CoV-2 hospitalization data, of 7231 pediatric patients hospitalized with SARS-CoV-2, 23 had AIS (0.32%) compared with 6/971 (0.62%) from March to May 2020, <em>P</em>=0.14.</p></section><section id="sec4"><h3 class="pmc_sec_title">Conclusions:</h3>
+<p>The risk of AIS among children hospitalized with SARS-CoV-2 appeared stable compared with our earlier estimate. Among children in whom SARS-CoV-2 was considered the main stroke risk factor, inflammatory arteriopathies were the stroke mechanism.</p></section><section id="kwd-group1" class="kwd-group"><p><strong>Keywords:</strong> arteriopathy, child, hospitalization, ischemic stroke, risk factors</p></section></section><hr class="headless">
+<p>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), a novel coronavirus that arose in Wuhan, China in late 2019, is a cause of both arterial and venous thrombotic events in adults and children.<sup><a href="#R1" class="usa-link" aria-describedby="R1">1</a>–<a href="#R3" class="usa-link" aria-describedby="R3">3</a></sup> Early reports of young adults presenting with medium and large vessel occlusions leading to arterial ischemic stroke (AIS) raised concern that rates of cerebrovascular events among adults would rise during the pandemic and that there could be a significant increase of pediatric stroke cases as infection rates increased globally.<sup><a href="#R4" class="usa-link" aria-describedby="R4">4</a></sup> However, in a meta-analysis of 145 articles with data from North America, Europe, and Asia that included 108 571 adult patients with COVID-19‚ only 1.4% had acute cerebrovascular diseases including AIS and intracerebral hemorrhage.<sup><a href="#R5" class="usa-link" aria-describedby="R5">5</a></sup> AIS represented 87.4% of all cerebrovascular disease in patients with COVID-19.<sup><a href="#R5" class="usa-link" aria-describedby="R5">5</a></sup></p>
+<p>Early in the pandemic‚ an international study identified that ischemic strokes affected 0.82% of pediatric patients hospitalized with evidence of SARS-CoV-2 infection.<sup><a href="#R6" class="usa-link" aria-describedby="R6">6</a></sup> Six of the 8 cases (75%) of ischemic stroke were AIS among children older than 28 days of life. These data were reaffirmed in a large public health database study that included information from 61 sites in the United States.<sup><a href="#R7" class="usa-link" aria-describedby="R7">7</a></sup> Of 1695 patients &lt;21 years with SARS-CoV-2 infection, 12 had stroke, 5 of which were AIS (0.29%).<sup><a href="#R7" class="usa-link" aria-describedby="R7">7</a></sup> Further, case reports of pediatric stroke in the setting of SARS-CoV-2 have emerged due to several stroke mechanisms, including those related to extracorporeal membrane oxygenation, inflammation and thrombosis, arteritis/vasculitis, and inflammatory-type focal cerebral arteriopathy of childhood.<sup><a href="#R7" class="usa-link" aria-describedby="R7">7</a>–<a href="#R10" class="usa-link" aria-describedby="R10">10</a></sup> A unique challenge in pediatric stroke is that focal cerebral arteriopathy can take weeks to months after the acute infection to develop,<sup><a href="#R11" class="usa-link" aria-describedby="R11">11</a></sup> raising the question whether the incidence of stroke in children with SARS-CoV-2 may increase during the course of the COVID-19 pandemic.</p>
+<p>As the pandemic has continued, we sought to report the frequency of SARS-CoV-2 infection among children with AIS, the frequency of AIS among children hospitalized with SARS-CoV-2, the contribution of the SARS-CoV-2 virus to AIS cases in which the evidence of viral infection was detected, and the associated radiographic and laboratory data that may clarify mechanisms of pediatric AIS in the setting of SARS-CoV-2 infection.</p>
+<section id="sec5"><h2 class="pmc_sec_title">Methods</h2>
+<section id="sec6"><h3 class="pmc_sec_title">Data Availability Statement</h3>
+<p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></section><section id="sec7"><h3 class="pmc_sec_title">Study Design, Participants, and Data Collection</h3>
+<p>The Publications Committee of the International Pediatric Stroke Study group designed the original data collection tool in April and May 2020.<sup><a href="#R6" class="usa-link" aria-describedby="R6">6</a></sup> The data collection tool was modified in January 2021 (<a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Figure S1</a>). We surveyed International Pediatric Stroke Study and British Paediatric Neurology Association Cerebrovascular Special Interest Group members (52 and 5‚ respectively) as well as 4 non-International Pediatric Stroke Study sites that approached the study group to participate in order to ascertain the following for each month June through December 2020: (1) institutional numbers of pediatric patients &lt;18 years hospitalized with biological evidence of SARS-CoV-2 (polymerase chain reaction, antibody/serology, multisystem inflammatory syndrome in children (MIS-C); symptomatic or asymptomatic from SARS-CoV-2); (2) institutional numbers of incident childhood (age ≥29 days to &lt;18 years) AIS cases; (3) numbers of childhood AIS cases tested for SARS-CoV-2; and (4) institutional numbers of childhood AIS patients positive for SARS-CoV-2. Participating institutions used internal SARS-CoV-2 and stroke tracking systems to obtain AIS and SARS-CoV-2 case numbers to establish this cohort. Sites that reported childhood AIS patients positive for SARS-CoV-2 completed an additional case report form (<a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Figure S2</a>). This form included questions about stroke type and location, presence of established stroke risk factors, severity of COVID-19 illness, and whether the investigator thought SARS-CoV-2 was the main stroke risk factor, a contributory factor, or incidental. The case details were then centrally reviewed by Drs Beslow, Stence, and Dlamini, and a final determination about the virus’s contribution to the stroke was determined by consensus. One survey was completed for each participating site by a site PI with clinical expertise in stroke.</p></section><section id="sec8"><h3 class="pmc_sec_title">Standard Protocol Approvals, Registrations, and Patient Consents</h3>
+<p>The survey received an institutional review board waiver from the Hospital for Sick Children, Toronto, Canada. Site institutional review boards approved the case report form for pediatric ischemic stroke patients who tested positive for SARS-CoV-2, and written informed consent was obtained according to institutional guidelines. We adhered to the Strengthening the Reporting of Observational Studies in Epidemiology Guidelines for cohort studies.</p></section><section id="sec9"><h3 class="pmc_sec_title">Statistical Analysis</h3>
+<p>Stata 12.0 (StataCorp, College Station, TX) was used for analyses. Counts and frequencies described categorical variables. For the proportion of childhood AISs among pediatric patients hospitalized with SARS-CoV-2, AIS cases positive for SARS-CoV-2 were only included in the numerator if the center provided its number of SARS-CoV-2 hospitalizations. Two sample difference in proportions tests were used to determine whether the proportion of childhood AIS cases tested for SARS-CoV-2, childhood AIS cases positive for SARS-CoV-2, and proportion of SARS-CoV-2 hospitalized pediatric patients with childhood AIS were different in the months June to December 2020 compared with the previously published proportions from March to May 2020. A <em>P</em> of &lt;0.05 was considered statistically significant.</p></section></section><section id="sec10"><h2 class="pmc_sec_title">Results</h2>
+<section id="sec11"><h3 class="pmc_sec_title">Participating Sites</h3>
+<p>Sixty-one centers of 74 approached (82.4%) from 21 countries provided AIS data. Participating centers and site investigators are listed in <a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Table S1</a>. Centers are located in Argentina, Australia, Canada (6 sites in 4 provinces), Chile (2 sites), Colombia (4 sites), Egypt, France, Germany, Greece, Hong Kong, India, Israel (2 sites), Italy (2 sites), Philippines, Poland, Serbia, Spain, United Arab Emirates (2 sites), United Kingdom (6 sites), and United States (24 sites in 17 states plus the District of Columbia). Forty-eight centers (78.7%) provided SARS-CoV-2 hospitalization data. Forty-eight sites participated in the first survey, with an additional 13 sites participating in the current survey.</p></section><section id="sec12"><h3 class="pmc_sec_title">Childhood Arterial Ischemic Stroke and SARS-CoV-2</h3>
+<p>The Figure displays the number of incident acute AIS cases, the number of AIS cases tested for SARS-CoV-2, and the number of AIS cases positive for SARS-CoV-2 each month during the study period. Overall, there were 373 incident acute AIS cases from June to December 2020. SARS-CoV-2 testing was performed in 335/373 (89.8%) compared with 99/166 (59.6%) in March to May, 2020, <em>P</em>&lt;0.0001. Twenty-three of 335 AIS cases tested (6.9%) were positive for SARS-CoV-2 compared with 6/99 tested (6.1%) in March to May 2020, <em>P</em>=0.78.</p>
+<figure class="fig xbox font-sm" id="F1"><h4 class="obj_head">Figure.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=9311284_str-53-2497-g001.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9c5/9311284/f11e8b3587e4/str-53-2497-g001.jpg" loading="lazy" height="502" width="800" alt="Figure."></a></p>
+<div class="p text-right font-secondary"><a href="figure/F1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p><strong>Bar graph with number of children with arterial ischemic strokes (AIS) June 2020 through December 2020.</strong> Total number in bar=total number of AIS cases. Hashes=number of AIS cases tested for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Number in box=number of AIS cases positive for SARS-CoV-2.</p></figcaption></figure><p>Clinical details of 22 of the 23 AIS cases positive for SARS-CoV-2 were available and are presented in <a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Tables S2 and S3</a>. Of 23 AIS cases with SARS-CoV-2 June to December 2020, SARS-CoV-2 was considered the main stroke risk factor in 6 cases (26.1%), a possible contributory factor in 13 (56.5%), incidental in 3 (13.1%), and in 1 (4.3%) clinical details could not be obtained. Ten children (43.5%) had strokes in multiple vascular territories. Five children (21.7%) had large vessel occlusion, 2 in whom SARS-CoV-2 was considered the main stroke risk factor and 3 in whom the virus was contributory to the stroke. Of these 5 children, 3 underwent mechanical thrombectomy. Two children had hemorrhagic transformation of their strokes (<a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Table S2</a>). One of these children had a mechanical thrombectomy, and the other had arteritis/vasculitis.</p>
+<p>Thirteen (56.5%) of those with stroke had asymptomatic SARS-CoV-2 infections (<a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Table S2</a>). Of those with symptoms, 7 (30.4%) had COVID-19, and 2 (8.7%) had MIS-C. Three children (13%), including both with MIS-C, were critically ill. Among the 9 with COVID-19 or MIS-C, viral symptoms began a median of 7 days before stroke ictus (range 1–30 days before stroke).</p>
+<p>Of those in whom SARS-CoV-2 was considered the main stroke risk factor, 3 had arteritis/vasculitis (1 with MIS-C) and 3 had focal cerebral arteriopathy (<a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Figure S3</a>; one with MIS-C). Of the 16 in whom SARS-CoV-2 was thought to be a possible added risk factor or was not considered likely to have been a major contributor to the stroke, all had at least one other established stroke risk factor. These included cardiac disease, moyamoya arteriopathy, Takayasu arteritis, trauma, critical illness including meningitis, or prothrombotic disorders (<a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Table S2</a>). Inflammatory markers were tested at the discretion of the clinical teams caring for each child. Of the 22 children in whom information on inflammatory markers was available, 17 (77.3%) had elevations in at least 1 value (<a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Table S3</a>). Thirteen of 20 tested (65%) had elevated C-reactive protein, 4 of the 13 tested (30.8%) had elevated ferritin, 3 of the 10 tested (30%) had elevated erythrocyte sedimentation rate, and all 5 (100%) in whom procalcitonin was tested had elevated values. All 13 children in whom anticardiolipin, antiphospholipid, or β2 glycoprotein antibodies were tested were negative, although one was positive for lupus anticoagulant.</p>
+<p>Cerebrospinal fluid (CSF) was tested in 8 children (34.8%), 4 of whom had abnormalities. One child with MIS-C and a focal cerebral arteriopathy had normal CSF basic indices but an elevated neopterin of 37 nmol/L (normal &lt;20 nmol/L). Another child with Wiskott Aldrich Syndrome and arteritis had an elevated protein of 232 mg/dL (normal 10–30 mg/dL), 7 white blood cells/mm<sup>3</sup>, and 7800 red blood cells/mm<sup>3</sup>. A child with vasospasm versus arteritis and unexplained hydrocephalus had repeated CSF samples from an extraventricular drain with elevated red blood cell counts ranging from 775 to 20 000 red blood cells/mm<sup>3</sup>. A child who also had cryptococcal meningitis had elevated CSF white blood cell count, red blood cell count, and protein.</p>
+<p>Eleven children (47.8%) were tested for varicella infection, including 4 of the 6 with arteriopathic strokes deemed likely to be caused by SARS-CoV-2. All tested for varicella were negative. Testing was by serum polymerase chain reaction in 4 children, CSF by polymerase chain reaction in 4 children (1 also with negative serum serology), and serology in 3 children. Of the remaining 12, 2 were vaccinated against varicella, and 1 was not yet vaccinated due to young age. Two children, both with cardioembolic sources, were unvaccinated. Information about vaccination status against varicella was unavailable in 7.</p>
+<p>From 48 centers with SARS-CoV-2 hospitalization data, there were 7231 hospitalized SARS-CoV-2 pediatric patients. Positive tests were by polymerase chain reaction (PCR) in 6385 (88.3%), serology in 378 (5.2%), and were not reported in 468 (6.5%). Twenty-three of 7231 had AIS (0.32% [95% binomial exact CI, 0.20%–0.48%]) compared with 6/971 (0.62% [95% binomial exact CI, 0.23%–1.34%]) from March to May 2020, <em>P</em>=0.14.</p></section></section><section id="sec13"><h2 class="pmc_sec_title">Discussion</h2>
+<p>In this 61-center survey of international pediatric stroke experts, we confirmed that the risk of stroke among over 7000 pediatric patients hospitalized with SARS-CoV-2 was relatively low at 0.32%. This estimate is consistent with results from our first survey study from the early pandemic (0.62%) and with the findings of a study in the United States by LaRovere et al of 5 arterial ischemic strokes among 1695 patients &lt;21 years of age hospitalized with PCR or antibody evidence of SARS-CoV-2 (0.29%).<sup><a href="#R6" class="usa-link" aria-describedby="R6">6</a>,<a href="#R7" class="usa-link" aria-describedby="R7">7</a></sup> In the current study‚ the prevalence of SARS-CoV-2 infection among children with AIS tested by PCR or serology was 6.9%. This prevalence is similar to the estimate of 6.1% from March to May 2020 despite the fact that fewer than 60% of childhood AIS patients were tested for SARS-CoV-2 in the earlier study compared with nearly 90% in the current study.<sup><a href="#R6" class="usa-link" aria-describedby="R6">6</a></sup> While the 6.9% SARS-CoV-2 positivity reported in this study could be viewed as low, given the low incidence of pediatric stroke of between 1 and 2 per 100,000 children per year,<sup><a href="#R12" class="usa-link" aria-describedby="R12">12</a></sup> our study findings indicate that SARS-CoV-2 could be an important risk factor for childhood stroke during the pandemic. SARS-CoV-2 infection was considered the likely causative factor in only about 25% of stroke patients positive for SARS-CoV-2, whereas SARS-CoV-2 was considered a possible contributory risk factor in the majority of cases. Notably, many children in this study had established stroke risk factors, making it difficult to assess the contribution of the SARS-CoV-2 infection to stroke in these patients.</p>
+<p>After multiple reports of stroke in adults with COVID-19, particularly in young adults,<sup><a href="#R13" class="usa-link" aria-describedby="R13">13</a></sup> numerous studies have sought to understand the mechanisms contributing to this phenomenon. Data comparing patients hospitalized with influenza and stroke compared with patients with SARS-CoV-2 and stroke indicate that there are unique aspects of SARS-CoV-2 infection that contribute to stroke.<sup><a href="#R14" class="usa-link" aria-describedby="R14">14</a></sup> Thus far, clinical and preclinical studies have demonstrated that in the presence of an intact blood-brain barrier, SARS-CoV-2 does not infect the brain.<sup><a href="#R15" class="usa-link" aria-describedby="R15">15</a></sup> However, some individuals with COVID-19 have MRI evidence of cytotoxic lesions of the corpus callosum. These lesions are nonenhancing, diffusion-restricting white matter signal abnormalities isolated to the splenium, which are thought to be caused by a cytokine storm that triggers T cells to breach the blood-brain barrier causing inflammation and intramyelinic edema.<sup><a href="#R16" class="usa-link" aria-describedby="R16">16</a></sup> In the setting of AIS, multiple inflammatory cytokines and other associated markers of inflammation have been identified in both the central nervous system and in the systemic circulation. In a study by McAlpine et al,<sup><a href="#R17" class="usa-link" aria-describedby="R17">17</a></sup> elevated cytokine levels as well as markers of endothelial activation were increased in patients with stroke and COVID-19 compared with patients with stroke without COVID-19. In children, complement activation has also been proposed as a contributing factor to thrombosis and endothelial activation.<sup><a href="#R18" class="usa-link" aria-describedby="R18">18</a></sup> Complement activation in SARS-CoV-2 infection is also under investigation in adults.<sup><a href="#R19" class="usa-link" aria-describedby="R19">19</a></sup> Existing data suggest 2 main consequences of the pro-inflammatory state associated with SARS-CoV-2 infection that may lead to AIS: thrombosis and endothelial dysfunction, both of which are plausibly connected to pediatric AIS as well.<sup><a href="#R20" class="usa-link" aria-describedby="R20">20</a></sup></p>
+<p>Inflammatory-mediated thrombosis has been identified as a mechanism for SARS-CoV-2-associated stroke in adults,<sup><a href="#R21" class="usa-link" aria-describedby="R21">21</a></sup> so there is concern that a similar phenomenon may occur in children. In adults, one study identified D-dimer as an independent biomarker for SARS-CoV-2-related AIS, suggesting an association with coagulopathy.<sup><a href="#R22" class="usa-link" aria-describedby="R22">22</a></sup> In a meta-analysis evaluating adult patients, elevated D-dimer and fibrinogen and presence of antiphospholipid antibodies were noted in COVID-19 patients.<sup><a href="#R23" class="usa-link" aria-describedby="R23">23</a></sup> In a pediatric population, Whitworth et al<sup><a href="#R3" class="usa-link" aria-describedby="R3">3</a></sup> found that the risk of thrombotic events in the setting of SARS-CoV-2 infection was the highest among children with MIS-C followed by those with COVID-19, but thrombotic events still occurred among asymptomatic children. All 6 strokes in the current cohort in whom SARS-CoV-2 was considered the likely cause (and in whom we had information) had symptomatic COVID-19 (4) or MIS-C (2) in the month before the stroke. However, of the 13 in whom SARS-CoV-2 was deemed a possible contributory risk factor, ten had asymptomatic infections, suggesting that subclinical inflammation may contribute to strokes among children with SARS-CoV-2. Our data support the findings in another study that 21% of children with SARS-CoV-2 and minimal disease, defined as asymptomatic SARS-CoV-2 infection or those not requiring respiratory support, met criteria for thrombotic microangiopathy.<sup><a href="#R18" class="usa-link" aria-describedby="R18">18</a></sup></p>
+<p>Endotheliitis has also been recognized as an important contributor to AIS in SARS-Cov-2 infection, and this was similarly suggested by our data. While 5 of 6 strokes in the current cohort in whom SARS-CoV-2 was the likely cause had evidence of elevated serum inflammatory markers, and one had CSF with elevated neopterin, all 6 had neuroimaging consistent with arteritis (3) or focal cerebral arteriopathy (3). This information indicates that inflammatory arteriopathies may be an important mechanism through which SARS-CoV-2 causes AIS in children. In 2 reported cases of SARS-CoV-2-related stroke in children, 1 with arteritis (also included in this cohort) and 1 with focal cerebral arteriopathy, vessel wall imaging demonstrated enhancement, which further supports an inflammatory mechanism of SARS-CoV-2-related arteriopathies,<sup><a href="#R8" class="usa-link" aria-describedby="R8">8</a>,<a href="#R10" class="usa-link" aria-describedby="R10">10</a></sup> and this mirrors findings in adults.<sup><a href="#R24" class="usa-link" aria-describedby="R24">24</a></sup> The hemorrhagic transformation present in 1 child with arteritis may reflect endotheliitis-related vessel fragility. Furthermore, patients with MIS-C present with a different inflammatory milieu than those with COVID-19,<sup><a href="#R25" class="usa-link" aria-describedby="R25">25</a>,<a href="#R26" class="usa-link" aria-describedby="R26">26</a></sup> and MIS-C may also contribute to cases of arteriopathy.<sup><a href="#R9" class="usa-link" aria-describedby="R9">9</a></sup> Of note, an older study in Kawasaki disease, a disease that has significant overlap with MIS-C, demonstrated decreased focal cerebral perfusion using single-photon emission computed tomography.<sup><a href="#R27" class="usa-link" aria-describedby="R27">27</a></sup> While focal cerebral arteriopathy is rare in both Kawasaki disease and MIS-C, focal cerebral arteriopathy was an anticipated manifestation of MIS-C based on historical Kawasaki disease literature. These data have provided a basis for consideration of immune-mediated treatments in SARS-CoV-2 arteritis although antithrombotic therapies have remained first line.</p>
+<p>Despite the recognition of increased rates of thrombosis-related AIS associated with SARS-CoV-2 infection, the risk of certain treatments in patients with AIS in the setting of COVID-19 may be high. Adult patients with severe COVID-19 and AIS often have concurrent disseminated intravascular coagulation,<sup><a href="#R28" class="usa-link" aria-describedby="R28">28</a></sup> prompting reluctance to administer intravascular thrombolytics. In a small case series of patients who received mechanical thrombectomy, outcomes were overall poor compared with outcomes in patients who underwent mechanical thrombectomy prepandemic.<sup><a href="#R29" class="usa-link" aria-describedby="R29">29</a></sup> Furthermore, in the study by Whitworth et al of pediatric patients, 71% of thromboembolic events not present at hospital admission occurred despite thromboprophylaxis. Future studies are needed both to understand the mechanisms of thrombosis that lead to AIS during SARS-CoV-2 infection better and to improve prevention and treatment of SARS-CoV-2-related-thromboemboli.</p>
+<p>Identifying the contribution of SARS-CoV-2 infection to the mechanisms of AIS in children is complex. Definitive determination of stroke etiology can be extremely nuanced in children given the impact of genetic disorders and chronic diseases on the development of cerebrovascular disease. This can make it difficult to understand the contribution of SARS-CoV-2 to a stroke in a child with an underlying disease or condition that is a known predisposition to stroke. Furthermore, not all children were tested for varicella or other viruses that can trigger arteriopathy, so co-infections cannot be ruled out fully. Indeed, the reliance upon clinician expertise to assign SARS-CoV-2 as a risk factor in these patients is a necessary limitation of this study. Given our survey study design with its lack of available data about the non-SARS-CoV-2 stroke patients, the varying timing of the SARS-CoV-2 testing, and the fluctuating and varied prevalence of SARS-CoV-2 infection in the underlying geographic areas, it is not possible to draw firm conclusions about SARS-CoV-2’s contribution to pediatric stroke.</p>
+<p>Data from the VIPS I study (Vascular Effects of Infection in Pediatric Stroke) have demonstrated that asymptomatic herpesvirus infections can trigger childhood AIS.<sup><a href="#R30" class="usa-link" aria-describedby="R30">30</a></sup> Similarly, determination of SARS-CoV-2’s role in a stroke is likely to be complex and cannot be based solely on the presence or absence of viral symptoms. In the current study, 13 of 23 cases had asymptomatic SARS-CoV-2 infections, and among those with symptoms, there was a broad range of times between viral symptom onset and stroke. This further complicates the evaluation of mechanisms of pediatric AIS related to SARS-CoV-2 infection, particularly with the knowledge that children are far more likely than adults to have mild or asymptomatic SARS-CoV-2 infections. Case control studies with carefully collected PCR and antibody data along with selective panels of inflammatory markers among both childhood AIS patients and healthy controls are needed to address the virus’s contribution to stroke more completely. The VIPS II study will help to address this important question. Despite the current study’s limitations, the inclusion of children from a large number of international sites provides broadly applicable and generalizable data for the clinician during the diagnostic evaluation of a child presenting with AIS during the ongoing COVID-19 pandemic.</p>
+<p>In summary, the risk of AIS among children hospitalized with SARS-CoV-2 appears to be low and similar to the rates reported in previous cohorts. Nearly 7% of incident childhood AIS cases tested were positive for SARS-CoV-2. However, SARS-CoV-2 was the main stroke risk factor in only about a quarter of these, suggesting that SARS-CoV-2 could be incidental in some cases of pediatric stroke or could be an additive factor in children with other known stroke risk factors. When SARS-CoV-2 was considered the primary risk factor for the stroke, inflammatory arteriopathies were the apparent mechanism. Children with elevated inflammatory markers or MIS-C may be at particularly high risk for stroke, and additional studies to determine whether thromboprophylaxis or implementation of other measures to reduce stroke risk are warranted.</p></section><section id="sec14"><h2 class="pmc_sec_title">Article Information</h2>
+<section id="sec15"><h3 class="pmc_sec_title">Acknowledgments</h3>
+<p>We thank the Auxillium Foundation for their ongoing support of the International Pediatric Stroke Study. We thank the research coordinators at the International Pediatric Stroke Study and The Hospital for Sick Children, Alexandra Linds, Ravianne Tuazon, Daniel Nichol, and Erum Syed, for their project support.</p></section><section id="sec16"><h3 class="pmc_sec_title">Sources of Funding</h3>
+<p>None.</p></section><section id="sec17"><h3 class="pmc_sec_title">Disclosures</h3>
+<p>Dr Agner reports grant funding from the National Institutes of Health (NIH). Dr Bernard reports grants from the Maternal and Child Health Bureau and from NIH/NINDs.</p></section><section id="sec18"><h3 class="pmc_sec_title">Supplemental Material</h3>
+<p>Figures S1–S3</p>
+<p>Tables S1–S3</p>
+<p>STROBE Checklist</p></section></section><section id="sec19"><h2 class="pmc_sec_title">Supplementary Material</h2>
+<section class="sm xbox font-sm" id="SD1"><div class="media p" id="s1"><div class="caption">
+<a href="/articles/instance/9311284/bin/str-53-2497-s001.pdf" data-ga-action="click_feat_suppl" class="usa-link">str-53-2497-s001.pdf</a><sup> (1.3MB, pdf) </sup>
+</div></div></section></section><section id="fn-group1" class="fn-group"><div class="fn-group p font-secondary-light font-sm"><div class="fn p" id="fn1"><div class="p">
+<h3>Nonstandard Abbreviations and Acronyms</h3>
+<dl class="def-list">
+<dt>AIS</dt>
+<dd><div class="p">arterial ischemic stroke</div></dd>
+<dt>CSF</dt>
+<dd><div class="p">cerebrospinal fluid</div></dd>
+<dt>MIS-C</dt>
+<dd><div class="p">multisystem inflammatory syndrome in children</div></dd>
+<dt>SARS-CoV-2</dt>
+<dd><div class="p">severe acute respiratory syndrome coronavirus 2</div></dd>
+<dt>STROBE</dt>
+<dd><div class="p">Strengthening the Reporting of Observational Studies in Epidemiology</div></dd>
+</dl>
+</div></div></div></section><section id="fn-group2" class="fn-group"><div class="fn-group p font-secondary-light font-sm">
+<div class="fn p" id="fn01">
+<sup>*</sup><p class="display-inline">A list of International Pediatric Stroke Study and British Paediatric Neurology Association Cerebrovascular Special Interest Group participating sites and co-investigators is provided in <a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Table S1</a>.</p>
+</div>
+<div class="fn p" id="fn3"><p>Supplemental Material is available at <a href="https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://www.ahajournals.org/doi/suppl/10.1161/STROKEAHA.121.038250</a>.</p></div>
+<div class="fn p" id="fn4"><p>For Sources of Funding and Disclosures, see page 2502.</p></div>
+</div></section><section id="_ci93_" lang="en" class="contrib-info"><h2 class="pmc_sec_title">Contributor Information</h2>
+<p>Shannon C. Agner, Email: agnersc@wustl.edu.</p>
+<p>Jonathan D. Santoro, Email: jdsantoro@chla.usc.edu.</p>
+<p>Dipak Ram, Email: dipak.ram@mft.nhs.uk.</p>
+<p>Jenny L. Wilson, Email: wilsjen@ohsu.edu.</p>
+<p>Dana Harrar, Email: dharrar@childrensnational.org.</p>
+<p>Brian Appavu, Email: bappavu@phoenixchildrens.com.</p>
+<p>Stuart M. Fraser, Email: stuart.m.fraser@uth.tmc.edu.</p>
+<p>Thomas Rossor, Email: trossor@nhs.net.</p>
+<p>Marcela D. Torres, Email: marcela.torres@cookchildrens.org.</p>
+<p>Manoëlle Kossorotoff, Email: manoelle.kossorotoff@aphp.fr.</p>
+<p>Yenny C. Zuñiga Zambrano, Email: yecazuza@gmail.com.</p>
+<p>Marta Hernández-Chávez, Email: mhernand@med.puc.cl.</p>
+<p>Sahar M.A. Hassanein, Email: saharhassanein@med.asu.edu.eg.</p>
+<p>Dimitrios Zafeiriou, Email: Zafeiriou@icloud.com.</p>
+<p>Michael M. Dowling, Email: michael.dowling@utsouthwestern.edu.</p>
+<p>Ilona Kopyta, Email: ilonakopyta@autograf.pl.</p>
+<p>Nicholas V. Stence, Email: nicholas.stence@cuanschutz.edu.</p>
+<p>Timothy J. Bernard, Email: Timothy.Bernard@childrenscolorado.org.</p>
+<p>Nomazulu Dlamini, Email: nomazulu.dlamini@sickkids.ca.</p></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="R1">
+<span class="label">1.</span><cite>Al-Samkari H, Karp Leaf RS, Dzik WH, Carlson JCT, Fogerty AE, Waheed A, Goodarzi K, Bendapudi PK, Bornikova L, Gupta S, et al. COVID-19 and coagulation: bleeding and thrombotic manifestations of SARS-CoV-2 infection.
+Blood. 2020;136:489–500. doi: 10.1182/blood.2020006520</cite> [<a href="https://doi.org/10.1182/blood.2020006520" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7378457/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32492712/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Blood&amp;title=COVID-19%20and%20coagulation:%20bleeding%20and%20thrombotic%20manifestations%20of%20SARS-CoV-2%20infection.&amp;author=H%20Al-Samkari&amp;author=RS%20Karp%20Leaf&amp;author=WH%20Dzik&amp;author=JCT%20Carlson&amp;author=AE%20Fogerty&amp;volume=136&amp;publication_year=2020&amp;pages=489-500&amp;pmid=32492712&amp;doi=10.1182/blood.2020006520&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R2">
+<span class="label">2.</span><cite>Lodigiani C, Iapichino G, Carenzo L, Cecconi M, Ferrazzi P, Sebastian T, Kucher N, Studt JD, Sacco C, Bertuzzi A, et al. ; Humanitas COVID-19 Task Force. Venous and arterial thromboembolic complications in COVID-19 patients admitted to an academic hospital in Milan, Italy.
+Thromb Res. 2020;191:9–14. doi: 10.1016/j.thromres.2020.04.024</cite> [<a href="https://doi.org/10.1016/j.thromres.2020.04.024" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7177070/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32353746/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Res&amp;title=Venous%20and%20arterial%20thromboembolic%20complications%20in%20COVID-19%20patients%20admitted%20to%20an%20academic%20hospital%20in%20Milan,%20Italy.&amp;author=C%20Lodigiani&amp;author=G%20Iapichino&amp;author=L%20Carenzo&amp;author=M%20Cecconi&amp;author=P%20Ferrazzi&amp;volume=191&amp;publication_year=2020&amp;pages=9-14&amp;pmid=32353746&amp;doi=10.1016/j.thromres.2020.04.024&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R3">
+<span class="label">3.</span><cite>Whitworth H, Sartain SE, Kumar R, Armstrong K, Ballester L, Betensky M, Cohen CT, Diaz R, Diorio C, Goldenberg NA, et al. Rate of thrombosis in children and adolescents hospitalized with COVID-19 or MIS-C.
+Blood. 2021;138:190–198. doi: 10.1182/blood.2020010218</cite> [<a href="https://doi.org/10.1182/blood.2020010218" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8079262/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33895804/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Blood&amp;title=Rate%20of%20thrombosis%20in%20children%20and%20adolescents%20hospitalized%20with%20COVID-19%20or%20MIS-C.&amp;author=H%20Whitworth&amp;author=SE%20Sartain&amp;author=R%20Kumar&amp;author=K%20Armstrong&amp;author=L%20Ballester&amp;volume=138&amp;publication_year=2021&amp;pages=190-198&amp;pmid=33895804&amp;doi=10.1182/blood.2020010218&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R4">
+<span class="label">4.</span><cite>Oxley TJ, Mocco J, Majidi S, Kellner CP, Shoirah H, Singh IP, De Leacy RA, Shigematsu T, Ladner TR, Yaeger KA, et al. Large-Vessel stroke as a presenting feature of Covid-19 in the young.
+N Engl J Med. 2020;382:e60. doi: 10.1056/NEJMc2009787</cite> [<a href="https://doi.org/10.1056/NEJMc2009787" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7207073/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32343504/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=N%20Engl%20J%20Med&amp;title=Large-Vessel%20stroke%20as%20a%20presenting%20feature%20of%20Covid-19%20in%20the%20young.&amp;author=TJ%20Oxley&amp;author=J%20Mocco&amp;author=S%20Majidi&amp;author=CP%20Kellner&amp;author=H%20Shoirah&amp;volume=382&amp;publication_year=2020&amp;pages=e60&amp;pmid=32343504&amp;doi=10.1056/NEJMc2009787&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R5">
+<span class="label">5.</span><cite>Nannoni S, de Groot R, Bell S, Markus HS. Stroke in COVID-19: a systematic review and meta-analysis.
+Int J Stroke. 2021;16:137–149. doi: 10.1177/1747493020972922</cite> [<a href="https://doi.org/10.1177/1747493020972922" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7859578/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33103610/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Stroke&amp;title=Stroke%20in%20COVID-19:%20a%20systematic%20review%20and%20meta-analysis.&amp;author=S%20Nannoni&amp;author=R%20de%20Groot&amp;author=S%20Bell&amp;author=HS%20Markus&amp;volume=16&amp;publication_year=2021&amp;pages=137-149&amp;pmid=33103610&amp;doi=10.1177/1747493020972922&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R6">
+<span class="label">6.</span><cite>Beslow LA, Linds AB, Fox CK, Kossorotoff M, Zuñiga Zambrano YC, Hernández-Chávez M, Hassanein SMA, Byrne S, Lim M, Maduaka N, et al. ; International Pediatric Stroke Study Group. Pediatric ischemic stroke: an infrequent complication of SARS-CoV-2.
+Ann Neurol. 2021;89:657–665. doi: 10.1002/ana.25991</cite> [<a href="https://doi.org/10.1002/ana.25991" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33332607/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Neurol&amp;title=Pediatric%20ischemic%20stroke:%20an%20infrequent%20complication%20of%20SARS-CoV-2.&amp;author=LA%20Beslow&amp;author=AB%20Linds&amp;author=CK%20Fox&amp;author=M%20Kossorotoff&amp;author=YC%20Zu%C3%B1iga%20Zambrano&amp;volume=89&amp;publication_year=2021&amp;pages=657-665&amp;pmid=33332607&amp;doi=10.1002/ana.25991&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R7">
+<span class="label">7.</span><cite>LaRovere KL, Riggs BJ, Poussaint TY, Young CC, Newhams MM, Maamari M, Walker TC, Singh AR, Dapul H, Hobbs CV, et al. ; Overcoming COVID-19 Investigators. Neurologic involvement in children and adolescents hospitalized in the United States for COVID-19 or multisystem inflammatory syndrome.
+JAMA Neurol. 2021;78:536–547. doi: 10.1001/jamaneurol.2021.0504</cite> [<a href="https://doi.org/10.1001/jamaneurol.2021.0504" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7936352/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33666649/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Neurol&amp;title=Neurologic%20involvement%20in%20children%20and%20adolescents%20hospitalized%20in%20the%20United%20States%20for%20COVID-19%20or%20multisystem%20inflammatory%20syndrome.&amp;author=KL%20LaRovere&amp;author=BJ%20Riggs&amp;author=TY%20Poussaint&amp;author=CC%20Young&amp;author=MM%20Newhams&amp;volume=78&amp;publication_year=2021&amp;pages=536-547&amp;pmid=33666649&amp;doi=10.1001/jamaneurol.2021.0504&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R8">
+<span class="label">8.</span><cite>Gulko E, Overby P, Ali S, Mehta H, Al-Mufti F, Gomes W. Vessel wall enhancement and focal cerebral arteriopathy in a pediatric patient with acute infarct and COVID-19 infection.
+AJNR Am J Neuroradiol. 2020;41:2348–2350. doi: 10.3174/ajnr.A6778</cite> [<a href="https://doi.org/10.3174/ajnr.A6778" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7963235/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32816770/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=AJNR%20Am%20J%20Neuroradiol&amp;title=Vessel%20wall%20enhancement%20and%20focal%20cerebral%20arteriopathy%20in%20a%20pediatric%20patient%20with%20acute%20infarct%20and%20COVID-19%20infection.&amp;author=E%20Gulko&amp;author=P%20Overby&amp;author=S%20Ali&amp;author=H%20Mehta&amp;author=F%20Al-Mufti&amp;volume=41&amp;publication_year=2020&amp;pages=2348-2350&amp;pmid=32816770&amp;doi=10.3174/ajnr.A6778&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R9">
+<span class="label">9.</span><cite>Tiwari L, Shekhar S, Bansal A, Kumar S. COVID-19 associated arterial ischaemic stroke and multisystem inflammatory syndrome in children: a case report.
+Lancet Child Adolesc Health. 2021;5:88–90. doi: 10.1016/S2352-4642(20)30314-X</cite> [<a href="https://doi.org/10.1016/S2352-4642(20)30314-X" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7832826/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33340468/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Lancet%20Child%20Adolesc%20Health&amp;title=COVID-19%20associated%20arterial%20ischaemic%20stroke%20and%20multisystem%20inflammatory%20syndrome%20in%20children:%20a%20case%20report.&amp;author=L%20Tiwari&amp;author=S%20Shekhar&amp;author=A%20Bansal&amp;author=S%20Kumar&amp;volume=5&amp;publication_year=2021&amp;pages=88-90&amp;pmid=33340468&amp;doi=10.1016/S2352-4642(20)30314-X&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R10">
+<span class="label">10.</span><cite>Appavu B, Deng D, Dowling MM, Garg S, Mangum T, Boerwinkle V, Abruzzo T. Arteritis and large vessel occlusive strokes in children after COVID-19 infection.
+Pediatrics. 2021;147:e2020023440. doi: 10.1542/peds.2020-023440</cite> [<a href="https://doi.org/10.1542/peds.2020-023440" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33277353/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Pediatrics&amp;title=Arteritis%20and%20large%20vessel%20occlusive%20strokes%20in%20children%20after%20COVID-19%20infection.&amp;author=B%20Appavu&amp;author=D%20Deng&amp;author=MM%20Dowling&amp;author=S%20Garg&amp;author=T%20Mangum&amp;volume=147&amp;publication_year=2021&amp;pages=e2020023440&amp;pmid=33277353&amp;doi=10.1542/peds.2020-023440&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R11">
+<span class="label">11.</span><cite>Askalan R, Laughlin S, Mayank S, Chan A, MacGregor D, Andrew M, Curtis R, Meaney B, deVeber G. Chickenpox and stroke in childhood: a study of frequency and causation.
+Stroke. 2001;32:1257–1262. doi: 10.1161/01.str.32.6.1257</cite> [<a href="https://doi.org/10.1161/01.str.32.6.1257" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11387484/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Stroke&amp;title=Chickenpox%20and%20stroke%20in%20childhood:%20a%20study%20of%20frequency%20and%20causation.&amp;author=R%20Askalan&amp;author=S%20Laughlin&amp;author=S%20Mayank&amp;author=A%20Chan&amp;author=D%20MacGregor&amp;volume=32&amp;publication_year=2001&amp;pages=1257-1262&amp;pmid=11387484&amp;doi=10.1161/01.str.32.6.1257&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R12">
+<span class="label">12.</span><cite>Ferriero DM, Fullerton HJ, Bernard TJ, Billinghurst L, Daniels SR, DeBaun MR, deVeber G, Ichord RN, Jordan LC, Massicotte P, et al. ; American Heart Association Stroke Council and Council on Cardiovascular and Stroke Nursing. Management of Stroke in Neonates and Children: a scientific statement from the American Heart Association/American Stroke Association.
+Stroke. 2019;50:e51–e96. doi: 10.1161/STR.0000000000000183</cite> [<a href="https://doi.org/10.1161/STR.0000000000000183" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/30686119/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Stroke&amp;title=Management%20of%20Stroke%20in%20Neonates%20and%20Children:%20a%20scientific%20statement%20from%20the%20American%20Heart%20Association/American%20Stroke%20Association.&amp;author=DM%20Ferriero&amp;author=HJ%20Fullerton&amp;author=TJ%20Bernard&amp;author=L%20Billinghurst&amp;author=SR%20Daniels&amp;volume=50&amp;publication_year=2019&amp;pages=e51-e96&amp;pmid=30686119&amp;doi=10.1161/STR.0000000000000183&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R13">
+<span class="label">13.</span><cite>Fifi JT, Mocco J. COVID-19 related stroke in young individuals.
+Lancet Neurol. 2020;19:713–715. doi: 10.1016/S1474-4422(20)30272-6</cite> [<a href="https://doi.org/10.1016/S1474-4422(20)30272-6" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7434432/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32822622/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Lancet%20Neurol&amp;title=COVID-19%20related%20stroke%20in%20young%20individuals.&amp;author=JT%20Fifi&amp;author=J%20Mocco&amp;volume=19&amp;publication_year=2020&amp;pages=713-715&amp;pmid=32822622&amp;doi=10.1016/S1474-4422(20)30272-6&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R14">
+<span class="label">14.</span><cite>Merkler AE, Parikh NS, Mir S, Gupta A, Kamel H, Lin E, Lantos J, Schenck EJ, Goyal P, Bruce SS, et al. Risk of ischemic stroke in patients with Coronavirus Disease 2019 (COVID-19) vs patients with influenza.
+JAMA Neurol. 2020;77:1–7. doi: 10.1001/jamaneurol.2020.2730</cite> [<a href="https://doi.org/10.1001/jamaneurol.2020.2730" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7333175/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32614385/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Neurol&amp;title=Risk%20of%20ischemic%20stroke%20in%20patients%20with%20Coronavirus%20Disease%202019%20(COVID-19)%20vs%20patients%20with%20influenza.&amp;author=AE%20Merkler&amp;author=NS%20Parikh&amp;author=S%20Mir&amp;author=A%20Gupta&amp;author=H%20Kamel&amp;volume=77&amp;publication_year=2020&amp;pages=1-7&amp;pmid=32614385&amp;doi=10.1001/jamaneurol.2020.2730&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R15">
+<span class="label">15.</span><cite>Farhadian SF, Seilhean D, Spudich S. Neuropathogenesis of acute coronavirus disease 2019.
+Curr Opin Neurol. 2021;34:417–422. doi: 10.1097/WCO.0000000000000944</cite> [<a href="https://doi.org/10.1097/WCO.0000000000000944" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33852526/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Curr%20Opin%20Neurol&amp;title=Neuropathogenesis%20of%20acute%20coronavirus%20disease%202019.&amp;author=SF%20Farhadian&amp;author=D%20Seilhean&amp;author=S%20Spudich&amp;volume=34&amp;publication_year=2021&amp;pages=417-422&amp;pmid=33852526&amp;doi=10.1097/WCO.0000000000000944&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R16">
+<span class="label">16.</span><cite>Gaur P, Dixon L, Jones B, Lyall H, Jan W. COVID-19-Associated cytotoxic lesions of the corpus callosum.
+AJNR Am J Neuroradiol. 2020;41:1905–1907. doi: 10.3174/ajnr.A6713</cite> [<a href="https://doi.org/10.3174/ajnr.A6713" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7661087/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32819904/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=AJNR%20Am%20J%20Neuroradiol&amp;title=COVID-19-Associated%20cytotoxic%20lesions%20of%20the%20corpus%20callosum.&amp;author=P%20Gaur&amp;author=L%20Dixon&amp;author=B%20Jones&amp;author=H%20Lyall&amp;author=W%20Jan&amp;volume=41&amp;publication_year=2020&amp;pages=1905-1907&amp;pmid=32819904&amp;doi=10.3174/ajnr.A6713&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R17">
+<span class="label">17.</span><cite>McAlpine LS, Zubair AS, Maran I, Chojecka P, Lleva P, Jasne AS, Navaratnam D, Matouk C, Schindler J, Sheth KN, et al. Ischemic stroke, inflammation, and endotheliopathy in COVID-19 patients.
+Stroke. 2021;52:e233–e238. doi: 10.1161/STROKEAHA.120.031971</cite> [<a href="https://doi.org/10.1161/STROKEAHA.120.031971" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8140646/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33966492/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Stroke&amp;title=Ischemic%20stroke,%20inflammation,%20and%20endotheliopathy%20in%20COVID-19%20patients.&amp;author=LS%20McAlpine&amp;author=AS%20Zubair&amp;author=I%20Maran&amp;author=P%20Chojecka&amp;author=P%20Lleva&amp;volume=52&amp;publication_year=2021&amp;pages=e233-e238&amp;pmid=33966492&amp;doi=10.1161/STROKEAHA.120.031971&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R18">
+<span class="label">18.</span><cite>Diorio C, McNerney KO, Lambert M, Paessler M, Anderson EM, Henrickson SE, Chase J, Liebling EJ, Burudpakdee C, Lee JH, et al. Evidence of thrombotic microangiopathy in children with SARS-CoV-2 across the spectrum of clinical presentations.
+Blood Adv. 2020;4:6051–6063. doi: 10.1182/bloodadvances.2020003471</cite> [<a href="https://doi.org/10.1182/bloodadvances.2020003471" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7724906/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33290544/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Blood%20Adv&amp;title=Evidence%20of%20thrombotic%20microangiopathy%20in%20children%20with%20SARS-CoV-2%20across%20the%20spectrum%20of%20clinical%20presentations.&amp;author=C%20Diorio&amp;author=KO%20McNerney&amp;author=M%20Lambert&amp;author=M%20Paessler&amp;author=EM%20Anderson&amp;volume=4&amp;publication_year=2020&amp;pages=6051-6063&amp;pmid=33290544&amp;doi=10.1182/bloodadvances.2020003471&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R19">
+<span class="label">19.</span><cite>Ma L, Sahu S, Cano M, Kuppuswamy V, Bajwa J, McPhatter J. Increased complement activation is a distinctive feature of severe SARS-CoV-2 infection.
+Sci Immunol. 2021;6:eabh2259. doi: 10.1126/sciimmunol.abh2259</cite> [<a href="https://doi.org/10.1126/sciimmunol.abh2259" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8158979/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/34446527/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Sci%20Immunol&amp;title=Increased%20complement%20activation%20is%20a%20distinctive%20feature%20of%20severe%20SARS-CoV-2%20infection.&amp;author=L%20Ma&amp;author=S%20Sahu&amp;author=M%20Cano&amp;author=V%20Kuppuswamy&amp;author=J%20Bajwa&amp;volume=6&amp;publication_year=2021&amp;pages=eabh2259&amp;pmid=34446527&amp;doi=10.1126/sciimmunol.abh2259&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R20">
+<span class="label">20.</span><cite>Gu SX, Tyagi T, Jain K, Gu VW, Lee SH, Hwa JM, Kwan JM, Krause DS, Lee AI, Halene S, et al. Thrombocytopathy and endotheliopathy: crucial contributors to COVID-19 thromboinflammation.
+Nat Rev Cardiol. 2021;18:194–209. doi: 10.1038/s41569-020-00469-1</cite> [<a href="https://doi.org/10.1038/s41569-020-00469-1" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7675396/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33214651/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Nat%20Rev%20Cardiol&amp;title=Thrombocytopathy%20and%20endotheliopathy:%20crucial%20contributors%20to%20COVID-19%20thromboinflammation.&amp;author=SX%20Gu&amp;author=T%20Tyagi&amp;author=K%20Jain&amp;author=VW%20Gu&amp;author=SH%20Lee&amp;volume=18&amp;publication_year=2021&amp;pages=194-209&amp;pmid=33214651&amp;doi=10.1038/s41569-020-00469-1&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R21">
+<span class="label">21.</span><cite>Giannis D, Ziogas IA, Gianni P. Coagulation disorders in coronavirus infected patients: COVID-19, SARS-CoV-1, MERS-CoV and lessons from the past.
+J Clin Virol. 2020;127:104362. doi: 10.1016/j.jcv.2020.104362</cite> [<a href="https://doi.org/10.1016/j.jcv.2020.104362" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7195278/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32305883/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Clin%20Virol&amp;title=Coagulation%20disorders%20in%20coronavirus%20infected%20patients:%20COVID-19,%20SARS-CoV-1,%20MERS-CoV%20and%20lessons%20from%20the%20past.&amp;author=D%20Giannis&amp;author=IA%20Ziogas&amp;author=P%20Gianni&amp;volume=127&amp;publication_year=2020&amp;pages=104362&amp;pmid=32305883&amp;doi=10.1016/j.jcv.2020.104362&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R22">
+<span class="label">22.</span><cite>Esenwa C, Cheng NT, Luna J, Willey J, Boehme AK, Kirchoff-Torres K, Labovitz D, Liberman AL, Mabie P, Moncrieffe K, et al. Biomarkers of coagulation and inflammation in COVID-19-Associated ischemic stroke.
+Stroke. 2021;52:e706–e709. doi: 10.1161/STROKEAHA.121.035045</cite> [<a href="https://doi.org/10.1161/STROKEAHA.121.035045" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8547586/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/34428931/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Stroke&amp;title=Biomarkers%20of%20coagulation%20and%20inflammation%20in%20COVID-19-Associated%20ischemic%20stroke.&amp;author=C%20Esenwa&amp;author=NT%20Cheng&amp;author=J%20Luna&amp;author=J%20Willey&amp;author=AK%20Boehme&amp;volume=52&amp;publication_year=2021&amp;pages=e706-e709&amp;pmid=34428931&amp;doi=10.1161/STROKEAHA.121.035045&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R23">
+<span class="label">23.</span><cite>Tan YK, Goh C, Leow AST, Tambyah PA, Ang A, Yap ES, Tu TM, Sharma VK, Yeo LLL, Chan BPL, et al. COVID-19 and ischemic stroke: a systematic review and meta-summary of the literature.
+J Thromb Thrombolysis. 2020;50:587–595. doi: 10.1007/s11239-020-02228-y</cite> [<a href="https://doi.org/10.1007/s11239-020-02228-y" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7358286/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32661757/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Thrombolysis&amp;title=COVID-19%20and%20ischemic%20stroke:%20a%20systematic%20review%20and%20meta-summary%20of%20the%20literature.&amp;author=YK%20Tan&amp;author=C%20Goh&amp;author=AST%20Leow&amp;author=PA%20Tambyah&amp;author=A%20Ang&amp;volume=50&amp;publication_year=2020&amp;pages=587-595&amp;pmid=32661757&amp;doi=10.1007/s11239-020-02228-y&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R24">
+<span class="label">24.</span><cite>Mazzacane F, Zito A, Magno S, Persico A, Mazzoleni V, Asteggiano C, Rognone E, Pichiecchio A, Padovani A, Cavallini A, et al. Vessel wall magnetic resonance imaging in COVID-19-associated cryptogenic ischemic stroke.
+Eur J Neurol. 2022;29:615–619. doi: 10.1111/ene.15128</cite> [<a href="https://doi.org/10.1111/ene.15128" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8653119/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/34570944/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20J%20Neurol&amp;title=Vessel%20wall%20magnetic%20resonance%20imaging%20in%20COVID-19-associated%20cryptogenic%20ischemic%20stroke.&amp;author=F%20Mazzacane&amp;author=A%20Zito&amp;author=S%20Magno&amp;author=A%20Persico&amp;author=V%20Mazzoleni&amp;volume=29&amp;publication_year=2022&amp;pages=615-619&amp;pmid=34570944&amp;doi=10.1111/ene.15128&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R25">
+<span class="label">25.</span><cite>Feldstein LR, Tenforde MW, Friedman KG, Newhams M, Rose EB, Dapul H, Soma VL, Maddux AB, Mourani PM, Bowens C, et al. ; Overcoming COVID-19 Investigators. Characteristics and outcomes of us children and adolescents with Multisystem Inflammatory Syndrome in Children (MIS-C) compared with severe acute COVID-19.
+JAMA. 2021;325:1074–1087. doi: 10.1001/jama.2021.2091</cite> [<a href="https://doi.org/10.1001/jama.2021.2091" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7905703/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33625505/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Characteristics%20and%20outcomes%20of%20us%20children%20and%20adolescents%20with%20Multisystem%20Inflammatory%20Syndrome%20in%20Children%20(MIS-C)%20compared%20with%20severe%20acute%20COVID-19.&amp;author=LR%20Feldstein&amp;author=MW%20Tenforde&amp;author=KG%20Friedman&amp;author=M%20Newhams&amp;author=EB%20Rose&amp;volume=325&amp;publication_year=2021&amp;pages=1074-1087&amp;pmid=33625505&amp;doi=10.1001/jama.2021.2091&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R26">
+<span class="label">26.</span><cite>Vella LA, Giles JR, Baxter AE, Oldridge DA, Diorio C, Kuri-Cervantes L, Alanio C, Pampena MB, Wu JE, Chen Z, et al. ; UPenn COVID Processing Unit. Deep immune profiling of MIS-C demonstrates marked but transient immune activation compared to adult and pediatric COVID-19.
+Sci Immunol. 2021;6:eabf7570. doi: 10.1126/sciimmunol.abf7570</cite> [<a href="https://doi.org/10.1126/sciimmunol.abf7570" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC8128303/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33653907/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Sci%20Immunol&amp;title=Deep%20immune%20profiling%20of%20MIS-C%20demonstrates%20marked%20but%20transient%20immune%20activation%20compared%20to%20adult%20and%20pediatric%20COVID-19.&amp;author=LA%20Vella&amp;author=JR%20Giles&amp;author=AE%20Baxter&amp;author=DA%20Oldridge&amp;author=C%20Diorio&amp;volume=6&amp;publication_year=2021&amp;pages=eabf7570&amp;pmid=33653907&amp;doi=10.1126/sciimmunol.abf7570&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R27">
+<span class="label">27.</span><cite>Ichiyama T, Nishikawa M, Hayashi T, Koga M, Tashiro N, Furukawa S. Cerebral hypoperfusion during acute Kawasaki disease.
+Stroke. 1998;29:1320–1321. doi: 10.1161/01.str.29.7.1320</cite> [<a href="https://doi.org/10.1161/01.str.29.7.1320" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/9660380/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Stroke&amp;title=Cerebral%20hypoperfusion%20during%20acute%20Kawasaki%20disease.&amp;author=T%20Ichiyama&amp;author=M%20Nishikawa&amp;author=T%20Hayashi&amp;author=M%20Koga&amp;author=N%20Tashiro&amp;volume=29&amp;publication_year=1998&amp;pages=1320-1321&amp;pmid=9660380&amp;doi=10.1161/01.str.29.7.1320&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R28">
+<span class="label">28.</span><cite>Klok FA, Kruip MJHA, van der Meer NJM, Arbous MS, Gommers DAMPJ, Kant KM, Kaptein FHJ, van Paassen J, Stals MAM, Huisman MV, et al. Incidence of thrombotic complications in critically ill ICU patients with COVID-19.
+Thromb Res. 2020;191:145–147. doi: 10.1016/j.thromres.2020.04.013</cite> [<a href="https://doi.org/10.1016/j.thromres.2020.04.013" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7146714/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32291094/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Res&amp;title=Incidence%20of%20thrombotic%20complications%20in%20critically%20ill%20ICU%20patients%20with%20COVID-19.&amp;author=FA%20Klok&amp;author=MJHA%20Kruip&amp;author=NJM%20van%20der%20Meer&amp;author=MS%20Arbous&amp;author=DAMPJ%20Gommers&amp;volume=191&amp;publication_year=2020&amp;pages=145-147&amp;pmid=32291094&amp;doi=10.1016/j.thromres.2020.04.013&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R29">
+<span class="label">29.</span><cite>Wang A, Mandigo GK, Yim PD, Meyers PM, Lavine SD. Stroke and mechanical thrombectomy in patients with COVID-19: technical observations and patient characteristics.
+J Neurointerv Surg. 2020;12:648–653. doi: 10.1136/neurintsurg-2020-016220</cite> [<a href="https://doi.org/10.1136/neurintsurg-2020-016220" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32451359/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Neurointerv%20Surg&amp;title=Stroke%20and%20mechanical%20thrombectomy%20in%20patients%20with%20COVID-19:%20technical%20observations%20and%20patient%20characteristics.&amp;author=A%20Wang&amp;author=GK%20Mandigo&amp;author=PD%20Yim&amp;author=PM%20Meyers&amp;author=SD%20Lavine&amp;volume=12&amp;publication_year=2020&amp;pages=648-653&amp;pmid=32451359&amp;doi=10.1136/neurintsurg-2020-016220&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R30">
+<span class="label">30.</span><cite>Elkind MS, Hills NK, Glaser CA, Lo WD, Amlie-Lefond C, Dlamini N, Kneen R, Hod EA, Wintermark M, deVeber GA, et al. ; VIPS Investigators*. Herpesvirus infections and childhood arterial ischemic stroke: results of the VIPS study.
+Circulation. 2016;133:732–741. doi: 10.1161/CIRCULATIONAHA.115.018595</cite> [<a href="https://doi.org/10.1161/CIRCULATIONAHA.115.018595" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4766042/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26813104/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Circulation&amp;title=Herpesvirus%20infections%20and%20childhood%20arterial%20ischemic%20stroke:%20results%20of%20the%20VIPS%20study.&amp;author=MS%20Elkind&amp;author=NK%20Hills&amp;author=CA%20Glaser&amp;author=WD%20Lo&amp;author=C%20Amlie-Lefond&amp;volume=133&amp;publication_year=2016&amp;pages=732-741&amp;pmid=26813104&amp;doi=10.1161/CIRCULATIONAHA.115.018595&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section><section id="_ad93_" lang="en" class="associated-data"><h2 class="pmc_sec_title">Associated Data</h2>
+<p class="font-secondary"><em>This section collects any data citations, data availability statements, or supplementary materials included in this article.</em></p>
+<section id="_adsm93_" lang="en" class="supplementary-materials"><h3 class="pmc_sec_title">Supplementary Materials</h3>
+<section class="sm xbox font-sm" id="db_ds_supplementary-material1_reqid_"><div class="media p"><div class="caption">
+<a href="/articles/instance/9311284/bin/str-53-2497-s001.pdf" data-ga-action="click_feat_suppl" class="usa-link">str-53-2497-s001.pdf</a><sup> (1.3MB, pdf) </sup>
+</div></div></section></section><section id="_adda93_" lang="en" class="data-availability-statement"><h3 class="pmc_sec_title">Data Availability Statement</h3>
+<p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from Stroke are provided here courtesy of <strong>Wolters Kluwer Health</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1161/STROKEAHA.121.038250"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/str-53-2497.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (561.1 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/9311284/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/9311284/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC9311284%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC9311284/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC9311284/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC9311284/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/35380052/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC9311284/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/35380052/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC9311284/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/9311284/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="3RrTS5BSyxSvHzJ0PiJr5BoHw6IxlnILIef9CzTBBgV3okqrACQ26uFr4KAJ7noz">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

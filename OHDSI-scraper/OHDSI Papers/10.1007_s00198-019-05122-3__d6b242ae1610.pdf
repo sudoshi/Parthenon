@@ -1,0 +1,895 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="nexus-font-support">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="tdm-reservation" content="0">
+    <title>
+        The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis
+      -  University of Birmingham</title>
+    
+    
+    
+
+
+
+<meta property="og:site_name" content="University of Birmingham">
+
+
+    <meta property="og:title" content="The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis"/>
+
+
+<meta property="og:url" content="https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/">
+<meta property="og:locale" content="en_GB">
+
+
+
+
+    
+        <meta property="og:image" content="https://research.birmingham.ac.uk/skin/headerImage/">
+    
+
+
+
+
+    
+        <meta property="og:type" content="article">
+    
+
+    
+
+    
+
+
+    <link rel="stylesheet" href="/assets/application-bbadabf14375775985ecfd59655b0569.css" />
+    <!-- OneTrust Cookies Consent Notice start -->
+<script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="7dd32146-7197-40ab-a5a5-94444e0e5be6" data-document-language="true"></script>
+<script type="text/javascript">
+    function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+    
+    <link href="/skin/css/" rel="stylesheet"/>
+    
+    <script src="/skin/script/" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/application-c9812d1ef516be20094e6491b18de745.js" ></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/assets/html5shiv.min-ca5300beead9a4a9d2c9c584a9016410.js" ></script>
+    <script type="text/javascript" src="/assets/respond.min-678d372b349e434d9923e1b591f14a1e.js" ></script>
+    <![endif]-->
+    
+        
+        
+        <meta name="citation_title" content="The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis"></meta><meta name="citation_author" content="C. Tebé"></meta><meta name="citation_author_institution" content="IDIBELL"></meta><meta name="citation_author_institution" content="Universitat Autònoma de Barcelona"></meta><meta name="citation_author_institution" content="Universitat Rovira i Virgili"></meta><meta name="citation_author" content="D. Martínez-Laguna"></meta><meta name="citation_author_institution" content="Carlos III Health Institute"></meta><meta name="citation_author" content="C. Carbonell-Abella"></meta><meta name="citation_author_institution" content="Carlos III Health Institute"></meta><meta name="citation_author" content="C. Reyes"></meta><meta name="citation_author_institution" content="Carlos III Health Institute"></meta><meta name="citation_author" content="V. Moreno"></meta><meta name="citation_author_institution" content="IDIBELL"></meta><meta name="citation_author_institution" content="Universitat Autònoma de Barcelona"></meta><meta name="citation_author_institution" content="EPIBELL"></meta><meta name="citation_author_institution" content="Centro de Investigación Biomédica en Red de Epidemiología y Salud Pública"></meta><meta name="citation_author" content="A. Diez-Perez"></meta><meta name="citation_author_institution" content="Autonomous University of Barcelona and CIBERSAM"></meta><meta name="citation_author" content="G. S. Collins"></meta><meta name="citation_author_institution" content="Applied Health Sciences"></meta><meta name="citation_author_institution" content="University of Oxford "></meta><meta name="citation_author_email" content="G.S.COLLINS@BHAM.AC.UK"></meta><meta name="citation_author_orcid" content="0000-0002-2772-2316"></meta><meta name="citation_author" content="D. Prieto-Alhambra"></meta><meta name="citation_author_institution" content="Carlos III Health Institute"></meta><meta name="citation_author_institution" content="University of Oxford "></meta><meta name="citation_publication_date" content="2019/12/01"></meta><meta name="citation_online_date" content="2025/10/10"></meta><meta name="citation_doi" content="10.1007/s00198-019-05122-3"></meta><meta name="citation_language" content="English"></meta><meta name="citation_keywords" content="Fracture risk assessment; Multi-state models; Osteoporosis; Population-based cohort; Type 2 diabetes mellitus"></meta><meta name="citation_pmid" content="31444526"></meta><meta name="citation_journal_title" content="Osteoporosis International"></meta><meta name="citation_issn" content="0937-941X"></meta><meta name="citation_publisher" content="Springer"></meta><meta name="citation_volume" content="30"></meta><meta name="citation_issue" content="12"></meta><meta name="citation_firstpage" content="2407"></meta><meta name="citation_lastpage" content="2415"></meta>
+        <script src="/assets/Chart.min-27bff060c3e539ceb22e763c8f2e9e10.js"></script>
+        <script src="/assets/jquery.content-chart-9c09bb79ba3fc3829b6478d0e114f737.js"></script>
+        
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-2KB29Q26H3" class="optanon-category-2" type="text/plain" async=""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2KB29Q26H3', {'cookie_domain' : document.location.hostname, 'anonymize_ip': true });
+</script>
+    <script src="//assets.adobedtm.com/4a848ae9611a/ea83f870454d/launch-af020409b299.min.js" class="optanon-category-2" type="text/plain" async=""></script>
+    
+    
+</head>
+
+<body class="" data-page="publications">
+
+<div id="aria-polite" aria-live="polite"></div>
+
+<div id="aria-assertive" aria-live="assertive"></div>
+
+<nav aria-label="Skip to content" class="skip-content">
+    <ul>
+        <li>
+            <a href="#main-navigation" class="sr-only sr-only-focusable">Skip to main navigation</a>
+        </li>
+        
+            <li>
+                <a href="#main-search" class="sr-only sr-only-focusable">Skip to search</a>
+            </li>
+        
+        <li>
+            <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+            
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+    <header class="header" id="page-header">
+        <div class="primary  ">
+            <div class="container">
+                
+                <a href="/en/" class="logo">
+                    
+                        <span class="sr-only">University of Birmingham Home</span>
+                        <img src="/skin/headerImage/" alt="University of Birmingham Logo"/>
+                    
+                </a>
+                
+                    <ul class="header-tools ">
+                        
+                            <li class="help-and-faq">
+                                <a href="https://intranet.birmingham.ac.uk/collaboration/pure/index.aspx" target="_blank">
+                                    <i class="icon icon-lifebuoy" aria-hidden="true"></i>
+                                    <span class="label">Help &amp; FAQ</span>
+                                    <span class="sr-only">&nbsp; Link opens in a new tab</span>
+                                </a>
+                            </li>
+                        
+                        
+                    </ul>
+                
+                
+                
+            </div>
+        </div>
+
+        
+            <div class="header-search">
+                
+<form action="/en/searchAll/index/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/" method="get"
+      class="search-form" id="search-everything">
+
+    <div class="global-search-wrapper">
+        <div class="global-search mini">
+            <div class="field-button-wrapper">
+                <div class="search-cell search-field">
+                    <label for="main-search" class="sr-only">Search content at University of Birmingham</label>
+                    <input id="main-search" class="search-field" value="" name="search"
+                           placeholder="Search..."/>
+                </div>
+
+                <div class="search-submit">
+                    <button type="submit" aria-label="Search">
+                        <i class="icon icon-magnifying-glass" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(function () {
+        var searchForm = $("#search-everything");
+        var searchField = $(".search-field", searchForm);
+        searchForm.on("submit", function () {
+            var field = searchField.find("input");
+            var searchString = field.val();
+
+            // No enter key submit nothing :-)
+            if (!searchString) return false;
+
+            if (searchString.length >= 200) {
+                searchForm.attr("method", "post");
+                searchForm.attr("action", "/en/concepts/copypaste/");
+                field.attr("name", "text");
+            }
+        });
+    });
+</script>
+            </div>
+        
+
+
+        
+        
+            <div class="subMenu">
+                <div class="secondary">
+                    <div class="container">
+                        <nav id="main-navigation" aria-label="Main navigation" class="content-navigation three-third">
+                            <ul data-value="More" role="menubar">
+                                <li class="" role="none">
+                                    <a href="/en/" role="menuitem" tabindex="-1">Home</a>
+                                </li>
+
+                                
+                                    <li class="selected" role="none">
+                                        <a class="portal_link" tabindex="0" role="menuitem" href="/en/publications/"><span>Research output</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/persons/"><span>Profiles</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/organisations/"><span>Research units</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/projects/"><span>Projects</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/activities/"><span>Activities</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/datasets/"><span>Datasets</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/equipments/"><span>Equipment</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/prizes/"><span>Prizes</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/clippings/"><span>Press/Media</span></a>
+                                    </li>
+                                
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+    <main id="page-content">
+        
+    <div class="page-section page-section-publications page-section-publications-view ">
+
+        
+        
+        
+        
+        <section
+                class="page-section-header page-section-header-publications page-section-header-publications-view
+                 no-backdrop-image"
+                data-stickyheader=""
+                style="">
+            
+            
+        
+
+
+<div class="container">
+    <div class="row">
+        <div class="introduction no-metrics">
+            <div class="rendering"><h1><span>The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis</span></h1></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatespersonsclassifiedportal rendering_contributiontojournal rendering_associatespersonsclassifiedportal rendering_contributiontojournal_associatespersonsclassifiedportal"><ul class="relations persons"><li>C. Tebé</li><li>, D. Martínez-Laguna</li><li>, C. Carbonell-Abella</li><li>, C. Reyes</li><li>, V. Moreno</li><li>, A. Diez-Perez</li><li>, <a rel="Person" href="https://research.birmingham.ac.uk/en/persons/gary-collins/" class="link person"><span>G. S. Collins</span></a></li><li>, D. Prieto-Alhambra<sup>*</sup></li><div class="info-block"><div class="info"><sup>*</sup><span>Corresponding author for this work</span></div></div></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatesorganisationsportal rendering_contributiontojournal rendering_associatesorganisationsportal rendering_contributiontojournal_associatesorganisationsportal"><ul class="relations organisations"><li class="department"><a rel="Organisation" href="https://research.birmingham.ac.uk/en/organisations/applied-health-sciences/" class="link"><span>Applied Health Sciences</span></a></li></ul></div>
+            
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationcontenttyperendererportalng rendering_contributiontojournal rendering_publicationcontenttyperendererportalng rendering_contributiontojournal_publicationcontenttyperendererportalng"><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="publication-metrics" role="region" aria-label="Publication metrics section">
+        
+            <div class="metrics-container">
+                
+                
+                    <div class="metrics-wrap metrics-bottom ">
+                        
+                            <div class="metric metric-plum-x">
+                                <a href="https://plu.mx/plum/a/?doi=10.1007/s00198-019-05122-3" class="plumx-plum-print-popup" data-on-empty="plumXError" data-on-fail="plumXError" data-on-success="plumXSuccess" data-popup="left" data-hide-when-empty="true" data-site="plum"
+                                   data-badge="false"></a>
+                            </div>
+                        
+
+                        
+                            <div class="metric metric-altmetric">
+                                
+                                    <div data-badge-popover="top" data-badge-type="donut" data-doi="10.1007/s00198-019-05122-3" data-hide-no-mentions="true" data-link-target='_blank'
+                                         class="altmetric-embed"></div>
+                                
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        
+    </div>
+
+
+    </div>
+
+</div>
+<div class="subMenu">
+    <div class="content-profile-navigation">
+    <div class="container">
+        <nav role="navigation">
+            <ul role="menubar">
+                <li class="selected" role="none">
+                    <a class="portal_link" role="menuitem" href="/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/"><span>
+                        <i class="icon icon-publication" aria-hidden="true"></i>
+                        <span class="label">Overview</span>
+                    </span></a>
+                </li>
+                
+                    <li class="" role="none">
+                        <a class="portal_link" role="menuitem" href="/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/fingerprints/"><span>
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="label">Fingerprint</span>
+                        </span></a>
+                    </li>
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</div>
+
+    
+        </section>
+
+        <div id="main-content"
+             class="page-section-content page-section-content-publications page-section-content-publications-view   ">
+            
+        <section class="page-section content-relation-section">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="content-content publication-content">
+                        
+                        
+                            <h2 class="subheader">Abstract</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_abstractportal rendering_contributiontojournal rendering_abstractportal rendering_contributiontojournal_abstractportal"><div class="textblock"><p>Summary: Type 2 diabetes mellitus (T2DM) is associated with an excess risk of fractures and overall mortality. This study compared hip fracture and post-hip fracture mortality in T2DM and non-diabetic subjects. The salient findings are that subjects in T2DM are at higher risk of dying after suffering a hip fracture. Introduction: Previous research suggests that individuals with T2DM are at an excess risk of both fractures and overall mortality, but their combined effect is unknown. Using multi-state cohort analyses, we estimate the association between T2DM and the transition to hip fracture, post-hip fracture mortality, and hip fracture–free all-cause death. Methods: Population-based cohort from Catalonia, Spain, including all individuals aged 65 to 80 years with a recorded diagnosis of T2DM on 1 January 2006; and non-T2DM matched (up to 2:1) by year of birth, gender, and primary care practice. Results: A total of 44,802 T2DM and 81,233 matched controls (53% women, mean age 72 years old) were followed for a median of 8 years: 23,818 died without fracturing and 3317 broke a hip, of whom 838 subsequently died. Adjusted HRs for hip fracture–free mortality were 1.32 (95% CI 1.28 to 1.37) for men and 1.72 (95% CI 1.65 to 1.79) for women. HRs for hip fracture were 1.24 (95% CI 1.08 to 1.43) and 1.48 (95% CI 1.36 to 1.60), whilst HRs for post-hip fracture mortality were 1.28 (95% CI 1.02 to 1.60) and 1.57 (95% CI 1.31 to 1.88) in men and women, respectively. Conclusion: T2DM individuals are at increased risk of hip fracture, post-hip fracture mortality, and hip fracture–free death. After adjustment, T2DM men were at a 28% higher risk of dying after suffering a hip fracture and women had 57% excess risk of post-hip fracture mortality.</p></div></div>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_detailsportal rendering_contributiontojournal rendering_detailsportal rendering_contributiontojournal_detailsportal"><div class="article"><table class="properties"><tbody><tr class="language"><th scope="row">Original language</th><td>English</td></tr><tr><th scope="row">Pages (from-to)</th><td>2407-2415</td></tr><tr class="numberofpages"><th scope="row">Number of pages</th><td>9</td></tr><tr><th scope="row">Journal</th><td><a rel="Journal" href="#" class="link"><span>Osteoporosis International</span></a></td></tr><tr><th scope="row">Volume</th><td>30</td></tr><tr><th scope="row">Issue number</th><td>12</td></tr><tr class="digital_object_identifiers"><th scope="row">DOIs</th><td><ul class="relations digital_object_identifiers"><li><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1007/s00198-019-05122-3" class="link"><span>https://doi.org/10.1007/s00198-019-05122-3</span></a> </li></ul></td></tr><tr class="status"><th scope="row">Publication status</th><td><span class="prefix">Published - </span><span class="date">1 Dec 2019</span></td></tr></tbody></table></div></div>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationbibliographicalnoteportalrenderer rendering_contributiontojournal rendering_publicationbibliographicalnoteportalrenderer rendering_contributiontojournal_publicationbibliographicalnoteportalrenderer"><h3 class="subheader">Bibliographical note</h3>Publisher Copyright:<br />© 2019, International Osteoporosis Foundation and National Osteoporosis Foundation.</div>
+
+                        
+
+                        
+    <div class="sdgs-content-page">
+        <h2 id="sdg-title" class="subheader">UN SDGs</h2>
+        <p class="sdg-text">This output contributes to the following UN <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/" target="_blank">Sustainable Development Goals (SDGs)</a></p>
+        <ol class="sdg_icons" aria-labelledby="sdg-title">
+            
+                <li class="content-page">
+                    
+                    <img alt="SDG 3 - Good Health and Well-being" title="SDG 3 - Good Health and Well-being" class="good_health_and_well_being"
+                         src="/assets/sdg_icons/good_health_and_well_being-9e564c34dfe97e37b42d22a76cae8ae4.svg"
+                         role="presentation"/>
+                    <div class="sdg-name">
+                        <span>SDG 3</span>
+                        <span>Good Health and Well-being</span>
+                    </div>
+                </li>
+            
+        </ol>
+    </div>
+
+
+                        <div class="rendering rendering_keywordable rendering_expertkeywordgrouspbytypeportal rendering_keywordable_expertkeywordgrouspbytypeportal"><div class="keyword-group"><h2 class="subheader">Keywords</h2><ul class="relations keywords"><li class="userdefined-keyword"><span>Fracture risk assessment</span></li><li class="userdefined-keyword"><span>Multi-state models</span></li><li class="userdefined-keyword"><span>Osteoporosis</span></li><li class="userdefined-keyword"><span>Population-based cohort</span></li><li class="userdefined-keyword"><span>Type 2 diabetes mellitus</span></li></ul></div><div class="keyword-group"><h2 class="subheader">ASJC Scopus subject areas</h2><ul class="relations keywords"><li><span>Endocrinology, Diabetes and Metabolism</span></li></ul></div></div>
+
+                    </div>
+
+                    <div class="content-sidebar publication-sidebar">
+                        
+                            <h2 class="subheader">Access to Document</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationaccessrenderer rendering_contributiontojournal rendering_publicationaccessrenderer rendering_contributiontojournal_publicationaccessrenderer"><ul class="dois"><li class="open-access"><div class="doi"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1007/s00198-019-05122-3" class="link"><span>10.1007/s00198-019-05122-3</span></a></div></li></ul></div>
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <section class="page-section content-relation-section publication-fingerprint">
+                <div class="container">
+                    <div class="header">
+                        <h2 class="section-title">
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="title">Fingerprint</span>
+                        </h2>
+                        <span class="sub-title">
+                            Dive into the research topics of 'The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis'. Together they form a unique fingerprint.
+                        </span>
+                    </div>
+
+                    <ul class="publication-top-concepts" role="menubar"  aria-label="Related fingerprints">
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="196365ee-2121-4c98-8e40-0bda00f122a2"
+            data-concept-uuid="196365ee-2121-4c98-8e40-0bda00f122a2"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Cohort Analysis</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="46fce13c-3d9e-4de9-bcd4-f5d35f11d425"
+            data-concept-uuid="46fce13c-3d9e-4de9-bcd4-f5d35f11d425"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Maturity Onset Diabetes of the Young</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="b52b0cd9-8484-41c5-ab85-7a7cbb39c973"
+            data-concept-uuid="b52b0cd9-8484-41c5-ab85-7a7cbb39c973"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Hip Fracture</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="052e7717-8181-49e7-9068-48191550cc3e"
+            data-concept-uuid="052e7717-8181-49e7-9068-48191550cc3e"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Hip Fracture Incidence</span>
+            <span class="thesauri">Keyphrases</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="f5d84d50-dbc8-47a4-b2a4-39609edd9a11"
+            data-concept-uuid="f5d84d50-dbc8-47a4-b2a4-39609edd9a11"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Hip</span>
+            <span class="thesauri">Immunology and Microbiology</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="ab35c5e1-b935-4497-9ea6-aa76f56cb5dc"
+            data-concept-uuid="ab35c5e1-b935-4497-9ea6-aa76f56cb5dc"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.0769231"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="7%">
+            <span class="rank"></span>
+            <span class="concept">Primary Health Care</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">7%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="a99b6c62-1ed8-4007-89ef-d7b6730fc675"
+            data-concept-uuid="a99b6c62-1ed8-4007-89ef-d7b6730fc675"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="0.0769231"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="7%">
+            <span class="rank"></span>
+            <span class="concept">Diabetes Mellitus</span>
+            <span class="thesauri">Medicine and Dentistry</span>
+            <span class="value sr-only">7%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                    </ul>
+                    <div class="footer">
+                        <div class="view-all align-center">
+                            <a class="portal_link btn-primary btn-large" href="/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/fingerprints/"><span>
+                                View full fingerprint
+                                <i class="icon icon-right-open-mini" aria-hidden="true"></i>
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        <section class="page-section cite">
+            <div class="container">
+                <section class="publication-cite" aria-labelledby="publications-cite-title">
+    <h2 class="subheader" id="publications-cite-title">Cite this</h2>
+    <ul class="tabs" role="tablist" aria-label="Cite this">
+        
+            <li class="selected" role="tab" id="tab-0" aria-controls="cite-apa" tabindex="-1"  aria-selected="false" >
+                APA
+            </li>
+        
+            <li class="" role="tab" id="tab-1" aria-controls="cite-author" tabindex="-1"  aria-selected="false" >
+                Author
+            </li>
+        
+            <li class="" role="tab" id="tab-2" aria-controls="cite-BIBTEX" tabindex="-1"  aria-selected="false" >
+                BIBTEX
+            </li>
+        
+            <li class="" role="tab" id="tab-3" aria-controls="cite-harvard" tabindex="-1"  aria-selected="false" >
+                Harvard
+            </li>
+        
+            <li class="" role="tab" id="tab-4" aria-controls="cite-standard" tabindex="-1"  aria-selected="false" >
+                Standard
+            </li>
+        
+            <li class="" role="tab" id="tab-5" aria-controls="cite-RIS" tabindex="-1"  aria-selected="false" >
+                RIS
+            </li>
+        
+            <li class="" role="tab" id="tab-6" aria-controls="cite-vancouver" tabindex="-1"  aria-selected="false" >
+                Vancouver
+            </li>
+        
+    </ul>
+    <div class="tab-container">
+        
+            <div id="cite-apa" class="tab selected" role="tabpanel" aria-labelledby="tab-0" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_apa rendering_contributiontojournal rendering_apa rendering_contributiontojournal_apa">Tebé, C., Martínez-Laguna, D., Carbonell-Abella, C., Reyes, C., Moreno, V., Diez-Perez, A.<a rel="Person" href="https://research.birmingham.ac.uk/en/persons/gary-collins/" class="link"><span>, Collins, G. S.</span></a>, &amp; Prieto-Alhambra, D. (2019). <a rel="ContributionToJournal" href="https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/" class="link"><span>The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis</span></a>. <a rel="Journal" href="#" class="link"><span><em>Osteoporosis International</em></span></a>, <em>30</em>(12), 2407-2415. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1007/s00198-019-05122-3" class="link"><span>https://doi.org/10.1007/s00198-019-05122-3</span></a></div>
+            </div>
+        
+            <div id="cite-author" class="tab " role="tabpanel" aria-labelledby="tab-1" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_author rendering_contributiontojournal rendering_author rendering_contributiontojournal_author">Tebé, C. ; Martínez-Laguna, D. ; Carbonell-Abella, C. et al. / <a rel="ContributionToJournal" href="https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/" class="link"><span><strong>The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality : a multi-state cohort analysis</strong></span></a>. In: <a rel="Journal" href="#" class="link"><span>Osteoporosis International</span></a>. 2019 ; Vol. 30, No. 12. pp. 2407-2415.</div>
+            </div>
+        
+            <div id="cite-BIBTEX" class="tab " role="tabpanel" aria-labelledby="tab-2" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_bibtex rendering_contributiontojournal rendering_bibtex rendering_contributiontojournal_bibtex"><div>@article{ce4ca63e3668407e892ee423357b349a,</div><div>  title     = "The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis",</div><div>  abstract  = "Summary: Type 2 diabetes mellitus (T2DM) is associated with an excess risk of fractures and overall mortality. This study compared hip fracture and post-hip fracture mortality in T2DM and non-diabetic subjects. The salient findings are that subjects in T2DM are at higher risk of dying after suffering a hip fracture. Introduction: Previous research suggests that individuals with T2DM are at an excess risk of both fractures and overall mortality, but their combined effect is unknown. Using multi-state cohort analyses, we estimate the association between T2DM and the transition to hip fracture, post-hip fracture mortality, and hip fracture–free all-cause death. Methods: Population-based cohort from Catalonia, Spain, including all individuals aged 65 to 80 years with a recorded diagnosis of T2DM on 1 January 2006; and non-T2DM matched (up to 2:1) by year of birth, gender, and primary care practice. Results: A total of 44,802 T2DM and 81,233 matched controls (53\% women, mean age 72 years old) were followed for a median of 8 years: 23,818 died without fracturing and 3317 broke a hip, of whom 838 subsequently died. Adjusted HRs for hip fracture–free mortality were 1.32 (95\% CI 1.28 to 1.37) for men and 1.72 (95\% CI 1.65 to 1.79) for women. HRs for hip fracture were 1.24 (95\% CI 1.08 to 1.43) and 1.48 (95\% CI 1.36 to 1.60), whilst HRs for post-hip fracture mortality were 1.28 (95\% CI 1.02 to 1.60) and 1.57 (95\% CI 1.31 to 1.88) in men and women, respectively. Conclusion: T2DM individuals are at increased risk of hip fracture, post-hip fracture mortality, and hip fracture–free death. After adjustment, T2DM men were at a 28\% higher risk of dying after suffering a hip fracture and women had 57\% excess risk of post-hip fracture mortality.",</div><div>  keywords  = "Fracture risk assessment, Multi-state models, Osteoporosis, Population-based cohort, Type 2 diabetes mellitus",</div><div>  author    = "C. Teb{\'e} and D. Mart{\'i}nez-Laguna and C. Carbonell-Abella and C. Reyes and V. Moreno and A. Diez-Perez and Collins, \{G. S.\} and D. Prieto-Alhambra",</div><div>  note      = "Publisher Copyright: {\textcopyright} 2019, International Osteoporosis Foundation and National Osteoporosis Foundation.",</div><div>  year      = "2019",</div><div>  month     = dec,</div><div>  day       = "1",</div><div>  doi       = "10.1007/s00198-019-05122-3",</div><div>  language  = "English",</div><div>  volume    = "30",</div><div>  pages     = "2407--2415",</div><div>  journal   = "Osteoporosis International",</div><div>  issn      = "0937-941X",</div><div>  publisher = "Springer",</div><div>  number    = "12",</div><p>}</p></div>
+            </div>
+        
+            <div id="cite-harvard" class="tab " role="tabpanel" aria-labelledby="tab-3" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_harvard rendering_contributiontojournal rendering_harvard rendering_contributiontojournal_harvard">Tebé, C, Martínez-Laguna, D, Carbonell-Abella, C, Reyes, C, Moreno, V, Diez-Perez, A<a rel="Person" href="https://research.birmingham.ac.uk/en/persons/gary-collins/" class="link"><span>, Collins, GS</span></a> &amp; Prieto-Alhambra, D 2019, '<a rel="ContributionToJournal" href="https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/" class="link harvard_title"><span>The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis</span></a>', <a rel="Journal" href="#" class="link"><span><em>Osteoporosis International</em></span></a>, vol. 30, no. 12, pp. 2407-2415. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1007/s00198-019-05122-3" class="link"><span>https://doi.org/10.1007/s00198-019-05122-3</span></a></div>
+            </div>
+        
+            <div id="cite-standard" class="tab " role="tabpanel" aria-labelledby="tab-4" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_standard rendering_contributiontojournal rendering_standard rendering_contributiontojournal_standard"><a rel="ContributionToJournal" href="https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/" class="link"><span><strong>The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis.</strong></span></a> / Tebé, C.; Martínez-Laguna, D.; Carbonell-Abella, C. et al. <br />In: <a rel="Journal" href="#" class="link"><span>Osteoporosis International</span></a>, Vol. 30, No. 12, 01.12.2019, p. 2407-2415.<p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+            </div>
+        
+            <div id="cite-RIS" class="tab " role="tabpanel" aria-labelledby="tab-5" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_ris rendering_contributiontojournal rendering_ris rendering_contributiontojournal_ris"><p>TY  - JOUR</p><p>T1  - The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality</p><p>T2  - a multi-state cohort analysis</p><p>AU  - Tebé, C.</p><p>AU  - Martínez-Laguna, D.</p><p>AU  - Carbonell-Abella, C.</p><p>AU  - Reyes, C.</p><p>AU  - Moreno, V.</p><p>AU  - Diez-Perez, A.</p><p>AU  - Collins, G. S.</p><p>AU  - Prieto-Alhambra, D.</p><p>N1  - Publisher Copyright:
+© 2019, International Osteoporosis Foundation and National Osteoporosis Foundation.</p><p>PY  - 2019/12/1</p><p>Y1  - 2019/12/1</p><p>N2  - Summary: Type 2 diabetes mellitus (T2DM) is associated with an excess risk of fractures and overall mortality. This study compared hip fracture and post-hip fracture mortality in T2DM and non-diabetic subjects. The salient findings are that subjects in T2DM are at higher risk of dying after suffering a hip fracture. Introduction: Previous research suggests that individuals with T2DM are at an excess risk of both fractures and overall mortality, but their combined effect is unknown. Using multi-state cohort analyses, we estimate the association between T2DM and the transition to hip fracture, post-hip fracture mortality, and hip fracture–free all-cause death. Methods: Population-based cohort from Catalonia, Spain, including all individuals aged 65 to 80 years with a recorded diagnosis of T2DM on 1 January 2006; and non-T2DM matched (up to 2:1) by year of birth, gender, and primary care practice. Results: A total of 44,802 T2DM and 81,233 matched controls (53% women, mean age 72 years old) were followed for a median of 8 years: 23,818 died without fracturing and 3317 broke a hip, of whom 838 subsequently died. Adjusted HRs for hip fracture–free mortality were 1.32 (95% CI 1.28 to 1.37) for men and 1.72 (95% CI 1.65 to 1.79) for women. HRs for hip fracture were 1.24 (95% CI 1.08 to 1.43) and 1.48 (95% CI 1.36 to 1.60), whilst HRs for post-hip fracture mortality were 1.28 (95% CI 1.02 to 1.60) and 1.57 (95% CI 1.31 to 1.88) in men and women, respectively. Conclusion: T2DM individuals are at increased risk of hip fracture, post-hip fracture mortality, and hip fracture–free death. After adjustment, T2DM men were at a 28% higher risk of dying after suffering a hip fracture and women had 57% excess risk of post-hip fracture mortality.</p><p>AB  - Summary: Type 2 diabetes mellitus (T2DM) is associated with an excess risk of fractures and overall mortality. This study compared hip fracture and post-hip fracture mortality in T2DM and non-diabetic subjects. The salient findings are that subjects in T2DM are at higher risk of dying after suffering a hip fracture. Introduction: Previous research suggests that individuals with T2DM are at an excess risk of both fractures and overall mortality, but their combined effect is unknown. Using multi-state cohort analyses, we estimate the association between T2DM and the transition to hip fracture, post-hip fracture mortality, and hip fracture–free all-cause death. Methods: Population-based cohort from Catalonia, Spain, including all individuals aged 65 to 80 years with a recorded diagnosis of T2DM on 1 January 2006; and non-T2DM matched (up to 2:1) by year of birth, gender, and primary care practice. Results: A total of 44,802 T2DM and 81,233 matched controls (53% women, mean age 72 years old) were followed for a median of 8 years: 23,818 died without fracturing and 3317 broke a hip, of whom 838 subsequently died. Adjusted HRs for hip fracture–free mortality were 1.32 (95% CI 1.28 to 1.37) for men and 1.72 (95% CI 1.65 to 1.79) for women. HRs for hip fracture were 1.24 (95% CI 1.08 to 1.43) and 1.48 (95% CI 1.36 to 1.60), whilst HRs for post-hip fracture mortality were 1.28 (95% CI 1.02 to 1.60) and 1.57 (95% CI 1.31 to 1.88) in men and women, respectively. Conclusion: T2DM individuals are at increased risk of hip fracture, post-hip fracture mortality, and hip fracture–free death. After adjustment, T2DM men were at a 28% higher risk of dying after suffering a hip fracture and women had 57% excess risk of post-hip fracture mortality.</p><p>KW  - Fracture risk assessment</p><p>KW  - Multi-state models</p><p>KW  - Osteoporosis</p><p>KW  - Population-based cohort</p><p>KW  - Type 2 diabetes mellitus</p><p>UR  - https://www.scopus.com/pages/publications/85071555057</p><p>U2  - 10.1007/s00198-019-05122-3</p><p>DO  - 10.1007/s00198-019-05122-3</p><p>M3  - Article</p><p>C2  - 31444526</p><p>AN  - SCOPUS:85071555057</p><p>SN  - 0937-941X</p><p>VL  - 30</p><p>SP  - 2407</p><p>EP  - 2415</p><p>JO  - Osteoporosis International</p><p>JF  - Osteoporosis International</p><p>IS  - 12</p><p>ER  - </p></div>
+            </div>
+        
+            <div id="cite-vancouver" class="tab " role="tabpanel" aria-labelledby="tab-6" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_vancouver rendering_contributiontojournal rendering_vancouver rendering_contributiontojournal_vancouver">Tebé C, Martínez-Laguna D, Carbonell-Abella C, Reyes C, Moreno V, Diez-Perez A et al. <span class="title"><a rel="ContributionToJournal" href="https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/" class="link"><span>The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: <span class="subtitle">a multi-state cohort analysis</span></span></a></span>. <a rel="Journal" href="#" class="link"><span>Osteoporosis International</span></a>. 2019 Dec 1;30(12):2407-2415. doi: 10.1007/s00198-019-05122-3</div>
+            </div>
+        
+
+        <script>
+            $(function() {
+                $(".tab-container .rendering a:not([href^='http://dx.doi.org'])").contents().unwrap();
+            });
+        </script>
+    </div>
+</section>
+
+            </div>
+        </section>
+        <script>
+    $(function () {
+        if($('.publication-sidebar').length > 0){
+            if($('a.document-link').length === 0){
+                $(".metrics-top").addClass("one");
+                $('div.metrics-downloads').remove();
+            }
+        }
+    });
+
+    function plumXError(e) {
+        $(e).closest('.metric-plum-x').closest('.metrics-bottom').addClass('one');
+        $(e).closest('.metric-plum-x').remove();
+    }
+    $('div.altmetric-embed').on('altmetric:hide', function () {
+        $(this).closest('.metric-altmetric').closest('.metrics-bottom').addClass('one');
+        $(this).closest('.metric-altmetric').remove();
+    });
+</script>
+        
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+        
+        
+        
+    
+
+    <div class="share-box">
+        <ul>
+            <li class="icon-share"></li>
+            <li><a aria-label="Share on Facebook"
+                   href="https://www.facebook.com/sharer.php?u=https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1007%2Fs00198-019-05122-3&p[summary]=Check+out+this+research+output+at+University+of+Birmingham%3A+The+association+between+type+2+diabetes+mellitus%2C+hip+fracture%2C+and+post-hip+fracture+mortality%3A+a+multi-state+cohort+analysis"
+                   class="icon-facebook"
+                   onclick="window.location.origin('https://www.facebook.com/sharer.php?u=https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1007%2Fs00198-019-05122-3&p[summary]=Check+out+this+research+output+at+University+of+Birmingham%3A+The+association+between+type+2+diabetes+mellitus%2C+hip+fracture%2C+and+post-hip+fracture+mortality%3A+a+multi-state+cohort+analysis', 'Facebook', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" target="popup"></a></li>
+            <li><a aria-label="Share on Twitter"
+                   href="https://twitter.com/intent/tweet?url=https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1007%2Fs00198-019-05122-3&text=Check+out+this+research+output+at+University+of+Birmingham%3A+The+association+between+type+2+diabetes+mellitus%2C+hip+fracture%2C+and+post-hip+fracture+mortality%3A+a+multi-state+cohort+analysis"
+                   onclick="window.location.origin('https://twitter.com/intent/tweet?url=https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1007%2Fs00198-019-05122-3&text=Check+out+this+research+output+at+University+of+Birmingham%3A+The+association+between+type+2+diabetes+mellitus%2C+hip+fracture%2C+and+post-hip+fracture+mortality%3A+a+multi-state+cohort+analysis doi%3A10.1007%2Fs00198-019-05122-3', 'Twitter', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="twitter" target="popup"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 300 271">
+                    
+                    <path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z"></path>
+                </svg></a></li>
+            <li><a aria-label="Share on LinkedIn"
+                   href="https://www.linkedin.com/shareArticle?mini=true&url=https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1007%2Fs00198-019-05122-3&summary=Check+out+this+research+output+at+University+of+Birmingham%3A+The+association+between+type+2+diabetes+mellitus%2C+hip+fracture%2C+and+post-hip+fracture+mortality%3A+a+multi-state+cohort+analysis"
+                   onclick="window.location.origin('https://www.linkedin.com/shareArticle?mini=true&url=https://research.birmingham.ac.uk/en/publications/the-association-between-type-2-diabetes-mellitus-hip-fracture-and/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink%26doi%3D10.1007%2Fs00198-019-05122-3&summary=Check+out+this+research+output+at+University+of+Birmingham%3A+The+association+between+type+2+diabetes+mellitus%2C+hip+fracture%2C+and+post-hip+fracture+mortality%3A+a+multi-state+cohort+analysis doi%3A10.1007%2Fs00198-019-05122-3', 'LinkedIn', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="icon-linkedin" target="popup"></a></li>
+            <li><a aria-label="Share by email" href="/cdn-cgi/l/email-protection#1c236f697e76797f6821487479392e2c7d6f6f737f757d68757372392e2c7e79686b797972392e2c68656c79392e2c2e392e2c78757d7e7968796f392e2c717970707568696f392e5f392e2c74756c392e2c7a6e7d7f68696e79392e5f392e2c7d7278392e2c6c736f683174756c392e2c7a6e7d7f68696e79392e2c71736e687d70756865392f5d392e2c7d392e2c7169706875316f687d6879392e2c7f7374736e68392e2c7d727d70656f756f3a7e737865215f74797f77392e2c736968392e2c6874756f392e2c6e796f797d6e7f74392e2c7369686c6968392e2c7d68392e2c4972756a796e6f756865392e2c737a392e2c5e756e7175727b747d71392f5d392e2c487479392e2c7d6f6f737f757d68757372392e2c7e79686b797972392e2c68656c79392e2c2e392e2c78757d7e7968796f392e2c717970707568696f392e5f392e2c74756c392e2c7a6e7d7f68696e79392e5f392e2c7d7278392e2c6c736f683174756c392e2c7a6e7d7f68696e79392e2c71736e687d70756865392f5d392e2c7d392e2c7169706875316f687d6879392e2c7f7374736e68392e2c7d727d70656f756f3c603c7468686c6f2633336e796f797d6e7f74327e756e7175727b747d71327d7f326977337972336c697e70757f7d687573726f33687479317d6f6f737f757d68757372317e79686b7979723168656c79312e3178757d7e7968796f31717970707568696f3174756c317a6e7d7f68696e79317d72783323696871436f73696e7f792179717d75703a7d716c27696871437179787569712179717d75703a7d716c27696871437f7d716c7d757b72216f747d6e7970757277" class="icon-email"></a></li>
+        </ul>
+    </div>
+
+
+
+
+    
+        </div>
+    </div>
+
+    <div id="new-modal-overlay"></div>
+    
+    </main>
+
+    <footer id="page-footer" class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="content-navigation three-third">
+                    <div dir="ltr" class="footer-columns">
+                        
+                        <div class="footer-column">
+                            <p>
+                                Powered by <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure" target="_blank">Pure <span class="sr-only">Link opens in a new tab</span></a>, <a href="http://www.scopus.com/" target="_blank">Scopus <span class="sr-only">Link opens in a new tab</span></a> & <a href="https://www.elsevier.com/products/elsevier-fingerprint-engine" target="_blank">Elsevier Fingerprint Engine&trade; <span class="sr-only">Link opens in a new tab</span></a> 
+                            </p>
+
+                            <p>
+                                All content on this site: Copyright &copy; 2026 University of Birmingham, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+                            </p>
+
+                            <p>We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the <a href="/en/about/cookies/">use of cookies</a></p>
+                            <p><button id="ot-sdk-btn" class="ot-sdk-show-settings"></button></p>
+                            
+                                <p><a href="https://pure.bham.ac.uk/admin/workspace.xhtml" rel="nofollow" target="_blank">Log in to Pure <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            <p></p>
+                        </div>
+
+                        <div class="footer-column">
+                            
+                                <p><a href="https://www.birmingham.ac.uk/privacy/index.aspx" target="_blank">University of Birmingham data protection policy <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            
+                            
+                                <p><a href="/en/web-accessibility/" rel="nofollow" target="_blank">About web accessibility <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                <a href="https://elsevier.responsibledisclosure.com/hc/en-us/requests/new" target="_blank" rel="nofollow">Report vulnerability <span class="sr-only">&nbsp; Link opens in a new tab</span></a>
+                            </p>
+                        </div>
+
+                        
+                            <div class="footer-column">
+                                
+                                    
+                                        <p><a href="/cdn-cgi/l/email-protection#aededbdccbeecdc1c0dacfcddadd80ccc6cfc380cfcd80dbc5"> Contact us</a></p>
+                                    
+                                
+
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top">
+            <a href="#" class="back-to-top" aria-label="Go to top"><i class="icon icon-up-open"></i></a>
+        </div>
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+    
+
+    
+
+
+<script>window.appData = window.appData || [];</script><script type="text/javascript">
+try {(function() {
+appData.push({...{"page":{"businessUnit":"ELS:RP:ST","cmsName":"Pure Portal","environment":"prod","language":"en","loadTime":"198","loadTimestamp":"1775525487666","name":"pure portal:publications:view","noTracking":"false","productName":"PR","type":"CP-CA"},"visitor":{"accountId":"","accountName":"pr:University of Birmingham","ipAddress":"","accessType":"pr:ANON_GUEST","loginStatus":"anonymous"},"content":[{"id":"ce4ca63e-3668-407e-892e-e423357b349a","title":"The association between type 2 diabetes mellitus, hip fracture, and post-hip fracture mortality: a multi-state cohort analysis","recordType":"researchoutput"}]}, event: "pageLoad"});})();} catch(e) {if(console) { console.log(e) } }</script>
+<script>function trackPage(){try {(function() {
+window.appData = window.appData || [];
+})();} catch(e) {if(console) { console.log(e) } }}</script>
+
+</body>
+</html>
+

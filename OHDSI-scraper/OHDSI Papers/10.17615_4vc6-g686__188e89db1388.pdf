@@ -1,0 +1,753 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="K5AJhQLS8orICEsTjoaX/+sCkhUGH2yAnDBs8tZ1iNY/WxSWwtlP6gKNHoHPy3mVE/XaCgvkVEOo9jArEgEz1Q==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="resourcesync" href="https://cdr.lib.unc.edu/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+  <meta name="twitter:card" content="product" />
+  <meta name="twitter:site" content="@SamveraRepo" />
+  <meta name="twitter:creator" content="@SamveraRepo" />
+  <meta property="og:site_name" content="Carolina Digital Repository" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content="Identifying who has long COVID in the USA: a machine learning approach using N3C data" />
+  <meta property="og:description" content="Identifying who has long COVID in the USA: a machine learning approach using N3C data" />
+  <meta property="og:image" content="http://cdr.lib.unc.edu/downloads/8910k8733" />
+  <meta property="og:url" content="https://cdr.lib.unc.edu/concern/articles/6395wn259?locale=en" />
+  <meta name="twitter:data1" content="specialty, emergency, values, USA, demographics, International Classification, code, medical information, COVID diagnosis, science, COVID-19 index date, records, rate, accuracy, COVID-19 diagnosis code, curves, health records, Cohort Collaboration, repository, XGBoost machine learning model, post-acute sequelae, COVID, recovering, clinic, patient age, care, base population, date, index date, electronic health records, health-care utilisation, patients, model, COVID-19, emergency visits, diagnosis codes, clinical trials, machine learning approach, trials, sites, translational science, Shapley value, definition, potential patients, National COVID Cohort Collaborative, antigen, diagnosis, visits, medication, individual studies, dyspnoea, longer, PCR, positive SARS-CoV-2 PCR, N3C, age, post-acute sequelae of SARS-CoV-2 infection, treatment, approach, antigen test, goal, recovery, US National Institutes, base, learning models, non-hospitalised, study of electronic health records, International, initiation, electronic health record repository, society, important features, study, characteristic curve, source, data sources, machine, importance, heterogeneous symptoms, receiver operating characteristic curve, features, National Center for Advancing Translational Sciences, long COVID, SARS-CoV-2 PCR, examined demographics, pandemic, SARS-CoV-2 infection, long-COVID clinic, affected recovery, specialty clinics, COVID-19 pandemic, symptoms, Shapley, data, days, learning approach, elements, National, collaboration, feature importance, utilisation, operating characteristics curve, information, population, record repository, adult patients, XGBoost, sequelae of SARS-CoV-2 infection, long COVID diagnosis, machine learning models, test, infection, COVID clinic, adults" />
+  <meta name="twitter:label1" content="Keywords" />
+  <meta name="twitter:data2" content="http://rightsstatements.org/vocab/InC/1.0/" />
+  <meta name="twitter:label2" content="Rights Statement" />
+
+<!-- Google Scholar metadata -->
+  <meta name="description" content="Identifying who has long COVID in the USA: a machine learning approach using N3C data" />
+  <meta name="citation_title" content="Identifying who has long COVID in the USA: a machine learning approach using N3C data" />
+
+  <meta name="citation_author" content="Pfaff, Emily R" />
+  <meta name="citation_author" content="Girvin, Andrew T" />
+  <meta name="citation_author" content="Bennett, Tellen D" />
+  <meta name="citation_author" content="Bhatia, Abhishek" />
+  <meta name="citation_author" content="Brooks, Ian M" />
+  <meta name="citation_author" content="Deer, Rachel R" />
+  <meta name="citation_author" content="Dekermanjian, Jonathan P" />
+  <meta name="citation_author" content="Jolley, Sarah Elizabeth" />
+  <meta name="citation_author" content="Kahn, Michael G" />
+  <meta name="citation_author" content="Kostka, Kristin" />
+  <meta name="citation_author" content="McMurry, Julie A" />
+  <meta name="citation_author" content="Moffitt, Richard" />
+  <meta name="citation_author" content="Walden, Anita" />
+  <meta name="citation_author" content="Chute, Christopher G" />
+  <meta name="citation_author" content="Haendel, Melissa A" />
+  <meta name="citation_author" content="The N3C Consortium" />
+
+  <meta name="citation_publication_date" content="May 16, 2022" />
+
+  <meta name="citation_pdf_url" content="http://cdr.lib.unc.edu/downloads/8910k8733" />
+
+  <meta name="citation_keywords" content="specialty; emergency; values; USA; demographics; International Classification; code; medical information; COVID diagnosis; science; COVID-19 index date; records; rate; accuracy; COVID-19 diagnosis code; curves; health records; Cohort Collaboration; repository; XGBoost machine learning model; post-acute sequelae; COVID; recovering; clinic; patient age; care; base population; date; index date; electronic health records; health-care utilisation; patients; model; COVID-19; emergency visits; diagnosis codes; clinical trials; machine learning approach; trials; sites; translational science; Shapley value; definition; potential patients; National COVID Cohort Collaborative; antigen; diagnosis; visits; medication; individual studies; dyspnoea; longer; PCR; positive SARS-CoV-2 PCR; N3C; age; post-acute sequelae of SARS-CoV-2 infection; treatment; approach; antigen test; goal; recovery; US National Institutes; base; learning models; non-hospitalised; study of electronic health records; International; initiation; electronic health record repository; society; important features; study; characteristic curve; source; data sources; machine; importance; heterogeneous symptoms; receiver operating characteristic curve; features; National Center for Advancing Translational Sciences; long COVID; SARS-CoV-2 PCR; examined demographics; pandemic; SARS-CoV-2 infection; long-COVID clinic; affected recovery; specialty clinics; COVID-19 pandemic; symptoms; Shapley; data; days; learning approach; elements; National; collaboration; feature importance; utilisation; operating characteristics curve; information; population; record repository; adult patients; XGBoost; sequelae of SARS-CoV-2 infection; long COVID diagnosis; machine learning models; test; infection; COVID clinic; adults" />
+
+  <meta name="citation_publisher" content="Elsevier" />
+
+  <meta name="citation_journal_title" content="The Lancet Digital Health" />
+
+  <meta name="citation_volume" content="4" />
+
+  <meta name="citation_issue" content="7" />
+
+  <meta name="citation_firstpage" content="e532" />
+
+  <meta name="citation_lastpage" content="e541" />
+
+
+<title>Scholarly Article or Book Chapter | Identifying who has long COVID in the USA: a machine learning approach using N3C data | ID: 6395wn259 | Carolina Digital Repository</title>
+
+<!-- application css -->
+<link rel="stylesheet" media="screen" href="/assets/application-f5458433c19f288276e296507f5a8b1bf859c69fdfe0f11e3eeeca2146c9daac.css" />
+
+<!-- application js -->
+<script src="/assets/application-6ae2502b8e709adf486c5551ad268d0b12983285567e7cb3a28fb879365780d4.js"></script>
+
+<style>
+a { color: #2e74b2; }
+.navbar-dark.bg-dark .navbar-link { color: #ffebcd; }
+
+.navbar-dark.bg-dark { background-color: #3c3c3c !important; }
+
+.navbar-dark.bg-dark .navbar-nav > .open > a,
+.navbar-dark.bg-dark .navbar-nav > .open > a:hover,
+.navbar-dark.bg-dark .navbar-nav > .open > a:focus { background-color: #3c3c3c; }
+
+.navbar-dark.bg-dark .navbar-nav > li > a,
+.navbar-dark.bg-dark .navbar-text,
+.navbar-dark.bg-dark .navbar-brand { color: #dcdcdc; }
+
+.btn-primary {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #245682;
+  border-color: #1d4467;
+}
+
+.btn-primary:hover {
+  background-color: #245682;
+  border-color: #215079;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus{
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+</style>
+
+
+    <script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  // _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.lib.unc.edu/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', "6"]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+  window.analytics = _paq;
+</script>
+<meta name="analytics-provider" content="matomo">
+
+<!-- for extras, e.g., a favicon -->
+<meta name="msvalidate.01" content="6963C16215285DFB9641BD17E441FAAE"/>
+<meta name="google-site-verification" content="WO17zKdoDATg4FxnQafjjRNowoM-TDP4hEfb_H--mdo" />
+
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon-545d11a84432819b25149c67d4e2aa95f3bee9e815f20b9bfbf105e836d70ff5.ico" />
+
+
+    
+  </head>
+
+  <body>
+    <div class="skip-to-content sr-only">
+      <a data-turbolinks="false" href="#skip-to-content">Skip to Content</a>
+    </div>
+    <header aria-label="header" class="top-header">
+  <nav id="masthead" class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between" role="navigation" aria-label="masthead">
+    <h1 class="sr-only">Carolina Digital Repository</h1>
+    <div id="logo" class="navbar-brand">
+  <span class="institution_name">
+    <a href="/"><span>University Library</span> Carolina Digital Repository</a>
+  </span>
+</div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+    <li class="nav-item">
+      <a class="nav-link" href="/sign_in?locale=en">
+        <span class="fa fa-sign-in" aria-hidden="true"></span> Login
+</a>    </li>
+</ul>
+    </div>
+  </nav>
+</header>
+
+      <nav class="navbar navbar-light bg-light navbar-expand-sm justify-content-between align-items-baseline px-2 py-2 border-bottom" role="navigation" aria-label="Root Menu">
+    <ul class="nav navbar-nav col-sm-5">
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?locale=en">Browse Everything</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog/facet/affiliation_label_sim?locale=en">Departments</a></li>
+        <li class="nav-item" data-turbolinks="false">
+          <a class="all-unc-work-types nav-link" data-behavior="select-work" data-target="#worktypes-to-create" data-create-type="single" href="#">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+            Deposit
+</a>        </li>
+    </ul><!-- /.nav -->
+    <div class="col-sm-7">
+      <form class="form-horizontal search-form" id="search-form-header" role="search" action="/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" />
+  
+  <input type="hidden" name="search_field" id="search_field" value="all_fields" autocomplete="off" />
+   <div class="form-group row">
+
+    <label class="col-sm-3 mb-0" for="search-field-header">
+      Search the Carolina Digital Repository
+    </label>
+
+    <div class="input-group col">
+      <input type="text" name="q" id="search-field-header" aria-label="Search" class="q form-control" placeholder="Enter search terms" />
+
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-primary" id="search-submit-header">
+          <span class="fa fa-search" aria-hidden="true"></span> Go
+        </button>
+      </div><!-- /.input-group-btn -->
+    </div><!-- /.input-group -->
+    
+  </div><!-- /.form-group -->
+</form>
+<a class="advanced_search" href="/catalog/advanced?">Advanced search</a>
+    </div>
+  </nav><!-- /.navbar -->
+
+
+    
+    <div id="content-wrapper" class="container-fluid" role="main">
+      
+      
+      <nav class="breadcrumb" role="navigation" aria-label="Breadcrumb"><ol><li><a href="/?locale=en">Home</a></li><li><a href="/concern/articles/6395wn259?locale=en">Identifying who has long...</a></li></ol></nav>
+
+      <a name="skip-to-content" id="skip-to-content"></a>
+      
+      
+
+
+
+
+<div class="row work-type">
+  <div class="col-sm-12">
+    <!--
+<h1 class="work-type-tag">
+  <span class="" aria-hidden="true"></span>
+</h1> -->
+  </div>
+  <div itemscope itemtype="http://schema.org/CreativeWork" class="col-12">
+    <div class="work-title-wrapper">
+      <div class="title-with-badges">
+        <h1>Identifying who has long COVID in the USA: a machine learning approach using N3C data</h1>
+        <span class="badge badge-success">Public</span>
+        <span class="state state-deposited badge badge-primary">Deposited</span>
+      </div>
+</div>
+
+    
+<div class="row show-actions button-row-top-two-column">
+  <div class="col-sm-6">
+      <a id="stats" class="btn btn-default" data-turbolinks="false" href="/works/6395wn259/stats?locale=en">Analytics</a>
+  </div>
+
+  <div class="col-sm-6 text-right">
+  </div>
+</div>
+
+<!-- COinS hook for Zotero -->
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fblacklight.rubyforge.org%3Agenerator&amp;rft.title=Identifying+who+has+long+COVID+in+the+USA%3A+a+machine+learning+approach+using+N3C+data&amp;rft.publisher=Elsevier&amp;rft.format=Article&amp;rft.identifier=PMID%3A+35589549&amp;rft.identifier=DOI%3A+https%3A%2F%2Fdx.doi.org%2F10.1016%2Fs2589-7500%2822%2900048-6&amp;rft.identifier=Dimensions+ID%3A+pub.1147908853&amp;rft.identifier=PMCID%3A+PMC9110014&amp;rft.relation=specialty&amp;rft.relation=emergency&amp;rft.relation=values&amp;rft.relation=USA&amp;rft.relation=demographics&amp;rft.relation=International+Classification&amp;rft.relation=code&amp;rft.relation=medical+information&amp;rft.relation=COVID+diagnosis&amp;rft.relation=science&amp;rft.relation=COVID-19+index+date&amp;rft.relation=records&amp;rft.relation=rate&amp;rft.relation=accuracy&amp;rft.relation=COVID-19+diagnosis+code&amp;rft.relation=curves&amp;rft.relation=health+records&amp;rft.relation=Cohort+Collaboration&amp;rft.relation=repository&amp;rft.relation=XGBoost+machine+learning+model&amp;rft.relation=post-acute+sequelae&amp;rft.relation=COVID&amp;rft.relation=recovering&amp;rft.relation=clinic&amp;rft.relation=patient+age&amp;rft.relation=care&amp;rft.relation=base+population&amp;rft.relation=date&amp;rft.relation=index+date&amp;rft.relation=electronic+health+records&amp;rft.relation=health-care+utilisation&amp;rft.relation=patients&amp;rft.relation=model&amp;rft.relation=COVID-19&amp;rft.relation=emergency+visits&amp;rft.relation=diagnosis+codes&amp;rft.relation=clinical+trials&amp;rft.relation=machine+learning+approach&amp;rft.relation=trials&amp;rft.relation=sites&amp;rft.relation=translational+science&amp;rft.relation=Shapley+value&amp;rft.relation=definition&amp;rft.relation=potential+patients&amp;rft.relation=National+COVID+Cohort+Collaborative&amp;rft.relation=antigen&amp;rft.relation=diagnosis&amp;rft.relation=visits&amp;rft.relation=medication&amp;rft.relation=individual+studies&amp;rft.relation=dyspnoea&amp;rft.relation=longer&amp;rft.relation=PCR&amp;rft.relation=positive+SARS-CoV-2+PCR&amp;rft.relation=N3C&amp;rft.relation=age&amp;rft.relation=post-acute+sequelae+of+SARS-CoV-2+infection&amp;rft.relation=treatment&amp;rft.relation=approach&amp;rft.relation=antigen+test&amp;rft.relation=goal&amp;rft.relation=recovery&amp;rft.relation=US+National+Institutes&amp;rft.relation=base&amp;rft.relation=learning+models&amp;rft.relation=non-hospitalised&amp;rft.relation=study+of+electronic+health+records&amp;rft.relation=International&amp;rft.relation=initiation&amp;rft.relation=electronic+health+record+repository&amp;rft.relation=society&amp;rft.relation=important+features&amp;rft.relation=study&amp;rft.relation=characteristic+curve&amp;rft.relation=source&amp;rft.relation=data+sources&amp;rft.relation=machine&amp;rft.relation=importance&amp;rft.relation=heterogeneous+symptoms&amp;rft.relation=receiver+operating+characteristic+curve&amp;rft.relation=features&amp;rft.relation=National+Center+for+Advancing+Translational+Sciences&amp;rft.relation=long+COVID&amp;rft.relation=SARS-CoV-2+PCR&amp;rft.relation=examined+demographics&amp;rft.relation=pandemic&amp;rft.relation=SARS-CoV-2+infection&amp;rft.relation=long-COVID+clinic&amp;rft.relation=affected+recovery&amp;rft.relation=specialty+clinics&amp;rft.relation=COVID-19+pandemic&amp;rft.relation=symptoms&amp;rft.relation=Shapley&amp;rft.relation=data&amp;rft.relation=days&amp;rft.relation=learning+approach&amp;rft.relation=elements&amp;rft.relation=National&amp;rft.relation=collaboration&amp;rft.relation=feature+importance&amp;rft.relation=utilisation&amp;rft.relation=operating+characteristics+curve&amp;rft.relation=information&amp;rft.relation=population&amp;rft.relation=record+repository&amp;rft.relation=adult+patients&amp;rft.relation=XGBoost&amp;rft.relation=sequelae+of+SARS-CoV-2+infection&amp;rft.relation=long+COVID+diagnosis&amp;rft.relation=machine+learning+models&amp;rft.relation=test&amp;rft.relation=infection&amp;rft.relation=COVID+clinic&amp;rft.relation=adults&amp;rft.license=http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-nd%2F4.0%2F"></span>
+<!-- Render Modals -->
+  <div role="dialog" class="modal collection-list-modal fade" id="collection-list-container" tabindex="-1" aria-labelledby="col_add_title">
+  <div class="modal-dialog text-left">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="col_add_title">Add to collection</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+            <em> You do not have access to any existing collections. You may create a new collection.</em><br /><br /><br /><br />
+ <!-- else -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    <div class="card">
+      <div class="card-body">
+        <div class="row metadata-view">
+          <div class="col-12">
+  <div class="workflow-actions">
+    
+  </div>
+</div>
+
+          <div class="col-sm-4 text-center">
+                    <div>
+      <h2 class="sr-only">Downloadable Content</h2>
+      <img class="representative-media" alt="" role="presentation" src="/downloads/8910k8733?file=thumbnail" />
+      <a target="_blank" id="file_download" class="btn btn-info" data-label="8910k8733" data-work-id="6395wn259" data-collection-ids="[&quot;j3860c88t&quot;,&quot;8049gh11z&quot;]" href="/downloads/8910k8733?locale=en">Download PDF</a>
+    </div>
+
+
+            <div class="citations">
+    <button class="btn btn-default" data-toggle="modal" data-target="#citations-modal">Citations</button>
+  <a class="btn btn-default access-request" href="https://blogs.lib.unc.edu/cdr/index.php/accessibility-request">
+    Request Version for Screen Reader</a>
+</div>
+
+<div class="modal fade" id="citations-modal" tabindex="-1" role="dialog" aria-labelledby="citations-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="citations-modal-title">Citation</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body unc-modal">
+        <div class="cite">
+          <h4>MLA</h4>
+          <span class="mla-citation"><span class="citation-author">Pfaff, Emily R, et al. </span><i class="citation-title">Identifying Who Has Long Covid In the Usa: a Machine Learning Approach Using N3c Data.</i> Elsevier, 2022. https://doi.org/10.17615/4vc6-g686</span>
+        </div>
+        <div class="cite">
+          <h4>APA</h4>
+          <span class="apa-citation"><span class="citation-author">Pfaff, E., Girvin, A., Bennett, T., Bhatia, A., Brooks, I., Deer, R., Dekermanjian, J., Jolley, S., Kahn, M., Kostka, K., Mc Murry, J., Moffitt, R., Walden, A., Chute, C., Haendel, M., &amp; N3 C Consortium, T.</span> (2022). <i class="citation-title">Identifying who has long COVID in the USA: a machine learning approach using N3C data.</i> Elsevier. https://doi.org/10.17615/4vc6-g686</span>
+        </div>
+        <div class="cite">
+          <h4>Chicago</h4>
+          <span class="chicago-citation"><span class="citation-author">Pfaff, Emily R, Andrew T Girvin, Tellen D Bennett, Abhishek Bhatia, Ian M Brooks, Rachel R Deer, Jonathan P Dekermanjian et al.</span> 2022. <i class="citation-title">Identifying Who Has Long Covid In the Usa: a Machine Learning Approach Using N3c Data.</i> Elsevier. https://doi.org/10.17615/4vc6-g686</span>
+        </div>
+        <ul class="list-inline">
+          <li><a href="/concern/articles/6395wn259.endnote?locale=en">EndNote</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="col-sm-8">
+            <dl class="work-show pt-3 article"  itemscope itemtype="http://schema.org/Article">
+    
+<dt>Creator</dt>
+<dd><ul class="tabular">
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Pfaff, Emily R</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-6840-9756" target="_blank">https://orcid.org/0000-0002-6840-9756</a>
+</li>
+<li>School of Medicine, Department of Medicine</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Girvin, Andrew T</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-2031-9209" target="_blank">https://orcid.org/0000-0002-2031-9209</a>
+</li>
+<li>Other Affiliation: Palantir Technologies, Denver, CO, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Bennett, Tellen D</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-1483-4236" target="_blank">https://orcid.org/0000-0003-1483-4236</a>
+</li>
+<li>Other Affiliation: Section of Informatics and Data Science, Department of Pediatrics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Bhatia, Abhishek</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-0063-368X" target="_blank">https://orcid.org/0000-0002-0063-368X</a>
+</li>
+<li>Carolina Health Informatics Program</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Brooks, Ian M</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-2724-936X" target="_blank">https://orcid.org/0000-0003-2724-936X</a>
+</li>
+<li>Other Affiliation: Colorado Center for Personalised Medicine, Division of Biomedical Informatics Personalized Medicine, Department of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Deer, Rachel R</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0001-6307-5227" target="_blank">https://orcid.org/0000-0001-6307-5227</a>
+</li>
+<li>Other Affiliation: Department of Nutrition, Metabolism, and Rehabilitation Sciences, University of Texas Medical Branch, Galveston, TX, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Dekermanjian, Jonathan P</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-0028-8804" target="_blank">https://orcid.org/0000-0002-0028-8804</a>
+</li>
+<li>Other Affiliation: Department of Biostatistics and Informatics, Colorado School of Public Health, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Jolley, Sarah Elizabeth</span><ul><li>Other Affiliation: Division of Pulmonary and Critical Care Medicine, Department of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Kahn, Michael G</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-4786-6875" target="_blank">https://orcid.org/0000-0003-4786-6875</a>
+</li>
+<li>Other Affiliation: Section of Informatics and Data Science, Department of Pediatrics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Kostka, Kristin</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-2595-8736" target="_blank">https://orcid.org/0000-0003-2595-8736</a>
+</li>
+<li>Other Affiliation: The OHDSI Center at the Roux Institute, Northeastern University, Portland, ME, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>McMurry, Julie A</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-9353-5498" target="_blank">https://orcid.org/0000-0002-9353-5498</a>
+</li>
+<li>Other Affiliation: Center for Health AI, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Moffitt, Richard</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-2723-5902" target="_blank">https://orcid.org/0000-0003-2723-5902</a>
+</li>
+<li>Other Affiliation: Department of Biomedical Informatics, Stony Brook Cancer Center, Stony Brook University, Stony Brook, NY, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Walden, Anita</span><ul><li>Other Affiliation: Center for Health AI, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Chute, Christopher G</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0001-5437-2545" target="_blank">https://orcid.org/0000-0001-5437-2545</a>
+</li>
+<li>Other Affiliation: Section of Biomedical Informatics and Data Science, Johns Hopkins University, Baltimore, MD, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Haendel, Melissa A</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0001-9114-8737" target="_blank">https://orcid.org/0000-0001-9114-8737</a>
+</li>
+<li>Other Affiliation: Center for Health AI, University of Colorado Anschutz Medical Campus, Aurora, CO, USA</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display"><span>The N3C Consortium</span></li>
+</ul></dd>
+
+<dt>Abstract</dt>
+<dd><ul class='tabular'><li class="attribute attribute-abstract"><span itemprop="description"><p>BACKGROUND: Post-acute sequelae of SARS-CoV-2 infection, known as long COVID, have severely affected recovery from the COVID-19 pandemic for patients and society alike. Long COVID is characterised by evolving, heterogeneous symptoms, making it challenging to derive an unambiguous definition. Studies of electronic health records are a crucial element of the US National Institutes of Health's RECOVER Initiative, which is addressing the urgent need to understand long COVID, identify treatments, and accurately identify who has it-the latter is the aim of this study. METHODS: Using the National COVID Cohort Collaborative's (N3C) electronic health record repository, we developed XGBoost machine learning models to identify potential patients with long COVID. We defined our base population (n=1 793 604) as any non-deceased adult patient (age ≥18 years) with either an International Classification of Diseases-10-Clinical Modification COVID-19 diagnosis code (U07.1) from an inpatient or emergency visit, or a positive SARS-CoV-2 PCR or antigen test, and for whom at least 90 days have passed since COVID-19 index date. We examined demographics, health-care utilisation, diagnoses, and medications for 97 995 adults with COVID-19. We used data on these features and 597 patients from a long COVID clinic to train three machine learning models to identify potential long COVID among all patients with COVID-19, patients hospitalised with COVID-19, and patients who had COVID-19 but were not hospitalised. Feature importance was determined via Shapley values. We further validated the models on data from a fourth site. FINDINGS: Our models identified, with high accuracy, patients who potentially have long COVID, achieving areas under the receiver operator characteristic curve of 0·92 (all patients), 0·90 (hospitalised), and 0·85 (non-hospitalised). Important features, as defined by Shapley values, include rate of health-care utilisation, patient age, dyspnoea, and other diagnosis and medication information available within the electronic health record. INTERPRETATION: Patients identified by our models as potentially having long COVID can be interpreted as patients warranting care at a specialty clinic for long COVID, which is an essential proxy for long COVID diagnosis as its definition continues to evolve. We also achieve the urgent goal of identifying potential long COVID in patients for clinical trials. As more data sources are identified, our models can be retrained and tuned based on the needs of individual studies. FUNDING: US National Institutes of Health and National Center for Advancing Translational Sciences through the RECOVER Initiative.</p></span></li></ul></dd>
+<dt>Date of publication</dt>
+<dd><ul class='tabular'><li class="attribute attribute-date_issued"><span itemprop="datePublished">May 16, 2022</span></li></ul></dd>
+<dt>Keyword</dt>
+<dd><ul class='tabular'><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=specialty&amp;locale=en">specialty</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=emergency&amp;locale=en">emergency</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=values&amp;locale=en">values</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=USA&amp;locale=en">USA</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=demographics&amp;locale=en">demographics</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=International+Classification&amp;locale=en">International Classification</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=code&amp;locale=en">code</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=medical+information&amp;locale=en">medical information</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID+diagnosis&amp;locale=en">COVID diagnosis</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=science&amp;locale=en">science</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID-19+index+date&amp;locale=en">COVID-19 index date</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=records&amp;locale=en">records</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=rate&amp;locale=en">rate</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=accuracy&amp;locale=en">accuracy</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID-19+diagnosis+code&amp;locale=en">COVID-19 diagnosis code</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=curves&amp;locale=en">curves</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=health+records&amp;locale=en">health records</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Cohort+Collaboration&amp;locale=en">Cohort Collaboration</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=repository&amp;locale=en">repository</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=XGBoost+machine+learning+model&amp;locale=en">XGBoost machine learning model</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=post-acute+sequelae&amp;locale=en">post-acute sequelae</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID&amp;locale=en">COVID</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=recovering&amp;locale=en">recovering</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=clinic&amp;locale=en">clinic</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=patient+age&amp;locale=en">patient age</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=care&amp;locale=en">care</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=base+population&amp;locale=en">base population</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=date&amp;locale=en">date</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=index+date&amp;locale=en">index date</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=electronic+health+records&amp;locale=en">electronic health records</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=health-care+utilisation&amp;locale=en">health-care utilisation</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=patients&amp;locale=en">patients</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=model&amp;locale=en">model</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID-19&amp;locale=en">COVID-19</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=emergency+visits&amp;locale=en">emergency visits</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=diagnosis+codes&amp;locale=en">diagnosis codes</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=clinical+trials&amp;locale=en">clinical trials</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=machine+learning+approach&amp;locale=en">machine learning approach</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=trials&amp;locale=en">trials</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=sites&amp;locale=en">sites</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=translational+science&amp;locale=en">translational science</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Shapley+value&amp;locale=en">Shapley value</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=definition&amp;locale=en">definition</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=potential+patients&amp;locale=en">potential patients</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=National+COVID+Cohort+Collaborative&amp;locale=en">National COVID Cohort Collaborative</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=antigen&amp;locale=en">antigen</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=diagnosis&amp;locale=en">diagnosis</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=visits&amp;locale=en">visits</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=medication&amp;locale=en">medication</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=individual+studies&amp;locale=en">individual studies</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=dyspnoea&amp;locale=en">dyspnoea</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=longer&amp;locale=en">longer</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=PCR&amp;locale=en">PCR</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=positive+SARS-CoV-2+PCR&amp;locale=en">positive SARS-CoV-2 PCR</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=N3C&amp;locale=en">N3C</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=age&amp;locale=en">age</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=post-acute+sequelae+of+SARS-CoV-2+infection&amp;locale=en">post-acute sequelae of SARS-CoV-2 infection</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=treatment&amp;locale=en">treatment</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=approach&amp;locale=en">approach</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=antigen+test&amp;locale=en">antigen test</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=goal&amp;locale=en">goal</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=recovery&amp;locale=en">recovery</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=US+National+Institutes&amp;locale=en">US National Institutes</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=base&amp;locale=en">base</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=learning+models&amp;locale=en">learning models</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=non-hospitalised&amp;locale=en">non-hospitalised</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=study+of+electronic+health+records&amp;locale=en">study of electronic health records</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=International&amp;locale=en">International</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=initiation&amp;locale=en">initiation</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=electronic+health+record+repository&amp;locale=en">electronic health record repository</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=society&amp;locale=en">society</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=important+features&amp;locale=en">important features</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=study&amp;locale=en">study</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=characteristic+curve&amp;locale=en">characteristic curve</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=source&amp;locale=en">source</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=data+sources&amp;locale=en">data sources</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=machine&amp;locale=en">machine</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=importance&amp;locale=en">importance</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=heterogeneous+symptoms&amp;locale=en">heterogeneous symptoms</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=receiver+operating+characteristic+curve&amp;locale=en">receiver operating characteristic curve</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=features&amp;locale=en">features</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=National+Center+for+Advancing+Translational+Sciences&amp;locale=en">National Center for Advancing Translational Sciences</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=long+COVID&amp;locale=en">long COVID</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=SARS-CoV-2+PCR&amp;locale=en">SARS-CoV-2 PCR</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=examined+demographics&amp;locale=en">examined demographics</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=pandemic&amp;locale=en">pandemic</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=SARS-CoV-2+infection&amp;locale=en">SARS-CoV-2 infection</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=long-COVID+clinic&amp;locale=en">long-COVID clinic</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=affected+recovery&amp;locale=en">affected recovery</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=specialty+clinics&amp;locale=en">specialty clinics</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID-19+pandemic&amp;locale=en">COVID-19 pandemic</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=symptoms&amp;locale=en">symptoms</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Shapley&amp;locale=en">Shapley</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=data&amp;locale=en">data</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=days&amp;locale=en">days</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=learning+approach&amp;locale=en">learning approach</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=elements&amp;locale=en">elements</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=National&amp;locale=en">National</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=collaboration&amp;locale=en">collaboration</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=feature+importance&amp;locale=en">feature importance</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=utilisation&amp;locale=en">utilisation</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=operating+characteristics+curve&amp;locale=en">operating characteristics curve</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=information&amp;locale=en">information</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=population&amp;locale=en">population</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=record+repository&amp;locale=en">record repository</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=adult+patients&amp;locale=en">adult patients</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=XGBoost&amp;locale=en">XGBoost</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=sequelae+of+SARS-CoV-2+infection&amp;locale=en">sequelae of SARS-CoV-2 infection</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=long+COVID+diagnosis&amp;locale=en">long COVID diagnosis</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=machine+learning+models&amp;locale=en">machine learning models</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=test&amp;locale=en">test</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=infection&amp;locale=en">infection</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=COVID+clinic&amp;locale=en">COVID clinic</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=adults&amp;locale=en">adults</a></span></li></ul></dd>
+
+<dt>DOI</dt>
+<dd><ul class='tabular'><li class="attribute attribute-doi"><span itemprop="identifier"><a href="https://doi.org/10.17615/4vc6-g686">https://doi.org/10.17615/4vc6-g686</a></span></li></ul></dd>
+<dt>Identifier</dt>
+<dd><ul class='tabular'><li class="attribute attribute-identifier">PMID: 35589549</li><li class="attribute attribute-identifier">DOI: <a href="https://dx.doi.org/10.1016/s2589-7500(22)00048-6">https://dx.doi.org/10.1016/s2589-7500(22)00048-6</a></li><li class="attribute attribute-identifier">Dimensions ID: pub.1147908853</li><li class="attribute attribute-identifier">PMCID: PMC9110014</li></ul></dd>
+
+<dt>Resource type</dt>
+<dd><ul class='tabular'><li class="attribute attribute-resource_type">Article</li></ul></dd>
+<dt>Rights statement</dt>
+<dd><ul class='tabular'><li class="attribute attribute-rights_statement_label">In Copyright</li></ul></dd>
+
+<dt>License</dt>
+<dd><ul class='tabular'><li itemprop="license" itemscope itemtype="http://schema.org/URL" class="attribute attribute-license_label"><span itemprop="true">Attribution-NonCommercial-NoDerivs 4.0 International</span></li></ul></dd>
+<dt>Journal title</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_title">The Lancet Digital Health</li></ul></dd>
+<dt>Journal volume</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_volume">4</li></ul></dd>
+<dt>Journal issue</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_issue">7</li></ul></dd>
+<dt>Page start</dt>
+<dd><ul class='tabular'><li class="attribute attribute-page_start">e532</li></ul></dd>
+<dt>Page end</dt>
+<dd><ul class='tabular'><li class="attribute attribute-page_end">e541</li></ul></dd>
+
+<dt>Version</dt>
+<dd><ul class='tabular'><li class="attribute attribute-edition">Publisher</li></ul></dd>
+
+<dt>Funder</dt>
+<dd><ul class='tabular'><li class="attribute attribute-funder">National Heart Lung and Blood Institute</li><li class="attribute attribute-funder">National Center for Advancing Translational Sciences</li><li class="attribute attribute-funder">Patient-Centered Outcomes Research Institute</li></ul></dd>
+
+<dt>ISSN</dt>
+<dd><ul class='tabular'><li class="attribute attribute-issn">2589-7500</li></ul></dd>
+
+
+
+
+
+
+
+
+<dt>Publisher</dt>
+<dd><ul class='tabular'><li itemprop="publisher" itemscope itemtype="http://schema.org/Organization" class="attribute attribute-publisher"><span itemprop="name">Elsevier</span></li></ul></dd>
+
+
+  
+
+    
+    
+ </dl>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- /card -->
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Relations</h2>
+      </div>
+      <div class="card-body">
+        <dl class="work-show">
+
+
+
+<dt> Parents: </dt>
+  <p>This work has no parents.</p>
+
+
+    <dt> In Collection: </dt>
+<dd>
+      <ul class="tabular">
+          <li class='attribute attribute-title'>
+            <a href="/collections/8049gh11z?locale=en">UNC-Chapel Hill Artificial Intelligence Resources</a>
+          </li>
+          <li class='attribute attribute-title'>
+            <a href="/collections/j3860c88t?locale=en">UNC-Chapel Hill Coronavirus Research</a>
+          </li>
+      </ul>
+  </dd>
+
+
+
+</dl>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Items</h2>
+      </div>
+      <div class="card-body">
+            <table class="table table-striped related-files">
+      <thead>
+      <tr>
+        <th>Thumbnail</th>
+        <th>Title</th>
+        <th>Date Uploaded</th>
+        <th>Visibility</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="file_set attributes">
+  <td class="thumbnail">
+    <a href="/concern/file_sets/8910k8733?locale=en"><img alt="file details" src="/downloads/8910k8733?file=thumbnail" /></a>
+  </td>
+  <td class="attribute attribute-filename ensure-wrapped"><a href="/concern/parent/6395wn259/file_sets/8910k8733">35589549.pdf</a></td>
+  <td class="attribute attribute-date_uploaded">2025-04-07</td>
+  <td class="attribute attribute-permission"><span class="badge badge-success">Public</span></td>
+  <td>
+        <a class="btn btn-secondary btn-sm" title="Download 35589549.pdf" target="_blank" id="file_download" data-label="8910k8733" data-work-id="6395wn259" data-collection-ids="[&quot;j3860c88t&quot;,&quot;8049gh11z&quot;]" href="/downloads/8910k8733?locale=en">Download</a>
+
+
+  </td>
+</tr>
+      </tbody>
+    </table>
+    <div class="row">
+    </div>
+
+      </div>
+    </div>
+
+
+<span class='hide analytics-event' data-category="work" data-action="work-view" data-name="6395wn259" >
+  <span class='hide analytics-event' data-category="work-in-collection" data-action="work-in-collection-view" data-name="j3860c88t" >
+  <span class='hide analytics-event' data-category="work-in-collection" data-action="work-in-collection-view" data-name="8049gh11z" >
+
+  </div>
+</div>
+
+    </div><!-- /#content-wrapper -->
+    <footer id="unc-footer" class="navbar navbar-dark bg-dark site-footer">
+    <div class="navbar-text text-center">
+      <div class="text-center">
+        <div>
+          <ul class="navbar-nav list-unstyled">
+            <li><a href="/"><span class="translation_missing" title="translation missing: en.hyrax.links.home">Home</span></a></li>
+            <li><a href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+            <li><a href="https://library.unc.edu">Library Home</a></li>
+            <li><a href="https://library.unc.edu/policies/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://digitalaccess.unc.edu/report">Accessibility</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="unc-version-footer" class="list-unstyled">
+            <li title="7bb27bdd3f73151edaf47603fa366dfd992427f0"><a href="https://github.com/UNC-Libraries/hy-c">Hy-C v3.4.1</a></li>
+            <li>Deployed on March 30, 2026</li>
+            <li><a href="https://hyrax.samvera.org/">Hyrax version 4.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+<div class="modal worktypes fade" id="worktypes-to-create" tabindex="-1" role="dialog" aria-labelledby="select-worktype-label">
+  <div class="modal-dialog" role="document">
+    <form class="modal-content new-work-select">
+      <div class="modal-header">
+        <h2 class="modal-title" id="select-worktype-label">Select type of work</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <fieldset>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="MastersPaper"
+                         data-single="/masters_papers/department?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=MastersPaper">
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Master&#39;s Papers</h3>
+                    <p>Deposit your masters paper, project or other capstone work.  Theses will be sent to the CDR automatically via ProQuest and do not need to be deposited.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Article"
+                         data-single="/concern/articles/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Article" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Articles and Book Chapters</h3>
+                    <p>Deposit a peer-reviewed article or book chapter.  If you would like to deposit a poster, presentation, conference paper or white paper, use the “Scholarly Works” deposit form.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="HonorsThesis"
+                         data-single="/concern/honors_theses/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=HonorsThesis" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Undergraduate Honors Theses</h3>
+                    <p>Deposit your senior honors thesis.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Journal"
+                         data-single="/concern/journals/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Journal" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Journal, Newsletter or Book</h3>
+                    <p>Deposit a complete issue of a scholarly journal, newsletter or book.  If you would like to deposit an article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="DataSet"
+                         data-single="/concern/data_sets/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=DataSet" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Datasets</h3>
+                    <p>Deposit your dataset.  Datasets may be associated with an article or deposited separately.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Multimed"
+                         data-single="/concern/multimeds/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Multimed" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Multimedia</h3>
+                    <p>Deposit your 3D objects, audio, images or video.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="ScholarlyWork"
+                         data-single="/concern/scholarly_works/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=ScholarlyWork" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Poster, Presentation, Protocol or Paper</h3>
+                    <p>Deposit scholarly works such as posters, presentations, research protocols, conference papers or white papers. If you would like to deposit a peer-reviewed article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+        </fieldset>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <input type="submit" class="btn btn-primary" value="Create work" />
+      </div>
+    </form>
+  </div>
+</div>
+
+
+    <div id="blacklight-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-turbo="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript" id="unc-ub-script" defer data-color="dark-gray" src="https://unc.edu/web-assets/utility-bar/utility-bar.min.js"></script>
+    <script type="text/javascript">
+        // UNC toolbar script doesn't work well with Rails turbo.
+        // So we have to load the script in the body so it executes.
+        // We also have to remove any current toolbars to avoid duplicate toolbars
+        (() => {
+            const UNC_TOOLBAR_SELECTOR = "#unc-utility-bar"; // The id added by the script
+            let currentUncToolbarElements = document.querySelectorAll(UNC_TOOLBAR_SELECTOR);
+            for (let i = 0; i < currentUncToolbarElements.length; i++) {
+                currentUncToolbarElements[i].parentNode.removeChild(currentUncToolbarElements[i]);
+            }
+        })();
+    </script>
+  </body>
+</html>

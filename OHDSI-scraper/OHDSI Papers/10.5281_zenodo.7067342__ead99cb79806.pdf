@@ -1,0 +1,2723 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s"/>
+    <meta name="google-site-verification" content="Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4"/>
+
+    
+    
+    <meta name="generator" content="InvenioRDM 14.0"/>
+
+    
+    
+    
+  
+    <meta name="description" content="Common data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing." />
+    <meta name="citation_title" content="Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality" />
+    <meta name="citation_author" content="Callahan, Tiffany J" />
+    <meta name="citation_author" content="Stefanski, Adrianne L" />
+    <meta name="citation_author" content="Wyrwa, Jordan M" />
+    <meta name="citation_author" content="Zeng, Chenjie" />
+    <meta name="citation_author" content="Ostropolets, Anna" />
+    <meta name="citation_author" content="Banda, Juan M" />
+    <meta name="citation_author" content="Baumgartner Jr, William A" />
+    <meta name="citation_author" content="Boyce, Richard D" />
+    <meta name="citation_author" content="Casiraghi, Elena" />
+    <meta name="citation_author" content="Coleman, B" />
+    <meta name="citation_author" content="Collins, Janine H" />
+    <meta name="citation_author" content="Deakyne Davies, Sara J" />
+    <meta name="citation_author" content="Feinstein, James A" />
+    <meta name="citation_author" content="Haendel, Melissa A" />
+    <meta name="citation_author" content="Lin, Asiyah Y" />
+    <meta name="citation_author" content="Martin, Blake" />
+    <meta name="citation_author" content="Matentzoglu, Nico" />
+    <meta name="citation_author" content="Meeker, Daniella" />
+    <meta name="citation_author" content="Reese, Justin" />
+    <meta name="citation_author" content="Sinclair, Jessica" />
+    <meta name="citation_author" content="Taneja, Sanya B" />
+    <meta name="citation_author" content="Trinkley, Katy E" />
+    <meta name="citation_author" content="Vasilevsky, Nicole A" />
+    <meta name="citation_author" content="Williams, Andrew" />
+    <meta name="citation_author" content="Zhang, Xingman A" />
+    <meta name="citation_author" content="Robinson, Peter N" />
+    <meta name="citation_author" content="Ryan, Patrick B" />
+    <meta name="citation_author" content="Hripcsak, George" />
+    <meta name="citation_author" content="Bennett, Tellen D" />
+    <meta name="citation_author" content="Hunter, Lawrence E" />
+    <meta name="citation_author" content="Kahn, Michael G" />
+    <meta name="citation_doi" content="10.5281/zenodo.7067342" />
+    <meta name="citation_keywords" content="OMOP" />
+    <meta name="citation_keywords" content="Open Biomedical Ontologies" />
+    <meta name="citation_keywords" content="Semantic Alignment" />
+    <meta name="citation_keywords" content="Interoperability" />
+    <meta name="citation_keywords" content="Mappings" />
+    <meta name="citation_abstract_html_url" content="https://zenodo.org/records/7067342" />
+    <meta property="og:title" content="Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality" />
+    <meta property="og:description" content="Common data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing." />
+    <meta property="og:url" content="https://zenodo.org/records/7067342" />
+    <meta property="og:site_name" content="Zenodo" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@zenodo_org" />
+    <meta name="twitter:title" content="Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality" />
+    <meta name="twitter:description" content="Common data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing." />
+    
+      <meta name="citation_pdf_url" content="https://zenodo.org/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf"/>
+    <link rel="alternate" type="application/pdf" href="https://zenodo.org/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf">
+    <link rel="item" type="application/pdf" href="https://zenodo.org/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf">
+    
+      <meta name="citation_pdf_url" content="https://zenodo.org/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf"/>
+    <link rel="alternate" type="application/pdf" href="https://zenodo.org/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf">
+    <link rel="item" type="application/pdf" href="https://zenodo.org/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf">
+    
+    <link rel="alternate" type="image/png" href="https://zenodo.org/records/7067342/files/OMOP2OBO_Overview_Figure.png">
+    <link rel="item" type="image/png" href="https://zenodo.org/records/7067342/files/OMOP2OBO_Overview_Figure.png">
+
+
+<link rel="canonical" href="https://zenodo.org/records/7067342">
+      <title>Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality</title>
+      <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+          <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-touch-icon-120.png"/>
+          <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-touch-icon-152.png"/>
+          <link rel="apple-touch-icon" sizes="167x167" href="/static/apple-touch-icon-167.png"/>
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon-180.png"/>
+    
+      <link rel="stylesheet" href="/static/dist/css/3526.7651b58ff2a6f2fc884a.css" />
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  <body data-invenio-config='{"isMathJaxEnabled": "//cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML"}'  itemscope itemtype="http://schema.org/WebPage" data-spy="scroll" data-target=".scrollspy-target">
+      <a id="skip-to-main" class="ui button primary ml-5 mt-5 skip-link" href="#main">Skip to main</a>
+      <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+    
+
+<div>
+  <header class="theme header">
+
+    <div class="outer-navbar">
+      <div class="ui container invenio-header-container">
+        <nav id="invenio-nav" class="ui inverted menu borderless p-0">
+          <div class="item logo p-0">
+                    <a class="logo-link" href="/">
+                      <img class="ui image rdm-logo"
+                            src="/static/images/invenio-rdm.svg"
+                            alt="Zenodo home"/>
+                    </a>
+          </div>
+
+          <div id="rdm-burger-toggle">
+            <button
+              id="rdm-burger-menu-icon"
+              class="ui button transparent"
+              aria-label="Menu"
+              aria-haspopup="menu"
+              aria-expanded="false"
+              aria-controls="invenio-menu"
+            >
+              <span class="navicon" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <nav
+            id="invenio-menu"
+            aria-labelledby="rdm-burger-menu-icon"
+            class="ui fluid menu borderless mobile-hidden"
+          >
+            <button
+              id="rdm-close-burger-menu-icon"
+              class="ui button transparent"
+              aria-label="Close menu"
+            >
+              <span class="navicon" aria-hidden="true"></span>
+            </button>
+    
+        
+          
+        
+    
+      <div class="item p-0 search-bar">
+        <div id="header-search-bar" data-options='[{"key": "communities", "text": "In this community", "value": "/communities/omop2obo/records"}, {"key": "records", "text": "All Zenodo", "value": "/search"}]'>
+          <div class="ui fluid search">
+            <div class="ui icon input">
+              <input
+                autocomplete="off"
+                aria-label="Search records"
+                placeholder="Search records..."
+                type="text"
+                tabindex="0"
+                class="prompt"
+                value=""
+              >
+              <i aria-hidden="true" class="search icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                  <div class="item">
+                    <a href="/communities">Communities</a>
+                  </div>
+
+              
+                <div class="item">
+                  <a href="/me/uploads">My dashboard</a>
+                </div>
+              
+              <div class="right menu item">
+    <form>
+      <a
+        href="/login/?next=/records/7067342"
+        class="ui button auth-button" aria-busy="false" aria-live="polite" aria-label="Log in"
+      >
+        <i class="sign-in icon auth-icon" aria-hidden="true"></i>
+        Log in
+      </a>
+      
+        <a href="/signup/" class="ui button signup">
+          <i class="edit outline icon"></i>
+          Sign up
+        </a>
+      
+    </form>
+              </div>
+          </nav>
+        </nav>
+      </div>
+    </div>
+      
+      
+    
+      
+    
+    
+  </header>
+</div>
+
+  <main id="main">
+    <div class="invenio-page-body">
+<span id="detail-share-btn-require-link-expiration"
+        data-share-btn-require-link-expiration='false'>
+
+  <section id="banners" class="banners" aria-label="Information banner">
+    <!-- COMMUNITY HEADER: hide it when displaying the submission request -->
+    
+      
+        
+        
+          <div
+            class="ui fluid container page-subheader-outer with-submenu compact ml-0-mobile mr-0-mobile">
+            <div class="ui container page-subheader">
+              <div class="page-subheader-element">
+                <img
+                  class="ui rounded image community-header-logo"
+                  src="https://zenodo.org/api/communities/d5edc788-2914-4e51-8405-9f29894062d5/logo"
+                  alt=""
+                />
+              </div>
+              <div class="page-subheader-element">
+                <div class="ui header">
+                  <a
+                  href="/communities/omop2obo/records" class="ui small header">
+                    OMOP2OBO
+                  </a>
+                  <!-- Show the icon for subcommunities -->
+                  
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        
+      
+    
+    <!-- /COMMUNITY HEADER -->
+
+    <!-- PREVIEW HEADER -->
+    
+    <!-- /PREVIEW HEADER -->
+
+    
+      <div class="ui warning flashed bottom attached manage message">
+        <div class="ui container">
+          <div class="ui relaxed grid">
+            <div class="column">
+              <div class="row">
+                <p>
+                  
+                    There is a <a href="https://zenodo.org/records/7067342/latest"><b>newer version</b></a> of the record
+                    available.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+
+
+  <div class="ui container">
+    <div class="ui relaxed grid mt-5">
+      <div class="two column row top-padded">
+
+        
+        <article
+          class="sixteen wide tablet eleven wide computer column main-record-content">
+          
+
+              
+
+              
+
+              <section id="record-info"
+                       aria-label="Publication date and version number">
+                <div class="ui grid middle aligned">
+                  <div class="two column row">
+                    <div class="left floated left aligned column">
+                      <span class="ui" title="Publication date">
+                        Published September 10, 2022
+                      </span>
+                      <span
+                        class="label text-muted"> | Version V2.0.1</span>
+                    </div>
+                    <div class="right floated right aligned column">
+
+                      
+                        <span role="note"
+                              class="ui label horizontal small neutral mb-5"
+                              aria-label="Resource type"
+                        >
+                          Preprint
+                        </span>
+                      
+
+                      <span role="note"
+                            class="ui label horizontal small access-status open mb-5"
+                            data-tooltip="The record and files are publicly accessible."
+                            data-inverted=""
+                            aria-label="Access status"
+                      >
+                        
+                          <i class="icon unlock"
+                             aria-hidden="true"></i>
+                        
+                        <span
+                          aria-label="The record and files are publicly accessible.">
+                          Open
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="ui divider hidden"></div><section id="record-title-section"
+                       aria-label="Record title, authors and contributors">
+                <h1 id="record-title"
+                    class="wrap-overflowing-text">Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality</h1>
+
+                
+                  <section id="creatibutors"
+                           aria-label="Authors and contributors">
+
+<div class="ui grid">
+  
+    <div class="row ui accordion affiliations">
+      <div class="sixteen wide mobile twelve wide tablet thirteen wide computer column">
+          <h3 class="sr-only">Authors/Creators</h3>
+          <ul class="creatibutors">
+            
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Callahan,+Tiffany+J%22"
+    >
+
+      <span class="creatibutor-name">Callahan, Tiffany J</span><sup class="font-tiny">1</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-8169-9049"
+           aria-label="Callahan, Tiffany J's ORCID profile"
+           title="Callahan, Tiffany J's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz Medical Campus"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Stefanski,+Adrianne+L%22"
+    >
+
+      <span class="creatibutor-name">Stefanski, Adrianne L</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-7355-7745"
+           aria-label="Stefanski, Adrianne L's ORCID profile"
+           title="Stefanski, Adrianne L's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz Medical Campus"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Wyrwa,+Jordan+M%22"
+    >
+
+      <span class="creatibutor-name">Wyrwa, Jordan M</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-5455-5859"
+           aria-label="Wyrwa, Jordan M's ORCID profile"
+           title="Wyrwa, Jordan M's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="National Institutes of Health"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Zeng,+Chenjie%22"
+    >
+
+      <span class="creatibutor-name">Zeng, Chenjie</span><sup class="font-tiny">3</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-0149-5661"
+           aria-label="Zeng, Chenjie's ORCID profile"
+           title="Zeng, Chenjie's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Columbia University Irving Medical Center"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Ostropolets,+Anna%22"
+    >
+
+      <span class="creatibutor-name">Ostropolets, Anna</span><sup class="font-tiny">4</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-0847-6682"
+           aria-label="Ostropolets, Anna's ORCID profile"
+           title="Ostropolets, Anna's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Georgia State University"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Banda,+Juan+M%22"
+    >
+
+      <span class="creatibutor-name">Banda, Juan M</span><sup class="font-tiny">5</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0001-8499-824X"
+           aria-label="Banda, Juan M's ORCID profile"
+           title="Banda, Juan M's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz Medical Campus"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Baumgartner+Jr,+William+A%22"
+    >
+
+      <span class="creatibutor-name">Baumgartner Jr, William A</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0001-6717-5313"
+           aria-label="Baumgartner Jr, William A's ORCID profile"
+           title="Baumgartner Jr, William A's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Pittsburgh School of Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Boyce,+Richard+D%22"
+    >
+
+      <span class="creatibutor-name">Boyce, Richard D</span><sup class="font-tiny">6</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-2993-2085"
+           aria-label="Boyce, Richard D's ORCID profile"
+           title="Boyce, Richard D's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Università degli Studi di Milano"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Casiraghi,+Elena%22"
+    >
+
+      <span class="creatibutor-name">Casiraghi, Elena</span><sup class="font-tiny">7</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-2024-7572"
+           aria-label="Casiraghi, Elena's ORCID profile"
+           title="Casiraghi, Elena's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="The Jackson Laboratory for Genomic Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Coleman,+B%22"
+    >
+
+      <span class="creatibutor-name">Coleman, B</span><sup class="font-tiny">8</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-4422-1708"
+           aria-label="Coleman, B's ORCID profile"
+           title="Coleman, B's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Cambridge"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Collins,+Janine+H%22"
+    >
+
+      <span class="creatibutor-name">Collins, Janine H</span><sup class="font-tiny">9</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-8716-3261"
+           aria-label="Collins, Janine H's ORCID profile"
+           title="Collins, Janine H's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Children&#39;s Hospital Colorado"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Deakyne+Davies,+Sara+J%22"
+    >
+
+      <span class="creatibutor-name">Deakyne Davies, Sara J</span><sup class="font-tiny">10</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-8602-1624"
+           aria-label="Deakyne Davies, Sara J's ORCID profile"
+           title="Deakyne Davies, Sara J's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz School of Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Feinstein,+James+A%22"
+    >
+
+      <span class="creatibutor-name">Feinstein, James A</span><sup class="font-tiny">11</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-3074-8805"
+           aria-label="Feinstein, James A's ORCID profile"
+           title="Feinstein, James A's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz Medical Campus"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Haendel,+Melissa+A%22"
+    >
+
+      <span class="creatibutor-name">Haendel, Melissa A</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0001-9114-8737"
+           aria-label="Haendel, Melissa A's ORCID profile"
+           title="Haendel, Melissa A's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="National Institutes of Health"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Lin,+Asiyah+Y%22"
+    >
+
+      <span class="creatibutor-name">Lin, Asiyah Y</span><sup class="font-tiny">3</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-2620-0345"
+           aria-label="Lin, Asiyah Y's ORCID profile"
+           title="Lin, Asiyah Y's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado School of Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Martin,+Blake%22"
+    >
+
+      <span class="creatibutor-name">Martin, Blake</span><sup class="font-tiny">12</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0001-5683-8310"
+           aria-label="Martin, Blake's ORCID profile"
+           title="Martin, Blake's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Semanticly"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Matentzoglu,+Nico%22"
+    >
+
+      <span class="creatibutor-name">Matentzoglu, Nico</span><sup class="font-tiny">13</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-7356-1779"
+           aria-label="Matentzoglu, Nico's ORCID profile"
+           title="Matentzoglu, Nico's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Southern California"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Meeker,+Daniella%22"
+    >
+
+      <span class="creatibutor-name">Meeker, Daniella</span><sup class="font-tiny">14</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-1034-7628"
+           aria-label="Meeker, Daniella's ORCID profile"
+           title="Meeker, Daniella's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Lawrence Berkeley National Laboratory"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Reese,+Justin%22"
+    >
+
+      <span class="creatibutor-name">Reese, Justin</span><sup class="font-tiny">15</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-2170-2250"
+           aria-label="Reese, Justin's ORCID profile"
+           title="Reese, Justin's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="HealthLinc"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Sinclair,+Jessica%22"
+    >
+
+      <span class="creatibutor-name">Sinclair, Jessica</span><sup class="font-tiny">16</sup></a>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+      <i class="user icon"></i>
+    
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Pittsburgh"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Taneja,+Sanya+B%22"
+    >
+
+      <span class="creatibutor-name">Taneja, Sanya B</span><sup class="font-tiny">17</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-1707-1617"
+           aria-label="Taneja, Sanya B's ORCID profile"
+           title="Taneja, Sanya B's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Trinkley,+Katy+E%22"
+    >
+
+      <span class="creatibutor-name">Trinkley, Katy E</span><sup class="font-tiny">18</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-2041-7404"
+           aria-label="Trinkley, Katy E's ORCID profile"
+           title="Trinkley, Katy E's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado Anschutz Medical Campus"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Vasilevsky,+Nicole+A%22"
+    >
+
+      <span class="creatibutor-name">Vasilevsky, Nicole A</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0001-5208-3432"
+           aria-label="Vasilevsky, Nicole A's ORCID profile"
+           title="Vasilevsky, Nicole A's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Tufts University"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Williams,+Andrew%22"
+    >
+
+      <span class="creatibutor-name">Williams, Andrew</span><sup class="font-tiny">19</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-0692-412X"
+           aria-label="Williams, Andrew's ORCID profile"
+           title="Williams, Andrew's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Sema4"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Zhang,+Xingman+A%22"
+    >
+
+      <span class="creatibutor-name">Zhang, Xingman A</span><sup class="font-tiny">20</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-7284-3950"
+           aria-label="Zhang, Xingman A's ORCID profile"
+           title="Zhang, Xingman A's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="The Jackson Laboratory for Genomic Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Robinson,+Peter+N%22"
+    >
+
+      <span class="creatibutor-name">Robinson, Peter N</span><sup class="font-tiny">8</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0002-0736-9199"
+           aria-label="Robinson, Peter N's ORCID profile"
+           title="Robinson, Peter N's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Janssen Research and Development"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Ryan,+Patrick+B%22"
+    >
+
+      <span class="creatibutor-name">Ryan, Patrick B</span><sup class="font-tiny">21</sup></a>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+    
+      <i class="user icon"></i>
+    
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Columbia University Irving Medical Center"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Hripcsak,+George%22"
+    >
+
+      <span class="creatibutor-name">Hripcsak, George</span><sup class="font-tiny">4</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-2664-7614"
+           aria-label="Hripcsak, George's ORCID profile"
+           title="Hripcsak, George's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado School of Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Bennett,+Tellen+D%22"
+    >
+
+      <span class="creatibutor-name">Bennett, Tellen D</span><sup class="font-tiny">12</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-1483-4236"
+           aria-label="Bennett, Tellen D's ORCID profile"
+           title="Bennett, Tellen D's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado School of Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Hunter,+Lawrence+E%22"
+    >
+
+      <span class="creatibutor-name">Hunter, Lawrence E</span><sup class="font-tiny">12</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-1455-3370"
+           aria-label="Hunter, Lawrence E's ORCID profile"
+           title="Hunter, Lawrence E's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="University of Colorado School of Medicine"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Kahn,+Michael+G%22"
+    >
+
+      <span class="creatibutor-name">Kahn, Michael G</span><sup class="font-tiny">12</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-4786-6875"
+           aria-label="Kahn, Michael G's ORCID profile"
+           title="Kahn, Michael G's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+          </ul>
+      </div>
+
+        
+        
+          
+<div class="ui sixteen wide tablet three wide computer column title right aligned bottom aligned">
+  <button class="ui affiliations-button trigger button mini mr-0"
+          aria-controls="creators-affiliations"
+          data-open-text="Show affiliations"
+          data-close-text="Hide affiliations"
+          aria-expanded="false"
+  >
+    Show affiliations
+  </button>
+</div>
+
+<section class="ui sixteen wide column content" id="creators-affiliations" aria-label="Affiliations for creators">
+  <ul>
+    
+    <li>
+      1.
+
+      
+
+      University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center
+    </li>
+  
+    <li>
+      2.
+
+      
+
+      University of Colorado Anschutz Medical Campus
+    </li>
+  
+    <li>
+      3.
+
+      
+
+      National Institutes of Health
+    </li>
+  
+    <li>
+      4.
+
+      
+
+      Columbia University Irving Medical Center
+    </li>
+  
+    <li>
+      5.
+
+      
+
+      Georgia State University
+    </li>
+  
+    <li>
+      6.
+
+      
+
+      University of Pittsburgh School of Medicine
+    </li>
+  
+    <li>
+      7.
+
+      
+
+      Università degli Studi di Milano
+    </li>
+  
+    <li>
+      8.
+
+      
+
+      The Jackson Laboratory for Genomic Medicine
+    </li>
+  
+    <li>
+      9.
+
+      
+
+      University of Cambridge
+    </li>
+  
+    <li>
+      10.
+
+      
+
+      Children&#39;s Hospital Colorado
+    </li>
+  
+    <li>
+      11.
+
+      
+
+      University of Colorado Anschutz School of Medicine
+    </li>
+  
+    <li>
+      12.
+
+      
+
+      University of Colorado School of Medicine
+    </li>
+  
+    <li>
+      13.
+
+      
+
+      Semanticly
+    </li>
+  
+    <li>
+      14.
+
+      
+
+      University of Southern California
+    </li>
+  
+    <li>
+      15.
+
+      
+
+      Lawrence Berkeley National Laboratory
+    </li>
+  
+    <li>
+      16.
+
+      
+
+      HealthLinc
+    </li>
+  
+    <li>
+      17.
+
+      
+
+      University of Pittsburgh
+    </li>
+  
+    <li>
+      18.
+
+      
+
+      University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine
+    </li>
+  
+    <li>
+      19.
+
+      
+
+      Tufts University
+    </li>
+  
+    <li>
+      20.
+
+      
+
+      Sema4
+    </li>
+  
+    <li>
+      21.
+
+      
+
+      Janssen Research and Development
+    </li>
+  
+
+    </ul>
+</section>
+
+        
+
+    </div>
+  
+
+  
+</div>
+                  </section>
+                
+              </section>
+
+
+
+  <section id="description" class="rel-mt-2 rich-input-content" aria-label="Record description">
+    <h2 id="description-heading" class="sr-only">Description</h2>
+    
+    <div style="word-wrap: break-word;">
+      <p>Common data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing.</p>
+    </div>
+  </section>
+
+
+
+  
+    
+    
+    <section
+      id="additional-description-1"
+      class="rel-mt-2 rich-input-content"
+      aria-label="Notes"
+    >
+      <h2>
+        Notes
+        <span class="text-muted language">
+          
+        </span>
+      </h2>
+      
+      
+        <div class="ui message warning">
+          This work was supported by funding from the National Library of Medicine (T15LM009451) to Lawrence E. Hunter and (T15LM007079) to George Hripcsak.
+        </div>
+      
+    </section>
+  
+<section
+      id="record-files" class="rel-mt-2 rel-mb-3"
+      aria-label="Files"
+    ><h2 id="files-heading">Files</h2>
+            
+  <div class="ui accordion panel mb-10 open" href="#files-preview-accordion-panel">
+    <h3 class="active title panel-heading open m-0">
+      <div
+        role="button"
+        id="files-preview-accordion-trigger"
+        aria-controls="files-preview-accordion-panel"
+        aria-expanded="true"
+        tabindex="0"
+        class="trigger"
+        aria-label="File preview"
+      >
+        <span id="preview-file-title">OMOP2OBO_Manuscript_v2.pdf</span>
+        <i class="angle right icon" aria-hidden="true"></i>
+      </div>
+    </h3>
+    <div
+      role="region"
+      id="files-preview-accordion-panel"
+      aria-labelledby="files-preview-accordion-trigger"
+      class="active content preview-container pt-0 open"
+    >
+      <div>
+        
+  
+  <iframe
+    title="Preview"
+    class="preview-iframe"
+    id="preview-iframe"
+    name="preview-iframe"
+    src="/records/7067342/preview/OMOP2OBO_Manuscript_v2.pdf?include_deleted=0"
+  >
+  </iframe>
+      </div>
+    </div>
+  </div>
+  <div class="ui accordion panel mb-10 open" href="#files-list-accordion-panel">
+    <h3 class="active title panel-heading open m-0">
+      <div role="button" id="files-list-accordion-trigger" aria-controls="files-list-accordion-panel" aria-expanded="true" tabindex="0" class="trigger">
+        Files
+        <small class="text-muted"> (10.1 MB)</small>
+        <i class="angle right icon" aria-hidden="true"></i>
+      </div>
+    </h3>
+
+    <div role="region" id="files-list-accordion-panel" aria-labelledby="files-list-accordion-trigger" class="active content pt-0">
+      
+      <div>
+        
+  <table class="ui striped table files fluid open">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th class>
+            
+            <a role="button" class="ui compact mini button right floated archive-link" href="https://zenodo.org/api/records/7067342/files-archive">
+              <i class="file archive icon button" aria-hidden="true"></i> Download all
+            </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      
+        
+        
+        <tr>
+          <td class="ten wide">
+            <div>
+              <a href="/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf?download=1">OMOP2OBO_Manuscript_v2.pdf</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:207270175091545319c68282e41718f6
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+          <td>3.6 MB</td>
+          <td class="right aligned">
+            <span>
+              
+                <a role="button" class="ui compact mini button preview-link" href="/records/7067342/preview/OMOP2OBO_Manuscript_v2.pdf?include_deleted=0" target="preview-iframe" data-file-key="OMOP2OBO_Manuscript_v2.pdf">
+                  <i class="eye icon" aria-hidden="true"></i>Preview
+                </a>
+              
+              <a role="button" class="ui compact mini button" href="/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+      
+        
+        
+        <tr>
+          <td class="ten wide">
+            <div>
+              <a href="/records/7067342/files/OMOP2OBO_Overview_Figure.png?download=1">OMOP2OBO_Overview_Figure.png</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:cba8543e7575364de20f138efebd4266
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+          <td>567.9 kB</td>
+          <td class="right aligned">
+            <span>
+              
+                <a role="button" class="ui compact mini button preview-link" href="/records/7067342/preview/OMOP2OBO_Overview_Figure.png?include_deleted=0" target="preview-iframe" data-file-key="OMOP2OBO_Overview_Figure.png">
+                  <i class="eye icon" aria-hidden="true"></i>Preview
+                </a>
+              
+              <a role="button" class="ui compact mini button" href="/records/7067342/files/OMOP2OBO_Overview_Figure.png?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+      
+        
+        
+        <tr>
+          <td class="ten wide">
+            <div>
+              <a href="/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf?download=1">OMOP2OBO_Supplementary_Material_v2.pdf</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:b0b9249093cb7c78a9f5a0d911030be7
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+          <td>5.9 MB</td>
+          <td class="right aligned">
+            <span>
+              
+                <a role="button" class="ui compact mini button preview-link" href="/records/7067342/preview/OMOP2OBO_Supplementary_Material_v2.pdf?include_deleted=0" target="preview-iframe" data-file-key="OMOP2OBO_Supplementary_Material_v2.pdf">
+                  <i class="eye icon" aria-hidden="true"></i>Preview
+                </a>
+              
+              <a role="button" class="ui compact mini button" href="/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+    </tbody>
+  </table>
+      </div>
+    </div>
+  </div>
+
+    </section>
+              
+
+  <section id="additional-details" class="rel-mt-2" aria-label="Additional record details">
+
+
+
+
+
+
+
+
+
+
+
+  <h2 id="record-details-heading">Additional details</h2>
+
+  <div class="ui divider"></div>
+
+  
+
+  
+
+  
+    
+      <div class="ui grid">
+        <div class="sixteen wide mobile four wide tablet three wide computer column">
+          <h3 class="ui header">Related works</h3>
+        </div>
+        <div class="sixteen wide mobile twelve wide tablet thirteen wide computer column">
+          
+  <dl class="details-list">
+      <dt class="ui tiny header">References</dt>
+      
+  
+    <dd>
+      
+        Software:
+      
+
+      
+      
+      
+        <a href="https://github.com/callahantiff/OMOP2OBO" target="_blank" title="Opens in new tab">
+          https://github.com/callahantiff/OMOP2OBO
+        </a>
+      
+
+      
+         (URL)
+      
+    </dd>
+  
+
+  </dl>
+
+        </div>
+      </div>
+    
+    <div class="ui divider"></div>
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+  </section>
+    
+    <section
+      id="citations-search"
+      data-record-pids='{"doi": {"client": "datacite", "identifier": "10.5281/zenodo.7067342", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:7067342", "provider": "oai"}}'
+      data-record-parent-pids='{"doi": {"client": "datacite", "identifier": "10.5281/zenodo.5716421", "provider": "datacite"}}'
+      data-citations-endpoint="https://zenodo-broker.web.cern.ch/api/relationships"
+      aria-label="Record citations"
+      class="rel-mb-1"
+    >
+    </section>
+  
+        </article>
+
+        
+        <aside class="sixteen wide tablet five wide computer column sidebar"
+               aria-label="Record details">
+          
+
+
+
+
+<section id="metrics" aria-label="Metrics" class="ui segment rdm-sidebar sidebar-container">
+
+
+<div class="ui tiny two statistics rel-mt-1">
+  
+  
+
+  <div class="ui statistic">
+    <div class="value">1K</div>
+    <div class="label">
+      <i aria-hidden="true" class="eye icon"></i>
+      Views
+    </div>
+  </div>
+
+  <div class="ui statistic">
+    <div class="value">2K</div>
+    <div class="label">
+      <i aria-hidden="true" class="download icon"></i>
+      Downloads
+    </div>
+  </div>
+</div>
+
+<div class="ui accordion rel-mt-1 centered">
+  <div class="title trigger" tabindex="0">
+    <i class="caret right icon" aria-hidden="true"></i>
+    <span
+      data-open-text="Show more details"
+      data-close-text="Show less details"
+    >
+      Show more details
+    </span>
+  </div>
+
+  <div class="content">
+    <table id="record-statistics" class="ui definition table fluid">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="right aligned">All versions</th>
+          <th class="right aligned">This version</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Views
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total views
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    1,002
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    144
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Downloads
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total downloads
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    1,587
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    256
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Data volume
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total data volume
+            </p>
+          </td>
+
+          <td data-label="All versions" class="right aligned">5.6 GB</td>
+          <td data-label="This version" class="right aligned">980.1 MB</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="text-align-center rel-mt-1">
+      <small>
+        <a href="/help/statistics">More info on how stats are collected....</a>
+      </small>
+    </p>
+  </div>
+
+</div>
+
+</section>
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Versions</h2>
+  <div id="record-versions" class="ui segment rdm-sidebar bottom attached pl-0 pr-0 pt-0">
+    <div class="versions">
+      <div id="recordVersions" data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2022-09-10T18:49:21.396134+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "62793", "is_current_user": false, "links": {"avatar": "https://zenodo.org/api/users/62793/avatar.svg", "records_html": "https://zenodo.org/search/records?q=parent.access.owned_by.user:62793", "self": "https://zenodo.org/api/users/62793"}, "profile": {"affiliations": "", "full_name": "Tiffany J. Callahan"}, "username": "callahantiff", "verified_at": null}}, "communities": {"default": {"access": {"review_policy": "open", "visibility": "public"}, "id": "d5edc788-2914-4e51-8405-9f29894062d5", "links": {"logo": "https://zenodo.org/api/communities/d5edc788-2914-4e51-8405-9f29894062d5/logo"}, "metadata": {"description": null, "title": "OMOP2OBO", "type": null}, "slug": "omop2obo"}}}}, "files": {"count": 3, "enabled": true, "entries": {"OMOP2OBO_Manuscript_v2.pdf": {"access": {"hidden": false}, "checksum": "md5:207270175091545319c68282e41718f6", "ext": "pdf", "id": "658a3a18-8e3f-4cff-9b91-971d73400fde", "key": "OMOP2OBO_Manuscript_v2.pdf", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf/content", "iiif_api": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf", "iiif_canvas": "https://zenodo.org/api/iiif/record:7067342/canvas/OMOP2OBO_Manuscript_v2.pdf", "iiif_info": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/info.json", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf"}, "metadata": null, "mimetype": "application/pdf", "size": 3644769, "storage_class": "L"}, "OMOP2OBO_Overview_Figure.png": {"access": {"hidden": false}, "checksum": "md5:cba8543e7575364de20f138efebd4266", "ext": "png", "id": "6e0d0f67-a3c6-42ad-943e-8e84fb6414d5", "key": "OMOP2OBO_Overview_Figure.png", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png/content", "iiif_api": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Overview_Figure.png/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Overview_Figure.png", "iiif_canvas": "https://zenodo.org/api/iiif/record:7067342/canvas/OMOP2OBO_Overview_Figure.png", "iiif_info": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Overview_Figure.png/info.json", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png"}, "metadata": {"height": 1125, "width": 2000}, "mimetype": "image/png", "size": 567854, "storage_class": "L"}, "OMOP2OBO_Supplementary_Material_v2.pdf": {"access": {"hidden": false}, "checksum": "md5:b0b9249093cb7c78a9f5a0d911030be7", "ext": "pdf", "id": "e93fad41-439b-4621-ad1e-578ef0fc8482", "key": "OMOP2OBO_Supplementary_Material_v2.pdf", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf/content", "iiif_api": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Supplementary_Material_v2.pdf/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Supplementary_Material_v2.pdf", "iiif_canvas": "https://zenodo.org/api/iiif/record:7067342/canvas/OMOP2OBO_Supplementary_Material_v2.pdf", "iiif_info": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Supplementary_Material_v2.pdf/info.json", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf"}, "metadata": null, "mimetype": "application/pdf", "size": 5925666, "storage_class": "L"}}, "order": [], "total_bytes": 10138289}, "id": "7067342", "is_draft": false, "is_published": true, "links": {"access": "https://zenodo.org/api/records/7067342/access", "access_grants": "https://zenodo.org/api/records/7067342/access/grants", "access_links": "https://zenodo.org/api/records/7067342/access/links", "access_request": "https://zenodo.org/api/records/7067342/access/request", "access_users": "https://zenodo.org/api/records/7067342/access/users", "archive": "https://zenodo.org/api/records/7067342/files-archive", "archive_media": "https://zenodo.org/api/records/7067342/media-files-archive", "communities": "https://zenodo.org/api/records/7067342/communities", "communities-suggestions": "https://zenodo.org/api/records/7067342/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.7067342", "draft": "https://zenodo.org/api/records/7067342/draft", "file_modification": "https://zenodo.org/api/records/7067342/file-modification", "files": "https://zenodo.org/api/records/7067342/files", "latest": "https://zenodo.org/api/records/7067342/versions/latest", "latest_html": "https://zenodo.org/records/7067342/latest", "media_files": "https://zenodo.org/api/records/7067342/media-files", "parent": "https://zenodo.org/api/records/5716421", "parent_doi": "https://doi.org/10.5281/zenodo.5716421", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5716421", "parent_html": "https://zenodo.org/records/5716421", "preview_html": "https://zenodo.org/records/7067342?preview=1", "request_deletion": "https://zenodo.org/api/records/7067342/request-deletion", "requests": "https://zenodo.org/api/records/7067342/requests", "reserve_doi": "https://zenodo.org/api/records/7067342/draft/pids/doi", "self": "https://zenodo.org/api/records/7067342", "self_doi": "https://doi.org/10.5281/zenodo.7067342", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7067342", "self_html": "https://zenodo.org/records/7067342", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7067342/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7067342/sequence/default", "thumbnails": {"10": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E10,/0/default.jpg", "100": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E100,/0/default.jpg", "1200": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E1200,/0/default.jpg", "250": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E250,/0/default.jpg", "50": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E50,/0/default.jpg", "750": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E750,/0/default.jpg"}, "versions": "https://zenodo.org/api/records/7067342/versions"}, "media_files": {"count": 3, "enabled": true, "entries": {"OMOP2OBO_Manuscript_v2.pdf.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "1ada3387-62c6-4d9c-a300-34ed24e09728", "key": "OMOP2OBO_Manuscript_v2.pdf.ptif", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf.ptif/content", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "658a3a18-8e3f-4cff-9b91-971d73400fde", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}, "OMOP2OBO_Overview_Figure.png.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "3ee6a1ab-b173-4dd3-ba85-9a4a51fb3edb", "key": "OMOP2OBO_Overview_Figure.png.ptif", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png.ptif/content", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "6e0d0f67-a3c6-42ad-943e-8e84fb6414d5", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}, "OMOP2OBO_Supplementary_Material_v2.pdf.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "c2efadd3-09a3-444b-8970-b2d3d8409294", "key": "OMOP2OBO_Supplementary_Material_v2.pdf.ptif", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf.ptif/content", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "e93fad41-439b-4621-ad1e-578ef0fc8482", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}}, "order": [], "total_bytes": 0}, "metadata": {"additional_descriptions": [{"description": "This work was supported by funding from the National Library of Medicine (T15LM009451) to Lawrence E. Hunter and (T15LM007079) to George Hripcsak.", "type": {"id": "notes", "title": {"de": "Anmerkungen", "en": "Notes"}}}], "creators": [{"affiliations": [{"name": "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center"}], "person_or_org": {"family_name": "Callahan", "given_name": "Tiffany J", "identifiers": [{"identifier": "0000-0002-8169-9049", "scheme": "orcid"}], "name": "Callahan, Tiffany J", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Stefanski", "given_name": "Adrianne L", "identifiers": [{"identifier": "0000-0002-7355-7745", "scheme": "orcid"}], "name": "Stefanski, Adrianne L", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Wyrwa", "given_name": "Jordan M", "identifiers": [{"identifier": "0000-0002-5455-5859", "scheme": "orcid"}], "name": "Wyrwa, Jordan M", "type": "personal"}}, {"affiliations": [{"name": "National Institutes of Health"}], "person_or_org": {"family_name": "Zeng", "given_name": "Chenjie", "identifiers": [{"identifier": "0000-0002-0149-5661", "scheme": "orcid"}], "name": "Zeng, Chenjie", "type": "personal"}}, {"affiliations": [{"name": "Columbia University Irving Medical Center"}], "person_or_org": {"family_name": "Ostropolets", "given_name": "Anna", "identifiers": [{"identifier": "0000-0002-0847-6682", "scheme": "orcid"}], "name": "Ostropolets, Anna", "type": "personal"}}, {"affiliations": [{"name": "Georgia State University"}], "person_or_org": {"family_name": "Banda", "given_name": "Juan M", "identifiers": [{"identifier": "0000-0001-8499-824X", "scheme": "orcid"}], "name": "Banda, Juan M", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Baumgartner Jr", "given_name": "William A", "identifiers": [{"identifier": "0000-0001-6717-5313", "scheme": "orcid"}], "name": "Baumgartner Jr, William A", "type": "personal"}}, {"affiliations": [{"name": "University of Pittsburgh School of Medicine"}], "person_or_org": {"family_name": "Boyce", "given_name": "Richard D", "identifiers": [{"identifier": "0000-0002-2993-2085", "scheme": "orcid"}], "name": "Boyce, Richard D", "type": "personal"}}, {"affiliations": [{"name": "Universit\u00e0 degli Studi di Milano"}], "person_or_org": {"family_name": "Casiraghi", "given_name": "Elena", "identifiers": [{"identifier": "0000-0003-2024-7572", "scheme": "orcid"}], "name": "Casiraghi, Elena", "type": "personal"}}, {"affiliations": [{"name": "The Jackson Laboratory for Genomic Medicine"}], "person_or_org": {"family_name": "Coleman", "given_name": "B", "identifiers": [{"identifier": "0000-0002-4422-1708", "scheme": "orcid"}], "name": "Coleman, B", "type": "personal"}}, {"affiliations": [{"name": "University of Cambridge"}], "person_or_org": {"family_name": "Collins", "given_name": "Janine H", "identifiers": [{"identifier": "0000-0002-8716-3261", "scheme": "orcid"}], "name": "Collins, Janine H", "type": "personal"}}, {"affiliations": [{"name": "Children\u0027s Hospital Colorado"}], "person_or_org": {"family_name": "Deakyne Davies", "given_name": "Sara J", "identifiers": [{"identifier": "0000-0002-8602-1624", "scheme": "orcid"}], "name": "Deakyne Davies, Sara J", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz School of Medicine"}], "person_or_org": {"family_name": "Feinstein", "given_name": "James A", "identifiers": [{"identifier": "0000-0003-3074-8805", "scheme": "orcid"}], "name": "Feinstein, James A", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Haendel", "given_name": "Melissa A", "identifiers": [{"identifier": "0000-0001-9114-8737", "scheme": "orcid"}], "name": "Haendel, Melissa A", "type": "personal"}}, {"affiliations": [{"name": "National Institutes of Health"}], "person_or_org": {"family_name": "Lin", "given_name": "Asiyah Y", "identifiers": [{"identifier": "0000-0003-2620-0345", "scheme": "orcid"}], "name": "Lin, Asiyah Y", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Martin", "given_name": "Blake", "identifiers": [{"identifier": "0000-0001-5683-8310", "scheme": "orcid"}], "name": "Martin, Blake", "type": "personal"}}, {"affiliations": [{"name": "Semanticly"}], "person_or_org": {"family_name": "Matentzoglu", "given_name": "Nico", "identifiers": [{"identifier": "0000-0002-7356-1779", "scheme": "orcid"}], "name": "Matentzoglu, Nico", "type": "personal"}}, {"affiliations": [{"name": "University of Southern California"}], "person_or_org": {"family_name": "Meeker", "given_name": "Daniella", "identifiers": [{"identifier": "0000-0002-1034-7628", "scheme": "orcid"}], "name": "Meeker, Daniella", "type": "personal"}}, {"affiliations": [{"name": "Lawrence Berkeley National Laboratory"}], "person_or_org": {"family_name": "Reese", "given_name": "Justin", "identifiers": [{"identifier": "0000-0002-2170-2250", "scheme": "orcid"}], "name": "Reese, Justin", "type": "personal"}}, {"affiliations": [{"name": "HealthLinc"}], "person_or_org": {"family_name": "Sinclair", "given_name": "Jessica", "name": "Sinclair, Jessica", "type": "personal"}}, {"affiliations": [{"name": "University of Pittsburgh"}], "person_or_org": {"family_name": "Taneja", "given_name": "Sanya B", "identifiers": [{"identifier": "0000-0003-1707-1617", "scheme": "orcid"}], "name": "Taneja, Sanya B", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine"}], "person_or_org": {"family_name": "Trinkley", "given_name": "Katy E", "identifiers": [{"identifier": "0000-0003-2041-7404", "scheme": "orcid"}], "name": "Trinkley, Katy E", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Vasilevsky", "given_name": "Nicole A", "identifiers": [{"identifier": "0000-0001-5208-3432", "scheme": "orcid"}], "name": "Vasilevsky, Nicole A", "type": "personal"}}, {"affiliations": [{"name": "Tufts University"}], "person_or_org": {"family_name": "Williams", "given_name": "Andrew", "identifiers": [{"identifier": "0000-0002-0692-412X", "scheme": "orcid"}], "name": "Williams, Andrew", "type": "personal"}}, {"affiliations": [{"name": "Sema4"}], "person_or_org": {"family_name": "Zhang", "given_name": "Xingman A", "identifiers": [{"identifier": "0000-0002-7284-3950", "scheme": "orcid"}], "name": "Zhang, Xingman A", "type": "personal"}}, {"affiliations": [{"name": "The Jackson Laboratory for Genomic Medicine"}], "person_or_org": {"family_name": "Robinson", "given_name": "Peter N", "identifiers": [{"identifier": "0000-0002-0736-9199", "scheme": "orcid"}], "name": "Robinson, Peter N", "type": "personal"}}, {"affiliations": [{"name": "Janssen Research and Development"}], "person_or_org": {"family_name": "Ryan", "given_name": "Patrick B", "name": "Ryan, Patrick B", "type": "personal"}}, {"affiliations": [{"name": "Columbia University Irving Medical Center"}], "person_or_org": {"family_name": "Hripcsak", "given_name": "George", "identifiers": [{"identifier": "0000-0003-2664-7614", "scheme": "orcid"}], "name": "Hripcsak, George", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Bennett", "given_name": "Tellen D", "identifiers": [{"identifier": "0000-0003-1483-4236", "scheme": "orcid"}], "name": "Bennett, Tellen D", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Hunter", "given_name": "Lawrence E", "identifiers": [{"identifier": "0000-0003-1455-3370", "scheme": "orcid"}], "name": "Hunter, Lawrence E", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Kahn", "given_name": "Michael G", "identifiers": [{"identifier": "0000-0003-4786-6875", "scheme": "orcid"}], "name": "Kahn, Michael G", "type": "personal"}}], "description": "\u003cp\u003eCommon data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing.\u003c/p\u003e", "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2022-09-10", "publisher": "Zenodo", "related_identifiers": [{"identifier": "https://github.com/callahantiff/OMOP2OBO", "relation_type": {"id": "references", "title": {"de": "Referenziert", "en": "References"}}, "resource_type": {"id": "software", "title": {"de": "Software", "en": "Software"}}, "scheme": "url"}], "resource_type": {"id": "publication-preprint", "title": {"de": "Preprint", "en": "Preprint"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "subjects": [{"subject": "OMOP"}, {"subject": "Open Biomedical Ontologies"}, {"subject": "Semantic Alignment"}, {"subject": "Interoperability"}, {"subject": "Mappings"}], "title": "Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality", "version": "V2.0.1"}, "parent": {"access": {"owned_by": {"user": "62793"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {"default": "d5edc788-2914-4e51-8405-9f29894062d5", "entries": [{"access": {"member_policy": "open", "members_visibility": "public", "record_submission_policy": "open", "review_policy": "open", "visibility": "public"}, "children": {"allow": false}, "created": "2021-11-20T22:23:17.528402+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "id": "d5edc788-2914-4e51-8405-9f29894062d5", "links": {}, "metadata": {"curation_policy": "\u003cp\u003eThis community is meant to store publications, presentations, code, and output that are relevant to OMOP2OBO.\u003c/p\u003e\r\n", "page": "\u003cp\u003e\u003cstrong\u003eTools to Support Semantic Interoperability between Biomedical Ontologies and Clinical Terminologies\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ccode\u003eomop2obo\u003c/code\u003e\u0026nbsp;is a semantic alignment\u0026nbsp;algorithm and a collection of health system-wide, disease-agnostic mappings between clinical terminologies, like those available\u0026nbsp;in the Observational Medical Outcomes Partnership (\u003ca href=\"https://www.ohdsi.org/data-standardization/the-common-data-model/\"\u003eOMOP\u003c/a\u003e) Common Data Model, and Open Biomedical Foundry Ontologies (\u003ca href=\"http://www.obofoundry.org/\"\u003eOBOs\u003c/a\u003e)\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ca href=\"https://github.com/callahantiff/OMOP2OBO\"\u003ehttps://github.com/callahantiff/OMOP2OBO\u003c/a\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ccode\u003eomop2obo\u003c/code\u003e\u0026nbsp;is a semantic alignment\u0026nbsp;algorithm and a collection of health system-wide, disease-agnostic mappings between clinical terminologies, like those available\u0026nbsp;in the Observational Medical Outcomes Partnership (\u003ca href=\"https://www.ohdsi.org/data-standardization/the-common-data-model/\"\u003eOMOP\u003c/a\u003e) Common Data Model, and Open Biomedical Foundry Ontologies (\u003ca href=\"http://www.obofoundry.org/\"\u003eOBOs\u003c/a\u003e).\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eMotivation\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eCommon data models have solved many challenges of utilizing electronic health records, but have not yet meaningfully integrated clinical and molecular data. Aligning clinical data to open biological ontologies (\u003ca href=\"http://www.obofoundry.org/\"\u003eOBOs\u003c/a\u003e), which provide semantically computable representations of biological knowledge, requires extensive manual curation and expertise.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eObjective\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eTo address these limitations, we have developed\u0026nbsp;\u003ccode\u003eOMOP2OBO\u003c/code\u003e, the first health system-wide integration and alignment between the Observational Health Data Sciences and Informatics\u0026#39; Observational Medical Outcomes Partnership (\u003ca href=\"https://www.ohdsi.org/data-standardization/the-common-data-model/\"\u003eOMOP\u003c/a\u003e) standardized clinical terminologies and eight OBO biomedical ontologies spanning diseases, phenotypes, anatomical entities, cell types, organisms, chemicals, metabolites, hormones, vaccines, and proteins. To verify that the mappings are both clinically and biologically meaningful, we have performed extensive experiments to verify the\u0026nbsp;\u003ca href=\"https://github.com/callahantiff/OMOP2OBO/wiki/Accuracy\"\u003eaccuracy\u003c/a\u003e,\u0026nbsp;\u003ca href=\"https://github.com/callahantiff/OMOP2OBO/wiki/Generalizability\"\u003egeneralizability\u003c/a\u003e, and\u0026nbsp;\u003ca href=\"https://github.com/callahantiff/OMOP2OBO/wiki/Consistency\"\u003elogical consistency\u003c/a\u003e\u0026nbsp;of each released mapping set.\u003c/p\u003e", "title": "OMOP2OBO"}, "revision_id": 0, "slug": "omop2obo", "updated": "2021-11-20T22:29:51.127764+00:00"}], "ids": ["d5edc788-2914-4e51-8405-9f29894062d5"]}, "id": "5716421", "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.5716421", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.7067342", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:7067342", "provider": "oai"}}, "revision_id": 11, "stats": {"all_versions": {"data_volume": 5639026571.0, "downloads": 1635, "unique_downloads": 1587, "unique_views": 1002, "views": 1036}, "this_version": {"data_volume": 980092964.0, "downloads": 260, "unique_downloads": 256, "unique_views": 144, "views": 146}}, "status": "published", "swh": {}, "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "additional_descriptions": [{"description": "This work was supported by funding from the National Library of Medicine (T15LM009451) to Lawrence E. Hunter and (T15LM007079) to George Hripcsak.", "type": {"id": "notes", "title_l10n": "Notes"}}], "created_date_l10n_long": "September 10, 2022", "creators": {"affiliations": [[1, "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center", null], [2, "University of Colorado Anschutz Medical Campus", null], [3, "National Institutes of Health", null], [4, "Columbia University Irving Medical Center", null], [5, "Georgia State University", null], [6, "University of Pittsburgh School of Medicine", null], [7, "Universit\u00e0 degli Studi di Milano", null], [8, "The Jackson Laboratory for Genomic Medicine", null], [9, "University of Cambridge", null], [10, "Children\u0027s Hospital Colorado", null], [11, "University of Colorado Anschutz School of Medicine", null], [12, "University of Colorado School of Medicine", null], [13, "Semanticly", null], [14, "University of Southern California", null], [15, "Lawrence Berkeley National Laboratory", null], [16, "HealthLinc", null], [17, "University of Pittsburgh", null], [18, "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine", null], [19, "Tufts University", null], [20, "Sema4", null], [21, "Janssen Research and Development", null]], "creators": [{"affiliations": [[1, "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center"]], "person_or_org": {"family_name": "Callahan", "given_name": "Tiffany J", "identifiers": [{"identifier": "0000-0002-8169-9049", "scheme": "orcid"}], "name": "Callahan, Tiffany J", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Stefanski", "given_name": "Adrianne L", "identifiers": [{"identifier": "0000-0002-7355-7745", "scheme": "orcid"}], "name": "Stefanski, Adrianne L", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Wyrwa", "given_name": "Jordan M", "identifiers": [{"identifier": "0000-0002-5455-5859", "scheme": "orcid"}], "name": "Wyrwa, Jordan M", "type": "personal"}}, {"affiliations": [[3, "National Institutes of Health"]], "person_or_org": {"family_name": "Zeng", "given_name": "Chenjie", "identifiers": [{"identifier": "0000-0002-0149-5661", "scheme": "orcid"}], "name": "Zeng, Chenjie", "type": "personal"}}, {"affiliations": [[4, "Columbia University Irving Medical Center"]], "person_or_org": {"family_name": "Ostropolets", "given_name": "Anna", "identifiers": [{"identifier": "0000-0002-0847-6682", "scheme": "orcid"}], "name": "Ostropolets, Anna", "type": "personal"}}, {"affiliations": [[5, "Georgia State University"]], "person_or_org": {"family_name": "Banda", "given_name": "Juan M", "identifiers": [{"identifier": "0000-0001-8499-824X", "scheme": "orcid"}], "name": "Banda, Juan M", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Baumgartner Jr", "given_name": "William A", "identifiers": [{"identifier": "0000-0001-6717-5313", "scheme": "orcid"}], "name": "Baumgartner Jr, William A", "type": "personal"}}, {"affiliations": [[6, "University of Pittsburgh School of Medicine"]], "person_or_org": {"family_name": "Boyce", "given_name": "Richard D", "identifiers": [{"identifier": "0000-0002-2993-2085", "scheme": "orcid"}], "name": "Boyce, Richard D", "type": "personal"}}, {"affiliations": [[7, "Universit\u00e0 degli Studi di Milano"]], "person_or_org": {"family_name": "Casiraghi", "given_name": "Elena", "identifiers": [{"identifier": "0000-0003-2024-7572", "scheme": "orcid"}], "name": "Casiraghi, Elena", "type": "personal"}}, {"affiliations": [[8, "The Jackson Laboratory for Genomic Medicine"]], "person_or_org": {"family_name": "Coleman", "given_name": "B", "identifiers": [{"identifier": "0000-0002-4422-1708", "scheme": "orcid"}], "name": "Coleman, B", "type": "personal"}}, {"affiliations": [[9, "University of Cambridge"]], "person_or_org": {"family_name": "Collins", "given_name": "Janine H", "identifiers": [{"identifier": "0000-0002-8716-3261", "scheme": "orcid"}], "name": "Collins, Janine H", "type": "personal"}}, {"affiliations": [[10, "Children\u0027s Hospital Colorado"]], "person_or_org": {"family_name": "Deakyne Davies", "given_name": "Sara J", "identifiers": [{"identifier": "0000-0002-8602-1624", "scheme": "orcid"}], "name": "Deakyne Davies, Sara J", "type": "personal"}}, {"affiliations": [[11, "University of Colorado Anschutz School of Medicine"]], "person_or_org": {"family_name": "Feinstein", "given_name": "James A", "identifiers": [{"identifier": "0000-0003-3074-8805", "scheme": "orcid"}], "name": "Feinstein, James A", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Haendel", "given_name": "Melissa A", "identifiers": [{"identifier": "0000-0001-9114-8737", "scheme": "orcid"}], "name": "Haendel, Melissa A", "type": "personal"}}, {"affiliations": [[3, "National Institutes of Health"]], "person_or_org": {"family_name": "Lin", "given_name": "Asiyah Y", "identifiers": [{"identifier": "0000-0003-2620-0345", "scheme": "orcid"}], "name": "Lin, Asiyah Y", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Martin", "given_name": "Blake", "identifiers": [{"identifier": "0000-0001-5683-8310", "scheme": "orcid"}], "name": "Martin, Blake", "type": "personal"}}, {"affiliations": [[13, "Semanticly"]], "person_or_org": {"family_name": "Matentzoglu", "given_name": "Nico", "identifiers": [{"identifier": "0000-0002-7356-1779", "scheme": "orcid"}], "name": "Matentzoglu, Nico", "type": "personal"}}, {"affiliations": [[14, "University of Southern California"]], "person_or_org": {"family_name": "Meeker", "given_name": "Daniella", "identifiers": [{"identifier": "0000-0002-1034-7628", "scheme": "orcid"}], "name": "Meeker, Daniella", "type": "personal"}}, {"affiliations": [[15, "Lawrence Berkeley National Laboratory"]], "person_or_org": {"family_name": "Reese", "given_name": "Justin", "identifiers": [{"identifier": "0000-0002-2170-2250", "scheme": "orcid"}], "name": "Reese, Justin", "type": "personal"}}, {"affiliations": [[16, "HealthLinc"]], "person_or_org": {"family_name": "Sinclair", "given_name": "Jessica", "name": "Sinclair, Jessica", "type": "personal"}}, {"affiliations": [[17, "University of Pittsburgh"]], "person_or_org": {"family_name": "Taneja", "given_name": "Sanya B", "identifiers": [{"identifier": "0000-0003-1707-1617", "scheme": "orcid"}], "name": "Taneja, Sanya B", "type": "personal"}}, {"affiliations": [[18, "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine"]], "person_or_org": {"family_name": "Trinkley", "given_name": "Katy E", "identifiers": [{"identifier": "0000-0003-2041-7404", "scheme": "orcid"}], "name": "Trinkley, Katy E", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Vasilevsky", "given_name": "Nicole A", "identifiers": [{"identifier": "0000-0001-5208-3432", "scheme": "orcid"}], "name": "Vasilevsky, Nicole A", "type": "personal"}}, {"affiliations": [[19, "Tufts University"]], "person_or_org": {"family_name": "Williams", "given_name": "Andrew", "identifiers": [{"identifier": "0000-0002-0692-412X", "scheme": "orcid"}], "name": "Williams, Andrew", "type": "personal"}}, {"affiliations": [[20, "Sema4"]], "person_or_org": {"family_name": "Zhang", "given_name": "Xingman A", "identifiers": [{"identifier": "0000-0002-7284-3950", "scheme": "orcid"}], "name": "Zhang, Xingman A", "type": "personal"}}, {"affiliations": [[8, "The Jackson Laboratory for Genomic Medicine"]], "person_or_org": {"family_name": "Robinson", "given_name": "Peter N", "identifiers": [{"identifier": "0000-0002-0736-9199", "scheme": "orcid"}], "name": "Robinson, Peter N", "type": "personal"}}, {"affiliations": [[21, "Janssen Research and Development"]], "person_or_org": {"family_name": "Ryan", "given_name": "Patrick B", "name": "Ryan, Patrick B", "type": "personal"}}, {"affiliations": [[4, "Columbia University Irving Medical Center"]], "person_or_org": {"family_name": "Hripcsak", "given_name": "George", "identifiers": [{"identifier": "0000-0003-2664-7614", "scheme": "orcid"}], "name": "Hripcsak, George", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Bennett", "given_name": "Tellen D", "identifiers": [{"identifier": "0000-0003-1483-4236", "scheme": "orcid"}], "name": "Bennett, Tellen D", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Hunter", "given_name": "Lawrence E", "identifiers": [{"identifier": "0000-0003-1455-3370", "scheme": "orcid"}], "name": "Hunter, Lawrence E", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Kahn", "given_name": "Michael G", "identifiers": [{"identifier": "0000-0003-4786-6875", "scheme": "orcid"}], "name": "Kahn, Michael G", "type": "personal"}}]}, "custom_fields": {}, "description_stripped": "Common data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing.", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "September 10, 2022", "publication_date_l10n_medium": "Sep 10, 2022", "related_identifiers": [{"identifier": "https://github.com/callahantiff/OMOP2OBO", "relation_type": {"id": "references", "title_l10n": "References"}, "resource_type": {"id": "software", "title_l10n": "Software"}, "scheme": "url"}], "resource_type": {"id": "publication-preprint", "title_l10n": "Preprint"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "July 16, 2024", "version": "V2.0.1"}, "updated": "2024-07-16T03:29:38.667322+00:00", "versions": {"index": 4, "is_latest": false}}' data-preview='false'>
+        <div class="rel-p-1"></div>
+        <div class="ui fluid placeholder rel-mr-1 rel-ml-1"></div>
+        <div class="header">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="sidebar-container">
+  <h2 class="ui small top attached header">External resources</h2>
+  <dl id="external-resource" aria-label="External resources" class="ui bottom attached segment rdm-sidebar external resource details-list">
+
+    <dt class="ui tiny header">Indexed in</dt>
+      <ul class="ui list no-bullet m-0">
+              <li class="item flex align-items-center">
+
+                
+                  <img class="ui image" src="/static/images/openaire.svg" alt="" width="32">
+                
+
+                <div class="content">
+                  <a
+                    class="header"
+                    href="https://explore.openaire.eu/search/result?pid=10.5281/zenodo.7067342"
+                    target="_blank"
+                    rel="noreferrer"
+                  >OpenAIRE
+                  </a>
+
+                  </div>
+              </li></ul></dl>
+</div><div
+  id="sidebar-communities-manage"
+  data-user-communities-memberships='{}'
+  data-record-community-endpoint='https://zenodo.org/api/records/7067342/communities'
+  data-record-community-search-endpoint='https://zenodo.org/api/records/7067342/communities-suggestions'
+  data-record-community-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "funder", "field": "metadata.funding.funder", "title": "Funders"}, {"aggName": "organization", "field": "metadata.organizations", "title": "Organizations"}], "appId": "InvenioAppRdm.RecordCommunitiesSuggestions", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": null, "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}]}, "searchApi": {"axios": {"headers": {"Accept": "application/vnd.inveniordm.v1+json"}, "url": "https://zenodo.org/api/records/7067342/communities-suggestions", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}], "sortOrderDisabled": true}'
+  data-record-user-community-search-endpoint=''
+  data-record-user-community-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "funder", "field": "metadata.funding.funder", "title": "Funders"}, {"aggName": "organization", "field": "metadata.organizations", "title": "Organizations"}], "appId": "InvenioAppRdm.RecordUserCommunitiesSuggestions", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": [["membership", "true"]], "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}]}, "searchApi": {"axios": {"headers": {"Accept": "application/vnd.inveniordm.v1+json"}, "url": "https://zenodo.org/api/records/7067342/communities-suggestions", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}], "sortOrderDisabled": true}'
+  data-pending-communities-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "status", "field": "status", "title": "Status"}], "appId": "InvenioAppRdm.RecordRequests", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": [["expand", "1"], ["is_open", "true"], ["type", "community-inclusion"], ["type", "community-submission"]], "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}, {"text": "50", "value": 50}]}, "searchApi": {"axios": {"headers": {"Accept": "application/json"}, "url": "https://zenodo.org/api/records/7067342/requests", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}, {"sortBy": "newestactivity", "text": "Newest activity"}, {"sortBy": "oldestactivity", "text": "Oldest activity"}], "sortOrderDisabled": true}'
+  data-permissions='{"can_edit": false, "can_immediately_delete": false, "can_manage": false, "can_media_read_files": true, "can_moderate": false, "can_new_version": false, "can_read_files": true, "can_request_deletion": false, "can_review": false, "can_update_draft": false, "can_view": false}'
+  data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2022-09-10T18:49:21.396134+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "62793", "is_current_user": false, "links": {"avatar": "https://zenodo.org/api/users/62793/avatar.svg", "records_html": "https://zenodo.org/search/records?q=parent.access.owned_by.user:62793", "self": "https://zenodo.org/api/users/62793"}, "profile": {"affiliations": "", "full_name": "Tiffany J. Callahan"}, "username": "callahantiff", "verified_at": null}}, "communities": {"default": {"access": {"review_policy": "open", "visibility": "public"}, "id": "d5edc788-2914-4e51-8405-9f29894062d5", "links": {"logo": "https://zenodo.org/api/communities/d5edc788-2914-4e51-8405-9f29894062d5/logo"}, "metadata": {"description": null, "title": "OMOP2OBO", "type": null}, "slug": "omop2obo"}}}}, "files": {"count": 3, "enabled": true, "entries": {"OMOP2OBO_Manuscript_v2.pdf": {"access": {"hidden": false}, "checksum": "md5:207270175091545319c68282e41718f6", "ext": "pdf", "id": "658a3a18-8e3f-4cff-9b91-971d73400fde", "key": "OMOP2OBO_Manuscript_v2.pdf", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf/content", "iiif_api": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf", "iiif_canvas": "https://zenodo.org/api/iiif/record:7067342/canvas/OMOP2OBO_Manuscript_v2.pdf", "iiif_info": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/info.json", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf"}, "metadata": null, "mimetype": "application/pdf", "size": 3644769, "storage_class": "L"}, "OMOP2OBO_Overview_Figure.png": {"access": {"hidden": false}, "checksum": "md5:cba8543e7575364de20f138efebd4266", "ext": "png", "id": "6e0d0f67-a3c6-42ad-943e-8e84fb6414d5", "key": "OMOP2OBO_Overview_Figure.png", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png/content", "iiif_api": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Overview_Figure.png/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Overview_Figure.png", "iiif_canvas": "https://zenodo.org/api/iiif/record:7067342/canvas/OMOP2OBO_Overview_Figure.png", "iiif_info": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Overview_Figure.png/info.json", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png"}, "metadata": {"height": 1125, "width": 2000}, "mimetype": "image/png", "size": 567854, "storage_class": "L"}, "OMOP2OBO_Supplementary_Material_v2.pdf": {"access": {"hidden": false}, "checksum": "md5:b0b9249093cb7c78a9f5a0d911030be7", "ext": "pdf", "id": "e93fad41-439b-4621-ad1e-578ef0fc8482", "key": "OMOP2OBO_Supplementary_Material_v2.pdf", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf/content", "iiif_api": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Supplementary_Material_v2.pdf/full/full/0/default.png", "iiif_base": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Supplementary_Material_v2.pdf", "iiif_canvas": "https://zenodo.org/api/iiif/record:7067342/canvas/OMOP2OBO_Supplementary_Material_v2.pdf", "iiif_info": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Supplementary_Material_v2.pdf/info.json", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf"}, "metadata": null, "mimetype": "application/pdf", "size": 5925666, "storage_class": "L"}}, "order": [], "total_bytes": 10138289}, "id": "7067342", "is_draft": false, "is_published": true, "links": {"access": "https://zenodo.org/api/records/7067342/access", "access_grants": "https://zenodo.org/api/records/7067342/access/grants", "access_links": "https://zenodo.org/api/records/7067342/access/links", "access_request": "https://zenodo.org/api/records/7067342/access/request", "access_users": "https://zenodo.org/api/records/7067342/access/users", "archive": "https://zenodo.org/api/records/7067342/files-archive", "archive_media": "https://zenodo.org/api/records/7067342/media-files-archive", "communities": "https://zenodo.org/api/records/7067342/communities", "communities-suggestions": "https://zenodo.org/api/records/7067342/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.7067342", "draft": "https://zenodo.org/api/records/7067342/draft", "file_modification": "https://zenodo.org/api/records/7067342/file-modification", "files": "https://zenodo.org/api/records/7067342/files", "latest": "https://zenodo.org/api/records/7067342/versions/latest", "latest_html": "https://zenodo.org/records/7067342/latest", "media_files": "https://zenodo.org/api/records/7067342/media-files", "parent": "https://zenodo.org/api/records/5716421", "parent_doi": "https://doi.org/10.5281/zenodo.5716421", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5716421", "parent_html": "https://zenodo.org/records/5716421", "preview_html": "https://zenodo.org/records/7067342?preview=1", "request_deletion": "https://zenodo.org/api/records/7067342/request-deletion", "requests": "https://zenodo.org/api/records/7067342/requests", "reserve_doi": "https://zenodo.org/api/records/7067342/draft/pids/doi", "self": "https://zenodo.org/api/records/7067342", "self_doi": "https://doi.org/10.5281/zenodo.7067342", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7067342", "self_html": "https://zenodo.org/records/7067342", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7067342/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7067342/sequence/default", "thumbnails": {"10": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E10,/0/default.jpg", "100": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E100,/0/default.jpg", "1200": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E1200,/0/default.jpg", "250": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E250,/0/default.jpg", "50": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E50,/0/default.jpg", "750": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E750,/0/default.jpg"}, "versions": "https://zenodo.org/api/records/7067342/versions"}, "media_files": {"count": 3, "enabled": true, "entries": {"OMOP2OBO_Manuscript_v2.pdf.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "1ada3387-62c6-4d9c-a300-34ed24e09728", "key": "OMOP2OBO_Manuscript_v2.pdf.ptif", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf.ptif/content", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Manuscript_v2.pdf.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "658a3a18-8e3f-4cff-9b91-971d73400fde", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}, "OMOP2OBO_Overview_Figure.png.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "3ee6a1ab-b173-4dd3-ba85-9a4a51fb3edb", "key": "OMOP2OBO_Overview_Figure.png.ptif", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png.ptif/content", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Overview_Figure.png.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "6e0d0f67-a3c6-42ad-943e-8e84fb6414d5", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}, "OMOP2OBO_Supplementary_Material_v2.pdf.ptif": {"access": {"hidden": true}, "ext": "ptif", "id": "c2efadd3-09a3-444b-8970-b2d3d8409294", "key": "OMOP2OBO_Supplementary_Material_v2.pdf.ptif", "links": {"content": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf.ptif/content", "self": "https://zenodo.org/api/records/7067342/files/OMOP2OBO_Supplementary_Material_v2.pdf.ptif"}, "metadata": null, "mimetype": "application/octet-stream", "processor": {"source_file_id": "e93fad41-439b-4621-ad1e-578ef0fc8482", "status": "finished", "type": "image-tiles"}, "size": 0, "storage_class": "L"}}, "order": [], "total_bytes": 0}, "metadata": {"additional_descriptions": [{"description": "This work was supported by funding from the National Library of Medicine (T15LM009451) to Lawrence E. Hunter and (T15LM007079) to George Hripcsak.", "type": {"id": "notes", "title": {"de": "Anmerkungen", "en": "Notes"}}}], "creators": [{"affiliations": [{"name": "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center"}], "person_or_org": {"family_name": "Callahan", "given_name": "Tiffany J", "identifiers": [{"identifier": "0000-0002-8169-9049", "scheme": "orcid"}], "name": "Callahan, Tiffany J", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Stefanski", "given_name": "Adrianne L", "identifiers": [{"identifier": "0000-0002-7355-7745", "scheme": "orcid"}], "name": "Stefanski, Adrianne L", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Wyrwa", "given_name": "Jordan M", "identifiers": [{"identifier": "0000-0002-5455-5859", "scheme": "orcid"}], "name": "Wyrwa, Jordan M", "type": "personal"}}, {"affiliations": [{"name": "National Institutes of Health"}], "person_or_org": {"family_name": "Zeng", "given_name": "Chenjie", "identifiers": [{"identifier": "0000-0002-0149-5661", "scheme": "orcid"}], "name": "Zeng, Chenjie", "type": "personal"}}, {"affiliations": [{"name": "Columbia University Irving Medical Center"}], "person_or_org": {"family_name": "Ostropolets", "given_name": "Anna", "identifiers": [{"identifier": "0000-0002-0847-6682", "scheme": "orcid"}], "name": "Ostropolets, Anna", "type": "personal"}}, {"affiliations": [{"name": "Georgia State University"}], "person_or_org": {"family_name": "Banda", "given_name": "Juan M", "identifiers": [{"identifier": "0000-0001-8499-824X", "scheme": "orcid"}], "name": "Banda, Juan M", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Baumgartner Jr", "given_name": "William A", "identifiers": [{"identifier": "0000-0001-6717-5313", "scheme": "orcid"}], "name": "Baumgartner Jr, William A", "type": "personal"}}, {"affiliations": [{"name": "University of Pittsburgh School of Medicine"}], "person_or_org": {"family_name": "Boyce", "given_name": "Richard D", "identifiers": [{"identifier": "0000-0002-2993-2085", "scheme": "orcid"}], "name": "Boyce, Richard D", "type": "personal"}}, {"affiliations": [{"name": "Universit\u00e0 degli Studi di Milano"}], "person_or_org": {"family_name": "Casiraghi", "given_name": "Elena", "identifiers": [{"identifier": "0000-0003-2024-7572", "scheme": "orcid"}], "name": "Casiraghi, Elena", "type": "personal"}}, {"affiliations": [{"name": "The Jackson Laboratory for Genomic Medicine"}], "person_or_org": {"family_name": "Coleman", "given_name": "B", "identifiers": [{"identifier": "0000-0002-4422-1708", "scheme": "orcid"}], "name": "Coleman, B", "type": "personal"}}, {"affiliations": [{"name": "University of Cambridge"}], "person_or_org": {"family_name": "Collins", "given_name": "Janine H", "identifiers": [{"identifier": "0000-0002-8716-3261", "scheme": "orcid"}], "name": "Collins, Janine H", "type": "personal"}}, {"affiliations": [{"name": "Children\u0027s Hospital Colorado"}], "person_or_org": {"family_name": "Deakyne Davies", "given_name": "Sara J", "identifiers": [{"identifier": "0000-0002-8602-1624", "scheme": "orcid"}], "name": "Deakyne Davies, Sara J", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz School of Medicine"}], "person_or_org": {"family_name": "Feinstein", "given_name": "James A", "identifiers": [{"identifier": "0000-0003-3074-8805", "scheme": "orcid"}], "name": "Feinstein, James A", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Haendel", "given_name": "Melissa A", "identifiers": [{"identifier": "0000-0001-9114-8737", "scheme": "orcid"}], "name": "Haendel, Melissa A", "type": "personal"}}, {"affiliations": [{"name": "National Institutes of Health"}], "person_or_org": {"family_name": "Lin", "given_name": "Asiyah Y", "identifiers": [{"identifier": "0000-0003-2620-0345", "scheme": "orcid"}], "name": "Lin, Asiyah Y", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Martin", "given_name": "Blake", "identifiers": [{"identifier": "0000-0001-5683-8310", "scheme": "orcid"}], "name": "Martin, Blake", "type": "personal"}}, {"affiliations": [{"name": "Semanticly"}], "person_or_org": {"family_name": "Matentzoglu", "given_name": "Nico", "identifiers": [{"identifier": "0000-0002-7356-1779", "scheme": "orcid"}], "name": "Matentzoglu, Nico", "type": "personal"}}, {"affiliations": [{"name": "University of Southern California"}], "person_or_org": {"family_name": "Meeker", "given_name": "Daniella", "identifiers": [{"identifier": "0000-0002-1034-7628", "scheme": "orcid"}], "name": "Meeker, Daniella", "type": "personal"}}, {"affiliations": [{"name": "Lawrence Berkeley National Laboratory"}], "person_or_org": {"family_name": "Reese", "given_name": "Justin", "identifiers": [{"identifier": "0000-0002-2170-2250", "scheme": "orcid"}], "name": "Reese, Justin", "type": "personal"}}, {"affiliations": [{"name": "HealthLinc"}], "person_or_org": {"family_name": "Sinclair", "given_name": "Jessica", "name": "Sinclair, Jessica", "type": "personal"}}, {"affiliations": [{"name": "University of Pittsburgh"}], "person_or_org": {"family_name": "Taneja", "given_name": "Sanya B", "identifiers": [{"identifier": "0000-0003-1707-1617", "scheme": "orcid"}], "name": "Taneja, Sanya B", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine"}], "person_or_org": {"family_name": "Trinkley", "given_name": "Katy E", "identifiers": [{"identifier": "0000-0003-2041-7404", "scheme": "orcid"}], "name": "Trinkley, Katy E", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado Anschutz Medical Campus"}], "person_or_org": {"family_name": "Vasilevsky", "given_name": "Nicole A", "identifiers": [{"identifier": "0000-0001-5208-3432", "scheme": "orcid"}], "name": "Vasilevsky, Nicole A", "type": "personal"}}, {"affiliations": [{"name": "Tufts University"}], "person_or_org": {"family_name": "Williams", "given_name": "Andrew", "identifiers": [{"identifier": "0000-0002-0692-412X", "scheme": "orcid"}], "name": "Williams, Andrew", "type": "personal"}}, {"affiliations": [{"name": "Sema4"}], "person_or_org": {"family_name": "Zhang", "given_name": "Xingman A", "identifiers": [{"identifier": "0000-0002-7284-3950", "scheme": "orcid"}], "name": "Zhang, Xingman A", "type": "personal"}}, {"affiliations": [{"name": "The Jackson Laboratory for Genomic Medicine"}], "person_or_org": {"family_name": "Robinson", "given_name": "Peter N", "identifiers": [{"identifier": "0000-0002-0736-9199", "scheme": "orcid"}], "name": "Robinson, Peter N", "type": "personal"}}, {"affiliations": [{"name": "Janssen Research and Development"}], "person_or_org": {"family_name": "Ryan", "given_name": "Patrick B", "name": "Ryan, Patrick B", "type": "personal"}}, {"affiliations": [{"name": "Columbia University Irving Medical Center"}], "person_or_org": {"family_name": "Hripcsak", "given_name": "George", "identifiers": [{"identifier": "0000-0003-2664-7614", "scheme": "orcid"}], "name": "Hripcsak, George", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Bennett", "given_name": "Tellen D", "identifiers": [{"identifier": "0000-0003-1483-4236", "scheme": "orcid"}], "name": "Bennett, Tellen D", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Hunter", "given_name": "Lawrence E", "identifiers": [{"identifier": "0000-0003-1455-3370", "scheme": "orcid"}], "name": "Hunter, Lawrence E", "type": "personal"}}, {"affiliations": [{"name": "University of Colorado School of Medicine"}], "person_or_org": {"family_name": "Kahn", "given_name": "Michael G", "identifiers": [{"identifier": "0000-0003-4786-6875", "scheme": "orcid"}], "name": "Kahn, Michael G", "type": "personal"}}], "description": "\u003cp\u003eCommon data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing.\u003c/p\u003e", "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2022-09-10", "publisher": "Zenodo", "related_identifiers": [{"identifier": "https://github.com/callahantiff/OMOP2OBO", "relation_type": {"id": "references", "title": {"de": "Referenziert", "en": "References"}}, "resource_type": {"id": "software", "title": {"de": "Software", "en": "Software"}}, "scheme": "url"}], "resource_type": {"id": "publication-preprint", "title": {"de": "Preprint", "en": "Preprint"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "subjects": [{"subject": "OMOP"}, {"subject": "Open Biomedical Ontologies"}, {"subject": "Semantic Alignment"}, {"subject": "Interoperability"}, {"subject": "Mappings"}], "title": "Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality", "version": "V2.0.1"}, "parent": {"access": {"owned_by": {"user": "62793"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {"default": "d5edc788-2914-4e51-8405-9f29894062d5", "entries": [{"access": {"member_policy": "open", "members_visibility": "public", "record_submission_policy": "open", "review_policy": "open", "visibility": "public"}, "children": {"allow": false}, "created": "2021-11-20T22:23:17.528402+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "id": "d5edc788-2914-4e51-8405-9f29894062d5", "links": {}, "metadata": {"curation_policy": "\u003cp\u003eThis community is meant to store publications, presentations, code, and output that are relevant to OMOP2OBO.\u003c/p\u003e\r\n", "page": "\u003cp\u003e\u003cstrong\u003eTools to Support Semantic Interoperability between Biomedical Ontologies and Clinical Terminologies\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ccode\u003eomop2obo\u003c/code\u003e\u0026nbsp;is a semantic alignment\u0026nbsp;algorithm and a collection of health system-wide, disease-agnostic mappings between clinical terminologies, like those available\u0026nbsp;in the Observational Medical Outcomes Partnership (\u003ca href=\"https://www.ohdsi.org/data-standardization/the-common-data-model/\"\u003eOMOP\u003c/a\u003e) Common Data Model, and Open Biomedical Foundry Ontologies (\u003ca href=\"http://www.obofoundry.org/\"\u003eOBOs\u003c/a\u003e)\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ca href=\"https://github.com/callahantiff/OMOP2OBO\"\u003ehttps://github.com/callahantiff/OMOP2OBO\u003c/a\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ccode\u003eomop2obo\u003c/code\u003e\u0026nbsp;is a semantic alignment\u0026nbsp;algorithm and a collection of health system-wide, disease-agnostic mappings between clinical terminologies, like those available\u0026nbsp;in the Observational Medical Outcomes Partnership (\u003ca href=\"https://www.ohdsi.org/data-standardization/the-common-data-model/\"\u003eOMOP\u003c/a\u003e) Common Data Model, and Open Biomedical Foundry Ontologies (\u003ca href=\"http://www.obofoundry.org/\"\u003eOBOs\u003c/a\u003e).\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eMotivation\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eCommon data models have solved many challenges of utilizing electronic health records, but have not yet meaningfully integrated clinical and molecular data. Aligning clinical data to open biological ontologies (\u003ca href=\"http://www.obofoundry.org/\"\u003eOBOs\u003c/a\u003e), which provide semantically computable representations of biological knowledge, requires extensive manual curation and expertise.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eObjective\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eTo address these limitations, we have developed\u0026nbsp;\u003ccode\u003eOMOP2OBO\u003c/code\u003e, the first health system-wide integration and alignment between the Observational Health Data Sciences and Informatics\u0026#39; Observational Medical Outcomes Partnership (\u003ca href=\"https://www.ohdsi.org/data-standardization/the-common-data-model/\"\u003eOMOP\u003c/a\u003e) standardized clinical terminologies and eight OBO biomedical ontologies spanning diseases, phenotypes, anatomical entities, cell types, organisms, chemicals, metabolites, hormones, vaccines, and proteins. To verify that the mappings are both clinically and biologically meaningful, we have performed extensive experiments to verify the\u0026nbsp;\u003ca href=\"https://github.com/callahantiff/OMOP2OBO/wiki/Accuracy\"\u003eaccuracy\u003c/a\u003e,\u0026nbsp;\u003ca href=\"https://github.com/callahantiff/OMOP2OBO/wiki/Generalizability\"\u003egeneralizability\u003c/a\u003e, and\u0026nbsp;\u003ca href=\"https://github.com/callahantiff/OMOP2OBO/wiki/Consistency\"\u003elogical consistency\u003c/a\u003e\u0026nbsp;of each released mapping set.\u003c/p\u003e", "title": "OMOP2OBO"}, "revision_id": 0, "slug": "omop2obo", "updated": "2021-11-20T22:29:51.127764+00:00"}], "ids": ["d5edc788-2914-4e51-8405-9f29894062d5"]}, "id": "5716421", "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.5716421", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.7067342", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:7067342", "provider": "oai"}}, "revision_id": 11, "stats": {"all_versions": {"data_volume": 5639026571.0, "downloads": 1635, "unique_downloads": 1587, "unique_views": 1002, "views": 1036}, "this_version": {"data_volume": 980092964.0, "downloads": 260, "unique_downloads": 256, "unique_views": 144, "views": 146}}, "status": "published", "swh": {}, "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "additional_descriptions": [{"description": "This work was supported by funding from the National Library of Medicine (T15LM009451) to Lawrence E. Hunter and (T15LM007079) to George Hripcsak.", "type": {"id": "notes", "title_l10n": "Notes"}}], "created_date_l10n_long": "September 10, 2022", "creators": {"affiliations": [[1, "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center", null], [2, "University of Colorado Anschutz Medical Campus", null], [3, "National Institutes of Health", null], [4, "Columbia University Irving Medical Center", null], [5, "Georgia State University", null], [6, "University of Pittsburgh School of Medicine", null], [7, "Universit\u00e0 degli Studi di Milano", null], [8, "The Jackson Laboratory for Genomic Medicine", null], [9, "University of Cambridge", null], [10, "Children\u0027s Hospital Colorado", null], [11, "University of Colorado Anschutz School of Medicine", null], [12, "University of Colorado School of Medicine", null], [13, "Semanticly", null], [14, "University of Southern California", null], [15, "Lawrence Berkeley National Laboratory", null], [16, "HealthLinc", null], [17, "University of Pittsburgh", null], [18, "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine", null], [19, "Tufts University", null], [20, "Sema4", null], [21, "Janssen Research and Development", null]], "creators": [{"affiliations": [[1, "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center"]], "person_or_org": {"family_name": "Callahan", "given_name": "Tiffany J", "identifiers": [{"identifier": "0000-0002-8169-9049", "scheme": "orcid"}], "name": "Callahan, Tiffany J", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Stefanski", "given_name": "Adrianne L", "identifiers": [{"identifier": "0000-0002-7355-7745", "scheme": "orcid"}], "name": "Stefanski, Adrianne L", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Wyrwa", "given_name": "Jordan M", "identifiers": [{"identifier": "0000-0002-5455-5859", "scheme": "orcid"}], "name": "Wyrwa, Jordan M", "type": "personal"}}, {"affiliations": [[3, "National Institutes of Health"]], "person_or_org": {"family_name": "Zeng", "given_name": "Chenjie", "identifiers": [{"identifier": "0000-0002-0149-5661", "scheme": "orcid"}], "name": "Zeng, Chenjie", "type": "personal"}}, {"affiliations": [[4, "Columbia University Irving Medical Center"]], "person_or_org": {"family_name": "Ostropolets", "given_name": "Anna", "identifiers": [{"identifier": "0000-0002-0847-6682", "scheme": "orcid"}], "name": "Ostropolets, Anna", "type": "personal"}}, {"affiliations": [[5, "Georgia State University"]], "person_or_org": {"family_name": "Banda", "given_name": "Juan M", "identifiers": [{"identifier": "0000-0001-8499-824X", "scheme": "orcid"}], "name": "Banda, Juan M", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Baumgartner Jr", "given_name": "William A", "identifiers": [{"identifier": "0000-0001-6717-5313", "scheme": "orcid"}], "name": "Baumgartner Jr, William A", "type": "personal"}}, {"affiliations": [[6, "University of Pittsburgh School of Medicine"]], "person_or_org": {"family_name": "Boyce", "given_name": "Richard D", "identifiers": [{"identifier": "0000-0002-2993-2085", "scheme": "orcid"}], "name": "Boyce, Richard D", "type": "personal"}}, {"affiliations": [[7, "Universit\u00e0 degli Studi di Milano"]], "person_or_org": {"family_name": "Casiraghi", "given_name": "Elena", "identifiers": [{"identifier": "0000-0003-2024-7572", "scheme": "orcid"}], "name": "Casiraghi, Elena", "type": "personal"}}, {"affiliations": [[8, "The Jackson Laboratory for Genomic Medicine"]], "person_or_org": {"family_name": "Coleman", "given_name": "B", "identifiers": [{"identifier": "0000-0002-4422-1708", "scheme": "orcid"}], "name": "Coleman, B", "type": "personal"}}, {"affiliations": [[9, "University of Cambridge"]], "person_or_org": {"family_name": "Collins", "given_name": "Janine H", "identifiers": [{"identifier": "0000-0002-8716-3261", "scheme": "orcid"}], "name": "Collins, Janine H", "type": "personal"}}, {"affiliations": [[10, "Children\u0027s Hospital Colorado"]], "person_or_org": {"family_name": "Deakyne Davies", "given_name": "Sara J", "identifiers": [{"identifier": "0000-0002-8602-1624", "scheme": "orcid"}], "name": "Deakyne Davies, Sara J", "type": "personal"}}, {"affiliations": [[11, "University of Colorado Anschutz School of Medicine"]], "person_or_org": {"family_name": "Feinstein", "given_name": "James A", "identifiers": [{"identifier": "0000-0003-3074-8805", "scheme": "orcid"}], "name": "Feinstein, James A", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Haendel", "given_name": "Melissa A", "identifiers": [{"identifier": "0000-0001-9114-8737", "scheme": "orcid"}], "name": "Haendel, Melissa A", "type": "personal"}}, {"affiliations": [[3, "National Institutes of Health"]], "person_or_org": {"family_name": "Lin", "given_name": "Asiyah Y", "identifiers": [{"identifier": "0000-0003-2620-0345", "scheme": "orcid"}], "name": "Lin, Asiyah Y", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Martin", "given_name": "Blake", "identifiers": [{"identifier": "0000-0001-5683-8310", "scheme": "orcid"}], "name": "Martin, Blake", "type": "personal"}}, {"affiliations": [[13, "Semanticly"]], "person_or_org": {"family_name": "Matentzoglu", "given_name": "Nico", "identifiers": [{"identifier": "0000-0002-7356-1779", "scheme": "orcid"}], "name": "Matentzoglu, Nico", "type": "personal"}}, {"affiliations": [[14, "University of Southern California"]], "person_or_org": {"family_name": "Meeker", "given_name": "Daniella", "identifiers": [{"identifier": "0000-0002-1034-7628", "scheme": "orcid"}], "name": "Meeker, Daniella", "type": "personal"}}, {"affiliations": [[15, "Lawrence Berkeley National Laboratory"]], "person_or_org": {"family_name": "Reese", "given_name": "Justin", "identifiers": [{"identifier": "0000-0002-2170-2250", "scheme": "orcid"}], "name": "Reese, Justin", "type": "personal"}}, {"affiliations": [[16, "HealthLinc"]], "person_or_org": {"family_name": "Sinclair", "given_name": "Jessica", "name": "Sinclair, Jessica", "type": "personal"}}, {"affiliations": [[17, "University of Pittsburgh"]], "person_or_org": {"family_name": "Taneja", "given_name": "Sanya B", "identifiers": [{"identifier": "0000-0003-1707-1617", "scheme": "orcid"}], "name": "Taneja, Sanya B", "type": "personal"}}, {"affiliations": [[18, "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine"]], "person_or_org": {"family_name": "Trinkley", "given_name": "Katy E", "identifiers": [{"identifier": "0000-0003-2041-7404", "scheme": "orcid"}], "name": "Trinkley, Katy E", "type": "personal"}}, {"affiliations": [[2, "University of Colorado Anschutz Medical Campus"]], "person_or_org": {"family_name": "Vasilevsky", "given_name": "Nicole A", "identifiers": [{"identifier": "0000-0001-5208-3432", "scheme": "orcid"}], "name": "Vasilevsky, Nicole A", "type": "personal"}}, {"affiliations": [[19, "Tufts University"]], "person_or_org": {"family_name": "Williams", "given_name": "Andrew", "identifiers": [{"identifier": "0000-0002-0692-412X", "scheme": "orcid"}], "name": "Williams, Andrew", "type": "personal"}}, {"affiliations": [[20, "Sema4"]], "person_or_org": {"family_name": "Zhang", "given_name": "Xingman A", "identifiers": [{"identifier": "0000-0002-7284-3950", "scheme": "orcid"}], "name": "Zhang, Xingman A", "type": "personal"}}, {"affiliations": [[8, "The Jackson Laboratory for Genomic Medicine"]], "person_or_org": {"family_name": "Robinson", "given_name": "Peter N", "identifiers": [{"identifier": "0000-0002-0736-9199", "scheme": "orcid"}], "name": "Robinson, Peter N", "type": "personal"}}, {"affiliations": [[21, "Janssen Research and Development"]], "person_or_org": {"family_name": "Ryan", "given_name": "Patrick B", "name": "Ryan, Patrick B", "type": "personal"}}, {"affiliations": [[4, "Columbia University Irving Medical Center"]], "person_or_org": {"family_name": "Hripcsak", "given_name": "George", "identifiers": [{"identifier": "0000-0003-2664-7614", "scheme": "orcid"}], "name": "Hripcsak, George", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Bennett", "given_name": "Tellen D", "identifiers": [{"identifier": "0000-0003-1483-4236", "scheme": "orcid"}], "name": "Bennett, Tellen D", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Hunter", "given_name": "Lawrence E", "identifiers": [{"identifier": "0000-0003-1455-3370", "scheme": "orcid"}], "name": "Hunter, Lawrence E", "type": "personal"}}, {"affiliations": [[12, "University of Colorado School of Medicine"]], "person_or_org": {"family_name": "Kahn", "given_name": "Michael G", "identifiers": [{"identifier": "0000-0003-4786-6875", "scheme": "orcid"}], "name": "Kahn, Michael G", "type": "personal"}}]}, "custom_fields": {}, "description_stripped": "Common data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing.", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "September 10, 2022", "publication_date_l10n_medium": "Sep 10, 2022", "related_identifiers": [{"identifier": "https://github.com/callahantiff/OMOP2OBO", "relation_type": {"id": "references", "title_l10n": "References"}, "resource_type": {"id": "software", "title_l10n": "Software"}, "scheme": "url"}], "resource_type": {"id": "publication-preprint", "title_l10n": "Preprint"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "July 16, 2024", "version": "V2.0.1"}, "updated": "2024-07-16T03:29:38.667322+00:00", "versions": {"index": 4, "is_latest": false}}'
+  data-record-requests='{}'
+  class='sidebar-container'
+>
+
+  <h2 class="ui medium top attached header">Communities</h2>
+
+  <div class="ui segment bottom attached rdm-sidebar">
+    <div class="ui fluid placeholder">
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Keywords and subjects</h2>
+    <div id="keywords-and-subjects" aria-label="Keywords and subjects"
+            class="ui segment bottom attached rdm-sidebar">
+  
+  
+  <h3 class="hidden">Keywords</h3>
+  <ul class="ui horizontal list no-bullets subjects">
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22OMOP%22"
+          class="subject"
+          title="Search results for OMOP"
+      >
+        OMOP
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22Open+Biomedical+Ontologies%22"
+          class="subject"
+          title="Search results for Open Biomedical Ontologies"
+      >
+        Open Biomedical Ontologies
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22Semantic+Alignment%22"
+          class="subject"
+          title="Search results for Semantic Alignment"
+      >
+        Semantic Alignment
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22Interoperability%22"
+          class="subject"
+          title="Search results for Interoperability"
+      >
+        Interoperability
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22Mappings%22"
+          class="subject"
+          title="Search results for Mappings"
+      >
+        Mappings
+      </a>
+    </li>
+  </ul>
+  
+
+    </div>
+  </div>
+
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Details</h2>
+  <div id="record-details" class="ui segment bottom attached rdm-sidebar">
+
+    <dl class="details-list">
+      
+
+ 
+  <dt class="ui tiny header">DOI
+    
+  </dt>
+  <dd>
+    <span class="get-badge details-doi-section" data-toggle="tooltip" data-placement="bottom">
+      <img id='record-doi-badge' data-target="[data-modal='10.5281/zenodo.7067342']" title="Get the DOI badge!"
+        src="/badge/DOI/10.5281/zenodo.7067342.svg" alt="10.5281/zenodo.7067342" />
+      <div id="copy-button-record-doi-badge" class="copy-doi-button" data-value=https://doi.org/10.5281/zenodo.7067342 data-size="mini"></div>
+    </span>
+
+    <div id="doi-modal" class="ui modal fade badge-modal" data-modal="10.5281/zenodo.7067342">
+      <div class="header">DOI Badge</div>
+      <div class="content">
+        <h4>
+          <small>DOI</small>
+        </h4>
+        <h4>
+          <pre>10.5281/zenodo.7067342</pre>
+        </h4>
+        
+        
+
+    <h3 class="ui small header">
+      Markdown
+    </h3>
+    <div class="ui message code">
+      <pre>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7067342.svg)](https://doi.org/10.5281/zenodo.7067342)</pre>
+    </div>
+
+    <h3 class="ui small header">
+      reStructuredText
+    </h3>
+      <div class="ui message code">
+        <pre>.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.7067342.svg
+  :target: https://doi.org/10.5281/zenodo.7067342</pre>
+      </div>
+
+    <h3 class="ui small header">
+      HTML
+    </h3>
+    <div class="ui message code">
+      <pre>&lt;a href="https://doi.org/10.5281/zenodo.7067342"&gt;&lt;img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7067342.svg" alt="DOI"&gt;&lt;/a&gt;</pre>
+    </div>
+
+    <h3 class="ui small header">
+      Image URL
+    </h3>
+    <div class="ui message code">
+      <pre>https://zenodo.org/badge/DOI/10.5281/zenodo.7067342.svg</pre>
+    </div>
+
+    <h3 class="ui small header">
+    Target URL
+    </h3>
+    <div class="ui message code">
+      <pre>https://doi.org/10.5281/zenodo.7067342</pre>
+    </div>
+      </div>
+    </div>
+  </dd>
+
+      
+      
+  <dt class="ui tiny header">Resource type</dt>
+  <dd>Preprint</dd>
+      
+      
+  <dt class="ui tiny header">Publisher</dt>
+  <dd>Zenodo</dd>
+      
+      
+      
+      
+      
+  <dt class="ui tiny header">Languages</dt>
+  <dd>
+  
+    English
+  
+</dd>
+      
+      
+    </dl>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Rights</h2>
+    <div id="licenses" class="ui segment bottom attached rdm-sidebar">
+      <dl class="details-list">
+      
+        <dt class="ui tiny header">License</dt><dd id="license-cc-by-4.0-1" class="has-popup">
+              <div id="title-cc-by-4.0-1"
+                   class="license clickable"
+                   tabindex="0"
+                   aria-haspopup="dialog"
+                   aria-expanded="false"
+                   role="button"
+                   aria-label="Creative Commons Attribution 4.0 International"
+              >
+                
+                  
+                  <span class="icon-wrap">
+                  <img class="icon" src="/static/icons/licenses/cc-by-icon.svg"
+                       alt="cc-by-4.0 icon"/>
+                </span>
+                
+                <span class="title-text">
+                Creative Commons Attribution 4.0 International
+              </span>
+              </div>
+              <div id="description-cc-by-4.0-1"
+                   class="licenses-description ui flowing popup transition hidden"
+                   role="dialog"
+                   aria-labelledby="title-cc-by-4.0-1"
+              >
+                <i role="button" tabindex="0" class="close icon text-muted"
+                   aria-label="Close"></i>
+                <div id="license-description-1" class="description">
+                <span class="text-muted">
+                  The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.
+                </span>
+                  
+  
+    <a class="license-link" href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank"
+       title="Opens in new tab">Read more</a>
+  
+
+                </div>
+              </div>
+            </dd>
+          
+      
+      
+      </dl>
+    </div>
+  </div>
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Citation</h2>
+  <div id="citation" class="ui segment bottom attached rdm-sidebar">
+
+<div id="recordCitation" data-record-links='{"access": "https://zenodo.org/api/records/7067342/access", "access_grants": "https://zenodo.org/api/records/7067342/access/grants", "access_links": "https://zenodo.org/api/records/7067342/access/links", "access_request": "https://zenodo.org/api/records/7067342/access/request", "access_users": "https://zenodo.org/api/records/7067342/access/users", "archive": "https://zenodo.org/api/records/7067342/files-archive", "archive_media": "https://zenodo.org/api/records/7067342/media-files-archive", "communities": "https://zenodo.org/api/records/7067342/communities", "communities-suggestions": "https://zenodo.org/api/records/7067342/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.7067342", "draft": "https://zenodo.org/api/records/7067342/draft", "file_modification": "https://zenodo.org/api/records/7067342/file-modification", "files": "https://zenodo.org/api/records/7067342/files", "latest": "https://zenodo.org/api/records/7067342/versions/latest", "latest_html": "https://zenodo.org/records/7067342/latest", "media_files": "https://zenodo.org/api/records/7067342/media-files", "parent": "https://zenodo.org/api/records/5716421", "parent_doi": "https://doi.org/10.5281/zenodo.5716421", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5716421", "parent_html": "https://zenodo.org/records/5716421", "preview_html": "https://zenodo.org/records/7067342?preview=1", "request_deletion": "https://zenodo.org/api/records/7067342/request-deletion", "requests": "https://zenodo.org/api/records/7067342/requests", "reserve_doi": "https://zenodo.org/api/records/7067342/draft/pids/doi", "self": "https://zenodo.org/api/records/7067342", "self_doi": "https://doi.org/10.5281/zenodo.7067342", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7067342", "self_html": "https://zenodo.org/records/7067342", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7067342/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7067342/sequence/default", "thumbnails": {"10": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E10,/0/default.jpg", "100": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E100,/0/default.jpg", "1200": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E1200,/0/default.jpg", "250": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E250,/0/default.jpg", "50": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E50,/0/default.jpg", "750": "https://zenodo.org/api/iiif/record:7067342:OMOP2OBO_Manuscript_v2.pdf/full/%5E750,/0/default.jpg"}, "versions": "https://zenodo.org/api/records/7067342/versions"}'
+  data-styles='[["apa", "APA"], ["harvard-cite-them-right", "Harvard"], ["modern-language-association", "MLA"], ["vancouver", "Vancouver"], ["chicago-fullnote-bibliography", "Chicago"], ["ieee", "IEEE"]]'
+  data-defaultstyle='"apa"'
+  data-include-deleted='false'>
+</div>
+  </div>
+</div>
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Export</h2>
+    <div id="export-record" class="ui segment bottom attached exports rdm-sidebar">
+
+      
+      
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <div id="recordExportDownload" data-formats='[{"export_url": "/records/7067342/export/json", "name": "JSON"}, {"export_url": "/records/7067342/export/json-ld", "name": "JSON-LD"}, {"export_url": "/records/7067342/export/csl", "name": "CSL"}, {"export_url": "/records/7067342/export/datacite-json", "name": "DataCite JSON"}, {"export_url": "/records/7067342/export/datacite-xml", "name": "DataCite XML"}, {"export_url": "/records/7067342/export/dublincore", "name": "Dublin Core XML"}, {"export_url": "/records/7067342/export/marcxml", "name": "MARCXML"}, {"export_url": "/records/7067342/export/bibtex", "name": "BibTeX"}, {"export_url": "/records/7067342/export/geojson", "name": "GeoJSON"}, {"export_url": "/records/7067342/export/dcat-ap", "name": "DCAT"}, {"export_url": "/records/7067342/export/codemeta", "name": "Codemeta"}, {"export_url": "/records/7067342/export/cff", "name": "Citation File Format"}, {"export_url": "/records/7067342/export/datapackage", "name": "Data Package JSON"}]'></div>
+    </div>
+  </div>
+<section
+  id="upload-info"
+  role="note"
+  aria-label="Upload information"
+  class="sidebar-container ui segment rdm-sidebar text-muted"
+>
+  <h2 class="ui small header text-muted p-0 mb-5"><small>Technical metadata</small></h2>
+  <dl class="m-0">
+    <dt class="inline"><small>Created</small></dt>
+    <dd class="inline">
+      <small>September 10, 2022</small>
+    </dd>
+    <div>
+      <dt class="rel-mt-1 inline"><small>Modified</small></dt>
+      <dd class="inline">
+        <small>July 16, 2024</small>
+      </dd>
+    </div>
+  </dl>
+</section>
+          
+        </aside>
+      </div>
+    </div>
+
+    <div class="ui container">
+      <div class="ui relaxed grid">
+        <div class="two column row">
+          <div class="sixteen wide tablet eleven wide computer column">
+            <div class="ui grid">
+                <div class="centered row rel-mt-1">
+                  <button id="jump-btn" class="jump-to-top ui button labeled icon"
+                          aria-label="Jump to top of page">
+                    <i class="arrow alternate circle up outline icon"></i>
+                    Jump up
+                  </button>
+                </div>
+              </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </main>
+    <footer id="rdm-footer-element">
+        
+
+  <div class="footer-top">
+    <div class="ui container app-rdm-footer">
+<div class="ui equal width stackable grid zenodo-footer">
+  <div class="column">
+    <h2 class="ui inverted tiny header">About</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://about.zenodo.org">About</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/policies">Policies</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/infrastructure">Infrastructure</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/principles">Principles</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/projects/">Projects</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/roadmap/">Roadmap</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Blog</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://blog.zenodo.org">Blog</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Support</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://help.zenodo.org/">Help</a>
+      </li>
+      <li class="item">
+        <a href="https://support.zenodo.org/help/">FAQ</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Developers</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://developers.zenodo.org">REST API</a>
+      </li>
+      <li class="item">
+        <a href="https://developers.zenodo.org#oai-pmh">OAI-PMH</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Contribute</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://github.com/zenodo/zenodo-rdm">
+          <i class="icon external" aria-hidden="true"></i>
+          GitHub
+        </a>
+      </li>
+      <li class="item">
+        <a href="/donate">
+          <i class="icon external" aria-hidden="true"></i>
+          Donate
+        </a>
+      </li>
+    </ul>
+  </div>
+      <div class="six wide column right aligned">
+  <h2 class="ui inverted tiny header">Funded by</h2>
+  <ul class="ui horizontal link list">
+    <li class="item">
+      <a href="https://home.cern" aria-label="CERN">
+        <img src="/static/images/cern.png" width="60" height="60" alt="" />
+      </a>
+    </li>
+    <li class="item">
+      <a href="https://www.openaire.eu" aria-label="OpenAIRE">
+        <img src="/static/images/openaire.png" width="60" height="60" alt="" />
+      </a>
+    </li>
+    <li class="item">
+      <a href="https://commission.europa.eu/index_en" aria-label="European Commission">
+        <img src="/static/images/eu.png" width="88" height="60" alt="" />
+      </a>
+    </li>
+  </ul>
+      </div>
+      </div>
+    </div>
+
+  </div>
+        <div class="footer-bottom">
+  <div class="ui inverted container">
+    <div class="ui grid">
+      <div class="eight wide column left middle aligned">
+        <p class="m-0">
+          Powered by
+          <a href="https://home.cern/science/computing/data-centre">CERN Data Centre</a> & <a href="https://inveniordm.docs.cern.ch/">InvenioRDM</a>
+        </p>
+      </div>
+      <div class="eight wide column right aligned">
+        <ul class="ui inverted horizontal link list">
+          <li class="item">
+            <a href="https://stats.uptimerobot.com/vlYOVuWgM/">Status</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/privacy-policy">Privacy policy</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/cookie-policy">Cookie policy</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/terms">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </footer>
+  
+  
+    
+
+        
+          <script type="text/javascript">
+            window.MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                processEscapes: true // Allows escaping $ signs if needed
+              }
+            };
+          </script>
+          <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+<script src="/static/dist/js/manifest.86dc9ad40902b3aeb71a.js"></script>
+<script src="/static/dist/js/73.eff6d29b79c9412c5335.js"></script>
+<script src="/static/dist/js/3526.351e8d7556355023958f.js"></script>
+<script src="/static/dist/js/theme.46e20d3a883fda8b01b2.js"></script>
+<script src="/static/dist/js/3180.0c49d4bf07e64be03fda.js"></script>
+<script src="/static/dist/js/1057.7522b9b6407fa55bed5b.js"></script>
+<script src="/static/dist/js/7655.49da91d7c142bad19ccb.js"></script>
+<script src="/static/dist/js/5092.a8e9aa3149755c25c425.js"></script>
+<script src="/static/dist/js/8871.21b70d011e443068ff4a.js"></script>
+<script src="/static/dist/js/278.8d92f1a6c45c7759d815.js"></script>
+<script src="/static/dist/js/8118.f587fe017309e5588179.js"></script>
+<script src="/static/dist/js/4157.b89712ff141a054ffdf0.js"></script>
+<script src="/static/dist/js/base-theme-rdm.af2522498ea0c70c2c9f.js"></script>
+<script src="/static/dist/js/i18n_app.45ea25224d14a494a50c.js"></script>
+<script src="/static/dist/js/2301.7b05926e461909740138.js"></script>
+<script src="/static/dist/js/4252.1d10592ed59b0987a6b5.js"></script>
+<script src="/static/dist/js/overridable-registry.b74f4047080b7e408e7b.js"></script>
+  
+    
+      <script type='application/ld+json'>{"@context": "http://schema.org", "@id": "https://doi.org/10.5281/zenodo.7067342", "@type": "https://schema.org/ScholarlyArticle", "author": [{"@id": "https://orcid.org/0000-0002-8169-9049", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center"}], "familyName": "Callahan", "givenName": "Tiffany J", "name": "Callahan, Tiffany J"}, {"@id": "https://orcid.org/0000-0002-7355-7745", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Stefanski", "givenName": "Adrianne L", "name": "Stefanski, Adrianne L"}, {"@id": "https://orcid.org/0000-0002-5455-5859", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Wyrwa", "givenName": "Jordan M", "name": "Wyrwa, Jordan M"}, {"@id": "https://orcid.org/0000-0002-0149-5661", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Institutes of Health"}], "familyName": "Zeng", "givenName": "Chenjie", "name": "Zeng, Chenjie"}, {"@id": "https://orcid.org/0000-0002-0847-6682", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Columbia University Irving Medical Center"}], "familyName": "Ostropolets", "givenName": "Anna", "name": "Ostropolets, Anna"}, {"@id": "https://orcid.org/0000-0001-8499-824X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Georgia State University"}], "familyName": "Banda", "givenName": "Juan M", "name": "Banda, Juan M"}, {"@id": "https://orcid.org/0000-0001-6717-5313", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Baumgartner Jr", "givenName": "William A", "name": "Baumgartner Jr, William A"}, {"@id": "https://orcid.org/0000-0002-2993-2085", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Pittsburgh School of Medicine"}], "familyName": "Boyce", "givenName": "Richard D", "name": "Boyce, Richard D"}, {"@id": "https://orcid.org/0000-0003-2024-7572", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Universit\u00e0 degli Studi di Milano"}], "familyName": "Casiraghi", "givenName": "Elena", "name": "Casiraghi, Elena"}, {"@id": "https://orcid.org/0000-0002-4422-1708", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "The Jackson Laboratory for Genomic Medicine"}], "familyName": "Coleman", "givenName": "B", "name": "Coleman, B"}, {"@id": "https://orcid.org/0000-0002-8716-3261", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Cambridge"}], "familyName": "Collins", "givenName": "Janine H", "name": "Collins, Janine H"}, {"@id": "https://orcid.org/0000-0002-8602-1624", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Children\u0027s Hospital Colorado"}], "familyName": "Deakyne Davies", "givenName": "Sara J", "name": "Deakyne Davies, Sara J"}, {"@id": "https://orcid.org/0000-0003-3074-8805", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz School of Medicine"}], "familyName": "Feinstein", "givenName": "James A", "name": "Feinstein, James A"}, {"@id": "https://orcid.org/0000-0001-9114-8737", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Haendel", "givenName": "Melissa A", "name": "Haendel, Melissa A"}, {"@id": "https://orcid.org/0000-0003-2620-0345", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Institutes of Health"}], "familyName": "Lin", "givenName": "Asiyah Y", "name": "Lin, Asiyah Y"}, {"@id": "https://orcid.org/0000-0001-5683-8310", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Martin", "givenName": "Blake", "name": "Martin, Blake"}, {"@id": "https://orcid.org/0000-0002-7356-1779", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Semanticly"}], "familyName": "Matentzoglu", "givenName": "Nico", "name": "Matentzoglu, Nico"}, {"@id": "https://orcid.org/0000-0002-1034-7628", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Southern California"}], "familyName": "Meeker", "givenName": "Daniella", "name": "Meeker, Daniella"}, {"@id": "https://orcid.org/0000-0002-2170-2250", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Lawrence Berkeley National Laboratory"}], "familyName": "Reese", "givenName": "Justin", "name": "Reese, Justin"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "HealthLinc"}], "familyName": "Sinclair", "givenName": "Jessica", "name": "Sinclair, Jessica"}, {"@id": "https://orcid.org/0000-0003-1707-1617", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Pittsburgh"}], "familyName": "Taneja", "givenName": "Sanya B", "name": "Taneja, Sanya B"}, {"@id": "https://orcid.org/0000-0003-2041-7404", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine"}], "familyName": "Trinkley", "givenName": "Katy E", "name": "Trinkley, Katy E"}, {"@id": "https://orcid.org/0000-0001-5208-3432", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Vasilevsky", "givenName": "Nicole A", "name": "Vasilevsky, Nicole A"}, {"@id": "https://orcid.org/0000-0002-0692-412X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Tufts University"}], "familyName": "Williams", "givenName": "Andrew", "name": "Williams, Andrew"}, {"@id": "https://orcid.org/0000-0002-7284-3950", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Sema4"}], "familyName": "Zhang", "givenName": "Xingman A", "name": "Zhang, Xingman A"}, {"@id": "https://orcid.org/0000-0002-0736-9199", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "The Jackson Laboratory for Genomic Medicine"}], "familyName": "Robinson", "givenName": "Peter N", "name": "Robinson, Peter N"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Janssen Research and Development"}], "familyName": "Ryan", "givenName": "Patrick B", "name": "Ryan, Patrick B"}, {"@id": "https://orcid.org/0000-0003-2664-7614", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Columbia University Irving Medical Center"}], "familyName": "Hripcsak", "givenName": "George", "name": "Hripcsak, George"}, {"@id": "https://orcid.org/0000-0003-1483-4236", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Bennett", "givenName": "Tellen D", "name": "Bennett, Tellen D"}, {"@id": "https://orcid.org/0000-0003-1455-3370", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Hunter", "givenName": "Lawrence E", "name": "Hunter, Lawrence E"}, {"@id": "https://orcid.org/0000-0003-4786-6875", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Kahn", "givenName": "Michael G", "name": "Kahn, Michael G"}], "citation": [{"@id": "https://github.com/callahantiff/OMOP2OBO", "@type": "SoftwareSourceCode"}], "contentSize": "9.67 MB", "creator": [{"@id": "https://orcid.org/0000-0002-8169-9049", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus; Columbia University Irving Medical Center"}], "familyName": "Callahan", "givenName": "Tiffany J", "name": "Callahan, Tiffany J"}, {"@id": "https://orcid.org/0000-0002-7355-7745", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Stefanski", "givenName": "Adrianne L", "name": "Stefanski, Adrianne L"}, {"@id": "https://orcid.org/0000-0002-5455-5859", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Wyrwa", "givenName": "Jordan M", "name": "Wyrwa, Jordan M"}, {"@id": "https://orcid.org/0000-0002-0149-5661", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Institutes of Health"}], "familyName": "Zeng", "givenName": "Chenjie", "name": "Zeng, Chenjie"}, {"@id": "https://orcid.org/0000-0002-0847-6682", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Columbia University Irving Medical Center"}], "familyName": "Ostropolets", "givenName": "Anna", "name": "Ostropolets, Anna"}, {"@id": "https://orcid.org/0000-0001-8499-824X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Georgia State University"}], "familyName": "Banda", "givenName": "Juan M", "name": "Banda, Juan M"}, {"@id": "https://orcid.org/0000-0001-6717-5313", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Baumgartner Jr", "givenName": "William A", "name": "Baumgartner Jr, William A"}, {"@id": "https://orcid.org/0000-0002-2993-2085", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Pittsburgh School of Medicine"}], "familyName": "Boyce", "givenName": "Richard D", "name": "Boyce, Richard D"}, {"@id": "https://orcid.org/0000-0003-2024-7572", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Universit\u00e0 degli Studi di Milano"}], "familyName": "Casiraghi", "givenName": "Elena", "name": "Casiraghi, Elena"}, {"@id": "https://orcid.org/0000-0002-4422-1708", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "The Jackson Laboratory for Genomic Medicine"}], "familyName": "Coleman", "givenName": "B", "name": "Coleman, B"}, {"@id": "https://orcid.org/0000-0002-8716-3261", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Cambridge"}], "familyName": "Collins", "givenName": "Janine H", "name": "Collins, Janine H"}, {"@id": "https://orcid.org/0000-0002-8602-1624", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Children\u0027s Hospital Colorado"}], "familyName": "Deakyne Davies", "givenName": "Sara J", "name": "Deakyne Davies, Sara J"}, {"@id": "https://orcid.org/0000-0003-3074-8805", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz School of Medicine"}], "familyName": "Feinstein", "givenName": "James A", "name": "Feinstein, James A"}, {"@id": "https://orcid.org/0000-0001-9114-8737", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Haendel", "givenName": "Melissa A", "name": "Haendel, Melissa A"}, {"@id": "https://orcid.org/0000-0003-2620-0345", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "National Institutes of Health"}], "familyName": "Lin", "givenName": "Asiyah Y", "name": "Lin, Asiyah Y"}, {"@id": "https://orcid.org/0000-0001-5683-8310", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Martin", "givenName": "Blake", "name": "Martin, Blake"}, {"@id": "https://orcid.org/0000-0002-7356-1779", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Semanticly"}], "familyName": "Matentzoglu", "givenName": "Nico", "name": "Matentzoglu, Nico"}, {"@id": "https://orcid.org/0000-0002-1034-7628", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Southern California"}], "familyName": "Meeker", "givenName": "Daniella", "name": "Meeker, Daniella"}, {"@id": "https://orcid.org/0000-0002-2170-2250", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Lawrence Berkeley National Laboratory"}], "familyName": "Reese", "givenName": "Justin", "name": "Reese, Justin"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "HealthLinc"}], "familyName": "Sinclair", "givenName": "Jessica", "name": "Sinclair, Jessica"}, {"@id": "https://orcid.org/0000-0003-1707-1617", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Pittsburgh"}], "familyName": "Taneja", "givenName": "Sanya B", "name": "Taneja, Sanya B"}, {"@id": "https://orcid.org/0000-0003-2041-7404", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences and School of Medicine"}], "familyName": "Trinkley", "givenName": "Katy E", "name": "Trinkley, Katy E"}, {"@id": "https://orcid.org/0000-0001-5208-3432", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado Anschutz Medical Campus"}], "familyName": "Vasilevsky", "givenName": "Nicole A", "name": "Vasilevsky, Nicole A"}, {"@id": "https://orcid.org/0000-0002-0692-412X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Tufts University"}], "familyName": "Williams", "givenName": "Andrew", "name": "Williams, Andrew"}, {"@id": "https://orcid.org/0000-0002-7284-3950", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Sema4"}], "familyName": "Zhang", "givenName": "Xingman A", "name": "Zhang, Xingman A"}, {"@id": "https://orcid.org/0000-0002-0736-9199", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "The Jackson Laboratory for Genomic Medicine"}], "familyName": "Robinson", "givenName": "Peter N", "name": "Robinson, Peter N"}, {"@type": "Person", "affiliation": [{"@type": "Organization", "name": "Janssen Research and Development"}], "familyName": "Ryan", "givenName": "Patrick B", "name": "Ryan, Patrick B"}, {"@id": "https://orcid.org/0000-0003-2664-7614", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Columbia University Irving Medical Center"}], "familyName": "Hripcsak", "givenName": "George", "name": "Hripcsak, George"}, {"@id": "https://orcid.org/0000-0003-1483-4236", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Bennett", "givenName": "Tellen D", "name": "Bennett, Tellen D"}, {"@id": "https://orcid.org/0000-0003-1455-3370", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Hunter", "givenName": "Lawrence E", "name": "Hunter, Lawrence E"}, {"@id": "https://orcid.org/0000-0003-4786-6875", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "University of Colorado School of Medicine"}], "familyName": "Kahn", "givenName": "Michael G", "name": "Kahn, Michael G"}], "dateCreated": "2022-09-10T18:49:21.396134+00:00", "dateModified": "2024-07-16T03:29:38.667322+00:00", "datePublished": "2022-09-10", "description": "\u003cp\u003eCommon data models solve many challenges of standardizing electronic health record (EHR) data, but are unable to semantically integrate the resources needed for deep phenotyping. Open Biological and Biomedical Ontology (OBO) Foundry ontologies provide semantically computable representations of biological knowledge and enable the integration of a variety of biomedical data. However, mapping EHR data to OBO Foundry ontologies requires significant manual curation and domain expertise. We introduce a framework for mapping Observational Medical Outcomes Partnership (OMOP) standard vocabularies to OBO Foundry ontologies. Using this framework, we produced mappings for 92,367 conditions, 8,615 drug ingredients, and 10,673 measurement results. Mapping accuracy was verified by domain experts and when examined across 24 hospitals, the mappings covered 99% of conditions and drug ingredients and 68% of measurements. Finally, we demonstrate that OMOP2OBO mappings can aid in the systematic identification of undiagnosed rare disease patients who might benefit from genetic testing.\u003c/p\u003e", "identifier": "https://doi.org/10.5281/zenodo.7067342", "inLanguage": {"@type": "Language", "alternateName": "eng", "name": "English"}, "keywords": "OMOP, Open Biomedical Ontologies, Semantic Alignment, Interoperability, Mappings", "license": "https://creativecommons.org/licenses/by/4.0/legalcode", "name": "Ontologizing Health Systems Data at Scale: Making Translational Discovery a Reality", "publisher": {"@type": "Organization", "name": "Zenodo"}, "size": "9.67 MB", "url": "https://zenodo.org/records/7067342", "version": "V2.0.1"}</script>
+
+  <script src="/static/dist/js/invenio-app-rdm-landing-page-theme.6621f92f68af6cb1b71a.js"></script>
+  <script src="/static/dist/js/5941.e8d469953f2097d1b80c.js"></script>
+<script src="/static/dist/js/9736.d2eec24d7946bd6d5842.js"></script>
+<script src="/static/dist/js/4683.3dde35073541a4cfab77.js"></script>
+<script src="/static/dist/js/7641.c5257ddf674154c9b6b2.js"></script>
+<script src="/static/dist/js/7302.60cc5652ce662994b29a.js"></script>
+<script src="/static/dist/js/8585.d7c719e4d737eaf98c6c.js"></script>
+<script src="/static/dist/js/1357.e127ab0ea8be479ccd38.js"></script>
+<script src="/static/dist/js/5002.e27ae61e6763574bea57.js"></script>
+<script src="/static/dist/js/1644.7885d9d3dcbd8315f16b.js"></script>
+<script src="/static/dist/js/5400.ef510f260282c73585d0.js"></script>
+<script src="/static/dist/js/8962.19852e93355dac6e4e1c.js"></script>
+<script src="/static/dist/js/5097.7d0a0bd7d0439f9b0ff5.js"></script>
+<script src="/static/dist/js/5680.e9f92f6e9958b03847ba.js"></script>
+<script src="/static/dist/js/invenio-app-rdm-landing-page.b12dba3cb3fad1a8f4e6.js"></script>
+  <script src="/static/dist/js/previewer_theme.e613af66c367ae91620f.js"></script>
+  <script src="/static/dist/js/zenodo-rdm-citations.42ba6ec5068dbee7fa6f.js"></script>
+  
+
+        <div class="ui container info message cookie-banner hidden">
+  <i class="close icon"></i>
+  <div>
+    <i aria-hidden="true" class="info icon"></i>
+    <p class="inline">This site uses cookies. Find out more on <a href="https://about.zenodo.org/cookie-policy">how we use cookies</a></p>
+  </div>
+  <div class="buttons">
+    <button class="ui button small primary" id="cookies-all">Accept all cookies</button>
+    <button class="ui button small" id="cookies-essential">Accept only essential cookies</button>
+  </div>
+</div>
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['requireCookieConsent']);
+
+  (function() {
+    var u="https://webanalytics.web.cern.ch/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '366']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+  const cookieConsent = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("cookie_consent="))
+    ?.split("=")[1];
+
+  if (cookieConsent) {
+    if (cookieConsent === "all") {
+      matomo();
+    }
+  } else {
+    document.querySelector(".cookie-banner").classList.remove("hidden")
+    _paq.push(['forgetConsentGiven']);
+  }
+
+  $('.cookie-banner .close')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","essential");
+    });
+
+  $('#cookies-essential')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","essential");
+    });
+
+  $('#cookies-all')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","all");
+      _paq.push(['rememberCookieConsentGiven']);
+      matomo();
+    });
+
+  function matomo() {
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+  }
+
+  function setCookie(cname, cvalue) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // one year
+    var expires = "expires=" + d.toUTCString();
+    var cookie = cname + "=" + cvalue + ";" + expires + ";"
+    cookie += "Domain=zenodo.org;Path=/;SameSite=None; Secure";
+    document.cookie = cookie;
+  }
+</script>
+  </body>
+</html>

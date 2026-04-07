@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NHM9M4Z');</script>
+	<!-- End Google Tag Manager -->
+	<title>Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<script type="text/javascript" src="/js/lib/jquery.js"></script>
+	<script type="text/javascript" src="/js/lib/jquery.ui.js"></script>
+	<script type="text/javascript" src="/js/lib/core.site.js"></script>
+	<script type="text/javascript" src="/js/lib/ext/jquery.corner.js"></script>
+	<script type="text/javascript" src="/js/lib/ext/jquery.hover.intent.js"></script>
+	<script type="text/javascript" src="/js/lib/ext/jquery.simplemodal.1.4.2.js"></script>
+	<script type="text/javascript" src="/js/lib/contact.js.php"></script>
+	<link rel="stylesheet" href="/css/main.php" type="text/css" />
+	<link rel="stylesheet" href="/css/main.php?print" type="text/css" media="print"/>
+	<link rel="shortcut icon" href="/img/favicon.ico"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'/>
+
+	<link rel="stylesheet" href="/rutgers-lib/css/base.css" type="text/css" />
+	<link rel="alternate" type="application/atom+xml" title="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation- Atom 1.0" href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/syndicate/atom/" />
+	<link rel="alternate" type="application/rss+xml" title="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation- RSS 2.0" href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/syndicate/rss/" />
+	<link rel="stylesheet" href="https://rucore.libraries.rutgers.edu/partnerportal/stylizer/styles/generator.php?render=262" type="text/css" />
+	<meta name="citation" content="Ph.D.Includes bibliographical referencesby Joel N. Swerdel" />
+	<meta name="citation_author" content="Swerdel, Joel" />
+	<meta name="citation_date" content="2019" />
+	<meta name="citation_dissertation_institution" content="Rutgers University - School of Graduate Studies" />
+	<meta name="citation_dissertation_name" content="Ph.D." />
+	<meta name="citation_doi" content="doi:10.7282/t3-y0y8-mq68" />
+	<meta name="citation_keywords" content="Public Health; Heart failure; Atrial fibrillation" />
+	<meta name="citation_language" content="eng" />
+	<meta name="citation_pdf_url" content="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/PDF/1/" />
+	<meta name="citation_title" content="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation" />
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHM9M4Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	//width checking
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);
+
+	//apply corners
+	if (!$.browser.msie) {
+		$('#sPage').corner("5px bottom");
+		$('#bcHolder').corner("5px top");
+		$('#bcHolder').corner("5px top");
+		$('.qsLink').corner("3px");
+		$('.tBtn').corner("3px");
+		$('#bmark-summary').corner("3px");
+	}
+
+	$("#bigButtons li.buttonSearch").hoverIntent(showSearch,hideSearch);
+	$("#bigButtons li.buttonFac").hoverIntent(showFac,hideFac);
+	$("#bigButtons li.buttonColl").hoverIntent(showColl,hideColl);
+	$("#bigButtons li.buttonCollab").hoverIntent(showCollab,hideCollab);
+
+	$("#buttonDev").click(function(){$("#subContainer").slideToggle(200); $(".devLnk").toggleClass('over');});
+
+	//expose default(all) at load
+	$("#qportal-all").show();
+
+	//hide all when clicked
+	$(".qsNav-portal").click(function(){$(".qsNav-portal").removeClass("hlight");$(".qsNav-info").hide();});
+	//expose only what was clicked
+	$("#qlink-root").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-all").show();
+	});
+	$("#qlink-digitalcoll").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-digitalcoll").show();
+	});
+	$("#qlink-research").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-research").show();
+	});
+	$("#qlink-scholarship").click(function(){
+		$(this).addClass("hlight");
+		$("#qportal-scholarship").show();
+	});
+
+	//QUICK SEARCH STUFF
+	//expose default(all) at load
+	$(".qsLink.all").addClass("hlight");
+	$("#rtype-val").val('');
+
+	//hide all when clicked
+	$(".qsLink").click(function(){$(".qsLink").removeClass("hlight");$(this).addClass("hlight");});
+	//expose only what was clicked
+	$(".qsLink.all").click(function(){
+		$("#rtype-val").val('');
+		$("#qsNav-info-block").html("Search all content in all RUcore collections.");
+	});
+	$(".qsLink.text").click(function(){
+		$("#rtype-val").val('text');
+		$("#qsNav-info-block").html("Search books, manuscripts and web documents in all RUcore collections.");
+	});
+	$(".qsLink.image").click(function(){
+		$("#rtype-val").val('stillimage');
+		$("#qsNav-info-block").html("Search graphic art, maps, photographs, photographic negatives and 3-D objects in all RUcore collections.");
+	});
+	$(".qsLink.audio").click(function(){
+		$("#rtype-val").val('sound');
+		$("#qsNav-info-block").html("Search music and spoken word sound recordings in all RUcore collections.");
+	});
+	$(".qsLink.video").click(function(){
+		$("#rtype-val").val('movingimage');
+		$("#qsNav-info-block").html("Search films and video recordings in all RUcore collections.");
+	});
+
+	//bookmark item stuff
+	$('.bmark-content').width($('#bmark-summary').width());
+}); // close document.ready
+
+function showSearch(){
+	$("#btn-content-search").show();
+	$(".buttonSearch").addClass("over");
+}
+function hideSearch(){
+	$("#btn-content-search").hide();
+	$(".buttonSearch").removeClass("over");
+}
+
+function showFac(){
+	$("#btn-content-faculty").show();
+	$(".buttonFac").addClass("over");
+}
+function hideFac(){
+	$("#btn-content-faculty").hide();
+	$(".buttonFac").removeClass("over");
+}
+
+function showColl(){
+	$("#btn-content-collection").show();
+	$(".buttonColl").addClass("over");
+}
+function hideColl(){
+	$("#btn-content-collection").hide();
+	$(".buttonColl").removeClass("over");
+}
+
+function showCollab(){
+	$("#btn-content-collab").show();
+	$(".buttonCollab").addClass("over");
+}
+function hideCollab(){
+	$("#btn-content-collab").hide();
+	$(".buttonCollab").removeClass("over");
+}
+-->
+</script>
+<!--start page-->
+	<div id="mContainer">
+		<div id="bContainer" role="banner" class="sub">
+		
+			<div id="bHolder" >
+				<img id="logoRUL" src="/img/rutgers-library.svg" alt="Rutgers University Libraries"/>
+				<div id="rucoreLogo" class="hand" onclick="location.href='/';" alt="Home" >RUcore: Rutgers University Community Repository</div>
+
+				<ul class="btn-container" id="bigButtons">
+					<li class="buttonSearch" style="margin-left: -258px;">
+						<span class="btn-title buttonSearch">Search</span>
+						<div class="btn-content" id="btn-content-search" style="margin: 14px 0 0 -191px;">
+							<form id="qsNav-form" name="SearchObjects" action="/search/results/" method="get">
+								<input type="hidden" name="key" value="root"/>
+								<input type="hidden" id="rtype-val" name="rtype[]"/>
+								<div id="qsNav-type">
+									<ul id="qsNav-filter">
+										<li class="qsLink all">All</li>
+										<li class="qsLink text">Text</li>
+										<li class="qsLink image">Images</li>
+										<li class="qsLink audio">Audio</li>
+										<li class="qsLink video">Video</li>
+									</ul>
+								</div>
+								<div id="qsNav-field-block">
+									<input type="text" name="query" value="" id="qsNav-input" aria-label="Search"/>
+									<input id="qsNav-btn" value="Go" type="submit">
+								</div>
+								<div id="qsNav-links"><a id="qlink-search" href="/search/">Advanced Search</a> | <a id="qlink-help" href="/search/index.php?help">Help</a></div>
+								<div id="qsNav-info-block">Search all content in all RUcore collections.</div>
+							</form>
+						</div>
+					</li>
+					<li class="buttonFac" style="margin-left: -182px;">
+						<span class="btn-title buttonFac">Services</span>
+						<div class="btn-content" id="btn-content-faculty" style="margin: 14px 0 0 -135px;">
+							<div class="btn-entry">
+								<ul class="top-menu">
+									<a href="/account/" title="My Account"><li>My Account</li></a>
+									<a href="https://scholarship.libraries.rutgers.edu/esploro/login?institution=01RUT_INST&lang=en" title="Deposit Your Work (SOAR Deposit)"><li>Deposit Your Work (SOAR Deposit)</li></a>
+									<a href="https://etd.libraries.rutgers.edu/" title="Submit Your Rutgers Thesis or Dissertation (RUetd)"><li>Submit Your Rutgers Thesis or Dissertation (RUetd)</li></a>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="buttonColl" style="margin-left: -100px;">
+						<span class="btn-title buttonColl">Collections</span>
+						<div class="btn-content" id="btn-content-collection" style="margin: 14px 0 0 -115px;">
+							<div class="btn-entry">
+								<ul class="top-menu">
+									<a href="http://soar.libraries.rutgers.edu" title="SOAR (Scholarly Open Access at Rutgers)"><li>SOAR (Scholarly Open Access at Rutgers)</li></a>
+									<a href="/etd/" title="RUetd (Rutgers Electronic Theses and Dissertations)"><li>RUetd (Rutgers Electronic Theses and Dissertations)</li></a>
+									<a href="/portals/" title="RUcore Portals to Specific Collections"><li>Search Portals to Specific Collections</li></a>
+									<a href="/exhibits/" title="Digital Exhibitions"><li>Digital Exhibitions</li></a>
+									<a href="/njdh/" title="New Jersey Digital Highway"><li>New Jersey Digital Highway</li></a>
+									<a href="/njedl/" title="NJEDL"><li>New Jersey Environmental Digital Library</li></a>
+									<a href="/scholar/browse/" title="Browse Scholarly Materials by Publication Year"><li>Browse Scholarly Materials by Publication Year</li></a>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div id="tlLink">
+					<div id="bmark-summary" class="tBtn">
+						<span title="View selected items"><div id="bmark-caret"></div><div id="bmark-quantity"></div><a href="/rutgers-lib/items/" class='bmark-list-link'><div id="bmark-message"></div></a><div id="bmark-icon"></div></span>
+						<div class="bmark-content">
+							<ul>
+								<li><a href="/rutgers-lib/items/#cite" title="Cite Items" data-target='cite'>Cite</a></li>
+								<li><a href="/rutgers-lib/items/#export" title="Export Items" data-target='export'>Export</a></li>
+								<li><a href="/rutgers-lib/items/#share" title="Share Items"  data-target='share'>Share</a></li>
+								<li><a href="/rutgers-lib/items/#print" title="Print Items"  data-target='print'>Print</a></li>
+								<li><a href="/rutgers-lib/items/#email" title="Email Items"  data-target='email'>Email</a></li>
+							</ul>
+						</div>
+					</div>
+					<a class="tBtn left" title="Help" href="/help/">Help</a>
+					<a class="tBtn left contactLink" title="Contact us" href="">Contact Us</a>
+					<a class="tBtn left account" title="My Account" href="/account/">My Account</a>
+				</div>
+			</div>
+			
+			<div id="bcContainer">
+				<div id="bcHolder">
+					<div class="bCrumb home"><a href="/">Home</a><img src="/img/crumb.self.png" alt="crumb"/></div>
+					<div class="bCrumb now">Resource</div>
+				</div><!--end breadcrumbs-->
+			</div><!--end breadcrumb holder-->
+		</div>
+		<!--start page body-->
+		<div id="sPage" role="main" class="sub">
+<h1 class="visually-hidden">RUcore Search Results</h1>
+		<link rel="stylesheet" href="/rutgers-lib/css/statistics.css" type="text/css">
+		<script type="text/javascript" src="/rutgers-lib/js/bookmark.js.php"></script>
+		<script type="text/javascript">
+		<!--
+			$(document).ready(function(){
+				$('.tnail-wrapper.full').mouseover(function(){$(this).children('.tnail').hide();$(this).children('.thint').show();});
+				$('.tnail-wrapper.full').mouseout(function(){$('.thint').hide();$('.tnail').show();});
+				$('.resultFull__media-text.embed, .thumbLink.embed').bind('click', function(){
+					//is this iframe already loaded
+					var cname = $(this).attr('class');
+					cname = cname.split(' ');
+					$('.resultBlock').hide();//hide all blocks
+					$('.resultFull__media-metadata').removeClass('current');
+					if ($('iframe.embed.'+cname[2]).attr('src') == undefined || $('iframe.embed.'+cname[2]).attr('src') == ''){
+						$('.resultBlock').hide();//hide all blocks
+						$('iframe.embed').each(function(){$(this).attr('src', '');})//remove any iframes that were open
+						$('.linkblock.arrow').each(function(){$(this).removeClass('playback-icon');})//remove any play icons
+						$('.resultBlock.playback.'+cname[2]).show();//show block
+						//set height based on ratio
+						if ($('iframe.embed.'+cname[2]).attr('ratio')){
+							thisHeight = $('iframe.embed.'+cname[2]).width()/$('iframe.embed.'+cname[2]).attr('ratio');
+							$('iframe.embed.'+cname[2]).height(Math.round(thisHeight));
+						}
+						//load iframe data-src
+						$('iframe.embed.'+cname[2]).attr('src', $('iframe.embed.'+cname[2]).attr('data-src'));
+					}
+					else {
+						$('.resultBlock.playback.'+cname[2]).show();//show block
+					}
+					$('#icon-'+cname[2]).addClass('playback-icon');
+				});
+				$('.resultFull__media-metadata').bind('click', function(){
+					//confirm we can locate which section was selected
+					var cname = $(this).attr('class');
+					cname = cname.split(' ');
+					if (cname[1] != undefined && cname[1] != 'project') {
+						$('.resultBlock').hide();//hide
+						$('.resultBlock.'+cname[1]).show();//show
+						window.location.hash=cname[1];
+						$('.resultFull__media-metadata').removeClass('current');
+						$(this).addClass('current');
+						scrollToElement('html');
+					}
+				});
+				$('.hide, .resultFull__record-text.playback').bind('click', function(){
+					$('.resultFull__media-metadata').removeClass('current');
+					$(this).parent().parent().hide(200, 'easeOutBack');//hide
+					document.location.href='#close';//hide
+					//iframe cleanup?
+					var cname = $(this).parent().parent().attr('class');
+					cname = cname.split(' ');
+					if (cname[1] && cname[1] == 'playback'){
+						$('iframe.embed').each(function(){$(this).attr('src', '');})//remove any iframes that were open
+						$('.linkblock.arrow').each(function(){$(this).removeClass('playback-icon');})//remove any play icons
+					}//end if iframe cleanup
+					else {
+						$('iframe.embed').each(function(){
+							if ($(this).attr('src') != undefined && $(this).attr('src') != ''){
+								var dname = $(this).attr('class').split(' ');console.log($(this).attr('src'));
+								$('.resultBlock.'+dname[2]).show();
+							}
+						});//focus and open iframe
+					}
+				});
+				$('.iIcon').bind('click', function(){
+					var cname = $(this).attr('class');
+					cname = cname.split(' ');
+					if (cname[1] != undefined && $('#'+cname[1]).is(':visible')) {
+						$('#'+cname[1]).hide();
+					}
+					else {$('#'+cname[1]).show();}
+				});
+				//sniff for a hash, presist URL's as much as possible
+				if(window.location.hash) {
+					var hash = window.location.hash;
+					hash = hash.substring(1);
+					if (hash && $('.resultFull__media-metadata.'+hash).length != 0) {
+						//trigger event
+						$('.resultFull__media-metadata.'+hash).trigger('click');
+						if (hash == 'statistics' || hash == 'related' || hash == 'versions' || hash == 'citation-export'){$(function(){$('.resultFull__media-metadata.'+hash).trigger('click');});}
+						if (hash == 'package'){$(function(){$('#package').trigger('click');});}
+					}
+					if (hash && $('.resultFull__media-text.embed.'+hash.replace('playback/', '.')).length != 0) {
+						$('.resultFull__media-text.embed.'+hash.replace('playback/', '.')).trigger('click');
+					}
+				}
+				else {
+					$('#left-nav-wrapper-full').find('.thumbLink.embed').trigger('click');
+				}
+				//load tnail img after thumnail is loaded
+				$('.thumbImg').one('load', function() {$('.tnail').show(); $('.result__result-entry.full').css('min-height', $('#left-nav-wrapper-full').height());}).each(function() {if(this.complete) $(this).load();});
+				//see if an embed link for the thumbnail exists; if so init a click event on it.  starts audio/video
+			}); // close document.ready
+
+			function openWin(URL, w, h) {window.open(URL,'_blank','width='+w+',height='+h+',directories=no,titlebar=no,toolbar=no,location=no,status=no,scrollbars=no,resize=no,menubar=no');}
+		-->
+		</script>
+		<script type="text/javascript">
+		<!--
+			$(document).ready(function(){
+				//apply corners
+				if (!$.browser.msie) {
+					$('.all__nav-info').corner('5px');
+					$('.request-copy-btn').corner('3px');
+				}
+			}); // close document.ready
+
+		-->
+		</script>
+		<div id="share-container">
+			<div class="all__nav-info share">
+				<div class="all__nav-select">
+					<div id="bookmark" class="bmark full rutgers-lib:60068 off" title="Bookmark this item">Selected item</div>
+				 </div>
+				<div id="feeds">
+					<a href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/syndicate/" target="_blank"><img title="RSS and Atom feeds" alt="RSS and Atom feeds" src="/img/search/i-rss.png" border="0"/></a>
+				</div>
+				<div id="sThis">
+					<span class="st_sharethis"  st_url="https://doi.org/doi:10.7282/t3-y0y8-mq68" st_title="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation"  title="Sharing Options"></span>
+					<span class="st_facebook"  st_url="https://doi.org/doi:10.7282/t3-y0y8-mq68" st_title="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation"  title="Facebook"></span>
+					<span class="st_twitter"  st_url="https://doi.org/doi:10.7282/t3-y0y8-mq68" st_title="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation"  title="Twitter"></span>
+					<span class="st_pinterest"  st_url="https://doi.org/doi:10.7282/t3-y0y8-mq68" st_title="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation"  title="Pinterest"></span>
+					<span class="st_email"  st_url="https://doi.org/doi:10.7282/t3-y0y8-mq68" st_title="Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation"  title="Email"></span>
+					<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+					<script type="text/javascript">
+						stLight.options({
+							publisher:'6452ab64-9159-4232-a797-863858a5735c',
+							doNotHash:true,
+							doNotCopy:true,
+							hashAddressBar:false,
+							onhover:false
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+		<h1 id="contentTitle">Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation</h1>
+			<div id="left-nav-wrapper-full">
+				<a class="thumbLink" href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/PDF/1/play/" target="_blank" title="Download PDF-1"><div class="tnail-wrapper full"><img class="thumbImg" alt="Download PDF-1" src="https://rucore.libraries.rutgers.edu/api/get/rutgers-lib:60068/THUMBJPEG/1" class='thumb-is-too-legit-to-quit'></img><div class="thint dl"></div><div class="tnail pdf"></div></div></a>
+				<div  class="resultBlock-files">
+				<div class="fileSecTitle">PDF<span class="iIcon note-pdf-1" alt="More Information" title="More Information"></span></div>
+<div id="note-pdf-1" class="resultFull__media-info"><div class="fileMsg">PDF format is widely accepted and good for printing.</div><div class="plugin"><a class="ext" href="http://get.adobe.com/reader/" target="_blank">Plug-in required</a></div></div>
+					<div class="linkblock arrow"><span class="resultFull__media-text"><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/PDF/1/play/" target="_blank" title="Download ETD-2019-9432.pdf">PDF-1</a></span><span class="fsize">(1.48 MB)</span></div>
+				</div>
+				<div class="resultFull__media-metadata citation-export">
+					<span class="resultFull__record-text" title="View Citation &amp; Export">Citation &amp; Export</span>
+				</div>
+				<div class="resultFull__media-metadata statistics">
+					<span class="resultFull__record-text" title="View Usage Statistics">View Usage Statistics</span>
+				</div>
+				<div class="resultFull__media-metadata">
+					<span class="resultFull__record-text"><a class="ext" href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/record/" title="View Staff View" target="_blank">Staff View</a></span></div>
+				</div>
+			<div class="result__result-entry full">
+				<div class="resultBlock citation-export">
+					<h2 class="prnHeading">Citation &amp; Export<div class="hide">Hide</div></h2>
+					<div class="citationExportResults">
+						<h4>Simple citation</h4>
+						<div class="citation-entry">Swerdel, Joel. <strong>Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation. </strong> Retrieved from <a target="_blank" href="https://doi.org/doi:10.7282/t3-y0y8-mq68">https://doi.org/doi:10.7282/t3-y0y8-mq68</a></div>
+						<h4 class="t-space">Export<span class="iIcon note-export" alt="More Information" title="More Information"></span></h4>
+						<div id="note-export" class="resultFull__media-info panel"><a href="http://www.libraries.rutgers.edu/researchers/citation_management_tools" target="_blank" class="ext">Click here for information about Citation Management Tools at Rutgers.</a></div>
+						<ul class="export-list">
+							<li><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/export/endnote/file/">EndNote Desktop Client</a></li>
+							<li><a class="ext" href="http://www.myendnoteweb.com/?func=directExport&partnerName=Rutgers&dataIdentifier=1&dataRequestUrl=https%3A%2F%2Frucore.libraries.rutgers.edu%2Frutgers-lib%2F60068%2Fexport%2Fendnote%2Fweb%2F" target="_blank">EndNoteWeb</a></li>
+							<li><a class="ext" href="http://www.refworks.com/express/expressimport.asp?vendor=Rutgers&encoding=65001&filter=RefWorks+Tagged+Format&url=https%3A%2F%2Frucore.libraries.rutgers.edu%2Frutgers-lib%2F60068%2Fexport%2Frefworks%2Fweb%2F" target="_blank">RefWorks</a></li>
+							<li><a href="https://rucore.libraries.rutgers.edu/rutgers-lib/60068/export/ris/file/">RIS File Download</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="resultBlock statistics"><h2 class="prnHeading">Statistics<div class="hide">Hide</div></h2>
+				<div class="statisticsResults"></div>
+</div>
+				<script type="text/javascript">
+				<!--
+				$(document).ready(function(){
+					$('.resultFull__media-metadata.statistics').bind('click', function(){
+						if ($('.statisticsResults').html() == ''){
+							$('.statisticsResults').html('<div class="stats-init">Retrieving statistics ...</div>');
+							$.ajax({
+								url: '/rutgers-lib/ajax/ajax.stats.php',
+								data: 'key=root&id=rutgers-lib:60068',
+								success: (function(data) {$('.statisticsResults').html(data)}),
+								dataType: 'html'
+							});
+						}
+					});
+				});
+				-->
+				</script>
+
+				<div class="resultBlock-metadata">
+				<h2 class="prnHeading">Description</h2>
+				<div class="result__result-field full"><span class="resultFull__result-title">Title</span><span class="resultFull__result-text">Predictive modeling of incident heart failure in subjects with newly diagnosed atrial fibrillation</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Name</span><span class="resultFull__result-text"><a href="/search/results/?key=root&q1=Swerdel%2C+Joel&q1field=mods%3Aname">Swerdel, Joel (author)</a>; <a href="/search/results/?key=root&q1=Rhoads%2C+George+G&q1field=mods%3Aname">Rhoads, George G (chair)</a>; <a href="/search/results/?key=root&q1=Kostis%2C+William&q1field=mods%3Aname">Kostis, William (internal member)</a>; <a href="/search/results/?key=root&q1=Marshall%2C+Elizabeth&q1field=mods%3Aname">Marshall, Elizabeth (internal member)</a>; <a href="/search/results/?key=root&q1=Ryan%2C+Patrick&q1field=mods%3Aname">Ryan, Patrick (outside member)</a>; <a href="/search/results/?key=root&q1=Rutgers+University&q1field=mods%3Aname">Rutgers University</a>; <a href="/search/results/?key=root&q1=School+of+Graduate+Studies&q1field=mods%3Aname">School of Graduate Studies</a></span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Date Created</span><span class="resultFull__result-text">2019</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Other Date</span><span class="resultFull__result-text">2019-01 (degree)</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Subjects</span><span class="resultFull__result-text"><a href="/search/results/?key=root&q1=%22Public+Health%22&q1field=mods%3Asubjects">Public Health</a>, <a href="/search/results/?key=root&q1=%22Heart+failure%22&q1field=mods%3Asubjects">Heart failure</a>, <a href="/search/results/?key=root&q1=%22Atrial+fibrillation%22&q1field=mods%3Asubjects">Atrial fibrillation</a></span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Extent</span><span class="resultFull__result-text">1 online resource (100 pages) : illustrations</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Description</span><span class="resultFull__result-text">Heart failure (HF) and atrial fibrillation (AF) are chronic diseases with high costs, both in human and monetary terms in the US and the world.  While the cost of each disease is high, the cost of the two as comorbid conditions is exceedingly high.  To be able to predict, early on, which patients with newly diagnosed AF will go on to develop HF will allow clinicians the opportunity to address the problem and prevent or delay the onset of HF.  The goal of this research was to develop predictive models for incident HF in subjects with newly diagnosed AF.<br />
+HF is a clinical syndrome wherein the heart is unable to supply sufficient blood flow for the body’s needs.  HF can be due to a deficit on either the left or the right side of the heart.  Left side HF is the focus of this research.  The prevalence of HF is nearly 6 million in the US and over 23 million people worldwide, with yearly costs over $20B in the US and over $100B worldwide.  There are 2 types of HF based on the proportion of blood ejected from the left ventricle during systole.  Normally, 50-70% of the blood in the left ventricle is ejected during systole.  In HF with reduced ejection fraction (HFrEF), the heart ejects less than 40% of the blood volume in the left ventricle during the contractile phase of the cardiac cycle.  In HF with preserved ejection fraction (HFpEF), a normal proportion of the ventricular volume is ejected during systole.  In this form of HF, the total volume of blood ejected is insufficient for the body’s needs due to lower ventricular filling during diastole, the relaxation phase of the heart cycle.<br />
+AF is the most common form of cardiac arrythmia.  It is an abnormal atrial rhythm initiated by ectopic foci in the atria and pulmonary veins and manifested by circular, uncoordinated depolarization of the atrial muscle, ineffective atrial contraction, and rapid irregular conduction of depolarizations through the atrioventricular node to the ventricles.  Worldwide, it is estimated that AF occurs in about 0.5% or 33.5M people.  The rates are higher in the US and western Europe with estimates of 3.3% in men and 2.6% in women.<br />
+AF by itself tends to reduce cardiac output and is a risk factor for HF.  The function of the atria, which normally aid ventricular filling by contracting just before ventricular systole, is lost; and filling time may be shortened by too rapid a pulse.   Over time, tachycardia from the abnormal rhythm may lead to cardiomyopathy which may progress into HF.  Outcomes for patients who develop HF after AF are poor.  In a study involving the Framingham cohort, the mortality rate in patients with AF who developed HF was 3 times that of subjects who did not develop HF.  The ability to predict, early on, those who will develop HF after AF may reduce the health burden from these diseases.<br />
+There are many examples of predictive model use in health care.  For example, the Charlson index is used to predict mortality using 19 indicators.  These models provide additional information for the clinician and the patient on risk assessment and help to determine the most appropriate treatment.  Predictive models are designed to answer the patient’s question, “What is going to happen to me?”<br />
+The objective of the research in this dissertation was to develop models to predict incident heart failure in those with newly diagnosed atrial fibrillation.  We had two specific aims: one, to develop predictive models for those under age 65 years old; and two, to develop models for those over 65.  Age differences in the frequency and predictors of heart failure led us to separate the models for these two broad age groups.<br />
+We used three data sources for developing the models.  OptumInsight’s de-identified Clinformatics™ Datamart (Optum) provides information on about 81 million lives insured for periods of time between May 1, 2000 and December 31, 2017.  Under age 65 it mainly consists of US commercial claims patients while over age 65 it is based on Medicare.  We also used the IBM MarketScan Commercial Claims and Encounters (CCAE) with information on about 138 million lives between January 1, 2000 and December 31, 2017.  It includes health insurance claims from large employers and health plans that provide coverage to employees, their spouses, and dependents.  Finally, we used the IBM MarketScan Medicare (MDCR) with information on about 10 million lives insured at times between January 1, 2000 and December 31, 2017.  This dataset represents health services of retirees in the United States with primary or Medicare supplemental coverage through privately insured health plans.  Each dataset was converted to the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM).  These datasets were reviewed by the New England Institutional Review Board (IRB) and were determined to be exempt from broad IRB approval.<br />
+We developed models on cohorts of subjects using, as an index date, the first diagnosis code of AF followed by a second AF code within one year.  We also required that each included subject had at least a 365-day observation period prior to AF diagnosis and no prior evidence of HF.  To develop the model, we used patient demographic information including the age at index date, sex, and race/ethnicity.  We also used all medical conditions, based on diagnosis codes; drug exposures, based on prescriptions filled; clinical procedures; and health scores including CHADS2 and the Charlson Index.  We modeled 3 outcomes, based on the first diagnosis of any HF, HFpEF, and HFrEF.  Each subject was determined to have the outcome if the first diagnosis was followed by a second HF, HFpEF, or HFrEF code, respectively, within one year after the initial diagnosis.  We examined 2 times-at-risk: 3 months to 1 year and 1 year to 3 years following the index date.  For the 1-3y time-at-risk, the index date was adjusted to one year following initial diagnosis of AF. <br />
+The machine learning algorithm used to develop the models was regularized logistic regression.  We used the Least Absolute Shrinkage and Selection Operator (LASSO) extension of this algorithm.  The code used for developing these models were from R language packages which were open-source and freely available on the Observational Health Data Sciences and Informatics (OHDSI) library (ohdsi.org) website.  We trained the models on 75% of the data in a dataset based on a random selection by subject.  In the under 65year cohort, we trained on the CCAE dataset and for the over 65 year cohort, we trained on the Optum dataset.  We performed internal validation of the models on the remaining 25% of the data.  We also performed external validation of the models on an external dataset.  For the under 65 cohort, we validated on the Optum dataset and on the over 65 cohort we validated on the MDCR dataset.  We evaluated model performance through 3 measures.  We examined the capability of the model to discriminate between those with and without the outcome by measuring the area under the Receiver Operator Characteristic curve (AUC).  We also determined model calibration which compares estimated probabilities from the model to the observed frequency across the full range of predicted probabilities.  For some models, we also examined the Likelihood Ratio Positive (LR+) which is calculated as the sensitivity divided by (1 – the specificity) of the model at any prediction threshold.<br />
+In the cohort of subjects under age 65, we found that, for those who developed HF during either time at risk, the rates of many prior conditions were higher than for those who did not develop HF. In those who developed HFrEF, the prior rates of acute myocardial infarction (AMI) and coronary artery disease (CAD) were higher than in those who did not develop HF and in those who developed HFpEF.  Those who developed HFpEF had higher prior rates of hypertension, diabetes, and obesity compared to those who did not develop HF and those who developed HFrEF.  In our prediction models, the AUCs were between 0.70 and 0.75 for all 3 outcomes at both times-at-risk indicating good model discrimination.  The calibration curves had y-intercepts near 0 and slopes near the ideal value of 1 indicating the prediction models were well-calibrated across the full range of predicted probabilities.  We found similar discrimination and calibration results on external validation of the models which indicates that these models had good generalizability.  In the models where the outcome was HFpEF, we found that diabetes was a strong predictor with many features of diabetes included in the final model.  Other predictors included the use of diuretics and the presence of hypertension.  The models where the outcome was HFrEF included predictors in the model for cardiomyopathy and chronic ischemic heart disease.<br />
+We found similar differences between subjects who developed HF compared to those who did not in the cohorts over age 65.  We found, in those who developed HFrEF, higher prior levels of AMI and CAD compared to those who did not develop HF and those who developed HFpEF.  In those who developed HFpEF, there were prior higher levels of hypertension and obesity compared to those who did not develop HF and in those who developed HFrEF.  We did not find higher levels of diabetes compared to those who developed HFrEF.  In those who developed HFrEF, we found higher prior levels of AMI and with and without the outcome as well in those over age 65 compared to those under age 65.  The AUCs ranged from 0.65 to 0.70 in this group.  The models were well calibrated with y-intercepts near 0 and calibration curve slopes near unity.  The models showed fair generalizability with AUCs on external validation similar to those found on internal validation.  <br />
+The results from this research show that it is possible to develop good models for predicting any HF, as well as HFrEF and HFpEF, in those with newly diagnosed AF.  The models demonstrated reasonable discrimination in both internal and external validation.  These models may provide the basis for starting the conversation between clinician and subject in the design of personalized treatment regimens.  When patients know their personal risk of developing a poor outcome it may help to convince them of the importance of adhering to their treatment plan. As treatment becomes more specific based on personal risk and patient adherence to treatment increases, the human and financial cost of HF following AF will hopefully be significantly reduced.</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Note</span><span class="resultFull__result-text">Ph.D.</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Note</span><span class="resultFull__result-text">Includes bibliographical references</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Note</span><span class="resultFull__result-text">by Joel N. Swerdel</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Genre</span><span class="resultFull__result-text">theses, ETD doctoral</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Persistent URL</span><span class="resultFull__result-text"><a class="ext" href="https://doi.org/doi:10.7282/t3-y0y8-mq68" target="_blank">https://doi.org/doi:10.7282/t3-y0y8-mq68</a></span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Language</span><span class="resultFull__result-text">eng</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Collection</span><span class="resultFull__result-text">School of Graduate Studies Electronic Theses and Dissertations</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Organization Name</span><span class="resultFull__result-text">Rutgers, The State University of New Jersey</span></div>
+				<div class="result__result-field full"><span class="resultFull__result-title">Rights</span><span class="resultFull__result-text">The author owns the copyright to this work.</span></div>
+				</div>
+			</div>
+		</div><!--close sPage div-->
+<!--footer-->
+		<div role="contentinfo" id="fContainer">
+			<div id="fLnkContainer">
+				<div id="fHolder">
+					<div id="bLnkContainer">
+						<div class="footerLnkBlock left">
+							<div class="footerLnk heading"><a href="/about/">About Us</a></div>
+							<div class="footerLnk"><a href="/about/how.php">How does RUcore work?</a></div>
+							<div class="footerLnk"><a href="/policies/">Policies</a></div>
+							<div class="footerLnk"><a href="/services/">Services</a></div>
+							<div class="footerLnk"><a href="/about/participate.php">Participate in RUcore</a></div>
+							<div class="footerLnk"><a href="/collections/">Collections</a></div>
+						</div>
+						<div class="footerLnkBlock">
+							<div class="footerLnk heading"><a href="/cyber/">Infrastructure</a></div>
+							<div class="footerLnk"><a href="/cyber/trusted.php">Trusted Repository</a></div>
+							<div class="footerLnk"><a href="/cyber/preservation.php">Preservation</a></div>
+							<div class="footerLnk"><a href="/cyber/metadata.php">Understanding Metadata</a></div>
+							<div class="footerLnk"><a href="/faq/glossary.php">Technical Glossary</a></div>
+						</div>
+						<div class="footerLnkBlock right">
+							<div class="footerLnk heading"><a href="/collab/">Developers</a></div>
+							<div class="footerLnk"><a href="/collab/reference.php">Reference Materials</a></div>
+							<div class="footerLnk"><a href="/api/">Web Services/APIs</a></div>
+							<div class="footerLnk"><a href="/schemas">Schemas</a></div>
+							<div class="footerLnk"><a href="/harvesting">Harvesting</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+<div id="idenContainer">
+    <div id="idenHolder">
+        <div id="statusContainer">
+            <span class="link tan noline"><a href="/about/profile/"><img src="/img/icon-ekg.png" border="0" title="Statistical Profile" alt="Statistical icon"/>Statistical Profile</a></span>
+            <span class="middot_white"></span>
+            <span class="link tan noline"><a href="/about/version.php">Version 9.3.7</a></span>
+        </div>
+        <span class="link tan noline"><a href="/sitesearch/">Site Search</a></span>
+        <span class="middot_white"></span>
+        <span class="link tan noline"><a href="http://www.libraries.rutgers.edu/privacy_policy" target="_blank">Privacy Policy</a></span>
+    </div>
+</div>
+<div id="rulibContainer">
+    <div id="rulibHolder" class="rulibLinks">
+        <div class="rulibLnk"><a href="//www.libraries.rutgers.edu">libraries.rutgers.edu</a></div>
+        Copyright &copy;2026
+ <a href="http://www.rutgers.edu" target="_blank">Rutgers, The State University of New Jersey</a><a href="http://www.libraries.rutgers.edu/copyright" target="_blank">(Further Copyright Information)</a>
+    </div>
+</div>
+</div><!--close footer container div-->
+<!--print footer-->
+<div id="printFooter"><div style="float: left;">Version 9.3.7</div>Rutgers University Libraries - Copyright &copy;2026</div>
+	</div><!--close main container div-->
+</body>
+</html>

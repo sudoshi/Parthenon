@@ -1,0 +1,904 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="nexus-font-support">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="tdm-reservation" content="0">
+    <title>
+        Improved dataset coverage and interoperability with Bio2RDF Release 2
+      -  Maastricht University</title>
+    
+    
+    
+
+
+
+<meta property="og:site_name" content="Maastricht University">
+
+
+    <meta property="og:title" content="Improved dataset coverage and interoperability with Bio2RDF Release 2"/>
+
+
+<meta property="og:url" content="https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/">
+<meta property="og:locale" content="en_GB">
+
+
+
+
+    
+        <meta property="og:image" content="https://cris.maastrichtuniversity.nl/skin/headerImage/">
+    
+
+
+
+
+    
+        <meta property="og:type" content="article">
+    
+
+    
+
+    
+
+
+    <link rel="stylesheet" href="/assets/application-bbadabf14375775985ecfd59655b0569.css" />
+    <!-- OneTrust Cookies Consent Notice start -->
+<script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="e747646f-7bae-4d47-b47f-b37657f9dcdb" data-document-language="true"></script>
+<script type="text/javascript">
+    function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+    
+    <link href="/skin/css/" rel="stylesheet"/>
+    
+    <script src="/skin/script/" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/application-c9812d1ef516be20094e6491b18de745.js" ></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/assets/html5shiv.min-ca5300beead9a4a9d2c9c584a9016410.js" ></script>
+    <script type="text/javascript" src="/assets/respond.min-678d372b349e434d9923e1b591f14a1e.js" ></script>
+    <![endif]-->
+    
+        
+        
+        <meta name="citation_title" content="Improved dataset coverage and interoperability with Bio2RDF Release 2"></meta><meta name="citation_author" content="Alison Callahan"></meta><meta name="citation_author" content="Jose Cruz-Toledo"></meta><meta name="citation_author" content="P. Ansell"></meta><meta name="citation_author" content="Dana Klassen"></meta><meta name="citation_author" content="G. Tum-Marello"></meta><meta name="citation_author" content="M. Dumontier"></meta><meta name="citation_author_institution" content="Stanford University"></meta><meta name="citation_author_email" content="michel.dumontier@maastrichtuniversity.nl"></meta><meta name="citation_author_orcid" content="0000-0003-4727-9435"></meta><meta name="citation_publication_date" content="2012"></meta><meta name="citation_language" content="English"></meta><meta name="citation_journal_title" content="CEUR Workshop Proceedings"></meta><meta name="citation_issn" content="1613-0073"></meta><meta name="citation_publisher" content="CEUR-WS"></meta><meta name="citation_volume" content="952"></meta><meta name="citation_firstpage" content="18"></meta>
+        <script src="/assets/Chart.min-27bff060c3e539ceb22e763c8f2e9e10.js"></script>
+        <script src="/assets/jquery.content-chart-9c09bb79ba3fc3829b6478d0e114f737.js"></script>
+        
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-XHKR8PVD8E" class="optanon-category-2" type="text/plain" async=""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XHKR8PVD8E', {'cookie_domain' : document.location.hostname, 'anonymize_ip': true });
+</script>
+    <script src="//assets.adobedtm.com/4a848ae9611a/ea83f870454d/launch-af020409b299.min.js" class="optanon-category-2" type="text/plain" async=""></script>
+    
+    
+</head>
+
+<body class="" data-page="publications">
+
+<div id="aria-polite" aria-live="polite"></div>
+
+<div id="aria-assertive" aria-live="assertive"></div>
+
+<nav aria-label="Skip to content" class="skip-content">
+    <ul>
+        <li>
+            <a href="#main-navigation" class="sr-only sr-only-focusable">Skip to main navigation</a>
+        </li>
+        
+            <li>
+                <a href="#main-search" class="sr-only sr-only-focusable">Skip to search</a>
+            </li>
+        
+        <li>
+            <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+            
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+    <header class="header" id="page-header">
+        <div class="primary with-right-background ">
+            <div class="container">
+                
+                    <div class="primary-right-background clearfix">
+                
+                <a href="/en/" class="logo">
+                    
+                        <span class="sr-only">Maastricht University Home</span>
+                        <img src="/skin/headerImage/" alt="Maastricht University Logo"/>
+                    
+                </a>
+                
+                    <ul class="header-tools ">
+                        
+                            <li class="help-and-faq">
+                                <a href="https://library.maastrichtuniversity.nl/research/evaluating-research/cris-support/" target="_blank">
+                                    <i class="icon icon-lifebuoy" aria-hidden="true"></i>
+                                    <span class="label">Support &amp; FAQ</span>
+                                    <span class="sr-only">&nbsp; Link opens in a new tab</span>
+                                </a>
+                            </li>
+                        
+                        
+                    </ul>
+                
+                
+                
+                    </div>
+                
+            </div>
+        </div>
+
+        
+            <div class="header-search">
+                
+<form action="/en/searchAll/index/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/" method="get"
+      class="search-form" id="search-everything">
+
+    <div class="global-search-wrapper">
+        <div class="global-search mini">
+            <div class="field-button-wrapper">
+                <div class="search-cell search-field">
+                    <label for="main-search" class="sr-only">Search content at Maastricht University</label>
+                    <input id="main-search" class="search-field" value="" name="search"
+                           placeholder="Search..."/>
+                </div>
+
+                <div class="search-submit">
+                    <button type="submit" aria-label="Search">
+                        <i class="icon icon-magnifying-glass" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(function () {
+        var searchForm = $("#search-everything");
+        var searchField = $(".search-field", searchForm);
+        searchForm.on("submit", function () {
+            var field = searchField.find("input");
+            var searchString = field.val();
+
+            // No enter key submit nothing :-)
+            if (!searchString) return false;
+
+            if (searchString.length >= 200) {
+                searchForm.attr("method", "post");
+                searchForm.attr("action", "/en/concepts/copypaste/");
+                field.attr("name", "text");
+            }
+        });
+    });
+</script>
+            </div>
+        
+
+
+        
+        
+            <div class="subMenu">
+                <div class="secondary">
+                    <div class="container">
+                        <nav id="main-navigation" aria-label="Main navigation" class="content-navigation three-third">
+                            <ul data-value="More" role="menubar">
+                                <li class="" role="none">
+                                    <a href="/en/" role="menuitem" tabindex="-1">Home</a>
+                                </li>
+
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/persons/"><span>Researchers</span></a>
+                                    </li>
+                                
+                                    <li class="selected" role="none">
+                                        <a class="portal_link" tabindex="0" role="menuitem" href="/en/publications/"><span>Publications</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/activities/"><span>Activities</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/clippings/"><span>Press/Media</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/prizes/"><span>Prizes</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/organisations/"><span>Organisations</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/datasets/"><span>Dataset/Software</span></a>
+                                    </li>
+                                
+                                    <li class="" role="none">
+                                        <a class="portal_link" tabindex="-1" role="menuitem" href="/en/projects/"><span>Projects</span></a>
+                                    </li>
+                                
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+    <main id="page-content">
+        
+    <div class="page-section page-section-publications page-section-publications-view ">
+
+        
+        
+        
+        
+        <section
+                class="page-section-header page-section-header-publications page-section-header-publications-view
+                 no-backdrop-image"
+                data-stickyheader=""
+                style="">
+            
+            
+        
+
+
+<div class="container">
+    <div class="row">
+        <div class="introduction no-metrics">
+            <div class="rendering"><h1><span>Improved dataset coverage and interoperability with Bio2RDF Release 2</span></h1></div>
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_associatespersonsclassifiedportal rendering_contributiontojournal rendering_associatespersonsclassifiedportal rendering_contributiontojournal_associatespersonsclassifiedportal"><ul class="relations persons"><li>Alison Callahan</li><li>, Jose Cruz-Toledo</li><li>, P. Ansell</li><li>, Dana Klassen</li><li>, G. Tum-Marello</li><li>, <a rel="Person" href="https://cris.maastrichtuniversity.nl/en/persons/michel-dumontier/" class="link person"><span>M. Dumontier</span></a></li></div>
+            
+            
+            <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationcontenttyperendererportalng rendering_contributiontojournal rendering_publicationcontenttyperendererportalng rendering_contributiontojournal_publicationcontenttyperendererportalng"><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Conference article in journal</span><span class="type_classification"><span class="type_parent_sep"> › </span>Academic</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="publication-metrics" role="region" aria-label="Publication metrics section">
+        
+            <div class="metrics-container">
+                
+                
+                    <div class="metrics-wrap metrics-bottom one">
+                        
+
+                        
+                            <div class="metric metric-altmetric">
+                                
+                                    <div data-badge-popover="top" data-badge-type="donut" data-uri="https://cris.maastrichtuniversity.nl/en/publications/action--improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/"
+                                         data-hide-no-mentions="true" data-link-target='_blank' class="altmetric-embed"></div>
+                                
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        
+    </div>
+
+
+    </div>
+
+</div>
+<div class="subMenu">
+    <div class="content-profile-navigation">
+    <div class="container">
+        <nav role="navigation">
+            <ul role="menubar">
+                <li class="selected" role="none">
+                    <a class="portal_link" role="menuitem" href="/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/"><span>
+                        <i class="icon icon-publication" aria-hidden="true"></i>
+                        <span class="label">Overview</span>
+                    </span></a>
+                </li>
+                
+                    <li class="" role="none">
+                        <a class="portal_link" role="menuitem" href="/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/fingerprints/"><span>
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="label">Fingerprint</span>
+                        </span></a>
+                    </li>
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</div>
+
+    
+        </section>
+
+        <div id="main-content"
+             class="page-section-content page-section-content-publications page-section-content-publications-view   ">
+            
+        <section class="page-section content-relation-section">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="content-content publication-content">
+                        
+                        
+                            <h2 class="subheader">Abstract</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_abstractportal rendering_contributiontojournal rendering_abstractportal rendering_contributiontojournal_abstractportal"><div class="textblock"><p>Bio2RDF is an open source project that uses Semantic Web technol-ogies to create and provide the largest network of Linked Data for the life sciences. Here, we present the second release of the Bio2RDF project which features updated, open-source scripts, a resource registry for IRI mapping and normalization, dataset provenance, data metrics, downloadable RDF data files and Virtuoso SPARQL endpoints. We describe dataset connectivity, assisted SPARQL queries with context-aware SPARQLed, and mashup capability using the Sig.ma search engine. We discuss updates to the Bio2RDF project in the context of other related resources as well as future improvements.</p></div></div>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_detailsportal rendering_contributiontojournal rendering_detailsportal rendering_contributiontojournal_detailsportal"><div class="conferencearticle"><table class="properties"><tbody><tr class="language"><th scope="row">Original language</th><td>English</td></tr><tr><th scope="row">Article number</th><td>18</td></tr><tr class="numberofpages"><th scope="row">Number of pages</th><td>15</td></tr><tr><th scope="row">Journal</th><td><a rel="Journal" href="#" class="link"><span>CEUR Workshop Proceedings</span></a></td></tr><tr><th scope="row">Volume</th><td>952</td></tr><tr class="status"><th scope="row">Publication status</th><td><span class="prefix">Published - </span><span class="date">2012</span></td></tr><tr><th scope="row">Externally published</th><td>Yes</td></tr></tbody></table></div></div>
+                        
+
+                        
+
+                        
+
+                        
+
+                    </div>
+
+                    <div class="content-sidebar publication-sidebar">
+                        
+                            <h2 class="subheader">Access to Document</h2>
+                        <div class="rendering rendering_researchoutput  rendering_researchoutput_publicationaccessrenderer rendering_contributiontojournal rendering_publicationaccessrenderer rendering_contributiontojournal_publicationaccessrenderer"><ul class="links"><li class="open-access"><div class="link electronic-version-link"><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="http://ceur-ws.org/Vol-952/paper_18.pdf" class="link"><span>http://ceur-ws.org/Vol-952/paper_18.pdf</span></a></div></li></ul></div>
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <section class="page-section content-relation-section publication-fingerprint">
+                <div class="container">
+                    <div class="header">
+                        <h2 class="section-title">
+                            <i class="icon icon-fingerprint" aria-hidden="true"></i>
+                            <span class="title">Fingerprint</span>
+                        </h2>
+                        <span class="sub-title">
+                            Dive into the research topics of 'Improved dataset coverage and interoperability with Bio2RDF Release 2'. Together they form a unique fingerprint.
+                        </span>
+                    </div>
+
+                    <ul class="publication-top-concepts" role="menubar"  aria-label="Related fingerprints">
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="86af4016-f764-4ce9-a98f-7adfea7afb34"
+            data-concept-uuid="86af4016-f764-4ce9-a98f-7adfea7afb34"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Interoperability</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="fa7b32c2-ad02-41e0-b8f9-e3c45073f3bd"
+            data-concept-uuid="fa7b32c2-ad02-41e0-b8f9-e3c45073f3bd"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Open Source Project</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="66484d2d-3103-41be-a154-2443d7083f52"
+            data-concept-uuid="66484d2d-3103-41be-a154-2443d7083f52"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Linked Data</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="95e9f7a5-067a-438d-9275-0a38585f1325"
+            data-concept-uuid="95e9f7a5-067a-438d-9275-0a38585f1325"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Semantic Web</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="15d00903-400f-4818-bc2e-d626586461cd"
+            data-concept-uuid="15d00903-400f-4818-bc2e-d626586461cd"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Search Engine</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="be45648a-ed8b-4f60-9a32-8446c1bd508e"
+            data-concept-uuid="be45648a-ed8b-4f60-9a32-8446c1bd508e"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Open Source</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="f3f3c678-01a9-4430-bce2-c5b7c2be4061"
+            data-concept-uuid="f3f3c678-01a9-4430-bce2-c5b7c2be4061"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Related Resource</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                            <li class="concept-badge-large-container dropdown-overflow" role="none">
+
+    <button tabindex="0"
+            class="concept-badge-large dropdown-toggle"
+            type="button"
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="8cf48407-d541-4cc4-a6cb-4001a1265e78"
+            data-concept-uuid="8cf48407-d541-4cc4-a6cb-4001a1265e78"
+            data-rank-size="32"
+            data-rank-thickness="8"
+            data-rank-value="1.0"
+            data-summary="true"
+            data-summary-url="/en/concepts/summary/">
+        <span class="concept-wrapper" title="100%">
+            <span class="rank"></span>
+            <span class="concept">Data Provenance</span>
+            <span class="thesauri">Computer Science</span>
+            <span class="value sr-only">100%</span>
+        </span>
+    </button>
+
+    <div class="dropdown-container"></div>
+
+</li>
+                        
+                    </ul>
+                    <div class="footer">
+                        <div class="view-all align-center">
+                            <a class="portal_link btn-primary btn-large" href="/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/fingerprints/"><span>
+                                View full fingerprint
+                                <i class="icon icon-right-open-mini" aria-hidden="true"></i>
+                            </span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        <section class="page-section cite">
+            <div class="container">
+                <section class="publication-cite" aria-labelledby="publications-cite-title">
+    <h2 class="subheader" id="publications-cite-title">Cite this</h2>
+    <ul class="tabs" role="tablist" aria-label="Cite this">
+        
+            <li class="selected" role="tab" id="tab-0" aria-controls="cite-apa" tabindex="-1"  aria-selected="false" >
+                APA
+            </li>
+        
+            <li class="" role="tab" id="tab-1" aria-controls="cite-author" tabindex="-1"  aria-selected="false" >
+                Author
+            </li>
+        
+            <li class="" role="tab" id="tab-2" aria-controls="cite-BIBTEX" tabindex="-1"  aria-selected="false" >
+                BIBTEX
+            </li>
+        
+            <li class="" role="tab" id="tab-3" aria-controls="cite-harvard" tabindex="-1"  aria-selected="false" >
+                Harvard
+            </li>
+        
+            <li class="" role="tab" id="tab-4" aria-controls="cite-standard" tabindex="-1"  aria-selected="false" >
+                Standard
+            </li>
+        
+            <li class="" role="tab" id="tab-5" aria-controls="cite-RIS" tabindex="-1"  aria-selected="false" >
+                RIS
+            </li>
+        
+            <li class="" role="tab" id="tab-6" aria-controls="cite-vancouver" tabindex="-1"  aria-selected="false" >
+                Vancouver
+            </li>
+        
+    </ul>
+    <div class="tab-container">
+        
+            <div id="cite-apa" class="tab selected" role="tabpanel" aria-labelledby="tab-0" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_apa rendering_contributiontojournal rendering_apa rendering_contributiontojournal_apa">Callahan, A., Cruz-Toledo, J., Ansell, P., Klassen, D., Tum-Marello, G.<a rel="Person" href="https://cris.maastrichtuniversity.nl/en/persons/michel-dumontier/" class="link"><span>, &amp; Dumontier, M.</span></a> (2012). <a rel="ContributionToJournal" href="https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/" class="link"><span>Improved dataset coverage and interoperability with Bio2RDF Release 2</span></a>. <a rel="Journal" href="#" class="link"><span><em>CEUR Workshop Proceedings</em></span></a>, <em>952</em>, Article 18. <a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="http://ceur-ws.org/Vol-952/paper_18.pdf" class="link"><span>http://ceur-ws.org/Vol-952/paper_18.pdf</span></a></div>
+            </div>
+        
+            <div id="cite-author" class="tab " role="tabpanel" aria-labelledby="tab-1" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_author rendering_contributiontojournal rendering_author rendering_contributiontojournal_author">Callahan, Alison ; Cruz-Toledo, Jose ; Ansell, P. et al. / <a rel="ContributionToJournal" href="https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/" class="link"><span><strong>Improved dataset coverage and interoperability with Bio2RDF Release 2</strong></span></a>. In: <a rel="Journal" href="#" class="link"><span>CEUR Workshop Proceedings</span></a>. 2012 ; Vol. 952.</div>
+            </div>
+        
+            <div id="cite-BIBTEX" class="tab " role="tabpanel" aria-labelledby="tab-2" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_bibtex rendering_contributiontojournal rendering_bibtex rendering_contributiontojournal_bibtex"><div>@article{c7ceb4af86b146c3bc76fef44e261a5f,</div><div>  title     = "Improved dataset coverage and interoperability with Bio2RDF Release 2",</div><div>  abstract  = "Bio2RDF is an open source project that uses Semantic Web technol-ogies to create and provide the largest network of Linked Data for the life sciences. Here, we present the second release of the Bio2RDF project which features updated, open-source scripts, a resource registry for IRI mapping and normalization, dataset provenance, data metrics, downloadable RDF data files and Virtuoso SPARQL endpoints. We describe dataset connectivity, assisted SPARQL queries with context-aware SPARQLed, and mashup capability using the Sig.ma search engine. We discuss updates to the Bio2RDF project in the context of other related resources as well as future improvements.",</div><div>  author    = "Alison Callahan and Jose Cruz-Toledo and P. Ansell and Dana Klassen and G. Tum-Marello and M. Dumontier",</div><div>  year      = "2012",</div><div>  language  = "English",</div><div>  volume    = "952",</div><div>  journal   = "CEUR Workshop Proceedings",</div><div>  issn      = "1613-0073",</div><div>  publisher = "CEUR-WS",</div><p>}</p></div>
+            </div>
+        
+            <div id="cite-harvard" class="tab " role="tabpanel" aria-labelledby="tab-3" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_harvard rendering_contributiontojournal rendering_harvard rendering_contributiontojournal_harvard">Callahan, A, Cruz-Toledo, J, Ansell, P, Klassen, D, Tum-Marello, G<a rel="Person" href="https://cris.maastrichtuniversity.nl/en/persons/michel-dumontier/" class="link"><span> &amp; Dumontier, M</span></a> 2012, '<a rel="ContributionToJournal" href="https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/" class="link harvard_title"><span>Improved dataset coverage and interoperability with Bio2RDF Release 2</span></a>', <a rel="Journal" href="#" class="link"><span><em>CEUR Workshop Proceedings</em></span></a>, vol. 952, 18. &lt;<a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="http://ceur-ws.org/Vol-952/paper_18.pdf" class="link"><span>http://ceur-ws.org/Vol-952/paper_18.pdf</span></a>&gt;</div>
+            </div>
+        
+            <div id="cite-standard" class="tab " role="tabpanel" aria-labelledby="tab-4" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_standard rendering_contributiontojournal rendering_standard rendering_contributiontojournal_standard"><a rel="ContributionToJournal" href="https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/" class="link"><span><strong>Improved dataset coverage and interoperability with Bio2RDF Release 2.</strong></span></a> / Callahan, Alison; Cruz-Toledo, Jose; Ansell, P. et al. <br />In: <a rel="Journal" href="#" class="link"><span>CEUR Workshop Proceedings</span></a>, Vol. 952, 18, 2012.<p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Conference article in journal</span><span class="type_classification"><span class="type_parent_sep"> › </span>Academic</span><span class="type_classification"><span class="type_parent_sep"> › </span>peer-review</span></p></div>
+            </div>
+        
+            <div id="cite-RIS" class="tab " role="tabpanel" aria-labelledby="tab-5" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_ris rendering_contributiontojournal rendering_ris rendering_contributiontojournal_ris"><p>TY  - JOUR</p><p>T1  - Improved dataset coverage and interoperability with Bio2RDF Release 2</p><p>AU  - Callahan, Alison</p><p>AU  - Cruz-Toledo, Jose</p><p>AU  - Ansell, P.</p><p>AU  - Klassen, Dana</p><p>AU  - Tum-Marello, G.</p><p>AU  - Dumontier, M.</p><p>PY  - 2012</p><p>Y1  - 2012</p><p>N2  - Bio2RDF is an open source project that uses Semantic Web technol-ogies to create and provide the largest network of Linked Data for the life sciences. Here, we present the second release of the Bio2RDF project which features updated, open-source scripts, a resource registry for IRI mapping and normalization, dataset provenance, data metrics, downloadable RDF data files and Virtuoso SPARQL endpoints. We describe dataset connectivity, assisted SPARQL queries with context-aware SPARQLed, and mashup capability using the Sig.ma search engine. We discuss updates to the Bio2RDF project in the context of other related resources as well as future improvements.</p><p>AB  - Bio2RDF is an open source project that uses Semantic Web technol-ogies to create and provide the largest network of Linked Data for the life sciences. Here, we present the second release of the Bio2RDF project which features updated, open-source scripts, a resource registry for IRI mapping and normalization, dataset provenance, data metrics, downloadable RDF data files and Virtuoso SPARQL endpoints. We describe dataset connectivity, assisted SPARQL queries with context-aware SPARQLed, and mashup capability using the Sig.ma search engine. We discuss updates to the Bio2RDF project in the context of other related resources as well as future improvements.</p><p>M3  - Conference article in journal</p><p>SN  - 1613-0073</p><p>VL  - 952</p><p>JO  - CEUR Workshop Proceedings</p><p>JF  - CEUR Workshop Proceedings</p><p>M1  - 18</p><p>ER  - </p></div>
+            </div>
+        
+            <div id="cite-vancouver" class="tab " role="tabpanel" aria-labelledby="tab-6" tabindex="-1" aria-hidden="true">
+                <div class="rendering rendering_researchoutput  rendering_researchoutput_vancouver rendering_contributiontojournal rendering_vancouver rendering_contributiontojournal_vancouver">Callahan A, Cruz-Toledo J, Ansell P, Klassen D, Tum-Marello G<a rel="Person" href="https://cris.maastrichtuniversity.nl/en/persons/michel-dumontier/" class="link"><span>, Dumontier M</span></a>. <span class="title"><a rel="ContributionToJournal" href="https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/" class="link"><span>Improved dataset coverage and interoperability with Bio2RDF Release 2</span></a></span>. <a rel="Journal" href="#" class="link"><span>CEUR Workshop Proceedings</span></a>. 2012;952:18.</div>
+            </div>
+        
+
+        <script>
+            $(function() {
+                $(".tab-container .rendering a:not([href^='http://dx.doi.org'])").contents().unwrap();
+            });
+        </script>
+    </div>
+</section>
+
+            </div>
+        </section>
+        <script>
+    $(function () {
+        if($('.publication-sidebar').length > 0){
+            if($('a.document-link').length === 0){
+                $(".metrics-top").addClass("one");
+                $('div.metrics-downloads').remove();
+            }
+        }
+    });
+
+    function plumXError(e) {
+        $(e).closest('.metric-plum-x').closest('.metrics-bottom').addClass('one');
+        $(e).closest('.metric-plum-x').remove();
+    }
+    $('div.altmetric-embed').on('altmetric:hide', function () {
+        $(this).closest('.metric-altmetric').closest('.metrics-bottom').addClass('one');
+        $(this).closest('.metric-altmetric').remove();
+    });
+</script>
+        
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+        
+        
+        
+    
+
+    <div class="share-box">
+        <ul>
+            <li class="icon-share"></li>
+            <li><a aria-label="Share on Facebook"
+                   href="https://www.facebook.com/sharer.php?u=https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&p[summary]=Check+out+this+research+output+at+Maastricht+University%3A+Improved+dataset+coverage+and+interoperability+with+Bio2RDF+Release+2"
+                   class="icon-facebook"
+                   onclick="window.location.origin('https://www.facebook.com/sharer.php?u=https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&p[summary]=Check+out+this+research+output+at+Maastricht+University%3A+Improved+dataset+coverage+and+interoperability+with+Bio2RDF+Release+2', 'Facebook', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" target="popup"></a></li>
+            <li><a aria-label="Share on Twitter"
+                   href="https://twitter.com/intent/tweet?url=https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&text=Check+out+this+research+output+at+Maastricht+University%3A+Improved+dataset+coverage+and+interoperability+with+Bio2RDF+Release+2"
+                   onclick="window.location.origin('https://twitter.com/intent/tweet?url=https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&text=Check+out+this+research+output+at+Maastricht+University%3A+Improved+dataset+coverage+and+interoperability+with+Bio2RDF+Release+2 ', 'Twitter', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="twitter" target="popup"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 300 271">
+                    
+                    <path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z"></path>
+                </svg></a></li>
+            <li><a aria-label="Share on LinkedIn"
+                   href="https://www.linkedin.com/shareArticle?mini=true&url=https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&summary=Check+out+this+research+output+at+Maastricht+University%3A+Improved+dataset+coverage+and+interoperability+with+Bio2RDF+Release+2"
+                   onclick="window.location.origin('https://www.linkedin.com/shareArticle?mini=true&url=https://cris.maastrichtuniversity.nl/en/publications/improved-dataset-coverage-and-interoperability-with-bio2rdf-relea/%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dsharelink&summary=Check+out+this+research+output+at+Maastricht+University%3A+Improved+dataset+coverage+and+interoperability+with+Bio2RDF+Release+2 ', 'LinkedIn', 'width=600,height=600,scrollbars=no,resizable=no');
+                   return false;" class="icon-linkedin" target="popup"></a></li>
+            <li><a aria-label="Share by email" href="/cdn-cgi/l/email-protection#93ace0e6f1f9f6f0e7aedafee3e1fce5f6f7b6a1a3f7f2e7f2e0f6e7b6a1a3f0fce5f6e1f2f4f6b6a1a3f2fdf7b6a1a3fafde7f6e1fce3f6e1f2f1fafffae7eab6a1a3e4fae7fbb6a1a3d1fafca1c1d7d5b6a1a3c1f6fff6f2e0f6b6a1a3a1b5f1fcf7eaaed0fbf6f0f8b6a1a3fce6e7b6a1a3e7fbfae0b6a1a3e1f6e0f6f2e1f0fbb6a1a3fce6e7e3e6e7b6a1a3f2e7b6a1a3def2f2e0e7e1faf0fbe7b6a1a3c6fdfae5f6e1e0fae7eab6a0d2b6a1a3dafee3e1fce5f6f7b6a1a3f7f2e7f2e0f6e7b6a1a3f0fce5f6e1f2f4f6b6a1a3f2fdf7b6a1a3fafde7f6e1fce3f6e1f2f1fafffae7eab6a1a3e4fae7fbb6a1a3d1fafca1c1d7d5b6a1a3c1f6fff6f2e0f6b6a1a3a1b3efb3fbe7e7e3e0a9bcbcf0e1fae0bdfef2f2e0e7e1faf0fbe7e6fdfae5f6e1e0fae7eabdfdffbcf6fdbce3e6f1fffaf0f2e7fafcfde0bcfafee3e1fce5f6f7bef7f2e7f2e0f6e7bef0fce5f6e1f2f4f6bef2fdf7befafde7f6e1fce3f6e1f2f1fafffae7eabee4fae7fbbef1fafca1e1f7f5bee1f6fff6f2bcace6e7fecce0fce6e1f0f6aef6fef2faffb5f2fee3a8e6e7feccfef6f7fae6feaef6fef2faffb5f2fee3a8e6e7feccf0f2fee3f2faf4fdaee0fbf2e1f6fffafdf8" class="icon-email"></a></li>
+        </ul>
+    </div>
+
+
+
+
+    
+        </div>
+    </div>
+
+    <div id="new-modal-overlay"></div>
+    
+    </main>
+
+    <footer id="page-footer" class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="content-navigation three-third">
+                    <div dir="ltr" class="footer-columns">
+                        
+                        <div class="footer-column">
+                            <p>
+                                Powered by <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure" target="_blank">Pure <span class="sr-only">Link opens in a new tab</span></a>, <a href="http://www.scopus.com/" target="_blank">Scopus <span class="sr-only">Link opens in a new tab</span></a> & <a href="https://www.elsevier.com/products/elsevier-fingerprint-engine" target="_blank">Elsevier Fingerprint Engine&trade; <span class="sr-only">Link opens in a new tab</span></a> 
+                            </p>
+
+                            <p>
+                                All content on this site: Copyright &copy; 2026 Maastricht University, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+                            </p>
+
+                            <p>We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the <a href="/en/about/cookies/">use of cookies</a></p>
+                            <p><button id="ot-sdk-btn" class="ot-sdk-show-settings"></button></p>
+                            
+                                <p><a href="https://cris.maastrichtuniversity.nl/admin/workspace.xhtml" rel="nofollow" target="_blank">Log in to Pure <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            <p></p>
+                        </div>
+
+                        <div class="footer-column">
+                            
+                                <p><a href="https://www.maastrichtuniversity.nl/sites/default/files/general_privacy_statement_um.pdf" target="_blank">Maastricht University data protection policy <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            
+                            
+                                <p><a href="/en/web-accessibility/" rel="nofollow" target="_blank">About web accessibility <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                <a href="https://elsevier.responsibledisclosure.com/hc/en-us/requests/new" target="_blank" rel="nofollow">Report vulnerability <span class="sr-only">&nbsp; Link opens in a new tab</span></a>
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top">
+            <a href="#" class="back-to-top" aria-label="Go to top"><i class="icon icon-up-open"></i></a>
+        </div>
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+    
+
+    
+
+
+<script>window.appData = window.appData || [];</script><script type="text/javascript">
+try {(function() {
+appData.push({...{"page":{"businessUnit":"ELS:RP:ST","cmsName":"Pure Portal","environment":"prod","language":"en","loadTime":"266","loadTimestamp":"1775525237417","name":"pure portal:publications:view","noTracking":"false","productName":"PR","type":"CP-CA"},"visitor":{"accountId":"","accountName":"pr:Maastricht University","ipAddress":"","accessType":"pr:ANON_GUEST","loginStatus":"anonymous"},"content":[{"id":"c7ceb4af-86b1-46c3-bc76-fef44e261a5f","title":"Improved dataset coverage and interoperability with Bio2RDF Release 2","recordType":"researchoutput"}]}, event: "pageLoad"});})();} catch(e) {if(console) { console.log(e) } }</script>
+<script>function trackPage(){try {(function() {
+window.appData = window.appData || [];
+})();} catch(e) {if(console) { console.log(e) } }}</script>
+
+</body>
+</html>
+

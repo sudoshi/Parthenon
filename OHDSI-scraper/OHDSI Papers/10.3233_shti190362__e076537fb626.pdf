@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+<!--Google consent mode V2-->
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    if (localStorage.getItem('consentMode') === null) {
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'personalization_storage': 'granted',
+            'functionality_storage': 'granted',
+            'security_storage': 'granted',
+        });
+    } else {
+        gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode')));
+    }
+    gtag('set', 'ads_data_redaction', true);
+    gtag('set', 'url_passthrough', true);
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7N3WL5P');</script>
+<!-- End Google Tag Manager -->
+
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+        <title>IOS Press Ebooks - Integration of FHIR to Facilitate Electronic Case Reporting: Results from a Pilot Study</title>
+                
+        
+    <meta name="DC.type" content="Text" />
+    <!--Publisher-->
+    <meta name="citation_publisher" content="IOS Press" />
+    <!--Volume-->
+    <meta name="citation_inbook_title" content="MEDINFO 2019: Health and Wellbeing e-Networks for All" />
+    <!--Article-->
+    <meta name="citation_firstpage" content="940" />
+    <meta name="citation_lastpage" content="944" />
+    <meta name="citation_title" content="Integration of FHIR to Facilitate Electronic Case Reporting: Results from a Pilot Study" />
+        <meta name="citation_author" content="Dixon, Brian E." />
+        <meta name="citation_author" content="Taylor, David E." />
+        <meta name="citation_author" content="Choi, Myung" />
+        <meta name="citation_author" content="Riley, Michael" />
+        <meta name="citation_author" content="Schneider, Trey" />
+        <meta name="citation_author" content="Duke, Jon" />
+
+        <meta name="citation_publication_date" content="2019" /><!-- year only is allowed, full date possible-->
+
+        <meta name="citation_online_date" content="2019/08/22" />
+
+        <meta name="citation_doi" content="10.3233/SHTI190362" />
+        <meta name="citation_abstract_html_url" content="https://ebooks.iospress.nl/doi/10.3233/SHTI190362" />
+        <meta name="citation_fulltext_html_url" content="https://ebooks.iospress.nl/doi/10.3233/SHTI190362" />
+
+        <meta name="citation_fulltext_world_readable" content="">
+
+
+        <link href="/Content/themes/iospress/css?v=ljnAn2YK9VAuWQ6yMHuVpt0PyO6URwXlRsslkMHliAM1" rel="stylesheet"/>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="/bundles/jqueryval?v=rJ9c2NK66lNXx5MZMyuy1ne3CmVh3Ji-KnmhGkoSHfI1"></script>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div id="default_header">
+    <div id="logo"><img alt="IOS Press Logo" src="/Content/themes/iospress/images/ioslogo.png" /></div>
+    <div id="divider"></div>
+    <div id="title">IOS Press Ebooks</div>
+    <div style="position:relative; float: right; width: 300px;">
+        
+        
+    <!-- NOT LOGGED IN -->
+    <div id="header_accountbox" class="loggedout">
+        <div class="accountbox_welcome">Guest Access</div>
+        <div id="header_accountbox_qmark">?</div>
+        <div class="accountbox_actions">
+            
+            
+            <a data-dialog-title="Identification" href="/Account/Login?returnUrl=%2Fpublication%2F52127" id="loginLink">Log in</a>
+        </div>
+        <div id="header_accountbox_infobox">
+            <div id="header_accountbox_infobox_arrow"></div>
+            <div id="header_accountbox_infobox_content">
+                As a guest user you are not logged in or recognized by your IP address. You have
+                access to the Front Matter, Abstracts, Author Index, Subject Index and the full
+                text of Open Access publications.
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#header_accountbox_qmark").mouseenter(function () {
+            $("#header_accountbox_infobox").show();
+        });
+        $("#header_accountbox_qmark").mouseleave(function () {
+            $("#header_accountbox_infobox").hide();
+        });
+
+    });
+</script>
+
+
+
+    </div>
+<div id="menu_wrapper">
+    <div id="menu-primary" class="menu-container">
+        <div class="menu" role="navigation" aria-label="Main Menu">
+            <ul id="menu-primary-items" role="menubar">
+                    <li role="presentation" class="menu-item"><a role="menuitem" href="/"><span>Home</span></a></li>                    
+                    <li role="presentation" class="menu-item current-menu-item"><a role="menuitem" href="/Publication/Books"><span>Ebooks</span></a></li>                    
+                    <li role="presentation" class="menu-item"><a role="menuitem" href="/Publication/OpenAccess"><span>Open Access</span></a></li>                    
+                    <li role="presentation" class="menu-item"><a role="menuitem" href="/Publisher/About"><span>About IOS Press</span></a></li>                    
+                    <li role="presentation" class="menu-item"><a role="menuitem" href="/Publisher/Contact"><span>Contact</span></a></li>                    
+                    <li role="presentation" class="menu-item"><a role="menuitem" href="/Publisher/FAQ"><span>FAQ</span></a></li>                    
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+    </header>
+    
+    <!-- END HEADER -->
+    <div id="content" class="clearfix">
+        <div id="leftcolumn">
+            
+    <div class="searchtitle" id="searchlabel">Search</div>
+<div id="sidesearchbox" style="font-size: 11px; width: 100%;" class="clearfix">
+<form action="/Search" method="post">        <div style="float: left; width: 100px;"><input aria-labelledby="searchlabel" class="searchterm" id="SearchTerm" name="SearchTerm" title="Search ebooks" type="text" value="" /></div>
+<input data-val="true" data-val-required="The SearchInAuthors field is required." id="SearchInAuthors" name="SearchInAuthors" type="hidden" value="True" /><input data-val="true" data-val-required="The SearchInTitle field is required." id="SearchInTitle" name="SearchInTitle" type="hidden" value="True" /><input data-val="true" data-val-required="The SearchInKeywords field is required." id="SearchInKeywords" name="SearchInKeywords" type="hidden" value="True" /><input data-val="true" data-val-required="The SearchInISSNISBN field is required." id="SearchInISSNISBN" name="SearchInISSNISBN" type="hidden" value="True" />        <div style="clear: both; padding-top: 12px;" align="right">
+            <input type="image" value="SideSearch" src="/Content/themes/iospress/images/searchbutton.png" alt="Submit Search" class="submit" />
+        </div>
+</form></div>
+
+
+            <div class="partialContents" data-url="/Subject/BrowserAsync">
+                <img alt="loader" src="/Content/Images/indicator.white.gif" /> loading subjects...
+            </div>
+
+
+        </div>
+        <main id="contentcolumn">
+            
+
+
+
+<div class="bookseriesvolumearticleheader">
+    <div class="content">
+        <div class="cover"><img alt="cover" class="volume" src="/Content/themes/iospress/images/article.gif" /></div>
+        <div class="metadata">
+
+            <div class="value title">Integration of FHIR to Facilitate Electronic Case Reporting: Results from a Pilot Study</div>
+
+                <span class="metadata_label">Authors</span>
+                <div class="value authors">Brian E. Dixon, David E. Taylor, Myung Choi, Michael Riley, Trey Schneider, Jon Duke</div>
+
+                <span class="metadata_label">Pages</span>
+                <div class="value pages">940 - 944</div>
+
+                <span class="metadata_label">DOI</span>
+                <div class="value doi">10.3233/SHTI190362</div>
+
+                <span class="metadata_label">Category</span>
+                <div class="value category">Research Article</div>
+
+            <span class="metadata_label">Series</span>
+            <div class="value book"><a href="/bookseries/studies-in-health-technology-and-informatics">Studies in Health Technology and Informatics</a></div>
+
+            <span class="metadata_label">Ebook</span>
+                <div class="value book"><a href="/volume/medinfo-2019-health-and-wellbeing-e-networks-for-all-proceedings-of-the-17th-world-congress-on-medical-and-health-informatics">Volume 264: MEDINFO 2019: Health and Wellbeing e-Networks for All</a></div>
+
+                <div class="abstract">
+                    <b>Abstract</b><br />
+                    <section>
+  <p>Current approaches to gathering sexually transmitted infection (STI) case information for surveillance efforts are inefficient and lead to underreporting of disease burden. Electronic health information systems offer an opportunity to improve how STI case information can be gathered and reported to public health authorities. To test the feasibility of a standards-based application designed to automate STI case information collection and reporting, we conducted a pilot study where electronic laboratory messages triggered a FHIR-based application to query a patient’s electronic health record for details needed for an electronic case report (eCR). Out of 214 cases observed during a one week period, 181 (84.6%) could be successfully confirmed automatically using the FHIR-based application. Data quality and information representation challenges were identified that will require collaborative efforts to improve the structure of electronic clinical messages as well as the robustness of the FHIR application.</p>
+</section>
+                </div>
+        </div>
+        <div class="actions">
+            
+            
+            <form action="/Download/Pdf" id="downloadform52127" method="post">        <input type="hidden" name="id" value="52127" />
+        <div id='downloadlink52127' class="button getpdf">Download PDF</div>
+</form>    <script type="text/javascript">
+    $(function () {
+        var $link = $('div#downloadlink52127');
+        var $form = $('form#downloadform52127');
+
+        $link.on('click', function (e) {
+            if ($link.hasClass('busy')) return;   // already clicked once
+
+            $link.addClass('busy');               // mark as locked
+            $form.submit();                       // original behaviour
+
+            setTimeout(function () {              // unlock after 2 s
+                $link.removeClass('busy');
+            }, 2000);
+        });
+    });
+    </script>
+
+        <div class="button openaccesslicense">
+            <a rel="license" target="_blank" title="This work is licensed under a Creative Commons License" href="https://creativecommons.org/licenses/by-nc/4.0/deed.en_US">
+                <img alt="Creative Commons License" style="border-width: 0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" loading="lazy" />
+            </a>
+        </div>
+
+            
+
+        </div>
+    </div>
+</div>
+
+
+
+        </main>
+    </div>
+    <footer id="footer" class="clearfix">
+        <script type="text/javascript">
+    $(document).ready(function () {
+
+        $('[id^="tip_"]').mouseenter(function () {
+            $(this).stop(true);
+            $(this).hide().show();
+        });
+        $('.tip').mouseleave(function () {
+            $('[id^="tip_"]').fadeOut(600, function () {
+                $('[id^="tip_"]').hide()
+            });
+        });
+
+        $('[name^="atip_"]').mouseenter(function () {
+            var idtoshow = $(this).attr('name').substring(1);
+            $('#' + idtoshow).hide().fadeIn(600, function () {
+                $('#' + idtoshow).show()
+            });
+        });
+
+        $('[name^="atip_"]').mouseleave(function () {
+            var idtoshow = $(this).attr('name').substring(1);
+            $('#' + idtoshow).fadeOut(600, function () {
+                $('#' + idtoshow).hide()
+            });
+        });
+    });
+</script>
+<div id="default_footer">
+    <div id="footer_contact">
+        <h2>
+            Contact
+        </h2>
+
+        <ul class="list" style="float: left">
+            <li>&nbsp;</li>
+            <li><a name="atip_europe" href="/Publisher/Contact">IOS Press / Sage Publishing</a></li>
+            <li>&nbsp;</li>
+        </ul>
+
+        <a name="atip_usa" id="usa" class="usa" href="#" title="North America"></a>
+        <a name="atip_europe" id="europe" class="europe" title="Europe" href="/Publisher/Contact"></a>
+        <a name="atip_asia" id="asia" class="asia" title="Asia" href="#"></a>
+
+        <div id="tip_europe" style="display: none;">
+            <div class="tip">
+                <strong>IOS Press / Sage Publishing</strong><br />
+                Teleportboulevard 120<br />
+                1043 EJ Amsterdam<br />
+                The Netherlands<br /><br />
+
+                <strong>Sage Publishing</strong><br />
+                <a href="https://www.sagepub.com/contact-and-support/contact-us" target="_blank">Contact Sage</a>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer_divider">
+    </div>
+    <div id="footer_links">
+        <h2>
+            Copyright 2026 © IOS Press
+        </h2>
+        <a href="/publisher/Disclaimer/">Disclaimer</a> &nbsp;&nbsp;&nbsp; <a href="/publisher/TermsOfUse/">
+            Terms of use
+        </a>&nbsp;&nbsp;&nbsp;<a href="/publisher/PrivacyPolicy/">
+            Privacy Policy
+        </a>&nbsp;&nbsp;&nbsp;<a href="/publisher/Contact/">
+            Contact
+        </a>&nbsp;&nbsp;&nbsp;<a href="/publisher/Faq/">FAQ</a>
+    </div>
+    
+    <!--<div id="footer_twitter">-->
+    
+    <!--<a href="https://twitter.com/IOSPress_STM" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @twitter</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+    
+    <!--</div>-->
+</div>
+
+    </footer>
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            var e = document.createElement('script');
+            e.src = '/Scripts/jquery-3.5.1.min.js';
+            e.type = 'text/javascript';
+            document.getElementsByTagName("head")[0].appendChild(e);
+        }
+    </script>
+    <script src="/bundles/subjectmenu?v=jieOsy0lZdhfbuK00Z1qohST722ZF4yIVuWCjPrX6ZE1"></script>
+
+    <script src="/bundles/pubility?v=eUWE0F9LwuTBVepV7wijJlERxGFXH9OFpqVDNTxKf5A1"></script>
+
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            initExpandBoxes(10);
+        })
+    </script>
+
+
+
+<style>
+    .cookie-consent-banner {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #f8f9fa;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        color: black;
+        padding: 15px;
+        font-size: 14px;
+        text-align: center;
+        z-index: 1000;
+    }
+
+        .cookie-consent-banner h3 {
+            padding: 0px 0px;
+            font-size: 14px;
+            font-weight: bolder;
+        }
+
+    .cookie-consent-button {
+        border: none;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+        .cookie-consent-button:hover {
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .cookie-consent-button:active {
+            opacity: .5;
+        }
+
+        .cookie-consent-button.btn-success {
+            background-color: #34a853;
+            color: white;
+        }
+
+        .cookie-consent-button.btn-grayscale {
+            background-color: #dfe1e5;
+            color: black;
+        }
+
+        .cookie-consent-button.btn-outline {
+            background-color: #e6f4ea;
+            color: #34a853;
+        }
+
+    .cookie-consent-options {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+        .cookie-consent-options label {
+            margin: 4px 5px;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        .cookie-consent-options input {
+            margin-right: 5px;
+        }
+</style>
+
+<div id="cookie-consent-banner-basic" class="cookie-consent-banner">
+    <h3>This website uses cookies</h3>
+    <p>
+        We use cookies to provide you with the best possible experience. They also allow us to analyze user behavior in order to constantly improve the website for you. Info about the <a href="/publisher/PrivacyPolicy/">privacy policy</a> of IOS Press.
+    </p>
+    <button id="btn-advanced-basic" class="cookie-consent-button btn-grayscale">Customize</button>
+    <button id="btn-accept-all-basic" class="cookie-consent-button btn-success">Accept</button>
+</div>
+
+<div id="cookie-consent-banner-advanced" class="cookie-consent-banner">
+    <h3>This website uses cookies</h3>
+    <p>
+        We use cookies to provide you with the best possible experience. They also allow us to analyze user behavior in order to constantly improve the website for you. Info about the <a href="/publisher/PrivacyPolicy2">privacy policy</a> of IOS Press.
+    </p>
+    <button id="btn-reject-all-advanced" class="cookie-consent-button btn-grayscale" style="display:none">Reject All</button>
+    <button id="btn-accept-some-advanced" class="cookie-consent-button btn-outline">Accept Selection</button>
+    <button id="btn-accept-all-advanced" class="cookie-consent-button btn-success">Accept</button>
+    <div class="cookie-consent-options">
+        <label><input id="consent-necessary" type="checkbox" value="Necessary" checked disabled>Necessary</label>
+        <label><input id="consent-preferences" type="checkbox" value="Preferences" checked>Preferences</label>
+        <label><input id="consent-analytics" type="checkbox" value="Analytics" checked>Analytics</label>
+        <label><input id="consent-marketing" type="checkbox" value="Marketing" checked>Marketing</label>
+    </div>
+</div>
+
+<script>
+
+    function hideBannerAdvanced() {
+        document.getElementById('cookie-consent-banner-advanced').style.display = 'none';
+    }
+    function hideBannerBasic() {
+        document.getElementById('cookie-consent-banner-basic').style.display = 'none';
+    }
+    function hideAll() {
+        hideBannerBasic();
+        hideBannerAdvanced();
+    }
+
+    function showBannerAdvanced() {
+        if (localStorage.getItem('consentMode') !== null) {
+            var consentmode = JSON.parse(localStorage.getItem('consentMode'));
+            document.getElementById('consent-analytics').checked = (consentmode.analytics_storage === 'granted');
+            document.getElementById('consent-preferences').checked = (consentmode.personalization_storage === 'granted');
+            document.getElementById('consent-marketing').checked = (consentmode.ad_storage === 'granted');
+        }
+        document.getElementById('cookie-consent-banner-advanced').style.display = 'block';
+    }
+    function showBannerBasic() {
+        if (localStorage.getItem('consentMode') !== null) {
+            var consentmode = JSON.parse(localStorage.getItem('consentMode'));
+            document.getElementById('consent-analytics').checked = (consentmode.analytics_storage === 'granted');
+            document.getElementById('consent-preferences').checked = (consentmode.personalization_storage === 'granted');
+            document.getElementById('consent-marketing').checked = (consentmode.ad_storage === 'granted');
+        }
+        document.getElementById('cookie-consent-banner-basic').style.display = 'block';
+    }
+
+    document.getElementById('btn-accept-all-basic').addEventListener('click', function () {
+        setConsent({
+            necessary: true,
+            analytics: true,
+            preferences: true,
+            marketing: true
+        });
+        hideAll();
+    });
+    document.getElementById('btn-accept-all-advanced').addEventListener('click', function () {
+        setConsent({
+            necessary: true,
+            analytics: true,
+            preferences: true,
+            marketing: true
+        });
+        hideAll();
+    });
+    document.getElementById('btn-advanced-basic').addEventListener('click', function () {
+        hideBannerBasic();
+        showBannerAdvanced();
+    });
+    document.getElementById('btn-accept-some-advanced').addEventListener('click', function () {
+        setConsent({
+            necessary: true,
+            analytics: document.getElementById('consent-analytics').checked,
+            preferences: document.getElementById('consent-preferences').checked,
+            marketing: document.getElementById('consent-marketing').checked
+        });
+        hideAll();
+    });
+    document.getElementById('btn-reject-all-advanced').addEventListener('click', function () {
+        setConsent({
+            necessary: false,
+            analytics: false,
+            preferences: false,
+            marketing: false
+        });
+        hideAll()
+    });
+
+    if (localStorage.getItem('consentMode') === null) {
+
+        showBannerBasic();
+    }
+
+    function setConsent(consent) {
+        const consentMode = {
+            'ad_storage': consent.marketing ? 'granted' : 'denied',
+            'ad_user_data': consent.marketing ? 'granted' : 'denied',
+            'ad_personalization': consent.marketing ? 'granted' : 'denied',
+            'analytics_storage': consent.analytics ? 'granted' : 'denied',
+            'personalization_storage': consent.preferences ? 'granted' : 'denied',
+            'functionality_storage': consent.necessary ? 'granted' : 'denied',
+            'security_storage': consent.necessary ? 'granted' : 'denied',
+        };
+        gtag('consent', 'update', consentMode);
+        localStorage.setItem('consentMode', JSON.stringify(consentMode));
+    }
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,3479 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link href="http://purl.org/dc/elements/1.1/" rel="schema.DC">
+<meta name="citation_language" content="en" />
+<meta name="DC.language" content="en" />
+
+<meta name="DC.type" content="journal" />
+<meta property="og:type" content="journal" />
+<meta name="citation_title" content="Targeting the SARS-CoV-2 reservoir in long COVID" />
+<meta name="DC.title" content="Targeting the SARS-CoV-2 reservoir in long COVID" />
+<meta property="og:title" content="Targeting the SARS-CoV-2 reservoir in long COVID" />
+<meta name="DC.identifier" content="https://hal.science/hal-05336944" />
+<meta name="DC.identifier" content="hal-05336944" />
+<meta property="og:url" content="https://hal.science/hal-05336944" />
+
+    <meta name="citation_author" content="Amy D Proal" />
+
+            
+        
+            <meta name="DC.creator" content="Amy D Proal" />
+    <meta name="citation_author" content="Soo Aleman" />
+
+            
+        
+            <meta name="DC.creator" content="Soo Aleman" />
+    <meta name="citation_author" content="Morgane Bomsel" />
+
+            
+        
+                <meta name="citation_author_institution" content="Institut Cochin" />
+        <meta name="DC.creator" content="Morgane Bomsel" />
+    <meta name="citation_author" content="Petter Brodin" />
+
+            
+        
+            <meta name="DC.creator" content="Petter Brodin" />
+    <meta name="citation_author" content="Marcus Buggert" />
+
+            
+        
+            <meta name="DC.creator" content="Marcus Buggert" />
+    <meta name="citation_author" content="Sara Cherry" />
+
+            
+        
+            <meta name="DC.creator" content="Sara Cherry" />
+    <meta name="citation_author" content="Daniel S Chertow" />
+
+            
+        
+            <meta name="DC.creator" content="Daniel S Chertow" />
+    <meta name="citation_author" content="Helen E Davies" />
+
+            
+        
+            <meta name="DC.creator" content="Helen E Davies" />
+    <meta name="citation_author" content="Christopher L Dupont" />
+
+            
+        
+            <meta name="DC.creator" content="Christopher L Dupont" />
+    <meta name="citation_author" content="Steven G Deeks" />
+
+            
+        
+            <meta name="DC.creator" content="Steven G Deeks" />
+    <meta name="citation_author" content="E Wes Ely" />
+
+            
+        
+            <meta name="DC.creator" content="E Wes Ely" />
+    <meta name="citation_author" content="Alessio Fasano" />
+
+            
+        
+            <meta name="DC.creator" content="Alessio Fasano" />
+    <meta name="citation_author" content="Marcelo Freire" />
+
+            
+        
+            <meta name="DC.creator" content="Marcelo Freire" />
+    <meta name="citation_author" content="Linda N Geng" />
+
+            
+        
+            <meta name="DC.creator" content="Linda N Geng" />
+    <meta name="citation_author" content="Diane E Griffin" />
+
+            
+        
+            <meta name="DC.creator" content="Diane E Griffin" />
+    <meta name="citation_author" content="Timothy J Henrich" />
+
+            
+        
+            <meta name="DC.creator" content="Timothy J Henrich" />
+    <meta name="citation_author" content="Stephen M Hewitt" />
+
+            
+        
+            <meta name="DC.creator" content="Stephen M Hewitt" />
+    <meta name="citation_author" content="Akiko Iwasaki" />
+
+            
+        
+            <meta name="DC.creator" content="Akiko Iwasaki" />
+    <meta name="citation_author" content="Harlan M Krumholz" />
+
+            
+        
+            <meta name="DC.creator" content="Harlan M Krumholz" />
+    <meta name="citation_author" content="Michela Locci" />
+
+            
+        
+            <meta name="DC.creator" content="Michela Locci" />
+    <meta name="citation_author" content="Vincent C Marconi" />
+
+            
+        
+            <meta name="DC.creator" content="Vincent C Marconi" />
+    <meta name="citation_author" content="Saurabh Mehandru" />
+
+            
+        
+            <meta name="DC.creator" content="Saurabh Mehandru" />
+    <meta name="citation_author" content="Michaela Muller-Trutwin" />
+
+            
+                <meta name="citation_author_hal_id" content="michaela-muller-trutwin" />
+    
+            <meta name="DC.creator" content="Michaela Muller-Trutwin" />
+    <meta name="citation_author" content="Mark M Painter" />
+
+            
+        
+            <meta name="DC.creator" content="Mark M Painter" />
+    <meta name="citation_author" content="Etheresia Pretorius" />
+
+            
+        
+            <meta name="DC.creator" content="Etheresia Pretorius" />
+    <meta name="citation_author" content="David A Price" />
+
+            
+        
+            <meta name="DC.creator" content="David A Price" />
+    <meta name="citation_author" content="David Putrino" />
+
+            
+        
+            <meta name="DC.creator" content="David Putrino" />
+    <meta name="citation_author" content="Yu Qian" />
+
+            
+        
+            <meta name="DC.creator" content="Yu Qian" />
+    <meta name="citation_author" content="Nadia R Roan" />
+
+            
+        
+            <meta name="DC.creator" content="Nadia R Roan" />
+    <meta name="citation_author" content="Dominique Salmon" />
+
+            
+        
+            <meta name="DC.creator" content="Dominique Salmon" />
+    <meta name="citation_author" content="Gene S Tan" />
+
+            
+        
+            <meta name="DC.creator" content="Gene S Tan" />
+    <meta name="citation_author" content="Michael B Vanelzakker" />
+
+            
+        
+            <meta name="DC.creator" content="Michael B Vanelzakker" />
+    <meta name="citation_author" content="E John Wherry" />
+
+            
+        
+            <meta name="DC.creator" content="E John Wherry" />
+    <meta name="citation_author" content="Johan van Weyenbergh" />
+
+            
+        
+            <meta name="DC.creator" content="Johan van Weyenbergh" />
+    <meta name="citation_author" content="Lael M Yonker" />
+
+            
+        
+            <meta name="DC.creator" content="Lael M Yonker" />
+    <meta name="citation_author" content="Michael J Peluso" />
+
+            
+        
+            <meta name="DC.creator" content="Michael J Peluso" />
+
+
+    <meta name="citation_abstract" content="&lt;div&gt;&lt;p&gt;There are no approved treatments for post-COVID-19 condition (also known as long COVID), a debilitating disease state following SARS-CoV-2 infection that is estimated to affect tens of millions of people. A growing body of evidence shows that SARS-CoV-2 can persist for months or years following COVID-19 in a subset of individuals, with this reservoir potentially driving long-COVID symptoms or sequelae. There is, therefore, an urgent need for clinical trials targeting persistent SARS-CoV-2, and several trials of antivirals or monoclonal antibodies for long COVID are underway. However, because mechanisms of SARS-CoV-2 persistence are not yet fully understood, such studies require important considerations related to the mechanism of action of candidate therapeutics, participant selection, duration of treatment, standardisation of reservoir-associated biomarkers and measurables, optimal outcome assessments, and potential combination approaches. In addition, patient subgroups might respond to some interventions or combinations of interventions, making post-hoc analyses crucial. Here, we outline these and other key considerations, with the goal of informing the design, implementation, and interpretation of trials in this rapidly growing field. Our recommendations are informed by knowledge gained from trials targeting the HIV reservoir, hepatitis C, and other RNA viruses, as well as precision oncology, which share many of the same hurdles facing long-COVID trials.&lt;/p&gt;&lt;/div&gt;" />
+    <meta name="DC.description" content="&lt;div&gt;&lt;p&gt;There are no approved treatments for post-COVID-19 condition (also known as long COVID), a debilitating disease state following SARS-CoV-2 infection that is estimated to affect tens of millions of people. A growing body of evidence shows that SARS-CoV-2 can persist for months or years following COVID-19 in a subset of individuals, with this reservoir potentially driving long-COVID symptoms or sequelae. There is, therefore, an urgent need for clinical trials targeting persistent SARS-CoV-2, and several trials of antivirals or monoclonal antibodies for long COVID are underway. However, because mechanisms of SARS-CoV-2 persistence are not yet fully understood, such studies require important considerations related to the mechanism of action of candidate therapeutics, participant selection, duration of treatment, standardisation of reservoir-associated biomarkers and measurables, optimal outcome assessments, and potential combination approaches. In addition, patient subgroups might respond to some interventions or combinations of interventions, making post-hoc analyses crucial. Here, we outline these and other key considerations, with the goal of informing the design, implementation, and interpretation of trials in this rapidly growing field. Our recommendations are informed by knowledge gained from trials targeting the HIV reservoir, hepatitis C, and other RNA viruses, as well as precision oncology, which share many of the same hurdles facing long-COVID trials.&lt;/p&gt;&lt;/div&gt;" />
+    <meta name="description" content="&lt;div&gt;&lt;p&gt;There are no approved treatments for post-COVID-19 condition (also known as long COVID), a debilitating disease state following SARS-CoV-2 infection that is estimated to affect tens of millions of people. A growing body of evidence shows that SARS-CoV-2 can persist for months or years following COVID-19 in a subset of individuals, with this reservoir potentially driving long-COVID symptoms or sequelae. There is, therefore, an urgent need for clinical trials targeting persistent SARS-CoV-2, and several trials of antivirals or monoclonal antibodies for long COVID are underway. However, because mechanisms of SARS-CoV-2 persistence are not yet fully understood, such studies require important considerations related to the mechanism of action of candidate therapeutics, participant selection, duration of treatment, standardisation of reservoir-associated biomarkers and measurables, optimal outcome assessments, and potential combination approaches. In addition, patient subgroups might respond to some interventions or combinations of interventions, making post-hoc analyses crucial. Here, we outline these and other key considerations, with the goal of informing the design, implementation, and interpretation of trials in this rapidly growing field. Our recommendations are informed by knowledge gained from trials targeting the HIV reservoir, hepatitis C, and other RNA viruses, as well as precision oncology, which share many of the same hurdles facing long-COVID trials.&lt;/p&gt;&lt;/div&gt;" />
+    <meta property="og:description" content="&lt;div&gt;&lt;p&gt;There are no approved treatments for post-COVID-19 condition (also known as long COVID), a debilitating disease state following SARS-CoV-2 infection that is estimated to affect tens of millions of people. A growing body of evidence shows that SARS-CoV-2 can persist for months or years following COVID-19 in a subset of individuals, with this reservoir potentially driving long-COVID symptoms or sequelae. There is, therefore, an urgent need for clinical trials targeting persistent SARS-CoV-2, and several trials of antivirals or monoclonal antibodies for long COVID are underway. However, because mechanisms of SARS-CoV-2 persistence are not yet fully understood, such studies require important considerations related to the mechanism of action of candidate therapeutics, participant selection, duration of treatment, standardisation of reservoir-associated biomarkers and measurables, optimal outcome assessments, and potential combination approaches. In addition, patient subgroups might respond to some interventions or combinations of interventions, making post-hoc analyses crucial. Here, we outline these and other key considerations, with the goal of informing the design, implementation, and interpretation of trials in this rapidly growing field. Our recommendations are informed by knowledge gained from trials targeting the HIV reservoir, hepatitis C, and other RNA viruses, as well as precision oncology, which share many of the same hurdles facing long-COVID trials.&lt;/p&gt;&lt;/div&gt;" />
+
+
+        <meta name="citation_pdf_url" content="https://hal.science/hal-05336944/document" />
+    <meta name="DC.identifier" content="https://hal.science/hal-05336944/document" />
+    <meta property="og:url" content="https://hal.science/hal-05336944/document" />
+
+<meta name="citation_online_date" content="2025/10/29" />
+
+<meta name="citation_publication_date" content="2025" />
+<meta name="DC.date" content="2025" />
+<meta name="DC.issued" content="2025" />
+
+                                                                                                            <meta name="citation_journal_title" content="The Lancet Infectious Diseases" />
+            <meta name="DC.relation.ispartof" content="The Lancet Infectious Diseases" />
+                                                                                <meta name="citation_volume" content="25" />
+            <meta name="DC.citation.volume" content="25" />
+                                        <meta name="citation_issue" content="5" />
+            <meta name="DC.citation.issue" content="5" />
+                                        <meta name="citation_firstpage" content="e294-e306" />
+                                                                                                                                        <meta name="citation_doi" content="10.1016/S1473-3099(24)00769-2" />
+                                                            
+ 
+              <link rel='http://www.w3.org/ns/ldp#inbox'  href="https://inbox.hal.science/" />
+       <link href="//cdn.mathjax.org" rel="dns-prefetch" >
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#000092">
+<meta name="msapplication-TileColor" content="#000092">
+<meta name="theme-color" content="#ffffff">
+
+
+                <link rel="stylesheet" href="/assets/build/main.7422c588.css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet">
+<link href="/assets/css/select2totree.css" rel="stylesheet">        <link rel="stylesheet" href="/public/style.ng.css?1759935239" />
+    
+                <script src="/assets/js/translations.php?lang=fr"></script>
+<script src="/assets/build/runtime.79766688.js"></script>
+<script src="/assets/build/main.2146cdd3.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script type='text/x-mathjax-config'>MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['$$','$$']]}});</script><script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script src="/assets/js/select2totree.js"></script>
+<script src="/static/js/tarteaucitron/tarteaucitron.js"></script>
+    <script src="/static/js/tarteaucitron4hal/tarteaucitron.servicesHAL.js"></script>
+<script type="text/javascript">
+    tarteaucitron.init({
+        "privacyUrl": "", /* Privacy policy url */
+
+        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+        "cookieName": "tarteaucitron", /* Cookie name */
+
+        "orientation": "top", /* Banner position (top - bottom) */
+        "showAlertSmall": true, /* Show the small banner on bottom right */
+        "cookieslist": true, /* Show the cookie list */
+
+        "adblocker": false, /* Show a Warning if an adblocker is detected */
+        "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+        "highPrivacy": false, /* Disable auto consent */
+        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+        "removeCredit": false, /* Remove credit link */
+        "moreInfoLink": true, /* Show more info link */
+        "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+
+        "cookieDomain": "hal.science", /* Shared cookie for multisite */
+
+        "readmoreLink": "/cookiespolicy", /* Change the default readmore link */
+        "closePopup": false,
+        "showIcon": false, // Ne pas mettre showAlertSmall et showIcon a true en meme temps
+        "DenyAllCta" : true,
+    });
+</script>
+                
+            <!-- Matomo -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//piwik-hal.ccsd.cnrs.fr/";
+                _paq.push(['setTrackerUrl', u+'matomo.php']);
+                _paq.push(['setSiteId', '17']);
+                                    var secondaryTracker = '//piwik-hal.ccsd.cnrs.fr/matomo.php';var secondaryWebsiteId = 92;_paq.push(['addTracker', secondaryTracker, secondaryWebsiteId]);
+                                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Matomo Code -->
+                <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script type='text/x-mathjax-config'>MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['$$','$$']]}});</script>    
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+    <title> Targeting the SARS-CoV-2 reservoir in long COVID  - Archive ouverte HAL</title>
+</head>
+<body class="env-production">
+<div class="fr-skiplinks sr-only ">
+    <nav class="fr-container" role="navigation" aria-label="Accès rapide">
+        <ul class="fr-skiplinks__list">
+            <li><a class="fr-link" href="#searchHeaderNG">Recherche</a></li>
+            <li><a  href="#skip-link" class="fr-link skip-link-top">Accéder directement au contenu</a></li>
+            <li><a class="fr-link" href="#footer">Pied de page</a></li>
+        </ul>
+    </nav>
+</div>
+
+    
+<nav class="navbar navbar-expand-lg header navbar-dark" aria-label="Menu">
+    <!-- Navbar pour taille mobile -->
+    <a class="navbar-brand logo-HAL" href="https://hal.science">
+        <img alt='Logo' src="/assets/img/hal-logo-header.png"    height="40px" title="HAL open science"/>
+                <img alt='Logo' src="/assets/img/hal-logo-text.png" height="40px" title="HAL open science"/>
+            </a>
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-services"
+            aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 0">
+        <span class="hamburger">
+                        <span></span> <span></span> <span></span>
+        </span>
+    </button>
+
+    <div class="collapse navbar-collapse" style="height: 60px" id="nav-services">
+        <ul class="nav navbar-nav ml-auto" style="height: inherit; align-items: center;">
+                                    
+            <li class="d-none d-lg-block">
+                <a href="https://about.hal.science" target="_blank">
+                    <i class="icon-documentation text-xl" aria-hidden="true"></i>
+                    <span class='sr-only'> Documentation</span>
+                </a>
+            </li>
+            <!-- Choix des langues -->
+                <li class="nav-item dropdown d-md-flex align-items-center">
+        <form action="/ajax/ajaxupdatelanguage" method="post" id="formLang">
+            <input type="hidden" name="lang" id="lang" value="" />
+            <button type="button" data-toggle="dropdown" aria-expanded="false" class="btn btn-secondary dropdown-toggle" id="dropdownLang" aria-label="Langues">
+                <span> FR</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right menu-lang" aria-labelledby="dropdownLang">
+                                    <div class="list-group-item list-group-item-action" data-value="fr"> Français (FR)</div>
+                                    <div class="list-group-item list-group-item-action" data-value="en"> Anglais (EN)</div>
+                            </div>
+        </form>
+    </li>
+            <li class="nav-item dropdown" id="userList">
+                                                                                                                    <form class="form-inline" action="/user/login?url=https://hal.science/hal-05336944" id="form-login" method="post" style="justify-content: space-around;">
+                        <input type="hidden" name="forward-controller" value="view" /><input type="hidden" name="forward-action" value="index" /><input type="hidden" name="identifiant" value="hal-05336944" />
+                        <div class="input-group">
+                            <button type="submit" class="hal-login-button"> Se connecter</button>
+                        </div>
+                    </form>
+                                            </li>
+         </ul>
+     </div>
+ </nav>
+
+                
+
+<nav class=" navbar navbar-expand-lg sub-header"
+     role="navigation"
+     aria-label="Menu secondaire">
+    <ul class="nav navbar-nav" id="second-navbar">
+                            <li id="ssheader-info" class="nav-item dropdown site-env">
+                <span class="color-major-color">
+                    <a href="/" title="">HAL science ouverte
+                        <strong>
+                                                            
+                                                    </strong>
+                    </a>
+                </span>
+            </li>
+        
+                <li id="searchHeaderList" class="nav-item dropdown">
+                                    <div>
+    <form action="/search/index" method="get" id="searchHeaderNG"
+          style="margin: 0;" name="search-simple" role="search" class="position-relative">
+        <button type="submit" aria-label="Rechercher" class="hal-main-search-button">
+            <span class="icon-search" aria-hidden="true" ></span>
+        </button>
+        <label for="littleSearchBar" class="sr-only"> Recherche </label>
+        <input type="text" name="q" id="littleSearchBar" class="hal-main-search-input autocompletesearch" autocomplete="off" data-collurl="/" placeholder="Chercher un document, un auteur, un mot clef..."
+        value="">
+        <div class="spinner-border position-absolute search-spinner d-none"  role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </form>
+    <button class="hal-main-advsearch-button" data-toggle="collapse" data-target="#collapseSearch"
+            aria-label="Recherche avancée" aria-haspopup="true" aria-expanded="false">
+        <span class="icon-drop_down" aria-hidden="true"></span>
+    </button>
+
+        <div class="collapse" id="collapseSearch">
+        <div id="advSearchHeader" role="dialog" aria-modal="true">
+            <h3> Recherche avancée</h3>
+                            <script type='text/javascript'>/* Fichier DOUBLON
+    Fichier initialisation des éléments sélectionnable dans les selects des inputs et textarea pour les entrées de langues
+    Pour les identifiants qui utilisent le même principe, le fichier se trouve dans le projet hal :
+                            public/js/form/decorator/lang/init.js
+    Les éléments et les décorateurs Identifiant se trouvent dans hal tandis que les éléments de formulaires se trouvent dans ccsd
+    La copie de ce fichier facilite donc le lecture en évitant d'indiquer un chemin spécifique pour ce fichier
+ */
+
+function LangInit (e, name)
+{
+    let link = $(e);
+
+    if (link.closest('li').hasClass('disabled')) {
+        return false;
+    }
+
+    let newValue = link.attr('data-val');
+    let newLabel = link.html();
+
+
+    let button = link.closest('ul').prev('button.dropdown-toggle');
+    button.val(newValue);
+    button.contents().first().replaceWith(newLabel);
+
+    let group = link.closest('.input-group, .textarea-group');
+    let elem = group.find('input, textarea');
+
+    if (elem.attr('data-language')) {
+        let oldValue = elem.attr('lang');
+        elem.attr('data-language', newValue);
+
+        let groups = group.parent();
+        groups.find('ul').each(function (i) {
+            $(this).find('li a[data-val=' + oldValue + ']').closest('li').removeClass('disabled');
+            $(this).find('li a[data-val=' + newValue + ']').closest('li').addClass('disabled');
+        });
+
+        let lastGroup = groups.find('.input-group:last, .textarea-group:last');
+        let firstLinkEnabled = lastGroup.find('ul li[class!="disabled"]:first a');
+
+        if (typeof firstLinkEnabled.html() != 'undefined') {
+            lastGroup.find('button.dropdown-toggle').val(firstLinkEnabled.attr('data-val'));
+            lastGroup.find('button.dropdown-toggle').contents().first().replaceWith(firstLinkEnabled.text());
+
+            let nameTmp = name + "[" + firstLinkEnabled.attr('data-val') + "]";
+            if (elem.attr('data-keyword') ) {
+                nameTmp = nameTmp + "[]";
+            }
+            lastGroup.find("input:first, textarea:first").attr('name', nameTmp);
+        } else {
+            lastGroup.find("input:first, textarea:first").removeAttr('name');
+            lastGroup.hide();
+        }
+    }
+
+    elem.attr('lang', newValue);
+    name = name + "[" + newValue + "]";
+
+    if (elem.attr('data-keyword')) {
+        name = name + "[]";
+    }
+    elem.attr('name', name);
+
+    return false;
+}function MultiTextSimpleLangKeywordDelete (btn) {
+    $(btn).closest('div').remove();
+                
+}function MultiTextSimpleLangKeywordAdd (btn, name)
+{
+    var s = $(btn).closest('div').find('input').val();
+	var empty = s == "";
+	if (!empty) {
+		var r = new RegExp (",|;", "g");
+		matches = s.split(r);
+
+		for (i in matches) {
+			s = matches[i].replace(/^"(.*)"$/, '$1').replace(/^'(.*)'$/, '$1').trim();
+			if (s != "") {
+
+				var value = s;
+				value = value.replace(new RegExp("(>)", "g"), '&gt;').replace(new RegExp("(<)", "g"), '&lt;');
+
+				if ($(btn).closest('div').find('input').attr("data-length")) {
+					let length = Number($(btn).closest('div').find('input').attr("data-length"));
+					value = value.substring(0,length) + (value.length > length ? '...' : '')
+				}
+
+				var container = $(btn).closest("div").parent();
+				var inputGroup = $(container).find('.input-group:last');
+				var clone = $(inputGroup).clone();
+				var lang = $(clone).find('.form-btn-lang').val();
+				// Find the id and increment it
+				var id = $(clone).find('input').attr('id');
+				var found = id.match(/[0-9]+/);
+				var idNb = (found == null)? 1 : Number(found[0]) + 1;
+				$(inputGroup).find('input').attr('id', (id.replace(/[0-9]+/, "") + idNb));
+
+				$(clone).find('input').attr('type', 'text');
+				$(clone).find('input').attr('name', name + "[" + lang + "][]");
+				$(clone).find('input').attr('lang', lang);
+				$(clone).find('input').attr('data-keyword', "true");
+				$(clone).find('input').val(value);
+				$(clone).find(".errors").remove();
+				$(clone).find('.icon-plus').removeClass("icon-plus").addClass("icon-delete").parent().attr('onclick', 'MultiTextSimpleLangKeywordDelete(this)');
+				$(clone).find('button').find('span').text(translate('Supprimer'));
+
+				$(clone).insertBefore($(container).find('> :last'));
+
+			}
+		}
+		$(btn).closest('div').find('input:first').val("");
+		$(btn).closest('div').find('input:first').focus();
+	}
+}  </script><form id="advSearch" role="form" data-library="ccsd" action="/search/index/?" method="get">
+<div class="form-group row " id="document-element"><label for="document" class="col-md-3 control-label optional">Information de documents</label>
+<div class="col-md-9"><div class="input-group" style="margin-bottom : 10px;"><button class='btn btn-sm btn-default dropdown-toggle form-btn-lang' style=' z-index:0!important;' data-toggle='dropdown' type='button' value='title_t'>Titres&nbsp;</button><ul class='dropdown-menu' role='menu' style='max-height: 140px; overflow:auto;'><li class='dropdown-item'><a data-val='title_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Titres</a></li><li class='dropdown-item'><a data-val='subTitle_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Sous-titre</a></li><li class='dropdown-item'><a data-val='bookTitle_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Titre de l'ouvrage</a></li><li class='dropdown-item'><a data-val='serie_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Titre du volume (Série)</a></li><li class='dropdown-item'><a data-val='text_fulltext' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Champ de recherche par défaut (multicritères) + texte intégral des PDF</a></li><li class='dropdown-item'><a data-val='abstract_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Résumé</a></li><li class='dropdown-item'><a data-val='fulltext_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Texte intégral indexé des documents PDF</a></li><li class='dropdown-item'><a data-val='keyword_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Mots-clés</a></li><li class='dropdown-item'><a data-val='docType_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Type de document</a></li><li class='dropdown-item'><a data-val='docSubType_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Sous-type de document</a></li><li class='dropdown-item'><a data-val='identifiers_id' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Tous les identifiants du document</a></li><li class='dropdown-item'><a data-val='halId_id' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Identifiant HAL du dépôt</a></li><li class='dropdown-item'><a data-val='language_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Langue du document (texte)</a></li><li class='dropdown-item'><a data-val='country_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Pays (Texte)</a></li><li class='dropdown-item'><a data-val='city_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Ville</a></li><li class='dropdown-item'><a data-val='inPress_bool' href='javascript:void(0);' onclick="LangInit(this, 'qa');">À paraître (true ou false)</a></li></ul>
+<input type="text" name="qa[title_t][]" id="document" value="" class="input-flex form-control input-sm" lang="title_t" aria-describedby="document-error" style=" " data-keyword="1" /><span class="input-group-btn"><button type='button' class='btn btn-sm btn-primary form-btn-multi form-btn-add' onclick='MultiTextSimpleLangKeywordAdd(this, "qa");' data-toggle='tooltip' data-placement='right' data-original-title='Ajouter'><i class='icon icon-plus'></i> <span> Ajouter</span></button></span></div></div></div>
+<div class="form-group row " id="author-element"><label for="author" class="col-md-3 control-label optional">Auteur</label>
+<div class="col-md-9"><div class="input-group" style="margin-bottom : 10px;"><button class='btn btn-sm btn-default dropdown-toggle form-btn-lang' style=' z-index:0!important;' data-toggle='dropdown' type='button' value='auth_t'>Auteur (multicritères)&nbsp;</button><ul class='dropdown-menu' role='menu' style='max-height: 140px; overflow:auto;'><li class='dropdown-item'><a data-val='auth_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur (multicritères)</a></li><li class='dropdown-item'><a data-val='authFullName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Nom complet</a></li><li class='dropdown-item'><a data-val='authLastName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Nom de famille</a></li><li class='dropdown-item'><a data-val='authFirstName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Prénom</a></li><li class='dropdown-item'><a data-val='authMiddleName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Complément de nom, deuxième prénom</a></li><li class='dropdown-item'><a data-val='authOrganism_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Organisme payeur</a></li><li class='dropdown-item'><a data-val='authIdHal_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : IdHal (chaîne de caractères)</a></li><li class='dropdown-item'><a data-val='authQuality_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Fonction</a></li><li class='dropdown-item'><a data-val='authIdHal_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : personID (entier)</a></li><li class='dropdown-item'><a data-val='authOrganismId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Identifiant de l'organisme payeur</a></li><li class='dropdown-item'><a data-val='authStructId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Auteur : Identifiant de la structure</a></li><li class='dropdown-item'><a data-val='director_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Directeur de thèse</a></li><li class='dropdown-item'><a data-val='publisher_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Éditeur</a></li><li class='dropdown-item'><a data-val='scientificEditor_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Éditeur scientifique</a></li><li class='dropdown-item'><a data-val='seriesEditor_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Éditeur de la série</a></li></ul>
+<input type="text" name="qa[auth_t][]" id="author" value="" class="input-flex form-control input-sm" lang="auth_t" aria-describedby="author-error" style=" " data-keyword="1" /><span class="input-group-btn"><button type='button' class='btn btn-sm btn-primary form-btn-multi form-btn-add' onclick='MultiTextSimpleLangKeywordAdd(this, "qa");' data-toggle='tooltip' data-placement='right' data-original-title='Ajouter'><i class='icon icon-plus'></i> <span> Ajouter</span></button></span></div></div></div>
+<div class="form-group row " id="structure-element"><label for="structure" class="col-md-3 control-label optional">Structure</label>
+<div class="col-md-9"><div class="input-group" style="margin-bottom : 10px;"><button class='btn btn-sm btn-default dropdown-toggle form-btn-lang' style=' z-index:0!important;' data-toggle='dropdown' type='button' value='structure_t'>Structure (multicritères)&nbsp;</button><ul class='dropdown-menu' role='menu' style='max-height: 140px; overflow:auto;'><li class='dropdown-item'><a data-val='structure_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure (multicritères)</a></li><li class='dropdown-item'><a data-val='structAcronym_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure : Acronyme</a></li><li class='dropdown-item'><a data-val='structName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure : Nom</a></li><li class='dropdown-item'><a data-val='structCode_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure : Code</a></li><li class='dropdown-item'><a data-val='structCountry_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure : Pays</a></li><li class='dropdown-item'><a data-val='structType_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure : Type</a></li><li class='dropdown-item'><a data-val='structValid_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure : État dans le référentiel</a></li><li class='dropdown-item'><a data-val='structId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure : Identifiant HAL de la structure</a></li><li class='dropdown-item'><a data-val='rteamStructCountry_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure/équipe de recherche : Pays</a></li><li class='dropdown-item'><a data-val='deptStructCountry_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure/regroupement d'équipes : Pays</a></li><li class='dropdown-item'><a data-val='labStructCountry_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure/laboratoire : Pays</a></li><li class='dropdown-item'><a data-val='rgrpLabStructCountry_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure/regroupement de laboratoires : Pays</a></li><li class='dropdown-item'><a data-val='instStructCountry_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure/institution : Pays</a></li><li class='dropdown-item'><a data-val='rgrpInstStructCountry_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Structure/regroupement d'institutions : Pays</a></li></ul>
+<input type="text" name="qa[structure_t][]" id="structure" value="" class="input-flex form-control input-sm" lang="structure_t" aria-describedby="structure-error" style=" " data-keyword="1" /><span class="input-group-btn"><button type='button' class='btn btn-sm btn-primary form-btn-multi form-btn-add' onclick='MultiTextSimpleLangKeywordAdd(this, "qa");' data-toggle='tooltip' data-placement='right' data-original-title='Ajouter'><i class='icon icon-plus'></i> <span> Ajouter</span></button></span></div></div></div>
+<div class="form-group row " id="qa-element"><label for="qa" class="col-md-3 control-label optional">Autres</label>
+<div class="col-md-9"><div class="input-group" style="margin-bottom : 10px;"><button class='btn btn-sm btn-default dropdown-toggle form-btn-lang' style=' z-index:0!important;' data-toggle='dropdown' type='button' value='text'>Champ de recherche par défaut (multicritères)&nbsp;</button><ul class='dropdown-menu' role='menu' style='max-height: 140px; overflow:auto;'><li class='dropdown-item'><a data-val='text' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Champ de recherche par défaut (multicritères)</a></li><li class='dropdown-item'><a data-val='--sep1' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='journal_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revues (multicritères)</a></li><li class='dropdown-item'><a data-val='journalPublisher_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : Éditeur</a></li><li class='dropdown-item'><a data-val='journalTitleAbbr_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : Titre abrégé</a></li><li class='dropdown-item'><a data-val='journalTitle_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : Titre</a></li><li class='dropdown-item'><a data-val='journalId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : Identifiant interne</a></li><li class='dropdown-item'><a data-val='journalDate_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : Date de début de publication</a></li><li class='dropdown-item'><a data-val='journalEissn_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : ISSN électronique</a></li><li class='dropdown-item'><a data-val='journalIssn_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : ISSN</a></li><li class='dropdown-item'><a data-val='journalPublisher_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : Éditeur</a></li><li class='dropdown-item'><a data-val='journalSherpaColor_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : Couleur dans SHERPA/RoMEO</a></li><li class='dropdown-item'><a data-val='journalValid_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Revue : État dans le référentiel</a></li><li class='dropdown-item'><a data-val='--sep2' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='conference_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Colloque (multicritères)</a></li><li class='dropdown-item'><a data-val='conferenceTitle_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Colloque : Titre</a></li><li class='dropdown-item'><a data-val='conferenceOrganizer_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Colloque : Organisateur</a></li><li class='dropdown-item'><a data-val='conferenceStartDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Colloque : date de début (Année)</a></li><li class='dropdown-item'><a data-val='conferenceEndDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Colloque : date de fin (Année)</a></li><li class='dropdown-item'><a data-val='invitedCommunication_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Conférence invitée (oui/non)</a></li><li class='dropdown-item'><a data-val='--sep3' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='anrProject_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projets ANR (multicritères)</a></li><li class='dropdown-item'><a data-val='anrProjectAcronym_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANR : Acronyme</a></li><li class='dropdown-item'><a data-val='anrProjectAcronymProgram_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANR : Acronyme du programme</a></li><li class='dropdown-item'><a data-val='anrProjectReference_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANR : Code décision (référence)</a></li><li class='dropdown-item'><a data-val='anrProjectTitle_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANR : Nom</a></li><li class='dropdown-item'><a data-val='anrProjectId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANR : Identifiant interne</a></li><li class='dropdown-item'><a data-val='anrProjectValid_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANR : État dans le référentiel</a></li><li class='dropdown-item'><a data-val='anses_funding_acronym_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANSES: Acronyme</a></li><li class='dropdown-item'><a data-val='anses_funding_reference_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANSES: Code decision (reference)</a></li><li class='dropdown-item'><a data-val='anses_funding_title_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ANSES: Nom</a></li><li class='dropdown-item'><a data-val='ademe_funding_acronym_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ADEME: Acronyme</a></li><li class='dropdown-item'><a data-val='ademe_funding_reference_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ADEME: Code decision (reference)</a></li><li class='dropdown-item'><a data-val='ademe_funding_title_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet ADEME: Nom</a></li><li class='dropdown-item'><a data-val='--sep4' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='europeanProject_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projets européens (multicritères)</a></li><li class='dropdown-item'><a data-val='europeanProjectAcronym_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Acronyme</a></li><li class='dropdown-item'><a data-val='europeanProjectCallId_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Identifiant de l'appel à projet</a></li><li class='dropdown-item'><a data-val='europeanProjectReference_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Référence</a></li><li class='dropdown-item'><a data-val='europeanProjectTitle_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Nom</a></li><li class='dropdown-item'><a data-val='europeanProjectEndDate_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Date de fin</a></li><li class='dropdown-item'><a data-val='europeanProjectFinancing_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Financement</a></li><li class='dropdown-item'><a data-val='europeanProjectStartDate_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Date de début</a></li><li class='dropdown-item'><a data-val='europeanProjectValid_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : État dans le référentiel</a></li><li class='dropdown-item'><a data-val='europeanProjectId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Projet européen : Identifiant interne</a></li><li class='dropdown-item'><a data-val='--sep6' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='producedDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Date de production : année</a></li><li class='dropdown-item'><a data-val='releasedDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Date de mise en ligne : année</a></li><li class='dropdown-item'><a data-val='publicationDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Date de publication : année</a></li><li class='dropdown-item'><a data-val='writingDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Date d'écriture : année</a></li><li class='dropdown-item'><a data-val='modifiedDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Date de modification du dépôt : année</a></li><li class='dropdown-item'><a data-val='submittedDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Date de dépôt : année</a></li><li class='dropdown-item'><a data-val='ePublicationDateY_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Date de publication électronique : année</a></li><li class='dropdown-item'><a data-val='--sep7' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='collection_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Collection HAL (multicritères)</a></li><li class='dropdown-item'><a data-val='collCategory_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Collection HAL : catégorie</a></li><li class='dropdown-item'><a data-val='collCode_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Collection HAL : Code</a></li><li class='dropdown-item'><a data-val='collName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Collection HAL : Nom</a></li><li class='dropdown-item'><a data-val='collId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Collection HAL : Identifiant interne</a></li><li class='dropdown-item'><a data-val='--sep8' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='contributorId_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Identifiant interne du contributeur/déposant</a></li><li class='dropdown-item'><a data-val='contributorFullName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Nom complet du contributeur/déposant</a></li><li class='dropdown-item'><a data-val='--sep9' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='domain_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Domaines</a></li><li class='dropdown-item'><a data-val='primaryDomain_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Domaine primaire</a></li><li class='dropdown-item'><a data-val='level0_domain_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Domaine racine</a></li><li class='dropdown-item'><a data-val='level1_domain_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Sous-domaine niveau 1</a></li><li class='dropdown-item'><a data-val='level2_domain_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Sous-domaine niveau 2</a></li><li class='dropdown-item'><a data-val='level3_domain_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Sous-domaine niveau 3</a></li><li class='dropdown-item'><a data-val='--sep10' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='status_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Statut du document</a></li><li class='dropdown-item'><a data-val='version_i' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Version du document</a></li><li class='dropdown-item'><a data-val='submitType_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Type de dépôt</a></li><li class='dropdown-item'><a data-val='docType_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Type de document</a></li><li class='dropdown-item'><a data-val='isbn_id' href='javascript:void(0);' onclick="LangInit(this, 'qa');">ISBN</a></li><li class='dropdown-item'><a data-val='number_id' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Numéro - référence</a></li><li class='dropdown-item'><a data-val='doiId_id' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Identifiant DOI</a></li><li class='dropdown-item'><a data-val='--sep11' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='classification_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Classification</a></li><li class='dropdown-item'><a data-val='audience_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Audience</a></li><li class='dropdown-item'><a data-val='popularLevel_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Vulgarisation</a></li><li class='dropdown-item'><a data-val='peerReviewing_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Comité de lecture - texte (oui ou non)</a></li><li class='dropdown-item'><a data-val='proceedings_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Actes de colloque</a></li><li class='dropdown-item'><a data-val='localReference_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Référence interne</a></li><li class='dropdown-item'><a data-val='funding_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Financement</a></li><li class='dropdown-item'><a data-val='--sep12' href='javascript:void(0);' onclick="LangInit(this, 'qa');"></a></li><li class='dropdown-item'><a data-val='irThesaurus_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Infrastructure de recherche : multicritères</a></li><li class='dropdown-item'><a data-val='irThesaurusName_t' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Infrastructure de recherche : Nom</a></li><li class='dropdown-item'><a data-val='irThesaurusId_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Infrastructure de recherche : identifiant</a></li><li class='dropdown-item'><a data-val='irThesaurusAcronym_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Infrastructure de recherche : Acronyme</a></li><li class='dropdown-item'><a data-val='irThesaurusDoi_s' href='javascript:void(0);' onclick="LangInit(this, 'qa');">Infrastructure de recherche : DOI</a></li></ul>
+<input type="text" name="qa[text][]" id="qa" value="" lang="text" class=" form-control input-sm" aria-describedby="qa-error" style=" " data-keyword="1" /><span class="input-group-btn"><button type='button' class='btn btn-sm btn-primary form-btn-multi form-btn-add' onclick='MultiTextSimpleLangKeywordAdd(this, "qa");' data-toggle='tooltip' data-placement='right' data-original-title='Ajouter'><i class='icon icon-plus'></i> <span> Ajouter</span></button></span></div></div></div>
+<dt id="submit-label">&#160;</dt><dd id="submit-element">
+<button name="submit" id="submit-button" type="submit" value=" Lancer la recherche" class="btn btn-lg btnSearch hal-visualize-button" aria-describedby="submit-button-error"> Lancer la recherche</button></dd></form>
+            
+            <div class="mt-3">
+                <button class="tools-color btn-hide-show" data-selectOne="#solrSearchHeader" data-selectTwo="#advSearchHeader">
+                    <span>Recherche experte (SolR)</span>
+                </button>
+            </div>
+        </div>
+                <div id="solrSearchHeader" class="hide">
+            <h3> Recherche experte (SolR)</h3>
+            <form action="/search/index" method="get" id="searchHeaderSolr" name="search-simple" role="search">
+                <textarea type="text" name="q" class="p-5" autocomplete="off" cols="150" placeholder="Chercher un document, un auteur, un mot clef..."
+                       value=""></textarea>
+                <div>
+                    <button type="submit" aria-label="Rechercher" class="hal-visualize-button">
+                        <span class="icon-search" aria-hidden="true"></span>
+                        <span>Lancer la recherche</span>
+                    </button>
+                </div>
+            </form>
+
+            <div class="mt-3">
+                <button class="tools-color btn-hide-show" data-selectOne="#solrSearchHeader" data-selectTwo="#advSearchHeader">
+                    <span>Vers la recherche avancée</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+                    </li>
+                    <li id="ssheader-submit" class="btn-primary-orange position-relative">
+                                                
+                                                                                            
+                <a href="/submit/index" class="btn-hal hal-submit-button btn-primary-orange stretched-link">
+                    <span class="icon-add colo-white" aria-hidden="true"></span>
+                    <span> Déposer </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+        
+
+<main role="main">
+    <div id="skip-link" tabindex="-1"></div>
+    <div class="toast hide valid-bg toast-valid" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+        <div class="message">
+            <span class="icon-valid" aria-hidden="true"></span>
+            <span class="flash-messages">
+            </span>
+        </div>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Fermer">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+
+<div class="toast hide warning-bg toast-warning" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+        <div class="message">
+            <span class="icon-not_valid" aria-hidden="true"></span>
+            <span class="flash-messages">
+            </span>
+        </div>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Fermer">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+
+<div class="toast hide bgcolor-second toast-info" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+        <div class="message">
+            <span class="flash-messages">
+            </span>
+        </div>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Fermer">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+
+<div class="toast hide bgcolor-second toast-loader" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+        <div class="message">
+            <div class="spinner-border text-light" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <span class="flash-messages">
+            </span>
+        </div>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Fermer">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+        <script type="text/javascript">
+    $(document).ready(function() {
+            });
+</script>
+                    
+
+<section class="section-corps row">
+    <div id="flash-messages"></div>
+
+    <section class="col-12 col-md-9 order-sm-12 flex-74">
+        <div class="header-section">
+    <span class="typdoc label_ART">Article Dans Une Revue
+                    </span>
+            <span class="journal text-small">The Lancet Infectious Diseases</span>
+                    <span class="year strong">Année : 2025</span>
+</div>        <div class="section-content section-shadow">
+            <div style="display: flex; justify-content: space-between;">
+                <div style="display: flex; align-items: center;">
+                                                                                    
+                                            <h2 class="title-lang en active" lang="en" style="margin-bottom: 0;">Targeting the SARS-CoV-2 reservoir in long COVID</h2>
+                                                        </div>
+                <div>
+                    <span style="margin-left: 2%; margin-right: 3%"></span>
+                </div>
+            </div>
+                            <span></span>
+                <div id="authors-simplified">
+    <div class="authors">
+                
+                    
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+                &lt;li&gt;PersonId : &lt;strong&gt;1600331&lt;/strong&gt;&lt;/li&gt;
+
+        
+        
+        
+    
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authIdHal_i/1600331&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Amy D Proal</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Soo+Aleman&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Soo Aleman</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+                            &lt;a class=&#039;popover-affil&#039; href=&quot;/search/index/q/*/structId_i/1004701&quot;&gt;Institut Cochin&lt;/a&gt;
+        
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Morgane+Bomsel&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Morgane Bomsel</span>
+            </a>
+
+                            (1)
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Petter+Brodin&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Petter Brodin</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Marcus+Buggert&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Marcus Buggert</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Sara+Cherry&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Sara Cherry</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Daniel+S+Chertow&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Daniel S Chertow</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Helen+E+Davies&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Helen E Davies</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Christopher+L+Dupont&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Christopher L Dupont</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Steven+G+Deeks&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Steven G Deeks</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/E+Wes+Ely&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>E Wes Ely</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Alessio+Fasano&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Alessio Fasano</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Marcelo+Freire&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Marcelo Freire</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Linda+N+Geng&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Linda N Geng</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Diane+E+Griffin&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Diane E Griffin</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Timothy+J+Henrich&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Timothy J Henrich</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Stephen+M+Hewitt&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Stephen M Hewitt</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Akiko+Iwasaki&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Akiko Iwasaki</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Harlan+M+Krumholz&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Harlan M Krumholz</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Michela+Locci&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Michela Locci</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Vincent+C+Marconi&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Vincent C Marconi</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Saurabh+Mehandru&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Saurabh Mehandru</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+                &lt;li&gt;PersonId : &lt;strong&gt;172117&lt;/strong&gt;&lt;/li&gt;
+
+                    &lt;li&gt;IdHAL : &lt;a href=&quot;/search/index/q/*/authIdHal_s/michaela-muller-trutwin&quot; target=&quot;_blank&quot; title=&quot;Consulter les publications&quot;&gt;&lt;strong&gt;michaela-muller-trutwin&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+                    
+                    &lt;li&gt;ORCID : &lt;strong&gt;&lt;a href=&quot;https://orcid.org/0000-0002-3854-2396&quot; title=&quot;ORCID&quot; target=&quot;_blank&quot;&gt;0000-0002-3854-2396&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+        
+                    &lt;li&gt;IdRef     : &lt;strong&gt;&lt;a href=&quot;https://www.idref.fr/18863472X&quot; title=&quot;IdRef&quot; target=&quot;_blank&quot;&gt;18863472X&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+        
+    
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authIdHal_s/michaela-muller-trutwin&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Michaela Muller-Trutwin</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Mark+M+Painter&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Mark M Painter</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Etheresia+Pretorius&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Etheresia Pretorius</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/David+A+Price&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>David A Price</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/David+Putrino&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>David Putrino</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Yu+Qian&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Yu Qian</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Nadia+R+Roan&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Nadia R Roan</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Dominique+Salmon&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Dominique Salmon</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Gene+S+Tan&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Gene S Tan</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Michael+B+Vanelzakker&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Michael B Vanelzakker</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/E+John+Wherry&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>E John Wherry</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Johan+van+Weyenbergh&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Johan van Weyenbergh</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Lael+M+Yonker&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Lael M Yonker</span>
+            </a>
+
+            
+                            ,
+                                
+            <a type="button" data-toggle="popover" class="btn-popover no-hide" data-container="body"
+                    data-placement="right" data-title="" data-content="
+
+
+    
+
+    &lt;div class=&#039;popover-authors&#039;&gt;
+        &lt;div class=&#039;popover-author-header&#039;&gt;
+            &lt;h4&gt;Auteur&lt;/h4&gt;
+
+&lt;ul&gt;
+        &lt;li&gt;Fonction : &lt;strong&gt;Auteur&lt;/strong&gt;&lt;/li&gt;
+        
+
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+
+
+
+
+
+
+    &lt;a href=&quot;/search/index/q/*/authFullName_s/Michael+J+Peluso&quot; title=&quot;Search author&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&#039;popover-resume hal-privilege-button&#039;&gt;
+            &lt;span class=&#039;icon-search hal-icon&#039;&gt;&lt;/span&gt;
+            Chercher dans HAL
+        &lt;/div&gt;
+    &lt;/a&gt;
+
+    
+
+    &lt;/div&gt;
+
+ ">
+                <span>Michael J Peluso</span>
+            </a>
+
+            
+                        </div>
+    <button type="button" class="btn btn-hide-show" data-selectOne="#authors-simplified" data-selectTwo="#authors-detailed">Afficher plus de détails</button>
+
+
+        <div class="structures bg-beige">
+        <div>
+            <span class="icon-institution" aria-hidden="true"></span>
+        </div>
+        <div>
+                            <span>1</span>
+                <a type="button" data-toggle="popover" class="btn-popover no-hide close-outside" data-container="body"
+                        data-placement="right" data-title="" data-content="<div class='popover-structure'><a href='/search/index/q/*/structId_i/1004701' target='_blank'>IC UM3 (UMR 8104 / U1016) - Institut Cochin</a><small> (22 rue Méchain, 75014 Paris - France)</small> <label class='label label-primary label-VALID'>1004701</label><ul><li><a href='/search/index/q/*/structId_i/303623' target='_blank'>INSERM - Institut National de la Santé et de la Recherche Médicale</a> : U1016<small> (101, rue de Tolbiac, 75013 Paris - France)</small> <label class='label label-primary label-VALID'>303623</label></li><li><a href='/search/index/q/*/structId_i/441569' target='_blank'>CNRS - Centre National de la Recherche Scientifique</a> : UMR8104<small> (France)</small> <label class='label label-primary label-VALID'>441569</label></li><li><a href='/search/index/q/*/structId_i/557826' target='_blank'>UPCité - Université Paris Cité</a> : UM 3<small> (85 boulevard Saint-Germain
+75006 Paris - France)</small> <label class='label label-primary label-VALID'>557826</label></li></ul></div>">
+                                            IC UM3 (UMR 8104 / U1016) - 
+                                        Institut Cochin
+                </a>
+                <br>
+
+                
+
+                    </div>
+    </div>
+</div>
+
+
+<div id="authors-detailed">
+    <div class="container">
+        <div class="row">
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authIdHal_i/1600331" target="_blank">Amy D Proal</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+                <li>PersonId : <strong>1600331</strong></li>
+
+        
+        
+        
+    
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Soo+Aleman" target="_blank">Soo Aleman</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Morgane+Bomsel" target="_blank">Morgane Bomsel</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+                            <div class='detailed-affil'>
+                <span class='icon-institution hal-icon'></span>
+                <a href="/search/index/q/*/structId_i/1004701">
+                                            IC UM3 (UMR 8104 / U1016) -
+                                        Institut Cochin</a>
+            </div>
+        
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Petter+Brodin" target="_blank">Petter Brodin</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Marcus+Buggert" target="_blank">Marcus Buggert</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Sara+Cherry" target="_blank">Sara Cherry</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Daniel+S+Chertow" target="_blank">Daniel S Chertow</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Helen+E+Davies" target="_blank">Helen E Davies</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Christopher+L+Dupont" target="_blank">Christopher L Dupont</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Steven+G+Deeks" target="_blank">Steven G Deeks</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/E+Wes+Ely" target="_blank">E Wes Ely</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Alessio+Fasano" target="_blank">Alessio Fasano</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Marcelo+Freire" target="_blank">Marcelo Freire</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Linda+N+Geng" target="_blank">Linda N Geng</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Diane+E+Griffin" target="_blank">Diane E Griffin</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Timothy+J+Henrich" target="_blank">Timothy J Henrich</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Stephen+M+Hewitt" target="_blank">Stephen M Hewitt</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Akiko+Iwasaki" target="_blank">Akiko Iwasaki</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Harlan+M+Krumholz" target="_blank">Harlan M Krumholz</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Michela+Locci" target="_blank">Michela Locci</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Vincent+C+Marconi" target="_blank">Vincent C Marconi</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Saurabh+Mehandru" target="_blank">Saurabh Mehandru</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authIdHal_s/michaela-muller-trutwin" target="_blank">Michaela Muller-Trutwin</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+                <li>PersonId : <strong>172117</strong></li>
+
+                    <li>IdHAL : <a href="/search/index/q/*/authIdHal_s/michaela-muller-trutwin" target="_blank" title="Consulter les publications"><strong>michaela-muller-trutwin</strong></a></li>
+                    
+                    <li>ORCID : <strong><a href="https://orcid.org/0000-0002-3854-2396" title="ORCID" target="_blank">0000-0002-3854-2396</a></strong></li>
+        
+                    <li>IdRef     : <strong><a href="https://www.idref.fr/18863472X" title="IdRef" target="_blank">18863472X</a></strong></li>
+        
+    
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Mark+M+Painter" target="_blank">Mark M Painter</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Etheresia+Pretorius" target="_blank">Etheresia Pretorius</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/David+A+Price" target="_blank">David A Price</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/David+Putrino" target="_blank">David Putrino</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Yu+Qian" target="_blank">Yu Qian</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Nadia+R+Roan" target="_blank">Nadia R Roan</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Dominique+Salmon" target="_blank">Dominique Salmon</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Gene+S+Tan" target="_blank">Gene S Tan</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Michael+B+Vanelzakker" target="_blank">Michael B Vanelzakker</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/E+John+Wherry" target="_blank">E John Wherry</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Johan+van+Weyenbergh" target="_blank">Johan van Weyenbergh</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Lael+M+Yonker" target="_blank">Lael M Yonker</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                            <div class="col-lg-4">
+                    <div class="bg-beige">
+                        
+
+
+    
+
+    <a href="/search/index/q/*/authFullName_s/Michael+J+Peluso" target="_blank">Michael J Peluso</a>
+
+<ul>
+        <li>Fonction : <strong>Auteur</strong></li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    
+
+
+                    </div>
+                </div>
+                    </div>
+    </div>
+    <button type="button" class="btn btn-hide-show" data-selectOne="#authors-simplified" data-selectTwo="#authors-detailed" style="margin-top: 22px;">Réduire la vue détaillée</button>
+</div>                <div class="row" style="width: 102%;">
+                    
+
+    <div class="abstract col-lg-7">
+        <div>
+            <h4> Résumé </h4>
+                                                                                            <div class="btn-group" role="group" aria-label="Choix langues">
+                    <button class="btn btn-lang-abstract active" aria-pressed="true" data-lang="en">
+                        en
+                    </button>
+                </div>
+                    </div>
+                    <div class="abstract-content active" lang="en">
+                <p>
+                    <div><p>There are no approved treatments for post-COVID-19 condition (also known as long COVID), a debilitating disease state following SARS-CoV-2 infection that is estimated to affect tens of millions of people. A growing body of evidence shows that SARS-CoV-2 can persist for months or years following COVID-19 in a subset of individuals, with this reservoir potentially driving long-COVID symptoms or sequelae. There is, therefore, an urgent need for clinical trials targeting persistent SARS-CoV-2, and several trials of antivirals or monoclonal antibodies for long COVID are underway. However, because mechanisms of SARS-CoV-2 persistence are not yet fully understood, such studies require important considerations related to the mechanism of action of candidate therapeutics, participant selection, duration of treatment, standardisation of reservoir-associated biomarkers and measurables, optimal outcome assessments, and potential combination approaches. In addition, patient subgroups might respond to some interventions or combinations of interventions, making post-hoc analyses crucial. Here, we outline these and other key considerations, with the goal of informing the design, implementation, and interpretation of trials in this rapidly growing field. Our recommendations are informed by knowledge gained from trials targeting the HIV reservoir, hepatitis C, and other RNA viruses, as well as precision oncology, which share many of the same hurdles facing long-COVID trials.</p></div>
+                </p>
+            </div>
+            </div>
+                    <div class="col-lg-5">
+                                                    
+    <div class="domains">
+        <h4> Domaines </h4>
+        <ul class="listDomains">
+                                                                    <li>
+                    <a class="hal-bgtext"
+                       href="/search/index/q/*/level0_domain_s/sdv"
+                       rel="nofollow" target="_blank">Sciences du Vivant [q-bio]</a>
+            </li>
+                            </ul>
+    </div>
+                                                                                                    
+
+<button data-toggle="modal" data-docid="5336944" data-target="#metadatas_Modal"
+        aria-expanded="false" aria-controls="metadatas_Modal" class="btn hal-option-button metadatas" style="margin-top: 48px; width: 100%;">
+    Liste complète des métadonnées
+</button>
+
+<div class="modal fade" id="metadatas_Modal" data-backdrop=true tabindex="-1" aria-labelledby="metadatas_ModalLabel" aria-hidden="true" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+                        <div class="modal-body" id="metadata-body" style="padding: 0;"></div>
+        </div>
+    </div>
+</div>                                            </div>
+                </div>
+                                         <div class="viewer panel-doc d-none d-sm-block">
+        <button data-toggle="collapse" data-docid="5336944" data-target="#viewer-detailed" aria-expanded="true" aria-controls="viewer-detailed" class="btn drop-down">
+            Fichiers et aperçu
+            <span class="icon-drop_down hal-icon" aria-hidden="true"></span>
+        </button>
+
+        <div id="viewer-detailed" class="panel-doc-detailed collapse show">
+            <div class="row">
+                <div class="col-md-2">
+                                                                                                                        
+                    <div id="list-thumbnail-viewer" style="text-align: center;">
+                                                                                                                                                    
+                            <span class='file-major'>Fichier principal</span>
+
+                            <div class="position-relative thumbnail-viewer active" data-id="4580481" data-preview="https://hal.science/hal-05336944v1/preview/2025%2C%20Long%20COVID%20Lancet%20Inf%20Dis%2C%20Peluso%2C%20Proal.pdf#page=2">
+                                                                    <img alt="Vignette du fichier" src="https://thumb.ccsd.cnrs.fr//9790094/medium" style="width: 100%;">
+                                                            </div>
+                            <span> 2025, Long COVID Lancet Inf Dis, Peluso, Proal.pdf (2.74 Mo) </span>
+                            <a href="https://hal.science/hal-05336944v1/file/2025%2C%20Long%20COVID%20Lancet%20Inf%20Dis%2C%20Peluso%2C%20Proal.pdf" download="2025, Long COVID Lancet Inf Dis, Peluso, Proal.pdf"><span class="icon-download" aria-hidden="true"></span><span class="sr-only">Télécharger le fichier</span> </a>
+                                                                </div>
+                </div>
+
+                <div class="col-md-9 pb-4">
+                                                                                                                                                                                                <div class="viewer-content active" id="4580481">
+                                                            <iframe title="Visualiseur du document" src="https://hal.science/hal-05336944v1/preview/2025%2C%20Long%20COVID%20Lancet%20Inf%20Dis%2C%20Peluso%2C%20Proal.pdf#page=2" allowfullscreen webkitallowfullscreen></iframe>
+                            
+                            <table class="table table-borderless">
+                                <tbody>
+                                                                                                                <tr>
+                                            <th scope="row">Origine</th>
+                                            <td>
+                                                Fichiers produits par l&#039;(les) auteur(s)
+                                            </td>
+                                        </tr>
+                                                                                                                <tr>
+                                            <th scope="row">Licence</th>
+                                            <td>
+                                                                                                            <div class="licence-view">
+                    <img src="/assets/img/licences/hal.png" alt="" height="20px" />
+                <a href="https://about.hal.science/hal-authorisation-v1/" target="_blank" rel="noopener"> Autorisation HAL</a>
+    </div>
+                                            </td>
+                                        </tr>
+                                                                                                        </tbody>
+                            </table>
+                        </div>
+                                                                                            </div>
+            </div>         </div>     </div>                                 
+
+                
+                                    </div>
+
+                
+
+<div class="submitted-date d-none d-sm-block">
+    <p>
+                                                <a href='javascript:void(0);'
+                                onclick="$('#form-login').submit();">Connectez-vous pour contacter le contributeur</a>
+                        </p>
+    <p>https://hal.science/hal-05336944</p>
+    <p>Soumis le : mercredi 29 octobre 2025-13:15:37</p>
+    <p>Dernière modification le : samedi 8 novembre 2025-03:14:59</p>
+    </div>
+    </section>
+
+    <section class="col-12 col-md-3 order-sm-1">
+                <div class="section-content section-shadow hal-visualize-button widget-files">
+            
+                        
+                <a href="https://hal.science/hal-05336944v1/document" target="_blank">
+    <div class="file d-flex align-items-center justify-content-center">
+        <i class="icon-download hal-icon mr-4" aria-hidden="true"></i>
+        <span>Télécharger pour visualiser</span>
+    </div>
+</a>    
+        </div>
+                <div class="section-content section-shadow">
+            <h3> Dates et versions</h3>
+
+    <div class="bg-beige versions pt-1 pb-1">
+        <span>hal-05336944 ,</span>
+        <span><a href="https://hal.science/hal-05336944v1"> version 1</a></span>
+        <span>(29-10-2025)</span>
+                    </div>
+            
+    
+    <h3> Licence</h3>
+
+                <div class="licence-view">
+                    <img src="/assets/img/licences/hal.png" alt="" height="20px" />
+                <a href="https://about.hal.science/hal-authorisation-v1/" target="_blank" rel="noopener"> Autorisation HAL</a>
+    </div>
+            <h3 style="margin-top: 10px;"> Identifiants</h3>
+<div class="identifier-list">
+    <ul>
+        <li> <span> HAL Id : </span>
+            <span> hal-05336944 , version 1 </span>
+        </li>
+
+                
+                    <li> <span> DOI : </span>
+                <span>
+                                            <a href="https://dx.doi.org/10.1016/S1473-3099(24)00769-2" target="_blank">
+                            10.1016/S1473-3099(24)00769-2
+                        </a>
+                                    </span>
+            </li>
+            </ul>
+
+</div>        </div>
+
+        
+
+        
+        
+
+        
+        
+        <div class="section-content section-shadow">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h3> Citer</h3>
+                <button id="citation-button" class="hal-option-button" style="padding: 6px 12px;"><span class="icon-copy"></span></button>
+            </div>
+            <div class="bg-beige p-2" id="citation">
+                 Amy D Proal, Soo Aleman, Morgane Bomsel, Petter Brodin, Marcus Buggert, et al.. Targeting the SARS-CoV-2 reservoir in long COVID. <i>The Lancet Infectious Diseases</i>, 2025, 25 (5), pp.e294-e306. <a target="_blank" href="https://dx.doi.org/10.1016/S1473-3099(24)00769-2">&#x27E8;10.1016/S1473-3099(24)00769-2&#x27E9;</a>. <a target="_blank" href="https://hal.science/hal-05336944v1">&#x27E8;hal-05336944&#x27E9;</a>
+            </div>
+        </div>
+
+        <div class="section-content section-shadow section-export">
+            <h3> Exporter</h3>
+
+
+<ul class="listAction">
+    <li >
+        <a class="hal-bgtext size-regular" href="https://hal.science/hal-05336944v1/bibtex" target="_blank" style="white-space: nowrap;">BibTeX</a>
+    </li>
+    <li >
+        <a class="hal-bgtext size-regular" href="https://hal.science/hal-05336944v1/tei" target="_blank" style="white-space: nowrap;">XML-TEI</a>
+    </li>
+    <li >
+        <a class="hal-bgtext size-regular" href="https://hal.science/hal-05336944v1/dc" target="_blank" style="white-space: nowrap;">Dublin Core</a>
+    </li>
+    <li >
+        <a class="hal-bgtext size-regular" href="https://hal.science/hal-05336944v1/dcterms" target="_blank" style="white-space: nowrap;">DC Terms</a>
+    </li>
+    <li >
+        <a class="hal-bgtext size-regular" href="https://hal.science/hal-05336944v1/endnote" target="_blank" style="white-space: nowrap;">EndNote</a>
+    </li>
+    <li >
+        <a class="hal-bgtext size-regular" href="https://hal.science/hal-05336944v1/datacite" target="_blank" style="white-space: nowrap;">DataCite</a>
+    </li>
+</ul>        </div>
+
+                            <div class="section-content section-shadow section-collection">
+                <h3> Collections</h3>
+                <ul class="listAction">
+                                            <li>
+                            <a class="hal-bgtext size-regular" href="/CNRS"
+                               target="_blank"> CNRS</a>
+                        </li>
+                                            <li>
+                            <a class="hal-bgtext size-regular" href="/UP-SANTE"
+                               target="_blank"> UP-SANTE</a>
+                        </li>
+                                    </ul>
+            </div>
+                            <div class="section-content section-shadow" id="metrics">
+                    <div class="row">
+                    <div class="metrics-views col-6">
+            <span>
+                69
+            </span>
+                <span>Consultations</span>
+            </div>
+        
+                    <div class="metrics-views col-6">
+            <span>
+                88
+            </span>
+                <span>Téléchargements</span>
+            </div>
+            </div>
+
+            </div>
+        
+        
+                        
+            <div class="section-content section-shadow section-collection">
+            <h3> Altmetric</h3>
+            <script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+            <div data-badge-details="right" data-badge-type="donut" data-hide-no-mentions="false" class="altmetric-embed" data-doi="10.1016/S1473-3099(24)00769-2" ></div>
+        </div>
+    
+
+        <div class="section-content section-shadow">
+            <h3> Partager</h3>
+<!-- AddToAny BEGIN -->
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style"
+          >
+        <ul class="listIconsAdd2Any">
+            <li><a class="a2a_button_google_gmail"></a><span class="sr-only"> </span></li>
+            <li><a class="a2a_button_mastodon"></a><span class="sr-only"> </span></li>
+            <li><a class="a2a_button_facebook"></a><span class="sr-only"> </span></li>
+            <li><a class="a2a_button_x"></a><span class="sr-only"> </span></li>
+            <li><a class="a2a_button_linkedin"></a><span class="sr-only"> </span></li>
+                <li><a class="a2a_dd" href="https://www.addtoany.com/share"></a><span class="sr-only"> More </span></li>
+        </ul>
+</div>
+<!-- from a2a -->
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->        </div>
+
+    </section>
+
+</section>
+
+
+<script type="text/javascript">
+    $(function () {
+        linkifyElem ('.linkify');
+    });
+</script>
+
+    </main>
+
+    
+<footer id="footer">
+    <div class="custom-footer-outer row justify-content-center d-flex flex-wrap align-items-center">
+<div class="col-sm-6 col-md-3 col-lg-2 text-center"><a href="https://www.enseignementsup-recherche.gouv.fr/" target="_blank" rel="noopener"><img style="height: 150px;" src="/public/mesr.svg" alt="Minist&egrave;re de l'enseignement sup&eacute;rieur et de la recherche" /></a></div>
+<div class="col-sm-6 col-md-3 col-lg-2 text-center"><a href="https://www.cnrs.fr/" target="_blank" rel="noopener"><img style="height: 80px;" src="/public/cnrs.png" alt="CNRS" /></a></div>
+<div class="col-sm-6 col-md-3 col-lg-2 text-center"><a href="https://www.inria.fr/" target="_blank" rel="noopener"><img style="height: 40px;" src="/public/inria.svg" alt="Inria" /></a></div>
+<div class="col-sm-6 col-md-3 col-lg-2 text-center"><a href="https://www.inrae.fr/" target="_blank" rel="noopener"><img style="height: 30px;" src="/public/inrae.svg" alt="INRAE" /></a></div>
+</div>
+
+    <div class="row" style="margin:0">
+        <div class="col-sm-4 col-md-2">
+            <p> Contact </p>
+            <ul>
+                <li>
+                                    <a href="//doc.archives-ouvertes.fr/support" target="_blank" rel="noopener">Support</a>
+                                </li>
+                <li class="cts-link"> <a href="https://doi.org/10.34894/VQ1DJA" target="_blank" > <img src="/assets/img/CoreTrustSeal.png" width="100px" class="mt-4" alt="CoreTrustSeal logo"/> </a> </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-2">
+            <p> Ressources</p>
+            <ul>
+                <li> <a href="//doc.archives-ouvertes.fr/" target="_blank" > Documentation </a> </li>
+                <li> <a href="//learning.hal.science/" target="_blank" > Formation </a> </li>
+                <li> <a href="//doc.archives-ouvertes.fr/faq" target="_blank" > FAQ </a> </li>
+                <li> <a href="https://api.archives-ouvertes.fr/docs" target="_blank" > API </a> </li>
+                <li> <a href="https://api.archives-ouvertes.fr/docs/oai" target="_blank" > OAI-PMH </a> </li>
+                <li> <a href="https://aurehal.archives-ouvertes.fr" target="_blank" > AuréHAL </a> </li>
+                <li> <a href="https://monitor.hal.science/" target="_blank" > Hal Monitor </a> </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-2">
+            <p> Informations</p>
+            <ul>
+                <li> <a href="https://about.hal.science" target="_blank"> À propos </a> </li>
+                <li> <a href="https://about.hal.science/privacy-policy" target="_blank"> Données personnelles </a> </li>
+                <li> <a href="https://about.hal.science/legal-notice/" target="_blank"> Mentions légales </a> </li>
+                <li> <a href="https://about.hal.science/web-accessibility/" target="_blank"> Accessibilité </a> </li>
+                <li> <a href="https://about.hal.science/RGAA-compliance/" target="_blank"> Conformité RGAA </a> </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-2">
+            <p> Questions juridiques </p>
+            <ul>
+                <li> <a href="https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/" target="_blank" > Je publie, quels sont mes droits ? </a> </li>
+                <li> <a href="https://www.ouvrirlascience.fr/guide-application-loi-republique-numerique-article-30-ecrits-scientifiques-version-courte/" target="_blank" > Loi pour une République numérique </a> </li>
+                <li> <a href="https://www.ouvrirlascience.fr/mettre-en-oeuvre-la-strategie-de-non-cession-des-droits-sur-les-publications-scientifiques/" target="_blank" > Stratégie de non-cession des droits </a> </li>
+                <li> <a href="https://reseau-mirabel.info/" target="_blank" > Mir@bel </a> </li>
+                <li> <a href="https://openpolicyfinder.jisc.ac.uk/" target="_blank" > Jisc - Open Policy Finder </a> </li>
+
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-2">
+            <p> Portails </p>
+            <ul>
+                <li><a href="https://hal.science/browse/portal" target="_blank"> Portails institutionnels </a></li>
+                <li><a href="https://hal.science" target="_blank" >HAL</a></li>
+                <li><a href="//shs.hal.science" target="_blank" >HAL SHS</a></li>
+                <li><a href="//theses.hal.science" target="_blank" >HAL Thèses</a></li>
+                <li><a href="//media.hal.science" target="_blank" >MédiHAL</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-2">
+            <p> CCSD </p>
+            <ul>
+                <li> <a href="//www.ccsd.cnrs.fr/" target="_blank" > CCSD </a> </li>
+                <li> <a href="//www.episciences.org/" target="_blank" > Episciences </a> </li>
+                <li> <a href="//www.sciencesconf.org/" target="_blank" > Sciencesconf </a> </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

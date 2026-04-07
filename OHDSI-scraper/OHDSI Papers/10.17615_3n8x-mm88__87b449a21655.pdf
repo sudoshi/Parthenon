@@ -1,0 +1,737 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="gl3d8x4Egr1vumdc9ZeZpy2vgDWCpTxpBI5so8KuJlii44HlRer1v5l3heVlYySqyy9aENrw2vUq5Oz5tLyQ3Q==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="resourcesync" href="https://cdr.lib.unc.edu/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+  <meta name="twitter:card" content="product" />
+  <meta name="twitter:site" content="@SamveraRepo" />
+  <meta name="twitter:creator" content="@SamveraRepo" />
+  <meta property="og:site_name" content="Carolina Digital Repository" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content="Efficacy and Safety of AR101 in Oral Immunotherapy for Peanut Allergy: Results of ARC001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial" />
+  <meta property="og:description" content="Efficacy and Safety of AR101 in Oral Immunotherapy for Peanut Allergy: Results of ARC001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial" />
+  <meta property="og:image" content="http://cdr.lib.unc.edu/downloads/t148fz038" />
+  <meta property="og:url" content="https://cdr.lib.unc.edu/concern/articles/pk02cp52x?locale=en" />
+  <meta name="twitter:data1" content="profile, endpoint, allergy, peanut protein, clinical activity, protein, production, placebo, Fifty-five subjects, induce desensitization, gradually, results, AR101, symptoms, activity, humoral immune response, subjects, analysis, immunotherapy, GI adverse events, study, response, adults, placebo-controlled trial, arm, efficacy, treatment options, drug products, proportion, peanut-allergic subjects, proportion of subjects, peanut-allergic children, options, symptom severity, primary endpoint, severity, clinical use, double-blind, agencies, background, placebo subjects, regulatory agencies, peanut allergy, peanut oral immunotherapy, years, safety, children, safety profile, gastrointestinal (GI) symptoms, reduce symptom severity, approach, desensitization, adolescents, placebo-controlled food challenge, treatment-related adverse events, mild symptoms, peanut-specific, immunomodulatory treatment options, age, group, exit, trial background, screening double-blind, DBPCFC, trials, multicenter study, Fifty-five, use, US centers, challenges, young adults, biological drug products, immune response, center, intention-to-treat analysis, food challenge, sensitization to peanut, peanut, events, Eligible subjects, oral immunotherapy, adverse events" />
+  <meta name="twitter:label1" content="Keywords" />
+  <meta name="twitter:data2" content="http://rightsstatements.org/vocab/InC/1.0/" />
+  <meta name="twitter:label2" content="Rights Statement" />
+
+<!-- Google Scholar metadata -->
+  <meta name="description" content="Efficacy and Safety of AR101 in Oral Immunotherapy for Peanut Allergy: Results of ARC001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial" />
+  <meta name="citation_title" content="Efficacy and Safety of AR101 in Oral Immunotherapy for Peanut Allergy: Results of ARC001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial" />
+
+  <meta name="citation_author" content="Bird, J. Andrew" />
+  <meta name="citation_author" content="Spergel, Jonathan M." />
+  <meta name="citation_author" content="Jones, Stacie M." />
+  <meta name="citation_author" content="Rachid, Rima" />
+  <meta name="citation_author" content="Assa&#39;ad, Amal H." />
+  <meta name="citation_author" content="Wang, Julie" />
+  <meta name="citation_author" content="Leonard, Stephanie A." />
+  <meta name="citation_author" content="Laubach, Susan S." />
+  <meta name="citation_author" content="Kim, Edwin H." />
+  <meta name="citation_author" content="Vickery, Brian P." />
+  <meta name="citation_author" content="Davis, Benjamin P." />
+  <meta name="citation_author" content="Heimall, Jennifer" />
+  <meta name="citation_author" content="Cianferoni, Antonella" />
+  <meta name="citation_author" content="MacGinnitie, Andrew J." />
+  <meta name="citation_author" content="Crestani, Elena" />
+  <meta name="citation_author" content="Burks, A. Wesley" />
+  <meta name="citation_author" content="ARC001 Study Group" />
+
+  <meta name="citation_publication_date" content="October 31, 2017" />
+
+  <meta name="citation_pdf_url" content="http://cdr.lib.unc.edu/downloads/t148fz038" />
+
+  <meta name="citation_keywords" content="profile; endpoint; allergy; peanut protein; clinical activity; protein; production; placebo; Fifty-five subjects; induce desensitization; gradually; results; AR101; symptoms; activity; humoral immune response; subjects; analysis; immunotherapy; GI adverse events; study; response; adults; placebo-controlled trial; arm; efficacy; treatment options; drug products; proportion; peanut-allergic subjects; proportion of subjects; peanut-allergic children; options; symptom severity; primary endpoint; severity; clinical use; double-blind; agencies; background; placebo subjects; regulatory agencies; peanut allergy; peanut oral immunotherapy; years; safety; children; safety profile; gastrointestinal (GI) symptoms; reduce symptom severity; approach; desensitization; adolescents; placebo-controlled food challenge; treatment-related adverse events; mild symptoms; peanut-specific; immunomodulatory treatment options; age; group; exit; trial background; screening double-blind; DBPCFC; trials; multicenter study; Fifty-five; use; US centers; challenges; young adults; biological drug products; immune response; center; intention-to-treat analysis; food challenge; sensitization to peanut; peanut; events; Eligible subjects; oral immunotherapy; adverse events" />
+
+  <meta name="citation_publisher" content="Elsevier" />
+
+  <meta name="citation_journal_title" content="The Journal of Allergy and Clinical Immunology: In Practice" />
+
+  <meta name="citation_volume" content="6" />
+
+  <meta name="citation_issue" content="2" />
+
+  <meta name="citation_firstpage" content="476" />
+
+  <meta name="citation_lastpage" content="485.e3" />
+
+
+<title>Scholarly Article or Book Chapter | Efficacy and Safety of AR101 in Oral Immunotherapy for Peanut Allergy: Results of ARC001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial | ID: pk02cp52x | Carolina Digital Repository</title>
+
+<!-- application css -->
+<link rel="stylesheet" media="screen" href="/assets/application-f5458433c19f288276e296507f5a8b1bf859c69fdfe0f11e3eeeca2146c9daac.css" />
+
+<!-- application js -->
+<script src="/assets/application-6ae2502b8e709adf486c5551ad268d0b12983285567e7cb3a28fb879365780d4.js"></script>
+
+<style>
+a { color: #2e74b2; }
+.navbar-dark.bg-dark .navbar-link { color: #ffebcd; }
+
+.navbar-dark.bg-dark { background-color: #3c3c3c !important; }
+
+.navbar-dark.bg-dark .navbar-nav > .open > a,
+.navbar-dark.bg-dark .navbar-nav > .open > a:hover,
+.navbar-dark.bg-dark .navbar-nav > .open > a:focus { background-color: #3c3c3c; }
+
+.navbar-dark.bg-dark .navbar-nav > li > a,
+.navbar-dark.bg-dark .navbar-text,
+.navbar-dark.bg-dark .navbar-brand { color: #dcdcdc; }
+
+.btn-primary {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #245682;
+  border-color: #1d4467;
+}
+
+.btn-primary:hover {
+  background-color: #245682;
+  border-color: #215079;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus{
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+</style>
+
+
+    <script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  // _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.lib.unc.edu/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', "6"]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+  window.analytics = _paq;
+</script>
+<meta name="analytics-provider" content="matomo">
+
+<!-- for extras, e.g., a favicon -->
+<meta name="msvalidate.01" content="6963C16215285DFB9641BD17E441FAAE"/>
+<meta name="google-site-verification" content="WO17zKdoDATg4FxnQafjjRNowoM-TDP4hEfb_H--mdo" />
+
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon-545d11a84432819b25149c67d4e2aa95f3bee9e815f20b9bfbf105e836d70ff5.ico" />
+
+
+    
+  </head>
+
+  <body>
+    <div class="skip-to-content sr-only">
+      <a data-turbolinks="false" href="#skip-to-content">Skip to Content</a>
+    </div>
+    <header aria-label="header" class="top-header">
+  <nav id="masthead" class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between" role="navigation" aria-label="masthead">
+    <h1 class="sr-only">Carolina Digital Repository</h1>
+    <div id="logo" class="navbar-brand">
+  <span class="institution_name">
+    <a href="/"><span>University Library</span> Carolina Digital Repository</a>
+  </span>
+</div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+  <li class="nav-item contact"><a class="nav-link" href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+    <li class="nav-item">
+      <a class="nav-link" href="/sign_in?locale=en">
+        <span class="fa fa-sign-in" aria-hidden="true"></span> Login
+</a>    </li>
+</ul>
+    </div>
+  </nav>
+</header>
+
+      <nav class="navbar navbar-light bg-light navbar-expand-sm justify-content-between align-items-baseline px-2 py-2 border-bottom" role="navigation" aria-label="Root Menu">
+    <ul class="nav navbar-nav col-sm-5">
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?locale=en">Browse Everything</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/catalog/facet/affiliation_label_sim?locale=en">Departments</a></li>
+        <li class="nav-item" data-turbolinks="false">
+          <a class="all-unc-work-types nav-link" data-behavior="select-work" data-target="#worktypes-to-create" data-create-type="single" href="#">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+            Deposit
+</a>        </li>
+    </ul><!-- /.nav -->
+    <div class="col-sm-7">
+      <form class="form-horizontal search-form" id="search-form-header" role="search" action="/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" />
+  
+  <input type="hidden" name="search_field" id="search_field" value="all_fields" autocomplete="off" />
+   <div class="form-group row">
+
+    <label class="col-sm-3 mb-0" for="search-field-header">
+      Search the Carolina Digital Repository
+    </label>
+
+    <div class="input-group col">
+      <input type="text" name="q" id="search-field-header" aria-label="Search" class="q form-control" placeholder="Enter search terms" />
+
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-primary" id="search-submit-header">
+          <span class="fa fa-search" aria-hidden="true"></span> Go
+        </button>
+      </div><!-- /.input-group-btn -->
+    </div><!-- /.input-group -->
+    
+  </div><!-- /.form-group -->
+</form>
+<a class="advanced_search" href="/catalog/advanced?">Advanced search</a>
+    </div>
+  </nav><!-- /.navbar -->
+
+
+    
+    <div id="content-wrapper" class="container-fluid" role="main">
+      
+      
+      <nav class="breadcrumb" role="navigation" aria-label="Breadcrumb"><ol><li><a href="/?locale=en">Home</a></li><li><a href="/concern/articles/pk02cp52x?locale=en">Efficacy and Safety of...</a></li></ol></nav>
+
+      <a name="skip-to-content" id="skip-to-content"></a>
+      
+      
+
+
+
+
+<div class="row work-type">
+  <div class="col-sm-12">
+    <!--
+<h1 class="work-type-tag">
+  <span class="" aria-hidden="true"></span>
+</h1> -->
+  </div>
+  <div itemscope itemtype="http://schema.org/CreativeWork" class="col-12">
+    <div class="work-title-wrapper">
+      <div class="title-with-badges">
+        <h1>Efficacy and Safety of AR101 in Oral Immunotherapy for Peanut Allergy: Results of ARC001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial</h1>
+        <span class="badge badge-success">Public</span>
+        <span class="state state-deposited badge badge-primary">Deposited</span>
+      </div>
+</div>
+
+    
+<div class="row show-actions button-row-top-two-column">
+  <div class="col-sm-6">
+      <a id="stats" class="btn btn-default" data-turbolinks="false" href="/works/pk02cp52x/stats?locale=en">Analytics</a>
+  </div>
+
+  <div class="col-sm-6 text-right">
+  </div>
+</div>
+
+<!-- COinS hook for Zotero -->
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fblacklight.rubyforge.org%3Agenerator&amp;rft.title=Efficacy+and+Safety+of+AR101+in+Oral+Immunotherapy+for+Peanut+Allergy%3A+Results+of+ARC001%2C+a+Randomized%2C+Double-Blind%2C+Placebo-Controlled+Phase+2+Clinical+Trial&amp;rft.publisher=Elsevier&amp;rft.format=Article&amp;rft.identifier=PMID%3A+29092786&amp;rft.identifier=Dimensions+ID%3A+pub.1092461132&amp;rft.identifier=DOI%3A+https%3A%2F%2Fdx.doi.org%2F10.1016%2Fj.jaip.2017.09.016&amp;rft.relation=profile&amp;rft.relation=endpoint&amp;rft.relation=allergy&amp;rft.relation=peanut+protein&amp;rft.relation=clinical+activity&amp;rft.relation=protein&amp;rft.relation=production&amp;rft.relation=placebo&amp;rft.relation=Fifty-five+subjects&amp;rft.relation=induce+desensitization&amp;rft.relation=gradually&amp;rft.relation=results&amp;rft.relation=AR101&amp;rft.relation=symptoms&amp;rft.relation=activity&amp;rft.relation=humoral+immune+response&amp;rft.relation=subjects&amp;rft.relation=analysis&amp;rft.relation=immunotherapy&amp;rft.relation=GI+adverse+events&amp;rft.relation=study&amp;rft.relation=response&amp;rft.relation=adults&amp;rft.relation=placebo-controlled+trial&amp;rft.relation=arm&amp;rft.relation=efficacy&amp;rft.relation=treatment+options&amp;rft.relation=drug+products&amp;rft.relation=proportion&amp;rft.relation=peanut-allergic+subjects&amp;rft.relation=proportion+of+subjects&amp;rft.relation=peanut-allergic+children&amp;rft.relation=options&amp;rft.relation=symptom+severity&amp;rft.relation=primary+endpoint&amp;rft.relation=severity&amp;rft.relation=clinical+use&amp;rft.relation=double-blind&amp;rft.relation=agencies&amp;rft.relation=background&amp;rft.relation=placebo+subjects&amp;rft.relation=regulatory+agencies&amp;rft.relation=peanut+allergy&amp;rft.relation=peanut+oral+immunotherapy&amp;rft.relation=years&amp;rft.relation=safety&amp;rft.relation=children&amp;rft.relation=safety+profile&amp;rft.relation=gastrointestinal+%28GI%29+symptoms&amp;rft.relation=reduce+symptom+severity&amp;rft.relation=approach&amp;rft.relation=desensitization&amp;rft.relation=adolescents&amp;rft.relation=placebo-controlled+food+challenge&amp;rft.relation=treatment-related+adverse+events&amp;rft.relation=mild+symptoms&amp;rft.relation=peanut-specific&amp;rft.relation=immunomodulatory+treatment+options&amp;rft.relation=age&amp;rft.relation=group&amp;rft.relation=exit&amp;rft.relation=trial+background&amp;rft.relation=screening+double-blind&amp;rft.relation=DBPCFC&amp;rft.relation=trials&amp;rft.relation=multicenter+study&amp;rft.relation=Fifty-five&amp;rft.relation=use&amp;rft.relation=US+centers&amp;rft.relation=challenges&amp;rft.relation=young+adults&amp;rft.relation=biological+drug+products&amp;rft.relation=immune+response&amp;rft.relation=center&amp;rft.relation=intention-to-treat+analysis&amp;rft.relation=food+challenge&amp;rft.relation=sensitization+to+peanut&amp;rft.relation=peanut&amp;rft.relation=events&amp;rft.relation=Eligible+subjects&amp;rft.relation=oral+immunotherapy&amp;rft.relation=adverse+events&amp;rft.license=http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-nd%2F4.0%2F"></span>
+<!-- Render Modals -->
+  <div role="dialog" class="modal collection-list-modal fade" id="collection-list-container" tabindex="-1" aria-labelledby="col_add_title">
+  <div class="modal-dialog text-left">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="col_add_title">Add to collection</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+            <em> You do not have access to any existing collections. You may create a new collection.</em><br /><br /><br /><br />
+ <!-- else -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    <div class="card">
+      <div class="card-body">
+        <div class="row metadata-view">
+          <div class="col-12">
+  <div class="workflow-actions">
+    
+  </div>
+</div>
+
+          <div class="col-sm-4 text-center">
+                    <div>
+      <h2 class="sr-only">Downloadable Content</h2>
+      <img class="representative-media" alt="" role="presentation" src="/downloads/t148fz038?file=thumbnail" />
+      <a target="_blank" id="file_download" class="btn btn-info" data-label="t148fz038" data-work-id="pk02cp52x" data-collection-ids="[&quot;5138jv288&quot;]" href="/downloads/t148fz038?locale=en">Download PDF</a>
+    </div>
+
+
+            <div class="citations">
+    <button class="btn btn-default" data-toggle="modal" data-target="#citations-modal">Citations</button>
+  <a class="btn btn-default access-request" href="https://blogs.lib.unc.edu/cdr/index.php/accessibility-request">
+    Request Version for Screen Reader</a>
+</div>
+
+<div class="modal fade" id="citations-modal" tabindex="-1" role="dialog" aria-labelledby="citations-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="citations-modal-title">Citation</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body unc-modal">
+        <div class="cite">
+          <h4>MLA</h4>
+          <span class="mla-citation"><span class="citation-author">Bird, J. Andrew, et al. </span><i class="citation-title">Efficacy and Safety of Ar101 In Oral Immunotherapy for Peanut Allergy: Results of Arc001, a Randomized, Double-blind, Placebo-controlled Phase 2 Clinical Trial.</i> Elsevier, 2017. https://doi.org/10.17615/3n8x-mm88</span>
+        </div>
+        <div class="cite">
+          <h4>APA</h4>
+          <span class="apa-citation"><span class="citation-author">Bird, J., Spergel, J., Jones, S., Rachid, R., Assa&#39;ad, A., Wang, J., Leonard, S., Laubach, S., Kim, E., Vickery, B., Davis, B., Heimall, J., Cianferoni, A., Mac Ginnitie, A., Crestani, E., Burks, A., &amp; Study Group, A.</span> (2017). <i class="citation-title">Efficacy and Safety of AR101 in Oral Immunotherapy for Peanut Allergy: Results of ARC001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial.</i> Elsevier. https://doi.org/10.17615/3n8x-mm88</span>
+        </div>
+        <div class="cite">
+          <h4>Chicago</h4>
+          <span class="chicago-citation"><span class="citation-author">Bird, J. Andrew, Jonathan M Spergel, Stacie M Jones, Rima Rachid, Amal H Assa'ad, Julie Wang, Stephanie A Leonard et al.</span> 2017. <i class="citation-title">Efficacy and Safety of Ar101 In Oral Immunotherapy for Peanut Allergy: Results of Arc001, a Randomized, Double-Blind, Placebo-Controlled Phase 2 Clinical Trial.</i> Elsevier. https://doi.org/10.17615/3n8x-mm88</span>
+        </div>
+        <ul class="list-inline">
+          <li><a href="/concern/articles/pk02cp52x.endnote?locale=en">EndNote</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="col-sm-8">
+            <dl class="work-show pt-3 article"  itemscope itemtype="http://schema.org/Article">
+    
+<dt>Creator</dt>
+<dd><ul class="tabular">
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Bird, J. Andrew</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-3772-6078" target="_blank">https://orcid.org/0000-0003-3772-6078</a>
+</li>
+<li>Other Affiliation: Division of Allergy Immunology, University of Texas Southwestern Medical Center, Dallas, Tex</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Spergel, Jonathan M.</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-4658-5353" target="_blank">https://orcid.org/0000-0002-4658-5353</a>
+</li>
+<li>Other Affiliation: Division of Allergy Immunology, Children's Hospital of Philadelphia, Philadelphia, Pa</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Jones, Stacie M.</span><ul><li>Other Affiliation: Department of Pediatrics, University of Arkansas for Medical Sciences and Arkansas Children's Hospital, Little Rock, Ark</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Rachid, Rima</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-7485-8742" target="_blank">https://orcid.org/0000-0002-7485-8742</a>
+</li>
+<li>Other Affiliation: Division of Allergy Immunology, Boston Children's Hospital, Harvard Medical School, Boston, Mass</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Assa'ad, Amal H.</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0001-7791-6859" target="_blank">https://orcid.org/0000-0001-7791-6859</a>
+</li>
+<li>Other Affiliation: Division of Allergy Immunology, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Wang, Julie</span><ul><li>Other Affiliation: Division of Allergy Immunology, Department of Pediatrics, Icahn School of Medicine at Mount Sinai, New York, NY</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Leonard, Stephanie A.</span><ul><li>Other Affiliation: Department of Pediatrics, University of California, San Diego, Rady Children's Hospital, San Diego, Calif</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Laubach, Susan S.</span><ul><li>Other Affiliation: Department of Pediatrics, University of California, San Diego, Rady Children's Hospital, San Diego, Calif</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Kim, Edwin H.</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0001-6418-1785" target="_blank">https://orcid.org/0000-0001-6418-1785</a>
+</li>
+<li>School of Medicine, Department of Pediatrics</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Vickery, Brian P.</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0002-7243-5543" target="_blank">https://orcid.org/0000-0002-7243-5543</a>
+</li>
+<li>School of Medicine, Department of Pediatrics</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Davis, Benjamin P.</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-2108-8059" target="_blank">https://orcid.org/0000-0003-2108-8059</a>
+</li>
+<li>Other Affiliation: Division of Immunology, Department of Internal Medicine, University of Iowa Hospitals and Clinics, Iowa City, Iowa</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Heimall, Jennifer</span><ul><li>Other Affiliation: Division of Allergy Immunology, Children's Hospital of Philadelphia, Philadelphia, Pa</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Cianferoni, Antonella</span><ul><li>Other Affiliation: Division of Allergy Immunology, Children's Hospital of Philadelphia, Philadelphia, Pa</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>MacGinnitie, Andrew J.</span><ul><li>Other Affiliation: Division of Allergy Immunology, Boston Children's Hospital, Harvard Medical School, Boston, Mass</li></ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Crestani, Elena</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0001-7718-0431" target="_blank">https://orcid.org/0000-0001-7718-0431</a>
+</li>
+<li>Other Affiliation: Division of Allergy Immunology, Boston Children's Hospital, Harvard Medical School, Boston, Mass</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display">
+<span>Burks, A. Wesley</span><ul>
+<li>ORCID: <a href="https://orcid.org/0000-0003-1873-5702" target="_blank">https://orcid.org/0000-0003-1873-5702</a>
+</li>
+<li>School of Medicine, Department of Pediatrics</li>
+</ul>
+</li>
+<li itemprop="creator" itemtype="http://schema.org/Person" class="attribute attribute-creator_display"><span>ARC001 Study Group</span></li>
+</ul></dd>
+
+<dt>Abstract</dt>
+<dd><ul class='tabular'><li class="attribute attribute-abstract"><span itemprop="description"><p>BACKGROUND: Peanut oral immunotherapy, using a variety of approaches, has been previously shown to induce desensitization in peanut-allergic subjects, but no products have been approved for clinical use by regulatory agencies. OBJECTIVE: We performed the first phase 2 multicentered study to assess the safety and efficacy of AR101, a novel oral biologic drug product. METHODS: A randomized, double-blind, placebo-controlled trial was conducted at 8 US centers. Eligible subjects were 4 to 26 years old, sensitized to peanut, and had dose-limiting symptoms to ≤143 mg of peanut protein in a screening double-blind, placebo-controlled food challenge (DBPCFC). Subjects were randomized 1:1 to daily AR101 or placebo and gradually up-dosed from 0.5 to 300 mg/day. The primary endpoint was the proportion of subjects in each arm able to tolerate ≥443 mg (cumulative peanut protein) at exit DBPCFC with no or mild symptoms. RESULTS: Fifty-five subjects (29 AR101, 26 placebo) were enrolled. In the intention-to-treat analysis, 23 of 29 (79%) and 18 of 29 (62%) AR101 subjects tolerated ≥443 mg and 1043 mg at exit DBPCFC, respectively, versus 5 of 26 (19%) and 0 of 26 (0%) placebo subjects (both P &lt; .0001). Compared with placebo, AR101 significantly reduced symptom severity during exit DBPCFCs and modulated peanut-specific cellular and humoral immune responses. Gastrointestinal (GI) symptoms were the most common treatment-related adverse events (AEs) in both groups, with 6 AR101 subjects (21%) withdrawing, 4 of those due primarily to recurrent GI AEs. CONCLUSIONS: In this study, AR101 demonstrated an acceptable safety profile and demonstrated clinical activity as a potential immunomodulatory treatment option in peanut-allergic children over the age of 4, adolescents, and young adults.</p></span></li></ul></dd>
+<dt>Date of publication</dt>
+<dd><ul class='tabular'><li class="attribute attribute-date_issued"><span itemprop="datePublished">October 31, 2017</span></li></ul></dd>
+<dt>Keyword</dt>
+<dd><ul class='tabular'><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=profile&amp;locale=en">profile</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=endpoint&amp;locale=en">endpoint</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=allergy&amp;locale=en">allergy</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=peanut+protein&amp;locale=en">peanut protein</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=clinical+activity&amp;locale=en">clinical activity</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=protein&amp;locale=en">protein</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=production&amp;locale=en">production</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=placebo&amp;locale=en">placebo</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Fifty-five+subjects&amp;locale=en">Fifty-five subjects</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=induce+desensitization&amp;locale=en">induce desensitization</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=gradually&amp;locale=en">gradually</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=results&amp;locale=en">results</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=AR101&amp;locale=en">AR101</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=symptoms&amp;locale=en">symptoms</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=activity&amp;locale=en">activity</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=humoral+immune+response&amp;locale=en">humoral immune response</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=subjects&amp;locale=en">subjects</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=analysis&amp;locale=en">analysis</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=immunotherapy&amp;locale=en">immunotherapy</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=GI+adverse+events&amp;locale=en">GI adverse events</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=study&amp;locale=en">study</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=response&amp;locale=en">response</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=adults&amp;locale=en">adults</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=placebo-controlled+trial&amp;locale=en">placebo-controlled trial</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=arm&amp;locale=en">arm</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=efficacy&amp;locale=en">efficacy</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=treatment+options&amp;locale=en">treatment options</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=drug+products&amp;locale=en">drug products</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=proportion&amp;locale=en">proportion</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=peanut-allergic+subjects&amp;locale=en">peanut-allergic subjects</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=proportion+of+subjects&amp;locale=en">proportion of subjects</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=peanut-allergic+children&amp;locale=en">peanut-allergic children</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=options&amp;locale=en">options</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=symptom+severity&amp;locale=en">symptom severity</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=primary+endpoint&amp;locale=en">primary endpoint</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=severity&amp;locale=en">severity</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=clinical+use&amp;locale=en">clinical use</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=double-blind&amp;locale=en">double-blind</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=agencies&amp;locale=en">agencies</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=background&amp;locale=en">background</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=placebo+subjects&amp;locale=en">placebo subjects</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=regulatory+agencies&amp;locale=en">regulatory agencies</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=peanut+allergy&amp;locale=en">peanut allergy</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=peanut+oral+immunotherapy&amp;locale=en">peanut oral immunotherapy</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=years&amp;locale=en">years</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=safety&amp;locale=en">safety</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=children&amp;locale=en">children</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=safety+profile&amp;locale=en">safety profile</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=gastrointestinal+%28GI%29+symptoms&amp;locale=en">gastrointestinal (GI) symptoms</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=reduce+symptom+severity&amp;locale=en">reduce symptom severity</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=approach&amp;locale=en">approach</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=desensitization&amp;locale=en">desensitization</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=adolescents&amp;locale=en">adolescents</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=placebo-controlled+food+challenge&amp;locale=en">placebo-controlled food challenge</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=treatment-related+adverse+events&amp;locale=en">treatment-related adverse events</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=mild+symptoms&amp;locale=en">mild symptoms</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=peanut-specific&amp;locale=en">peanut-specific</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=immunomodulatory+treatment+options&amp;locale=en">immunomodulatory treatment options</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=age&amp;locale=en">age</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=group&amp;locale=en">group</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=exit&amp;locale=en">exit</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=trial+background&amp;locale=en">trial background</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=screening+double-blind&amp;locale=en">screening double-blind</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=DBPCFC&amp;locale=en">DBPCFC</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=trials&amp;locale=en">trials</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=multicenter+study&amp;locale=en">multicenter study</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Fifty-five&amp;locale=en">Fifty-five</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=use&amp;locale=en">use</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=US+centers&amp;locale=en">US centers</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=challenges&amp;locale=en">challenges</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=young+adults&amp;locale=en">young adults</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=biological+drug+products&amp;locale=en">biological drug products</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=immune+response&amp;locale=en">immune response</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=center&amp;locale=en">center</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=intention-to-treat+analysis&amp;locale=en">intention-to-treat analysis</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=food+challenge&amp;locale=en">food challenge</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=sensitization+to+peanut&amp;locale=en">sensitization to peanut</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=peanut&amp;locale=en">peanut</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=events&amp;locale=en">events</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Eligible+subjects&amp;locale=en">Eligible subjects</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=oral+immunotherapy&amp;locale=en">oral immunotherapy</a></span></li><li class="attribute attribute-keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=adverse+events&amp;locale=en">adverse events</a></span></li></ul></dd>
+
+<dt>DOI</dt>
+<dd><ul class='tabular'><li class="attribute attribute-doi"><span itemprop="identifier"><a href="https://doi.org/10.17615/3n8x-mm88">https://doi.org/10.17615/3n8x-mm88</a></span></li></ul></dd>
+<dt>Identifier</dt>
+<dd><ul class='tabular'><li class="attribute attribute-identifier">PMID: 29092786</li><li class="attribute attribute-identifier">Dimensions ID: pub.1092461132</li><li class="attribute attribute-identifier">DOI: <a href="https://dx.doi.org/10.1016/j.jaip.2017.09.016">https://dx.doi.org/10.1016/j.jaip.2017.09.016</a></li></ul></dd>
+
+<dt>Resource type</dt>
+<dd><ul class='tabular'><li class="attribute attribute-resource_type">Article</li></ul></dd>
+<dt>Rights statement</dt>
+<dd><ul class='tabular'><li class="attribute attribute-rights_statement_label">In Copyright</li></ul></dd>
+
+<dt>License</dt>
+<dd><ul class='tabular'><li itemprop="license" itemscope itemtype="http://schema.org/URL" class="attribute attribute-license_label"><span itemprop="true">Attribution-NonCommercial-NoDerivs 4.0 International</span></li></ul></dd>
+<dt>Journal title</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_title">The Journal of Allergy and Clinical Immunology: In Practice</li></ul></dd>
+<dt>Journal volume</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_volume">6</li></ul></dd>
+<dt>Journal issue</dt>
+<dd><ul class='tabular'><li class="attribute attribute-journal_issue">2</li></ul></dd>
+<dt>Page start</dt>
+<dd><ul class='tabular'><li class="attribute attribute-page_start">476</li></ul></dd>
+<dt>Page end</dt>
+<dd><ul class='tabular'><li class="attribute attribute-page_end">485.e3</li></ul></dd>
+
+<dt>Version</dt>
+<dd><ul class='tabular'><li class="attribute attribute-edition">Publisher</li></ul></dd>
+
+<dt>Funder</dt>
+<dd><ul class='tabular'><li class="attribute attribute-funder">National Center for Advancing Translational Sciences</li><li class="attribute attribute-funder">Children's Hospital of Philadelphia</li></ul></dd>
+
+<dt>ISSN</dt>
+<dd><ul class='tabular'><li class="attribute attribute-issn">2213-2201</li><li class="attribute attribute-issn">2213-2198</li></ul></dd>
+
+
+
+
+
+
+
+
+<dt>Publisher</dt>
+<dd><ul class='tabular'><li itemprop="publisher" itemscope itemtype="http://schema.org/Organization" class="attribute attribute-publisher"><span itemprop="name">Elsevier</span></li></ul></dd>
+
+
+  
+
+    
+    
+ </dl>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- /card -->
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Relations</h2>
+      </div>
+      <div class="card-body">
+        <dl class="work-show">
+
+
+
+<dt> Parents: </dt>
+  <p>This work has no parents.</p>
+
+
+    <dt> In Collection: </dt>
+<dd>
+      <ul class="tabular">
+          <li class='attribute attribute-title'>
+            <a href="/collections/5138jv288?locale=en">UNC-Chapel Hill Highly Cited Researchers</a>
+          </li>
+      </ul>
+  </dd>
+
+
+
+</dl>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Items</h2>
+      </div>
+      <div class="card-body">
+            <table class="table table-striped related-files">
+      <thead>
+      <tr>
+        <th>Thumbnail</th>
+        <th>Title</th>
+        <th>Date Uploaded</th>
+        <th>Visibility</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="file_set attributes">
+  <td class="thumbnail">
+    <a href="/concern/file_sets/t148fz038?locale=en"><img alt="file details" src="/downloads/t148fz038?file=thumbnail" /></a>
+  </td>
+  <td class="attribute attribute-filename ensure-wrapped"><a href="/concern/parent/pk02cp52x/file_sets/t148fz038">1-s2.0-S2213219817307420-main.pdf</a></td>
+  <td class="attribute attribute-date_uploaded">2025-01-15</td>
+  <td class="attribute attribute-permission"><span class="badge badge-success">Public</span></td>
+  <td>
+        <a class="btn btn-secondary btn-sm" title="Download 1-s2.0-S2213219817307420-main.pdf" target="_blank" id="file_download" data-label="t148fz038" data-work-id="pk02cp52x" data-collection-ids="[&quot;5138jv288&quot;]" href="/downloads/t148fz038?locale=en">Download</a>
+
+
+  </td>
+</tr>
+      </tbody>
+    </table>
+    <div class="row">
+    </div>
+
+      </div>
+    </div>
+
+
+<span class='hide analytics-event' data-category="work" data-action="work-view" data-name="pk02cp52x" >
+  <span class='hide analytics-event' data-category="work-in-collection" data-action="work-in-collection-view" data-name="5138jv288" >
+
+  </div>
+</div>
+
+    </div><!-- /#content-wrapper -->
+    <footer id="unc-footer" class="navbar navbar-dark bg-dark site-footer">
+    <div class="navbar-text text-center">
+      <div class="text-center">
+        <div>
+          <ul class="navbar-nav list-unstyled">
+            <li><a href="/"><span class="translation_missing" title="translation missing: en.hyrax.links.home">Home</span></a></li>
+            <li><a href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">Collections</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/about">About Us</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr">Help</a></li>
+            <li><a href="https://blogs.lib.unc.edu/cdr/index.php/contact-us">Contact Us</a></li>
+            <li><a href="https://library.unc.edu">Library Home</a></li>
+            <li><a href="https://library.unc.edu/policies/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://digitalaccess.unc.edu/report">Accessibility</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul id="unc-version-footer" class="list-unstyled">
+            <li title="7bb27bdd3f73151edaf47603fa366dfd992427f0"><a href="https://github.com/UNC-Libraries/hy-c">Hy-C v3.4.1</a></li>
+            <li>Deployed on March 30, 2026</li>
+            <li><a href="https://hyrax.samvera.org/">Hyrax version 4.0.0</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+<div class="modal worktypes fade" id="worktypes-to-create" tabindex="-1" role="dialog" aria-labelledby="select-worktype-label">
+  <div class="modal-dialog" role="document">
+    <form class="modal-content new-work-select">
+      <div class="modal-header">
+        <h2 class="modal-title" id="select-worktype-label">Select type of work</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <fieldset>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="MastersPaper"
+                         data-single="/masters_papers/department?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=MastersPaper">
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Master&#39;s Papers</h3>
+                    <p>Deposit your masters paper, project or other capstone work.  Theses will be sent to the CDR automatically via ProQuest and do not need to be deposited.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Article"
+                         data-single="/concern/articles/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Article" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Articles and Book Chapters</h3>
+                    <p>Deposit a peer-reviewed article or book chapter.  If you would like to deposit a poster, presentation, conference paper or white paper, use the “Scholarly Works” deposit form.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="HonorsThesis"
+                         data-single="/concern/honors_theses/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=HonorsThesis" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Undergraduate Honors Theses</h3>
+                    <p>Deposit your senior honors thesis.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Journal"
+                         data-single="/concern/journals/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Journal" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Scholarly Journal, Newsletter or Book</h3>
+                    <p>Deposit a complete issue of a scholarly journal, newsletter or book.  If you would like to deposit an article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="DataSet"
+                         data-single="/concern/data_sets/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=DataSet" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Datasets</h3>
+                    <p>Deposit your dataset.  Datasets may be associated with an article or deposited separately.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="Multimed"
+                         data-single="/concern/multimeds/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=Multimed" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Multimedia</h3>
+                    <p>Deposit your 3D objects, audio, images or video.</p>
+                  </div>
+                </label>
+            </div>
+              <div class="select-worktype">
+                <label>
+                  <input type="radio" name="payload_concern" value="ScholarlyWork"
+                         data-single="/concern/scholarly_works/new?locale=en"
+                         data-batch="/batch_uploads/new?locale=en&amp;payload_concern=ScholarlyWork" />
+                  <div class="select-work-icon">
+                    <span class="fa fa-file-text-o"></span>
+                  </div>
+                  <div class="select-work-description">
+                    <h3 class="work-type-title">Poster, Presentation, Protocol or Paper</h3>
+                    <p>Deposit scholarly works such as posters, presentations, research protocols, conference papers or white papers. If you would like to deposit a peer-reviewed article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option.</p>
+                  </div>
+                </label>
+            </div>
+        </fieldset>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <input type="submit" class="btn btn-primary" value="Create work" />
+      </div>
+    </form>
+  </div>
+</div>
+
+
+    <div id="blacklight-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-turbo="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript" id="unc-ub-script" defer data-color="dark-gray" src="https://unc.edu/web-assets/utility-bar/utility-bar.min.js"></script>
+    <script type="text/javascript">
+        // UNC toolbar script doesn't work well with Rails turbo.
+        // So we have to load the script in the body so it executes.
+        // We also have to remove any current toolbars to avoid duplicate toolbars
+        (() => {
+            const UNC_TOOLBAR_SELECTOR = "#unc-utility-bar"; // The id added by the script
+            let currentUncToolbarElements = document.querySelectorAll(UNC_TOOLBAR_SELECTOR);
+            for (let i = 0; i < currentUncToolbarElements.length; i++) {
+                currentUncToolbarElements[i].parentNode.removeChild(currentUncToolbarElements[i]);
+            }
+        })();
+    </script>
+  </body>
+</html>

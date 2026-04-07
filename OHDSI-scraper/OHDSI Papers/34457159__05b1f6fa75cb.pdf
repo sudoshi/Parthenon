@@ -1,0 +1,2492 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            CONSIDER Statement: Consolidated Recommendations for Sharing Individual Participant Data from Human Clinical Studies - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB7E29D45B5A30BB7E2002B287A23.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="amiasummtsp">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8378623/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="AMIA Summits on Translational Science Proceedings">
+<meta name="citation_title" content="CONSIDER Statement: Consolidated Recommendations for Sharing Individual Participant Data from Human Clinical Studies">
+<meta name="citation_author" content="Craig S Mayer">
+<meta name="citation_author_institution" content="Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH Bethesda, MD">
+<meta name="citation_author" content="Nick Williams">
+<meta name="citation_author_institution" content="Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH Bethesda, MD">
+<meta name="citation_author" content="Vojtech Huser">
+<meta name="citation_author_institution" content="Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH Bethesda, MD">
+<meta name="citation_publication_date" content="2021 May 17">
+<meta name="citation_volume" content="2021">
+<meta name="citation_firstpage" content="438">
+<meta name="citation_pmid" content="34457159">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8378623/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8378623/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8378623/pdf/3478303.pdf">
+<meta name="description" content="Many research sponsors require sharing of data from human clinical trials. We created the CONSIDER statement, a set of recommendations to improve data sharing practices and increase the availability and re-usability of individual participant data ...">
+<meta name="og:title" content="CONSIDER Statement: Consolidated Recommendations for Sharing Individual Participant Data from Human Clinical Studies">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Many research sponsors require sharing of data from human clinical trials. We created the CONSIDER statement, a set of recommendations to improve data sharing practices and increase the availability and re-usability of individual participant data ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC8378623/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="8378623">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/3478303.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC8378623%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/8378623/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/8378623/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC8378623/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-amiasummtsp.gif" alt="AMIA Summits on Translational Science Proceedings logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to AMIA Summits on Translational Science Proceedings" title="Link to AMIA Summits on Translational Science Proceedings" shape="default" href="https://knowledge.amia.org/all-proceedings" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">AMIA Jt Summits Transl Sci Proc</button></div>. 2021 May 17;2021:438–444.</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="AMIA%20Jt%20Summits%20Transl%20Sci%20Proc"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="AMIA%20Jt%20Summits%20Transl%20Sci%20Proc"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="AMIA%20Jt%20Summits%20Transl%20Sci%20Proc"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="AMIA%20Jt%20Summits%20Transl%20Sci%20Proc"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>CONSIDER Statement: Consolidated Recommendations for Sharing Individual Participant Data from Human Clinical Studies</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mayer%20CS"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Craig S Mayer</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Craig S Mayer</span>, <span class="degrees">MS</span>
+</h3>
+<div class="p">
+<sup>1</sup>Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH Bethesda, MD</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mayer%20CS"[Author]' class="usa-link"><span class="name western">Craig S Mayer</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Williams%20N"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Nick Williams</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">Nick Williams</span>, <span class="degrees">Ph.D</span>
+</h3>
+<div class="p">
+<sup>1</sup>Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH Bethesda, MD</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Williams%20N"[Author]' class="usa-link"><span class="name western">Nick Williams</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Huser%20V"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Vojtech Huser</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Vojtech Huser</span>, <span class="degrees">MD, Ph.D</span>
+</h3>
+<div class="p">
+<sup>1</sup>Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH Bethesda, MD</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Huser%20V"[Author]' class="usa-link"><span class="name western">Vojtech Huser</span></a>
+</div>
+</div>
+<sup>1</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none"><div class="p" id="af1-3478303">
+<sup>1</sup>Lister Hill National Center for Biomedical Communication, National Library of Medicine, NIH Bethesda, MD</div></div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Collection date 2021.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>©2021 AMIA - All rights reserved.</div>
+<p>This is an Open Access article: verbatim copying and redistribution of this article are permitted in all media for any purpose</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC8378623  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34457159/" class="usa-link">34457159</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p>Many research sponsors require sharing of data from human clinical trials. We created the CONSIDER statement, a set of recommendations to improve data sharing practices and increase the availability and re-usability of individual participant data from clinical trials. We developed the recommendations by reviewing shared individual participant data and study artifacts from a set of completed studies, as well as study data deposited on ClinicalTrials.gov and on several data sharing platforms. The CONSIDER statement is comprised of seven sections including: format, data sharing, study design, case report forms, data dictionary, data de-identification and choice of data sharing platform. We developed several different forms of CONSIDER which includes a brief form (the checklist), a full form (detailed descriptions and examples), and a scoring methodology. The checklist can be used to evaluate adherence to various progressive data sharing recommendations. We are currently in Phase 2 of collecting feedback on the CONSIDER statement.</p></section><section id="sec_264"><h2 class="pmc_sec_title">Introduction</h2>
+<p>In the past, influential policy documents that guide publishing of medical journal articles achieved advances on how results of clinical research are reported. For example, the CONSORT statement and checklist targeted improved reporting of participant flow diagrams and interventional trial designs, analysis and interpretations.<sup><a href="#r1-3478303" class="usa-link" aria-describedby="r1-3478303">1</a></sup> Similarly, the STROBE statement aimed to improve the reporting of observational studies.<sup><a href="#r2-3478303" class="usa-link" aria-describedby="r2-3478303">2</a></sup> The creation and use of these policy documents have had a profound positive effect in their respective areas.<sup><a href="#r3-3478303" class="usa-link" aria-describedby="r3-3478303">3</a>,<a href="#r4-3478303" class="usa-link" aria-describedby="r4-3478303">4</a></sup> We assume that same mechanism may help improve sharing of de-identified individual participant data (IPD) from completed human clinical studies (interventional trials and observational studies).</p>
+<p>By policy, many research sponsors currently require sharing of data from human clinical studies.<sup><a href="#r5-3478303" class="usa-link" aria-describedby="r5-3478303">5</a></sup> In some of these cases there is not a consensus on a method or format for sharing IPD data. This results in Principle Investigators (PIs) and study sponsors having to decide how best to ensure they comply with this requirement.</p>
+<p>For secondary data users there are many challenges when dealing with acquiring and using shared data. These challenges include data integration and interoperability issues, ethical and policy considerations, financial and time constraints and data quality and annotation problems.<sup><a href="#r6-3478303" class="usa-link" aria-describedby="r6-3478303">6</a>,<a href="#r7-3478303" class="usa-link" aria-describedby="r7-3478303">7</a></sup> The burden of many of these challenges are shared with PIs who are looking to make their data available, but PIs can mitigate these challenges by taking pre-emptive action when anticipating sharing their study data.<sup><a href="#r8-3478303" class="usa-link" aria-describedby="r8-3478303">8</a></sup> Despite the challenges, there are many benefits to sharing study data and data reuse, such as significant reductions in the time and funding that would otherwise be needed to produce new data, as well as the ability to generate and test new hypotheses and compare and contrast multiple sources of clinical trial data.<sup><a href="#r9-3478303" class="usa-link" aria-describedby="r9-3478303">9</a>,<a href="#r10-3478303" class="usa-link" aria-describedby="r10-3478303">10</a></sup></p>
+<p>There are many considerations PIs need to account for in order to minimize these challenges of sharing their data and maximize the capabilities of its re-use. These considerations include: what data and data artifacts should be shared, what formats study resources should be shared in, and how to best make accessible and share these resources, either via a data sharing platform or by request from interested secondary researchers.</p>
+<p>There are different formats to be considered in study design when it comes to data collection and reporting. While in the past, many studies have used custom formats developed specifically for the study for data collection and reporting, there are various initiatives that have been developed over recent years that maximize the interoperability and reuse of collected participant data by being implemented during study design. These initiatives include the use of data standards or common data elements (CDEs) that aid in the harmonization of different clinical studies.<sup><a href="#r11-3478303" class="usa-link" aria-describedby="r11-3478303">11</a></sup> These efforts are to encourage and improve the re-use capabilities of clinical study data. The most popular of these initiatives are standards set by the Clinical Data Interchange Standards Consortium (CDISC), which despite existing for over two decades, has not become widely adopted by academic medical centers and are mainly used by pharmaceutical research sponsors, thanks to the Food and Drug Administration (FDA) mandate.</p>
+<p>As far as making data available for re-use there are many methods that can be chosen. Over the past few years several data sharing platforms with various capabilities have been developed to share and acquire IPD from completed human clinical trials. Some platforms such as NIDA Data Share, are domain specific, while others, such as Vivli or Clinical Study Data Request (CSDR), are general and include studies from a variety of clinical domains.</p>
+<p>We present a set of recommendations to improve the practice of data sharing and promote data re-use, known as the Consolidated Recommendations for Sharing Individual Participant Data from Human Clinical Studies (CONSIDER statement). The acronym is loosely based on letters contained in the title: <span class="text-underline">CONS</span>olidated <span class="text-underline">RE</span>commendations for sharing Individual participant <span class="text-underline">D</span>ata. Letters E and R are re-ordered to create a more memorable acronym. This set of recommendations provides a checklist and a set of recommendations to guide PIs, study team members, study sponsors and data sharing platform representatives for optimal clinical research data sharing. We use the term study to refer to both interventional trials and observational studies.</p></section><section id="sec_265"><h2 class="pmc_sec_title">Methods</h2>
+<section id="sec_266"><h3 class="pmc_sec_title">Set of reviewed studies</h3>
+<p>To develop the CONSIDER statement, we looked at the current state of sharing data from human clinical studies. Our analysis of shared study materials included reviewing the structure and features of shared IPD data and analyzing the presence and format of different study artifacts (e.g. data dictionary, case report forms [CRF], etc.). We also analyzed the accessibility and availability of study resources by reviewing and following the process for requesting study data on data sharing platforms and analyzing study records on a clinical trial registry where we identified which fields are commonly included and excluded by record administrators.</p>
+<p>Our analysis included a set of HIV clinical studies which were obtained as part of a larger project focusing on CDEs in HIV studies.<sup><a href="#r12-3478303" class="usa-link" aria-describedby="r12-3478303">12</a></sup> While the trials underpinning the recommendations are primarily made up of HIV-related studies, the recommendations are not limited to HIV, and were generated as general recommendations that can be applied to studies from any clinical field. Further adding to the generalization of our recommendations, the data platforms and sources, as well as certain acquired data artifacts used in developing the recommendations are not HIV specific and include non-HIV studies and data sources that exemplify good data sharing practices or present popular challenges associated with data sharing.</p>
+<p>The CONSIDER statement was developed from the review of IPD from 30 studies, study data artifacts from 48 studies, and an analysis of 10 data sharing platforms and 6 clinical trial networks. We also did a comprehensive review of clinical study registration data, the presence of data artifacts and the plan to share IPD for HIV trials on ClinicalTrials.gov.<sup><a href="#r13-3478303" class="usa-link" aria-describedby="r13-3478303">13</a></sup></p></section><section id="sec_267"><h3 class="pmc_sec_title">Design assumptions</h3>
+<p>The development and use of CONSIDER requires a few comments and assumptions. First, we do not recommend any one data sharing platform or data standard or structure. These recommendations are intended to recommend specific features and capabilities rather than a specific entity.</p>
+<p>Second, the CONSIDER statement was also developed with the knowledge of the constraints and limited resources PIs face when it comes to staff, time, funding, and privacy. With that in mind, we know this limits the capabilities for a PI to prepare data for sharing, use a specific sharing platform or use certain data structures. The CONSIDER statement is intended to be used as a checklist to use the optimal practices, where plausible, to maximize the visibility, shareability and re-usability of clinical study data.</p></section></section><section id="sec_268"><h2 class="pmc_sec_title">Results</h2>
+<section id="sec_269"><h3 class="pmc_sec_title">Sections</h3>
+<p>Based on our analysis we structured CONSIDER into seven sections that reflect key areas relevant to data sharing. Each section contains between 1 and 13 checklist items. The sections are:
+</p>
+<ol class="list" style="list-style-type:decimal">
+<li><p><em>Data Format:</em> Recommendations on the data structure and the inclusion of certain aspects and elements of the IPD. Using certain methods when formatting IPD can greatly improve the functionality of the data to data re-users and ensure an effective analysis of the shared data.</p></li>
+<li><p><em>Data Sharing:</em> Includes how to make the study available and visible to potential secondary researchers. This section also includes how to share information about the study that can give data re-users a complete understanding of the study and how best to use the available data.</p></li>
+<li><p><em>Study Design:</em> Includes data collection and data sharing recommendation that are important to consider by PIs during study design. The recommendations aim to improve the data usability and data comparability (to other similar studies).</p></li>
+<li><p><em>Case Report Forms:</em> Recommendations about the inclusion of CRFs. CRFs are valuable study artifacts for data recipients to understand the data collection process and the underlying documents that generated the data being analyzed.</p></li>
+<li><p><em>Data Dictionary:</em> Provides recommendations about the availability, format, and features to include when sharing the data dictionary of a study. This section includes making data dictionaries as widely and publicly available as possible and in a format that is easy to use (machine readable). This section also includes recommendations on key information about each data element or form to include in the dictionary. A more comprehensive analysis of data dictionaries leading to the recommendations included in this section can be seen in our previous work.<sup><a href="#r14-3478303" class="usa-link" aria-describedby="r14-3478303">14</a></sup></p></li>
+<li><p><em>Data De-identification:</em> Focuses on describing how data was redacted during de-identification and what should be provided to data recipients when referring to de-identification techniques so they have an understanding of how the data has been changed from the raw collected data. Data de-identification also include the clear communication about the rights and restrictions of data recipients when referring to the process and risks of potential re-identification.</p></li>
+<li><p><em>Choice of a Data Sharing Platform:</em> Provides features and capabilities to look for when choosing a data sharing platform to deposit data (at study completion). The recommendations specify desired platform features such as the ability to quickly find relevant studies (search capabilities), the presence of available study resources and metadata, and the ability to quickly request and acquire available IPD. Different features and capabilities of data sharing platforms improve the effectiveness and efficiency for sharing IPD from clinical studies.</p></li>
+</ol></section><section id="sec_270"><h3 class="pmc_sec_title">Recommendations</h3>
+<p><a href="#t1-3478303" class="usa-link">Table 1</a> shows CONSIDER as a list of recommendations (or checklist format) structured by the previously mentioned sections. For the full version of the CONSIDER statement go to w3id.org/CONSIDER.</p>
+<section class="tw xbox font-sm" id="t1-3478303"><h4 class="obj_head">Table 1. Individual CONSIDER recommendations by section.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all"><tbody>
+<tr>
+<td rowspan="1" colspan="1">
+<strong>Section</strong>
+</td>
+<td rowspan="1" colspan="1">
+<strong>Title of recommendation</strong>
+</td>
+</tr>
+<tr>
+<td rowspan="4" colspan="1">Format</td>
+<td rowspan="1" colspan="1">Share person table in CDISC or OMOP format</td>
+</tr>
+<tr><td rowspan="1" colspan="1">Group data and data elements into relevant data domains (e.g., medication history, laboratory results history, medical procedure history)</td></tr>
+<tr><td rowspan="1" colspan="1">Follow a convention when using relative time.</td></tr>
+<tr><td rowspan="1" colspan="1">Utilize previously defined Common Data Elements and reference them by their identifiers</td></tr>
+<tr><td rowspan="1" colspan="1">Use formats that can be natively loaded (without highly specialized add-ons) into multiple statistical platforms</td></tr>
+<tr>
+<td rowspan="6" colspan="1">Data Sharing</td>
+<td rowspan="1" colspan="1">Register your study at ClinicalTrials.gov registry</td>
+</tr>
+<tr><td rowspan="1" colspan="1">Do not limit study metadata to the legally required elements. Also populate optional elements (such as data sharing metadata)</td></tr>
+<tr><td rowspan="1" colspan="1">Fully populate data_sharing_plan text filed on ClinicalTrials.gov (if sharing data)</td></tr>
+<tr><td rowspan="1" colspan="1">If Individual Participant Data is shared on a data sharing platform, update the ClinicalTrials.gov record with the URL link to the data.</td></tr>
+<tr><td rowspan="1" colspan="1">Provide basic summary results using results registry component of Clinicaltrials.gov</td></tr>
+<tr><td rowspan="1" colspan="1">Utilize ClinicalTrials.gov fields for uploading study protocol, empty case report forms, statistical analysis plan and study URL link</td></tr>
+<tr><td rowspan="1" colspan="1">Provide de-identified Individual Participant Data</td></tr>
+<tr>
+<td rowspan="1" colspan="1">Study Design</td>
+<td rowspan="1" colspan="1">Adopt previously defined applicable Common Data Elements</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Case Report Forms</td>
+<td rowspan="1" colspan="1">Share all Case Report Forms used in a study</td>
+</tr>
+<tr><td rowspan="1" colspan="1">List all CRFs</td></tr>
+<tr>
+<td rowspan="12" colspan="1">Data Dictionary</td>
+<td rowspan="1" colspan="1">Provide data dictionary</td>
+</tr>
+<tr><td rowspan="1" colspan="1">Provide data dictionary in machine readable format</td></tr>
+<tr><td rowspan="1" colspan="1">Separate data dictionary from de-identified individual participant data. Since it contains no participant level data, do not require local ethical approval as a condition of releasing the data dictionary (avoid a requestwall for data dictionary).</td></tr>
+<tr><td rowspan="1" colspan="1">Share a data dictionary as soon as possible. Do not wait until the data collection is complete.</td></tr>
+<tr><td rowspan="1" colspan="1">Provide data dictionary in a single, machine-readable file.</td></tr>
+<tr><td rowspan="1" colspan="1">For each data element, provide a data type (such as numeric, date, string, categorical)</td></tr>
+<tr><td rowspan="1" colspan="1">For categorical data elements, provide a list of permissible values and distinguish when numerical code or string code is a code for a permissible value (versus actual number or string)</td></tr>
+<tr><td rowspan="1" colspan="1">Distinguish categorical string data elements from free-text string data elements</td></tr>
+<tr><td rowspan="1" colspan="1">Link utilized Common Data Elements adopted by your study to appropriate terminologies</td></tr>
+<tr><td rowspan="1" colspan="1">Link data elements or permissible values to applicable routine healthcare terminologies (either because you designed them to be linked or post-hoc, they can be semantically linked as equivalent)</td></tr>
+<tr><td rowspan="1" colspan="1">Provide complete data dictionary (all elements in data are listed in a dictionary) and all types of applicable dictionaries (date elements, forms [or groupings], and permissible values)</td></tr>
+<tr><td rowspan="1" colspan="1">Include sufficient description for data elements</td></tr>
+<tr><td rowspan="1" colspan="1">Use identifiers (unique where applicable) for data element, forms and permissible values.</td></tr>
+<tr>
+<td rowspan="1" colspan="1">Data de-identification</td>
+<td rowspan="1" colspan="1">Provide data de-identification notes</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Choice of a Data Sharing platform</td>
+<td rowspan="1" colspan="1">Use platforms that allows download of all studies available on the platform</td>
+</tr>
+<tr><td rowspan="1" colspan="1">Choose a platform that supports batch request (ability to request multiple studies with one request)</td></tr>
+</tbody></table></div>
+<div class="p text-right font-secondary"><a href="table/t1-3478303/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section><section id="sec_271"><h3 class="pmc_sec_title">CONSIDER formats</h3>
+<p>We developed three views of the CONSIDER statement which have varying levels of detail and serve different purposes. The first format is the <em>brief view</em>, which is just a list of the different recommendations and their associated sections as seen in <a href="#t1-3478303" class="usa-link">Table 1</a>. The second format is the <em>full view</em> that on top of what is included in the brief format, also includes a detailed description of the recommendation, a positive example that features a study or platform that demonstrates full or partial compliance with the recommendation, and optionally a challenging example where the recommendation was not followed and what challenge that leads to during data re-use. For some recommendations, we used positive and challenging examples outside the input set of studies described in Methods. Finally, the third view is the <em>score sheet view</em> that assumes familiarity with the individual recommendations and is meant to facilitate individual study scoring. It lists each recommendation (by section) and the scoring instructions.</p>
+<p>We acknowledge that some CONSIDER items depend on each other and can be considered partially overlapping. For example, the requirement to list data type for each data element in the data dictionary partially overlaps with properly handling categorical data elements. The description field (in the full view) for each CONSIDER item contains an explanation and rationale for this overlap. We chose to allow some overlap because we saw studies that formally comply with some recommendation, but closer scrutiny reveals additional deficiencies. The seemingly overlapping recommendations are meant to fully clarify and describe the best data sharing practices.</p></section><section id="sec_272"><h3 class="pmc_sec_title">CONSIDER score and scoring approach</h3>
+<p>We developed a scoring system that scores each recommendation separately and then counts the score by each section. The higher the score the better the practices are implemented by the given study.</p>
+<p>Each checklist item is scored on a zero to one scale. For binary items, the possible values are either one for practicing the recommendation or zero if it does not. For items where partial assessment of compliance is possible, a range of values between zero and one can be assigned (with 2-digit precision) depending on how completely the recommendation is followed. For example, for the recommendation 'for each data element provide a data type' if the study provides a data type for 47.15% of the data elements then it will get a score of 0.47 for that checklist item.</p>
+<p>Certain recommendations included in CONSIDER rely on publicly available information from ClinicalTrials.gov (CTG) registry. To facilitate the easy application of the CONSIDER checklist, we created an R script that uses the relational database version of CTG, known as the Aggregated Analysis of ClinicalTrials.gov (AACT database; published and maintained by Duke University), to automatically score a subset of checklist items that can be assessed by CTG study registration metadata.<sup><a href="#r15-3478303" class="usa-link" aria-describedby="r15-3478303">15</a></sup> This script (located at w3id.org/CONSIDER) takes as input a set of study CTG identifiers (called NCTs) and returns their CONSIDER scores for the subset of checklist items that can be automated.</p></section><section id="sec_273"><h3 class="pmc_sec_title">Example application of the CONSIDER checklist to individual studies</h3>
+<p>We applied CONSIDER to two trials from our set of analyzed trials to show how the checklist can be applied to individual studies. We scored <a href="https://clinicaltrials.gov/ct2/show/NCT01751646" class="usa-link" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">NCT01751646</a> 'Vitamin D Absorption in HIV Infected Young Adults Being Treated With Tenofovir Containing cART', which has IPD data deposited on the National Institute of Child Health and Human Development's Data and Specimen Hub platform (NICHD DASH), and <a href="https://clinicaltrials.gov/ct2/show/NCT01233531" class="usa-link" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">NCT01233531</a> 'Effects of Cash Transfer for the Prevention of HIV in Young South African Women', which has IPD available upon request from the HIV Prevention Trial Network (HPTN). Both are also registered at CTG. <a href="#t2-3478303" class="usa-link">Table 2</a> shows the scores and percentages for these two studies when applying the CONSIDER checklist.</p>
+<section class="tw xbox font-sm" id="t2-3478303"><h4 class="obj_head">Table 2. Results of applying CONSIDER scoring for interventional trials <a href="https://clinicaltrials.gov/ct2/show/NCT01751646" class="usa-link" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">NCT01751646</a> and <a href="https://clinicaltrials.gov/ct2/show/NCT01233531" class="usa-link" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">NCT01233531</a>.</h4>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all"><tbody>
+<tr>
+<td rowspan="1" colspan="1">
+<strong>Section</strong>
+</td>
+<td rowspan="1" colspan="1">
+<strong>Best Possible Score</strong>
+</td>
+<td rowspan="1" colspan="1">
+<strong><a href="https://clinicaltrials.gov/ct2/show/NCT01751646" class="usa-link" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">NCT01751646</a></strong>
+</td>
+<td rowspan="1" colspan="1">
+<strong><a href="https://clinicaltrials.gov/ct2/show/NCT01233531" class="usa-link" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">NCT01233531</a></strong>
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Format</td>
+<td rowspan="1" colspan="1">5</td>
+<td rowspan="1" colspan="1">3 (60.0%)</td>
+<td rowspan="1" colspan="1">3 (60.0%)</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Data Sharing</td>
+<td rowspan="1" colspan="1">7</td>
+<td rowspan="1" colspan="1">4 (57.1%)</td>
+<td rowspan="1" colspan="1">3 (42.9%)</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Study Design</td>
+<td rowspan="1" colspan="1">1</td>
+<td rowspan="1" colspan="1">0 (0.0%)</td>
+<td rowspan="1" colspan="1">0 (0.0%)</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Case Report Forms</td>
+<td rowspan="1" colspan="1">2</td>
+<td rowspan="1" colspan="1">2 (100.0%)</td>
+<td rowspan="1" colspan="1">1 (50.0%)</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Data Dictionary</td>
+<td rowspan="1" colspan="1">13</td>
+<td rowspan="1" colspan="1">9.45 (72.7%)</td>
+<td rowspan="1" colspan="1">6.72 (51.7%)</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Data de-identification</td>
+<td rowspan="1" colspan="1">1</td>
+<td rowspan="1" colspan="1">1 (100.0%)</td>
+<td rowspan="1" colspan="1">0 (0.0%)</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1">Choice of a Data Sharing platform</td>
+<td rowspan="1" colspan="1">2</td>
+<td rowspan="1" colspan="1">0 (0.0%)</td>
+<td rowspan="1" colspan="1">2 (100.0%)</td>
+</tr>
+</tbody></table></div>
+<div class="p text-right font-secondary"><a href="table/t2-3478303/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></section></section></section><section id="sec_274"><h2 class="pmc_sec_title">Discussion</h2>
+<section id="sec_275"><h3 class="pmc_sec_title">Seeking feedback</h3>
+<p>We expect evolution of the CONSIDER checklist and we welcome feedback to any checklist item or section at craig.mayer2@nih.gov. CONSIDER was first developed in May 2019. We performed a Phase 1 feedback stage from Sept. 2019-Dec. 2019, where we elicited feedback from an internally selected group of experts. We are currently (since Jan. 2020) in Phase 2 of collecting feedback from the larger CRI community. As part of the Phase 2 feedback process, we created a mechanism and set of questions specific to the different perspectives involved in the data sharing process. This includes targeted feedback questions intended for PI's involved in study design, study data custodians involved in data housing and distribution, data sharing platform administrators, and data recipients. The developed targeted feedback tools are intended to better assist in understanding the capabilities and challenges for each individual involved in the data sharing process and allow us to better formulate well-rounded recommendations that are both feasible and beneficial for all involved.</p></section><section id="sec_276"><h3 class="pmc_sec_title">Limitations</h3>
+<p>The resulting CONSIDER statement has several limitations. First, we focused on a US context and considered ClinicalTrials.gov registry. Second, we only used a limited set of studies to arrive at the recommendations. Using a larger set may result in a more comprehensive coverage of best practices. Third, the scoring system assumes equal importance (and weight) of each item. It would be feasible to develop a weighted score if agreement on prioritization can be reached. We also currently do not attempt to combine the score of individual CONSIDER sections into a single score. Fourth, we received only limited feedback from some stakeholder groups (platform administrators and PIs) and plan a focused feedback seeking campaign to address this.</p></section><section id="sec_277"><h3 class="pmc_sec_title">Future work</h3>
+<p>To further develop CONSIDER we will continue to assess the state of data sharing and accept feedback to add recommendations and sections as they become necessary. We will also look to improve the capabilities of scoring individual studies by automating the process (as we have done with CTG related recommendations), which may include linking directly to other clinical trial registries, data sharing platforms and individual study pages. We also understand the different recommendations may present certain challenges and we intend to assess how demanding and resource intensive the implementation of each recommendation is to better recommend the most practical and implementable practices.</p></section></section><section id="sec_278"><h2 class="pmc_sec_title">Conclusion</h2>
+<p>We analyzed data sharing platforms, data artifacts, study registration metadata, and shared IPD for completed clinical trials and created a set of recommendations, called the CONSIDER statement. The CONSIDER statement consists of seven key sections devoted to data format, data sharing, study design, CRFs, data dictionary, data de-identification, and choice of data sharing platform. These recommendations can be used to score existing studies to evaluate adherence to good data sharing practices. The recommendations can also be used to guide PIs and study sponsors to improve data sharing of future studies. We expect evolution of the CONSIDER statement based on input from clinical research informatics experts and the wider research community.</p></section><section id="ack1" class="ack"><h2 class="pmc_sec_title">Acknowledgement</h2>
+<p>This work was supported by the Intramural Research Program of the National Institutes of Health (NIH)/ National Library of Medicine (NLM)/ Lister Hill National Center for Biomedical Communications (LHNCBC) and NIH Office of AIDS Research. The findings and conclusions in this article are those of the authors and do not necessarily represent the official position of NLM, NIH, or the Department of Health and Human Services.</p></section><section id="sec16"><h2 class="pmc_sec_title">Figures &amp; Table</h2></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="r1-3478303">
+<span class="label">1.</span><cite>Schulz KF, Altman DG, Moher D. CONSORT Group. CONSORT 2010 statement: updated guidelines for reporting parallel group randomised trials. PLoS Med. 2010 Mar 24;7(3):e1000251. doi: 10.1371/journal.pmed.1000251.</cite> [<a href="https://doi.org/10.1371/journal.pmed.1000251" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2844794/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20352064/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PLoS%20Med&amp;title=CONSORT%20Group.%20CONSORT%202010%20statement:%20updated%20guidelines%20for%20reporting%20parallel%20group%20randomised%20trials&amp;author=KF%20Schulz&amp;author=DG%20Altman&amp;author=D%20Moher&amp;volume=7&amp;issue=3&amp;publication_year=2010&amp;pages=e1000251&amp;pmid=20352064&amp;doi=10.1371/journal.pmed.1000251&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r2-3478303">
+<span class="label">2.</span><cite>von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP, et al.  The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies. Ann Intern Med. 2007 Oct 16;147(8):573. doi: 10.7326/0003-4819-147-8-200710160-00010.</cite> [<a href="https://doi.org/10.7326/0003-4819-147-8-200710160-00010" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/17938396/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Intern%20Med&amp;title=The%20Strengthening%20the%20Reporting%20of%20Observational%20Studies%20in%20Epidemiology%20(STROBE)%20Statement:%20Guidelines%20for%20Reporting%20Observational%20Studies&amp;author=E%20von%20Elm&amp;author=DG%20Altman&amp;author=M%20Egger&amp;author=SJ%20Pocock&amp;author=PC%20G%C3%B8tzsche&amp;volume=147&amp;issue=8&amp;publication_year=2007&amp;pages=573&amp;pmid=17938396&amp;doi=10.7326/0003-4819-147-8-200710160-00010&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r3-3478303">
+<span class="label">3.</span><cite>Bastuji-Garin S, Sbidian E, Gaudy-Marqueste C, Ferrat E, Roujeau J-C, Richard M-A, et al.  Schooling CM, editor. Impact of STROBE Statement Publication on Quality of Observational Study Reporting: Interrupted Time Series versus Before-After Analysis. PLoS ONE. 2013 Aug 26;8(8):e64733. doi: 10.1371/journal.pone.0064733.</cite> [<a href="https://doi.org/10.1371/journal.pone.0064733" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3753332/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23990867/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PLoS%20ONE&amp;title=Impact%20of%20STROBE%20Statement%20Publication%20on%20Quality%20of%20Observational%20Study%20Reporting:%20Interrupted%20Time%20Series%20versus%20Before-After%20Analysis&amp;author=S%20Bastuji-Garin&amp;author=E%20Sbidian&amp;author=C%20Gaudy-Marqueste&amp;author=E%20Ferrat&amp;author=J-C%20Roujeau&amp;volume=8&amp;issue=8&amp;publication_year=2013&amp;pages=e64733&amp;pmid=23990867&amp;doi=10.1371/journal.pone.0064733&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r4-3478303">
+<span class="label">4.</span><cite>Poorolajal J, Cheraghi Z, Irani AD, Rezaeian S. Quality of Cohort Studies Reporting Post the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement. Epidemiol Health. 2011 Jun 7;33:e2011005. doi: 10.4178/epih/e2011005.</cite> [<a href="https://doi.org/10.4178/epih/e2011005" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3110877/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21716598/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Epidemiol%20Health&amp;title=Quality%20of%20Cohort%20Studies%20Reporting%20Post%20the%20Strengthening%20the%20Reporting%20of%20Observational%20Studies%20in%20Epidemiology%20(STROBE)%20Statement&amp;author=J%20Poorolajal&amp;author=Z%20Cheraghi&amp;author=AD%20Irani&amp;author=S.%20Rezaeian&amp;volume=33&amp;publication_year=2011&amp;pages=e2011005&amp;pmid=21716598&amp;doi=10.4178/epih/e2011005&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r5-3478303">
+<span class="label">5.</span><cite>Taichman DB, Sahni P, Pinborg A, Peiperl L, Laine C, James A, et al.  Data sharing statements for clinical trials. BMJ. 2017 Jun 5;357:j2372. doi: 10.1136/bmj.j2372.</cite> [<a href="https://doi.org/10.1136/bmj.j2372" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5455164/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28584025/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=BMJ&amp;title=Data%20sharing%20statements%20for%20clinical%20trials&amp;author=DB%20Taichman&amp;author=P%20Sahni&amp;author=A%20Pinborg&amp;author=L%20Peiperl&amp;author=C%20Laine&amp;volume=357&amp;publication_year=2017&amp;pages=j2372&amp;pmid=28584025&amp;doi=10.1136/bmj.j2372&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r6-3478303">
+<span class="label">6.</span><cite>Meystre SM, Lovis C, Bürkle T, Tognola G, Budrionis A, Lehmann CU. Clinical Data Reuse or Secondary Use: Current Status and Potential Future Progress. Yearb Med Inform. 2017;26(01):38–52. doi: 10.15265/IY-2017-007.</cite> [<a href="https://doi.org/10.15265/IY-2017-007" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6239225/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28480475/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Yearb%20Med%20Inform&amp;title=Clinical%20Data%20Reuse%20or%20Secondary%20Use:%20Current%20Status%20and%20Potential%20Future%20Progress&amp;author=SM%20Meystre&amp;author=C%20Lovis&amp;author=T%20B%C3%BCrkle&amp;author=G%20Tognola&amp;author=A%20Budrionis&amp;volume=26&amp;issue=01&amp;publication_year=2017&amp;pages=38-52&amp;pmid=28480475&amp;doi=10.15265/IY-2017-007&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r7-3478303">
+<span class="label">7.</span><cite>Wilkinson T, Sinha S, Peek N, Geifman N. Clinical trial data reuse – overcoming complexities in trial design and data sharing. Trials. 2019 Dec;20(1):513. doi: 10.1186/s13063-019-3627-6.</cite> [<a href="https://doi.org/10.1186/s13063-019-3627-6" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6701093/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31426840/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Trials&amp;title=Clinical%20trial%20data%20reuse%20%E2%80%93%20overcoming%20complexities%20in%20trial%20design%20and%20data%20sharing&amp;author=T%20Wilkinson&amp;author=S%20Sinha&amp;author=N%20Peek&amp;author=N.%20Geifman&amp;volume=20&amp;issue=1&amp;publication_year=2019&amp;pages=513&amp;pmid=31426840&amp;doi=10.1186/s13063-019-3627-6&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r8-3478303">
+<span class="label">8.</span><cite>Mbuagbaw L, Foster G, Cheng J, Thabane L. Challenges to complete and useful data sharing. Trials. 2017 Dec;18(1):71. doi: 10.1186/s13063-017-1816-8.</cite> [<a href="https://doi.org/10.1186/s13063-017-1816-8" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5309980/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28196540/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Trials&amp;title=Challenges%20to%20complete%20and%20useful%20data%20sharing&amp;author=L%20Mbuagbaw&amp;author=G%20Foster&amp;author=J%20Cheng&amp;author=L.%20Thabane&amp;volume=18&amp;issue=1&amp;publication_year=2017&amp;pages=71&amp;pmid=28196540&amp;doi=10.1186/s13063-017-1816-8&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r9-3478303">
+<span class="label">9.</span><cite>Kawahara T, Fukuda M, Oba K, Sakamoto J, Buyse M. Meta-analysis of randomized clinical trials in the era of individual patient data sharing. Int J Clin Oncol. 2018 Jun;23(3):403–9. doi: 10.1007/s10147-018-1237-z.</cite> [<a href="https://doi.org/10.1007/s10147-018-1237-z" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5951901/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29330642/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Int%20J%20Clin%20Oncol&amp;title=Meta-analysis%20of%20randomized%20clinical%20trials%20in%20the%20era%20of%20individual%20patient%20data%20sharing&amp;author=T%20Kawahara&amp;author=M%20Fukuda&amp;author=K%20Oba&amp;author=J%20Sakamoto&amp;author=M.%20Buyse&amp;volume=23&amp;issue=3&amp;publication_year=2018&amp;pages=403-9&amp;pmid=29330642&amp;doi=10.1007/s10147-018-1237-z&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r10-3478303">
+<span class="label">10.</span><cite>Rosenblatt M, Jain SH, Cahill M. Sharing of Clinical Trial Data: Benefits, Risks, and Uniform Principles. Ann Intern Med. 2015 Feb 17;162(4):306. doi: 10.7326/M14-1299.</cite> [<a href="https://doi.org/10.7326/M14-1299" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25622304/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Ann%20Intern%20Med&amp;title=Sharing%20of%20Clinical%20Trial%20Data:%20Benefits,%20Risks,%20and%20Uniform%20Principles&amp;author=M%20Rosenblatt&amp;author=SH%20Jain&amp;author=M.%20Cahill&amp;volume=162&amp;issue=4&amp;publication_year=2015&amp;pages=306&amp;pmid=25622304&amp;doi=10.7326/M14-1299&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r11-3478303">
+<span class="label">11.</span><cite>Sheehan J, Hirschfeld S, Foster E, Ghitza U, Goetz K, Karpinski J, et al.  Improving the value of clinical research through the use of Common Data Elements. Clin Trials J Soc Clin Trials. 2016 Dec;13(6):671–6. doi: 10.1177/1740774516653238.</cite> [<a href="https://doi.org/10.1177/1740774516653238" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5133155/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27311638/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Clin%20Trials%20J%20Soc%20Clin%20Trials&amp;title=Improving%20the%20value%20of%20clinical%20research%20through%20the%20use%20of%20Common%20Data%20Elements&amp;author=J%20Sheehan&amp;author=S%20Hirschfeld&amp;author=E%20Foster&amp;author=U%20Ghitza&amp;author=K%20Goetz&amp;volume=13&amp;issue=6&amp;publication_year=2016&amp;pages=671-6&amp;pmid=27311638&amp;doi=10.1177/1740774516653238&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r12-3478303">
+<span class="label">12.</span><cite>Huser V, Mayer CS, Williams N. Real World Data and Research Common Data Elements: a Case Study in HIV. AMIA Clinical Informatics Conference. 2020. May, </cite>
+</li>
+<li id="r13-3478303">
+<span class="label">13.</span><cite>Huser V. Sharing of de-identified patient level data from human clinical trials: analysis of US-based studies in the ClinicalTrials.gov registry. 2017. </cite>
+</li>
+<li id="r14-3478303">
+<span class="label">14.</span><cite>Mayer CS, Williams N, Huser V. Huy NT, editor. Analysis of data dictionary formats of HIV clinical trials. PLOS ONE. 2020 Oct 5;15(10):e0240047. doi: 10.1371/journal.pone.0240047.</cite> [<a href="https://doi.org/10.1371/journal.pone.0240047" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7535029/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33017454/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=PLOS%20ONE&amp;title=Analysis%20of%20data%20dictionary%20formats%20of%20HIV%20clinical%20trials&amp;author=CS%20Mayer&amp;author=N%20Williams&amp;author=V.%20Huser&amp;volume=15&amp;issue=10&amp;publication_year=2020&amp;pages=e0240047&amp;pmid=33017454&amp;doi=10.1371/journal.pone.0240047&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="r15-3478303">
+<span class="label">15.</span><cite>AACT Team  Aggregate Analysis of ClinicalTrials.gov (AACT) database [Internet] 2020.  [cited 2020 Mar 20]. Available from: <a href="https://aact.ctti-clinicaltrials.org/learn_more" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">https://aact.ctti-clinicaltrials.org/learn_more</a> .</cite>
+</li>
+</ul></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from AMIA Summits on Translational Science Proceedings are provided here courtesy of <strong>American Medical Informatics Association</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               
+               <li>
+                    <a
+                            href="pdf/3478303.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (126.2 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/8378623/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/8378623/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC8378623%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC8378623/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC8378623/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC8378623/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/34457159/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC8378623/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/34457159/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC8378623/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/8378623/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="9uIKzwbz7D5RCYX8PnmmHBPE2F820Pp3sCTXHwXDnfd1vAau6IJKGsmuGUtGxU6O">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

@@ -1,0 +1,2671 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3EAuthor Manuscript%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Empirical calibrated radiocarbon sampler: a tool for incorporating radiocarbon-date and calibration error into Bayesian phylogenetic analyses of ancient DNA - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="321FB7EE9D45B8F30BB7EE0014498DD2.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="nihpa">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="manuscript">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4270920/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="Molecular ecology resources">
+<meta name="citation_title" content="Empirical calibrated radiocarbon sampler: a tool for incorporating radiocarbon-date and calibration error into Bayesian phylogenetic analyses of ancient DNA">
+<meta name="citation_author" content="Martyna Molak">
+<meta name="citation_author_institution" content="School of Biological Sciences, University of Sydney, Sydney, Australia">
+<meta name="citation_author_institution" content="Museum and Institute of Zoology, Polish Academy of Sciences, Warsaw, Poland">
+<meta name="citation_author" content="Marc A Suchard">
+<meta name="citation_author_institution" content="Department of Human Genetics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, USA">
+<meta name="citation_author_institution" content="Department of Biostatistics, UCLA Fielding School of Public Health, University of California, Los Angeles, USA">
+<meta name="citation_author_institution" content="Department of Biomathematics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, USA">
+<meta name="citation_author" content="Simon Y W Ho">
+<meta name="citation_author_institution" content="School of Biological Sciences, University of Sydney, Sydney, Australia">
+<meta name="citation_author" content="David W Beilman">
+<meta name="citation_author_institution" content="Department of Geography, University of Hawaii, Manoa, Honolulu, USA">
+<meta name="citation_author" content="Beth Shapiro">
+<meta name="citation_author_institution" content="Department of Ecology and Evolutionary Biology, University of California, Santa Cruz, USA">
+<meta name="citation_publication_date" content="2014 Jul 4">
+<meta name="citation_volume" content="15">
+<meta name="citation_issue" content="1">
+<meta name="citation_firstpage" content="81">
+<meta name="citation_doi" content="10.1111/1755-0998.12295">
+<meta name="citation_pmid" content="24964386">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4270920/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4270920/">
+<meta name="citation_pdf_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4270920/pdf/nihms607557.pdf">
+<meta name="description" content="Studies of DNA from ancient samples provide a valuable opportunity to gain insight into past evolutionary and demographic processes. Bayesian phylogenetic methods can estimate evolutionary rates and timescales from ancient DNA sequences, with the ...">
+<meta name="og:title" content="Empirical calibrated radiocarbon sampler: a tool for incorporating radiocarbon-date and calibration error into Bayesian phylogenetic analyses of ancient DNA">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Studies of DNA from ancient samples provide a valuable opportunity to gain insight into past evolutionary and demographic processes. Bayesian phylogenetic methods can estimate evolutionary rates and timescales from ancient DNA sequences, with the ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC4270920/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="4270920">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1111/1755-0998.12295"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                             <a
+                                     href="pdf/nihms607557.pdf"
+                                     class="usa-link display-flex usa-tooltip"
+                                     role="button"
+                                     title="Download PDF"
+                                     data-position="bottom"
+                                     aria-label="Download PDF"
+                                     data-ga-category="actions"
+                                     data-ga-action="click"
+                                     data-ga-label="pdf_download_mobile"
+                             >
+
+                                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                            </a>
+                        </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC4270920%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/4270920/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/4270920/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC4270920/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-nihpa.png" alt="NIHPA Author Manuscripts logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to NIHPA Author Manuscripts" title="Link to NIHPA Author Manuscripts" shape="default" href="https://pmc.ncbi.nlm.nih.gov/about/public-access/" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Mol Ecol Resour</button></div>. Author manuscript; available in PMC: 2016 Jan 1.</div>
+<div>
+<em>Published in final edited form as: </em>Mol Ecol Resour. 2014 Jul 4;15(1):81–86. doi: <a href="https://doi.org/10.1111/1755-0998.12295" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1111/1755-0998.12295</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Mol%20Ecol%20Resour"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mol%20Ecol%20Resour"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Mol%20Ecol%20Resour"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Mol%20Ecol%20Resour"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Empirical calibrated radiocarbon sampler: a tool for incorporating radiocarbon-date and calibration error into Bayesian phylogenetic analyses of ancient DNA</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Molak%20M"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Martyna Molak</span></a><div hidden="hidden" id="id1">
+<h3><span class="name western">Martyna Molak</span></h3>
+<div class="p">
+<sup>1</sup>School of Biological Sciences, University of Sydney, Sydney, Australia</div>
+<div class="p">
+<sup>2</sup>Museum and Institute of Zoology, Polish Academy of Sciences, Warsaw, Poland</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Molak%20M"[Author]' class="usa-link"><span class="name western">Martyna Molak</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Suchard%20MA"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">Marc A Suchard</span></a><div hidden="hidden" id="id2">
+<h3><span class="name western">Marc A Suchard</span></h3>
+<div class="p">
+<sup>3</sup>Department of Human Genetics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, USA</div>
+<div class="p">
+<sup>4</sup>Department of Biostatistics, UCLA Fielding School of Public Health, University of California, Los Angeles, USA</div>
+<div class="p">
+<sup>5</sup>Department of Biomathematics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Suchard%20MA"[Author]' class="usa-link"><span class="name western">Marc A Suchard</span></a>
+</div>
+</div>
+<sup>3,</sup><sup>4,</sup><sup>5</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ho%20SYW"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Simon Y W Ho</span></a><div hidden="hidden" id="id3">
+<h3><span class="name western">Simon Y W Ho</span></h3>
+<div class="p">
+<sup>1</sup>School of Biological Sciences, University of Sydney, Sydney, Australia</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Ho%20SYW"[Author]' class="usa-link"><span class="name western">Simon Y W Ho</span></a>
+</div>
+</div>
+<sup>1</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Beilman%20DW"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">David W Beilman</span></a><div hidden="hidden" id="id4">
+<h3><span class="name western">David W Beilman</span></h3>
+<div class="p">
+<sup>6</sup>Department of Geography, University of Hawaii, Manoa, Honolulu, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Beilman%20DW"[Author]' class="usa-link"><span class="name western">David W Beilman</span></a>
+</div>
+</div>
+<sup>6</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Shapiro%20B"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Beth Shapiro</span></a><div hidden="hidden" id="id5">
+<h3><span class="name western">Beth Shapiro</span></h3>
+<div class="p">
+<sup>7</sup>Department of Ecology and Evolutionary Biology, University of California, Santa Cruz, USA</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Shapiro%20B"[Author]' class="usa-link"><span class="name western">Beth Shapiro</span></a>
+</div>
+</div>
+<sup>7</sup>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="A1">
+<sup>1</sup>School of Biological Sciences, University of Sydney, Sydney, Australia</div>
+<div id="A2">
+<sup>2</sup>Museum and Institute of Zoology, Polish Academy of Sciences, Warsaw, Poland</div>
+<div id="A3">
+<sup>3</sup>Department of Human Genetics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, USA</div>
+<div id="A4">
+<sup>4</sup>Department of Biostatistics, UCLA Fielding School of Public Health, University of California, Los Angeles, USA</div>
+<div id="A5">
+<sup>5</sup>Department of Biomathematics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, USA</div>
+<div id="A6">
+<sup>6</sup>Department of Geography, University of Hawaii, Manoa, Honolulu, USA</div>
+<div id="A7">
+<sup>7</sup>Department of Ecology and Evolutionary Biology, University of California, Santa Cruz, USA</div>
+<div class="author-notes p"><div class="fn" id="cor1">
+<sup>✉</sup><p class="display-inline">Corresponding author: Martyna Molak; Museum and Institute of Zoology, Polish Academy of Sciences, Wilcza 64, 00-679 Warsaw, Poland; <span>martyna.molak@gmail.com</span></p>
+</div></div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Issue date 2015 Jan.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none"><div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div></div>
+</div>
+<div>PMCID: PMC4270920  NIHMSID: NIHMS607557  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/24964386/" class="usa-link">24964386</a>
+</div>
+<div class="ra xbox p" role="complementary" aria-label="Related or updated information about this article"><div>The publisher's version of this article is available at <a href="https://doi.org/10.1111/1755-0998.12295" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Mol Ecol Resour</a>
+</div></div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><h2>Abstract</h2>
+<p id="P1">Studies of DNA from ancient samples provide a valuable opportunity to gain insight into past evolutionary and demographic processes. Bayesian phylogenetic methods can estimate evolutionary rates and timescales from ancient DNA sequences, with the ages of the samples acting as calibrations for the molecular clock. Sample ages are often estimated using radiocarbon dating, but the associated measurement error is rarely taken into account. In addition, the total uncertainty quantified by converting radiocarbon dates to calendar dates is typically ignored. Here we present a tool for incorporating both of these sources of uncertainty into Bayesian phylogenetic analyses of ancient DNA. This empirical calibrated radiocarbon sampler (ECRS) integrates the age uncertainty for each ancient sequence over the calibrated probability density function estimated for its radiocarbon date and associated error. We use the ECRS to analyse three ancient DNA data sets. Accounting for radiocarbon-dating and calibration error appeared to have little impact on estimates of evolutionary rates and related parameters for these data sets. However, analyses of other data sets, particularly those with few or only very old radiocarbon dates, might be more sensitive to using artificially precise sample ages and should benefit from use of the ECRS.</p>
+<section id="kwd-group1" class="kwd-group"><p><strong>Keywords:</strong> age estimation error, ancient DNA, phylogenetic dating, BEAST</p></section></section><section id="S1"><h2 class="pmc_sec_title">Introduction</h2>
+<p id="P2">Genetic analysis of ancient and historic samples provides access to valuable information that is not available from modern samples alone. For example, phylogenetic and phylogeographic analyses incorporating serially-sampled data have allowed estimates of the relationships between extinct species (e.g., <a href="#R3" class="usa-link" aria-describedby="R3">Bunce <em>et al.</em> 2003</a>), inference of past population dynamics (e.g., <a href="#R16" class="usa-link" aria-describedby="R16">Lorenzen <em>et al.</em> 2011</a>), and insights into hominin evolution (e.g., <a href="#R10" class="usa-link" aria-describedby="R10">Fu <em>et al.</em> 2013</a>; <a href="#R20" class="usa-link" aria-describedby="R20">Reich <em>et al.</em> 2011</a>). Ancient DNA data can also be used to estimate evolutionary rates and associated timescales, using the ages of the ancient samples to calibrate the molecular clock (<a href="#R6" class="usa-link" aria-describedby="R6">Drummond <em>et al.</em> 2003</a>; <a href="#R19" class="usa-link" aria-describedby="R19">Rambaut 2000</a>). Molecular-clock analyses of ancient DNA have been particularly informative about evolutionary rates over population timescales (<a href="#R13" class="usa-link" aria-describedby="R13">Ho <em>et al.</em> 2011</a>), providing estimates, for example, of the timing of migration events (<a href="#R5" class="usa-link" aria-describedby="R5">Debruyne <em>et al.</em> 2008</a>; <a href="#R8" class="usa-link" aria-describedby="R8">Edwards <em>et al.</em> 2011</a>).</p>
+<p id="P3">With the exception of historical samples that have documented dates of collection, the ages of ancient samples are typically unknown and need to be estimated. Radiocarbon dating (dating using decay of <sup>14</sup>C), by scintillation counting or by accelerator mass spectrometry (AMS), is a common method for estimating sample ages and has a theoretical and methodological foundation that provides a quantifiable amount of uncertainty that can be rather considerable (<a href="#R12" class="usa-link" aria-describedby="R12">Guilderson <em>et al.</em> 2005</a>). In phylogenetic analyses of ancient DNA, sample ages are typically assigned the mean or median single value of the age distribution and the rest of the uncertainty information is ignored. Methods were recently implemented in the software package BEAST (<a href="#R7" class="usa-link" aria-describedby="R7">Drummond <em>et al.</em> 2012</a>) to allow radiocarbon-dating or other sources of error to be taken into account, by specifying a prior distribution on the age of each sample (<a href="#R14" class="usa-link" aria-describedby="R14">Ho &amp; Phillips 2009</a>; <a href="#R23" class="usa-link" aria-describedby="R23">Shapiro <em>et al.</em> 2011</a>). This approach has been used to incorporate uncertainty when direct AMS radiocarbon dates are not available, for example where ages are inferred from stratigraphic information (e.g., <a href="#R18" class="usa-link" aria-describedby="R18">Orlando <em>et al.</em> 2013</a>; <a href="#R24" class="usa-link" aria-describedby="R24">Stiller <em>et al.</em> In press</a>).</p>
+<p id="P4">Previous work has suggested that incorporating error associated with AMS radiocarbon age estimates tends to have a limited impact on estimates of evolutionary and demographic parameters (<a href="#R17" class="usa-link" aria-describedby="R17">Molak <em>et al.</em> 2013</a>). However, there might be instances in which this error plays an important role in the analysis. For example, if the estimated error is large (as it tends to be for many samples towards the upper limit of ca. 40–50,000 years for <sup>14</sup>C dating) or when only one or a few ancient sequences are used, ignoring the error could lead to artificially precise estimates of the evolutionary rate. As a consequence, estimates of the timing of demographic events would be misleadingly precise.</p>
+<p id="P5">Moreover, radiocarbon ages determined from <sup>14</sup>C values and the accepted radioisotope half life differ from absolute (calendar) ages because the atmospheric concentration of <sup>14</sup>C has varied through time. If calendar ages are desired, then the radiocarbon ages need to be converted using a calibration curve. Calibration curves are based on analysis of growth patterns correlated with calendar years, such as those observed in tree rings or coral, and comparison of these with their radiocarbon ages. Obtaining a calibration curve for the entire age range spanned by radiocarbon-dating methods requires the combination of several sources of calibration, and curves continue to improve as more data become available and methodology improves (<a href="#R21" class="usa-link" aria-describedby="R21">Reimer <em>et al.</em> 2013</a>; <a href="#R25" class="usa-link" aria-describedby="R25">Stuiver &amp; Reimer 1993</a>). Importantly, the uncertainty quantified by converting radiocarbon years before present (<sup>14</sup>C yBP) to calendar years before present (cal yBP) is compounded with that of the initial <sup>14</sup>C measurement error (<a href="#F1" class="usa-link">Figure 1</a>). Probability distributions of calibrated ages usually do not follow a simple parametric distribution and are often multimodal, making it a challenge to incorporate this uncertainty into a phylogenetic analysis.</p>
+<figure class="fig xbox font-sm" id="F1"><h3 class="obj_head">Figure 1.</h3>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=4270920_nihms607557f1.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b8f/4270920/f9a6693c1d39/nihms607557f1.jpg" loading="lazy" height="1026" width="1050" alt="Figure 1"></a></p>
+<div class="p text-right font-secondary"><a href="figure/F1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p id="P30">Example of a calibration plot with a multimodal probability distribution. The radiocarbon age estimate of the sample is 4082±30 <sup>14</sup>C yBP. The median calibrated age estimate of the sample is 4577 cal yBP. The probability density functions of the uncalibrated and calibrated ages are plotted along the y- and x-axes, respectively. Conversion between the two is performed using IntCal13 calibration curve (in dark blue).</p></figcaption></figure><p id="P6">Here we present the empirical calibrated radiocarbon sampler (ECRS), which we have implemented in the Bayesian phylogenetic software BEAST v1.8 (<a href="#R7" class="usa-link" aria-describedby="R7">Drummond <em>et al.</em> 2012</a>). The ECRS allows the uncertainty in calibrated radiocarbon dates to be taken into account directly as non-parametric prior information. This is achieved by providing the software with an empirical description of the probability density function for the calibrated age estimate for each radiocarbon-dated sample. The age of that sample is then integrated over this probability distribution through a Markov chain Monte Carlo (MCMC) algorithm. We introduce a simple method to incorporate age uncertainty into Bayesian phylogenetic analysis by using the probability density functions generated through the calibration program CALIB (<a href="#R25" class="usa-link" aria-describedby="R25">Stuiver &amp; Reimer 1993</a>).</p></section><section id="S2"><h2 class="pmc_sec_title">Methods</h2>
+<section id="S3"><h3 class="pmc_sec_title">BEAST analysis with the ECRS</h3>
+<p id="P7">We implemented in BEAST v1.8 a novel non-parametric probability distribution to model empirical information about uncertainty and systematic error in specifying tip ages. The ECRS takes as input age probability density files generated by CALIB 7.0.0 (or newer) that provide a finite grid of ages and their associated probability masses (alternative software can be used to generate equivalent probability density files). The novel BEAST implementation reads in these values, assumes a 1<sup>st</sup>-order spline fit between these grid values to allow for continuous ages, places zero density outside the minimal and maximal grid values, and renormalizes to generate an integrable density function for use with MCMC.</p>
+<p id="P8">In making this transformation for our examples in this paper, the ECRS applies an offset of 60 years to the age values in the probability density text files. Data reporting conventions for <sup>14</sup>C dating are such that ages are given in “years before 1950”. Therefore, the ECRS assumes that modern (age=0) samples were collected in 2010. For evolutionary rate estimation, any disparity between 2010 and the real age of the modern samples used should be negligible. This offset was introduced in the ECRS to avoid age distributions of young radiocarbon-dated samples extending to negative values.</p>
+<p id="P9">The age distributions cannot be easily applied to data sets that include no modern samples (e.g. extinct species). When there is no stable zero-height point, the current implementation of BEAST will reassign the timescale of the tree according to the youngest sequence sampled in any given MCMC step. This problem can be avoided by fixing the age of the youngest sample in the data set to a point value, provided that none of the other sample age distributions can cross this point. Otherwise, they too will cause the tree to be rescaled. In such circumstances, we advise fixing the ages of all the sequences of which age distributions cross the value of the age of the youngest sample.</p>
+<p id="P10">The BEAST input file needs to be edited to define the age prior for each ancient DNA sample as the probability density defined in the age probability density text file. Instructions on how to use the ECRS, along with all used XML files, are available as Supporting Information.</p></section><section id="S4"><h3 class="pmc_sec_title">Testing the ECRS</h3>
+<p id="P11">We tested the ECRS on three published ancient DNA data sets: bison (<a href="#R22" class="usa-link" aria-describedby="R22">Shapiro <em>et al.</em> 2004</a>), muskox (<a href="#R4" class="usa-link" aria-describedby="R4">Campos <em>et al.</em> 2010</a>), and human (<a href="#R10" class="usa-link" aria-describedby="R10">Fu <em>et al.</em> 2013</a>). Sequence alignments of the mitochondrial control region were used for bison (591 bp, 159 sequences) and muskox (682 bp, 131 sequences), whereas whole mitochondrial genomes were used for humans (16,564 bp, 64 sequences). Ages of ancient DNA sequences ranged from 125 to 43,400 <sup>14</sup>C yBP for bison (142 samples), 115 to 45,900 <sup>14</sup>C yBP for muskox (117 samples), and 690 to 39,475 <sup>14</sup>C yBP for humans (10 samples).</p>
+<p id="P12">We performed a Bayesian phylogenetic analysis of each data set, using either the median calibrated ages of the samples or with the ECRS using the age distributions obtained with the IntCal13 calibration curve (<a href="#R21" class="usa-link" aria-describedby="R21">Reimer <em>et al.</em> 2013</a>). The probability density for the calibrated age of each radiocarbon-dated specimen was obtained using CALIB 7.0.0 (<a href="#R25" class="usa-link" aria-describedby="R25">Stuiver &amp; Reimer 1993</a>). Because the ECRS adds 60 years to the age of each ancient DNA sequence, we added 60 years also to the median calibrated ages of the ancient DNA sequences for ECRS testing. This allowed us to compare directly the analyses using median calibrated sample ages and using the age probability densities.</p>
+<p id="P13">For each data set, the best-fitting model of nucleotide substitution was chosen according to the Bayesian Information Criterion using ModelGenerator (<a href="#R15" class="usa-link" aria-describedby="R15">Keane <em>et al.</em> 2006</a>). Each analysis was performed in BEAST v1.8 using a conditional reference prior (<a href="#R9" class="usa-link" aria-describedby="R9">Ferreira &amp; Suchard 2008</a>) for the substitution rate. The sample ages were the only source of calibrating information for the molecular clock. For each data set, we performed analyses using both a constant-size coalescent model and the skygrid model (<a href="#R11" class="usa-link" aria-describedby="R11">Gill <em>et al.</em> 2013</a>). Owing to the intraspecific nature of the data, we assumed a strict molecular clock. Markov chains were run for at least 10<sup>7</sup> steps, with parameters subsampled every 10<sup>3</sup> steps. Chains were run for longer if required until all parameter estimates converged and achieved effective sample sizes of &gt;100. In each analysis, the first 10% of steps were discarded as burn-in. For each data set, we compared marginal likelihoods estimated for both coalescent models using stepping-stone and path sampling protocols (<a href="#R1" class="usa-link" aria-describedby="R1">Baele <em>et al.</em> 2012</a>; <a href="#R2" class="usa-link" aria-describedby="R2">Baele <em>et al.</em> 2013</a>). This Bayes-factor analysis supported the Bayesian skygrid model for bison and human, and a constant-size model for muskox.</p>
+<p id="P14">We used Bayes factors (estimated as above) to compare the analyses calibrated using median sample ages and those based on the ECRS (<a href="#R26" class="usa-link" aria-describedby="R26">Suchard <em>et al.</em> 2001</a>). We also investigated estimates of substitution rates and the age of the root, as well as the duration of the analysis.</p></section><section id="S5"><h3 class="pmc_sec_title">Results of ECRS testing</h3>
+<p id="P15">The ECRS, as implemented in the BEAST phylogenetic framework, makes it possible to account for the uncertainty in radiocarbon measurement and age calibration when estimating evolutionary rates. The model performs as expected, as is reflected in the posterior distributions of sample ages, which accurately recapitulate the probability density associated with the calibrated age of each specimen (<a href="#F2" class="usa-link">Figure 2</a>).</p>
+<figure class="fig xbox font-sm" id="F2"><h4 class="obj_head">Figure 2.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=4270920_nihms607557f2.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b8f/4270920/47319262b23a/nihms607557f2.jpg" loading="lazy" height="989" width="1050" alt="Figure 2"></a></p>
+<div class="p text-right font-secondary"><a href="figure/F2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p id="P31">Example of a posterior distribution of a sample age (bottom plot, orange) compared with the calibration plot obtained in CALIB (top plot, blue) and used as a prior for Bayesian phylogenetic analysis. The vertical axis represents the probability density. Note that the figure shows ages in yBP (before 1950), whereas ECRS yields posterior ages in years before 2010.</p></figcaption></figure><p id="P16">Accounting for this uncertainty in the sample ages did not lead to a substantial improvement in marginal likelihood for any of the three data sets analysed (<a href="#T1" class="usa-link">Table 1</a>). The 95% credibility intervals for the substitution rate and age of the root were of similar widths to or slightly narrower (up to 8%) than the ones obtained using median sample ages for molecular-clock calibration. We also note that, as expected, the computation time (per effective sample size of 100) was longer for the ECRS model than for the model that used median sample age for two out of the three data sets (bison and muskox). The amount of computation time will depend on specific characteristics of the data sets, such as alignment length and number of sequences, and on the availability of resources.</p>
+<section class="tw xbox font-sm" id="T1"><h4 class="obj_head">Table 1.</h4>
+<div class="caption p"><p id="P32">Comparison of Bayesian phylogenetic analyses made using the empirical calibrated radiocarbon sampler (ECRS) and median sample ages. Data shown include estimates and 95% highest posterior density (HPD) intervals for the substitution rate and age of the root; speed of the BEAST run; and Bayes factors for the ECRS compared with median sample ages, with marginal likelihoods calculated using stepping-stone and path sampling.</p></div>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="box" rules="all">
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"></th>
+<th align="left" rowspan="1" colspan="1"></th>
+<th align="left" rowspan="1" colspan="1"></th>
+<th align="left" rowspan="1" colspan="1"></th>
+<th align="left" colspan="4" valign="bottom" rowspan="1">Substitutions/site/year</th>
+<th align="left" colspan="4" valign="bottom" rowspan="1">Time to most recent common ancestor</th>
+<th align="right" rowspan="1" colspan="1">Run<br>speed</th>
+<th align="left" colspan="2" valign="bottom" rowspan="1">Bayes factors</th>
+</tr>
+<tr>
+<th align="left" rowspan="1" colspan="1"></th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">Population<br>model</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">Substitution<br>model</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">Sample<br>ages<br>used</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">Median<br>estimate</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">95% HPD</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">95% HPD<br>width</th>
+<th align="right" rowspan="1" colspan="1">95%<br>HPD<br>width<br>ratio<a href="#TFN1" class="usa-link"><sup>a</sup></a>
+</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">Median<br>estimate</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">95% HPD</th>
+<th align="left" valign="bottom" rowspan="1" colspan="1">95% HPD<br>width</th>
+<th align="right" rowspan="1" colspan="1">95%<br>HPD<br>width<br>ratio<a href="#TFN1" class="usa-link"><sup>a</sup></a>
+</th>
+<th align="right" valign="bottom" rowspan="1" colspan="1">Run<br>speed<br>ratio<a href="#TFN2" class="usa-link"><sup>b</sup></a>
+</th>
+<th align="right" rowspan="1" colspan="1">Via<br>stepping-<br>stone<br>sampling<a href="#TFN1" class="usa-link"><sup>a</sup></a>
+</th>
+<th align="right" valign="bottom" rowspan="1" colspan="1">Via path<br>sampling<a href="#TFN1" class="usa-link"><sup>a</sup></a>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="2" valign="middle" colspan="1">Bison</td>
+<td align="left" rowspan="2" valign="middle" colspan="1">skygrid</td>
+<td align="left" rowspan="2" valign="middle" colspan="1">TRN+G<sub>6</sub>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Median</td>
+<td align="left" valign="top" rowspan="1" colspan="1">4.39×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">3.26×10<sup>−7</sup> – 5.60×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">2.34×10<sup>−7</sup>
+</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">1.01</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.08×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">8.81×10<sup>4</sup> – 1.37×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">4.86×10<sup>4</sup>
+</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">1.03</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">2.47</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.00</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.00</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">ECRS</td>
+<td align="left" valign="top" rowspan="1" colspan="1">4.39×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">3.25×10<sup>−7</sup> – 5.60×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">2.35×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.08×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">8.86×10<sup>4</sup> – 1.37×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">5.03×10<sup>4</sup>
+</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" valign="middle" colspan="1">Human</td>
+<td align="left" rowspan="2" valign="middle" colspan="1">skygrid</td>
+<td align="left" rowspan="2" valign="middle" colspan="1">TRN+G<sub>6</sub>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Median</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.99×10<sup>−8</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.58×10<sup>−8</sup> – 2.42×10<sup>−8</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">8.37×10<sup>−9</sup>
+</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.94</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.54×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.22×10<sup>5</sup> – 1.96×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">7.36×10<sup>4</sup>
+</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.92</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.62</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">1.63</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">2.22</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">ECRS</td>
+<td align="left" valign="top" rowspan="1" colspan="1">2.03×10<sup>−8</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.64×10<sup>−8</sup> – 2.43×10<sup>−8</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">7.90×10<sup>−9</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.53×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">1.22×10<sup>5</sup> – 1.90×10<sup>5</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">6.74×10<sup>4</sup>
+</td>
+</tr>
+<tr>
+<td align="left" rowspan="2" valign="middle" colspan="1">Musk ox</td>
+<td align="left" rowspan="2" valign="middle" colspan="1">constant</td>
+<td align="left" rowspan="2" valign="middle" colspan="1">TVM+G<sub>6</sub>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">Median</td>
+<td align="left" valign="top" rowspan="1" colspan="1">8.16×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">6.20×10<sup>−7</sup> – 1.02×10<sup>−6</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">3.99×10<sup>−7</sup>
+</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.94</td>
+<td align="left" valign="top" rowspan="1" colspan="1">8.04×10<sup>4</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">6.78×10<sup>4</sup> – 9.51×10<sup>4</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">2.72×10<sup>4</sup>
+</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">1.00</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">4.45</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.91</td>
+<td align="right" rowspan="2" valign="middle" colspan="1">0.10</td>
+</tr>
+<tr>
+<td align="left" valign="top" rowspan="1" colspan="1">ECRS</td>
+<td align="left" valign="top" rowspan="1" colspan="1">8.09×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">6.23×10<sup>−7</sup> – 9.99×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">3.76×10<sup>−7</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">8.05×10<sup>4</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">6.74×10<sup>4</sup> – 9.47×10<sup>4</sup>
+</td>
+<td align="left" valign="top" rowspan="1" colspan="1">2.72×10<sup>4</sup>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/T1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="TFN1">
+<sup>a</sup><p class="display-inline" id="P33">ECRS vs median age</p>
+</div>
+<div class="fn" id="TFN2">
+<sup>b</sup><p class="display-inline" id="P34">ECRS vs median age run speed calculated as hours per 100 ESS for rate estimate</p>
+</div>
+</div></section></section></section><section id="S6"><h2 class="pmc_sec_title">Discussion</h2>
+<p id="P17">We have presented the ECRS, a tool implemented in the BEAST software package that enables the uncertainty from radiocarbon measurement and age calibration to be taken into account in Bayesian phylogenetic analysis. Concordance between the prior and posterior distributions of sample ages indicates that there is no conflict between the prior age distribution and the genetic signal in the data set. However, it also indicates that the genetic signal is not strong enough in any of our three data sets to improve the precision of the age estimate, even for the human data set which comprises complete mitochondrial genomes.</p>
+<p id="P18">Accounting for the uncertainty in sample ages in Bayesian phylogenetic analysis appears to have had a limited impact on estimates of key evolutionary parameters, including the evolutionary rate and the age of the root of the tree. This result is consistent with previous findings from a range of ancient DNA data (<a href="#R17" class="usa-link" aria-describedby="R17">Molak <em>et al.</em> 2013</a>), and suggests that the common practice of ignoring errors in sample-age estimation and radiocarbon calibration in phylogenetic analyses of ancient DNA likely does not introduce significant error into these analyses. Nevertheless, implementing the ECRS is an important step towards more accurate models of biological parameters for phylogenetic analysis.</p>
+<p id="P19">The ECRS is simple to implement and reduces the potential effect of disregarding sample-age estimation error in Bayesian phylogenetic analyses. If the sequence ages used to calibrate the molecular clock are artificially precise, our confidence in phylogenetic estimates of rates and timescales could be overstated. Consequently, accounting for radiocarbon-dating and calibration error might be most useful in analyses of data sets that include only a small number of ancient DNA sequences, where each sample age constitutes a considerable proportion of the overall tree-calibrating information. This effect will be particularly pronounced when the sequences have ages for which calibration curves produce large age-estimation errors, as is typically the case for samples that are near the upper age limit for radiocarbon dating.</p></section><section id="SM"><h2 class="pmc_sec_title">Supplementary Material</h2>
+<section class="sm xbox font-sm" id="SD1"><div class="caption p"><span>Supp DataS1</span></div>
+<div class="media p" id="d36e442"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS1.zip" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS1.zip</a><sup> (50.9KB, zip) </sup>
+</div></div></section><section class="sm xbox font-sm" id="SD2"><div class="caption p"><span>Supp DataS2</span></div>
+<div class="media p" id="d36e446"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS2.zip" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS2.zip</a><sup> (101.8KB, zip) </sup>
+</div></div></section><section class="sm xbox font-sm" id="SD3"><div class="caption p"><span>Supp DataS3</span></div>
+<div class="media p" id="d36e450"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS3.zip" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS3.zip</a><sup> (46.6KB, zip) </sup>
+</div></div></section><section class="sm xbox font-sm" id="SD4"><div class="caption p"><span>Supp DataS4</span></div>
+<div class="media p" id="d36e454"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS4.xlsx" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS4.xlsx</a><sup> (13.4KB, xlsx) </sup>
+</div></div></section><section class="sm xbox font-sm" id="SD5"><div class="caption p"><span>Supp DataS5</span></div>
+<div class="media p" id="d36e458"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS5.xlsx" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS5.xlsx</a><sup> (13.8KB, xlsx) </sup>
+</div></div></section><section class="sm xbox font-sm" id="SD6"><div class="caption p"><span>Supp DataS6</span></div>
+<div class="media p" id="d36e462"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS6.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS6.doc</a><sup> (235.5KB, doc) </sup>
+</div></div></section></section><section id="S7" class="ack"><h2 class="pmc_sec_title">Acknowledgements</h2>
+<p id="P20">MM is supported by the University of Sydney International Scholarship. MAS is supported in part by National Institutes of Health grants R01 AI107034 and R01 HG006139 and National Science Foundation grants DMS 1264153 and IIS 1251151. SYWH is supported by the Australian Research Council. DWB is supported in part by National Science Foundation grants 1108116 and 1246359. BS is supported by The Packard Foundation.</p></section><section id="fn-group1" class="fn-group"><h2 class="pmc_sec_title">Footnotes</h2>
+<div class="fn-group p font-secondary-light font-sm">
+<div class="fn p" id="FN1">
+<p id="P21"><strong>Data accessibility</strong></p>
+<p id="P22">All the genetic and radiocarbon dating data used in the analyses used have been previously published and are available alongside the original publications (with DNA sequences available via GenBank): bison – <a href="#R22" class="usa-link" aria-describedby="R22">Shapiro <em>et al</em>. 2004</a>, human – <a href="#R10" class="usa-link" aria-describedby="R10">Fu <em>et al</em>. 2013</a>, muskox – <a href="#R4" class="usa-link" aria-describedby="R4">Campos <em>et al</em>. 2010</a>. For the ECRS testing we chose from these data sets only samples for which there were provided <sup>14</sup>C ages and errors and of which ages did not exceed the limits of the IntCal13 calibration curve.</p>
+<p id="P23">All input XML files used to test the ECRS (including the script required to run BEAST with ECRS) and information about the ages of the samples (provided as CALIB input files), which will allow the readers to fully replicate our analyses are available as Supporting Information.</p>
+</div>
+<div class="fn p" id="FN2">
+<p id="P24"><strong>Author contributions</strong></p>
+<p id="P25">MM planned and performed the analyses, wrote the manuscript.</p>
+<p id="P26">MAS developed the new empirical distribution, implemented this distribution in BEAST, planned the analyses, and wrote the manuscript.</p>
+<p id="P27">SYWH planned the analyses and wrote the manuscript.</p>
+<p id="P28">DWB provided calibration data and wrote the manuscript.</p>
+<p id="P29">BS planned and performed the analyses and wrote the manuscript.</p>
+</div>
+</div></section><section id="ref-list1" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="ref-list1_sec2"><ol class="ref-list font-sm">
+<li id="R1">
+<cite>Baele G, Lemey P, Bedford T, et al.  Improving the accuracy of demographic and molecular clock model comparison while accommodating phylogenetic uncertainty. Molecular Biology and Evolution. 2012;29:2157–2167. doi: 10.1093/molbev/mss084.</cite> [<a href="https://doi.org/10.1093/molbev/mss084" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3424409/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22403239/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Biology%20and%20Evolution&amp;title=Improving%20the%20accuracy%20of%20demographic%20and%20molecular%20clock%20model%20comparison%20while%20accommodating%20phylogenetic%20uncertainty&amp;author=G%20Baele&amp;author=P%20Lemey&amp;author=T%20Bedford&amp;volume=29&amp;publication_year=2012&amp;pages=2157-2167&amp;pmid=22403239&amp;doi=10.1093/molbev/mss084&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R2">
+<cite>Baele G, Li WLS, Drummond AJ, Suchard MA, Lemey P. Accurate model selection of relaxed molecular clocks in Bayesian phylogenetics. Molecular Biology and Evolution. 2013;30:239–243. doi: 10.1093/molbev/mss243.</cite> [<a href="https://doi.org/10.1093/molbev/mss243" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3548314/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23090976/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Biology%20and%20Evolution&amp;title=Accurate%20model%20selection%20of%20relaxed%20molecular%20clocks%20in%20Bayesian%20phylogenetics&amp;author=G%20Baele&amp;author=WLS%20Li&amp;author=AJ%20Drummond&amp;author=MA%20Suchard&amp;author=P%20Lemey&amp;volume=30&amp;publication_year=2013&amp;pages=239-243&amp;pmid=23090976&amp;doi=10.1093/molbev/mss243&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R3">
+<cite>Bunce M, Worthy TH, Ford T, et al.  Extreme reversed sexual size dimorphism in the extinct New Zealand moa Dinornis. Nature. 2003;425:172–175. doi: 10.1038/nature01871.</cite> [<a href="https://doi.org/10.1038/nature01871" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/12968178/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Nature&amp;title=Extreme%20reversed%20sexual%20size%20dimorphism%20in%20the%20extinct%20New%20Zealand%20moa%20Dinornis&amp;author=M%20Bunce&amp;author=TH%20Worthy&amp;author=T%20Ford&amp;volume=425&amp;publication_year=2003&amp;pages=172-175&amp;pmid=12968178&amp;doi=10.1038/nature01871&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R4">
+<cite>Campos PF, Willerslev E, Sher A, et al.  Ancient DNA analyses exclude humans as the driving force behind late Pleistocene musk ox (Ovibos moschatus) population dynamics. Proceedings of the National Academy of Sciences of the United States of America. 2010;107:5675–5680. doi: 10.1073/pnas.0907189107.</cite> [<a href="https://doi.org/10.1073/pnas.0907189107" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC2851807/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20212118/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Proceedings%20of%20the%20National%20Academy%20of%20Sciences%20of%20the%20United%20States%20of%20America&amp;title=Ancient%20DNA%20analyses%20exclude%20humans%20as%20the%20driving%20force%20behind%20late%20Pleistocene%20musk%20ox%20(Ovibos%20moschatus)%20population%20dynamics&amp;author=PF%20Campos&amp;author=E%20Willerslev&amp;author=A%20Sher&amp;volume=107&amp;publication_year=2010&amp;pages=5675-5680&amp;pmid=20212118&amp;doi=10.1073/pnas.0907189107&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R5">
+<cite>Debruyne R, Chu G, King CE, et al.  Out of America: ancient DNA evidence for a new world origin of late quaternary woolly mammoths. Current Biology. 2008;18:1320–1326. doi: 10.1016/j.cub.2008.07.061.</cite> [<a href="https://doi.org/10.1016/j.cub.2008.07.061" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18771918/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Current%20Biology&amp;title=Out%20of%20America:%20ancient%20DNA%20evidence%20for%20a%20new%20world%20origin%20of%20late%20quaternary%20woolly%20mammoths&amp;author=R%20Debruyne&amp;author=G%20Chu&amp;author=CE%20King&amp;volume=18&amp;publication_year=2008&amp;pages=1320-1326&amp;pmid=18771918&amp;doi=10.1016/j.cub.2008.07.061&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R6">
+<cite>Drummond AJ, Pybus OG, Rambaut A, Forsberg R, Rodrigo AG. Measurably evolving populations. Trends in Ecology and Evolution. 2003;18:481–488.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Trends%20in%20Ecology%20and%20Evolution&amp;title=Measurably%20evolving%20populations&amp;author=AJ%20Drummond&amp;author=OG%20Pybus&amp;author=A%20Rambaut&amp;author=R%20Forsberg&amp;author=AG%20Rodrigo&amp;volume=18&amp;publication_year=2003&amp;pages=481-488&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R7">
+<cite>Drummond AJ, Suchard MA, Xie D, Rambaut A. Bayesian phylogenetics with BEAUti and the BEAST 1.7. Molecular Biology and Evolution. 2012;29:1969–1973. doi: 10.1093/molbev/mss075.</cite> [<a href="https://doi.org/10.1093/molbev/mss075" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3408070/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22367748/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Biology%20and%20Evolution&amp;title=Bayesian%20phylogenetics%20with%20BEAUti%20and%20the%20BEAST%201.7&amp;author=AJ%20Drummond&amp;author=MA%20Suchard&amp;author=D%20Xie&amp;author=A%20Rambaut&amp;volume=29&amp;publication_year=2012&amp;pages=1969-1973&amp;pmid=22367748&amp;doi=10.1093/molbev/mss075&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R8">
+<cite>Edwards CJ, Suchard MA, Lemey P, et al.  Ancient hybridization and an Irish origin for the modern polar bear matriline. Current Biology. 2011;21:1251–1258. doi: 10.1016/j.cub.2011.05.058.</cite> [<a href="https://doi.org/10.1016/j.cub.2011.05.058" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4677796/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21737280/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Current%20Biology&amp;title=Ancient%20hybridization%20and%20an%20Irish%20origin%20for%20the%20modern%20polar%20bear%20matriline&amp;author=CJ%20Edwards&amp;author=MA%20Suchard&amp;author=P%20Lemey&amp;volume=21&amp;publication_year=2011&amp;pages=1251-1258&amp;pmid=21737280&amp;doi=10.1016/j.cub.2011.05.058&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R9">
+<cite>Ferreira MAR, Suchard MA. Bayesian analysis of elapsed times in continuous-time Markov chains. Canadian Journal of Statistics. 2008;36:355–368.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Canadian%20Journal%20of%20Statistics&amp;title=Bayesian%20analysis%20of%20elapsed%20times%20in%20continuous-time%20Markov%20chains&amp;author=MAR%20Ferreira&amp;author=MA%20Suchard&amp;volume=36&amp;publication_year=2008&amp;pages=355-368&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R10">
+<cite>Fu Q, Mittnik A, Johnson PL, et al.  A revised timescale for human evolution based on ancient mitochondrial genomes. Current Biology. 2013;23:553–559. doi: 10.1016/j.cub.2013.02.044.</cite> [<a href="https://doi.org/10.1016/j.cub.2013.02.044" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5036973/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23523248/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Current%20Biology&amp;title=A%20revised%20timescale%20for%20human%20evolution%20based%20on%20ancient%20mitochondrial%20genomes&amp;author=Q%20Fu&amp;author=A%20Mittnik&amp;author=PL%20Johnson&amp;volume=23&amp;publication_year=2013&amp;pages=553-559&amp;pmid=23523248&amp;doi=10.1016/j.cub.2013.02.044&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R11">
+<cite>Gill MS, Lemey P, Faria NR, et al.  Improving Bayesian population dynamics inference: a coalescent-based model for multiple loci. Molecular Biology and Evolution. 2013;30:713–724. doi: 10.1093/molbev/mss265.</cite> [<a href="https://doi.org/10.1093/molbev/mss265" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3563973/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23180580/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Biology%20and%20Evolution&amp;title=Improving%20Bayesian%20population%20dynamics%20inference:%20a%20coalescent-based%20model%20for%20multiple%20loci&amp;author=MS%20Gill&amp;author=P%20Lemey&amp;author=NR%20Faria&amp;volume=30&amp;publication_year=2013&amp;pages=713-724&amp;pmid=23180580&amp;doi=10.1093/molbev/mss265&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R12">
+<cite>Guilderson TP, Reimer PJ, Brown TA. The boon and bane of radiocarbon dating. Science. 2005;307:362–364. doi: 10.1126/science.1104164.</cite> [<a href="https://doi.org/10.1126/science.1104164" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15661996/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Science&amp;title=The%20boon%20and%20bane%20of%20radiocarbon%20dating&amp;author=TP%20Guilderson&amp;author=PJ%20Reimer&amp;author=TA%20Brown&amp;volume=307&amp;publication_year=2005&amp;pages=362-364&amp;pmid=15661996&amp;doi=10.1126/science.1104164&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R13">
+<cite>Ho SYW, Lanfear R, Bromham L, et al.  Time-dependent rates of molecular evolution. Molecular Ecology. 2011;20:3087–3101. doi: 10.1111/j.1365-294X.2011.05178.x.</cite> [<a href="https://doi.org/10.1111/j.1365-294X.2011.05178.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21740474/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Ecology&amp;title=Time-dependent%20rates%20of%20molecular%20evolution&amp;author=SYW%20Ho&amp;author=R%20Lanfear&amp;author=L%20Bromham&amp;volume=20&amp;publication_year=2011&amp;pages=3087-3101&amp;pmid=21740474&amp;doi=10.1111/j.1365-294X.2011.05178.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R14">
+<cite>Ho SYW, Phillips MJ. Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times. Systematic Biology. 2009;58:367–380. doi: 10.1093/sysbio/syp035.</cite> [<a href="https://doi.org/10.1093/sysbio/syp035" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20525591/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Systematic%20Biology&amp;title=Accounting%20for%20calibration%20uncertainty%20in%20phylogenetic%20estimation%20of%20evolutionary%20divergence%20times&amp;author=SYW%20Ho&amp;author=MJ%20Phillips&amp;volume=58&amp;publication_year=2009&amp;pages=367-380&amp;pmid=20525591&amp;doi=10.1093/sysbio/syp035&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R15">
+<cite>Keane TM, Creevey CJ, Pentony MM, Naughton TJ, McLnerney JO. Assessment of methods for amino acid matrix selection and their use on empirical data shows that ad hoc assumptions for choice of matrix are not justified. BMC Evolutionary Biology. 2006;6:29. doi: 10.1186/1471-2148-6-29.</cite> [<a href="https://doi.org/10.1186/1471-2148-6-29" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC1435933/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/16563161/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=BMC%20Evolutionary%20Biology&amp;title=Assessment%20of%20methods%20for%20amino%20acid%20matrix%20selection%20and%20their%20use%20on%20empirical%20data%20shows%20that%20ad%20hoc%20assumptions%20for%20choice%20of%20matrix%20are%20not%20justified&amp;author=TM%20Keane&amp;author=CJ%20Creevey&amp;author=MM%20Pentony&amp;author=TJ%20Naughton&amp;author=JO%20McLnerney&amp;volume=6&amp;publication_year=2006&amp;pages=29&amp;pmid=16563161&amp;doi=10.1186/1471-2148-6-29&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R16">
+<cite>Lorenzen ED, Nogues-Bravo D, Orlando L, et al.  Species-specific responses of Late Quaternary megafauna to climate and humans. Nature. 2011;479:359–364. doi: 10.1038/nature10574.</cite> [<a href="https://doi.org/10.1038/nature10574" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4070744/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22048313/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Nature&amp;title=Species-specific%20responses%20of%20Late%20Quaternary%20megafauna%20to%20climate%20and%20humans&amp;author=ED%20Lorenzen&amp;author=D%20Nogues-Bravo&amp;author=L%20Orlando&amp;volume=479&amp;publication_year=2011&amp;pages=359-364&amp;pmid=22048313&amp;doi=10.1038/nature10574&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R17">
+<cite>Molak M, Lorenzen ED, Shapiro B, Ho SYW. Phylogenetic estimation of timescales using ancient DNA: the effects of temporal sampling scheme and uncertainty in sample ages. Molecular Biology and Evolution. 2013;30:253–262. doi: 10.1093/molbev/mss232.</cite> [<a href="https://doi.org/10.1093/molbev/mss232" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23024187/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Biology%20and%20Evolution&amp;title=Phylogenetic%20estimation%20of%20timescales%20using%20ancient%20DNA:%20the%20effects%20of%20temporal%20sampling%20scheme%20and%20uncertainty%20in%20sample%20ages&amp;author=M%20Molak&amp;author=ED%20Lorenzen&amp;author=B%20Shapiro&amp;author=SYW%20Ho&amp;volume=30&amp;publication_year=2013&amp;pages=253-262&amp;pmid=23024187&amp;doi=10.1093/molbev/mss232&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R18">
+<cite>Orlando L, Ginolhac A, Zhang G, et al.  Recalibrating Equus evolution using the genome sequence of an early Middle Pleistocene horse. Nature. 2013;499:74–78. doi: 10.1038/nature12323.</cite> [<a href="https://doi.org/10.1038/nature12323" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/23803765/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Nature&amp;title=Recalibrating%20Equus%20evolution%20using%20the%20genome%20sequence%20of%20an%20early%20Middle%20Pleistocene%20horse&amp;author=L%20Orlando&amp;author=A%20Ginolhac&amp;author=G%20Zhang&amp;volume=499&amp;publication_year=2013&amp;pages=74-78&amp;pmid=23803765&amp;doi=10.1038/nature12323&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R19">
+<cite>Rambaut A. Estimating the rate of molecular evolution: incorporating non-contemporaneous sequences into maximum likelihood phylogenies. Bioinformatics. 2000;16:395–399. doi: 10.1093/bioinformatics/16.4.395.</cite> [<a href="https://doi.org/10.1093/bioinformatics/16.4.395" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/10869038/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Bioinformatics&amp;title=Estimating%20the%20rate%20of%20molecular%20evolution:%20incorporating%20non-contemporaneous%20sequences%20into%20maximum%20likelihood%20phylogenies&amp;author=A%20Rambaut&amp;volume=16&amp;publication_year=2000&amp;pages=395-399&amp;pmid=10869038&amp;doi=10.1093/bioinformatics/16.4.395&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R20">
+<cite>Reich D, Patterson N, Kircher M, et al.  Denisova admixture and the first modern human dispersals into Southeast Asia and Oceania. American Journal of Human Genetics. 2011;89:516–528. doi: 10.1016/j.ajhg.2011.09.005.</cite> [<a href="https://doi.org/10.1016/j.ajhg.2011.09.005" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3188841/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/21944045/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=American%20Journal%20of%20Human%20Genetics&amp;title=Denisova%20admixture%20and%20the%20first%20modern%20human%20dispersals%20into%20Southeast%20Asia%20and%20Oceania&amp;author=D%20Reich&amp;author=N%20Patterson&amp;author=M%20Kircher&amp;volume=89&amp;publication_year=2011&amp;pages=516-528&amp;pmid=21944045&amp;doi=10.1016/j.ajhg.2011.09.005&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R21">
+<cite>Reimer PJ, Bard E, Bayliss A, et al.  IntCal13 and Marine13 radiocarbon age calibration curves 0–50,000 years cal BP. Radiocarbon. 2013;55:1869–1887.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Radiocarbon&amp;title=IntCal13%20and%20Marine13%20radiocarbon%20age%20calibration%20curves%200%E2%80%9350,000%20years%20cal%20BP&amp;author=PJ%20Reimer&amp;author=E%20Bard&amp;author=A%20Bayliss&amp;volume=55&amp;publication_year=2013&amp;pages=1869-1887&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R22">
+<cite>Shapiro B, Drummond AJ, Rambaut A, et al.  Rise and fall of the Beringian steppe bison. Science. 2004;306:1561–1565. doi: 10.1126/science.1101074.</cite> [<a href="https://doi.org/10.1126/science.1101074" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/15567864/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Science&amp;title=Rise%20and%20fall%20of%20the%20Beringian%20steppe%20bison&amp;author=B%20Shapiro&amp;author=AJ%20Drummond&amp;author=A%20Rambaut&amp;volume=306&amp;publication_year=2004&amp;pages=1561-1565&amp;pmid=15567864&amp;doi=10.1126/science.1101074&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R23">
+<cite>Shapiro B, Ho SYW, Drummond AJ, et al.  A Bayesian phylogenetic method to estimate unknown sequence ages. Molecular Biology and Evolution. 2011;28:879–887. doi: 10.1093/molbev/msq262.</cite> [<a href="https://doi.org/10.1093/molbev/msq262" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3108556/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/20889726/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Biology%20and%20Evolution&amp;title=A%20Bayesian%20phylogenetic%20method%20to%20estimate%20unknown%20sequence%20ages&amp;author=B%20Shapiro&amp;author=SYW%20Ho&amp;author=AJ%20Drummond&amp;volume=28&amp;publication_year=2011&amp;pages=879-887&amp;pmid=20889726&amp;doi=10.1093/molbev/msq262&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R24">
+<cite>Stiller M, Molak M, Prost S, et al.  Mitochondrial DNA diversity and evolution of the Pleistocene cave bear complex. Quaternary International.  (In press)</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Quaternary%20International&amp;title=Mitochondrial%20DNA%20diversity%20and%20evolution%20of%20the%20Pleistocene%20cave%20bear%20complex&amp;author=M%20Stiller&amp;author=M%20Molak&amp;author=S%20Prost&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R25">
+<cite>Stuiver M, Reimer PJ. Extended 14C data base and revised CALIB 3.0 14C age calibration program. Radiocarbon. 1993;35:215–230.</cite> [<a href="https://scholar.google.com/scholar_lookup?journal=Radiocarbon&amp;title=Extended%2014C%20data%20base%20and%20revised%20CALIB%203.0%2014C%20age%20calibration%20program&amp;author=M%20Stuiver&amp;author=PJ%20Reimer&amp;volume=35&amp;publication_year=1993&amp;pages=215-230&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="R26">
+<cite>Suchard MA, Weiss RE, Sinsheimer JS. Bayesian selection of continuous-time Markov chain evolutionary models. Molecular Biology and Evolution. 2001;18:1001–1013. doi: 10.1093/oxfordjournals.molbev.a003872.</cite> [<a href="https://doi.org/10.1093/oxfordjournals.molbev.a003872" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/11371589/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Molecular%20Biology%20and%20Evolution&amp;title=Bayesian%20selection%20of%20continuous-time%20Markov%20chain%20evolutionary%20models&amp;author=MA%20Suchard&amp;author=RE%20Weiss&amp;author=JS%20Sinsheimer&amp;volume=18&amp;publication_year=2001&amp;pages=1001-1013&amp;pmid=11371589&amp;doi=10.1093/oxfordjournals.molbev.a003872&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ol></section></section><section id="_ad93_" lang="en" class="associated-data"><h2 class="pmc_sec_title">Associated Data</h2>
+<p class="font-secondary"><em>This section collects any data citations, data availability statements, or supplementary materials included in this article.</em></p>
+<section id="_adsm93_" lang="en" class="supplementary-materials"><h3 class="pmc_sec_title">Supplementary Materials</h3>
+<section class="sm xbox font-sm" id="db_ds_supplementary-material1_reqid_"><div class="caption p"><span>Supp DataS1</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS1.zip" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS1.zip</a><sup> (50.9KB, zip) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material2_reqid_"><div class="caption p"><span>Supp DataS2</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS2.zip" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS2.zip</a><sup> (101.8KB, zip) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material3_reqid_"><div class="caption p"><span>Supp DataS3</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS3.zip" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS3.zip</a><sup> (46.6KB, zip) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material4_reqid_"><div class="caption p"><span>Supp DataS4</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS4.xlsx" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS4.xlsx</a><sup> (13.4KB, xlsx) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material5_reqid_"><div class="caption p"><span>Supp DataS5</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS5.xlsx" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS5.xlsx</a><sup> (13.8KB, xlsx) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material6_reqid_"><div class="caption p"><span>Supp DataS6</span></div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/4270920/bin/NIHMS607557-supplement-Supp_DataS6.doc" data-ga-action="click_feat_suppl" class="usa-link">NIHMS607557-supplement-Supp_DataS6.doc</a><sup> (235.5KB, doc) </sup>
+</div></div></section></section></section></section></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1111/1755-0998.12295"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+               <li>
+                    <a
+                            href="pdf/nihms607557.pdf"
+                            class="usa-button usa-button--outline width-24 display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="pdf_download_desktop"
+                    >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download PDF icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                        <span class="display-inline-flex flex-justify-center flex-1">PDF (685.9 KB)</span>
+                    </a>
+               </li>
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/4270920/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/4270920/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC4270920%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC4270920/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC4270920/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC4270920/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/24964386/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC4270920/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/24964386/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC4270920/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/4270920/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="Nwyxtlj5kNqpuz109yErZ5A81NVa2pGpNCTOtTdSKJfXQJK5jmRsIU6xSwbghvpK">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>

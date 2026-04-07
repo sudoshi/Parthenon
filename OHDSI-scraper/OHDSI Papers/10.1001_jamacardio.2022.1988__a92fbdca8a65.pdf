@@ -1,0 +1,2844 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+  
+  
+    <style>
+  
+  
+  @media screen and (min-width: 64em) {
+    div.pmc-wm {
+      background: repeat-y;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='350' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cfilter x='-.02' y='0' width='1.05' height='1' id='c'%3E%3CfeFlood flood-color='%23FFF'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Ctext id='b' font-family='Helvetica' font-size='11pt' style='opacity:1;fill:%23005ea2;stroke:none;text-anchor:middle' x='175' y='14'%3E%3C/text%3E%3Cpath id='a' style='fill:%23005ea2' d='M0 8h350v3H0z'/%3E%3C/defs%3E%3Cuse xlink:href='%23a' transform='rotate(90 10 10)'/%3E%3Cuse xlink:href='%23b' transform='rotate(90 10 10)' filter='url(%23c)'/%3E%3C/svg%3E");
+      padding-left: 3rem;
+    }
+  }
+</style>
+
+  
+
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Clinical Presentation and Short- and Long-term Outcomes in Patients With Isolated Distal Deep Vein Thrombosis vs Proximal Deep Vein Thrombosis in the RIETE Registry - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="4F6DB7EA9D458E230BB7EA0049E84723.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="article" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="jamasd">
+<meta name="ncbi_type" content="fulltext">
+<meta name="ncbi_pcid" content="journal">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9280612/">
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE">
+<meta name="citation_journal_title" content="JAMA Cardiology">
+<meta name="citation_title" content="Clinical Presentation and Short- and Long-term Outcomes in Patients With Isolated Distal Deep Vein Thrombosis vs Proximal Deep Vein Thrombosis in the RIETE Registry">
+<meta name="citation_author" content="Behnood Bikdeli">
+<meta name="citation_author_institution" content="Cardiovascular Medicine Division and the Thrombosis Research Group, Brigham and Women’s Hospital, Harvard Medical School, Boston, Massachusetts">
+<meta name="citation_author_institution" content="Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_author_institution" content="Cardiovascular Research Foundation, New York, New York">
+<meta name="citation_author" content="César Caraballo">
+<meta name="citation_author_institution" content="Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_author" content="Javier Trujillo-Santos">
+<meta name="citation_author_institution" content="Department of Internal Medicine, Hospital General Universitario Santa Lucía, Cartagena, Murcia, Spain Universidad Católica San Antonio de Murcia, Murcia, Spain">
+<meta name="citation_author" content="Jean Philippe Galanaud">
+<meta name="citation_author_institution" content="Department of Medicine, Sunnybrook Health Sciences Centre and University of Toronto, Toronto, Ontario, Canada">
+<meta name="citation_author" content="Pierpaolo di Micco">
+<meta name="citation_author_institution" content="Department of Internal Medicine and Emergency Room, Ospedale Buon Consiglio Fatebenefratelli, Naples, Italy">
+<meta name="citation_author" content="Vladimir Rosa">
+<meta name="citation_author_institution" content="Department of Internal Medicine, Hospital Universitario Virgen de Arrixaca, Murcia, Spain">
+<meta name="citation_author" content="Gemma Vidal Cusidó">
+<meta name="citation_author_institution" content="Department of Internal Medicine, Corporación Sanitaria Parc Taulí, Barcelona, Spain">
+<meta name="citation_author" content="Sebastian Schellong">
+<meta name="citation_author_institution" content="Department of Medical Clinic, Municipal Hospital of Dresden Friedrichstadt, Dresden, Germany">
+<meta name="citation_author" content="Meritxell Mellado">
+<meta name="citation_author_institution" content="Department of Angiology and Vascular Surgery, Hospital del Mar, Barcelona, Spain">
+<meta name="citation_author" content="María del Valle Morales">
+<meta name="citation_author_institution" content="Department of Internal Medicine, Hospital del Tajo, Madrid, Spain">
+<meta name="citation_author" content="Olga Gavín-Sebastián">
+<meta name="citation_author_institution" content="Department of Haematology, Hospital Clínico Universitario Lozano Blesa, Zaragoza, Spain">
+<meta name="citation_author" content="Lucia Mazzolai">
+<meta name="citation_author_institution" content="Division of Angiology, Heart and Vessel Department, Centre Hospitalier Universitaire Vaudois, University of Lausanne, Lausanne, Switzerland">
+<meta name="citation_author" content="Harlan M Krumholz">
+<meta name="citation_author_institution" content="Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut">
+<meta name="citation_author_institution" content="Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut">
+<meta name="citation_author_institution" content="Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut">
+<meta name="citation_author" content="Manuel Monreal">
+<meta name="citation_author_institution" content="Department of Internal Medicine, Hospital Germans Trias i Pujol, Badalona, Barcelona">
+<meta name="citation_author_institution" content="Universidad Autónoma de Barcelona, Barcelona, Spain">
+<meta name="citation_author_institution" content="Chair for the Study of Thromboembolic Disease, Faculty of Health Sciences, Universidad Católica San Antonio de Murcia, Spain">
+<meta name="citation_publication_date" content="2022 Jul 13">
+<meta name="citation_volume" content="7">
+<meta name="citation_issue" content="8">
+<meta name="citation_firstpage" content="857">
+<meta name="citation_doi" content="10.1001/jamacardio.2022.1988">
+<meta name="citation_pmid" content="35830171">
+<meta name="citation_abstract_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC9280612/">
+<meta name="citation_fulltext_html_url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC9280612/">
+<meta name="description" content="This cohort study investigates the outcomes and clinical characteristics of patients with isolated distal deep vein thrombosis compared with those with proximal deep vein thrombosis.">
+<meta name="og:title" content="Clinical Presentation and Short- and Long-term Outcomes in Patients With Isolated Distal Deep Vein Thrombosis vs Proximal Deep Vein Thrombosis in the RIETE Registry">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="This cohort study investigates the outcomes and clinical characteristics of patients with isolated distal deep vein thrombosis compared with those with proximal deep vein thrombosis.">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC9280612/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+    
+    
+    
+
+<div class="usa-overlay">
+</div>
+
+
+
+<header class="usa-header usa-header--extended usa-header--wide" data-header data-testid="header"    >
+    <div class="ncbi-header">
+        <div class="ncbi-header__container">
+            <a class="ncbi-header__logo-container"
+               href="https://www.ncbi.nlm.nih.gov/">
+                <img alt="NCBI home page"
+                     class="ncbi-header__logo-image"
+                     src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/ncbi-logos/nih-nlm-ncbi--white.svg"
+                     width="410"
+                     height="100" />
+            </a>
+
+            <!-- Mobile menu hamburger button -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-menu-btn ncbi-header__hamburger-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Show menu"
+    data-testid="navMenuButton"
+    
+    >
+    
+        
+
+        
+                <svg aria-hidden="true"
+                     class="ncbi-hamburger-icon"
+                     fill="none"
+                     focusable="false"
+                     height="21"
+                     viewBox="0 0 31 21"
+                     width="31"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z"
+                          fill="#F1F1F1"
+                          fill-rule="evenodd" />
+                </svg>
+            
+
+        
+    
+        
+            </button>
+        
+
+
+
+            
+                <!-- Desktop buttons-->
+                <div class="ncbi-header__desktop-buttons">
+                    
+                        <!-- Desktop search button -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button
+           "
+    aria-expanded="false"
+    aria-controls="search-field-desktop-navigation"
+    aria-label="Show search overlay"
+    data-testid="toggleSearchPanelButton"
+    data-toggle-search-panel-button
+    >
+    
+        
+
+        
+                            
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+                            Search
+                        
+
+        
+    
+        
+            </button>
+        
+
+
+                    
+
+                    <!-- Desktop login dropdown -->
+                    
+                        <div class="ncbi-header__login-dropdown">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--unstyled ncbi-header__desktop-button ncbi-header__login-dropdown-button
+           "
+    aria-expanded="false"
+    aria-controls="login-dropdown-menu"
+    aria-label="Show login menu"
+    data-testid="toggleLoginMenuDropdown"
+    data-desktop-login-button
+    >
+    
+        
+
+        
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/person.svg"
+        class="usa-icon "
+        aria-hidden="true"
+        
+        
+    />
+
+
+
+                                <span data-login-dropdown-text>Log in</span>
+
+                                <!-- Dropdown icon pointing up -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_less.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-less ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-up-arrow
+        
+    />
+
+
+
+                                <!-- Dropdown icon pointing down -->
+                                
+
+
+
+    <img
+        src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/expand_more.svg"
+        class="usa-icon ncbi-header__login-dropdown-icon ncbi-header__login-dropdown-icon--expand-more ncbi-header__login-dropdown-icon--hidden"
+        aria-hidden="true"
+        data-login-dropdown-down-arrow
+        
+    />
+
+
+                            
+
+        
+    
+        
+            </button>
+        
+
+
+
+                            <!-- Login dropdown menu -->
+                            <ul class="usa-nav__submenu ncbi-header__login-dropdown-menu"
+                                id="login-dropdown-menu"
+                                data-desktop-login-menu-dropdown
+                                hidden>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                    <li class="usa-nav__submenu-item">
+                                        <!-- Uses custom style overrides to render external and document links. -->
+                                        
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                                    </li>
+                                
+                                <li class="usa-nav__submenu-item">
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           usa-button--outline ncbi-header__login-dropdown-logout-button
+           "
+    
+    
+    
+    data-testid="desktopLogoutButton"
+    data-desktop-logout-button
+    >
+    
+        
+
+        Log out
+
+        
+    
+        
+            </button>
+        
+
+
+                                </li>
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Search panel -->
+    
+        <div class="ncbi-search-panel ncbi--show-only-at-desktop"
+             data-header-search-panel
+             hidden>
+            <div class="ncbi-search-panel__container">
+                <form action="https://www.ncbi.nlm.nih.gov/search/all/"
+                      
+                      autocomplete="off"
+                      class="usa-search usa-search--big ncbi-search-panel__form"
+                      data-testid="desktop-navigation-search-form"
+                      method="GET"
+                      role="search">
+                    <label class="usa-sr-only" for="search-field-desktop-navigation">
+                        Search…
+                    </label>
+                    <input class="usa-input"
+                           id="search-field-desktop-navigation"
+                           name="term"
+                           
+                               placeholder="Search NCBI"
+                           
+                           type="search"
+                           value="" />
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                        <span class="usa-search__submit-text">
+                            Search NCBI
+                        </span>
+                    
+
+        
+    
+        
+            </button>
+        
+
+
+                </form>
+
+                
+            </div>
+        </div>
+    
+
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <p class="usa-sr-only" id="primary-navigation-sr-only-title">
+            Primary site navigation
+        </p>
+
+        <!-- Mobile menu close button -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-nav__close ncbi-nav__close-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    aria-label="Close navigation menu"
+    data-testid="navCloseButton"
+    
+    >
+    
+        
+
+        
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" alt="Close" />
+        
+
+        
+    
+        
+            </button>
+        
+
+
+
+        
+            <!-- Mobile search component -->
+            <form class="usa-search usa-search--small ncbi--hide-at-desktop"
+                  action="https://www.ncbi.nlm.nih.gov/search/all/"
+                  
+                  autocomplete="off"
+                  data-testid="mobile-navigation-search-form"
+                  method="GET"
+                  role="search">
+                <label class="usa-sr-only" for="search-field-mobile-navigation">
+                    Search
+                </label>
+
+                <input class="usa-input"
+                       id="search-field-mobile-navigation"
+                       type="search"
+                       
+                           placeholder="Search NCBI"
+                       
+                       name="term" />
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="submit"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    
+    
+    
+    
+    
+    >
+    
+        
+
+        
+                    <!-- This SVG should be kept inline and not replaced with a link to the icon as otherwise it will render in the wrong color -->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg=="
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </form>
+
+            
+        
+
+        <!-- Primary navigation menu items -->
+        <!-- This usa-nav__inner wrapper is required to correctly style the navigation items on Desktop -->
+        
+
+        
+            <div class="ncbi-nav__mobile-login-menu ncbi--hide-at-desktop"
+                 data-mobile-login-menu
+                 hidden>
+                <p class="ncbi-nav__mobile-login-menu-status">
+                    Logged in as:
+                    <strong class="ncbi-nav__mobile-login-menu-email"
+                            data-mobile-login-email-text></strong>
+                </p>
+                <ul class="usa-nav__primary usa-accordion">
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/" class="usa-link  "  >
+        
+
+        
+            Dashboard
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/" class="usa-link  "  >
+        
+
+        
+            Publications
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="usa-nav__primary-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.ncbi.nlm.nih.gov/account/settings/" class="usa-link  "  >
+        
+
+        
+            Account settings
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           ncbi-nav__mobile-login-button ncbi--hide-at-desktop
+           "
+    
+    
+    
+    data-testid="mobileLoginButton"
+    data-mobile-login-button
+    >
+    
+        
+
+        Log in
+
+        
+    
+        
+            </button>
+        
+
+
+    </nav>
+</header>
+
+    
+    
+        
+
+<section class="pmc-header pmc-header--basic" aria-label="PMC Header with search box">
+    <div class="pmc-nav-container">
+        <div class="pmc-header__bar">
+           <div class="pmc-header__logo">
+               <a href="/" title="Home" aria-label="PMC Home"></a>
+           </div>
+            <button
+                    type="button"
+                    class="usa-button usa-button--unstyled pmc-header__search__button"
+                    aria-label="Open search"
+                    data-ga-category="search"
+                    data-ga-action="PMC"
+                    data-ga-label="pmc_search_panel_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/search.svg" alt="PMC search open icon" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__open" />
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="PMC search close ison" aria-hidden="true" class="usa-icon usa-icon--size-4 pmc-icon__close" />
+            </button>
+        </div>
+        <div class="pmc-header__search">
+            
+
+
+<form class="usa-search usa-search--extra usa-search--article-right-column  pmc-header__search__form" id="pmc-search-form" autocomplete="off" role="search">
+<label class="usa-sr-only" for="pmc-search">Search PMC Full-Text Archive</label>
+<span class="autoComplete_wrapper flex-1">
+<input class="usa-input width-full maxw-none" required="required" placeholder="Search PMC Full-Text Archive" id="pmc-search"  type="search" name="term" data-autocomplete-url="https://pmc.ncbi.nlm.nih.gov/autocomp/search/autocomp/"/>
+</span>
+<button
+class="usa-button"
+type="submit"
+formaction="https://pmc.ncbi.nlm.nih.gov/search/"
+data-ga-category="search"
+data-ga-action="PMC"
+data-ga-label="PMC_search_button"
+>
+<span class="usa-search__submit-text">Search in PMC</span>
+<img
+src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons-bg/search--white.svg"
+class="usa-search__submit-icon"
+alt="Search"
+/>
+</button>
+</form>
+            <div class="display-flex flex-column tablet:flex-row tablet:flex-justify flex-justify-center flex-align-center width-full desktop:maxw-44">
+                <ul class="pmc-header__search__menu">
+                    <li>
+                        
+                            <a class="usa-link" href="/journals/" data-ga-action="featured_link" data-ga-label="journal list">
+                                Journal List
+                            </a>
+                        
+                    </li>
+                    <li>
+                        
+                            <a class="usa-link" href="/about/userguide/" data-ga-action="featured_link"
+                            data-ga-label="user guide">
+                                User Guide
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+        
+        
+
+       
+  <div class="usa-section padding-top-0 desktop:padding-top-6 pmc-article-section" data-article-db="pmc" data-article-id="9280612">
+
+    
+
+   
+
+
+
+<div class="grid-container pmc-actions-bar" aria-label="Actions bar" role="complementary">
+    <div class="grid-row">
+        <div class="grid-col-fill display-flex">
+             <div class="display-flex">
+                <ul class="usa-list usa-list--unstyled usa-list--horizontal">
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <button
+                                type="button"
+                                class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                                aria-label="Open resources"
+                                data-extra-class="is-visible-resources"
+                                data-ga-category="resources_accordion"
+                                data-ga-action="click"
+                                data-ga-label="mobile_icon"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/more_vert.svg" alt="Open resources icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex mob">
+                        <a
+                                href="https://doi.org/10.1001/jamacardio.2022.1988"
+                                class="usa-link display-flex usa-tooltip"
+                                role="button"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                title="View on publisher site"
+                                data-position="bottom"
+                                aria-label="View on publisher site"
+                                data-ga-category="actions"
+                                data-ga-action="click"
+                                data-ga-label="publisher_link_mobile"
+                        >
+                                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button
+                            class="usa-button usa-button--unstyled  usa-tooltip collections-dialog-trigger collections-button display-flex collections-button-empty"
+                            title="Add to Collections"
+                            data-position="bottom"
+                            aria-label="Save article in MyNCBI collections."
+                            data-ga-category="actions"
+                            data-ga-action="click"
+                            data-ga-label="collections_button_mobile"
+                            data-collections-open-dialog-enabled="false"
+                            data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC9280612%2F%23open-collections-dialog"
+                            data-in-collections="false"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-full" />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link usa-icon--bookmark-empty" />
+                        </button>
+                    </li>
+                    
+                    <li class="margin-right-2 mobile-lg:margin-right-4 display-flex">
+                        <button role="button" class="usa-button usa-button--unstyled usa-tooltip citation-dialog-trigger display-flex"
+                            aria-label="Open dialog with citation text in different styles"
+                            title="Cite"
+                            data-position="bottom"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="cite_mobile"
+                            data-all-citations-url="/resources/citations/9280612/"
+                            data-citation-style="nlm"
+                            data-download-format-link="/resources/citations/9280612/export/"
+                        >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                    </li>
+                    
+                    <li class="pmc-permalink display-flex" >
+                         <button
+                                 type="button"
+                                 title="Permalink"
+                                 data-position="bottom"
+                                 class="usa-button usa-button--unstyled display-flex usa-tooltip"
+                                 aria-label="Show article permalink"
+                                 aria-expanded="false"
+                                 aria-haspopup="true"
+                                 data-ga-category="actions"
+                                 data-ga-action="open"
+                                 data-ga-label="permalink_mobile"
+                         >
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Show article permalink icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+                        </button>
+                        
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC9280612/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <button
+                    type="button"
+                    class="usa-button pmc-sidenav__container__open usa-button--unstyled width-auto display-flex"
+                    aria-label="Open article navigation"
+                    data-extra-class="is-visible-in-page"
+                    data-ga-category="actions"
+                    data-ga-action="open"
+                    data-ga-label="article_nav_mobile"
+            >
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/list.svg" alt="Open article navigation icon" aria-hidden="true" class="usa-icon usa-icon--size-4 usa-icon--link" />
+            </button>
+        </div>
+    </div>
+</div>
+    <div class="grid-container desktop:padding-left-6">
+      <div id="article-container" class="grid-row grid-gap">
+        <div class="grid-col-12 desktop:grid-col-8 order-2 pmc-layout__content">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="grid-row desktop:margin-left-neg-6">
+                    <div class="grid-col-12">
+                        <div class="pmc-layout__disclaimer" role="complementary" aria-label="Disclaimer note">
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.<br/>
+    Learn more:
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="Disclaimer" data-ga-label="New disclaimer box" href="/about/disclaimer/">PMC Disclaimer</a>
+    |
+    <a class="usa-link" data-ga-category="Link click" data-ga-action="PMC Copyright Notice" data-ga-label="New disclaimer box" href="/about/copyright/">
+        PMC Copyright Notice
+    </a>
+</div>
+                    </div>
+                </div>
+                <div class="grid-row pmc-wm desktop:margin-left-neg-6">
+                    <!-- Main content -->
+                    <main
+                      id="main-content"
+                      class="usa-layout-docs__main usa-layout-docs grid-col-12 pmc-layout pmc-prose padding-0"
+                    >
+
+                      
+                        <section class="pmc-journal-banner text-center line-height-none" aria-label="Journal banner"><img src="https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-jamasd.png" alt="JAMA Network logo" usemap="#pmc-banner-imagemap" width="500" height="75"><map name="pmc-banner-imagemap"><area alt="Link to JAMA Network" title="Link to JAMA Network" shape="default" href="https://doi.org/10.1001/jamacardio.2022.1988" target="_blank" rel="noopener noreferrer"></map></section><article lang="en"><section aria-label="Article citation and metadata"><section class="pmc-layout__citation font-secondary font-xs"><div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">JAMA Cardiol</button></div>. 2022 Jul 13;7(8):857–865. doi: <a href="https://doi.org/10.1001/jamacardio.2022.1988" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1001/jamacardio.2022.1988</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="JAMA%20Cardiol"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="JAMA%20Cardiol"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="JAMA%20Cardiol"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="JAMA%20Cardiol"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><section class="front-matter"><div class="ameta p font-secondary font-xs">
+<hgroup><h1>Clinical Presentation and Short- and Long-term Outcomes in Patients With Isolated Distal Deep Vein Thrombosis vs Proximal Deep Vein Thrombosis in the RIETE Registry</h1></hgroup><div class="cg p">
+<a href='https://pubmed.ncbi.nlm.nih.gov/?term="Bikdeli%20B"[Author]' class="usa-link" aria-describedby="id1"><span class="name western">Behnood Bikdeli</span></a><div hidden="hidden" id="id1">
+<h3>
+<span class="name western">Behnood Bikdeli</span>, <span class="degrees">MD, MS</span>
+</h3>
+<div class="p">
+<sup>1</sup>Cardiovascular Medicine Division and the Thrombosis Research Group, Brigham and Women’s Hospital, Harvard Medical School, Boston, Massachusetts</div>
+<div class="p">
+<sup>2</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">
+<sup>3</sup>Cardiovascular Research Foundation, New York, New York</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Bikdeli%20B"[Author]' class="usa-link"><span class="name western">Behnood Bikdeli</span></a>
+</div>
+</div>
+<sup>1,</sup><sup>2,</sup><sup>3,</sup><sup>✉</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Caraballo%20C"[Author]' class="usa-link" aria-describedby="id2"><span class="name western">César Caraballo</span></a><div hidden="hidden" id="id2">
+<h3>
+<span class="name western">César Caraballo</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>2</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Caraballo%20C"[Author]' class="usa-link"><span class="name western">César Caraballo</span></a>
+</div>
+</div>
+<sup>2</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Trujillo-Santos%20J"[Author]' class="usa-link" aria-describedby="id3"><span class="name western">Javier Trujillo-Santos</span></a><div hidden="hidden" id="id3">
+<h3>
+<span class="name western">Javier Trujillo-Santos</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>4</sup>Department of Internal Medicine, Hospital General Universitario Santa Lucía, Cartagena, Murcia, Spain Universidad Católica San Antonio de Murcia, Murcia, Spain</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Trujillo-Santos%20J"[Author]' class="usa-link"><span class="name western">Javier Trujillo-Santos</span></a>
+</div>
+</div>
+<sup>4</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Galanaud%20JP"[Author]' class="usa-link" aria-describedby="id4"><span class="name western">Jean Philippe Galanaud</span></a><div hidden="hidden" id="id4">
+<h3>
+<span class="name western">Jean Philippe Galanaud</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>5</sup>Department of Medicine, Sunnybrook Health Sciences Centre and University of Toronto, Toronto, Ontario, Canada</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Galanaud%20JP"[Author]' class="usa-link"><span class="name western">Jean Philippe Galanaud</span></a>
+</div>
+</div>
+<sup>5</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="di%20Micco%20P"[Author]' class="usa-link" aria-describedby="id5"><span class="name western">Pierpaolo di Micco</span></a><div hidden="hidden" id="id5">
+<h3>
+<span class="name western">Pierpaolo di Micco</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>6</sup>Department of Internal Medicine and Emergency Room, Ospedale Buon Consiglio Fatebenefratelli, Naples, Italy</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="di%20Micco%20P"[Author]' class="usa-link"><span class="name western">Pierpaolo di Micco</span></a>
+</div>
+</div>
+<sup>6</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rosa%20V"[Author]' class="usa-link" aria-describedby="id6"><span class="name western">Vladimir Rosa</span></a><div hidden="hidden" id="id6">
+<h3>
+<span class="name western">Vladimir Rosa</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>7</sup>Department of Internal Medicine, Hospital Universitario Virgen de Arrixaca, Murcia, Spain</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Rosa%20V"[Author]' class="usa-link"><span class="name western">Vladimir Rosa</span></a>
+</div>
+</div>
+<sup>7</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Cusid%C3%B3%20GV"[Author]' class="usa-link" aria-describedby="id7"><span class="name western">Gemma Vidal Cusidó</span></a><div hidden="hidden" id="id7">
+<h3>
+<span class="name western">Gemma Vidal Cusidó</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>8</sup>Department of Internal Medicine, Corporación Sanitaria Parc Taulí, Barcelona, Spain</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Cusid%C3%B3%20GV"[Author]' class="usa-link"><span class="name western">Gemma Vidal Cusidó</span></a>
+</div>
+</div>
+<sup>8</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schellong%20S"[Author]' class="usa-link" aria-describedby="id8"><span class="name western">Sebastian Schellong</span></a><div hidden="hidden" id="id8">
+<h3>
+<span class="name western">Sebastian Schellong</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>9</sup>Department of Medical Clinic, Municipal Hospital of Dresden Friedrichstadt, Dresden, Germany</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Schellong%20S"[Author]' class="usa-link"><span class="name western">Sebastian Schellong</span></a>
+</div>
+</div>
+<sup>9</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mellado%20M"[Author]' class="usa-link" aria-describedby="id9"><span class="name western">Meritxell Mellado</span></a><div hidden="hidden" id="id9">
+<h3>
+<span class="name western">Meritxell Mellado</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>10</sup>Department of Angiology and Vascular Surgery, Hospital del Mar, Barcelona, Spain</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mellado%20M"[Author]' class="usa-link"><span class="name western">Meritxell Mellado</span></a>
+</div>
+</div>
+<sup>10</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="del%20Valle%20Morales%20M"[Author]' class="usa-link" aria-describedby="id10"><span class="name western">María del Valle Morales</span></a><div hidden="hidden" id="id10">
+<h3>
+<span class="name western">María del Valle Morales</span>, <span class="degrees">MD</span>
+</h3>
+<div class="p">
+<sup>11</sup>Department of Internal Medicine, Hospital del Tajo, Madrid, Spain</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="del%20Valle%20Morales%20M"[Author]' class="usa-link"><span class="name western">María del Valle Morales</span></a>
+</div>
+</div>
+<sup>11</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gav%C3%ADn-Sebasti%C3%A1n%20O"[Author]' class="usa-link" aria-describedby="id11"><span class="name western">Olga Gavín-Sebastián</span></a><div hidden="hidden" id="id11">
+<h3>
+<span class="name western">Olga Gavín-Sebastián</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>12</sup>Department of Haematology, Hospital Clínico Universitario Lozano Blesa, Zaragoza, Spain</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Gav%C3%ADn-Sebasti%C3%A1n%20O"[Author]' class="usa-link"><span class="name western">Olga Gavín-Sebastián</span></a>
+</div>
+</div>
+<sup>12</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mazzolai%20L"[Author]' class="usa-link" aria-describedby="id12"><span class="name western">Lucia Mazzolai</span></a><div hidden="hidden" id="id12">
+<h3>
+<span class="name western">Lucia Mazzolai</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>13</sup>Division of Angiology, Heart and Vessel Department, Centre Hospitalier Universitaire Vaudois, University of Lausanne, Lausanne, Switzerland</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Mazzolai%20L"[Author]' class="usa-link"><span class="name western">Lucia Mazzolai</span></a>
+</div>
+</div>
+<sup>13</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Krumholz%20HM"[Author]' class="usa-link" aria-describedby="id13"><span class="name western">Harlan M Krumholz</span></a><div hidden="hidden" id="id13">
+<h3>
+<span class="name western">Harlan M Krumholz</span>, <span class="degrees">MD, SM</span>
+</h3>
+<div class="p">
+<sup>2</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div class="p">
+<sup>14</sup>Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div class="p">
+<sup>15</sup>Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Krumholz%20HM"[Author]' class="usa-link"><span class="name western">Harlan M Krumholz</span></a>
+</div>
+</div>
+<sup>2,</sup><sup>14,</sup><sup>15</sup>, <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Monreal%20M"[Author]' class="usa-link" aria-describedby="id14"><span class="name western">Manuel Monreal</span></a><div hidden="hidden" id="id14">
+<h3>
+<span class="name western">Manuel Monreal</span>, <span class="degrees">MD, PhD</span>
+</h3>
+<div class="p">
+<sup>16</sup>Department of Internal Medicine, Hospital Germans Trias i Pujol, Badalona, Barcelona</div>
+<div class="p">
+<sup>17</sup>Universidad Autónoma de Barcelona, Barcelona, Spain</div>
+<div class="p">
+<sup>18</sup>Chair for the Study of Thromboembolic Disease, Faculty of Health Sciences, Universidad Católica San Antonio de Murcia, Spain</div>
+<div class="p">Find articles by <a href='https://pubmed.ncbi.nlm.nih.gov/?term="Monreal%20M"[Author]' class="usa-link"><span class="name western">Manuel Monreal</span></a>
+</div>
+</div>
+<sup>16,</sup><sup>17,</sup><sup>18</sup>, <span class="on-behalf-of">for the RIETE Investigators</span>
+</div>
+<ul class="d-buttons inline-list">
+<li><button class="d-button" aria-controls="aip_a" aria-expanded="false">Author information</button></li>
+<li><button class="d-button" aria-controls="anp_a" aria-expanded="false">Article notes</button></li>
+<li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li>
+</ul>
+<div class="d-panels font-secondary-light">
+<div id="aip_a" class="d-panel p" style="display: none">
+<div class="p" id="hoi220034aff1">
+<sup>1</sup>Cardiovascular Medicine Division and the Thrombosis Research Group, Brigham and Women’s Hospital, Harvard Medical School, Boston, Massachusetts</div>
+<div id="hoi220034aff2">
+<sup>2</sup>Center for Outcomes Research and Evaluation, Yale New Haven Hospital, New Haven, Connecticut</div>
+<div id="hoi220034aff3">
+<sup>3</sup>Cardiovascular Research Foundation, New York, New York</div>
+<div id="hoi220034aff4">
+<sup>4</sup>Department of Internal Medicine, Hospital General Universitario Santa Lucía, Cartagena, Murcia, Spain Universidad Católica San Antonio de Murcia, Murcia, Spain</div>
+<div id="hoi220034aff5">
+<sup>5</sup>Department of Medicine, Sunnybrook Health Sciences Centre and University of Toronto, Toronto, Ontario, Canada</div>
+<div id="hoi220034aff6">
+<sup>6</sup>Department of Internal Medicine and Emergency Room, Ospedale Buon Consiglio Fatebenefratelli, Naples, Italy</div>
+<div id="hoi220034aff7">
+<sup>7</sup>Department of Internal Medicine, Hospital Universitario Virgen de Arrixaca, Murcia, Spain</div>
+<div id="hoi220034aff8">
+<sup>8</sup>Department of Internal Medicine, Corporación Sanitaria Parc Taulí, Barcelona, Spain</div>
+<div id="hoi220034aff9">
+<sup>9</sup>Department of Medical Clinic, Municipal Hospital of Dresden Friedrichstadt, Dresden, Germany</div>
+<div id="hoi220034aff10">
+<sup>10</sup>Department of Angiology and Vascular Surgery, Hospital del Mar, Barcelona, Spain</div>
+<div id="hoi220034aff11">
+<sup>11</sup>Department of Internal Medicine, Hospital del Tajo, Madrid, Spain</div>
+<div id="hoi220034aff12">
+<sup>12</sup>Department of Haematology, Hospital Clínico Universitario Lozano Blesa, Zaragoza, Spain</div>
+<div id="hoi220034aff13">
+<sup>13</sup>Division of Angiology, Heart and Vessel Department, Centre Hospitalier Universitaire Vaudois, University of Lausanne, Lausanne, Switzerland</div>
+<div id="hoi220034aff14">
+<sup>14</sup>Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, Connecticut</div>
+<div id="hoi220034aff15">
+<sup>15</sup>Department of Health Policy and Management, Yale School of Public Health, New Haven, Connecticut</div>
+<div id="hoi220034aff16">
+<sup>16</sup>Department of Internal Medicine, Hospital Germans Trias i Pujol, Badalona, Barcelona</div>
+<div id="hoi220034aff17">
+<sup>17</sup>Universidad Autónoma de Barcelona, Barcelona, Spain</div>
+<div id="hoi220034aff18">
+<sup>18</sup>Chair for the Study of Thromboembolic Disease, Faculty of Health Sciences, Universidad Católica San Antonio de Murcia, Spain</div>
+<div class="author-notes p">
+<div class="fn" id="p1">
+<p><strong>Group Information:</strong> The RIETE Investigators appear in Supplement 2.</p>
+<p><strong>Accepted for Publication:</strong> May 19, 2022.</p>
+<p><strong>Published Online:</strong> July 13, 2022. doi:<a href="https://doi.org/10.1001/jamacardio.2022.1988" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1001/jamacardio.2022.1988</a></p>
+</div>
+<div class="fn" id="hoi220034cor1">
+<sup>✉</sup><p class="display-inline"><strong>Corresponding Author:</strong> Behnood Bikdeli, MD, MS, Cardiovascular Medicine Division and the Thrombosis Research Group, Brigham and Women’s Hospital, Harvard Medical School, 75 Francis St, Boston, MA 02115 (<span>behnood.bikdeli@yale.edu</span>; <span>bbikdeli@bwh.harvard.edu</span>).</p>
+</div>
+<div class="fn" id="p4">
+<p><strong>Author Contributions:</strong> Drs Trujillo-Santos and Monreal had full access to all of the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis. Drs Bikdeli, Caraballo, and Trujillo-Santos contributed equally to this study.</p>
+<p><em>Concept and design:</em> Bikdeli, Caraballo, Trujillo-Santos, Galanaud, Di Micco, Rosa, Mellado, Morales, Gavín, Monreal.</p>
+<p><em>Acquisition, analysis, or interpretation of data:</em> Bikdeli, Caraballo, Trujillo-Santos, Rosa, Vidal Cusidó, Schellong, Mazzolai, Krumholz, Monreal.</p>
+<p><em>Drafting of the manuscript:</em> Bikdeli, Caraballo, Trujillo-Santos, Schellong, Morales.</p>
+<p><em>Critical revision of the manuscript for important intellectual content:</em> Bikdeli, Caraballo, Trujillo-Santos, Galanaud, Di Micco, Rosa, Vidal Cusidó, Mellado, Morales, Gavín, Mazzolai, Krumholz, Monreal.</p>
+<p><em>Statistical analysis:</em> Trujillo-Santos, Morales.</p>
+<p><em>Obtained funding:</em> Rosa, Monreal.</p>
+<p><em>Administrative, technical, or material support:</em> Trujillo-Santos, Galanaud, Rosa, Mellado, Morales.</p>
+<p><em>Supervision:</em> Bikdeli, Rosa, Gavín, Monreal.</p>
+<p><strong>Conflict of Interest Disclosures:</strong> The RIETE registry has been supported by Sanofi Spain, Leo Pharma, and Rovi with an unrestricted educational grant. Dr Bikdeli reported receiving consulting fees serving as an expert on behalf of the plaintiff for litigation related to 2 specific brand models of inferior vena cava filters. Dr Krumholz reported receiving personal fees from UnitedHealth, Element Science, Aetna, Reality Labs, F-Prime, Tesseract/4Catalyst, Martin/Baughman Law Firm, Arnold and Porter Law Firm, and Siegfried and Jensen Law Firm; being a cofounder of HugoHealth, a personal health information platform; being a cofounder of Refactor Health, an Enterprise Health Care artificial intelligence–augmented data management company; having contracts with the Centers for Medicare &amp; Medicaid Services Association through Yale New Haven Hospital, to develop and maintain performance measures that are publicly reported; and receiving grants from Johnson &amp; Johnson outside the submitted work. Dr Monreal reported receiving grants from Sanofi and Rovi sponsorship of the RIETE registry outside the submitted work. No other disclosures were reported.</p>
+<p><strong>Funding/Support:</strong> This work was supported by an unrestricted educational grant from Sanofi Spain, Leo Pharma, and Rovi; the Scott Schoen and Nancy Adams IGNITE Award from the Mary Horrigan Connors Center for Women’s Health and Gender Biology at Brigham and Women’s Hospital (Dr Bikdeli); and a Career Development Award (938814) from the American Heart Association (Dr Bikdeli).</p>
+<p><strong>Role of the Funder/Sponsor:</strong> The funders had no role in the design of the current study, statistical analysis, drafting the manuscript, or the decision to submit.</p>
+<p><strong>Group Information:</strong> The RIETE Investigators are listed in <a href="#note-HOI220034-1-s" class="usa-link">Supplement 2</a>.</p>
+<p><strong>Additional Contributions:</strong> We thank the RIETE Registry Coordinating Center, S&amp;H Medical Science Service, for their quality control data and logistic and administrative support.</p>
+</div>
+<div class="fn" id="_fncrsp93pmc__">
+<sup>✉</sup><p class="display-inline">Corresponding author.</p>
+</div>
+</div>
+</div>
+<div id="anp_a" class="d-panel p" style="display: none"><div class="notes p"><section id="historyarticle-meta1" class="history"><p>Received 2021 Nov 12; Accepted 2022 May 19; Issue date 2022 Aug.</p></section></div></div>
+<div id="clp_a" class="d-panel p" style="display: none">
+<div>Copyright 2022 American Medical Association. All Rights Reserved.</div>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div>
+</div>
+<div>PMCID: PMC9280612  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35830171/" class="usa-link">35830171</a>
+</div>
+</div></section></section><section aria-label="Article content"><section class="body main-article-body"><section class="abstract" id="abstract1"><hr class="headless">
+<p>This cohort study investigates the outcomes and clinical characteristics of patients with isolated distal deep vein thrombosis compared with those with proximal deep vein thrombosis.</p></section><section class="abstract" id="abstract2"><h2>Key Points</h2>
+<section id="ab-hoi220034-1"><h3 class="pmc_sec_title">Question</h3>
+<p>What are the clinical characteristics and outcomes of patients with isolated distal deep vein thrombosis (DVT) compared with those with proximal DVT?</p></section><section id="ab-hoi220034-2"><h3 class="pmc_sec_title">Findings</h3>
+<p>Among 33 897 participants in this cohort study, patients with isolated distal DVT had a lower comorbidity burden and a lower risk of 90-day mortality (odds ratio, 0.47) and 1-year composite of pulmonary embolism or new venous thromboembolism (hazard ratio, 0.83).</p></section><section id="ab-hoi220034-3"><h3 class="pmc_sec_title">Meaning</h3>
+<p>Isolated distal DVT compared with proximal DVT was associated with lower risk of adverse events; this association was likely multifactorial with contribution from comorbidity burden on all-cause mortality and a potential association of thrombus location with venous thrombosis outcomes.</p></section></section><section class="abstract" id="abstract3"><h2>Abstract</h2>
+<section id="ab-hoi220034-4"><h3 class="pmc_sec_title">Importance</h3>
+<p>Insufficient data exist about the clinical presentation, short-term, and long-term outcomes of patients with isolated distal deep vein thrombosis (IDDVT), that is, thrombosis in infrapopliteal veins without proximal extension or pulmonary embolism (PE).</p></section><section id="ab-hoi220034-5"><h3 class="pmc_sec_title">Objective</h3>
+<p>To determine the clinical characteristics, short-term, and 1-year outcomes in patients with IDDVT and to compare the outcomes in unadjusted and multivariable adjusted analyses with patients who had proximal DVT.</p></section><section id="ab-hoi220034-6"><h3 class="pmc_sec_title">Design, Setting, and Participants</h3>
+<p>This was a multicenter, international cohort study in participating sites of the Registro Informatizado Enfermedad Tromboembólica (RIETE) registry conducted from March 1, 2001, through February 28, 2021. Patients included in this study had IDDVT. Patients with proximal DVT were identified for comparison. Patients were excluded if they had a history of asymptomatic DVT, upper-extremity DVT, coexisting PE, or COVID-19 infection.</p></section><section id="ab-hoi220034-7"><h3 class="pmc_sec_title">Main Outcomes and Measures</h3>
+<p>Primary outcomes were 90-day and 1-year mortality, 1-year major bleeding, and 1-year venous thromboembolism (VTE) deterioration, which was defined as subsequent development of proximal DVT or PE.</p></section><section id="ab-hoi220034-8"><h3 class="pmc_sec_title">Results</h3>
+<p>A total of 33 897 patients were identified with isolated DVT (without concomitant PE); 5938 (17.5%) had IDDVT (mean [SD] age, 61 [17] years; 2975 male patients [50.1%]), and 27 959 (82.5%) had proximal DVT (mean [SD] age, 65 [18] years; 14 315 male patients [51.2%]). Compared with individuals with proximal DVT, those with IDDVT had a lower comorbidity burden but were more likely to have had recent surgery or to have received hormonal therapy. Patients with IDDVT had lower risk of 90-day mortality compared with those with proximal DVT (odds ratio [OR], 0.47; 95% CI, 0.40-0.55). Findings were similar in 1-year unadjusted analyses (hazard ratio [HR], 0.52; 95% CI, 0.46-0.59) and adjusted analyses (HR, 0.72; 95% CI, 0.64-0.82). Patients with IDDVT had a lower 1-year hazard of VTE deterioration (HR, 0.83; 95% CI, 0.69-0.99). In 1-year adjusted analyses of patients without an adverse event within the first 3 months, IDDVT was associated with lower risk of VTE deterioration (adjusted HR, 0.48; 95% CI, 0.24-0.97). By 1-year follow-up, symptoms or signs of postthrombotic syndrome were less common in patients with IDDVT (47.6% vs 60.5%).</p></section><section id="ab-hoi220034-9"><h3 class="pmc_sec_title">Conclusions and Relevance</h3>
+<p>Results of this cohort study suggest that patients with IDDVT had a less ominous prognosis compared with patients with proximal DVT. Such differences were likely multifactorial, including the differences in demographics, risk factors, comorbidities, particularly for all-cause mortality, and a potential association of thrombus location with VTE deterioration and postthrombotic syndrome. Randomized clinical trials are needed to assess the optimal long-term management of IDDVT.</p></section></section><section id="H1-1-HOI220034"><h2 class="pmc_sec_title">Introduction</h2>
+<p>Isolated distal deep vein thrombosis (IDDVT), ie, thrombosis in the infrapopliteal veins without coexisting proximal DVT or pulmonary embolism (PE), accounts for 20% to 50% of all DVTs.<sup><a href="#hoi220034r1" class="usa-link" aria-describedby="hoi220034r1">1</a>,<a href="#hoi220034r2" class="usa-link" aria-describedby="hoi220034r2">2</a></sup> The data related to clinical presentation and outcomes of patients with IDDVT are limited. Some studies suggest less ominous outcomes with IDDVT compared with proximal DVT. However, prior studies were from single institutions or included a small number of patients, were underpowered to differentiate the clinical presentation of patients with IDDVT and those with proximal DVT, and focused only on short-term outcomes.<sup><a href="#hoi220034r2" class="usa-link" aria-describedby="hoi220034r2">2</a>,<a href="#hoi220034r3" class="usa-link" aria-describedby="hoi220034r3">3</a>,<a href="#hoi220034r4" class="usa-link" aria-describedby="hoi220034r4">4</a>,<a href="#hoi220034r5" class="usa-link" aria-describedby="hoi220034r5">5</a>,<a href="#hoi220034r6" class="usa-link" aria-describedby="hoi220034r6">6</a></sup> Limitations with our understanding of outcomes for IDDVT is also discussed in the practice guidelines.<sup><a href="#hoi220034r7" class="usa-link" aria-describedby="hoi220034r7">7</a>,<a href="#hoi220034r8" class="usa-link" aria-describedby="hoi220034r8">8</a></sup> It remains uncertain whether there are true differences in mortality, venous thromboembolism (VTE) recurrences, and bleeding events among patients with IDDVT compared with proximal DVT and whether the potential differences attenuate after consideration of the demographics, comorbidities, and VTE risk factors.<sup><a href="#hoi220034r2" class="usa-link" aria-describedby="hoi220034r2">2</a>,<a href="#hoi220034r3" class="usa-link" aria-describedby="hoi220034r3">3</a>,<a href="#hoi220034r9" class="usa-link" aria-describedby="hoi220034r9">9</a>,<a href="#hoi220034r10" class="usa-link" aria-describedby="hoi220034r10">10</a>,<a href="#hoi220034r11" class="usa-link" aria-describedby="hoi220034r11">11</a></sup> Addressing these gaps in knowledge has implications for prognostication, and may affect the downstream treatment or follow-up decisions.</p>
+<p>The Registro Informatizado Enfermedad Tromboembólica (RIETE) is an ongoing prospective registry of patients with VTE. Using the data from RIETE, we sought to determine the clinical presentation and 90-day and 1-year outcomes in patients with IDDVT. We compared those findings against patients with proximal DVT in unadjusted and multivariable adjusted analyses.</p></section><section id="H1-2-HOI220034"><h2 class="pmc_sec_title">Methods</h2>
+<section id="H2-1-HOI220034"><h3 class="pmc_sec_title">Data Source and Patients</h3>
+<p>Details about the methodology of the RIETE registry have been described previously (eAppendix in <a href="#note-HOI220034-1-s" class="usa-link">Supplement 1</a>).<sup><a href="#hoi220034r12" class="usa-link" aria-describedby="hoi220034r12">12</a>,<a href="#hoi220034r13" class="usa-link" aria-describedby="hoi220034r13">13</a></sup> Currently, the RIETE registry includes over 200 enrolling centers from Africa, North and South America, Asia, and Europe. The RIETE registry enrolls consecutive patients with objectively confirmed VTE (DVT, PE, or both) with a minimum follow-up of 3 months. Many patients complete 1-year and 2-year follow-up. All patients provided written or verbal informed consent in line with institutional review board requirements from each participating center. Previous studies have shown that the RIETE population closely represents that of large administrative databases.<sup><a href="#hoi220034r14" class="usa-link" aria-describedby="hoi220034r14">14</a></sup> This study adhered to the Strengthening the Reporting of Observational Studies in Epidemiology (<a href="http://www.equator-network.org/reporting-guidelines/strobe/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">STROBE</a>) reporting guidelines.</p>
+<p>For the current investigation, we focused on patients with IDDVT (ie, those with infrapopliteal DVT in the absence of coexisting proximal DVT or coexisting PE) enrolled in the RIETE registry between March 1, 2001, through February 28, 2021. We compared patients with IDDVT with patients with proximal DVT. We excluded patients with asymptomatic DVT or upper-extremity DVT and patients who had coexisting PE. In addition, we excluded patients with DVT in the setting of COVID-19 infection because the clinical characteristics and outcomes of those patients may be different from other patient groups.<sup><a href="#hoi220034r15" class="usa-link" aria-describedby="hoi220034r15">15</a>,<a href="#hoi220034r16" class="usa-link" aria-describedby="hoi220034r16">16</a>,<a href="#hoi220034r17" class="usa-link" aria-describedby="hoi220034r17">17</a></sup> We determined the demographics, comorbidities, and treatments in patients with IDDVT. We compared them against patients with proximal DVT.</p></section><section id="H2-2-HOI220034"><h3 class="pmc_sec_title">Outcomes</h3>
+<p>Short-term outcomes included 30-day and 90-day all-cause mortality, PE-related mortality, and major bleeding. Bleeding was considered as major if it was overt and required a transfusion of 2 or more units of blood, involved a critical site (retroperitoneal, spinal, or intracranial), or was fatal.<sup><a href="#hoi220034r12" class="usa-link" aria-describedby="hoi220034r12">12</a></sup> This definition closely resembles that of the International Society on Thrombosis and Haemostasis for major bleeding.<sup><a href="#hoi220034r18" class="usa-link" aria-describedby="hoi220034r18">18</a></sup> Long-term outcomes included mortality, VTE deterioration (defined as subsequent development of proximal DVT, or PE, including fatal PE), and major bleeding. We assessed for signs or symptoms of postthrombotic syndrome according to the Villalta score in patients with available follow-up. This outcome has been available in the RIETE registry since 2009.</p></section><section id="H2-3-HOI220034"><h3 class="pmc_sec_title">Statistical Analysis</h3>
+<p>Comparison of categorical variables between those with IDDVT and proximal DVT was done via χ<sup>2</sup> tests. We used the <em>t</em> test or its nonparametric counterparts for comparison of continuous variables between the 2 groups. One-year outcomes were assessed via survival analysis to account for censored information. For each specific outcome, censoring occurred only by the end of 1-year follow-up, by reaching the outcome of interest, or on loss to follow-up.</p>
+<p>It was prespecified to run multivariable models to determine if differences existed in the outcomes of patients with IDDVT compared with proximal DVT; if differences did exist, we prespecified to determine they were driven by the demographics, comorbidities, and VTE risk factors. For that purpose, we used multivariable logistic regression analysis for short-term (90-day) outcomes and adjusted hazard models for 1-year outcomes. Variables were preselected by clinical consensus for multivariable adjustment and included age, sex, history of diabetes, anemia, chronic lung disease, active cancer, recent surgery (defined as surgery within 2 months before the index VTE event), immobility (defined as bed rest for at least 4 days within the prior 2 months), creatinine clearance, and use of anticoagulation.</p>
+<p>RIETE is not an interventional study. The duration of anticoagulation may be variable based on patients’ clinical status and decisions by the treating clinicians. In the absence of contraindications, patients with acute VTE are routinely treated at least for 90 days. For short-term (90-day) outcomes, adjustment in multivariable analyses for use of anticoagulation was operationalized by a dichotomous variable, indicating whether anticoagulation was interrupted for 2 or more consecutive days until the end of the 90-day follow-up period or reaching the end point in each patient. For adjustment for multivariable analyses of 1-year outcomes, a different variable was operationalized. By 1-year follow-up, patients may have continued the anticoagulation indefinitely without any interruptions, they may have received at least 3 months of anticoagulation and stopped anticoagulation permanently thereafter, or they may have had a more complex sequence of events (eg, intermittent initiation and discontinuation). Therefore, for multivariable adjustment, a 3-category categorical variable was used.</p>
+<p>Because reaching the end point was distinct for mortality and nonmortality outcomes, one such variable was created per each outcome. For 1-year all-cause mortality, Cox proportional hazards models were used. For 1-year PE-related mortality, VTE deterioration, and major bleeding, Fine-Gray models were implemented to account for the competing risk of event other than the outcomes of interest. A 2-sided <em>P</em> value &lt; .05 was considered significant. Data analyses were performed using SPSS for SP Release, version 20 (SPSS Inc) and Stata, version 15.1 (StataCorp).</p></section></section><section id="H1-3-HOI220034"><h2 class="pmc_sec_title">Results</h2>
+<p>We identified a total of 33 897 patients with isolated DVT, of whom 5938 (17.5%) had IDDVT (mean [SD] age, 61 [17] years; 2975 male patients [50.1%]; 2963 female patients [49.9%]), and 27 959 (82.5%) had proximal DVT (mean [SD] age, 65 [18] years; 14 315 male patients [51.2%]; 13 644 female patients [48.8%]) (eFigure 1 in <a href="#note-HOI220034-1-s" class="usa-link">Supplement 1</a>). Patients with IDDVT were less likely to have chronic lung disease (410 [6.9%] vs 2432 [8.7%]), prior stroke (153 of 3633 [4.2%] vs 1038 of 17 583 [5.9%]), prior VTE (843 [14.2%] vs 4697 [18.8%]), or cancer (724 [12.2%] vs 4697 [16.8%]) than those with proximal DVT but more likely to have had recent surgery (1692 [15.6%] vs 2572 [9.2%]) or estrogen/hormone therapy use (395 of 2926 [13.5%] vs 1400 of 14 433 [9.7%]) (<a href="#hoi220034t1" class="usa-link">Table</a>; eTable 1 in <a href="#note-HOI220034-1-s" class="usa-link">Supplement 1</a>).</p>
+<section class="tw xbox font-sm" id="hoi220034t1"><h3 class="obj_head">Table.  Demographic and Clinical Characteristics.</h3>
+<div class="tbl-box p" tabindex="0"><table class="content" frame="hsides" rules="groups">
+<col width="49.5%" span="1">
+<col width="26.22%" span="1">
+<col width="24.28%" span="1">
+<thead>
+<tr>
+<th rowspan="2" valign="top" align="left" scope="col" colspan="1">Characteristic</th>
+<th colspan="2" valign="top" align="left" scope="colgroup" rowspan="1">No./total No. (%)<a href="#hoi220034t1n1" class="usa-link"><sup><strong>a</strong></sup></a>
+</th>
+</tr>
+<tr>
+<th valign="top" colspan="1" align="left" scope="colgroup" rowspan="1">IDDVT (n = 5938)</th>
+<th valign="top" align="left" scope="col" rowspan="1" colspan="1">Proximal DVT (n = 27 959)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Female sex</td>
+<td valign="top" align="left" rowspan="1" colspan="1">2963 (49.9)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">13 644 (48.8)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Male sex</td>
+<td valign="top" align="left" rowspan="1" colspan="1">2975 (50.1)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">14 315 (51.2)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Age, mean (SD), y</td>
+<td valign="top" align="left" rowspan="1" colspan="1">61 (17)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">65 (18)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> BMI, mean (SD)<a href="#hoi220034t1n2" class="usa-link"><sup>b</sup></a>
+</td>
+<td valign="top" align="left" rowspan="1" colspan="1">27.6 (5.2)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">27.8 (5.2)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="col" rowspan="1" colspan="1">Underlying conditions</td>
+<td valign="top" align="left" rowspan="1" colspan="1"></td>
+<td valign="top" align="left" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Chronic lung disease</td>
+<td valign="top" align="left" rowspan="1" colspan="1">410 (6.9)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">2432 (8.7)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Chronic heart failure</td>
+<td valign="top" align="left" rowspan="1" colspan="1">238 (4.0)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1146 (4.1)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Diabetes (n = 21 358)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">438/3655 (12.0)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">2761/17 703 (15.6)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Hypertension (n = 21 703)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1476/3701 (39.9)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">8205/18 002 (45.6)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Prior myocardial infarction (n = 21 234)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">225/3641 (6.2)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1059/17 593 (6.0)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Prior ischemic stroke (n = 21 216)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">153/3633 (4.2)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1038/17 583 (5.9)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Recent major bleeding</td>
+<td valign="top" align="left" rowspan="1" colspan="1">107 (1.8)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">531(1.9)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Anemia</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1692 (28.5)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">9897 (35.4)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Platelet count, mean (SD), cells per mL</td>
+<td valign="top" align="left" rowspan="1" colspan="1">247 (91)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">234 (94)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Creatinine clearance, mean (SD), mL/min/1.73 m<sup>2</sup>
+</td>
+<td valign="top" align="left" rowspan="1" colspan="1">85 (39)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">79 (39)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Recent surgery</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1692 (15.6)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">2572 (9.2)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Recent immobility</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1384 (23.3)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">6794 (24.3)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Active cancer</td>
+<td valign="top" align="left" rowspan="1" colspan="1">724 (12.2)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">4697 (16.8)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Prior VTE</td>
+<td valign="top" align="left" rowspan="1" colspan="1">843 (14.2)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">4697 (16.8)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Pregnancy/puerperium (n = 16 462)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">58/2963 (2.0)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">536/13 644 (4.0)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Hormonal use among women (n = 17 369)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">395/2926 (13.5)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">1400/14 443 (9.7)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="col" rowspan="1" colspan="1">Symptoms</td>
+<td valign="top" align="left" rowspan="1" colspan="1"></td>
+<td valign="top" align="left" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Pain (n = 33 297)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">5261/5807 (90.6)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">24 142/27 490 (87.8)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Swelling (n = 33 260)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">4958/5765 (86.0)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">26 033/27 495 (94.7)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="col" rowspan="1" colspan="1">Vital signs</td>
+<td valign="top" align="left" rowspan="1" colspan="1"></td>
+<td valign="top" align="left" rowspan="1" colspan="1"></td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> SBP &lt;90 mm Hg (n = 30 752)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">90/5057 (1.8)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">800/25 695 (3.1)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> Heart rate &gt;100 bpm (n = 29 874)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">380/4827 (5.7)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">2996/25 047 (8.7)</td>
+</tr>
+<tr>
+<td valign="top" align="left" scope="row" rowspan="1" colspan="1"> SaO<sub>2</sub> &lt; 90% (n = 2837)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">26/330 (7.9)</td>
+<td valign="top" align="left" rowspan="1" colspan="1">174/2507 (6.9)</td>
+</tr>
+</tbody>
+</table></div>
+<div class="p text-right font-secondary"><a href="table/hoi220034t1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<div class="tw-foot p">
+<div class="fn" id="_fn_p38">
+<p>Abbreviations: BMI, body mass index; bpm, beats per minute; DVT, deep vein thrombosis; IDDVT, isolated distal DVT; SaO<sub>2</sub>, oxygen saturation; SBP, systolic blood pressure; VTE, venous thromboembolism.</p>
+<p>SI conversion factor: To convert creatinine clearance to milliliter per second per meter squared, multiply by 0.0167.</p>
+</div>
+<div class="fn" id="hoi220034t1n1">
+<sup>
+<sup>a</sup>
+</sup><p class="display-inline">Values listed as No. (%) unless otherwise specified.</p>
+</div>
+<div class="fn" id="hoi220034t1n2">
+<sup>
+<sup>b</sup>
+</sup><p class="display-inline">Calculated as weight in kilograms divided by height in meters squared.</p>
+</div>
+</div></section><section id="H2-4-HOI220034"><h3 class="pmc_sec_title">Treatment Patterns</h3>
+<p>Most patients with IDDVT or proximal DVT were given anticoagulation treatment (33 843 of 33 897 [99.8%]), most commonly with low-molecular-weight heparins. No patients with IDDVT received fibrinolytic therapy. An inferior vena cava filter was used in 33 patients (0.6%) with IDDVT. Albeit used rarely, both therapies were more commonly used for patients with proximal DVT.</p>
+<p>By 90-day follow-up, 90.9% of patients (5036 of 5541) with IDDVT and 97.0% of patients (25 027 of 25 792) with proximal DVT remained on anticoagulation. By 6-month and 1-year follow-up, the proportion of patients with IDDVT and proximal DVT who remained on anticoagulation were 69.1% (2215 of 3207) vs 83.4% (14 778 of 17 720) and 49.1% (817 of 1665) vs 64.2% (6453 of 10 047), respectively (<a href="#hoi220034f1" class="usa-link">Figure 1</a>). Additional details are summarized in eTable 2 in <a href="#note-HOI220034-1-s" class="usa-link">Supplement 1</a>.</p>
+<figure class="fig xbox font-sm" id="hoi220034f1"><h4 class="obj_head">Figure 1.  Use of Anticoagulation in Patients With Isolated Distal Deep Vein Thrombosis (IDDVT) and Patients With Proximal DVT.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=9280612_jamacardiol-e221988-g001.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bd6e/9280612/ef3ed24e6bf0/jamacardiol-e221988-g001.jpg" loading="lazy" height="612" width="798" alt="Figure 1. "></a></p>
+<div class="p text-right font-secondary"><a href="figure/hoi220034f1/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div></figure></section><section id="H2-5-HOI220034"><h3 class="pmc_sec_title">Short-term Mortality and Bleeding</h3>
+<p>At 30 days from enrollment, 64 patients (1.1%) with IDDVT died (95% CI, 0.9%-1.4%) compared with 760 patients (2.8%) with proximal DVT (95% CI, 2.6%-3.0%). Patients with IDDVT had a lower risk of 30-day all-cause mortality compared with those with proximal DVT (odds ratio [OR], 0.39; 95% CI, 0.30-0.51; <em>P</em> &lt; .001). Results attenuated after multivariable adjustment (OR, 0.71; 95% CI, 0.51-0.97). Among patients with IDDVT, there were only 3 deaths (0.05%) from PE at 30-day follow-up (95% CI, 0.01%-0.1%).</p>
+<p>By 90-day follow-up, 168 patients (2.9%) with IDDVT and 1642 patients (6.0%) with proximal DVT died. Therefore, patients with IDDVT had a lower risk of 90-day mortality compared with those with proximal DVT (OR, 0.47; 95% CI, 0.40-0.55; <em>P</em> &lt; .001). Results were similar after multivariable adjustment (OR, 0.65; 95% CI, 0.55-0.73; <em>P</em> &lt; .001). Among patients with IDDVT, the total number of PE deaths at 90 days was only 3 (0.05%). No significant difference in PE-related mortality was detected in patients with IDDVT compared with proximal DVT (OR, 0.49; 95% CI, 0.15-1.61; <em>P</em> = .23).</p>
+<p>At 30-day follow-up, major bleeding was less frequent in patients with IDDVT compared with proximal DVT (0.6% vs 1.2%; OR, 0.51; 95% CI, 0.36-0.72; <em>P</em> &lt; .001). The difference was attenuated but persisted after multivariable adjustment (OR, 0.60; 95% CI, 0.41-0.88; <em>P</em> = .009). Results were consistent at 90-day follow-up in bivariate (OR, 0.53; 95% CI, 0.40-0.71; <em>P</em> &lt; .001) and multivariable analysis (OR, 0.64; 95% CI, 0.48-0.86; <em>P</em> = .01) (<a href="#hoi220034f2" class="usa-link">Figure 2</a>).</p>
+<figure class="fig xbox font-sm" id="hoi220034f2"><h4 class="obj_head">Figure 2.  All-Cause Death and Major Bleeding Outcomes at 90 Days.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=9280612_jamacardiol-e221988-g002.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bd6e/9280612/b7a118452e83/jamacardiol-e221988-g002.jpg" loading="lazy" height="346" width="794" alt="Figure 2. "></a></p>
+<div class="p text-right font-secondary"><a href="figure/hoi220034f2/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Reference group (dotted vertical line) is proximal deep vein thrombosis. Point estimates are adjusted odds ratios (aORs), with 95% CIs shown in error bars.</p></figcaption></figure></section><section id="H2-6-HOI220034"><h3 class="pmc_sec_title">One-Year Mortality, VTE Recurrence, and Bleeding</h3>
+<p>By 1-year follow-up, patients with IDDVT had a lower hazard for all-cause mortality (hazard ratio [HR], 0.52; 95% CI, 0.46-0.59; <em>P</em> &lt; .001) (<a href="#hoi220034f3" class="usa-link">Figure 3</a>A). After adjustment for demographics, comorbidities, and VTE risk factors, the association attenuated but persisted (adjusted HR [aHR], 0.72; 95% CI, 0.64-0.82). By 1-year follow-up, there were only 3 PE-related deaths (0.05%) in patients with IDDVT.</p>
+<figure class="fig xbox font-sm" id="hoi220034f3"><h4 class="obj_head">Figure 3.  Cumulative Incidence Rate for All-Cause Mortality and Venous Thromboembolism (VTE) Deterioration.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=9280612_jamacardiol-e221988-g003.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bd6e/9280612/83b952a4998c/jamacardiol-e221988-g003.jpg" loading="lazy" height="1126" width="780" alt="Figure 3. "></a></p>
+<div class="p text-right font-secondary"><a href="figure/hoi220034f3/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>A, All-cause mortality. B, VTE deterioration. DVT indicates deep vein thrombosis; HR, hazard ratio.</p></figcaption></figure><p>There were 246 VTE deterioration events (4.5%) (PE, PE-related mortality, or new proximal DVT) at 1-year follow-up in patients with IDDVT and 1688 events in patients with proximal DVT (6.8%; HR, 0.83; 95% CI, 0.69-0.99; <em>P</em> = .04) (<a href="#hoi220034f3" class="usa-link">Figure 3</a>B). Findings were similar in multivariable analysis (aHR, 0.83; 95% CI, 0.69-1.00; <em>P</em> = .05).</p>
+<p>In a prespecified multivariable 1-year analysis among patients without an adverse event within first 90 days, after adjustment for demographics, comorbidities, VTE risk factors, and use of anticoagulation, IDDVT compared with proximal DVT was associated with lower hazard for VTE deterioration (HR, 0.42; 95% CI, 0.21-0.84) (eFigure 2 in <a href="#note-HOI220034-1-s" class="usa-link">Supplement 1</a>). Results remained consistent in multivariable analysis (aHR, 0.48; 95% CI, 0.24-0.97).</p>
+<p>By 1-year follow-up, patients with IDDVT, compared with those with proximal DVT, were at lower risk for major bleeding (HR, 0.69; 95% CI, 0.50-0.94; <em>P</em> &lt; .02). Results were no longer significant in multivariable analysis (aHR, 0.86; 95% CI, 0.64-1.16) (<a href="#hoi220034f4" class="usa-link">Figure 4</a>).</p>
+<figure class="fig xbox font-sm" id="hoi220034f4"><h4 class="obj_head">Figure 4.  All-Cause Death, Venous Thromboembolism (VTE), and Major Bleeding Outcomes at 1 Year.</h4>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=9280612_jamacardiol-e221988-g004.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bd6e/9280612/b1de83c3d24d/jamacardiol-e221988-g004.jpg" loading="lazy" height="451" width="794" alt="Figure 4. "></a></p>
+<div class="p text-right font-secondary"><a href="figure/hoi220034f4/" class="usa-link" target="_blank" rel="noopener noreferrer">Open in a new tab</a></div>
+<figcaption><p>Reference group (dotted vertical line) is proximal deep vein thrombosis. Point estimates are adjusted hazard ratios (aHRs), with 95% CIs shown in error bars.</p></figcaption></figure></section><section id="H2-7-HOI220034"><h3 class="pmc_sec_title">Symptoms and Signs of Postthrombotic Syndrome</h3>
+<p>Symptoms or signs of postthrombotic syndrome were available among 2133 patients at 1-year follow-up. Patients with IDDVT were less likely to have a composite of postthrombotic syndrome signs or symptoms than those with proximal DVT (47.5% vs 59.5%; OR, 0.59; 95% CI, 0.43-0.82; <em>P</em> = .001). Eight patients with IDDVT and 61 patients with proximal DVT had venous ulcers at 1-year follow-up. At 2-year follow-up, signs and symptoms for postthrombotic syndrome were less frequent in patients with IDDVT compared with those who had proximal DVT (36.8% vs 62.5%; HR, 0.34; 95% CI, 0.20-0.59; <em>P</em> &lt; .001).</p></section><section id="H2-8-HOI220034"><h3 class="pmc_sec_title">Outcomes in Patients With IDDVT Who Did Not Receive Anticoagulation</h3>
+<p>We identified 47 patients with IDDVT who did not receive anticoagulation. Compared with patients who received anticoagulation, those who did not receive anticoagulation for IDDVT had a higher relative frequency of history of recent major bleeding (11.0% vs 1.7%). In patients who did not receive anticoagulation, 90-day all-cause and PE-related mortality rates were 4.25% (95% CI, 0.79%-13.36%) and 0% (95% CI, 0%-7.56%). The rate of 90-day VTE deterioration was 4.25% (95% CI, 0.79%-13.36%). These rates were not significantly different from those with IDDVT who were anticoagulated. No major bleeding events occurred in patients who did not receive anticoagulation.</p></section><section id="H2-9-HOI220034"><h3 class="pmc_sec_title">One-Year and 2-Year Outcomes in Patients With IDDVT Who Discontinued Anticoagulation After the First 3 Months</h3>
+<p>Of 33 897 patients with DVT who survived the first 90 days after acute VTE, there were 1067 patients with IDDVT and 3486 patients with proximal DVT who permanently discontinued anticoagulation between days 91 and 180. Among such patients, those with IDDVT compared with those with proximal DVT had a lower hazard for all-cause mortality (HR, 0.26; 95% CI, 0.16-0.39; <em>P</em> &lt; .001) and for VTE deterioration (HR, 0.38; 95% CI, 0.19-0.75; <em>P</em> = .005) at 1-year follow-up. By 1-year follow-up, symptoms or signs of postthrombotic syndrome were less common in patients with IDDVT (47.6% vs 60.5%). Results were similar at 2-year follow-up (eTable 3 in <a href="#note-HOI220034-1-s" class="usa-link">Supplement 1</a>).</p></section></section><section id="H1-4-HOI220034"><h2 class="pmc_sec_title">Discussion</h2>
+<p>In this large cohort study of patients with IDDVT treated with initial anticoagulation, PE-related mortality was rare in short-term and 1-year follow-up. All-cause mortality, VTE deterioration, and major bleeding events were less frequent in patients with IDDVT than in those who had proximal DVT. In addition, IDDVT was less likely to be associated with signs or symptoms of postthrombotic syndrome at 1-year follow-up. Nevertheless, 1 in every 22 patients with IDDVT had recurrent VTE at 1-year follow-up, and more than 45% had some form of signs or symptoms of postthrombotic syndrome.</p>
+<p>We urge caution for appropriate interpretation of the study results. Patients with IDDVT had a lower burden of comorbidities and were more likely to have postoperative DVT than those with proximal DVT. Differences in outcomes for patients with IDDVT compared with proximal DVT may be related to inherent differences in the risk profile and characteristics in each group (ie, confounding), or a true difference as a result of the location of the DVT (IDDVT vs proximal DVT). For example, the difference in 1-year bleeding events in the 2 groups is implausible to be causal, and in fact, was no longer present after multivariable adjustment. This indicates the differences in patient profiles (confounding). In turn, the lower rate of VTE deterioration (composite of new PE, death from PE, or new proximal DVT) is plausible to be related to both patient profile (confounding) and the location of the DVT. For this outcome, the results remained consistent after multivariable analysis for demographics and comorbidities. In addition, among the small subgroup of patients with IDDVT who did not receive initial anticoagulation, no cases of PE-related mortality were identified. Adequately powered randomized clinical trials are required to understand if long-term management of IDDVT should be different from proximal DVT.<sup><a href="#hoi220034r19" class="usa-link" aria-describedby="hoi220034r19">19</a></sup> With respect to mortality outcomes, considering that PE-related mortality was relatively infrequent, confounding is an important possibility. Although the results were significant in multivariable analyses, the association between location of DVT and mortality may arise from residual (unmeasured) confounding. Therefore, the differences in mortality rates should not be considered as causal, but rather, related to differences in patient characteristics for those who developed IDDVT compared with proximal DVT.</p>
+<p>To our knowledge, very few other large-scale studies have assessed the risk factors and comorbidities in patients with IDDVT vs proximal DVT. In our study, patients with IDDVT had fewer comorbidities but were more likely to have had recent surgery, immobility, or use of hormonal therapy. Hormonal therapy, particularly estrogen-containing formulations, may be associated with increased risk of thrombotic events, such as VTE, and their indiscriminate use should be cautioned. Lower comorbidity burden in patients with IDDVT in RIETE is consistent with findings from the Global Anticoagulant Registry in the FIELD–Venous Thromboembolism (GARFIELD-VTE) registry<sup><a href="#hoi220034r9" class="usa-link" aria-describedby="hoi220034r9">9</a></sup> and analyses from the RE-COVER trial participants.<sup><a href="#hoi220034r20" class="usa-link" aria-describedby="hoi220034r20">20</a></sup> Nearly all patients in the current study underwent initial anticoagulant therapy, similar to the findings from the GARFIELD-VTE registry.<sup><a href="#hoi220034r9" class="usa-link" aria-describedby="hoi220034r9">9</a></sup></p>
+<p>Similarly, lower rate of short-term adverse events with IDDVT compared with proximal DVT is consistent with the results from GARFIELD-VTE.<sup><a href="#hoi220034r9" class="usa-link" aria-describedby="hoi220034r9">9</a></sup> That study, similar to the current investigation, also showed a lower 1-year hazard for mortality (HR, 0.61; 95% CI, 0.48-0.77), recurrent VTE (HR, 0.76; 95% CI, 0.60-0.97), and bleeding (HR, 0.69; 95% CI, 0.57-0.84) in patients with IDDVT compared with those who had proximal DVT. The current investigation builds on prior studies in several ways. The current study had a larger patient population, making it possible to provide more reliable estimates. Further, unlike prior investigations, we were able to assess the association between IDDVT (vs proximal DVT) and outcomes in multivariable analyses. Some outcomes are implausible to have a causal association with IDDVT. For example, our results suggested the long-term lower risk of bleeding in patients with IDDVT compared with patients who had proximal DVT. This difference, however, was no longer significant after multivariable adjustment for demographics, comorbidities, and anticoagulant treatment.</p>
+<p>With respect to subsequent VTE events, our findings are in agreement with the Xarelto for Long-term and Initial Anticoagulation in Venous Thromboembolism (XALIA) study, which included 1004 patients with IDDVT and 3098 with proximal DVT and the Optimisation de l’Interrogatoire pour la Maladie Thromboembolique Veineuse (OPTIMEV) study, including 259 patients with proximal DVT and 490 patients with IDDVT, both of which showed a lower risk of recurrent VTE in patients with IDDVT compared with proximal DVT.<sup><a href="#hoi220034r21" class="usa-link" aria-describedby="hoi220034r21">21</a>,<a href="#hoi220034r22" class="usa-link" aria-describedby="hoi220034r22">22</a></sup> As a novel addition, in this study, we demonstrated that the lower hazard of VTE deterioration by 1-year follow-up persisted in multivariable analyses. We confirmed these findings with additional analyses among patients with IDDVT who discontinued anticoagulation after the first 3 months compared with patients with proximal DVT.</p>
+<p>In additional prespecified analyses, this study showed that signs and symptoms of postthrombotic syndrome were less frequently observed in those with IDDVT compared with proximal DVT at 1-year and 2-year follow-up. These results are consistent with a recent analysis from the Compression vs Anticoagulant Treatment and Compression in Symptomatic Calf Thrombosis Diagnosed by Ultrasound (CACTUS) trial. That study of 178 participants showed that the risk of postthrombotic syndrome is substantial after IDDVT but much lower than that reported in patients with proximal DVT.<sup><a href="#hoi220034r23" class="usa-link" aria-describedby="hoi220034r23">23</a></sup> Similarly, in a study of 135 patients with DVT, at 3-year follow-up, IDDVT was associated with lower risk of postthrombotic syndrome.<sup><a href="#hoi220034r24" class="usa-link" aria-describedby="hoi220034r24">24</a></sup></p>
+<p>Collectively, findings from this study have important implications. We found less ominous outcomes with IDDVT compared with proximal DVT. Further, we demonstrated that some of these differences stem from a lower burden of comorbidities, with outcomes such as long-term risk of major bleeding not having a significant difference once accounting for demographics and comorbidities. However, we also demonstrated a lower risk of long-term outcomes, such as signs or symptoms of postthrombotic syndrome, and a lower risk of VTE deterioration in patients with IDDVT compared with proximal DVT; this difference persisted in multivariable analyses. To our knowledge, these findings have not been reported in prior studies and are aligned with the judgment of clinicians who consider IDDVT as a lower-risk entity than proximal DVT. Results related to all-cause mortality, in contrast, are likely driven by the differences in patient characteristics (ie, residual confounding).</p>
+<p>Nevertheless, the study also confirms that IDDVT is not entirely benign. Even in this population who received initial anticoagulation in more than 99% of participants, signs or symptoms of postthrombotic syndrome were present in more than 45% of patients. This is particularly concerning given that other than anticoagulation, no treatment has been proven to reduce the incidence of durable symptoms or the development of postthrombotic syndrome.<sup><a href="#hoi220034r25" class="usa-link" aria-describedby="hoi220034r25">25</a></sup> In addition, although the rates of VTE deterioration were low in patients with IDDVT, compared with those who had proximal DVT, such events were not trivial. The annual incidence of VTE in the general population is estimated around 104 to 183 per 100 000 person-years, which is much lower than the 4.5% rate of VTE deterioration observed in our study. Although PE was rarely the cause of death in patients with IDDVT, it is still proportionally a more common cause of death in these patients compared with the average population.<sup><a href="#hoi220034r26" class="usa-link" aria-describedby="hoi220034r26">26</a></sup></p>
+<section id="H2-10-HOI220034"><h3 class="pmc_sec_title">Strengths and Limitations</h3>
+<p>The current study should be considered in the context of its strengths and limitations. The strengths of this study included patient enrollment from a multinational registry representing small and large referral centers. The large pool of participants allowed for robust comparisons between those who had IDDVT and patients who had proximal DVT, without concern for type II error. Accounting for the competing risk of other events reduces the likelihood of biased estimates for nonmortality outcomes.</p>
+<p>This study had several limitations. First, fewer patients had 1-year and 2-year follow-up data on postthrombotic syndrome, which is consistent with dropout in other long-term follow-up studies. However, there is no reason to suspect the follow-up duration was differential in those with IDDVT vs proximal DVT. As for other clinical outcomes, 90-day follow-up was available in all patients, whereas longer follow-up was encouraged but not mandatory in the RIETE registry. As a result of losses to follow-up for 1-year clinical outcomes, dedicated large-scale studies with long-term follow-up are needed to improve the certainty of the long-term findings that we reported. Second, the RIETE registry did not distinguish the subtype of distal DVTs (ie, muscular calf veins [soleus, gastrocnemius] compared with tibial and peroneal veins).<sup><a href="#hoi220034r8" class="usa-link" aria-describedby="hoi220034r8">8</a></sup> Some prior studies failed to show a distinct pattern of subsequent outcomes based on the subtype of IDDVT.<sup><a href="#hoi220034r21" class="usa-link" aria-describedby="hoi220034r21">21</a></sup> Third, the differences in some outcomes were implausible to be causal. For example, the difference in 1-year bleeding events was driven by the differences in patient characteristics and was no longer significant after multivariable adjustment. For all-cause mortality, considering that PE-related mortality was relatively infrequent in both groups, the difference is most likely attributable to differences in patient profile (ie, confounding). Fourth, this study was not designed as a comparative effectiveness analysis of various treatment strategies among patients with IDDVT.<sup><a href="#hoi220034r27" class="usa-link" aria-describedby="hoi220034r27">27</a>,<a href="#hoi220034r28" class="usa-link" aria-describedby="hoi220034r28">28</a></sup> In our analyses, similar to those from the GARFIELD-VTE trial, the vast majority of patients with IDDVT received initial anticoagulation.<sup><a href="#hoi220034r9" class="usa-link" aria-describedby="hoi220034r9">9</a></sup> Considering the findings of this study, future studies should determine whether formal incorporation of IDDVT in risk stratification models can affect patient outcomes. In addition, future trials are needed to better understand the optimal intensity and duration of anticoagulation in patients with IDDVT. Of note, no adequately powered randomized clinical studies have yet determined the role of direct oral anticoagulants in patients with IDDVT.<sup><a href="#hoi220034r29" class="usa-link" aria-describedby="hoi220034r29">29</a></sup> Finally, routine screening was not a part of case ascertainment or identification of patients with VTE deterioration. Rather, such designations were based on signs and symptoms followed by objective testing at the discretion of treating clinicians. There are no large randomized clinical trials that have shown a net benefit for routine screening for DVT.<sup><a href="#hoi220034r30" class="usa-link" aria-describedby="hoi220034r30">30</a></sup> As such, routine screening is not advised in most practice guidelines.<sup><a href="#hoi220034r31" class="usa-link" aria-describedby="hoi220034r31">31</a>,<a href="#hoi220034r32" class="usa-link" aria-describedby="hoi220034r32">32</a>,<a href="#hoi220034r33" class="usa-link" aria-describedby="hoi220034r33">33</a></sup></p></section></section><section id="H1-5-HOI220034"><h2 class="pmc_sec_title">Conclusions</h2>
+<p>In this large, longitudinal, multicenter cohort study, patients with IDDVT had less ominous short-term and 1-year adverse events, including mortality and signs or symptoms, for postthrombotic syndrome compared with those who had proximal DVT. These differences were multifactorial; some, such as VTE deterioration, were only partially related to lower burden of comorbidities in patients with IDDVT, persisted in multivariable analyses, and may be relevant for risk stratification and treatment decisions. Other differences, such as lower mortality rates in patients with IDDVT compared with proximal DVT, are most likely related to differences in measured and unmeasured patient characteristics.</p></section><section id="note-HOI220034-1"><section class="sm xbox font-sm" id="note-HOI220034-1-s"><div class="caption p">
+<span>Supplement 1.</span><p><strong>eAppendix.</strong> RIETE Group Information</p>
+<p><strong>eTable 1.</strong> Hormonal Therapy Among Women With DVT</p>
+<p><strong>eTable 2.</strong> Anticoagulation Status During the Study Period</p>
+<p><strong>eTable 3.</strong> Long-term Outcomes in Patients Who Received at Least 90 Days of Anticoagulation and Discontinued Between Days 91-180</p>
+<p><strong>eFigure 1.</strong> Study Flow Diagram</p>
+<p><strong>eFigure 2.</strong> Cumulative Incidence Rate for VTE Deterioration in Patients Who Did Not Have an Adverse Event in the First 90 Days</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/9280612/bin/jamacardiol-e221988-s001.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (494.5KB, pdf) </sup>
+</div></div></section><section class="sm xbox font-sm" id="supplementary-material2"><div class="caption p">
+<span>Supplement 2.</span><p>RIETE Investigators</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/9280612/bin/jamacardiol-e221988-s002.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (153.1KB, pdf) </sup>
+</div></div></section></section><section id="REF-HOI220034" class="ref-list"><h2 class="pmc_sec_title">References</h2>
+<section id="REF-HOI220034_sec2"><ul class="ref-list font-sm" style="list-style-type:none">
+<li id="hoi220034r1">
+<span class="label">1.</span><cite>Robert-Ebadi H, Righini M. Management of distal deep vein thrombosis. Thromb Res. 2017;149:48-55. doi: 10.1016/j.thromres.2016.11.009</cite> [<a href="https://doi.org/10.1016/j.thromres.2016.11.009" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27889688/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Res&amp;title=Management%20of%20distal%20deep%20vein%20thrombosis&amp;volume=149&amp;publication_year=2017&amp;pages=48-55&amp;pmid=27889688&amp;doi=10.1016/j.thromres.2016.11.009&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r2">
+<span class="label">2.</span><cite>Galanaud JP, Sevestre-Pietri MA, Bosson JL, et al. ; OPTIMEV-SFMV Investigators . Comparative study on risk factors and early outcome of symptomatic distal versus proximal deep vein thrombosis: results from the OPTIMEV study. Thromb Haemost. 2009;102(3):493-500. doi: 10.1160/TH09-01-0053</cite> [<a href="https://doi.org/10.1160/TH09-01-0053" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19718469/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Haemost&amp;title=Comparative%20study%20on%20risk%20factors%20and%20early%20outcome%20of%20symptomatic%20distal%20versus%20proximal%20deep%20vein%20thrombosis:%20results%20from%20the%20OPTIMEV%20study&amp;volume=102&amp;issue=3&amp;publication_year=2009&amp;pages=493-500&amp;pmid=19718469&amp;doi=10.1160/TH09-01-0053&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r3">
+<span class="label">3.</span><cite>Galanaud JP, Quenet S, Rivron-Guillot K, et al. ; RIETE Investigators . Comparison of the clinical history of symptomatic isolated distal deep vein thrombosis vs proximal deep vein thrombosis in 11 086 patients. J Thromb Haemost. 2009;7(12):2028-2034. doi: 10.1111/j.1538-7836.2009.03629.x</cite> [<a href="https://doi.org/10.1111/j.1538-7836.2009.03629.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19793188/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Haemost&amp;title=Comparison%20of%20the%20clinical%20history%20of%20symptomatic%20isolated%20distal%20deep%20vein%20thrombosis%20vs%20proximal%20deep%20vein%20thrombosis%20in%2011%20086%20patients&amp;volume=7&amp;issue=12&amp;publication_year=2009&amp;pages=2028-2034&amp;pmid=19793188&amp;doi=10.1111/j.1538-7836.2009.03629.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r4">
+<span class="label">4.</span><cite>Spencer FA, Kroll A, Lessard D, et al. Isolated calf deep vein thrombosis in the community setting: the Worcester Venous Thromboembolism study. J Thromb Thrombolysis. 2012;33(3):211-217. doi: 10.1007/s11239-011-0670-x</cite> [<a href="https://doi.org/10.1007/s11239-011-0670-x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22261699/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Thrombolysis&amp;title=Isolated%20calf%20deep%20vein%20thrombosis%20in%20the%20community%20setting:%20the%20Worcester%20Venous%20Thromboembolism%20study&amp;volume=33&amp;issue=3&amp;publication_year=2012&amp;pages=211-217&amp;pmid=22261699&amp;doi=10.1007/s11239-011-0670-x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r5">
+<span class="label">5.</span><cite>Brateanu A, Patel K, Chagin K, et al. Probability of developing proximal deep-vein thrombosis and/or pulmonary embolism after distal deep vein thrombosis. Thromb Haemost. 2016;115(3):608-614. doi: 10.1160/th15-06-0503</cite> [<a href="https://doi.org/10.1160/th15-06-0503" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26660731/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Haemost&amp;title=Probability%20of%20developing%20proximal%20deep-vein%20thrombosis%20and/or%20pulmonary%20embolism%20after%20distal%20deep%20vein%20thrombosis&amp;volume=115&amp;issue=3&amp;publication_year=2016&amp;pages=608-614&amp;pmid=26660731&amp;doi=10.1160/th15-06-0503&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r6">
+<span class="label">6.</span><cite>Porfidia A, Carnicelli A, Bonadia N, Pola R, Landolfi R. Controversies in venous thromboembolism: the unique case of isolated distal deep vein thrombosis. Intern Emerg Med. 2016;11(6):775-779. doi: 10.1007/s11739-016-1453-3</cite> [<a href="https://doi.org/10.1007/s11739-016-1453-3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27126683/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Intern%20Emerg%20Med&amp;title=Controversies%20in%20venous%20thromboembolism:%20the%20unique%20case%20of%20isolated%20distal%20deep%20vein%20thrombosis&amp;volume=11&amp;issue=6&amp;publication_year=2016&amp;pages=775-779&amp;pmid=27126683&amp;doi=10.1007/s11739-016-1453-3&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r7">
+<span class="label">7.</span><cite>Mazzolai L, Aboyans V, Ageno W, et al. Diagnosis and management of acute deep vein thrombosis: a joint consensus document from the European Society of Cardiology working groups of aorta and peripheral circulation and pulmonary circulation and right ventricular function. Eur Heart J. 2018;39(47):4208-4218. doi: 10.1093/eurheartj/ehx003</cite> [<a href="https://doi.org/10.1093/eurheartj/ehx003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28329262/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20Heart%20J&amp;title=Diagnosis%20and%20management%20of%20acute%20deep%20vein%20thrombosis:%20a%20joint%20consensus%20document%20from%20the%20European%20Society%20of%20Cardiology%20working%20groups%20of%20aorta%20and%20peripheral%20circulation%20and%20pulmonary%20circulation%20and%20right%20ventricular%20function&amp;volume=39&amp;issue=47&amp;publication_year=2018&amp;pages=4208-4218&amp;pmid=28329262&amp;doi=10.1093/eurheartj/ehx003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r8">
+<span class="label">8.</span><cite>Kearon C, Akl EA, Ornelas J, et al. Antithrombotic therapy for VTE disease: CHEST guideline and expert panel report. Chest. 2016;149(2):315-352. doi: 10.1016/j.chest.2015.11.026</cite> [<a href="https://doi.org/10.1016/j.chest.2015.11.026" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26867832/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Chest&amp;title=Antithrombotic%20therapy%20for%20VTE%20disease:%20CHEST%20guideline%20and%20expert%20panel%20report&amp;volume=149&amp;issue=2&amp;publication_year=2016&amp;pages=315-352&amp;pmid=26867832&amp;doi=10.1016/j.chest.2015.11.026&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r9">
+<span class="label">9.</span><cite>Schellong SM, Goldhaber SZ, Weitz JI, et al. Isolated distal deep vein thrombosis: perspectives from the GARFIELD-VTE registry. Thromb Haemost. 2019;119(10):1675-1685. doi: 10.1055/s-0039-1693461</cite> [<a href="https://doi.org/10.1055/s-0039-1693461" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31370075/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Haemost&amp;title=Isolated%20distal%20deep%20vein%20thrombosis:%20perspectives%20from%20the%20GARFIELD-VTE%20registry&amp;volume=119&amp;issue=10&amp;publication_year=2019&amp;pages=1675-1685&amp;pmid=31370075&amp;doi=10.1055/s-0039-1693461&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r10">
+<span class="label">10.</span><cite>Barco S, Corti M, Trinchero A, et al. Survival and recurrent venous thromboembolism in patients with first proximal or isolated distal deep vein thrombosis and no pulmonary embolism. J Thromb Haemost. 2017;15(7):1436-1442. doi: 10.1111/jth.13713</cite> [<a href="https://doi.org/10.1111/jth.13713" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/28439954/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Haemost&amp;title=Survival%20and%20recurrent%20venous%20thromboembolism%20in%20patients%20with%20first%20proximal%20or%20isolated%20distal%20deep%20vein%20thrombosis%20and%20no%20pulmonary%20embolism&amp;volume=15&amp;issue=7&amp;publication_year=2017&amp;pages=1436-1442&amp;pmid=28439954&amp;doi=10.1111/jth.13713&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r11">
+<span class="label">11.</span><cite>Krutman M, Kuzniec S, Ramacciotti E, et al. Rediscussing anticoagulation in distal deep venous thrombosis. Clin Appl Thromb Hemost. 2016;22(8):772-778. doi: 10.1177/1076029615627343</cite> [<a href="https://doi.org/10.1177/1076029615627343" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26787712/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Clin%20Appl%20Thromb%20Hemost&amp;title=Rediscussing%20anticoagulation%20in%20distal%20deep%20venous%20thrombosis&amp;volume=22&amp;issue=8&amp;publication_year=2016&amp;pages=772-778&amp;pmid=26787712&amp;doi=10.1177/1076029615627343&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r12">
+<span class="label">12.</span><cite>Bikdeli B, Jimenez D, Hawkins M, et al. ; RIETE Investigators . Rationale, design, and methodology of the Computerized Registry of Patients with Venous Thromboembolism (RIETE). Thromb Haemost. 2018;118(1):214-224. doi: 10.1160/TH17-07-0511</cite> [<a href="https://doi.org/10.1160/TH17-07-0511" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC5821113/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/29304541/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Haemost&amp;title=Rationale,%20design,%20and%20methodology%20of%20the%20Computerized%20Registry%20of%20Patients%20with%20Venous%20Thromboembolism%20(RIETE)&amp;volume=118&amp;issue=1&amp;publication_year=2018&amp;pages=214-224&amp;pmid=29304541&amp;doi=10.1160/TH17-07-0511&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r13">
+<span class="label">13.</span><cite>Tzoran I, Brenner B, Papadakis M, Di Micco P, Monreal M. VTE Registry: what can be learned from RIETE?
+Rambam Maimonides Med J. 2014;5(4):e0037. doi: 10.5041/RMMJ.10171</cite> [<a href="https://doi.org/10.5041/RMMJ.10171" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC4222426/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25386353/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Rambam%20Maimonides%20Med%20J&amp;title=VTE%20Registry:%20what%20can%20be%20learned%20from%20RIETE?&amp;volume=5&amp;issue=4&amp;publication_year=2014&amp;pages=e0037&amp;pmid=25386353&amp;doi=10.5041/RMMJ.10171&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r14">
+<span class="label">14.</span><cite>Guijarro R, Montes J, Sanromán C, Monreal M; RIETE Investigators . Venous thromboembolism in Spain: comparison between an administrative database and the RIETE registry. Eur J Intern Med. 2008;19(6):443-446. doi: 10.1016/j.ejim.2007.06.026</cite> [<a href="https://doi.org/10.1016/j.ejim.2007.06.026" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/18848178/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Eur%20J%20Intern%20Med&amp;title=Venous%20thromboembolism%20in%20Spain:%20comparison%20between%20an%20administrative%20database%20and%20the%20RIETE%20registry&amp;volume=19&amp;issue=6&amp;publication_year=2008&amp;pages=443-446&amp;pmid=18848178&amp;doi=10.1016/j.ejim.2007.06.026&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r15">
+<span class="label">15.</span><cite>Bikdeli B, Madhavan MV, Jimenez D, et al. ; Global COVID-19 Thrombosis Collaborative Group; Endorsed by the ISTH, NATF, ESVM, and the IUA; Supported by the ESC Working Group on Pulmonary Circulation and Right Ventricular Function . COVID-19 and thrombotic or thromboembolic disease: implications for prevention, antithrombotic therapy, and follow-up: JACC state-of-the-art review. J Am Coll Cardiol. 2020;75(23):2950-2973. doi: 10.1016/j.jacc.2020.04.031</cite> [<a href="https://doi.org/10.1016/j.jacc.2020.04.031" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7164881/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32311448/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Am%20Coll%20Cardiol&amp;title=COVID-19%20and%20thrombotic%20or%20thromboembolic%20disease:%20implications%20for%20prevention,%20antithrombotic%20therapy,%20and%20follow-up:%20JACC%20state-of-the-art%20review&amp;volume=75&amp;issue=23&amp;publication_year=2020&amp;pages=2950-2973&amp;pmid=32311448&amp;doi=10.1016/j.jacc.2020.04.031&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r16">
+<span class="label">16.</span><cite>Bikdeli B, Madhavan MV, Gupta A, et al. ; Global COVID-19 Thrombosis Collaborative Group . Pharmacological agents targeting thromboinflammation in COVID-19: review and implications for future research. Thromb Haemost. 2020;120(7):1004-1024. doi: 10.1055/s-0040-1713152</cite> [<a href="https://doi.org/10.1055/s-0040-1713152" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC7516364/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/32473596/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Haemost&amp;title=Pharmacological%20agents%20targeting%20thromboinflammation%20in%20COVID-19:%20review%20and%20implications%20for%20future%20research&amp;volume=120&amp;issue=7&amp;publication_year=2020&amp;pages=1004-1024&amp;pmid=32473596&amp;doi=10.1055/s-0040-1713152&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r17">
+<span class="label">17.</span><cite>Fernández-Capitán C, Barba R, Díaz-Pedroche MDC, et al. Presenting characteristics, treatment patterns, and outcomes among patients with venous thromboembolism during hospitalization for COVID-19. Semin Thromb Hemost. 2021;47(4):351-361. doi: 10.1055/s-0040-1718402</cite> [<a href="https://doi.org/10.1055/s-0040-1718402" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33086403/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Semin%20Thromb%20Hemost&amp;title=Presenting%20characteristics,%20treatment%20patterns,%20and%20outcomes%20among%20patients%20with%20venous%20thromboembolism%20during%20hospitalization%20for%20COVID-19&amp;volume=47&amp;issue=4&amp;publication_year=2021&amp;pages=351-361&amp;pmid=33086403&amp;doi=10.1055/s-0040-1718402&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r18">
+<span class="label">18.</span><cite>Schulman S, Angerås U, Bergqvist D, Eriksson B, Lassen MR, Fisher W; Subcommittee on Control of Anticoagulation of the Scientific and Standardization Committee of the International Society on Thrombosis and Haemostasis . Definition of major bleeding in clinical investigations of antihemostatic medicinal products in surgical patients. J Thromb Haemost. 2010;8(1):202-204. doi: 10.1111/j.1538-7836.2009.03678.x</cite> [<a href="https://doi.org/10.1111/j.1538-7836.2009.03678.x" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/19878532/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Haemost&amp;title=Definition%20of%20major%20bleeding%20in%20clinical%20investigations%20of%20antihemostatic%20medicinal%20products%20in%20surgical%20patients&amp;volume=8&amp;issue=1&amp;publication_year=2010&amp;pages=202-204&amp;pmid=19878532&amp;doi=10.1111/j.1538-7836.2009.03678.x&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r19">
+<span class="label">19.</span><cite>Bikdeli B, Tajrishi FZ, Sadeghipour P, et al. Efficacy and safety considerations with dose-reduced direct oral anticoagulants: a review. JAMA Cardiol. Published online June 1, 2022. doi: 10.1001/jamacardio.2022.1292</cite> [<a href="https://doi.org/10.1001/jamacardio.2022.1292" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/35648414/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA%20Cardiol&amp;title=Efficacy%20and%20safety%20considerations%20with%20dose-reduced%20direct%20oral%20anticoagulants:%20a%20review&amp;pmid=35648414&amp;doi=10.1001/jamacardio.2022.1292&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r20">
+<span class="label">20.</span><cite>Schellong S, Ageno W, Casella IB, et al. Profile of patients with isolated distal deep vein thrombosis vs proximal deep vein thrombosis or pulmonary embolism: RE-COVERY DVT/PE study. Semin Thromb Hemost. 2021. doi: 10.1055/s-0041-1729169</cite> [<a href="https://doi.org/10.1055/s-0041-1729169" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC9246482/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33971682/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Semin%20Thromb%20Hemost&amp;title=Profile%20of%20patients%20with%20isolated%20distal%20deep%20vein%20thrombosis%20vs%20proximal%20deep%20vein%20thrombosis%20or%20pulmonary%20embolism:%20RE-COVERY%20DVT/PE%20study&amp;publication_year=2021&amp;pmid=33971682&amp;doi=10.1055/s-0041-1729169&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r21">
+<span class="label">21.</span><cite>Galanaud JP, Sevestre MA, Genty C, et al. ; OPTIMEV-SFMV investigators . Incidence and predictors of venous thromboembolism recurrence after a first isolated distal deep vein thrombosis. J Thromb Haemost. 2014;12(4):436-443. doi: 10.1111/jth.12512</cite> [<a href="https://doi.org/10.1111/jth.12512" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/24450376/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Haemost&amp;title=Incidence%20and%20predictors%20of%20venous%20thromboembolism%20recurrence%20after%20a%20first%20isolated%20distal%20deep%20vein%20thrombosis&amp;volume=12&amp;issue=4&amp;publication_year=2014&amp;pages=436-443&amp;pmid=24450376&amp;doi=10.1111/jth.12512&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r22">
+<span class="label">22.</span><cite>Ageno W, Mantovani LG, Haas S, et al. Patient management strategies and long-term outcomes in isolated distal deep vein thrombosis vs proximal deep vein thrombosis: findings from XALIA. TH Open. 2019;3(1):e85-e93. doi: 10.1055/s-0039-1683968</cite> [<a href="https://doi.org/10.1055/s-0039-1683968" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6524913/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31249987/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=TH%20Open&amp;title=Patient%20management%20strategies%20and%20long-term%20outcomes%20in%20isolated%20distal%20deep%20vein%20thrombosis%20vs%20proximal%20deep%20vein%20thrombosis:%20findings%20from%20XALIA&amp;volume=3&amp;issue=1&amp;publication_year=2019&amp;pages=e85-e93&amp;pmid=31249987&amp;doi=10.1055/s-0039-1683968&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r23">
+<span class="label">23.</span><cite>Galanaud JP, Righini M, Le Collen L, et al. Long-term risk of postthrombotic syndrome after symptomatic distal deep vein thrombosis: the CACTUS-PTS study. J Thromb Haemost. 2020;18(4):857-864. doi: 10.1111/jth.14728</cite> [<a href="https://doi.org/10.1111/jth.14728" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31899848/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Haemost&amp;title=Long-term%20risk%20of%20postthrombotic%20syndrome%20after%20symptomatic%20distal%20deep%20vein%20thrombosis:%20the%20CACTUS-PTS%20study&amp;volume=18&amp;issue=4&amp;publication_year=2020&amp;pages=857-864&amp;pmid=31899848&amp;doi=10.1111/jth.14728&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r24">
+<span class="label">24.</span><cite>Hach-Wunderle V, Bauersachs R, Gerlach HE, et al. Postthrombotic syndrome 3 years after deep venous thrombosis in the Thrombosis and Pulmonary Embolism in Out-Patients (TULIPA) PLUS registry. J Vasc Surg Venous Lymphat Disord. 2013;1(1):5-12. doi: 10.1016/j.jvsv.2012.07.003</cite> [<a href="https://doi.org/10.1016/j.jvsv.2012.07.003" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/26993886/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Vasc%20Surg%20Venous%20Lymphat%20Disord&amp;title=Postthrombotic%20syndrome%203%20years%20after%20deep%20venous%20thrombosis%20in%20the%20Thrombosis%20and%20Pulmonary%20Embolism%20in%20Out-Patients%20(TULIPA)%20PLUS%20registry&amp;volume=1&amp;issue=1&amp;publication_year=2013&amp;pages=5-12&amp;pmid=26993886&amp;doi=10.1016/j.jvsv.2012.07.003&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r25">
+<span class="label">25.</span><cite>Kahn SR, Comerota AJ, Cushman M, et al. ; American Heart Association Council on Peripheral Vascular Disease, Council on Clinical Cardiology, and Council on Cardiovascular and Stroke Nursing . The postthrombotic syndrome: evidence-based prevention, diagnosis, and treatment strategies: a scientific statement from the American Heart Association. Circulation. 2014;130(18):1636-1661. doi: 10.1161/CIR.0000000000000130</cite> [<a href="https://doi.org/10.1161/CIR.0000000000000130" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/25246013/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Circulation&amp;title=The%20postthrombotic%20syndrome:%20evidence-based%20prevention,%20diagnosis,%20and%20treatment%20strategies:%20a%20scientific%20statement%20from%20the%20American%20Heart%20Association&amp;volume=130&amp;issue=18&amp;publication_year=2014&amp;pages=1636-1661&amp;pmid=25246013&amp;doi=10.1161/CIR.0000000000000130&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r26">
+<span class="label">26.</span><cite>Barco S, Mahmoudpour SH, Valerio L, et al. Trends in mortality related to pulmonary embolism in the European Region, 2000-15: analysis of vital registration data from the WHO mortality database. Lancet Respir Med. 2020;8(3):277-287. doi: 10.1016/S2213-2600(19)30354-6</cite> [<a href="https://doi.org/10.1016/S2213-2600(19)30354-6" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31615719/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Lancet%20Respir%20Med&amp;title=Trends%20in%20mortality%20related%20to%20pulmonary%20embolism%20in%20the%20European%20Region,%202000-15:%20analysis%20of%20vital%20registration%20data%20from%20the%20WHO%20mortality%20database&amp;volume=8&amp;issue=3&amp;publication_year=2020&amp;pages=277-287&amp;pmid=31615719&amp;doi=10.1016/S2213-2600(19)30354-6&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r27">
+<span class="label">27.</span><cite>Chopard R, Albertsen IE, Piazza G. Diagnosis and treatment of lower extremity venous thromboembolism: a review. JAMA. 2020;324(17):1765-1776. doi: 10.1001/jama.2020.17272</cite> [<a href="https://doi.org/10.1001/jama.2020.17272" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33141212/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=JAMA&amp;title=Diagnosis%20and%20treatment%20of%20lower%20extremity%20venous%20thromboembolism:%20a%20review&amp;volume=324&amp;issue=17&amp;publication_year=2020&amp;pages=1765-1776&amp;pmid=33141212&amp;doi=10.1001/jama.2020.17272&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r28">
+<span class="label">28.</span><cite>Righini M, Galanaud JP, Guenneguez H, et al. Anticoagulant therapy for symptomatic calf deep vein thrombosis (CACTUS): a randomised, double-blind, placebo-controlled trial. Lancet Haematol. 2016;3(12):e556-e562. doi: 10.1016/S2352-3026(16)30131-4</cite> [<a href="https://doi.org/10.1016/S2352-3026(16)30131-4" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/27836513/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Lancet%20Haematol&amp;title=Anticoagulant%20therapy%20for%20symptomatic%20calf%20deep%20vein%20thrombosis%20(CACTUS):%20a%20randomised,%20double-blind,%20placebo-controlled%20trial&amp;volume=3&amp;issue=12&amp;publication_year=2016&amp;pages=e556-e562&amp;pmid=27836513&amp;doi=10.1016/S2352-3026(16)30131-4&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r29">
+<span class="label">29.</span><cite>Galanaud JP, Trujillo-Santos J, Bikdeli B, et al. ; RIETE Investigators . Management of isolated distal deep vein thrombosis with direct oral anticoagulants in the RIETE registry. J Thromb Haemost. 2021;52(2):532-541. doi: 10.1007/s11239-020-02347-6</cite> [<a href="https://doi.org/10.1007/s11239-020-02347-6" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/33247808/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=J%20Thromb%20Haemost&amp;title=Management%20of%20isolated%20distal%20deep%20vein%20thrombosis%20with%20direct%20oral%20anticoagulants%20in%20the%20RIETE%20registry&amp;volume=52&amp;issue=2&amp;publication_year=2021&amp;pages=532-541&amp;pmid=33247808&amp;doi=10.1007/s11239-020-02347-6&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r30">
+<span class="label">30.</span><cite>Schmidt B, Michler R, Klein M, Faulmann G, Weber C, Schellong S. Ultrasound screening for distal vein thrombosis is not beneficial after major orthopedic surgery: a randomized controlled trial. Thromb Haemost. 2003;90(5):949-954.</cite> [<a href="https://doi.org/10.1160/TH03-03-0154" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/14597992/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Thromb%20Haemost&amp;title=Ultrasound%20screening%20for%20distal%20vein%20thrombosis%20is%20not%20beneficial%20after%20major%20orthopedic%20surgery:%20a%20randomized%20controlled%20trial&amp;volume=90&amp;issue=5&amp;publication_year=2003&amp;pages=949-954&amp;pmid=14597992&amp;doi=10.1160/TH03-03-0154&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r31">
+<span class="label">31.</span><cite>Falck-Ytter Y, Francis CW, Johanson NA, et al. Prevention of VTE in orthopedic surgery patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012;141(2):e278S-e325S. doi: 10.1378/chest.11-2404</cite> [<a href="https://doi.org/10.1378/chest.11-2404" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3278063/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22315265/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Chest&amp;title=Prevention%20of%20VTE%20in%20orthopedic%20surgery%20patients:%20Antithrombotic%20Therapy%20and%20Prevention%20of%20Thrombosis,%209th%20ed:%20American%20College%20of%20Chest%20Physicians%20Evidence-Based%20Clinical%20Practice%20Guidelines&amp;volume=141&amp;issue=2&amp;publication_year=2012&amp;pages=e278S-e325S&amp;pmid=22315265&amp;doi=10.1378/chest.11-2404&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r32">
+<span class="label">32.</span><cite>Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in nonorthopedic surgical patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012;141(2):e227S-e277S. doi: 10.1378/chest.11-2297</cite> [<a href="https://doi.org/10.1378/chest.11-2297" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC3278061/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/22315263/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Chest&amp;title=Prevention%20of%20VTE%20in%20nonorthopedic%20surgical%20patients:%20Antithrombotic%20Therapy%20and%20Prevention%20of%20Thrombosis,%209th%20ed:%20American%20College%20of%20Chest%20Physicians%20Evidence-Based%20Clinical%20Practice%20Guidelines&amp;volume=141&amp;issue=2&amp;publication_year=2012&amp;pages=e227S-e277S&amp;pmid=22315263&amp;doi=10.1378/chest.11-2297&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+<li id="hoi220034r33">
+<span class="label">33.</span><cite>Anderson DR, Morgano GP, Bennett C, et al. American Society of Hematology 2019 guidelines for management of venous thromboembolism: prevention of venous thromboembolism in surgical hospitalized patients. Blood Adv. 2019;3(23):3898-3944. doi: 10.1182/bloodadvances.2019000975</cite> [<a href="https://doi.org/10.1182/bloodadvances.2019000975" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">DOI</a>] [<a href="/articles/PMC6963238/" class="usa-link">PMC free article</a>] [<a href="https://pubmed.ncbi.nlm.nih.gov/31794602/" class="usa-link">PubMed</a>] [<a href="https://scholar.google.com/scholar_lookup?journal=Blood%20Adv&amp;title=American%20Society%20of%20Hematology%202019%20guidelines%20for%20management%20of%20venous%20thromboembolism:%20prevention%20of%20venous%20thromboembolism%20in%20surgical%20hospitalized%20patients&amp;volume=3&amp;issue=23&amp;publication_year=2019&amp;pages=3898-3944&amp;pmid=31794602&amp;doi=10.1182/bloodadvances.2019000975&amp;" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</li>
+</ul></section></section><section id="_ad93_" lang="en" class="associated-data"><h2 class="pmc_sec_title">Associated Data</h2>
+<p class="font-secondary"><em>This section collects any data citations, data availability statements, or supplementary materials included in this article.</em></p>
+<section id="_adsm93_" lang="en" class="supplementary-materials"><h3 class="pmc_sec_title">Supplementary Materials</h3>
+<section class="sm xbox font-sm" id="db_ds_supplementary-material1_reqid_"><div class="caption p">
+<span>Supplement 1.</span><p><strong>eAppendix.</strong> RIETE Group Information</p>
+<p><strong>eTable 1.</strong> Hormonal Therapy Among Women With DVT</p>
+<p><strong>eTable 2.</strong> Anticoagulation Status During the Study Period</p>
+<p><strong>eTable 3.</strong> Long-term Outcomes in Patients Who Received at Least 90 Days of Anticoagulation and Discontinued Between Days 91-180</p>
+<p><strong>eFigure 1.</strong> Study Flow Diagram</p>
+<p><strong>eFigure 2.</strong> Cumulative Incidence Rate for VTE Deterioration in Patients Who Did Not Have an Adverse Event in the First 90 Days</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/9280612/bin/jamacardiol-e221988-s001.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (494.5KB, pdf) </sup>
+</div></div></section><section class="sm xbox font-sm" id="db_ds_supplementary-material2_reqid_"><div class="caption p">
+<span>Supplement 2.</span><p>RIETE Investigators</p>
+</div>
+<div class="media p"><div class="caption">
+<a href="/articles/instance/9280612/bin/jamacardiol-e221988-s002.pdf" data-ga-action="click_feat_suppl" class="usa-link">Click here for additional data file.</a><sup> (153.1KB, pdf) </sup>
+</div></div></section></section></section></section><footer class="p courtesy-note font-secondary font-sm text-center"><hr class="headless">
+<p>Articles from JAMA Cardiology are provided here courtesy of <strong>American Medical Association</strong></p></footer></section></article>
+
+                      
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+<!-- Secondary navigation placeholder -->
+<div class="pmc-sidenav desktop:grid-col-4 display-flex">
+    <section class="pmc-sidenav__container" aria-label="Article resources and navigation">
+        <button type="button" class="pmc-sidenav__container__close">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/usa-icons/close.svg" role="img" alt="Close" />
+        </button>
+    <div class="display-none desktop:display-block">
+       <section class="margin-top-4 desktop:margin-top-0">
+              <h2 class="margin-top-0">ACTIONS</h2>
+           <ul class="usa-list usa-list--unstyled usa-list--actions">
+               
+               <li>
+                     <a
+                             href="https://doi.org/10.1001/jamacardio.2022.1988"
+                             class="usa-button usa-button--outline width-24 font-xs display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                             target="_blank"
+                             rel="noreferrer noopener"
+                             data-ga-category="actions"
+                             data-ga-action="click"
+                             data-ga-label="publisher_link_desktop"
+                     >
+                         <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/launch.svg" alt="View on publisher site icon" class="usa-icon usa-icon--size-3 usa-icon--link"/>
+                         <span class="display-inline-flex flex-justify-center flex-1 padding-right-2">View on publisher site</span>
+                     </a>
+               </li>
+               
+               
+                
+               <li>
+                   <button role="button" class="usa-button width-24 citation-dialog-trigger display-inline-flex flex-align-center flex-justify-start padding-left-1"
+                        aria-label="Open dialog with citation text in different styles"
+                        data-ga-category="actions"
+                        data-ga-action="open"
+                        data-ga-label="cite_desktop"
+                        data-all-citations-url="/resources/citations/9280612/"
+                        data-citation-style="nlm"
+                        data-download-format-link="/resources/citations/9280612/export/"
+                    >
+                       <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/format_quote.svg" alt="Cite icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                       <span class="display-inline-flex flex-justify-center flex-1 button-label">Cite</span>
+                    </button>
+               </li>
+                
+               <li>
+
+                        <button class="usa-button width-24 collections-dialog-trigger collections-button display-inline-flex flex-align-center flex-justify-start padding-left-1 collections-button-empty"
+                              aria-label="Save article in MyNCBI collections."
+                              data-ga-category="actions"
+                              data-ga-action="click"
+                              data-ga-label="collections_button_desktop"
+                              data-collections-open-dialog-enabled="false"
+                              data-collections-open-dialog-url="https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpmc.ncbi.nlm.nih.gov%2Farticles%2FPMC9280612%2F%23open-collections-dialog"
+                              data-in-collections="false">
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-full.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-full" hidden />
+                            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/action-bookmark-empty.svg" alt="Collections icon" class="usa-icon usa-icon--size-3 usa-icon--white usa-icon--bookmark-empty" hidden />
+                            <span class="display-inline-flex flex-justify-center flex-1">Collections</span>
+                       </button>
+               </li>
+               <li class="pmc-permalink">
+                    <button
+                            type="button"
+                            class="usa-button width-24 display-inline-flex flex-align-center flex-justify padding-left-1 shadow-none"
+                            aria-label="Show article permalink"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            data-ga-category="actions"
+                            data-ga-action="open"
+                            data-ga-label="permalink_desktop"
+                    >
+                        <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/share.svg" alt="Permalink icon" class="usa-icon usa-icon--size-3 usa-icon--white"/>
+                        <span class="display-inline-flex flex-justify-center flex-1 button-label">Permalink</span>
+                    </button>
+                   
+
+<div class="pmc-permalink__dropdown" hidden>
+    <div class="pmc-permalink__dropdown__container">
+          <h2 class="usa-modal__heading margin-top-0 margin-bottom-2 text-uppercase font-sans-xs">PERMALINK</h2>
+          <div class="pmc-permalink__dropdown__content">
+              <input type="text" class="usa-input" value="https://pmc.ncbi.nlm.nih.gov/articles/PMC9280612/" aria-label="Article permalink">
+              <button class="usa-button display-inline-flex pmc-permalink__dropdown__copy__btn margin-right-0" title="Copy article permalink" data-ga-category="save_share" data-ga-action="link" data-ga-label="copy_link">
+                  <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" aria-hidden="true" class="usa-icon usa-icon--white" />
+                  <span class="margin-left-1">Copy</span>
+              </button>
+          </div>
+    </div>
+</div>
+               </li>
+           </ul>
+       </section>
+     </div>
+
+        <section class="pmc-resources margin-top-6 desktop:margin-top-4" data-page-path="/articles/PMC9280612/">
+            <h2 class="margin-top-0">RESOURCES</h2>
+            
+                <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-similar-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_similar_articles"
+                        data-ga-label="/articles/PMC9280612/"
+                        data-action-open="open_similar_articles"
+                        data-action-close="close_similar_articles"
+                        >
+                            Similar articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-similar-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/similar-article-links/35830171/"
+                            
+                    >
+                        
+                    </div>
+                    <h3 class="usa-accordion__heading">
+                        <button
+                        type="button"
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="resources-cited-by-other-articles"
+                        data-ga-category="resources_accordion"
+                        data-ga-action="open_cited_by"
+                        data-ga-label="/articles/PMC9280612/"
+                        data-action-open="open_cited_by"
+                        data-action-close="close_cited_by"
+                        >
+                             Cited by other articles
+                        </button>
+                    </h3>
+                    <div
+                            id="resources-cited-by-other-articles"
+                            class="usa-accordion__content usa-prose"
+                            
+                                data-source-url="/resources/cited-by-links/35830171/"
+                            
+                    >
+                          
+                    </div>
+                    
+                        <h3 class="usa-accordion__heading">
+                            <button
+                            type="button"
+                            class="usa-accordion__button"
+                            aria-expanded="false"
+                            aria-controls="resources-links-to-ncbi-databases"
+                            data-ga-category="resources_accordion"
+                            data-ga-action="open_NCBI_links"
+                            data-ga-label="/articles/PMC9280612/"
+                            data-action-open="open_NCBI_links"
+                            data-action-close="close_NCBI_link"
+                            >
+                                 Links to NCBI Databases
+                            </button>
+                        </h3>
+                        <div
+                                id="resources-links-to-ncbi-databases"
+                                class="usa-accordion__content usa-prose"
+                                data-source-url="/resources/db-links/9280612/"
+                        >
+                        </div>
+                    
+                    
+                </div>
+            
+        </section>
+
+
+        <section
+        class="usa-in-page-nav usa-in-page-nav--wide margin-top-6 desktop:margin-top-4"
+        data-title-text="On this page"
+        data-title-heading-level="h2"
+        data-scroll-offset="0"
+        data-root-margin="-10% 0px -80% 0px"
+        data-main-content-selector="main"
+        data-threshold="1"
+        hidden
+        ></section>
+    </section>
+</div>
+
+        
+
+<div class="overlay" role="dialog" aria-label="Citation Dialog" hidden>
+    <div class="dialog citation-dialog" aria-hidden="true">
+        <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+            <h2 class="usa-modal__heading margin-0">Cite</h2>
+             <button type="button" class="usa-button usa-button--unstyled close-overlay text-black width-auto"  tabindex="1">
+                 <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/close.svg" alt="Close icon" class="usa-icon usa-icon--size-3 usa-icon--button" />
+             </button>
+        </div>
+
+        
+
+<div class="citation-text-block">
+  <div class="citation-text margin-bottom-2"></div>
+  <ul class="usa-list usa-list--unstyled display-inline-flex flex-justify width-full flex-align-center">
+      <li>
+        <button
+          class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center copy-button dialog-focus"
+          data-ga-category="save_share"
+          data-ga-action="cite"
+          data-ga-label="copy"
+          tabindex="2">
+            <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/content_copy.svg" alt="Copy icon" class="usa-icon usa-icon--size-3 usa-icon--link" />
+            <span>Copy</span>
+        </button>
+      </li>
+      <li>
+          <a
+              href="#"
+              role="button"
+              class="usa-button usa-button--unstyled text-no-underline display-flex flex-align-center export-button"
+              data-ga-category="save_share"
+              data-ga-action="cite"
+              data-ga-label="download"
+              title="Download a file for external citation management software"
+              tabindex="3">
+                <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/file_download.svg" alt="Download icon" aria-hidden="true" class="usa-icon usa-icon--size-3 usa-icon--link" />
+                <span class="display-none mobile-lg:display-inline">Download .nbib</span>
+                <span class="display-inline mobile-lg:display-none">.nbib</span>
+            </a>
+      </li>
+      <li>
+          
+
+<div class="display-inline-flex flex-align-center">
+  <label class="usa-label margin-top-0">Format:</label>
+  <select aria-label="Format" class="usa-select citation-style-selector padding-1 margin-top-0 border-0 padding-right-4" tabindex="4" >
+    
+      <option data-style-url-name="ama"
+              value="AMA"
+              >
+        AMA
+      </option>
+    
+      <option data-style-url-name="apa"
+              value="APA"
+              >
+        APA
+      </option>
+    
+      <option data-style-url-name="mla"
+              value="MLA"
+              >
+        MLA
+      </option>
+    
+      <option data-style-url-name="nlm"
+              value="NLM"
+              selected="selected">
+        NLM
+      </option>
+    
+  </select>
+</div>
+      </li>
+  </ul>
+</div>
+    </div>
+</div>
+
+        <div class="overlay" role="dialog" hidden>
+  <div id="collections-action-dialog" class="dialog collections-dialog" aria-hidden="true">
+   <div class="display-inline-flex flex-align-center flex-justify width-full margin-bottom-2">
+        <h2 class="usa-modal__heading margin-0">Add to Collections</h2>
+    </div>
+    <div class="collections-action-panel action-panel">
+      
+
+
+<form id="collections-action-dialog-form"
+      class="usa-form maxw-full collections-action-panel-form action-panel-content action-form action-panel-smaller-selectors"
+      data-existing-collections-url="/list-existing-collections/"
+      data-add-to-existing-collection-url="/add-to-existing-collection/"
+      data-create-and-add-to-new-collection-url="/create-and-add-to-new-collection/"
+      data-myncbi-max-collection-name-length="100"
+      data-collections-root-url="https://www.ncbi.nlm.nih.gov/myncbi/collections/">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="YQTZlNsTjmRvTY9UuSfsrEZxVpJl9ttphIlQcHLNCX3Uv8swHF2PBa5JNnl0wigc">
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-new"
+            class="usa-radio__input usa-radio__input--tile collections-new  margin-top-0"
+            name="collections"
+            value="new"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_new" />
+            <label class="usa-radio__label" for="collections-action-dialog-new">Create a new collection</label>
+        </div>
+        <div class="usa-radio">
+            <input type="radio"
+            id="collections-action-dialog-existing"
+            class="usa-radio__input usa-radio__input--tile collections-existing"
+            name="collections"
+            value="existing"
+            checked="true"
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="collections_radio_existing" />
+            <label class="usa-radio__label" for="collections-action-dialog-existing">Add to an existing collection</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="usa-fieldset margin-bottom-2">
+        <div class="action-panel-control-wrap new-collections-controls">
+           <label for="collections-action-dialog-add-to-new" class="usa-label margin-top-0">
+                Name your collection
+               <abbr title="required" class="usa-hint usa-hint--required text-no-underline">*</abbr>
+          </label>
+          <input
+            type="text"
+            name="add-to-new-collection"
+            id="collections-action-dialog-add-to-new"
+            class="usa-input collections-action-add-to-new"
+            pattern="[^&quot;&amp;=&lt;&gt;/]*" title="The following characters are not allowed in the Name field: &quot;&amp;=&lt;&gt;/"
+            maxlength=""
+            data-ga-category="collections_button"
+            data-ga-action="create_collection"
+            data-ga-label="non_favorties_collection"
+            required
+          />
+        </div>
+        <div class="action-panel-control-wrap existing-collections-controls">
+             <label for="collections-action-dialog-add-to-existing" class="usa-label margin-top-0">
+                Choose a collection
+              </label>
+              <select id="collections-action-dialog-add-to-existing"
+                      class="usa-select collections-action-add-to-existing"
+                      data-ga-category="collections_button"
+                      data-ga-action="select_collection"
+                      data-ga-label="($('.collections-action-add-to-existing').val() === 'Favorites') ? 'Favorites' : 'non_favorites_collection'">
+              </select>
+              <div class="collections-retry-load-on-error usa-input-error-message selection-validation-message">
+                Unable to load your collection due to an error<br>
+                <a href="#">Please try again</a>
+              </div>
+        </div>
+    </fieldset>
+
+    <div class="display-inline-flex">
+        <button class="usa-button margin-top-0 action-panel-submit"
+            type="submit"
+            data-loading-label="Adding..."
+            data-pinger-ignore
+            data-ga-category="collections_button"
+            data-ga-action="click"
+            data-ga-label="add">
+          Add
+        </button>
+        <button class="usa-button usa-button--outline margin-top-0 action-panel-cancel"
+                aria-label="Close 'Add to Collections' panel"
+                ref="linksrc=close_collections_panel"
+                data-ga-category="collections_button"
+                data-ga-action="click"
+                data-ga-label="cancel">
+          Cancel
+        </button>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+
+        
+    
+    
+
+<footer class="ncbi-footer ncbi-dark-background " >
+    
+        <div class="ncbi-footer__icon-section">
+            <div class="ncbi-footer__social-header">
+                Follow NCBI
+            </div>
+
+            <div class="grid-container ncbi-footer__ncbi-social-icons-container">
+                
+                    <a href="https://twitter.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="40"
+                             height="40"
+                             viewBox="0 0 40 40"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on X (formerly known as Twitter)</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.facebook.com/ncbi.nlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="16"
+                             height="29"
+                             focusable="false"
+                             aria-hidden="true"
+                             viewBox="0 0 16 29"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.8809 21.4002C3.8809 19.0932 3.8809 16.7876 3.8809 14.478C3.8809 14.2117 3.80103 14.1452 3.54278 14.1492C2.53372 14.1638 1.52334 14.1492 0.514288 14.1598C0.302626 14.1598 0.248047 14.0972 0.248047 13.8936C0.256034 12.4585 0.256034 11.0239 0.248047 9.58978C0.248047 9.37013 0.302626 9.30224 0.528931 9.3049C1.53798 9.31688 2.54837 9.3049 3.55742 9.31555C3.80103 9.31555 3.8809 9.26097 3.87957 9.00272C3.87158 8.00565 3.85428 7.00592 3.90753 6.00884C3.97142 4.83339 4.31487 3.73115 5.04437 2.78467C5.93095 1.63318 7.15699 1.09005 8.56141 0.967577C10.5582 0.79319 12.555 0.982221 14.5518 0.927641C14.7102 0.927641 14.7462 0.99287 14.7449 1.13664C14.7449 2.581 14.7449 4.02668 14.7449 5.47104C14.7449 5.67604 14.6517 5.68669 14.4946 5.68669C13.4523 5.68669 12.4113 5.68669 11.3703 5.68669C10.3506 5.68669 9.92057 6.10868 9.90593 7.13904C9.89661 7.7647 9.91525 8.39303 9.89794 9.01869C9.88995 9.26364 9.96583 9.31822 10.2015 9.31688C11.7204 9.30623 13.2393 9.31688 14.7595 9.3049C15.0257 9.3049 15.0723 9.3728 15.0444 9.62439C14.89 10.9849 14.7515 12.3467 14.6144 13.7085C14.5691 14.1571 14.5785 14.1585 14.1458 14.1585C12.8386 14.1585 11.5313 14.1665 10.2254 14.1518C9.95119 14.1518 9.89794 14.2317 9.89794 14.4899C9.90593 19.0799 9.89794 23.6752 9.91125 28.2612C9.91125 28.5674 9.8407 28.646 9.53186 28.6433C7.77866 28.6273 6.02414 28.6366 4.27094 28.634C3.82499 28.634 3.87158 28.6992 3.87158 28.22C3.87602 25.9472 3.87913 23.6739 3.8809 21.4002Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on Facebook</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.linkedin.com/company/ncbinlm"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="25"
+                             height="23"
+                             viewBox="0 0 26 24"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M14.6983 9.98423C15.6302 9.24808 16.5926 8.74754 17.6762 8.51991C19.673 8.09126 21.554 8.30824 23.1262 9.7526C24.2351 10.7723 24.7529 12.1115 25.0165 13.5612C25.1486 14.3363 25.2105 15.1218 25.2015 15.9081C25.2015 18.3043 25.2015 20.6898 25.2082 23.0806C25.2082 23.3468 25.1549 23.444 24.8621 23.4414C23.1297 23.4272 21.3992 23.4272 19.6704 23.4414C19.4041 23.4414 19.3429 23.3588 19.3442 23.1019C19.3535 20.5194 19.3442 17.9368 19.3442 15.3543C19.3442 14.0005 18.3258 12.9448 17.0266 12.9488C15.7273 12.9528 14.6983 14.0071 14.6983 15.361C14.6983 17.9328 14.6917 20.5047 14.6983 23.0753C14.6983 23.3708 14.6198 23.444 14.3296 23.4427C12.6185 23.4294 10.9079 23.4294 9.19779 23.4427C8.93155 23.4427 8.86099 23.3735 8.86232 23.1086C8.8783 19.7619 8.88628 16.4144 8.88628 13.066C8.88628 11.5688 8.87874 10.0708 8.86365 8.57182C8.86365 8.3575 8.90758 8.27896 9.14054 8.28029C10.9048 8.29094 12.6687 8.29094 14.4321 8.28029C14.6464 8.28029 14.6983 8.34818 14.6983 8.54653C14.6903 9.00047 14.6983 9.45441 14.6983 9.98423Z">
+                            </path>
+                            <path d="M6.55316 15.8443C6.55316 18.2564 6.55316 20.6699 6.55316 23.082C6.55316 23.3629 6.48127 23.4388 6.19906 23.4374C4.47737 23.4241 2.75568 23.4241 1.03399 23.4374C0.767751 23.4374 0.69986 23.3629 0.701191 23.1006C0.709178 18.2648 0.709178 13.4281 0.701191 8.59053C0.701191 8.34026 0.765089 8.27237 1.01669 8.2737C2.74991 8.28435 4.48048 8.28435 6.20838 8.2737C6.47462 8.2737 6.5465 8.33627 6.54517 8.6065C6.54783 11.0186 6.55316 13.4308 6.55316 15.8443Z">
+                            </path>
+                            <path d="M3.65878 0.243898C5.36804 0.243898 6.58743 1.45529 6.58743 3.1406C6.58743 4.75801 5.32145 5.95742 3.60819 5.96807C3.22177 5.97614 2.83768 5.90639 2.47877 5.76299C2.11985 5.61959 1.79344 5.40546 1.51897 5.13334C1.24449 4.86123 1.02755 4.53668 0.881058 4.17902C0.734563 3.82136 0.661505 3.43788 0.666231 3.05141C0.67555 1.42601 1.9362 0.242566 3.65878 0.243898Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on LinkedIn</span>
+                    </a>
+                
+
+                
+                    <a href="https://github.com/ncbi"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="28"
+                             height="27"
+                             viewBox="0 0 28 28"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M16.7228 20.6334C17.5057 20.5527 18.2786 20.3944 19.0301 20.1608C21.3108 19.4193 22.5822 17.8259 22.963 15.4909C23.1228 14.5112 23.1814 13.5287 22.9883 12.5437C22.8106 11.6423 22.4013 10.8028 21.8007 10.1076C21.7526 10.0605 21.7197 10 21.7064 9.934C21.6931 9.86799 21.7 9.79952 21.7262 9.73748C22.0856 8.6206 21.9711 7.51969 21.601 6.42677C21.582 6.3497 21.5345 6.2827 21.468 6.23923C21.4016 6.19577 21.3211 6.17906 21.2429 6.19248C20.7329 6.21649 20.2313 6.33051 19.7611 6.52928C19.1103 6.7908 18.4899 7.12198 17.9104 7.51703C17.84 7.56996 17.7581 7.60551 17.6713 7.62078C17.5846 7.63605 17.4954 7.6306 17.4112 7.60489C15.2596 7.05882 13.0054 7.06203 10.8554 7.61421C10.7806 7.63586 10.7018 7.63967 10.6253 7.62534C10.5487 7.611 10.4766 7.57892 10.4148 7.53167C9.64788 7.03247 8.85171 6.58918 7.96368 6.33359C7.65781 6.24338 7.34123 6.19458 7.02239 6.18849C6.94879 6.17986 6.87462 6.19893 6.81432 6.242C6.75402 6.28507 6.71191 6.34904 6.69621 6.42145C6.32342 7.51437 6.2209 8.61527 6.56307 9.73348C6.59635 9.84264 6.64694 9.93316 6.54177 10.0516C5.47666 11.2604 5.09988 12.6834 5.19574 14.2676C5.2663 15.4244 5.46201 16.5466 6.01454 17.5769C6.84399 19.1171 8.21664 19.9119 9.85158 20.3352C10.3938 20.4706 10.9444 20.5698 11.4998 20.632C11.5384 20.7492 11.4506 20.7798 11.408 20.8291C11.1734 21.1179 10.9894 21.4441 10.8634 21.7942C10.7622 22.0458 10.8315 22.4039 10.6065 22.5516C10.263 22.7766 9.83827 22.8485 9.42421 22.8871C8.17936 23.0056 7.26471 22.4877 6.6283 21.4348C6.25552 20.8184 5.76956 20.3325 5.08523 20.0663C4.76981 19.9325 4.42139 19.8967 4.08537 19.9638C3.7898 20.029 3.73788 20.1901 3.93891 20.4111C4.03639 20.5234 4.14989 20.6207 4.27575 20.6999C4.9796 21.1318 5.51717 21.7884 5.80152 22.5636C6.37002 23.9973 7.48039 24.5697 8.93825 24.6323C9.43741 24.6575 9.93768 24.615 10.4254 24.5058C10.5892 24.4672 10.6531 24.4872 10.6517 24.6762C10.6451 25.4936 10.6637 26.3123 10.6517 27.131C10.6517 27.6635 10.1684 27.9297 9.58663 27.7393C8.17396 27.2671 6.84977 26.5631 5.66838 25.656C2.59555 23.2891 0.720966 20.1861 0.217704 16.3376C-0.357453 11.9127 0.911353 8.00824 3.98551 4.73881C6.11909 2.42656 8.99932 0.939975 12.1203 0.540191C16.5351 -0.0601815 20.4347 1.14323 23.7232 4.16373C26.2449 6.47869 27.724 9.37672 28.1048 12.7726C28.5828 17.0325 27.3686 20.7945 24.4768 23.9827C22.9762 25.6323 21.0956 26.8908 18.9982 27.6488C18.8783 27.6927 18.7585 27.738 18.636 27.7726C18.0356 27.9404 17.6189 27.6395 17.6189 27.0098C17.6189 25.7452 17.6308 24.4806 17.6295 23.2159C17.6329 22.9506 17.6128 22.6856 17.5696 22.4238C17.4325 21.6664 17.3419 21.484 16.7228 20.6334Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI on GitHub</span>
+                    </a>
+                
+
+                
+                    <a href="https://ncbiinsights.ncbi.nlm.nih.gov/"
+                       class="ncbi-footer__social-icon ncbi-footer__social-icon--gray"
+                       target="_blank"
+                       rel="noreferrer noopener">
+                        <svg width="26"
+                             height="26"
+                             viewBox="0 0 27 27"
+                             fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             focusable="false"
+                             aria-hidden="true">
+                            <path d="M23.7778 26.4574C23.1354 26.3913 22.0856 26.8024 21.636 26.3087C21.212 25.8444 21.4359 24.8111 21.324 24.0347C19.9933 14.8323 14.8727 8.80132 6.09057 5.85008C4.37689 5.28406 2.58381 4.99533 0.779072 4.99481C0.202773 4.99481 -0.0229751 4.83146 0.00455514 4.21479C0.0660406 3.08627 0.0660406 1.95525 0.00455514 0.826734C-0.0413285 0.0815827 0.259669 -0.0193618 0.896534 0.00266238C6.96236 0.222904 12.3693 2.24179 16.9889 6.16209C22.9794 11.2478 26.1271 17.7688 26.4372 25.648C26.4629 26.294 26.3179 26.5271 25.6609 26.4684C25.0827 26.417 24.4991 26.4574 23.7778 26.4574Z">
+                            </path>
+                            <path d="M14.8265 26.441C14.0924 26.441 13.2371 26.6795 12.6626 26.3786C12.0092 26.0372 12.3781 25.0644 12.246 24.378C11.1154 18.5324 6.6849 14.5497 0.74755 14.1001C0.217135 14.0615 -0.0104482 13.9422 0.0134113 13.3659C0.0519536 12.1454 0.0482829 10.9213 0.0134113 9.69524C-0.00127145 9.14464 0.196946 9.03268 0.703502 9.04736C9.21217 9.27128 16.5994 16.2511 17.2804 24.7231C17.418 26.4446 17.418 26.4446 15.6579 26.4446H14.832L14.8265 26.441Z">
+                            </path>
+                            <path d="M3.58928 26.4555C2.64447 26.4618 1.73584 26.0925 1.06329 25.4289C0.39073 24.7653 0.00933763 23.8617 0.0030097 22.9169C-0.00331824 21.9721 0.365937 21.0635 1.02954 20.3909C1.69315 19.7184 2.59675 19.337 3.54156 19.3306C4.48637 19.3243 5.39499 19.6936 6.06755 20.3572C6.7401 21.0208 7.1215 21.9244 7.12782 22.8692C7.13415 23.814 6.7649 24.7226 6.10129 25.3952C5.43768 26.0677 4.53409 26.4491 3.58928 26.4555Z">
+                            </path>
+                        </svg>
+                        <span class="usa-sr-only">NCBI RSS feed</span>
+                    </a>
+                
+            </div>
+        </div>
+    
+
+    <div data-testid="gridContainer"
+         class="grid-container ncbi-footer__container">
+        <div class="grid-row ncbi-footer__main-content-container"
+             data-testid="grid">
+            
+                <div class="ncbi-footer__column">
+                    
+                        <p class="ncbi-footer__circled-icons-heading">
+                            Connect with NLM
+                        </p>
+                    
+
+                    <div class="ncbi-footer__circled-icons-list">
+                        
+                            <a href=https://twitter.com/nlm_nih class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="32"
+                                     height="32"
+                                     viewBox="0 0 40 40"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="m6.067 8 10.81 13.9L6 33.2h4.2l8.4-9.1 7.068 9.1H34L22.8 18.5 31.9 8h-3.5l-7.7 8.4L14.401 8H6.067Zm3.6 1.734h3.266l16.8 21.732H26.57L9.668 9.734Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on X (formerly known as Twitter)</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.facebook.com/nationallibraryofmedicine class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="13"
+                                     height="24"
+                                     viewBox="0 0 13 24"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M4.11371 23.1369C4.11371 23.082 4.11371 23.0294 4.11371 22.9745V12.9411H0.817305C0.6709 12.9411 0.670898 12.9411 0.670898 12.8016C0.670898 11.564 0.670898 10.3287 0.670898 9.09341C0.670898 8.97903 0.705213 8.95158 0.815017 8.95158C1.8673 8.95158 2.91959 8.95158 3.97417 8.95158H4.12057V8.83263C4.12057 7.8055 4.12057 6.7738 4.12057 5.74897C4.1264 4.92595 4.31387 4.11437 4.66959 3.37217C5.12916 2.38246 5.94651 1.60353 6.95717 1.1921C7.64827 0.905008 8.3913 0.764035 9.13953 0.778051C10.0019 0.791777 10.8644 0.830666 11.7268 0.860404C11.8869 0.860404 12.047 0.894717 12.2072 0.90158C12.2964 0.90158 12.3261 0.940469 12.3261 1.02968C12.3261 1.5421 12.3261 2.05452 12.3261 2.56465C12.3261 3.16857 12.3261 3.7725 12.3261 4.37642C12.3261 4.48165 12.2964 4.51367 12.1912 4.51138C11.5369 4.51138 10.8804 4.51138 10.2261 4.51138C9.92772 4.51814 9.63058 4.5526 9.33855 4.61433C9.08125 4.6617 8.84537 4.78881 8.66431 4.97766C8.48326 5.16652 8.3662 5.40755 8.32972 5.66661C8.28476 5.89271 8.26027 6.1224 8.25652 6.35289C8.25652 7.19014 8.25652 8.02969 8.25652 8.86923C8.25652 8.89439 8.25652 8.91955 8.25652 8.95615H12.0219C12.1797 8.95615 12.182 8.95616 12.1614 9.10714C12.0768 9.76596 11.9876 10.4248 11.9029 11.0813C11.8312 11.6319 11.7626 12.1824 11.697 12.733C11.6719 12.9434 11.6787 12.9434 11.4683 12.9434H8.26338V22.899C8.26338 22.979 8.26338 23.0591 8.26338 23.1392L4.11371 23.1369Z">
+                                    </path>
+                                </svg>
+                                <span class="usa-sr-only">NLM on Facebook</span>
+                            </a>
+                        
+
+                        
+                            <a href=https://www.youtube.com/user/NLMNIH class="ncbi-footer__social-icon ncbi-footer__social-icon--circled" target="_blank" rel="noreferrer noopener">
+                                <svg width="21"
+                                     height="15"
+                                     viewBox="0 0 21 15"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     focusable="false"
+                                     aria-hidden="true">
+                                    <path d="M19.2561 1.47914C18.9016 1.15888 18.5699 0.957569 17.2271 0.834039C15.5503 0.678484 13.2787 0.655608 11.563 0.65332H9.43556C7.71987 0.65332 5.4483 0.678484 3.77151 0.834039C2.43098 0.957569 2.097 1.15888 1.74242 1.47914C0.813665 2.32097 0.619221 4.62685 0.598633 6.89384C0.598633 7.31781 0.598633 7.74101 0.598633 8.16345C0.626084 10.4121 0.827391 12.686 1.74242 13.521C2.097 13.8412 2.4287 14.0425 3.77151 14.1661C5.4483 14.3216 7.71987 14.3445 9.43556 14.3468H11.563C13.2787 14.3468 15.5503 14.3216 17.2271 14.1661C18.5676 14.0425 18.9016 13.8412 19.2561 13.521C20.1712 12.6929 20.3725 10.451 20.3999 8.22064C20.3999 7.74025 20.3999 7.25986 20.3999 6.77946C20.3725 4.54907 20.1689 2.30724 19.2561 1.47914ZM8.55942 10.5311V4.65201L13.5601 7.50005L8.55942 10.5311Z"
+                                          fill="white" />
+                                </svg>
+                                <span class="usa-sr-only">NLM on YouTube</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+                <address class="ncbi-footer__address ncbi-footer__column">
+                    
+        <p>
+            <a class="usa-link usa-link--external"
+            href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,
+            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!
+            4d-77.0988323"
+            rel="noopener noreferrer" target="_blank">National Library of Medicine
+            <br/> 8600 Rockville Pike<br/> Bethesda, MD 20894</a>
+        </p>
+    
+                </address>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/web_policies.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Web Policies
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            FOIA
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <ul class="usa-list usa-list--unstyled ncbi-footer__vertical-list ncbi-footer__column">
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://support.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Help
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/accessibility.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Accessibility
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__vertical-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/careers/careers.html" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            Careers
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            
+        </div>
+
+        
+            <div class="grid-row grid-col-12" data-testid="grid">
+                <ul class="ncbi-footer__bottom-links-list">
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nlm.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NLM
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.nih.gov/" class="usa-link  usa-link--alt ncbi-footer__link"  >
+        
+
+        
+            NIH
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.hhs.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            HHS
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                        <li class="ncbi-footer__bottom-list-item">
+                            
+
+
+
+
+
+
+
+
+
+    <a href="https://www.usa.gov/" class="usa-link usa-link--external usa-link--alt ncbi-footer__link" rel="noreferrer noopener" target='_blank' >
+        
+
+        
+            USA.gov
+        
+
+        
+    </a>
+
+
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</footer>
+
+    
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+        
+
+<button class="back-to-top" data-ga-category="pagination" data-ga-action="back_to_top">
+    <label>Back to Top</label>
+    <img src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/arrow_upward.svg" alt="back to top icon" class="usa-icon usa-icon--size-3 order-0 usa-icon--white" />
+</button>
+    
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+
+    <script type="text/javascript">var exports = {};</script>
+     <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/CACHE/js/output.4e25b6297b38.js"></script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/article-BxyWTbsj.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    
+
+    </body>
+</html>
