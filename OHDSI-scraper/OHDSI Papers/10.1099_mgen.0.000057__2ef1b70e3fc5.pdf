@@ -1,918 +1,0 @@
-
-<!DOCTYPE html><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" id="mainTemplate"> <![endif]--><!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" id="mainTemplate"> <![endif]--><!--[if IE 8]> <html class="no-js lt-ie9" id="mainTemplate"> <![endif]--><!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js" id="mainTemplate"> <!--<![endif]--><head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><!-- BEGIN SHAREAHOLIC CODE --><link rel="preload" href="https://cdn.shareaholic.net/assets/pub/shareaholic.js" as="script" /><meta name="shareaholic:site_id" content="857a9d44ab03c0132db4fc34e9bc8d44" /><!-- END SHAREAHOLIC CODE --><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Bayesian codon substitution modelling to identify sources of pathogen evolutionary rate variation | Microbiology Society</title><script src="https://scholar.google.com/scholar_js/casa.js" async></script>
-<link rel="schema.CRAWLER" href="https://labs.ingenta.com/2006/06/16/crawler" />
-<meta name="dc.title" content="Bayesian codon substitution modelling to identify sources of pathogen evolutionary rate variation" />
-<meta name="dc.publisher" content="Microbiology Society"/>
-<meta name="dc.type" content="Text"/>
-<meta name="author" content="Guy Baele|Marc A. Suchard|Filip Bielejec|Philippe Lemey" />
-<meta name="dc.creator" content="Guy Baele" />
-<meta name="dc.creator" content="Marc A. Suchard" />
-<meta name="dc.creator" content="Filip Bielejec" />
-<meta name="dc.creator" content="Philippe Lemey" />
-<meta name="dc.identifier" content="doi:10.1099/mgen.0.000057"/>
-<meta name="dc.date" content="2016/06/24" />
-<meta property="og:title" content="Bayesian codon substitution modelling to identify sources of pathogen evolutionary rate variation"/>
-<meta property="og:type" content="article"/>
-<meta property="og:image" content="https://www.microbiologyresearch.org/upload/images/socialmedia/socialMediaImage-567x298.png"/>
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="567">
-<meta property="og:image:height" content="298">
-<meta property="og:url" content="https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000057"/>
-<meta property="og:site_name" content="microbiologyresearch.org"/>
-<meta name="citation_journal_title" content="Microbial Genomics" />
-<meta name="citation_issn" content="2057-5858" />
-<meta name="citation_doi" content="10.1099/mgen.0.000057" />
-<meta name="citation_publication_date" content="2016/06/24" />
-<meta name="citation_date" content="2016/06/24" />
-<meta name="citation_year" content="2016" />
-<meta name="citation_online_date" content="2016/06/24" />
-<meta name="citation_title" content="Bayesian codon substitution modelling to identify sources of pathogen evolutionary rate variation" />
-<meta name="citation_author" content="Guy Baele" />
-<meta name="citation_author_institution" content="1​Department of Microbiology and Immunology, Rega Institute, KU Leuven - University of Leuven, Leuven, Belgium" />
-<meta name="citation_author" content="Marc A. Suchard" />
-<meta name="citation_author_institution" content="2​Departments of Biomathematics, Human Genetics and Biostatistics, David Geffen School of Medicine, University of California, Los Angeles, CA 90095, USA" />
-<meta name="citation_author" content="Filip Bielejec" />
-<meta name="citation_author_institution" content="1​Department of Microbiology and Immunology, Rega Institute, KU Leuven - University of Leuven, Leuven, Belgium" />
-<meta name="citation_author" content="Philippe Lemey" />
-<meta name="citation_author_institution" content="1​Department of Microbiology and Immunology, Rega Institute, KU Leuven - University of Leuven, Leuven, Belgium" />
-<meta name="citation_volume" content="2" />
-<meta name="citation_issue" content="6" />
-<meta name="citation_firstpage" content="e000057" />
-<meta name="citation_publisher" content="Microbiology Society" />
-<meta name="citation_abstract" content="Phylodynamic reconstructions rely on a measurable molecular footprint of epidemic processes in pathogen genomes. Identifying the factors that govern the tempo and mode by which these processes leave a footprint in pathogen genomes represents an important goal towards understanding infectious disease evolution. Discriminating between synonymous and non-synonymous substitution rates is crucial for testing hypotheses about the sources of evolutionary rate variation. Here, we implement a codon substitution model in a Bayesian statistical framework to estimate absolute rates of synonymous and non-synonymous substitution in unknown evolutionary histories. To demonstrate how this model can provide critical insights into pathogen evolutionary dynamics, we adopt hierarchical phylogenetic modelling with fixed effects and apply it to two viral examples. Using within-host HIV-1 data from patients with different host genetic background and different disease progression rates, we show that viral populations undergo faster absolute synonymous substitution rates in patients with faster disease progression, probably reflecting faster replication rates. We also re-analyse rabies data from different bat species in the Americas to demonstrate that climate predicts absolute synonymous substitution rates, which can be attributed to climate-associated bat activity and viral transmission dynamics. In conclusion, our model to estimate absolute rates of synonymous and non-synonymous substitution can provide a powerful approach to investigate how host ecology can shape the tempo of pathogen evolution." />
-<meta name="citation_abstract_html_url" content="https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000057" />
-<meta name="citation_fulltext_world_readable" content="" />
-<meta name="description" property="og:description" content="Phylodynamic reconstructions rely on a measurable molecular footprint of epidemic processes in pathogen genomes. Identifying the factors that govern the tempo and mode by which these processes leave a footprint in pathogen genomes represents an important goal towards understanding infectious disease evolution. Discriminating between synonymous and non-synonymous substitution rates is crucial for testing hypotheses about the sources of evolutionary rate variation. Here, we implement a codon substitution model in a Bayesian statistical framework to estimate absolute rates of synonymous and non-synonymous substitution in unknown evolutionary histories. To demonstrate how this model can provide critical insights into pathogen evolutionary dynamics, we adopt hierarchical phylogenetic modelling with fixed effects and apply it to two viral examples. Using within-host HIV-1 data from patients with different host genetic background and different disease progression rates, we show that viral populations undergo faster absolute synonymous substitution rates in patients with faster disease progression, probably reflecting faster replication rates. We also re-analyse rabies data from different bat species in the Americas to demonstrate that climate predicts absolute synonymous substitution rates, which can be attributed to climate-associated bat activity and viral transmission dynamics. In conclusion, our model to estimate absolute rates of synonymous and non-synonymous substitution can provide a powerful approach to investigate how host ecology can shape the tempo of pathogen evolution." />
-<meta name="robots" content="NOODP,noarchive" />
-<meta name="stats-meta" content="stats" data-logstatisticsurl="/logstatistics.action" data-itemid="/content/journal/mgen/10.1099/mgen.0.000057" data-baseuri="http://instance.metastore.ingenta.com"/>
-<link rel="shortcut icon" href="/upload/favicon/favicon.ico" /><link rel="stylesheet" href="/css/v/12.4.0/hybrid/google-material-design-font.css" type="text/css" ><link rel="stylesheet" media="screen and (max-width: 844px)" href="/common/v/12.4.0/css/component.css" type="text/css"/><link rel="stylesheet" href="/css/v/12.4.0/hybrid/site.css" type="text/css" /><!--[if lte IE 10]><link rel="stylesheet" href="/css/hybrid/ie.css" type="text/css" /><![endif]--><link rel="stylesheet" href="/css/v/12.4.0/contentpreview/preview.css" type="text/css" media="screen, print" /><link rel="stylesheet" href="/css/v/12.4.0/hybrid/fulltext-html-tab.css" type="text/css" media="screen, print" /><link rel="stylesheet" href="/common/v/12.4.0/css/jquery.fancybox.css" type="text/css" media="screen, print" /><link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.1/css/froala_style.min.css" rel="stylesheet" type="text/css" /><script src="/common/v/12.4.0/js/vendor/modernizer.custom.min.js" ></script><!-- HTML5 Respond.js IE8 support of media queries --><!--[if lt IE 9]><script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]--><script src="/js/v/12.4.0/jp/jquery-1.11.1.min.js"></script><script src="/common/v/12.4.0/js/jquery.dlmenu.js" ></script><script src="https://scholar.google.com/scholar_js/casa.js" async></script></head><body id="article" class="body is-sticky-enabled is-altlayout-enabled is-hybrid-skin-template is-enabled-focus-state"data-instanceprefix="instance"data-elements-to-offset-scroll-when-fixed=".main-header-container,.article-navigation-bar"><a class="skip-to-content-main-link js-skip-content" href="#main-content-container">Skip to content</a><!-- Google Tag Manager--><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8DSFPZR"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);}gtag("consent", "default", {ad_personalization: "denied",ad_storage: "denied",ad_user_data: "denied",analytics_storage: "denied",functionality_storage: "denied",personalization_storage: "denied",security_storage: "granted",wait_for_update: 500,});</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M8DSFPZR');</script><!-- End Google Tag Manager--><div id="hiddenContext" class="hidden-js-div" data-cookiemessage="We use &lt;a href=&#034;/cookie-info&#034;&gt;cookies&lt;/a&gt; to track usage and preferences." data-cookieaccepttext="I Understand" data-cookiedeclinetext="Disable Cookies" data-cookiepolicytext="Privacy Policy"></div><div id="skinPublishingDates" class="hidden-js-div">1887</div><div id="wrapper" class="siteWrapper"><header class="header" id="header"><div class="navbar navbar-default main-header-container" role="navigation">
-<div class="container header-container">
-<a href="/" 
-class="logo header-container__logo" ><picture>
-<source srcset="/images/hybrid/logo/MBS_logo_mobile_lo-res.png, /images/hybrid/logo/MBS_logo_full_size_desktop_lo-res.png 2x" media="(max-width: 910px)" />
-<source srcset="/images/hybrid/logo/MBS_logo_full_size_desktop_lo-res.png, /images/hybrid/logo/MBS_logo_full_size_desktop_hi-res.png 2x" /> 
-<img alt="Microbiology Society logo" 
-src="/images/hybrid/logo/MBS_logo_full_size_desktop_lo-res.png"
-class="img-responsive main-logo-image" />
-</picture></a>
-<div class="header-container__publication-menu"><ul class="nav navbar-nav navbar-nav--publication-menu"aria-label="" role="menubar"><li role="menuitem" class="button1 dropdown"><a title="Discover our portfolio"href="#"class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu0" role="button" aria-haspopup="true" aria-expanded="false">Discover our portfolio<i class="fa fa-angle-down"></i></a><ul class="dropdown-menu" role="menu"><li role="presentation"class="journal-list "><a href="/content/journal/acmi"title="Access Microbiology, an open research platform" role="menuitem"tabindex="-1"class="megamenu-link">Access Microbiology, an open research platform</a></li><li role="presentation"class="journal-list "><a href="/content/journal/ijsem"title="International Journal of Systematic and Evolutionary Microbiology" role="menuitem"tabindex="-1"class="megamenu-link">International Journal of Systematic and Evolutionary Microbiology</a></li><li role="presentation"class="journal-list "><a href="/content/journal/jgv"title="Journal of General Virology" role="menuitem"tabindex="-1"class="megamenu-link">Journal of General Virology</a></li><li role="presentation"class="journal-list "><a href="/content/journal/jmm"title="Journal of Medical Microbiology" role="menuitem"tabindex="-1"class="megamenu-link">Journal of Medical Microbiology</a></li><li role="presentation"class="journal-list "><a href="/content/journal/mgen"title="Microbial Genomics" role="menuitem"tabindex="-1"class="megamenu-link">Microbial Genomics</a></li><li role="presentation"class="journal-list "><a href="/content/journal/micro"title="Microbiology" role="menuitem"tabindex="-1"class="megamenu-link">Microbiology</a></li><li role="presentation"class="journal-list "><a href="/content/journal/mhrz"title="Microbiology Horizons" role="menuitem"tabindex="-1"class="megamenu-link">Microbiology Horizons</a></li><li role="presentation"class="journal-list "><a href="/content/journal/mout"title="Microbiology Outlooks" role="menuitem"tabindex="-1"class="megamenu-link">Microbiology Outlooks</a></li></ul></li><li role="menuitem" class="button2 dropdown"><a title="Our resources"href="#"class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1" role="button" aria-haspopup="true" aria-expanded="false">Our resources<i class="fa fa-angle-down"></i></a><ul class="dropdown-menu" role="menu"><li role="presentation"class="journal-list "><a href="/information-for-authors"title="Information for authors" role="menuitem"tabindex="-1"class="megamenu-link">Information for authors</a></li><li role="presentation"class="journal-list "><a href="/information-for-reviewers"title="Information for reviewers" role="menuitem"tabindex="-1"class="megamenu-link">Information for reviewers</a></li><li role="presentation"class="journal-list "><a href="/routes-to-open-access"title="Routes to Open Access" role="menuitem"tabindex="-1"class="megamenu-link">Routes to Open Access</a></li><li role="presentation"class="journal-list "><a href="/publishing-fundamentals"title="Publishing Fundamentals" role="menuitem"tabindex="-1"class="megamenu-link">Publishing Fundamentals</a></li><li role="presentation"class="journal-list "><a href="/information-for-librarians "title="Information for librarians" role="menuitem"tabindex="-1"class="megamenu-link">Information for librarians</a></li></ul></li><li role="menuitem" class="button3 dropdown"><a title="About us"href="#"class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu2" role="button" aria-haspopup="true" aria-expanded="false">About us<i class="fa fa-angle-down"></i></a><ul class="dropdown-menu" role="menu"><li role="presentation"class="journal-list "><a href="https://microbiologysociety.org"title="Microbiology Society" role="menuitem"tabindex="-1"class="megamenu-link">Microbiology Society</a></li><li role="presentation"class="journal-list "><a href="https://microbiologysociety.org/who-we-are/publishing-for-the-community.html"title="Publishing for the Community" role="menuitem"tabindex="-1"class="megamenu-link">Publishing for the Community</a></li><li role="presentation"class="journal-list "><a href="https://microbiologysociety.org/events.html"title="Events" role="menuitem"tabindex="-1"class="megamenu-link">Events</a></li><li role="presentation"class="journal-list "><a href="/contact-us&nbsp;"title="Contact us" role="menuitem"tabindex="-1"class="megamenu-link">Contact us</a></li></ul></li></ul></div> 
-<ul class="navbar-nav-main-menu header-container__icon-menu"
-aria-label="User navigation items" role="menu">
-<li class="search-nav-container 
-navbar-nav-main-menu__search-container" role="none" >
-<a href="#" class="js-toggle-search-window" role="menuitem"
-title="Search" aria-label="Search" ><img src="/images/hybrid/icon/search.svg" alt="search icon" /></a>
-<div class="search-nav js-global-site-search-container" id="search-nav">
-<form id="global-search-form" action="/search" class="search-nav__form " 
-data-advancedSearchAvailable="false" 
-data-noSearchTermError="Please enter a search term">
-<div class="search-nav__up-triangle "></div> 
-<input type="text" id="quickSearchBox" class="js-searchcomplete search-nav__input-box"
-name="value1" placeholder="Search Site"
-aria-label="Search" />
-<input type="hidden" 
-value="fulltext"
-name="option1" />
-<!-- <input name="pageSize" value="8" type="hidden" /> taken out at present - as interferes with search at present and not scrolling -->
-<button type="submit" class="search-nav__submit-btn">
-<img src="/images/hybrid/icon/search.svg" alt="search icon" class="search-nav__submit-btn-image" />
-</button>
-</form>
-</div>
-</li>
-<li class="navbar-nav-main-menu__login-container" role="none">
-<a href="/registration/signin-or-register.action?signInTarget=%2Fcontent%2Fjournal%2Fmgen%2F10.1099%2Fmgen.0.000057" class="js-profile" title="Login or Register" aria-label="Login or Register" role="menuitem">
-<img src="/images/hybrid/icon/account_circle.svg" alt="account icon" />
-</a>
-</li>
-<li class=" navbar-nav-main-menu__cart-container" role="none">
-<a title="Shopping cart"
-href="/cart"
-aria-label="Cart"
-role="menuitem"
-class="cart-button-desktop">
-<img src="/images/hybrid/icon/shopping_cart.svg" alt="shopping cart icon" />
-</a>
-</li>
-<li class="main-navigation-menu" role="none"><button type="button" class="main-navigation-menu__button" data-toggle="collapse" data-target="#collapse-main-nav" role="menuitem"aria-controls="collapse-main-nav"aria-label="Site menu"title="Site menu"><span class="icon-bar bar-one"></span><span class="icon-bar bar-two"></span><span class="icon-bar bar-three"></span></button><div class="collapse main-navigation-menu__dropdown main-navigation-dropdown" id="collapse-main-nav"><ul class="main-navigation-dropdown__menu"><li class="main-navigation-dropdown__item "><a href="#" role="button"aria-label="Discover our portfolio expand or collapse" aria-controls="collapse-main-sub-nav-1" aria-expanded="false"class="main-navigation-dropdown__link js-link-toggle-main-sub-menu">Discover our portfolio</a><span class="main-navigation-dropdown__toggle-expand js-link-toggle-main-sub-menu" role="button"aria-label="Discover our portfolio expand or collapse" title="expand or collapse"aria-controls="collapse-main-sub-nav-1" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down main-navigation-dropdown__chevron js-toggle-main-menu-item" aria-hidden="true"></span></span><ul class="main-navigation-dropdown__submenu js-toggle-display-sub-menu" id="collapse-main-sub-nav-1"><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/acmi" class="main-navigation-dropdown__submenu-link">Access Microbiology, an open research platform</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/ijsem" class="main-navigation-dropdown__submenu-link">International Journal of Systematic and Evolutionary Microbiology</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/jgv" class="main-navigation-dropdown__submenu-link">Journal of General Virology</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/jmm" class="main-navigation-dropdown__submenu-link">Journal of Medical Microbiology</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/mgen" class="main-navigation-dropdown__submenu-link">Microbial Genomics</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/micro" class="main-navigation-dropdown__submenu-link">Microbiology</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/mhrz" class="main-navigation-dropdown__submenu-link">Microbiology Horizons</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/mout" class="main-navigation-dropdown__submenu-link">Microbiology Outlooks</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/journal/jmmcr" class="main-navigation-dropdown__submenu-link">JMM Case Reports</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/content/collections" class="main-navigation-dropdown__submenu-link">Browse our collections</a></li></ul></li><li class="main-navigation-dropdown__item "><a href="#" role="button"aria-label="Information for authors expand or collapse" aria-controls="collapse-main-sub-nav-2" aria-expanded="false"class="main-navigation-dropdown__link js-link-toggle-main-sub-menu">Information for authors</a><span class="main-navigation-dropdown__toggle-expand js-link-toggle-main-sub-menu" role="button"aria-label="Information for authors expand or collapse" title="expand or collapse"aria-controls="collapse-main-sub-nav-2" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down main-navigation-dropdown__chevron js-toggle-main-menu-item" aria-hidden="true"></span></span><ul class="main-navigation-dropdown__submenu js-toggle-display-sub-menu" id="collapse-main-sub-nav-2"><li class="main-navigation-dropdown__submenu-item "><a href="/article-types" class="main-navigation-dropdown__submenu-link">Article types</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/prepare-an-article" class="main-navigation-dropdown__submenu-link">Prepare an article</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/submission-and-peer-review" class="main-navigation-dropdown__submenu-link">Submission and peer review</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/post-acceptance" class="main-navigation-dropdown__submenu-link">Post-acceptance and publication</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/publishing-costs" class="main-navigation-dropdown__submenu-link">Open Access costs</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/fee-free-open-access" class="main-navigation-dropdown__submenu-link">Institutional agreements</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/ethics-policies" class="main-navigation-dropdown__submenu-link">Ethics policies</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/article-journal-metrics" class="main-navigation-dropdown__submenu-link">Impact and metrics</a></li></ul></li><li class="main-navigation-dropdown__item "><a href="#" role="button"aria-label="Information for reviewers expand or collapse" aria-controls="collapse-main-sub-nav-3" aria-expanded="false"class="main-navigation-dropdown__link js-link-toggle-main-sub-menu">Information for reviewers</a><span class="main-navigation-dropdown__toggle-expand js-link-toggle-main-sub-menu" role="button"aria-label="Information for reviewers expand or collapse" title="expand or collapse"aria-controls="collapse-main-sub-nav-3" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down main-navigation-dropdown__chevron js-toggle-main-menu-item" aria-hidden="true"></span></span><ul class="main-navigation-dropdown__submenu js-toggle-display-sub-menu" id="collapse-main-sub-nav-3"><li class="main-navigation-dropdown__submenu-item "><a href="/review-with-us" class="main-navigation-dropdown__submenu-link">Review with us</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/guidelines-for-reviewers" class="main-navigation-dropdown__submenu-link">Guidleines for reviewers</a></li></ul></li><li class="main-navigation-dropdown__item "><a href="#" role="button"aria-label="Open Access expand or collapse" aria-controls="collapse-main-sub-nav-4" aria-expanded="false"class="main-navigation-dropdown__link js-link-toggle-main-sub-menu">Open Access</a><span class="main-navigation-dropdown__toggle-expand js-link-toggle-main-sub-menu" role="button"aria-label="Open Access expand or collapse" title="expand or collapse"aria-controls="collapse-main-sub-nav-4" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down main-navigation-dropdown__chevron js-toggle-main-menu-item" aria-hidden="true"></span></span><ul class="main-navigation-dropdown__submenu js-toggle-display-sub-menu" id="collapse-main-sub-nav-4"><li class="main-navigation-dropdown__submenu-item "><a href="/routes-to-open-access" class="main-navigation-dropdown__submenu-link">Routes to Open Access</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/publishing-costs" class="main-navigation-dropdown__submenu-link">Open Access costs</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/publish-and-read" class="main-navigation-dropdown__submenu-link">Publish and Read</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/fee-free-open-access" class="main-navigation-dropdown__submenu-link">Institutional Agreements</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/open-data" class="main-navigation-dropdown__submenu-link">Open data</a></li></ul></li><li class="main-navigation-dropdown__item "><a href="#" role="button"aria-label="Publishing Fundamentals expand or collapse" aria-controls="collapse-main-sub-nav-5" aria-expanded="false"class="main-navigation-dropdown__link js-link-toggle-main-sub-menu">Publishing Fundamentals</a><span class="main-navigation-dropdown__toggle-expand js-link-toggle-main-sub-menu" role="button"aria-label="Publishing Fundamentals expand or collapse" title="expand or collapse"aria-controls="collapse-main-sub-nav-5" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down main-navigation-dropdown__chevron js-toggle-main-menu-item" aria-hidden="true"></span></span><ul class="main-navigation-dropdown__submenu js-toggle-display-sub-menu" id="collapse-main-sub-nav-5"><li class="main-navigation-dropdown__submenu-item "><a href="/publishing-fundamentals" class="main-navigation-dropdown__submenu-link">Publishing Fundamentals resources</a></li></ul></li><li class="main-navigation-dropdown__item "><a href="#" role="button"aria-label="Information for librarians expand or collapse" aria-controls="collapse-main-sub-nav-6" aria-expanded="false"class="main-navigation-dropdown__link js-link-toggle-main-sub-menu">Information for librarians</a><span class="main-navigation-dropdown__toggle-expand js-link-toggle-main-sub-menu" role="button"aria-label="Information for librarians expand or collapse" title="expand or collapse"aria-controls="collapse-main-sub-nav-6" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down main-navigation-dropdown__chevron js-toggle-main-menu-item" aria-hidden="true"></span></span><ul class="main-navigation-dropdown__submenu js-toggle-display-sub-menu" id="collapse-main-sub-nav-6"><li class="main-navigation-dropdown__submenu-item "><a href="/subscribe-get-access" class="main-navigation-dropdown__submenu-link">Licensing and access options</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/license-agreements" class="main-navigation-dropdown__submenu-link">Licence agreements</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/admin-tools" class="main-navigation-dropdown__submenu-link">Manage your subscription</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/publish-and-read" class="main-navigation-dropdown__submenu-link">Publish and Read</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/oa-reporting" class="main-navigation-dropdown__submenu-link">Open Access reporting</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/resources" class="main-navigation-dropdown__submenu-link">Resources for librarians</a></li></ul></li><li class="main-navigation-dropdown__item "><a href="#" role="button"aria-label="About us expand or collapse" aria-controls="collapse-main-sub-nav-7" aria-expanded="false"class="main-navigation-dropdown__link js-link-toggle-main-sub-menu">About us</a><span class="main-navigation-dropdown__toggle-expand js-link-toggle-main-sub-menu" role="button"aria-label="About us expand or collapse" title="expand or collapse"aria-controls="collapse-main-sub-nav-7" aria-expanded="false"><span class="glyphicon glyphicon-chevron-down main-navigation-dropdown__chevron js-toggle-main-menu-item" aria-hidden="true"></span></span><ul class="main-navigation-dropdown__submenu js-toggle-display-sub-menu" id="collapse-main-sub-nav-7"><li class="main-navigation-dropdown__submenu-item "><a href="https://microbiologysociety.org" class="main-navigation-dropdown__submenu-link">Microbiology Society</a></li><li class="main-navigation-dropdown__submenu-item "><a href="https://microbiologysociety.org/who-we-are/publishing-for-the-community.html" class="main-navigation-dropdown__submenu-link">Publishing for the Community</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/why-publish" class="main-navigation-dropdown__submenu-link">Why publish?</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/our-editorial-boards" class="main-navigation-dropdown__submenu-link">Joining our Editorial Boards</a></li><li class="main-navigation-dropdown__submenu-item "><a href="https://microbiologysociety.org/events.html" class="main-navigation-dropdown__submenu-link">Events</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/contact-us" class="main-navigation-dropdown__submenu-link">Contact us</a></li><li class="main-navigation-dropdown__submenu-item "><a href="/frequently-asked-questions" class="main-navigation-dropdown__submenu-link">FAQs</a></li></ul></li></ul></div></li></ul>
-</div> 
-</div>
-</header><div id="bellowheadercontainer" class="container no-padding container--jc__mgen" ><div id="hidedesktop"><div class="mobile-tools">
-<button type="button" id="mobile-tools-button" data-parent="#bellowheadercontainer" class="navbar-toggle toggle-arrow" data-toggle="collapse"
-data-target="#tools-nav-mobile" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span>Tools <i class="fa fa-angle-down"></i></span>
-</button>
-</div>
-<aside class="col-xs-12 col-sm-12 col-md-3 pull-right left-padding sidebar-pub2web-container header-sidebar" aria-label="site sidebar containing page tools, access key and possibly adverts"> 
-<div id="signInOrRegisterDialog"></div>
-</aside>
-</div><main class="col-xs-12 col-sm-12 col-md-9 content main-content-container js-main-content-container" id="main-content-container"><input type="hidden" name="svgImageBackgroundColor" value="rgba(255,255,255,0.7)"/><div class="clearfix"></div><div class="article-cover"><div class="title-box item-meta-data"><div class="journal-volume-issue-container item-meta-data__journal-volume-issue-container"><a href="/content/journal/mgen" class="item-meta-data__journal-title-link"><h3 title="Microbial Genomics" class="journaltitle_mgen item-meta-data__journal container__journal-title"><img alt="Microbial Genomics logo" src="https://www.microbiologyresearch.org/upload/logo-image/MGEN_2022_Journal_Header.svg" class="img-responsive main-logo-image fr-fil fr-dib" style="margin-left: -5px; height: 70px; margin-bottom: -20px;"><span class="sr-only">Microbial Genomics</span></h3></a><a href="/content/journal/mgen/2/6" title="" class="item-meta-data__issue-title-link"><h4 class="item-meta-data__journal-issue"title="Volume 2, Issue 6">Volume 2, Issue 6</h4></a></div><div class="hidden-xs article-access-icon-and-access item-meta-data__accreditation"><h4 class="article-type item-meta-data__type">Research Article</h4><h4 class="article-access item-meta-data__oa"> <span class="accesstext">Open Access</span></h4></div><h1 class="item-meta-data__item-title">Bayesian codon substitution modelling to identify sources of pathogen evolutionary rate variation<img class="content__keyicon js-keyicon" src="/common/images/access-icons/Open_Access_logo_PLoS_transparent.svg" alt="Open Access" /></h1><ul class="list-unstyled article-meta-data item-meta-data__article"> <li class="data-author article-meta-data__item item-meta-data__author"><span class="meta-value authors"><a href="/search?value1=Guy+Baele&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Guy Baele</a><sup>1​</sup>, <a href="/search?value1=Marc+A.+Suchard&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Marc A. Suchard</a><sup>2​</sup>, <a href="/search?value1=Filip+Bielejec&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Filip Bielejec</a><sup>1​</sup>&nbsp;and <a href="/search?value1=Philippe+Lemey&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Philippe Lemey</a><sup>1​</sup></span>
-</li><li class="data-author article-meta-data__item item-meta-data__author-affiliations"><div class="showhide spacing">
-<a id="showHideAffiliation" href="#" role="button" class="std-display viewHideAffiliation js-showhide" aria-expanded="false" aria-controls="showHideAffiliationContent" >
-<span class="js-plus">
-<i class="fa fa-plus-circle"></i>
-<span class="underline">
-View Affiliations
-</span>
-</span>
-<span class="js-minus minus">
-<i class="fa fa-minus-circle"></i>
-<span class="underline">
-Hide Affiliations
-</span>
-</span>
-</a>
-<div id="showHideAffiliationContent" class="js-description minus">
-<div class="affiliation-details">
-<!-- -->
-<span class="meta-value affiliations">
-<sup class="affiliations_number">1​</sup>
-<a class="affilLinkToEncode" href="/search?option1=pub_affiliation&value1=%221%E2%80%8BDepartment+of+Microbiology+and+Immunology%2C+Rega+Institute%2C+KU+Leuven+-+University+of+Leuven%2C+Leuven%2C+Belgium%22&option912=resultCategory&value912=ResearchPublicationContent"><span class="au-label">1​</span>Department of Microbiology and Immunology, Rega Institute, KU Leuven - University of Leuven, Leuven, Belgium</a>
-</span>
-<!-- and -->
-<span class="meta-value affiliations">
-<sup class="affiliations_number">2​</sup>
-<a class="affilLinkToEncode" href="/search?option1=pub_affiliation&value1=%222%E2%80%8BDepartments+of+Biomathematics%2C+Human+Genetics+and+Biostatistics%2C+David+Geffen+School+of+Medicine%2C+University+of+California%2C+Los+Angeles%2C+CA+90095%2C+USA%22&option912=resultCategory&value912=ResearchPublicationContent"><span class="au-label">2​</span>Departments of Biomathematics, Human Genetics and Biostatistics, David Geffen School of Medicine, University of California, Los Angeles, CA 90095, USA</a>
-</span>
-</div>
-<div class="institutionLinks">
-<div class="instList">
-</div>
-</div>
-</div>
-</div>
-</li><li class="article-meta-data__item item-meta-data__date-and-doi"><span class="meta-container"> <span class="meta-key meta-container__label item-meta-data__pub-date-label"><span class="hidden-xs"></span>Published:</span><span class="meta-value meta-container__value item-meta-data__pub-date-value">24 June 2016</span></span><a href="https://doi.org/10.1099/mgen.0.000057" 
-class="externallink meta-container meta-container__value item-meta-data__doi meta-container--doi hidden-xs" >https://doi.org/10.1099/mgen.0.000057</a>
-</li></ul></div></div><nav class="article-navigation-bar non-printed-section" aria-label="Article navigation"><div class="article-navigation-bar__inner-container"><ul class="nav navbar-nav navbar-nav--article-nav-left"><li class="dropdown navbar-nav__item"><a href="#" data-toggle="dropdown" role="button" title="Navigate Article Resources"aria-haspopup="true" aria-expanded="false"><i class="material-icons hidden-xxs">info</i> Info</a> <ul class="dropdown-menu js-transformer-tabs"><li class=" tab-one tabIcon" id="abstract_tab">
-<a href="#abstract_content" title="Article information" 
-class=" tab-one" 
-role="button" aria-pressed="false" >
-<span class="iconContainer"><i class="fa-stack fa-lg"><i class="fa fa-ellipsis-h fa-stack-1x"></i><i class="fa fa-file-o fa-stack-2x"></i></i><strong class="titleIcon">Article information </strong></span>
-</a>
-</li><li class="active tabIcon" id="html_tab">
-<a href="#html_fulltext" title="Full-Text" 
-class="active " 
-role="button" aria-pressed="true" >
-<span class="iconContainer"><i class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-code fa-stack-1x" aria-hidden="true"></i><i class="fa fa-file-o fa-stack-2x" aria-hidden="true"></i></i><strong class="titleIcon">Full-Text </strong></span>
-</a>
-</li><li class=" tabIcon" id="dataandmedia_tab">
-<a href="#dataandmedia" title="Figures &amp; Tables" 
-class=" " 
-role="button" aria-pressed="false" >
-<span class="iconContainer"><i class="fa fa-file-text-o"></i><strong class="titleIcon">Figures and Tables </strong></span>
-</a>
-</li><li class=" tabIcon" id="references">
-<a href="#referenceContainer" title="References" 
-class=" " 
-role="button" aria-pressed="false" >
-<span class="iconContainer"><i class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-bookmark fa-stack-1x" aria-hidden="true"></i><i class="fa fa-file-o fa-stack-2x" aria-hidden="true"></i></i><strong class="titleIcon">References (33)</strong></span>
-</a>
-</li><li class=" tabIcon" id="cite">
-<a href="#cited" title="Cited By" 
-class=" " 
-role="button" aria-pressed="false" >
-<span class="iconContainer"><i class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-quote-right fa-stack-1x" aria-hidden="true"></i><i class="fa fa-file-o fa-stack-2x" aria-hidden="true"></i></i><strong class="titleIcon">Cited By (5)</strong></span>
-</a>
-</li><li class=" tabIcon" id="supplementary_Tab">
-<a href="#supplementary_data" title="Supplementary Material" 
-class=" " 
-role="button" aria-pressed="false" >
-<span class="iconContainer"><i class="fa fa-file-text-o"></i><strong class="titleIcon">Supplementary Material </strong></span>
-</a>
-</li><li class=" tabIcon" id="metrics_tab">
-<a href="#metrics_content" title="Metrics" 
-class=" " 
-role="button" aria-pressed="false" >
-<span class="iconContainer"><i class="fa fa-pie-chart"></i><strong class="titleIcon">Metrics </strong></span>
-</a>
-</li></ul> </li><li class="dropdown navbar-nav__item navbar-nav__item--ft-sections disabled" id="sectionDropdownContainer"><a href="#" title="Navigate fulltext Sections"class="menu-sections dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-disabled="true"><i class="material-icons">list</i>Sections</a><div class="dropdown-menu"></div></li></ul><ul class="nav navbar-nav navbar-nav--article-nav-right pull-right"><li class="navbar-nav__item hidden-xs"><a href="/content/journal/mgen/10.1099/mgen.0.000057/sidebyside" class="js-sidebyside-open-iframe"><i class="material-icons lens-view-icon">chrome_reader_mode</i> <span class="hidden-xxs">Side by side view</span></a></li><li class="navbar-nav__item"><div class="accessfulltextlabel hidden">Access full textArticle</div><div class="download-pdf"><div class="access-options pdfItem-options">
-<div class="ft-download-content ft-download-content--pdf">
-<form method="POST" action="/deliver/fulltext/mgen/2/6/mgen000057.pdf?itemId=%2Fcontent%2Fjournal%2Fmgen%2F10.1099%2Fmgen.0.000057&mimeType=pdf&containerItemId=content/journal/mgen"
-target="/content/journal/mgen/10.1099/mgen.0.000057-pdf" 
-data-title="Download"
-data-itemId="http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000057"
-class="ft-download-content__form ft-download-content__form--pdf js-ft-download-form " >
-<a href="#" role="button" aria-label="Download PDF">
-<i class="fa fa-file-pdf-o access-options-icon" aria-hidden="true"></i>
-<span class="hidden-xxs fmt-text">PDF</span>
-</a> 
-</form>
-</div>
-</div></div>
-</li><li class="dropdown navbar-nav__item navbar-nav__item--keepopen" id="toolsDropdownContainer"><a href="#" role="button" id="toolsDropdown" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="material-icons">build</i> <span class="hidden-xxs">Tools</span></a><div class="dropdown-menu"><div class="tools-nav tools-nav--keepopen">
-<div class="panel-heading">
-<h3 class="panel-title" id="toolsMenuHeadingInPage"><i class="fa fa-wrench" aria-hidden="true"></i> Tools</h3>
-</div>
-<div class="panel-body">
-<ul class="list-unstyled" aria-labelledBy="toolsMenuHeadingInPage">
-<li class=" tools-item tools-recommend">
-<div class="js-nli-createalert" data-toggle="modal" data-target="#signInToCreateAlert">
-<a tabindex="0" href="#" class="js-popoverLink" data-container="body" data-toggle="popover" data-placement="top" role="button" 
-data-content="Please sign in or register to use this feature">
-<i class="fa fa-heart favouritesIcon fa-fw"></i>
-Add to my favourites
-</a>
-</div> 
-</li>
-<li>
-<div class="js-nli-createalert" data-toggle="modal" data-target="#signInToCreateAlert">
-<a href="#" class="js-popoverLink" data-container="body" data-toggle="popover" data-placement="top" role="button"
-data-content="You must be signed in to create this alert!">
-<span class="fa fa-bell fa-fw"></span> Create publication alert
-</a>
-</div>
-<div class="js-nli-createalert" data-toggle="modal" data-target="#signInToCreateAlert">
-<a href="#" class="js-popoverLink" data-container="body" data-toggle="popover" data-placement="top" role="button"
-data-content="You must be signed in to create this alert!">
-<span class="fa fa-bell fa-fw"></span> Create citation alert
-</a>
-</div>
-<div class="js-nli-createalert" data-toggle="modal" data-target="#signInToCreateAlert">
-<a href="#" class="js-popoverLink" data-container="body" data-toggle="popover" data-placement="top" role="button"
-data-content="You must be signed in to create this alert!">
-<span class="fa fa-bell fa-fw"></span> Create correction alert
-</a>
-</div>
-</li>
-<li>
-<a href="#" class="toggle showhide collapsed js-dropdown-toggle" role="button" aria-expanded="false" data-toggle="collapse" title="Link to export citations" aria-controls="export-list0">
-<i class="fa fa-paper-plane fa-fw"></i>
-Export citation <span class="fa upDownCaret"></span>
-</a>
-<ul class="flat togglecontent hidden-js-li exportlist list-group collapse" id="export-list0">
-<li class="list-group-item">
-<a href="/content/journal/mgen/10.1099/mgen.0.000057/cite/bibtex" title="Link to export in BibTEX format" 
-class="externallink" >BibT<sub>E</sub>X</a>
-</li>
-<li class="list-group-item">
-<a href="/content/journal/mgen/10.1099/mgen.0.000057/cite/endnote" title="Link to export in Endnote format" 
-class="externallink" >Endnote</a>
-</li>
-<li class="list-group-item">
-<a href="/content/journal/mgen/10.1099/mgen.0.000057/cite/bibtex" title="Link to export in Zotero format" 
-class="externallink" >Zotero</a>
-</li>
-<li class="list-group-item">
-<a href="/content/journal/mgen/10.1099/mgen.0.000057/cite/medline" title="Link to export in MEDLARS text" 
-class="externallink" >Medlars</a>
-</li>
-<li class="list-group-item">
-<a href="/content/journal/mgen/10.1099/mgen.0.000057/cite/refworks" title="Link to export in RefWorks format" 
-class="externallink" >RefWorks</a>
-</li>
-<li class="list-group-item">
-<a href="http://www.mendeley.com/import/?url=https%3A%2F%2Fwww.microbiologyresearch.org%2Fcontent%2Fjournal%2Fmgen%2F10.1099%2Fmgen.0.000057" target="_blank" title="Link to export to Mendeley" class="externallink">Mendeley</a>
-</li>
-</ul>
-</li>
-<li class=" tools-item tools-recommend">
-<a href="/content/journal/mgen" title="Link to recommend this journal to a library" 
-data-title="Microbial Genomics" data-eissn="2057-5858" data-subj="Microbiology Society" class="js-recommendToLibrarian" ><i class="fa fa-thumbs-o-up fa-fw"></i>
-Recommend to library</a>
-</li>
-<li class=" tools-item tools-permissions">
-<a href="https://www.copyright.com/openurl?issn=2057-5858&amp;contentIdType=doi&amp;doi=10.1099%2Fmgen.0.000057" title="Link to Reprints and Permissions page" 
-class="toolsprite reprint-permission popup" target="_blank" ><i class="fa fa-files-o fa-fw"></i>
-Reprints &amp; Permissions</a>
-</li>
-<li>
-</li>
-</ul>
-</div>
-</div>
-</div> </li><li class="dropdown navbar-nav__item navbar-nav__item--keepopen navbar-nav__item--share" id="shareDropdownContainer"><a href="#" role="button" id="shareDropdown" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="material-icons">share</i> <span class="hidden-xxs"> Share</span></a><div class="dropdown-menu "><div class="share-nav panel-default shareDropdown">
-<div class="panel-heading">
-<h3 class="panel-title"><i class="fa fa-share-alt-square"></i> Share</h3>
-</div>
-<div class="panel-body">
-<div class="shareaholic-canvas" data-app="share_buttons" data-app-id="33118683"></div>
-</div>
-</div>
-</div> </li></ul></div></nav> <input type="hidden" name="svgImageBackgroundColor" value="rgba(255,255,255,0.7)"/>
-<section id="tabbedpages" class="tabs icon-image-content">
-<div id="abstract_content" class=" tab-pane abstract tabbedsection">
-<div class="articleabstract">
-<h2 dir="auto">Abstract</h2>
-<div dir="auto">
-<div
-class="description" ><p>Phylodynamic reconstructions rely on a measurable molecular footprint of epidemic processes in pathogen genomes. Identifying the factors that govern the tempo and mode by which these processes leave a footprint in pathogen genomes represents an important goal towards understanding infectious disease evolution. Discriminating between synonymous and non-synonymous substitution rates is crucial for testing hypotheses about the sources of evolutionary rate variation. Here, we implement a codon substitution model in a Bayesian statistical framework to estimate absolute rates of synonymous and non-synonymous substitution in unknown evolutionary histories. To demonstrate how this model can provide critical insights into pathogen evolutionary dynamics, we adopt hierarchical phylogenetic modelling with fixed effects and apply it to two viral examples. Using within-host HIV-1 data from patients with different host genetic background and different disease progression rates, we show that viral populations undergo faster absolute synonymous substitution rates in patients with faster disease progression, probably reflecting faster replication rates. We also re-analyse rabies data from different bat species in the Americas to demonstrate that climate predicts absolute synonymous substitution rates, which can be attributed to climate-associated bat activity and viral transmission dynamics. In conclusion, our model to estimate absolute rates of synonymous and non-synonymous substitution can provide a powerful approach to investigate how host ecology can shape the tempo of pathogen evolution.</p></div>
-</div>
-</div>
-<ul class="list-inline border-right-list article-dates"><li>Received: <time datetime="2016-02-06">06/02/2016</time></li><li >Accepted:<time datetime="2016-03-24">24/03/2016</time></li><li>Published Online:<time datetime="2016-06-24">24/06/2016</time></li></ul> <div class="bottom-side-nav">
-<span>
-<strong dir="auto">
-Keyword(s):
-</strong>
-</span>
-<a href="/search?value1=%22Bat+Rabies%22&option1=pub_keyword" title="Bat Rabies">Bat Rabies</a>
-, 
-<a href="/search?value1=%22Bayesian+inference%22&option1=pub_keyword" title="Bayesian inference">Bayesian inference</a>
-, 
-<a href="/search?value1=%22Codon+substitution+model%22&option1=pub_keyword" title="Codon substitution model">Codon substitution model</a>
-, 
-<a href="/search?value1=%22Evolutionary+rate+variation%22&option1=pub_keyword" title="Evolutionary rate variation">Evolutionary rate variation</a>
-, 
-<a href="/search?value1=%22Hierarchical+phylogenetic+modeling%22&option1=pub_keyword" title="Hierarchical phylogenetic modeling">Hierarchical phylogenetic modeling</a>
-and 
-<a href="/search?value1=%22Intrahost+HIV%22&option1=pub_keyword" title="Intrahost HIV">Intrahost HIV</a>
-</div>
-<div class="copyright-info">
-<span dir="auto">
-<xhtml:span xml:lang="en">© 2016 The Authors
-</xhtml:span>
-</span>
-</div>
-<ul class="flat meta-list meta-header list-unstyled">
-<li class="">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en">This is an open access article under the terms of the <a target="xrefwindow" href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution 4.0 International License</a>, which permits unrestricted use, distribution and reproduction in any medium, provided the original author and source are credited.</xhtml:span>
-</li>
-</ul>
-</div>
-<div id="metrics_content" class="tab-pane metrics hidden-js-div tabbedsection">
-<div class="itemMetricsLoading">
-<img src="/images/jp/spinner.gif" alt="Loading" />
-<p>Article metrics loading...</p>
-</div>
-<div class="metricsContainer retrieveMetrics">
-<div class="hiddenjsdiv metricsItemId">/content/journal/mgen/10.1099/mgen.0.000057</div>
-<div class="hiddenjsdiv metricsPubDate">2016-06-24</div>
-<div class="hiddenjsdiv metricsEndDate">2026-04-07</div>
-<div class="hiddenjsdiv" id="graph1Settings" 
-data-nodata="No metrics data to plot."
->
-</div>
-<div class="hiddenjsdiv" id="graph2Settings" 
-data-nodata="No metrics data to plot."
->
-</div>
-<div class="hiddenjsdiv " id="graph3Settings" 
-data-nodata="No metrics data to plot."
->
-</div>
-<h2 id="dailyMetrics">Metrics</h2>
-<div class="metricsDetails">
-</div>
-</div>
-</div>
-<div id="html_fulltext" class="htmlfulltext hidden-js-div tabbedsection tab-pane active">
-<form name="pptForm" class="hidden pptForm" id="pptDwnld" action="/contentexport/powerpoint/powerpoint.action" method="POST">
-<input type="hidden" name="itemId" value=""/>
-<input type="hidden" name="title" value=""/>
-<input type="hidden" name="caption" value=""/>
-<input type="hidden" name="copyright" value=""/>
-<input type="hidden" name="citation" value=""/>
-<input type="hidden" name="imagePath" value=""/>
-<input type="hidden" name="logoPath" value="jp/pub2web.gif" />
-<a href="#" class="pptDownload">Download as PowerPoint</a>
-</form>
-<div class="itemFullTextLoading">
-<img src="/images/jp/spinner.gif" alt="Loading full text..." />
-<p>Full text loading...</p>
-</div>
-<span class="showPPT" data-showppt="true" ></span><div id="itemFullTextId" class="itemFullTextHtml retrieveFullTextHtml hidden-js-div" data-fullTexturl="/deliver/fulltext/mgen/2/6/mgen000057.html?itemId=/content/journal/mgen/10.1099/mgen.0.000057&mimeType=html&fmt=ahah"data-fulltextunavailablemsg="&lt;h2&gt;HTML Fulltext&lt;/h2&gt;&lt;span dir=&#034;auto&#034;&gt;The full text of this item is not currently available.&lt;/span&gt;"data-fulltextexpandlinktext="Toggle display:"data-hideinlinetablesbydefault="false"data-showfootnoteoverlaypopup="false"data-showreferenceoverlaypopup="true">/deliver/fulltext/mgen/2/6/mgen000057.html?itemId=/content/journal/mgen/10.1099/mgen.0.000057&mimeType=html&fmt=ahah</div><div id="multimediadialog"></div></div>
-<div id="referenceContainer" class="references hidden-js-div tabbedsection tab-pane">
-<div id="referencedetails">
-<p class="description"><span class="tl-main-part">References</span></p>
-<ol id="articlereference">
-<li class="refbody" id="ref-R1">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R1"></a><div class="citation">
-<span class="reference-surname">Ayres</span> <span class="reference-given-names">D. L.</span>, 
-<span class="reference-surname">Darling</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Zwickl</span> <span class="reference-given-names">D. J.</span>, 
-<span class="reference-surname">Beerli</span> <span class="reference-given-names">P.</span>, 
-<span class="reference-surname">Holder</span> <span class="reference-given-names">M. T.</span>, 
-<span class="reference-surname">Lewis</span> <span class="reference-given-names">P. O.</span>, 
-<span class="reference-surname">Huelsenbeck</span> <span class="reference-given-names">J. P.</span>, 
-<span class="reference-surname">Ronquist</span> <span class="reference-given-names">F.</span>, 
-<span class="reference-surname">Swofford</span> <span class="reference-given-names">D. L.</span>
-<span class="reference-etal"> et al.</span>
-<span class="reference-year">2012</span>; <span class="reference-article-title"> BEAGLE: an application programming interface and high-performance computing library for statistical phylogenetics. </span> <span class="reference-source">Syst Biol</span> 61:<span class="reference-fpage">170–</span><span class="reference-lpage">173</span><a target="xrefwindow" href="https://doi.org/10.1093/sysbio/syr100"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/21963610">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=BEAGLE%3A+an+application+programming+interface+and+high-performance+computing+library+for+statistical+phylogenetics&amp;author=D.+L.+Ayres&amp;author=A.+Darling&amp;author=D.+J.+Zwickl&amp;author=P.+Beerli&amp;author=M.+T.+Holder&amp;author=P.+O.+Lewis&amp;author=J.+P.+Huelsenbeck&amp;author=F.+Ronquist&amp;author=D.+L.+Swofford&amp;journal=Syst+Biol&amp;volume=61&amp;doi=10.1093%2Fsysbio%2Fsyr100&amp;pages=170-173&amp;publication_year=2012&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R2">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R2"></a><div class="citation">
-<span class="reference-surname">Belshaw</span> <span class="reference-given-names">R.</span>, 
-<span class="reference-surname">Gardner</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Pybus</span> <span class="reference-given-names">O. G.</span>
-<span class="reference-year">2008</span>; <span class="reference-article-title"> Pacing a small cage: mutation and RNA viruses. </span> <span class="reference-source">Trends Ecol Evol</span> 23:<span class="reference-fpage">188–</span><span class="reference-lpage">193</span><a target="xrefwindow" href="https://doi.org/10.1016/j.tree.2007.11.010"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/18295930">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Pacing+a+small+cage%3A+mutation+and+RNA+viruses&amp;author=R.+Belshaw&amp;author=A.+Gardner&amp;author=A.+Rambaut&amp;author=O.+G.+Pybus&amp;journal=Trends+Ecol+Evol&amp;volume=23&amp;doi=10.1016%2Fj.tree.2007.11.010&amp;pages=188-193&amp;publication_year=2008&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R3">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R3"></a><div class="citation">
-<span class="reference-surname">Drummond</span> <span class="reference-given-names">A. J.</span>, 
-<span class="reference-surname">Suchard</span> <span class="reference-given-names">M. A.</span>, 
-<span class="reference-surname">Xie</span> <span class="reference-given-names">D.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>
-<span class="reference-year">2012</span>; <span class="reference-article-title"> Bayesian phylogenetics with BEAUti and the BEAST 1.7. </span> <span class="reference-source">Mol Biol Evol</span> 29:<span class="reference-fpage">1969–</span><span class="reference-lpage">1973</span><a target="xrefwindow" href="https://doi.org/10.1093/molbev/mss075"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/22367748">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Bayesian+phylogenetics+with+BEAUti+and+the+BEAST+1.7&amp;author=A.+J.+Drummond&amp;author=M.+A.+Suchard&amp;author=D.+Xie&amp;author=A.+Rambaut&amp;journal=Mol+Biol+Evol&amp;volume=29&amp;doi=10.1093%2Fmolbev%2Fmss075&amp;pages=1969-1973&amp;publication_year=2012&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R4">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R4"></a><div class="citation">
-<span class="reference-surname">Dunbar</span> <span class="reference-given-names">M. B.</span>, 
-<span class="reference-surname">Brigham</span> <span class="reference-given-names">R. M.</span>
-<span class="reference-year">2010</span>; <span class="reference-article-title"> Thermoregulatory variation among populations of bats along a latitudinal gradient. </span> <span class="reference-source">J Comp Physiol B</span> 180:<span class="reference-fpage">885–</span><span class="reference-lpage">893</span></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Thermoregulatory+variation+among+populations+of+bats+along+a+latitudinal+gradient&amp;author=M.+B.+Dunbar&amp;author=R.+M.+Brigham&amp;journal=J+Comp+Physiol+B&amp;volume=180&amp;pages=885-893&amp;publication_year=2010&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R5">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R5"></a><div class="citation">
-<span class="reference-surname">Edo-Matas</span> <span class="reference-given-names">D.</span>, 
-<span class="reference-surname">Lemey</span> <span class="reference-given-names">P.</span>, 
-<span class="reference-surname">Tom</span> <span class="reference-given-names">J. A.</span>, 
-<span class="reference-surname">Serna-Bolea</span> <span class="reference-given-names">C.</span>, 
-<span class="reference-surname">van den Blink</span> <span class="reference-given-names">A. E.</span>, 
-<span class="reference-surname">van 't Wout</span> <span class="reference-given-names">A. B.</span>, 
-<span class="reference-surname">Schuitemaker</span> <span class="reference-given-names">H.</span>, 
-<span class="reference-surname">Suchard</span> <span class="reference-given-names">M. A.</span>
-<span class="reference-year">2011</span>; <span class="reference-article-title"> Impact of CCR5delta32 host genetic background and disease progression on HIV-1 intrahost evolutionary processes: efficient hypothesis testing through hierarchical phylogenetic models. </span> <span class="reference-source">Mol Biol Evol</span> 28:<span class="reference-fpage">1605–</span><span class="reference-lpage">1616</span><a target="xrefwindow" href="https://doi.org/10.1093/molbev/msq326"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/21135151">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Impact+of+CCR5delta32+host+genetic+background+and+disease+progression+on+HIV-1+intrahost+evolutionary+processes%3A+efficient+hypothesis+testing+through+hierarchical+phylogenetic+models&amp;author=D.+Edo-Matas&amp;author=P.+Lemey&amp;author=J.+A.+Tom&amp;author=C.+Serna-Bolea&amp;author=A.+E.+van+den+Blink&amp;author=A.+B.+van+%27t+Wout&amp;author=H.+Schuitemaker&amp;author=M.+A.+Suchard&amp;journal=Mol+Biol+Evol&amp;volume=28&amp;doi=10.1093%2Fmolbev%2Fmsq326&amp;pages=1605-1616&amp;publication_year=2011&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R6">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R6"></a><div class="citation">
-<span class="reference-surname">Edwards</span> <span class="reference-given-names">C. T.</span>, 
-<span class="reference-surname">Holmes</span> <span class="reference-given-names">E. C.</span>, 
-<span class="reference-surname">Wilson</span> <span class="reference-given-names">D. J.</span>, 
-<span class="reference-surname">Viscidi</span> <span class="reference-given-names">R. P.</span>, 
-<span class="reference-surname">Abrams</span> <span class="reference-given-names">E. J.</span>, 
-<span class="reference-surname">Phillips</span> <span class="reference-given-names">R. E.</span>, 
-<span class="reference-surname">Drummond</span> <span class="reference-given-names">A. J.</span>
-<span class="reference-year">2006</span>; <span class="reference-article-title"> Population genetic estimation of the loss of genetic diversity during horizontal transmission of HIV-1. </span> <span class="reference-source">BMC Evol Biol</span> 6:<span class="reference-fpage">28</span><a target="xrefwindow" href="https://doi.org/10.1186/1471-2148-6-28"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/16556318">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Population+genetic+estimation+of+the+loss+of+genetic+diversity+during+horizontal+transmission+of+HIV-1&amp;author=C.+T.+Edwards&amp;author=E.+C.+Holmes&amp;author=D.+J.+Wilson&amp;author=R.+P.+Viscidi&amp;author=E.+J.+Abrams&amp;author=R.+E.+Phillips&amp;author=A.+J.+Drummond&amp;journal=BMC+Evol+Biol&amp;volume=6&amp;doi=10.1186%2F1471-2148-6-28&amp;pages=28&amp;publication_year=2006&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R7">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R7"></a><div class="citation">
-<span class="reference-surname">Felsenstein</span> <span class="reference-given-names">J.</span>
-<span class="reference-year">2004</span>; <span class="reference-article-title"> Models of DNA evolution. </span> In <span class="reference-source">Inferring Phylogenies</span> pp. <span class="reference-fpage">196–</span><span class="reference-lpage">221</span> Sunderland, MA: Sinauer Associates, Inc;</div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Models+of+DNA+evolution&amp;author=J.+Felsenstein&amp;journal=Inferring+Phylogenies&amp;pages=196-221&amp;publication_year=2004&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R32">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R32"></a><div class="citation">
-<span class="reference-surname">Goldman</span> <span class="reference-given-names">N.</span>, 
-<span class="reference-surname">Yang</span> <span class="reference-given-names">Z.</span>
-<span class="reference-year">1994</span>; <span class="reference-article-title"> A codon-based model of nucleotide substitution for protein-coding DNA sequences. </span> <span class="reference-source">Mol. Biol. Evol</span> 11:<span class="reference-fpage">725–</span><span class="reference-lpage">736</span></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=A+codon-based+model+of+nucleotide+substitution+for+protein-coding+DNA+sequences&amp;author=N.+Goldman&amp;author=Z.+Yang&amp;journal=Mol.+Biol.+Evol&amp;volume=11&amp;pages=725-736&amp;publication_year=1994&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R8">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R8"></a><div class="citation">
-<span class="reference-surname">Hasegawa</span> <span class="reference-given-names">M.</span>, 
-<span class="reference-surname">Kishino</span> <span class="reference-given-names">H.</span>, 
-<span class="reference-surname">Yano</span> <span class="reference-given-names">T.</span>
-<span class="reference-year">1985</span>; <span class="reference-article-title"> Dating of the human–ape splitting by a molecular clock of mitochondrial DNA. </span> <span class="reference-source">J Mol Evol</span> 22:<span class="reference-fpage">160–</span><span class="reference-lpage">174</span><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/3934395">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Dating+of+the+human%E2%80%93ape+splitting+by+a+molecular+clock+of+mitochondrial+DNA&amp;author=M.+Hasegawa&amp;author=H.+Kishino&amp;author=T.+Yano&amp;journal=J+Mol+Evol&amp;volume=22&amp;pages=160-174&amp;publication_year=1985&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R9">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R9"></a><div class="citation">
-<span class="reference-surname">Hicks</span> <span class="reference-given-names">A. L.</span>, 
-<span class="reference-surname">Duffy</span> <span class="reference-given-names">S.</span>
-<span class="reference-year">2014</span>; <span class="reference-article-title"> Cell tropism predicts long-term nucleotide substitution rates of mammalian RNA viruses. </span> <span class="reference-source">PLoS Pathog</span> 10:<span class="reference-elocation-id">e1003838</span><a target="xrefwindow" href="https://doi.org/10.1371/journal.ppat.1003838"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/24415935">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Cell+tropism+predicts+long-term+nucleotide+substitution+rates+of+mammalian+RNA+viruses&amp;author=A.+L.+Hicks&amp;author=S.+Duffy&amp;journal=PLoS+Pathog&amp;volume=10&amp;doi=10.1371%2Fjournal.ppat.1003838&amp;publication_year=2014&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R10">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R10"></a><div class="citation">
-<span class="reference-surname">Holmes</span> <span class="reference-given-names">E. C.</span>
-<span class="reference-year">2009</span> <span class="reference-source">The Evolution and Emergence of RNA Viruses</span> New York: Oxford University Press;</div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=The+Evolution+and+Emergence+of+RNA+Viruses&amp;author=E.+C.+Holmes&amp;publication_year=2009&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R11">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R11"></a><div class="citation">
-<span class="reference-surname">Kass</span> <span class="reference-given-names">R. E.</span>, 
-<span class="reference-surname">Raftery</span> <span class="reference-given-names">A. E.</span>
-<span class="reference-year">1995</span>; <span class="reference-article-title"> Bayes factors. </span> <span class="reference-source">J Am Stat Assoc</span> 90:<span class="reference-fpage">773–</span><span class="reference-lpage">795</span></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Bayes+factors&amp;author=R.+E.+Kass&amp;author=A.+E.+Raftery&amp;journal=J+Am+Stat+Assoc&amp;volume=90&amp;pages=773-795&amp;publication_year=1995&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R18">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R18"></a><div class="citation">
-<span class="reference-surname">Kosakovsky Pond</span> <span class="reference-given-names">S.</span>, 
-<span class="reference-surname">Muse</span> <span class="reference-given-names">S. V.</span>
-<span class="reference-year">2005</span>; <span class="reference-article-title"> Site-to-site variation of synonymous substitution rates. </span> <span class="reference-source">Mol Biol Evol</span> 22:<span class="reference-fpage">2375–</span><span class="reference-lpage">2385</span><a target="xrefwindow" href="https://doi.org/10.1093/molbev/msi232"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/16107593">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Site-to-site+variation+of+synonymous+substitution+rates&amp;author=S.+Kosakovsky+Pond&amp;author=S.+V.+Muse&amp;journal=Mol+Biol+Evol&amp;volume=22&amp;doi=10.1093%2Fmolbev%2Fmsi232&amp;pages=2375-2385&amp;publication_year=2005&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R12">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R12"></a><div class="citation">
-<span class="reference-surname">Kuo</span> <span class="reference-given-names">L.</span>, 
-<span class="reference-surname">Mallick</span> <span class="reference-given-names">B.</span>
-<span class="reference-year">1998</span>; <span class="reference-article-title"> Variable selection for regression models. </span> <span class="reference-source">Sankhya B</span> 60:<span class="reference-fpage">65–</span><span class="reference-lpage">81</span></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Variable+selection+for+regression+models&amp;author=L.+Kuo&amp;author=B.+Mallick&amp;journal=Sankhya+B&amp;volume=60&amp;pages=65-81&amp;publication_year=1998&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R13">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R13"></a><div class="citation">
-<span class="reference-surname">Lemey</span> <span class="reference-given-names">P.</span>, 
-<span class="reference-surname">Kosakovsky Pond</span> <span class="reference-given-names">S. L.</span>, 
-<span class="reference-surname">Drummond</span> <span class="reference-given-names">A. J.</span>, 
-<span class="reference-surname">Pybus</span> <span class="reference-given-names">O. G.</span>, 
-<span class="reference-surname">Shapiro</span> <span class="reference-given-names">B.</span>, 
-<span class="reference-surname">Barroso</span> <span class="reference-given-names">H.</span>, 
-<span class="reference-surname">Taveira</span> <span class="reference-given-names">N.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>
-<span class="reference-year">2007</span>; <span class="reference-article-title"> Synonymous substitution rates predict HIV disease progression as a result of underlying replication dynamics. </span> <span class="reference-source">PLoS Comput Biol</span> 3:<span class="reference-elocation-id">e29</span><a target="xrefwindow" href="https://doi.org/10.1371/journal.pcbi.0030029"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/17305421">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Synonymous+substitution+rates+predict+HIV+disease+progression+as+a+result+of+underlying+replication+dynamics&amp;author=P.+Lemey&amp;author=S.+L.+Kosakovsky+Pond&amp;author=A.+J.+Drummond&amp;author=O.+G.+Pybus&amp;author=B.+Shapiro&amp;author=H.+Barroso&amp;author=N.+Taveira&amp;author=A.+Rambaut&amp;journal=PLoS+Comput+Biol&amp;volume=3&amp;doi=10.1371%2Fjournal.pcbi.0030029&amp;publication_year=2007&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R14">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R14"></a><div class="citation">
-<span class="reference-surname">Lemey</span> <span class="reference-given-names">P.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Bedford</span> <span class="reference-given-names">T.</span>, 
-<span class="reference-surname">Faria</span> <span class="reference-given-names">N.</span>, 
-<span class="reference-surname">Bielejec</span> <span class="reference-given-names">F.</span>, 
-<span class="reference-surname">Baele</span> <span class="reference-given-names">G.</span>, 
-<span class="reference-surname">Russell</span> <span class="reference-given-names">C. A.</span>, 
-<span class="reference-surname">Smith</span> <span class="reference-given-names">D. J.</span>, 
-<span class="reference-surname">Pybus</span> <span class="reference-given-names">O. G.</span>
-<span class="reference-etal"> et al.</span>
-<span class="reference-year">2014</span>; <span class="reference-article-title"> Unifying viral genetics and human transportation data to predict the global transmission dynamics of human influenza H3N2. </span> <span class="reference-source">PLoS Pathog</span> 10:<span class="reference-elocation-id">e1003932</span><a target="xrefwindow" href="https://doi.org/10.1371/journal.ppat.1003932"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/24586153">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Unifying+viral+genetics+and+human+transportation+data+to+predict+the+global+transmission+dynamics+of+human+influenza+H3N2&amp;author=P.+Lemey&amp;author=A.+Rambaut&amp;author=T.+Bedford&amp;author=N.+Faria&amp;author=F.+Bielejec&amp;author=G.+Baele&amp;author=C.+A.+Russell&amp;author=D.+J.+Smith&amp;author=O.+G.+Pybus&amp;journal=PLoS+Pathog&amp;volume=10&amp;doi=10.1371%2Fjournal.ppat.1003932&amp;publication_year=2014&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R15">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R15"></a><div class="citation">
-<span class="reference-surname">McNab</span> <span class="reference-given-names">B. K.</span>
-<span class="reference-year">1974</span>; <span class="reference-article-title"> The behavior of temperate cave bats in a subtropical environment. </span> <span class="reference-source">Ecology</span> 55:<span class="reference-fpage">943–</span><span class="reference-lpage">958</span></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=The+behavior+of+temperate+cave+bats+in+a+subtropical+environment&amp;author=B.+K.+McNab&amp;journal=Ecology&amp;volume=55&amp;pages=943-958&amp;publication_year=1974&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R16">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R16"></a><div class="citation">
-<span class="reference-surname">Muse</span> <span class="reference-given-names">S. V.</span>, 
-<span class="reference-surname">Gaut</span> <span class="reference-given-names">B. S.</span>
-<span class="reference-year">1994</span>; <span class="reference-article-title"> A likelihood approach for comparing synonymous and nonsynonymous nucleotide substitution rates, with application to the chloroplast genome. </span> <span class="reference-source">Mol Biol Evol</span> 11:<span class="reference-fpage">715–</span><span class="reference-lpage">724</span><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/7968485">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=A+likelihood+approach+for+comparing+synonymous+and+nonsynonymous+nucleotide+substitution+rates%2C+with+application+to+the+chloroplast+genome&amp;author=S.+V.+Muse&amp;author=B.+S.+Gaut&amp;journal=Mol+Biol+Evol&amp;volume=11&amp;pages=715-724&amp;publication_year=1994&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R17">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R17"></a><div class="citation">
-<span class="reference-surname">Pagel</span> <span class="reference-given-names">M.</span>, 
-<span class="reference-surname">Meade</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Barker</span> <span class="reference-given-names">D.</span>
-<span class="reference-year">2004</span>; <span class="reference-article-title"> Bayesian estimation of ancestral character states on phylogenies. </span> <span class="reference-source">Syst Biol</span> 53:<span class="reference-fpage">673–</span><span class="reference-lpage">684</span><a target="xrefwindow" href="https://doi.org/10.1080/10635150490522232"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/15545248">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Bayesian+estimation+of+ancestral+character+states+on+phylogenies&amp;author=M.+Pagel&amp;author=A.+Meade&amp;author=D.+Barker&amp;journal=Syst+Biol&amp;volume=53&amp;doi=10.1080%2F10635150490522232&amp;pages=673-684&amp;publication_year=2004&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R19">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R19"></a><div class="citation">
-<span class="reference-surname">Pybus</span> <span class="reference-given-names">O. G.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Belshaw</span> <span class="reference-given-names">R.</span>, 
-<span class="reference-surname">Freckleton</span> <span class="reference-given-names">R. P.</span>, 
-<span class="reference-surname">Drummond</span> <span class="reference-given-names">A. J.</span>, 
-<span class="reference-surname">Holmes</span> <span class="reference-given-names">E. C.</span>
-<span class="reference-year">2007</span>; <span class="reference-article-title"> Phylogenetic evidence for deleterious mutation load in RNA viruses and its contribution to viral evolution. </span> <span class="reference-source">Mol Biol Evol</span> 24:<span class="reference-fpage">845–</span><span class="reference-lpage">852</span><a target="xrefwindow" href="https://doi.org/10.1093/molbev/msm001"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/17218639">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Phylogenetic+evidence+for+deleterious+mutation+load+in+RNA+viruses+and+its+contribution+to+viral+evolution&amp;author=O.+G.+Pybus&amp;author=A.+Rambaut&amp;author=R.+Belshaw&amp;author=R.+P.+Freckleton&amp;author=A.+J.+Drummond&amp;author=E.+C.+Holmes&amp;journal=Mol+Biol+Evol&amp;volume=24&amp;doi=10.1093%2Fmolbev%2Fmsm001&amp;pages=845-852&amp;publication_year=2007&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R20">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R20"></a><div class="citation">
-<span class="reference-surname">Pybus</span> <span class="reference-given-names">O. G.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>
-<span class="reference-year">2009</span>; <span class="reference-article-title"> Evolutionary analysis of the dynamics of viral infectious disease. </span> <span class="reference-source">Nat Rev Genet</span> 10:<span class="reference-fpage">540–</span><span class="reference-lpage">550</span><a target="xrefwindow" href="https://doi.org/10.1038/nrg2583"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/19564871">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Evolutionary+analysis+of+the+dynamics+of+viral+infectious+disease&amp;author=O.+G.+Pybus&amp;author=A.+Rambaut&amp;journal=Nat+Rev+Genet&amp;volume=10&amp;doi=10.1038%2Fnrg2583&amp;pages=540-550&amp;publication_year=2009&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R21">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R21"></a><div class="citation">
-<span class="reference-surname">Seo</span> <span class="reference-given-names">T. K.</span>, 
-<span class="reference-surname">Thorne</span> <span class="reference-given-names">J. L.</span>, 
-<span class="reference-surname">Hasegawa</span> <span class="reference-given-names">M.</span>, 
-<span class="reference-surname">Kishino</span> <span class="reference-given-names">H.</span>
-<span class="reference-year">2002</span>; <span class="reference-article-title"> A viral sampling design for testing the molecular clock and for estimating evolutionary rates and divergence times. </span> <span class="reference-source">Bioinformatics</span> 18:<span class="reference-fpage">115–</span><span class="reference-lpage">123</span><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/11836219">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=A+viral+sampling+design+for+testing+the+molecular+clock+and+for+estimating+evolutionary+rates+and+divergence+times&amp;author=T.+K.+Seo&amp;author=J.+L.+Thorne&amp;author=M.+Hasegawa&amp;author=H.+Kishino&amp;journal=Bioinformatics&amp;volume=18&amp;pages=115-123&amp;publication_year=2002&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R22">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R22"></a><div class="citation">
-<span class="reference-surname">Seo</span> <span class="reference-given-names">T. K.</span>, 
-<span class="reference-surname">Kishino</span> <span class="reference-given-names">H.</span>, 
-<span class="reference-surname">Thorne</span> <span class="reference-given-names">J. L.</span>
-<span class="reference-year">2004</span>; <span class="reference-article-title"> Estimating absolute rates of synonymous and nonsynonymous nucleotide substitution in order to characterize natural selection and date species divergences. </span> <span class="reference-source">Mol Biol Evol</span> 21:<span class="reference-fpage">1201–</span><span class="reference-lpage">1213</span><a target="xrefwindow" href="https://doi.org/10.1093/molbev/msh088"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/15014159">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Estimating+absolute+rates+of+synonymous+and+nonsynonymous+nucleotide+substitution+in+order+to+characterize+natural+selection+and+date+species+divergences&amp;author=T.+K.+Seo&amp;author=H.+Kishino&amp;author=J.+L.+Thorne&amp;journal=Mol+Biol+Evol&amp;volume=21&amp;doi=10.1093%2Fmolbev%2Fmsh088&amp;pages=1201-1213&amp;publication_year=2004&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R24">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R24"></a><div class="citation">
-<span class="reference-surname">Streicker</span> <span class="reference-given-names">D. G.</span>, 
-<span class="reference-surname">Lemey</span> <span class="reference-given-names">P.</span>, 
-<span class="reference-surname">Velasco-Villa</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Rupprecht</span> <span class="reference-given-names">C. E.</span>
-<span class="reference-year">2012a</span>; <span class="reference-article-title"> Rates of viral evolution are linked to host geography in bat rabies. </span> <span class="reference-source">PLoS Pathog</span> 8:<span class="reference-elocation-id">e1002720</span></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Rates+of+viral+evolution+are+linked+to+host+geography+in+bat+rabies&amp;author=D.+G.+Streicker&amp;author=P.+Lemey&amp;author=A.+Velasco-Villa&amp;author=C.+E.+Rupprecht&amp;journal=PLoS+Pathog&amp;volume=8&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R23">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R23"></a><div class="citation">
-<span class="reference-surname">Streicker</span> <span class="reference-given-names">D. G.</span>, 
-<span class="reference-surname">Altizer</span> <span class="reference-given-names">S. M.</span>, 
-<span class="reference-surname">Velasco-Villa</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Rupprecht</span> <span class="reference-given-names">C. E.</span>
-<span class="reference-year">2012b</span>; <span class="reference-article-title"> Variable evolutionary routes to host establishment across repeated rabies virus host shifts among bats. </span> <span class="reference-source">Proc Natl Acad Sci U S A</span> 109:<span class="reference-fpage">19715–</span><span class="reference-lpage">19720</span></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Variable+evolutionary+routes+to+host+establishment+across+repeated+rabies+virus+host+shifts+among+bats&amp;author=D.+G.+Streicker&amp;author=S.+M.+Altizer&amp;author=A.+Velasco-Villa&amp;author=C.+E.+Rupprecht&amp;journal=Proc+Natl+Acad+Sci+U+S+A&amp;volume=109&amp;pages=19715-19720&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R25">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R25"></a><div class="citation">
-<span class="reference-surname">Suchard</span> <span class="reference-given-names">M. A.</span>, 
-<span class="reference-surname">Kitchen</span> <span class="reference-given-names">C. M.</span>, 
-<span class="reference-surname">Sinsheimer</span> <span class="reference-given-names">J. S.</span>, 
-<span class="reference-surname">Weiss</span> <span class="reference-given-names">R. E.</span>
-<span class="reference-year">2003</span>; <span class="reference-article-title"> Hierarchical phylogenetic models for analyzing multipartite sequence data. </span> <span class="reference-source">Syst Biol</span> 52:<span class="reference-fpage">649–</span><span class="reference-lpage">664</span><a target="xrefwindow" href="https://doi.org/10.1080/10635150390238879"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/14530132">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Hierarchical+phylogenetic+models+for+analyzing+multipartite+sequence+data&amp;author=M.+A.+Suchard&amp;author=C.+M.+Kitchen&amp;author=J.+S.+Sinsheimer&amp;author=R.+E.+Weiss&amp;journal=Syst+Biol&amp;volume=52&amp;doi=10.1080%2F10635150390238879&amp;pages=649-664&amp;publication_year=2003&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R26">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R26"></a><div class="citation">
-<span class="reference-surname">Suchard</span> <span class="reference-given-names">M. A.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>
-<span class="reference-year">2009</span>; <span class="reference-article-title"> Many-core algorithms for statistical phylogenetics. </span> <span class="reference-source">Bioinformatics</span> 25:<span class="reference-fpage">1370–</span><span class="reference-lpage">1376</span><a target="xrefwindow" href="https://doi.org/10.1093/bioinformatics/btp244"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/19369496">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Many-core+algorithms+for+statistical+phylogenetics&amp;author=M.+A.+Suchard&amp;author=A.+Rambaut&amp;journal=Bioinformatics&amp;volume=25&amp;doi=10.1093%2Fbioinformatics%2Fbtp244&amp;pages=1370-1376&amp;publication_year=2009&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R27">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R27"></a><div class="citation">
-<span class="reference-surname">Vrancken</span> <span class="reference-given-names">B.</span>, 
-<span class="reference-surname">Rambaut</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Suchard</span> <span class="reference-given-names">M. A.</span>, 
-<span class="reference-surname">Drummond</span> <span class="reference-given-names">A.</span>, 
-<span class="reference-surname">Baele</span> <span class="reference-given-names">G.</span>, 
-<span class="reference-surname">Derdelinckx</span> <span class="reference-given-names">I.</span>, 
-<span class="reference-surname">Van Wijngaerden</span> <span class="reference-given-names">E.</span>, 
-<span class="reference-surname">Vandamme</span> <span class="reference-given-names">A. M.</span>, 
-<span class="reference-surname">Van Laethem</span> <span class="reference-given-names">K.</span>
-<span class="reference-etal"> et al.</span>
-<span class="reference-year">2014</span>; <span class="reference-article-title"> The genealogical population dynamics of HIV-1 in a large transmission chain: bridging within and among host evolutionary rates. </span> <span class="reference-source">PLoS Comput Biol</span> 10:<span class="reference-elocation-id">e1003505</span><a target="xrefwindow" href="https://doi.org/10.1371/journal.pcbi.1003505"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/24699231">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=The+genealogical+population+dynamics+of+HIV-1+in+a+large+transmission+chain%3A+bridging+within+and+among+host+evolutionary+rates&amp;author=B.+Vrancken&amp;author=A.+Rambaut&amp;author=M.+A.+Suchard&amp;author=A.+Drummond&amp;author=G.+Baele&amp;author=I.+Derdelinckx&amp;author=E.+Van+Wijngaerden&amp;author=A.+M.+Vandamme&amp;author=K.+Van+Laethem&amp;journal=PLoS+Comput+Biol&amp;volume=10&amp;doi=10.1371%2Fjournal.pcbi.1003505&amp;publication_year=2014&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R28">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R28"></a><div class="citation">
-<span class="reference-surname">Wertheim</span> <span class="reference-given-names">J. O.</span>, 
-<span class="reference-surname">Kosakovsky Pond</span> <span class="reference-given-names">S. L.</span>
-<span class="reference-year">2011</span>; <span class="reference-article-title"> Purifying selection can obscure the ancient age of viral lineages. </span> <span class="reference-source">Mol Biol Evol</span> 28:<span class="reference-fpage">3355–</span><span class="reference-lpage">3365</span><a target="xrefwindow" href="https://doi.org/10.1093/molbev/msr170"> [View Article]</a><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/21705379">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Purifying+selection+can+obscure+the+ancient+age+of+viral+lineages&amp;author=J.+O.+Wertheim&amp;author=S.+L.+Kosakovsky+Pond&amp;journal=Mol+Biol+Evol&amp;volume=28&amp;doi=10.1093%2Fmolbev%2Fmsr170&amp;pages=3355-3365&amp;publication_year=2011&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R29">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R29"></a><div class="citation">
-<span class="reference-surname">Woelk</span> <span class="reference-given-names">C. H.</span>, 
-<span class="reference-surname">Holmes</span> <span class="reference-given-names">E. C.</span>
-<span class="reference-year">2002</span>; <span class="reference-article-title"> Reduced positive selection in vector-borne RNA viruses. </span> <span class="reference-source">Mol Biol Evol</span> 19:<span class="reference-fpage">2333–</span><span class="reference-lpage">2336</span><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/12446826">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Reduced+positive+selection+in+vector-borne+RNA+viruses&amp;author=C.+H.+Woelk&amp;author=E.+C.+Holmes&amp;journal=Mol+Biol+Evol&amp;volume=19&amp;pages=2333-2336&amp;publication_year=2002&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R31">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R31"></a><div class="citation">
-<span class="reference-surname">Yang</span> <span class="reference-given-names">Z.</span>
-<span class="reference-year">1996</span>; <span class="reference-article-title"> Among-site rate variation and its impact on phylogenetic analyses. </span> <span class="reference-source">Trends Ecol Evol</span> 11:<span class="reference-fpage">367–</span><span class="reference-lpage">372</span><a target="xrefwindow" href="http://www.ncbi.nlm.nih.gov/pubmed/21237881">[PubMed]</a></div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Among-site+rate+variation+and+its+impact+on+phylogenetic+analyses&amp;author=Z.+Yang&amp;journal=Trends+Ecol+Evol&amp;volume=11&amp;pages=367-372&amp;publication_year=1996&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-R30">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="R30"></a><div class="citation">
-<span class="reference-surname">Yang</span> <span class="reference-given-names">Z.</span>
-<span class="reference-year">2006</span>; <span class="reference-article-title"> Models of amino acid and codon substitution. </span> In <span class="reference-source">Computational Molecular Evolution</span><span class="reference-fpage">40–</span><span class="reference-lpage">70</span> Edited by 
-<span class="reference-surname">Harvey</span> <span class="reference-given-names">P. H.</span>, 
-<span class="reference-surname">May</span> <span class="reference-given-names">R. M.</span>
-London: Oxford University Press;</div>
-</xhtml:span>
-<a href="https://scholar.google.com/scholar_lookup?title=Models+of+amino+acid+and+codon+substitution&amp;author=Z.+Yang&amp;journal=Computational+Molecular+Evolution&amp;pages=40-70&amp;publication_year=2006&amp;" data-location="same-new-window" class="js-externallink">[Google Scholar]</a>
-</li>
-<li class="refbody" id="ref-b1">
-<xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:lang="en"><a name="b1"></a><div class="citation"> Baele, G., Suchard, M. A., Bielejec, F. &amp; Lemey, P. Figshare <a target="xrefwindow" href="https://dx.doi.org/10.6084/m9.figshare.2074231">https://dx.doi.org/10.6084/m9.figshare.2074231 (2016)</a></div>
-</xhtml:span>
-</ol>
-</div>
-</div>
-<div id="cited" class="citations hidden-js-div tabbedsection tab-pane">
-<div class="hiddenjsdiv" id="itemIdForCitations" data-doi="10.1099/mgen.0.000057">/content/journal/mgen/10.1099/mgen.0.000057</div>
-<img class="citingArticlesLoading" src="/images/jp/spinner.gif" alt="Loading" />
-<div id="citationContent"></div>
-</div>
-<div class="hiddenjsdiv itemmetadata">
-<div class="metadata_title">Bayesian codon substitution modelling to identify sources of pathogen evolutionary rate variation</div>
-<div class="metadata_citation">
-<span>M Gen <span class="citationvolume">2</span></span><span>, e000057</span><span> (2016)</span><span>; <a href="https://doi.org/10.1099/mgen.0.000057" rel="external" class="externallink">https://doi.org/10.1099/mgen.0.000057</a></span></div>
-<div class="metadata_itemWebId">/content/journal/mgen/10.1099/mgen.0.000057</div>
-</div>
-<div id="dataandmedia" class="dataandmedia tabbedsection hidden-js-div tab-pane"
-data-fullTexturl=""
-data-fulltextexpandlinktext="Toggle display:"
-data-hideinlinetablesbydefault="false">
-<div id="figuredialog"></div>
-<div id="tabledialog"></div>
-<div id="videodialog" class="hide"></div>
-<div id="hiddenDataMediaWebid" class="hiddenjsdiv">/content/journal/mgen/10.1099/mgen.0.000057</div>
-<div class="itemDataMediaLoading">
-<img src="/images/jp/spinner.gif" alt="Loading" />
-<p>Data &amp; Media loading...</p>
-</div>
-<div id="datamediacontent"></div>
-</div>
-<div id="supplementary_data" class="supplementary-container tabbedsection hidden-js-div tab-pane">
-<div id="supplementary_data_contents" data-statslogurl="/statslogredirect"><p class="description"><span class="tl-main-part">Supplements</span></p><div id="figshare_widget_container" data-publisher="mbs" data-doi="10.1099/mgen.0.000057"></div><div class="figshareDataLoading"><img src="/images/jp/spinner.gif" alt="Loading data from figshare" />Loading data from figshare</div></div></div>
-</section>
-<div class="clearfix"></div><div class="mostreadcontainer panel panel-default"style="display: none;"><div class="panel-heading"><h3 class="panel-title">Most read this month</h3></div><div class="panel-body"><div id="hiddenmostviewedtype" class="hiddenjsdiv hidden-js-div">Article</div>
-<div id="hiddenmostviewedparent" class="hiddenjsdiv hidden-js-div">content/journal/mgen</div>
-<div id="hiddenmostviewedparenttype" class="hiddenjsdiv hidden-js-div">Journal</div>
-<div id="hiddenmostviewednumber" class="hiddenjsdiv hidden-js-div">5</div>
-<div id="hiddenmostviewednumbershown" class="hiddenjsdiv hidden-js-div">3</div>
-<div id="hiddenmostviewedemptymessage" class="hiddenjsdiv hidden-js-div">false</div>
-<div id="hiddenmostviewedlanguage" class="hiddenjsdiv hidden-js-div">en</div>
-<img class="mostviewedloading" src="/images/jp/spinner.gif" alt="Loading"/>
-</div></div><div class="mostcitedcontainer panel panel-default "><div class="panel-heading"><h2 class="panel-title">Most cited<span class="rssicon">
-<a href="/rss/content/journal/mgen/mostcitedarticles?fmt=rss" 
-class="rssiconheader rssFeed externallink" 
-title="Subscribe to most Cited RSS feed">
-<i class="fa fa-rss"></i>
-<span class="sr-only">Most Cited RSS feed</span>
-</a>
-</span>
-</h2></div><div class="panel-body"><div id="mostcited"><ul class="separated-list list-unstyled"><li class="" id="mostCited__content_journal_mgen_10.1099_mgen.0.000685_1"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000685" data-itemId="/content/journal/mgen/10.1099/mgen.0.000685" dir="auto" class="js-access-to-be-determined"> Bakta: rapid and standardized annotation of bacterial genomes via alignment-free sequence identification</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Oliver+Schwengers&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Oliver Schwengers</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Lukas+Jelonek&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Lukas Jelonek</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Marius+Alfred+Dieckmann&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Marius Alfred Dieckmann</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Sebastian+Beyvers&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Sebastian Beyvers</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Jochen+Blom&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Jochen Blom</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Alexander+Goesmann&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Alexander Goesmann</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="" id="mostCited__content_journal_mgen_10.1099_mgen.0.000206_2"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000206" data-itemId="/content/journal/mgen/10.1099/mgen.0.000206" dir="auto" class="js-access-to-be-determined"> MOB-suite: software tools for clustering, reconstruction and typing of plasmids from draft assemblies</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=James+Robertson&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">James Robertson</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=John+H.+E.+Nash&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">John H. E. Nash</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="" id="mostCited__content_journal_mgen_10.1099_mgen.0.000056_3"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000056" data-itemId="/content/journal/mgen/10.1099/mgen.0.000056" dir="auto" class="js-access-to-be-determined"> <em class="">SNP-sites</em>: rapid efficient extraction of SNPs from multi-FASTA alignments</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Andrew+J.+Page&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Andrew J. Page</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Ben+Taylor&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Ben Taylor</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Aidan+J.+Delaney&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Aidan J. Delaney</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Jorge+Soares&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Jorge Soares</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Torsten+Seemann&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Torsten Seemann</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Jacqueline+A.+Keane&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Jacqueline A. Keane</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Simon+R.+Harris&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Simon R. Harris</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="" id="mostCited__content_journal_mgen_10.1099_mgen.0.000748_4"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000748" data-itemId="/content/journal/mgen/10.1099/mgen.0.000748" dir="auto" class="js-access-to-be-determined"> ResFinder – an open online resource for identification of antimicrobial resistance genes in next-generation sequencing data and prediction of phenotypes from genotypes</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Alfred+Ferrer+Florensa&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Alfred Ferrer Florensa</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Rolf+Sommer+Kaas&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Rolf Sommer Kaas</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Philip+Thomas+Lanken+Conradsen+Clausen&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Philip Thomas Lanken Conradsen Clausen</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Derya+Aytan-Aktug&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Derya Aytan-Aktug</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Frank+M.+Aarestrup&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Frank M. Aarestrup</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="" id="mostCited__content_journal_mgen_10.1099_mgen.0.000132_5"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000132" data-itemId="/content/journal/mgen/10.1099/mgen.0.000132" dir="auto" class="js-access-to-be-determined"> Completing bacterial genome assemblies with multiplex MinION sequencing</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Ryan+R.+Wick&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Ryan R. Wick</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Louise+M.+Judd&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Louise M. Judd</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Claire+L.+Gorrie&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Claire L. Gorrie</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Kathryn+E.+Holt&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Kathryn E. Holt</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="hiddenjsdiv" id="mostCited__content_journal_mgen_10.1099_mgen.0.000306_6"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000306" data-itemId="/content/journal/mgen/10.1099/mgen.0.000306" dir="auto" class="js-access-to-be-determined"> Emergence, molecular mechanisms and global spread of carbapenem-resistant <span class="jp-italic">Acinetobacter baumannii</span></a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Mohammad+Hamidian&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Mohammad Hamidian</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Steven+J.+Nigro&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Steven J. Nigro</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="hiddenjsdiv" id="mostCited__content_journal_mgen_10.1099_mgen.0.000166_7"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000166" data-itemId="/content/journal/mgen/10.1099/mgen.0.000166" dir="auto" class="js-access-to-be-determined"> chewBBACA: A complete suite for gene-by-gene schema creation and strain identification</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Mickael+Silva&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Mickael Silva</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Miguel+P.+Machado&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Miguel P. Machado</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Diogo+N.+Silva&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Diogo N. Silva</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Mirko+Rossi&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Mirko Rossi</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Jacob+Moran-Gilad&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Jacob Moran-Gilad</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Sergio+Santos&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Sergio Santos</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Mario+Ramirez&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Mario Ramirez</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Jo%C3%A3o+Andr%C3%A9+Carri%C3%A7o&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">João André Carriço</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="hiddenjsdiv" id="mostCited__content_journal_mgen_10.1099_mgen.0.000093_8"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.000093" data-itemId="/content/journal/mgen/10.1099/mgen.0.000093" dir="auto" class="js-access-to-be-determined"> Microreact: visualizing and sharing data for genomic epidemiology and phylogeography</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Silvia+Argim%C3%B3n&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Silvia Argimón</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Khalil+Abudahab&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Khalil Abudahab</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Richard+J.+E.+Goater&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Richard J. E. Goater</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Artemij+Fedosejev&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Artemij Fedosejev</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Jyothish+Bhai&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Jyothish Bhai</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Corinna+Glasner&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Corinna Glasner</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Edward+J.+Feil&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Edward J. Feil</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Matthew+T.+G.+Holden&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Matthew T. G. Holden</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Corin+A.+Yeats&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Corin A. Yeats</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Hajo+Grundmann&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Hajo Grundmann</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Brian+G.+Spratt&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Brian G. Spratt</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=David+M.+Aanensen&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">David M. Aanensen</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="hiddenjsdiv" id="mostCited__content_journal_mgen_10.1099_mgen.0.001254_9"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.001254" data-itemId="/content/journal/mgen/10.1099/mgen.0.001254" dir="auto" class="js-access-to-be-determined"> How low can you go? Short-read polishing of Oxford Nanopore bacterial genome assemblies</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=George+Bouras&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">George Bouras</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Louise+M.+Judd&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Louise M. Judd</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Robert+A.+Edwards&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Robert A. Edwards</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Sarah+Vreugde&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Sarah Vreugde</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Timothy+P.+Stinear&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Timothy P. Stinear</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Ryan+R.+Wick&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Ryan R. Wick</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li class="hiddenjsdiv" id="mostCited__content_journal_mgen_10.1099_mgen.0.001203_10"><div class="table-cell meta-data-container pd-remove"><ul class="list-unstyled browse-item js-browse-item"><li><div class="articleMetadata js-articleMetadata"><div class="articleMetadataInner js-articleMetadataInner"><h3 class="accessIcons js-accessIcons"><span class="articleTitle js-articleTitle title"><a href="/content/journal/mgen/10.1099/mgen.0.001203" data-itemId="/content/journal/mgen/10.1099/mgen.0.001203" dir="auto" class="js-access-to-be-determined"> On the limits of 16S rRNA gene-based metagenome prediction and functional profiling</a></span></h3><div class="authorsWithPopup"><div
-><span class="meta-key authors_label ">
-</span>
-<span class="meta-value authors ">
-<span class="author-list__item "><a href="/search?value1=Monica+Steffi+Matchado&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Monica Steffi Matchado</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Malte+R%C3%BChlemann&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Malte Rühlemann</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Sandra+Reitmeier&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Sandra Reitmeier</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Tim+Kacprowski&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Tim Kacprowski</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Fabian+Frost&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Fabian Frost</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Dirk+Haller&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Dirk Haller</a></span><span class="author-list__item "><span class="author-list__comma">,</span>
-<a href="/search?value1=Jan+Baumbach&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Jan Baumbach</a></span><span class="author-list__item author-list__item--last">&nbsp;and
-<a href="/search?value1=Markus+List&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true" class="nonDisambigAuthorLink">Markus List</a></span>
-</span></div>
-</div></div></div></li></ul></div></li><li><a href="#" class="moreLink std-display" role="button" aria-controls="mostCited__content_journal_mgen_10.1099_mgen.0.000306_6 mostCited__content_journal_mgen_10.1099_mgen.0.000166_7 mostCited__content_journal_mgen_10.1099_mgen.0.000093_8 mostCited__content_journal_mgen_10.1099_mgen.0.001254_9 mostCited__content_journal_mgen_10.1099_mgen.0.001203_10" aria-expanded="false" aria-label="more cited articles">
-<i class="fa fa-plus"></i> More
-</a> 
-<a href="#" class="lessLink std-display" role="button" aria-controls="mostCited__content_journal_mgen_10.1099_mgen.0.000306_6 mostCited__content_journal_mgen_10.1099_mgen.0.000166_7 mostCited__content_journal_mgen_10.1099_mgen.0.000093_8 mostCited__content_journal_mgen_10.1099_mgen.0.001254_9 mostCited__content_journal_mgen_10.1099_mgen.0.001203_10" aria-expanded="true" aria-label="less cited articles">
-<i class="fa fa-minus"></i> Less
-</a>
-</li></ul><form class="ahahTocArticles"><input type="hidden" name="articleIds" value="http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000685,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000206,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000056,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000748,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000132,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000306,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000166,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000093,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.001254,http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.001203" /><input type="hidden" name="fmt" value="ahah" /><input type="hidden" name="ahahcontent" value="toc" /></form></div></div></div><input type='hidden' id='fancyBoxImgLoadErrMsg' value='Image can not be loaded' /></main><div id="hidemobile"><div class="mobile-tools">
-<button type="button" id="mobile-tools-button" data-parent="#bellowheadercontainer" class="navbar-toggle toggle-arrow" data-toggle="collapse"
-data-target="#tools-nav-mobile" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span>Tools <i class="fa fa-angle-down"></i></span>
-</button>
-</div>
-<aside class="col-xs-12 col-sm-12 col-md-3 pull-right left-padding sidebar-pub2web-container header-sidebar" aria-label="site sidebar containing page tools, access key and possibly adverts"> 
-<div id="signInOrRegisterDialog"></div>
-</aside>
-</div><asideclass="col-xs-12 col-sm-12 col-md-3 footer-sidebar left-padding non-printed-section"><div class="horizontally-centered-content altmetrics sidebar-pub2web-element"><div data-badge-popover="bottom" data-badge-type="medium-donut" data-doi="10.1099/mgen.0.000057" data-hide-no-mentions="true" data-link-target='_blank' class="altmetric-embed"></div>
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-<span class="__dimensions_badge_embed__" data-doi="10.1099/mgen.0.000057"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-</div><div class="panel panel-default sidebar-pub2web-element"><div class="panel-heading"><h4 class="panel-title">We Recommend</h4></div><div id="trendmd-suggestions"></div><script defer src='//js.trendmd.com/trendmd.min.js' data-trendmdconfig='{"element":"#trendmd-suggestions"}'></script></div><div class="icon-key panel panel-default sidebar-pub2web-element">
-<div class="panel-heading">
-<h3 class="panel-title"> <i class="fa fa-key"></i> Access key</h3>
-</div>
-<div class="panel-body">
-<ul class="list-unstyled">
-<li class="icon-key__item access_icon_sc_wrapper">
-<img class="content__keyicon js-keyicon" src="/common/images/access-icons/Open_Access_logo_blue_transparent.svg" alt="Subscribed" /> Subscribed content
-</li> 
-<li class="icon-key__item access_icon_oa_wrapper">
-<img class="content__keyicon js-keyicon" src="/common/images/access-icons/Open_Access_logo_PLoS_transparent.svg" alt="Open Access" /> Open Access content
-</li>
-<li class="icon-key__item access_icon_ft_wrapper">
-<img class="content__keyicon js-keyicon fr-fic fr-dii" src="/common/images/access-icons/Open_Access_logo_green_transparent.svg" alt="Free Trial">&nbsp;Free Trial content
-</li>
-<li class="icon-key__item access_icon_fc_wrapper">
-<img class="content__keyicon js-keyicon" src="/common/images/access-icons/Open_Access_logo_green_transparent.svg" alt="Frees" /> Free content
-</li>
-</ul>
-</div>
-</div><div class="sidebar-pub2web-element editable-snippet-image default-pane panel panel-default "><div class="panel-heading"><div class="fr-view"><h3><a href="https://doi.org/10.1099/mout.0.00001">First article published in <em>Microbiology Outlooks</em></a></h3></div></div><div class="panel-body"><div class="fr-view"><p style="text-align: center;"><img src="/upload/MOut_2026_RHSadvert_%20270x197_UPDATE.png" title="Microbiology Outlooks" alt="Blue Microbiology Outlooks Cover image" class="fr-fic fr-dii"></p><p>Discover the <a href="https://doi.org/10.1099/mout.0.00001">new commentary</a> by Dr Damien F. Meyer, connecting within-host genomics and evolutionary theory, reframing virulence not as a fixed trait, but context-dependent strategy.&nbsp;</p><p><br></p></div></div></div> <div class="editable-snippet-image default-pane sidebar-pub2web-element panel panel-default"><div class="panel-heading"><div class="fr-view"><h3><a href="/cotnent/journal/mhrz"><em>Microbiology Horizons</em></a>: the new interdisciplinary journal</h3></div></div><div class="panel-body"><div class="fr-view"><div style="text-align: center;"><img src="/upload/Microbiology_Horizons_RHS-Ad.png" title="Microbiology Horizons" alt="Green Mcirobiology Horizons logo with the words Discover our new journal" class="fr-fic fr-dii"></div><p>Find out more about our newest title, <a href="content/journal/mhrz"><em>Microbiology Horizons</em></a>, bringing together insights on new technologies and solutions in microbiology to address global challenges.</p></div></div></div><div class="sidebar-pub2web-element optional-snippet"><div class="fr-view"></div></div></aside></div><footer class="container-fluid footer non-printed-section " id="footer" ><div class="container">
-<div class="backToTopLink">
-<a href="#header" 
-data-toggle="tooltip" data-placement="left" class="btn-back-top js-back-top" ><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sr-only">Back to top</span></a>
-</div>
-<div class="row">
-<nav class="footer-aboutUs col-xs-12 col-sm-3 col-md-3" aria-labelledby="aboutus-footer">
-<h3 id="aboutus-footer">About Us</h3>
-<div class="fr-view"><ul class="list-unstyled"><li><span style="color: rgb(255, 255, 255);"><a class="js-externallink" href="https://microbiologysociety.org/" title="Microbiology Society">Microbiology Society</a></span></li><li><span style="color: rgb(255, 255, 255);"><a class="js-externallink" href="https://microbiologysociety.org/about/our-staff.html" title="Our staff">Our staff</a></span></li><li><span style="color: rgb(255, 255, 255);"><a href="/license-agreements" title="License agreements">License agreements</a></span></li><li><span style="color: rgb(255, 255, 255);"><a href="/terms-conditions" title="Terms and conditions">Terms and conditions</a></span></li><li><span style="color: rgb(255, 255, 255);"><a href="/privacy-policy" title="Privacy policy">Privacy policy</a></span></li><li><span style="color: rgb(255, 255, 255);"><a href="/statement-access" title="Privacy policy">Accessibility statement</a></span></li><li><span style="color: rgb(255, 255, 255);"><a href="/contact-us" title="Contact us">Contact us</a></span></li></ul></div>
-</nav>
-<nav class="footer-journals col-xs-12 col-sm-3 col-md-3" aria-labelledby="publication-footer">
-<h3 id="publication-footer">Discover our portfolio</h3>
-<div class="fr-view"><ul class="list-unstyled"><li><a href="/content/journal/micro" title="Microbiology"><em>Microbiology</em></a></li><li><a href="/content/journal/jgv" title="Journal of General Virology"><em>Journal of General Virology</em></a></li><li><a href="/content/journal/jmm" title="Journal of Medical Microbiology"><em>Journal of Medical Microbiology</em></a></li><li><a href="/content/journal/mgen" title="Open Access "><em>Microbial Genomics</em></a></li><li><a href="/content/journal/ijsem" title="International Journal of Systematic and Evolutionary Microbiology"><em>International Journal of Systematic and Evolutionary Microbiology</em></a></li><li><a href="/content/journal/acmi" title="Access Microbiology"><em>Access Microbiology</em>, an open research platform</a></li><li><a href="/content/journal/acmi" title="Access Microbiology"></a><a href="/content/journal/jmmcr" tabindex="-1" title="JMM Case Reports"><em>JMM Case Reports</em></a></li></ul></div>
-</nav>
-<nav class="footer-resources col-xs-12 col-sm-6 col-md-6" aria-labelledby="resource-footer">
-<h3 id="resource-footer">Resources</h3>
-<div class="fr-view"><ul class="list-unstyled col-xs-12 col-sm-6 col-md-6"><li><a href="/information-for-authors" title="Information for authors">Information for authors</a></li><li><a href="/information-for-reviewers" title="Information for reviewers">Information for reviewers</a></li><li><a href="https://www.microbiologyresearch.org/routes-to-open-access" title="https://www.microbiologyresearch.org/routes-to-open-access">Routes to Open Access</a></li><li><a href="/information-for-librarians" title="Information for librarians">Information for librarians</a></li><li><a href="/frequently-asked-questions" title="FAQs">FAQs</a></li><li><a href="/rights-and-permissions" title="Rights and permissions">Rights and permissions</a></li><li><a href="/reprints-and-advertising" title="Reprints and advertising">Reprints and advertising</a></li><li><br></li><li><br></li></ul></div>
-<div class="fr-view"></div>
-</nav>
-<div class="container pull-left">
-<p class="pull-left">
-&copy; 2026 Microbiology Society. Registered as a Charity in England and Wales 264017. A Charity registered in Scotland SC039250. Company Limited by Guarantee. Registered in England 1039582.&nbsp;
-</p>
-<a class="js-externallink" href="https://www.ingenta.com/products/content-management/ingenta-edify/"><source srcset="/upload/ingentaedify/powered-by-Ingenta-Edify-white-on-gradient.png 2x, /upload/ingentaedify/powered-by-Ingenta-Edify-white-on-gradient.png 1x"><img data-toggle="tooltip" data-placement="top" data-trigger="click" title="Ingenta Edify" src="/upload/ingentaedify/powered-by-Ingenta-Edify-white-on-gradient.png" alt="Powered by Ingenta Edify" class="logo-footer fr-fic fr-dii" style="width:150px;max-height:80px;"></a>
-</div>
-</div>
-</div> 
-</footer></div><div class="hiddenblurbsvalues hidden-js-div"><div id="required_field">This is a required field</div><div id="valid_email_address">Please enter a valid email address</div><div id="makelivesuccess">Approval was a Success</div><div id="makeliveinvaliddata">Invalid data</div><div id="makeliveerror">An error occurred</div><div id="makelivepartialsuccess">Approval was partially successful, following selected items could not be processed due to error</div></div> <form class="hidden" action="/cart/add" method="get" id="hiddenPurchaseForm"></form><form class="hidden" action="/carnet" method="post" id="hiddenCarnetForm"></form><div class="siqPageTitle hidden">Microbiology Society:</div><div class="siqItemId hidden">http://instance.metastore.ingenta.com/content/journal/mgen/10.1099/mgen.0.000057</div><div class="siqDoi hidden">10.1099/mgen.0.000057</div><div class="siqPub2webEventType hidden">SEARCH_EXPAND_ITEM</div><script type="text/x-mathjax-config">MathJax.Hub.Config({CommonHTML: { linebreaks: { automatic: true } },"HTML-CSS": { linebreaks: { automatic: true } },SVG: { linebreaks: { automatic: true } }});</script><script type="text/javascript">var script = document.createElement('script');script.type = 'text/javascript';script.async = true;script.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML';document.getElementsByTagName('head')[0].appendChild(script);</script> <!--[if lt IE 7]><script src="/js/v/12.4.0/jp/IE7.js" ></script><![endif]--><!--[if lte IE 9]><script src="/js/v/12.4.0/hybrid/placeholder.js" ></script><![endif]--><script src="/js/v/12.4.0/jp/jquery.form.js" charset="utf-8"></script> <script src="/js/v/12.4.0/jp/jquery.validate.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/plugins.js?1" charset="utf-8"></script><script src="/common/v/12.4.0/js/sitejp.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/site_common.js" charset="utf-8"></script><script src="/js/v/12.4.0/jp/platform.js" charset="utf-8"></script><script src="/js/v/12.4.0/hybrid/site.js" charset="utf-8"></script><script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script><script src="/common/v/12.4.0/js/contentpreview/preview.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/jquery-plugins/jquery.horiz-bar-graph.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/ecommerceicons.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/toc_ecommerceicons.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/moreLikeThis.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/fulltext-html_media-objects.js" charset="utf-8"></script><script src="/common/v/12.4.0/js/responsive-tabs.js"></script><div class="modal fade" id="myModal" tabindex="-1" role="dialog"></div><script type="application/json" class="js-hypothesis-config">{ "openSidebar": false }</script><script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script><script>var config = {apiKey: '12d5972fa23d7a3e93906b530f698f25fa50d2d4',product: 'pro',necessaryCookies: ['AWSALB', 'AWSALBCORS', 'JSESSIONID', 'civic_*'],optionalCookies: [{name: 'Analytics',label: 'Analytics Cookies',description:'Analytical cookies help website owners understand how visitors interact with websites by collecting and reporting information anonymously.',cookies: ['_dc_gtm_UA*','collect','IDE','__utma','__utmb','__utmc','__utmt','__utmv','__utmz','GPS','PREF','_ga',' _gat','_gat_UA','_gid','_ga_g*'],recommendedState: true,lawfulBasis: 'consent',onAccept: function () {// gtag consent APIgtag('consent', 'update', { analytics_storage: 'granted' })// gtag consent API END},onRevoke: function () {// gtag consent APIgtag('consent', 'update', { analytics_storage: 'denied' })// gtag consent API END},thirdPartyCookies: [{name: 'Google',optOutLink: 'https://tools.google.com/dlpage/gaoptout'}]},{name: 'Marketing',label: 'Marketing Cookies',description:'Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.',cookies: ["'guest_id'","'personalization_id'","'lissc'","'bcookie'","'bscookie'","'fr'","'_fbp'"],recommendedState: true,lawfulBasis: 'consent',onAccept: function () {// gtag consent APIgtag('consent', 'update', {ad_storage: 'granted',ad_user_data: 'granted',ad_personalization: 'granted'})},onRevoke: function () {// gtag consent APIgtag('consent', 'update', {ad_storage: 'denied',ad_user_data: 'denied',ad_personalization: 'denied'})},thirdPartyCookies: [{name: 'Twitter',optOutLink: 'https://twitter.com/settings/account/personalization'},{name: 'YouTube',optOutLink: 'https://support.google.com/youtube/answer/7671399?hl=en'}]},{name: 'Social Media',label: 'Social Media Cookies',description:'Social media cookies allow users to interact more easily with social media, such as Facebook, Twitter, LinkedIn, Instagram, YouTube etc. Please refer to the relevant social media platforms privacy policies for information about their cookies.',cookies: ["'DSID'", "'_stidv'", "'st_optout'"],recommendedState: true,lawfulBasis: 'consent',onAccept: function () {// Add shareAholic// let shareAholicscript = document.createElement('script')shareAholicscript.id = 'civic-shareaholic-script'shareAholicscript.async = 'async'shareAholicscript.src = 'https://cdn.shareaholic.net/assets/pub/shareaholic.js'document.body.appendChild(shareAholicscript)let articleshareNav = document.querySelector('.navbar-nav__item--share')if (articleshareNav) {articleshareNav.style.display = 'block'}//if max-width is greater then 843px then run bellow codelet shareNavs = document.querySelectorAll('.share-nav');if(window.innerWidth > 843){// commented code snippet since it's working without it/*shareNavs.forEach(function (shareNav) {shareNav.style.display = 'block';});*/} else {shareNavs.forEach(function (shareNav) {shareNav.style.display = 'hidden';});}let shareNavMob = document.querySelector('#mobile-share-button')if (shareNavMob) {shareNavMob.style.display = 'block';}let hypothesisConfig = document.querySelector('.js-hypothesis-config');if (hypothesisConfig) {if (matchMedia) {var mq = window.matchMedia("(min-width: 1195px)");mq.addListener(WidthChange);WidthChange(mq);}function WidthChange(mq) {// below classes are toggled between mobile and desktopif (mq.matches) {console.log('hypothes.is script has loaded!')var s = document.createElement('script');s.async = true;s.src = 'https://hypothes.is/embed.js';s.id = 'hypothesis-embed-script';document.head.appendChild(s);}}}// let twitterScript = document.createElement('script')twitterScript.id = 'civic-twitter-script'twitterScript.async = 'async'twitterScript.src = 'https://platform.twitter.com/widgets.js'document.body.appendChild(twitterScript);//find all links that start with https://www.youtube.com and extract the parameter v if it exists from the URLlet youtubeLinks = document.querySelectorAll('a[href^="https://www.youtube.com"]');youtubeLinks.forEach(function (link) {let url = new URL(link.href);let videoId = url.searchParams.get("v");if (!videoId) {return false;}//find containing image element with attribute src that contains the videoId if it existslet videoimage = link.querySelector('img[src*="' + videoId + '"]');if (!videoimage) {return false;}//replace the link with the youtube iframe embed linklet iframe = document.createElement("iframe");iframe.width = videoimage.width;iframe.height = videoimage.height;iframe.src = "https://www.youtube.com/embed/" + videoId;iframe.frameborder = "0";iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";iframe.allowFullscreen = true;link.parentNode.replaceChild(iframe, link);});},onRevoke: function () {// remove shareAholiclet shareAholicscript = document.getElementById('civic-shareaholic-script')if (shareAholicscript) {shareAholicscript.remove()}/*let shareNav = document.getElementById('share-nav')if (shareNav) {shareNav.style.display = 'none'} *///if max-width is greater then 843px then run bellow codelet shareNavs = document.querySelectorAll('.share-nav')console.log(window.innerWidth)if(window.innerWidth > 843){shareNavs.forEach(function (shareNav) {shareNav.style.display = 'none';});} else {shareNavs.forEach(function (shareNav) {shareNav.style.display = 'block';});}let shareNavMob = document.querySelector('#mobile-share-button');if (shareNavMob) {shareNavMob.style.display = 'none';}let articleshareNav = document.querySelector('.navbar-nav__item--share')if (articleshareNav) {articleshareNav.style.display = 'none'}//remove hypothesislet hypothesisEmbed = document.querySelector('#hypothesis-embed-script');if (hypothesisEmbed) {hypothesisEmbed.remove();if (document.querySelector('hypothesis-sidebar')) {document.querySelector('hypothesis-sidebar').remove();}}let shareTwitterscript = document.getElementById('civic-twitter-script')if (shareTwitterscript) {shareTwitterscript.remove()}//because removing the script does not remove the twitter timeline, we need to remove it manuallyconst twitterIframe = document.querySelector('.twitter-timeline iframe')if(twitterIframe){twitterIframe.remove();}//find all iframe elements with src starting with "https://www.youtube" and replace them with a corresponding image linklet youtubeIframes = document.querySelectorAll('iframe[src^="https://www.youtube"]');youtubeIframes.forEach(function (iframe) {let videoId = iframe.src.split('/').pop();let img = document.createElement("img");let anchor = document.createElement("a");anchor.href = "https://www.youtube.com/watch?v=" + videoId;img.src = "https://i.ytimg.com/vi/" + videoId + "/hqdefault.jpg";img.width = iframe.width;img.height = iframe.height;iframe.parentNode.replaceChild(anchor, iframe);anchor.appendChild(img);});},thirdPartyCookies: [{name: 'shareAholic',optOutLink: 'https://www.shareaholic.com/privacy/'},{name: 'X',optOutLink: 'https://x.com/settings/account/personalization'},{name: 'YouTube',optOutLink: 'https://support.google.com/youtube/answer/7671399?hl=en'},{name: 'Hypothesis',optOutLink: 'https://web.hypothes.is/privacy/'},{name: 'Google',optOutLink: 'https://policies.google.com/technologies/cookies?hl=en-US'}]}], // Array of objects based on CookieCategory objectposition: 'LEFT',theme: 'DARK'}CookieControl.load(config)</script></body></html>
