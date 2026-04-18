@@ -29,9 +29,39 @@ on:
       - '.github/workflows/finngen-tests.yml'
   push:
     branches: [main, master]
+    paths:
+      - 'backend/app/Services/FinnGen/**'
+      - 'backend/app/Http/Controllers/Api/V1/FinnGen/**'
+      - 'backend/app/Http/Middleware/EnforceFinnGenIdempotency.php'
+      - 'backend/app/Http/Requests/FinnGen/**'
+      - 'backend/app/Jobs/FinnGen/**'
+      - 'backend/app/Models/App/FinnGen/**'
+      - 'backend/app/Policies/FinnGen/**'
+      - 'backend/app/Console/Commands/FinnGen/**'
+      - 'backend/config/finngen.php'
+      - 'backend/config/horizon.php'
+      - 'backend/bootstrap/app.php'
+      - 'backend/routes/api.php'
+      - 'backend/database/migrations/*finngen*'
+      - 'backend/database/seeders/*FinnGen*'
+      - 'backend/database/seeders/Testing/*FinnGen*'
+      - 'backend/tests/Unit/FinnGen/**'
+      - 'backend/tests/Feature/FinnGen/**'
+      - 'backend/lang/en/finngen.php'
+      - 'darkstar/api/finngen/**'
+      - 'darkstar/tests/testthat/test-finngen-*.R'
+      - 'darkstar/tests/fixtures/darkstar-finngen-shapes.json'
+      - 'docker/r/Dockerfile'
+      - 'frontend/src/features/_finngen-foundation/**'
+      - '.github/workflows/finngen-tests.yml'
   schedule:
-    # 04:30 UTC nightly — slow lane (Darkstar R integration + reserved E2E slot).
+    # 04:30 UTC nightly — slow lane for Darkstar R integration.
     - cron: '30 4 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   backend:
@@ -213,18 +243,3 @@ jobs:
       - name: Capture darkstar logs on failure
         if: failure()
         run: docker compose logs darkstar
-
-  e2e:
-    name: E2E (Playwright, nightly/main only)
-    if: github.event_name == 'schedule' || github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Reserved E2E slot
-        # E2E specs for FinnGen live at e2e/finngen/ (SP2). Enabled here to
-        # reserve the job name + nightly schedule; will be wired up when the
-        # full FinnGen UI lands.
-        run: |
-          echo "E2E FinnGen specs will be wired in SP2 (e2e/finngen/)."
-          echo "This slot is reserved on the nightly + main-push schedule."

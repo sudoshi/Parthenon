@@ -47,6 +47,10 @@ on:
           - fhir-to-cdm
           - ohif-build
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event_name == 'workflow_dispatch' && inputs.image || 'all' }}
+  cancel-in-progress: true
+
 env:
   REGISTRY: ghcr.io
   IMAGE_PREFIX: ghcr.io/sudoshi/parthenon
