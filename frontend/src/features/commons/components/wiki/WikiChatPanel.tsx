@@ -205,6 +205,7 @@ export function WikiChatPanel({
           onClick={handleSubmit}
           disabled={loading || input.trim().length < 3}
           className="flex items-center justify-center rounded-lg bg-success px-3 py-2 text-surface-base transition-colors hover:bg-success disabled:opacity-50"
+          aria-label="Send message"
         >
           <Send size={16} />
         </button>
