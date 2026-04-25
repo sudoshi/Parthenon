@@ -44693,7 +44693,7 @@ const arAppPass3: MessageTree = mergeMessageTrees(arAppPass2, {
         "keepCurrentPassword": "(اتركه فارغًا للمحافظة على التحديث)"
       },
       "placeholders": {
-        "maskedPassword": null,
+        "maskedPassword": "••••••••",
         "passwordRequirements": "الحد الأدنى 8 أحرف، حالة مختلطة + رقم"
       },
       "actions": {
@@ -46172,7 +46172,7 @@ const arAppPass3: MessageTree = mergeMessageTrees(arAppPass2, {
   "dataExplorer": {
     "ares": {
       "name": "Ares",
-      "breadcrumbSeparator": null,
+      "breadcrumbSeparator": " / ",
       "comingSoon": "قريبا في مرحلة قادمة",
       "sections": {
         "hub": "مَركَز",

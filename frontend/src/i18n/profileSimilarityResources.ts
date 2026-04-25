@@ -6067,7 +6067,7 @@ const arProfileSimilarityPass1: MessageTree = mergeMessageTrees(
         "yearOfBirth": "سنة الميلاد",
         "cohortStart": "بداية الفوج",
         "cohortEnd": "نهاية الفوج",
-        "noEnd": null,
+        "noEnd": "-",
         "viewProfile": "عرض الملف الشخصي",
         "noMembersMatchingCurrentFilters": "لا يوجد أعضاء يطابقون عوامل التصفية الحالية"
       },

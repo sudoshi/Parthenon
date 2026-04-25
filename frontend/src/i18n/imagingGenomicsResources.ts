@@ -5268,7 +5268,7 @@ const arImagingGenomicsPass1: MessageTree = mergeMessageTrees(
         "status": "حالة"
       },
       "seriesHeaders": {
-        "number": null,
+        "number": "#",
         "modality": "الطريقة",
         "description": "وصف",
         "images": "الصور",
