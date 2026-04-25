@@ -26,4 +26,14 @@ GRANT ALL ON SCHEMA app, omop, results, gis, eunomia, eunomia_results, php, weba
 -- database parthenon" on fresh installs — even when the IF NOT EXISTS guard
 -- would otherwise be a no-op, because Postgres evaluates the privilege before
 -- the existence check.
-GRANT CREATE ON DATABASE parthenon TO parthenon;
+DO
+$do$
+BEGIN
+   IF EXISTS (SELECT FROM pg_database WHERE datname = 'parthenon') THEN
+      GRANT CREATE ON DATABASE parthenon TO parthenon;
+   END IF;
+   IF EXISTS (SELECT FROM pg_database WHERE datname = 'parthenon_test') THEN
+      GRANT CREATE ON DATABASE parthenon_test TO parthenon;
+   END IF;
+END
+$do$;

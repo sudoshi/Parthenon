@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: pgvector/pgvector:pg16
+        image: ghcr.io/sudoshi/parthenon-postgres:latest
         env:
           POSTGRES_DB: parthenon_test
           POSTGRES_USER: parthenon
@@ -310,7 +310,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: pgvector/pgvector:pg16
+        image: ghcr.io/sudoshi/parthenon-postgres:latest
         env:
           POSTGRES_DB: parthenon_test
           POSTGRES_USER: parthenon

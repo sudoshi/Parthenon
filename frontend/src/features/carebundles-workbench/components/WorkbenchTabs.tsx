@@ -11,11 +11,11 @@ const TABS = [
 export function WorkbenchTabs() {
   return (
     <nav className="flex items-center gap-1 border-b border-border-default">
-      {TABS.map(({ to, label, icon: Icon, end }) => (
+      {TABS.map((tab) => (
         <NavLink
-          key={to}
-          to={to}
-          end={end ?? false}
+          key={tab.to}
+          to={tab.to}
+          end={"end" in tab ? tab.end : false}
           className={({ isActive }) =>
             [
               "-mb-px inline-flex items-center gap-2 border-b-2 px-4 py-2 text-sm font-medium transition-colors",
@@ -25,8 +25,8 @@ export function WorkbenchTabs() {
             ].join(" ")
           }
         >
-          <Icon className="h-4 w-4" />
-          {label}
+          <tab.icon className="h-4 w-4" />
+          {tab.label}
         </NavLink>
       ))}
     </nav>
